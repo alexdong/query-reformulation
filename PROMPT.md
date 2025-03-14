@@ -12,6 +12,11 @@ Here are the guidelines for the reformulation. For each rule, I've also provided
     input: The smallest blood vessels in your body,where gas exchange occurs are called
     output: The smallest blood vessels in human body
 
+   A more complex example where the answer is not affected by the dropped names, titles, or other non-essential parts.
+
+    input: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?
+    output: Milhouse The Simpsons character namesake
+
 3. If the query requires multiple factual sub-queries, break the query into sub-queries, but do not attempt to precompute them. 
 
     input: Who lived longer, Nikola Tesla or Milutin Milankovic?
@@ -32,7 +37,7 @@ Here are the guidelines for the reformulation. For each rule, I've also provided
     input: what are some ways to do fast query reformulation
     output: fast query reformulation techniques\nquery reformulation algorithms\nquery expansion methods\nquery rewriting approaches\nquery refinement strategies
 
-Lastly, before we return the results from subqueries, we will compute, resolve the logic chain, merge return values as well as add presentations. Please drop any format/presentation requests. 
+7. Before we return the results from subqueries, we will compute, resolve the logic chain, merge return values as well as add presentations. Please drop any format/presentation requests. 
 
     input: Create a table for OECD population in 2024 -> OECD population 2024
     output: OECD population 2024
@@ -40,4 +45,4 @@ Lastly, before we return the results from subqueries, we will compute, resolve t
 Please provide the reformulated query for the following input query: 
 
     input: {{ input_query }}
-
+    output: 
