@@ -73,8 +73,6 @@ Two other significant observations are:
 STEP 1: Prepare synthetic data
 --------------------------------
 1. Take MS-MARCO and HotpotQA datasets and extract the questions from them.
-    - MS-MARCO is a parquet file with `query_type` and `query` columns. 
-    - HotpotQA is a json file with [{'question'}] field
 2. Consolidate notes into a Prompt and iterate over random sample of questions
    to generate outputs. (Start with 50 pairs)
 3. Once we are happy with the results from chat.deepseek.com, evaluate the
@@ -92,16 +90,42 @@ STEP 2: Train a model
    colab. 
 (Rinse and repeat)
 
-Datasets, Models and Tools
--------------------
 
-- [MS-MARCO](https://huggingface.co/datasets/microsoft/ms_marco): `jq '.[].question' hotpot_train_v1.1.json > questions.txt`
-- [HotpotQA](https://hotpotqa.github.io/): `pqrs cat test-00000-of-00001.parquet --json | jq -r ".query" >> questions.txt`
+Datasets
+----------
+
+-  
+- [HotpotQA](https://hotpotqa.github.io/): a json file with [{'question'}] field. `jq '.[].question' hotpot_test_fullwiki_v1.json > questions.txt`
+- [MS-MARCO](https://huggingface.co/datasets/microsoft/ms_marco): is a parquet file with `query_type` and `query` columns.  `pqrs cat test-00000-of-00001.parquet --json | jq -r ".query" >> questions.txt`
+- `shuf questions.txt && wc -l questions.txt` = 198k questions
+
+LLM Models
+----------
+
+With the same PRMOPT.md, the DeepSeek R1 reasoning model produces more concise response than the chat model. https://chat.deepseek.com/a/chat/s/3fb4eabf-52dc-4ba2-8192-940a6320fc7b
+
+For example, given the same prompt, the input "The Oberoi family is part of a hotel company that has a head office in what city?" produces the following outputs:
+
+    R1: Oberoi Hotels head office city
+    V3: Oberoi family hotel company head office city
+
+Another example is the ability to strip off excessive information from the input. For example, "Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?" produces the following outputs:
+
+    R1: Milhouse The Simpsons character namesake
+    V3: Allie Goertz song about Milhouse\nThe Simpsons character Milhouse\nMatt Groening Milhouse namesake
+
+Consider that DeepSeek charges the same for running the reasoning model as the chat model, it's better to use the reasoning model for the task.
+
+Models
+---------
 
 - BERT-base: 100M parameters
 - Flan-5T-small: 60M parameters
 - Flan-5T-base: 220M parameters
 - Flan-5T-large: 770M parameters
+
+Tools
+----------
 
 - [Weights & Bias](https://wandb.ai/site/evaluations/)
 - Leverage [DeepEval](https://docs.confident-ai.com/) to save time on the benchmarking suite
