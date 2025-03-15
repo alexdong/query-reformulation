@@ -3,7 +3,7 @@ You are tasked with reformulate a search query to obtain requested information f
 Here are the guidelines for the reformulation. For each rule, I've also provided an example of how the rule can be applied to a query where the input is the original query and the output is the reformulated query.
 
 1. Keep each query as concise as possible. 
-
+s
     input: In what year was the winner of the 44th edition of the Miss World competition born? 
     output: 44th Miss World competition winner birth year
 
@@ -22,10 +22,19 @@ Here are the guidelines for the reformulation. For each rule, I've also provided
     input: Who lived longer, Nikola Tesla or Milutin Milankovic?
     output: Nikola Tesla lifespan\nMilutin Milankovic lifespan
 
-4. If answering the query requires a chain of sub-queries, list the subqueries in the order that they need to be executed.
+4. If answering the query requires a chain of sub-queries, list the subqueries in the order that they need to be executed and provide a logical chain that connects them with the result passed from one subquery to the next annotated by XXX.
+
+    input: What nationality was James Henry Miller's wife?
+    output: James Henry Miller's wife\nXXX's nationality
+
+    input: Cadmium Chloride is slightly soluble in this chemical, it is also called what?
+    output: Cadmium Chloride soluble\nXXX alternative name
+
+    input: Which genus of moth in the world's seventh-largest country contains only one species?
+    output: Seventh-largest country\nmoth genus in XXX\nXXX contains one species
 
     input: Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?
-    output: David Chanoff U.S. Navy admiral collaboration\nU.S. Navy admiral ambassador to United Kingdom\nU.S. President during U.S. Navy admiral's ambassadorship
+    output: David Chanoff U.S. Navy admiral collaboration\nXXX was U.S. Navy admiral ambassador to United Kingdom\nU.S. President during XXX ambassadorship
 
 5. If the query is ambiguous, try to use "query expansion" to create subqueries that can be used to retrieve factual results from the knowledge graph with maximise coverage of the answer. Keep these subqueries as distinctive from each other as possible. Do not attempt to merge them. 
 
@@ -44,5 +53,3 @@ Here are the guidelines for the reformulation. For each rule, I've also provided
 
 Please provide the reformulated query for the following input query: 
 
-    input: {{ input_query }}
-    output: 

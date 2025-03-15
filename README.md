@@ -114,8 +114,15 @@ Another example is the ability to strip off excessive information from the input
     R1: Milhouse The Simpsons character namesake
     V3: Allie Goertz song about Milhouse\nThe Simpsons character Milhouse\nMatt Groening Milhouse namesake
 
-Consider that DeepSeek charges the same for running the reasoning model as the chat model, it's better to use the reasoning model for the task.
+The reasoning model does cost a lot more because it charges includes all tokens from CoT and the final answer. 
 
+Prepare Synthetic Data
+-----------------------
+
+A few considerations to keep in mind when preparing the synthetic data:
+
+1. Chat Prefix Completion is a good way to get output; 
+2. Context Caching is critical to lower the cost of the reasoning model;
 
 Models
 ---------
