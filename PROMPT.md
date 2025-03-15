@@ -1,55 +1,61 @@
-You are tasked with reformulate a search query to obtain requested information from a knowledge graph, e.g. Google Knowledge Graph API or Wikidata.
+Task: Wikidata Query Reformulation
 
-Here are the guidelines for the reformulation. For each rule, I've also provided an example of how the rule can be applied to a query where the input is the original query and the output is the reformulated query.
+Objective:
+Reformulate user's natural language questions into 2–4 concise, human-readable components optimized for efficient Wikidata lookups.  The goal is to transform complex or ambiguous questions into structured search terms that directly map to Wikidata entities and properties.
 
-1. Keep each query as concise as possible. 
-s
-    input: In what year was the winner of the 44th edition of the Miss World competition born? 
-    output: 44th Miss World competition winner birth year
+Rules for Reformulation:
 
-2. If there is a chance to drop certain part of a question without affecting the answer, do so. 
+1. Extract Core Entities:
+   - Identify the central subjects of the question (people, places, organizations, events, concepts).
+   - Example: "Nikola Tesla lifespan" → Core entities: "Nikola Tesla", "lifespan"
 
-    input: The smallest blood vessels in your body,where gas exchange occurs are called
-    output: The smallest blood vessels in human body
+2. Simplify Relationships (Property Mapping):
+   - Replace verbs and phrasal verbs with noun-based Wikidata properties.
+   - Aim for properties that directly exist or are commonly used in Wikidata.
+   - Original: "Who lived longer?" → Reformulated: "lifespan" (maps to birth/death dates - P569/P570)
+   - Original: "collaborated with" → Reformulated: "collaboration" (maps to P1082 -  "collaborated with")
 
-   A more complex example where the answer is not affected by the dropped names, titles, or other non-essential parts.
+3. Split Multi-Step Questions (Decomposition):
+   - Break down nested or complex queries into a sequence of independent, simpler components.
+   - This makes each component directly searchable and easier to process.
+   - Example:
+     - Input: "Capital of the country where the inventor of the lightbulb was born?"
+     - Output Components:
+       - "inventor of the lightbulb"
+       - "birth country of inventor"
+       - "capital of birth country"
 
-    input: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?
-    output: Milhouse The Simpsons character namesake
+4. Avoid Ambiguity and Comparatives (Specificity & Neutralization):
+   - Replace vague or subjective terms with concrete, Wikidata-aligned attributes.
+   - Neutralize comparative language to focus on specific properties.
+   - "not expensive" → "price under $100" or "price range $100-$200"
+   - "lived longer" → "lifespan" (focus on the property, not the comparison)
 
-3. If the query requires multiple factual sub-queries, break the query into sub-queries, but do not attempt to precompute them. 
+5. Align with Wikidata Terminology (Ontology Mapping):
+   - Use terms that are consistent with Wikidata's vocabulary and property naming conventions.
+   - Leverage common Wikidata properties (e.g., lifespan (P569/P570), collaboration (P1082), ambassador to (P39 + Q159648)).
+   - Refer to Wikidata property documentation when unsure.
 
-    input: Who lived longer, Nikola Tesla or Milutin Milankovic?
-    output: Nikola Tesla lifespan\nMilutin Milankovic lifespan
+6. Prioritize Specificity (Granularity):
+   - Include explicit details like price ranges ("$100-$200"), date ranges ("2020-2023"), or qualifiers ("customer reviews").
+   - More specific components lead to more precise Wikidata queries.
 
-4. If answering the query requires a chain of sub-queries, list the subqueries in the order that they need to be executed and provide a logical chain that connects them with the result passed from one subquery to the next annotated by XXX.
+7. Handle Open-Ended Queries (Subdomain Decomposition):
+   - For broad or exploratory questions, split them into narrower, technical subdomains or categories.
+   - "ways to improve query reformulation" → "query reformulation algorithms", "query reformulation methods", "query reformulation evaluation metrics"
 
-    input: What nationality was James Henry Miller's wife?
-    output: James Henry Miller's wife\nXXX's nationality
+Additional Notes:
 
-    input: Cadmium Chloride is slightly soluble in this chemical, it is also called what?
-    output: Cadmium Chloride soluble\nXXX alternative name
+* Edge Cases:
+    - Time-sensitive data (e.g., "current population"): Add implicit time qualifiers like "latest", "current", or a specific year (e.g., "population 2023").
+    - Lack of direct Wikidata terms: Use broader, related categories or properties as approximations (e.g., "product rating" as a proxy for "best").
 
-    input: Which genus of moth in the world's seventh-largest country contains only one species?
-    output: Seventh-largest country\nmoth genus in XXX\nXXX contains one species
+* Efficiency:
+    - Aim for 2–4 components to maintain conciseness and query efficiency. Avoid over-splitting unless necessary for clarity.
+    - Utilize general qualifiers like "budget" for affordability or "reviews" for credibility.
 
-    input: Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?
-    output: David Chanoff U.S. Navy admiral collaboration\nXXX was U.S. Navy admiral ambassador to United Kingdom\nU.S. President during XXX ambassadorship
+Prompt Usage:
 
-5. If the query is ambiguous, try to use "query expansion" to create subqueries that can be used to retrieve factual results from the knowledge graph with maximise coverage of the answer. Keep these subqueries as distinctive from each other as possible. Do not attempt to merge them. 
-
-    input: top noise cancelling headphones that are not expensive
-    output: top noise cancelling headphones under $100\ntop noise cancelling headphones $100 - $200\nbest budget noise cancelling headphones\nnoise cancelling headphones reviews
-
-6. If the query is about a concept, try to use "query expansion" to create subqueries for either alternative names or related concepts. 
-
-    input: what are some ways to do fast query reformulation
-    output: fast query reformulation techniques\nquery reformulation algorithms\nquery expansion methods\nquery rewriting approaches\nquery refinement strategies
-
-7. Before we return the results from subqueries, we will compute, resolve the logic chain, merge return values as well as add presentations. Please drop any format/presentation requests. 
-
-    input: Create a table for OECD population in 2024 -> OECD population 2024
-    output: OECD population 2024
-
-Please provide the reformulated query for the following input query: 
+Input: [User's Natural Language Question]
+Output: [List of Concise, Wikidata-Optimized Components]
 
