@@ -119,10 +119,71 @@ The reasoning model does cost a lot more because it charges includes all tokens 
 Prepare Synthetic Data
 -----------------------
 
+15/March
 A few considerations to keep in mind when preparing the synthetic data:
-
 1. Chat Prefix Completion is a good way to get output; 
 2. Context Caching is critical to lower the cost of the reasoning model;
+
+16/March
+The approach to use the reasoning model to generate "output" from questions from MS-MARCO and HotpotQA datasets is not feasible. The cost of the reasoning model is too high, latency is also incredibly high.
+
+Waking up thinking that I can go the other way. I can randomly sample entities from wikidata, then use a non-reasoning model to rewrite the "output" into "inputs". 
+
+Evaluated the following prompt against main LLMs.
+
+```markdown
+Your job is to rewrite the following subqueries into a single query.
+
+You’ll be presented with a sequential chain-of-logic triples, in a human-readable Wikidata queries.
+
+Pay particular attention to the core entities, which follows the Wikidata Terminology, the qualifiers and their relationship.  
+
+Follow the triple chaining across the subqueries.
+
+Identify the question the user is trying to answer. For each input, there is only one question.
+
+Keep your output queries consistent with the style of questions from MS-MARCO, Natural Questions and hotpotQA dataset.
+
+Give me 25 options. One per each line. Make them as distinct as possible from each other.
+
+Only return the queries. One per line.
+
+>>>
+
+David Chanoff U.S. Navy admiral collaboration
+U.S. Navy admiral ambassador to United Kingdom
+U.S. President during U.S. Navy admiral's ambassadorship
+```
+
+Evaluated the following prompt against main LLMs.
+
+- DeepSeek V3: poor incorect result: "Which U.S. Navy admiral collaborated with David Chanoff and later served as an ambassador to the United Kingdom, and who was the U.S. President during that admiral's ambassadorship?"
+- Grok 3: poor incorrect result: "Which U.S. Navy admiral collaborated with David Chanoff, served as ambassador to the United Kingdom, and who was the U.S. President during that time?"
+- Gemma 3 27B: poor incorrect result: "When David Chanoff was a U.S. Navy admiral and ambassador to the United Kingdom, who was the President of the United States?"
+- Gemini 2 Flash: incorrect: "What US president held office during David Chanoff's tenure as ambassador to the United Kingdom after his naval service?"
+- Gemini 2 Flash-Lite: utterly confused. "SELECT ?president WHERE { ?admiral wdt:P31 wd:Q39678. ..."
+- OpenAI-4o: poor incorrect result: "Who collaborated with David Chanoff and was a U.S. Navy admiral?"
+- Gemini 2 Pro: excellent result
+- OpenAI-3o-mini: excellent result
+- Claude 3.7: Excellent result
+
+Cost Research
+
+   LLM Model    | Input Tokens | Output Tokens | Rate Limit                 | Discounts
+   -------------| ------------ | ------------- | -------------------------- | ---------
+   Sonnet 3.7   | $3 + 0.30    |  $15          |  1.5 tokens per second     |  50% off batch processing
+   3o-mini      | $1.1 + 0.55  |  $4.4         |  1.5 tokens per second     |  50% off batch processing
+   Gemini 2 Pro | N/A          |  N/A          |  50 requests per day       | 
+
+Looks like o3-mini is the best option for generating synthetic data.
+Batch API: https://platform.openai.com/docs/guides/batch
+
+Comparison
+Query Expansion (Coverage, Subdomain Decomposition)
+
+
+
+
 
 Models
 ---------
