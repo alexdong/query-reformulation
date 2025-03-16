@@ -106,10 +106,11 @@ def process_json_files() -> None:
         return
     
     json_files = list(FACTS_DIR.glob("*.json"))
-    console.print(f"[bold blue]Found {len(json_files)} JSON files to process")
+    total_files = len(json_files)
+    console.print(f"[bold blue]Found {total_files} JSON files to process")
     
-    for file_path in json_files:
-        # Show progress, ai!
+    for index, file_path in enumerate(json_files, 1):
+        console.print(f"[bold cyan]Processing file {index}/{total_files}:[/] {file_path.name}")
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
