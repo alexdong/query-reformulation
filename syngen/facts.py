@@ -1,17 +1,15 @@
 import json
 import os
+import time
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
-import httpx
 import ollama
-from neo4j import GraphDatabase
 from rich.console import Console
 
 # Configuration
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "gemma3:12b")
-NEO4J_URI = os.environ.get("NEO4J_URI", "bolt://localhost:7687")
-NEO4J_USER = os.environ.get("NEO4J_USER", "neo4j")
-NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "password")
+FACTS_DIR = Path("facts")
 
 console = Console()
 
@@ -70,43 +68,63 @@ def get_entity_info(entity: str, related_entity: Optional[str] = None) -> Option
         return None
 
 
-def store_entity_in_neo4j(driver, entity_data: Dict[str, Any]) -> None:
+def store_entity_as_json(entity_data: Dict[str, Any]) -> bool:
     """
-    Store entity data in Neo4j database
+    Store entity data as a JSON file in the facts directory
     
     Args:
-        driver: Neo4j driver instance
         entity_data: Dictionary containing entity properties and relationships
-    """
-    entity_name = entity_data["entity"]
-    properties = entity_data.get("properties", {})
-    relationships = entity_data.get("relationship", [])
     
-    with driver.session() as session:
-        # Create entity node if it doesn't exist
-        session.run(
-            """
-            MERGE (e:Entity {name: $name})
-            SET e += $properties
-            """,
-            name=entity_name,
-            properties=properties
-        )
+    Returns:
+        True if successful, False otherwise
+    """
+    try:
+        entity_name = entity_data["entity"]
         
-        # Create relationships
-        for rel in relationships:
-            for rel_type, target_entity in rel.items():
-                session.run(
-                    """
-                    MATCH (e:Entity {name: $source})
-                    MERGE (t:Entity {name: $target})
-                    MERGE (e)-[r:`%s`]->(t)
-                    """ % rel_type,
-                    source=entity_name,
-                    target=target_entity
-                )
+        # Create a safe filename from the entity name
+        safe_filename = "".join(c if c.isalnum() or c in [' ', '_', '-'] else '_' for c in entity_name)
+        safe_filename = safe_filename.replace(' ', '_')
         
-        console.print(f"[bold green]Stored entity in Neo4j:[/] {entity_name}")
+        # Ensure facts directory exists
+        FACTS_DIR.mkdir(exist_ok=True)
+        
+        # Write entity data to JSON file
+        file_path = FACTS_DIR / f"{safe_filename}.json"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(entity_data, f, indent=2, ensure_ascii=False)
+        
+        console.print(f"[bold green]Stored entity as JSON:[/] {file_path}")
+        return True
+    
+    except Exception as e:
+        console.print(f"[bold red]Error storing entity as JSON:[/] {str(e)}")
+        return False
+
+
+def get_processed_entities() -> Set[str]:
+    """
+    Get a set of all entities that have already been processed
+    by scanning the facts directory for existing JSON files
+    
+    Returns:
+        Set of entity names that have already been processed
+    """
+    processed = set()
+    
+    if not FACTS_DIR.exists():
+        return processed
+    
+    for file_path in FACTS_DIR.glob("*.json"):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if "entity" in data:
+                    processed.add(data["entity"])
+        except Exception:
+            # Skip files that can't be parsed
+            pass
+    
+    return processed
 
 
 def build_knowledge_graph(
@@ -116,23 +134,26 @@ def build_knowledge_graph(
 ) -> None:
     """
     Build a knowledge graph by recursively querying entities and their relationships
+    and storing them as JSON files
     
     Args:
         initial_entity: The starting entity
         max_entities: Maximum number of entities to process
         max_depth: Maximum depth of relationships to traverse
     """
-    driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
-    
     # Queue of entities to process: (entity_name, depth)
     entity_queue: List[Tuple[str, int]] = [(initial_entity, 0)]
-    processed_entities: Set[str] = set()
+    
+    # Get already processed entities from existing files
+    processed_entities: Set[str] = get_processed_entities()
+    console.print(f"[bold blue]Found {len(processed_entities)} already processed entities")
     
     try:
         while entity_queue and len(processed_entities) < max_entities:
             current_entity, depth = entity_queue.pop(0)
             
             if current_entity in processed_entities:
+                console.print(f"[yellow]Skipping already processed entity:[/] {current_entity}")
                 continue
             
             console.print(f"[bold cyan]Processing entity:[/] {current_entity} (depth: {depth})")
@@ -146,11 +167,12 @@ def build_knowledge_graph(
                 entity_data = get_entity_info(current_entity, parent_entity)
             
             if not entity_data:
+                console.print(f"[red]Failed to get data for entity:[/] {current_entity}")
                 continue
             
-            # Store entity in Neo4j
-            store_entity_in_neo4j(driver, entity_data)
-            processed_entities.add(current_entity)
+            # Store entity as JSON file
+            if store_entity_as_json(entity_data):
+                processed_entities.add(current_entity)
             
             # Add related entities to queue if not at max depth
             if depth < max_depth:
@@ -161,20 +183,54 @@ def build_knowledge_graph(
             
             console.print(f"[bold green]Processed:[/] {len(processed_entities)} entities, "
                          f"[bold yellow]Queue:[/] {len(entity_queue)} entities")
+            
+            # Add a small delay to avoid overwhelming the LLM service
+            time.sleep(1)
     
     except Exception as e:
         console.print(f"[bold red]Error building knowledge graph:[/] {str(e)}")
     
     finally:
-        driver.close()
         console.print(f"[bold green]Knowledge graph building complete.[/] "
                      f"Processed {len(processed_entities)} entities.")
+
+
+def get_random_entity_from_facts() -> Optional[str]:
+    """
+    Get a random entity from the facts directory
+    
+    Returns:
+        A random entity name or None if no entities exist
+    """
+    import random
+    
+    if not FACTS_DIR.exists():
+        return None
+    
+    json_files = list(FACTS_DIR.glob("*.json"))
+    if not json_files:
+        return None
+    
+    random_file = random.choice(json_files)
+    try:
+        with open(random_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get("entity")
+    except Exception:
+        return None
 
 
 if __name__ == "__main__":
     # Example usage
     random_entity = "Dunedin, New Zealand"
-    console.print(f"[bold magenta]Starting knowledge graph with random entity:[/] {random_entity}")
     
-    # Build knowledge graph with random entity
+    # Try to get a random entity from existing facts
+    existing_entity = get_random_entity_from_facts()
+    if existing_entity:
+        console.print(f"[bold magenta]Using random entity from existing facts:[/] {existing_entity}")
+        random_entity = existing_entity
+    
+    console.print(f"[bold magenta]Starting knowledge graph with entity:[/] {random_entity}")
+    
+    # Build knowledge graph with the entity
     build_knowledge_graph(random_entity, max_entities=10, max_depth=2)
