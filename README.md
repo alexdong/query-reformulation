@@ -199,6 +199,15 @@ from LLM using a prompt like
 hallucinated, we can use them to generate the subqueries. All we want is the
 subqueries to be deterministic.
 
+[[syngen/facts.py]] has produced 1000+ entities with their properties overnight.
+
+Generate Subqueries from Facts Graph
+-------------------------------------
+
+
+Generate Queries from Subqueries
+---------------------------------
+
 
 Fine-tuning
 ===============
