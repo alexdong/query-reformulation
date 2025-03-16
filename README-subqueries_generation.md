@@ -1,4 +1,4 @@
-I am working on producing a set of synthetic data of queries through WikiData
+I am working on producing a set of synthetic data of queries through DBpedia
 API.
 
 The following describes the process from the simpliest query and gradually
@@ -11,17 +11,17 @@ building up to a set of subqueries.
 -------------------------
 Here is the rough outline of how I might approach this
 
-1. Randomly choose an entity from WikiData (`action=query&list=random&rnnamespace=0&rnlimit=1`)
-2. Query the entity for its properties and qualifiers (`action=wbgetentities&ids=Q42&props=claims`)
-3. Pick a random property and qualifier from the entity (P569 - birth date, P570 - death date, P19 - birth place)
+1. Randomly choose an entity from DBpedia
+2. Query the entity for its properties and qualifiers 
+3. Pick a random property and qualifier from the entity
 4. Use the properties and qualifiers to generate a query
 
 For example:
 
 1. Randomly choose Nikola Tesla
 2. Query Nikola Tesla for its properties and qualifiers and pick the following:
-    - lifespan (p569, p570)
-    - birth place (p19)
+    - lifespan (dbp:birthDate, dbp:deathDate)
+    - birth place (dbp:birthPlace)
 
 Queries:
 - Nikola Tesla lifespan
@@ -33,14 +33,14 @@ Queries:
 
 Here we try to navigate through the graph to create a chain of queries. Building up from the previous workflow.
 
-4. Randomly choose a property from the previous entity (birth place -> Smiljan, Austrian Empire)
-5. Use the entity to repeat step 2 and 3.
+4. Randomly choose a relationship `dbr`: from the previous entity (e.g. dbr:Smiljan)
+5. Use the entity to repeat step 2 and 3 as described in section 1.1.
 6. Form a chain of 2-5 queries.
 
 For example
 
 3. Nikla Tesla birth place
-4. Smiljan, Austrian Empire -> Notable people born in Smiljan, Austrian Empire
+4. Smiljan -> Notable people born in Smiljan
 5. Ferdinand Kovačević -> Invention
 6. Telegraphy
 
