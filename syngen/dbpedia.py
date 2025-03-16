@@ -115,34 +115,22 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
         List of related entities with their relationship type
     """
     async with httpx.AsyncClient(timeout=60.0) as client:
-        # Improved query to focus on the more meaningful ontological relationships
-        # Please rewrite the query so we focus on relationship defined through https://dbpedia.org/ontology with other http://dbpedia.com/resources, ai!
-
+        # Focus on relationships defined through DBpedia ontology with other DBpedia resources
         query = f"""
             SELECT ?relation ?related_entity ?label
             WHERE {{
                 <{entity_uri}> ?relation ?related_entity .
-                OPTIONAL {{ ?related_entity <http://www.w3.org/2000/01/rdf-schema#label> ?label . 
-                          FILTER (LANG(?label) = 'en') }}
-                FILTER (isIRI(?related_entity))
-                FILTER (
-                    # Exclude common metadata relationships
-                    !STRSTARTS(STR(?relation), "http://www.w3.org/2002/07/owl#") &&
-                    !STRSTARTS(STR(?relation), "http://www.w3.org/1999/02/22-rdf-syntax-ns#") &&
-                    !STRSTARTS(STR(?relation), "http://www.w3.org/2000/01/rdf-schema#") &&
-                    !STRSTARTS(STR(?relation), "http://xmlns.com/foaf/0.1/") &&
-                    
-                    # Exclude wiki-specific links that aren't meaningful for our use case
-                    ?relation != <http://dbpedia.org/ontology/wikiPageWikiLink> &&
-                    ?relation != <http://dbpedia.org/ontology/wikiPageExternalLink> &&
-                    ?relation != <http://dbpedia.org/ontology/wikiPageID> &&
-                    ?relation != <http://dbpedia.org/ontology/wikiPageRevisionID> &&
-                    ?relation != <http://dbpedia.org/ontology/wikiPageLength> &&
-                    ?relation != <http://dbpedia.org/ontology/abstract> &&
-                    ?relation != <http://dbpedia.org/ontology/thumbnail> &&
-                    ?relation != <http://dbpedia.org/ontology/wikiPageRedirects> &&
-                    ?relation != <http://dbpedia.org/ontology/wikiPageDisambiguates>
-                )
+                # Only include relationships from DBpedia ontology
+                FILTER(STRSTARTS(STR(?relation), "http://dbpedia.org/ontology/"))
+                
+                # Only include related entities that are DBpedia resources
+                FILTER(STRSTARTS(STR(?related_entity), "http://dbpedia.org/resource/"))
+                
+                # Get English labels for the related entities
+                OPTIONAL {{ 
+                    ?related_entity <http://www.w3.org/2000/01/rdf-schema#label> ?label . 
+                    FILTER (LANG(?label) = 'en') 
+                }}
             }}
             ORDER BY ?relation
             LIMIT 200
