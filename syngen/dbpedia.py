@@ -112,7 +112,6 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
 
 async def get_entity_properties(entity_uri: str) -> Dict[str, Any]:
     async with httpx.AsyncClient(timeout=60.0) as client:
-        # only LANGUAGE is 'en' please, ai!
         query = f"""
             SELECT ?property ?value
             WHERE {{
@@ -129,7 +128,15 @@ async def get_entity_properties(entity_uri: str) -> Dict[str, Any]:
                     ?property != <http://dbpedia.org/ontology/wikiPageDisambiguates>
                 )
 
+                # Only include literal values or labels
                 FILTER (isLiteral(?value) || ?property = <http://www.w3.org/2000/01/rdf-schema#label>)
+                
+                # Only include English language values
+                FILTER (
+                    !isLiteral(?value) ||
+                    LANG(?value) = '' ||
+                    LANG(?value) = 'en'
+                )
             }}
         """
         
