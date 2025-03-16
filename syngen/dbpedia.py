@@ -115,8 +115,9 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
         List of related entities with their relationship type
     """
     async with httpx.AsyncClient(timeout=60.0) as client:
-        # Improved query to filter out common but less useful relationships
-        # and focus on more meaningful ontological relationships
+        # Improved query to focus on the more meaningful ontological relationships
+        # Please rewrite the query so we focus on relationship defined through https://dbpedia.org/ontology with other http://dbpedia.com/resources, ai!
+
         query = f"""
             SELECT ?relation ?related_entity ?label
             WHERE {{
@@ -170,54 +171,6 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
                 "label": result.get("label", {}).get("value", None)
             }
             relationships.append(relationship)
-        
-        # If we got too few meaningful relationships, try a more focused query
-        # to get specific ontological properties
-        if len(relationships) < 5:
-            print(f"Found only {len(relationships)} meaningful relationships, trying a more focused query...")
-            
-            # Query for specific DBpedia ontology properties that are typically meaningful
-            focused_query = f"""
-                SELECT ?relation ?related_entity ?label
-                WHERE {{
-                    <{entity_uri}> ?relation ?related_entity .
-                    OPTIONAL {{ ?related_entity <http://www.w3.org/2000/01/rdf-schema#label> ?label . 
-                              FILTER (LANG(?label) = 'en') }}
-                    FILTER (isIRI(?related_entity))
-                    FILTER (
-                        STRSTARTS(STR(?relation), "http://dbpedia.org/ontology/") ||
-                        STRSTARTS(STR(?relation), "http://dbpedia.org/property/")
-                    )
-                }}
-                ORDER BY ?relation
-                LIMIT 100
-            """
-            
-            focused_response = await client.get(
-                "https://dbpedia.org/sparql",
-                params={
-                    "default-graph-uri": "http://dbpedia.org",
-                    "query": focused_query,
-                    "format": "application/sparql-results+json",
-                    "timeout": "30000"
-                }
-            )
-            
-            if focused_response.status_code >= 300:
-                print(f"Failed to fetch focused entity relationships: {focused_response.status_code}")
-                return relationships
-            
-            focused_data = focused_response.json()
-            
-            for result in focused_data["results"]["bindings"]:
-                relationship = {
-                    "relation": result["relation"]["value"],
-                    "entity": result["related_entity"]["value"],
-                    "label": result.get("label", {}).get("value", None)
-                }
-                # Only add if not already in the list
-                if relationship not in relationships:
-                    relationships.append(relationship)
         
         return relationships
 
