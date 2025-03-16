@@ -111,21 +111,12 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
 
 
 async def get_entity_properties(entity_uri: str) -> Dict[str, Any]:
-    """
-    Get properties of a given entity.
-    
-    Args:
-        entity_uri: URI of the entity
-        
-    Returns:
-        Dictionary of entity properties
-    """
     async with httpx.AsyncClient(timeout=60.0) as client:
+        # only LANGUAGE is 'en' please, ai!
         query = f"""
             SELECT ?property ?value
             WHERE {{
                 <{entity_uri}> ?property ?value .
-                FILTER (isLiteral(?value) || ?property = <http://www.w3.org/2000/01/rdf-schema#label>)
                 
                 # Skip wiki-specific properties that aren't useful for our purposes
                 FILTER (
@@ -137,6 +128,8 @@ async def get_entity_properties(entity_uri: str) -> Dict[str, Any]:
                     ?property != <http://dbpedia.org/ontology/wikiPageRedirects> &&
                     ?property != <http://dbpedia.org/ontology/wikiPageDisambiguates>
                 )
+
+                FILTER (isLiteral(?value) || ?property = <http://www.w3.org/2000/01/rdf-schema#label>)
             }}
         """
         
