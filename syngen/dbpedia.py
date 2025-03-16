@@ -80,7 +80,6 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
                 }}
             }}
             ORDER BY ?relation
-            LIMIT 200
         """
         
         response = await client.get(
@@ -116,18 +115,7 @@ async def get_entity_properties(entity_uri: str) -> Dict[str, Any]:
             SELECT ?property ?value
             WHERE {{
                 <{entity_uri}> ?property ?value .
-                
-                # Skip wiki-specific properties that aren't useful for our purposes
-                FILTER (
-                    ?property != <http://dbpedia.org/ontology/wikiPageWikiLink> &&
-                    ?property != <http://dbpedia.org/ontology/wikiPageExternalLink> &&
-                    ?property != <http://dbpedia.org/ontology/wikiPageID> &&
-                    ?property != <http://dbpedia.org/ontology/wikiPageRevisionID> &&
-                    ?property != <http://dbpedia.org/ontology/wikiPageLength> &&
-                    ?property != <http://dbpedia.org/ontology/wikiPageRedirects> &&
-                    ?property != <http://dbpedia.org/ontology/wikiPageDisambiguates>
-                )
-
+               
                 # Only include literal values or labels
                 FILTER (isLiteral(?value) || ?property = <http://www.w3.org/2000/01/rdf-schema#label>)
                 
@@ -226,7 +214,7 @@ async def example_usage():
         print(f"{prop}: {values}")
     
     relationships = await get_entity_relationships(entity_uri)
-    print(f"Found {len(relationships)} relationships")
+    print(f"\n\nFound {len(relationships)} relationships")
     for rel in relationships:
         print(f"Relation: {rel['relation']}")
         print(f"  Entity: {rel['entity']}")
