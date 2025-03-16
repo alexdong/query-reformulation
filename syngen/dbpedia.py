@@ -120,13 +120,23 @@ async def get_entity_properties(entity_uri: str) -> Dict[str, Any]:
     Returns:
         Dictionary of entity properties
     """
-    # can we skip http://dbpedia.org/ontology/wikiPageWikiLink, ai!
     async with httpx.AsyncClient(timeout=60.0) as client:
         query = f"""
             SELECT ?property ?value
             WHERE {{
                 <{entity_uri}> ?property ?value .
                 FILTER (isLiteral(?value) || ?property = <http://www.w3.org/2000/01/rdf-schema#label>)
+                
+                # Skip wiki-specific properties that aren't useful for our purposes
+                FILTER (
+                    ?property != <http://dbpedia.org/ontology/wikiPageWikiLink> &&
+                    ?property != <http://dbpedia.org/ontology/wikiPageExternalLink> &&
+                    ?property != <http://dbpedia.org/ontology/wikiPageID> &&
+                    ?property != <http://dbpedia.org/ontology/wikiPageRevisionID> &&
+                    ?property != <http://dbpedia.org/ontology/wikiPageLength> &&
+                    ?property != <http://dbpedia.org/ontology/wikiPageRedirects> &&
+                    ?property != <http://dbpedia.org/ontology/wikiPageDisambiguates>
+                )
             }}
         """
         
