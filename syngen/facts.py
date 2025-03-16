@@ -62,6 +62,7 @@ def get_entity_info(entity: str, related_entity: Optional[str] = None) -> Option
         entity_data = json.loads(json_str)
         
         console.print(f"[bold green]Successfully extracted data for:[/] {entity}")
+        console.print(f"[grey]{json.dumps(entity_data, indent=2)}")
         return entity_data
     
     except Exception as e:
@@ -110,8 +111,8 @@ def store_entity_in_neo4j(driver, entity_data: Dict[str, Any]) -> None:
 
 def build_knowledge_graph(
     initial_entity: str, 
-    max_entities: int = 100, 
-    max_depth: int = 3
+    max_entities: int = 100000, 
+    max_depth: int = 300
 ) -> None:
     """
     Build a knowledge graph by recursively querying entities and their relationships
@@ -170,35 +171,9 @@ def build_knowledge_graph(
                      f"Processed {len(processed_entities)} entities.")
 
 
-def get_random_entity() -> str:
-    """
-    Get a random entity from a predefined list or external source
-    
-    Returns:
-        A random entity name
-    """
-    # For simplicity, return from a predefined list
-    # In a real implementation, this could query DBpedia or another source
-    entities = [
-        "The Lord of the Rings",
-        "Nikola Tesla",
-        "Albert Einstein",
-        "Marie Curie",
-        "World War II",
-        "The Beatles",
-        "Leonardo da Vinci",
-        "Artificial Intelligence",
-        "Climate Change",
-        "The Internet"
-    ]
-    
-    import random
-    return random.choice(entities)
-
-
 if __name__ == "__main__":
     # Example usage
-    random_entity = get_random_entity()
+    random_entity = "Dunedin, New Zealand"
     console.print(f"[bold magenta]Starting knowledge graph with random entity:[/] {random_entity}")
     
     # Build knowledge graph with random entity
