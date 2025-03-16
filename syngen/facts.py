@@ -132,8 +132,18 @@ def build_knowledge_graph(
     max_entities: int = 100000, 
     max_depth: int = 300
 ) -> None:
-    # Queue of entities to process: (entity_name, depth)
-    entity_queue: List[Tuple[str, int]] = [(initial_entity, 0)]
+    """
+    Build a knowledge graph by recursively querying entities and their relationships
+    using a breadth-first approach.
+    
+    Args:
+        initial_entity: The starting entity
+        max_entities: Maximum number of entities to process
+        max_depth: Maximum depth of relationships to traverse
+    """
+    # Queue of entities to process: (entity_name, depth, source_entity)
+    # source_entity is the entity that led to this one (for context)
+    entity_queue: List[Tuple[str, int, Optional[str]]] = [(initial_entity, 0, None)]
     
     # Get already processed entities from existing files
     processed_entities: Set[str] = get_processed_entities()
@@ -141,7 +151,7 @@ def build_knowledge_graph(
     
     try:
         while entity_queue and len(processed_entities) < max_entities:
-            current_entity, depth = entity_queue.pop(0)
+            current_entity, depth, source_entity = entity_queue.pop(0)
             
             if current_entity in processed_entities:
                 console.print(f"[yellow]Skipping already processed entity:[/] {current_entity}")
@@ -149,13 +159,8 @@ def build_knowledge_graph(
             
             console.print(f"[bold cyan]Processing entity:[/] {current_entity} (depth: {depth})")
             
-            # Get entity info from LLM
-            if depth == 0:
-                entity_data = get_entity_info(current_entity)
-            else:
-                # For related entities, provide the parent entity as context
-                parent_entity = entity_queue[0][0] if entity_queue else initial_entity
-                entity_data = get_entity_info(current_entity, parent_entity)
+            # Get entity info from LLM, using source_entity as context if available
+            entity_data = get_entity_info(current_entity, source_entity)
             
             if not entity_data:
                 console.print(f"[red]Failed to get data for entity:[/] {current_entity}")
@@ -169,8 +174,9 @@ def build_knowledge_graph(
             if depth < max_depth:
                 for rel in entity_data.get("relationship", []):
                     for _, target_entity in rel.items():
-                        if target_entity not in processed_entities:
-                            entity_queue.append((target_entity, depth + 1))
+                        if target_entity not in processed_entities and target_entity not in [item[0] for item in entity_queue]:
+                            # Add the target entity with the current entity as its source/context
+                            entity_queue.append((target_entity, depth + 1, current_entity))
             
             console.print(f"[bold green]Processed:[/] {len(processed_entities)} entities, "
                          f"[bold yellow]Queue:[/] {len(entity_queue)} entities")
