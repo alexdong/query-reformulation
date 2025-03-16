@@ -67,8 +67,10 @@ def process_json_files() -> None:
             data = json.load(f)
         
         if "entity" not in data:
-            # Extract the entity from the file name, ai!
-            continue
+            # Extract the entity from the file name
+            entity_name = file_path.stem.replace('_', ' ')
+            data["entity"] = entity_name
+            console.print(f"[yellow]Extracted entity from filename:[/] {entity_name}")
 
         properties = data.get("properties", {})
         # Skip files that already have a type property
