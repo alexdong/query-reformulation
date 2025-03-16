@@ -14,20 +14,26 @@ async def get_random_entity() -> Tuple[str, Dict[str, Any]]:
     """
     # First, get a list of random resources using the DBpedia random resource service
     async with httpx.AsyncClient(timeout=30.0) as client:
-        response = await client.get("https://dbpedia.org/sparql", params={
-            "default-graph-uri": "http://dbpedia.org",
-            "query": """
-                SELECT DISTINCT ?entity
-                WHERE {
-                    ?entity a <http://dbpedia.org/ontology/Person> .
-                    ?entity <http://www.w3.org/2000/01/rdf-schema#label> ?label .
-                    FILTER (LANG(?label) = 'en')
-                }
-                ORDER BY RAND()
-                LIMIT 10
-            """,
-            "format": "application/json"
-        })
+        query = """
+            SELECT DISTINCT ?entity
+            WHERE {
+                ?entity a <http://dbpedia.org/ontology/Person> .
+                ?entity <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+                FILTER (LANG(?label) = 'en')
+            }
+            ORDER BY RAND()
+            LIMIT 10
+        """
+        
+        response = await client.get(
+            "https://dbpedia.org/sparql",
+            params={
+                "default-graph-uri": "http://dbpedia.org",
+                "query": query,
+                "format": "application/sparql-results+json",
+                "timeout": "30000"
+            }
+        )
         
         if response.status_code != 200:
             raise Exception(f"Failed to fetch random entities: {response.status_code}")
@@ -57,20 +63,23 @@ async def get_entity_details(client: httpx.AsyncClient, entity_uri: str) -> Dict
     Returns:
         Dictionary containing entity properties
     """
-    # Encode the entity URI for the query
-    encoded_uri = quote(entity_uri, safe='')
+    query = f"""
+        SELECT ?property ?value
+        WHERE {{
+            <{entity_uri}> ?property ?value .
+            FILTER (isLiteral(?value) || ?property = <http://www.w3.org/2000/01/rdf-schema#label>)
+        }}
+    """
     
-    response = await client.get("https://dbpedia.org/sparql", params={
-        "default-graph-uri": "http://dbpedia.org",
-        "query": f"""
-            SELECT ?property ?value
-            WHERE {{
-                <{entity_uri}> ?property ?value .
-                FILTER (isLiteral(?value) || ?property = <http://www.w3.org/2000/01/rdf-schema#label>)
-            }}
-        """,
-        "format": "application/json"
-    })
+    response = await client.get(
+        "https://dbpedia.org/sparql",
+        params={
+            "default-graph-uri": "http://dbpedia.org",
+            "query": query,
+            "format": "application/sparql-results+json",
+            "timeout": "30000"
+        }
+    )
     
     if response.status_code != 200:
         raise Exception(f"Failed to fetch entity details: {response.status_code}")
@@ -101,22 +110,28 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
         List of related entities with their relationship type
     """
     async with httpx.AsyncClient(timeout=30.0) as client:
-        response = await client.get("https://dbpedia.org/sparql", params={
-            "default-graph-uri": "http://dbpedia.org",
-            "query": f"""
-                SELECT ?relation ?related_entity ?label
-                WHERE {{
-                    <{entity_uri}> ?relation ?related_entity .
-                    OPTIONAL {{ ?related_entity <http://www.w3.org/2000/01/rdf-schema#label> ?label . 
-                              FILTER (LANG(?label) = 'en') }}
-                    FILTER (isIRI(?related_entity) && 
-                           !STRSTARTS(STR(?relation), "http://www.w3.org/2002/07/owl#") &&
-                           !STRSTARTS(STR(?relation), "http://www.w3.org/1999/02/22-rdf-syntax-ns#"))
-                }}
-                LIMIT 100
-            """,
-            "format": "application/json"
-        })
+        query = f"""
+            SELECT ?relation ?related_entity ?label
+            WHERE {{
+                <{entity_uri}> ?relation ?related_entity .
+                OPTIONAL {{ ?related_entity <http://www.w3.org/2000/01/rdf-schema#label> ?label . 
+                          FILTER (LANG(?label) = 'en') }}
+                FILTER (isIRI(?related_entity) && 
+                       !STRSTARTS(STR(?relation), "http://www.w3.org/2002/07/owl#") &&
+                       !STRSTARTS(STR(?relation), "http://www.w3.org/1999/02/22-rdf-syntax-ns#"))
+            }}
+            LIMIT 100
+        """
+        
+        response = await client.get(
+            "https://dbpedia.org/sparql",
+            params={
+                "default-graph-uri": "http://dbpedia.org",
+                "query": query,
+                "format": "application/sparql-results+json",
+                "timeout": "30000"
+            }
+        )
         
         if response.status_code != 200:
             raise Exception(f"Failed to fetch entity relationships: {response.status_code}")
@@ -146,18 +161,24 @@ async def search_entities(query: str, limit: int = 10) -> List[Dict[str, str]]:
         List of matching entities with their URIs and labels
     """
     async with httpx.AsyncClient(timeout=30.0) as client:
-        response = await client.get("https://dbpedia.org/sparql", params={
-            "default-graph-uri": "http://dbpedia.org",
-            "query": f"""
-                SELECT DISTINCT ?entity ?label
-                WHERE {{
-                    ?entity <http://www.w3.org/2000/01/rdf-schema#label> ?label .
-                    FILTER (LANG(?label) = 'en' && REGEX(?label, "{query}", "i"))
-                }}
-                LIMIT {limit}
-            """,
-            "format": "application/json"
-        })
+        sparql_query = f"""
+            SELECT DISTINCT ?entity ?label
+            WHERE {{
+                ?entity <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+                FILTER (LANG(?label) = 'en' && REGEX(?label, "{query}", "i"))
+            }}
+            LIMIT {limit}
+        """
+        
+        response = await client.get(
+            "https://dbpedia.org/sparql",
+            params={
+                "default-graph-uri": "http://dbpedia.org",
+                "query": sparql_query,
+                "format": "application/sparql-results+json",
+                "timeout": "30000"
+            }
+        )
         
         if response.status_code != 200:
             raise Exception(f"Failed to search entities: {response.status_code}")
