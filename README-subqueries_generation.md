@@ -4,10 +4,10 @@ API.
 The following describes the process from the simpliest query and gradually
 building up to a set of subqueries.
 
-Generation Algorithm
+1. Generation Algorithm
 ====================
 
-Foundation - Triple Query
+1.1. Foundation - Triple Query
 -------------------------
 Here is the rough outline of how I might approach this
 
@@ -28,7 +28,7 @@ Queries:
 - Nikola Tesla birth place
 
 
-Chain of questions
+1.2. Chain of questions
 ------------------
 
 Here we try to navigate through the graph to create a chain of queries. Building up from the previous workflow.
@@ -51,7 +51,7 @@ Query chain:
   Inventor of telegraphy
 
 
-Comparison 
+1.3. Comparison 
 --------------------------
 
 Based on the "Simplest Query" section, we can also introduce a comparison of
@@ -64,7 +64,7 @@ lives longer? Nikola Tesla or Ferdinand Kovačević"
 - Ferdinand Kovačević lifespan
 
 
-Query Composition
+1.4. Query Composition
 -----------------
 
 Further, the comparison can be extended to a list of items.
@@ -85,7 +85,8 @@ all the inventions by Tesla, which one came the earliest?"
 - Year of Tesla invented Tesla Valve
 - Year of Tesla invented Tesla Osciillator
 
-## Key Rules for Queries
+2. Key Rules for Queries
+=========================
 
 Make sure the following rules are carefully followed:
 
