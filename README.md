@@ -220,7 +220,7 @@ Also took the time to clean up the project structure as follows:
   graph. Each category type has its own file. e.g. `subqueries/chaining.txt`,
   `subqueries/comparison.txt`, `subqueries/expansion.txt`.
 - `queries/`: contains the code to generate the queries from the subqueries.
-  The txt files' content follows `query---->subqueries` format. One per line.
+  The txt files' content follows `query===>subqueries` format. One per line.
   Since we have 25 quries per subquery, we have 25 lines per subquery.
   These 3 files are the training/test data for the SFT step.
 - `docs/`: contains the READMEs and other documentation files.
