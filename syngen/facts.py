@@ -132,15 +132,6 @@ def build_knowledge_graph(
     max_entities: int = 100000, 
     max_depth: int = 300
 ) -> None:
-    """
-    Build a knowledge graph by recursively querying entities and their relationships
-    and storing them as JSON files
-    
-    Args:
-        initial_entity: The starting entity
-        max_entities: Maximum number of entities to process
-        max_depth: Maximum depth of relationships to traverse
-    """
     # Queue of entities to process: (entity_name, depth)
     entity_queue: List[Tuple[str, int]] = [(initial_entity, 0)]
     
@@ -221,16 +212,15 @@ def get_random_entity_from_facts() -> Optional[str]:
 
 
 if __name__ == "__main__":
-    # Example usage
-    random_entity = "Dunedin, New Zealand"
+    seed_entity = "Dunedin, New Zealand"
     
     # Try to get a random entity from existing facts
     existing_entity = get_random_entity_from_facts()
     if existing_entity:
         console.print(f"[bold magenta]Using random entity from existing facts:[/] {existing_entity}")
-        random_entity = existing_entity
+        seed_entity = existing_entity
     
-    console.print(f"[bold magenta]Starting knowledge graph with entity:[/] {random_entity}")
+    console.print(f"[bold magenta]Starting knowledge graph with entity:[/] {seed_entity}")
     
     # Build knowledge graph with the entity
-    build_knowledge_graph(random_entity, max_entities=10, max_depth=2)
+    build_knowledge_graph(seed_entity)
