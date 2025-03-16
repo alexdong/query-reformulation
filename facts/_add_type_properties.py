@@ -131,9 +131,9 @@ def process_json_files() -> None:
         properties = data["properties"]
         # Skip files that already have a type property
         if "type" in properties:
-            continue
-        
-        console.print(f"[bold cyan]Processing file {index}/{total_files}:[/] {file_path.name}")
+            console.print(f"[grey]Skipping file with existing type:[/] {file_path.name}")
+        else:
+            console.print(f"[bold cyan]Processing file {index}/{total_files}:[/] {file_path.name}")
         # If it has instance_of property, rename it to type
         if "instance_of" in properties:
             properties["type"] = properties.pop("instance_of")
@@ -145,7 +145,11 @@ def process_json_files() -> None:
             properties["type"] = entity_type
             console.print(f"[green]Added type for:[/] {file_path.name} -> {entity_type}")
 
-        # If the data doesn't have any value in the `relationship` key, populate it using `get_entity_relationships`, ai!
+        # Check if the data doesn't have a relationship key or if it's empty
+        if "relationship" not in data or not data["relationship"]:
+            console.print(f"[bold yellow]Adding relationships for:[/] {file_path.name}")
+            data["relationship"] = get_entity_relationships(data["entity"])
+            console.print(f"[yellow]Added {len(data['relationship'])} relationships[/]")
 
         _save_json(data, file_path)
             
