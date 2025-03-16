@@ -170,6 +170,35 @@ Gemini 2 Pro | N/A          |  N/A          |  50 requests per day       |
 Looks like o3-mini is the best option for generating synthetic data.
 Batch API: https://platform.openai.com/docs/guides/batch
 
+Query Generation
+----------------
+
+Neither wikidata, nor Google Knowledge Graph API can be used to generate the knowledge graph. 
+There is a SPARQL endpoint at https://dbpedia.org/sparql that takes in SPARQL queries
+and returns the results. But its output is surprisingly limited. In fact, pretty much the same
+as the wikidata API. For example, here are the only properties for the entity "Nikola Tesla":
+
+```sparql
+http://dbpedia.org/ontology/deathDate: ['1943-01-07']
+http://dbpedia.org/ontology/birthDate: ['1856-07-10']
+http://dbpedia.org/ontology/wikiPageID: ['21473']
+http://dbpedia.org/ontology/wikiPageRevisionID: ['1123520515']
+http://dbpedia.org/property/birthDate: ['1856-07-10']
+http://dbpedia.org/property/date: ['2016-02-02']
+http://dbpedia.org/property/deathDate: ['1943-01-07']
+http://dbpedia.org/property/video: ['--10-26']
+http://dbpedia.org/ontology/wikiPageLength: ['152127']
+http://dbpedia.org/ontology/birthYear: ['1856']
+http://dbpedia.org/ontology/deathYear: ['1943']
+```
+
+Unless we can find a better way to generate the knowledge graph, we'll have to
+rethink the approach. However, we should be able to extract the information
+from LLM using a prompt like
+[[PROMPT-entity_properties_relationships-extraction.md]]. Even if the facts are
+hallucinated, we can use them to generate the subqueries. All we want is the
+subqueries to be deterministic.
+
 
 Fine-tuning
 ===============
