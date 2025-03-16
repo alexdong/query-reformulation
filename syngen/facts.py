@@ -142,10 +142,43 @@ def build_knowledge_graph(
     processed_entities: Set[str] = get_processed_entities()
     console.print(f"[bold blue]Found {len(processed_entities)} already processed entities")
     
+    # Keep track of entities whose relationships we've already explored
+    explored_relationships: Set[str] = set()
+    
     try:
         while entity_queue and len(processed_entities) < max_entities:
             current_entity, depth = entity_queue.pop(0)
             
+            # If the entity is already processed but we haven't explored its relationships yet
+            if current_entity in processed_entities and current_entity not in explored_relationships:
+                console.print(f"[yellow]Entity already processed, exploring relationships:[/] {current_entity}")
+                
+                # Load the entity data from file
+                safe_filename = "".join(c if c.isalnum() or c in [' ', '_', '-'] else '_' for c in current_entity)
+                safe_filename = safe_filename.replace(' ', '_')
+                file_path = FACTS_DIR / f"{safe_filename}.json"
+                
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        entity_data = json.load(f)
+                        
+                    # Add related entities to queue if not at max depth
+                    if depth < max_depth:
+                        for rel in entity_data.get("relationship", []):
+                            for _, target_entity in rel.items():
+                                if target_entity not in processed_entities and target_entity not in [item[0] for item in entity_queue]:
+                                    # Add the target entity to the queue
+                                    entity_queue.append((target_entity, depth + 1))
+                    
+                    # Mark this entity's relationships as explored
+                    explored_relationships.add(current_entity)
+                    
+                except Exception as e:
+                    console.print(f"[red]Error loading entity file for {current_entity}: {str(e)}")
+                
+                continue
+            
+            # Skip if already processed and relationships already explored
             if current_entity in processed_entities:
                 console.print(f"[yellow]Skipping already processed entity:[/] {current_entity}")
                 continue
@@ -162,6 +195,7 @@ def build_knowledge_graph(
             # Store entity as JSON file
             if store_entity_as_json(entity_data):
                 processed_entities.add(current_entity)
+                explored_relationships.add(current_entity)  # Mark as explored since we just processed it
             
             # Add related entities to queue if not at max depth
             if depth < max_depth:
