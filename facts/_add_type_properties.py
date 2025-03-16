@@ -110,7 +110,6 @@ def process_json_files() -> None:
     console.print(f"[bold blue]Found {total_files} JSON files to process")
     
     for index, file_path in enumerate(json_files, 1):
-        console.print(f"[bold cyan]Processing file {index}/{total_files}:[/] {file_path.name}")
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
@@ -134,6 +133,7 @@ def process_json_files() -> None:
         if "type" in properties:
             continue
         
+        console.print(f"[bold cyan]Processing file {index}/{total_files}:[/] {file_path.name}")
         # If it has instance_of property, rename it to type
         if "instance_of" in properties:
             properties["type"] = properties.pop("instance_of")
@@ -144,6 +144,8 @@ def process_json_files() -> None:
             entity_type = get_entity_type(data["entity"])
             properties["type"] = entity_type
             console.print(f"[green]Added type for:[/] {file_path.name} -> {entity_type}")
+
+        # If the data doesn't have any value in the `relationship` key, populate it using `get_entity_relationships`, ai!
 
         _save_json(data, file_path)
             
