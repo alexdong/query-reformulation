@@ -28,10 +28,10 @@ def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
     Example output for "New York City":
 
     [
-      {"located_in": "United States"},
-      {"part_of": "New York State"},
-      {"has_landmark": "Statue of Liberty"},
-      {"founded_by": "Dutch colonists"}
+      {{"located_in": "United States"}},
+      {{"part_of": "New York State"}},
+      {{"has_landmark": "Statue of Liberty"}},
+      {{"founded_by": "Dutch colonists"}}
     ]
 
     """
