@@ -129,33 +129,14 @@ The approach to use the reasoning model to generate "output" from questions from
 
 Waking up thinking that I can go the other way. I can randomly sample entities from wikidata, then use a non-reasoning model to rewrite the "output" into "inputs". 
 
-Evaluated the following prompt against main LLMs.
+- Chaining: [[PROMPT-question_generation-chaining.md]]
+- Comparison: [[PROMPT-question_generation-comparison.md]]
+- Expansion: [[PROMPT-question_generation-expansion.md]]
 
-```markdown
-Your job is to rewrite the following subqueries into a single query.
+LLM Models Evaluation
+----------------------
 
-You’ll be presented with a sequential chain-of-logic triples, in a human-readable Wikidata queries.
-
-Pay particular attention to the core entities, which follows the Wikidata Terminology, the qualifiers and their relationship.  
-
-Follow the triple chaining across the subqueries.
-
-Identify the question the user is trying to answer. For each input, there is only one question.
-
-Keep your output queries consistent with the style of questions from MS-MARCO, Natural Questions and hotpotQA dataset.
-
-Give me 25 options. One per each line. Make them as distinct as possible from each other.
-
-Only return the queries. One per line.
-
->>>
-
-David Chanoff U.S. Navy admiral collaboration
-U.S. Navy admiral ambassador to United Kingdom
-U.S. President during U.S. Navy admiral's ambassadorship
-```
-
-Evaluated the following prompt against main LLMs.
+Evaluated the above prompts against main LLMs of different parameter counts. Here are the results:
 
 - DeepSeek V3: poor incorect result: "Which U.S. Navy admiral collaborated with David Chanoff and later served as an ambassador to the United Kingdom, and who was the U.S. President during that admiral's ambassadorship?"
 - Grok 3: poor incorrect result: "Which U.S. Navy admiral collaborated with David Chanoff, served as ambassador to the United Kingdom, and who was the U.S. President during that time?"
@@ -167,45 +148,43 @@ Evaluated the following prompt against main LLMs.
 - OpenAI-3o-mini: excellent result
 - Claude 3.7: Excellent result
 
-Cost Research
+In terms of cost, rate limit and discounts, here is the comparison:
 
-   LLM Model    | Input Tokens | Output Tokens | Rate Limit                 | Discounts
-   -------------| ------------ | ------------- | -------------------------- | ---------
-   Sonnet 3.7   | $3 + 0.30    |  $15          |  1.5 tokens per second     |  50% off batch processing
-   3o-mini      | $1.1 + 0.55  |  $4.4         |  1.5 tokens per second     |  50% off batch processing
-   Gemini 2 Pro | N/A          |  N/A          |  50 requests per day       | 
+LLM Model    | Input Tokens | Output Tokens | Rate Limit                 | Discounts
+-------------| ------------ | ------------- | -------------------------- | ---------
+Sonnet 3.7   | $3 + 0.30    |  $15          |  1.5 tokens per second     |  50% off batch processing
+3o-mini      | $1.1 + 0.55  |  $4.4         |  1.5 tokens per second     |  50% off batch processing
+Gemini 2 Pro | N/A          |  N/A          |  50 requests per day       | 
 
 Looks like o3-mini is the best option for generating synthetic data.
 Batch API: https://platform.openai.com/docs/guides/batch
 
-Comparison
-Query Expansion (Coverage, Subdomain Decomposition)
 
+Fine-tuning Options
+-------------------------------
 
-
-
-
-Models
----------
+Twitter has proven that BERT-base can be scaled to handle 100ms latency on a
+CPU. So we can safely assume that a similar parameter count model can be used
+for fine-tuning. In terms of choosing a pre-trained model for fine-tuning, here
+are the options:
 
 - BERT-base: 100M parameters
 - Flan-5T-small: 60M parameters
 - Flan-5T-base: 220M parameters
 - Flan-5T-large: 770M parameters
 
-Tools
-----------
+Flan-5T feels like a better choice because it's a text-to-text transfer
+transformer. It's a better fit for the task because it has both encoder and
+decoder, unlike BERT that has only an encoder.
 
-- [Weights & Bias](https://wandb.ai/site/evaluations/)
-- Leverage [DeepEval](https://docs.confident-ai.com/) to save time on the benchmarking suite
-- [DeepSeek r1 pricing](https://api-docs.deepseek.com/quick_start/pricing)
+Further, in terms of the environment to run the fine-tuning, it looks like
+running it on Google Colab is the best option. Here is the comparison to
+running it locally on M2.
 
-- colab compared to local runtime
-
-    Metric	        | M2 Pro (MPS)	| T4 (CUDA)
-    -------------------------------------
-    Batch Size      |	4	        |   16
-    Steps/Second	|  ~0.8	        |   ~2.1
-    Epoch Time	    |  ~4.5 hours	|   ~1.75 hours
-    Memory Pressure	|  High         |   Moderate
+Metric	        | M2 Pro (MPS)	| T4 (CUDA)
+----------------------------------------------
+Batch Size      |	4	        |   16
+Steps/Second	|  ~0.8	        |   ~2.1
+Epoch Time	    |  ~4.5 hours	|   ~1.75 hours
+Memory Pressure	|  High         |   Moderate
 
