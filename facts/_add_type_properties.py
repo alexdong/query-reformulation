@@ -27,17 +27,19 @@ def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
     
     Example output for "New York City":
 
+    """ + """
     [
-      {{"located_in": "United States"}},
-      {{"part_of": "New York State"}},
-      {{"has_landmark": "Statue of Liberty"}},
-      {{"founded_by": "Dutch colonists"}}
+      {"located_in": "United States"},
+      {"part_of": "New York State"},
+      {"has_landmark": "Statue of Liberty"},
+      {"founded_by": "Dutch colonists"}
     ]
 
     """
     
     console.print(f"[bold blue]Querying LLM for entity relationships:[/] {entity}")
     
+    # Have a retry if the return response is not valid JSON, ai!
     # Query the LLM
     response = ollama.chat(
         model=OLLAMA_MODEL,
@@ -112,56 +114,53 @@ def process_json_files() -> None:
     for index, file_path in enumerate(json_files, 1):
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
+            if 'entity' in data and \
+                'properties' in data and \
+                'type' in data['properties'] and \
+                'relationship' in data and \
+                data['relationship']:
+                continue
         
         if "entity" not in data:
             # Extract the entity from the file name
             entity_name = file_path.stem.replace('_', ' ')
-            # Get relationships for the entity using LLM
-            relationships = get_entity_relationships(entity_name)
             data = {
                 "entity": entity_name,
                 "properties": data,
-                "relationship": relationships
             }
-            _save_json(data, file_path)
-            console.print(f"[yellow]Extracted entity from filename:[/] {entity_name}")
-            console.print(f"[yellow]Added {len(relationships)} relationships[/]")
-            continue
+            console.print(f"[green]Re-populate entity.json for:[/] {entity_name}")
 
         # Check if the data doesn't have a relationship key or if it's empty
         if "relationship" not in data or not data["relationship"]:
-            console.print(f"[bold yellow]Adding relationships for:[/] {file_path.name}")
             data["relationship"] = get_entity_relationships(data["entity"])
-            print(data["relationship"])
-            console.print(f"[yellow]Added {len(data['relationship'])} relationships[/]")
+            console.print(f"[green]Added {len(data['relationship'])} relationships[/]")
 
         properties = data["properties"]
         # Skip files that already have a type property
-        if "type" in properties:
-            console.print(f"[grey]Skipping file with existing type:[/] {file_path.name}")
-        else:
-            console.print(f"[bold cyan]Processing file {index}/{total_files}:[/] {file_path.name}")
-        # If it has instance_of property, rename it to type
         if "instance_of" in properties:
             properties["type"] = properties.pop("instance_of")
-            console.print(f"[cyan]Renamed instance_of to type for:[/] {file_path.name}")
+            data["properties"] = properties
+            console.print(f"[green]Renamed instance_of to type for:[/] {file_path.name}")
         
         # If it has neither, add a type property
-        else:
+        elif "type" not in properties:
             entity_type = get_entity_type(data["entity"])
             properties["type"] = entity_type
             console.print(f"[green]Added type for:[/] {file_path.name} -> {entity_type}")
 
         _save_json(data, file_path)
+        console.print(f"[bold blue]Processed file:[/] {index}/{total_files} -> {file_path.name}")
             
 
 
 if __name__ == "__main__":
     # Manual test for get_entity_relationships function
+    """
     test_entity = "Amazon River"
     relationships = get_entity_relationships(test_entity)
     print(relationships)
     exit(0)
+    """
 
     console.print("[bold magenta]Starting type property processing[/]")
     process_json_files()
