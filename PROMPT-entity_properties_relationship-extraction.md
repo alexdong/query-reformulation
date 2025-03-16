@@ -1,4 +1,4 @@
-Give me facts about {{ entity }} in the context of {{ related_entity }}. 
+Give me facts about {{ entity }}.
 
 Return a JSON that contains 10 properties and 10 relationships of the entity.
 Keep the property value and the relationship value as concise as possible. Bonus if they are valid entities in DBpedia or Wikipedia.

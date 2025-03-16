@@ -14,14 +14,13 @@ FACTS_DIR = Path("facts")
 console = Console()
 
 
-def get_entity_info(entity: str, related_entity: Optional[str] = None) -> Optional[Dict[str, Any]]:
+def get_entity_info(entity: str) -> Optional[Dict[str, Any]]:
     """
     Query LLM to get properties and relationships for an entity.
     Uses the prompt from PROMPT-entity_properties_relationship-extraction.md
     
     Args:
         entity: The entity to query
-        related_entity: Optional related entity for context
     
     Returns:
         Dictionary containing entity properties and relationships, or None if failed
@@ -31,15 +30,10 @@ def get_entity_info(entity: str, related_entity: Optional[str] = None) -> Option
         with open("PROMPT-entity_properties_relationship-extraction.md", "r") as f:
             prompt_template = f.read()
         
-        # Format the prompt with the entity and related entity
+        # Format the prompt with the entity
         prompt = prompt_template.replace("{{ entity }}", entity)
         
-        # If related_entity is provided, use it; otherwise, use a generic context
-        context = related_entity if related_entity else "general knowledge"
-        prompt = prompt.replace("{{ related_entity }}", context)
-        
-        console.print(f"[bold blue]Querying LLM for entity:[/] {entity}" + 
-                     (f" in context of {related_entity}" if related_entity else ""))
+        console.print(f"[bold blue]Querying LLM for entity:[/] {entity}")
         
         # Query the LLM
         response = ollama.chat(
@@ -141,9 +135,8 @@ def build_knowledge_graph(
         max_entities: Maximum number of entities to process
         max_depth: Maximum depth of relationships to traverse
     """
-    # Queue of entities to process: (entity_name, depth, source_entity)
-    # source_entity is the entity that led to this one (for context)
-    entity_queue: List[Tuple[str, int, Optional[str]]] = [(initial_entity, 0, None)]
+    # Queue of entities to process: (entity_name, depth)
+    entity_queue: List[Tuple[str, int]] = [(initial_entity, 0)]
     
     # Get already processed entities from existing files
     processed_entities: Set[str] = get_processed_entities()
@@ -151,7 +144,7 @@ def build_knowledge_graph(
     
     try:
         while entity_queue and len(processed_entities) < max_entities:
-            current_entity, depth, source_entity = entity_queue.pop(0)
+            current_entity, depth = entity_queue.pop(0)
             
             if current_entity in processed_entities:
                 console.print(f"[yellow]Skipping already processed entity:[/] {current_entity}")
@@ -159,8 +152,8 @@ def build_knowledge_graph(
             
             console.print(f"[bold cyan]Processing entity:[/] {current_entity} (depth: {depth})")
             
-            # Get entity info from LLM, using source_entity as context if available
-            entity_data = get_entity_info(current_entity, source_entity)
+            # Get entity info from LLM
+            entity_data = get_entity_info(current_entity)
             
             if not entity_data:
                 console.print(f"[red]Failed to get data for entity:[/] {current_entity}")
@@ -175,8 +168,8 @@ def build_knowledge_graph(
                 for rel in entity_data.get("relationship", []):
                     for _, target_entity in rel.items():
                         if target_entity not in processed_entities and target_entity not in [item[0] for item in entity_queue]:
-                            # Add the target entity with the current entity as its source/context
-                            entity_queue.append((target_entity, depth + 1, current_entity))
+                            # Add the target entity to the queue
+                            entity_queue.append((target_entity, depth + 1))
             
             console.print(f"[bold green]Processed:[/] {len(processed_entities)} entities, "
                          f"[bold yellow]Queue:[/] {len(entity_queue)} entities")
