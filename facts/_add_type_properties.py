@@ -39,27 +39,38 @@ def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
     
     console.print(f"[bold blue]Querying LLM for entity relationships:[/] {entity}")
     
-    # Have a retry if the return response is not valid JSON, ai!
-    # Query the LLM
-    response = ollama.chat(
-        model=OLLAMA_MODEL,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    
-    # Extract JSON from response
-    content = response["message"]["content"]
-    json_start = content.find("[")
-    json_end = content.rfind("]") + 1
-    
-    if json_start == -1 or json_end == 0:
-        console.print(f"[bold red]Failed to extract relationships JSON for entity:[/] {entity}")
-        return []
-    
-    json_str = content[json_start:json_end]
-    relationships = json.loads(json_str)
-    
-    console.print(f"[bold green]Retrieved {len(relationships)} relationships for:[/] {entity}")
-    return relationships
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            # Query the LLM
+            response = ollama.chat(
+                model=OLLAMA_MODEL,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            
+            # Extract JSON from response
+            content = response["message"]["content"]
+            json_start = content.find("[")
+            json_end = content.rfind("]") + 1
+            
+            if json_start == -1 or json_end == 0:
+                raise ValueError("Failed to extract JSON array from response")
+            
+            json_str = content[json_start:json_end]
+            relationships = json.loads(json_str)
+            
+            console.print(f"[bold green]Retrieved {len(relationships)} relationships for:[/] {entity}")
+            return relationships
+            
+        except (json.JSONDecodeError, ValueError) as e:
+            if attempt < max_retries - 1:
+                console.print(f"[bold yellow]Attempt {attempt+1} failed: {str(e)}. Retrying...[/]")
+                # Add a more explicit instruction for the retry
+                prompt += "\nIMPORTANT: Your response MUST be a valid JSON array of dictionaries. Nothing else."
+                time.sleep(2)  # Wait a bit before retrying
+            else:
+                console.print(f"[bold red]All {max_retries} attempts failed to get valid JSON for entity:[/] {entity}")
+                return []
 
 
 
@@ -81,17 +92,33 @@ def get_entity_type(entity: str) -> Optional[str]:
     
     console.print(f"[bold blue]Querying LLM for entity type:[/] {entity}")
     
-    # Query the LLM
-    response = ollama.chat(
-        model=OLLAMA_MODEL,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    
-    # Extract the type from response
-    entity_type = response["message"]["content"].strip()
-    
-    console.print(f"[bold green]Retrieved type for:[/] {entity} -> {entity_type}")
-    return entity_type
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            # Query the LLM
+            response = ollama.chat(
+                model=OLLAMA_MODEL,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            
+            # Extract the type from response
+            entity_type = response["message"]["content"].strip()
+            
+            if not entity_type or len(entity_type.split()) > 5:
+                raise ValueError("Response is empty or too verbose")
+                
+            console.print(f"[bold green]Retrieved type for:[/] {entity} -> {entity_type}")
+            return entity_type
+            
+        except Exception as e:
+            if attempt < max_retries - 1:
+                console.print(f"[bold yellow]Attempt {attempt+1} failed: {str(e)}. Retrying...[/]")
+                # Add a more explicit instruction for the retry
+                prompt += "\nIMPORTANT: Your response must be ONLY the type - a single word or very short phrase."
+                time.sleep(2)  # Wait a bit before retrying
+            else:
+                console.print(f"[bold red]All {max_retries} attempts failed to get valid type for entity:[/] {entity}")
+                return "Unknown"
 
 
 def _save_json(data: Dict[str, Any], file_path: Path) -> None:
