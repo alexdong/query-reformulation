@@ -1,6 +1,4 @@
-dataset
-library-deepseek-r1-7b
-library-llama3.2
+facts
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
