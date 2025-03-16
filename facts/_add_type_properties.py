@@ -128,6 +128,13 @@ def process_json_files() -> None:
             console.print(f"[yellow]Added {len(relationships)} relationships[/]")
             continue
 
+        # Check if the data doesn't have a relationship key or if it's empty
+        if "relationship" not in data or not data["relationship"]:
+            console.print(f"[bold yellow]Adding relationships for:[/] {file_path.name}")
+            data["relationship"] = get_entity_relationships(data["entity"])
+            print(data["relationship"])
+            console.print(f"[yellow]Added {len(data['relationship'])} relationships[/]")
+
         properties = data["properties"]
         # Skip files that already have a type property
         if "type" in properties:
@@ -145,17 +152,13 @@ def process_json_files() -> None:
             properties["type"] = entity_type
             console.print(f"[green]Added type for:[/] {file_path.name} -> {entity_type}")
 
-        # Check if the data doesn't have a relationship key or if it's empty
-        if "relationship" not in data or not data["relationship"]:
-            console.print(f"[bold yellow]Adding relationships for:[/] {file_path.name}")
-            data["relationship"] = get_entity_relationships(data["entity"])
-            console.print(f"[yellow]Added {len(data['relationship'])} relationships[/]")
-
         _save_json(data, file_path)
             
 
 
 if __name__ == "__main__":
+    # add a statement for me to manually test the `get_entity_relationships` function, ai!
+
     console.print("[bold magenta]Starting type property processing[/]")
     process_json_files()
     console.print("[bold green]Processing complete[/]")
