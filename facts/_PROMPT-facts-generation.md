@@ -1,7 +1,8 @@
 Give me facts about {{ entity }}.
 
 Return a JSON that contains 10 properties and 10 relationships of the entity.
-Keep the property value and the relationship value as concise as possible. Bonus if they are valid entities in DBpedia or Wikipedia.
+Make sure to always include a "type" in the `properties`. The "type"'s value should be close to the entity's type defined in DBpedia or Wikipedia.
+Keep all properties value and the relationship values as concise as possible. Do not include `()`. Again, stay as close to valid values in DBpedia or Wikipedia as you can.
 
 Here is an example of the JSON that should be returned:
 
@@ -9,7 +10,7 @@ Here is an example of the JSON that should be returned:
 {
   "entity": "The Lord of the Rings",
   "properties": {
-    "instance_of": "Book series",
+    "type": "Book Series",
     "author": "J. R. R. Tolkien",
     "genre": "High fantasy",
     "original_language": "English",
@@ -18,7 +19,7 @@ Here is an example of the JSON that should be returned:
     "number_of_books": "3",
     "setting": "Middle-earth",
     "main_theme": "Good vs. Evil, Power and Corruption, Friendship, Courage",
-     "publisher": "George Allen & Unwin"
+    "publisher": "George Allen & Unwin"
   },
   "relationship": [
     {"prequel": "The Hobbit"},

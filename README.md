@@ -193,23 +193,46 @@ http://dbpedia.org/ontology/deathYear: ['1943']
 ```
 
 Unless we can find a better way to generate the knowledge graph, we'll have to
-rethink the approach. However, we should be able to extract the information
-from LLM using a prompt like
-[[PROMPT-entity_properties_relationships-extraction.md]]. Even if the facts are
-hallucinated, we can use them to generate the subqueries. All we want is the
-subqueries to be deterministic.
+rethink the approach. 
 
-[[syngen/facts.py]] has produced 1000+ entities with their properties overnight.
+10:13pm. Hey! we should be able to extract the information from LLM using a
+prompt like [[`facts/_PROMPT.md`]]. Even if the facts are hallucinated,
+we can use them to generate the subqueries. All we want is the subqueries to be
+deterministic. We actually don't care about the truthfulness of the facts for 
+this particular project.
+
 
 Generate Subqueries from Facts Graph
 -------------------------------------
+
+17/March: [[`facts/_main.py`]] has produced 1000+ entities with their properties overnight.
+
+Update the algorithm and prompts in [[`subqueries/_README.md`]]. The shape of the data isn't
+quite what we need to generate chaining queries. So I need to Need to clean up
+the `facts/*.json` to make sure they each contain a `type` property. Then we
+can go on to generate the subqueries.
+
+Also took the time to clean up the project structure as follows:
+
+- `facts/`: contains the facts graph, code to generate the graph and individual
+  entity.json files.
+- `subqueries/`: contains the code to generate the subqueries from the facts
+  graph. Each category type has its own file. e.g. `subqueries/chaining.txt`,
+  `subqueries/comparison.txt`, `subqueries/expansion.txt`.
+- `queries/`: contains the code to generate the queries from the subqueries.
+  The txt files' content follows `query---->subqueries` format. One per line.
+  Since we have 25 quries per subquery, we have 25 lines per subquery.
+  These 3 files are the training/test data for the SFT step.
+- `docs/`: contains the READMEs and other documentation files.
 
 
 Generate Queries from Subqueries
 ---------------------------------
 
 
-Fine-tuning
+
+
+SFT
 ===============
 
 Twitter has proven that BERT-base can be scaled to handle 100ms latency on a
