@@ -157,7 +157,16 @@ def process_json_files() -> None:
 
 
 if __name__ == "__main__":
-    # add a statement for me to manually test the `get_entity_relationships` function, ai!
+    # Manual test for get_entity_relationships function
+    if len(os.sys.argv) > 1 and os.sys.argv[1] == "--test-relationships":
+        test_entity = os.sys.argv[2] if len(os.sys.argv) > 2 else "Albert Einstein"
+        console.print(f"[bold magenta]Testing get_entity_relationships with:[/] {test_entity}")
+        relationships = get_entity_relationships(test_entity)
+        console.print("[bold cyan]Relationships:[/]")
+        for rel in relationships:
+            for rel_type, target in rel.items():
+                console.print(f"  [green]{rel_type}:[/] {target}")
+        exit(0)
 
     console.print("[bold magenta]Starting type property processing[/]")
     process_json_files()
