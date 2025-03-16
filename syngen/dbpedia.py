@@ -13,7 +13,7 @@ async def get_random_entity() -> Tuple[str, Dict[str, Any]]:
             - entity data (Dict)
     """
     # First, get a list of random resources using the DBpedia random resource service
-    async with httpx.AsyncClient(timeout=30.0) as client:
+    async with httpx.AsyncClient(timeout=60.0) as client:
         query = """
             SELECT DISTINCT ?entity
             WHERE {
@@ -24,6 +24,7 @@ async def get_random_entity() -> Tuple[str, Dict[str, Any]]:
             ORDER BY RAND()
             LIMIT 10
         """
+        print("Fetching random entities...")
         
         response = await client.get(
             "https://dbpedia.org/sparql",
@@ -34,23 +35,27 @@ async def get_random_entity() -> Tuple[str, Dict[str, Any]]:
                 "timeout": "30000"
             }
         )
-        
-        if response.status_code != 200:
+        if response.status_code >= 300:
             raise Exception(f"Failed to fetch random entities: {response.status_code}")
         
         data = response.json()
         entities = [result["entity"]["value"] for result in data["results"]["bindings"]]
+        print(f"Found {len(entities)} entities")
         
         if not entities:
             raise Exception("No entities found")
         
         # Select one random entity from the results
+        print(entities)
         entity_uri = random.choice(entities)
         
         # Now fetch the details for this entity
+        print(f"Fetching details for entity: {entity_uri}")
         entity_data = await get_entity_details(client, entity_uri)
+        print(f"Entity details: {entity_data}")
         
         return entity_uri, entity_data
+
 
 async def get_entity_details(client: httpx.AsyncClient, entity_uri: str) -> Dict[str, Any]:
     """
@@ -81,7 +86,7 @@ async def get_entity_details(client: httpx.AsyncClient, entity_uri: str) -> Dict
         }
     )
     
-    if response.status_code != 200:
+    if response.status_code >= 300:
         raise Exception(f"Failed to fetch entity details: {response.status_code}")
     
     data = response.json()
@@ -109,7 +114,8 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
     Returns:
         List of related entities with their relationship type
     """
-    async with httpx.AsyncClient(timeout=30.0) as client:
+    async with httpx.AsyncClient(timeout=60.0) as client:
+        # please double check the query as it returns mostly http://dbpedia.org/ontology/wikiPageWikiLink as relation, which is of no use to us. Also it has only 100 relations. ai!
         query = f"""
             SELECT ?relation ?related_entity ?label
             WHERE {{
@@ -133,7 +139,7 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
             }
         )
         
-        if response.status_code != 200:
+        if response.status_code >= 300:
             raise Exception(f"Failed to fetch entity relationships: {response.status_code}")
         
         data = response.json()
@@ -149,6 +155,7 @@ async def get_entity_relationships(entity_uri: str) -> List[Dict[str, Any]]:
         
         return relationships
 
+
 async def search_entities(query: str, limit: int = 10) -> List[Dict[str, str]]:
     """
     Search for entities in DBpedia based on a text query.
@@ -160,7 +167,7 @@ async def search_entities(query: str, limit: int = 10) -> List[Dict[str, str]]:
     Returns:
         List of matching entities with their URIs and labels
     """
-    async with httpx.AsyncClient(timeout=30.0) as client:
+    async with httpx.AsyncClient(timeout=60.0) as client:
         sparql_query = f"""
             SELECT DISTINCT ?entity ?label
             WHERE {{
@@ -180,7 +187,7 @@ async def search_entities(query: str, limit: int = 10) -> List[Dict[str, str]]:
             }
         )
         
-        if response.status_code != 200:
+        if response.status_code >= 300:
             raise Exception(f"Failed to search entities: {response.status_code}")
         
         data = response.json()
@@ -198,7 +205,14 @@ async def search_entities(query: str, limit: int = 10) -> List[Dict[str, str]]:
 # Example usage in an async context
 async def example_usage():
     # Get a random entity
-    entity_uri, entity_data = await get_random_entity()
+    #entity_uri, entity_data = await get_random_entity()
+    entity_uri = "http://dbpedia.org/resource/Nikola_Tesla"
+    # entity = (await search_entities("Nicola Tesla", limit=1))[0]
+    # print(entity)
+
+    async with httpx.AsyncClient(timeout=60.0) as client:
+        entity_data = await get_entity_details(client, entity_uri)
+
     print(f"Random entity: {entity_uri}")
     
     # Get entity labels if available
@@ -212,7 +226,7 @@ async def example_usage():
     print(f"Found {len(relationships)} relationships")
     
     # Print a few sample relationships
-    for rel in relationships[:5]:
+    for rel in relationships:
         print(f"Relation: {rel['relation']}")
         print(f"  Entity: {rel['entity']}")
         print(f"  Label: {rel['label']}")
