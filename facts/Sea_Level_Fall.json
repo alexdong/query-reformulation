@@ -1,0 +1,47 @@
+{
+  "entity": "Sea Level Fall",
+  "properties": {
+    "type": "Geological Process",
+    "cause": "Glacial Isostatic Adjustment, Tectonic Activity, Eustatic Changes",
+    "measurement_unit": "Meters",
+    "time_scale": "Thousands to Millions of Years",
+    "evidence": "Shoreline Features, Raised Beaches, Marine Terraces",
+    "impact": "Coastal Retreat, Habitat Loss, Altered Drainage",
+    "opposite_of": "Sea Level Rise",
+    "related_to": "Paleoclimate",
+    "location_example": "Baltic Sea, Sundaland",
+    "detection_method": "Geological Surveys, Radiocarbon Dating"
+  },
+  "relationship": [
+    {
+      "caused_by": "Glacial Rebound"
+    },
+    {
+      "impacts": "Coastal Erosion"
+    },
+    {
+      "related_to": "Isostasy"
+    },
+    {
+      "affects": "Coastal Wetlands"
+    },
+    {
+      "part_of": "Geological History"
+    },
+    {
+      "influences": "Sedimentation"
+    },
+    {
+      "observed_in": "Baltic Sea"
+    },
+    {
+      "observed_in": "Sundaland"
+    },
+    {
+      "related_to": "Eustatic Sea Level Change"
+    },
+    {
+      "impacts": "Marine Ecosystems"
+    }
+  ]
+}

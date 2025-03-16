@@ -1,0 +1,47 @@
+{
+  "entity": "Lono",
+  "properties": {
+    "type": "Hawaiian god",
+    "domain": "Agriculture",
+    "aspect": "Fertility",
+    "associated_with": "Festivals",
+    "mythological_family": "Hawaiian Pantheon",
+    "gender": "Male",
+    "role": "God of peace",
+    "symbol": "Fertility",
+    "worshiped_in": "Hawaii",
+    "depiction": "Often depicted as a benevolent figure"
+  },
+  "relationship": [
+    {
+      "parent": "Kane"
+    },
+    {
+      "sibling_of": "Kane"
+    },
+    {
+      "associated_with_festival": "Makahiki"
+    },
+    {
+      "related_to": "Kū"
+    },
+    {
+      "related_to": "Kane"
+    },
+    {
+      "part_of": "Hawaiian mythology"
+    },
+    {
+      "worshipped_by": "Ancient Hawaiians"
+    },
+    {
+      "represents": "Abundance"
+    },
+    {
+      "associated_with": "Peace"
+    },
+    {
+      "related_to_concept": "Fertility"
+    }
+  ]
+}

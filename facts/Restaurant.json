@@ -1,0 +1,47 @@
+{
+  "entity": "Restaurant",
+  "properties": {
+    "instance_of": "Business",
+    "provides": "Food",
+    "type": "Establishment",
+    "serves": "Meals",
+    "offers": "Service",
+    "location": "City",
+    "cuisine": "Type of food",
+    "price_range": "Currency",
+    "seating_capacity": "Number",
+    "ambiance": "Atmosphere"
+  },
+  "relationship": [
+    {
+      "located_in": "City"
+    },
+    {
+      "offers": "Menu"
+    },
+    {
+      "employs": "Chef"
+    },
+    {
+      "serves_cuisine": "Cuisine"
+    },
+    {
+      "customer": "Person"
+    },
+    {
+      "part_of": "Food industry"
+    },
+    {
+      "has_branch": "Restaurant chain"
+    },
+    {
+      "review_by": "Food critic"
+    },
+    {
+      "provides_service_to": "Customer"
+    },
+    {
+      "owned_by": "Person"
+    }
+  ]
+}

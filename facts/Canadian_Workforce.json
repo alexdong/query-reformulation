@@ -1,0 +1,47 @@
+{
+  "entity": "Canadian Workforce",
+  "properties": {
+    "total_size": "20.1 million (2023)",
+    "labour_force_participation_rate": "66.4% (2023)",
+    "unemployment_rate": "6.2% (April 2024)",
+    "average_hourly_wage": "$31.68 (2023)",
+    "major_industries": "Natural resources, Manufacturing, Services",
+    "age_demographics": "Aging population",
+    "education_level": "Highly educated",
+    "unionization_rate": "27.4% (2022)",
+    "geographic_distribution": "Concentrated in urban areas",
+    "work_week_average": "37.3 hours (2022)"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Canadian economy"
+    },
+    {
+      "part_of": "Canadian society"
+    },
+    {
+      "affected_by": "Government policies"
+    },
+    {
+      "impacts": "Canadian GDP"
+    },
+    {
+      "employs": "Canadian citizens"
+    },
+    {
+      "requires": "Skills and training"
+    },
+    {
+      "subject_to": "Labour laws"
+    },
+    {
+      "contributes_to": "Tax revenue"
+    },
+    {
+      "affected_by": "Technological advancements"
+    },
+    {
+      "related_to": "Immigration"
+    }
+  ]
+}

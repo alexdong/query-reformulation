@@ -1,0 +1,47 @@
+{
+  "entity": "Folk Music",
+  "properties": {
+    "genre": "Music genre",
+    "origin": "Various cultures",
+    "transmission": "Oral tradition",
+    "style": "Traditional",
+    "themes": "Cultural narratives",
+    "instrumentation": "Acoustic instruments",
+    "purpose": "Storytelling, entertainment",
+    "historical_period": "Ancient - Present",
+    "cultural_significance": "Cultural identity",
+    "subgenre": "Country music"
+  },
+  "relationship": [
+    {
+      "influenced": "Popular music"
+    },
+    {
+      "related_to": "Traditional music"
+    },
+    {
+      "preceded_by": "Ballads"
+    },
+    {
+      "inspired": "Protest songs"
+    },
+    {
+      "performed_by": "Woody Guthrie"
+    },
+    {
+      "performed_by": "Joan Baez"
+    },
+    {
+      "performed_by": "Bob Dylan"
+    },
+    {
+      "associated_with": "Folk revival"
+    },
+    {
+      "originates_from": "European folk music"
+    },
+    {
+      "features": "Storytelling"
+    }
+  ]
+}

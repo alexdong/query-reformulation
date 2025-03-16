@@ -1,0 +1,47 @@
+{
+  "entity": "Belgium",
+  "properties": {
+    "capital": "Brussels",
+    "official_languages": "Dutch, French, German",
+    "currency": "Euro",
+    "population": "11.5 million",
+    "area_km2": "30,528",
+    "sovereignty": "Parliamentary constitutional monarchy",
+    "member_of": "European Union",
+    "national_dish": "Moules-frites",
+    "GDP_USD": "580 billion",
+    "geographic_location": "Western Europe"
+  },
+  "relationship": [
+    {
+      "part_of": "European Union"
+    },
+    {
+      "borders": "France"
+    },
+    {
+      "borders": "Germany"
+    },
+    {
+      "borders": "Netherlands"
+    },
+    {
+      "borders": "Luxembourg"
+    },
+    {
+      "has_region": "Flanders"
+    },
+    {
+      "has_region": "Wallonia"
+    },
+    {
+      "has_region": "Brussels-Capital Region"
+    },
+    {
+      "influenced": "Surrealism"
+    },
+    {
+      "major_city": "Antwerp"
+    }
+  ]
+}

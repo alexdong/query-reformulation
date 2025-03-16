@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Identity",
+  "properties": {
+    "location": "Oceania",
+    "culture": "Polynesian & European blend",
+    "language": "English, Māori, NZ Sign Language",
+    "values": "Kiwiana, egalitarianism, resourcefulness",
+    "national_symbol": "Silver Fern",
+    "national_sport": "Rugby",
+    "cuisine": "Hangi, Pavlova, Fish and Chips",
+    "geography": "Island nation, diverse landscapes",
+    "history": "Māori settlement, British colonization",
+    "population": "5.1 million"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Māori culture"
+    },
+    {
+      "influenced_by": "British colonialism"
+    },
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "capital": "Wellington"
+    },
+    {
+      "governed_by": "Parliament of New Zealand"
+    },
+    {
+      "national_anthem": "God Defend New Zealand"
+    },
+    {
+      "associated_with": "Lord of the Rings (film)"
+    },
+    {
+      "influenced": "Australian Identity"
+    },
+    {
+      "trade_partner": "China"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    }
+  ]
+}

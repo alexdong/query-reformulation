@@ -1,0 +1,47 @@
+{
+  "entity": "South Africa",
+  "properties": {
+    "capital": "Pretoria",
+    "official_languages": "11",
+    "continent": "Africa",
+    "population_2023": "60.4 million",
+    "currency": "Rand (ZAR)",
+    "area_km2": "1,221,037",
+    "largest_city": "Johannesburg",
+    "government_type": "Parliamentary republic",
+    "GDP_nominal_2023": "$405.6 billion",
+    "national_animal": "Springbok"
+  },
+  "relationship": [
+    {
+      "part_of": "African Union"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "borders": "Namibia"
+    },
+    {
+      "borders": "Botswana"
+    },
+    {
+      "borders": "Zimbabwe"
+    },
+    {
+      "borders": "Mozambique"
+    },
+    {
+      "borders": "Eswatini"
+    },
+    {
+      "borders": "Lesotho"
+    },
+    {
+      "influenced_by": "Dutch Empire"
+    },
+    {
+      "influenced_by": "British Empire"
+    }
+  ]
+}

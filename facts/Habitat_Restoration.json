@@ -1,0 +1,47 @@
+{
+  "entity": "Habitat Restoration",
+  "properties": {
+    "definition": "Rehabilitation of degraded ecosystems",
+    "goal": "Improve ecological function",
+    "scope": "Diverse habitats",
+    "techniques": "Reforestation, invasive species removal",
+    "benefit": "Biodiversity increase",
+    "scale": "Local to regional",
+    "cost": "Variable",
+    "monitoring": "Essential for success",
+    "timeline": "Long-term process",
+    "importance": "Climate change mitigation"
+  },
+  "relationship": [
+    {
+      "part_of": "Environmental Management"
+    },
+    {
+      "related_to": "Ecology"
+    },
+    {
+      "requires": "Ecological Assessment"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "addresses": "Environmental Degradation"
+    },
+    {
+      "overlaps_with": "Conservation Biology"
+    },
+    {
+      "employs": "Reforestation"
+    },
+    {
+      "involves": "Invasive Species Removal"
+    },
+    {
+      "benefits": "Carbon Sequestration"
+    },
+    {
+      "supports": "Ecosystem Services"
+    }
+  ]
+}

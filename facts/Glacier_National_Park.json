@@ -1,0 +1,47 @@
+{
+  "entity": "Glacier National Park",
+  "properties": {
+    "location": "Montana, USA",
+    "established": "1910",
+    "area": "1,013,840 acres",
+    "designation": "National Park",
+    "ecosystem": "Temperate rainforest, alpine",
+    "elevation_range": "3,000–7,400 ft",
+    "precipitation": "30–60 inches annually",
+    "major_feature": "Glaciers",
+    "UNESCO_designation": "World Heritage Site",
+    "visitor_count": "3 million (2022)"
+  },
+  "relationship": [
+    {
+      "part_of": "National Park System"
+    },
+    {
+      "located_in": "Montana"
+    },
+    {
+      "adjacent_to": "Waterton Lakes National Park"
+    },
+    {
+      "contains": "Going-to-the-Sun Road"
+    },
+    {
+      "contains": "Lake McDonald"
+    },
+    {
+      "contains": "Many Glacier Road"
+    },
+    {
+      "species_found": "Grizzly Bear"
+    },
+    {
+      "species_found": "Mountain Goat"
+    },
+    {
+      "species_found": "Gray Wolf"
+    },
+    {
+      "managed_by": "National Park Service"
+    }
+  ]
+}

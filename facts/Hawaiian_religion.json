@@ -1,0 +1,47 @@
+{
+  "entity": "Hawaiian religion",
+  "properties": {
+    "name": "Hawaiian religion",
+    "type": "Polytheistic religion",
+    "origin": "Hawaiʻi",
+    "time_period": "Pre-European contact - 1893",
+    "deity_count": "Numerous",
+    "focus": "Harmony with nature",
+    "oral_tradition": "Primary",
+    "priests": "Kāhuna",
+    "sacred_sites": "Heiau",
+    "beliefs": "Reincarnation, Mana, Kapu"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian religion"
+    },
+    {
+      "influenced_by": "Māori mythology"
+    },
+    {
+      "related_to": "Kapu system"
+    },
+    {
+      "associated_with": "Heiau"
+    },
+    {
+      "worships": "Kāne"
+    },
+    {
+      "worships": "Kū"
+    },
+    {
+      "worships": "Lono"
+    },
+    {
+      "worships": "Kanaloa"
+    },
+    {
+      "influenced": "Hawaiian culture"
+    },
+    {
+      "practiced_by": "Native Hawaiians"
+    }
+  ]
+}

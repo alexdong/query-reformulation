@@ -1,0 +1,47 @@
+{
+  "entity": "Glasgow",
+  "properties": {
+    "type": "City",
+    "country": "Scotland",
+    "population": "635,615",
+    "area_km2": "207",
+    "latitude": "55.86",
+    "longitude": "-4.25",
+    "river": "River Clyde",
+    "established": "6th century",
+    "time_zone": "GMT/BST",
+    "currency": "GBP"
+  },
+  "relationship": [
+    {
+      "part_of": "Scotland"
+    },
+    {
+      "located_in": "United Kingdom"
+    },
+    {
+      "has_sister_city": "Rotterdam"
+    },
+    {
+      "has_sister_city": "Düsseldorf"
+    },
+    {
+      "has_sister_city": "Lyon"
+    },
+    {
+      "is_capital_of": "Glasgow City Council"
+    },
+    {
+      "has_landmark": "Glasgow Cathedral"
+    },
+    {
+      "has_landmark": "Kelvingrove Art Gallery and Museum"
+    },
+    {
+      "has_university": "University of Glasgow"
+    },
+    {
+      "influenced_by": "Glasgow School of Art"
+    }
+  ]
+}

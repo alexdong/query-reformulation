@@ -1,0 +1,47 @@
+{
+  "entity": "University of Auckland",
+  "properties": {
+    "instance_of": "University",
+    "country": "New Zealand",
+    "established": "1893",
+    "type": "Public University",
+    "location": "Auckland",
+    "student_body": "49,000",
+    "research_funding": "NZ$130 million",
+    "colours": "Royal Blue and White",
+    "motto": "Sapere Aude",
+    "governing_body": "University Council"
+  },
+  "relationship": [
+    {
+      "located_in": "Auckland City"
+    },
+    {
+      "member_of": "Universities New Zealand"
+    },
+    {
+      "affiliated_with": "Albany Senior High School"
+    },
+    {
+      "founded_by": "New Zealand Parliament"
+    },
+    {
+      "has_alumnus": "Clarke Gayford"
+    },
+    {
+      "has_alumnus": "David Bain"
+    },
+    {
+      "has_alumnus": "Sam Johnson"
+    },
+    {
+      "offers_degree": "Bachelor of Arts"
+    },
+    {
+      "offers_degree": "Master of Science"
+    },
+    {
+      "research_area": "Marine Biology"
+    }
+  ]
+}

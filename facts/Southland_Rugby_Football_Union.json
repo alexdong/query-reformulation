@@ -1,0 +1,47 @@
+{
+  "entity": "Southland Rugby Football Union",
+  "properties": {
+    "instance_of": "Rugby union governing body",
+    "region": "Southland, New Zealand",
+    "founded": "1885",
+    "nickname": "The Stags",
+    "headquarters": "Invercargill",
+    "governs": "Southland Rugby",
+    "member_of": "New Zealand Rugby",
+    "competition": "National Provincial Championship",
+    "colours": "Navy Blue & White",
+    "website": "southlandrugby.co.nz"
+  },
+  "relationship": [
+    {
+      "governed_by": "New Zealand Rugby"
+    },
+    {
+      "located_in": "Southland District"
+    },
+    {
+      "plays_in": "National Provincial Championship"
+    },
+    {
+      "team_represents": "Southland"
+    },
+    {
+      "has_team": "Southland Stags"
+    },
+    {
+      "coach": "Rob Hall"
+    },
+    {
+      "player": "Willo Bremner"
+    },
+    {
+      "player": "Josh Bekhuis"
+    },
+    {
+      "rivalry": "Otago Rugby Football Union"
+    },
+    {
+      "influenced_by": "New Zealand Rugby Football Union"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Community (TV series)",
+  "properties": {
+    "instance_of": "Sitcom",
+    "creator": "Dan Harmon",
+    "network": "NBC",
+    "genre": "Comedy",
+    "country_of_origin": "United States",
+    "start_date": "2009-09-17",
+    "end_date": "2015-06-16",
+    "number_of_seasons": "6",
+    "setting": "Greendale, California",
+    "production_company": "HarmoniousClown Productions"
+  },
+  "relationship": [
+    {
+      "prequel": "Pilot (Community episode)"
+    },
+    {
+      "sequel": "Not Enough Crosby"
+    },
+    {
+      "influenced": "Rick and Morty"
+    },
+    {
+      "cast_member": "Joel McHale"
+    },
+    {
+      "cast_member": "Gillian Jacobs"
+    },
+    {
+      "cast_member": "Danny Pudi"
+    },
+    {
+      "cast_member": "Yvette Nicole Brown"
+    },
+    {
+      "cast_member": "Alison Brie"
+    },
+    {
+      "cast_member": "Donald Glover"
+    },
+    {
+      "written_by": "Dan Harmon"
+    }
+  ]
+}

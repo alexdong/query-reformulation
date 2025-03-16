@@ -1,0 +1,47 @@
+{
+  "entity": "One O'Clock Gun",
+  "properties": {
+    "type": "Time signal",
+    "location": "Royal Observatory, Greenwich",
+    "purpose": "Timekeeping",
+    "first_fired": "1833",
+    "frequency": "Daily",
+    "sound": "Gunshot",
+    "visibility": "Limited",
+    "historical_significance": "Maritime navigation",
+    "suspended": "1925",
+    "reinstated": "1953"
+  },
+  "relationship": [
+    {
+      "located_in": "Greenwich"
+    },
+    {
+      "part_of": "Royal Observatory, Greenwich"
+    },
+    {
+      "related_to": "Maritime navigation"
+    },
+    {
+      "influenced": "Timekeeping practices"
+    },
+    {
+      "predecessor_of": "Radio time signals"
+    },
+    {
+      "used_by": "Sailors"
+    },
+    {
+      "associated_with": "GMT"
+    },
+    {
+      "historical_period": "Victorian era"
+    },
+    {
+      "related_to_event": "Great Exhibition (1851)"
+    },
+    {
+      "function": "Audible time signal"
+    }
+  ]
+}

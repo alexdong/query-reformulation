@@ -1,0 +1,47 @@
+{
+  "entity": "Central Asia",
+  "properties": {
+    "region_type": "Subregion",
+    "geographic_location": "Asia",
+    "area": "1,500,000 km²",
+    "population": "74,425,000",
+    "climate": "Semi-arid",
+    "major_language": "Russian, Turkic",
+    "dominant_religion": "Islam",
+    "highest_point": "Peak Ismoil Somoni",
+    "largest_city": "Almaty",
+    "historical_name": "Turkestan"
+  },
+  "relationship": [
+    {
+      "part_of": "Asia"
+    },
+    {
+      "borders": "Russia"
+    },
+    {
+      "borders": "Afghanistan"
+    },
+    {
+      "borders": "China"
+    },
+    {
+      "borders": "Kazakhstan"
+    },
+    {
+      "borders": "Uzbekistan"
+    },
+    {
+      "influenced_by": "Silk Road"
+    },
+    {
+      "historical_empire": "Turkic Khaganate"
+    },
+    {
+      "historical_empire": "Mongol Empire"
+    },
+    {
+      "modern_states": "Kazakhstan"
+    }
+  ]
+}

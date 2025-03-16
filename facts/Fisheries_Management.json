@@ -1,0 +1,47 @@
+{
+  "entity": "Fisheries Management",
+  "properties": {
+    "definition": "Sustainable exploitation of fish stocks",
+    "goal": "Maintain fish populations",
+    "scope": "Aquatic resources",
+    "method": "Regulations & Conservation",
+    "discipline": "Ecology & Economics",
+    "area_of_study": "Marine Biology",
+    "tool": "Stock assessment",
+    "legal_framework": "International law",
+    "stakeholders": "Fishermen, Governments, Scientists",
+    "impact": "Food security & Livelihoods"
+  },
+  "relationship": [
+    {
+      "related_to": "Aquaculture"
+    },
+    {
+      "impacts": "Marine Ecosystems"
+    },
+    {
+      "requires": "Stock Assessment"
+    },
+    {
+      "governed_by": "FAO"
+    },
+    {
+      "influenced_by": "Ecology"
+    },
+    {
+      "overlaps_with": "Conservation Biology"
+    },
+    {
+      "addresses": "Overfishing"
+    },
+    {
+      "involves": "Fishing Quotas"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "requires": "Data Analysis"
+    }
+  ]
+}

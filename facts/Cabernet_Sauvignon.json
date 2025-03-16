@@ -1,0 +1,47 @@
+{
+  "entity": "Cabernet Sauvignon",
+  "properties": {
+    "type": "Grape variety",
+    "origin": "Bordeaux, France",
+    "color": "Red",
+    "flavor_profile": "Blackcurrant, Cedar, Tobacco",
+    "tannin_level": "High",
+    "acidity": "Medium-High",
+    "clone_of": "Cabernet Franc",
+    "parentage": "Cabernet Franc x Sauvignon Blanc",
+    "growing_regions": "Worldwide",
+    "average_alcohol": "14-15%"
+  },
+  "relationship": [
+    {
+      "is_a": "Vitis vinifera"
+    },
+    {
+      "grown_in": "Bordeaux"
+    },
+    {
+      "used_for": "Red wine"
+    },
+    {
+      "blended_with": "Merlot"
+    },
+    {
+      "blended_with": "Cabernet Franc"
+    },
+    {
+      "influences": "Bordeaux wine"
+    },
+    {
+      "produces": "Wine"
+    },
+    {
+      "related_to": "Merlot"
+    },
+    {
+      "related_to": "Cabernet Franc"
+    },
+    {
+      "harvested_in": "Autumn"
+    }
+  ]
+}

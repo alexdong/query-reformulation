@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin Railway Station",
+  "properties": {
+    "architect": "George Forrester",
+    "style": "Edwardian Baroque",
+    "year_built": "1878",
+    "location": "Dunedin, New Zealand",
+    "material": "Oamaru stone",
+    "status": "Operational",
+    "designation": "Historic Place (Category I)",
+    "owner": "KiwiRail",
+    "function": "Railway station",
+    "listed_on": "NZ Historic Places Trust"
+  },
+  "relationship": [
+    {
+      "serves_city": "Dunedin"
+    },
+    {
+      "architectural_style": "Edwardian Baroque architecture"
+    },
+    {
+      "located_in": "Otago"
+    },
+    {
+      "part_of": "New Zealand rail network"
+    },
+    {
+      "built_by": "George Forrester"
+    },
+    {
+      "train_serves": "Taieri railway line"
+    },
+    {
+      "train_serves": "Main North Line"
+    },
+    {
+      "influenced_by": "Italian Renaissance architecture"
+    },
+    {
+      "historical_significance": "Early railway development"
+    },
+    {
+      "design_features": "Clock tower"
+    }
+  ]
+}

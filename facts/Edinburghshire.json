@@ -1,0 +1,47 @@
+{
+  "entity": "Edinburghshire",
+  "properties": {
+    "type": "Historic county",
+    "country": "United Kingdom",
+    "region": "South Scotland",
+    "area_km2": "1978",
+    "administered_by": "Scottish Borders Council",
+    "historical_period": "Medieval",
+    "major_river": "River Tweed",
+    "highest_point": "Scott's Monument",
+    "population_estimate_2020": "155000",
+    "traditional_county_district": "Edinburghshire"
+  },
+  "relationship": [
+    {
+      "part_of": "Scotland"
+    },
+    {
+      "borders": "Midlothian"
+    },
+    {
+      "borders": "Berwickshire"
+    },
+    {
+      "borders": "Roxburghshire"
+    },
+    {
+      "contains": "Melrose"
+    },
+    {
+      "contains": "Lasswade"
+    },
+    {
+      "contains": "Peebles"
+    },
+    {
+      "river_flows_through": "River Tweed"
+    },
+    {
+      "historical_part_of": "Kingdom of Northumbria"
+    },
+    {
+      "located_near": "Scottish Borders"
+    }
+  ]
+}

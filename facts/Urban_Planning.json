@@ -1,0 +1,47 @@
+{
+  "entity": "Urban Planning",
+  "properties": {
+    "instance_of": "Discipline",
+    "field_of_study": "Architecture & Engineering",
+    "focus": "Physical Environment",
+    "goal": "Sustainable Development",
+    "scope": "City & Region",
+    "history_origin": "Ancient Civilizations",
+    "key_concept": "Zoning",
+    "tool": "GIS",
+    "related_field": "Landscape Architecture",
+    "sub_discipline": "Transportation Planning"
+  },
+  "relationship": [
+    {
+      "influences": "Architecture"
+    },
+    {
+      "influences": "Public Policy"
+    },
+    {
+      "requires": "Demographics"
+    },
+    {
+      "overlaps_with": "Civil Engineering"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "addresses": "Housing"
+    },
+    {
+      "involves": "Community Engagement"
+    },
+    {
+      "uses": "Land Use Planning"
+    },
+    {
+      "related_to": "Urban Design"
+    },
+    {
+      "contributes_to": "Smart Cities"
+    }
+  ]
+}

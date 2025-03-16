@@ -1,0 +1,47 @@
+{
+  "entity": "Rugby Union",
+  "properties": {
+    "instance_of": "Team sport",
+    "origin": "England",
+    "governing_body": "World Rugby",
+    "sport_type": "Contact sport",
+    "ball_shape": "Oval",
+    "number_of_players": "15",
+    "scoring_method": "Try, Conversion, Penalty, Drop Goal",
+    "field_size": "100m x 68m",
+    "equipment": "Ball, Posts, Goalposts",
+    "popularity": "Global"
+  },
+  "relationship": [
+    {
+      "predecessor": "Rugby School game"
+    },
+    {
+      "influenced": "Rugby league"
+    },
+    {
+      "governed_by": "World Rugby"
+    },
+    {
+      "played_in": "Six Nations Championship"
+    },
+    {
+      "played_in": "Rugby World Cup"
+    },
+    {
+      "requires": "Referee"
+    },
+    {
+      "requires": "Scrum"
+    },
+    {
+      "requires": "Lineout"
+    },
+    {
+      "player_role": "Fly-half"
+    },
+    {
+      "player_role": "Prop"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Paleocene–Eocene Thermal Maximum",
+  "properties": {
+    "type": "Geological event",
+    "start_date": "56 million years ago",
+    "end_date": "53.5 million years ago",
+    "duration": "2.5 million years",
+    "temperature_increase": "5-8 °C",
+    "cause": "Massive carbon release",
+    "location": "Global",
+    "period": "Paleogene",
+    "epoch": "Paleocene/Eocene",
+    "evidence_type": "Sedimentary rocks, fossils"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Paleocene epoch"
+    },
+    {
+      "followed_by": "Eocene epoch"
+    },
+    {
+      "caused_by": "Deccan Traps volcanism"
+    },
+    {
+      "caused_by": "Methane hydrate release"
+    },
+    {
+      "impacted": "Ocean acidification"
+    },
+    {
+      "impacted": "Global sea level rise"
+    },
+    {
+      "impacted": "Plant migration"
+    },
+    {
+      "impacted": "Animal evolution"
+    },
+    {
+      "related_to": "PETM event"
+    },
+    {
+      "part_of": "Paleogene period"
+    }
+  ]
+}

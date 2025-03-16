@@ -1,0 +1,47 @@
+{
+  "entity": "William Schaw",
+  "properties": {
+    "birth_date": "c. 1550",
+    "death_date": "1600",
+    "occupation": "Master of the King's Works",
+    "nationality": "Scottish",
+    "known_for": "Building projects",
+    "place_of_birth": "Scotland",
+    "education": "Likely apprenticed",
+    "religious_affiliation": "Protestant",
+    "title": "Master",
+    "era": "Scottish Reformation"
+  },
+  "relationship": [
+    {
+      "employer": "James VI of Scotland"
+    },
+    {
+      "worked_on": "Holyrood Palace"
+    },
+    {
+      "designed": "Holyrood House Gardens"
+    },
+    {
+      "supervised": "Building projects"
+    },
+    {
+      "collaborated_with": "John Speirs"
+    },
+    {
+      "preceded_by": "Robert Mylne"
+    },
+    {
+      "succeeded_by": "John Carmichael"
+    },
+    {
+      "influenced": "Scottish architecture"
+    },
+    {
+      "associated_with": "Scottish Renaissance"
+    },
+    {
+      "location": "Scotland"
+    }
+  ]
+}

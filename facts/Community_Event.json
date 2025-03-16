@@ -1,0 +1,47 @@
+{
+  "entity": "Community Event",
+  "properties": {
+    "type": "Gathering",
+    "purpose": "Socialization",
+    "scale": "Local",
+    "format": "Variety",
+    "frequency": "Variable",
+    "cost": "Variable",
+    "location": "Public Space",
+    "target_audience": "Community Members",
+    "duration": "Hours",
+    "promotion_method": "Local Media"
+  },
+  "relationship": [
+    {
+      "part_of": "Community"
+    },
+    {
+      "organized_by": "Community Organization"
+    },
+    {
+      "attends": "Community Member"
+    },
+    {
+      "supports": "Local Business"
+    },
+    {
+      "promotes": "Community Spirit"
+    },
+    {
+      "held_in": "City"
+    },
+    {
+      "related_to": "Festival"
+    },
+    {
+      "type_of": "Social Event"
+    },
+    {
+      "overlaps_with": "Holiday"
+    },
+    {
+      "contributes_to": "Local Economy"
+    }
+  ]
+}

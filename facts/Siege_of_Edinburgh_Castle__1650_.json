@@ -1,0 +1,47 @@
+{
+  "entity": "Siege of Edinburgh Castle (1650)",
+  "properties": {
+    "start_date": "1650-05-13",
+    "end_date": "1650-08-15",
+    "location": "Edinburgh Castle",
+    "belligerents": "Parliamentarian vs. Royalist",
+    "outcome": "Parliamentarian victory",
+    "commander_parliament": "Robert Lilburne",
+    "commander_royalist": "David Leslie",
+    "siege_duration": "94 days",
+    "casualties_parliament": "Relatively low",
+    "casualties_royalist": "Significant"
+  },
+  "relationship": [
+    {
+      "part_of": "Wars of the Three Kingdoms"
+    },
+    {
+      "involved_in": "English Interregnum"
+    },
+    {
+      "opposed_by": "David Leslie"
+    },
+    {
+      "led_by": "Robert Lilburne"
+    },
+    {
+      "location_is": "Edinburgh"
+    },
+    {
+      "preceded_by": "Battle of Dunbar (1650)"
+    },
+    {
+      "followed_by": "Capture of Stirling Castle (1650)"
+    },
+    {
+      "involved_faction": "Parliament of England"
+    },
+    {
+      "involved_faction": "Royalist Scotland"
+    },
+    {
+      "resulted_in": "Parliamentary control of Edinburgh"
+    }
+  ]
+}

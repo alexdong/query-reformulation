@@ -1,0 +1,47 @@
+{
+  "entity": "Standard of Living",
+  "properties": {
+    "definition": "Material comfort and access to services",
+    "measurement": "GDP per capita, HDI",
+    "factors": "Income, health, education, environment",
+    "indicator": "Purchasing power parity",
+    "affected_by": "Economic growth, policy",
+    "related_to": "Quality of life",
+    "scope": "Individual, societal",
+    "comparison": "Relative, absolute",
+    "historical_trend": "Generally increasing",
+    "data_source": "World Bank, UN"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Gross Domestic Product"
+    },
+    {
+      "correlated_with": "Human Development Index"
+    },
+    {
+      "impacts": "Health outcomes"
+    },
+    {
+      "affects": "Education levels"
+    },
+    {
+      "related_to": "Income inequality"
+    },
+    {
+      "influenced_by": "Government policy"
+    },
+    {
+      "impacts": "Environmental sustainability"
+    },
+    {
+      "compared_to": "Poverty"
+    },
+    {
+      "measured_by": "Gini coefficient"
+    },
+    {
+      "impacts": "Social mobility"
+    }
+  ]
+}

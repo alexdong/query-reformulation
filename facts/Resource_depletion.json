@@ -1,0 +1,47 @@
+{
+  "entity": "Resource depletion",
+  "properties": {
+    "type": "Environmental problem",
+    "definition": "Consumption faster than replenishment",
+    "cause": "Human activity",
+    "impact": "Environmental degradation",
+    "affected_resources": "Water, minerals, forests, soil",
+    "scale": "Global",
+    "related_concept": "Sustainability",
+    "measurement": "Rate of consumption vs. regeneration",
+    "economic_impact": "Increased scarcity, price volatility",
+    "social_impact": "Inequality, conflict"
+  },
+  "relationship": [
+    {
+      "causes": "Overconsumption"
+    },
+    {
+      "linked_to": "Climate change"
+    },
+    {
+      "impacts": "Biodiversity loss"
+    },
+    {
+      "mitigated_by": "Conservation"
+    },
+    {
+      "related_to": "Carrying capacity"
+    },
+    {
+      "example_resource": "Fossil fuels"
+    },
+    {
+      "example_resource": "Freshwater"
+    },
+    {
+      "impacts": "Soil erosion"
+    },
+    {
+      "addressed_by": "Circular economy"
+    },
+    {
+      "linked_to": "Population growth"
+    }
+  ]
+}

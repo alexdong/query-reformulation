@@ -1,0 +1,47 @@
+{
+  "entity": "Rarotonga Lagoon",
+  "properties": {
+    "type": "Lagoon",
+    "location": "Cook Islands",
+    "area": "30 km²",
+    "depth_avg": "30 m",
+    "max_depth": "80 m",
+    "salinity": "Marine",
+    "visibility": "High",
+    "temperature_avg": "28°C",
+    "biodiversity": "High",
+    "barrier_reef": "True"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "surrounds": "Rarotonga"
+    },
+    {
+      "contains": "Coral reefs"
+    },
+    {
+      "supports": "Marine life"
+    },
+    {
+      "adjacent_to": "Rarotonga Island"
+    },
+    {
+      "influenced_by": "Trade winds"
+    },
+    {
+      "provides": "Fishing grounds"
+    },
+    {
+      "used_for": "Tourism"
+    },
+    {
+      "connected_to": "Open ocean"
+    },
+    {
+      "ecosystem_type": "Tropical reef ecosystem"
+    }
+  ]
+}

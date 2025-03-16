@@ -1,0 +1,47 @@
+{
+  "entity": "Columbia River",
+  "properties": {
+    "type": "River",
+    "length": "2,000 km",
+    "source": "Canadian Rockies",
+    "mouth": "Pacific Ocean",
+    "countries": "Canada, United States",
+    "basin_area": "259,000 km²",
+    "discharge": "7,400 m³/s",
+    "tributaries": "Snake River, Fraser River",
+    "navigable": "Yes",
+    "major_cities": "Portland, Vancouver"
+  },
+  "relationship": [
+    {
+      "flows_into": "Pacific Ocean"
+    },
+    {
+      "tributary_of": "Fraser River"
+    },
+    {
+      "tributary_of": "Snake River"
+    },
+    {
+      "crosses": "Canada–United States border"
+    },
+    {
+      "forms_part_of": "Salish Sea"
+    },
+    {
+      "drains_to": "Willamette Valley"
+    },
+    {
+      "passes_through": "Washington State"
+    },
+    {
+      "passes_through": "Oregon"
+    },
+    {
+      "passes_through": "British Columbia"
+    },
+    {
+      "supports": "Salmon population"
+    }
+  ]
+}

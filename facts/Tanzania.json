@@ -1,0 +1,47 @@
+{
+  "entity": "Tanzania",
+  "properties": {
+    "capital": "Dodoma",
+    "official_language": "Swahili",
+    "population": "67,438,000",
+    "area_km2": "947,303",
+    "currency": "Tanzanian Shilling",
+    "largest_city": "Dar es Salaam",
+    "continent": "Africa",
+    "government_type": "Presidential republic",
+    "national_dish": "Ugali",
+    "GDP_nominal": "74.7 billion USD"
+  },
+  "relationship": [
+    {
+      "part_of": "East Africa"
+    },
+    {
+      "borders": "Kenya"
+    },
+    {
+      "borders": "Uganda"
+    },
+    {
+      "borders": "Rwanda"
+    },
+    {
+      "borders": "Burundi"
+    },
+    {
+      "borders": "Malawi"
+    },
+    {
+      "borders": "Mozambique"
+    },
+    {
+      "borders": "Zambia"
+    },
+    {
+      "member_of": "African Union"
+    },
+    {
+      "contains": "Mount Kilimanjaro"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Solar System",
+  "properties": {
+    "type": "Star System",
+    "star": "Sun",
+    "age": "4.568 billion years",
+    "diameter": "19,000 million km",
+    "location": "Milky Way Galaxy",
+    "distance_from_earth": "150 million km",
+    "number_of_planets": "8",
+    "orbital_period": "225 million years",
+    "contains": "Asteroid Belt",
+    "has_satellite": "Moon"
+  },
+  "relationship": [
+    {
+      "part_of": "Milky Way Galaxy"
+    },
+    {
+      "orbits": "Sun"
+    },
+    {
+      "contains": "Mercury"
+    },
+    {
+      "contains": "Venus"
+    },
+    {
+      "contains": "Earth"
+    },
+    {
+      "contains": "Mars"
+    },
+    {
+      "contains": "Jupiter"
+    },
+    {
+      "contains": "Saturn"
+    },
+    {
+      "contains": "Uranus"
+    },
+    {
+      "contains": "Neptune"
+    }
+  ]
+}

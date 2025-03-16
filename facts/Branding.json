@@ -1,0 +1,47 @@
+{
+  "entity": "Branding",
+  "properties": {
+    "definition": "Marketing process",
+    "purpose": "Shape perception",
+    "elements": "Logo, Name, Slogan",
+    "focus": "Differentiation",
+    "type": "Marketing strategy",
+    "scope": "Product, Service, Company",
+    "goal": "Customer loyalty",
+    "intangible": "Reputation, Emotion",
+    "discipline": "Marketing",
+    "origin": "Late 19th Century"
+  },
+  "relationship": [
+    {
+      "part_of": "Marketing"
+    },
+    {
+      "related_to": "Advertising"
+    },
+    {
+      "influences": "Consumer behavior"
+    },
+    {
+      "requires": "Market research"
+    },
+    {
+      "involves": "Brand identity"
+    },
+    {
+      "creates": "Brand equity"
+    },
+    {
+      "impacts": "Customer perception"
+    },
+    {
+      "overlaps_with": "Public relations"
+    },
+    {
+      "requires": "Visual identity"
+    },
+    {
+      "supports": "Business strategy"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Chester, Nova Scotia",
+  "properties": {
+    "type": "Village",
+    "province": "Nova Scotia",
+    "country": "Canada",
+    "latitude": "45.152",
+    "longitude": "-62.358",
+    "population_2021": "235",
+    "postal_code": "B0J 1K0",
+    "time_zone": "AST",
+    "elevation_meters": "118",
+    "named_after": "Chester, England"
+  },
+  "relationship": [
+    {
+      "part_of": "Lunenburg County"
+    },
+    {
+      "located_near": "Mahone Bay"
+    },
+    {
+      "located_near": "Port Medway"
+    },
+    {
+      "river_flows_through": "Chester River"
+    },
+    {
+      "historical_industry": "Shipbuilding"
+    },
+    {
+      "attraction": "Chester Playhouse"
+    },
+    {
+      "attraction": "Chester Back Harbour"
+    },
+    {
+      "influenced_by": "Loyalists"
+    },
+    {
+      "founded_in": "1772"
+    },
+    {
+      "has_nearby": "St. Margaret's Bay"
+    }
+  ]
+}

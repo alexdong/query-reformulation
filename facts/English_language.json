@@ -1,0 +1,47 @@
+{
+  "entity": "English language",
+  "properties": {
+    "iso_code": "eng",
+    "family": "Indo-European",
+    "origin": "England",
+    "speakers": "1.45 billion",
+    "writing_system": "Latin alphabet",
+    "official_language": "Many countries",
+    "typology": "Analytic",
+    "status": "Global",
+    "influenced_by": "Latin, Germanic",
+    "related_to": "Germanic languages"
+  },
+  "relationship": [
+    {
+      "part_of": "Indo-European languages"
+    },
+    {
+      "influenced": "Shakespeare"
+    },
+    {
+      "influenced_by": "Old English"
+    },
+    {
+      "related_to": "German language"
+    },
+    {
+      "related_to": "French language"
+    },
+    {
+      "written_in": "Literature"
+    },
+    {
+      "spoken_in": "United States"
+    },
+    {
+      "spoken_in": "United Kingdom"
+    },
+    {
+      "has_dialect": "Cockney"
+    },
+    {
+      "has_dialect": "African American Vernacular English"
+    }
+  ]
+}

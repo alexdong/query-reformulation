@@ -1,0 +1,47 @@
+{
+  "entity": "Queensland",
+  "properties": {
+    "type": "State",
+    "capital": "Brisbane",
+    "area_km2": "1450000",
+    "population_2021": "5189000",
+    "sovereign_state": "Australia",
+    "official_language": "English",
+    "largest_city": "Brisbane",
+    "discovery_year": "1770",
+    "explorer": "James Cook",
+    "time_zone": "UTC+10"
+  },
+  "relationship": [
+    {
+      "part_of": "Australia"
+    },
+    {
+      "borders": "New South Wales"
+    },
+    {
+      "borders": "Northern Territory"
+    },
+    {
+      "borders": "South Australia"
+    },
+    {
+      "contains": "Great Barrier Reef"
+    },
+    {
+      "contains": "Daintree Rainforest"
+    },
+    {
+      "contains": "Brisbane"
+    },
+    {
+      "contains": "Cairns"
+    },
+    {
+      "economy_sector": "Tourism"
+    },
+    {
+      "economy_sector": "Agriculture"
+    }
+  ]
+}

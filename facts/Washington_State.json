@@ -1,0 +1,47 @@
+{
+  "entity": "Washington State",
+  "properties": {
+    "capital": "Olympia",
+    "largest_city": "Seattle",
+    "area_km2": "215425",
+    "population_2023": "7832953",
+    "state_motto": "The Evergreen State",
+    "time_zone": "Pacific Time",
+    "official_language": "English",
+    "state_flower": "Coast Rhododendron",
+    "state_bird": "American Robin",
+    "nicknames": "Evergreen State, Apple State"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "borders": "Oregon"
+    },
+    {
+      "borders": "Idaho"
+    },
+    {
+      "borders": "British Columbia"
+    },
+    {
+      "located_in": "Pacific Northwest"
+    },
+    {
+      "contains": "Mount Rainier"
+    },
+    {
+      "contains": "Puget Sound"
+    },
+    {
+      "industry": "Aerospace"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "governor": "Jay Inslee"
+    }
+  ]
+}

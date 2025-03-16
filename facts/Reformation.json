@@ -1,0 +1,47 @@
+{
+  "entity": "Reformation",
+  "properties": {
+    "instance_of": "Religious movement",
+    "start_date": "1517",
+    "end_date": "1648",
+    "primary_region": "Europe",
+    "cause": "Church corruption, Indulgences",
+    "major_figure": "Martin Luther",
+    "religious_impact": "Protestantism",
+    "political_impact": "Rise of nation-states",
+    "social_impact": "Increased literacy, Religious conflict",
+    "related_concept": "Counter-Reformation"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Late Medieval Period"
+    },
+    {
+      "influenced": "Protestant denominations"
+    },
+    {
+      "influenced": "Rise of nation-states"
+    },
+    {
+      "involved": "Martin Luther"
+    },
+    {
+      "involved": "John Calvin"
+    },
+    {
+      "involved": "Ulrich Zwingli"
+    },
+    {
+      "opposed_by": "Catholic Church"
+    },
+    {
+      "resulted_in": "Peace of Westphalia"
+    },
+    {
+      "affected": "Holy Roman Empire"
+    },
+    {
+      "influenced": "English Reformation"
+    }
+  ]
+}

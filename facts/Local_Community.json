@@ -1,0 +1,47 @@
+{
+  "entity": "Local Community",
+  "properties": {
+    "definition": "Geographic area with shared identity",
+    "size": "Variable",
+    "location": "Specific geographic area",
+    "identity": "Shared values, culture",
+    "governance": "Local government, informal leaders",
+    "economy": "Local businesses, agriculture",
+    "social_structure": "Families, groups, organizations",
+    "challenges": "Economic hardship, social divisions",
+    "opportunities": "Local development, social cohesion",
+    "examples": "Neighborhoods, villages, towns"
+  },
+  "relationship": [
+    {
+      "part_of": "Region"
+    },
+    {
+      "located_in": "Country"
+    },
+    {
+      "impacted_by": "Government Policy"
+    },
+    {
+      "interacts_with": "Local Economy"
+    },
+    {
+      "contains": "Local Businesses"
+    },
+    {
+      "influenced_by": "Local Culture"
+    },
+    {
+      "participates_in": "Community Events"
+    },
+    {
+      "governed_by": "Local Government"
+    },
+    {
+      "supports": "Local Charities"
+    },
+    {
+      "connected_to": "Neighboring Communities"
+    }
+  ]
+}

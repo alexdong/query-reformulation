@@ -1,0 +1,47 @@
+{
+  "entity": "Whanganui",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Manawatū-Whanganui",
+    "population_2018": "49,572",
+    "river": "Whanganui River",
+    "established": "1840s",
+    "latitude": "-39.74",
+    "longitude": "174.16",
+    "time_zone": "NZST",
+    "mayor": "Hamish McDouall"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Manawatū-Whanganui Region"
+    },
+    {
+      "flows_through": "Whanganui River"
+    },
+    {
+      "founded_by": "European settlers"
+    },
+    {
+      "has_sister_city": "Ōtara"
+    },
+    {
+      "has_historical_connection": "Māori"
+    },
+    {
+      "has_industry": "Agriculture"
+    },
+    {
+      "has_industry": "Tourism"
+    },
+    {
+      "has_landmark": "Whanganui National Park"
+    },
+    {
+      "has_transport": "State Highway 3"
+    }
+  ]
+}

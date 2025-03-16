@@ -1,0 +1,47 @@
+{
+  "entity": "5 km run",
+  "properties": {
+    "type": "Road race",
+    "distance": "5 kilometers",
+    "approximate_time": "20-30 minutes (average)",
+    "popularity": "Very high",
+    "difficulty": "Moderate",
+    "common_surface": "Pavement",
+    "age_suitability": "All ages",
+    "training_focus": "Cardiovascular fitness",
+    "governing_body": "World Athletics",
+    "origin": "Early 20th century"
+  },
+  "relationship": [
+    {
+      "part_of": "Road running"
+    },
+    {
+      "related_to": "Marathon"
+    },
+    {
+      "preceded_by": "Track running"
+    },
+    {
+      "influenced": "Fitness trends"
+    },
+    {
+      "requires": "Running shoes"
+    },
+    {
+      "requires": "Athletic clothing"
+    },
+    {
+      "measured_in": "Kilometers"
+    },
+    {
+      "benefits": "Cardiovascular health"
+    },
+    {
+      "often_held_in": "Parks"
+    },
+    {
+      "training_method": "Interval training"
+    }
+  ]
+}

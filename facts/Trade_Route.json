@@ -1,0 +1,47 @@
+{
+  "entity": "Trade Route",
+  "properties": {
+    "type": "Network",
+    "purpose": "Exchange Goods",
+    "era": "Ancient to Modern",
+    "medium": "Land, Sea, River",
+    "impact": "Economic, Cultural",
+    "risk": "Piracy, Warfare",
+    "length": "Variable",
+    "nodes": "Cities, Ports",
+    "goods_traded": "Spices, Textiles, Metals",
+    "development": "Facilitates Globalization"
+  },
+  "relationship": [
+    {
+      "connects": "Silk Road"
+    },
+    {
+      "connects": "Amber Road"
+    },
+    {
+      "connects": "Trans-Saharan Trade"
+    },
+    {
+      "connects": "Indian Ocean Trade Route"
+    },
+    {
+      "connects": "Maritime Silk Road"
+    },
+    {
+      "influenced": "Spread of Disease"
+    },
+    {
+      "influenced": "Cultural Diffusion"
+    },
+    {
+      "facilitates": "Economic Growth"
+    },
+    {
+      "impacts": "Political Power"
+    },
+    {
+      "requires": "Infrastructure"
+    }
+  ]
+}

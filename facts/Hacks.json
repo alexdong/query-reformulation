@@ -1,0 +1,47 @@
+{
+  "entity": "Hacks",
+  "properties": {
+    "instance_of": "American television series",
+    "creator": "Lucia Aniello",
+    "genre": "Comedy-drama",
+    "network": "HBO",
+    "premier_date": "June 3, 2021",
+    "number_of_seasons": "2",
+    "setting": "Los Angeles, California",
+    "production_company": "Warner Bros. Television",
+    "language": "English",
+    "format": "Television show"
+  },
+  "relationship": [
+    {
+      "creator_of": "Lucia Aniello"
+    },
+    {
+      "genre_is": "Comedy"
+    },
+    {
+      "genre_is": "Drama"
+    },
+    {
+      "network_is": "HBO"
+    },
+    {
+      "production_company_is": "Warner Bros. Television"
+    },
+    {
+      "starring": "Jean Smart"
+    },
+    {
+      "starring": "Hannah Einbinder"
+    },
+    {
+      "influenced_by": "Stand-up comedy"
+    },
+    {
+      "theme_explores": "Generational differences"
+    },
+    {
+      "theme_explores": "Female empowerment"
+    }
+  ]
+}

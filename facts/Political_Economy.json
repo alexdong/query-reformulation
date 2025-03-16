@@ -1,0 +1,47 @@
+{
+  "entity": "Political Economy",
+  "properties": {
+    "definition": "Study of state, markets, and power",
+    "discipline": "Social Science",
+    "subfield_of": "Economics & Political Science",
+    "historical_roots": "Mercantilism, Physiocracy",
+    "key_concept": "Distribution of wealth & power",
+    "methodology": "Interdisciplinary",
+    "focus": "State-market interaction",
+    "related_fields": "Public Choice, International Relations",
+    "prominent_thinker": "Adam Smith, Karl Marx",
+    "contemporary_issue": "Inequality, Globalization"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Mercantilism"
+    },
+    {
+      "influenced_by": "Classical Economics"
+    },
+    {
+      "influenced_by": "Marxism"
+    },
+    {
+      "overlaps_with": "Public Choice Theory"
+    },
+    {
+      "related_to": "Development Economics"
+    },
+    {
+      "analyzes": "Market Failures"
+    },
+    {
+      "examines": "Regulation"
+    },
+    {
+      "studies": "Trade Policy"
+    },
+    {
+      "addresses": "Income Distribution"
+    },
+    {
+      "intersects_with": "Behavioral Economics"
+    }
+  ]
+}

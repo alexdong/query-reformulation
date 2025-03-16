@@ -1,0 +1,47 @@
+{
+  "entity": "Funk Music",
+  "properties": {
+    "genre": "Music genre",
+    "origin": "United States",
+    "time_period": "1960s-1980s",
+    "rhythm": "Syncopated",
+    "bass_emphasis": "Prominent",
+    "instrumentation": "Electric guitar, bass, drums, keyboards",
+    "vocal_style": "Call and response, chanted vocals",
+    "danceability": "High",
+    "key_elements": "Groove, rhythm, dance",
+    "subgenre_of": "R&B"
+  },
+  "relationship": [
+    {
+      "influenced": "Disco"
+    },
+    {
+      "influenced": "Hip Hop"
+    },
+    {
+      "influenced": "House Music"
+    },
+    {
+      "preceded_by": "Soul Music"
+    },
+    {
+      "artist": "James Brown"
+    },
+    {
+      "artist": "Sly and the Family Stone"
+    },
+    {
+      "artist": "Parliament-Funkadelic"
+    },
+    {
+      "related_to": "Jazz"
+    },
+    {
+      "subgenre": "Boogie Funk"
+    },
+    {
+      "subgenre": "Electro-Funk"
+    }
+  ]
+}

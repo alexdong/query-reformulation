@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Regional Council",
+  "properties": {
+    "type": "Regional Council",
+    "region": "Otago",
+    "country": "New Zealand",
+    "established": "1876",
+    "headquarters": "Dunedin",
+    "governing_body": "Elected Councillors",
+    "responsible_for": "Regional planning",
+    "funding_source": "Rates and Government Grants",
+    "area_covered": "32,277 km²",
+    "website": "otago.govt.nz"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand Government"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "oversees": "Otago region"
+    },
+    {
+      "works_with": "Environment Canterbury"
+    },
+    {
+      "reports_to": "Ministry of Local Government"
+    },
+    {
+      "manages": "Otago Harbour"
+    },
+    {
+      "responsible_for": "Resource Management Act"
+    },
+    {
+      "collaborates_with": "Department of Conservation"
+    },
+    {
+      "provides_services_to": "Otago residents"
+    },
+    {
+      "influences": "Otago Unitary Plan"
+    }
+  ]
+}

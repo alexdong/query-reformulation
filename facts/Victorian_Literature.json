@@ -1,0 +1,47 @@
+{
+  "entity": "Victorian Literature",
+  "properties": {
+    "time_period": "1837-1901",
+    "genre": "Novel, Poetry, Drama",
+    "setting": "Victorian Era",
+    "themes": "Social Class, Industrialization, Morality, Religion",
+    "style": "Realism, Romanticism, Naturalism",
+    "language": "English",
+    "origin": "United Kingdom",
+    "audience": "Middle Class",
+    "influence": "Romanticism, Enlightenment",
+    "legacy": "Modern Literature"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Romanticism"
+    },
+    {
+      "influenced": "Modern Literature"
+    },
+    {
+      "author": "Charles Dickens"
+    },
+    {
+      "author": "Charlotte Brontë"
+    },
+    {
+      "author": "George Eliot"
+    },
+    {
+      "author": "Alfred Lord Tennyson"
+    },
+    {
+      "work_features": "Industrial Revolution"
+    },
+    {
+      "work_features": "Social Reform"
+    },
+    {
+      "work_features": "Empire"
+    },
+    {
+      "related_to": "Victorian Era"
+    }
+  ]
+}

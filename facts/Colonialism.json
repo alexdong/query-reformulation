@@ -1,0 +1,47 @@
+{
+  "entity": "Colonialism",
+  "properties": {
+    "definition": "Control/exploitation of territories",
+    "era": "15th-20th centuries",
+    "motivation": "Economic/Political/Religious",
+    "impact": "Significant societal change",
+    "scale": "Global",
+    "type": "Imperialism",
+    "legacy": "Political/Cultural/Economic",
+    "root_cause": "European expansion",
+    "decolonization_start": "Post-WWII",
+    "criticism": "Exploitation/Inequality"
+  },
+  "relationship": [
+    {
+      "caused_by": "Age of Discovery"
+    },
+    {
+      "related_to": "Imperialism"
+    },
+    {
+      "impacted": "Indigenous populations"
+    },
+    {
+      "influenced": "Globalization"
+    },
+    {
+      "example_of": "British Empire"
+    },
+    {
+      "example_of": "French Colonial Empire"
+    },
+    {
+      "led_to": "Decolonization"
+    },
+    {
+      "resulted_in": "Neo-colonialism"
+    },
+    {
+      "affected": "Africa"
+    },
+    {
+      "affected": "Asia"
+    }
+  ]
+}

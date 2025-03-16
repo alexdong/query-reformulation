@@ -1,0 +1,47 @@
+{
+  "entity": "Northland Region",
+  "properties": {
+    "type": "Region",
+    "country": "New Zealand",
+    "area_km2": "11,172",
+    "population_2023": "55,700",
+    "region_code": "08",
+    "capital": "Whangarei",
+    "climate": "Subtropical",
+    "main_industry": "Tourism",
+    "geography": "Coastal",
+    "maori_name": "Te Tai Tokerau"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Whangarei"
+    },
+    {
+      "contains": "Kerikeri"
+    },
+    {
+      "contains": "Kaitaia"
+    },
+    {
+      "adjacent_to": "Auckland Region"
+    },
+    {
+      "adjacent_to": "Waikato Region"
+    },
+    {
+      "has_iwi": "Ngāpuhi"
+    },
+    {
+      "has_iwi": "Te Roroa"
+    },
+    {
+      "has_landmark": "Bay of Islands"
+    }
+  ]
+}

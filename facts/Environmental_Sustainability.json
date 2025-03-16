@@ -1,0 +1,47 @@
+{
+  "entity": "Environmental Sustainability",
+  "properties": {
+    "definition": "Meeting needs without compromising future generations",
+    "focus": "Resource management, pollution reduction",
+    "pillar_1": "Environmental protection",
+    "pillar_2": "Social equity",
+    "pillar_3": "Economic viability",
+    "scope": "Global, local",
+    "key_concept": "Interconnectedness",
+    "goal": "Long-term well-being",
+    "related_concept": "Regenerative practices",
+    "impact_area": "Climate change, biodiversity"
+  },
+  "relationship": [
+    {
+      "is_a": "Sustainability"
+    },
+    {
+      "requires": "Resource conservation"
+    },
+    {
+      "addresses": "Climate change"
+    },
+    {
+      "promotes": "Renewable energy"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "benefits": "Human health"
+    },
+    {
+      "supports": "Circular economy"
+    },
+    {
+      "requires": "Policy changes"
+    },
+    {
+      "linked_to": "Environmental science"
+    },
+    {
+      "influenced_by": "Deep ecology"
+    }
+  ]
+}

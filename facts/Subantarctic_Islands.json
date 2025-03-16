@@ -1,0 +1,47 @@
+{
+  "entity": "Subantarctic Islands",
+  "properties": {
+    "type": "Island group",
+    "location": "Southern Ocean",
+    "area": "Approximately 5000 km²",
+    "climate": "Subpolar oceanic",
+    "biogeography": "Antarctic zone",
+    "geology": "Volcanic and continental",
+    "flora": "Tundra and grasslands",
+    "fauna": "Seabirds, seals, penguins",
+    "governance": "Various nations (New Zealand, France, UK)",
+    "discovery_date": "17th-19th centuries"
+  },
+  "relationship": [
+    {
+      "part_of": "Antarctica region"
+    },
+    {
+      "located_near": "Antarctic Convergence"
+    },
+    {
+      "contains": "Macquarie Island"
+    },
+    {
+      "contains": "South Georgia Island"
+    },
+    {
+      "contains": "Balleny Islands"
+    },
+    {
+      "influenced_by": "Antarctic Circumpolar Current"
+    },
+    {
+      "habitat_for": "King Penguin"
+    },
+    {
+      "habitat_for": "Southern Elephant Seal"
+    },
+    {
+      "protected_area": "South Georgia and the South Sandwich Islands"
+    },
+    {
+      "research_site_for": "British Antarctic Survey"
+    }
+  ]
+}

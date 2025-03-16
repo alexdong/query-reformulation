@@ -1,0 +1,47 @@
+{
+  "entity": "Kultura (series)",
+  "properties": {
+    "instance_of": "Science fiction series",
+    "author": "Ilya Vashevskiy",
+    "genre": "Science fiction",
+    "publication_start_date": "1991",
+    "setting": "Far future",
+    "language": "Russian",
+    "number_of_books": "13",
+    "themes": "Artificial intelligence, transhumanism, society",
+    "narrative_perspective": "First-person",
+    "publisher": "AST"
+  },
+  "relationship": [
+    {
+      "influenced": "Cyberpunk"
+    },
+    {
+      "author_writes": "Ilya Vashevskiy"
+    },
+    {
+      "setting_takes_place_in": "Future"
+    },
+    {
+      "genre_includes": "Science fiction"
+    },
+    {
+      "character_appears": "Dmitry Shulga"
+    },
+    {
+      "character_appears": "Anna Polonskaya"
+    },
+    {
+      "character_appears": "Gavril Zorin"
+    },
+    {
+      "setting_location": "Orbit"
+    },
+    {
+      "influenced_by": "Soviet science fiction"
+    },
+    {
+      "publication_language": "Russian language"
+    }
+  ]
+}

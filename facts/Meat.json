@@ -1,0 +1,47 @@
+{
+  "entity": "Meat",
+  "properties": {
+    "type": "Animal tissue",
+    "nutrient_source": "Animals",
+    "primary_protein": "Animal protein",
+    "fat_content": "Variable",
+    "color": "Variable",
+    "flavor": "Umami",
+    "shelf_life": "Limited",
+    "preparation_methods": "Various",
+    "cultural_significance": "Widespread",
+    "digestibility": "Moderate"
+  },
+  "relationship": [
+    {
+      "part_of": "Animal"
+    },
+    {
+      "contains": "Protein"
+    },
+    {
+      "contains": "Fat"
+    },
+    {
+      "source_of": "Amino acids"
+    },
+    {
+      "processed_into": "Processed meat"
+    },
+    {
+      "used_in": "Cuisine"
+    },
+    {
+      "related_to": "Livestock"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "consumed_by": "Humans"
+    },
+    {
+      "related_to": "Nutrition"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Community Engagement",
+  "properties": {
+    "definition": "Collaboration with community members",
+    "purpose": "Mutual benefit, shared goals",
+    "focus": "Building relationships",
+    "scope": "Local, regional, global",
+    "methods": "Meetings, surveys, volunteering",
+    "benefit_to_org": "Improved reputation, access to resources",
+    "benefit_to_community": "Empowerment, resource access",
+    "key_element": "Trust",
+    "stakeholders": "Residents, organizations, government",
+    "outcome": "Positive social impact"
+  },
+  "relationship": [
+    {
+      "part_of": "Public Relations"
+    },
+    {
+      "related_to": "Social Impact"
+    },
+    {
+      "requires": "Communication"
+    },
+    {
+      "supports": "Citizen Participation"
+    },
+    {
+      "overlaps_with": "Community Development"
+    },
+    {
+      "involves": "Stakeholder Management"
+    },
+    {
+      "promotes": "Social Justice"
+    },
+    {
+      "linked_to": "Volunteerism"
+    },
+    {
+      "facilitated_by": "Non-governmental organizations"
+    },
+    {
+      "impacts": "Quality of Life"
+    }
+  ]
+}

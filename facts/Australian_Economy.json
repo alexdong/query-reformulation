@@ -1,0 +1,47 @@
+{
+  "entity": "Australian Economy",
+  "properties": {
+    "type": "Market economy",
+    "GDP_nominal": "1.69 trillion USD (2023)",
+    "GDP_per_capita": "56,777 USD (2023)",
+    "currency": "Australian Dollar (AUD)",
+    "major_exports": "Iron ore, coal, natural gas",
+    "primary_sectors": "Mining, agriculture, services",
+    "inflation_rate": "4.1% (2023)",
+    "unemployment_rate": "3.6% (2023)",
+    "trade_partner": "China, United States, Japan",
+    "economic_system": "Mixed economy"
+  },
+  "relationship": [
+    {
+      "part_of": "Global economy"
+    },
+    {
+      "influenced_by": "British Empire"
+    },
+    {
+      "member_of": "WTO"
+    },
+    {
+      "member_of": "G20"
+    },
+    {
+      "trade_with": "China"
+    },
+    {
+      "trade_with": "United States"
+    },
+    {
+      "trade_with": "Japan"
+    },
+    {
+      "resource_dependency": "Mining"
+    },
+    {
+      "regulates": "Reserve Bank of Australia"
+    },
+    {
+      "impacted_by": "Australian dollar"
+    }
+  ]
+}

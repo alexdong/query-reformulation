@@ -1,0 +1,47 @@
+{
+  "entity": "Infrastructure",
+  "properties": {
+    "instance_of": "System",
+    "type": "Physical & Digital",
+    "purpose": "Support Society",
+    "includes": "Roads, Bridges, Utilities",
+    "essential_for": "Economic Growth",
+    "requires": "Maintenance",
+    "impacts": "Quality of Life",
+    "funding_source": "Government, Private",
+    "design_considerations": "Sustainability, Resilience",
+    "examples": "Power grids, Transportation networks"
+  },
+  "relationship": [
+    {
+      "supports": "Economy"
+    },
+    {
+      "enables": "Transportation"
+    },
+    {
+      "provides": "Utilities"
+    },
+    {
+      "impacts": "Urban Planning"
+    },
+    {
+      "relies_on": "Engineering"
+    },
+    {
+      "requires": "Investment"
+    },
+    {
+      "affected_by": "Natural Disasters"
+    },
+    {
+      "part_of": "Built Environment"
+    },
+    {
+      "contributes_to": "Public Services"
+    },
+    {
+      "overlaps_with": "Technology"
+    }
+  ]
+}

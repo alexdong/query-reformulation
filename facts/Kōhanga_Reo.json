@@ -1,0 +1,47 @@
+{
+  "entity": "Kōhanga Reo",
+  "properties": {
+    "type": "Language Nest",
+    "country": "New Zealand",
+    "language": "Māori",
+    "purpose": "Language revitalization",
+    "founded": "1982",
+    "founder": "Tōrena Gardiner",
+    "philosophy": "Immersion, whānau (family)",
+    "age_range": "Preschool",
+    "location": "Community-based",
+    "governance": "Trust"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori education"
+    },
+    {
+      "promotes": "Te Reo Māori"
+    },
+    {
+      "influenced_by": "Immersion education"
+    },
+    {
+      "founder_is": "Tōrena Gardiner"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "supports": "Whānau"
+    },
+    {
+      "aims_to": "Revitalize language"
+    },
+    {
+      "related_to": "Early childhood education"
+    },
+    {
+      "preceded_by": "Playcentre movement"
+    },
+    {
+      "similar_to": "Te Kura Kaupapa Māori"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Malbec (grape)",
+  "properties": {
+    "type": "Grape variety",
+    "origin": "French",
+    "color": "Dark purple",
+    "synonyms": "Côt",
+    "aroma": "Black fruit, plum, violet",
+    "flavor": "Full-bodied, tannic",
+    "best_suited_climate": "Warm, sunny",
+    "typical_region": "Argentina",
+    "genetic_origin": "Teinturier",
+    "viticultural_characteristics": "Late ripening"
+  },
+  "relationship": [
+    {
+      "wine_grape_family": "Vitaceae"
+    },
+    {
+      "region_produces": "Cahors"
+    },
+    {
+      "region_produces": "Mendoza"
+    },
+    {
+      "wine_style": "Red wine"
+    },
+    {
+      "food_pairing": "Grilled meats"
+    },
+    {
+      "grape_clone_of": "Côt"
+    },
+    {
+      "influenced_wine": "Argentine wine"
+    },
+    {
+      "wine_region": "Tuscany"
+    },
+    {
+      "wine_region": "France"
+    },
+    {
+      "related_grape": "Merlot"
+    }
+  ]
+}

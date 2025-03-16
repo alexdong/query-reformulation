@@ -1,0 +1,47 @@
+{
+  "entity": "Kāi Tahu",
+  "properties": {
+    "iwi": "true",
+    "region": "Southern Island, New Zealand",
+    "ancestral_land": "Te Waipounamu (South Island)",
+    "tribal_history_start": "16th century",
+    "language": "Te Reo Māori",
+    "population": "Approx. 40,000",
+    "treaty_partner": "British Crown",
+    "traditional_occupation": "Fishing, Farming, Hunting",
+    "governing_body": "Te Rūnanga o Ngāi Tahu",
+    "cultural_symbol": "Poutama"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori people"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "related_to": "Ngāi Tahu Treaty Settlement Act 1991"
+    },
+    {
+      "ancestor_of": "Waitaha"
+    },
+    {
+      "descendant_of": "Tūāhuriri"
+    },
+    {
+      "associated_with": "Aoraki (Mount Cook)"
+    },
+    {
+      "traditional_area": "Murihiku"
+    },
+    {
+      "traditional_area": "North Canterbury"
+    },
+    {
+      "cultural_site": "Ōnuku Marae"
+    },
+    {
+      "governed_by": "Te Rūnanga o Ngāi Tahu"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Ahe",
+  "properties": {
+    "instance_of": "Village",
+    "located_in": "Iran",
+    "province": "East Azerbaijan",
+    "latitude": "38.4667",
+    "longitude": "46.4167",
+    "elevation": "1500m",
+    "population_total": "1500",
+    "time_zone": "UTC+3:30",
+    "area_code": "041",
+    "postal_code": "53771"
+  },
+  "relationship": [
+    {
+      "part_of": "East Azerbaijan Province"
+    },
+    {
+      "located_near": "Ahar"
+    },
+    {
+      "contains": "Agricultural land"
+    },
+    {
+      "has_climate": "Humid subtropical"
+    },
+    {
+      "has_economy": "Agriculture"
+    },
+    {
+      "has_language": "Azerbaijani"
+    },
+    {
+      "governed_by": "Local council"
+    },
+    {
+      "connected_to": "Road 44"
+    },
+    {
+      "influenced_by": "Persian culture"
+    },
+    {
+      "has_landmark": "Local mosque"
+    }
+  ]
+}

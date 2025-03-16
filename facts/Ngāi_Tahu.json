@@ -1,0 +1,47 @@
+{
+  "entity": "Ngāi Tahu",
+  "properties": {
+    "iwi": "Māori tribe",
+    "region": "South Island, New Zealand",
+    "ancestor": "Hotuapa",
+    "language": "Te Reo Māori",
+    "treaty_partner": "British Crown",
+    "settlement_date": "1991",
+    "settlement_amount": "$170 million",
+    "traditional_occupation": "Fisheries, agriculture",
+    "cultural_symbol": "Poutama",
+    "governing_body": "Ngāi Tahu Runanga o Ōtautahi"
+  },
+  "relationship": [
+    {
+      "descendant_of": "Hotuapa"
+    },
+    {
+      "located_in": "Te Waipounamu"
+    },
+    {
+      "treaty_signed_with": "Treaty of Waitangi"
+    },
+    {
+      "has_rohe": "Waitaki"
+    },
+    {
+      "has_rohe": "Aoraki"
+    },
+    {
+      "has_rohe": "Murihiku"
+    },
+    {
+      "related_to": "Kāi Tahu"
+    },
+    {
+      "related_to": "Ngāti Māmoe"
+    },
+    {
+      "related_to": "Ngāti Huirangi"
+    },
+    {
+      "cultural_site": "Ōnuku Marae"
+    }
+  ]
+}

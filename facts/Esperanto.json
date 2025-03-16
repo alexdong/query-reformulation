@@ -1,0 +1,47 @@
+{
+  "entity": "Esperanto",
+  "properties": {
+    "instance_of": "Constructed language",
+    "creator": "Ludwik Lejzer Zamenhof",
+    "creation_date": "1887",
+    "purpose": "International auxiliary language",
+    "script": "Latin alphabet",
+    "official_status": "None",
+    "speakers": "100,000 - 2,000,000",
+    "language_family": "Constructed",
+    "influenced_by": "European languages",
+    "name_meaning": "One who hopes"
+  },
+  "relationship": [
+    {
+      "creator_is": "Ludwik Lejzer Zamenhof"
+    },
+    {
+      "influenced": "International communication"
+    },
+    {
+      "inspired_by": "European languages"
+    },
+    {
+      "promoted_by": "Esperanto movement"
+    },
+    {
+      "used_in": "Literature"
+    },
+    {
+      "used_in": "Music"
+    },
+    {
+      "used_in": "Translation"
+    },
+    {
+      "related_to": "Language construction"
+    },
+    {
+      "alternative_to": "English"
+    },
+    {
+      "has_community": "Esperanto speakers"
+    }
+  ]
+}

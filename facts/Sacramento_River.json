@@ -1,0 +1,47 @@
+{
+  "entity": "Sacramento River",
+  "properties": {
+    "type": "River",
+    "length": "400 mi",
+    "source": "Mount Shasta",
+    "mouth": "Suisun Bay",
+    "location": "California",
+    "basin_area": "19,510 sq mi",
+    "discharge_location": "Pacific Ocean",
+    "tributaries": "Feather River, American River",
+    "flow_rate": "6,700 cu ft/s",
+    "name_origin": "Sacramento Tribe"
+  },
+  "relationship": [
+    {
+      "flows_into": "Suisun Bay"
+    },
+    {
+      "tributary_of": "Central Valley"
+    },
+    {
+      "originates_at": "Mount Shasta"
+    },
+    {
+      "passes_through": "Sacramento Valley"
+    },
+    {
+      "part_of": "California Water System"
+    },
+    {
+      "provides_water_to": "Agriculture"
+    },
+    {
+      "supports_ecosystem": "Delta Smelt"
+    },
+    {
+      "navigable_by": "Barges"
+    },
+    {
+      "historical_settlement": "Sacramento"
+    },
+    {
+      "used_for": "Hydroelectric Power"
+    }
+  ]
+}

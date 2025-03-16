@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Dollar",
+  "properties": {
+    "currency_code": "NZD",
+    "symbol": "$",
+    "country": "New Zealand",
+    "introduction_date": "1967-07-04",
+    "decimal_places": "2",
+    "issuing_authority": "Reserve Bank of New Zealand",
+    "subunit": "Cent",
+    "ISO_4217_numeric_code": "554",
+    "legal_tender_in": "New Zealand",
+    "exchange_rate_vs_USD": "0.61"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "currency_union_with": "None"
+    },
+    {
+      "influenced_by": "New Zealand Pound"
+    },
+    {
+      "exchange_rate_tracked_by": "Bloomberg"
+    },
+    {
+      "managed_by": "Reserve Bank of New Zealand"
+    },
+    {
+      "used_in_trade_with": "Australia"
+    },
+    {
+      "denomination_of": "New Zealand Cent"
+    },
+    {
+      "economic_indicator_of": "New Zealand Economy"
+    },
+    {
+      "compared_to": "United States Dollar"
+    },
+    {
+      "historical_value_affected_by": "Global Financial Crisis"
+    }
+  ]
+}

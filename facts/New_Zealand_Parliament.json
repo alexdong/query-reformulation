@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Parliament",
+  "properties": {
+    "instance_of": "Legislative body",
+    "country": "New Zealand",
+    "type": "Parliamentary system",
+    "bicameral": "No",
+    "seats": "120",
+    "location": "Wellington",
+    "building": "Parliament House",
+    "head_of_state": "King Charles III",
+    "head_of_government": "Prime Minister",
+    "electoral_system": "Mixed-member proportional representation"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "head_of_state": "King Charles III"
+    },
+    {
+      "head_of_government": "Prime Minister of New Zealand"
+    },
+    {
+      "meets_in": "Parliament House"
+    },
+    {
+      "legislates_for": "New Zealand"
+    },
+    {
+      "member_of": "Commonwealth Parliamentary Association"
+    },
+    {
+      "governs": "New Zealand"
+    },
+    {
+      "established": "1854"
+    },
+    {
+      "elections": "New Zealand general election"
+    },
+    {
+      "influenced_by": "British Parliament"
+    }
+  ]
+}

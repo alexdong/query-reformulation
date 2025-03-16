@@ -1,0 +1,47 @@
+{
+  "entity": "Universities New Zealand - Te Whare Wānanga o Aotearoa",
+  "properties": {
+    "type": "Membership organisation",
+    "country": "New Zealand",
+    "focus": "Higher education",
+    "members": "NZ Universities",
+    "established": "1993",
+    "hq_location": "Wellington",
+    "purpose": "Advocacy & Collaboration",
+    "website": "universitiesnewzealand.ac.nz",
+    "ceo": "Barry Taylor",
+    "sector": "Tertiary education"
+  },
+  "relationship": [
+    {
+      "member_of": "New Zealand"
+    },
+    {
+      "represents": "New Zealand Universities"
+    },
+    {
+      "advocates_for": "Higher education"
+    },
+    {
+      "collaborates_with": "Tertiary sector"
+    },
+    {
+      "located_in": "Wellington"
+    },
+    {
+      "governed_by": "Council"
+    },
+    {
+      "ceo_is": "Barry Taylor"
+    },
+    {
+      "focuses_on": "Research"
+    },
+    {
+      "promotes": "Student wellbeing"
+    },
+    {
+      "affiliated_with": "Education New Zealand"
+    }
+  ]
+}

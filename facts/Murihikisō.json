@@ -1,0 +1,47 @@
+{
+  "entity": "Murihikisō",
+  "properties": {
+    "scientific_name": "Lysimachia nummularia",
+    "common_name": "Creeping Jenny",
+    "family": "Primulaceae",
+    "native_region": "Europe & Asia",
+    "plant_type": "Herbaceous perennial",
+    "growth_habit": "Trailing",
+    "flower_color": "Yellow",
+    "height": "Up to 30 cm",
+    "leaf_shape": "Round",
+    "uses": "Ornamental, erosion control"
+  },
+  "relationship": [
+    {
+      "synonym": "Moneywort"
+    },
+    {
+      "genus": "Lysimachia"
+    },
+    {
+      "family": "Primulaceae"
+    },
+    {
+      "natural_habitat": "Wetlands"
+    },
+    {
+      "cultivated_by": "Gardeners"
+    },
+    {
+      "used_for": "Ground cover"
+    },
+    {
+      "part_of": "Flora"
+    },
+    {
+      "related_to": "Buttercups"
+    },
+    {
+      "contains": "Flavonoids"
+    },
+    {
+      "used_in": "Hanging baskets"
+    }
+  ]
+}

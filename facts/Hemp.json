@@ -1,0 +1,47 @@
+{
+  "entity": "Hemp",
+  "properties": {
+    "type": "Plant",
+    "species": "Cannabis sativa",
+    "chemical_composition": "THC < 0.3%",
+    "primary_use": "Fiber and Seed",
+    "growth_period": "120 days",
+    "origin": "Central Asia",
+    "height": "Up to 6 meters",
+    "color": "Green",
+    "harvest_time": "Late summer/early autumn",
+    "uses": "Textiles, Food, Biofuel, Construction"
+  },
+  "relationship": [
+    {
+      "part_of_genus": "Cannabis"
+    },
+    {
+      "related_to": "Marijuana"
+    },
+    {
+      "cultivated_by": "Humans"
+    },
+    {
+      "used_in": "Rope"
+    },
+    {
+      "used_in": "Paper"
+    },
+    {
+      "used_in": "CBD products"
+    },
+    {
+      "source_of": "Hempseed oil"
+    },
+    {
+      "used_in": "Bioplastics"
+    },
+    {
+      "legal_status": "Varies by country"
+    },
+    {
+      "historical_use": "Ancient civilizations"
+    }
+  ]
+}

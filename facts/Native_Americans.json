@@ -1,0 +1,47 @@
+{
+  "entity": "Native Americans",
+  "properties": {
+    "alternate_names": "Indigenous peoples of the Americas",
+    "origin": "Americas",
+    "population": "5.7 million (2020, US)",
+    "languages": "Diverse, many endangered",
+    "cultures": "Highly diverse, varied traditions",
+    "history": "Thousands of years, complex interactions",
+    "treaties": "Numerous, often broken",
+    "land_ownership": "Historically dispossessed",
+    "sovereignty": "Tribal sovereignty recognized",
+    "federally_recognized_tribes": "574 (US)"
+  },
+  "relationship": [
+    {
+      "ancestor": "Paleo-Indians"
+    },
+    {
+      "related_to": "Indigenous peoples"
+    },
+    {
+      "influenced": "American culture"
+    },
+    {
+      "affected_by": "Colonialism"
+    },
+    {
+      "located_in": "North America"
+    },
+    {
+      "located_in": "Central America"
+    },
+    {
+      "located_in": "South America"
+    },
+    {
+      "movement": "Trail of Tears"
+    },
+    {
+      "event": "Wounded Knee Massacre"
+    },
+    {
+      "organization": "National Congress of American Indians"
+    }
+  ]
+}

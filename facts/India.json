@@ -1,0 +1,47 @@
+{
+  "entity": "India",
+  "properties": {
+    "capital": "New Delhi",
+    "population": "1.4 Billion",
+    "official_languages": "Hindi, English",
+    "currency": "Indian Rupee",
+    "area_km2": "3.287 Million",
+    "largest_city": "Mumbai",
+    "government_type": "Parliamentary Republic",
+    "independence_date": "1947-08-15",
+    "gdp_nominal": "3.4 Trillion USD",
+    "time_zone": "IST (UTC+5:30)"
+  },
+  "relationship": [
+    {
+      "part_of": "Asia"
+    },
+    {
+      "borders": "Pakistan"
+    },
+    {
+      "borders": "China"
+    },
+    {
+      "borders": "Bangladesh"
+    },
+    {
+      "borders": "Nepal"
+    },
+    {
+      "borders": "Bhutan"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "religion_major": "Hinduism"
+    },
+    {
+      "religion_minor": "Islam"
+    }
+  ]
+}

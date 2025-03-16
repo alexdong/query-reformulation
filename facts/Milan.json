@@ -1,0 +1,47 @@
+{
+  "entity": "Milan",
+  "properties": {
+    "capital_of": "Lombardy",
+    "population_density": "7,600/km²",
+    "area": "181.76 km²",
+    "official_language": "Italian",
+    "currency": "Euro",
+    "mayor": "Giuseppe Sala",
+    "founded_by": "Cisalpine Republic",
+    "time_zone": "CET",
+    "postal_code": "20100",
+    "elevation": "122 m"
+  },
+  "relationship": [
+    {
+      "part_of": "Italy"
+    },
+    {
+      "located_in": "Lombardy"
+    },
+    {
+      "has_landmark": "Duomo di Milano"
+    },
+    {
+      "has_landmark": "Teatro alla Scala"
+    },
+    {
+      "has_landmark": "Sforza Castle"
+    },
+    {
+      "is_a": "City"
+    },
+    {
+      "influenced": "Italian fashion"
+    },
+    {
+      "connected_to": "Navigli"
+    },
+    {
+      "has_team": "AC Milan"
+    },
+    {
+      "has_team": "Inter Milan"
+    }
+  ]
+}

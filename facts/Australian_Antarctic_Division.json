@@ -1,0 +1,47 @@
+{
+  "entity": "Australian Antarctic Division",
+  "properties": {
+    "agency_type": "Government agency",
+    "country": "Australia",
+    "parent_agency": "Department of Climate Change, Energy, the Environment and Water",
+    "established": "1939",
+    "headquarters": "King's Park, Hobart",
+    "purpose": "Antarctic research & operations",
+    "budget_2023_24": "1.4 billion AUD",
+    "staff_number": "700+",
+    "mandate": "Antarctic management",
+    "website": "https://www.antarctica.gov.au/"
+  },
+  "relationship": [
+    {
+      "part_of": "Australian Government"
+    },
+    {
+      "located_in": "Antarctica"
+    },
+    {
+      "operates": "Casey Station"
+    },
+    {
+      "operates": "Davis Station"
+    },
+    {
+      "operates": "Mawson Station"
+    },
+    {
+      "operates": "Macquarie Island Station"
+    },
+    {
+      "collaborates_with": "Antarctic Treaty System"
+    },
+    {
+      "research_focus": "Climate change"
+    },
+    {
+      "research_focus": "Marine science"
+    },
+    {
+      "research_focus": "Ecosystems"
+    }
+  ]
+}

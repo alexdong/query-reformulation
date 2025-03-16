@@ -1,0 +1,47 @@
+{
+  "entity": "Crusaders",
+  "properties": {
+    "instance_of": "Military order",
+    "historical_period": "Middle Ages",
+    "origin": "Europe",
+    "religious_affiliation": "Christianity",
+    "primary_goal": "Recapture Holy Land",
+    "military_branch": "Army",
+    "founder": "Godfrey of Bouillon",
+    "first_crusade_date": "1096",
+    "decline_date": "13th century",
+    "headquarters": "Jerusalem"
+  },
+  "relationship": [
+    {
+      "part_of": "First Crusade"
+    },
+    {
+      "member_of": "Knights Templar"
+    },
+    {
+      "member_of": "Hospitallers"
+    },
+    {
+      "fought_against": "Muslims"
+    },
+    {
+      "influenced": "European politics"
+    },
+    {
+      "influenced": "Military tactics"
+    },
+    {
+      "related_to": "Saladin"
+    },
+    {
+      "related_to": "Richard the Lionheart"
+    },
+    {
+      "location": "Jerusalem"
+    },
+    {
+      "location": "Antioch"
+    }
+  ]
+}

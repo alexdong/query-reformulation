@@ -1,0 +1,47 @@
+{
+  "entity": "Textile Worker",
+  "properties": {
+    "occupation": "Laborer",
+    "industry": "Textile Industry",
+    "skill": "Sewing, Weaving, Dyeing",
+    "historical_period": "Industrial Revolution",
+    "working_conditions": "Often harsh",
+    "typical_tasks": "Operating machinery, inspecting fabric",
+    "gender_ratio": "Historically female-dominated",
+    "wage": "Low",
+    "union_affiliation": "Historically active",
+    "geographic_location": "Globally dispersed"
+  },
+  "relationship": [
+    {
+      "labor_movement": "International Textile Workers' Federation"
+    },
+    {
+      "related_to": "Industrial Revolution"
+    },
+    {
+      "employs": "Textile Machinery"
+    },
+    {
+      "produces": "Fabric"
+    },
+    {
+      "impacted_by": "Child Labor"
+    },
+    {
+      "protested": "Low Wages"
+    },
+    {
+      "associated_with": "Strikes"
+    },
+    {
+      "part_of": "Manufacturing"
+    },
+    {
+      "affected_by": "Globalization"
+    },
+    {
+      "related_to": "Sweatshop"
+    }
+  ]
+}

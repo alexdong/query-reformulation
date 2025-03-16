@@ -1,0 +1,47 @@
+{
+  "entity": "Halifax, Nova Scotia",
+  "properties": {
+    "type": "City",
+    "population_2021": "405,517",
+    "province": "Nova Scotia",
+    "country": "Canada",
+    "founded": "1749",
+    "latitude": "44.6365",
+    "longitude": "-63.5755",
+    "time_zone": "AST",
+    "area_code": "902",
+    "official_language": "English"
+  },
+  "relationship": [
+    {
+      "part_of": "Halifax Regional Municipality"
+    },
+    {
+      "located_in": "Nova Scotia"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "harbors": "Halifax Harbour"
+    },
+    {
+      "influenced_by": "Mi'kmaq people"
+    },
+    {
+      "founded_by": "Edward Cornwallis"
+    },
+    {
+      "major_industry": "Port Operations"
+    },
+    {
+      "university": "Dalhousie University"
+    },
+    {
+      "military_base": "Canadian Forces Base Halifax"
+    },
+    {
+      "sister_city": "Rotterdam"
+    }
+  ]
+}

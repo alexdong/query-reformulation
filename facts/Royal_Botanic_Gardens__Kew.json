@@ -1,0 +1,47 @@
+{
+  "entity": "Royal Botanic Gardens, Kew",
+  "properties": {
+    "type": "Botanical garden",
+    "location": "Richmond, London",
+    "area": "183 acres",
+    "founded": "1759",
+    "owner": "UK Government",
+    "designation": "UNESCO World Heritage Site",
+    "director": "Sandra Knapton",
+    "collections": "Living plant collections",
+    "annual_visitors": "2.5 million",
+    "website": "kew.org"
+  },
+  "relationship": [
+    {
+      "part_of": "Richmond upon Thames"
+    },
+    {
+      "located_in": "London"
+    },
+    {
+      "managed_by": "Department for Environment, Food & Rural Affairs"
+    },
+    {
+      "contains": "Kew Palace"
+    },
+    {
+      "contains": "Davies Alpine House"
+    },
+    {
+      "contains": "Princess of Wales Conservatory"
+    },
+    {
+      "research_focus": "Plant science"
+    },
+    {
+      "collaborates_with": "Science and Advice for Scottish Agriculture"
+    },
+    {
+      "influences": "Botanical gardens worldwide"
+    },
+    {
+      "has_part": "Wakehurst Place"
+    }
+  ]
+}

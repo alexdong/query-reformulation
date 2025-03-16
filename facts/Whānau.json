@@ -1,0 +1,47 @@
+{
+  "entity": "Whānau",
+  "properties": {
+    "type": "Kinship group",
+    "origin": "Māori culture",
+    "meaning": "Extended family",
+    "structure": "Hierarchical",
+    "importance": "Central to Māori society",
+    "roles": "Defined by genealogy",
+    "responsibilities": "Collective care",
+    "values": "Respect, reciprocity, unity",
+    "governance": "Kaitiakitanga (guardianship)",
+    "location": "New Zealand"
+  },
+  "relationship": [
+    {
+      "part_of": "Iwi"
+    },
+    {
+      "related_to": "Hapū"
+    },
+    {
+      "includes": "Whakapapa"
+    },
+    {
+      "governed_by": "Kaumatua"
+    },
+    {
+      "supports": "Māori language"
+    },
+    {
+      "promotes": "Kultura"
+    },
+    {
+      "connected_to": "Marae"
+    },
+    {
+      "values": "Mana"
+    },
+    {
+      "associated_with": "Tangata whenua"
+    },
+    {
+      "contributes_to": "Māori identity"
+    }
+  ]
+}

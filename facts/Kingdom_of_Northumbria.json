@@ -1,0 +1,47 @@
+{
+  "entity": "Kingdom of Northumbria",
+  "properties": {
+    "type": "Anglo-Saxon Kingdom",
+    "location": "Northern England & Southern Scotland",
+    "capital": "York (Eboracum)",
+    "established": "633 AD",
+    "dissolved": "954 AD",
+    "language": "Old English",
+    "religion": "Christianity",
+    "area": "Approx. 15,000 sq mi",
+    "founder": "Edwin of Northumbria",
+    "major_city": "Durham"
+  },
+  "relationship": [
+    {
+      "part_of": "England"
+    },
+    {
+      "succession": "Kingdom of Strathclyde"
+    },
+    {
+      "war_with": "Picts"
+    },
+    {
+      "influenced": "Old English Literature"
+    },
+    {
+      "ruled_by": "Oswald of Northumbria"
+    },
+    {
+      "member_of": "Heptarchy"
+    },
+    {
+      "conquered_by": "Danes"
+    },
+    {
+      "located_near": "River Tyne"
+    },
+    {
+      "influenced": "Northumbrian Rite"
+    },
+    {
+      "part_of_region": "Northumbria"
+    }
+  ]
+}

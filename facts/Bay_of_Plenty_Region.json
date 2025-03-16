@@ -1,0 +1,47 @@
+{
+  "entity": "Bay of Plenty Region",
+  "properties": {
+    "type": "Region",
+    "location": "New Zealand",
+    "area_km2": "12,770",
+    "population_2023": "336,000",
+    "region_code": "BOP",
+    "main_city": "Tauranga",
+    "climate": "Subtropical",
+    "economy": "Agriculture, Tourism",
+    "maori_name": "Te Moananui a Toi",
+    "governing_body": "Bay of Plenty Regional Council"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "North Island"
+    },
+    {
+      "borders": "Waikato Region"
+    },
+    {
+      "borders": "Gisborne Region"
+    },
+    {
+      "contains": "Tauranga City"
+    },
+    {
+      "contains": "Western Bay of Plenty District"
+    },
+    {
+      "contains": "Whakatane District"
+    },
+    {
+      "contains": "Opotiki District"
+    },
+    {
+      "river_flows_through": "Rotorua"
+    },
+    {
+      "attraction": "Mount Maunganui"
+    }
+  ]
+}

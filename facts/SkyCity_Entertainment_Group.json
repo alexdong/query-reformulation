@@ -1,0 +1,47 @@
+{
+  "entity": "SkyCity Entertainment Group",
+  "properties": {
+    "industry": "Gaming and Hospitality",
+    "founder": "David Tilley",
+    "headquarters": "Auckland, New Zealand",
+    "stock_exchange": "NZX",
+    "stock_ticker": "SKC",
+    "revenue_2023": "647.7 million NZD",
+    "net_profit_2023": "138.4 million NZD",
+    "major_asset": "SkyCity Auckland",
+    "business_segments": "Casino, Hotel, Entertainment, Retail",
+    "company_formation": "1994"
+  },
+  "relationship": [
+    {
+      "owns": "SkyCity Auckland Casino"
+    },
+    {
+      "owns": "SkyCity Darwin Casino"
+    },
+    {
+      "owns": "SkyCity Adelaide Casino"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "located_in": "Australia"
+    },
+    {
+      "subsidiary_of": "None"
+    },
+    {
+      "competitor": "Crown Resorts"
+    },
+    {
+      "competitor": "The Star Entertainment Group"
+    },
+    {
+      "provides": "Gaming services"
+    },
+    {
+      "provides": "Hotel accommodation"
+    }
+  ]
+}

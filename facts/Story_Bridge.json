@@ -1,0 +1,47 @@
+{
+  "entity": "Story Bridge",
+  "properties": {
+    "type": "Bridge",
+    "location": "Brisbane",
+    "material": "Steel",
+    "architect": "AB Cardew",
+    "engineer": "D. Atkins",
+    "height": "127m",
+    "length": "1,160m",
+    "span": "360m",
+    "opened": "1932",
+    "cost": "$4.8 million"
+  },
+  "relationship": [
+    {
+      "crosses": "Brisbane River"
+    },
+    {
+      "located_in": "Queensland"
+    },
+    {
+      "part_of": "Brisbane City"
+    },
+    {
+      "designed_by": "AB Cardew"
+    },
+    {
+      "engineered_by": "D. Atkins"
+    },
+    {
+      "connects": "South Brisbane"
+    },
+    {
+      "connects": "Petrie Ponds"
+    },
+    {
+      "landmark_in": "Brisbane"
+    },
+    {
+      "has_feature": "Climbing Experience"
+    },
+    {
+      "style": "Cantilever Bridge"
+    }
+  ]
+}

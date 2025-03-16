@@ -1,0 +1,47 @@
+{
+  "entity": "Mexican-American War",
+  "properties": {
+    "start_date": "1846-05-13",
+    "end_date": "1848-02-02",
+    "casus_belli": "Texas annexation dispute",
+    "outcome": "U.S. victory",
+    "territory_gained": "Mexican Cession",
+    "treaty": "Treaty of Guadalupe Hidalgo",
+    "belligerents": "Mexico vs. United States",
+    "primary_cause": "Manifest Destiny",
+    "casualties_us": "13,000",
+    "casualties_mexico": "25,000"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Texas Revolution"
+    },
+    {
+      "followed_by": "Gadsden Purchase"
+    },
+    {
+      "involved": "Zachary Taylor"
+    },
+    {
+      "involved": "Antonio López de Santa Anna"
+    },
+    {
+      "involved": "James K. Polk"
+    },
+    {
+      "territory_ceded_to": "United States"
+    },
+    {
+      "influenced": "Compromise of 1850"
+    },
+    {
+      "influenced": "American Civil War"
+    },
+    {
+      "location": "Mexico, Texas, California, New Mexico, Arizona, Nevada, Utah, Colorado, Wyoming"
+    },
+    {
+      "resulted_in": "Mexican Cession"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "UNESCO Global Network of Learning Cities",
+  "properties": {
+    "type": "Network",
+    "focus": "Lifelong Learning",
+    "established": "2017",
+    "governing_body": "UNESCO",
+    "purpose": "Promote lifelong learning",
+    "membership": "Cities",
+    "headquarters": "Paris",
+    "criteria": "Commitment to learning",
+    "geographic_scope": "Global",
+    "website": "https://en.unesco.org/global-network-learning-cities"
+  },
+  "relationship": [
+    {
+      "part_of": "UNESCO"
+    },
+    {
+      "promotes": "Lifelong Learning"
+    },
+    {
+      "supports": "Sustainable Development Goals"
+    },
+    {
+      "includes": "Learning Cities"
+    },
+    {
+      "aims_to": "Improve education"
+    },
+    {
+      "collaborates_with": "Local governments"
+    },
+    {
+      "focuses_on": "Urban development"
+    },
+    {
+      "addresses": "Educational inequalities"
+    },
+    {
+      "facilitates": "Knowledge sharing"
+    },
+    {
+      "member_city": "Barcelona"
+    }
+  ]
+}

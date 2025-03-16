@@ -1,0 +1,47 @@
+{
+  "entity": "4",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "integer": "Yes",
+    "cardinality": "Four",
+    "even": "Yes",
+    "composite": "No",
+    "prime": "No",
+    "divisible_by": "1, 2, 4",
+    "roman_numeral": "IV",
+    "successor": "5"
+  },
+  "relationship": [
+    {
+      "is_factor_of": "16"
+    },
+    {
+      "is_multiple_of": "1"
+    },
+    {
+      "precedes": "5"
+    },
+    {
+      "follows": "3"
+    },
+    {
+      "part_of": "4D"
+    },
+    {
+      "used_in": "Tetrahedron"
+    },
+    {
+      "appears_in": "Quartet"
+    },
+    {
+      "used_in": "Four Seasons"
+    },
+    {
+      "related_to": "Tetrad"
+    },
+    {
+      "used_in": "Four Noble Truths"
+    }
+  ]
+}

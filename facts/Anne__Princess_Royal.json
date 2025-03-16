@@ -1,0 +1,47 @@
+{
+  "entity": "Anne, Princess Royal",
+  "properties": {
+    "birth_date": "1950-08-15",
+    "birth_place": "London",
+    "title": "Princess Royal",
+    "full_name": "Anne Elizabeth Alice Louise",
+    "parent_1": "Elizabeth II",
+    "parent_2": "Prince Philip, Duke of Edinburgh",
+    "spouse_1": "Mark Phillips",
+    "spouse_2": "Timothy Laurence",
+    "children": "2",
+    "order_of_precedence": "3"
+  },
+  "relationship": [
+    {
+      "sibling": "Prince Charles"
+    },
+    {
+      "sibling": "Prince Andrew"
+    },
+    {
+      "sibling": "Prince Edward"
+    },
+    {
+      "parent": "Elizabeth II"
+    },
+    {
+      "parent": "Prince Philip, Duke of Edinburgh"
+    },
+    {
+      "spouse": "Mark Phillips"
+    },
+    {
+      "spouse": "Timothy Laurence"
+    },
+    {
+      "child": "Peter Phillips"
+    },
+    {
+      "child": "Zara Tindall"
+    },
+    {
+      "member_of": "British Royal Family"
+    }
+  ]
+}

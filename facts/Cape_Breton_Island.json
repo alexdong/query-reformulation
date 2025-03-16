@@ -1,0 +1,47 @@
+{
+  "entity": "Cape Breton Island",
+  "properties": {
+    "type": "Island",
+    "location": "Nova Scotia, Canada",
+    "area": "11,000 km²",
+    "population": "175,000",
+    "highest_point": "White Mountain",
+    "main_language": "English",
+    "timezone": "AST",
+    "geography": "Mountains, Coastline, Highlands",
+    "economy": "Tourism, Forestry, Fishing",
+    "part_of": "Nova Scotia"
+  },
+  "relationship": [
+    {
+      "located_in": "Nova Scotia"
+    },
+    {
+      "part_of": "Canada"
+    },
+    {
+      "adjacent_to": " mainland Nova Scotia"
+    },
+    {
+      "contains": "Cape Breton Highlands National Park"
+    },
+    {
+      "contains": "Sydney"
+    },
+    {
+      "contains": "Louisbourg"
+    },
+    {
+      "influenced_by": "Mi'kmaq people"
+    },
+    {
+      "influenced_by": "Scottish settlers"
+    },
+    {
+      "has_landmark": "Cabot Trail"
+    },
+    {
+      "has_body_of_water": "Atlantic Ocean"
+    }
+  ]
+}

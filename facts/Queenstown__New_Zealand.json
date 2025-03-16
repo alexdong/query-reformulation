@@ -1,0 +1,47 @@
+{
+  "entity": "Queenstown, New Zealand",
+  "properties": {
+    "type": "Town",
+    "location": "South Island, New Zealand",
+    "population": "10,700 (2023)",
+    "region": "Otago",
+    "established": "1860s",
+    "altitude": "308 m (1,010 ft)",
+    "economy": "Tourism, Adventure Activities",
+    "climate": "Oceanic",
+    "nickname": "Adventure Capital of the World",
+    "time_zone": "NZST"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Otago Region"
+    },
+    {
+      "near": "The Remarkables"
+    },
+    {
+      "serves": "Queenstown-Lakes District"
+    },
+    {
+      "attraction": "Lake Wakatipu"
+    },
+    {
+      "attraction": "Skyline Gondola"
+    },
+    {
+      "attraction": "TSS Earnslaw"
+    },
+    {
+      "activity": "Bungy Jumping"
+    },
+    {
+      "activity": "Jet Boating"
+    },
+    {
+      "influenced_by": "Gold Rush"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Transatlantic Slave Trade",
+  "properties": {
+    "start_date": "16th century",
+    "end_date": "19th century",
+    "primary_trade_goods": "Enslaved people",
+    "origin_regions": "Europe, Africa",
+    "destination_regions": "Americas",
+    "estimated_number_enslaved": "12 million",
+    "main_European_powers": "Portugal, Britain, France, Spain, Netherlands",
+    "primary_African_regions": "West Africa, Central Africa",
+    "legal_status": "Illegal (eventually)",
+    "economic_impact": "Significant"
+  },
+  "relationship": [
+    {
+      "part_of": "Atlantic Triangular Trade"
+    },
+    {
+      "caused": "Abolitionism"
+    },
+    {
+      "influenced": "Colonialism"
+    },
+    {
+      "involved": "Kingdom of Dahomey"
+    },
+    {
+      "involved": "Asante Empire"
+    },
+    {
+      "involved": "British Empire"
+    },
+    {
+      "involved": "French Empire"
+    },
+    {
+      "resulted_in": "Racial inequality"
+    },
+    {
+      "impacted": "African diaspora"
+    },
+    {
+      "preceded_by": "Arab Slave Trade"
+    }
+  ]
+}

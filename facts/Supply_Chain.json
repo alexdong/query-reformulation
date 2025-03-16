@@ -1,0 +1,47 @@
+{
+  "entity": "Supply Chain",
+  "properties": {
+    "definition": "Network of organizations",
+    "purpose": "Product/Service Delivery",
+    "scope": "Raw Materials to Consumer",
+    "key_elements": "Procurement, Production, Logistics",
+    "risk_factor": "Disruptions, Volatility",
+    "metrics": "Lead Time, Inventory Turnover",
+    "technology": "ERP, Blockchain",
+    "goal": "Efficiency, Resilience",
+    "type": "Business Process",
+    "importance": "Global Economy"
+  },
+  "relationship": [
+    {
+      "part_of": "Business"
+    },
+    {
+      "impacts": "Global Trade"
+    },
+    {
+      "requires": "Logistics"
+    },
+    {
+      "includes": "Procurement"
+    },
+    {
+      "relies_on": "Transportation"
+    },
+    {
+      "affected_by": "Demand"
+    },
+    {
+      "managed_by": "Supply Chain Management"
+    },
+    {
+      "supports": "Manufacturing"
+    },
+    {
+      "connected_to": "Distribution"
+    },
+    {
+      "influenced_by": "Economic Conditions"
+    }
+  ]
+}

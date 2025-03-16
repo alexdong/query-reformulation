@@ -1,0 +1,47 @@
+{
+  "entity": "Black Bear",
+  "properties": {
+    "scientific_name": "Ursus americanus",
+    "conservation_status": "Least Concern",
+    "lifespan": "18-20 years",
+    "weight_male": "125-300 kg",
+    "weight_female": "90-170 kg",
+    "diet": "Omnivorous",
+    "habitat": "Forests, Mountains",
+    "distribution": "North America",
+    "color": "Black, Brown, Cinnamon",
+    "size_length": "1.2-1.9 m"
+  },
+  "relationship": [
+    {
+      "family": "Ursidae"
+    },
+    {
+      "genus": "Ursus"
+    },
+    {
+      "prey_on": "Berries"
+    },
+    {
+      "prey_on": "Fish"
+    },
+    {
+      "prey_on": "Insects"
+    },
+    {
+      "prey_on": "Small mammals"
+    },
+    {
+      "competitor_with": "Grizzly Bear"
+    },
+    {
+      "part_of_ecosystem": "Temperate Forest"
+    },
+    {
+      "threatened_by": "Habitat Loss"
+    },
+    {
+      "related_to": "Brown Bear"
+    }
+  ]
+}

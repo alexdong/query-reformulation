@@ -1,0 +1,47 @@
+{
+  "entity": "Visa Inc.",
+  "properties": {
+    "industry": "Financial Services",
+    "founder": "Dee Hock",
+    "hq_location": "Foster City, California",
+    "ceo": "Ryan McInerney",
+    "stock_ticker": "V",
+    "year_founded": "1958",
+    "type": "Public Company",
+    "revenue_2022": "29.3 billion USD",
+    "payment_network": "Yes",
+    "primary_service": "Payment Processing"
+  },
+  "relationship": [
+    {
+      "parent_company": "Bank of America (historical)"
+    },
+    {
+      "competitor": "Mastercard"
+    },
+    {
+      "competitor": "American Express"
+    },
+    {
+      "subsidiary_of": "Visa International"
+    },
+    {
+      "member_of": "S&P 500"
+    },
+    {
+      "uses_technology": "EMV chip"
+    },
+    {
+      "supports_currency": "USD"
+    },
+    {
+      "regulates": "PCI Security Standards Council"
+    },
+    {
+      "provides_service_to": "Financial Institutions"
+    },
+    {
+      "facilitates_transaction_with": "Debit Cards"
+    }
+  ]
+}

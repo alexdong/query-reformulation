@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand",
+  "properties": {
+    "continent": "Oceania",
+    "capital": "Wellington",
+    "official_languages": "English, Māori, New Zealand Sign Language",
+    "population": "5138000 (2023)",
+    "area_km2": "268021",
+    "currency": "New Zealand Dollar",
+    "sovereignty": "1947",
+    "land_type": "Island nation",
+    "national_symbol": "Silver Fern",
+    "government_type": "Parliamentary democracy"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "neighbor": "Australia"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "colonized_by": "United Kingdom"
+    },
+    {
+      "treaty_signed_with": "Treaty of Waitangi"
+    },
+    {
+      "leader": "Chris Hipkins"
+    },
+    {
+      "discovery_by": "Abel Tasman"
+    },
+    {
+      "war_involved_in": "World War I"
+    },
+    {
+      "resource": "Kauri wood"
+    },
+    {
+      "flora_includes": "Kākāpō"
+    }
+  ]
+}

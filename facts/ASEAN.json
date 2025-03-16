@@ -1,0 +1,47 @@
+{
+  "entity": "ASEAN",
+  "properties": {
+    "instance_of": "Intergovernmental Organization",
+    "official_name": "Association of Southeast Asian Nations",
+    "formed": "1967",
+    "type": "Political and Economic Union",
+    "membership": "10",
+    "headquarters": "Jakarta, Indonesia",
+    "purpose": "Economic, Political, Security, Socio-cultural cooperation",
+    "chairmanship_rotation": "Annual",
+    "legal_status": "Treaty of Amity and Cooperation",
+    "area": "4.5 million km²"
+  },
+  "relationship": [
+    {
+      "member_state": "Indonesia"
+    },
+    {
+      "member_state": "Malaysia"
+    },
+    {
+      "member_state": "Philippines"
+    },
+    {
+      "member_state": "Singapore"
+    },
+    {
+      "member_state": "Thailand"
+    },
+    {
+      "member_state": "Vietnam"
+    },
+    {
+      "member_state": "Laos"
+    },
+    {
+      "member_state": "Myanmar"
+    },
+    {
+      "member_state": "Cambodia"
+    },
+    {
+      "member_state": "Brunei"
+    }
+  ]
+}

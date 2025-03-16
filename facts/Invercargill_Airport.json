@@ -1,0 +1,47 @@
+{
+  "entity": "Invercargill Airport",
+  "properties": {
+    "iata_code": "IVC",
+    "icao_code": "NVIL",
+    "location": "Invercargill, New Zealand",
+    "elevation": "82 m",
+    "runway_length": "1,682 m",
+    "owner": "Invercargill City Council",
+    "type": "General aviation airport",
+    "coordinates": "46°27′26″S 168°23′36″E",
+    "year_opened": "1967",
+    "serves": "Invercargill"
+  },
+  "relationship": [
+    {
+      "located_in": "Southland Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "serves": "Invercargill City"
+    },
+    {
+      "has_runway": "Runway 05/23"
+    },
+    {
+      "operated_by": "Invercargill City Council"
+    },
+    {
+      "connected_to": "Air New Zealand"
+    },
+    {
+      "connected_to": "Origin Air"
+    },
+    {
+      "near": "Oreti Beach"
+    },
+    {
+      "has_service": "Cargo service"
+    },
+    {
+      "has_service": "Passenger service"
+    }
+  ]
+}

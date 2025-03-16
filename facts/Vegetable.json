@@ -1,0 +1,47 @@
+{
+  "entity": "Vegetable",
+  "properties": {
+    "instance_of": "Food",
+    "part_of": "Plant",
+    "nutrient_rich": "Yes",
+    "primary_color": "Varies",
+    "taste": "Varies",
+    "origin": "Worldwide",
+    "classification": "Botanical",
+    "preparation_methods": "Raw, Cooked",
+    "health_benefits": "Vitamins, Minerals, Fiber",
+    "storage_condition": "Cool, Dry"
+  },
+  "relationship": [
+    {
+      "is_a": "Plant"
+    },
+    {
+      "contains": "Vitamin A"
+    },
+    {
+      "contains": "Vitamin C"
+    },
+    {
+      "contains": "Fiber"
+    },
+    {
+      "grown_in": "Farm"
+    },
+    {
+      "part_of": "Diet"
+    },
+    {
+      "related_to": "Fruit"
+    },
+    {
+      "used_in": "Salad"
+    },
+    {
+      "used_in": "Soup"
+    },
+    {
+      "cultivated_by": "Human"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Volcanic rock",
+  "properties": {
+    "type": "Igneous rock",
+    "formation": "Volcanic eruption",
+    "texture": "Fine-grained to glassy",
+    "composition": "Silicate minerals",
+    "density": "2.3 - 2.9 g/cm³",
+    "color": "Varies (black, gray, red)",
+    "porosity": "Variable",
+    "weathering": "Susceptible to weathering",
+    "origin": "Magma",
+    "classification": "Based on chemical composition"
+  },
+  "relationship": [
+    {
+      "part_of": "Igneous rock"
+    },
+    {
+      "formed_from": "Magma"
+    },
+    {
+      "related_to": "Sedimentary rock"
+    },
+    {
+      "related_to": "Metamorphic rock"
+    },
+    {
+      "example_of": "Basalt"
+    },
+    {
+      "example_of": "Obsidian"
+    },
+    {
+      "example_of": "Pumice"
+    },
+    {
+      "found_in": "Hawaii"
+    },
+    {
+      "found_in": "Iceland"
+    },
+    {
+      "used_in": "Construction"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Davis Station",
+  "properties": {
+    "type": "Research station",
+    "location": "Antarctica",
+    "coordinates": "68°34′S 77°59′E",
+    "established": "1969",
+    "operator": "Australian Antarctic Division",
+    "purpose": "Scientific research",
+    "population": "100 (summer)",
+    "area": "Approximately 50 hectares",
+    "climate": "Polar",
+    "continent": "Antarctica"
+  },
+  "relationship": [
+    {
+      "part_of": "Australian Antarctic Territory"
+    },
+    {
+      "operated_by": "Australian Antarctic Division"
+    },
+    {
+      "located_in": "Wilkes Land"
+    },
+    {
+      "research_focus": "Atmospheric science"
+    },
+    {
+      "research_focus": "Marine biology"
+    },
+    {
+      "research_focus": "Geology"
+    },
+    {
+      "neighboring_station": "Mawson Station"
+    },
+    {
+      "neighboring_station": "Casey Station"
+    },
+    {
+      "serves": "Australian Antarctic Program"
+    },
+    {
+      "supports": "Aurora Basin Circle"
+    }
+  ]
+}

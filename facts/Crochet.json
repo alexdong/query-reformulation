@@ -1,0 +1,47 @@
+{
+  "entity": "Crochet",
+  "properties": {
+    "instance_of": "Textile art",
+    "type": "Fabric creation",
+    "origin": "China",
+    "technique": "Looping yarn",
+    "tools": "Crochet hook",
+    "materials": "Yarn, thread",
+    "use": "Clothing, blankets",
+    "skill_level": "Beginner-friendly",
+    "related_art": "Knitting",
+    "history_period": "19th century"
+  },
+  "relationship": [
+    {
+      "predecessor": "Needlework"
+    },
+    {
+      "related_to": "Knitting"
+    },
+    {
+      "tool_used": "Crochet hook"
+    },
+    {
+      "material_used": "Yarn"
+    },
+    {
+      "creates": "Blanket"
+    },
+    {
+      "creates": "Clothing"
+    },
+    {
+      "technique_of": "Textile art"
+    },
+    {
+      "influenced_by": "Chain stitch"
+    },
+    {
+      "similar_to": "Needlepoint"
+    },
+    {
+      "used_in": "Amigurumi"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Momona (given name)",
+  "properties": {
+    "type": "Given name",
+    "origin": "Japanese",
+    "gender": "Female",
+    "meaning": "Peach, blossom",
+    "popularity": "Increasing",
+    "script": "Japanese",
+    "romanization": "Momona",
+    "alternative_spellings": "Momone",
+    "usage": "Modern",
+    "language": "Japanese"
+  },
+  "relationship": [
+    {
+      "related_to": "Japanese names"
+    },
+    {
+      "influenced_by": "Japanese culture"
+    },
+    {
+      "used_in": "Japanese literature"
+    },
+    {
+      "associated_with": "Peach blossom"
+    },
+    {
+      "related_to": "Given names"
+    },
+    {
+      "part_of": "Japanese onomastics"
+    },
+    {
+      "used_by": "Japanese people"
+    },
+    {
+      "has_variant": "Momone"
+    },
+    {
+      "related_to": "Floral names"
+    },
+    {
+      "influenced_by": "Shintoism"
+    }
+  ]
+}

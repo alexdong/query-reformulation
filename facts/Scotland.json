@@ -1,0 +1,47 @@
+{
+  "entity": "Scotland",
+  "properties": {
+    "capital": "Edinburgh",
+    "official_language": "Scottish Gaelic, English",
+    "area": "79,704 sq km",
+    "population": "5,479,200",
+    "currency": "Pound Sterling (GBP)",
+    "sovereignty": "United Kingdom",
+    "national_animal": "Unicorn",
+    "national_flower": "Thistle",
+    "major_religion": "Christianity",
+    "geography": "Mountains, Highlands, Islands"
+  },
+  "relationship": [
+    {
+      "part_of": "United Kingdom"
+    },
+    {
+      "borders": "England"
+    },
+    {
+      "influenced": "Scottish Enlightenment"
+    },
+    {
+      "historical_event": "Battle of Culloden"
+    },
+    {
+      "historical_figure": "William Wallace"
+    },
+    {
+      "historical_figure": "Mary, Queen of Scots"
+    },
+    {
+      "historical_event": "Jacobite risings"
+    },
+    {
+      "culture_influenced": "Celtic culture"
+    },
+    {
+      "product_of": "Picts"
+    },
+    {
+      "member_of": "European Union (formerly)"
+    }
+  ]
+}

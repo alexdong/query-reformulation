@@ -1,0 +1,47 @@
+{
+  "entity": "Travel Trends",
+  "properties": {
+    "definition": "Shifting patterns in travel behavior",
+    "driver": "Economic factors, Technology, Social changes",
+    "scope": "Destinations, Accommodation, Activities",
+    "measurement": "Data analytics, Surveys, Booking patterns",
+    "impact": "Tourism industry, Local economies",
+    "current_focus": "Sustainability, Wellness, Technology",
+    "historical_context": "Post-pandemic recovery, Pre-existing trends",
+    "geographic_variation": "Regional differences in adoption",
+    "key_indicator": "Booking volume, Search queries",
+    "future_outlook": "Continued evolution, New technologies"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Pandemic"
+    },
+    {
+      "impacts": "Tourism"
+    },
+    {
+      "driven_by": "Technology"
+    },
+    {
+      "related_to": "Sustainable Tourism"
+    },
+    {
+      "affects": "Airline Industry"
+    },
+    {
+      "impacts": "Hospitality"
+    },
+    {
+      "influenced_by": "Social Media"
+    },
+    {
+      "related_to": "Digital Nomadism"
+    },
+    {
+      "impacts": "Local Communities"
+    },
+    {
+      "linked_to": "Gen Z"
+    }
+  ]
+}

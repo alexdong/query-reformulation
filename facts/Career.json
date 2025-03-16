@@ -1,0 +1,46 @@
+{
+  "entity": "Career",
+  "properties": {
+    "instance_of": "Occupation",
+    "definition": "Pursuit of work",
+    "requires": "Skills",
+    "involves": "Responsibilities",
+    "often_leads_to": "Income",
+    "can_be": "Voluntary",
+    "influenced_by": "Education",
+    "often_includes": "Job",
+    "may_require": "Training"
+  },
+  "relationship": [
+    {
+      "part_of": "Employment"
+    },
+    {
+      "requires": "Job market"
+    },
+    {
+      "leads_to": "Financial stability"
+    },
+    {
+      "related_to": "Profession"
+    },
+    {
+      "influenced_by": "Networking"
+    },
+    {
+      "requires": "Work ethic"
+    },
+    {
+      "often_involves": "Promotion"
+    },
+    {
+      "can_be": "Long-term"
+    },
+    {
+      "can_be": "Short-term"
+    },
+    {
+      "impacts": "Personal development"
+    }
+  ]
+}

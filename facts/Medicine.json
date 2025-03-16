@@ -1,0 +1,47 @@
+{
+  "entity": "Medicine",
+  "properties": {
+    "instance_of": "Field of study",
+    "definition": "Science of healing",
+    "branch_of": "Natural sciences",
+    "related_to": "Healthcare",
+    "history_length": "Thousands of years",
+    "primary_goal": "Prevent & Treat Disease",
+    "major_specialties": "Cardiology, Oncology, Neurology",
+    "ethical_guidelines": "Hippocratic Oath",
+    "research_focus": "Drug development, Diagnostics",
+    "interdisciplinary": "Biology, Chemistry, Physics"
+  },
+  "relationship": [
+    {
+      "treats": "Disease"
+    },
+    {
+      "diagnoses": "Illness"
+    },
+    {
+      "requires": "Medical knowledge"
+    },
+    {
+      "employs": "Medical technology"
+    },
+    {
+      "influenced_by": "Biology"
+    },
+    {
+      "related_to": "Pharmacology"
+    },
+    {
+      "practiced_by": "Physician"
+    },
+    {
+      "requires": "Medical ethics"
+    },
+    {
+      "develops": "Pharmaceuticals"
+    },
+    {
+      "studies": "Human body"
+    }
+  ]
+}

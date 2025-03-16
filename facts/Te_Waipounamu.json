@@ -1,0 +1,47 @@
+{
+  "entity": "Te Waipounamu",
+  "properties": {
+    "alternative_name": "South Island",
+    "region_type": "Island",
+    "country": "New Zealand",
+    "area": "30,467 km²",
+    "highest_point": "Mount Cook",
+    "population_2023": "1,245,000",
+    "major_city": "Christchurch",
+    "geological_era": "Tertiary Period",
+    "climate": "Temperate",
+    "indigenous_name": "Te Waipounamu"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "adjacent_to": "Rakiura"
+    },
+    {
+      "contains": "Aoraki / Mount Cook"
+    },
+    {
+      "contains": "Fiordland National Park"
+    },
+    {
+      "contains": "Westland Tai Poutini National Park"
+    },
+    {
+      "has_settlement": "Christchurch"
+    },
+    {
+      "has_settlement": "Dunedin"
+    },
+    {
+      "influenced_by": "Māori culture"
+    },
+    {
+      "resource": "Jade/Pounamu"
+    }
+  ]
+}

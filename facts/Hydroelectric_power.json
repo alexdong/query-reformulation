@@ -1,0 +1,47 @@
+{
+  "entity": "Hydroelectric power",
+  "properties": {
+    "type": "Renewable energy",
+    "principle": "Potential energy of water",
+    "efficiency": "80-90%",
+    "environmental_impact": "Variable",
+    "cost": "High initial, low operational",
+    "reservoir_creation": "Often required",
+    "power_output": "Variable, depends on flow",
+    "technology": "Turbines and generators",
+    "global_share": "Approximately 16%",
+    "water_source": "Rivers, dams, reservoirs"
+  },
+  "relationship": [
+    {
+      "part_of": "Renewable energy"
+    },
+    {
+      "uses": "Water"
+    },
+    {
+      "generates": "Electricity"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "requires": "Dam"
+    },
+    {
+      "related_to": "Hydrology"
+    },
+    {
+      "influenced_by": "Gravity"
+    },
+    {
+      "alternative_to": "Fossil fuels"
+    },
+    {
+      "example_of": "Power generation"
+    },
+    {
+      "location": "Worldwide"
+    }
+  ]
+}

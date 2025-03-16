@@ -1,0 +1,47 @@
+{
+  "entity": "Madagascar",
+  "properties": {
+    "type": "Island nation",
+    "continent": "Africa",
+    "capital": "Antananarivo",
+    "official_language": "Malagasy, French",
+    "population": "30,000,000",
+    "area_km2": "587,041",
+    "currency": "Ariary",
+    "independence_date": "1960-06-26",
+    "biome": "Tropical rainforest",
+    "biodiversity_hotspot": "Yes"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "located_in": "Indian Ocean"
+    },
+    {
+      "borders": "None"
+    },
+    {
+      "influenced_by": "France"
+    },
+    {
+      "has_flora": "Baobab"
+    },
+    {
+      "has_fauna": "Lemur"
+    },
+    {
+      "governed_by": "President of Madagascar"
+    },
+    {
+      "member_of": "African Union"
+    },
+    {
+      "has_region": "Betsileo"
+    },
+    {
+      "exports": "Vanilla"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Arizona",
+  "properties": {
+    "capital": "Phoenix",
+    "state_motto": "Ditat Deus",
+    "nickname": "The Grand Canyon State",
+    "area_km2": "295234",
+    "population_2023": "7431344",
+    "official_language": "English",
+    "largest_city": "Phoenix",
+    "time_zone": "MST",
+    "state_flower": "Saguaro Cactus Blossom",
+    "admission_date": "1912-02-14"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "located_in": "Southwest United States"
+    },
+    {
+      "borders": "California"
+    },
+    {
+      "borders": "New Mexico"
+    },
+    {
+      "borders": "Utah"
+    },
+    {
+      "borders": "Nevada"
+    },
+    {
+      "contains": "Grand Canyon"
+    },
+    {
+      "contains": "Sedona"
+    },
+    {
+      "climate": "Desert"
+    },
+    {
+      "economy": "Tourism"
+    }
+  ]
+}

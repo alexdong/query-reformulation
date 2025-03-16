@@ -1,0 +1,47 @@
+{
+  "entity": "Brisbane River",
+  "properties": {
+    "type": "River",
+    "location": "Queensland, Australia",
+    "length": "341 km",
+    "source": "Conondale Range",
+    "mouth": "Moreton Bay",
+    "basin_area": "15,906 km²",
+    "discharge_volume": "635 m³/s",
+    "tributaries": "Numerous",
+    "navigability": "Most of its length",
+    "name_origin": "Brisbane"
+  },
+  "relationship": [
+    {
+      "flows_into": "Moreton Bay"
+    },
+    {
+      "located_in": "Queensland"
+    },
+    {
+      "tributary_of": "Drainage basin"
+    },
+    {
+      "crosses": "Brisbane City"
+    },
+    {
+      "crosses": "Ipswich"
+    },
+    {
+      "crosses": "Gold Coast"
+    },
+    {
+      "flows_past": "Mount Coot-tha"
+    },
+    {
+      "supports": "Koala"
+    },
+    {
+      "supports": "Dolphin"
+    },
+    {
+      "used_for": "Transportation"
+    }
+  ]
+}

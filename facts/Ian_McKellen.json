@@ -1,0 +1,47 @@
+{
+  "entity": "Ian McKellen",
+  "properties": {
+    "birth_date": "1939-05-25",
+    "birth_place": "Leicester, England",
+    "nationality": "British",
+    "occupation": "Actor",
+    "awards": "Knight Commander of the Order of the British Empire",
+    "spouse": "Sean Mathias",
+    "education": "University of Cambridge",
+    "height": "1.78 m",
+    "known_for": "Gandalf, Magneto",
+    "genre": "Drama, Fantasy"
+  },
+  "relationship": [
+    {
+      "member_of": "Royal Shakespeare Company"
+    },
+    {
+      "starred_in": "Hamlet"
+    },
+    {
+      "starred_in": "X-Men"
+    },
+    {
+      "starred_in": "The Lord of the Rings"
+    },
+    {
+      "starred_in": "Gods and Monsters"
+    },
+    {
+      "directed": "Richard III (1995 film)"
+    },
+    {
+      "collaborated_with": "Judi Dench"
+    },
+    {
+      "influenced": "Benedict Cumberbatch"
+    },
+    {
+      "portrayed": "Magneto"
+    },
+    {
+      "portrayed": "Gandalf"
+    }
+  ]
+}

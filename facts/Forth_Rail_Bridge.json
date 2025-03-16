@@ -1,0 +1,47 @@
+{
+  "entity": "Forth Rail Bridge",
+  "properties": {
+    "type": "Cantilever railway bridge",
+    "location": "South Queensferry, Scotland",
+    "river": "Forth",
+    "opened": "1883",
+    "designer": "Sir John Fowler",
+    "engineer": "Benjamin Baker",
+    "length": "5.5 km",
+    "height": "46 m",
+    "material": "Iron and Steel",
+    "listed_status": "Scheduled Ancient Monument"
+  },
+  "relationship": [
+    {
+      "crosses": "River Forth"
+    },
+    {
+      "designed_by": "Sir John Fowler"
+    },
+    {
+      "engineered_by": "Benjamin Baker"
+    },
+    {
+      "part_of": "Forth Bridges"
+    },
+    {
+      "near": "Queensferry"
+    },
+    {
+      "connects": "Edinburgh and Fife"
+    },
+    {
+      "preceded_by": "Forth Bridge"
+    },
+    {
+      "succeeded_by": "Queensferry Crossing"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "railway_line": "Edinburgh, Leith and Granton Railway"
+    }
+  ]
+}

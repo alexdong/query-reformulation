@@ -1,0 +1,47 @@
+{
+  "entity": "The Chieftains",
+  "properties": {
+    "instance_of": "Musical group",
+    "genre": "Traditional Irish music",
+    "origin": "Dublin, Ireland",
+    "formed_year": "1968",
+    "members": "6 (varying)",
+    "instrument": "Uilleann pipes, fiddle, bodhrán, guitar, flute, tin whistle",
+    "awards": "Multiple Grammy Awards",
+    "label": "BMG Rights Management",
+    "style": "Celtic music",
+    "website": "thechieftains.com"
+  },
+  "relationship": [
+    {
+      "collaborated_with": "Ry Cooder"
+    },
+    {
+      "collaborated_with": "Joan Baez"
+    },
+    {
+      "collaborated_with": "Van Morrison"
+    },
+    {
+      "influenced": "Alison Krauss"
+    },
+    {
+      "influenced": "Sharon Shannon"
+    },
+    {
+      "performed_at": "Royal Albert Hall"
+    },
+    {
+      "performed_at": "Hollywood Bowl"
+    },
+    {
+      "member_is": "Paddy Moloney"
+    },
+    {
+      "member_is": "Matt Molloy"
+    },
+    {
+      "associated_with": "Irish traditional music"
+    }
+  ]
+}

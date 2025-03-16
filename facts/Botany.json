@@ -1,0 +1,45 @@
+{
+  "entity": "Botany",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field_of": "Biology",
+    "study_subject": "Plants",
+    "related_to": "Plant science",
+    "sub_discipline": "Plant ecology",
+    "historical_origin": "Ancient Greece",
+    "key_figure": "Theophrastus",
+    "application": "Agriculture, Medicine"
+  },
+  "relationship": [
+    {
+      "related_to": "Biology"
+    },
+    {
+      "sub_field_of": "Natural science"
+    },
+    {
+      "studies": "Angiosperms"
+    },
+    {
+      "studies": "Gymnosperms"
+    },
+    {
+      "studies": "Bryophytes"
+    },
+    {
+      "overlaps_with": "Ecology"
+    },
+    {
+      "overlaps_with": "Genetics"
+    },
+    {
+      "influences": "Agriculture"
+    },
+    {
+      "influences": "Pharmacology"
+    },
+    {
+      "pioneered_by": "Carl Linnaeus"
+    }
+  ]
+}

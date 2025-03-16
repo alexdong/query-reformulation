@@ -1,0 +1,47 @@
+{
+  "entity": "Ngāpuhi",
+  "properties": {
+    "iwi_type": "Māori iwi",
+    "location": "Northland, New Zealand",
+    "population": "~40,000",
+    "tribal_ancestor": "Kurahaupo",
+    "rohe": "Te Tai o Aumaroa",
+    "language": "Te Reo Māori",
+    "traditional_occupation": "Fisheries, agriculture",
+    "significant_figure": "Hone Heke",
+    "treaty_signatory": "Numerous",
+    "economic_activity": "Tourism, agriculture, forestry"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori people"
+    },
+    {
+      "located_in": "Northland Region"
+    },
+    {
+      "ancestor_of": "Kurahaupo"
+    },
+    {
+      "treaty_relationship": "Treaty of Waitangi"
+    },
+    {
+      "influenced_by": "European colonization"
+    },
+    {
+      "has_sub_iwi": "Te Roroa"
+    },
+    {
+      "has_sub_iwi": "Ngāti Hine"
+    },
+    {
+      "has_sub_iwi": "Ngāti Rehia"
+    },
+    {
+      "involved_in": "Land claims"
+    },
+    {
+      "associated_with": "Waitangi Treaty Grounds"
+    }
+  ]
+}

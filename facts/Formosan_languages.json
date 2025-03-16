@@ -1,0 +1,47 @@
+{
+  "entity": "Formosan languages",
+  "properties": {
+    "classification": "Austronesian",
+    "geographic_location": "Taiwan",
+    "number_of_languages": "Approximately 27",
+    "status": "Critically endangered",
+    "typology": "Agglutinative",
+    "writing_system": "Romanization (various)",
+    "speakers": "Fewer than 500 total",
+    "origin": "Austronesian migration",
+    "language_family": "Austronesian",
+    "historical_significance": "Early Austronesian dispersal"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian languages"
+    },
+    {
+      "spoken_in": "Taiwan"
+    },
+    {
+      "related_to": "Amis language"
+    },
+    {
+      "related_to": "Puyuma language"
+    },
+    {
+      "related_to": "Atayal language"
+    },
+    {
+      "influenced_by": "Chinese languages"
+    },
+    {
+      "influenced": "Taiwanese Hokkien"
+    },
+    {
+      "studied_by": "Linguistics"
+    },
+    {
+      "documentation_effort": "Endangered Languages Project"
+    },
+    {
+      "revitalization_effort": "Taiwanese government"
+    }
+  ]
+}

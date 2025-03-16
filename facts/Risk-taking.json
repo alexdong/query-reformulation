@@ -1,0 +1,47 @@
+{
+  "entity": "Risk-taking",
+  "properties": {
+    "definition": "Behavior involving potential for loss",
+    "field": "Psychology, Behavioral Economics",
+    "type": "Cognitive Process",
+    "motivation": "Reward, Novelty, Social Pressure",
+    "assessment": "Probability, Outcome Value",
+    "neuroscience": "Dopamine, Amygdala",
+    "personality_trait": "Sensation Seeking",
+    "age_related": "Varies across lifespan",
+    "cultural_influence": "Shapes perception of risk",
+    "measurement": "Risk Propensity Scales"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Prospect Theory"
+    },
+    {
+      "related_to": "Decision Making"
+    },
+    {
+      "impacts": "Investment"
+    },
+    {
+      "affects": "Entrepreneurship"
+    },
+    {
+      "linked_to": "Loss Aversion"
+    },
+    {
+      "studied_in": "Behavioral Finance"
+    },
+    {
+      "correlated_with": "Impulsivity"
+    },
+    {
+      "part_of": "Human Behavior"
+    },
+    {
+      "impacts": "Health Decisions"
+    },
+    {
+      "studied_in_context_of": "Game Theory"
+    }
+  ]
+}

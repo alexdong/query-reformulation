@@ -1,0 +1,47 @@
+{
+  "entity": "Christopher Wren",
+  "properties": {
+    "birth_date": "1632-10-31",
+    "birth_place": "East Shefford, Oxfordshire",
+    "death_date": "1723-03-25",
+    "death_place": "St Martin's Lane, London",
+    "nationality": "English",
+    "profession": "Architect",
+    "education": "Pembroke College, Oxford",
+    "style": "English Baroque",
+    "known_for": "St Paul's Cathedral",
+    "influenced_by": "Inigo Jones"
+  },
+  "relationship": [
+    {
+      "designed": "St Paul's Cathedral"
+    },
+    {
+      "designed": "Royal Observatory, Greenwich"
+    },
+    {
+      "designed": "Sheldonian Theatre"
+    },
+    {
+      "designed": "Hampton Court Palace"
+    },
+    {
+      "designed": "Banister House"
+    },
+    {
+      "influenced": "Nicholas Hawksmoor"
+    },
+    {
+      "student_of": "John Evelyn"
+    },
+    {
+      "member_of": "Royal Society"
+    },
+    {
+      "father_of": "William Wren"
+    },
+    {
+      "worked_in": "London"
+    }
+  ]
+}

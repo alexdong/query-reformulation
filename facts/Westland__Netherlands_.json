@@ -1,0 +1,47 @@
+{
+  "entity": "Westland (Netherlands)",
+  "properties": {
+    "type": "Municipality",
+    "country": "Netherlands",
+    "region": "South Holland",
+    "area_km2": "303.00",
+    "population_2022": "37,578",
+    "official_language": "Dutch",
+    "mayor": "Adriaan van Dis",
+    "founded": "1991",
+    "postal_code": "2670-2699",
+    "website": "westland.nl"
+  },
+  "relationship": [
+    {
+      "part_of": "South Holland"
+    },
+    {
+      "contains": "Naaldwijk"
+    },
+    {
+      "contains": "Maassluis"
+    },
+    {
+      "contains": "Monster"
+    },
+    {
+      "borders": "Delft"
+    },
+    {
+      "borders": "Wateringen"
+    },
+    {
+      "borders": "Liedekerke"
+    },
+    {
+      "economic_activity": "Agriculture"
+    },
+    {
+      "specialty": "Greenhouse horticulture"
+    },
+    {
+      "located_near": "North Sea"
+    }
+  ]
+}

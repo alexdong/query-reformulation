@@ -1,0 +1,47 @@
+{
+  "entity": "Western Pacific Ocean",
+  "properties": {
+    "type": "Ocean",
+    "area": "16525000 km²",
+    "average_depth": "4000 m",
+    "max_depth": "10994 m",
+    "location": "Between Asia and Oceania",
+    "contains": "Mariana Trench",
+    "salinity": "35‰",
+    "temperature": "Varies",
+    "major_currents": "Kuroshio Current, Oyashio Current",
+    "borders": "Asia, Oceania, Arctic Ocean"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "contains": "Japan"
+    },
+    {
+      "contains": "Philippines"
+    },
+    {
+      "contains": "Mariana Trench"
+    },
+    {
+      "borders": "China"
+    },
+    {
+      "borders": "Australia"
+    },
+    {
+      "influenced_by": "El Niño"
+    },
+    {
+      "affected_by": "Typhoons"
+    },
+    {
+      "supports": "Coral reefs"
+    },
+    {
+      "source_of": "Marine resources"
+    }
+  ]
+}

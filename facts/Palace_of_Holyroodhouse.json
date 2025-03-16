@@ -1,0 +1,47 @@
+{
+  "entity": "Palace of Holyroodhouse",
+  "properties": {
+    "type": "Palace",
+    "location": "Edinburgh",
+    "country": "Scotland",
+    "architectural_style": "Baronial",
+    "built": "1500s",
+    "owner": "British Monarch",
+    "function": "Official Residence",
+    "historical_period": "Medieval",
+    "area": "16.5 acres",
+    "designation": "Historic Landmark"
+  },
+  "relationship": [
+    {
+      "part_of": "Edinburgh"
+    },
+    {
+      "located_near": "Arthur's Seat"
+    },
+    {
+      "built_for": "James IV of Scotland"
+    },
+    {
+      "associated_with": "Mary, Queen of Scotland"
+    },
+    {
+      "architect": "William Schaw"
+    },
+    {
+      "style_influenced": "Scottish Baronial architecture"
+    },
+    {
+      "contains": "Holyrood Abbey"
+    },
+    {
+      "official_residence_of": "British Monarch"
+    },
+    {
+      "historical_event": "Reformation"
+    },
+    {
+      "tourist_attraction_in": "Edinburgh"
+    }
+  ]
+}

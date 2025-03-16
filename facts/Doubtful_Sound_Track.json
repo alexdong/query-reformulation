@@ -1,0 +1,47 @@
+{
+  "entity": "Doubtful Sound Track",
+  "properties": {
+    "type": "Fjord",
+    "location": "Fiordland National Park",
+    "country": "New Zealand",
+    "length": "40 km",
+    "depth": "420 m",
+    "formation": "Glacial",
+    "river_inflow": "Doubtful Sound / Lake Manapouri",
+    "accessibility": "Limited, boat only",
+    "biodiversity": "High",
+    "designation": "National Reserve"
+  },
+  "relationship": [
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "connected_to": "Lake Manapouri"
+    },
+    {
+      "adjacent_to": "Milford Sound"
+    },
+    {
+      "formed_by": "Glacial Erosion"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "influenced_by": "Te Wahipounamu"
+    },
+    {
+      "contains": "Dolphins"
+    },
+    {
+      "contains": "Seals"
+    },
+    {
+      "contains": "Penguins"
+    },
+    {
+      "tourism_attraction": "Cruise tours"
+    }
+  ]
+}

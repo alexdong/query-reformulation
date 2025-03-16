@@ -1,0 +1,47 @@
+{
+  "entity": "Wagga Wagga",
+  "properties": {
+    "type": "City",
+    "population": "65,000",
+    "state": "New South Wales",
+    "country": "Australia",
+    "established": "1840",
+    "latitude": "-35.143",
+    "longitude": "147.654",
+    "area_code": "02",
+    "postcode": "2650",
+    "mayor": "Councillor Joe Shields"
+  },
+  "relationship": [
+    {
+      "located_in": "New South Wales"
+    },
+    {
+      "part_of": "Murrumbidgee region"
+    },
+    {
+      "river_flows_through": "Murrumbidgee River"
+    },
+    {
+      "near_to": "Coolamon"
+    },
+    {
+      "near_to": "Leeton"
+    },
+    {
+      "founded_by": "Charles Sturt"
+    },
+    {
+      "has_industry": "Agriculture"
+    },
+    {
+      "has_industry": "Retail"
+    },
+    {
+      "has_sport_team": "Wagga Wagga Wanderers FC"
+    },
+    {
+      "has_sport_team": "Wagga Wagga Magpies"
+    }
+  ]
+}

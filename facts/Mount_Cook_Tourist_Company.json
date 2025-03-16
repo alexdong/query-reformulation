@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Cook Tourist Company",
+  "properties": {
+    "company_type": "Tourism operator",
+    "location": "Mount Cook Village, New Zealand",
+    "founded": "1950s",
+    "owner": "Air New Zealand",
+    "focus": "Scenic flights & helicopter tours",
+    "services": "Scenic flights, helicopter tours, glacier landings",
+    "aircraft_types": "Helicopters, Fixed-wing aircraft",
+    "specialization": "Southern Alps, Aoraki/Mount Cook",
+    "safety_rating": "High",
+    "website": "www.mtcooktourism.co.nz"
+  },
+  "relationship": [
+    {
+      "parent_company": "Air New Zealand"
+    },
+    {
+      "operates_in": "Aoraki/Mount Cook National Park"
+    },
+    {
+      "provides_service_to": "Tourists"
+    },
+    {
+      "flies_over": "Southern Alps"
+    },
+    {
+      "lands_on": "Tasman Glacier"
+    },
+    {
+      "employs": "Pilots"
+    },
+    {
+      "uses_aircraft": "Helicopter"
+    },
+    {
+      "provides_view_of": "Aoraki/Mount Cook"
+    },
+    {
+      "competitor_of": "Over The Top Helicopters"
+    },
+    {
+      "related_to": "New Zealand tourism"
+    }
+  ]
+}

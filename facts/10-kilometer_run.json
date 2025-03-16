@@ -1,0 +1,47 @@
+{
+  "entity": "10-kilometer run",
+  "properties": {
+    "distance": "10 km",
+    "type": "Road race",
+    "popularity": "High",
+    "difficulty": "Moderate",
+    "average_time": "45-60 minutes",
+    "world_record_male": "27:18",
+    "world_record_female": "30:29",
+    "governing_body": "World Athletics",
+    "surface": "Road",
+    "common_age_group": "Adults"
+  },
+  "relationship": [
+    {
+      "part_of": "Marathon"
+    },
+    {
+      "preceded_by": "5 km run"
+    },
+    {
+      "followed_by": "Half marathon"
+    },
+    {
+      "training_for": "Road running"
+    },
+    {
+      "requires": "Running shoes"
+    },
+    {
+      "requires": "Hydration"
+    },
+    {
+      "performed_by": "Runners"
+    },
+    {
+      "measured_in": "Metric system"
+    },
+    {
+      "event_type": "Athletics"
+    },
+    {
+      "influenced_by": "Track and field"
+    }
+  ]
+}

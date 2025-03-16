@@ -1,0 +1,47 @@
+{
+  "entity": "Developing Country",
+  "properties": {
+    "definition": "Lower income, less developed",
+    "gdp_per_capita": "Lower",
+    "human_development_index": "Lower",
+    "industrialization": "Limited",
+    "infrastructure": "Underdeveloped",
+    "poverty_rate": "Higher",
+    "literacy_rate": "Lower",
+    "life_expectancy": "Lower",
+    "healthcare_access": "Limited",
+    "agricultural_dependence": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Global Economy"
+    },
+    {
+      "often_located_in": "Global South"
+    },
+    {
+      "recipient_of": "Foreign Aid"
+    },
+    {
+      "subject_of": "Sustainable Development Goals"
+    },
+    {
+      "impacted_by": "Climate Change"
+    },
+    {
+      "source_of": "Labor Migration"
+    },
+    {
+      "affected_by": "Debt"
+    },
+    {
+      "often_experiences": "Political Instability"
+    },
+    {
+      "contributes_to": "Global Trade"
+    },
+    {
+      "example_country": "India"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Stanford University",
+  "properties": {
+    "established": "1885",
+    "location": "Stanford, California",
+    "type": "University",
+    "president": "Richard P. Lifton",
+    "endowment": "$36.7 billion",
+    "academic_staff": "2,100",
+    "undergraduate_students": "7,700",
+    "graduate_students": "6,500",
+    "colors": "Cardinal and White",
+    "mascot": "Stanford Tree"
+  },
+  "relationship": [
+    {
+      "founded_by": "Jane Stanford"
+    },
+    {
+      "founded_by": "Leland Stanford"
+    },
+    {
+      "located_in": "Santa Clara County"
+    },
+    {
+      "affiliated_with": "Ivy League"
+    },
+    {
+      "member_of": "Association of American Universities"
+    },
+    {
+      "has_alumnus": "Sergey Brin"
+    },
+    {
+      "has_alumnus": "Elon Musk"
+    },
+    {
+      "has_alumnus": "Condoleezza Rice"
+    },
+    {
+      "offers_degree": "Bachelor's degree"
+    },
+    {
+      "offers_degree": "Master's degree"
+    }
+  ]
+}

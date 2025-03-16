@@ -1,0 +1,47 @@
+{
+  "entity": "Auckland",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "population_2023": "1718300",
+    "area_km2": "4858",
+    "established": "1840",
+    "latitude": "-37.0000",
+    "longitude": "174.7600",
+    "mayor": "Cachae Cooper",
+    "timezone": "NZST",
+    "nickname": "City of Sails"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Auckland Region"
+    },
+    {
+      "has_neighbour": "Franklin District"
+    },
+    {
+      "has_neighbour": "Northland Region"
+    },
+    {
+      "has_neighbour": "Waikato Region"
+    },
+    {
+      "has_landmark": "Sky Tower"
+    },
+    {
+      "has_landmark": "Auckland Domain"
+    },
+    {
+      "has_transport": "Auckland Airport"
+    },
+    {
+      "has_sport_team": "Auckland Blues"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

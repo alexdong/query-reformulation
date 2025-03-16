@@ -1,0 +1,47 @@
+{
+  "entity": "Silver Rush",
+  "properties": {
+    "type": "Mining Boom",
+    "location": "North America",
+    "time_period": "1848-1860",
+    "primary_metal": "Silver",
+    "trigger": "Gold Discovery",
+    "major_region": "American West",
+    "population_increase": "Significant",
+    "economic_impact": "High",
+    "caused_by": "Discovery of Silver Deposits",
+    "related_to": "California Gold Rush"
+  },
+  "relationship": [
+    {
+      "part_of": "American History"
+    },
+    {
+      "preceded_by": "California Gold Rush"
+    },
+    {
+      "followed_by": "Comstock Lode"
+    },
+    {
+      "influenced": "Western Expansion"
+    },
+    {
+      "location_is_in": "United States"
+    },
+    {
+      "involved_industry": "Mining"
+    },
+    {
+      "affected_people": "Native Americans"
+    },
+    {
+      "affected_people": "Immigrants"
+    },
+    {
+      "caused": "Town Growth"
+    },
+    {
+      "related_to": "Pike's Peak Gold Rush"
+    }
+  ]
+}

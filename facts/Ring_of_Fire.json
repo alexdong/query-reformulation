@@ -1,0 +1,47 @@
+{
+  "entity": "Ring of Fire",
+  "properties": {
+    "type": "Geological Feature",
+    "location": "Pacific Ocean",
+    "length": "40,000 km",
+    "depth": "Up to 1,300 km",
+    "activity": "High",
+    "formation_process": "Plate Tectonics",
+    "volcanoes": "75% of world's active volcanoes",
+    "earthquakes": "90% of world's earthquakes",
+    "shape": "Horseshoe",
+    "countries_affected": "Japan, Russia, Canada, USA, Mexico, Chile, Peru, Ecuador, New Zealand, Indonesia, Philippines, Papua New Guinea"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Belt"
+    },
+    {
+      "caused_by": "Subduction"
+    },
+    {
+      "contains": "Aleutian Islands"
+    },
+    {
+      "contains": "Japan"
+    },
+    {
+      "contains": "Andes"
+    },
+    {
+      "adjacent_to": "Pacific Plate"
+    },
+    {
+      "adjacent_to": "Philippine Sea Plate"
+    },
+    {
+      "adjacent_to": "Juan de Fuca Plate"
+    },
+    {
+      "influences": "Tsunami Formation"
+    },
+    {
+      "related_to": "Volcanology"
+    }
+  ]
+}

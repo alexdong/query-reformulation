@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Sunday",
+  "properties": {
+    "type": "Mountain",
+    "location": "New Zealand",
+    "region": "Canterbury",
+    "height": "1,694 m",
+    "coordinates": "44°06′S 170°32′E",
+    "geological_type": "Volcanic",
+    "part_of": "Southern Alps",
+    "usage": "Filming location",
+    "landscape_type": "Alpine",
+    "access": "Restricted"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "region": "Canterbury"
+    },
+    {
+      "filming_location_for": "The Lord of the Rings"
+    },
+    {
+      "depicts": "Edoras"
+    },
+    {
+      "near": "Rangitata River"
+    },
+    {
+      "geology": "Volcanic"
+    },
+    {
+      "elevation": "1,694 m"
+    },
+    {
+      "contains": "Summit"
+    },
+    {
+      "surrounded_by": "Alpine landscape"
+    }
+  ]
+}

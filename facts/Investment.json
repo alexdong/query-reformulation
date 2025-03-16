@@ -1,0 +1,47 @@
+{
+  "entity": "Investment",
+  "properties": {
+    "instance_of": "Financial activity",
+    "purpose": "Asset growth",
+    "risk_level": "Variable",
+    "return_type": "Potential profit",
+    "time_horizon": "Variable",
+    "asset_class": "Stocks, Bonds, Real Estate",
+    "legal_form": "Various",
+    "tax_implications": "Complex",
+    "liquidity": "Variable",
+    "goal": "Financial objectives"
+  },
+  "relationship": [
+    {
+      "requires": "Capital"
+    },
+    {
+      "involves": "Risk"
+    },
+    {
+      "generates": "Return"
+    },
+    {
+      "type_of": "Financial planning"
+    },
+    {
+      "related_to": "Portfolio"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "requires": "Due diligence"
+    },
+    {
+      "type_of": "Asset allocation"
+    },
+    {
+      "governed_by": "Securities law"
+    },
+    {
+      "influences": "Market"
+    }
+  ]
+}

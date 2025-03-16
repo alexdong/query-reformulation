@@ -1,0 +1,47 @@
+{
+  "entity": "Mid-Atlantic Ridge",
+  "properties": {
+    "type": "Underwater mountain range",
+    "location": "Atlantic Ocean",
+    "length": "3,000 km",
+    "max_depth": "2,500 m",
+    "formation_process": "Plate tectonics",
+    "tectonic_boundary": "Divergent",
+    "ridge_age": "100-200 million years",
+    "volcanic_activity": "Present",
+    "magnetic_anomalies": "Present",
+    "discovery_date": "1627"
+  },
+  "relationship": [
+    {
+      "part_of": "Atlantic Ocean"
+    },
+    {
+      "tectonic_plates": "North American Plate"
+    },
+    {
+      "tectonic_plates": "Eurasian Plate"
+    },
+    {
+      "tectonic_plates": "South American Plate"
+    },
+    {
+      "tectonic_plates": "African Plate"
+    },
+    {
+      "associated_with": "Seafloor spreading"
+    },
+    {
+      "geological_feature": "Hydrothermal vent"
+    },
+    {
+      "geological_feature": "Seamount"
+    },
+    {
+      "exploration_program": "Jason Project"
+    },
+    {
+      "related_to": "Iceland"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Weaving",
+  "properties": {
+    "instance_of": "Textile art",
+    "type": "Fabric creation",
+    "materials": "Yarn, Thread, Fibers",
+    "technique": "Interlacing",
+    "history": "Ancient",
+    "purpose": "Clothing, Decoration, Utility",
+    "skill": "Craft",
+    "tools": "Loom, Shuttle, Bobbin",
+    "origin": "Mesopotamia",
+    "complexity": "Varies"
+  },
+  "relationship": [
+    {
+      "part_of": "Textile"
+    },
+    {
+      "related_to": "Knitting"
+    },
+    {
+      "related_to": "Embroidery"
+    },
+    {
+      "uses": "Loom"
+    },
+    {
+      "produces": "Fabric"
+    },
+    {
+      "influenced_by": "Fiber art"
+    },
+    {
+      "associated_with": "Textile industry"
+    },
+    {
+      "example_of": "Craft"
+    },
+    {
+      "historical_site": "Goblin Cave (weaving)"
+    },
+    {
+      "related_to": "Basketry"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Farmer",
+  "properties": {
+    "instance_of": "Occupation",
+    "activity": "Agriculture",
+    "skill": "Crop cultivation",
+    "tool": "Tractor",
+    "location": "Farmland",
+    "product": "Food",
+    "labor": "Manual",
+    "income": "Variable",
+    "education": "Varies",
+    "responsibility": "Food production"
+  },
+  "relationship": [
+    {
+      "employs": "Livestock"
+    },
+    {
+      "works_with": "Soil"
+    },
+    {
+      "produces": "Crops"
+    },
+    {
+      "related_to": "Agriculture"
+    },
+    {
+      "part_of": "Food supply chain"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "dependent_on": "Weather"
+    },
+    {
+      "works_with": "Farm equipment"
+    },
+    {
+      "provides_for": "Community"
+    },
+    {
+      "influenced_by": "Agricultural technology"
+    }
+  ]
+}

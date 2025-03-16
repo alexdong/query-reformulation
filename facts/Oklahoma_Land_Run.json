@@ -1,0 +1,47 @@
+{
+  "entity": "Oklahoma Land Run",
+  "properties": {
+    "type": "Land run",
+    "date": "April 22, 1889",
+    "location": "Oklahoma Territory",
+    "purpose": "Settlement",
+    "governor": "George W. Perry",
+    "act_enabling": "Oklahoma Organic Act",
+    "land_area": "160 acres",
+    "participants": "Approximately 40,000",
+    "motivation": "Opportunity for land ownership",
+    "outcome": "Rapid settlement of Oklahoma Territory"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Unassigned Lands"
+    },
+    {
+      "followed_by": "Oklahoma Territory"
+    },
+    {
+      "part_of": "Westward Expansion"
+    },
+    {
+      "related_to": "Homestead Act"
+    },
+    {
+      "involved": "Cherokee Strip"
+    },
+    {
+      "involved": "Seminole Nation"
+    },
+    {
+      "involved": "United States Government"
+    },
+    {
+      "influenced": "Oklahoma City"
+    },
+    {
+      "influenced": "Tulsa"
+    },
+    {
+      "impacted": "Native American tribes"
+    }
+  ]
+}

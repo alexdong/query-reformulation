@@ -1,0 +1,47 @@
+{
+  "entity": "Iceland",
+  "properties": {
+    "capital": "Reykjavik",
+    "official_language": "Icelandic",
+    "currency": "Icelandic króna",
+    "population": "375,000",
+    "area_km2": "103,000",
+    "continent": "Europe",
+    "independence_date": "1944",
+    "government_type": "Parliamentary republic",
+    "highest_point": "Hvannadalshnúkur",
+    "member_of": "NATO"
+  },
+  "relationship": [
+    {
+      "located_in": "Europe"
+    },
+    {
+      "borders": "Greenland"
+    },
+    {
+      "part_of": "Nordic countries"
+    },
+    {
+      "influenced_by": "Norse mythology"
+    },
+    {
+      "has_volcano": "Eyjafjallajökull"
+    },
+    {
+      "has_glacier": "Vatnajökull"
+    },
+    {
+      "has_river": "Þjórsá"
+    },
+    {
+      "has_national_park": "Thingvellir National Park"
+    },
+    {
+      "cuisine_includes": "Skyr"
+    },
+    {
+      "famous_for": "Northern Lights"
+    }
+  ]
+}

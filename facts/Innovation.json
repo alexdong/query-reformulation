@@ -1,0 +1,47 @@
+{
+  "entity": "Innovation",
+  "properties": {
+    "definition": "New ideas/methods",
+    "type": "Process",
+    "field": "Economics",
+    "driver": "Necessity/Opportunity",
+    "measurement": "Patent filings, new products",
+    "category": "Creative process",
+    "impact": "Economic growth, societal change",
+    "risk": "Uncertainty, failure",
+    "stage": "Ideation, development, implementation",
+    "benefit": "Improved efficiency, new markets"
+  },
+  "relationship": [
+    {
+      "is_a": "Creative process"
+    },
+    {
+      "drives": "Economic growth"
+    },
+    {
+      "related_to": "Research and Development"
+    },
+    {
+      "requires": "Creativity"
+    },
+    {
+      "influenced_by": "Technology"
+    },
+    {
+      "leads_to": "New products"
+    },
+    {
+      "part_of": "Business strategy"
+    },
+    {
+      "impacts": "Society"
+    },
+    {
+      "linked_to": "Entrepreneurship"
+    },
+    {
+      "example": "Steam engine"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Zwingli Palace",
+  "properties": {
+    "architect": "Giovanni Alberti",
+    "location": "Dresden",
+    "style": "Renaissance",
+    "built_start_date": "1526",
+    "built_end_date": "1532",
+    "commissioned_by": "Augustus I",
+    "purpose": "Residential palace",
+    "material": "Sandstone",
+    "area": "10,000 m²",
+    "current_use": "Museum"
+  },
+  "relationship": [
+    {
+      "part_of": "Dresden's Old Town"
+    },
+    {
+      "located_in": "Saxony"
+    },
+    {
+      "architect_worked_on": "Dresden Frauenkirche"
+    },
+    {
+      "influenced_by": "Italian Renaissance architecture"
+    },
+    {
+      "contains": "Old Masters Picture Gallery"
+    },
+    {
+      "contains": "Cabinet of Mathematical and Physical Instruments"
+    },
+    {
+      "adjacent_to": "Semper Opera House"
+    },
+    {
+      "destroyed_in": "Bombing of Dresden"
+    },
+    {
+      "rebuilt_after": "World War II"
+    },
+    {
+      "museum_collection_includes": "Raphael paintings"
+    }
+  ]
+}

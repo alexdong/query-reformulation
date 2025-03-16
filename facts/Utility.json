@@ -1,0 +1,47 @@
+{
+  "entity": "Utility",
+  "properties": {
+    "instance_of": "Service",
+    "type": "Essential",
+    "provides": "Resources",
+    "regulation": "Government",
+    "infrastructure": "Physical",
+    "cost": "Variable",
+    "demand": "High",
+    "reliability": "Critical",
+    "billing_cycle": "Monthly",
+    "sector": "Energy"
+  },
+  "relationship": [
+    {
+      "provides_to": "Consumer"
+    },
+    {
+      "requires": "Infrastructure"
+    },
+    {
+      "regulated_by": "Government Agency"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "dependent_on": "Natural Resources"
+    },
+    {
+      "includes": "Electricity"
+    },
+    {
+      "includes": "Water"
+    },
+    {
+      "includes": "Natural Gas"
+    },
+    {
+      "affected_by": "Weather"
+    },
+    {
+      "provides_to": "Business"
+    }
+  ]
+}

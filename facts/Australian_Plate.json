@@ -1,0 +1,47 @@
+{
+  "entity": "Australian Plate",
+  "properties": {
+    "type": "Tectonic Plate",
+    "area": "4.8 million km²",
+    "location": "Southern Hemisphere",
+    "major_landmasses": "Australia, New Guinea, Tasmania",
+    "boundary_type": "Convergent, Transform",
+    "movement": "North-eastward",
+    "average_speed": "7 cm/year",
+    "composition": "Oceanic and Continental Crust",
+    "thickness": "30-70 km",
+    "subduction_zone": "Pacific Plate"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Plate"
+    },
+    {
+      "adjacent_to": "Indo-Australian Plate"
+    },
+    {
+      "adjacent_to": "Philippine Sea Plate"
+    },
+    {
+      "collision_with": "Eurasian Plate"
+    },
+    {
+      "subducts_under": "Pacific Plate"
+    },
+    {
+      "contains": "Australia"
+    },
+    {
+      "contains": "New Guinea"
+    },
+    {
+      "contains": "Tasmania"
+    },
+    {
+      "geological_feature": "Great Barrier Reef"
+    },
+    {
+      "geological_event": "2004 Indian Ocean earthquake"
+    }
+  ]
+}

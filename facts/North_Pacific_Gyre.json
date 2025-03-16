@@ -1,0 +1,47 @@
+{
+  "entity": "North Pacific Gyre",
+  "properties": {
+    "type": "Ocean Gyre",
+    "location": "North Pacific Ocean",
+    "size": "20 million square kilometers",
+    "depth": "Varies, ocean depth",
+    "current_system": "North Pacific Current",
+    "formation": "Wind patterns, Coriolis effect",
+    "salinity": "Typical ocean salinity",
+    "temperature": "Varies with depth and location",
+    "impact": "Marine debris accumulation",
+    "discovery_date": "Historically observed, modern understanding developed over time"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "influenced_by": "Coriolis effect"
+    },
+    {
+      "driven_by": "Trade winds"
+    },
+    {
+      "contains": "Great Pacific Garbage Patch"
+    },
+    {
+      "affects": "Marine life"
+    },
+    {
+      "impacts": "Ocean ecosystems"
+    },
+    {
+      "adjacent_to": "North American Coast"
+    },
+    {
+      "adjacent_to": "Asian Coast"
+    },
+    {
+      "related_to": "Ocean currents"
+    },
+    {
+      "study_area_of": "Oceanography"
+    }
+  ]
+}

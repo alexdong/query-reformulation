@@ -1,0 +1,47 @@
+{
+  "entity": "Consumerism",
+  "properties": {
+    "definition": "Economic behavior",
+    "focus": "Acquisition of goods",
+    "driver": "Marketing & Advertising",
+    "impact": "Economic growth",
+    "criticism": "Environmental impact",
+    "related_concept": "Materialism",
+    "historical_context": "Post-WWII era",
+    "scale": "Global",
+    "measurement": "Consumer spending",
+    "opposite_of": "Minimalism"
+  },
+  "relationship": [
+    {
+      "causes": "Economic growth"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "related_to": "Marketing"
+    },
+    {
+      "influenced_by": "Advertising"
+    },
+    {
+      "promotes": "Materialism"
+    },
+    {
+      "linked_to": "Globalization"
+    },
+    {
+      "impacts": "Social values"
+    },
+    {
+      "drives": "Production"
+    },
+    {
+      "associated_with": "Planned obsolescence"
+    },
+    {
+      "countered_by": "Minimalism"
+    }
+  ]
+}

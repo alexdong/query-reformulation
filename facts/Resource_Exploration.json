@@ -1,0 +1,47 @@
+{
+  "entity": "Resource Exploration",
+  "properties": {
+    "definition": "Locating and evaluating natural resources",
+    "purpose": "Identify economically viable deposits",
+    "methods": "Geophysical surveys, geological mapping, drilling",
+    "scope": "Minerals, oil, gas, water, geothermal",
+    "stage": "Early phase of resource development",
+    "cost": "Significant investment required",
+    "risk": "High degree of uncertainty",
+    "data_used": "Geological data, seismic data, geochemical data",
+    "regulation": "Subject to environmental regulations",
+    "outcome": "Resource assessment report"
+  },
+  "relationship": [
+    {
+      "part_of": "Mining industry"
+    },
+    {
+      "uses": "Geophysics"
+    },
+    {
+      "uses": "Geology"
+    },
+    {
+      "requires": "Geological survey"
+    },
+    {
+      "employs": "Seismic reflection"
+    },
+    {
+      "involves": "Drilling"
+    },
+    {
+      "results_in": "Resource assessment"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "governed_by": "Environmental regulations"
+    },
+    {
+      "related_to": "Mineral exploration"
+    }
+  ]
+}

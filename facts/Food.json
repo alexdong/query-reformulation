@@ -1,0 +1,47 @@
+{
+  "entity": "Food",
+  "properties": {
+    "instance_of": "Nutrient",
+    "type": "Substance",
+    "purpose": "Sustenance",
+    "category": "Consumption",
+    "origin": "Nature",
+    "essential_for": "Life",
+    "provides": "Energy",
+    "contains": "Macronutrients",
+    "includes": "Fruits",
+    "requires": "Digestion"
+  },
+  "relationship": [
+    {
+      "is_a": "Nutrition"
+    },
+    {
+      "part_of": "Diet"
+    },
+    {
+      "related_to": "Agriculture"
+    },
+    {
+      "provides_to": "Human"
+    },
+    {
+      "consumed_by": "Animal"
+    },
+    {
+      "source_of": "Vitamins"
+    },
+    {
+      "source_of": "Minerals"
+    },
+    {
+      "processed_into": "Dish"
+    },
+    {
+      "grown_in": "Farm"
+    },
+    {
+      "impacts": "Health"
+    }
+  ]
+}

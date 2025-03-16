@@ -1,0 +1,47 @@
+{
+  "entity": "American English",
+  "properties": {
+    "type": "Dialect",
+    "origin": "United States",
+    "influenced_by": "British English, Indigenous Languages, African Languages",
+    "geographic_distribution": "North America",
+    "formal_name": "English",
+    "status": "Major Language",
+    "speakers": "319 million",
+    "writing_system": "Latin script",
+    "distinctive_feature": "Vocabulary, Pronunciation, Grammar",
+    "related_to": "World Englishes"
+  },
+  "relationship": [
+    {
+      "part_of": "English language"
+    },
+    {
+      "influenced": "Canadian English"
+    },
+    {
+      "influenced": "Caribbean English"
+    },
+    {
+      "influenced_by": "Received Pronunciation"
+    },
+    {
+      "evolved_from": "Early Modern English"
+    },
+    {
+      "has_variant": "African American Vernacular English"
+    },
+    {
+      "has_variant": "Southern American English"
+    },
+    {
+      "has_variant": "General American"
+    },
+    {
+      "compared_to": "British English"
+    },
+    {
+      "studied_in": "Linguistics"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Engineering",
+  "properties": {
+    "instance_of": "Discipline",
+    "field": "STEM",
+    "focus": "Design & Problem Solving",
+    "application": "Technology & Innovation",
+    "requires": "Mathematics & Science",
+    "sub_discipline": "Civil, Mechanical, Electrical",
+    "goal": "Creating Solutions",
+    "ethics": "Professional Codes",
+    "scale": "Micro to Macro",
+    "historical_origin": "Industrial Revolution"
+  },
+  "relationship": [
+    {
+      "employs": "Scientific Method"
+    },
+    {
+      "overlaps_with": "Science"
+    },
+    {
+      "requires_knowledge_of": "Mathematics"
+    },
+    {
+      "related_to": "Technology"
+    },
+    {
+      "contributes_to": "Innovation"
+    },
+    {
+      "specialization": "Civil Engineering"
+    },
+    {
+      "specialization": "Mechanical Engineering"
+    },
+    {
+      "specialization": "Electrical Engineering"
+    },
+    {
+      "influenced_by": "Scientific Revolution"
+    },
+    {
+      "career_path": "Engineer"
+    }
+  ]
+}

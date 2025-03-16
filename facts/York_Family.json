@@ -1,0 +1,47 @@
+{
+  "entity": "York Family",
+  "properties": {
+    "origin": "York, England",
+    "prominence": "Medieval England",
+    "status": "Noble Family",
+    "founder": "Stephen of Scarborough",
+    "dynasty": "York Dynasty",
+    "religion": "Christianity",
+    "language": "English",
+    "wealth": "Significant",
+    "influence": "Regional",
+    "historical_period": "12th-15th Centuries"
+  },
+  "relationship": [
+    {
+      "member_of": "English Nobility"
+    },
+    {
+      "related_to": "House Neville"
+    },
+    {
+      "related_to": "House Percy"
+    },
+    {
+      "descendant_of": "Stephen of Scarborough"
+    },
+    {
+      "ancestor_of": "Richard Neville, 16th Baron Neville"
+    },
+    {
+      "involved_in": "Wars of the Roses"
+    },
+    {
+      "held_title": "Earl of Salisbury"
+    },
+    {
+      "held_title": "Earl of Warwick"
+    },
+    {
+      "controlled_territory": "Yorkshire"
+    },
+    {
+      "supported": "English Monarchy"
+    }
+  ]
+}

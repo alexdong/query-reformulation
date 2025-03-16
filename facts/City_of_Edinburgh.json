@@ -1,0 +1,47 @@
+{
+  "entity": "City of Edinburgh",
+  "properties": {
+    "capital_of": "Scotland",
+    "country": "United Kingdom",
+    "population_2022": "560,000",
+    "established": "638",
+    "latitude": "55.95",
+    "longitude": "-3.20",
+    "area_km2": "241",
+    "currency": "GBP",
+    "official_language": "English",
+    "time_zone": "GMT"
+  },
+  "relationship": [
+    {
+      "part_of": "Edinburghshire"
+    },
+    {
+      "located_in": "Lothian"
+    },
+    {
+      "has_neighbour": "East Lothian"
+    },
+    {
+      "has_neighbour": "West Lothian"
+    },
+    {
+      "has_neighbour": "Midlothian"
+    },
+    {
+      "contains": "Edinburgh Castle"
+    },
+    {
+      "contains": "Royal Mile"
+    },
+    {
+      "contains": "Arthur's Seat"
+    },
+    {
+      "festival": "Edinburgh Festival Fringe"
+    },
+    {
+      "university": "University of Edinburgh"
+    }
+  ]
+}

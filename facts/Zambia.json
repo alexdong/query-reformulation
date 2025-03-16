@@ -1,0 +1,47 @@
+{
+  "entity": "Zambia",
+  "properties": {
+    "capital": "Lusaka",
+    "official_language": "English",
+    "currency": "Zambian Kwacha",
+    "area_km2": "752612",
+    "population_2023": "20347628",
+    "continent": "Africa",
+    "independence_date": "1964",
+    "government_type": "Presidential republic",
+    "GDP_nominal": "27.7 billion USD",
+    "land_border_countries": "8"
+  },
+  "relationship": [
+    {
+      "located_in": "Africa"
+    },
+    {
+      "borders": "Angola"
+    },
+    {
+      "borders": "Botswana"
+    },
+    {
+      "borders": "Democratic Republic of the Congo"
+    },
+    {
+      "borders": "Malawi"
+    },
+    {
+      "borders": "Mozambique"
+    },
+    {
+      "borders": "Namibia"
+    },
+    {
+      "borders": "Tanzania"
+    },
+    {
+      "borders": "Zimbabwe"
+    },
+    {
+      "member_of": "African Union"
+    }
+  ]
+}

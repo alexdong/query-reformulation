@@ -1,0 +1,47 @@
+{
+  "entity": "Ancestral Spirits",
+  "properties": {
+    "type": "Spiritual beings",
+    "belief_system": "Various cultures",
+    "role": "Guidance, protection, influence",
+    "communication_method": "Dreams, omens, rituals",
+    "existence_state": "Non-physical",
+    "reverence": "Respect, offerings, remembrance",
+    "connection": "Family lineage, ancestors",
+    "influence_on": "Life events, decisions",
+    "moral_responsibility": "Upholding traditions, values",
+    "representation": "Statues, portraits, names"
+  },
+  "relationship": [
+    {
+      "related_to": "Animism"
+    },
+    {
+      "part_of": "Ancestor worship"
+    },
+    {
+      "influences": "Cultural practices"
+    },
+    {
+      "associated_with": "Shamanism"
+    },
+    {
+      "belief_system": "African Traditional Religions"
+    },
+    {
+      "belief_system": "Chinese folk religion"
+    },
+    {
+      "belief_system": "Indigenous Australian beliefs"
+    },
+    {
+      "related_to": "Afterlife"
+    },
+    {
+      "related_to": "Spirituality"
+    },
+    {
+      "influences": "Family dynamics"
+    }
+  ]
+}

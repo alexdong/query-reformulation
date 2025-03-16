@@ -1,0 +1,47 @@
+{
+  "entity": "Papua New Guinea",
+  "properties": {
+    "capital": "Port Moresby",
+    "official_languages": "Tok Pisin, English, Hiri Motu",
+    "population": "9,383,724",
+    "area_km2": "462,840",
+    "currency": "Papua New Guinean Kina",
+    "gdp_nominal": "$24.7 billion",
+    "continent": "Oceania",
+    "independence_date": "1975-09-16",
+    "government_type": "Parliamentary republic",
+    "largest_city": "Port Moresby"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "borders": "Indonesia"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "located_in": "South Pacific Ocean"
+    },
+    {
+      "influenced_by": "Australia"
+    },
+    {
+      "has_language": "Tok Pisin"
+    },
+    {
+      "has_language": "English"
+    },
+    {
+      "has_language": "Hiri Motu"
+    },
+    {
+      "contains": "New Guinea Island"
+    }
+  ]
+}

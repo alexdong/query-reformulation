@@ -1,0 +1,47 @@
+{
+  "entity": "Italy",
+  "properties": {
+    "capital": "Rome",
+    "official_language": "Italian",
+    "population": "59 million",
+    "area": "301,340 km²",
+    "currency": "Euro",
+    "GDP_nominal": "$2.1 trillion",
+    "member_of": "European Union",
+    "land_border": "France, Switzerland, Austria, Slovenia",
+    "highest_point": "Mont Blanc (shared with France)",
+    "national_holiday": "Republic Day"
+  },
+  "relationship": [
+    {
+      "part_of": "Europe"
+    },
+    {
+      "located_in": "European Union"
+    },
+    {
+      "influenced": "Roman Empire"
+    },
+    {
+      "has_region": "Lazio"
+    },
+    {
+      "has_region": "Sicily"
+    },
+    {
+      "has_region": "Veneto"
+    },
+    {
+      "has_city": "Milan"
+    },
+    {
+      "has_city": "Naples"
+    },
+    {
+      "has_art_movement": "Renaissance"
+    },
+    {
+      "cuisine_influenced": "Italian cuisine"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Islam",
+  "properties": {
+    "religion_type": "Abrahamic religion",
+    "founder": "Muhammad",
+    "origin": "Mecca",
+    "sacred_text": "Quran",
+    "language": "Arabic",
+    "followers": "1.8 billion",
+    "major_branch": "Sunni Islam, Shia Islam",
+    "theology": "Monotheism",
+    "holy_day": "Eid al-Fitr",
+    "legal_system": "Sharia"
+  },
+  "relationship": [
+    {
+      "part_of": "Abrahamic religions"
+    },
+    {
+      "influenced": "Islamic art"
+    },
+    {
+      "influenced": "Islamic philosophy"
+    },
+    {
+      "influenced": "Islamic law"
+    },
+    {
+      "related_to": "Judaism"
+    },
+    {
+      "related_to": "Christianity"
+    },
+    {
+      "has_prophet": "Muhammad"
+    },
+    {
+      "has_prophet": "Abraham"
+    },
+    {
+      "has_holy_site": "Mecca"
+    },
+    {
+      "has_holy_site": "Jerusalem"
+    }
+  ]
+}

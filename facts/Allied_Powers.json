@@ -1,0 +1,47 @@
+{
+  "entity": "Allied Powers",
+  "properties": {
+    "instance_of": "Military alliance",
+    "purpose": "Defeat Axis Powers",
+    "formation_date": "December 2, 1941",
+    "initial_members": "United Kingdom, France, Poland, USSR",
+    "major_members": "US, UK, USSR, China, France",
+    "ideology": "Democracy, Communism, Anti-fascism",
+    "leader": "Franklin D. Roosevelt, Winston Churchill, Joseph Stalin",
+    "geographic_scope": "Global",
+    "war": "World War II",
+    "dissolution_date": "1945"
+  },
+  "relationship": [
+    {
+      "opposed_by": "Axis Powers"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "victory_in": "World War II"
+    },
+    {
+      "includes": "United States"
+    },
+    {
+      "includes": "United Kingdom"
+    },
+    {
+      "includes": "Soviet Union"
+    },
+    {
+      "includes": "China"
+    },
+    {
+      "includes": "France"
+    },
+    {
+      "fought_in": "European Theatre"
+    },
+    {
+      "fought_in": "Pacific Theatre"
+    }
+  ]
+}

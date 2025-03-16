@@ -1,0 +1,47 @@
+{
+  "entity": "Tourism in New Zealand",
+  "properties": {
+    "industry": "Tourism",
+    "country": "New Zealand",
+    "economic_impact": "Significant",
+    "visitor_spend": "NZD billions",
+    "peak_season": "December-February",
+    "major_attractions": "Fiordland, Rotorua, Queenstown",
+    "visa_requirements": "Vary by nationality",
+    "tourism_type": "Adventure, Nature, Cultural",
+    "governing_body": "Tourism New Zealand",
+    "impact_on_environment": "Growing concern"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand economy"
+    },
+    {
+      "influenced_by": "Lord of the Rings films"
+    },
+    {
+      "attracts": "International tourists"
+    },
+    {
+      "supports": "Local businesses"
+    },
+    {
+      "impacts": "Maori culture"
+    },
+    {
+      "promoted_by": "Tourism New Zealand"
+    },
+    {
+      "located_in": "Oceania"
+    },
+    {
+      "provides_jobs_to": "New Zealanders"
+    },
+    {
+      "faces_challenges_from": "COVID-19 pandemic"
+    },
+    {
+      "contributes_to": "New Zealand GDP"
+    }
+  ]
+}

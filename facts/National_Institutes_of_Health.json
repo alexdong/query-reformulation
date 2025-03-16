@@ -1,0 +1,47 @@
+{
+  "entity": "National Institutes of Health",
+  "properties": {
+    "instance_of": "Government agency",
+    "country": "United States",
+    "hq_location": "Bethesda, Maryland",
+    "founded": "1887",
+    "purpose": "Medical research",
+    "budget": "USD 43 billion (2023)",
+    "director": "Monica L. Collares",
+    "parent_agency": "Department of Health and Human Services",
+    "research_areas": "Biomedical",
+    "website": "www.nih.gov"
+  },
+  "relationship": [
+    {
+      "funds": "Medical research"
+    },
+    {
+      "collaborates_with": "Universities"
+    },
+    {
+      "part_of": "US federal government"
+    },
+    {
+      "research_focus": "Cancer research"
+    },
+    {
+      "research_focus": "Alzheimer's disease"
+    },
+    {
+      "research_focus": "HIV/AIDS"
+    },
+    {
+      "employs": "Researchers"
+    },
+    {
+      "provides": "Grants"
+    },
+    {
+      "affiliated_with": "National Library of Medicine"
+    },
+    {
+      "influences": "Medical practice"
+    }
+  ]
+}

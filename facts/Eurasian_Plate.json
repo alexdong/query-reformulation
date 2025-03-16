@@ -1,0 +1,47 @@
+{
+  "entity": "Eurasian Plate",
+  "properties": {
+    "type": "Tectonic Plate",
+    "area": "23,600,000 km²",
+    "location": "Northern Hemisphere",
+    "composition": "Continental and Oceanic Crust",
+    "major_landmasses": "Europe, Asia",
+    "boundary_type": "Convergent, Divergent, Transform",
+    "average_thickness": "30-70 km",
+    "density": "2.7 g/cm³",
+    "movement_rate": "2-4 cm/year",
+    "subplate": "Arabian Plate, Indian Plate"
+  },
+  "relationship": [
+    {
+      "part_of": "Lithosphere"
+    },
+    {
+      "borders": "Pacific Plate"
+    },
+    {
+      "borders": "North American Plate"
+    },
+    {
+      "borders": "African Plate"
+    },
+    {
+      "borders": "Australian Plate"
+    },
+    {
+      "collision_with": "Indian Plate"
+    },
+    {
+      "subduction_zone_with": "Pacific Plate"
+    },
+    {
+      "includes": "Siberian Plate"
+    },
+    {
+      "includes": "Philippine Sea Plate"
+    },
+    {
+      "influences": "Earthquakes"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "entity": "Western Hemisphere",
+  "properties": {
+    "type": "Continent",
+    "area": "42.5 million km²",
+    "population": "950 million",
+    "location": "Western side of Earth",
+    "contains": "South America",
+    "largest_country": "United States",
+    "highest_point": "Aconcagua",
+    "lowest_point": "Death Valley",
+    "major_ocean": "Pacific Ocean"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "borders": "Eastern Hemisphere"
+    },
+    {
+      "contains": "Canada"
+    },
+    {
+      "contains": "Mexico"
+    },
+    {
+      "contains": "Brazil"
+    },
+    {
+      "contains": "Argentina"
+    },
+    {
+      "influenced_by": "Columbian Exchange"
+    },
+    {
+      "historical_event": "Age of Exploration"
+    },
+    {
+      "climate_zone": "Tropical"
+    },
+    {
+      "geological_feature": "Rocky Mountains"
+    }
+  ]
+}

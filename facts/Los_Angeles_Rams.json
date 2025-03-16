@@ -1,0 +1,47 @@
+{
+  "entity": "Los Angeles Rams",
+  "properties": {
+    "instance_of": "American football team",
+    "league": "National Football League",
+    "founded": "1936",
+    "city": "Los Angeles",
+    "state": "California",
+    "division": "NFC West",
+    "head_coach": "Sean McVay",
+    "team_owner": "Stan Kroenke",
+    "team_color": "Royal Blue, Sol Yellow, Thousand Oaks",
+    "stadium": "SoFi Stadium"
+  },
+  "relationship": [
+    {
+      "plays_in": "NFL"
+    },
+    {
+      "located_in": "Los Angeles"
+    },
+    {
+      "division_rival": "Seattle Seahawks"
+    },
+    {
+      "division_rival": "Arizona Cardinals"
+    },
+    {
+      "division_rival": "San Francisco 49ers"
+    },
+    {
+      "won_championship": "Super Bowl LVI"
+    },
+    {
+      "former_location": "St. Louis"
+    },
+    {
+      "former_location": "Cleveland"
+    },
+    {
+      "player_plays_for": "Matthew Stafford"
+    },
+    {
+      "player_plays_for": "Aaron Donald"
+    }
+  ]
+}

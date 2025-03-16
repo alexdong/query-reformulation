@@ -1,0 +1,47 @@
+{
+  "entity": "Microbiology",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field": "Biology",
+    "focus": "Microorganisms",
+    "study_area": "Bacteria, Archaea, Viruses, Fungi, Protozoa",
+    "subfields": "Immunology, Virology, Bacteriology, Mycology",
+    "related_to": "Biochemistry, Genetics",
+    "importance": "Medicine, Agriculture, Environmental Science",
+    "origin": "17th century",
+    "key_figure": "Antonie van Leeuwenhoek",
+    "methodology": "Microscopy, Culturing, Molecular Biology"
+  },
+  "relationship": [
+    {
+      "studies": "Bacteria"
+    },
+    {
+      "studies": "Viruses"
+    },
+    {
+      "studies": "Fungi"
+    },
+    {
+      "studies": "Protozoa"
+    },
+    {
+      "related_to": "Immunology"
+    },
+    {
+      "related_to": "Genetics"
+    },
+    {
+      "influences": "Medicine"
+    },
+    {
+      "influences": "Agriculture"
+    },
+    {
+      "uses": "Microscopy"
+    },
+    {
+      "contributes_to": "Biotechnology"
+    }
+  ]
+}

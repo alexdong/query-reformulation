@@ -1,0 +1,47 @@
+{
+  "entity": "Waiau River",
+  "properties": {
+    "location": "South Island, New Zealand",
+    "length": "225 km (140 mi)",
+    "source": "Southern Alps",
+    "mouth": "Tasman Sea",
+    "tributaries": "Waiho River, Taramakau River",
+    "river_type": "Greywater river",
+    "drainage_area": "4,065 km² (1,570 sq mi)",
+    "average_flow": "350 m³/s (12,000 cu ft/s)",
+    "name_origin": "Māori language",
+    "geological_era": "Quaternary"
+  },
+  "relationship": [
+    {
+      "flows_into": "Tasman Sea"
+    },
+    {
+      "source_location": "Southern Alps"
+    },
+    {
+      "tributary_of": "West Coast Region"
+    },
+    {
+      "passes_through": "Westland Tai Poutini National Park"
+    },
+    {
+      "region": "West Coast Region"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "part_of": "Grey District"
+    },
+    {
+      "flows_past": "Hokitika"
+    },
+    {
+      "has_tributary": "Waiho River"
+    },
+    {
+      "has_tributary": "Taramakau River"
+    }
+  ]
+}

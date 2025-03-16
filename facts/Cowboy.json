@@ -1,0 +1,47 @@
+{
+  "entity": "Cowboy",
+  "properties": {
+    "occupation": "Herder",
+    "era": "American West",
+    "clothing": "Western wear",
+    "skill": "Horseback riding",
+    "lifestyle": "Nomadic",
+    "region": "American West",
+    "time_period": "19th century",
+    "iconic_tool": "Lariat",
+    "social_status": "Varies",
+    "image": "Western aesthetic"
+  },
+  "relationship": [
+    {
+      "works_with": "Cattle"
+    },
+    {
+      "associated_with": "Frontier"
+    },
+    {
+      "part_of": "Western genre"
+    },
+    {
+      "depicted_in": "Western film"
+    },
+    {
+      "influenced_by": "Vaquero"
+    },
+    {
+      "related_to": "Ranching"
+    },
+    {
+      "often_features": "Sheriff"
+    },
+    {
+      "symbolizes": "Independence"
+    },
+    {
+      "role_in": "American mythology"
+    },
+    {
+      "often_faces": "Outlaws"
+    }
+  ]
+}

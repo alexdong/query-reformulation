@@ -1,0 +1,47 @@
+{
+  "entity": "Oral tradition",
+  "properties": {
+    "definition": "Cultural heritage passed down verbally",
+    "type": "Cultural practice",
+    "transmission_method": "Spoken word",
+    "content": "Myths, legends, folklore, history",
+    "purpose": "Education, entertainment, preservation",
+    "variability": "Changes over time",
+    "dependence": "Memory and performance",
+    "geographic_scope": "Global",
+    "age": "Ancient",
+    "format": "Stories, songs, proverbs"
+  },
+  "relationship": [
+    {
+      "part_of": "Cultural heritage"
+    },
+    {
+      "related_to": "Folklore"
+    },
+    {
+      "related_to": "Mythology"
+    },
+    {
+      "related_to": "History"
+    },
+    {
+      "influenced_by": "Human memory"
+    },
+    {
+      "preserved_by": "Storytellers"
+    },
+    {
+      "transmitted_to": "Generations"
+    },
+    {
+      "overlaps_with": "Written tradition"
+    },
+    {
+      "example_of": "Indigenous knowledge"
+    },
+    {
+      "related_to": "Anthropology"
+    }
+  ]
+}

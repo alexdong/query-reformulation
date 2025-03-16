@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Ecosystem",
+  "properties": {
+    "type": "Biogeographic Realm",
+    "location": "Oceania",
+    "area": "268,021 km²",
+    "climate": "Temperate, Oceanic",
+    "biodiversity": "High",
+    "endemism": "Very High",
+    "dominant_flora": "Podocarp forests, Nothofagus forests",
+    "dominant_fauna": "Birds, invertebrates",
+    "geology": "Volcanic, tectonic",
+    "conservation_status": "Threatened"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "contains": "New Zealand Forest"
+    },
+    {
+      "influenced_by": "Gondwana"
+    },
+    {
+      "has_species": "Kiwi"
+    },
+    {
+      "has_species": "Kakapo"
+    },
+    {
+      "has_species": "Tuatara"
+    },
+    {
+      "threatened_by": "Introduced Species"
+    },
+    {
+      "impacted_by": "Climate Change"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "adjacent_to": "Antarctica"
+    }
+  ]
+}

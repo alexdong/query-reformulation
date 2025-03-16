@@ -1,0 +1,47 @@
+{
+  "entity": "Sheep",
+  "properties": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "gestation_period": "148 days",
+    "average_lifespan": "10-12 years",
+    "diet": "Herbivore",
+    "wool_type": "Various",
+    "domesticated": "Yes"
+  },
+  "relationship": [
+    {
+      "part_of": "Farm"
+    },
+    {
+      "prey_for": "Wolf"
+    },
+    {
+      "grazes_on": "Grass"
+    },
+    {
+      "provides": "Wool"
+    },
+    {
+      "provides": "Meat"
+    },
+    {
+      "related_to": "Goat"
+    },
+    {
+      "related_to": "Cattle"
+    },
+    {
+      "breed_example": "Merino"
+    },
+    {
+      "breed_example": "Suffolk"
+    },
+    {
+      "disease": "Scrapie"
+    }
+  ]
+}

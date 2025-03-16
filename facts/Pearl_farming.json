@@ -1,0 +1,47 @@
+{
+  "entity": "Pearl farming",
+  "properties": {
+    "type": "Aquaculture",
+    "product": "Pearls",
+    "species_used": "Pinctada radiata, Pinctada maxima, Pteria sterna",
+    "location": "Coastal waters, tropical regions",
+    "process": "Oyster cultivation, nucleus insertion",
+    "time_to_harvest": "2-5 years",
+    "labor_intensive": "Yes",
+    "economic_impact": "Significant in some regions",
+    "environmental_impact": "Potential for pollution, disease",
+    "certification": "Responsible Pearl Farming Standards"
+  },
+  "relationship": [
+    {
+      "part_of": "Aquaculture"
+    },
+    {
+      "produces": "Pearl jewelry"
+    },
+    {
+      "requires": "Oyster shells"
+    },
+    {
+      "uses": "Nucleus"
+    },
+    {
+      "located_in": "Ocean"
+    },
+    {
+      "impacts": "Marine ecosystem"
+    },
+    {
+      "related_to": "Shellfish farming"
+    },
+    {
+      "influenced_by": "Japanese pearl farming"
+    },
+    {
+      "employs": "Pearl farmers"
+    },
+    {
+      "supports": "Coastal communities"
+    }
+  ]
+}

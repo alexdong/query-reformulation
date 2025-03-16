@@ -1,0 +1,47 @@
+{
+  "entity": "Victoria",
+  "properties": {
+    "instance_of": "Monarch",
+    "birth_date": "1819-05-24",
+    "death_date": "1901-01-22",
+    "birth_place": "Kensington Palace",
+    "full_name": "Alexandrina Victoria",
+    "reign_start": "1837-06-20",
+    "reign_end": "1901-01-22",
+    "title": "Queen of the United Kingdom",
+    "spouse": "Prince Albert",
+    "era": "Victorian era"
+  },
+  "relationship": [
+    {
+      "predecessor": "William IV (monarch)"
+    },
+    {
+      "successor": "Edward VII (monarch)"
+    },
+    {
+      "father": "Edward, Duke of Kent and Strathearn"
+    },
+    {
+      "mother": "Victoria of Saxe-Coburg-Saalfeld"
+    },
+    {
+      "married_to": "Prince Albert"
+    },
+    {
+      "child_of": "Edward, Duke of Kent and Strathearn"
+    },
+    {
+      "ruled_over": "British Empire"
+    },
+    {
+      "influenced": "Victorian literature"
+    },
+    {
+      "era_of": "Victorian era"
+    },
+    {
+      "located_in": "United Kingdom"
+    }
+  ]
+}

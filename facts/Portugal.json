@@ -1,0 +1,47 @@
+{
+  "entity": "Portugal",
+  "properties": {
+    "capital": "Lisbon",
+    "official_language": "Portuguese",
+    "currency": "Euro",
+    "population": "10.3 million",
+    "area_km2": "92,090",
+    "continent": "Europe",
+    "national_dish": "Bacalhau",
+    "national_sport": "Football",
+    "independence_date": "1143",
+    "member_of": "European Union"
+  },
+  "relationship": [
+    {
+      "borders": "Spain"
+    },
+    {
+      "is_member_of": "NATO"
+    },
+    {
+      "has_colony": "Brazil"
+    },
+    {
+      "located_in": "Iberian Peninsula"
+    },
+    {
+      "influenced": "Brazilian culture"
+    },
+    {
+      "exports_to": "Germany"
+    },
+    {
+      "imports_from": "China"
+    },
+    {
+      "has_region": "Algarve"
+    },
+    {
+      "has_city": "Porto"
+    },
+    {
+      "historical_figure": "Henry the Navigator"
+    }
+  ]
+}

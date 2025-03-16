@@ -1,0 +1,47 @@
+{
+  "entity": "The Catlins",
+  "properties": {
+    "type": "Region",
+    "location": "Southeastern New Zealand",
+    "area": "1796 km²",
+    "population": "500",
+    "climate": "Temperate maritime",
+    "landscape": "Rugged coastline, forests, waterfalls",
+    "economy": "Tourism, farming, forestry",
+    "established": "1853",
+    "governance": "Clutha District",
+    "biodiversity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Southland Region"
+    },
+    {
+      "contains": "Nugget Point"
+    },
+    {
+      "contains": "Curio Bay"
+    },
+    {
+      "contains": "Catlins River"
+    },
+    {
+      "adjacent_to": "Otago"
+    },
+    {
+      "influenced_by": "New Zealand"
+    },
+    {
+      "attraction_type": "Coastal scenery"
+    },
+    {
+      "attraction_type": "Wildlife"
+    },
+    {
+      "contains": "McLean Falls"
+    },
+    {
+      "contains": "Florence Hill Lookout"
+    }
+  ]
+}

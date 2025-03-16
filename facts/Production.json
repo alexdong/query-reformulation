@@ -1,0 +1,47 @@
+{
+  "entity": "Production",
+  "properties": {
+    "instance_of": "Process",
+    "field": "Economics",
+    "synonym": "Output",
+    "definition": "Creation of goods/services",
+    "measurement": "Units, Value",
+    "factor": "Inputs",
+    "type": "Manufacturing, Agriculture, Services",
+    "scale": "Small, Large",
+    "efficiency": "Productivity",
+    "goal": "Profit, Utility"
+  },
+  "relationship": [
+    {
+      "requires": "Inputs"
+    },
+    {
+      "results_in": "Output"
+    },
+    {
+      "affects": "Supply"
+    },
+    {
+      "affects": "Demand"
+    },
+    {
+      "part_of": "Economy"
+    },
+    {
+      "related_to": "Manufacturing"
+    },
+    {
+      "related_to": "Agriculture"
+    },
+    {
+      "related_to": "Service industry"
+    },
+    {
+      "impacts": "GDP"
+    },
+    {
+      "analyzed_by": "Econometrics"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Sirhan Sirhan",
+  "properties": {
+    "birth_date": "1944-03-13",
+    "birth_place": "Jerusalem",
+    "nationality": "Palestinian-American",
+    "occupation": "Assassination",
+    "conviction": "First-degree murder",
+    "imprisonment_status": "Life imprisonment",
+    "political_affiliation": "Arab nationalism",
+    "education": "High school",
+    "crime_date": "1968-06-05",
+    "victim": "Robert F. Kennedy"
+  },
+  "relationship": [
+    {
+      "assassinated": "Robert F. Kennedy"
+    },
+    {
+      "member_of": "Arab nationalist movement"
+    },
+    {
+      "born_in": "Jerusalem"
+    },
+    {
+      "nationality_of": "United States"
+    },
+    {
+      "trial_location": "Los Angeles"
+    },
+    {
+      "sentenced_by": "Judge Herbert Curtis Walker"
+    },
+    {
+      "appealed_by": "Defense attorneys"
+    },
+    {
+      "influenced_by": "Palestinian nationalism"
+    },
+    {
+      "related_to": "Yitzhak Rabin"
+    },
+    {
+      "involved_in": "1968 United States presidential election"
+    }
+  ]
+}

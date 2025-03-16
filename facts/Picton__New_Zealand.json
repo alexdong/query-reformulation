@@ -1,0 +1,47 @@
+{
+  "entity": "Picton, New Zealand",
+  "properties": {
+    "type": "Town",
+    "region": "Marlborough",
+    "country": "New Zealand",
+    "population_2018": "12,377",
+    "coordinates": "41°27′S 173°48′E",
+    "established": "1850",
+    "mayor": "Doug Patterson",
+    "area_code": "03",
+    "time_zone": "NZST",
+    "elevation": "10 m"
+  },
+  "relationship": [
+    {
+      "located_in": "Marlborough Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "port_for": "Wellington"
+    },
+    {
+      "connected_to": "Blenheim"
+    },
+    {
+      "ferry_terminal_for": "Interislander"
+    },
+    {
+      "ferry_terminal_for": "Bluebridge"
+    },
+    {
+      "near": "Queen Charlotte Track"
+    },
+    {
+      "has_landmark": "Edwin Fox Historic Ship"
+    },
+    {
+      "has_attraction": "Picton Heritage Trail"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

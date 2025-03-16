@@ -1,0 +1,47 @@
+{
+  "entity": "Gastronomy",
+  "properties": {
+    "instance_of": "Cultural activity",
+    "field_of_study": "Culinary arts",
+    "focus": "Food & Culture",
+    "related_to": "Nutrition",
+    "includes": "Food history",
+    "aspect": "Sensory experience",
+    "involves": "Cooking techniques",
+    "overlaps_with": "Food science",
+    "origin": "France",
+    "definition": "Study of food and culture"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Anthropology"
+    },
+    {
+      "related_to": "Cuisine"
+    },
+    {
+      "overlaps_with": "Food writing"
+    },
+    {
+      "studied_in": "Culinary schools"
+    },
+    {
+      "contributes_to": "Tourism"
+    },
+    {
+      "related_to": "Wine"
+    },
+    {
+      "related_to": "Beverage"
+    },
+    {
+      "includes": "Regional cuisine"
+    },
+    {
+      "related_to": "Diet"
+    },
+    {
+      "promotes": "Food sustainability"
+    }
+  ]
+}

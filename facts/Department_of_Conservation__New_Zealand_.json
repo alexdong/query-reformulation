@@ -1,0 +1,47 @@
+{
+  "entity": "Department of Conservation (New Zealand)",
+  "properties": {
+    "agency_type": "Government agency",
+    "country": "New Zealand",
+    "established": "1987",
+    "parent_agency": "Ministry of the Environment",
+    "headquarters": "Wellington",
+    "mandate": "Conservation",
+    "budget": "NZD $750 million (2023)",
+    "employees": "3,000+",
+    "minister": "Eugenie Sage",
+    "website": "doc.govt.nz"
+  },
+  "relationship": [
+    {
+      "manages": "National Park"
+    },
+    {
+      "protects": "Native Species"
+    },
+    {
+      "responsible_for": "Conservation"
+    },
+    {
+      "works_with": "Māori"
+    },
+    {
+      "funded_by": "New Zealand Government"
+    },
+    {
+      "oversees": "Marine Reserve"
+    },
+    {
+      "employs": "Ranger"
+    },
+    {
+      "collaborates_with": "Local Council"
+    },
+    {
+      "reports_to": "Parliament of New Zealand"
+    },
+    {
+      "location": "New Zealand"
+    }
+  ]
+}

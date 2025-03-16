@@ -1,0 +1,47 @@
+{
+  "entity": "The Remarkables",
+  "properties": {
+    "type": "Mountain range",
+    "location": "Queenstown, New Zealand",
+    "elevation": "1,401 m (4,596 ft)",
+    "region": "Otago",
+    "formation": "Geological uplift",
+    "named_after": "Remarkable appearance",
+    "geology": "Schist",
+    "ski_area": "Yes",
+    "part_of": "Southern Alps",
+    "area": "131 km²"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "contains": "Remarkables Ski Area"
+    },
+    {
+      "adjacent_to": "Cecil Peak"
+    },
+    {
+      "adjacent_to": "Lake Wakatipu"
+    },
+    {
+      "geological_era": "Tertiary Period"
+    },
+    {
+      "influences": "Queenstown tourism"
+    },
+    {
+      "provides": "Skiing opportunities"
+    },
+    {
+      "contains": "Queenstown"
+    },
+    {
+      "viewed_from": "Queenstown skyline"
+    }
+  ]
+}

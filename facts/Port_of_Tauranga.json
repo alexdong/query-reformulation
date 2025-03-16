@@ -1,0 +1,47 @@
+{
+  "entity": "Port of Tauranga",
+  "properties": {
+    "type": "Port",
+    "location": "Tauranga, New Zealand",
+    "owner": "Tauranga City Council",
+    "established": "1884",
+    "cargo_volume": "28.6 million tonnes (2023)",
+    "container_throughput": "1.47 million TEUs (2023)",
+    "major_exports": "Logs, kiwifruit, meat",
+    "services": "Cargo handling, stevedoring, pilotage",
+    "employee_count": "700+",
+    "website": "www.porttauranga.co.nz"
+  },
+  "relationship": [
+    {
+      "located_in": "Bay of Plenty Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "serves": "Tauranga"
+    },
+    {
+      "handles_cargo_for": "Fonterra"
+    },
+    {
+      "connected_to": "Pacific Ocean"
+    },
+    {
+      "operates_wharf": "Simons Wharf"
+    },
+    {
+      "operates_wharf": "Tauranga Wharf"
+    },
+    {
+      "partner_of": "KiwiRail"
+    },
+    {
+      "facilitates_trade_with": "China"
+    },
+    {
+      "facilitates_trade_with": "Japan"
+    }
+  ]
+}

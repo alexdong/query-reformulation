@@ -1,0 +1,47 @@
+{
+  "entity": "Tuvalu",
+  "properties": {
+    "instance_of": "Country",
+    "official_language": "Tuvaluan, English",
+    "capital": "Funafuti",
+    "population_total": "11,396",
+    "area_km2": "26",
+    "currency": "Australian Dollar (AUD)",
+    "sovereignty": "Independent",
+    "location": "Pacific Ocean",
+    "government_type": "Parliamentary Republic",
+    "member_of": "United Nations"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesia"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "capital_of": "Funafuti"
+    },
+    {
+      "influenced_by": "New Zealand"
+    },
+    {
+      "neighbor": "Kiribati"
+    },
+    {
+      "neighbor": "Solomon Islands"
+    },
+    {
+      "currency_used": "Australian Dollar"
+    },
+    {
+      "language_spoken": "Tuvaluan"
+    }
+  ]
+}

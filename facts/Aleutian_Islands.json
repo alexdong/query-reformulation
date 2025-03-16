@@ -1,0 +1,47 @@
+{
+  "entity": "Aleutian Islands",
+  "properties": {
+    "type": "Island chain",
+    "location": "Alaska, USA",
+    "area": "57,200 km²",
+    "population": "8,326",
+    "part_of": "Alaska",
+    "climate": "Subpolar oceanic",
+    "highest_point": "Mount Redoubt",
+    "formation": "Volcanic arc",
+    "discovery": "1741",
+    "name_origin": "Aleut language"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "located_in": "Alaska"
+    },
+    {
+      "adjacent_to": "Bering Sea"
+    },
+    {
+      "adjacent_to": "Pacific Ocean"
+    },
+    {
+      "contains": "Attu Station"
+    },
+    {
+      "contains": "Kiska"
+    },
+    {
+      "contains": "Adak"
+    },
+    {
+      "influenced_by": "Russian colonization"
+    },
+    {
+      "part_of_region": "North America"
+    },
+    {
+      "geological_feature": "Aleutian Trench"
+    }
+  ]
+}

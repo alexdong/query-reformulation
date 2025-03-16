@@ -1,0 +1,47 @@
+{
+  "entity": "Avatiu",
+  "properties": {
+    "type": "Atoll",
+    "location": "Tuamotu Archipelago",
+    "country": "French Polynesia",
+    "coordinates_latitude": "-18.2833",
+    "coordinates_longitude": "-143.55",
+    "area": "3.00 km²",
+    "land_area": "2.00 km²",
+    "population_year": "2017",
+    "population_count": "138",
+    "administration": "Te Fenua"
+  },
+  "relationship": [
+    {
+      "part_of": "Tuamotu Archipelago"
+    },
+    {
+      "located_in": "French Polynesia"
+    },
+    {
+      "country": "France"
+    },
+    {
+      "archipelago_contains": "Avatiu"
+    },
+    {
+      "has_neighbor": "Rotoava"
+    },
+    {
+      "has_neighbor": "Makatika"
+    },
+    {
+      "has_neighbor": "Puka Puka"
+    },
+    {
+      "is_part_of": "Pacific Ocean"
+    },
+    {
+      "has_climate": "Tropical climate"
+    },
+    {
+      "has_economy": "Fishing and agriculture"
+    }
+  ]
+}

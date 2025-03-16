@@ -1,0 +1,47 @@
+{
+  "entity": "Mortality Rate",
+  "properties": {
+    "definition": "Deaths per population",
+    "unit": "per 1,000 people",
+    "measurement_type": "Demographic statistic",
+    "affected_by": "Age, Health, Lifestyle",
+    "influenced_by": "Socioeconomic factors",
+    "data_source": "World Health Organization",
+    "calculation_method": "Deaths / Population * 1000",
+    "reporting_frequency": "Annual",
+    "related_concept": "Life Expectancy",
+    "category": "Demographics"
+  },
+  "relationship": [
+    {
+      "is_a": "Demographic Indicator"
+    },
+    {
+      "related_to": "Infant Mortality Rate"
+    },
+    {
+      "influenced_by": "Healthcare Access"
+    },
+    {
+      "affected_by": "Disease"
+    },
+    {
+      "compared_to": "Morbidity Rate"
+    },
+    {
+      "used_in": "Population Projections"
+    },
+    {
+      "analyzed_by": "Demographers"
+    },
+    {
+      "reported_by": "World Bank"
+    },
+    {
+      "impacts": "Population Growth"
+    },
+    {
+      "compared_to": "Crude Birth Rate"
+    }
+  ]
+}

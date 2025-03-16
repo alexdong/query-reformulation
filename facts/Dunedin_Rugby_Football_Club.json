@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin Rugby Football Club",
+  "properties": {
+    "founded": "1882",
+    "location": "Dunedin, New Zealand",
+    "competition": "National Provincial Championship",
+    "nickname": "The Razorbacks",
+    "colours": "Navy and Gold",
+    "governing_body": "New Zealand Rugby",
+    "home_ground": "Logans Park",
+    "status": "Amateur",
+    "trophies": "Multiple Otago Championships",
+    "union": "Otago Rugby Football Union"
+  },
+  "relationship": [
+    {
+      "part_of": "Otago Rugby Football Union"
+    },
+    {
+      "located_in": "Dunedin"
+    },
+    {
+      "plays_in": "National Provincial Championship"
+    },
+    {
+      "member_of": "New Zealand Rugby"
+    },
+    {
+      "rivalry_with": "Taieri Rugby Football Club"
+    },
+    {
+      "coach": "Todd Woodward"
+    },
+    {
+      "player_plays_for": "Josh Morell"
+    },
+    {
+      "player_plays_for": "Sam McLachlan"
+    },
+    {
+      "influenced_by": "New Zealand Rugby culture"
+    },
+    {
+      "historical_event": "1882 founding"
+    }
+  ]
+}

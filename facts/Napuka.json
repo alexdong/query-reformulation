@@ -1,0 +1,47 @@
+{
+  "entity": "Napuka",
+  "properties": {
+    "type": "Atoll",
+    "location": "Tuamotu Archipelago",
+    "country": "French Polynesia",
+    "area": "Approximately 20 square kilometers",
+    "population": "Approximately 350",
+    "chief_crop": "Copra",
+    "language": "Reo Ma'ohi",
+    "latitude": "-18.333",
+    "longitude": "-143.917",
+    "administration": "Commune of Napuka"
+  },
+  "relationship": [
+    {
+      "part_of": "Tuamotu Archipelago"
+    },
+    {
+      "located_in": "French Polynesia"
+    },
+    {
+      "country": "France"
+    },
+    {
+      "island_group": "Marama"
+    },
+    {
+      "has_neighbor": "Mokapuka"
+    },
+    {
+      "has_neighbor": "Rata"
+    },
+    {
+      "has_neighbor": "Pukapuka"
+    },
+    {
+      "economy_based_on": "Agriculture"
+    },
+    {
+      "has_settlement": "Napuka-i-rangi"
+    },
+    {
+      "has_settlement": "Kavara"
+    }
+  ]
+}

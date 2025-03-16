@@ -1,0 +1,47 @@
+{
+  "entity": "Brisbane",
+  "properties": {
+    "capital_of": "Queensland",
+    "population_2021": "2490000",
+    "area_km2": "11,425",
+    "latitude": "-27.4677",
+    "longitude": "153.0292",
+    "time_zone": "UTC+10",
+    "currency": "AUD",
+    "official_language": "English",
+    "mayor": "Adrian Schrinner",
+    "established": "1824"
+  },
+  "relationship": [
+    {
+      "located_in": "Australia"
+    },
+    {
+      "is_a": "City"
+    },
+    {
+      "river": "Brisbane River"
+    },
+    {
+      "part_of": "Southeast Queensland"
+    },
+    {
+      "near": "Gold Coast"
+    },
+    {
+      "near": "Sunshine Coast"
+    },
+    {
+      "has_sport_team": "Brisbane Broncos"
+    },
+    {
+      "has_sport_team": "Brisbane Roar"
+    },
+    {
+      "has_landmark": "Story Bridge"
+    },
+    {
+      "has_landmark": "South Bank Parklands"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Coastal Erosion",
+  "properties": {
+    "type": "Geological Process",
+    "cause": "Wave Action, Currents, Wind",
+    "rate": "Variable",
+    "impact": "Land Loss, Habitat Destruction",
+    "affected_areas": "Global Coastlines",
+    "accelerated_by": "Sea Level Rise, Storms",
+    "primary_agent": "Water",
+    "secondary_agent": "Wind",
+    "measurement_unit": "meters/year",
+    "mitigation_strategies": "Seawalls, Beach Nourishment"
+  },
+  "relationship": [
+    {
+      "part_of": "Geomorphology"
+    },
+    {
+      "impacts": "Coastal Ecosystems"
+    },
+    {
+      "caused_by": "Sea Level Rise"
+    },
+    {
+      "influenced_by": "Storm Surge"
+    },
+    {
+      "related_to": "Sediment Transport"
+    },
+    {
+      "affects": "Coastal Communities"
+    },
+    {
+      "mitigated_by": "Vegetation"
+    },
+    {
+      "contributes_to": "Land Loss"
+    },
+    {
+      "example_location": "Great Sand Dunes National Park"
+    },
+    {
+      "studied_by": "Coastal Geologists"
+    }
+  ]
+}

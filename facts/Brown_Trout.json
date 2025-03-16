@@ -1,0 +1,47 @@
+{
+  "entity": "Brown Trout",
+  "properties": {
+    "scientific_name": "Salmo trutta",
+    "family": "Salmonidae",
+    "conservation_status": "Least Concern",
+    "typical_length": "30-70 cm",
+    "typical_weight": "0.5-5 kg",
+    "lifespan": "3-7 years",
+    "diet": "Insects, crustaceans, small fish",
+    "habitat": "Cool, clear rivers and streams",
+    "distribution": "Europe, North America",
+    "coloration": "Brown with dark spots"
+  },
+  "relationship": [
+    {
+      "prey_of": "Kingfisher"
+    },
+    {
+      "part_of_ecosystem": "Freshwater ecosystem"
+    },
+    {
+      "related_to": "Rainbow Trout"
+    },
+    {
+      "spawn_in": "Gravel beds"
+    },
+    {
+      "migrate_to": "Sea (Anadromous forms)"
+    },
+    {
+      "managed_by": "Fisheries management"
+    },
+    {
+      "threatened_by": "Habitat loss"
+    },
+    {
+      "found_in_region": "Europe"
+    },
+    {
+      "found_in_region": "North America"
+    },
+    {
+      "hybridizes_with": "Atlantic Salmon"
+    }
+  ]
+}

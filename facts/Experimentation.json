@@ -1,0 +1,47 @@
+{
+  "entity": "Experimentation",
+  "properties": {
+    "instance_of": "Scientific method",
+    "purpose": "Hypothesis testing",
+    "type": "Process",
+    "field": "Science",
+    "requires": "Data",
+    "involves": "Observation",
+    "outcome": "Evidence",
+    "design": "Experimental design",
+    "controlled_by": "Variables",
+    "goal": "Knowledge generation"
+  },
+  "relationship": [
+    {
+      "part_of": "Scientific method"
+    },
+    {
+      "uses": "Hypothesis"
+    },
+    {
+      "requires": "Control group"
+    },
+    {
+      "analyzes": "Data analysis"
+    },
+    {
+      "employs": "Statistical analysis"
+    },
+    {
+      "related_to": "Research"
+    },
+    {
+      "type_of": "Investigation"
+    },
+    {
+      "leads_to": "Conclusion"
+    },
+    {
+      "uses": "Randomization"
+    },
+    {
+      "impacts": "Scientific progress"
+    }
+  ]
+}

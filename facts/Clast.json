@@ -1,0 +1,47 @@
+{
+  "entity": "Clast",
+  "properties": {
+    "instance_of": "Software library",
+    "developer": "Facebook",
+    "language": "C++",
+    "purpose": "Graph processing",
+    "license": "MIT License",
+    "release_date": "2017",
+    "operating_system": "Cross-platform",
+    "data_format": "Graph data",
+    "architecture": "Distributed",
+    "primary_use": "Machine learning"
+  },
+  "relationship": [
+    {
+      "uses": "C++"
+    },
+    {
+      "developed_by": "Facebook"
+    },
+    {
+      "purpose_for": "Graph databases"
+    },
+    {
+      "related_to": "Graph algorithms"
+    },
+    {
+      "used_in": "Machine learning"
+    },
+    {
+      "alternative_to": "GraphLab"
+    },
+    {
+      "supports": "Distributed computing"
+    },
+    {
+      "part_of": "Facebook infrastructure"
+    },
+    {
+      "influenced": "DGL (Deep Graph Library)"
+    },
+    {
+      "used_for": "Recommendation systems"
+    }
+  ]
+}

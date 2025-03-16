@@ -1,0 +1,47 @@
+{
+  "entity": "NGN (telecommunications)",
+  "properties": {
+    "industry": "Telecommunications",
+    "hq_location": "Belfast",
+    "founded_date": "2002",
+    "ceo": "Oliver Punch",
+    "services": "Voice, Data, Broadband",
+    "stock_exchange": "London Stock Exchange",
+    "stock_ticker": "NGN",
+    "business_model": "Wholesale",
+    "coverage_area": "UK",
+    "employees": "Approximately 300"
+  },
+  "relationship": [
+    {
+      "parent_company": "Connexions"
+    },
+    {
+      "competitor": "BT Group"
+    },
+    {
+      "competitor": "Virgin Media"
+    },
+    {
+      "provides_service_to": "Retail Service Providers"
+    },
+    {
+      "technology_used": "Ethernet"
+    },
+    {
+      "technology_used": "IP networking"
+    },
+    {
+      "network_type": "Fiber optic"
+    },
+    {
+      "geographic_scope": "United Kingdom"
+    },
+    {
+      "regulatory_body": "Ofcom"
+    },
+    {
+      "service_area": "Rural UK"
+    }
+  ]
+}

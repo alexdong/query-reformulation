@@ -1,0 +1,47 @@
+{
+  "entity": "Food System",
+  "properties": {
+    "definition": "Network of people & processes",
+    "scope": "Production to consumption",
+    "includes": "Agriculture, processing, distribution",
+    "impacts": "Environment, health, economy",
+    "complexity": "High",
+    "scale": "Global",
+    "key_actor": "Farmers, consumers, retailers",
+    "vulnerability": "Climate change, conflict",
+    "goal": "Food security, sustainability",
+    "data_source": "FAO"
+  },
+  "relationship": [
+    {
+      "produces": "Food"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "supports": "Agriculture"
+    },
+    {
+      "relies_on": "Labor"
+    },
+    {
+      "distributes_to": "Retail"
+    },
+    {
+      "consumes": "Consumer"
+    },
+    {
+      "influenced_by": "Technology"
+    },
+    {
+      "affects": "Public Health"
+    },
+    {
+      "linked_to": "Economy"
+    },
+    {
+      "governed_by": "Government"
+    }
+  ]
+}

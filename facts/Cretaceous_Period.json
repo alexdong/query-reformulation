@@ -1,0 +1,47 @@
+{
+  "entity": "Cretaceous Period",
+  "properties": {
+    "start_date": "145 million years ago",
+    "end_date": "66 million years ago",
+    "era": "Mesozoic",
+    "period_number": "3",
+    "preceding_period": "Jurassic Period",
+    "succeeding_period": "Paleogene Period",
+    "dominant_life": "Dinosaurs",
+    "climate": "Warm, humid",
+    "sea_level": "High",
+    "continent": "Gondwana, Laurasia"
+  },
+  "relationship": [
+    {
+      "part_of": "Mesozoic Era"
+    },
+    {
+      "preceded_by": "Jurassic Period"
+    },
+    {
+      "followed_by": "Paleogene Period"
+    },
+    {
+      "event": "Cretaceous–Paleogene extinction event"
+    },
+    {
+      "contains": "Maastrichtian"
+    },
+    {
+      "contains": "Campanian"
+    },
+    {
+      "contains": "Santonian"
+    },
+    {
+      "life_form": "Tyrannosaurus rex"
+    },
+    {
+      "life_form": "Velociraptor"
+    },
+    {
+      "geological_feature": "Morrison Formation"
+    }
+  ]
+}

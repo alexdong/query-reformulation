@@ -1,0 +1,47 @@
+{
+  "entity": "Genealogy",
+  "properties": {
+    "instance_of": "Academic discipline",
+    "alternative_name": "Family history",
+    "focus": "Family origins",
+    "methodology": "Historical record analysis",
+    "related_field": "History",
+    "data_source": "Vital records",
+    "goal": "Tracing ancestry",
+    "scope": "Individuals & families",
+    "primary_records": "Birth certificates",
+    "digital_tools": "Online databases"
+  },
+  "relationship": [
+    {
+      "uses": "Vital records"
+    },
+    {
+      "related_to": "History"
+    },
+    {
+      "employs": "Historical record analysis"
+    },
+    {
+      "overlaps_with": "Heraldry"
+    },
+    {
+      "uses_database": "Ancestry.com"
+    },
+    {
+      "uses_database": "FamilySearch"
+    },
+    {
+      "studies": "Family"
+    },
+    {
+      "requires": "Genealogical research"
+    },
+    {
+      "analyzes": "Census records"
+    },
+    {
+      "investigates": "DNA testing"
+    }
+  ]
+}

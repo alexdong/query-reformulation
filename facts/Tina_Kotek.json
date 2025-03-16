@@ -1,0 +1,47 @@
+{
+  "entity": "Tina Kotek",
+  "properties": {
+    "birth_date": "1971-03-03",
+    "birth_place": "Portland, Oregon",
+    "occupation": "Politician",
+    "political_party": "Democratic Party",
+    "education": "University of Oregon",
+    "alma_mater": "University of Oregon",
+    "title": "Governor of Oregon",
+    "state": "Oregon",
+    "gender": "Female",
+    "religion": "Unknown"
+  },
+  "relationship": [
+    {
+      "predecessor": "Kate Brown"
+    },
+    {
+      "member_of": "Oregon State Legislature"
+    },
+    {
+      "member_of": "Democratic Party"
+    },
+    {
+      "represents": "Oregon"
+    },
+    {
+      "attended": "University of Oregon"
+    },
+    {
+      "degree_earned": "Bachelor of Arts"
+    },
+    {
+      "chair": "House Committee on Education"
+    },
+    {
+      "house_district": "44"
+    },
+    {
+      "governor_since": "2023"
+    },
+    {
+      "residence": "Portland, Oregon"
+    }
+  ]
+}

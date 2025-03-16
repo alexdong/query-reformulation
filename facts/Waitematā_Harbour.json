@@ -1,0 +1,47 @@
+{
+  "entity": "Waitematā Harbour",
+  "properties": {
+    "type": "Harbour",
+    "location": "Auckland, New Zealand",
+    "area": "196 km²",
+    "max_depth": "58 m",
+    "length": "16 km",
+    "width": "5.5 km",
+    "geological_era": "Quaternary",
+    "tributaries": "Numerous streams",
+    "is_part_of": "Hauraki Gulf",
+    "name_origin": "Māori language"
+  },
+  "relationship": [
+    {
+      "is_located_in": "New Zealand"
+    },
+    {
+      "adjacent_to": "Auckland City"
+    },
+    {
+      "contains": "Viaduct Harbour"
+    },
+    {
+      "drains_to": "Pacific Ocean"
+    },
+    {
+      "has_island": "Motutapu Island"
+    },
+    {
+      "has_island": "Rangitoto Island"
+    },
+    {
+      "used_by": "Ngāti Whatua"
+    },
+    {
+      "explored_by": "William Hobson"
+    },
+    {
+      "supports_industry": "Shipping"
+    },
+    {
+      "supports_activity": "Sailing"
+    }
+  ]
+}

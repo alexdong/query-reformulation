@@ -1,0 +1,47 @@
+{
+  "entity": "Council of Europe",
+  "properties": {
+    "instance_of": "International organization",
+    "official_language": "English, French",
+    "formed": "1949",
+    "type": "Political",
+    "headquarters_location": "Strasbourg, France",
+    "membership": "46",
+    "purpose": "Human rights, democracy, rule of law",
+    "successor_to": "European Council for Reconstruction",
+    "treaty_framework": "European Convention on Human Rights",
+    "budget_2023": "437 million EUR"
+  },
+  "relationship": [
+    {
+      "member_state": "France"
+    },
+    {
+      "member_state": "Germany"
+    },
+    {
+      "member_state": "United Kingdom"
+    },
+    {
+      "treaty_signed": "European Convention on Human Rights"
+    },
+    {
+      "subsidiary_of": "European Court of Human Rights"
+    },
+    {
+      "works_with": "United Nations"
+    },
+    {
+      "promotes": "Democracy"
+    },
+    {
+      "promotes": "Human rights"
+    },
+    {
+      "established_by": "Treaty of London"
+    },
+    {
+      "governed_by": "Committee of Ministers"
+    }
+  ]
+}

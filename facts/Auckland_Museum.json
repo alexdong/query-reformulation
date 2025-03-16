@@ -1,0 +1,47 @@
+{
+  "entity": "Auckland Museum",
+  "properties": {
+    "instance_of": "Museum",
+    "location": "Auckland, New Zealand",
+    "founded": "1863",
+    "architectural_style": "Neoclassical",
+    "name": "Auckland Museum Tamaki Paenga Hira",
+    "governing_body": "Auckland Council",
+    "collection_size": "14,000+",
+    "focus": "Natural history, Māori and Pacific culture, European settlement",
+    "website": "aucklandmuseum.com",
+    "designation": "Historic Place (Category 1)"
+  },
+  "relationship": [
+    {
+      "located_in": "Auckland"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "exhibits": "Māori culture"
+    },
+    {
+      "exhibits": "Pacific culture"
+    },
+    {
+      "exhibits": "Natural history"
+    },
+    {
+      "operated_by": "Auckland Council"
+    },
+    {
+      "designed_by": "Thomas Henderson"
+    },
+    {
+      "influenced": "New Zealand history"
+    },
+    {
+      "has_part": "Volcanic Gallery"
+    },
+    {
+      "has_part": "Māori Court"
+    }
+  ]
+}

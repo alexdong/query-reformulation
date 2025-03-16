@@ -1,0 +1,47 @@
+{
+  "entity": "Global Pop Culture",
+  "properties": {
+    "definition": "Cultural phenomena worldwide",
+    "scope": "Music, Film, Fashion, Trends",
+    "origin": "Post-World War II",
+    "driver": "Globalization, Internet",
+    "impact": "Social, Economic, Political",
+    "key_medium": "Digital Platforms",
+    "characteristic": "Rapid Change, Viral Spread",
+    "influence": "Local Cultures",
+    "example": "K-Pop, TikTok",
+    "measurement": "Social Media Engagement"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Americanization"
+    },
+    {
+      "impacts": "Consumerism"
+    },
+    {
+      "related_to": "Mass Media"
+    },
+    {
+      "promotes": "Celebrity Culture"
+    },
+    {
+      "driven_by": "Social Media"
+    },
+    {
+      "overlaps_with": "Youth Culture"
+    },
+    {
+      "fosters": "Fan Communities"
+    },
+    {
+      "impacts": "Language"
+    },
+    {
+      "related_to": "Cultural Exchange"
+    },
+    {
+      "shaped_by": "Technological Innovation"
+    }
+  ]
+}

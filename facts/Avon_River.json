@@ -1,0 +1,47 @@
+{
+  "entity": "Avon River",
+  "properties": {
+    "location": "Canterbury, New Zealand",
+    "length": "16.2 km",
+    "source": "Lewis Pass",
+    "mouth": "Pūrua Bay",
+    "formerly": "Hekehao",
+    "tributary_of": "Tasman Sea",
+    "river_type": "Greywacke river",
+    "region": "West Coast Region",
+    "discharge": "10.5 m³/s",
+    "basin_area": "1,130 km²"
+  },
+  "relationship": [
+    {
+      "flows_through": "Westland Tai Poutini National Park"
+    },
+    {
+      "part_of": "Tasman Sea"
+    },
+    {
+      "tributary_of": "Tasman Sea"
+    },
+    {
+      "near": "Arthur's Pass"
+    },
+    {
+      "near": "Fox Glacier"
+    },
+    {
+      "near": "Franz Josef Glacier"
+    },
+    {
+      "flows_past": "Mount Cook"
+    },
+    {
+      "influenced_by": "glacial_erosion"
+    },
+    {
+      "has_tributary": "Mitchell River"
+    },
+    {
+      "has_tributary": "Maxwell River"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Food writing",
+  "properties": {
+    "definition": "Writing about food and dining",
+    "genre": "Non-fiction",
+    "scope": "Recipes, reviews, history, culture",
+    "style": "Descriptive, narrative, analytical",
+    "audience": "Food enthusiasts, general public",
+    "format": "Articles, blogs, cookbooks, memoirs",
+    "historical_roots": "Roman gastronomy, medieval cookbooks",
+    "key_elements": "Sensory detail, storytelling, cultural context",
+    "related_fields": "Journalism, culinary arts, literature",
+    "digital_presence": "Blogs, online magazines, social media"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Gastronomy"
+    },
+    {
+      "overlaps_with": "Culinary arts"
+    },
+    {
+      "subgenre_of": "Journalism"
+    },
+    {
+      "related_to": "Food photography"
+    },
+    {
+      "often_features": "Chefs"
+    },
+    {
+      "often_features": "Restaurants"
+    },
+    {
+      "example_writer": "M.F.K. Fisher"
+    },
+    {
+      "example_writer": "Ruth Reichl"
+    },
+    {
+      "publication": "New York Times Food"
+    },
+    {
+      "publication": "Eater"
+    }
+  ]
+}

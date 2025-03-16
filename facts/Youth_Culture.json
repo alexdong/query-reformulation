@@ -1,0 +1,47 @@
+{
+  "entity": "Youth Culture",
+  "properties": {
+    "definition": "Beliefs & behaviors of young people",
+    "age_range": "Typically 13-25 years",
+    "influence": "Media, peers, family",
+    "characteristics": "Trendsetting, experimentation, identity formation",
+    "historical_context": "Evolving with societal changes",
+    "economic_impact": "Significant consumer market",
+    "geographic_variation": "Differ across regions",
+    "social_impact": "Shapes societal norms",
+    "key_themes": "Individuality, belonging, rebellion",
+    "digital_presence": "Heavy reliance on internet"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Social Media"
+    },
+    {
+      "part_of": "Popular Culture"
+    },
+    {
+      "related_to": "Generations"
+    },
+    {
+      "impacts": "Fashion"
+    },
+    {
+      "impacts": "Music"
+    },
+    {
+      "impacts": "Language"
+    },
+    {
+      "influenced_by": "Globalization"
+    },
+    {
+      "related_to": "Subcultures"
+    },
+    {
+      "impacts": "Politics"
+    },
+    {
+      "related_to": "Consumerism"
+    }
+  ]
+}

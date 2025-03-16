@@ -1,0 +1,47 @@
+{
+  "entity": "Yellowstone National Park",
+  "properties": {
+    "type": "National Park",
+    "location": "Wyoming, Montana, Idaho",
+    "established": "March 1, 1872",
+    "area": "8,983 sq mi",
+    "visitors_2023": "4.5 million",
+    "elevation_min": "5,280 ft",
+    "elevation_max": "11,358 ft",
+    "climate": "Subalpine",
+    "biomes": "Forest, grassland, lake",
+    "designation": "UNESCO World Heritage Site"
+  },
+  "relationship": [
+    {
+      "part_of": "National Park System"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "contains": "Old Faithful"
+    },
+    {
+      "contains": "Yellowstone Lake"
+    },
+    {
+      "contains": "Grand Canyon of the Yellowstone"
+    },
+    {
+      "adjacent_to": "Grand Teton National Park"
+    },
+    {
+      "managed_by": "National Park Service"
+    },
+    {
+      "ecosystem_includes": "Grizzly Bear"
+    },
+    {
+      "ecosystem_includes": "Bison"
+    },
+    {
+      "geological_feature": "Supervolcano"
+    }
+  ]
+}

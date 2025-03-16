@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Boys' High School",
+  "properties": {
+    "established": "1866",
+    "location": "Dunedin",
+    "country": "New Zealand",
+    "type": "Secondary school",
+    "motto": "Labor Omnia Vincit (Labour Conquers All)",
+    "house_system": "Six houses",
+    "uniform": "Traditional",
+    "student_body": "1500+",
+    "governing_body": "Board of Trustees",
+    "website": "otagoboys.school.nz"
+  },
+  "relationship": [
+    {
+      "located_in": "Dunedin City"
+    },
+    {
+      "part_of": "New Zealand education system"
+    },
+    {
+      "founded_by": "James Hislop"
+    },
+    {
+      "headmaster": "David Thompson"
+    },
+    {
+      "alumnus": "Sir Ernest Rutherford"
+    },
+    {
+      "alumnus": "Ian McKinnon"
+    },
+    {
+      "alumnus": "Richard Reid"
+    },
+    {
+      "member_of": "New Zealand Secondary Schools' Sports Association"
+    },
+    {
+      "competes_in": "Coates Cup"
+    },
+    {
+      "affiliated_with": "Anglican Church"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Fishing rod",
+  "properties": {
+    "type": "Tool",
+    "material": "Fiberglass, Graphite, Carbon Fiber",
+    "purpose": "Fishing",
+    "component": "Line, Reel, Handle",
+    "length": "Variable",
+    "power": "Light, Medium, Heavy",
+    "action": "Fast, Moderate, Slow",
+    "design": "Spinning, Casting, Fly",
+    "origin": "Ancient",
+    "weight": "Variable"
+  },
+  "relationship": [
+    {
+      "used_with": "Fishing reel"
+    },
+    {
+      "used_with": "Fishing line"
+    },
+    {
+      "used_for": "Catching fish"
+    },
+    {
+      "part_of": "Fishing gear"
+    },
+    {
+      "related_to": "Angling"
+    },
+    {
+      "made_of": "Graphite"
+    },
+    {
+      "made_of": "Fiberglass"
+    },
+    {
+      "requires": "Bait"
+    },
+    {
+      "used_in": "Sport fishing"
+    },
+    {
+      "influenced_by": "Fishing techniques"
+    }
+  ]
+}

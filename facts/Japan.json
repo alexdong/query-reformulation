@@ -1,0 +1,47 @@
+{
+  "entity": "Japan",
+  "properties": {
+    "capital": "Tokyo",
+    "official_language": "Japanese",
+    "currency": "Japanese Yen",
+    "population": "125.7 million",
+    "area_km2": "377,975",
+    "government": "Parliamentary constitutional monarchy",
+    "national_dish": "Sushi",
+    "national_sport": "Sumo wrestling",
+    "GDP_nominal": "$4.23 trillion",
+    "geographic_location": "East Asia"
+  },
+  "relationship": [
+    {
+      "part_of": "Asia"
+    },
+    {
+      "borders": "North Korea"
+    },
+    {
+      "member_of": "G7"
+    },
+    {
+      "influenced": "Anime"
+    },
+    {
+      "influenced": "Manga"
+    },
+    {
+      "has_city": "Kyoto"
+    },
+    {
+      "has_city": "Osaka"
+    },
+    {
+      "has_mountain": "Mount Fuji"
+    },
+    {
+      "historical_period": "Meiji era"
+    },
+    {
+      "trade_partner": "United States"
+    }
+  ]
+}

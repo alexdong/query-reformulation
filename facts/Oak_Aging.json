@@ -1,0 +1,47 @@
+{
+  "entity": "Oak Aging",
+  "properties": {
+    "type": "Process",
+    "purpose": "Flavor Development",
+    "wood_species": "Oak Tree",
+    "oxygen_exposure": "Moderate",
+    "temperature_range": "10-24°C",
+    "duration": "Months to Years",
+    "impact_on_color": "Darkening",
+    "impact_on_tannins": "Extraction/Polymerization",
+    "common_liquids": "Whiskey, Wine, Brandy",
+    "origin": "Europe, North America"
+  },
+  "relationship": [
+    {
+      "part_of": "Wine Production"
+    },
+    {
+      "part_of": "Whiskey Production"
+    },
+    {
+      "uses": "Oak Tree"
+    },
+    {
+      "influences": "Flavor Profile"
+    },
+    {
+      "impacts": "Color"
+    },
+    {
+      "requires": "Barrels"
+    },
+    {
+      "affected_by": "Temperature"
+    },
+    {
+      "affected_by": "Oxygen"
+    },
+    {
+      "related_to": "Tannins"
+    },
+    {
+      "example_of": "Maturation"
+    }
+  ]
+}

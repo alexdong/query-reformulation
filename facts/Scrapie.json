@@ -1,0 +1,47 @@
+{
+  "entity": "Scrapie",
+  "properties": {
+    "instance_of": "Transmissible spongiform encephalopathy",
+    "affected_species": "Sheep",
+    "disease_type": "Neurodegenerative",
+    "transmission": "Genetic, Iatrogenic",
+    "incubation_period": "Long (years)",
+    "clinical_signs": "Pruritus, Ataxia, Tremors",
+    "detection_method": "Genotyping, ELISA",
+    "mortality_rate": "High",
+    "etiological_agent": "Prion",
+    "first_documented": "1739"
+  },
+  "relationship": [
+    {
+      "caused_by": "Prion disease"
+    },
+    {
+      "related_to": "Bovine spongiform encephalopathy"
+    },
+    {
+      "affects": "Ovine"
+    },
+    {
+      "part_of": "Transmissible spongiform encephalopathies"
+    },
+    {
+      "research_area": "Veterinary medicine"
+    },
+    {
+      "related_to": "Creutzfeldt–Jakob disease"
+    },
+    {
+      "prevention_method": "Selective breeding"
+    },
+    {
+      "diagnosis_method": "Neuropathology"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "research_focus": "Prion protein"
+    }
+  ]
+}

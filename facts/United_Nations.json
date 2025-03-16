@@ -1,0 +1,47 @@
+{
+  "entity": "United Nations",
+  "properties": {
+    "instance_of": "International Organization",
+    "official_language": "Arabic, Chinese, English, French, Russian, Spanish",
+    "formed": "1945",
+    "type": "Intergovernmental",
+    "headquarters_location": "New York City",
+    "purpose": "Maintain international peace",
+    "membership": "193",
+    "predecessor": "League of Nations",
+    "seal_design": "Dove of Peace",
+    "secretary_general": "António Guterres"
+  },
+  "relationship": [
+    {
+      "succeeded": "League of Nations"
+    },
+    {
+      "member_state": "United States"
+    },
+    {
+      "member_state": "China"
+    },
+    {
+      "member_state": "Russia"
+    },
+    {
+      "member_state": "France"
+    },
+    {
+      "founded_by": "Allied Powers"
+    },
+    {
+      "has_agency": "UNICEF"
+    },
+    {
+      "has_agency": "World Health Organization"
+    },
+    {
+      "has_agency": "United Nations Security Council"
+    },
+    {
+      "works_with": "World Bank"
+    }
+  ]
+}

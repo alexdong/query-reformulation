@@ -1,0 +1,47 @@
+{
+  "entity": "Zooplankton",
+  "properties": {
+    "instance_of": "Plankton",
+    "trophic_level": "Secondary Consumer",
+    "size_range": "0.2-2000 μm",
+    "habitat": "Aquatic",
+    "primary_food": "Phytoplankton",
+    "life_cycle": "Complex, varies by species",
+    "mobility": "Limited, some swimming",
+    "importance": "Food web base",
+    "distribution": "Worldwide",
+    "classification": "Diverse, many phyla"
+  },
+  "relationship": [
+    {
+      "prey_of": "Fish"
+    },
+    {
+      "eaten_by": "Marine mammals"
+    },
+    {
+      "feeds_on": "Phytoplankton"
+    },
+    {
+      "part_of": "Food web"
+    },
+    {
+      "found_in": "Ocean"
+    },
+    {
+      "found_in": "Freshwater"
+    },
+    {
+      "includes": "Copepods"
+    },
+    {
+      "includes": "Krill"
+    },
+    {
+      "includes": "Rotifers"
+    },
+    {
+      "impacts": "Carbon cycle"
+    }
+  ]
+}

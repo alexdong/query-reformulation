@@ -1,0 +1,47 @@
+{
+  "entity": "Tuvaluan language",
+  "properties": {
+    "iso_code": "tuv",
+    "script": "Latin",
+    "language_family": "Austronesian",
+    "status": "Vulnerable",
+    "speakers": "Approximately 11,000",
+    "geographic_location": "Tuvalu",
+    "writing_system_change_date": "1970s",
+    "influenced_by": "Samoan, Gilbertese",
+    "official_status": "Official language of Tuvalu",
+    "typology": "Polysynthetic"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian languages"
+    },
+    {
+      "spoken_in": "Tuvalu"
+    },
+    {
+      "influenced": "Tuvaluan literature"
+    },
+    {
+      "related_to": "Samoan language"
+    },
+    {
+      "related_to": "Gilbertese language"
+    },
+    {
+      "has_dialect": "Nanumaga dialect"
+    },
+    {
+      "has_dialect": "Niutao dialect"
+    },
+    {
+      "has_dialect": "Funafuti dialect"
+    },
+    {
+      "used_in": "Tuvaluan music"
+    },
+    {
+      "translation_of": "Bible"
+    }
+  ]
+}

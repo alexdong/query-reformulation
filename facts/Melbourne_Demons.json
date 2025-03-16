@@ -1,0 +1,47 @@
+{
+  "entity": "Melbourne Demons",
+  "properties": {
+    "instance_of": "Australian rules football club",
+    "founded": "1858",
+    "location": "Melbourne, Victoria",
+    "league": "Australian Football League (AFL)",
+    "nickname": "Demons",
+    "colours": "Red and Blue",
+    "home_ground": "Melbourne Cricket Ground (MCG)",
+    "competition_wins": "9",
+    "most_recent_win": "2021",
+    "governing_body": "Melbourne Football Club"
+  },
+  "relationship": [
+    {
+      "member_of": "AFL"
+    },
+    {
+      "located_in": "Melbourne"
+    },
+    {
+      "plays_at": "Melbourne Cricket Ground (MCG)"
+    },
+    {
+      "founded_by": "Melbourne Football Club"
+    },
+    {
+      "rivalry": "Collingwood Football Club"
+    },
+    {
+      "player_plays_for": "Clayton Oliver"
+    },
+    {
+      "player_plays_for": "Christian Petracca"
+    },
+    {
+      "coach": "Simon Goodwin"
+    },
+    {
+      "competition": "AFL Finals Series"
+    },
+    {
+      "trophy": "Deacon Little Memorial Trophy"
+    }
+  ]
+}

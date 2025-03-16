@@ -1,0 +1,47 @@
+{
+  "entity": "Fashion Industry",
+  "properties": {
+    "industry_type": "Retail",
+    "global_size": "Trillions USD",
+    "major_segments": "Apparel, Footwear, Accessories",
+    "employment": "Millions",
+    "key_regions": "Asia, Europe, North America",
+    "design_origin": "Paris, Milan, New York",
+    "supply_chain": "Complex, Global",
+    "sustainability_concerns": "High",
+    "economic_impact": "Significant",
+    "trend_cycle": "Fast"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Art"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "relies_on": "Textile Industry"
+    },
+    {
+      "employs": "Designers"
+    },
+    {
+      "markets_to": "Consumers"
+    },
+    {
+      "promotes_through": "Fashion Shows"
+    },
+    {
+      "affected_by": "Social Media"
+    },
+    {
+      "drives_demand_for": "Manufacturing"
+    },
+    {
+      "impacts": "Labor Practices"
+    },
+    {
+      "related_to": "Luxury Goods"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Northwest",
+  "properties": {
+    "region_type": "Geographic region",
+    "location": "North America",
+    "climate": "Temperate rainforest, Mediterranean",
+    "area": "283,273 sq mi",
+    "population": "20 million",
+    "major_cities": "Seattle, Portland, Vancouver",
+    "economy": "Technology, forestry, agriculture",
+    "terrain": "Mountains, forests, coastline",
+    "dominant_culture": "Mix of Indigenous, European, and Asian influences",
+    "bioregion": "Pacific temperate rainforest"
+  },
+  "relationship": [
+    {
+      "part_of": "North America"
+    },
+    {
+      "contains": "Washington"
+    },
+    {
+      "contains": "Oregon"
+    },
+    {
+      "contains": "Idaho"
+    },
+    {
+      "contains": "British Columbia"
+    },
+    {
+      "borders": "Canada"
+    },
+    {
+      "borders": "United States"
+    },
+    {
+      "influenced_by": "Indigenous peoples"
+    },
+    {
+      "economic_activity": "Logging"
+    },
+    {
+      "natural_feature": "Mount Rainier"
+    }
+  ]
+}

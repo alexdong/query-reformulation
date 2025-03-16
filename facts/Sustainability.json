@@ -1,0 +1,46 @@
+{
+  "entity": "Sustainability",
+  "properties": {
+    "definition": "Meeting needs without compromising future generations",
+    "pillar_1": "Environmental protection",
+    "pillar_2": "Social equity",
+    "pillar_3": "Economic viability",
+    "scope": "Global",
+    "related_concept": "Corporate Social Responsibility",
+    "goal": "Long-term well-being",
+    "focus": "Resource management",
+    "importance": "Climate change mitigation"
+  },
+  "relationship": [
+    {
+      "impacts": "Climate Change"
+    },
+    {
+      "supports": "Circular Economy"
+    },
+    {
+      "requires": "Resource Conservation"
+    },
+    {
+      "promotes": "Renewable Energy"
+    },
+    {
+      "addresses": "Poverty"
+    },
+    {
+      "linked_to": "Sustainable Development Goals"
+    },
+    {
+      "influences": "Environmental Policy"
+    },
+    {
+      "benefits": "Biodiversity"
+    },
+    {
+      "requires": "Stakeholder Engagement"
+    },
+    {
+      "related_to": "Triple Bottom Line"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "National Economy",
+  "properties": {
+    "definition": "System of production, distribution, and consumption",
+    "scope": "Country-level",
+    "indicator": "GDP",
+    "measurement": "Currency",
+    "driver": "Labor & Capital",
+    "regulation": "Government Policy",
+    "trade": "International Exchange",
+    "growth": "Economic Expansion",
+    "stability": "Financial Security",
+    "resource": "Natural Resources"
+  },
+  "relationship": [
+    {
+      "part_of": "Global Economy"
+    },
+    {
+      "influenced_by": "Political System"
+    },
+    {
+      "impacts": "Standard of Living"
+    },
+    {
+      "affected_by": "Interest Rates"
+    },
+    {
+      "dependent_on": "Labor Force"
+    },
+    {
+      "requires": "Infrastructure"
+    },
+    {
+      "impacts": "Unemployment Rate"
+    },
+    {
+      "affected_by": "Inflation"
+    },
+    {
+      "related_to": "Fiscal Policy"
+    },
+    {
+      "impacts": "Balance of Payments"
+    }
+  ]
+}

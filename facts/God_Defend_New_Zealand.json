@@ -1,0 +1,47 @@
+{
+  "entity": "God Defend New Zealand",
+  "properties": {
+    "type": "National anthem",
+    "country": "New Zealand",
+    "composer": "John Bell",
+    "lyricist": "Thomas Bracken",
+    "year_composed": "1877",
+    "language": "English, Māori",
+    "alternative_title": "God Defend",
+    "official_status": "Shared national anthem",
+    "musical_style": "Hymn",
+    "first_verse_language": "English"
+  },
+  "relationship": [
+    {
+      "national_anthem_of": "New Zealand"
+    },
+    {
+      "composed_by": "John Bell (composer)"
+    },
+    {
+      "written_by": "Thomas Bracken"
+    },
+    {
+      "genre": "Hymn"
+    },
+    {
+      "language_of": "English"
+    },
+    {
+      "language_of": "Māori language"
+    },
+    {
+      "influenced_by": "Scottish hymn tradition"
+    },
+    {
+      "performed_at": "National events"
+    },
+    {
+      "related_to": "New Zealand culture"
+    },
+    {
+      "alternative_title": "God Defend New Zealand (English version)"
+    }
+  ]
+}

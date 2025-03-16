@@ -1,0 +1,47 @@
+{
+  "entity": "World Bank",
+  "properties": {
+    "instance_of": "International Financial Institution",
+    "hq_location": "Washington, D.C.",
+    "founded_date": "1944",
+    "purpose": "Economic Development",
+    "membership": "190",
+    "parent_org": "United Nations",
+    "president": "Ajay Banga",
+    "funding_source": "Member Countries",
+    "official_website": "www.worldbank.org",
+    "type": "Development Bank"
+  },
+  "relationship": [
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "funds": "Developing Countries"
+    },
+    {
+      "collaborates_with": "International Monetary Fund"
+    },
+    {
+      "headquarters_located_in": "Washington, D.C."
+    },
+    {
+      "subsidiary_of": "International Bank for Reconstruction and Development"
+    },
+    {
+      "provides": "Loans"
+    },
+    {
+      "focuses_on": "Poverty Reduction"
+    },
+    {
+      "governed_by": "Board of Governors"
+    },
+    {
+      "reports_to": "World Bank Group"
+    },
+    {
+      "supports": "Sustainable Development Goals"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Grenville Dodge",
+  "properties": {
+    "birth_date": "1841-9-11",
+    "birth_place": "Burlington, Iowa",
+    "death_date": "1916-08-14",
+    "death_place": "Clinton, Iowa",
+    "occupation": "Railroad executive",
+    "nationality": "American",
+    "education": "Iowa Wesleyan College",
+    "spouse": "Belle Crawford",
+    "political_party": "Republican",
+    "known_for": "Union Pacific Railroad"
+  },
+  "relationship": [
+    {
+      "employer": "Union Pacific Railroad"
+    },
+    {
+      "worked_with": "James J. Hill"
+    },
+    {
+      "worked_with": "Collis P. Huntington"
+    },
+    {
+      "influenced": "Railroad development"
+    },
+    {
+      "member_of": "Republican Party"
+    },
+    {
+      "located_in": "Burlington, Iowa"
+    },
+    {
+      "located_in": "Clinton, Iowa"
+    },
+    {
+      "attended": "Iowa Wesleyan College"
+    },
+    {
+      "married_to": "Belle Crawford"
+    },
+    {
+      "built": "Transcontinental Railroad"
+    }
+  ]
+}

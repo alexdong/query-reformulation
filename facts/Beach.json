@@ -1,0 +1,47 @@
+{
+  "entity": "Beach",
+  "properties": {
+    "type": "Landform",
+    "composition": "Sand, Gravel, Shells",
+    "location": "Coastline",
+    "formation": "Erosion, Deposition",
+    "size": "Variable",
+    "color": "Variable",
+    "ecosystem": "Coastal",
+    "recreation": "Swimming, Sunbathing",
+    "geological_feature": "Shoreline",
+    "erosion_rate": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Coast"
+    },
+    {
+      "adjacent_to": "Ocean"
+    },
+    {
+      "influenced_by": "Tides"
+    },
+    {
+      "affected_by": "Weather"
+    },
+    {
+      "contains": "Sand dune"
+    },
+    {
+      "supports": "Coastal ecosystem"
+    },
+    {
+      "erosion_caused_by": "Waves"
+    },
+    {
+      "found_in": "Tropical region"
+    },
+    {
+      "provides_habitat_for": "Seabirds"
+    },
+    {
+      "example_of": "Sandy beach"
+    }
+  ]
+}

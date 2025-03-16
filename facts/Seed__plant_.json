@@ -1,0 +1,47 @@
+{
+  "entity": "Seed (plant)",
+  "properties": {
+    "instance_of": "Plant structure",
+    "part_of": "Plant",
+    "contains": "Embryo",
+    "provides": "Propagation",
+    "size": "Variable",
+    "color": "Variable",
+    "life_cycle": "Variable",
+    "function": "Reproduction",
+    "origin": "Plant evolution",
+    "type": "Ovule/Cone"
+  },
+  "relationship": [
+    {
+      "part_of": "Plant"
+    },
+    {
+      "contains": "Embryo"
+    },
+    {
+      "produces": "Plant"
+    },
+    {
+      "related_to": "Germination"
+    },
+    {
+      "related_to": "Pollination"
+    },
+    {
+      "type": "Ovule"
+    },
+    {
+      "type": "Cone"
+    },
+    {
+      "process": "Dispersal"
+    },
+    {
+      "related_to": "Photosynthesis"
+    },
+    {
+      "related_to": "Botany"
+    }
+  ]
+}

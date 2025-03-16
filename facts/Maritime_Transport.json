@@ -1,0 +1,47 @@
+{
+  "entity": "Maritime Transport",
+  "properties": {
+    "type": "Industry",
+    "description": "Movement of goods by sea",
+    "scale": "Global",
+    "revenue_2022": "4.4 trillion USD (estimated)",
+    "key_players": "Maersk, MSC, CMA CGM",
+    "vessel_types": "Container ships, Bulk carriers, Tankers",
+    "regulation": "International Maritime Organization (IMO)",
+    "environmental_impact": "Greenhouse gas emissions, ballast water",
+    "employment": "1.5 million seafarers",
+    "growth_rate": "3-4% annually"
+  },
+  "relationship": [
+    {
+      "part_of": "Supply Chain"
+    },
+    {
+      "facilitates": "International Trade"
+    },
+    {
+      "uses": "Ports"
+    },
+    {
+      "regulated_by": "International Maritime Organization"
+    },
+    {
+      "impacts": "Global Economy"
+    },
+    {
+      "threatened_by": "Piracy"
+    },
+    {
+      "affected_by": "Weather"
+    },
+    {
+      "requires": "Shipping Containers"
+    },
+    {
+      "supports": "Tourism"
+    },
+    {
+      "related_to": "Logistics"
+    }
+  ]
+}

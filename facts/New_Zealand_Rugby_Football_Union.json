@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Rugby Football Union",
+  "properties": {
+    "short_name": "NZR",
+    "founded": "1885",
+    "hq_location": "Auckland",
+    "governs": "Rugby union in New Zealand",
+    "member_of": "World Rugby",
+    "ceo": "Mark Robinson",
+    "sport": "Rugby union",
+    "national_team": "All Blacks",
+    "revenue_2022": "NZ$173.7 million",
+    "legal_status": "Company"
+  },
+  "relationship": [
+    {
+      "governed_by": "Sports New Zealand"
+    },
+    {
+      "manages": "All Blacks"
+    },
+    {
+      "manages": "Black Ferns"
+    },
+    {
+      "member_of": "Sanzaar"
+    },
+    {
+      "competition": "Super Rugby"
+    },
+    {
+      "competition": "Rugby Championship"
+    },
+    {
+      "competition": "NPC"
+    },
+    {
+      "founded_by": "Thomas Ellison"
+    },
+    {
+      "sponsors": "HSBC"
+    },
+    {
+      "governs_competition": "National Provincial Championship"
+    }
+  ]
+}

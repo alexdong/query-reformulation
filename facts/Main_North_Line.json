@@ -1,0 +1,47 @@
+{
+  "entity": "Main North Line",
+  "properties": {
+    "type": "Railway line",
+    "operator": "Queensland Rail",
+    "length_km": "339",
+    "gauge": "1067mm",
+    "status": "Operational",
+    "start_location": "Roma Street",
+    "end_location": "Townsville",
+    "state": "Queensland",
+    "electrification": "None",
+    "year_opened": "1887"
+  },
+  "relationship": [
+    {
+      "connects": "Roma Street railway station"
+    },
+    {
+      "connects": "Townsville railway station"
+    },
+    {
+      "part_of": "Queensland rail network"
+    },
+    {
+      "serves_city": "Brisbane"
+    },
+    {
+      "serves_city": "Toowoomba"
+    },
+    {
+      "serves_city": "Charters Towers"
+    },
+    {
+      "serves_city": "Mackay"
+    },
+    {
+      "passes_through": "Darling Downs"
+    },
+    {
+      "route_type": "Passenger and freight"
+    },
+    {
+      "historical_significance": "Early Queensland railway"
+    }
+  ]
+}

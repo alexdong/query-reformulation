@@ -1,0 +1,47 @@
+{
+  "entity": "Yarra River",
+  "properties": {
+    "type": "River",
+    "location": "Victoria, Australia",
+    "length": "242 km",
+    "source": "Yarra Ranges",
+    "mouth": "Port Phillip Bay",
+    "discharge_volume": "1,800 m³/s",
+    "basin_area": "15,675 km²",
+    "name_origin": "Wurundjeri language",
+    "tributaries": "Numerous",
+    "navigability": "Estuary and lower reaches"
+  },
+  "relationship": [
+    {
+      "flows_into": "Port Phillip Bay"
+    },
+    {
+      "located_in": "Victoria"
+    },
+    {
+      "part_of": "Murray–Darling basin"
+    },
+    {
+      "passes_through": "Melbourne"
+    },
+    {
+      "tributary_of": "Murray–Darling basin"
+    },
+    {
+      "has_settlement": "Melbourne"
+    },
+    {
+      "has_landmark": "Federation Square"
+    },
+    {
+      "has_ecosystem": "Freshwater ecosystem"
+    },
+    {
+      "supports_species": "Australian grayling"
+    },
+    {
+      "historical_use": "Transportation"
+    }
+  ]
+}

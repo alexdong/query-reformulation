@@ -1,0 +1,47 @@
+{
+  "entity": "Lake Coleridge",
+  "properties": {
+    "type": "Lake",
+    "location": "Canterbury, New Zealand",
+    "area": "108 km²",
+    "max_depth": "352 m",
+    "elevation": "235 m",
+    "river_fed": "Rakaia River",
+    "reservoir_for": "Coleridge Power Station",
+    "discovery_year": "1882",
+    "named_after": "Charles Coleridge",
+    "basin_type": "Glacial"
+  },
+  "relationship": [
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "tributary_of": "Rakaia River"
+    },
+    {
+      "power_station": "Coleridge Power Station"
+    },
+    {
+      "named_after": "Charles Coleridge"
+    },
+    {
+      "region": "Otago"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "near": "Lake Heron"
+    },
+    {
+      "near": "Lake Evelyn"
+    },
+    {
+      "part_of": "New Zealand"
+    }
+  ]
+}

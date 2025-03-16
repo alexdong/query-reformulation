@@ -1,0 +1,47 @@
+{
+  "entity": "Chaslands",
+  "properties": {
+    "type": "Retailer",
+    "industry": "Retail",
+    "location": "New Zealand",
+    "founded": "1958",
+    "owner": "Green Investment Group",
+    "specialization": "Hardware & Homewares",
+    "headquarters": "Christchurch",
+    "employee_count": "Approximately 200",
+    "business_model": "Chain Store",
+    "website": "https://www.chaslands.co.nz/"
+  },
+  "relationship": [
+    {
+      "parent_company": "Green Investment Group"
+    },
+    {
+      "competitor_of": "Mitre 10"
+    },
+    {
+      "competitor_of": "Bunnings"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "operates_in": "Canterbury"
+    },
+    {
+      "provides": "Hardware"
+    },
+    {
+      "provides": "Homewares"
+    },
+    {
+      "serves": "DIY enthusiasts"
+    },
+    {
+      "supplier_of": "Dulux"
+    },
+    {
+      "supplier_of": "GIB"
+    }
+  ]
+}

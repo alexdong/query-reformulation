@@ -1,0 +1,47 @@
+{
+  "entity": "Clan System Decline",
+  "properties": {
+    "type": "Social Structure",
+    "geographic_focus": "Scotland, Ireland, Japan, Polynesia, etc.",
+    "primary_reason": "Centralized State Formation",
+    "secondary_reason": "Economic Changes",
+    "time_period": "15th-19th Centuries (variable)",
+    "impact_on_land": "Loss of Clan Lands",
+    "impact_on_law": "Erosion of Clan Law",
+    "impact_on_identity": "Weakening of Clan Identity",
+    "related_concept": "Feudalism",
+    "legal_framework": "Statutory Law"
+  },
+  "relationship": [
+    {
+      "caused_by": "Centralization"
+    },
+    {
+      "influenced_by": "Feudalism"
+    },
+    {
+      "affected": "Scottish Clans"
+    },
+    {
+      "affected": "Irish Clans"
+    },
+    {
+      "affected": "Japanese Clans"
+    },
+    {
+      "impacts": "Land Ownership"
+    },
+    {
+      "impacts": "Legal System"
+    },
+    {
+      "impacts": "Social Hierarchy"
+    },
+    {
+      "preceded_by": "Clan-based Society"
+    },
+    {
+      "followed_by": "Nation-State"
+    }
+  ]
+}

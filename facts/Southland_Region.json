@@ -1,0 +1,47 @@
+{
+  "entity": "Southland Region",
+  "properties": {
+    "region_type": "Region",
+    "country": "New Zealand",
+    "area_km2": "29,554",
+    "population_2023": "77,700",
+    "region_code": "98",
+    "established": "1861",
+    "major_city": "Invercargill",
+    "climate": "Temperate",
+    "economy_sector": "Agriculture",
+    "governing_body": "Southland Regional Council"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "borders": "Otago Region"
+    },
+    {
+      "borders": "Westland District"
+    },
+    {
+      "contains": "Fiordland National Park"
+    },
+    {
+      "contains": "Invercargill City"
+    },
+    {
+      "contains": "Gore District"
+    },
+    {
+      "economic_activity": "Dairy farming"
+    },
+    {
+      "economic_activity": "Horticulture"
+    },
+    {
+      "river_flows_through": "Mataura River"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Alberta",
+  "properties": {
+    "type": "Province",
+    "capital": "Edmonton",
+    "population_2021": "4443743",
+    "area_km2": "461000",
+    "official_language": "English",
+    "currency": "CAD",
+    "premier": "Danielle Smith",
+    "time_zone": "MST",
+    "postal_code_prefix": "T1-T9",
+    "geography": "Rocky Mountains, Prairies"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "borders": "British Columbia"
+    },
+    {
+      "borders": "Saskatchewan"
+    },
+    {
+      "borders": "Montana"
+    },
+    {
+      "borders": "North Dakota"
+    },
+    {
+      "has_city": "Calgary"
+    },
+    {
+      "has_city": "Edmonton"
+    },
+    {
+      "industry": "Oil and Gas"
+    },
+    {
+      "landmark": "Banff National Park"
+    }
+  ]
+}

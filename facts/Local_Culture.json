@@ -1,0 +1,47 @@
+{
+  "entity": "Local Culture",
+  "properties": {
+    "definition": "Shared customs & traditions",
+    "scope": "Geographic region",
+    "elements": "Language, cuisine, art, music",
+    "transmission": "Oral tradition, education",
+    "influence": "Environment, history",
+    "dynamic": "Evolving over time",
+    "identity": "Sense of belonging",
+    "expression": "Festivals, rituals",
+    "intangible": "Knowledge, skills, beliefs",
+    "preservation": "Efforts to maintain heritage"
+  },
+  "relationship": [
+    {
+      "part_of": "Human Culture"
+    },
+    {
+      "influenced_by": "Geography"
+    },
+    {
+      "influenced_by": "History"
+    },
+    {
+      "related_to": "Folklore"
+    },
+    {
+      "related_to": "Traditions"
+    },
+    {
+      "manifests_in": "Cuisine"
+    },
+    {
+      "manifests_in": "Music"
+    },
+    {
+      "manifests_in": "Art"
+    },
+    {
+      "related_to": "Community"
+    },
+    {
+      "impacts": "Tourism"
+    }
+  ]
+}

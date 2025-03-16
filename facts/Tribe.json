@@ -1,0 +1,45 @@
+{
+  "entity": "Tribe",
+  "properties": {
+    "instance_of": "Social group",
+    "definition": "Community of people",
+    "characteristic": "Shared culture",
+    "often_related_to": "Kinship",
+    "may_have": "Territory",
+    "can_be": "Sedentary",
+    "often_includes": "Rituals",
+    "often_associated_with": "Identity"
+  },
+  "relationship": [
+    {
+      "part_of": "Society"
+    },
+    {
+      "related_to": "Ethnicity"
+    },
+    {
+      "member_of": "Family"
+    },
+    {
+      "governed_by": "Chiefdom"
+    },
+    {
+      "shares": "Culture"
+    },
+    {
+      "located_in": "Region"
+    },
+    {
+      "has_member": "Person"
+    },
+    {
+      "practice": "Ritual"
+    },
+    {
+      "related_to": "Anthropology"
+    },
+    {
+      "example_of": "Indigenous peoples"
+    }
+  ]
+}

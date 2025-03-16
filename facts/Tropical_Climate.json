@@ -1,0 +1,47 @@
+{
+  "entity": "Tropical Climate",
+  "properties": {
+    "type": "Climate Zone",
+    "temperature": "High",
+    "precipitation": "Abundant",
+    "location": "Equatorial Regions",
+    "latitude": "23.5° N to 23.5° S",
+    "humidity": "High",
+    "seasons": "Two (Wet & Dry)",
+    "average_temp_celsius": "25-30°C",
+    "solar_insolation": "High",
+    "vegetation": "Rainforest, Monsoon Forest"
+  },
+  "relationship": [
+    {
+      "located_in": "Tropics"
+    },
+    {
+      "influenced_by": "Intertropical Convergence Zone"
+    },
+    {
+      "affects": "Biodiversity"
+    },
+    {
+      "causes": "Monsoons"
+    },
+    {
+      "supports": "Rainforests"
+    },
+    {
+      "experiences": "Hurricanes"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "found_in": "Amazon Rainforest"
+    },
+    {
+      "found_in": "Southeast Asia"
+    },
+    {
+      "related_to": "Köppen climate classification"
+    }
+  ]
+}

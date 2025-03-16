@@ -1,0 +1,47 @@
+{
+  "entity": "African Plate",
+  "properties": {
+    "type": "Tectonic Plate",
+    "area": "6,000,000 km²",
+    "location": "Africa, Indian Ocean",
+    "major_features": "East African Rift, Cameroon Line",
+    "boundary_type": "Convergent, Divergent, Transform",
+    "movement_direction": "Clockwise",
+    "average_speed": "2-4 cm/year",
+    "thickness": "10-130 km",
+    "composition": "Oceanic and Continental Crust",
+    "age": "Ancient (parts > 200 million years)"
+  },
+  "relationship": [
+    {
+      "part_of": "Lithosphere"
+    },
+    {
+      "borders": "Eurasian Plate"
+    },
+    {
+      "borders": "Indo-Australian Plate"
+    },
+    {
+      "borders": "South American Plate"
+    },
+    {
+      "borders": "Antarctic Plate"
+    },
+    {
+      "subduction_zone_with": "Eurasian Plate"
+    },
+    {
+      "rift_zone_includes": "East African Rift"
+    },
+    {
+      "collision_zone_with": "Eurasian Plate"
+    },
+    {
+      "geological_feature": "Madagascar"
+    },
+    {
+      "tectonic_activity": "Volcanism"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Plate Tectonics",
+  "properties": {
+    "type": "Scientific Theory",
+    "field": "Geophysics",
+    "description": "Movement of Earth's lithosphere",
+    "developed_by": "Alfred Wegener, Tuzo Wilson",
+    "evidence_supports": "Continental Drift, Seafloor Spreading",
+    "driving_force": "Mantle Convection",
+    "layer_involved": "Lithosphere",
+    "scale": "Global",
+    "time_scale": "Millions of years",
+    "impacts": "Earthquakes, Volcanoes"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth Science"
+    },
+    {
+      "explains": "Continental Drift"
+    },
+    {
+      "explains": "Seafloor Spreading"
+    },
+    {
+      "causes": "Earthquakes"
+    },
+    {
+      "causes": "Volcanism"
+    },
+    {
+      "creates": "Mountain Ranges"
+    },
+    {
+      "forms": "Oceanic Trenches"
+    },
+    {
+      "related_to": "Subduction"
+    },
+    {
+      "related_to": "Transform Faults"
+    },
+    {
+      "influences": "Geological History"
+    }
+  ]
+}

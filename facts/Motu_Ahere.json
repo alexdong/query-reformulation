@@ -1,0 +1,47 @@
+{
+  "entity": "Motu Ahere",
+  "properties": {
+    "type": "Māori performing group",
+    "origin": "New Zealand",
+    "genre": "Contemporary Māori performance",
+    "style": "Fusion of traditional and modern",
+    "founding_date": "1993",
+    "location": "Tāmaki Makaurau (Auckland)",
+    "language": "Te Reo Māori",
+    "focus": "Storytelling, dance, music",
+    "reputation": "Innovative, dynamic",
+    "members": "Various"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori culture"
+    },
+    {
+      "influenced_by": "Traditional Māori performing arts"
+    },
+    {
+      "performs": "Contemporary Māori stories"
+    },
+    {
+      "incorporates": "Te Reo Māori"
+    },
+    {
+      "collaborates_with": "Various artists"
+    },
+    {
+      "location": "Auckland"
+    },
+    {
+      "genre": "Dance"
+    },
+    {
+      "genre": "Music"
+    },
+    {
+      "style": "Contemporary"
+    },
+    {
+      "related_to": "Ngāti Whātua Ōrākei"
+    }
+  ]
+}

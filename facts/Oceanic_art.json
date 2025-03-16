@@ -1,0 +1,47 @@
+{
+  "entity": "Oceanic art",
+  "properties": {
+    "type": "Art",
+    "region": "Oceania",
+    "materials": "Wood, Stone, Fiber, Shell",
+    "function": "Ritual, Decoration, Storytelling",
+    "style": "Diverse, Stylized, Abstract",
+    "time_period": "Prehistoric - Contemporary",
+    "cultural_significance": "Deeply embedded in traditions",
+    "themes": "Ancestry, Creation, Navigation, Spirits",
+    "examples": "Masks, carvings, textiles, tattoos",
+    "influenced_by": "Environment, Belief Systems"
+  },
+  "relationship": [
+    {
+      "part_of": "Indigenous art"
+    },
+    {
+      "originates_from": "Oceania"
+    },
+    {
+      "related_to": "Polynesian art"
+    },
+    {
+      "related_to": "Melanesian art"
+    },
+    {
+      "related_to": "Micronesian art"
+    },
+    {
+      "influenced_by": "Animism"
+    },
+    {
+      "used_in": "Ceremonies"
+    },
+    {
+      "created_by": "Oceanic peoples"
+    },
+    {
+      "example_of": "Mask"
+    },
+    {
+      "example_of": "Wood carving"
+    }
+  ]
+}

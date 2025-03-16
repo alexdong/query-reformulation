@@ -1,0 +1,47 @@
+{
+  "entity": "TSS Earnslaw",
+  "properties": {
+    "type": "Paddle steamer",
+    "built": "1912",
+    "owner": "Tourism Holdings Limited",
+    "location": "Queenstown, New Zealand",
+    "length": "157 ft (48 m)",
+    "beam": "34 ft (10 m)",
+    "engine_type": "Steam engine",
+    "purpose": "Tourist cruises",
+    "nationality": "New Zealand",
+    "heritage_status": "Historic Place (Category I)"
+  },
+  "relationship": [
+    {
+      "operated_on": "Lake Wakatipu"
+    },
+    {
+      "built_in": "Dunedin"
+    },
+    {
+      "designed_by": "Alexander McArthur"
+    },
+    {
+      "owned_by": "Mount Cook Tourist Company"
+    },
+    {
+      "replaced": "PS Southern Cross"
+    },
+    {
+      "serves": "Tourism"
+    },
+    {
+      "part_of": "Queenstown tourism"
+    },
+    {
+      "associated_with": "Walter Peak High Country Farm"
+    },
+    {
+      "historical_period": "20th century"
+    },
+    {
+      "listed_on": "NZ Historic Places Trust"
+    }
+  ]
+}

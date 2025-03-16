@@ -1,0 +1,47 @@
+{
+  "entity": "Otorohanga District",
+  "properties": {
+    "type": "Local government area",
+    "country": "New Zealand",
+    "region": "Waikato Region",
+    "area_km2": "2,076",
+    "population_2023": "7,534",
+    "established": "1989",
+    "mayor": "Andy Watson",
+    "council_members": "8",
+    "main_industry": "Agriculture",
+    "location": "North Island"
+  },
+  "relationship": [
+    {
+      "part_of": "Waikato Region"
+    },
+    {
+      "located_in": "North Island"
+    },
+    {
+      "contains": "Waitomo Caves"
+    },
+    {
+      "neighbor_of": "Waipā District"
+    },
+    {
+      "neighbor_of": "South Taranaki District"
+    },
+    {
+      "contains": "Piopio"
+    },
+    {
+      "contains": "Mangarata"
+    },
+    {
+      "contains": "Maungatawhiri"
+    },
+    {
+      "economic_activity": "Dairy farming"
+    },
+    {
+      "tourism_attraction": "Waitomo Caves"
+    }
+  ]
+}

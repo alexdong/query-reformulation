@@ -1,0 +1,47 @@
+{
+  "entity": "Sri Lanka Journal of Tropical Medicine",
+  "properties": {
+    "journal_type": "Peer-reviewed",
+    "publisher": "College of Community Physicians Sri Lanka",
+    "issn": "1396-5520",
+    "subject_area": "Tropical Medicine",
+    "language": "English",
+    "frequency": "Quarterly",
+    "first_publication_date": "1984",
+    "online_access": "Yes",
+    "scope": "Research, Reviews, Case Reports",
+    "country_of_origin": "Sri Lanka"
+  },
+  "relationship": [
+    {
+      "publisher_of": "College of Community Physicians Sri Lanka"
+    },
+    {
+      "subject": "Tropical Medicine"
+    },
+    {
+      "issn_identified_by": "1396-5520"
+    },
+    {
+      "publication_format": "Academic journal"
+    },
+    {
+      "located_in": "Sri Lanka"
+    },
+    {
+      "indexed_in": "PubMed"
+    },
+    {
+      "indexed_in": "Scopus"
+    },
+    {
+      "covers": "Malaria"
+    },
+    {
+      "covers": "Dengue"
+    },
+    {
+      "covers": "Leishmaniasis"
+    }
+  ]
+}

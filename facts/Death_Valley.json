@@ -1,0 +1,47 @@
+{
+  "entity": "Death Valley",
+  "properties": {
+    "type": "Desert",
+    "location": "California, Nevada",
+    "area": "5,189 sq mi",
+    "lowest_point": "-282 ft",
+    "highest_point": "11,049 ft",
+    "average_rainfall": "2.3 in",
+    "hottest_temperature": "134 °F",
+    "national_park": "Death Valley National Park",
+    "geology": "Basin and Range",
+    "formation": "Faulting and Erosion"
+  },
+  "relationship": [
+    {
+      "part_of": "Mojave Desert"
+    },
+    {
+      "located_in": "California"
+    },
+    {
+      "located_in": "Nevada"
+    },
+    {
+      "contains": "Badwater Basin"
+    },
+    {
+      "contains": "Dante's View"
+    },
+    {
+      "managed_by": "National Park Service"
+    },
+    {
+      "adjacent_to": "Sierra Nevada"
+    },
+    {
+      "influenced_by": "Colorado River"
+    },
+    {
+      "ecosystem": "Mojave Desert Ecosystem"
+    },
+    {
+      "explored_by": "Jehoshua Trees"
+    }
+  ]
+}

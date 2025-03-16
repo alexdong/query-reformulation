@@ -1,0 +1,47 @@
+{
+  "entity": "Municipalities of Nova Scotia",
+  "properties": {
+    "type": "Governmental divisions",
+    "province": "Nova Scotia",
+    "number": "55",
+    "governance": "Municipal Council",
+    "area_unit": "km²",
+    "population_unit": "people",
+    "primary_language": "English",
+    "legal_framework": "Nova Scotia Municipal Act",
+    "classification": "Rural, Urban, Town",
+    "established": "Various dates"
+  },
+  "relationship": [
+    {
+      "part_of": "Nova Scotia"
+    },
+    {
+      "governed_by": "Province of Nova Scotia"
+    },
+    {
+      "contains": "Halifax Regional Municipality"
+    },
+    {
+      "member_of": "Union of Nova Scotia Municipalities"
+    },
+    {
+      "located_in": "Atlantic Canada"
+    },
+    {
+      "provides": "Local services"
+    },
+    {
+      "responsible_for": "Property taxes"
+    },
+    {
+      "includes": "Cape Breton Regional Municipality"
+    },
+    {
+      "borders": "Other municipalities"
+    },
+    {
+      "affected_by": "Climate change"
+    }
+  ]
+}

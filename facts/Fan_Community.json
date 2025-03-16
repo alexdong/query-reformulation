@@ -1,0 +1,47 @@
+{
+  "entity": "Fan Community",
+  "properties": {
+    "type": "Social Group",
+    "focus": "Shared Interest",
+    "size": "Variable",
+    "communication": "Online/Offline",
+    "motivation": "Passion, Connection",
+    "creation_method": "Spontaneous/Organized",
+    "activity": "Content Creation, Discussion",
+    "platform": "Forums, Social Media",
+    "demographics": "Diverse",
+    "purpose": "Shared enjoyment"
+  },
+  "relationship": [
+    {
+      "part_of": "Internet Culture"
+    },
+    {
+      "related_to": "Fandom"
+    },
+    {
+      "uses": "Social Media"
+    },
+    {
+      "creates": "Fan Works"
+    },
+    {
+      "interacts_with": "Original Creators"
+    },
+    {
+      "influenced_by": "Subculture"
+    },
+    {
+      "overlaps_with": "Online Community"
+    },
+    {
+      "example_of": "Cosplay Community"
+    },
+    {
+      "example_of": "Shipping Fandom"
+    },
+    {
+      "fosters": "Sense of Belonging"
+    }
+  ]
+}

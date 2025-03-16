@@ -1,0 +1,47 @@
+{
+  "entity": "Grey Fantail",
+  "properties": {
+    "scientific_name": "Rhipidura fuliginosa",
+    "conservation_status": "Least Concern",
+    "family": "Rhipiduridae",
+    "wingspan": "15-20 cm",
+    "length": "18-23 cm",
+    "diet": "Insects",
+    "habitat": "Forests, gardens",
+    "distribution": "New Zealand, Australia",
+    "plumage": "Grey, white, black",
+    "vocalization": "Chirps, trills"
+  },
+  "relationship": [
+    {
+      "part_of": "Rhipiduridae"
+    },
+    {
+      "found_in": "New Zealand"
+    },
+    {
+      "found_in": "Australia"
+    },
+    {
+      "preys_on": "Insects"
+    },
+    {
+      "lives_in": "Forest"
+    },
+    {
+      "lives_in": "Garden"
+    },
+    {
+      "related_to": "Other fantails"
+    },
+    {
+      "migration": "Nomadic"
+    },
+    {
+      "nesting_material": "Moss, lichen"
+    },
+    {
+      "threat": "Habitat loss"
+    }
+  ]
+}

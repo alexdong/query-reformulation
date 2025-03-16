@@ -1,0 +1,47 @@
+{
+  "entity": "Ecosystem",
+  "properties": {
+    "instance_of": "Ecological system",
+    "definition": "Community + Environment",
+    "scale": "Varies",
+    "components": "Biotic & Abiotic",
+    "energy_source": "Sunlight/Chemicals",
+    "trophic_level": "Multiple",
+    "biodiversity": "Variable",
+    "stability": "Dynamic",
+    "location": "Global",
+    "study_field": "Ecology"
+  },
+  "relationship": [
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "contains": "Community"
+    },
+    {
+      "contains": "Habitat"
+    },
+    {
+      "interacts_with": "Food web"
+    },
+    {
+      "affected_by": "Climate"
+    },
+    {
+      "influenced_by": "Biogeochemical cycle"
+    },
+    {
+      "example_of": "Rainforest"
+    },
+    {
+      "example_of": "Coral reef"
+    },
+    {
+      "example_of": "Desert"
+    },
+    {
+      "studied_by": "Ecologist"
+    }
+  ]
+}

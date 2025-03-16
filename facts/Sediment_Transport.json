@@ -1,0 +1,47 @@
+{
+  "entity": "Sediment Transport",
+  "properties": {
+    "definition": "Movement of solid particles",
+    "type": "Geophysical process",
+    "driving_force": "Gravity, Fluid Flow",
+    "modes": "Suspension, Bedload, Saltation",
+    "affected_environment": "Rivers, Coastal zones, Glaciers",
+    "measurement_unit": "kg/m/s",
+    "scale": "Microscopic to macroscopic",
+    "importance": "Shape landscapes, affect water quality",
+    "governing_equation": "Einstein-Brown equation",
+    "related_concept": "Erosion"
+  },
+  "relationship": [
+    {
+      "causes": "Erosion"
+    },
+    {
+      "affects": "River Morphology"
+    },
+    {
+      "part_of": "Hydrology"
+    },
+    {
+      "influenced_by": "Fluid Dynamics"
+    },
+    {
+      "related_to": "Sedimentology"
+    },
+    {
+      "impacts": "Water Quality"
+    },
+    {
+      "modelled_by": "Hazen–Kennedy equation"
+    },
+    {
+      "studied_in": "Geomorphology"
+    },
+    {
+      "contributes_to": "Delta Formation"
+    },
+    {
+      "measured_using": "Sediment traps"
+    }
+  ]
+}

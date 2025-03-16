@@ -1,0 +1,47 @@
+{
+  "entity": "Franklin District Council",
+  "properties": {
+    "type": "Local government",
+    "region": "Auckland, New Zealand",
+    "established": "1876",
+    "abolished": "2023",
+    "mayor_last": "Clive Pickering",
+    "area_km2": "1642",
+    "population_2018": "35,500",
+    "governs": "Franklin Ward",
+    "website": "https://www.franklin.govt.nz/",
+    "services_provided": "Infrastructure, Planning, Community"
+  },
+  "relationship": [
+    {
+      "part_of": "Auckland Council"
+    },
+    {
+      "located_in": "Waikato Region"
+    },
+    {
+      "governs": "Pukekohe"
+    },
+    {
+      "governs": "Tuakau"
+    },
+    {
+      "governs": "Waiuku"
+    },
+    {
+      "mayor_served": "Clive Pickering"
+    },
+    {
+      "predecessor_of": "Franklin Ward (Auckland Council)"
+    },
+    {
+      "provides_service_to": "Franklin Ward Residents"
+    },
+    {
+      "funding_source": "Rates"
+    },
+    {
+      "legislation": "Local Government Act 2002"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Lake Manapouri",
+  "properties": {
+    "type": "Lake",
+    "location": "Fiordland National Park",
+    "country": "New Zealand",
+    "area": "180 km²",
+    "max_depth": "46 m",
+    "elevation": "21 m",
+    "outlet": "Manapouri Power Station",
+    "formation": "Glacial",
+    "water_source": "Rainfall, streams",
+    "shoreline_length": "138 km"
+  },
+  "relationship": [
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "tributary_of": "Te Anau"
+    },
+    {
+      "connected_to": "Lake Te Anau"
+    },
+    {
+      "power_station": "Manapouri Power Station"
+    },
+    {
+      "influenced_by": "Hydroelectric power"
+    },
+    {
+      "nearby_settlement": "Te Anau"
+    },
+    {
+      "flora_and_fauna": "Native forest"
+    },
+    {
+      "geology": "Dolerite"
+    },
+    {
+      "recreation": "Kayaking"
+    }
+  ]
+}

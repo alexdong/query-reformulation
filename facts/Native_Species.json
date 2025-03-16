@@ -1,0 +1,47 @@
+{
+  "entity": "Native Species",
+  "properties": {
+    "definition": "Naturally occurring species",
+    "origin": "Specific ecosystem",
+    "adaptation": "Evolved traits",
+    "role": "Ecosystem function",
+    "conservation_status": "Varies widely",
+    "threats": "Habitat loss, invasive species",
+    "biodiversity": "Contributes to richness",
+    "genetic_diversity": "Unique gene pool",
+    "ecological_importance": "Keystone species",
+    "distribution": "Geographic range"
+  },
+  "relationship": [
+    {
+      "part_of": "Biodiversity"
+    },
+    {
+      "threatened_by": "Invasive Species"
+    },
+    {
+      "impacts": "Ecosystem"
+    },
+    {
+      "dependent_on": "Habitat"
+    },
+    {
+      "interacts_with": "Other Species"
+    },
+    {
+      "affected_by": "Climate Change"
+    },
+    {
+      "example": "American Bison"
+    },
+    {
+      "example": "Giant Panda"
+    },
+    {
+      "example": "California Condor"
+    },
+    {
+      "studied_by": "Ecologist"
+    }
+  ]
+}

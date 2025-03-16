@@ -1,0 +1,47 @@
+{
+  "entity": "Wildlife protection",
+  "properties": {
+    "definition": "Conservation of animals and plants",
+    "goal": "Biodiversity preservation",
+    "scope": "Species, habitats, ecosystems",
+    "legal_framework": "Laws and regulations",
+    "threats_addressed": "Poaching, habitat loss, climate change",
+    "methods": "Protected areas, legislation, education",
+    "international_agreement": "CITES",
+    "organization": "IUCN",
+    "focus": "Endangered species",
+    "importance": "Ecosystem services"
+  },
+  "relationship": [
+    {
+      "part_of": "Environmentalism"
+    },
+    {
+      "related_to": "Conservation biology"
+    },
+    {
+      "protects": "Endangered species"
+    },
+    {
+      "requires": "Habitat preservation"
+    },
+    {
+      "impacted_by": "Climate change"
+    },
+    {
+      "influenced_by": "Rachel Carson"
+    },
+    {
+      "supported_by": "National parks"
+    },
+    {
+      "overlaps_with": "Animal welfare"
+    },
+    {
+      "addresses": "Poaching"
+    },
+    {
+      "promotes": "Sustainable development"
+    }
+  ]
+}

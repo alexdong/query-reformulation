@@ -1,0 +1,47 @@
+{
+  "entity": "Christchurch Airport",
+  "properties": {
+    "iata_code": "CHC",
+    "icao_code": "CHC",
+    "location": "Christchurch, New Zealand",
+    "elevation": "14 m (46 ft)",
+    "website": "https://www.christchurchairport.co.nz/",
+    "owner": "Christchurch City Council",
+    "type": "International Airport",
+    "year_opened": "1937",
+    "runway_length": "3,497 m (11,473 ft)",
+    "passenger_volume_2023": "6.3 million"
+  },
+  "relationship": [
+    {
+      "serves": "Christchurch"
+    },
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "operates_flight": "Air New Zealand"
+    },
+    {
+      "operates_flight": "Qantas"
+    },
+    {
+      "connected_to": "Sydney Airport"
+    },
+    {
+      "connected_to": "Melbourne Airport"
+    },
+    {
+      "connected_to": "Los Angeles International Airport"
+    },
+    {
+      "part_of": "New Zealand's National Airport Network"
+    },
+    {
+      "has_terminal": "International Terminal"
+    }
+  ]
+}

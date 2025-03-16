@@ -1,0 +1,47 @@
+{
+  "entity": "Romanticism",
+  "properties": {
+    "time_period": "Late 18th - Mid 19th Century",
+    "origin": "Europe",
+    "focus": "Emotion & Individuality",
+    "reaction_to": "Age of Enlightenment",
+    "art_form": "Literature, Music, Art",
+    "key_concept": "Sublime",
+    "influence_on": "Nationalism, Liberalism",
+    "geographic_spread": "Europe, Americas",
+    "literary_genre": "Lyric Poetry, Gothic Novel",
+    "musical_style": "Emphasis on melody & harmony"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Neoclassicism"
+    },
+    {
+      "followed_by": "Victorian Era"
+    },
+    {
+      "influenced": "Symbolism"
+    },
+    {
+      "influenced": "Expressionism"
+    },
+    {
+      "artist": "William Wordsworth"
+    },
+    {
+      "artist": "Lord Byron"
+    },
+    {
+      "artist": "Percy Bysshe Shelley"
+    },
+    {
+      "composer": "Ludwig van Beethoven"
+    },
+    {
+      "painter": "Caspar David Friedrich"
+    },
+    {
+      "movement_in": "German Romanticism"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Biodiversity",
+  "properties": {
+    "definition": "Variety of life",
+    "scale": "Genetic, Species, Ecosystem",
+    "importance": "Ecosystem services",
+    "threats": "Habitat loss, Climate change",
+    "measurement": "Species richness, Genetic diversity",
+    "level": "Global, Regional, Local",
+    "value": "Intrinsic, Economic, Cultural",
+    "conservation_status": "Declining",
+    "related_concept": "Ecology",
+    "study_field": "Biology"
+  },
+  "relationship": [
+    {
+      "part_of": "Life"
+    },
+    {
+      "impacts": "Ecosystem services"
+    },
+    {
+      "affected_by": "Climate change"
+    },
+    {
+      "related_to": "Ecology"
+    },
+    {
+      "requires": "Habitat"
+    },
+    {
+      "supports": "Genetic diversity"
+    },
+    {
+      "influences": "Evolution"
+    },
+    {
+      "studied_by": "Biologists"
+    },
+    {
+      "linked_to": "Conservation"
+    },
+    {
+      "dependent_on": "Photosynthesis"
+    }
+  ]
+}

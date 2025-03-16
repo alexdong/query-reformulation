@@ -1,0 +1,47 @@
+{
+  "entity": "Sapporo",
+  "properties": {
+    "capital_of": "Hokkaido",
+    "population_2023": "1982,000",
+    "area_km2": "1386",
+    "founded": "1870",
+    "mayor": "Akira Tamura",
+    "timezone": "JST",
+    "latitude": "43.0754° N",
+    "longitude": "141.3540° E",
+    "currency": "JPY",
+    "postal_code": "060-0001"
+  },
+  "relationship": [
+    {
+      "part_of": "Japan"
+    },
+    {
+      "located_in": "Hokkaido"
+    },
+    {
+      "has_event": "Sapporo Snow Festival"
+    },
+    {
+      "has_landmark": "Odori Park"
+    },
+    {
+      "has_landmark": "Sapporo TV Tower"
+    },
+    {
+      "has_industry": "Brewing"
+    },
+    {
+      "has_university": "Hokkaido University"
+    },
+    {
+      "connected_to": "Hakodate"
+    },
+    {
+      "influenced_by": "Yokohama"
+    },
+    {
+      "has_cuisine": "Sapporo Ramen"
+    }
+  ]
+}

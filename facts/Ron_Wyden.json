@@ -1,0 +1,47 @@
+{
+  "entity": "Ron Wyden",
+  "properties": {
+    "birth_date": "1949-05-14",
+    "birth_place": "Portland, Oregon",
+    "party": "Democratic",
+    "constituency": "Oregon",
+    "occupation": "Politician",
+    "education": "University of Oregon",
+    "alma_mater": "Stanford University",
+    "religion": "Unitarian Universalism",
+    "spouse": "Annie MacKay",
+    "height": "1.83 m"
+  },
+  "relationship": [
+    {
+      "member_of": "United States Senate"
+    },
+    {
+      "preceded_by": "Mark Hatfield"
+    },
+    {
+      "succeeded_by": "Current"
+    },
+    {
+      "member_of": "Democratic Party"
+    },
+    {
+      "attended": "University of Oregon"
+    },
+    {
+      "attended": "Stanford University"
+    },
+    {
+      "spouse_of": "Annie MacKay"
+    },
+    {
+      "seniority": "37th"
+    },
+    {
+      "committee_member": "Senate Finance Committee"
+    },
+    {
+      "committee_member": "Senate Energy and Natural Resources Committee"
+    }
+  ]
+}

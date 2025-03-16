@@ -1,0 +1,47 @@
+{
+  "entity": "Gifu Prefecture",
+  "properties": {
+    "location": "Honshu, Japan",
+    "area_km2": "5,205",
+    "population_2023": "1,948,474",
+    "capital": "Gifu City",
+    "geography": "Mountains, plains",
+    "climate": "Humid subtropical",
+    "established": "7th century (as Shinano Province)",
+    "major_industry": "Agriculture, Manufacturing",
+    "famous_product": "Miso",
+    "governor": "Hajime Furuta"
+  },
+  "relationship": [
+    {
+      "part_of": "Chubu region"
+    },
+    {
+      "borders": "Nagano Prefecture"
+    },
+    {
+      "borders": "Toyama Prefecture"
+    },
+    {
+      "borders": "Fukui Prefecture"
+    },
+    {
+      "borders": "Shiga Prefecture"
+    },
+    {
+      "borders": "Mie Prefecture"
+    },
+    {
+      "contains": "Shirakawa-go"
+    },
+    {
+      "contains": "Gifu City"
+    },
+    {
+      "contains": "Takayama"
+    },
+    {
+      "historical_part_of": "Shinano Province"
+    }
+  ]
+}

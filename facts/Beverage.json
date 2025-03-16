@@ -1,0 +1,47 @@
+{
+  "entity": "Beverage",
+  "properties": {
+    "instance_of": "Food",
+    "type": "Liquid",
+    "purpose": "Consumption",
+    "contains": "Water",
+    "often_includes": "Flavorings",
+    "temperature": "Variable",
+    "category": "Drink",
+    "can_be": "Alcoholic or Non-alcoholic",
+    "common_serving_size": "Cup",
+    "nutrient_source": "Varies"
+  },
+  "relationship": [
+    {
+      "is_a": "Food"
+    },
+    {
+      "contains": "Water"
+    },
+    {
+      "related_to": "Gastronomy"
+    },
+    {
+      "preceded_by": "Agriculture"
+    },
+    {
+      "often_paired_with": "Food"
+    },
+    {
+      "produced_in": "Factory"
+    },
+    {
+      "consumed_by": "Human"
+    },
+    {
+      "type_of": "Drink"
+    },
+    {
+      "ingredient_in": "Cocktail"
+    },
+    {
+      "example_of": "Coffee"
+    }
+  ]
+}

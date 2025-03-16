@@ -1,0 +1,47 @@
+{
+  "entity": "Te Reo Māori",
+  "properties": {
+    "language_family": "Austronesian",
+    "script": "Māori alphabet",
+    "status": "Revitalisation",
+    "native_speakers": "150,000 (approx.)",
+    "origin": "New Zealand",
+    "official_language": "Yes (New Zealand)",
+    "iso_code": "mā",
+    "writing_system": "Latin alphabet",
+    "dialect_region": "North Island, South Island",
+    "related_languages": "Rapanui, Hawaiian"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian languages"
+    },
+    {
+      "spoken_in": "New Zealand"
+    },
+    {
+      "influenced_by": "English language"
+    },
+    {
+      "revitalisation_effort": "Kōhanga Reo"
+    },
+    {
+      "revitalisation_effort": "Te Ataarōra"
+    },
+    {
+      "related_to": "Māori culture"
+    },
+    {
+      "taught_at": "University of Auckland"
+    },
+    {
+      "recognized_by": "UNESCO"
+    },
+    {
+      "has_variant": "Te Reo Pākehā"
+    },
+    {
+      "used_in": "Waiata (songs)"
+    }
+  ]
+}

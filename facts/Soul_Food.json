@@ -1,0 +1,47 @@
+{
+  "entity": "Soul Food",
+  "properties": {
+    "cuisine_origin": "African American",
+    "regional_cuisine": "Southern United States",
+    "historical_context": "Slavery",
+    "primary_ingredients": "Meat, vegetables, grains",
+    "cooking_methods": "Slow cooking, frying",
+    "flavor_profile": "Rich, savory, often spicy",
+    "health_considerations": "High in fat and sodium",
+    "cultural_significance": "Community, family, heritage",
+    "common_dishes": "Fried chicken, collard greens, mac and cheese",
+    "evolution": "Adaptation of West African and Southern ingredients"
+  },
+  "relationship": [
+    {
+      "influenced_by": "West African cuisine"
+    },
+    {
+      "influenced_by": "Southern cuisine"
+    },
+    {
+      "associated_with": "African American culture"
+    },
+    {
+      "associated_with": "The Great Migration"
+    },
+    {
+      "ingredient_includes": "Collard greens"
+    },
+    {
+      "ingredient_includes": "Sweet potatoes"
+    },
+    {
+      "ingredient_includes": "Cornbread"
+    },
+    {
+      "dish_type": "Comfort food"
+    },
+    {
+      "related_to": "Jubilee"
+    },
+    {
+      "associated_with": "Black churches"
+    }
+  ]
+}

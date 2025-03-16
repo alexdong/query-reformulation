@@ -1,0 +1,47 @@
+{
+  "entity": "Procellariiformes",
+  "properties": {
+    "instance_of": "Bird order",
+    "common_name": "Tube-nosed seabirds",
+    "class": "Aves",
+    "distribution": "Global (oceans)",
+    "diet": "Pelagic fish, squid, krill",
+    "size": "Small to large",
+    "wingspan": "1.3–3.4 m",
+    "conservation_status": "Variable",
+    "metabolism": "High",
+    "adaptation": "Salt glands"
+  },
+  "relationship": [
+    {
+      "part_of": "Aves"
+    },
+    {
+      "includes": "Albatrosses"
+    },
+    {
+      "includes": "Petrels"
+    },
+    {
+      "includes": "Shearwaters"
+    },
+    {
+      "includes": "Storm-petrels"
+    },
+    {
+      "related_to": "Pelecaniformes"
+    },
+    {
+      "habitat": "Ocean"
+    },
+    {
+      "preys_on": "Fish"
+    },
+    {
+      "feeds_on": "Squid"
+    },
+    {
+      "migration": "Long-distance"
+    }
+  ]
+}

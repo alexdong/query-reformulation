@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Ecosystem",
+  "properties": {
+    "type": "Biome",
+    "area": "70% of Earth",
+    "salinity": "High",
+    "depth_range": "0-11,000 meters",
+    "temperature_range": "-2 to 30 °C",
+    "primary_producers": "Phytoplankton, Seaweed",
+    "biodiversity": "High",
+    "oxygen_content": "Variable",
+    "light_penetration": "Variable",
+    "pressure": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "contains": "Coral Reef"
+    },
+    {
+      "contains": "Kelp Forest"
+    },
+    {
+      "supports": "Marine Life"
+    },
+    {
+      "affected_by": "Ocean Acidification"
+    },
+    {
+      "threatened_by": "Pollution"
+    },
+    {
+      "interacts_with": "Coastal Ecosystem"
+    },
+    {
+      "regulates": "Climate"
+    },
+    {
+      "provides": "Food Source"
+    },
+    {
+      "impacted_by": "Overfishing"
+    }
+  ]
+}

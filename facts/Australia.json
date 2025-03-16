@@ -1,0 +1,47 @@
+{
+  "entity": "Australia",
+  "properties": {
+    "continent": "Oceania",
+    "capital": "Canberra",
+    "population": "26 million",
+    "official_language": "English",
+    "currency": "AUD",
+    "area_km2": "7.692 million",
+    "largest_city": "Sydney",
+    "government": "Parliamentary democracy",
+    "national_animal": "Kangaroo",
+    "national_symbol": "Golden Wattle"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "borders": "Timor-Leste"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "located_near": "New Zealand"
+    },
+    {
+      "influenced_by": "British Empire"
+    },
+    {
+      "has_territory": "Australian Antarctic Territory"
+    },
+    {
+      "has_state": "New South Wales"
+    },
+    {
+      "has_state": "Victoria"
+    },
+    {
+      "has_city": "Melbourne"
+    },
+    {
+      "has_city": "Brisbane"
+    }
+  ]
+}

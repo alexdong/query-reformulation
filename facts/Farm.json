@@ -1,0 +1,47 @@
+{
+  "entity": "Farm",
+  "properties": {
+    "instance_of": "Agricultural land",
+    "purpose": "Food production",
+    "location": "Rural area",
+    "size": "Variable",
+    "land_use": "Agriculture",
+    "crop_type": "Variable",
+    "livestock": "Possible",
+    "ownership": "Private/Public",
+    "economic_activity": "Agriculture",
+    "resource": "Land"
+  },
+  "relationship": [
+    {
+      "part_of": "Agricultural system"
+    },
+    {
+      "produces": "Food"
+    },
+    {
+      "located_in": "Rural area"
+    },
+    {
+      "employs": "Farmer"
+    },
+    {
+      "uses": "Tractor"
+    },
+    {
+      "requires": "Water"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "part_of": "Landscape"
+    },
+    {
+      "related_to": "Agriculture"
+    },
+    {
+      "supports": "Biodiversity"
+    }
+  ]
+}

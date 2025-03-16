@@ -1,0 +1,47 @@
+{
+  "entity": "Radar",
+  "properties": {
+    "instance_of": "Technology",
+    "purpose": "Object Detection",
+    "principle": "Radio Waves",
+    "developer": "Heinrich Hertz",
+    "application": "Military, Aviation, Meteorology",
+    "frequency_range": "VHF to Millimeter Wave",
+    "signal_type": "Radio Signals",
+    "resolution": "Varies by Frequency",
+    "detection_range": "Varies by Power",
+    "invention_date": "1886"
+  },
+  "relationship": [
+    {
+      "uses": "Radio Waves"
+    },
+    {
+      "developed_by": "Heinrich Hertz"
+    },
+    {
+      "used_in": "Military"
+    },
+    {
+      "used_in": "Aviation"
+    },
+    {
+      "used_in": "Meteorology"
+    },
+    {
+      "related_to": "Sonar"
+    },
+    {
+      "component_of": "Radar System"
+    },
+    {
+      "detects": "Aircraft"
+    },
+    {
+      "detects": "Ships"
+    },
+    {
+      "preceded_by": "Early Radio Technology"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Rainier",
+  "properties": {
+    "type": "Stratovolcano",
+    "elevation": "14,411 ft",
+    "location": "Washington, USA",
+    "formation_era": "Pleistocene",
+    "first_climb": "1893",
+    "name_origin": "Pacific Northwest Native American",
+    "volcanic_status": "Active",
+    "glacier_coverage": "26 sq mi",
+    "national_park": "Mount Rainier National Park",
+    "rock_type": "Andesite"
+  },
+  "relationship": [
+    {
+      "part_of": "Cascade Range"
+    },
+    {
+      "located_in": "Washington"
+    },
+    {
+      "national_park": "Mount Rainier National Park"
+    },
+    {
+      "contains": "Emmons Glacier"
+    },
+    {
+      "contains": "Carbon Glacier"
+    },
+    {
+      "adjacent_to": "Puget Sound"
+    },
+    {
+      "influences": "Yakima River"
+    },
+    {
+      "influences": "Nisqually River"
+    },
+    {
+      "threatens": "Seattle"
+    },
+    {
+      "studied_by": "United States Geological Survey"
+    }
+  ]
+}

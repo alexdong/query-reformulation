@@ -1,0 +1,47 @@
+{
+  "entity": "Earthquake",
+  "properties": {
+    "instance_of": "Natural disaster",
+    "magnitude_scale": "Moment magnitude scale",
+    "cause": "Tectonic plate movement",
+    "frequency": "Frequent",
+    "depth": "0-700 km",
+    "location": "Worldwide",
+    "damage_type": "Structural, Geological",
+    "detection_method": "Seismograph",
+    "wave_type": "P-wave, S-wave, Surface wave",
+    "related_phenomenon": "Tsunami"
+  },
+  "relationship": [
+    {
+      "caused_by": "Tectonic plate"
+    },
+    {
+      "measured_by": "Seismograph"
+    },
+    {
+      "generates": "Seismic wave"
+    },
+    {
+      "can_cause": "Tsunami"
+    },
+    {
+      "occurs_in": "Fault line"
+    },
+    {
+      "studied_by": "Seismology"
+    },
+    {
+      "related_to": "Plate tectonics"
+    },
+    {
+      "impacts": "Human settlement"
+    },
+    {
+      "affects": "Geology"
+    },
+    {
+      "example_of": "San Francisco earthquake"
+    }
+  ]
+}

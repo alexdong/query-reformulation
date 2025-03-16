@@ -1,0 +1,47 @@
+{
+  "entity": "Social Media",
+  "properties": {
+    "type": "Online platform",
+    "purpose": "Communication & Sharing",
+    "usage": "Global",
+    "growth_rate": "Rapid",
+    "revenue_model": "Advertising",
+    "user_base": "Billions",
+    "data_volume": "Massive",
+    "impact": "Significant",
+    "privacy_concerns": "High",
+    "influence": "Widespread"
+  },
+  "relationship": [
+    {
+      "uses": "Internet"
+    },
+    {
+      "related_to": "Web 2.0"
+    },
+    {
+      "impacts": "Politics"
+    },
+    {
+      "influences": "Marketing"
+    },
+    {
+      "facilitates": "Networking"
+    },
+    {
+      "supports": "User-generated content"
+    },
+    {
+      "example_platform": "Facebook"
+    },
+    {
+      "example_platform": "Twitter"
+    },
+    {
+      "example_platform": "Instagram"
+    },
+    {
+      "impacts": "Mental Health"
+    }
+  ]
+}

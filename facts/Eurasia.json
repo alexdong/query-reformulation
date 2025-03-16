@@ -1,0 +1,47 @@
+{
+  "entity": "Eurasia",
+  "properties": {
+    "type": "Continent",
+    "area": "39,600,000 km²",
+    "population": "5.3 billion",
+    "highest_point": "Mount Everest",
+    "lowest_point": "Caspian Sea",
+    "largest_country": "Russia",
+    "most_populous_country": "China",
+    "climate_types": "Diverse",
+    "geological_feature": "Complex",
+    "major_rivers": "Volga, Yangtze, Ob"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Europe"
+    },
+    {
+      "contains": "Asia"
+    },
+    {
+      "borders": "Africa"
+    },
+    {
+      "borders": "North America"
+    },
+    {
+      "borders": "Oceania"
+    },
+    {
+      "influenced_by": "Silk Road"
+    },
+    {
+      "economic_bloc": "EAEU"
+    },
+    {
+      "political_entity": "Russia"
+    },
+    {
+      "geopolitical_concept": "Heartland Theory"
+    }
+  ]
+}

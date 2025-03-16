@@ -1,0 +1,47 @@
+{
+  "entity": "Kerikeri",
+  "properties": {
+    "type": "Town",
+    "location": "Northland, New Zealand",
+    "population_2018": "4,541",
+    "region": "Northland",
+    "established": "1830s",
+    "climate": "Subtropical",
+    "economy": "Tourism, Horticulture",
+    "river": "Kerikeri River",
+    "elevation": "35 m (115 ft)",
+    "time_zone": "NZST"
+  },
+  "relationship": [
+    {
+      "located_in": "Northland Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "near": "Paihia"
+    },
+    {
+      "founded_by": "Samuel Marsden"
+    },
+    {
+      "has_landmark": "Kerikeri Mission Station"
+    },
+    {
+      "has_landmark": "Waitangi Treaty Grounds"
+    },
+    {
+      "produces": "Kiwifruit"
+    },
+    {
+      "produces": "Avocado"
+    },
+    {
+      "attraction_type": "Garden"
+    },
+    {
+      "attraction_name": "Kerikeri Pioneer Memorial Park"
+    }
+  ]
+}

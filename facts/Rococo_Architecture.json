@@ -1,0 +1,47 @@
+{
+  "entity": "Rococo Architecture",
+  "properties": {
+    "style_of": "Architecture",
+    "period": "18th Century",
+    "origin": "France",
+    "predecessor": "Baroque Architecture",
+    "aesthetic": "Ornamentation, Elegance, Lightness",
+    "materials": "Stucco, Pastel Colors, Gilding",
+    "common_features": "Asymmetry, Curves, Shell Motifs",
+    "function": "Palaces, Churches, Private Residences",
+    "influenced_by": "Louis XV Style",
+    "decline": "Neoclassicism"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Baroque Architecture"
+    },
+    {
+      "followed_by": "Neoclassicism"
+    },
+    {
+      "influenced": "French Rococo"
+    },
+    {
+      "influenced": "German Rococo"
+    },
+    {
+      "influenced": "English Rococo"
+    },
+    {
+      "example_of": "Palace of Versailles"
+    },
+    {
+      "example_of": "Würzburg Residence"
+    },
+    {
+      "example_of": "Sanssouci Palace"
+    },
+    {
+      "artist_associated": "François Cuvilliés"
+    },
+    {
+      "artist_associated": "Germain Boffrand"
+    }
+  ]
+}

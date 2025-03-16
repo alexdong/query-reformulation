@@ -1,0 +1,47 @@
+{
+  "entity": "Food industry",
+  "properties": {
+    "industry_type": "Agriculture & Processing",
+    "global_value": "Trillions USD",
+    "major_sectors": "Farming, Manufacturing, Retail",
+    "employment": "Millions",
+    "key_products": "Processed foods, Beverages, Ingredients",
+    "regulation_body": "FDA (US)",
+    "impact_on_health": "Mixed (nutrition, obesity)",
+    "environmental_impact": "Significant (land use, emissions)",
+    "technology_used": "Automation, Biotechnology",
+    "economic_importance": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Economy"
+    },
+    {
+      "impacts": "Public health"
+    },
+    {
+      "relies_on": "Agriculture"
+    },
+    {
+      "supplies_to": "Retail"
+    },
+    {
+      "influenced_by": "Consumer trends"
+    },
+    {
+      "affected_by": "Climate change"
+    },
+    {
+      "provides": "Employment"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "regulated_by": "Government"
+    },
+    {
+      "uses": "Food science"
+    }
+  ]
+}

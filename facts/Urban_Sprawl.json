@@ -1,0 +1,47 @@
+{
+  "entity": "Urban Sprawl",
+  "properties": {
+    "definition": "Low-density development",
+    "characteristic": "Increased car dependency",
+    "impact": "Environmental degradation",
+    "cause": "Suburbanization",
+    "result": "Loss of farmland",
+    "economic_impact": "Increased infrastructure costs",
+    "social_impact": "Segregation",
+    "spatial_extent": "Metropolitan areas",
+    "planning_challenge": "Sustainable development",
+    "measurement": "Impervious surface coverage"
+  },
+  "relationship": [
+    {
+      "causes": "Suburbanization"
+    },
+    {
+      "results_in": "Traffic congestion"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "related_to": "Urban planning"
+    },
+    {
+      "contributes_to": "Air pollution"
+    },
+    {
+      "associated_with": "Automobile"
+    },
+    {
+      "impacts": "Public health"
+    },
+    {
+      "linked_to": "Land use"
+    },
+    {
+      "opposed_by": "Smart growth"
+    },
+    {
+      "example_location": "Atlanta"
+    }
+  ]
+}

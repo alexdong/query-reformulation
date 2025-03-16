@@ -1,0 +1,47 @@
+{
+  "entity": "Prince Harry, Duke of Sussex",
+  "properties": {
+    "birth_name": "Henry Charles Albert David",
+    "birth_date": "1984-09-15",
+    "birth_place": "London, England",
+    "title": "Duke of Sussex",
+    "nationality": "British",
+    "occupation": "Military Veteran, Philanthropist",
+    "spouse": "Meghan Markle",
+    "children": "2",
+    "education": "Eton College, Royal Military Academy Sandhurst",
+    "military_rank": "Captain"
+  },
+  "relationship": [
+    {
+      "parent": "Charles III"
+    },
+    {
+      "parent": "Diana, Princess of Wales"
+    },
+    {
+      "sibling": "Prince William"
+    },
+    {
+      "member_of": "British Royal Family"
+    },
+    {
+      "member_of": "House of Windsor"
+    },
+    {
+      "attended": "Eton College"
+    },
+    {
+      "served_in": "British Army"
+    },
+    {
+      "married_to": "Meghan Markle"
+    },
+    {
+      "child_of": "Charles, Prince of Wales"
+    },
+    {
+      "grandparent": "Queen Elizabeth II"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Melanesian Mythology",
+  "properties": {
+    "region": "Melanesia",
+    "type": "Mythology",
+    "themes": "Ancestry, Spirits, Creation, Ritual",
+    "deities": "Varied, often ancestral spirits",
+    "oral_tradition": "Primary transmission method",
+    "influence": "Animism, ancestor veneration",
+    "time_period": "Pre-colonial",
+    "cultural_groups": "Diverse, including Fijians, Solomon Islanders, Papua New Guineans",
+    "creation_myths": "Numerous, often involving land emergence",
+    "moral_code": "Reflected in rituals and social structures"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceanic Mythology"
+    },
+    {
+      "influenced": "Melanesian Art"
+    },
+    {
+      "related_to": "Animism"
+    },
+    {
+      "related_to": "Ancestor Veneration"
+    },
+    {
+      "originates_in": "Melanesia"
+    },
+    {
+      "features": "Tumbuna"
+    },
+    {
+      "features": "Spirit Beings"
+    },
+    {
+      "features": "Creation Myths"
+    },
+    {
+      "influences": "Melanesian Religions"
+    },
+    {
+      "overlaps_with": "Austronesian Mythology"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Anthropology",
+  "properties": {
+    "instance_of": "Academic discipline",
+    "field": "Social science",
+    "subfield": "Cultural, Biological, Linguistic, Archaeological",
+    "origin": "19th century",
+    "focus": "Humanity, culture, societies",
+    "methodology": "Ethnography, excavation, analysis",
+    "study_scope": "Past and present",
+    "related_fields": "Sociology, History, Biology",
+    "key_concept": "Culture, kinship, evolution",
+    "professional_body": "American Anthropological Association"
+  },
+  "relationship": [
+    {
+      "studies": "Human evolution"
+    },
+    {
+      "studies": "Cultural diversity"
+    },
+    {
+      "studies": "Archaeological sites"
+    },
+    {
+      "studies": "Linguistic patterns"
+    },
+    {
+      "influenced_by": "Evolutionary theory"
+    },
+    {
+      "related_to": "Sociology"
+    },
+    {
+      "related_to": "History"
+    },
+    {
+      "employs": "Ethnography"
+    },
+    {
+      "analyzes": "Artifacts"
+    },
+    {
+      "studies": "Kinship"
+    }
+  ]
+}

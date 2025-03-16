@@ -1,0 +1,47 @@
+{
+  "entity": "Skywalk (Grand Canyon)",
+  "properties": {
+    "type": "Pedestrian bridge",
+    "location": "Grand Canyon National Park",
+    "length": "494 m",
+    "height": "21 m",
+    "material": "Steel, Glass",
+    "opening_date": "2007-03-30",
+    "architect": "Erik Nelson",
+    "owner": "Hualapai Tribe",
+    "cost": "$30 million",
+    "design_style": "Suspension bridge"
+  },
+  "relationship": [
+    {
+      "located_in": "Arizona"
+    },
+    {
+      "part_of": "Grand Canyon National Park"
+    },
+    {
+      "attraction_type": "Tourist attraction"
+    },
+    {
+      "designed_by": "Erik Nelson"
+    },
+    {
+      "owned_by": "Hualapai Tribe"
+    },
+    {
+      "provides_view_of": "Grand Canyon"
+    },
+    {
+      "influenced_by": "Bridge design"
+    },
+    {
+      "related_to": "Grand Canyon Skywalk"
+    },
+    {
+      "nearby_landmark": "Colorado River"
+    },
+    {
+      "tourism_impact": "Economic benefit"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Labour Party (UK)",
+  "properties": {
+    "instance_of": "Political party",
+    "country": "United Kingdom",
+    "ideology": "Social democracy",
+    "founded_date": "1900",
+    "leader": "Keir Starmer",
+    "hq_location": "Walworth, London",
+    "colour": "Red",
+    "membership": "~500,000",
+    "electoral_status": "Opposition",
+    "manifesto_focus": "Social justice, economic equality"
+  },
+  "relationship": [
+    {
+      "predecessor_party": "Fabian Society"
+    },
+    {
+      "founded_by": "Ramsey MacDonald"
+    },
+    {
+      "member_of": "Parliament"
+    },
+    {
+      "influenced_by": "Marxism"
+    },
+    {
+      "policy_stance": "National Health Service"
+    },
+    {
+      "policy_stance": "Trade unions"
+    },
+    {
+      "opposed_by": "Conservative Party"
+    },
+    {
+      "historical_figure": "Clement Attlee"
+    },
+    {
+      "historical_figure": "Tony Blair"
+    },
+    {
+      "affiliated_with": "Cooperative Party"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Brexit",
+  "properties": {
+    "instance_of": "Political event",
+    "alternative_name": "EU Exit",
+    "date_of_referendum": "2016-06-23",
+    "result_vote_share_leave": "51.9%",
+    "date_of_withdrawal": "2020-01-31",
+    "involved_countries": "United Kingdom, European Union",
+    "legal_framework": "Treaty on European Union",
+    "main_issue": "Sovereignty, Trade, Immigration",
+    "economic_impact": "Mixed",
+    "political_ideology": "Populism, Nationalism"
+  },
+  "relationship": [
+    {
+      "caused_by": "European debt crisis"
+    },
+    {
+      "preceded_by": "UK membership of the EU"
+    },
+    {
+      "influenced": "2019 UK general election"
+    },
+    {
+      "related_to": "David Cameron"
+    },
+    {
+      "related_to": "Theresa May"
+    },
+    {
+      "related_to": "Boris Johnson"
+    },
+    {
+      "impacts": "UK economy"
+    },
+    {
+      "impacts": "EU economy"
+    },
+    {
+      "negotiated_with": "European Commission"
+    },
+    {
+      "legal_basis": "Lisbon Treaty"
+    }
+  ]
+}

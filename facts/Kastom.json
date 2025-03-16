@@ -1,0 +1,47 @@
+{
+  "entity": "Kastom",
+  "properties": {
+    "definition": "Customary practices",
+    "origin": "Melanesia",
+    "focus": "Cultural identity",
+    "scope": "Social, economic, spiritual",
+    "key_concept": "Ownership & Responsibility",
+    "related_to": "Cultural heritage",
+    "promoted_by": "Indigenous communities",
+    "challenges": "Globalization, Westernization",
+    "language": "Vernacular languages",
+    "importance": "Social cohesion"
+  },
+  "relationship": [
+    {
+      "part_of": "Melanesian culture"
+    },
+    {
+      "related_to": "Cultural relativism"
+    },
+    {
+      "influences": "Tourism"
+    },
+    {
+      "intersects_with": "Intellectual property"
+    },
+    {
+      "associated_with": "Big Man system"
+    },
+    {
+      "overlaps_with": "Traditional ecological knowledge"
+    },
+    {
+      "impacts": "Economic development"
+    },
+    {
+      "challenges": "Cultural appropriation"
+    },
+    {
+      "promotes": "Community governance"
+    },
+    {
+      "linked_to": "Pacific Islander identity"
+    }
+  ]
+}

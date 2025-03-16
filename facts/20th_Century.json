@@ -1,0 +1,47 @@
+{
+  "entity": "20th Century",
+  "properties": {
+    "start_date": "1901",
+    "end_date": "2000",
+    "era": "Modern Era",
+    "geological_epoch": "Quaternary Period",
+    "major_event": "Two World Wars",
+    "population_growth": "Rapid",
+    "technology_advancement": "Significant",
+    "political_landscape": "Dynamic",
+    "globalization": "Increased",
+    "average_life_expectancy": "Increased"
+  },
+  "relationship": [
+    {
+      "preceded_by": "19th Century"
+    },
+    {
+      "followed_by": "21st Century"
+    },
+    {
+      "includes": "World War I"
+    },
+    {
+      "includes": "World War II"
+    },
+    {
+      "includes": "Cold War"
+    },
+    {
+      "includes": "Space Race"
+    },
+    {
+      "includes": "Digital Revolution"
+    },
+    {
+      "influenced": "Globalization"
+    },
+    {
+      "affected": "United Nations"
+    },
+    {
+      "witnessed": "Decolonization"
+    }
+  ]
+}

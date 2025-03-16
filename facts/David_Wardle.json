@@ -1,0 +1,47 @@
+{
+  "entity": "David Wardle",
+  "properties": {
+    "occupation": "Clockmaker",
+    "birth_date": "1813",
+    "death_date": "1880",
+    "birth_place": "Rossendale, Lancashire",
+    "nationality": "British",
+    "known_for": "Lancashire Clocks",
+    "style": "Lancashire Style",
+    "apprenticeship": "John Smith",
+    "business_location": "Haslingden, Lancashire",
+    "period": "Victorian era"
+  },
+  "relationship": [
+    {
+      "employer": "John Smith"
+    },
+    {
+      "located_in": "Lancashire"
+    },
+    {
+      "influenced": "Clockmaking"
+    },
+    {
+      "product": "Lancashire Clocks"
+    },
+    {
+      "style_of": "Lancashire Style"
+    },
+    {
+      "period_of": "Victorian era"
+    },
+    {
+      "region": "Rossendale"
+    },
+    {
+      "industry": "Clockmaking Industry"
+    },
+    {
+      "predecessor": "Early Lancashire Clockmakers"
+    },
+    {
+      "successor": "Later Clockmakers"
+    }
+  ]
+}

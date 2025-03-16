@@ -1,0 +1,47 @@
+{
+  "entity": "Westward Expansion",
+  "properties": {
+    "time_period": "1803-1890",
+    "region": "North America",
+    "driving_force": "Manifest Destiny",
+    "primary_motivation": "Land acquisition",
+    "economic_activity": "Agriculture, Mining, Ranching",
+    "transportation": "Railroads, Wagons, Steamboats",
+    "impact_on_native_americans": "Displacement, Conflict",
+    "political_impact": "Territorial growth, Statehood",
+    "social_impact": "Population shift, Cultural exchange",
+    "legal_framework": "Homestead Act"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Louisiana Purchase"
+    },
+    {
+      "followed_by": "Industrial Revolution"
+    },
+    {
+      "influenced": "American identity"
+    },
+    {
+      "involved": "Pioneers"
+    },
+    {
+      "involved": "Native Americans"
+    },
+    {
+      "involved": "U.S. Government"
+    },
+    {
+      "led_to": "Oklahoma Land Rush"
+    },
+    {
+      "impacted": "Oregon Trail"
+    },
+    {
+      "impacted": "California Gold Rush"
+    },
+    {
+      "related_to": "Transcontinental Railroad"
+    }
+  ]
+}

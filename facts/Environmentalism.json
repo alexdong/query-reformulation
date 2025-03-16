@@ -1,0 +1,47 @@
+{
+  "entity": "Environmentalism",
+  "properties": {
+    "instance_of": "Social movement",
+    "focus": "Natural environment",
+    "goal": "Environmental protection",
+    "origin": "19th century",
+    "key_concept": "Sustainability",
+    "related_field": "Conservation",
+    "major_issue": "Climate change",
+    "prominent_figure": "John Muir",
+    "associated_discipline": "Ecology",
+    "global_impact": "Significant"
+  },
+  "relationship": [
+    {
+      "influenced": "Green politics"
+    },
+    {
+      "advocates_for": "Renewable energy"
+    },
+    {
+      "opposes": "Deforestation"
+    },
+    {
+      "related_to": "Biodiversity"
+    },
+    {
+      "promotes": "Recycling"
+    },
+    {
+      "impacts": "Climate change mitigation"
+    },
+    {
+      "supports": "Protected areas"
+    },
+    {
+      "connected_to": "Environmental science"
+    },
+    {
+      "addresses": "Pollution"
+    },
+    {
+      "part_of": "Sustainability movement"
+    }
+  ]
+}

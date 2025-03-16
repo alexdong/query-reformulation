@@ -1,0 +1,47 @@
+{
+  "entity": "Gore District Council",
+  "properties": {
+    "type": "Local government",
+    "region": "Southland",
+    "country": "New Zealand",
+    "mayor": "Ben Tasker",
+    "population_2023": "13,370",
+    "area_km2": "1547",
+    "establishment_date": "1876",
+    "website": "https://www.goredc.govt.nz/",
+    "headquarters": "Gore, New Zealand",
+    "governing_document": "Local Government Act 2002"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Southland Region"
+    },
+    {
+      "governs": "Gore"
+    },
+    {
+      "employs": "Council staff"
+    },
+    {
+      "responsible_for": "Infrastructure"
+    },
+    {
+      "provides": "Council services"
+    },
+    {
+      "funded_by": "Rates"
+    },
+    {
+      "reports_to": "Department of Internal Affairs"
+    },
+    {
+      "represents": "Gore residents"
+    },
+    {
+      "collaborates_with": "Environment Southland"
+    }
+  ]
+}

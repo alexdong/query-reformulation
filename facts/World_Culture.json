@@ -1,0 +1,47 @@
+{
+  "entity": "World Culture",
+  "properties": {
+    "definition": "Human activities and their meanings",
+    "scope": "Global",
+    "includes": "Arts, Beliefs, Customs",
+    "influenced_by": "History, Environment",
+    "study_field": "Anthropology, Sociology",
+    "transmission_method": "Oral tradition, Written records",
+    "change_rate": "Variable",
+    "diversity": "High",
+    "impact_on": "Human behavior, Social structures",
+    "synonym": "Cultural heritage"
+  },
+  "relationship": [
+    {
+      "part_of": "Humanity"
+    },
+    {
+      "influenced_by": "Globalization"
+    },
+    {
+      "related_to": "Cultural diversity"
+    },
+    {
+      "studied_by": "UNESCO"
+    },
+    {
+      "impacts": "Social norms"
+    },
+    {
+      "manifests_in": "Traditions"
+    },
+    {
+      "includes": "World Heritage Sites"
+    },
+    {
+      "related_to": "Cultural exchange"
+    },
+    {
+      "impacts": "Identity formation"
+    },
+    {
+      "overlaps_with": "Ethnocentrism"
+    }
+  ]
+}

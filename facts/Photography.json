@@ -1,0 +1,47 @@
+{
+  "entity": "Photography",
+  "properties": {
+    "instance_of": "Art form",
+    "type": "Visual art",
+    "origin": "France",
+    "invention_date": "1826",
+    "pioneer": "Nicéphore Niépce",
+    "medium": "Light",
+    "purpose": "Capture images",
+    "related_field": "Science",
+    "technology": "Camera",
+    "genre": "Portraiture"
+  },
+  "relationship": [
+    {
+      "influenced": "Painting"
+    },
+    {
+      "related_to": "Film"
+    },
+    {
+      "uses": "Camera"
+    },
+    {
+      "developed_by": "Nicéphore Niépce"
+    },
+    {
+      "refined_by": "Louis Daguerre"
+    },
+    {
+      "related_to": "Documentary"
+    },
+    {
+      "genre_includes": "Landscape photography"
+    },
+    {
+      "genre_includes": "Photojournalism"
+    },
+    {
+      "related_to": "Digital art"
+    },
+    {
+      "uses_technique": "Exposure"
+    }
+  ]
+}

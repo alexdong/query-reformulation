@@ -1,0 +1,47 @@
+{
+  "entity": "Enlightenment",
+  "properties": {
+    "time_period": "17th-18th Century",
+    "origin": "Europe",
+    "core_belief": "Reason",
+    "intellectual_movement": "Yes",
+    "focus": "Individual Liberty",
+    "impact": "Political Reform",
+    "key_concept": "Empiricism",
+    "related_to": "Scientific Revolution",
+    "influenced_by": "Renaissance",
+    "opposed": "Traditional Authority"
+  },
+  "relationship": [
+    {
+      "influenced": "French Revolution"
+    },
+    {
+      "influenced": "American Revolution"
+    },
+    {
+      "preceded": "Romanticism"
+    },
+    {
+      "promoted_by": "John Locke"
+    },
+    {
+      "promoted_by": "Immanuel Kant"
+    },
+    {
+      "promoted_by": "Voltaire"
+    },
+    {
+      "promoted_by": "Jean-Jacques Rousseau"
+    },
+    {
+      "related_to": "Age of Reason"
+    },
+    {
+      "influenced": "Human Rights"
+    },
+    {
+      "challenged": "Divine Right of Kings"
+    }
+  ]
+}

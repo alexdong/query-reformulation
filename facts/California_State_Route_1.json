@@ -1,0 +1,47 @@
+{
+  "entity": "California State Route 1",
+  "properties": {
+    "alternate_name": "Pacific Coast Highway",
+    "length": "469 miles",
+    "state": "California",
+    "type": "Highway",
+    "surface": "Asphalt",
+    "designation_type": "State Route",
+    "signed_as": "Highway 1",
+    "scenic_route": "Yes",
+    "established": "1933",
+    "major_cities_served": "San Diego, Los Angeles, San Francisco"
+  },
+  "relationship": [
+    {
+      "part_of": "California State Route System"
+    },
+    {
+      "intersects": "U.S. Route 101"
+    },
+    {
+      "passes_through": "Big Sur"
+    },
+    {
+      "connects_to": "Interstate 5"
+    },
+    {
+      "located_in": "Pacific Coast"
+    },
+    {
+      "landmark": "Bixby Creek Bridge"
+    },
+    {
+      "landmark": "Hearst Castle"
+    },
+    {
+      "attraction": "Monterey Bay"
+    },
+    {
+      "influenced_tourism_in": "California"
+    },
+    {
+      "related_to": "Pacific Coast Highway Scenic Route"
+    }
+  ]
+}

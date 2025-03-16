@@ -1,0 +1,47 @@
+{
+  "entity": "Paleocene Epoch",
+  "properties": {
+    "start_date": "66 million years ago",
+    "end_date": "56 million years ago",
+    "period": "Paleogene Period",
+    "era": "Cenozoic Era",
+    "geological_era": "Tertiary",
+    "climate": "Warm, high greenhouse effect",
+    "dominant_life": "Early mammals",
+    "sea_level": "High",
+    "continent": "Laurasia",
+    "rock_type": "Sedimentary"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Cretaceous Period"
+    },
+    {
+      "followed_by": "Eocene Epoch"
+    },
+    {
+      "part_of": "Paleogene Period"
+    },
+    {
+      "part_of": "Cenozoic Era"
+    },
+    {
+      "located_in": "Earth"
+    },
+    {
+      "event": "Paleocene–Eocene Thermal Maximum"
+    },
+    {
+      "flora": "Angiosperms"
+    },
+    {
+      "fauna": "Uintatheres"
+    },
+    {
+      "fauna": "Coryphodonts"
+    },
+    {
+      "influenced": "Evolution of mammals"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Africa",
+  "properties": {
+    "continent": "Yes",
+    "area": "30.37 million km²",
+    "population": "1.4 billion",
+    "highest_point": "Mount Kilimanjaro",
+    "largest_lake": "Lake Victoria",
+    "longest_river": "Nile",
+    "climate": "Varied",
+    "land_area": "23.5 million km²",
+    "geography": "Diverse",
+    "GDP_nominal": "$2.7 trillion"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "located_in": "Eastern Hemisphere"
+    },
+    {
+      "contains": "Nigeria"
+    },
+    {
+      "contains": "Egypt"
+    },
+    {
+      "borders": "Asia"
+    },
+    {
+      "influenced_by": "Arabian Peninsula"
+    },
+    {
+      "has_region": "Sahara Desert"
+    },
+    {
+      "has_region": "Sahel"
+    },
+    {
+      "has_country": "South Africa"
+    },
+    {
+      "has_resource": "Oil"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Interest Rate",
+  "properties": {
+    "definition": "Cost of borrowing money",
+    "unit": "Percentage",
+    "type": "Financial Metric",
+    "influenced_by": "Inflation, Economic Growth",
+    "impacts": "Borrowing Costs, Investment",
+    "benchmark": "Federal Funds Rate (US)",
+    "expressed_as": "Annual Percentage Rate (APR)",
+    "affects": "Loan Payments, Savings",
+    "category": "Monetary Policy",
+    "measured_in": "Annual Percentage"
+  },
+  "relationship": [
+    {
+      "impacts": "Inflation"
+    },
+    {
+      "set_by": "Central Bank"
+    },
+    {
+      "affects": "Mortgage Rates"
+    },
+    {
+      "influences": "Bond Yields"
+    },
+    {
+      "related_to": "Discount Rate"
+    },
+    {
+      "impacts": "Exchange Rate"
+    },
+    {
+      "determines": "Cost of Capital"
+    },
+    {
+      "impacts": "Savings Accounts"
+    },
+    {
+      "related_to": "Prime Rate"
+    },
+    {
+      "impacts": "Consumer Credit"
+    }
+  ]
+}

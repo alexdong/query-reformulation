@@ -1,0 +1,47 @@
+{
+  "entity": "Canberra",
+  "properties": {
+    "capital_of": "Australia",
+    "population_2021": "453,558",
+    "established": "1913",
+    "area_km2": "2,900",
+    "time_zone": "Australian Eastern Standard Time",
+    "currency": "Australian Dollar",
+    "official_language": "English",
+    "mayor": "Lee Atkinson",
+    "location": "Australian Capital Territory",
+    "postal_code": "2600"
+  },
+  "relationship": [
+    {
+      "part_of": "Australian Capital Territory"
+    },
+    {
+      "located_in": "Australia"
+    },
+    {
+      "planned_by": "Walter Burley Griffin"
+    },
+    {
+      "contains": "Lake Burley Griffin"
+    },
+    {
+      "has_landmark": "Parliament House"
+    },
+    {
+      "has_landmark": "Australian War Memorial"
+    },
+    {
+      "has_transport": "Canberra Airport"
+    },
+    {
+      "neighbor_of": "New South Wales"
+    },
+    {
+      "neighbor_of": "Victoria"
+    },
+    {
+      "influenced_by": "Garden city movement"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Trade",
+  "properties": {
+    "instance_of": "Economic activity",
+    "definition": "Exchange of goods/services",
+    "type": "Voluntary exchange",
+    "motivation": "Mutual benefit",
+    "scale": "Local to global",
+    "measurement": "Value in currency",
+    "legal_framework": "International law",
+    "impact": "Economic growth",
+    "risk": "Market volatility",
+    "benefit": "Increased efficiency"
+  },
+  "relationship": [
+    {
+      "part_of": "Economics"
+    },
+    {
+      "related_to": "Globalization"
+    },
+    {
+      "involves": "Goods"
+    },
+    {
+      "involves": "Services"
+    },
+    {
+      "requires": "Currency"
+    },
+    {
+      "governed_by": "World Trade Organization"
+    },
+    {
+      "impacts": "GDP"
+    },
+    {
+      "facilitated_by": "Transportation"
+    },
+    {
+      "affected_by": "Tariffs"
+    },
+    {
+      "influences": "Employment"
+    }
+  ]
+}

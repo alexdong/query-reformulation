@@ -1,0 +1,47 @@
+{
+  "entity": "Culinary School",
+  "properties": {
+    "type": "Educational Institution",
+    "focus": "Culinary Arts",
+    "degree_offered": "Associate, Bachelor, Certificate",
+    "curriculum": "Cooking Techniques, Baking, Pastry, Menu Planning",
+    "location": "Worldwide",
+    "cost": "Varies",
+    "duration": "Months to Years",
+    "accreditation": "Varies",
+    "career_path": "Chef, Pastry Chef, Food Stylist",
+    "admission_requirements": "High School Diploma/Equivalent"
+  },
+  "relationship": [
+    {
+      "affiliated_with": "Hospitality Industry"
+    },
+    {
+      "offers_program": "Baking Program"
+    },
+    {
+      "offers_program": "Pastry Arts Program"
+    },
+    {
+      "employs": "Chef Instructor"
+    },
+    {
+      "requires": "Kitchen Equipment"
+    },
+    {
+      "prepares_for": "Restaurant Career"
+    },
+    {
+      "often_located_in": "City"
+    },
+    {
+      "alumni_works_at": "Restaurant"
+    },
+    {
+      "influenced_by": "French Cuisine"
+    },
+    {
+      "provides": "Culinary Training"
+    }
+  ]
+}

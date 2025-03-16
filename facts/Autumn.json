@@ -1,0 +1,47 @@
+{
+  "entity": "Autumn",
+  "properties": {
+    "season": "Yes",
+    "duration": "Approximately 93 days",
+    "equinox_date": "September 22 or 23 (Northern Hemisphere)",
+    "solstice_date": "December 21 or 22 (Northern Hemisphere)",
+    "temperature": "Cooling",
+    "foliage": "Changing colors",
+    "daylight": "Decreasing",
+    "harvest": "Yes",
+    "associated_holidays": "Thanksgiving, Halloween",
+    "symbolism": "Decline, transition, maturity"
+  },
+  "relationship": [
+    {
+      "precedes": "Winter"
+    },
+    {
+      "follows": "Summer"
+    },
+    {
+      "part_of": "Year"
+    },
+    {
+      "related_to": "Meteorology"
+    },
+    {
+      "associated_with": "Fall foliage"
+    },
+    {
+      "occurs_in": "Temperate zones"
+    },
+    {
+      "influences": "Agriculture"
+    },
+    {
+      "related_to": "Harvest festivals"
+    },
+    {
+      "associated_with": "Halloween"
+    },
+    {
+      "related_to": "Thanksgiving"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Hakatere River",
+  "properties": {
+    "location": "New Zealand",
+    "region": "Canterbury",
+    "length": "127 km",
+    "source": "Southern Alps",
+    "mouth": "Pacific Ocean",
+    "tributary_of": "Pacific Ocean",
+    "river_type": "Greywater river",
+    "discharge": "140 m³/s",
+    "named_after": "Hakatere (Māori)",
+    "basin_area": "4,370 km²"
+  },
+  "relationship": [
+    {
+      "flows_through": "Canterbury Region"
+    },
+    {
+      "part_of": "Aoraki/Mount Cook National Park"
+    },
+    {
+      "tributary_of": "Pacific Ocean"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "flows_past": "Lake Pukaki"
+    },
+    {
+      "flows_past": "Lake Tekapo"
+    },
+    {
+      "named_after": "Hakatere (Māori)"
+    },
+    {
+      "has_tributary": "Godley River"
+    },
+    {
+      "has_tributary": "Clifden Stream"
+    },
+    {
+      "adjacent_to": "Southern Alps"
+    }
+  ]
+}

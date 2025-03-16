@@ -1,0 +1,47 @@
+{
+  "entity": "Educational Program",
+  "properties": {
+    "type": "Instructional Offering",
+    "goal": "Knowledge & Skill Development",
+    "format": "Online/In-Person",
+    "target_audience": "Students/Professionals",
+    "duration": "Variable",
+    "assessment": "Tests/Projects",
+    "curriculum": "Structured Learning",
+    "accreditation": "Possible",
+    "cost": "Variable",
+    "delivery_method": "Lectures/Activities"
+  },
+  "relationship": [
+    {
+      "part_of": "Education System"
+    },
+    {
+      "leads_to": "Certification"
+    },
+    {
+      "requires": "Learning Materials"
+    },
+    {
+      "designed_by": "Curriculum Developer"
+    },
+    {
+      "evaluated_by": "Assessment Team"
+    },
+    {
+      "supports": "Learning Objectives"
+    },
+    {
+      "uses": "Teaching Methods"
+    },
+    {
+      "aligned_with": "Educational Standards"
+    },
+    {
+      "offered_by": "Educational Institution"
+    },
+    {
+      "related_to": "Pedagogy"
+    }
+  ]
+}

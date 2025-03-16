@@ -1,0 +1,47 @@
+{
+  "entity": "ENSO",
+  "properties": {
+    "type": "Climate pattern",
+    "alternate_names": "El Niño-Southern Oscillation",
+    "region": "Tropical Pacific Ocean",
+    "frequency": "Irregular, 2-7 years",
+    "duration": "Months to years",
+    "phases": "El Niño, La Niña, Neutral",
+    "impacts": "Global weather patterns",
+    "measurement": "Sea surface temperature, atmospheric pressure",
+    "predictability": "Limited, but improving",
+    "discovery_year": "19th century"
+  },
+  "relationship": [
+    {
+      "causes": "Global warming"
+    },
+    {
+      "influences": "Monsoon"
+    },
+    {
+      "affects": "Hurricane activity"
+    },
+    {
+      "related_to": "Southern Oscillation Index"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "impacts": "Fisheries"
+    },
+    {
+      "predicts": "Weather"
+    },
+    {
+      "part_of": "Climate variability"
+    },
+    {
+      "studied_by": "Meteorology"
+    },
+    {
+      "linked_to": "Pacific Decadal Oscillation"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Government Foreign Affairs",
+  "properties": {
+    "definition": "Policy & actions abroad",
+    "scope": "International relations",
+    "primary_goal": "National interest",
+    "agency_responsible": "State Department (US)",
+    "tools_used": "Diplomacy, Aid, Sanctions",
+    "legal_basis": "International Law, Treaties",
+    "reporting_to": "Head of State",
+    "focus_areas": "Trade, Security, Human Rights",
+    "decision_making": "Executive Branch",
+    "impacted_by": "Geopolitics"
+  },
+  "relationship": [
+    {
+      "influences": "International Law"
+    },
+    {
+      "negotiates_with": "Foreign Governments"
+    },
+    {
+      "implements": "Treaties"
+    },
+    {
+      "coordinates_with": "Intelligence Agencies"
+    },
+    {
+      "impacts": "Global Economy"
+    },
+    {
+      "affects": "National Security"
+    },
+    {
+      "represents": "Nation State"
+    },
+    {
+      "advises": "Head of State"
+    },
+    {
+      "collaborates_with": "International Organizations"
+    },
+    {
+      "subject_to": "Public Opinion"
+    }
+  ]
+}

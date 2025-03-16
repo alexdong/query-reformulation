@@ -1,0 +1,47 @@
+{
+  "entity": "Bloomberg L.P.",
+  "properties": {
+    "industry": "Financial data & media",
+    "founder": "Michael Bloomberg",
+    "founded_date": "1981",
+    "headquarters_location": "New York City",
+    "revenue": "9.3 billion USD (2022)",
+    "employee_count": "20,700",
+    "type": "Private company",
+    "services": "Financial data, news, analytics",
+    "website": "bloomberg.com",
+    "ownership": "Bloomberg Group"
+  },
+  "relationship": [
+    {
+      "owns": "Bloomberg News"
+    },
+    {
+      "operates": "Bloomberg Terminal"
+    },
+    {
+      "founded_by": "Michael Bloomberg"
+    },
+    {
+      "competitor_of": "Refinitiv"
+    },
+    {
+      "competitor_of": "FactSet"
+    },
+    {
+      "provides_data_to": "Financial institutions"
+    },
+    {
+      "influences": "Financial markets"
+    },
+    {
+      "subsidiary_of": "Bloomberg Group"
+    },
+    {
+      "located_in": "New York City"
+    },
+    {
+      "provides": "Bloomberg Philanthropy"
+    }
+  ]
+}

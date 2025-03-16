@@ -1,0 +1,47 @@
+{
+  "entity": "Yap",
+  "properties": {
+    "type": "Island nation",
+    "location": "Federated States of Micronesia",
+    "capital": "Palikir",
+    "area": "176.1 km²",
+    "population": "6,000",
+    "currency": "United States Dollar",
+    "language": "Yapese, English",
+    "traditional_currency": "Fei",
+    "geography": "Volcanic islands",
+    "governance": "Republic"
+  },
+  "relationship": [
+    {
+      "part_of": "Federated States of Micronesia"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "influenced_by": "Spanish Empire"
+    },
+    {
+      "influenced_by": "German Empire"
+    },
+    {
+      "influenced_by": "Japanese Empire"
+    },
+    {
+      "has_traditional_currency": "Fei"
+    },
+    {
+      "has_island": "Ifalik"
+    },
+    {
+      "has_island": "Maug"
+    },
+    {
+      "has_island": "Elato"
+    },
+    {
+      "neighbor_country": "Palau"
+    }
+  ]
+}

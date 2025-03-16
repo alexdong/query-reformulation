@@ -1,0 +1,47 @@
+{
+  "entity": "Pioneer Saloon",
+  "properties": {
+    "location": "Virginia City, Nevada",
+    "type": "Saloon",
+    "year_established": "1875",
+    "architect": "Fred DeLong",
+    "style": "Victorian",
+    "owner": "Current owners",
+    "status": "Operating",
+    "historical_designation": "Historic Place",
+    "features": "Bullet holes, Piano",
+    "cuisine": "American"
+  },
+  "relationship": [
+    {
+      "located_in": "Virginia City, Nevada"
+    },
+    {
+      "part_of": "Historic District"
+    },
+    {
+      "architect_of": "Fred DeLong"
+    },
+    {
+      "influenced_by": "Victorian architecture"
+    },
+    {
+      "has_event": "Live music"
+    },
+    {
+      "has_part": "Piano"
+    },
+    {
+      "served_food": "American cuisine"
+    },
+    {
+      "historical_period": "Wild West"
+    },
+    {
+      "associated_with": "Comstock Lode"
+    },
+    {
+      "attraction_for": "Tourists"
+    }
+  ]
+}

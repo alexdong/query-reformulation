@@ -1,0 +1,47 @@
+{
+  "entity": "Sales",
+  "properties": {
+    "instance_of": "Business process",
+    "definition": "Exchange of goods/services for money",
+    "primary_goal": "Revenue generation",
+    "key_metric": "Sales volume",
+    "department": "Sales Department",
+    "involves": "Customer interaction",
+    "requires": "Marketing",
+    "often_uses": "CRM software",
+    "affected_by": "Economic conditions",
+    "type": "Transaction"
+  },
+  "relationship": [
+    {
+      "part_of": "Business"
+    },
+    {
+      "drives": "Revenue"
+    },
+    {
+      "requires": "Marketing"
+    },
+    {
+      "uses": "CRM"
+    },
+    {
+      "involves": "Salesperson"
+    },
+    {
+      "targets": "Customer"
+    },
+    {
+      "generates": "Profit"
+    },
+    {
+      "affected_by": "Market trends"
+    },
+    {
+      "supports": "Supply chain"
+    },
+    {
+      "related_to": "Customer relationship"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "British Empire",
+  "properties": {
+    "instance_of": "Former empire",
+    "largest_territory": "13.01 million km²",
+    "peak_population": "458 million",
+    "founder": "Elizabeth I",
+    "end_date": "1947",
+    "capital": "London",
+    "governed_by": "British Monarchy",
+    "primary_language": "English",
+    "economic_system": "Mercantilism",
+    "major_resource": "Raw materials"
+  },
+  "relationship": [
+    {
+      "influenced": "Globalization"
+    },
+    {
+      "colonized": "India"
+    },
+    {
+      "colonized": "Australia"
+    },
+    {
+      "colonized": "Canada"
+    },
+    {
+      "colonized": "Nigeria"
+    },
+    {
+      "influenced": "Commonwealth of Nations"
+    },
+    {
+      "involved_in": "Scramble for Africa"
+    },
+    {
+      "predecessor_of": "United Kingdom"
+    },
+    {
+      "trade_partner": "China"
+    },
+    {
+      "involved_in": "Opium Wars"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "That's Dumb Island",
+  "properties": {
+    "type": "YouTube series",
+    "creator": "Charlie Berens",
+    "genre": "Comedy",
+    "platform": "YouTube",
+    "focus": "Midwestern absurdities",
+    "style": "Mockumentary",
+    "language": "English",
+    "debut_date": "2020",
+    "format": "Short video",
+    "tone": "Satirical"
+  },
+  "relationship": [
+    {
+      "creator_of": "Charlie Berens"
+    },
+    {
+      "genre_related_to": "Comedy"
+    },
+    {
+      "platform_hosted_on": "YouTube"
+    },
+    {
+      "style_influenced_by": "Mockumentary"
+    },
+    {
+      "location_focus": "Midwest"
+    },
+    {
+      "subject_of": "Midwestern culture"
+    },
+    {
+      "related_to": "Wisconsin"
+    },
+    {
+      "related_to": "Michigan"
+    },
+    {
+      "related_to": "Minnesota"
+    },
+    {
+      "influenced_by": "Local humor"
+    }
+  ]
+}

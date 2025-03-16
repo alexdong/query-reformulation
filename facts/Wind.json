@@ -1,0 +1,47 @@
+{
+  "entity": "Wind",
+  "properties": {
+    "type": "Atmospheric phenomenon",
+    "cause": "Pressure gradient",
+    "measurement_unit": "m/s",
+    "scale": "Beaufort scale",
+    "global_patterns": "Trade winds, Westerlies, Polar easterlies",
+    "local_effects": "Sea breeze, Land breeze, Mountain breeze",
+    "formation": "Air movement",
+    "direction": "Variable",
+    "speed": "Variable",
+    "impact": "Weather, Erosion"
+  },
+  "relationship": [
+    {
+      "caused_by": "Atmospheric pressure"
+    },
+    {
+      "influenced_by": "Coriolis effect"
+    },
+    {
+      "part_of": "Weather"
+    },
+    {
+      "affects": "Erosion"
+    },
+    {
+      "related_to": "Jet stream"
+    },
+    {
+      "creates": "Wind turbine energy"
+    },
+    {
+      "impacts": "Sailing"
+    },
+    {
+      "part_of": "Climate"
+    },
+    {
+      "related_to": "Monsoon"
+    },
+    {
+      "influences": "Ocean currents"
+    }
+  ]
+}

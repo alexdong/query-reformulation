@@ -1,0 +1,47 @@
+{
+  "entity": "Queenstown Marathon",
+  "properties": {
+    "type": "Road marathon",
+    "location": "Queenstown, New Zealand",
+    "first_held": "2007",
+    "distance": "42.2 km",
+    "surface": "Road",
+    "elevation_gain": "500 m",
+    "difficulty": "Challenging",
+    "organizer": "Queenstown Marathon Trust",
+    "website": "https://www.queenstownmarathon.co.nz/",
+    "date": "November"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Queenstown"
+    },
+    {
+      "event_type": "Road running"
+    },
+    {
+      "sponsored_by": "ASB"
+    },
+    {
+      "features": "Half marathon"
+    },
+    {
+      "features": "10km run"
+    },
+    {
+      "features": "5km run"
+    },
+    {
+      "attraction": "Lake Wakatipu"
+    },
+    {
+      "course_passes_through": "The Remarkables"
+    },
+    {
+      "influenced_by": "New Zealand tourism"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "San Francisco Maritime National Historical Park",
+  "properties": {
+    "type": "National Historical Park",
+    "location": "San Francisco, California",
+    "established": "1988",
+    "managing_agency": "National Park Service",
+    "area": "1.5 acres (0.61 ha)",
+    "purpose": "Preserve maritime history",
+    "includes": "Historic ships",
+    "visitor_count_2022": "788,898",
+    "themes": "Maritime, Immigration, Trade",
+    "website": "www.nps.gov/sfrn"
+  },
+  "relationship": [
+    {
+      "part_of": "National Park System"
+    },
+    {
+      "located_in": "San Francisco"
+    },
+    {
+      "managed_by": "National Park Service"
+    },
+    {
+      "contains": "Balclutha"
+    },
+    {
+      "contains": "Eureka"
+    },
+    {
+      "contains": "Caledonia"
+    },
+    {
+      "contains": "Washington"
+    },
+    {
+      "contains": "Aquatic Park"
+    },
+    {
+      "related_to": "Maritime history"
+    },
+    {
+      "influenced_by": "Golden Gate National Recreation Area"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "River Tweed",
+  "properties": {
+    "type": "River",
+    "length": "227 km",
+    "source": "Lake District",
+    "mouth": "North Sea",
+    "country": "United Kingdom",
+    "tributaries": "Whiteadder Water, Leader Water",
+    "basin_area": "3,080 km²",
+    "discharge": "120 m³/s",
+    "region": "Scottish Borders",
+    "name_origin": "Unknown"
+  },
+  "relationship": [
+    {
+      "flows_through": "Scottish Borders"
+    },
+    {
+      "flows_into": "North Sea"
+    },
+    {
+      "tributary_of": "Lake District"
+    },
+    {
+      "crosses": "England-Scotland border"
+    },
+    {
+      "passes_through": "Berwick-upon-Tweed"
+    },
+    {
+      "supports": "Atlantic salmon"
+    },
+    {
+      "supports": "Brown trout"
+    },
+    {
+      "used_for": "Salmon fishing"
+    },
+    {
+      "part_of": "Tweed Valley"
+    },
+    {
+      "adjacent_to": "Cheviot Hills"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Clan system",
+  "properties": {
+    "type": "Social structure",
+    "origin": "Scotland",
+    "historical_role": "Kinship, land ownership",
+    "legal_status": "Historically significant",
+    "chief": "Leader of the clan",
+    "territory": "Clan lands",
+    "symbol": "Clan crest, tartan",
+    "membership": "Based on descent",
+    "decline": "18th and 19th centuries",
+    "modern_status": "Cultural identity"
+  },
+  "relationship": [
+    {
+      "part_of": "Scottish culture"
+    },
+    {
+      "related_to": "Feudalism"
+    },
+    {
+      "leader_is": "Clan chief"
+    },
+    {
+      "member_of": "Family"
+    },
+    {
+      "territory_is_in": "Scotland"
+    },
+    {
+      "symbol_is": "Tartan"
+    },
+    {
+      "influenced": "Scottish law"
+    },
+    {
+      "related_to": "Jacobite risings"
+    },
+    {
+      "has_member": "Scottish people"
+    },
+    {
+      "predecessor_of": "Modern family structures"
+    }
+  ]
+}

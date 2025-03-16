@@ -1,0 +1,47 @@
+{
+  "entity": "Minnam-Kakamigahara",
+  "properties": {
+    "type": "City",
+    "location": "Gifu Prefecture",
+    "country": "Japan",
+    "area_km2": "157.5",
+    "population": "31,839",
+    "founded": "1889",
+    "timezone": "JST",
+    "postal_code": "507-0001",
+    "latitude": "35.55",
+    "longitude": "137.07"
+  },
+  "relationship": [
+    {
+      "part_of": "Gifu Prefecture"
+    },
+    {
+      "located_in": "Japan"
+    },
+    {
+      "neighbor": "Kakamigahara"
+    },
+    {
+      "neighbor": "Ono"
+    },
+    {
+      "near": "Mount Ontake"
+    },
+    {
+      "has_industry": "Agriculture"
+    },
+    {
+      "has_industry": "Manufacturing"
+    },
+    {
+      "serves": "Local residents"
+    },
+    {
+      "contains": "Minnam-Kakamigahara Station"
+    },
+    {
+      "member_of": "Hokuriku Region"
+    }
+  ]
+}

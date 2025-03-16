@@ -1,0 +1,47 @@
+{
+  "entity": "San Francisco Bay",
+  "properties": {
+    "type": "Bay",
+    "location": "California, USA",
+    "area": "1,600 sq mi",
+    "max_depth": "331 ft",
+    "salinity": "brackish",
+    "formation": "tectonic activity, glacial melting",
+    "drainage_basin": "Central California",
+    "average_width": "8 mi",
+    "length": "70 mi",
+    "is_part_of": "Pacific Ocean"
+  },
+  "relationship": [
+    {
+      "tributary_to": "Sacramento River"
+    },
+    {
+      "tributary_to": "Tuolumne River"
+    },
+    {
+      "tributary_to": "San Joaquin River"
+    },
+    {
+      "contains": "San Francisco"
+    },
+    {
+      "contains": "Oakland"
+    },
+    {
+      "contains": "Berkeley"
+    },
+    {
+      "adjacent_to": "Santa Cruz Mountains"
+    },
+    {
+      "adjacent_to": "East Bay"
+    },
+    {
+      "part_of": "California Coastline"
+    },
+    {
+      "ecosystem": "San Francisco Bay ecosystem"
+    }
+  ]
+}

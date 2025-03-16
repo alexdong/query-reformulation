@@ -1,0 +1,47 @@
+{
+  "entity": "Hip Hop Culture",
+  "properties": {
+    "origin": "Bronx, New York City",
+    "start_year": "1970s",
+    "core_elements": "DJing, MCing, Graffiti, Breakdancing",
+    "genre": "Music Genre & Cultural Movement",
+    "language": "Primarily English, with influences from African American Vernacular English",
+    "social_context": "Urban poverty, social injustice",
+    "key_themes": "Community, Identity, Resistance",
+    "influence": "Global",
+    "subgenres": "Rap, Trap, Conscious Hip Hop",
+    "fashion": "Streetwear, Athletic wear"
+  },
+  "relationship": [
+    {
+      "influenced": "Rap Music"
+    },
+    {
+      "influenced": "Breakdancing"
+    },
+    {
+      "influenced": "Graffiti Art"
+    },
+    {
+      "related_to": "DJing"
+    },
+    {
+      "related_to": "MCing"
+    },
+    {
+      "preceded_by": "Funk Music"
+    },
+    {
+      "influenced": "Streetwear Fashion"
+    },
+    {
+      "associated_with": "The Bronx"
+    },
+    {
+      "artist": "Grandmaster Flash"
+    },
+    {
+      "artist": "Afrika Bambaataa"
+    }
+  ]
+}

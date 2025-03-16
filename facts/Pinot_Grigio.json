@@ -1,0 +1,47 @@
+{
+  "entity": "Pinot Grigio",
+  "properties": {
+    "type": "Grape variety",
+    "origin": "Bourgogne, France",
+    "color": "White",
+    "aroma": "Pear, Citrus, Apple",
+    "body": "Light to Medium",
+    "acidity": "High",
+    "typical_alcohol": "11-14%",
+    "synonyms": "Pinot Gris",
+    "viticulture": "Frost-sensitive",
+    "flavor_profile": "Dry, Crisp"
+  },
+  "relationship": [
+    {
+      "grape_family": "Vitaceae"
+    },
+    {
+      "region_produced": "Veneto, Italy"
+    },
+    {
+      "wine_style": "White wine"
+    },
+    {
+      "food_pairing": "Seafood"
+    },
+    {
+      "clone_of": "Pinot"
+    },
+    {
+      "related_to": "Pinot Noir"
+    },
+    {
+      "produced_in": "Oregon, USA"
+    },
+    {
+      "produced_in": "Alsace, France"
+    },
+    {
+      "used_for": "Sparkling wine"
+    },
+    {
+      "influenced_by": "Climate"
+    }
+  ]
+}

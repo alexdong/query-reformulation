@@ -1,0 +1,47 @@
+{
+  "entity": "Lakota People",
+  "properties": {
+    "language": "Lakota",
+    "region": "North America",
+    "country": "United States",
+    "tribe_part_of": "Sioux",
+    "population": "Approx. 150,000",
+    "religion": "Traditional Lakota spirituality",
+    "culture": "Indigenous",
+    "historical_territory": "Great Plains",
+    "treaties_signed": "Numerous",
+    "reservation": "Pine Ridge Reservation"
+  },
+  "relationship": [
+    {
+      "part_of": "Sioux"
+    },
+    {
+      "related_to": "Dakota People"
+    },
+    {
+      "related_to": "Nakota People"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "treaty_with": "United States Government"
+    },
+    {
+      "influenced_by": "French"
+    },
+    {
+      "influenced_by": "English"
+    },
+    {
+      "has_language": "Lakota language"
+    },
+    {
+      "has_religion": "Traditional Lakota spirituality"
+    },
+    {
+      "leader_of": "Sitting Bull"
+    }
+  ]
+}

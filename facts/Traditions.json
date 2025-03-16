@@ -1,0 +1,47 @@
+{
+  "entity": "Traditions",
+  "properties": {
+    "instance_of": "Cultural practice",
+    "type": "Customs & Beliefs",
+    "origin": "Human societies",
+    "transmission": "Oral & Observational",
+    "function": "Social Cohesion",
+    "duration": "Generational",
+    "variability": "Regional & Group",
+    "symbolism": "Values & Meanings",
+    "adaptation": "Evolving",
+    "importance": "Identity & Belonging"
+  },
+  "relationship": [
+    {
+      "part_of": "Culture"
+    },
+    {
+      "related_to": "Rituals"
+    },
+    {
+      "related_to": "Folklore"
+    },
+    {
+      "influences": "Social Norms"
+    },
+    {
+      "transmitted_through": "Storytelling"
+    },
+    {
+      "associated_with": "Holidays"
+    },
+    {
+      "example_of": "Wedding Traditions"
+    },
+    {
+      "example_of": "Funeral Rites"
+    },
+    {
+      "related_to": "Heritage"
+    },
+    {
+      "impacts": "Community Identity"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "New York City",
+  "properties": {
+    "capital_of": "None",
+    "population_density": "29,327/sq mi",
+    "area": "302.6 sq mi",
+    "country": "United States",
+    "founded": "1624",
+    "nickname": "The Big Apple",
+    "boroughs": "5",
+    "major_industry": "Finance",
+    "time_zone": "Eastern Time",
+    "official_language": "None"
+  },
+  "relationship": [
+    {
+      "part_of": "New York State"
+    },
+    {
+      "located_in": "Tri-State Area"
+    },
+    {
+      "contains": "Manhattan"
+    },
+    {
+      "contains": "Brooklyn"
+    },
+    {
+      "contains": "Queens"
+    },
+    {
+      "contains": "The Bronx"
+    },
+    {
+      "contains": "Staten Island"
+    },
+    {
+      "influenced": "American Culture"
+    },
+    {
+      "has_landmark": "Statue of Liberty"
+    },
+    {
+      "has_landmark": "Empire State Building"
+    }
+  ]
+}

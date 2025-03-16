@@ -1,0 +1,47 @@
+{
+  "entity": "Classical Architecture",
+  "properties": {
+    "origin": "Ancient Greece & Rome",
+    "time_period": "5th century BC - 1st century AD",
+    "style_elements": "Columns, Pediments, Symmetry",
+    "materials": "Marble, Stone, Concrete",
+    "order_types": "Doric, Ionic, Corinthian",
+    "purpose": "Temples, Public Buildings, Residences",
+    "aesthetic": "Harmony, Proportion, Balance",
+    "influence": "Renaissance, Neoclassical",
+    "key_feature": "Emphasis on human scale",
+    "geometric_shapes": "Circles, Squares, Rectangles"
+  },
+  "relationship": [
+    {
+      "influenced": "Renaissance architecture"
+    },
+    {
+      "influenced": "Neoclassical architecture"
+    },
+    {
+      "preceded_by": "Ancient Egyptian architecture"
+    },
+    {
+      "succeeded_by": "Romanesque architecture"
+    },
+    {
+      "example_building": "Parthenon"
+    },
+    {
+      "example_building": "Colosseum"
+    },
+    {
+      "architect": "Ictinus"
+    },
+    {
+      "architect": "Phidias"
+    },
+    {
+      "order_type_includes": "Doric order"
+    },
+    {
+      "order_type_includes": "Corinthian order"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Edward Kennedy",
+  "properties": {
+    "birth_date": "1932-02-23",
+    "birth_place": "Boston, Massachusetts",
+    "death_date": "2009-08-26",
+    "death_place": "Hyannis, Massachusetts",
+    "occupation": "Politician",
+    "political_party": "Democratic Party",
+    "education": "Harvard University",
+    "spouse": "Joan Kennedy",
+    "children": "4",
+    "cause_of_death": "Brain tumor"
+  },
+  "relationship": [
+    {
+      "member_of": "United States Senate"
+    },
+    {
+      "preceded_by": "Joseph P. Kennedy Jr."
+    },
+    {
+      "succeeded_by": "John F. Kennedy"
+    },
+    {
+      "father": "Joseph P. Kennedy Sr."
+    },
+    {
+      "mother": "Rose Fitzgerald Kennedy"
+    },
+    {
+      "brother": "John F. Kennedy"
+    },
+    {
+      "sister": "Jean Kennedy Smith"
+    },
+    {
+      "represented": "Massachusetts"
+    },
+    {
+      "influenced": "Healthcare reform"
+    },
+    {
+      "award": "Presidential Medal of Freedom"
+    }
+  ]
+}

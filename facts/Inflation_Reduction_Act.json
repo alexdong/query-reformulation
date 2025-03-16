@@ -1,0 +1,47 @@
+{
+  "entity": "Inflation Reduction Act",
+  "properties": {
+    "type": "Legislation",
+    "country": "United States",
+    "signed_into_law": "2022",
+    "primary_focus": "Climate, Healthcare, Tax",
+    "cost": "$369 billion",
+    "bill_number": "H.R. 5376",
+    "chamber": "United States Senate",
+    "status": "Law",
+    "sponsor": "Joe Biden",
+    "purpose": "Reduce inflation, lower healthcare costs, invest in clean energy"
+  },
+  "relationship": [
+    {
+      "part_of": "United States federal law"
+    },
+    {
+      "sponsored_by": "Joe Biden"
+    },
+    {
+      "impacts": "Inflation"
+    },
+    {
+      "impacts": "Healthcare costs"
+    },
+    {
+      "impacts": "Climate change"
+    },
+    {
+      "funding_area": "Clean energy"
+    },
+    {
+      "tax_policy": "Corporate tax rate"
+    },
+    {
+      "impacts": "Prescription drug prices"
+    },
+    {
+      "related_to": "Build Back Better Plan"
+    },
+    {
+      "legislative_history": "United States Senate Committee on Finance"
+    }
+  ]
+}

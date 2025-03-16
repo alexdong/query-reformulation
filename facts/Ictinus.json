@@ -1,0 +1,47 @@
+{
+  "entity": "Ictinus",
+  "properties": {
+    "instance_of": "Architect",
+    "birth_date": "5th century BC (approx.)",
+    "death_date": "4th century BC (approx.)",
+    "nationality": "Ancient Greek",
+    "field": "Architecture",
+    "known_for": "Parthenon design",
+    "worked_with": "Callicrates",
+    "period": "Classical Greece",
+    "location": "Athens",
+    "style": "Classical Greek architecture"
+  },
+  "relationship": [
+    {
+      "designed_with": "Callicrates"
+    },
+    {
+      "designed": "Parthenon"
+    },
+    {
+      "influenced": "Greek architecture"
+    },
+    {
+      "worked_in": "Athens"
+    },
+    {
+      "period_of": "Classical Greece"
+    },
+    {
+      "contemporary_of": "Phidias"
+    },
+    {
+      "contemporary_of": "Polyclitus"
+    },
+    {
+      "influenced_by": "Earlier Greek temples"
+    },
+    {
+      "contributed_to": "Acropolis of Athens"
+    },
+    {
+      "worked_during": "Pericles's rule"
+    }
+  ]
+}

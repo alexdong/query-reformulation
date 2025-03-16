@@ -1,0 +1,47 @@
+{
+  "entity": "Barque",
+  "properties": {
+    "instance_of": "Ship type",
+    "rig_type": "Square-rigged",
+    "mast_count": "Multiple",
+    "sail_arrangement": "Fore-and-aft sails",
+    "hull_type": "Wooden",
+    "historical_period": "Age of Sail",
+    "origin": "Europe",
+    "characteristic": "Tall masts",
+    "use": "Trade, Exploration",
+    "obsolescence": "Steamships"
+  },
+  "relationship": [
+    {
+      "predecessor": "Carrack"
+    },
+    {
+      "successor": "Schooner"
+    },
+    {
+      "related_to": "Ship"
+    },
+    {
+      "used_in": "Age of Exploration"
+    },
+    {
+      "associated_with": "Maritime history"
+    },
+    {
+      "example_of": "Tall ship"
+    },
+    {
+      "design_influenced": "Sailing vessel"
+    },
+    {
+      "part_of": "Naval architecture"
+    },
+    {
+      "used_for": "Cargo transport"
+    },
+    {
+      "related_to": "Sailing"
+    }
+  ]
+}

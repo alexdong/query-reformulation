@@ -1,0 +1,47 @@
+{
+  "entity": "Jeff Merkley",
+  "properties": {
+    "birth_date": "1955-10-13",
+    "birth_place": "Portland, Oregon",
+    "occupation": "Politician",
+    "party": "Democratic Party",
+    "education": "Reed College",
+    "alma_mater": "Stanford Law School",
+    "constituency": "Oregon",
+    "office": "United States Senator",
+    "religion": "Unitarian Universalism",
+    "spouse": "Denise Hjort Merkley"
+  },
+  "relationship": [
+    {
+      "member_of": "United States Senate"
+    },
+    {
+      "preceded_by": "Gordon Smith"
+    },
+    {
+      "succeeded_by": "N/A"
+    },
+    {
+      "state": "Oregon"
+    },
+    {
+      "committee_member": "United States Senate Committee on Appropriations"
+    },
+    {
+      "committee_member": "United States Senate Committee on Banking, Housing, and Urban Affairs"
+    },
+    {
+      "committee_member": "United States Senate Committee on Environment and Public Works"
+    },
+    {
+      "attended": "Reed College"
+    },
+    {
+      "attended": "Stanford Law School"
+    },
+    {
+      "signature_issue": "Climate Change"
+    }
+  ]
+}

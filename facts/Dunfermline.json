@@ -1,0 +1,47 @@
+{
+  "entity": "Dunfermline",
+  "properties": {
+    "type": "Town",
+    "country": "Scotland",
+    "population_2022": "50,000",
+    "region": "Fife",
+    "latitude": "55.686",
+    "longitude": "-3.474",
+    "established": "7th century",
+    "currency": "GBP",
+    "time_zone": "GMT/BST",
+    "postcode": "KY1-KY2"
+  },
+  "relationship": [
+    {
+      "part_of": "Fife"
+    },
+    {
+      "located_near": "Kirkcaldy"
+    },
+    {
+      "located_near": "Glenrothes"
+    },
+    {
+      "historical_figure_born": "Robert the Bruce"
+    },
+    {
+      "historical_figure_buried": "Robert the Bruce"
+    },
+    {
+      "river_flows_through": "River Leven"
+    },
+    {
+      "industry": "Shipbuilding"
+    },
+    {
+      "sport_team": "Dunfermline Athletic F.C."
+    },
+    {
+      "historical_event": "Battle of Falkirk"
+    },
+    {
+      "former_monarchy": "Kingdom of Fife"
+    }
+  ]
+}

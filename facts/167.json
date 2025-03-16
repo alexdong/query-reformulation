@@ -1,0 +1,47 @@
+{
+  "entity": "167",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "odd_number": "Yes",
+    "prime_number": "No",
+    "composite_number": "Yes",
+    "factorial": "167!",
+    "roman_numeral": "CLXVII",
+    "divisors": "1, 7, 23, 167",
+    "square_root": "12.92",
+    "binary_representation": "10100111"
+  },
+  "relationship": [
+    {
+      "is_factor_of": "539"
+    },
+    {
+      "is_factor_of": "841"
+    },
+    {
+      "is_factor_of": "1183"
+    },
+    {
+      "is_factor_of": "1670"
+    },
+    {
+      "is_factor_of": "3340"
+    },
+    {
+      "is_factor_of": "5390"
+    },
+    {
+      "is_factor_of": "8410"
+    },
+    {
+      "is_factor_of": "16700"
+    },
+    {
+      "predecessor": "166"
+    },
+    {
+      "successor": "168"
+    }
+  ]
+}

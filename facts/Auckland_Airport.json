@@ -1,0 +1,47 @@
+{
+  "entity": "Auckland Airport",
+  "properties": {
+    "iata_code": "AKL",
+    "icao_code": "NZAA",
+    "location": "Auckland, New Zealand",
+    "owner": "Auckland Airport Holdings Limited",
+    "elevation": "29",
+    "year_opened": "1965",
+    "passenger_volume_2023": "7.7 million",
+    "runway_length": "3400",
+    "time_zone": "NZST",
+    "serves_city": "Auckland"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "operates_in": "Auckland Region"
+    },
+    {
+      "serves": "Auckland"
+    },
+    {
+      "connected_to": "Air New Zealand"
+    },
+    {
+      "connected_to": "Qantas"
+    },
+    {
+      "has_terminal": "International Terminal"
+    },
+    {
+      "has_terminal": "Domestic Terminal"
+    },
+    {
+      "has_runway": "Runway 06/24"
+    },
+    {
+      "part_of": "New Zealand transport infrastructure"
+    },
+    {
+      "nearby_city": "Manukau City"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Region",
+  "properties": {
+    "type": "Region",
+    "country": "New Zealand",
+    "area_km2": "32000",
+    "population_2023": "245000",
+    "region_code": "98",
+    "established": "1853",
+    "major_city": "Dunedin",
+    "climate": "Oceanic",
+    "latitude": "-45.5",
+    "longitude": "170.8"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "contains": "Dunedin"
+    },
+    {
+      "contains": "Queenstown"
+    },
+    {
+      "contains": "Invercargill"
+    },
+    {
+      "borders": "Southland Region"
+    },
+    {
+      "borders": "Canterbury Region"
+    },
+    {
+      "borders": "West Coast Region"
+    },
+    {
+      "river_flows_through": "Clutha River"
+    },
+    {
+      "has_mountain": "Mount Aspiring"
+    },
+    {
+      "has_national_park": "Fiordland National Park"
+    }
+  ]
+}

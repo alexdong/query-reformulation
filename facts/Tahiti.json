@@ -1,0 +1,47 @@
+{
+  "entity": "Tahiti",
+  "properties": {
+    "type": "Island",
+    "location": "Pacific Ocean",
+    "country": "French Polynesia",
+    "capital": "Papeete",
+    "area": "1045 km²",
+    "population": "186,000",
+    "language": "French, Tahitian",
+    "currency": "XPF (CFP Franc)",
+    "highest_point": "Mount Orohena",
+    "climate": "Tropical"
+  },
+  "relationship": [
+    {
+      "part_of": "French Polynesia"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "island_group": "Society Islands"
+    },
+    {
+      "influenced_by": "France"
+    },
+    {
+      "has_neighbor": "Moorea"
+    },
+    {
+      "has_neighbor": "Bora Bora"
+    },
+    {
+      "has_economy": "Tourism"
+    },
+    {
+      "has_industry": "Pearl farming"
+    },
+    {
+      "has_flora": "Tiare flower"
+    },
+    {
+      "has_fauna": "Black pearl oyster"
+    }
+  ]
+}

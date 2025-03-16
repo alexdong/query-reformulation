@@ -1,0 +1,47 @@
+{
+  "entity": "Promontory Summit, Utah",
+  "properties": {
+    "type": "Mountain pass",
+    "elevation_meters": "2114",
+    "state": "Utah",
+    "county": "Box Elder",
+    "coordinates_latitude": "41.3422",
+    "coordinates_longitude": "-112.342",
+    "historical_significance": "Transcontinental Railroad",
+    "geology": "Basalt",
+    "terrain": "Rocky",
+    "nearest_city": "Salt Lake City"
+  },
+  "relationship": [
+    {
+      "part_of": "Wasatch Range"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "connected_to": "Golden Spike National Historic Park"
+    },
+    {
+      "railroad_completed": "First Transcontinental Railroad"
+    },
+    {
+      "event_held": "Golden Spike Ceremony"
+    },
+    {
+      "adjacent_to": "Antelope Valley"
+    },
+    {
+      "geological_formation": "Basaltic lava flows"
+    },
+    {
+      "influenced_by": "Pacific Railroad Act"
+    },
+    {
+      "nearby_river": "Great Salt Lake"
+    },
+    {
+      "accessed_by": "Utah State Route 13"
+    }
+  ]
+}

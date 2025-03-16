@@ -1,0 +1,47 @@
+{
+  "entity": "South American Plate",
+  "properties": {
+    "type": "Tectonic Plate",
+    "area": "16.6 million km²",
+    "location": "Southern Hemisphere",
+    "composition": "Oceanic and Continental Crust",
+    "movement": "Westward",
+    "speed": "4–7 cm/year",
+    "boundary_type": "Convergent, Divergent, Transform",
+    "density": "3.0–3.3 g/cm³",
+    "thickness": "10–70 km",
+    "includes_landmasses": "South America"
+  },
+  "relationship": [
+    {
+      "part_of": "Lithosphere"
+    },
+    {
+      "adjacent_to": "Nazca Plate"
+    },
+    {
+      "adjacent_to": "African Plate"
+    },
+    {
+      "adjacent_to": "Antarctic Plate"
+    },
+    {
+      "subducts_under": "North American Plate"
+    },
+    {
+      "creates": "Andes Mountains"
+    },
+    {
+      "responsible_for": "Earthquakes"
+    },
+    {
+      "responsible_for": "Volcanic Activity"
+    },
+    {
+      "includes": "Atlantic Ocean Floor"
+    },
+    {
+      "influences": "Biodiversity"
+    }
+  ]
+}

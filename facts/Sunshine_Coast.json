@@ -1,0 +1,47 @@
+{
+  "entity": "Sunshine Coast",
+  "properties": {
+    "type": "Region",
+    "location": "Queensland, Australia",
+    "area_km2": "8,530",
+    "population_2021": "333,272",
+    "governance": "Sunshine Coast Council",
+    "climate": "Subtropical",
+    "economy": "Tourism, Agriculture, Healthcare",
+    "major_city": "Maroochydore",
+    "timezone": "UTC+10",
+    "postal_code": "456"
+  },
+  "relationship": [
+    {
+      "part_of": "Queensland"
+    },
+    {
+      "located_in": "Australia"
+    },
+    {
+      "contains": "Noosa"
+    },
+    {
+      "contains": "Caloundra"
+    },
+    {
+      "contains": "Maroochydore"
+    },
+    {
+      "borders": "Moreton Bay Region"
+    },
+    {
+      "attraction": "Australia Zoo"
+    },
+    {
+      "attraction": "Glass House Mountains"
+    },
+    {
+      "industry": "Tourism"
+    },
+    {
+      "river": "Mooloolah River"
+    }
+  ]
+}

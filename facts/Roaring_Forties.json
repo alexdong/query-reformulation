@@ -1,0 +1,47 @@
+{
+  "entity": "Roaring Forties",
+  "properties": {
+    "type": "Wind Belt",
+    "location": "Southern Hemisphere",
+    "latitude": "40°S",
+    "wind_speed": "Strong",
+    "pressure_system": "Subtropical High",
+    "formation_cause": "Coriolis Effect",
+    "impact_on_shipping": "Significant",
+    "navigation_challenge": "True",
+    "weather_phenomena": "Storms, Gales",
+    "discovery_date": "18th Century"
+  },
+  "relationship": [
+    {
+      "part_of": "Atmosphere"
+    },
+    {
+      "influences": "Ocean Currents"
+    },
+    {
+      "impacts": "Shipping Routes"
+    },
+    {
+      "related_to": "Coriolis Effect"
+    },
+    {
+      "affects": "Weather Patterns"
+    },
+    {
+      "located_in": "Southern Hemisphere"
+    },
+    {
+      "causes": "Strong Winds"
+    },
+    {
+      "impacts_on": "Maritime Navigation"
+    },
+    {
+      "associated_with": "Antarctic Circumpolar Current"
+    },
+    {
+      "influences_climate_of": "New Zealand"
+    }
+  ]
+}

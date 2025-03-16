@@ -1,0 +1,47 @@
+{
+  "entity": "Gold Coast",
+  "properties": {
+    "type": "City",
+    "location": "Queensland, Australia",
+    "population": "673,322",
+    "area_km2": "1,183",
+    "established": "1958",
+    "timezone": "UTC+10",
+    "currency": "AUD",
+    "climate": "Subtropical",
+    "mayor": "Tom Tate",
+    "postal_code": "2020-2022"
+  },
+  "relationship": [
+    {
+      "part_of": "Queensland"
+    },
+    {
+      "located_in": "Australia"
+    },
+    {
+      "has_neighbour": "Logan City"
+    },
+    {
+      "has_neighbour": "Scenic Rim Region"
+    },
+    {
+      "has_neighbour": "Tweed Shire"
+    },
+    {
+      "attraction": "Surfers Paradise"
+    },
+    {
+      "attraction": "Currumbin Wildlife Sanctuary"
+    },
+    {
+      "attraction": "Theme Parks"
+    },
+    {
+      "economy_sector": "Tourism"
+    },
+    {
+      "sporting_event": "Gold Coast Marathon"
+    }
+  ]
+}

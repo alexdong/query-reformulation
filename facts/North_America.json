@@ -1,0 +1,47 @@
+{
+  "entity": "North America",
+  "properties": {
+    "continent": "Yes",
+    "area": "24,709,000 km²",
+    "population": "607 million (2023)",
+    "highest_point": "Denali",
+    "lowest_point": "Death Valley",
+    "largest_country": "United States",
+    "climate": "Varied",
+    "geology": "Tectonic plates",
+    "biome": "Diverse",
+    "economic_indicator": "Developed"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "borders": "Arctic Ocean"
+    },
+    {
+      "borders": "Atlantic Ocean"
+    },
+    {
+      "borders": "Pacific Ocean"
+    },
+    {
+      "contains": "Canada"
+    },
+    {
+      "contains": "United States"
+    },
+    {
+      "contains": "Mexico"
+    },
+    {
+      "adjacent_to": "South America"
+    },
+    {
+      "influenced_by": "Indigenous peoples"
+    },
+    {
+      "has_feature": "Rocky Mountains"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Textile Industry",
+  "properties": {
+    "industry_type": "Manufacturing",
+    "sector": "Secondary Sector",
+    "global_value": "~$1.4 trillion (2021)",
+    "major_inputs": "Raw fibers, dyes, chemicals",
+    "key_processes": "Spinning, weaving, knitting, dyeing",
+    "end_products": "Clothing, home furnishings, industrial textiles",
+    "employment": "60 million+ globally",
+    "environmental_impact": "Significant (water, chemicals)",
+    "historical_origin": "Ancient civilizations",
+    "modern_focus": "Sustainability, automation"
+  },
+  "relationship": [
+    {
+      "part_of": "Manufacturing Sector"
+    },
+    {
+      "uses": "Cotton"
+    },
+    {
+      "uses": "Wool"
+    },
+    {
+      "uses": "Silk"
+    },
+    {
+      "uses": "Polyester"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "employs": "Textile Workers"
+    },
+    {
+      "related_to": "Fashion Industry"
+    },
+    {
+      "provides_to": "Retail Sector"
+    },
+    {
+      "influenced_by": "Technological Innovation"
+    }
+  ]
+}

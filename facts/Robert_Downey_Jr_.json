@@ -1,0 +1,47 @@
+{
+  "entity": "Robert Downey Jr.",
+  "properties": {
+    "birth_date": "1965-09-06",
+    "birth_place": "New York City",
+    "nationality": "American",
+    "occupation": "Actor",
+    "spouse": "Susan Levin",
+    "children": "2",
+    "awards": "Academy Award",
+    "net_worth": "$300 million",
+    "height": "1.74 m",
+    "education": "Santa Monica High School"
+  },
+  "relationship": [
+    {
+      "starred_in": "Iron Man"
+    },
+    {
+      "starred_in": "Oppenheimer"
+    },
+    {
+      "starred_in": "Sherlock Holmes"
+    },
+    {
+      "directed_by": "Robert Altman"
+    },
+    {
+      "collaborated_with": "Chris Evans"
+    },
+    {
+      "influenced_by": "Charlie Chaplin"
+    },
+    {
+      "member_of": "Screen Actors Guild"
+    },
+    {
+      "genre": "Superhero film"
+    },
+    {
+      "film_series": "Marvel Cinematic Universe"
+    },
+    {
+      "award_presented_by": "Academy Awards"
+    }
+  ]
+}

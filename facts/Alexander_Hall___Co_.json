@@ -1,0 +1,47 @@
+{
+  "entity": "Alexander Hall & Co.",
+  "properties": {
+    "entity_type": "Publishing company",
+    "industry": "Publishing",
+    "founded_date": "1807",
+    "founder": "Alexander Hall",
+    "location": "London, UK",
+    "specialization": "Religious texts, Tracts",
+    "status": "Defunct",
+    "successor": "Alexander & Co.",
+    "significant_publication": "The Book of Common Prayer",
+    "historical_period": "19th Century"
+  },
+  "relationship": [
+    {
+      "publisher_of": "Book of Common Prayer"
+    },
+    {
+      "founded_by": "Alexander Hall"
+    },
+    {
+      "located_in": "London"
+    },
+    {
+      "preceded_by": "None"
+    },
+    {
+      "succeeded_by": "Alexander & Co."
+    },
+    {
+      "industry_sector": "Printing"
+    },
+    {
+      "publication_genre": "Religious"
+    },
+    {
+      "competitor_of": "Longman"
+    },
+    {
+      "competitor_of": "Rivingtons"
+    },
+    {
+      "influenced": "Religious publishing"
+    }
+  ]
+}

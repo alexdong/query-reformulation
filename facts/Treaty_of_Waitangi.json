@@ -1,0 +1,47 @@
+{
+  "entity": "Treaty of Waitangi",
+  "properties": {
+    "type": "Treaty",
+    "date_signed": "1840-02-06",
+    "location_signed": "Waitangi",
+    "language_original": "Māori, English",
+    "parties": "British Monarchy, Māori Chiefs",
+    "purpose": "British sovereignty, Māori rights",
+    "status": "Ongoing dispute",
+    "legal_system": "New Zealand law",
+    "historical_period": "Early colonial period",
+    "significance": "Foundational document"
+  },
+  "relationship": [
+    {
+      "signed_by": "James Busby"
+    },
+    {
+      "signed_by": "William Hobson"
+    },
+    {
+      "involved_in": "New Zealand history"
+    },
+    {
+      "related_to": "Māori land rights"
+    },
+    {
+      "influenced": "New Zealand legislation"
+    },
+    {
+      "preceded_by": "Musket Wars"
+    },
+    {
+      "followed_by": "New Zealand Wars"
+    },
+    {
+      "interpreted_by": "Waitangi Tribunal"
+    },
+    {
+      "part_of": "New Zealand's constitutional framework"
+    },
+    {
+      "impacts": "Tangata whenua"
+    }
+  ]
+}

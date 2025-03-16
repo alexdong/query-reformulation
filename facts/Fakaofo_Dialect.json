@@ -1,0 +1,47 @@
+{
+  "entity": "Fakaofo Dialect",
+  "properties": {
+    "language_family": "Austronesian",
+    "language_group": "Polynesian",
+    "location": "Tokelau",
+    "status": "Nearly extinct",
+    "speakers": "Few",
+    "writing_system": "Latin alphabet",
+    "mutual_intelligibility": "Tokelau",
+    "iso_language_code": "tok",
+    "dialect_of": "Tokelau language",
+    "geographic_distribution": "Fakaofo island"
+  },
+  "relationship": [
+    {
+      "part_of": "Tokelau language"
+    },
+    {
+      "spoken_in": "Fakaofo"
+    },
+    {
+      "influenced_by": "Proto-Polynesian"
+    },
+    {
+      "related_to": "Nukufao dialect"
+    },
+    {
+      "related_to": "Funafuti language"
+    },
+    {
+      "has_variant": "Tokelau dialect"
+    },
+    {
+      "geographic_region": "Polynesia"
+    },
+    {
+      "subgroup_of": "Austronesian languages"
+    },
+    {
+      "language_code_standard": "ISO 639-1"
+    },
+    {
+      "language_area": "Oceania"
+    }
+  ]
+}

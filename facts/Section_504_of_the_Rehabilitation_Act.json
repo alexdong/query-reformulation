@@ -1,0 +1,47 @@
+{
+  "entity": "Section 504 of the Rehabilitation Act",
+  "properties": {
+    "type": "United States law",
+    "enacted": "1973",
+    "purpose": "Disability rights",
+    "scope": "Federal funding recipients",
+    "amended_by": "Rehabilitation Act Amendments of 1986",
+    "administered_by": "Department of Justice",
+    "legal_basis": "Rehabilitation Act",
+    "prohibits": "Discrimination based on disability",
+    "applies_to": "Programs and activities receiving federal financial assistance",
+    "defines": "Disability"
+  },
+  "relationship": [
+    {
+      "part_of": "Rehabilitation Act"
+    },
+    {
+      "related_to": "Americans with Disabilities Act"
+    },
+    {
+      "impacts": "Education"
+    },
+    {
+      "impacts": "Employment"
+    },
+    {
+      "impacts": "Government"
+    },
+    {
+      "impacts": "Public Services"
+    },
+    {
+      "enforced_by": "Office for Civil Rights"
+    },
+    {
+      "defines": "Reasonable Accommodation"
+    },
+    {
+      "impacts": "Individuals with Disabilities Education Act"
+    },
+    {
+      "related_to": "Equal Opportunity"
+    }
+  ]
+}

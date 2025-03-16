@@ -1,0 +1,47 @@
+{
+  "entity": "Recreation",
+  "properties": {
+    "definition": "Leisure activity",
+    "purpose": "Enjoyment, relaxation",
+    "type": "Activity",
+    "benefits": "Physical, mental, social",
+    "scope": "Broad",
+    "category": "Human activity",
+    "includes": "Sports, games, hobbies",
+    "importance": "Well-being",
+    "accessibility": "Varies",
+    "impact": "Economic, social"
+  },
+  "relationship": [
+    {
+      "part_of": "Leisure"
+    },
+    {
+      "related_to": "Tourism"
+    },
+    {
+      "impacts": "Health"
+    },
+    {
+      "requires": "Time"
+    },
+    {
+      "involves": "Physical activity"
+    },
+    {
+      "supports": "Community"
+    },
+    {
+      "promotes": "Mental health"
+    },
+    {
+      "overlaps_with": "Entertainment"
+    },
+    {
+      "facilitated_by": "Parks"
+    },
+    {
+      "linked_to": "Hobbies"
+    }
+  ]
+}

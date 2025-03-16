@@ -1,0 +1,47 @@
+{
+  "entity": "Sam Johnson (actor)",
+  "properties": {
+    "birth_date": "1978-10-26",
+    "birth_place": "London, England",
+    "nationality": "British",
+    "occupation": "Actor",
+    "spouse": "Tamara Smart",
+    "education": "Royal Academy of Dramatic Art",
+    "height": "1.83 m",
+    "net_worth": "£3 million (approx.)",
+    "known_for": "Bafta nomination",
+    "genre": "Comedy"
+  },
+  "relationship": [
+    {
+      "spouse_of": "Tamara Smart"
+    },
+    {
+      "educated_at": "Royal Academy of Dramatic Art"
+    },
+    {
+      "appears_in": "Hacks"
+    },
+    {
+      "appears_in": "After Life"
+    },
+    {
+      "appears_in": "The Reluctant Fundamentalist"
+    },
+    {
+      "appears_in": "Bohemian Rhapsody"
+    },
+    {
+      "appears_in": "Informer"
+    },
+    {
+      "appears_in": "Banana"
+    },
+    {
+      "nationality_of": "United Kingdom"
+    },
+    {
+      "member_of": "British actors"
+    }
+  ]
+}

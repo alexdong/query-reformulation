@@ -1,0 +1,47 @@
+{
+  "entity": "Global Weather",
+  "properties": {
+    "type": "System",
+    "description": "Atmospheric conditions worldwide",
+    "driver": "Solar Radiation",
+    "measurement_unit": "Celsius/Fahrenheit",
+    "scale": "Planetary",
+    "complexity": "High",
+    "variability": "Significant",
+    "data_source": "Weather Stations, Satellites",
+    "influence_on": "Climate, Ecosystems",
+    "prediction_method": "Numerical Weather Prediction"
+  },
+  "relationship": [
+    {
+      "affected_by": "El Niño"
+    },
+    {
+      "affected_by": "La Niña"
+    },
+    {
+      "influenced_by": "Greenhouse Effect"
+    },
+    {
+      "part_of": "Earth System Science"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "impacts": "Human Health"
+    },
+    {
+      "causes": "Natural Disasters"
+    },
+    {
+      "related_to": "Climate Change"
+    },
+    {
+      "measured_by": "Meteorology"
+    },
+    {
+      "predicts": "Weather Forecast"
+    }
+  ]
+}

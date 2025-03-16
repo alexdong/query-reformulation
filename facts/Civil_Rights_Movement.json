@@ -1,0 +1,47 @@
+{
+  "entity": "Civil Rights Movement",
+  "properties": {
+    "type": "Social Movement",
+    "time_period": "1954-1968",
+    "location": "United States",
+    "goal": "End racial segregation",
+    "leader": "Martin Luther King Jr.",
+    "ideology": "Nonviolent resistance",
+    "legal_framework": "14th Amendment",
+    "key_event": "Montgomery Bus Boycott",
+    "outcome": "Civil Rights Act of 1964",
+    "related_movement": "Women's Rights Movement"
+  },
+  "relationship": [
+    {
+      "influenced": "Black Lives Matter"
+    },
+    {
+      "preceded_by": "Jim Crow laws"
+    },
+    {
+      "involved": "Rosa Parks"
+    },
+    {
+      "involved": "Malcolm X"
+    },
+    {
+      "involved": "NAACP"
+    },
+    {
+      "influenced": "Voting Rights Act"
+    },
+    {
+      "resulted_in": "Desegregation"
+    },
+    {
+      "opposed_by": "White Citizens' Council"
+    },
+    {
+      "part_of": "American history"
+    },
+    {
+      "inspired": "Freedom Riders"
+    }
+  ]
+}

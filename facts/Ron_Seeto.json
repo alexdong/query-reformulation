@@ -1,0 +1,47 @@
+{
+  "entity": "Ron Seeto",
+  "properties": {
+    "occupation": "Chef",
+    "nationality": "New Zealander",
+    "birth_date": "1960-08-21",
+    "cuisine": "Pan-Asian",
+    "known_for": "Restaurant group",
+    "education": "University of Otago",
+    "awards": "NZ Listener Food Writer of the Year",
+    "restaurant_owner": "True",
+    "influential_in": "New Zealand cuisine",
+    "residence": "Auckland"
+  },
+  "relationship": [
+    {
+      "founder_of": "The Seeto Group"
+    },
+    {
+      "cuisine_style": "Cantonese cuisine"
+    },
+    {
+      "cuisine_style": "Japanese cuisine"
+    },
+    {
+      "cuisine_style": "Thai cuisine"
+    },
+    {
+      "cuisine_style": "Vietnamese cuisine"
+    },
+    {
+      "located_in": "Auckland"
+    },
+    {
+      "alumni_of": "University of Otago"
+    },
+    {
+      "influenced": "New Zealand restaurants"
+    },
+    {
+      "award_recipient_of": "NZ Listener Food Writer of the Year"
+    },
+    {
+      "business_partner": "Various"
+    }
+  ]
+}

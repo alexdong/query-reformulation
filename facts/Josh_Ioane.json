@@ -1,0 +1,57 @@
+{
+  "entity": "Josh Ioane",
+  "properties": {
+    "birth_date": "1995-08-27",
+    "birth_place": "Rotorua, New Zealand",
+    "nationality": "New Zealander",
+    "position": "Fly-half",
+    "height": "1.85 m",
+    "weight": "92 kg",
+    "current_team": "Blues",
+    "jersey_number": "10",
+    "debut_year": "2017",
+    "education": "Rotorua Boys' High School"
+  },
+  "relationship": [
+    {
+      "plays_for": "Blues (rugby)",
+      "type": "team"
+    },
+    {
+      "plays_for": "New Zealand national rugby team",
+      "type": "team"
+    },
+    {
+      "born_in": "Rotorua",
+      "type": "city"
+    },
+    {
+      "attended": "Rotorua Boys' High School",
+      "type": "school"
+    },
+    {
+      "position": "Fly-half",
+      "type": "position"
+    },
+    {
+      "coach": "Leon MacDonald",
+      "type": "person"
+    },
+    {
+      "league": "Super Rugby",
+      "type": "competition"
+    },
+    {
+      "league": "Rugby Championship",
+      "type": "competition"
+    },
+    {
+      "plays_in": "ITM Cup",
+      "type": "competition"
+    },
+    {
+      "influenced_by": "Beauden Barrett",
+      "type": "person"
+    }
+  ]
+}

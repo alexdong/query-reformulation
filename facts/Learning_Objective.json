@@ -1,0 +1,47 @@
+{
+  "entity": "Learning Objective",
+  "properties": {
+    "instance_of": "Educational Goal",
+    "type": "Statement",
+    "purpose": "Guide Instruction",
+    "focus": "Student Performance",
+    "verb": "Actionable",
+    "measurable": "Yes",
+    "achievable": "Yes",
+    "relevant": "Yes",
+    "time_bound": "Sometimes",
+    "assessment_basis": "Yes"
+  },
+  "relationship": [
+    {
+      "part_of": "Curriculum"
+    },
+    {
+      "related_to": "Instructional Design"
+    },
+    {
+      "used_in": "Assessment"
+    },
+    {
+      "supports": "Bloom's Taxonomy"
+    },
+    {
+      "requires": "Learning Outcomes"
+    },
+    {
+      "differentiates": "Instruction"
+    },
+    {
+      "aligns_with": "Standards"
+    },
+    {
+      "guides": "Student Learning"
+    },
+    {
+      "defined_by": "Educational Theory"
+    },
+    {
+      "example_of": "SMART Goal"
+    }
+  ]
+}

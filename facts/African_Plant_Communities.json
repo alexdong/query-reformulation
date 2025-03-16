@@ -1,0 +1,47 @@
+{
+  "entity": "African Plant Communities",
+  "properties": {
+    "type": "Biomes",
+    "continent": "Africa",
+    "biodiversity": "High",
+    "climate_influence": "Tropical, Subtropical, Arid",
+    "dominant_trees": "Acacia, Baobab, Eucalyptus",
+    "soil_types": "Varied, often nutrient-poor",
+    "adaptation": "Drought resistance, fire adaptation",
+    "human_impact": "Significant, deforestation, agriculture",
+    "altitude_range": "Sea level to high mountains",
+    "vegetation_density": "Variable, from sparse to dense"
+  },
+  "relationship": [
+    {
+      "part_of": "African Biomes"
+    },
+    {
+      "contains": "Savanna"
+    },
+    {
+      "contains": "Rainforest"
+    },
+    {
+      "contains": "Desert"
+    },
+    {
+      "influenced_by": "Climate"
+    },
+    {
+      "affected_by": "Fire"
+    },
+    {
+      "supports": "African wildlife"
+    },
+    {
+      "impacted_by": "Deforestation"
+    },
+    {
+      "provides": "Medicinal plants"
+    },
+    {
+      "overlaps_with": "Grasslands"
+    }
+  ]
+}

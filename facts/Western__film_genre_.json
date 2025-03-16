@@ -1,0 +1,47 @@
+{
+  "entity": "Western (film genre)",
+  "properties": {
+    "genre": "Film genre",
+    "origin": "United States",
+    "time_period": "19th Century",
+    "setting": "American West",
+    "themes": "Frontier life, Law & Order, Individualism",
+    "common_protagonist": "Cowboy, Gunslinger, Outlaw",
+    "visual_elements": "Deserts, Saloons, Horses",
+    "peak_popularity": "1930s-1960s",
+    "subgenres": "Spaghetti Western, Revisionist Western",
+    "related_genre": "Adventure"
+  },
+  "relationship": [
+    {
+      "influenced": "Neo-Western"
+    },
+    {
+      "influenced_by": "Frontier mythology"
+    },
+    {
+      "film_series": "The Searchers"
+    },
+    {
+      "actor_appears": "John Wayne"
+    },
+    {
+      "director": "Sergio Leone"
+    },
+    {
+      "film_score_by": "Ennio Morricone"
+    },
+    {
+      "setting_location": "American West"
+    },
+    {
+      "related_to": "Cowboy culture"
+    },
+    {
+      "inspired_by": "Wild West history"
+    },
+    {
+      "character_type": "Sheriff"
+    }
+  ]
+}

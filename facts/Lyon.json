@@ -1,0 +1,47 @@
+{
+  "entity": "Lyon",
+  "properties": {
+    "type": "City",
+    "country": "France",
+    "population_2023": "522,250",
+    "region": "Auvergne-Rhône-Alpes",
+    "area_km2": "47.8",
+    "metro_population": "2,312,650",
+    "elevation_m": "200-484",
+    "founded": "43 BC",
+    "currency": "EUR",
+    "timezone": "CET"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "located_in": "Auvergne-Rhône-Alpes"
+    },
+    {
+      "river_flows_through": "Rhône"
+    },
+    {
+      "river_flows_through": "Saône"
+    },
+    {
+      "has_metro": "Lyon Metro"
+    },
+    {
+      "has_airport": "Lyon–Saint-Exupéry Airport"
+    },
+    {
+      "neighbor_city": "Villeurbanne"
+    },
+    {
+      "historical_event": "Roman conquest of Gaul"
+    },
+    {
+      "cuisine_associated": "Bouchon Lyonnais"
+    },
+    {
+      "landmark": "Basilica of Notre-Dame de Fourvière"
+    }
+  ]
+}

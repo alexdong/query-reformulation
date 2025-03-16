@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Borders",
+  "properties": {
+    "type": "Council Area",
+    "country": "Scotland",
+    "region": "South Scotland",
+    "area_km2": "3,427",
+    "population_2022": "186,670",
+    "council_headquarters": "Galashiels",
+    "established": "1996",
+    "historic_region": "Scottish Borders",
+    "ISO_code": "GB-SCB",
+    "official_language": "English"
+  },
+  "relationship": [
+    {
+      "part_of": "Scotland"
+    },
+    {
+      "borders": "Dumfries and Galloway"
+    },
+    {
+      "borders": "East Lothian"
+    },
+    {
+      "borders": "Midlothian"
+    },
+    {
+      "borders": "Northumberland"
+    },
+    {
+      "contains": "Galashiels"
+    },
+    {
+      "contains": "Hawick"
+    },
+    {
+      "contains": "Melrose"
+    },
+    {
+      "river_flows_through": "River Tweed"
+    },
+    {
+      "historical_region": "Marches"
+    }
+  ]
+}

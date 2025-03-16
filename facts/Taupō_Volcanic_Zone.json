@@ -1,0 +1,47 @@
+{
+  "entity": "Taupō Volcanic Zone",
+  "properties": {
+    "type": "Volcanic Zone",
+    "location": "North Island, New Zealand",
+    "length": "200 km",
+    "width": "50 km",
+    "tectonic_setting": "Subduction Zone",
+    "subduction_plate": "Pacific Plate",
+    "volcanic_activity": "Ongoing",
+    "formation_age": "2 million years",
+    "major_volcanoes": "Ruapehu, Ngauruhoe, Taupō",
+    "geothermal_resource": "Significant"
+  },
+  "relationship": [
+    {
+      "part_of": "Ring of Fire"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "tectonic_interaction": "Pacific Plate"
+    },
+    {
+      "adjacent_to": "Bay of Plenty"
+    },
+    {
+      "contains": "Lake Taupō"
+    },
+    {
+      "contains": "Ruapehu"
+    },
+    {
+      "contains": "Ngauruhoe"
+    },
+    {
+      "produces": "Geothermal Energy"
+    },
+    {
+      "impacts": "Tourism"
+    },
+    {
+      "studied_by": "Geological Survey of New Zealand"
+    }
+  ]
+}

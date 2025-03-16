@@ -1,0 +1,47 @@
+{
+  "entity": "Samoa",
+  "properties": {
+    "capital": "Apia",
+    "official_languages": "Samoan, English",
+    "currency": "Tala (WST)",
+    "population": "200,000",
+    "area_km2": "2,831",
+    "sovereignty": "Independent",
+    "continent": "Oceania",
+    "government_type": "Parliamentary republic",
+    "gdp_nominal": "650 million USD",
+    "time_zone": "UTC+14"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesia"
+    },
+    {
+      "located_in": "Oceania"
+    },
+    {
+      "border_country": "American Samoa"
+    },
+    {
+      "influenced_by": "New Zealand"
+    },
+    {
+      "historical_figure": "Malietoa Laupepa"
+    },
+    {
+      "historical_event": "Mau Movement"
+    },
+    {
+      "religion": "Christianity"
+    },
+    {
+      "island_group": "Samoan Islands"
+    },
+    {
+      "natural_resource": "Fish"
+    },
+    {
+      "exports": "Copra, fish, handicrafts"
+    }
+  ]
+}

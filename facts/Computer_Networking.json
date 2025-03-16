@@ -1,0 +1,47 @@
+{
+  "entity": "Computer Networking",
+  "properties": {
+    "instance_of": "Technology",
+    "field_of_study": "Computer Science",
+    "purpose": "Data Communication",
+    "layer_model": "OSI Model",
+    "protocol_suite": "TCP/IP",
+    "key_concept": "Packet Switching",
+    "topologies": "Bus, Star, Ring",
+    "security_concern": "Cybersecurity",
+    "bandwidth_unit": "Gbps",
+    "device_example": "Router"
+  },
+  "relationship": [
+    {
+      "uses": "Internet"
+    },
+    {
+      "relies_on": "Protocols"
+    },
+    {
+      "improves": "Data Transfer"
+    },
+    {
+      "requires": "Network Hardware"
+    },
+    {
+      "influenced_by": "Packet Radio"
+    },
+    {
+      "part_of": "Information Technology"
+    },
+    {
+      "uses": "Ethernet"
+    },
+    {
+      "uses": "Wireless Networking"
+    },
+    {
+      "related_to": "Cloud Computing"
+    },
+    {
+      "impacts": "Digital Communication"
+    }
+  ]
+}

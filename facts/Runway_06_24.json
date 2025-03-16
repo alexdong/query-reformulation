@@ -1,0 +1,47 @@
+{
+  "entity": "Runway 06/24",
+  "properties": {
+    "designator": "06/24",
+    "direction": "East/West",
+    "length": "7,000 feet",
+    "surface": "Asphalt",
+    "elevation": "250 feet",
+    "ILS_approach": "Yes",
+    "lighting": "Approach Lighting System",
+    "airport_location": "Denver International Airport",
+    "ICAO_code": "KDEN",
+    "FAA_designation": "06/24"
+  },
+  "relationship": [
+    {
+      "part_of": "Denver International Airport"
+    },
+    {
+      "serves": "Boeing 777"
+    },
+    {
+      "serves": "Airbus A380"
+    },
+    {
+      "used_by": "United Airlines"
+    },
+    {
+      "used_by": "Frontier Airlines"
+    },
+    {
+      "connected_to": "Taxiway Alpha"
+    },
+    {
+      "connected_to": "Taxiway Bravo"
+    },
+    {
+      "approaches": "Instrument Landing System"
+    },
+    {
+      "located_in": "Colorado"
+    },
+    {
+      "part_of_system": "National Airspace System"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "National Sovereignty",
+  "properties": {
+    "definition": "Supreme authority within a territory",
+    "concept_type": "Political concept",
+    "related_to": "International law",
+    "origin": "Westphalian system",
+    "core_principle": "Self-determination",
+    "includes": "Territorial integrity",
+    "implies": "Exclusive jurisdiction",
+    "often_challenged_by": "Globalization",
+    "linked_to": "Statehood",
+    "basis_for": "Diplomacy"
+  },
+  "relationship": [
+    {
+      "is_a": "Political principle"
+    },
+    {
+      "part_of": "Statehood"
+    },
+    {
+      "related_to": "Westphalian sovereignty"
+    },
+    {
+      "influences": "International relations"
+    },
+    {
+      "requires": "Defined territory"
+    },
+    {
+      "impacts": "Diplomacy"
+    },
+    {
+      "challenged_by": "Supranational organizations"
+    },
+    {
+      "linked_to": "Popular sovereignty"
+    },
+    {
+      "related_to": "Recognition (international law)"
+    },
+    {
+      "impacts": "Treaty making"
+    }
+  ]
+}

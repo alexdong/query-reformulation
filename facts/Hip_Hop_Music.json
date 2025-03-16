@@ -1,0 +1,47 @@
+{
+  "entity": "Hip Hop Music",
+  "properties": {
+    "genre": "Music genre",
+    "origin": "Bronx, New York City",
+    "founding_date": "1970s",
+    "elements": "DJing, MCing, Graffiti, Breakdancing",
+    "subgenres": "Rap, Trap, Conscious Hip Hop",
+    "language": "Primarily English",
+    "cultural_impact": "Significant",
+    "themes": "Social commentary, storytelling, personal experiences",
+    "instrumentation": "Sampling, Drum machines, Synthesizers",
+    "popularity": "Global"
+  },
+  "relationship": [
+    {
+      "influenced": "Rap Music"
+    },
+    {
+      "influenced": "Contemporary R&B"
+    },
+    {
+      "preceded_by": "Funk"
+    },
+    {
+      "related_to": "DJing"
+    },
+    {
+      "related_to": "MCing"
+    },
+    {
+      "associated_with": "Breakdancing"
+    },
+    {
+      "associated_with": "Graffiti Art"
+    },
+    {
+      "artist": "Grandmaster Flash"
+    },
+    {
+      "artist": "Run-DMC"
+    },
+    {
+      "artist": "Public Enemy"
+    }
+  ]
+}

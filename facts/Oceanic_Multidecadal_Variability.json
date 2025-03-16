@@ -1,0 +1,47 @@
+{
+  "entity": "Oceanic Multidecadal Variability",
+  "properties": {
+    "type": "Climate Pattern",
+    "location": "Tropical Pacific Ocean",
+    "periodicity": "60-80 years",
+    "amplitude": "0.2-0.4°C",
+    "driver": "Deep ocean heat transport",
+    "phase": "Alternating warm and cool periods",
+    "impact": "Influences global climate",
+    "discovery_year": "1990s",
+    "related_phenomenon": "El Niño-Southern Oscillation (ENSO)",
+    "measurement": "Sea surface temperature"
+  },
+  "relationship": [
+    {
+      "part_of": "Climate Variability"
+    },
+    {
+      "influences": "Global Temperature"
+    },
+    {
+      "related_to": "Pacific Decadal Oscillation (PDO)"
+    },
+    {
+      "impacts": "Rainfall Patterns"
+    },
+    {
+      "affects": "Coral Reefs"
+    },
+    {
+      "interacts_with": "ENSO"
+    },
+    {
+      "studied_by": "Climate Scientists"
+    },
+    {
+      "observed_in": "Tropical Pacific"
+    },
+    {
+      "causes": "Changes in Trade Winds"
+    },
+    {
+      "linked_to": "Deep Ocean Currents"
+    }
+  ]
+}

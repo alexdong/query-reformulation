@@ -1,0 +1,47 @@
+{
+  "entity": "Gouais Blanc",
+  "properties": {
+    "grape_variety": "Yes",
+    "origin": "Burgundy, France",
+    "synonyms": "Etoile, Picpoul",
+    "color": "White",
+    "viticulture": "Vigorous",
+    "disease_resistance": "Good",
+    "aroma": "Floral, Citrus",
+    "flavor": "Crisp, Acidic",
+    "usage": "Wine production",
+    "genetic_origin": "Pinot Noir x Sauvignon Blanc"
+  },
+  "relationship": [
+    {
+      "region_grown_in": "Burgundy"
+    },
+    {
+      "wine_grape_family": "Vitis vinifera"
+    },
+    {
+      "cross_of": "Pinot Noir"
+    },
+    {
+      "cross_of": "Sauvignon Blanc"
+    },
+    {
+      "produces": "White wine"
+    },
+    {
+      "used_in": "Bourgogne Blanc"
+    },
+    {
+      "related_to": "Pinot Blanc"
+    },
+    {
+      "related_to": "Sauvignon"
+    },
+    {
+      "influenced_by": "Viticulture"
+    },
+    {
+      "characteristic_of": "French wine"
+    }
+  ]
+}

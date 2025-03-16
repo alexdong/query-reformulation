@@ -1,0 +1,47 @@
+{
+  "entity": "Tony Blair",
+  "properties": {
+    "birth_date": "1953-05-29",
+    "birth_place": "Edinburgh, Scotland",
+    "occupation": "Politician",
+    "political_party": "Labour Party",
+    "education": "St John's College, Oxford",
+    "spouse": "Cherie Blair",
+    "children": "4",
+    "religion": "Christianity",
+    "nationality": "British",
+    "title": "Prime Minister"
+  },
+  "relationship": [
+    {
+      "predecessor": "John Major"
+    },
+    {
+      "successor": "Gordon Brown"
+    },
+    {
+      "served_as": "Leader of the Labour Party"
+    },
+    {
+      "member_of": "Parliament of the United Kingdom"
+    },
+    {
+      "attended": "Fettes College"
+    },
+    {
+      "appointed": "Governor of Jerusalem"
+    },
+    {
+      "authored": "A Journey"
+    },
+    {
+      "influenced": "New Labour"
+    },
+    {
+      "involved_in": "Iraq War"
+    },
+    {
+      "received": "Order of the Garter"
+    }
+  ]
+}

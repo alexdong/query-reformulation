@@ -1,0 +1,47 @@
+{
+  "entity": "Sustainable Agriculture",
+  "properties": {
+    "definition": "Environmentally sound farming",
+    "goal": "Long-term productivity",
+    "focus": "Resource conservation",
+    "principle": "Ecosystem health",
+    "benefit": "Reduced environmental impact",
+    "method": "Crop rotation",
+    "technique": "Integrated pest management",
+    "outcome": "Improved soil health",
+    "economic_impact": "Increased farm resilience",
+    "social_impact": "Community well-being"
+  },
+  "relationship": [
+    {
+      "part_of": "Agriculture"
+    },
+    {
+      "related_to": "Organic Farming"
+    },
+    {
+      "promotes": "Biodiversity"
+    },
+    {
+      "reduces": "Soil erosion"
+    },
+    {
+      "supports": "Local food systems"
+    },
+    {
+      "addresses": "Climate change"
+    },
+    {
+      "requires": "Agroecology"
+    },
+    {
+      "impacts": "Food security"
+    },
+    {
+      "influenced_by": "Permaculture"
+    },
+    {
+      "contrasts_with": "Industrial Agriculture"
+    }
+  ]
+}

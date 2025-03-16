@@ -1,0 +1,47 @@
+{
+  "entity": "Glacial Erosion",
+  "properties": {
+    "type": "Geological Process",
+    "agent": "Glaciers",
+    "mechanism": "Abrasion & Plucking",
+    "result": "Landform Modification",
+    "scale": "Regional",
+    "time_scale": "Geologic Time",
+    "material_affected": "Bedrock, Sediments",
+    "rate": "Slow",
+    "primary_force": "Ice & Gravity",
+    "impact": "Landscape Sculpting"
+  },
+  "relationship": [
+    {
+      "causes": "U-shaped Valleys"
+    },
+    {
+      "results_in": "Striations"
+    },
+    {
+      "results_in": "Roche Moutonnées"
+    },
+    {
+      "related_to": "Glaciation"
+    },
+    {
+      "influences": "Erosional Landforms"
+    },
+    {
+      "part_of": "Weathering"
+    },
+    {
+      "impacts": "Sediment Transport"
+    },
+    {
+      "contrasted_with": "Fluvial Erosion"
+    },
+    {
+      "example_location": "Swiss Alps"
+    },
+    {
+      "related_to": "Isostatic Rebound"
+    }
+  ]
+}

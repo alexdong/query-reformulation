@@ -1,0 +1,47 @@
+{
+  "entity": "Blood Sugar",
+  "properties": {
+    "alternative_name": "Glucose",
+    "type": "Metabolic marker",
+    "unit": "mg/dL or mmol/L",
+    "normal_range_fasting": "70-99 mg/dL",
+    "affected_by": "Diet, Exercise, Stress",
+    "measured_in": "Blood",
+    "regulated_by": "Insulin, Glucagon",
+    "importance": "Energy source",
+    "disorder_associated": "Diabetes",
+    "essential_for": "Cellular respiration"
+  },
+  "relationship": [
+    {
+      "part_of": "Metabolism"
+    },
+    {
+      "related_to": "Diabetes mellitus"
+    },
+    {
+      "regulated_by": "Insulin"
+    },
+    {
+      "regulated_by": "Glucagon"
+    },
+    {
+      "affects": "Glycated hemoglobin"
+    },
+    {
+      "measured_using": "Glucose meter"
+    },
+    {
+      "impacts": "Pancreas"
+    },
+    {
+      "involved_in": "Glycolysis"
+    },
+    {
+      "converted_to": "Glycogen"
+    },
+    {
+      "essential_for": "Cellular function"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Baroness (band)",
+  "properties": {
+    "genre": "Post-punk",
+    "origin": "New York City",
+    "formed_year": "2010",
+    "members": "John Baizley, Mia Berrigan, Georgia Brooker",
+    "label": "Matador Records",
+    "website": "baroness.net",
+    "instrumentation": "Guitar, Bass, Drums, Vocals",
+    "style": "Sludge Metal, Doom Metal, Post-Metal",
+    "reunion_year": "2019",
+    "previous_name": "Dissipator"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Black Sabbath"
+    },
+    {
+      "influenced_by": "Melvins"
+    },
+    {
+      "influenced_by": "Neurosis"
+    },
+    {
+      "member_is": "John Baizley"
+    },
+    {
+      "member_is": "Mia Berrigan"
+    },
+    {
+      "member_is": "Georgia Brooker"
+    },
+    {
+      "record_label": "Matador Records"
+    },
+    {
+      "album": "Yellow & Black and Red"
+    },
+    {
+      "album": "Blue Reward"
+    },
+    {
+      "genre_is": "Post-punk"
+    }
+  ]
+}

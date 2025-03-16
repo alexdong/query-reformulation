@@ -1,0 +1,47 @@
+{
+  "entity": "Landlord",
+  "properties": {
+    "instance_of": "Occupation",
+    "responsibility": "Property Management",
+    "legal_duty": "Tenant Rights",
+    "income_source": "Rental Income",
+    "asset_type": "Real Estate",
+    "risk_factor": "Property Damage",
+    "legal_requirement": "Housing Laws",
+    "tax_obligation": "Property Taxes",
+    "potential_liability": "Eviction Lawsuits",
+    "common_task": "Rent Collection"
+  },
+  "relationship": [
+    {
+      "rents_to": "Tenant"
+    },
+    {
+      "manages": "Property"
+    },
+    {
+      "subject_to": "Housing Law"
+    },
+    {
+      "employs": "Property Manager"
+    },
+    {
+      "deals_with": "Lease Agreement"
+    },
+    {
+      "responsible_for": "Maintenance"
+    },
+    {
+      "collects": "Rent"
+    },
+    {
+      "faces": "Eviction"
+    },
+    {
+      "requires": "Insurance"
+    },
+    {
+      "governed_by": "Landlord-Tenant Law"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Eastern European Culture",
+  "properties": {
+    "region": "Europe",
+    "languages": "Slavic, Romance, Germanic",
+    "religion": "Orthodox Christianity, Catholicism, Protestantism",
+    "cuisine": "Hearty, meat-centric, often fermented",
+    "music": "Folk, Classical, Roma influences",
+    "art": "Iconography, Realism, Socialist Realism",
+    "values": "Family, Hospitality, Tradition",
+    "history": "Complex, influenced by empires",
+    "architecture": "Byzantine, Baroque, Socialist",
+    "literature": "Rich, often politically charged"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Byzantine Empire"
+    },
+    {
+      "influenced": "Slavic Languages"
+    },
+    {
+      "part_of": "European Culture"
+    },
+    {
+      "shares_cuisine_with": "Central European Cuisine"
+    },
+    {
+      "shares_music_with": "Balkan Music"
+    },
+    {
+      "shares_literature_with": "Russian Literature"
+    },
+    {
+      "shares_history_with": "Soviet Union"
+    },
+    {
+      "shares_values_with": "Collectivist Cultures"
+    },
+    {
+      "shares_art_with": "Russian Art"
+    },
+    {
+      "shares_architecture_with": "Romanesque Architecture"
+    }
+  ]
+}

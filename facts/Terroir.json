@@ -1,0 +1,47 @@
+{
+  "entity": "Terroir",
+  "properties": {
+    "definition": "Environmental factors affecting crop taste",
+    "origin": "French",
+    "concept": "Agricultural concept",
+    "scope": "Viticulture, Agriculture",
+    "includes": "Soil, Climate, Topography",
+    "impacts": "Flavor, Aroma, Quality",
+    "related_to": "Appellation",
+    "subject_of": "Wine appreciation",
+    "cultural_significance": "French culture",
+    "intangible_factor": "True"
+  },
+  "relationship": [
+    {
+      "is_a": "Agricultural concept"
+    },
+    {
+      "influences": "Viticulture"
+    },
+    {
+      "related_to": "Wine"
+    },
+    {
+      "part_of": "Wine region"
+    },
+    {
+      "affects": "Grape variety"
+    },
+    {
+      "impacts": "Soil"
+    },
+    {
+      "impacts": "Climate"
+    },
+    {
+      "impacts": "Topography"
+    },
+    {
+      "associated_with": "Appellation"
+    },
+    {
+      "describes": "Agricultural product"
+    }
+  ]
+}

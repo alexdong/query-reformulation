@@ -1,0 +1,47 @@
+{
+  "entity": "Solid State Records",
+  "properties": {
+    "genre": "Christian metal",
+    "founded_date": "1996",
+    "founder": "Bryon Miller",
+    "location": "Colorado Springs, Colorado",
+    "parent_company": "EMI Christian Music Group",
+    "distribution": "EMI CMG Distribution",
+    "focus": "Christian music",
+    "label_type": "Record label",
+    "website": "solidstate.tv",
+    "status": "Active"
+  },
+  "relationship": [
+    {
+      "subgenre_of": "Metal"
+    },
+    {
+      "genre": "Christian music"
+    },
+    {
+      "artist_roster": "August Burns Red"
+    },
+    {
+      "artist_roster": "The Devil Wears Prada"
+    },
+    {
+      "artist_roster": "Underoath"
+    },
+    {
+      "artist_roster": "Norma Jean"
+    },
+    {
+      "distributed_by": "EMI Christian Music Group"
+    },
+    {
+      "influenced": "Christian metal scene"
+    },
+    {
+      "headquarters_location": "Colorado Springs"
+    },
+    {
+      "industry": "Music industry"
+    }
+  ]
+}

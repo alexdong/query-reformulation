@@ -1,0 +1,47 @@
+{
+  "entity": "Prevailing Winds",
+  "properties": {
+    "type": "Wind pattern",
+    "description": "Consistent wind direction",
+    "cause": "Global atmospheric circulation",
+    "scale": "Global",
+    "speed": "Variable",
+    "altitude": "Troposphere",
+    "influence": "Climate, weather",
+    "direction": "Varies by location",
+    "measurement": "Beaufort scale",
+    "effect_on_navigation": "Historically important"
+  },
+  "relationship": [
+    {
+      "part_of": "Atmospheric circulation"
+    },
+    {
+      "influenced_by": "Coriolis effect"
+    },
+    {
+      "impacts": "Climate"
+    },
+    {
+      "affects": "Ocean currents"
+    },
+    {
+      "related_to": "Trade winds"
+    },
+    {
+      "related_to": "Westerlies"
+    },
+    {
+      "related_to": "Polar easterlies"
+    },
+    {
+      "impacts_region": "Equatorial regions"
+    },
+    {
+      "impacts_region": "Mid-latitudes"
+    },
+    {
+      "used_by": "Sailors"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Northern Royal Albatross",
+  "properties": {
+    "scientific_name": "Diomedea albatrossis",
+    "conservation_status": "Endangered",
+    "wingspan": "11.1 - 12.9 ft",
+    "weight": "12.3 - 26.5 lb",
+    "diet": "Fish, squid",
+    "habitat": "Ocean, islands",
+    "breeding_season": "October - March",
+    "incubation_period": "70-80 days",
+    "lifespan": "20-30 years",
+    "distribution": "Southern Ocean, New Zealand"
+  },
+  "relationship": [
+    {
+      "family": "Albatross"
+    },
+    {
+      "order": "Procellariiformes"
+    },
+    {
+      "class": "Aves"
+    },
+    {
+      "kingdom": "Animalia"
+    },
+    {
+      "preys_on": "Fish"
+    },
+    {
+      "preys_on": "Squid"
+    },
+    {
+      "habitat_in": "New Zealand"
+    },
+    {
+      "habitat_in": "Subantarctic Islands"
+    },
+    {
+      "migration_route": "Southern Ocean"
+    },
+    {
+      "threat": "Climate Change"
+    }
+  ]
+}

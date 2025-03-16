@@ -1,0 +1,47 @@
+{
+  "entity": "Goat",
+  "properties": {
+    "kingdom": "Animalia",
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "lifespan": "15-25 years",
+    "diet": "Herbivore",
+    "gestation_period": "150 days",
+    "weight": "30-100 kg",
+    "height": "0.9-1.2 m",
+    "conservation_status": "Least Concern"
+  },
+  "relationship": [
+    {
+      "domesticated": "Domestic goat"
+    },
+    {
+      "related_to": "Sheep"
+    },
+    {
+      "prey_for": "Wolf"
+    },
+    {
+      "eats": "Grass"
+    },
+    {
+      "provides": "Milk"
+    },
+    {
+      "provides": "Meat"
+    },
+    {
+      "used_in": "Goat farming"
+    },
+    {
+      "part_of_diet": "Lion"
+    },
+    {
+      "related_to": "Capra aegagrus"
+    },
+    {
+      "symbolizes": "Capricorn"
+    }
+  ]
+}

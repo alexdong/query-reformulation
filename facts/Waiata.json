@@ -1,0 +1,47 @@
+{
+  "entity": "Waiata",
+  "properties": {
+    "type": "Song",
+    "culture": "Māori",
+    "language": "Te Reo Māori",
+    "function": "Storytelling, Entertainment, Ritual",
+    "genre": "Traditional Music",
+    "transmission": "Oral Tradition",
+    "accompaniment": "Often percussion",
+    "themes": "History, Mythology, Love, Loss",
+    "structure": "Varied, often repetitive",
+    "importance": "Cultural Identity"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori Culture"
+    },
+    {
+      "related_to": "Haka"
+    },
+    {
+      "related_to": "Oratory"
+    },
+    {
+      "performed_by": "Kapa Haka"
+    },
+    {
+      "tells_about": "Māori History"
+    },
+    {
+      "expresses": "Emotions"
+    },
+    {
+      "accompanied_by": "Pūtōrino"
+    },
+    {
+      "accompanied_by": "Kōauau"
+    },
+    {
+      "transmitted_through": "Oral Tradition"
+    },
+    {
+      "associated_with": "Whakapapa"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "2011 Christchurch earthquake",
+  "properties": {
+    "magnitude": "6.3",
+    "depth": "5 km",
+    "date": "2011-02-22",
+    "time": "12:51:56 NZDT",
+    "location": "Christchurch, New Zealand",
+    "fault": "Canterbury Fault Zone",
+    "casualties": "185",
+    "damage": "Severe",
+    "tsunami": "None",
+    "aftershock_count": "Significant"
+  },
+  "relationship": [
+    {
+      "preceded_by": "2010 Christchurch earthquake"
+    },
+    {
+      "part_of": "Canterbury earthquake sequence"
+    },
+    {
+      "affected": "Christchurch"
+    },
+    {
+      "affected": "New Zealand"
+    },
+    {
+      "caused": "Building collapse"
+    },
+    {
+      "caused": "Land liquefaction"
+    },
+    {
+      "influenced": "Christchurch recovery"
+    },
+    {
+      "investigated_by": "Geological and Nuclear Sciences"
+    },
+    {
+      "response_led_by": "New Zealand Government"
+    },
+    {
+      "related_to": "Insurance claims"
+    }
+  ]
+}

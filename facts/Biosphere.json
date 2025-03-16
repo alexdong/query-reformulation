@@ -1,0 +1,47 @@
+{
+  "entity": "Biosphere",
+  "properties": {
+    "instance_of": "Ecological system",
+    "type": "Closed ecological system",
+    "location": "Space",
+    "purpose": "Study life support",
+    "creator": "Jean-Jacques Cousteau",
+    "start_date": "1968",
+    "status": "Inactive",
+    "size": "3000 m³",
+    "mass": "40 tonnes",
+    "research_area": "Ecology, Life Support"
+  },
+  "relationship": [
+    {
+      "part_of": "Space Stations"
+    },
+    {
+      "designed_by": "Jean-Jacques Cousteau"
+    },
+    {
+      "research_focus": "Closed Ecological Systems"
+    },
+    {
+      "predecessor": "Biosphere 1"
+    },
+    {
+      "successor": "Biosphere 2"
+    },
+    {
+      "location_on": "Orbit"
+    },
+    {
+      "study_subject": "Human physiology"
+    },
+    {
+      "research_method": "Controlled experiment"
+    },
+    {
+      "influenced": "Space Habitats"
+    },
+    {
+      "component": "Water recycling system"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Kalgoorlie",
+  "properties": {
+    "type": "City",
+    "location": "Western Australia",
+    "population": "23,633 (2021)",
+    "established": "1893",
+    "industry": "Mining",
+    "latitude": "-34.3667",
+    "longitude": "123.4500",
+    "time_zone": "Australian Western Standard Time (AWST)",
+    "postal_code": "6430",
+    "elevation": "328 m"
+  },
+  "relationship": [
+    {
+      "part_of": "Western Australia"
+    },
+    {
+      "located_near": "Goldfields-Esperance region"
+    },
+    {
+      "founded_by": "James Fairbairn"
+    },
+    {
+      "major_industry": "Gold mining"
+    },
+    {
+      "contains": "Hannans Street"
+    },
+    {
+      "contains": "Kalgoorlie Super Pit"
+    },
+    {
+      "nearby_city": "Boulder"
+    },
+    {
+      "governed_by": "City of Kalgoorlie-Boulder"
+    },
+    {
+      "historical_event": "Western Australian gold rush"
+    },
+    {
+      "transportation": "Kalgoorlie Airport"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Port Phillip",
+  "properties": {
+    "type": "Bay",
+    "location": "Victoria, Australia",
+    "area": "1986 km²",
+    "max_depth": "32 m",
+    "salinity": "32‰",
+    "formation": "Glacial",
+    "discovery": "Matthew Flinders",
+    "year_discovered": "1802",
+    "name_origin": "John Phillip",
+    "tributaries": "Yarra River"
+  },
+  "relationship": [
+    {
+      "part_of": "Bass Strait"
+    },
+    {
+      "contains": "Melbourne"
+    },
+    {
+      "located_in": "Victoria"
+    },
+    {
+      "adjacent_to": "Mornington Peninsula"
+    },
+    {
+      "adjacent_to": "Bellarine Peninsula"
+    },
+    {
+      "drains_into": "Southern Ocean"
+    },
+    {
+      "has_feature": "Swan Island"
+    },
+    {
+      "has_feature": "Rundall Island"
+    },
+    {
+      "supports_ecosystem": "Port Phillip Bay ecosystem"
+    },
+    {
+      "influenced_by": "Yarra River"
+    }
+  ]
+}

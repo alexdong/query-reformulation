@@ -1,0 +1,47 @@
+{
+  "entity": "Treaty",
+  "properties": {
+    "instance_of": "Legal agreement",
+    "type": "International law",
+    "purpose": "Formalize agreements",
+    "binding_force": "Legally binding",
+    "ratification": "Requires approval",
+    "subject": "Various topics",
+    "duration": "Varies",
+    "language": "Multiple languages",
+    "negotiation": "Diplomatic process",
+    "enforcement": "International courts/customs"
+  },
+  "relationship": [
+    {
+      "signed_by": "States"
+    },
+    {
+      "governed_by": "International law"
+    },
+    {
+      "related_to": "Diplomacy"
+    },
+    {
+      "preceded_by": "Negotiations"
+    },
+    {
+      "followed_by": "Implementation"
+    },
+    {
+      "example_of": "Treaty of Versailles"
+    },
+    {
+      "example_of": "North Atlantic Treaty"
+    },
+    {
+      "example_of": "Geneva Conventions"
+    },
+    {
+      "administered_by": "United Nations"
+    },
+    {
+      "subject_of": "International relations"
+    }
+  ]
+}

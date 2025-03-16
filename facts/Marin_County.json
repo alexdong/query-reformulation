@@ -1,0 +1,47 @@
+{
+  "entity": "Marin County",
+  "properties": {
+    "type": "County",
+    "state": "California",
+    "population_2020": "260,074",
+    "area_sq_mi": "105",
+    "seat": "San Rafael",
+    "established": "1850",
+    "timezone": "Pacific",
+    "median_income_2020": "$107,861",
+    "climate": "Mediterranean",
+    "fips_code": "06077"
+  },
+  "relationship": [
+    {
+      "part_of": "California"
+    },
+    {
+      "located_in": "San Francisco Bay Area"
+    },
+    {
+      "neighbor": "Sonoma County"
+    },
+    {
+      "neighbor": "Napa County"
+    },
+    {
+      "neighbor": "San Francisco"
+    },
+    {
+      "contains": "Mount Tamalpais"
+    },
+    {
+      "contains": "Point Reyes National Seashore"
+    },
+    {
+      "contains": "Muir Woods National Monument"
+    },
+    {
+      "attraction": "Golden Gate Bridge"
+    },
+    {
+      "attraction": "Angel Island State Park"
+    }
+  ]
+}

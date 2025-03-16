@@ -1,0 +1,47 @@
+{
+  "entity": "Southland (TV series)",
+  "properties": {
+    "instance_of": "Television series",
+    "creator": "Jonathan Banks",
+    "genre": "Crime drama",
+    "country_of_origin": "United States",
+    "start_date": "2009-10-02",
+    "end_date": "2013-05-12",
+    "network": "TNT",
+    "number_of_seasons": "5",
+    "setting": "Los Angeles",
+    "language": "English"
+  },
+  "relationship": [
+    {
+      "created_by": "Jonathan Banks"
+    },
+    {
+      "genre_similar_to": "The Shield"
+    },
+    {
+      "genre_similar_to": "Miami Vice"
+    },
+    {
+      "starring": "Benjamin Bratt"
+    },
+    {
+      "starring": "Michael Cudlitz"
+    },
+    {
+      "starring": "Regina King"
+    },
+    {
+      "starring": "Kevin Williamson"
+    },
+    {
+      "setting_location": "Los Angeles County"
+    },
+    {
+      "executive_producer": "John Wells"
+    },
+    {
+      "influenced": "Justified"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Spain",
+  "properties": {
+    "capital": "Madrid",
+    "official_language": "Spanish",
+    "population": "47.4 million",
+    "area_km2": "505,990",
+    "currency": "Euro",
+    "GDP_nominal": "$1.4 trillion",
+    "form_of_government": "Parliamentary monarchy",
+    "head_of_state": "Felipe VI",
+    "national_dish": "Paella",
+    "member_of": "European Union"
+  },
+  "relationship": [
+    {
+      "borders": "Portugal"
+    },
+    {
+      "borders": "France"
+    },
+    {
+      "borders": "Andorra"
+    },
+    {
+      "borders": "Morocco"
+    },
+    {
+      "part_of": "European_Union"
+    },
+    {
+      "located_in": "Europe"
+    },
+    {
+      "has_region": "Andalusia"
+    },
+    {
+      "has_region": "Catalonia"
+    },
+    {
+      "influenced": "Latin America"
+    },
+    {
+      "historical_event": "Spanish_Civil_War"
+    }
+  ]
+}

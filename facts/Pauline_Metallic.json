@@ -1,0 +1,47 @@
+{
+  "entity": "Pauline Metallic",
+  "properties": {
+    "birth_date": "1947-08-28",
+    "birth_place": "Esgenoôpetitj (Burnt Church), New Brunswick",
+    "occupation": "Mi'kmaq artist",
+    "nationality": "Canadian",
+    "art_form": "Carved stone",
+    "style": "Contemporary",
+    "cultural_affiliation": "Mi'kmaq",
+    "education": "Self-taught",
+    "awards": "Governor General's Award in Visual Arts",
+    "subject_matter": "Mi'kmaq culture, spirituality"
+  },
+  "relationship": [
+    {
+      "member_of": "Mi'kmaq people"
+    },
+    {
+      "born_in": "Esgenoôpetitj"
+    },
+    {
+      "award_presented_by": "Governor General of Canada"
+    },
+    {
+      "influenced_by": "Mi'kmaq traditions"
+    },
+    {
+      "works_in_medium": "Soapstone"
+    },
+    {
+      "works_in_medium": "Argillite"
+    },
+    {
+      "exhibits_at": "National Gallery of Canada"
+    },
+    {
+      "depicts": "Mi'kmaq legends"
+    },
+    {
+      "represents": "Indigenous art"
+    },
+    {
+      "associated_with": "Indigenous artists"
+    }
+  ]
+}

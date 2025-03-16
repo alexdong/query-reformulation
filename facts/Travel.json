@@ -1,0 +1,47 @@
+{
+  "entity": "Travel",
+  "properties": {
+    "instance_of": "Activity",
+    "purpose": "Leisure/Business",
+    "mode": "Various",
+    "cost": "Variable",
+    "duration": "Variable",
+    "planning_tool": "Travel agency",
+    "impact": "Economic",
+    "risk": "Potential",
+    "motivation": "Exploration",
+    "benefit": "Cultural exchange"
+  },
+  "relationship": [
+    {
+      "requires": "Transportation"
+    },
+    {
+      "involves": "Tourism"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "related_to": "Geography"
+    },
+    {
+      "facilitated_by": "Passport"
+    },
+    {
+      "influenced_by": "Culture"
+    },
+    {
+      "promotes": "Globalization"
+    },
+    {
+      "requires": "Accommodation"
+    },
+    {
+      "supports": "Hospitality industry"
+    },
+    {
+      "impacts": "Environment"
+    }
+  ]
+}

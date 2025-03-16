@@ -1,0 +1,47 @@
+{
+  "entity": "William IV",
+  "properties": {
+    "birth_date": "1765-08-21",
+    "birth_place": "Gloucester House, Kensington",
+    "death_date": "1837-06-20",
+    "death_place": "Palace of Kensington",
+    "title": "King of the United Kingdom",
+    "reign_start": "1830-06-20",
+    "reign_end": "1837-06-20",
+    "father": "George III",
+    "mother": "Charlotte of Mecklenburg-Strelitz",
+    "spouse": "Charlotte Sophia of Saxe-Coburg-Saalfeld"
+  },
+  "relationship": [
+    {
+      "predecessor": "George IV"
+    },
+    {
+      "successor": "Victoria"
+    },
+    {
+      "part_of": "House of Hanover"
+    },
+    {
+      "influenced": "Chartist movement"
+    },
+    {
+      "involved_in": "Corn Laws"
+    },
+    {
+      "supported": "Reform Act 1832"
+    },
+    {
+      "child_of": "George III"
+    },
+    {
+      "married_to": "Charlotte Sophia of Saxe-Coburg-Saalfeld"
+    },
+    {
+      "located_in": "United Kingdom"
+    },
+    {
+      "member_of": "British royal family"
+    }
+  ]
+}

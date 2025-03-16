@@ -1,0 +1,47 @@
+{
+  "entity": "Loreena McKennitt",
+  "properties": {
+    "birth_date": "1959-06-17",
+    "birth_place": "Saint John, New Brunswick",
+    "nationality": "Canadian",
+    "occupation": "Singer-songwriter",
+    "genre": "Celtic, Folk, World",
+    "instrument": "Harp, Keyboards, Guitar, Percussion",
+    "record_label": "Warner Music Canada",
+    "website": "loreenamckennitt.com",
+    "awards": "Juno Awards",
+    "education": "University of Toronto"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Celtic mythology"
+    },
+    {
+      "influenced": "Contemporary folk music"
+    },
+    {
+      "collaborated_with": "Rush (band)"
+    },
+    {
+      "performed_at": "Islington Festival"
+    },
+    {
+      "member_of": "Canadian Music Hall of Fame"
+    },
+    {
+      "album_released": "Parallel Worlds"
+    },
+    {
+      "album_released": "The Mask and Mirror"
+    },
+    {
+      "touring_region": "North America"
+    },
+    {
+      "touring_region": "Europe"
+    },
+    {
+      "studied": "Music theory"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Careys Bay",
+  "properties": {
+    "type": "Settlement",
+    "location": "Otago",
+    "country": "New Zealand",
+    "region": "Southland",
+    "established": "1853",
+    "population": "Approximately 200",
+    "industry": "Fishing, Tourism",
+    "climate": "Oceanic",
+    "coordinates": "46°46′S 168°52′E",
+    "governance": "Clutha District Council"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Clutha District"
+    },
+    {
+      "near": "Milton"
+    },
+    {
+      "near": "Tokomairiro"
+    },
+    {
+      "founded_by": "European settlers"
+    },
+    {
+      "industry_sector": "Fishing industry"
+    },
+    {
+      "attraction_type": "Tourist destination"
+    },
+    {
+      "historical_period": "19th century"
+    },
+    {
+      "influenced_by": "Gold Rush"
+    },
+    {
+      "has_landmark": "Careys Bay Historic Hotel"
+    }
+  ]
+}

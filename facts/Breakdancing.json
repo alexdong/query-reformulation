@@ -1,0 +1,47 @@
+{
+  "entity": "Breakdancing",
+  "properties": {
+    "alternative_name": "B-girling/B-boying",
+    "origin": "Bronx, New York City",
+    "genre": "Hip-hop dance",
+    "era": "1970s",
+    "style": "Acrobatic, rhythmic",
+    "elements": "Toprock, Downrock, Freezes, Powermoves",
+    "music_genre": "Hip-hop, Funk",
+    "cultural_significance": "Expression, Community",
+    "competitive_aspect": "Battles, Competitions",
+    "olympic_status": "Olympic sport (2024)"
+  },
+  "relationship": [
+    {
+      "part_of": "Hip-hop culture"
+    },
+    {
+      "influenced": "Street dance"
+    },
+    {
+      "related_to": "DJing"
+    },
+    {
+      "related_to": "Graffiti art"
+    },
+    {
+      "related_to": "Rap music"
+    },
+    {
+      "practiced_in": "United States"
+    },
+    {
+      "practiced_in": "Japan"
+    },
+    {
+      "practiced_in": "France"
+    },
+    {
+      "pioneer": "Afrika Bambaataa"
+    },
+    {
+      "style_of": "Acrobatic dance"
+    }
+  ]
+}

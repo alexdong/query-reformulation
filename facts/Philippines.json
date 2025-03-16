@@ -1,0 +1,47 @@
+{
+  "entity": "Philippines",
+  "properties": {
+    "capital": "Manila",
+    "official_language": "Filipino, English",
+    "population": "113 million (2023)",
+    "currency": "Philippine Peso (PHP)",
+    "area_km2": "300,000",
+    "largest_city": "Quezon City",
+    "national_sport": "Basketball",
+    "government_type": "Unitary presidential republic",
+    "national_dish": "Adobo",
+    "geographic_region": "Southeast Asia"
+  },
+  "relationship": [
+    {
+      "part_of": "Southeast Asia"
+    },
+    {
+      "borders": "South China Sea"
+    },
+    {
+      "member_of": "ASEAN"
+    },
+    {
+      "influenced_by": "Spain"
+    },
+    {
+      "influenced_by": "United States"
+    },
+    {
+      "has_province": "Quezon"
+    },
+    {
+      "has_province": "Cebu"
+    },
+    {
+      "has_island": "Luzon"
+    },
+    {
+      "has_island": "Mindanao"
+    },
+    {
+      "religion": "Christianity"
+    }
+  ]
+}

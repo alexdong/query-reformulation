@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish settlement",
+  "properties": {
+    "type": "Migration",
+    "origin": "Scotland",
+    "period": "Medieval to Modern",
+    "motivation": "Economic, Religious, Political",
+    "primary_destination": "North America, Europe, Australia",
+    "initial_wave": "17th Century",
+    "significant_group": "Highlanders, Lowlanders",
+    "impact_on_destinations": "Cultural, Economic, Demographic",
+    "language": "Scots, English",
+    "religion": "Presbyterianism, Catholicism"
+  },
+  "relationship": [
+    {
+      "part_of": "British diaspora"
+    },
+    {
+      "influenced": "Celtic culture"
+    },
+    {
+      "settled_in": "Nova Scotia"
+    },
+    {
+      "settled_in": "Ireland"
+    },
+    {
+      "settled_in": "Australia"
+    },
+    {
+      "settled_in": "United States"
+    },
+    {
+      "related_to": "Jacobite risings"
+    },
+    {
+      "impacted_by": "Clearances"
+    },
+    {
+      "influenced": "Scottish literature"
+    },
+    {
+      "preceded_by": "Gaelic migrations"
+    }
+  ]
+}

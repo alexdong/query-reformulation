@@ -1,0 +1,47 @@
+{
+  "entity": "Cyclone",
+  "properties": {
+    "type": "Weather phenomenon",
+    "formation": "Warm ocean waters",
+    "wind_speed": "≥ 74 mph (119 km/h)",
+    "pressure": "Low atmospheric",
+    "eye": "Central clear area",
+    "diameter": "Hundreds of kilometers",
+    "classification": "Tropical cyclone",
+    "seasonality": "Varies by region",
+    "damage_potential": "High",
+    "naming_convention": "Regional lists"
+  },
+  "relationship": [
+    {
+      "causes": "Storm surge"
+    },
+    {
+      "generates": "Heavy rainfall"
+    },
+    {
+      "produces": "Tornadoes"
+    },
+    {
+      "related_to": "Hurricane"
+    },
+    {
+      "related_to": "Typhoon"
+    },
+    {
+      "occurs_in": "Tropical regions"
+    },
+    {
+      "measured_by": "Saffir-Simpson scale"
+    },
+    {
+      "affected_region": "Philippines"
+    },
+    {
+      "affected_region": "Bangladesh"
+    },
+    {
+      "studied_by": "Meteorology"
+    }
+  ]
+}

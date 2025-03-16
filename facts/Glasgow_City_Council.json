@@ -1,0 +1,47 @@
+{
+  "entity": "Glasgow City Council",
+  "properties": {
+    "type": "Local authority",
+    "location": "Glasgow, Scotland",
+    "population_served": "635,600",
+    "area_covered": "207 sq mi",
+    "established": "1995",
+    "leader": "Amanda Brydon (Acting Leader)",
+    "responsible_for": "Local services",
+    "budget": "£2.6 billion (2023/24)",
+    "website": "glasgow.gov.uk",
+    "governing_document": "Local Government (Scotland) Act 1994"
+  },
+  "relationship": [
+    {
+      "part_of": "Glasgow"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "governed_by": "Scottish Government"
+    },
+    {
+      "member_of": "SOLACE"
+    },
+    {
+      "provides_service_to": "Glasgow residents"
+    },
+    {
+      "responsible_for": "Education"
+    },
+    {
+      "responsible_for": "Social care"
+    },
+    {
+      "responsible_for": "Waste management"
+    },
+    {
+      "employs": "24,000"
+    },
+    {
+      "reports_to": "The Accounts Commission for Scotland"
+    }
+  ]
+}

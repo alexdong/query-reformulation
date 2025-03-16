@@ -1,0 +1,47 @@
+{
+  "entity": "Weka (machine learning)",
+  "properties": {
+    "instance_of": "Machine learning software",
+    "developer": "University of Waikato",
+    "language": "Java",
+    "license": "GNU GPL v2",
+    "operating_system": "Cross-platform",
+    "release_date": "1994",
+    "purpose": "Data mining",
+    "version": "4.0",
+    "website": "waikato.ac.nz/ml/",
+    "cost": "Free"
+  },
+  "relationship": [
+    {
+      "uses": "Java"
+    },
+    {
+      "developed_by": "University of Waikato"
+    },
+    {
+      "is_a": "Data mining software"
+    },
+    {
+      "includes": "Decision Tree"
+    },
+    {
+      "includes": "Naive Bayes"
+    },
+    {
+      "includes": "Support Vector Machine"
+    },
+    {
+      "includes": "Clustering"
+    },
+    {
+      "used_in": "Machine learning research"
+    },
+    {
+      "related_to": "RapidMiner"
+    },
+    {
+      "alternative_to": "scikit-learn"
+    }
+  ]
+}

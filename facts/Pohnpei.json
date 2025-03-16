@@ -1,0 +1,47 @@
+{
+  "entity": "Pohnpei",
+  "properties": {
+    "type": "Island",
+    "capital": "Palikir",
+    "country": "Federated States of Micronesia",
+    "area_km2": "457",
+    "highest_point": "Mount Nanmadol",
+    "population_estimate": "35,000",
+    "language": "Pohnpeian",
+    "currency": "United States Dollar",
+    "climate": "Tropical",
+    "time_zone": "UTC+11"
+  },
+  "relationship": [
+    {
+      "part_of": "Federated States of Micronesia"
+    },
+    {
+      "located_in": "Micronesia"
+    },
+    {
+      "island_group": "Caroline Islands"
+    },
+    {
+      "influenced_by": "Spanish Empire"
+    },
+    {
+      "influenced_by": "German Empire"
+    },
+    {
+      "influenced_by": "Japanese Empire"
+    },
+    {
+      "influenced_by": "United States"
+    },
+    {
+      "has_city": "Palikir"
+    },
+    {
+      "has_landmark": "Nanmadol"
+    },
+    {
+      "has_language": "Pohnpeian language"
+    }
+  ]
+}

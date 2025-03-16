@@ -1,0 +1,47 @@
+{
+  "entity": "Koekohe Beach",
+  "properties": {
+    "type": "Beach",
+    "location": "New Zealand",
+    "region": "Otago",
+    "nearest_town": "Moeraki",
+    "latitude": "-45.0783",
+    "longitude": "169.8480",
+    "known_for": "Moeraki Boulders",
+    "geology": "Coastal",
+    "access": "Public",
+    "water_type": "Ocean"
+  },
+  "relationship": [
+    {
+      "part_of": "Otago coastline"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Moeraki Boulders"
+    },
+    {
+      "near": "Moeraki"
+    },
+    {
+      "influenced_by": "Coastal erosion"
+    },
+    {
+      "adjacent_to": "Pacific Ocean"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "ecosystem": "Marine"
+    },
+    {
+      "geological_formation": "Sedimentary rocks"
+    },
+    {
+      "studied_by": "Geologists"
+    }
+  ]
+}

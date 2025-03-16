@@ -1,0 +1,47 @@
+{
+  "entity": "Mariana Islands",
+  "properties": {
+    "type": "Territory",
+    "location": "Western Pacific Ocean",
+    "governed_by": "United States",
+    "capital": "Saipan",
+    "area": "179 km²",
+    "population": "50,539",
+    "official_language": "English, Carolinian, Chamorro",
+    "currency": "United States Dollar (USD)",
+    "highest_point": "Mount Apogan",
+    "part_of": "Guam and the Northern Mariana Islands"
+  },
+  "relationship": [
+    {
+      "part_of": "Guam and the Northern Mariana Islands"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "governed_by": "United States"
+    },
+    {
+      "includes": "Saipan"
+    },
+    {
+      "includes": "Tinian"
+    },
+    {
+      "includes": "Rota"
+    },
+    {
+      "includes": "Guam"
+    },
+    {
+      "influenced_by": "Spanish Colonial Period"
+    },
+    {
+      "influenced_by": "Japanese Occupation"
+    },
+    {
+      "contains": "Mariana Trench"
+    }
+  ]
+}

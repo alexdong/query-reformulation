@@ -1,0 +1,47 @@
+{
+  "entity": "Diet",
+  "properties": {
+    "instance_of": "Habit",
+    "purpose": "Health, Weight Management",
+    "type": "Nutritional Plan",
+    "focus": "Food Intake",
+    "component": "Nutrition",
+    "impact": "Metabolism",
+    "consideration": "Individual Needs",
+    "discipline": "Self-Control",
+    "goal": "Improved Wellbeing",
+    "related_to": "Nutrition"
+  },
+  "relationship": [
+    {
+      "influences": "Health"
+    },
+    {
+      "affects": "Weight"
+    },
+    {
+      "requires": "Nutrition"
+    },
+    {
+      "related_to": "Food"
+    },
+    {
+      "impacts": "Metabolism"
+    },
+    {
+      "part_of": "Lifestyle"
+    },
+    {
+      "type_of": "Behavior"
+    },
+    {
+      "requires": "Planning"
+    },
+    {
+      "impacts": "Body Composition"
+    },
+    {
+      "related_to": "Exercise"
+    }
+  ]
+}

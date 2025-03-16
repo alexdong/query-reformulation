@@ -1,0 +1,47 @@
+{
+  "entity": "Māori language",
+  "properties": {
+    "iso_code": "mā",
+    "language_family": "Austronesian",
+    "origin": "New Zealand",
+    "speakers": "~150,000",
+    "status": "Endangered",
+    "writing_system": "Latin alphabet",
+    "official_language": "Yes (New Zealand)",
+    "revitalization_efforts": "Ongoing",
+    "dialects": "Multiple",
+    "influenced_by": "European languages"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian languages"
+    },
+    {
+      "spoken_in": "New Zealand"
+    },
+    {
+      "related_to": "Polynesian languages"
+    },
+    {
+      "influenced": "New Zealand English"
+    },
+    {
+      "has_dialect": "Te Reo Pōwhiri"
+    },
+    {
+      "has_dialect": "Taranaki dialect"
+    },
+    {
+      "has_dialect": "Raukawa dialect"
+    },
+    {
+      "revived_by": "Kōhanga Reo"
+    },
+    {
+      "taught_at": "University of Auckland"
+    },
+    {
+      "recognized_by": "UNESCO"
+    }
+  ]
+}

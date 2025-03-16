@@ -1,0 +1,47 @@
+{
+  "entity": "Banana",
+  "properties": {
+    "scientific_name": "Musa spp.",
+    "type": "Fruit",
+    "color": "Yellow",
+    "origin": "Southeast Asia",
+    "nutrient": "Potassium",
+    "family": "Musaceae",
+    "shape": "Curved",
+    "taste": "Sweet",
+    "average_length": "15-25 cm",
+    "botanical_part": "Berry"
+  },
+  "relationship": [
+    {
+      "is_a": "Fruit"
+    },
+    {
+      "part_of": "Tropical_plant"
+    },
+    {
+      "grown_in": "Philippines"
+    },
+    {
+      "grown_in": "Ecuador"
+    },
+    {
+      "used_in": "Banana_split"
+    },
+    {
+      "related_to": "Plantain"
+    },
+    {
+      "source_of": "Banana_peel"
+    },
+    {
+      "contains": "Potassium"
+    },
+    {
+      "cultivated_by": "Humans"
+    },
+    {
+      "processed_into": "Banana_chips"
+    }
+  ]
+}

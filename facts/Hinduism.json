@@ -1,0 +1,47 @@
+{
+  "entity": "Hinduism",
+  "properties": {
+    "type": "Dharma",
+    "origin": "Indian subcontinent",
+    "followers": "1.2 billion",
+    "scriptures": "Vedas, Upanishads, Bhagavad Gita",
+    "deities": "Brahma, Vishnu, Shiva",
+    "concept_of_time": "Cyclic",
+    "core_belief": "Karma, Reincarnation",
+    "ethics": "Dharma, Artha, Kama, Moksha",
+    "sacred_language": "Sanskrit",
+    "major_traditions": "Vaishnavism, Shaivism, Shaktism"
+  },
+  "relationship": [
+    {
+      "influenced": "Yoga"
+    },
+    {
+      "influenced": "Buddhism"
+    },
+    {
+      "influenced": "Jainism"
+    },
+    {
+      "related_to": "Indian philosophy"
+    },
+    {
+      "part_of": "Religion"
+    },
+    {
+      "has_sect": "Vaishnavism"
+    },
+    {
+      "has_sect": "Shaivism"
+    },
+    {
+      "has_sect": "Shaktism"
+    },
+    {
+      "deity_worships": "Vishnu"
+    },
+    {
+      "deity_worships": "Shiva"
+    }
+  ]
+}

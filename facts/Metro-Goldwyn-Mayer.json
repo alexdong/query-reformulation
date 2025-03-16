@@ -1,0 +1,47 @@
+{
+  "entity": "Metro-Goldwyn-Mayer",
+  "properties": {
+    "industry": "Film & Television",
+    "founder": "Louis B. Mayer, Carl Laemmle, Marcus Loew",
+    "hq_location": "Beverly Hills, California",
+    "formed": "1924",
+    "type": "Entertainment Company",
+    "ownership": "Amazon",
+    "revenue": "~$1.3 billion (2022)",
+    "logo": "MGM logo",
+    "website": "mgm.com",
+    "slogan": "More Movies. More Shows. More MGM."
+  },
+  "relationship": [
+    {
+      "parent_company": "Amazon"
+    },
+    {
+      "produced": "Gone with the Wind"
+    },
+    {
+      "produced": "The Wizard of Oz"
+    },
+    {
+      "produced": "James Bond franchise"
+    },
+    {
+      "owns": "United Artists"
+    },
+    {
+      "merged_with": "Loew's Incorporated"
+    },
+    {
+      "competitor": "Warner Bros. Entertainment"
+    },
+    {
+      "distributor_of": "Rocky"
+    },
+    {
+      "film_series_produced": "Pink Panther"
+    },
+    {
+      "studio_head": "Michael De Luca"
+    }
+  ]
+}

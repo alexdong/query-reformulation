@@ -1,0 +1,47 @@
+{
+  "entity": "Americanization",
+  "properties": {
+    "definition": "Cultural assimilation",
+    "origin": "19th century",
+    "focus": "Adoption of US culture",
+    "scope": "Global phenomenon",
+    "often_involves": "Consumerism, Media",
+    "criticism": "Cultural homogenization",
+    "related_concept": "Cultural imperialism",
+    "example_industry": "Fast food",
+    "often_associated_with": "Globalization",
+    "historical_context": "Post-World War II"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Manifest Destiny"
+    },
+    {
+      "related_to": "Cultural imperialism"
+    },
+    {
+      "impacts": "Local traditions"
+    },
+    {
+      "promoted_by": "US media"
+    },
+    {
+      "example_of": "Globalization"
+    },
+    {
+      "associated_with": "McDonald's"
+    },
+    {
+      "impacts": "Language"
+    },
+    {
+      "criticized_by": "Cultural preservationists"
+    },
+    {
+      "related_to": "Colonialism"
+    },
+    {
+      "manifests_in": "Fashion"
+    }
+  ]
+}

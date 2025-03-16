@@ -1,0 +1,47 @@
+{
+  "entity": "Retail",
+  "properties": {
+    "instance_of": "Industry",
+    "description": "Sale of goods to consumers",
+    "sector": "Consumer Discretionary",
+    "revenue_model": "Sales & Services",
+    "key_metrics": "Sales, Foot Traffic, Inventory Turnover",
+    "employee_count": "Millions",
+    "geographic_scope": "Global",
+    "major_trend": "E-commerce",
+    "sub_industry": "E-commerce, Brick and Mortar",
+    "economic_indicator": "Consumer Spending"
+  },
+  "relationship": [
+    {
+      "part_of": "Economy"
+    },
+    {
+      "impacts": "Consumer"
+    },
+    {
+      "relates_to": "Supply Chain"
+    },
+    {
+      "requires": "Logistics"
+    },
+    {
+      "employs": "Retail Worker"
+    },
+    {
+      "influenced_by": "Marketing"
+    },
+    {
+      "uses": "Point of Sale System"
+    },
+    {
+      "affected_by": "Inflation"
+    },
+    {
+      "competes_with": "E-commerce"
+    },
+    {
+      "provides": "Goods and Services"
+    }
+  ]
+}

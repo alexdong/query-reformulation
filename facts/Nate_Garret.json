@@ -1,0 +1,47 @@
+{
+  "entity": "Nate Garret",
+  "properties": {
+    "occupation": "Software Engineer",
+    "known_for": "Open Source Contributions",
+    "nationality": "American",
+    "education": "University of Michigan",
+    "employer": "Google",
+    "expertise": "Go Programming",
+    "contributor_to": "Kubernetes",
+    "focus": "Distributed Systems",
+    "github_handle": "natedogg",
+    "location": "Ann Arbor"
+  },
+  "relationship": [
+    {
+      "works_at": "Google"
+    },
+    {
+      "contributes_to": "Kubernetes"
+    },
+    {
+      "studied_at": "University of Michigan"
+    },
+    {
+      "programming_language": "Go"
+    },
+    {
+      "involved_in": "Cloud Computing"
+    },
+    {
+      "influences": "Open Source Community"
+    },
+    {
+      "expert_in": "Distributed Systems"
+    },
+    {
+      "member_of": "Software Engineering Community"
+    },
+    {
+      "uses": "GitHub"
+    },
+    {
+      "related_to": "Containerization"
+    }
+  ]
+}

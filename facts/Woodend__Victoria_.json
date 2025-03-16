@@ -1,0 +1,47 @@
+{
+  "entity": "Woodend (Victoria)",
+  "properties": {
+    "type": "Town",
+    "state": "Victoria",
+    "country": "Australia",
+    "postcode": "3178",
+    "latitude": "-37.8333",
+    "longitude": "145.25",
+    "population": "1700 (2021)",
+    "time_zone": "Australian Eastern Standard Time",
+    "local_government_area": "Macedon Ranges Shire",
+    "elevation": "320m"
+  },
+  "relationship": [
+    {
+      "located_in": "Victoria (Australian state)"
+    },
+    {
+      "part_of": "Macedon Ranges"
+    },
+    {
+      "near": "Kyneton"
+    },
+    {
+      "near": "Romsey"
+    },
+    {
+      "has_industry": "Agriculture"
+    },
+    {
+      "has_industry": "Tourism"
+    },
+    {
+      "has_landmark": "Woodend Manor"
+    },
+    {
+      "has_transport": "V/Line"
+    },
+    {
+      "has_sport": "Woodend Football Club"
+    },
+    {
+      "influenced_by": "Gold Rush"
+    }
+  ]
+}

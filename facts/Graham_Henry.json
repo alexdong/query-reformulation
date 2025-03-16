@@ -1,0 +1,47 @@
+{
+  "entity": "Graham Henry",
+  "properties": {
+    "birth_date": "1941-07-09",
+    "birth_place": "Wellington, New Zealand",
+    "nationality": "New Zealander",
+    "occupation": "Rugby coach",
+    "playing_position": "Fly-half",
+    "education": "Victoria University of Wellington",
+    "coaching_style": "Strategic, Analytical",
+    "height": "1.83 m",
+    "retired": "2009",
+    "awards": "New Zealand Order of Merit"
+  },
+  "relationship": [
+    {
+      "coach_of": "New Zealand national rugby team"
+    },
+    {
+      "played_for": "Wellington"
+    },
+    {
+      "coached": "Canterbury"
+    },
+    {
+      "coached": "North Harbour"
+    },
+    {
+      "influenced": "Steve Hansen"
+    },
+    {
+      "influenced": "Ian Foster"
+    },
+    {
+      "member_of": "New Zealand Rugby Union"
+    },
+    {
+      "award_recipient_of": "New Zealand Order of Merit"
+    },
+    {
+      "born_in": "Wellington, New Zealand"
+    },
+    {
+      "played_in_league": "National Provincial Championship"
+    }
+  ]
+}

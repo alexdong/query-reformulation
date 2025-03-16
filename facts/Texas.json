@@ -1,0 +1,47 @@
+{
+  "entity": "Texas",
+  "properties": {
+    "capital": "Austin",
+    "state_motto": "Friendship",
+    "area_km2": "695662",
+    "population_2023": "30471399",
+    "nickname": "The Lone Star State",
+    "official_language": "English",
+    "largest_city": "Houston",
+    "state_flower": "Bluebonnet",
+    "state_bird": "Northern Mockingbird",
+    "time_zone": "Central Time Zone"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "borders": "Oklahoma"
+    },
+    {
+      "borders": "Arkansas"
+    },
+    {
+      "borders": "Louisiana"
+    },
+    {
+      "borders": "New Mexico"
+    },
+    {
+      "borders": "Mexico"
+    },
+    {
+      "located_in": "South Central United States"
+    },
+    {
+      "has_major_city": "Dallas"
+    },
+    {
+      "has_major_city": "San Antonio"
+    },
+    {
+      "influenced_by": "Tejas"
+    }
+  ]
+}

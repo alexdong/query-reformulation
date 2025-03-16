@@ -1,0 +1,47 @@
+{
+  "entity": "Diana, Princess of Wales",
+  "properties": {
+    "birth_name": "Diana Frances Spencer",
+    "birth_date": "1961-07-01",
+    "birth_place": "Sandringham, Norfolk, England",
+    "death_date": "1997-08-31",
+    "death_place": "Paris, France",
+    "cause_of_death": "Car accident",
+    "title": "Princess of Wales",
+    "spouse": "Charles, Prince of Wales",
+    "children": "Prince William, Prince Harry",
+    "occupation": "Humanitarian"
+  },
+  "relationship": [
+    {
+      "member_of": "British nobility"
+    },
+    {
+      "family_member_of": "Spencer family"
+    },
+    {
+      "spouse_of": "Charles III"
+    },
+    {
+      "mother_of": "Prince William"
+    },
+    {
+      "mother_of": "Prince Harry"
+    },
+    {
+      "attended": "Westminster School"
+    },
+    {
+      "philanthropic_work": "HIV/AIDS awareness"
+    },
+    {
+      "advocate_for": "Landmine ban"
+    },
+    {
+      "public_image": "Fashion icon"
+    },
+    {
+      "funeral_held_at": "Westminster Abbey"
+    }
+  ]
+}

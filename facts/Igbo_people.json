@@ -1,0 +1,47 @@
+{
+  "entity": "Igbo people",
+  "properties": {
+    "ethnic_group": "Igbo",
+    "location": "Nigeria, Cameroon, Equatorial Guinea",
+    "language": "Igbo language",
+    "population": "40-50 million",
+    "religion": "Christianity, Traditional Igbo religion",
+    "culture": "Rich oral tradition, vibrant art, complex social structures",
+    "historical_kingdoms": "Nri, Aro, Bonny",
+    "economic_activity": "Agriculture, trade, entrepreneurship",
+    "literacy_rate": "Approximately 65%",
+    "political_system": "Traditional chieftaincy, modern democracy"
+  },
+  "relationship": [
+    {
+      "part_of": "Nigeria"
+    },
+    {
+      "speaks": "Igbo language"
+    },
+    {
+      "related_to": "Yoruba people"
+    },
+    {
+      "related_to": "Hausa people"
+    },
+    {
+      "influenced_by": "Christianity"
+    },
+    {
+      "practice": "Traditional Igbo religion"
+    },
+    {
+      "located_in": "Igboland"
+    },
+    {
+      "historical_figure": "Nnamdi Azikiwe"
+    },
+    {
+      "historical_event": "Igbo genocide"
+    },
+    {
+      "associated_with": "Biafra"
+    }
+  ]
+}

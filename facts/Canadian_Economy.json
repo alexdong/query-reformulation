@@ -1,0 +1,47 @@
+{
+  "entity": "Canadian Economy",
+  "properties": {
+    "type": "Mixed economy",
+    "GDP_nominal": "2.14 trillion USD (2023)",
+    "GDP_per_capita": "52,770 USD (2023)",
+    "currency": "Canadian dollar",
+    "major_sectors": "Natural resources, services, manufacturing",
+    "trade_partner": "United States",
+    "inflation_rate": "2.9% (2023)",
+    "unemployment_rate": "6.2% (Dec 2023)",
+    "sovereign_rating": "AA (Moody's)",
+    "economic_system": "Capitalism"
+  },
+  "relationship": [
+    {
+      "part_of": "North American economy"
+    },
+    {
+      "trade_relationship": "United States"
+    },
+    {
+      "influenced_by": "British Empire"
+    },
+    {
+      "resource_dependency": "Oil"
+    },
+    {
+      "member_of": "G7"
+    },
+    {
+      "regulates": "Bank of Canada"
+    },
+    {
+      "exports_to": "United States"
+    },
+    {
+      "imports_from": "China"
+    },
+    {
+      "impacted_by": "Canadian federal budget"
+    },
+    {
+      "affected_by": "Canadian natural resources"
+    }
+  ]
+}

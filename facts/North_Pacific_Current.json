@@ -1,0 +1,47 @@
+{
+  "entity": "North Pacific Current",
+  "properties": {
+    "type": "Ocean current",
+    "location": "North Pacific Ocean",
+    "origin": "Subpolar Pacific",
+    "direction": "Southward",
+    "temperature": "Cold",
+    "salinity": "Lower",
+    "depth": "Surface",
+    "width": "100 km",
+    "speed": "0.3-1.2 m/s",
+    "part_of": "North Pacific Gyre"
+  },
+  "relationship": [
+    {
+      "flows_into": "California Current"
+    },
+    {
+      "flows_into": "Oyashio Current"
+    },
+    {
+      "part_of": "North Pacific Gyre"
+    },
+    {
+      "influenced_by": "Wind patterns"
+    },
+    {
+      "impacts": "Marine ecosystems"
+    },
+    {
+      "affects": "Climate"
+    },
+    {
+      "transports": "Sea ice"
+    },
+    {
+      "moderates": "Sea surface temperature"
+    },
+    {
+      "connected_to": "Subpolar Gyre"
+    },
+    {
+      "adjacent_to": "Aleutian Islands"
+    }
+  ]
+}

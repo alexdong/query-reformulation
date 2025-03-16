@@ -1,0 +1,47 @@
+{
+  "entity": "Tertiary Period",
+  "properties": {
+    "era_type": "Geologic Time Division",
+    "start_date": "66 million years ago",
+    "end_date": "2.58 million years ago",
+    "preceding_era": "Cretaceous Period",
+    "succeeding_era": "Quaternary Period",
+    "major_events": "Evolution of mammals, birds, and flowering plants; continental drift",
+    "climate": "Generally warmer than previous eras, with fluctuating temperatures",
+    "dominant_life": "Mammals, birds, flowering plants",
+    "subdivisions": "Paleogene, Neogene",
+    "geological_scale_level": "Period"
+  },
+  "relationship": [
+    {
+      "part_of": "Mesozoic Era"
+    },
+    {
+      "preceded_by": "Cretaceous Period"
+    },
+    {
+      "followed_by": "Quaternary Period"
+    },
+    {
+      "contains": "Paleogene"
+    },
+    {
+      "contains": "Neogene"
+    },
+    {
+      "life_forms_evolved": "Mammals"
+    },
+    {
+      "life_forms_evolved": "Birds"
+    },
+    {
+      "life_forms_evolved": "Flowering Plants"
+    },
+    {
+      "continental_drift_affected": "Laurasia"
+    },
+    {
+      "continental_drift_affected": "Gondwana"
+    }
+  ]
+}

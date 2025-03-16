@@ -1,0 +1,47 @@
+{
+  "entity": "Forth Estuary",
+  "properties": {
+    "type": "Estuary",
+    "location": "North East England",
+    "country": "United Kingdom",
+    "mouth_to_source_length": "36 km",
+    "tributaries": "Tyne, Wear",
+    "discharge_point": "North Sea",
+    "area": "130 km²",
+    "salinity": "Brackish",
+    "geology": "Glacial deposits, sedimentary rocks",
+    "designation": "Site of Special Scientific Interest (SSSI)"
+  },
+  "relationship": [
+    {
+      "part_of": "River Tyne"
+    },
+    {
+      "flows_into": "North Sea"
+    },
+    {
+      "located_in": "North East England"
+    },
+    {
+      "adjacent_to": "County Durham"
+    },
+    {
+      "adjacent_to": "Tyne and Wear"
+    },
+    {
+      "contains": "Hadston Castle"
+    },
+    {
+      "habitat_for": "Grey Seal"
+    },
+    {
+      "habitat_for": "Redshank"
+    },
+    {
+      "managed_by": "Environment Agency"
+    },
+    {
+      "threatened_by": "Industrial pollution"
+    }
+  ]
+}

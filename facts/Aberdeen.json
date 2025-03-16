@@ -1,0 +1,47 @@
+{
+  "entity": "Aberdeen",
+  "properties": {
+    "type": "City",
+    "country": "United Kingdom",
+    "population_2022": "203,643",
+    "latitude": "57.1529",
+    "longitude": "-2.9777",
+    "region": "Aberdeenshire",
+    "established": "1179",
+    "currency": "GBP",
+    "timezone": "GMT/BST",
+    "area_km2": "216"
+  },
+  "relationship": [
+    {
+      "part_of": "Scotland"
+    },
+    {
+      "located_in": "Aberdeenshire"
+    },
+    {
+      "river_flows_through": "River Dee"
+    },
+    {
+      "river_flows_through": "River Don"
+    },
+    {
+      "has_twin_city": "Baltimore"
+    },
+    {
+      "has_twin_city": "Karlsruhe"
+    },
+    {
+      "industry": "Oil and Gas"
+    },
+    {
+      "university": "University of Aberdeen"
+    },
+    {
+      "historical_figure": "Robert Burns"
+    },
+    {
+      "landmark": "Aberdeen Maritime Museum"
+    }
+  ]
+}

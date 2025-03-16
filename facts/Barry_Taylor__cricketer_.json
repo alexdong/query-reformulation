@@ -1,0 +1,47 @@
+{
+  "entity": "Barry Taylor (cricketer)",
+  "properties": {
+    "birth_date": "1973-03-27",
+    "birth_place": "Wellington, New Zealand",
+    "nationality": "New Zealander",
+    "playing_role": "Right-arm fast bowler",
+    "batting_style": "Right-handed",
+    "height": "1.88 m",
+    "domestic_team": "Wellington",
+    "international_debut": "2001",
+    "playing_career_end": "2013",
+    "ODI_caps": "24"
+  },
+  "relationship": [
+    {
+      "team": "New Zealand national cricket team"
+    },
+    {
+      "plays_for": "Wellington cricket team"
+    },
+    {
+      "coach": "Mike Hesson"
+    },
+    {
+      "captain_of": "Wellington cricket team"
+    },
+    {
+      "influenced_by": "Shane Bond"
+    },
+    {
+      "played_with": "Daniel Flynn"
+    },
+    {
+      "played_with": "Jacob Oram"
+    },
+    {
+      "participated_in": "2007 Cricket World Cup"
+    },
+    {
+      "influenced": "Mitchell McClenaghan"
+    },
+    {
+      "award": "New Zealand Cricket Awards"
+    }
+  ]
+}

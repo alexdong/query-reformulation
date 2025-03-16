@@ -1,0 +1,47 @@
+{
+  "entity": "Chad",
+  "properties": {
+    "capital": "N'Djamena",
+    "official_languages": "French, Arabic",
+    "population": "17.4 million",
+    "area_km2": "1,284,000",
+    "currency": "Central African CFA franc",
+    "gdp_nominal": "$3.3 billion",
+    "largest_city": "N'Djamena",
+    "land_border_length_km": "5,340",
+    "independence_date": "1960-08-11",
+    "government_type": "Republic"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "borders": "Libya"
+    },
+    {
+      "borders": "Sudan"
+    },
+    {
+      "borders": "Central African Republic"
+    },
+    {
+      "borders": "Cameroon"
+    },
+    {
+      "borders": "Nigeria"
+    },
+    {
+      "member_of": "African Union"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "located_in": "Sahel"
+    },
+    {
+      "has_region": "Tibesti Mountains"
+    }
+  ]
+}

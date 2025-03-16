@@ -1,0 +1,47 @@
+{
+  "entity": "Modern Art",
+  "properties": {
+    "time_period": "Late 19th - Mid 20th Century",
+    "origin": "Europe & USA",
+    "style": "Experimental, Abstract",
+    "focus": "Subjectivity, Emotion, Form",
+    "rejection": "Traditional Art",
+    "movement": "Multiple, Diverse",
+    "mediums": "Painting, Sculpture, Photography",
+    "influence": "Industrial Revolution, Social Change",
+    "key_concept": "Breaking Conventions",
+    "legacy": "Contemporary Art"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Realism"
+    },
+    {
+      "followed_by": "Contemporary Art"
+    },
+    {
+      "influenced": "Pop Art"
+    },
+    {
+      "influenced": "Conceptual Art"
+    },
+    {
+      "artist_associated": "Pablo Picasso"
+    },
+    {
+      "artist_associated": "Henri Matisse"
+    },
+    {
+      "artist_associated": "Wassily Kandinsky"
+    },
+    {
+      "movement_includes": "Impressionism"
+    },
+    {
+      "movement_includes": "Cubism"
+    },
+    {
+      "movement_includes": "Surrealism"
+    }
+  ]
+}

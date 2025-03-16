@@ -1,0 +1,47 @@
+{
+  "entity": "Ancient Rome",
+  "properties": {
+    "type": "Civilization",
+    "location": "Italian Peninsula",
+    "founding_date": "753 BC",
+    "fall_date": "476 AD",
+    "capital": "Rome",
+    "language": "Latin",
+    "government": "Republic, Empire",
+    "religion": "Roman mythology, Christianity",
+    "area_peak": "5,900,000 sq km",
+    "major_achievement": "Law, Engineering"
+  },
+  "relationship": [
+    {
+      "predecessor": "Roman Kingdom"
+    },
+    {
+      "successor": "Byzantine Empire"
+    },
+    {
+      "influenced": "Western Civilization"
+    },
+    {
+      "war_with": "Carthage"
+    },
+    {
+      "conquered": "Gaul"
+    },
+    {
+      "ruled_by": "Julius Caesar"
+    },
+    {
+      "ruled_by": "Augustus"
+    },
+    {
+      "built": "Colosseum"
+    },
+    {
+      "developed": "Roman Law"
+    },
+    {
+      "part_of": "Roman Empire"
+    }
+  ]
+}

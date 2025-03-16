@@ -1,0 +1,47 @@
+{
+  "entity": "Abel Tasman National Park",
+  "properties": {
+    "location": "New Zealand",
+    "area": "420 km²",
+    "established": "1997",
+    "named_after": "Abel Tasman",
+    "biogeographic_realm": "Neotropical",
+    "ecosystem": "Temperate rainforest",
+    "marine_area": "Tasman Sea",
+    "management_agency": "Department of Conservation",
+    "primary_terrain": "Coastal",
+    "biodiversity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand national parks"
+    },
+    {
+      "located_in": "Tasman-Nelson region"
+    },
+    {
+      "named_after": "Abel Tasman"
+    },
+    {
+      "contains": "Golden Bay"
+    },
+    {
+      "contains": "Tasman Bay"
+    },
+    {
+      "flora_includes": "Rimu"
+    },
+    {
+      "fauna_includes": "Kākā"
+    },
+    {
+      "activity": "Kayaking"
+    },
+    {
+      "activity": "Hiking"
+    },
+    {
+      "adjacent_to": "Kahurangi National Park"
+    }
+  ]
+}

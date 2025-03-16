@@ -1,0 +1,47 @@
+{
+  "entity": "Royal Academy of Dramatic Art",
+  "properties": {
+    "type": "Drama school",
+    "location": "London, England",
+    "founded": "1791",
+    "governing_body": "Royal Academy",
+    "principal": "Jonathan Blake",
+    "focus": "Acting, Technical Theatre",
+    "degree_awarded": "BA (Hons)",
+    "reputation": "Highly prestigious",
+    "affiliation": "University of London",
+    "building_style": "Georgian"
+  },
+  "relationship": [
+    {
+      "member_of": "Royal Academy"
+    },
+    {
+      "located_in": "London"
+    },
+    {
+      "preceded_by": "London Theatre Royal"
+    },
+    {
+      "alumnus": "Judi Dench"
+    },
+    {
+      "alumnus": "Benedict Cumberbatch"
+    },
+    {
+      "alumnus": "Ralph Fiennes"
+    },
+    {
+      "alumnus": "John Gielgud"
+    },
+    {
+      "offers": "BA (Hons) Acting"
+    },
+    {
+      "provides": "Technical Theatre training"
+    },
+    {
+      "influenced": "British theatre"
+    }
+  ]
+}

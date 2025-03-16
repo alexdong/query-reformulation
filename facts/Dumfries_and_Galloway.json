@@ -1,0 +1,47 @@
+{
+  "entity": "Dumfries and Galloway",
+  "properties": {
+    "type": "Council Area",
+    "country": "United Kingdom",
+    "region": "Southwest Scotland",
+    "area_km2": "4,715",
+    "population_2020": "148,000",
+    "council_headquarters": "Dumfries",
+    "established": "1996",
+    "currency": "Pound Sterling",
+    "language": "English",
+    "time_zone": "GMT/BST"
+  },
+  "relationship": [
+    {
+      "part_of": "Scotland"
+    },
+    {
+      "borders": "Scottish Borders"
+    },
+    {
+      "borders": "East Ayrshire"
+    },
+    {
+      "borders": "Wigtownshire"
+    },
+    {
+      "contains": "Galloway Forest Park"
+    },
+    {
+      "contains": "Solway Firth"
+    },
+    {
+      "contains": "Dumfries"
+    },
+    {
+      "contains": "Kirkcudbright"
+    },
+    {
+      "has_landmark": "Sweetheart Abbey"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    }
+  ]
+}

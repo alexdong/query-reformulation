@@ -1,0 +1,47 @@
+{
+  "entity": "Glacial Landform",
+  "properties": {
+    "type": "Geomorphic Feature",
+    "formation_process": "Glacial Erosion/Deposition",
+    "scale": "Varies (meters to kilometers)",
+    "composition": "Sediment, Rock",
+    "location": "High Latitudes/Altitudes",
+    "evidence_of": "Past Glaciation",
+    "characteristic": "Asymmetrical Shape",
+    "related_to": "Glacier",
+    "impact_on": "Landscape",
+    "examples": "Moraines, Eskers, Cirques"
+  },
+  "relationship": [
+    {
+      "part_of": "Geomorphology"
+    },
+    {
+      "caused_by": "Glacier"
+    },
+    {
+      "adjacent_to": "Bedrock"
+    },
+    {
+      "contains": "Sediment"
+    },
+    {
+      "related_to": "Periglacial Landform"
+    },
+    {
+      "found_in": "Alpine Region"
+    },
+    {
+      "influences": "Drainage Patterns"
+    },
+    {
+      "example_of": "Moraine"
+    },
+    {
+      "example_of": "Cirque"
+    },
+    {
+      "example_of": "Esker"
+    }
+  ]
+}

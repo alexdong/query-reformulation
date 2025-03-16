@@ -1,0 +1,47 @@
+{
+  "entity": "Art",
+  "properties": {
+    "instance_of": "Creative activity",
+    "definition": "Expression of human creativity",
+    "purpose": "Aesthetic or communicative",
+    "mediums": "Painting, Sculpture, Music, Literature",
+    "historical_context": "Prehistoric to Contemporary",
+    "subject": "Visual, auditory, or performance",
+    "category": "Human endeavor",
+    "style": "Varies widely",
+    "value": "Cultural, historical, aesthetic",
+    "classification": "Fine Arts, Decorative Arts"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Human experience"
+    },
+    {
+      "related_to": "Aesthetics"
+    },
+    {
+      "part_of": "Culture"
+    },
+    {
+      "genre_includes": "Painting"
+    },
+    {
+      "genre_includes": "Sculpture"
+    },
+    {
+      "genre_includes": "Music"
+    },
+    {
+      "genre_includes": "Literature"
+    },
+    {
+      "movement_includes": "Renaissance"
+    },
+    {
+      "movement_includes": "Impressionism"
+    },
+    {
+      "artist_creates": "Artwork"
+    }
+  ]
+}

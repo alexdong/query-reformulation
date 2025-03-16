@@ -1,0 +1,47 @@
+{
+  "entity": "Sacramento, California",
+  "properties": {
+    "capital_of": "California",
+    "population_2020": "525,000",
+    "area_sq_mi": "96.3",
+    "founded": "1848",
+    "mayor": "Darrell Steinberg",
+    "nickname": "City of Trees",
+    "time_zone": "Pacific Time",
+    "elevation_ft": "95",
+    "major_industry": "Government, Healthcare, Agriculture",
+    "county": "Sacramento County"
+  },
+  "relationship": [
+    {
+      "part_of": "California"
+    },
+    {
+      "located_in": "Central Valley"
+    },
+    {
+      "river_flows_through": "Sacramento River"
+    },
+    {
+      "near_to": "San Francisco"
+    },
+    {
+      "influenced_by": "Gold Rush"
+    },
+    {
+      "has_landmark": "California State Capitol Museum"
+    },
+    {
+      "has_landmark": "Old Sacramento State Historic Park"
+    },
+    {
+      "has_team": "Sacramento Kings"
+    },
+    {
+      "has_university": "California State University, Sacramento"
+    },
+    {
+      "member_of": "United States"
+    }
+  ]
+}

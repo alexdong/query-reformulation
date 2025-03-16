@@ -1,0 +1,47 @@
+{
+  "entity": "Italian Renaissance Architecture",
+  "properties": {
+    "time_period": "1400-1600",
+    "origin": "Italy",
+    "style_influenced_by": "Classical Antiquity",
+    "key_feature": "Symmetry & Proportion",
+    "material_used": "Marble, Brick, Stone",
+    "architectural_order": "Classical Orders (Doric, Ionic, Corinthian)",
+    "dome_usage": "Prominent",
+    "arches_used": "Rounded & Segmental",
+    "decoration": "Relief Sculpture, Frescoes",
+    "focus": "Humanism & Rationality"
+  },
+  "relationship": [
+    {
+      "influenced": "Baroque Architecture"
+    },
+    {
+      "preceded_by": "Gothic Architecture"
+    },
+    {
+      "influenced": "Palladianism"
+    },
+    {
+      "architect_designed": "Filippo Brunelleschi"
+    },
+    {
+      "architect_designed": "Donato Bramante"
+    },
+    {
+      "architect_designed": "Michelangelo"
+    },
+    {
+      "building_example": "Florence Cathedral"
+    },
+    {
+      "building_example": "St. Peter's Basilica"
+    },
+    {
+      "building_example": "Palazzo Medici-Riccardi"
+    },
+    {
+      "part_of_movement": "Renaissance"
+    }
+  ]
+}

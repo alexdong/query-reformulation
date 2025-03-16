@@ -1,0 +1,45 @@
+{
+  "entity": "Agronomy",
+  "properties": {
+    "instance_of": "Applied science",
+    "field": "Agriculture",
+    "focus": "Crop production",
+    "related_to": "Plant science",
+    "goal": "Sustainable food production",
+    "origin": "Ancient Greece",
+    "subfield": "Soil conservation",
+    "application": "Crop management"
+  },
+  "relationship": [
+    {
+      "studies": "Soil"
+    },
+    {
+      "studies": "Plants"
+    },
+    {
+      "related_to": "Horticulture"
+    },
+    {
+      "related_to": "Agricultural engineering"
+    },
+    {
+      "influenced_by": "Aristotle"
+    },
+    {
+      "employs": "Fertilizers"
+    },
+    {
+      "employs": "Irrigation"
+    },
+    {
+      "requires": "Crop rotation"
+    },
+    {
+      "impacts": "Food security"
+    },
+    {
+      "contributes_to": "Sustainable agriculture"
+    }
+  ]
+}

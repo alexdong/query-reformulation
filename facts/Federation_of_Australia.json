@@ -1,0 +1,47 @@
+{
+  "entity": "Federation of Australia",
+  "properties": {
+    "type": "Nation",
+    "capital": "Canberra",
+    "date_of_establishment": "1901-01-01",
+    "founding_document": "Australian Constitution",
+    "preceding_states": "Six British colonies",
+    "official_language": "English",
+    "national_symbol": "Golden Wattle",
+    "governing_system": "Parliamentary democracy",
+    "head_of_state": "Monarch of the United Kingdom",
+    "national_anthem": "Advance Australia Fair"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Colonial Australia"
+    },
+    {
+      "succeeded_by": "Commonwealth of Australia"
+    },
+    {
+      "influenced_by": "British Empire"
+    },
+    {
+      "constitutional_law": "Australian Constitution"
+    },
+    {
+      "governed_by": "Australian Parliament"
+    },
+    {
+      "head_of_government": "Prime Minister of Australia"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "located_in": "Australia"
+    },
+    {
+      "influenced": "New Zealand"
+    },
+    {
+      "involved_in": "World War I"
+    }
+  ]
+}

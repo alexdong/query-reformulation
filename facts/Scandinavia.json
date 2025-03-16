@@ -1,0 +1,47 @@
+{
+  "entity": "Scandinavia",
+  "properties": {
+    "region_type": "Geographic region",
+    "location": "Northern Europe",
+    "area": "747,330 km²",
+    "population": "28,600,000",
+    "languages": "North Germanic",
+    "climate": "Subarctic to temperate",
+    "currency": "Various (NOK, SEK, DKK)",
+    "culture": "Nordic",
+    "geography": "Mountains, forests, coastline",
+    "political_status": "Part of Europe"
+  },
+  "relationship": [
+    {
+      "part_of": "Northern Europe"
+    },
+    {
+      "includes": "Norway"
+    },
+    {
+      "includes": "Sweden"
+    },
+    {
+      "includes": "Denmark"
+    },
+    {
+      "sometimes_includes": "Finland"
+    },
+    {
+      "sometimes_includes": "Iceland"
+    },
+    {
+      "influenced": "Nordic Noir"
+    },
+    {
+      "shares_history_with": "Viking Age"
+    },
+    {
+      "borders": "Russia, Finland"
+    },
+    {
+      "has_member": "Nordic Council"
+    }
+  ]
+}

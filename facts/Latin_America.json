@@ -1,0 +1,47 @@
+{
+  "entity": "Latin America",
+  "properties": {
+    "region_type": "Geographic region",
+    "population": "650 million",
+    "area": "18.000.000 km²",
+    "languages": "Spanish, Portuguese, Indigenous languages",
+    "GDP_nominal": "$4.0 trillion",
+    "continent": "Americas",
+    "largest_country": "Brazil",
+    "highest_mountain": "Aconcagua",
+    "climate": "Varied",
+    "political_system": "Diverse"
+  },
+  "relationship": [
+    {
+      "part_of": "Americas"
+    },
+    {
+      "borders": "North America"
+    },
+    {
+      "influenced_by": "Spanish Empire"
+    },
+    {
+      "influenced_by": "Portuguese Empire"
+    },
+    {
+      "contains": "Brazil"
+    },
+    {
+      "contains": "Mexico"
+    },
+    {
+      "contains": "Argentina"
+    },
+    {
+      "economic_bloc": "Mercosur"
+    },
+    {
+      "economic_bloc": "Pacific Alliance"
+    },
+    {
+      "historical_event": "Spanish Conquest"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "California Current",
+  "properties": {
+    "type": "Ocean Current",
+    "location": "Eastern Pacific Ocean",
+    "origin": "Aleutian Islands",
+    "direction": "Southward",
+    "temperature": "Cold",
+    "salinity": "Relatively Low",
+    "depth": "Extends deep",
+    "width": "100 km (62 mi)",
+    "speed": "0.5–1.5 m/s (1.6–5.0 mph)",
+    "influenced_by": "North Pacific High"
+  },
+  "relationship": [
+    {
+      "part_of": "North Pacific Current"
+    },
+    {
+      "flows_into": "Pacific Ocean"
+    },
+    {
+      "affects": "California Coast"
+    },
+    {
+      "supports": "Upwelling"
+    },
+    {
+      "impacts": "Marine Ecosystem"
+    },
+    {
+      "influences": "El Niño"
+    },
+    {
+      "feeds": "Monterey Bay"
+    },
+    {
+      "impacts_climate_of": "California"
+    },
+    {
+      "supports_species": "Salmon"
+    },
+    {
+      "impacts_navigation": "Shipping"
+    }
+  ]
+}

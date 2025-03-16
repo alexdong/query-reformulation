@@ -1,0 +1,47 @@
+{
+  "entity": "Comstock Act",
+  "properties": {
+    "type": "United States federal law",
+    "enacted": "1873",
+    "purpose": "Suppress obscenity and vice",
+    "sponsor": "George William Curtis",
+    "signed_into_law_by": "Ulysses S. Grant",
+    "amended_by": "1917",
+    "focus": "Mail and telegraphs",
+    "scope": "National",
+    "legal_basis": "Commerce Clause",
+    "repealed": "1988"
+  },
+  "relationship": [
+    {
+      "part_of": "United States law"
+    },
+    {
+      "related_to": "Anthony Comstock"
+    },
+    {
+      "impacted": "Obscenity"
+    },
+    {
+      "impacted": "Vice"
+    },
+    {
+      "influenced": "Postal censorship"
+    },
+    {
+      "influenced": "Telegraph censorship"
+    },
+    {
+      "related_to": "Mann Act"
+    },
+    {
+      "preceded": "Postal censorship"
+    },
+    {
+      "challenged_by": "Planned Parenthood of America"
+    },
+    {
+      "superseded_by": "Child Pornography Prevention Act"
+    }
+  ]
+}

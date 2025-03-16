@@ -1,0 +1,47 @@
+{
+  "entity": "Carrying Capacity",
+  "properties": {
+    "definition": "Maximum population size",
+    "unit": "Individuals/Area",
+    "affected_by": "Resource availability",
+    "ecological_concept": "Population ecology",
+    "influenced_by": "Environmental factors",
+    "related_to": "Limiting factors",
+    "type": "Ecological threshold",
+    "calculation": "Resource/Individual need",
+    "dynamic": "Changes over time",
+    "impacts": "Species survival"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Resource"
+    },
+    {
+      "related_to": "Population"
+    },
+    {
+      "part_of": "Ecology"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "affects": "Habitat"
+    },
+    {
+      "related_to": "Logistic growth"
+    },
+    {
+      "influenced_by": "Climate"
+    },
+    {
+      "related_to": "Density-dependent regulation"
+    },
+    {
+      "impacts": "Overpopulation"
+    },
+    {
+      "related_to": "Sustainability"
+    }
+  ]
+}

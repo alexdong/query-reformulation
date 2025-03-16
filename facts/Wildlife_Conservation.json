@@ -1,0 +1,47 @@
+{
+  "entity": "Wildlife Conservation",
+  "properties": {
+    "definition": "Protecting biodiversity",
+    "goal": "Species survival",
+    "focus": "Habitats & Species",
+    "method": "Protected areas, Legislation",
+    "scale": "Local to Global",
+    "importance": "Ecosystem services",
+    "threats": "Habitat loss, Poaching",
+    "funding": "Government, NGOs",
+    "related_field": "Environmental science",
+    "legal_framework": "CITES, CBD"
+  },
+  "relationship": [
+    {
+      "part_of": "Environmentalism"
+    },
+    {
+      "related_to": "Biodiversity"
+    },
+    {
+      "protects": "Endangered species"
+    },
+    {
+      "requires": "Habitat restoration"
+    },
+    {
+      "addresses": "Climate change"
+    },
+    {
+      "involves": "Protected areas"
+    },
+    {
+      "supported_by": "IUCN"
+    },
+    {
+      "influenced_by": "Rachel Carson"
+    },
+    {
+      "overlaps_with": "Zoology"
+    },
+    {
+      "impacts": "Ecosystems"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Trade",
+  "properties": {
+    "country": "New Zealand",
+    "primary_exports": "Dairy, Meat, Wood, Fruit",
+    "major_trading_partner": "China, Australia, United States",
+    "trade_agreement_count": "14",
+    "trade_balance": "Trade surplus",
+    "export_value_USD": "65 Billion (2022)",
+    "import_value_USD": "55 Billion (2022)",
+    "trade_regime": "Free trade",
+    "currency": "New Zealand Dollar",
+    "trade_organisation": "World Trade Organization"
+  },
+  "relationship": [
+    {
+      "exports_to": "China"
+    },
+    {
+      "imports_from": "Australia"
+    },
+    {
+      "trade_agreement_with": "Singapore"
+    },
+    {
+      "member_of": "WTO"
+    },
+    {
+      "influenced_by": "Trans-Tasman Agreement"
+    },
+    {
+      "exports_product": "Milk powder"
+    },
+    {
+      "imports_product": "Machinery"
+    },
+    {
+      "trade_negotiation_with": "United Kingdom"
+    },
+    {
+      "impacted_by": "COVID-19 pandemic"
+    },
+    {
+      "supports": "New Zealand Inc."
+    }
+  ]
+}

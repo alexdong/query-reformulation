@@ -1,0 +1,47 @@
+{
+  "entity": "Taiwan",
+  "properties": {
+    "official_name": "Republic of China",
+    "capital": "Taipei",
+    "population": "23.57 million",
+    "area": "36,193 km²",
+    "currency": "New Taiwan dollar (TWD)",
+    "language": "Mandarin Chinese",
+    "government": "Semi-presidential republic",
+    "GDP_nominal": "$775 billion (2023)",
+    "major_export": "Electronics",
+    "time_zone": "Taiwan Standard Time (TST)"
+  },
+  "relationship": [
+    {
+      "part_of": "East Asia"
+    },
+    {
+      "located_in": "Asia"
+    },
+    {
+      "border_country": "People's Republic of China"
+    },
+    {
+      "island_group": "Taiwanese archipelago"
+    },
+    {
+      "influenced_by": "Japanese Empire"
+    },
+    {
+      "historical_period": "Qing Dynasty"
+    },
+    {
+      "trade_partner": "United States"
+    },
+    {
+      "technology_leader_in": "Semiconductors"
+    },
+    {
+      "governed_by": "Taiwanese government"
+    },
+    {
+      "recognized_by": "United States"
+    }
+  ]
+}

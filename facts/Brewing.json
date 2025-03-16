@@ -1,0 +1,47 @@
+{
+  "entity": "Brewing",
+  "properties": {
+    "instance_of": "Process",
+    "purpose": "Beer production",
+    "main_ingredient": "Malted barley",
+    "other_ingredients": "Hops, Yeast, Water",
+    "process_type": "Fermentation",
+    "history_length": "Thousands of years",
+    "origin": "Mesopotamia",
+    "temperature_range": "18-28°C",
+    "equipment_needed": "Brew kettle, Fermenter, Bottling equipment",
+    "result": "Beer"
+  },
+  "relationship": [
+    {
+      "uses": "Malted barley"
+    },
+    {
+      "uses": "Hops"
+    },
+    {
+      "uses": "Yeast"
+    },
+    {
+      "uses": "Water"
+    },
+    {
+      "produces": "Beer"
+    },
+    {
+      "part_of": "Food preparation"
+    },
+    {
+      "related_to": "Distillation"
+    },
+    {
+      "influenced_by": "Agriculture"
+    },
+    {
+      "requires": "Brewery"
+    },
+    {
+      "historical_example": "Ancient Egyptian brewing"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Cape Breton Highlands National Park",
+  "properties": {
+    "location": "Nova Scotia, Canada",
+    "established": "1932",
+    "area": "299 km²",
+    "administered_by": "Parks Canada",
+    "ecosystem": "Temperate rainforest",
+    "highest_point": "White Hill (816 m)",
+    "biome": "Boreal",
+    "climate": "Subarctic",
+    "features": "Coastal cliffs, mountains, forests",
+    "designated_as": "National Park"
+  },
+  "relationship": [
+    {
+      "part_of": "National Parks of Canada"
+    },
+    {
+      "located_in": "Cape Breton Island"
+    },
+    {
+      "adjacent_to": "Gulf of Saint Lawrence"
+    },
+    {
+      "contains": "Skyline Trail"
+    },
+    {
+      "contains": "Ingonish"
+    },
+    {
+      "contains": "MacIntyre Falls"
+    },
+    {
+      "flora_includes": "Balsam fir"
+    },
+    {
+      "fauna_includes": "Moose"
+    },
+    {
+      "influenced_by": "Canadian government"
+    },
+    {
+      "protects": "Atlantic salmon"
+    }
+  ]
+}

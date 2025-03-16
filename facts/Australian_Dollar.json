@@ -1,0 +1,47 @@
+{
+  "entity": "Australian Dollar",
+  "properties": {
+    "currency_code": "AUD",
+    "symbol": "$",
+    "country": "Australia",
+    "introduced": "1966",
+    "decimal_places": "2",
+    "issuing_authority": "Reserve Bank of Australia",
+    "highest_denomination": "100",
+    "economic_bloc": "Asia-Pacific",
+    "exchange_rate_vs_USD": "0.66",
+    "inflation_rate": "0.04"
+  },
+  "relationship": [
+    {
+      "part_of": "Australian Economy"
+    },
+    {
+      "influenced_by": "Bretton_Woods_system"
+    },
+    {
+      "exchange_rate_with": "United_States_dollar"
+    },
+    {
+      "used_in": "Australian_trade"
+    },
+    {
+      "managed_by": "Reserve_Bank_of_Australia"
+    },
+    {
+      "compared_to": "New_Zealand_dollar"
+    },
+    {
+      "compared_to": "Japanese_yen"
+    },
+    {
+      "impacts": "Australian_interest_rates"
+    },
+    {
+      "affects": "Australian_exports"
+    },
+    {
+      "used_in": "Australian_banking"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Provence-Alpes-Côte d'Azur",
+  "properties": {
+    "type": "Region",
+    "capital": "Marseille",
+    "area_km2": "35,353",
+    "population_2021": "8,149,000",
+    "currency": "Euro",
+    "language": "French",
+    "region_code": "91",
+    "subdivisions": "Departments",
+    "geography": "Mediterranean Coast, Alps, Inland Plains",
+    "major_city": "Nice"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "contains": "Alpes-Maritimes"
+    },
+    {
+      "contains": "Hautes-Alpes"
+    },
+    {
+      "contains": "Bouches-du-Rhône"
+    },
+    {
+      "contains": "Var"
+    },
+    {
+      "contains": "Vaucluse"
+    },
+    {
+      "borders": "Occitanie"
+    },
+    {
+      "borders": "Auvergne-Rhône-Alpes"
+    },
+    {
+      "has_landmark": "Eiffel Tower"
+    },
+    {
+      "has_landmark": "Palais des Baux"
+    }
+  ]
+}

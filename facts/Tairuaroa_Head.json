@@ -1,0 +1,47 @@
+{
+  "entity": "Tairuaroa Head",
+  "properties": {
+    "type": "Headland",
+    "location": "Otago, New Zealand",
+    "coordinates": "45°56′S 170°52′E",
+    "height": "218 m (715 ft)",
+    "geology": "Volcanic rock",
+    "significant_feature": "Important nesting site",
+    "species_present": "Albatross, Shags, Penguins",
+    "access": "Restricted",
+    "named_after": "Tairuaroa (person)",
+    "part_of": "Catlins Coast"
+  },
+  "relationship": [
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "part_of": "Catlins Coast"
+    },
+    {
+      "contains": "Royal Albatross"
+    },
+    {
+      "contains": "Yellow-eyed Penguin"
+    },
+    {
+      "contains": "Little Blue Penguin"
+    },
+    {
+      "adjacent_to": "Tautuku Bay"
+    },
+    {
+      "adjacent_to": "Ngapuhi Beach"
+    },
+    {
+      "geology_type": "Volcanic rock"
+    },
+    {
+      "named_after": "Tairuaroa"
+    },
+    {
+      "protected_area": "Catlins Forest Park"
+    }
+  ]
+}

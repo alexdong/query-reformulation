@@ -1,0 +1,47 @@
+{
+  "entity": "Italianate architecture",
+  "properties": {
+    "style_origin": "Italy",
+    "period": "1840s–1880s",
+    "influenced_by": "Italian Renaissance",
+    "key_feature": "Low-pitched roofs",
+    "common_material": "Brick, Stone",
+    "window_style": "Tall, arched windows",
+    "ornamentation": "Bracketed cornices, window hoods",
+    "roof_shape": "Gabled or hipped",
+    "typical_height": "Two to three stories",
+    "geographic_spread": "Worldwide"
+  },
+  "relationship": [
+    {
+      "influenced": "Second Empire architecture"
+    },
+    {
+      "influenced_by": "Palladianism"
+    },
+    {
+      "predecessor": "Neoclassical architecture"
+    },
+    {
+      "example_location": "United States"
+    },
+    {
+      "example_location": "United Kingdom"
+    },
+    {
+      "architectural_style": "Renaissance architecture"
+    },
+    {
+      "architect": "Andrew Jackson Downing"
+    },
+    {
+      "architect": "Calvert Vaux"
+    },
+    {
+      "building_type": "Villa"
+    },
+    {
+      "building_type": "Townhouse"
+    }
+  ]
+}

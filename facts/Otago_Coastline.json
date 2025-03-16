@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Coastline",
+  "properties": {
+    "location": "Southeastern New Zealand",
+    "length": "295 km",
+    "region": "Otago",
+    "geology": "Volcanic, sedimentary",
+    "climate": "Oceanic",
+    "biodiversity": "High",
+    "landforms": "Fiords, cliffs, beaches",
+    "economic_activity": "Tourism, fishing, agriculture",
+    "protected_areas": "Numerous",
+    "water_temperature": "Cool"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand Coastline"
+    },
+    {
+      "adjacent_to": "Southland Region"
+    },
+    {
+      "contains": "Fiordland National Park"
+    },
+    {
+      "contains": "Catlins"
+    },
+    {
+      "influenced_by": "Southern Ocean"
+    },
+    {
+      "contains": "Moeraki Boulders"
+    },
+    {
+      "contains": "Taiaroa Head"
+    },
+    {
+      "supports": "Yellow-eyed Penguin"
+    },
+    {
+      "supports": "New Zealand fur seal"
+    },
+    {
+      "impacted_by": "Coastal erosion"
+    }
+  ]
+}

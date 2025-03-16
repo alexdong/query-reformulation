@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Ring of Fire",
+  "properties": {
+    "type": "Geological Zone",
+    "location": "Pacific Ocean",
+    "length": "40,000 km",
+    "depth": "6,200 m",
+    "activity": "Volcanic and Seismic",
+    "formation": "Plate Tectonics",
+    "number_of_volcanoes": "75%",
+    "earthquakes": "90%",
+    "area": "45000 km²",
+    "description": "Region of frequent earthquakes and volcanic eruptions"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "caused_by": "Plate Tectonics"
+    },
+    {
+      "contains": "Aleutian Islands"
+    },
+    {
+      "contains": "Japan"
+    },
+    {
+      "contains": "Andes"
+    },
+    {
+      "contains": "Philippines"
+    },
+    {
+      "adjacent_to": "Pacific Plate"
+    },
+    {
+      "adjacent_to": "North American Plate"
+    },
+    {
+      "adjacent_to": "Eurasian Plate"
+    },
+    {
+      "influences": "Tsunami"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Pakistan",
+  "properties": {
+    "capital": "Islamabad",
+    "official_language": "Urdu",
+    "population": "241.3 million (2023)",
+    "area_km2": "796,095",
+    "currency": "Pakistani Rupee (PKR)",
+    "government_type": "Parliamentary Republic",
+    "largest_city": "Karachi",
+    "national_sport": "Cricket",
+    "independence_date": "1947-08-14",
+    "location": "South Asia"
+  },
+  "relationship": [
+    {
+      "part_of": "South Asia"
+    },
+    {
+      "borders": "India"
+    },
+    {
+      "borders": "Afghanistan"
+    },
+    {
+      "borders": "Iran"
+    },
+    {
+      "borders": "China"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "has_part": "Punjab"
+    },
+    {
+      "has_part": "Sindh"
+    },
+    {
+      "influenced_by": "Mughal Empire"
+    }
+  ]
+}

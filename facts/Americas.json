@@ -1,0 +1,47 @@
+{
+  "entity": "Americas",
+  "properties": {
+    "type": "Continent",
+    "area": "42.5 million km²",
+    "population": "950 million",
+    "largest_country": "United States",
+    "highest_point": "Aconcagua",
+    "lowest_point": "Death Valley",
+    "major_language": "Spanish, English, Portuguese",
+    "climate": "Varied",
+    "geology": "Complex",
+    "discovery_date": "1492"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "North America"
+    },
+    {
+      "contains": "South America"
+    },
+    {
+      "borders": "Atlantic Ocean"
+    },
+    {
+      "borders": "Pacific Ocean"
+    },
+    {
+      "influenced_by": "Indigenous cultures"
+    },
+    {
+      "colonized_by": "European powers"
+    },
+    {
+      "trade_partner": "Europe"
+    },
+    {
+      "resource": "Oil"
+    },
+    {
+      "has_region": "Amazon Rainforest"
+    }
+  ]
+}

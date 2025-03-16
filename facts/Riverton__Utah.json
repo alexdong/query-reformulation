@@ -1,0 +1,47 @@
+{
+  "entity": "Riverton, Utah",
+  "properties": {
+    "type": "City",
+    "state": "Utah",
+    "country": "United States",
+    "population_2020": "115,630",
+    "area_total": "22.7 sq mi",
+    "established": "1962",
+    "timezone": "Mountain Time",
+    "elevation": "4,449 ft",
+    "mayor": "Trent Nelson",
+    "zip_codes": "84065"
+  },
+  "relationship": [
+    {
+      "part_of": "Salt Lake City Metropolitan Area"
+    },
+    {
+      "located_in": "Utah"
+    },
+    {
+      "county": "Salt Lake County"
+    },
+    {
+      "neighbor": "Herriman"
+    },
+    {
+      "neighbor": "Draper"
+    },
+    {
+      "neighbor": "South Jordan"
+    },
+    {
+      "school_district": "Canyons School District"
+    },
+    {
+      "serves": "Riverton High School"
+    },
+    {
+      "economic_activity": "Technology, Retail"
+    },
+    {
+      "influenced_by": "Post-World War II Suburbanization"
+    }
+  ]
+}

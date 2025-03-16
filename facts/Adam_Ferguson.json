@@ -1,0 +1,47 @@
+{
+  "entity": "Adam Ferguson",
+  "properties": {
+    "birth_date": "1744-09-12",
+    "birth_place": "St. Andrews, Scotland",
+    "death_date": "1813-03-16",
+    "death_place": "Edinburgh, Scotland",
+    "nationality": "Scottish",
+    "occupation": "Philosopher",
+    "academic_title": "Professor",
+    "field": "Moral Philosophy",
+    "influenced_by": "David Hume",
+    "known_for": "Philosophy of Progress"
+  },
+  "relationship": [
+    {
+      "educated_at": "St Andrews University"
+    },
+    {
+      "influenced": "John Stewart"
+    },
+    {
+      "influenced_by": "Adam Smith"
+    },
+    {
+      "taught_at": "University of Edinburgh"
+    },
+    {
+      "contemporary_of": "Adam Smith"
+    },
+    {
+      "contemporary_of": "James Hutton"
+    },
+    {
+      "member_of": "Scottish Enlightenment"
+    },
+    {
+      "work_published": "An Essay on the History of Civil Society"
+    },
+    {
+      "work_published": "Lectures on Select Subjects in the Law"
+    },
+    {
+      "preceded_by": "George Jardine (professor)"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Waitaki District",
+  "properties": {
+    "type": "Local government area",
+    "region": "Otago",
+    "country": "New Zealand",
+    "population_2018": "23565",
+    "area_km2": "1991",
+    "mayor": "Gary Kelliher",
+    "established": "1876",
+    "timezone": "NZDT",
+    "currency": "NZD",
+    "official_language": "English"
+  },
+  "relationship": [
+    {
+      "part_of": "Otago Region"
+    },
+    {
+      "contains": "Oamaru"
+    },
+    {
+      "contains": "Moeraki"
+    },
+    {
+      "contains": "Palmerston"
+    },
+    {
+      "borders": "Central Otago District"
+    },
+    {
+      "borders": "North Otago"
+    },
+    {
+      "river_flows_through": "Waitaki River"
+    },
+    {
+      "has_economy": "Agriculture"
+    },
+    {
+      "has_economy": "Tourism"
+    },
+    {
+      "historical_event": "Waitaki Gold Rush"
+    }
+  ]
+}

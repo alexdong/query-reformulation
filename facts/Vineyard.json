@@ -1,0 +1,47 @@
+{
+  "entity": "Vineyard",
+  "properties": {
+    "instance_of": "Landform",
+    "type": "Cultivated land",
+    "purpose": "Grape cultivation",
+    "location": "Wine regions",
+    "soil_type": "Varied",
+    "aspect": "Varied",
+    "slope": "Varied",
+    "climate": "Temperate",
+    "size": "Variable",
+    "water_source": "Irrigation/Rainfall"
+  },
+  "relationship": [
+    {
+      "produces": "Wine"
+    },
+    {
+      "part_of": "Wine region"
+    },
+    {
+      "contains": "Grapevine"
+    },
+    {
+      "located_in": "Country"
+    },
+    {
+      "influenced_by": "Terroir"
+    },
+    {
+      "managed_by": "Viticulturist"
+    },
+    {
+      "requires": "Sunlight"
+    },
+    {
+      "affected_by": "Pest"
+    },
+    {
+      "supports": "Ecosystem"
+    },
+    {
+      "yields": "Grapes"
+    }
+  ]
+}

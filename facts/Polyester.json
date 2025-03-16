@@ -1,0 +1,47 @@
+{
+  "entity": "Polyester",
+  "properties": {
+    "material_type": "Polymer",
+    "chemical_formula": "C<0xE2><0x82><0x88>H₆O₄",
+    "discovery_date": "1935",
+    "inventor": "Wallace Carothers",
+    "primary_use": "Textiles",
+    "melting_point": "260 °C",
+    "strength": "High",
+    "durability": "Excellent",
+    "water_absorption": "Low",
+    "recyclability": "Recyclable"
+  },
+  "relationship": [
+    {
+      "part_of": "Polymer Chemistry"
+    },
+    {
+      "invented_by": "DuPont"
+    },
+    {
+      "used_in": "Clothing"
+    },
+    {
+      "used_in": "Packaging"
+    },
+    {
+      "related_to": "Nylon"
+    },
+    {
+      "alternative_name": "PET"
+    },
+    {
+      "derived_from": "Petroleum"
+    },
+    {
+      "impacts": "Textile Industry"
+    },
+    {
+      "contributes_to": "Microplastic Pollution"
+    },
+    {
+      "process": "Polycondensation"
+    }
+  ]
+}

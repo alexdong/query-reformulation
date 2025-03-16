@@ -1,0 +1,47 @@
+{
+  "entity": "Football (Soccer)",
+  "properties": {
+    "instance_of": "Team sport",
+    "sport_type": "Ball sport",
+    "origin": "England",
+    "governing_body": "FIFA",
+    "number_of_players": "11",
+    "ball_shape": "Spherical",
+    "objective": "Score goals",
+    "field_surface": "Grass/Artificial turf",
+    "scoring_method": "Goal",
+    "popularity": "Global"
+  },
+  "relationship": [
+    {
+      "played_in": "FIFA World Cup"
+    },
+    {
+      "governed_by": "FIFA"
+    },
+    {
+      "played_on": "Football pitch"
+    },
+    {
+      "equipment_used": "Football (ball)"
+    },
+    {
+      "rule_defined_by": "Laws of the Game"
+    },
+    {
+      "player_position": "Goalkeeper"
+    },
+    {
+      "player_position": "Defender"
+    },
+    {
+      "player_position": "Midfielder"
+    },
+    {
+      "player_position": "Forward"
+    },
+    {
+      "influenced": "Futsal"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Western Philosophy",
+  "properties": {
+    "definition": "Systematic study of fundamental questions",
+    "origin": "Ancient Greece",
+    "scope": "Metaphysics, Epistemology, Ethics",
+    "historical_period": "6th century BC - Present",
+    "key_figure_1": "Plato",
+    "key_figure_2": "Aristotle",
+    "key_figure_3": "Immanuel Kant",
+    "major_branch_1": "Rationalism",
+    "major_branch_2": "Empiricism",
+    "influence_on": "Science, Politics, Ethics"
+  },
+  "relationship": [
+    {
+      "predecessor": "Pre-Socratic Philosophy"
+    },
+    {
+      "influenced": "Logic"
+    },
+    {
+      "influenced": "Political Philosophy"
+    },
+    {
+      "influenced": "Moral Philosophy"
+    },
+    {
+      "subfield_of": "Philosophy"
+    },
+    {
+      "related_to": "Eastern Philosophy"
+    },
+    {
+      "developed_by": "Ancient Greeks"
+    },
+    {
+      "includes": "Existentialism"
+    },
+    {
+      "includes": "Stoicism"
+    },
+    {
+      "influenced_by": "Ancient Greek Religion"
+    }
+  ]
+}

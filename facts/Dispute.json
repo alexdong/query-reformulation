@@ -1,0 +1,47 @@
+{
+  "entity": "Dispute",
+  "properties": {
+    "instance_of": "Conflict",
+    "type": "Argument",
+    "nature": "Disagreement",
+    "resolution_method": "Negotiation",
+    "cause": "Misunderstanding",
+    "scope": "Legal, Personal, Commercial",
+    "intensity": "Mild to Severe",
+    "duration": "Short to Long",
+    "outcome": "Settlement or Escalation",
+    "legal_status": "Civil or Criminal"
+  },
+  "relationship": [
+    {
+      "part_of": "Conflict"
+    },
+    {
+      "leads_to": "Litigation"
+    },
+    {
+      "involves": "Parties"
+    },
+    {
+      "requires": "Mediation"
+    },
+    {
+      "can_resolve_through": "Arbitration"
+    },
+    {
+      "related_to": "Negotiation"
+    },
+    {
+      "may_involve": "Law"
+    },
+    {
+      "often_caused_by": "Miscommunication"
+    },
+    {
+      "can_escalate_to": "Lawsuit"
+    },
+    {
+      "addressed_by": "Legal System"
+    }
+  ]
+}

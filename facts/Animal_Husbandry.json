@@ -1,0 +1,47 @@
+{
+  "entity": "Animal Husbandry",
+  "properties": {
+    "instance_of": "Agricultural practice",
+    "definition": "Management & breeding of domestic animals",
+    "scope": "Livestock, poultry, aquaculture",
+    "goal": "Food, fiber, labor, recreation",
+    "history": "Ancient times",
+    "economic_impact": "Significant",
+    "environmental_impact": "Variable",
+    "related_field": "Agriculture",
+    "sub_disciplines": "Dairy farming, poultry farming",
+    "ethical_considerations": "Animal welfare"
+  },
+  "relationship": [
+    {
+      "part_of": "Agriculture"
+    },
+    {
+      "related_to": "Livestock"
+    },
+    {
+      "related_to": "Poultry"
+    },
+    {
+      "related_to": "Aquaculture"
+    },
+    {
+      "impacts": "Food security"
+    },
+    {
+      "influences": "Rural economy"
+    },
+    {
+      "requires": "Veterinary medicine"
+    },
+    {
+      "requires": "Animal nutrition"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "related_to": "Genetics"
+    }
+  ]
+}

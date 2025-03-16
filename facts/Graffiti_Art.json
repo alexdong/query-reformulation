@@ -1,0 +1,47 @@
+{
+  "entity": "Graffiti Art",
+  "properties": {
+    "definition": "Visual art created illegally on public or private property",
+    "origin": "Ancient Egypt",
+    "early_form": "Cave paintings",
+    "modern_era_start": "1960s (Philadelphia, New York)",
+    "mediums": "Spray paint, stencils, markers, stickers",
+    "styles": "Wildstyle, Bubble letters, Throw-ups, Tags",
+    "often_associated_with": "Hip Hop culture",
+    "legal_status": "Generally illegal",
+    "purpose": "Expression, protest, communication",
+    "subgenres": "Street art, Muralism"
+  },
+  "relationship": [
+    {
+      "influenced": "Street art"
+    },
+    {
+      "predecessor_of": "Modern art"
+    },
+    {
+      "related_to": "Vandalism"
+    },
+    {
+      "artist_uses": "Spray paint"
+    },
+    {
+      "often_found_in": "Urban areas"
+    },
+    {
+      "artist_associated": "Banksy"
+    },
+    {
+      "artist_associated": "Keith Haring"
+    },
+    {
+      "influenced": "Graphic design"
+    },
+    {
+      "part_of": "Youth culture"
+    },
+    {
+      "legal_counterpart": "Mural"
+    }
+  ]
+}

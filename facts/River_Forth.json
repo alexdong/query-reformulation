@@ -1,0 +1,47 @@
+{
+  "entity": "River Forth",
+  "properties": {
+    "type": "River",
+    "length": "211 km",
+    "source": "Stockenrow",
+    "mouth": "Forth of Firth",
+    "country": "Scotland",
+    "tributary_of": "North Sea",
+    "discharge_location": "Forth",
+    "basin_area": "3,285 km²",
+    "falls_through": "Scottish Highlands",
+    "navigable": "Yes"
+  },
+  "relationship": [
+    {
+      "flows_through": "Stirling"
+    },
+    {
+      "flows_through": "Linlithgow"
+    },
+    {
+      "flows_through": "Dunfermline"
+    },
+    {
+      "tributary": "River Bannoch"
+    },
+    {
+      "tributary": "River Teith"
+    },
+    {
+      "crosses": "Forth and Clyde Canal"
+    },
+    {
+      "crosses": "Union Canal"
+    },
+    {
+      "landmark": "Forth Bridge"
+    },
+    {
+      "landmark": "Forth Rail Bridge"
+    },
+    {
+      "part_of": "Forth estuary"
+    }
+  ]
+}

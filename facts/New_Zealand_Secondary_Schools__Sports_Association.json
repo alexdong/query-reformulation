@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Secondary Schools' Sports Association",
+  "properties": {
+    "type": "Organization",
+    "acronym": "NSSSA",
+    "country": "New Zealand",
+    "focus": "Secondary School Sport",
+    "established": "1968",
+    "governing_body_for": "Secondary School Sport",
+    "purpose": "Promote and administer sport",
+    "membership": "Secondary Schools",
+    "headquarters": "Wellington",
+    "website": "www.nsssa.co.nz"
+  },
+  "relationship": [
+    {
+      "member_of": "Sport New Zealand"
+    },
+    {
+      "organizes": "National Secondary Schools' Championships"
+    },
+    {
+      "governs": "Secondary School Sport Competitions"
+    },
+    {
+      "affiliated_with": "New Zealand Olympic Committee"
+    },
+    {
+      "represents": "Secondary Schools"
+    },
+    {
+      "promotes": "Sport Participation"
+    },
+    {
+      "supports": "Student Athletes"
+    },
+    {
+      "collaborates_with": "Regional Sports Associations"
+    },
+    {
+      "provides": "Sporting Opportunities"
+    },
+    {
+      "influences": "School Sport Policy"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Northern Hemisphere",
+  "properties": {
+    "area": "290,000,000 km²",
+    "population": "Approximately 932 million",
+    "latitude_range": "0°–90° N",
+    "climate_zones": "Varied, polar to tropical",
+    "dominant_landmasses": "Eurasia, North America",
+    "seasons": "Experiences winter and summer",
+    "solar_insolation": "Varies seasonally",
+    "average_temperature": "10°C (50°F)",
+    "land_percentage": "42%",
+    "highest_point": "Mount Everest"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "opposite_of": "Southern Hemisphere"
+    },
+    {
+      "contains": "Arctic"
+    },
+    {
+      "contains": "Europe"
+    },
+    {
+      "contains": "North America"
+    },
+    {
+      "contains": "Asia"
+    },
+    {
+      "contains": "Africa"
+    },
+    {
+      "experiences": "Summer Solstice"
+    },
+    {
+      "experiences": "Winter Solstice"
+    },
+    {
+      "border_with": "Arctic Circle"
+    }
+  ]
+}

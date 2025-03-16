@@ -1,0 +1,47 @@
+{
+  "entity": "NATO",
+  "properties": {
+    "instance_of": "International organization",
+    "type": "Military alliance",
+    "formed_date": "1949-04-04",
+    "headquarters": "Brussels",
+    "membership": "32",
+    "purpose": "Collective defense",
+    "treaty": "North Atlantic Treaty",
+    "official_language": "English, French",
+    "secretary_general": "Jens Stoltenberg",
+    "legal_basis": "North Atlantic Treaty"
+  },
+  "relationship": [
+    {
+      "member_state": "United States"
+    },
+    {
+      "member_state": "Canada"
+    },
+    {
+      "member_state": "United Kingdom"
+    },
+    {
+      "member_state": "France"
+    },
+    {
+      "member_state": "Germany"
+    },
+    {
+      "founded_by": "Treaty of London"
+    },
+    {
+      "predecessor": "London Conference"
+    },
+    {
+      "article": "Article 5 (Collective Defence)"
+    },
+    {
+      "influenced": "Warsaw Pact"
+    },
+    {
+      "response_to": "Cold War"
+    }
+  ]
+}

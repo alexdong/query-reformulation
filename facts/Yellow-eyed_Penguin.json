@@ -1,0 +1,47 @@
+{
+  "entity": "Yellow-eyed Penguin",
+  "properties": {
+    "scientific_name": "Megadyptes antipodes",
+    "conservation_status": "Endangered",
+    "average_height": "63–82 cm",
+    "average_weight": "5–8 kg",
+    "distribution": "New Zealand, Subantarctic Islands",
+    "diet": "Fish, Squid, Crustaceans",
+    "incubation_period": "39–43 days",
+    "fledging_age": "90–110 days",
+    "distinctive_feature": "Pale yellow iris",
+    "habitat": "Coastal forests, scrubland"
+  },
+  "relationship": [
+    {
+      "part_of": "Sphenisciformes"
+    },
+    {
+      "lives_in": "New Zealand"
+    },
+    {
+      "threatened_by": "Predation"
+    },
+    {
+      "prey_of": "Sharks"
+    },
+    {
+      "related_to": "Little Penguin"
+    },
+    {
+      "migration": "Seasonal"
+    },
+    {
+      "nests_in": "Forest"
+    },
+    {
+      "feeds_on": "Antarctic Silverfish"
+    },
+    {
+      "conservation_effort": "Department of Conservation"
+    },
+    {
+      "is_a": "Bird"
+    }
+  ]
+}

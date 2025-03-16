@@ -1,0 +1,47 @@
+{
+  "entity": "Loch Ness",
+  "properties": {
+    "type": "Lake",
+    "location": "Scotland",
+    "country": "United Kingdom",
+    "surface_area": "56.4 sq km",
+    "max_depth": "230 m",
+    "volume": "7.43 × 10^8 m³",
+    "formation": "Glacial",
+    "river_flows_into": "River Ness",
+    "elevation": "15.3 m",
+    "discovery_date": "Prehistoric"
+  },
+  "relationship": [
+    {
+      "part_of": "Great Glen"
+    },
+    {
+      "located_in": "Highland"
+    },
+    {
+      "contains": "Nessie"
+    },
+    {
+      "flows_to": "Moray Firth"
+    },
+    {
+      "near": "Fort Augustus"
+    },
+    {
+      "near": "Drumnadrochit"
+    },
+    {
+      "influenced": "Tourism"
+    },
+    {
+      "studied_by": "Kenneth Maclean"
+    },
+    {
+      "featured_in": "Monster hunting"
+    },
+    {
+      "associated_with": "Scottish folklore"
+    }
+  ]
+}

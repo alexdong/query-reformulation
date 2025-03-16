@@ -1,0 +1,47 @@
+{
+  "entity": "Robert Burns",
+  "properties": {
+    "birth_date": "1759-01-25",
+    "birth_place": "Alloway, Scotland",
+    "death_date": "1796-07-25",
+    "death_place": "Dumfries, Scotland",
+    "occupation": "Poet",
+    "nationality": "Scottish",
+    "period": "Scottish Enlightenment",
+    "language": "Scots",
+    "genre": "Romanticism",
+    "spouse": "Jean Armour"
+  },
+  "relationship": [
+    {
+      "influenced": "Romanticism"
+    },
+    {
+      "preceded_by": "Allan Ramsay"
+    },
+    {
+      "followed_by": "James Hogg"
+    },
+    {
+      "wrote_for": "The Scots Musical Museum"
+    },
+    {
+      "father_of": "Elizabeth Burns"
+    },
+    {
+      "father_of": "Robert Burns (Jr)"
+    },
+    {
+      "associated_with": "Scottish Enlightenment"
+    },
+    {
+      "lived_in": "Dumfries"
+    },
+    {
+      "born_in": "Alloway"
+    },
+    {
+      "poem_title": "Auld Lang Syne"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Crop protection",
+  "properties": {
+    "type": "Agricultural practice",
+    "goal": "Maximize yield",
+    "methods": "Chemical, biological, cultural",
+    "threats_addressed": "Pests, diseases, weeds",
+    "economic_impact": "Significant",
+    "environmental_concern": "Potential",
+    "regulation": "Governmental",
+    "history": "Ancient times",
+    "importance": "Food security",
+    "scope": "Global"
+  },
+  "relationship": [
+    {
+      "prevents": "Crop loss"
+    },
+    {
+      "uses": "Pesticide"
+    },
+    {
+      "includes": "Integrated pest management"
+    },
+    {
+      "affects": "Food production"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "relies_on": "Agronomy"
+    },
+    {
+      "requires": "Monitoring"
+    },
+    {
+      "influenced_by": "Plant pathology"
+    },
+    {
+      "related_to": "Sustainable agriculture"
+    },
+    {
+      "addresses": "Weed control"
+    }
+  ]
+}

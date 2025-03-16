@@ -1,0 +1,46 @@
+{
+  "entity": "Trend",
+  "properties": {
+    "instance_of": "Concept",
+    "field": "Sociology",
+    "related_to": "Popularity",
+    "time_frame": "Short-term",
+    "measurement": "Frequency",
+    "description": "Directional change",
+    "influenced_by": "Culture",
+    "affected_by": "Social media",
+    "synonym": "Fashion"
+  },
+  "relationship": [
+    {
+      "is_a": "Sociological concept"
+    },
+    {
+      "related_to": "Fashion trend"
+    },
+    {
+      "influenced_by": "Social media"
+    },
+    {
+      "part_of": "Cultural phenomenon"
+    },
+    {
+      "example_of": "Popularity"
+    },
+    {
+      "causes": "Consumer behavior"
+    },
+    {
+      "analyzed_by": "Trend forecasting"
+    },
+    {
+      "impacts": "Marketing"
+    },
+    {
+      "related_to": "Zeitgeist"
+    },
+    {
+      "studied_in": "Sociology"
+    }
+  ]
+}

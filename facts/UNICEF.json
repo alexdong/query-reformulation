@@ -1,0 +1,47 @@
+{
+  "entity": "UNICEF",
+  "properties": {
+    "instance_of": "Specialized agency",
+    "founder": "United Nations",
+    "hq_location": "New York City",
+    "established": "1946",
+    "purpose": "Child welfare",
+    "mandate": "Humanitarian aid",
+    "focus": "Children",
+    "acronym": "UNICEF",
+    "legal_form": "Intergovernmental organization",
+    "budget_2022": "8.4 billion USD"
+  },
+  "relationship": [
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "works_with": "World Food Programme"
+    },
+    {
+      "funds": "Child health programs"
+    },
+    {
+      "advocates_for": "Children's rights"
+    },
+    {
+      "collaborates_with": "UNESCO"
+    },
+    {
+      "provides": "Emergency relief"
+    },
+    {
+      "focuses_on": "Education"
+    },
+    {
+      "supports": "Sustainable development"
+    },
+    {
+      "headquarters_located_in": "New York City"
+    },
+    {
+      "governed_by": "UNICEF Executive Board"
+    }
+  ]
+}

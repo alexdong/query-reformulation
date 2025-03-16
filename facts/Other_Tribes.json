@@ -1,0 +1,47 @@
+{
+  "entity": "Other Tribes",
+  "properties": {
+    "type": "Indigenous peoples",
+    "location": "North America",
+    "historical_period": "Pre-colonial era",
+    "culture": "Diverse",
+    "language_family": "Various",
+    "subsistence": "Hunting/Gathering/Agriculture",
+    "social_structure": "Tribal",
+    "religion": "Animism/Shamanism",
+    "population": "Varies greatly",
+    "status": "Often marginalized"
+  },
+  "relationship": [
+    {
+      "part_of": "Native American tribes"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "related_to": "Sioux"
+    },
+    {
+      "related_to": "Cherokee"
+    },
+    {
+      "related_to": "Iroquois"
+    },
+    {
+      "influenced_by": "European colonization"
+    },
+    {
+      "affected_by": "Indian Removal Act"
+    },
+    {
+      "has_artifact": "Pottery"
+    },
+    {
+      "has_artifact": "Basketry"
+    }
+  ]
+}

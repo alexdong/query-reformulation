@@ -1,0 +1,47 @@
+{
+  "entity": "Tasman-Marlborough Region",
+  "properties": {
+    "type": "Region",
+    "country": "New Zealand",
+    "area_km2": "33587",
+    "population_2023": "61700",
+    "region_code": "17",
+    "main_city": "Nelson",
+    "geography": "Mountains, Coastline, Sounds",
+    "economy": "Tourism, Horticulture, Viticulture",
+    "climate": "Temperate Maritime",
+    "governing_body": "Tasman-Marlborough District Council"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "contains": "Abel Tasman National Park"
+    },
+    {
+      "contains": "Marlborough Sounds"
+    },
+    {
+      "neighbor": "West Coast Region"
+    },
+    {
+      "neighbor": "Canterbury Region"
+    },
+    {
+      "neighbor": "Nelson City"
+    },
+    {
+      "produces": "Sauvignon Blanc"
+    },
+    {
+      "produces": "Apples"
+    },
+    {
+      "attraction": "Wine Region"
+    },
+    {
+      "attraction": "Hiking Trails"
+    }
+  ]
+}

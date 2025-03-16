@@ -1,0 +1,47 @@
+{
+  "entity": "Battle of Culloden",
+  "properties": {
+    "date": "April 16, 1746",
+    "location": "Culloden Moor",
+    "outcome": "Government victory",
+    "belligerents": "Jacobites vs. British Army",
+    "casualties_jacobite": "~1,500",
+    "casualties_british": "~300",
+    "war": "Jacobite rising of 1745",
+    "commander_jacobite": "Charles Edward Stuart",
+    "commander_british": "William, Duke of Cumberland",
+    "significance": "End of Jacobite rising"
+  },
+  "relationship": [
+    {
+      "part_of": "Jacobite rising of 1745"
+    },
+    {
+      "involved_in": "War of the Quadruple Alliance"
+    },
+    {
+      "location_is_in": "Scotland"
+    },
+    {
+      "fought_against": "British Army"
+    },
+    {
+      "led_by": "Charles Edward Stuart"
+    },
+    {
+      "led_by": "William, Duke of Cumberland"
+    },
+    {
+      "resulted_in": "Suppression of Highland culture"
+    },
+    {
+      "preceded_by": "Battle of Falkirk Muir"
+    },
+    {
+      "followed_by": "Flight of the Jacobites"
+    },
+    {
+      "influenced": "Highland Clearances"
+    }
+  ]
+}

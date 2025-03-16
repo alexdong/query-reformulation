@@ -1,0 +1,47 @@
+{
+  "entity": "Legume",
+  "properties": {
+    "instance_of": "Plant family",
+    "scientific_name": "Fabaceae",
+    "common_name": "Legumes",
+    "order": "Fabales",
+    "family_description": "Flowering plants",
+    "nitrogen_fixation": "Yes",
+    "seed_type": "Pod",
+    "economic_importance": "High",
+    "global_distribution": "Worldwide",
+    "plant_type": "Herbaceous, woody"
+  },
+  "relationship": [
+    {
+      "part_of": "Fabales"
+    },
+    {
+      "contains": "Pea"
+    },
+    {
+      "contains": "Bean"
+    },
+    {
+      "contains": "Soybean"
+    },
+    {
+      "contains": "Lentil"
+    },
+    {
+      "provides": "Protein"
+    },
+    {
+      "improves": "Soil health"
+    },
+    {
+      "used_in": "Animal feed"
+    },
+    {
+      "cultivated_in": "Agriculture"
+    },
+    {
+      "related_to": "Nitrogen cycle"
+    }
+  ]
+}

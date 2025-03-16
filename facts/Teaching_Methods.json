@@ -1,0 +1,47 @@
+{
+  "entity": "Teaching Methods",
+  "properties": {
+    "definition": "Approaches to instruction",
+    "purpose": "Facilitate learning",
+    "scope": "Diverse strategies",
+    "focus": "Student engagement",
+    "assessment": "Learning outcomes",
+    "design": "Curriculum planning",
+    "effectiveness": "Varies by context",
+    "adaptation": "Needs adjustment",
+    "research": "Ongoing study",
+    "impact": "Student achievement"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Educational Psychology"
+    },
+    {
+      "related_to": "Curriculum Design"
+    },
+    {
+      "supports": "Active Learning"
+    },
+    {
+      "contrasts_with": "Lecture Method"
+    },
+    {
+      "includes": "Project-Based Learning"
+    },
+    {
+      "includes": "Inquiry-Based Learning"
+    },
+    {
+      "includes": "Cooperative Learning"
+    },
+    {
+      "requires": "Teacher Training"
+    },
+    {
+      "impacts": "Student Motivation"
+    },
+    {
+      "part_of": "Pedagogy"
+    }
+  ]
+}

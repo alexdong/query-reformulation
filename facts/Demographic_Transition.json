@@ -1,0 +1,47 @@
+{
+  "entity": "Demographic Transition",
+  "properties": {
+    "type": "Model",
+    "description": "Explains population change",
+    "stages": "5 stages",
+    "focus": "Birth & Death Rates",
+    "developed_by": "Warren Thompson, Frank Notestein",
+    "time_frame": "18th century onwards",
+    "initial_focus": "European countries",
+    "dependent_on": "Economic development",
+    "assumptions": "Predictable patterns",
+    "criticisms": "Oversimplification"
+  },
+  "relationship": [
+    {
+      "part_of": "Population studies"
+    },
+    {
+      "influenced_by": "Malthusian theory"
+    },
+    {
+      "related_to": "Fertility rate"
+    },
+    {
+      "related_to": "Mortality rate"
+    },
+    {
+      "stage_1": "Pre-industrial society"
+    },
+    {
+      "stage_2": "Early industrial society"
+    },
+    {
+      "stage_3": "Late industrial society"
+    },
+    {
+      "stage_4": "Post-industrial society"
+    },
+    {
+      "stage_5": "Declining birth rates"
+    },
+    {
+      "example_country": "United Kingdom"
+    }
+  ]
+}

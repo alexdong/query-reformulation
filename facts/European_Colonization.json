@@ -1,0 +1,47 @@
+{
+  "entity": "European Colonization",
+  "properties": {
+    "start_date": "15th Century",
+    "end_date": "20th Century",
+    "primary_motivations": "Economic, Political, Religious",
+    "geographic_scope": "Global",
+    "dominant_powers": "Spain, Portugal, Britain, France, Netherlands",
+    "impact_on_indigenous_populations": "Displacement, Disease, Cultural Loss",
+    "economic_system": "Mercantilism",
+    "colonial_administration": "Varies by power",
+    "technology_advantage": "Naval, Military",
+    "legacy": "Political boundaries, Cultural exchange, Economic disparities"
+  },
+  "relationship": [
+    {
+      "caused_by": "Age of Discovery"
+    },
+    {
+      "influenced": "Transatlantic Slave Trade"
+    },
+    {
+      "resulted_in": "Colonialism"
+    },
+    {
+      "impacted": "Indigenous Peoples"
+    },
+    {
+      "led_to": "Decolonization"
+    },
+    {
+      "involved": "British Empire"
+    },
+    {
+      "involved": "French Colonial Empire"
+    },
+    {
+      "involved": "Spanish Empire"
+    },
+    {
+      "influenced": "Globalization"
+    },
+    {
+      "related_to": "Imperialism"
+    }
+  ]
+}

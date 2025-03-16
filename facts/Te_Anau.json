@@ -1,0 +1,47 @@
+{
+  "entity": "Te Anau",
+  "properties": {
+    "type": "Town",
+    "location": "Southland, New Zealand",
+    "population": "2023",
+    "region": "Southland",
+    "latitude": "-45.2667",
+    "longitude": "167.55",
+    "elevation": "122",
+    "postal_code": "9679",
+    "time_zone": "NZST",
+    "area_code": "03"
+  },
+  "relationship": [
+    {
+      "located_in": "Southland Region"
+    },
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "near": "Lake Te Anau"
+    },
+    {
+      "serves_as_gateway_to": "Fiordland National Park"
+    },
+    {
+      "has_river": "Te Anau River"
+    },
+    {
+      "has_lake": "Lake Te Anau"
+    },
+    {
+      "tourism_attraction": "Te Anau Glowworm Caves"
+    },
+    {
+      "economy_based_on": "Tourism"
+    },
+    {
+      "has_settlement": "Redcliff"
+    },
+    {
+      "connected_to": "Milford Sound"
+    }
+  ]
+}

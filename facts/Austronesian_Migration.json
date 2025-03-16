@@ -1,0 +1,47 @@
+{
+  "entity": "Austronesian Migration",
+  "properties": {
+    "type": "Migration",
+    "start_date": "c. 3000 BC",
+    "end_date": "c. 1200 AD",
+    "origin": "Taiwan",
+    "language_family": "Austronesian languages",
+    "primary_mode_of_transport": "Outrigger canoes",
+    "geographic_extent": "Maritime Southeast Asia, Pacific Ocean, Madagascar",
+    "population_size": "Millions",
+    "primary_motivation": "Resource scarcity, population pressure",
+    "evidence_type": "Linguistic, genetic, archaeological"
+  },
+  "relationship": [
+    {
+      "originates_from": "Taiwan (island)"
+    },
+    {
+      "spreads_to": "Maritime Southeast Asia"
+    },
+    {
+      "spreads_to": "Oceania"
+    },
+    {
+      "spreads_to": "Madagascar"
+    },
+    {
+      "language_family": "Austronesian languages"
+    },
+    {
+      "influenced": "Polynesian culture"
+    },
+    {
+      "influenced": "Malayo-Polynesian cultures"
+    },
+    {
+      "related_to": "Lapita culture"
+    },
+    {
+      "evidence_supports": "Out-of-Taiwan hypothesis"
+    },
+    {
+      "impacts": "Genetic diversity"
+    }
+  ]
+}

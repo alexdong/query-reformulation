@@ -1,0 +1,47 @@
+{
+  "entity": "Joey D'Auria",
+  "properties": {
+    "birth_date": "1973-08-16",
+    "birth_place": "New York City, New York, USA",
+    "occupation": "Podcaster",
+    "nationality": "American",
+    "spouse": "Stephanie D'Auria",
+    "podcast_name": "The Joey D Show",
+    "podcast_network": "Cumulus Podcast Network",
+    "genre": "Sports, Comedy",
+    "education": "University of Maryland",
+    "height": "6 ft 2 in"
+  },
+  "relationship": [
+    {
+      "co_host": "Mike O'Malley"
+    },
+    {
+      "works_at": "Cumulus Media"
+    },
+    {
+      "covers_sport": "NFL"
+    },
+    {
+      "discusses": "Sports News"
+    },
+    {
+      "interviewed": "Various Athletes"
+    },
+    {
+      "married_to": "Stephanie D'Auria"
+    },
+    {
+      "attended": "University of Maryland"
+    },
+    {
+      "podcast_guest": "Various Personalities"
+    },
+    {
+      "influences": "Sports Fans"
+    },
+    {
+      "part_of": "Sports Broadcasting"
+    }
+  ]
+}

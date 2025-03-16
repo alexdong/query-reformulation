@@ -1,0 +1,47 @@
+{
+  "entity": "Customs",
+  "properties": {
+    "instance_of": "Government agency",
+    "purpose": "Border control",
+    "function": "Tax collection",
+    "regulates": "Import/Export",
+    "enforces": "Trade laws",
+    "authority": "Government",
+    "collects": "Duties",
+    "prevents": "Illegal goods",
+    "part_of": "Government",
+    "jurisdiction": "Nation-state"
+  },
+  "relationship": [
+    {
+      "related_to": "Tariff"
+    },
+    {
+      "works_with": "Border Patrol"
+    },
+    {
+      "regulates": "Goods"
+    },
+    {
+      "related_to": "International trade"
+    },
+    {
+      "enforces": "Trade agreements"
+    },
+    {
+      "works_with": "Shipping companies"
+    },
+    {
+      "related_to": "Excise tax"
+    },
+    {
+      "related_to": "World Customs Organization"
+    },
+    {
+      "investigates": "Smuggling"
+    },
+    {
+      "controls": "Travel"
+    }
+  ]
+}

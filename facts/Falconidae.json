@@ -1,0 +1,47 @@
+{
+  "entity": "Falconidae",
+  "properties": {
+    "instance_of": "Bird family",
+    "order": "Accipitriformes",
+    "common_name": "Falcons",
+    "distribution": "Worldwide",
+    "diet": "Carnivorous",
+    "size": "Medium to Large",
+    "wingspan": "1.5-2.5 m",
+    "conservation_status": "Least Concern",
+    "habitat": "Varied",
+    "taxonomy_id": "337"
+  },
+  "relationship": [
+    {
+      "parent_taxon": "Accipitriformes"
+    },
+    {
+      "includes_genus": "Falco"
+    },
+    {
+      "includes_genus": "Polyboroides"
+    },
+    {
+      "includes_genus": "Microfalcon"
+    },
+    {
+      "prey_on": "Birds"
+    },
+    {
+      "prey_on": "Small mammals"
+    },
+    {
+      "prey_on": "Reptiles"
+    },
+    {
+      "hunting_method": "Aerial pursuit"
+    },
+    {
+      "migration": "Some species"
+    },
+    {
+      "related_to": "Accipitridae"
+    }
+  ]
+}

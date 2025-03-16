@@ -1,0 +1,47 @@
+{
+  "entity": "Kiwi (fruit)",
+  "properties": {
+    "scientific_name": "Actinidia deliciosa",
+    "common_name": "Kiwi",
+    "origin": "China",
+    "color": "Brown, Green",
+    "taste": "Sweet, Tart",
+    "size": "Small",
+    "shape": "Oval",
+    "vitamins": "C, K, E",
+    "texture": "Fuzzy, Juicy",
+    "family": "Actinidiaceae"
+  },
+  "relationship": [
+    {
+      "is_a": "Berry"
+    },
+    {
+      "grown_in": "New Zealand"
+    },
+    {
+      "cultivated_in": "Italy"
+    },
+    {
+      "related_to": "Gooseberry"
+    },
+    {
+      "used_in": "Fruit salad"
+    },
+    {
+      "contains": "Vitamin C"
+    },
+    {
+      "part_of": "Diet"
+    },
+    {
+      "export_to": "Japan"
+    },
+    {
+      "variety_of": "Fruit"
+    },
+    {
+      "processed_into": "Kiwi jam"
+    }
+  ]
+}

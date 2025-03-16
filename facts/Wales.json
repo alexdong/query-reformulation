@@ -1,0 +1,47 @@
+{
+  "entity": "Wales",
+  "properties": {
+    "instance_of": "Country",
+    "capital": "Cardiff",
+    "official_language": "Welsh",
+    "population_2021": "3,100,000",
+    "area_km2": "20,775",
+    "currency": "GBP",
+    "part_of": "United Kingdom",
+    "national_anthem": "Hen Wlad Fy Nhadau",
+    "highest_point": "Snowdon",
+    "national_flower": "Daffodil"
+  },
+  "relationship": [
+    {
+      "part_of": "United Kingdom"
+    },
+    {
+      "borders": "England"
+    },
+    {
+      "language_spoken_in": "Cardiff"
+    },
+    {
+      "language_spoken_in": "Swansea"
+    },
+    {
+      "language_spoken_in": "Bangor"
+    },
+    {
+      "has_national_symbol": "Welsh Dragon"
+    },
+    {
+      "has_sport": "Rugby union"
+    },
+    {
+      "located_in": "Great Britain"
+    },
+    {
+      "influenced": "Celtic culture"
+    },
+    {
+      "historical_region": "Cambria"
+    }
+  ]
+}

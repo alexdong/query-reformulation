@@ -1,0 +1,47 @@
+{
+  "entity": "19th Century",
+  "properties": {
+    "start_year": "1801",
+    "end_year": "1900",
+    "era": "Modern History",
+    "geological_epoch": "Quaternary Period",
+    "dominant_power": "British Empire",
+    "major_event": "Industrial Revolution",
+    "population_growth": "Rapid",
+    "scientific_advancements": "Significant",
+    "artistic_movement": "Romanticism, Realism",
+    "political_ideology": "Liberalism, Nationalism"
+  },
+  "relationship": [
+    {
+      "preceded_by": "18th Century"
+    },
+    {
+      "followed_by": "20th Century"
+    },
+    {
+      "influenced": "20th Century"
+    },
+    {
+      "witnessed": "Napoleonic Wars"
+    },
+    {
+      "witnessed": "American Civil War"
+    },
+    {
+      "witnessed": "Scramble for Africa"
+    },
+    {
+      "witnessed": "World War I"
+    },
+    {
+      "involved": "Queen Victoria"
+    },
+    {
+      "involved": "Abraham Lincoln"
+    },
+    {
+      "involved": "Karl Marx"
+    }
+  ]
+}

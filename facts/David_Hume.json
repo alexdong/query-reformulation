@@ -1,0 +1,47 @@
+{
+  "entity": "David Hume",
+  "properties": {
+    "birth_date": "1711-04-26",
+    "birth_place": "Edinburgh",
+    "death_date": "1776-08-25",
+    "death_place": "Edinburgh",
+    "nationality": "Scottish",
+    "occupation": "Philosopher",
+    "school_thought": "Empiricism",
+    "major_work": "A Treatise of Human Nature",
+    "influenced_by": "John Locke",
+    "influenced": "Immanuel Kant"
+  },
+  "relationship": [
+    {
+      "educated_at": "Edinburgh University"
+    },
+    {
+      "member_of": "Scottish Enlightenment"
+    },
+    {
+      "influenced": "Logical Positivism"
+    },
+    {
+      "correspondent_of": "Adam Smith"
+    },
+    {
+      "criticized_by": "Immanuel Kant"
+    },
+    {
+      "preceded_by": "John Locke"
+    },
+    {
+      "influenced": "John Stuart Mill"
+    },
+    {
+      "worked_at": "University of Edinburgh"
+    },
+    {
+      "member_of": "Royal Society of Edinburgh"
+    },
+    {
+      "wrote_about": "Moral Philosophy"
+    }
+  ]
+}

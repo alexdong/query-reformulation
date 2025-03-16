@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Crown Jewels",
+  "properties": {
+    "alternative_name": "Honours of Scotland",
+    "type": "Regalia",
+    "location": "Edinburgh Castle",
+    "era": "Medieval",
+    "material": "Gold, Silver, Gems",
+    "origin_country": "Scotland",
+    "current_status": "Displayed",
+    "historical_use": "Coronation",
+    "number_of_items": "4",
+    "first_appearance": "15th century"
+  },
+  "relationship": [
+    {
+      "part_of": "Scottish regalia"
+    },
+    {
+      "used_in": "Scottish coronations"
+    },
+    {
+      "located_in": "Edinburgh Castle"
+    },
+    {
+      "associated_with": "Scottish monarchs"
+    },
+    {
+      "includes": "Crown of Scotland"
+    },
+    {
+      "includes": "Sceptre of Scotland"
+    },
+    {
+      "includes": "Sword of State"
+    },
+    {
+      "includes": "Annonciation"
+    },
+    {
+      "hidden_from": "English forces"
+    },
+    {
+      "restored_to": "Scottish monarchy"
+    }
+  ]
+}

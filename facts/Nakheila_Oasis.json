@@ -1,0 +1,47 @@
+{
+  "entity": "Nakheila Oasis",
+  "properties": {
+    "type": "Oasis",
+    "location": "Egypt",
+    "region": "Siwa Oasis",
+    "latitude": "29.0500° N",
+    "longitude": "27.3333° E",
+    "elevation": "40 m (131 ft)",
+    "water_source": "Underground aquifer",
+    "climate": "Arid",
+    "vegetation": "Date palms, shrubs",
+    "population": "Approximately 500"
+  },
+  "relationship": [
+    {
+      "part_of": "Siwa Oasis"
+    },
+    {
+      "located_in": "Egypt"
+    },
+    {
+      "contains": "Date palm groves"
+    },
+    {
+      "has_feature": "Springs"
+    },
+    {
+      "near": "Great Sand Sea"
+    },
+    {
+      "influenced_by": "Ancient Egyptian agriculture"
+    },
+    {
+      "supports": "Date palm cultivation"
+    },
+    {
+      "provides": "Water source"
+    },
+    {
+      "part_of_region": "Western Desert"
+    },
+    {
+      "historical_significance": "Ancient trade routes"
+    }
+  ]
+}

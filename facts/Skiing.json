@@ -1,0 +1,47 @@
+{
+  "entity": "Skiing",
+  "properties": {
+    "type": "Sport",
+    "activity_type": "Winter Sport",
+    "equipment": "Skis, Poles",
+    "skill_level": "Beginner to Expert",
+    "location_type": "Mountains, Slopes",
+    "governing_body": "FIS",
+    "origin": "Scandinavia",
+    "discipline": "Alpine, Nordic, Freestyle",
+    "physical_demands": "Endurance, Strength, Balance",
+    "popularity": "Global"
+  },
+  "relationship": [
+    {
+      "part_of": "Winter Olympics"
+    },
+    {
+      "requires": "Snow"
+    },
+    {
+      "related_to": "Snowboarding"
+    },
+    {
+      "governed_by": "International Ski Federation"
+    },
+    {
+      "location_type": "Ski Resort"
+    },
+    {
+      "requires": "Ski Lift"
+    },
+    {
+      "related_to": "Telemark Skiing"
+    },
+    {
+      "related_to": "Cross-country Skiing"
+    },
+    {
+      "athlete_participates_in": "Lindsey Vonn"
+    },
+    {
+      "athlete_participates_in": "Mikaela Shiffrin"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Cherokee",
+  "properties": {
+    "type": "Native American Tribe",
+    "language": "Cherokee language",
+    "location": "Southeastern United States",
+    "population": "380,000 (2019)",
+    "historical_region": "Cherokee Nation",
+    "federally_recognized": "Yes",
+    "traditional_economy": "Agriculture, hunting",
+    "governance": "Tribal Council",
+    "religion": "Traditional Cherokee Religion",
+    "treaties": "Treaty of Hopewell"
+  },
+  "relationship": [
+    {
+      "ancestor_of": "Eastern Band of Cherokee Indians"
+    },
+    {
+      "ancestor_of": "Cherokee Nation"
+    },
+    {
+      "related_to": "Muscogee (Creek) people"
+    },
+    {
+      "located_in": "Oklahoma"
+    },
+    {
+      "located_in": "North Carolina"
+    },
+    {
+      "language_family": "Iroquoian languages"
+    },
+    {
+      "influenced_by": "European colonization"
+    },
+    {
+      "trail_of_tears": "Forced relocation"
+    },
+    {
+      "leader": "Sequoyah"
+    },
+    {
+      "involved_in": "Cherokee Wars"
+    }
+  ]
+}

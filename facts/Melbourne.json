@@ -1,0 +1,47 @@
+{
+  "entity": "Melbourne",
+  "properties": {
+    "capital_of": "Victoria",
+    "population_2021": "503,000",
+    "country": "Australia",
+    "latitude": "-37.8136",
+    "longitude": "145.0",
+    "time_zone": "Australian Eastern Standard Time",
+    "area_km2": "1567",
+    "nickname": "Melbourne",
+    "established": "1835",
+    "currency": "AUD"
+  },
+  "relationship": [
+    {
+      "part_of": "Australia"
+    },
+    {
+      "located_in": "Port Phillip"
+    },
+    {
+      "influenced_by": "Gold Rush"
+    },
+    {
+      "has_sport_team": "Melbourne Demons"
+    },
+    {
+      "has_sport_team": "Melbourne City FC"
+    },
+    {
+      "has_sport_team": "Melbourne Storm"
+    },
+    {
+      "has_landmark": "Federation Square"
+    },
+    {
+      "has_landmark": "Royal Botanic Gardens"
+    },
+    {
+      "near_city": "Geelong"
+    },
+    {
+      "has_river": "Yarra River"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Kakamigahara Aerospace Museum",
+  "properties": {
+    "location": "Kakamigahara, Gifu, Japan",
+    "type": "Aerospace museum",
+    "established": "1990",
+    "area": "120,000 m²",
+    "focus": "Japanese aerospace technology",
+    "exhibits": "Aircraft, rockets, satellites",
+    "operator": "Japan Aerospace Exploration Agency (JAXA)",
+    "admission_fee": "Adult ¥700",
+    "website": "www.kakamigahara-space.jp",
+    "coordinates": "35.4667°N 136.7333°E"
+  },
+  "relationship": [
+    {
+      "located_in": "Gifu Prefecture"
+    },
+    {
+      "operated_by": "Japan Aerospace Exploration Agency"
+    },
+    {
+      "exhibits_aircraft": "Mitsubishi F-2"
+    },
+    {
+      "exhibits_rocket": "M-V rocket"
+    },
+    {
+      "displays_satellite": "MS-01 satellite"
+    },
+    {
+      "part_of": "Japanese aerospace industry"
+    },
+    {
+      "related_to": "Space exploration"
+    },
+    {
+      "influenced_by": "Early Japanese aviation"
+    },
+    {
+      "near": "Kakamigahara Station"
+    },
+    {
+      "promotes": "STEM education"
+    }
+  ]
+}

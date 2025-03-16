@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand State Owned Enterprises",
+  "properties": {
+    "type": "Government Business",
+    "owner": "New Zealand Government",
+    "purpose": "Commercial operations",
+    "accountability": "Parliament",
+    "reporting_frequency": "Annual",
+    "dividend_payment": "To government",
+    "governance": "Board of Directors",
+    "establishment_date": "1987",
+    "number_of_SOEs": "12",
+    "sector_focus": "Diverse"
+  },
+  "relationship": [
+    {
+      "parent_organization": "New Zealand Government"
+    },
+    {
+      "governed_by": "State Enterprises Act 1986"
+    },
+    {
+      "provides_services_to": "New Zealanders"
+    },
+    {
+      "contributes_to": "NZ Economy"
+    },
+    {
+      "includes": "Genesis Energy"
+    },
+    {
+      "includes": "Mercury NZ"
+    },
+    {
+      "includes": "Transpower NZ"
+    },
+    {
+      "includes": "KiwiRail"
+    },
+    {
+      "includes": "NZ Post"
+    },
+    {
+      "includes": "TOI ŌRA - Living Landscapes"
+    }
+  ]
+}

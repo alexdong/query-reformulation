@@ -1,0 +1,47 @@
+{
+  "entity": "Anti-Social Behaviour",
+  "properties": {
+    "type": "Social problem",
+    "definition": "Behavior causing harm/distress",
+    "scope": "Public spaces",
+    "legal_status": "Civil/Criminal offense",
+    "affected_parties": "Individuals, communities",
+    "common_acts": "Vandalism, noise, aggression",
+    "reporting_agency": "Police, local councils",
+    "prevention_strategies": "Community engagement, CCTV",
+    "impact": "Fear, reduced quality of life",
+    "related_concept": "Public nuisance"
+  },
+  "relationship": [
+    {
+      "causes": "Fear of crime"
+    },
+    {
+      "impacts": "Community cohesion"
+    },
+    {
+      "addressed_by": "Community safety partnerships"
+    },
+    {
+      "related_to": "Criminal damage"
+    },
+    {
+      "related_to": "Public order offences"
+    },
+    {
+      "mitigated_by": "Neighborhood watch"
+    },
+    {
+      "investigated_by": "Police"
+    },
+    {
+      "influenced_by": "Social deprivation"
+    },
+    {
+      "impacts": "Property values"
+    },
+    {
+      "addressed_by": "Anti-social behaviour orders"
+    }
+  ]
+}

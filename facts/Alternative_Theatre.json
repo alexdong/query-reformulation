@@ -1,0 +1,47 @@
+{
+  "entity": "Alternative Theatre",
+  "properties": {
+    "definition": "Experimental, non-commercial theatre",
+    "origin": "1960s-1970s",
+    "location": "United States, Europe",
+    "focus": "Social commentary, innovation",
+    "style": "Devised, site-specific, performance art",
+    "funding": "Grants, donations, small venues",
+    "audience": "Niche, engaged",
+    "aesthetic": "Unconventional, challenging",
+    "themes": "Political, personal, existential",
+    "goal": "Provoke, question, explore"
+  },
+  "relationship": [
+    {
+      "influenced": "Off-Off-Broadway"
+    },
+    {
+      "preceded": "Postdramatic Theatre"
+    },
+    {
+      "related_to": "Performance Art"
+    },
+    {
+      "inspired": "Contact Improvisation"
+    },
+    {
+      "overlaps_with": "Experimental Film"
+    },
+    {
+      "associated_with": "The Living Theatre"
+    },
+    {
+      "associated_with": "Robert Wilson"
+    },
+    {
+      "influenced": "Site-Specific Theatre"
+    },
+    {
+      "challenges": "Commercial Theatre"
+    },
+    {
+      "often_features": "Devised Theatre"
+    }
+  ]
+}

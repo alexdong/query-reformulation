@@ -1,0 +1,47 @@
+{
+  "entity": "Catlins Forest Park",
+  "properties": {
+    "type": "Forest Park",
+    "location": "Southland, New Zealand",
+    "area": "848 km²",
+    "established": "1984",
+    "management": "Department of Conservation",
+    "terrain": "Coastal, Forested, Rugged",
+    "elevation": "Up to 600m",
+    "climate": "Temperate Maritime",
+    "biodiversity": "High",
+    "geology": "Volcanic, Sedimentary"
+  },
+  "relationship": [
+    {
+      "part_of": "Southland Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Nugget Point"
+    },
+    {
+      "contains": "Cathedral Caves"
+    },
+    {
+      "contains": "Florence Hill Lookout"
+    },
+    {
+      "adjacent_to": "Otago"
+    },
+    {
+      "ecosystem": "Temperate Rainforest"
+    },
+    {
+      "flora": "Podocarp Forest"
+    },
+    {
+      "fauna": "Native Birds"
+    },
+    {
+      "protected_by": "New Zealand Protected Areas"
+    }
+  ]
+}

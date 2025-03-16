@@ -1,0 +1,47 @@
+{
+  "entity": "Canterbury Plains",
+  "properties": {
+    "type": "Plain",
+    "location": "New Zealand",
+    "area": "15,000 km²",
+    "region": "Mid-Canterbury",
+    "geology": "Alluvial",
+    "altitude": "0-300 m",
+    "soil": "Fertile",
+    "climate": "Temperate",
+    "river": "Waimakariri River",
+    "land_use": "Agriculture"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "adjacent_to": "Southern Alps"
+    },
+    {
+      "drained_by": "Rakaia River"
+    },
+    {
+      "contains": "Christchurch"
+    },
+    {
+      "contains": "Timaru"
+    },
+    {
+      "contains": "Ashburton"
+    },
+    {
+      "formed_by": "Glacial outwash"
+    },
+    {
+      "supports": "Agriculture"
+    },
+    {
+      "influenced_by": "Pacific Ocean"
+    }
+  ]
+}

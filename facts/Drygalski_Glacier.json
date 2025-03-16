@@ -1,0 +1,47 @@
+{
+  "entity": "Drygalski Glacier",
+  "properties": {
+    "type": "Glacier",
+    "location": "Antarctica",
+    "region": "Princess Martha Coast",
+    "length": "83 km",
+    "width": "28 km",
+    "flow_rate": "1.7 m/a",
+    "elevation": "1,500 m",
+    "discovery_year": "1934",
+    "named_after": "Georg Drygalski",
+    "tributary_of": "Filchner-Ronne Ice Shelf"
+  },
+  "relationship": [
+    {
+      "part_of": "Princess Martha Coast"
+    },
+    {
+      "flows_into": "Filchner-Ronne Ice Shelf"
+    },
+    {
+      "located_in": "Antarctica"
+    },
+    {
+      "named_after": "Georg Drygalski"
+    },
+    {
+      "adjacent_to": "Guenther Glacier"
+    },
+    {
+      "adjacent_to": "Rees Glacier"
+    },
+    {
+      "discovered_by": "Alfred Ritscher"
+    },
+    {
+      "explored_by": "German Antarctic Expedition"
+    },
+    {
+      "influenced_by": "Ice sheet"
+    },
+    {
+      "contributes_to": "Sea level rise"
+    }
+  ]
+}

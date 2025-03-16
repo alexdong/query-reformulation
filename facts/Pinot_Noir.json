@@ -1,0 +1,47 @@
+{
+  "entity": "Pinot Noir",
+  "properties": {
+    "type": "Grape variety",
+    "color": "Red",
+    "origin": "Burgundy, France",
+    "aroma": "Cherry, Raspberry, Mushroom",
+    "taste": "Dry, Acidic, Tannic",
+    "clone_count": "High",
+    "viticulture": "Difficult",
+    "aging_potential": "High",
+    "acidity": "High",
+    "body": "Light to Medium"
+  },
+  "relationship": [
+    {
+      "parent_variety": "Wild grape"
+    },
+    {
+      "region_produced": "Burgundy"
+    },
+    {
+      "region_produced": "Oregon"
+    },
+    {
+      "region_produced": "California"
+    },
+    {
+      "wine_style": "Red wine"
+    },
+    {
+      "food_pairing": "Salmon"
+    },
+    {
+      "food_pairing": "Mushrooms"
+    },
+    {
+      "grape_used_in": "Beaujolais"
+    },
+    {
+      "grape_used_in": "Champagne"
+    },
+    {
+      "influenced_by": "Terroir"
+    }
+  ]
+}

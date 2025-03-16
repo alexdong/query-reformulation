@@ -1,0 +1,47 @@
+{
+  "entity": "Germanic languages",
+  "properties": {
+    "family": "Indo-European",
+    "origin": "Germany",
+    "speakers": "Over 50 million",
+    "macrofamily": "Proto-Indo-European",
+    "typology": "Inflected",
+    "writing_system": "Latin alphabet",
+    "subgroups": "West, North, East, and sometimes Central",
+    "geographic_distribution": "Europe, North America, Australia",
+    "historical_period": "Pre-Proto-Germanic (c. 2000 BC)",
+    "classification": "Language family"
+  },
+  "relationship": [
+    {
+      "part_of": "Indo-European languages"
+    },
+    {
+      "descended_from": "Proto-Germanic"
+    },
+    {
+      "includes": "English"
+    },
+    {
+      "includes": "German"
+    },
+    {
+      "includes": "Dutch"
+    },
+    {
+      "includes": "Swedish"
+    },
+    {
+      "includes": "Norwegian"
+    },
+    {
+      "influenced": "Romance languages"
+    },
+    {
+      "related_to": "Celtic languages"
+    },
+    {
+      "studied_in": "Linguistics"
+    }
+  ]
+}

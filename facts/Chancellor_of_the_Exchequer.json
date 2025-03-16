@@ -1,0 +1,47 @@
+{
+  "entity": "Chancellor of the Exchequer",
+  "properties": {
+    "instance_of": "Political office",
+    "country": "United Kingdom",
+    "department": "HM Treasury",
+    "responsible_for": "Economic policy",
+    "head_of": "HM Treasury",
+    "appointed_by": "Prime Minister",
+    "salary": "£161,294 (2023)",
+    "reporting_to": "Prime Minister",
+    "historical_origin": "1782",
+    "location": "London"
+  },
+  "relationship": [
+    {
+      "reports_to": "Prime Minister"
+    },
+    {
+      "member_of": "British Cabinet"
+    },
+    {
+      "oversees": "Bank of England"
+    },
+    {
+      "advises_on": "Fiscal policy"
+    },
+    {
+      "appointed_by": "Prime Minister"
+    },
+    {
+      "role_in": "Government of the United Kingdom"
+    },
+    {
+      "predecessor_office": "First Lord of the Treasury"
+    },
+    {
+      "successor_office": "Chancellor of the Exchequer"
+    },
+    {
+      "related_to": "HM Treasury"
+    },
+    {
+      "influences": "Economic growth"
+    }
+  ]
+}

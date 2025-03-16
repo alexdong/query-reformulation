@@ -1,0 +1,47 @@
+{
+  "entity": "HMS Challenger",
+  "properties": {
+    "type": "Survey ship",
+    "launched": "1872-03-08",
+    "country": "United Kingdom",
+    "builder": "Pembroke Dock",
+    "displacement": "2,350 tons",
+    "captain": "George Nares",
+    "purpose": "Oceanographic exploration",
+    "length": "226 ft",
+    "beam": "38 ft",
+    "fate": "Scrapped 1909"
+  },
+  "relationship": [
+    {
+      "part_of": "Royal Navy"
+    },
+    {
+      "voyage": "Challenger expedition"
+    },
+    {
+      "explored": "Pacific Ocean"
+    },
+    {
+      "explored": "Atlantic Ocean"
+    },
+    {
+      "explored": "Indian Ocean"
+    },
+    {
+      "collected": "Oceanographic data"
+    },
+    {
+      "discovered": "Mariana Trench"
+    },
+    {
+      "mapped": "Ocean floor"
+    },
+    {
+      "contributed_to": "Oceanography"
+    },
+    {
+      "named_after": "HMS Challenger (1766)"
+    }
+  ]
+}

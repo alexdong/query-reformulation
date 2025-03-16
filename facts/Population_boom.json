@@ -1,0 +1,47 @@
+{
+  "entity": "Population boom",
+  "properties": {
+    "definition": "Rapid population increase",
+    "cause_1": "Increased birth rates",
+    "cause_2": "Decreased mortality rates",
+    "time_scale": "Short period",
+    "impact_1": "Resource depletion",
+    "impact_2": "Environmental strain",
+    "impact_3": "Urbanization",
+    "measurement": "Population density",
+    "historical_example_1": "Industrial Revolution",
+    "modern_example": "Sub-Saharan Africa"
+  },
+  "relationship": [
+    {
+      "causes": "Demographic transition"
+    },
+    {
+      "impacts": "Environmental degradation"
+    },
+    {
+      "related_to": "Carrying capacity"
+    },
+    {
+      "linked_to": "Malthusian catastrophe"
+    },
+    {
+      "influenced_by": "Fertility rate"
+    },
+    {
+      "influenced_by": "Mortality rate"
+    },
+    {
+      "impacts": "Urban sprawl"
+    },
+    {
+      "related_to": "Population density"
+    },
+    {
+      "impacts": "Economic growth"
+    },
+    {
+      "impacts": "Food security"
+    }
+  ]
+}

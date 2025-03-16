@@ -1,0 +1,47 @@
+{
+  "entity": "Paul Tisdale",
+  "properties": {
+    "birth_date": "1973-08-13",
+    "birth_place": "Truro, England",
+    "nationality": "English",
+    "occupation": "Football manager",
+    "playing_position": "Midfielder",
+    "height": "1.78 m",
+    "managerial_style": "Possession-based",
+    "playing_career_end": "2009",
+    "managerial_start": "2009",
+    "honours": "Football League Two Manager of the Year"
+  },
+  "relationship": [
+    {
+      "club_managed": "Exeter City"
+    },
+    {
+      "club_managed": "Bristol Rovers"
+    },
+    {
+      "club_managed": "MK Dons"
+    },
+    {
+      "club_managed": "Cambridge United"
+    },
+    {
+      "played_for": "Exeter City"
+    },
+    {
+      "influenced_by": "Kevin Keegan"
+    },
+    {
+      "coach_of": "Exeter City youth team"
+    },
+    {
+      "educated_at": "University of Exeter"
+    },
+    {
+      "award_recipient": "League Managers' Association"
+    },
+    {
+      "predecessor": "Steve Perryman"
+    }
+  ]
+}

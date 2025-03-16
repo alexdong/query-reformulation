@@ -1,0 +1,47 @@
+{
+  "entity": "Automation",
+  "properties": {
+    "definition": "Self-operating process",
+    "type": "Technology",
+    "field": "Engineering",
+    "goal": "Increased efficiency",
+    "application": "Various industries",
+    "history_start": "17th century",
+    "early_example": "Mechanical clock",
+    "modern_era_start": "1980s",
+    "key_tech": "Robotics, AI",
+    "benefit": "Reduced human error"
+  },
+  "relationship": [
+    {
+      "part_of": "Industry 4.0"
+    },
+    {
+      "related_to": "Robotics"
+    },
+    {
+      "uses": "Artificial Intelligence"
+    },
+    {
+      "impacts": "Manufacturing"
+    },
+    {
+      "improves": "Productivity"
+    },
+    {
+      "requires": "Programming"
+    },
+    {
+      "employs": "Control systems"
+    },
+    {
+      "reduces": "Labor costs"
+    },
+    {
+      "linked_to": "Cybernetics"
+    },
+    {
+      "preceded_by": "Mechanization"
+    }
+  ]
+}

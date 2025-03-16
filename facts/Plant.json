@@ -1,0 +1,47 @@
+{
+  "entity": "Plant",
+  "properties": {
+    "instance_of": "Living organism",
+    "kingdom": "Plantae",
+    "cell_type": "Eukaryotic",
+    "mode_of_nutrition": "Autotrophic",
+    "photosynthesis": "Yes",
+    "life_cycle": "Alternation of generations",
+    "primary_metabolite": "Carbohydrates",
+    "major_groups": "Mosses, Ferns, Conifers, Flowering plants",
+    "oxygen_production": "Yes",
+    "habitat": "Diverse"
+  },
+  "relationship": [
+    {
+      "part_of": "Ecosystem"
+    },
+    {
+      "provides": "Oxygen"
+    },
+    {
+      "provides": "Food"
+    },
+    {
+      "supports": "Herbivore"
+    },
+    {
+      "is_source_of": "Medicine"
+    },
+    {
+      "is_used_in": "Agriculture"
+    },
+    {
+      "related_to": "Botany"
+    },
+    {
+      "related_to": "Photosynthesis"
+    },
+    {
+      "related_to": "Cell"
+    },
+    {
+      "related_to": "Biodiversity"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Conglomerate rock",
+  "properties": {
+    "type": "Sedimentary rock",
+    "composition": "Rounded clasts",
+    "grain_size": "Greater than 2 mm",
+    "formation_process": "Sedimentation",
+    "lithification": "Compaction & Cementation",
+    "color": "Variable",
+    "texture": "Clastic",
+    "origin": "Rivers, beaches, glacial deposits",
+    "density": "2.3 - 2.6 g/cm³",
+    "porosity": "Low to moderate"
+  },
+  "relationship": [
+    {
+      "part_of": "Sedimentary cycle"
+    },
+    {
+      "contains": "Clast"
+    },
+    {
+      "formed_from": "Sediment"
+    },
+    {
+      "related_to": "Breccia"
+    },
+    {
+      "process": "Weathering"
+    },
+    {
+      "process": "Erosion"
+    },
+    {
+      "process": "Transportation"
+    },
+    {
+      "location": "Riverbeds"
+    },
+    {
+      "location": "Beaches"
+    },
+    {
+      "location": "Glacial deposits"
+    }
+  ]
+}

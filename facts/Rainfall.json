@@ -1,0 +1,47 @@
+{
+  "entity": "Rainfall",
+  "properties": {
+    "type": "Precipitation",
+    "form": "Liquid",
+    "measurement_unit": "mm or inches",
+    "process": "Condensation",
+    "influence": "Hydrologic cycle",
+    "impact": "Ecosystems",
+    "distribution": "Uneven",
+    "variability": "Seasonal",
+    "affected_by": "Climate",
+    "importance": "Water resource"
+  },
+  "relationship": [
+    {
+      "part_of": "Hydrologic cycle"
+    },
+    {
+      "causes": "Flooding"
+    },
+    {
+      "supports": "Agriculture"
+    },
+    {
+      "affects": "Erosion"
+    },
+    {
+      "related_to": "Climate change"
+    },
+    {
+      "measured_by": "Rain gauge"
+    },
+    {
+      "influences": "River flow"
+    },
+    {
+      "impacts": "Soil moisture"
+    },
+    {
+      "pattern_type": "Monsoon"
+    },
+    {
+      "pattern_type": "Orographic"
+    }
+  ]
+}

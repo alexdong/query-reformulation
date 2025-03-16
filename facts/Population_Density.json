@@ -1,0 +1,47 @@
+{
+  "entity": "Population Density",
+  "properties": {
+    "definition": "People per unit area",
+    "unit": "people/km² or people/mi²",
+    "calculation": "Population / Area",
+    "type": "Demographic measure",
+    "influenced_by": "Geography, Economy, Policy",
+    "affected_by": "Migration, Birth Rate, Death Rate",
+    "can_indicate": "Urbanization, Resource Strain",
+    "data_source": "Census data, Satellite imagery",
+    "measurement_level": "Ratio",
+    "related_concept": "Carrying capacity"
+  },
+  "relationship": [
+    {
+      "is_a": "Demographic Indicator"
+    },
+    {
+      "related_to": "Urban Planning"
+    },
+    {
+      "impacts": "Resource Availability"
+    },
+    {
+      "affects": "Infrastructure Needs"
+    },
+    {
+      "influences": "Housing Market"
+    },
+    {
+      "related_to": "Carrying Capacity"
+    },
+    {
+      "used_in": "Environmental Impact Assessment"
+    },
+    {
+      "compared_with": "Spatial Distribution"
+    },
+    {
+      "analyzed_in": "Geographic Information Systems"
+    },
+    {
+      "measured_at": "Country Level"
+    }
+  ]
+}

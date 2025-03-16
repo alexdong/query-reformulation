@@ -1,0 +1,47 @@
+{
+  "entity": "Halifax Regional Council",
+  "properties": {
+    "type": "Municipal Council",
+    "location": "Halifax, Nova Scotia",
+    "governs": "Halifax Regional Municipality",
+    "established": "1995",
+    "number_of_members": "16",
+    "election_frequency": "4 years",
+    "mayor": "Mike Savage",
+    "responsible_for": "Local governance",
+    "legislative_body": "Halifax Regional Municipality",
+    "website": "halifax.ca"
+  },
+  "relationship": [
+    {
+      "part_of": "Nova Scotia"
+    },
+    {
+      "elected_by": "Halifax Regional Municipality"
+    },
+    {
+      "reports_to": "Province of Nova Scotia"
+    },
+    {
+      "includes_member": "Sam Brody"
+    },
+    {
+      "includes_member": "Shawn Cleary"
+    },
+    {
+      "includes_member": "Patricia Leslie"
+    },
+    {
+      "includes_member": "Steve Adams"
+    },
+    {
+      "oversees": "Halifax Regional Police"
+    },
+    {
+      "oversees": "Halifax Public Libraries"
+    },
+    {
+      "responsible_for": "Municipal Budget"
+    }
+  ]
+}

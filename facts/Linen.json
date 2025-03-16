@@ -1,0 +1,47 @@
+{
+  "entity": "Linen",
+  "properties": {
+    "material_type": "Textile",
+    "source": "Flax plant",
+    "strength": "High",
+    "absorbency": "Excellent",
+    "durability": "High",
+    "texture": "Smooth",
+    "color": "Natural (beige/grey), can be dyed",
+    "weight": "Light to medium",
+    "breathability": "Excellent",
+    "historical_use": "Clothing, household textiles"
+  },
+  "relationship": [
+    {
+      "made_from": "Flax"
+    },
+    {
+      "type_of": "Textile"
+    },
+    {
+      "used_in": "Clothing"
+    },
+    {
+      "used_in": "Bedding"
+    },
+    {
+      "used_in": "Tablecloths"
+    },
+    {
+      "related_to": "Cotton"
+    },
+    {
+      "related_to": "Silk"
+    },
+    {
+      "historical_significance": "Ancient Egypt"
+    },
+    {
+      "production_region": "Belgium"
+    },
+    {
+      "processing_method": "Weaving"
+    }
+  ]
+}

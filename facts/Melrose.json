@@ -1,0 +1,47 @@
+{
+  "entity": "Melrose",
+  "properties": {
+    "type": "City",
+    "location": "Massachusetts",
+    "population_2020": "4,668",
+    "established": "1740",
+    "area_total": "12.3 sq mi",
+    "timezone": "EST",
+    "motto": "A City of Trees",
+    "named_after": "Melrose, Suffolk",
+    "zip_code": "02176",
+    "county": "Middlesex"
+  },
+  "relationship": [
+    {
+      "part_of": "Middlesex County"
+    },
+    {
+      "located_in": "Massachusetts"
+    },
+    {
+      "nearest_city": "Stoneham"
+    },
+    {
+      "neighbor": "Wakefield"
+    },
+    {
+      "neighbor": "Saugus"
+    },
+    {
+      "neighbor": "Malden"
+    },
+    {
+      "has_landmark": "Melrose Veterans Memorial"
+    },
+    {
+      "has_school": "Melrose High School"
+    },
+    {
+      "has_river": "Spicket River"
+    },
+    {
+      "influenced_by": "Puritan settlers"
+    }
+  ]
+}

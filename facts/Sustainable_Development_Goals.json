@@ -1,0 +1,47 @@
+{
+  "entity": "Sustainable Development Goals",
+  "properties": {
+    "alternative_name": "Global Goals",
+    "type": "Framework",
+    "adopted_by": "United Nations",
+    "launch_date": "2015-09-25",
+    "number_of_goals": "17",
+    "scope": "Global",
+    "focus": "Social, Economic, Environmental",
+    "implementation_period": "2015-2030",
+    "successor_to": "Millennium Development Goals",
+    "official_website": "https://sdgs.un.org/"
+  },
+  "relationship": [
+    {
+      "part_of": "United Nations"
+    },
+    {
+      "promotes": "Poverty Reduction"
+    },
+    {
+      "addresses": "Climate Change"
+    },
+    {
+      "supports": "Education"
+    },
+    {
+      "targets": "Gender Equality"
+    },
+    {
+      "impacts": "Health"
+    },
+    {
+      "relates_to": "Sustainable Development"
+    },
+    {
+      "requires": "International Cooperation"
+    },
+    {
+      "linked_to": "Agenda 2030"
+    },
+    {
+      "monitored_by": "SDG Index"
+    }
+  ]
+}

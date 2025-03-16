@@ -1,0 +1,47 @@
+{
+  "entity": "Early Colonial Transport",
+  "properties": {
+    "time_period": "1600s-1700s",
+    "primary_purpose": "Colonization & Trade",
+    "dominant_power": "European Nations",
+    "main_vessel_type": "Sailing Ships",
+    "average_voyage_duration": "Months",
+    "cargo_capacity": "Varies, limited",
+    "passenger_capacity": "Limited, cramped",
+    "navigation_method": "Celestial Navigation",
+    "common_diseases": "Scorbut, Typhoid",
+    "construction_material": "Wood"
+  },
+  "relationship": [
+    {
+      "powered_by": "Wind"
+    },
+    {
+      "influenced_by": "Age of Exploration"
+    },
+    {
+      "used_for": "Transatlantic Slave Trade"
+    },
+    {
+      "contributed_to": "Colonial Economy"
+    },
+    {
+      "involved_technology": "Caravel"
+    },
+    {
+      "involved_technology": "Sloop"
+    },
+    {
+      "involved_technology": "East Indiaman"
+    },
+    {
+      "impacted_by": "Storms"
+    },
+    {
+      "impacted_by": "Piracy"
+    },
+    {
+      "related_to": "Indentured Servitude"
+    }
+  ]
+}

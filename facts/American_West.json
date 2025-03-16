@@ -1,0 +1,47 @@
+{
+  "entity": "American West",
+  "properties": {
+    "region": "North America",
+    "historical_period": "19th century",
+    "defining_feature": "Frontier",
+    "primary_resource": "Land",
+    "major_industry": "Ranching, Mining",
+    "native_peoples": "Various tribes",
+    "climate": "Arid, Semi-arid",
+    "geography": "Plains, Mountains",
+    "settlement_pattern": "Scattered",
+    "cultural_impact": "Cowboy culture"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "influenced": "Western genre"
+    },
+    {
+      "settled_by": "European Americans"
+    },
+    {
+      "conflict_with": "Native Americans"
+    },
+    {
+      "major_event": "California Gold Rush"
+    },
+    {
+      "involved_in": "Oregon Trail"
+    },
+    {
+      "involved_in": "Oklahoma Land Run"
+    },
+    {
+      "economic_impact_on": "United States"
+    },
+    {
+      "associated_with": "Cowboy"
+    },
+    {
+      "associated_with": "Ranching"
+    }
+  ]
+}

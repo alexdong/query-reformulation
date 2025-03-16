@@ -1,0 +1,47 @@
+{
+  "entity": "Rose Fitzgerald Kennedy",
+  "properties": {
+    "birth_date": "1890-08-27",
+    "birth_place": "The Breakers, Newport, Rhode Island",
+    "death_date": "1995-08-18",
+    "death_place": "Hyannis, Massachusetts",
+    "nationality": "American",
+    "spouse": "Joseph P. Kennedy Sr.",
+    "occupation": "Socialite",
+    "religion": "Roman Catholic",
+    "family": "Kennedy family",
+    "education": "Wellesley College"
+  },
+  "relationship": [
+    {
+      "parent_of": "Joseph Kennedy Jr."
+    },
+    {
+      "parent_of": "John F. Kennedy"
+    },
+    {
+      "parent_of": "Rose Kennedy"
+    },
+    {
+      "parent_of": "Kathleen Kennedy"
+    },
+    {
+      "parent_of": "Eunice Kennedy Shriver"
+    },
+    {
+      "parent_of": "Patricia Kennedy Lawford"
+    },
+    {
+      "parent_of": "Robert F. Kennedy"
+    },
+    {
+      "parent_of": "Jean Kennedy Smith"
+    },
+    {
+      "spouse_of": "Joseph P. Kennedy Sr."
+    },
+    {
+      "member_of": "Kennedy family"
+    }
+  ]
+}

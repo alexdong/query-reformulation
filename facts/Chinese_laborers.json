@@ -1,0 +1,47 @@
+{
+  "entity": "Chinese laborers",
+  "properties": {
+    "origin": "China",
+    "era": "19th-20th centuries",
+    "motivation": "Poverty, Opportunity",
+    "location": "Worldwide",
+    "work_types": "Railroads, Mines, Plantations",
+    "conditions": "Harsh, Exploitative",
+    "mortality_rate": "High",
+    "legal_status": "Often indentured",
+    "discrimination": "Significant",
+    "cultural_impact": "Diaspora, Cultural Exchange"
+  },
+  "relationship": [
+    {
+      "indentured_servitude": "Indentured servitude"
+    },
+    {
+      "worked_for": "British Empire"
+    },
+    {
+      "worked_in": "Transcontinental Railroad"
+    },
+    {
+      "migration_pattern": "Chinese diaspora"
+    },
+    {
+      "influenced": "Anti-Chinese sentiment"
+    },
+    {
+      "labor_source": "Coolie trade"
+    },
+    {
+      "impacted_by": "Opium Wars"
+    },
+    {
+      "worked_in": "Gold Rush"
+    },
+    {
+      "related_to": "Chinese Exclusion Act"
+    },
+    {
+      "contributed_to": "Global infrastructure"
+    }
+  ]
+}

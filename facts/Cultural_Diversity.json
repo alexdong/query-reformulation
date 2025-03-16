@@ -1,0 +1,47 @@
+{
+  "entity": "Cultural Diversity",
+  "properties": {
+    "definition": "Variety of cultures",
+    "synonym": "Multiculturalism",
+    "scope": "Human societies",
+    "aspects": "Language, beliefs, customs",
+    "importance": "Social cohesion, innovation",
+    "challenges": "Discrimination, prejudice",
+    "benefits": "Enriched perspectives, creativity",
+    "measurement": "Indices, surveys",
+    "related_concept": "Intercultural communication",
+    "impact_on": "Globalization"
+  },
+  "relationship": [
+    {
+      "promotes": "Tolerance"
+    },
+    {
+      "requires": "Respect"
+    },
+    {
+      "impacts": "Social Justice"
+    },
+    {
+      "influenced_by": "Migration"
+    },
+    {
+      "related_to": "Anthropology"
+    },
+    {
+      "studied_in": "Sociology"
+    },
+    {
+      "challenges": "Ethnocentrism"
+    },
+    {
+      "fosters": "Empathy"
+    },
+    {
+      "impacts": "Human Rights"
+    },
+    {
+      "linked_to": "UNESCO"
+    }
+  ]
+}

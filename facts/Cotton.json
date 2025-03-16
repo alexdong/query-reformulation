@@ -1,0 +1,47 @@
+{
+  "entity": "Cotton",
+  "properties": {
+    "type": "Natural fiber",
+    "scientific_name": "Gossypium",
+    "origin": "Tropical and subtropical regions",
+    "primary_use": "Textile",
+    "color": "White, Cream, Brown",
+    "harvest_method": "Manual or mechanical",
+    "staple_length": "Short to Long",
+    "strength": "Moderate",
+    "major_producing_countries": "India, China, USA",
+    "chemical_composition": "Cellulose"
+  },
+  "relationship": [
+    {
+      "part_of": "Plant"
+    },
+    {
+      "used_in": "Clothing"
+    },
+    {
+      "processed_into": "Yarn"
+    },
+    {
+      "grown_in": "Field"
+    },
+    {
+      "related_to": "Linen"
+    },
+    {
+      "related_to": "Hemp"
+    },
+    {
+      "impacts": "Textile industry"
+    },
+    {
+      "derived_from": "Seed"
+    },
+    {
+      "supports_economy_of": "Developing countries"
+    },
+    {
+      "requires": "Water"
+    }
+  ]
+}

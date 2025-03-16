@@ -1,0 +1,47 @@
+{
+  "entity": "Tuamotu Archipelago",
+  "properties": {
+    "type": "Archipelago",
+    "location": "Pacific Ocean",
+    "part_of": "French Polynesia",
+    "area": "1750 km²",
+    "population": "11,000",
+    "highest_point": "132 m",
+    "climate": "Tropical",
+    "currency": "XPF",
+    "language": "French",
+    "governed_by": "French Polynesia"
+  },
+  "relationship": [
+    {
+      "part_of": "French Polynesia"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "contains": "Manihi"
+    },
+    {
+      "contains": "Rangiroa"
+    },
+    {
+      "contains": "Fakarava"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "economy_based_on": "Pearl farming"
+    },
+    {
+      "tourism_attraction": "Diving"
+    },
+    {
+      "governed_by": "French Polynesia"
+    },
+    {
+      "adjacent_to": "Marquesas Islands"
+    }
+  ]
+}

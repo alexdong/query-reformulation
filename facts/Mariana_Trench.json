@@ -1,0 +1,47 @@
+{
+  "entity": "Mariana Trench",
+  "properties": {
+    "type": "Oceanic Trench",
+    "location": "Western Pacific Ocean",
+    "max_depth": "10,929 m (35,853 ft)",
+    "discovery_date": "1875",
+    "named_after": "Mariana Islands",
+    "geological_feature": "Subduction Zone",
+    "pressure": "1,086 bar",
+    "temperature": "1–4 °C (34–39 °F)",
+    "shape": "Horseshoe",
+    "area": "250 km² (97 sq mi)"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "located_in": "Western Pacific Ocean"
+    },
+    {
+      "near": "Mariana Islands"
+    },
+    {
+      "formed_by": "Pacific Plate Subduction"
+    },
+    {
+      "contains": "Challenger Deep"
+    },
+    {
+      "explored_by": "HMS Challenger"
+    },
+    {
+      "studied_by": "Oceanographers"
+    },
+    {
+      "ecosystem": "Hadal Zone"
+    },
+    {
+      "influenced_by": "Plate Tectonics"
+    },
+    {
+      "adjacent_to": "Philippine Sea Plate"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Community Development",
+  "properties": {
+    "definition": "Process of improving quality of life",
+    "focus": "Local participation",
+    "goal": "Sustainable improvement",
+    "scope": "Social, economic, physical",
+    "methodology": "Asset-based, participatory",
+    "discipline": "Social work, Urban planning",
+    "scale": "Neighborhood to regional",
+    "funding": "Government, philanthropy",
+    "outcome": "Empowerment, resilience",
+    "related_concept": "Place-based initiatives"
+  },
+  "relationship": [
+    {
+      "part_of": "Social Impact"
+    },
+    {
+      "related_to": "Urban Renewal"
+    },
+    {
+      "influenced_by": "Participatory Action Research"
+    },
+    {
+      "overlaps_with": "Grassroots Movements"
+    },
+    {
+      "requires": "Community Organizing"
+    },
+    {
+      "benefits": "Local Economy"
+    },
+    {
+      "addresses": "Social Inequality"
+    },
+    {
+      "supports": "Civic Engagement"
+    },
+    {
+      "impacts": "Public Health"
+    },
+    {
+      "linked_to": "Sustainable Development"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Halifax Explosion",
+  "properties": {
+    "type": "Disaster",
+    "date": "1917-12-06",
+    "location": "Halifax, Nova Scotia",
+    "cause": "Collision of ships",
+    "magnitude": "2.9 kt of TNT",
+    "casualties_killed": "1947",
+    "casualties_injured": "9000",
+    "affected_city": "Halifax",
+    "country": "Canada",
+    "era": "World War I"
+  },
+  "relationship": [
+    {
+      "caused_by": "SS Mont-Blanc"
+    },
+    {
+      "caused_by": "SS Imo"
+    },
+    {
+      "affected": "Halifax Regional Municipality"
+    },
+    {
+      "part_of": "World War I"
+    },
+    {
+      "impacted": "Nova Scotia"
+    },
+    {
+      "resulted_in": "Widespread destruction"
+    },
+    {
+      "led_to": "Relief efforts"
+    },
+    {
+      "investigated_by": "Royal Commission"
+    },
+    {
+      "influenced": "Maritime safety regulations"
+    },
+    {
+      "preceded_by": "World War I naval activity"
+    }
+  ]
+}

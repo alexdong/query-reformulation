@@ -1,0 +1,47 @@
+{
+  "entity": "Indigenous peoples",
+  "properties": {
+    "definition": "Original inhabitants",
+    "location": "Worldwide",
+    "population": "500+ million",
+    "cultural_diversity": "Extremely high",
+    "traditional_knowledge": "Rich & varied",
+    "languages": "Thousands",
+    "land_rights": "Often contested",
+    "historical_context": "Colonization impact",
+    "spiritual_beliefs": "Animistic often",
+    "art_forms": "Diverse & symbolic"
+  },
+  "relationship": [
+    {
+      "related_to": "First Nations (Canada)"
+    },
+    {
+      "related_to": "Aboriginal Australians"
+    },
+    {
+      "related_to": "Maori (New Zealand)"
+    },
+    {
+      "related_to": "Native Americans"
+    },
+    {
+      "related_to": "Indigenous Amazonians"
+    },
+    {
+      "impacted_by": "Colonialism"
+    },
+    {
+      "practice": "Traditional ecological knowledge"
+    },
+    {
+      "preserve": "Oral traditions"
+    },
+    {
+      "create": "Indigenous art"
+    },
+    {
+      "advocate_for": "Land rights"
+    }
+  ]
+}

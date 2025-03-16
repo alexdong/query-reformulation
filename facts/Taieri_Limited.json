@@ -1,0 +1,47 @@
+{
+  "entity": "Taieri Limited",
+  "properties": {
+    "industry": "Agriculture",
+    "location": "Milton, New Zealand",
+    "founded": "1871",
+    "business_type": "Cooperative",
+    "products": "Fertilizer, Seeds, Rural Supplies",
+    "parent_company": "PGG Wrightson",
+    "employee_count": "Approximately 100",
+    "area_served": "Otago, Southland",
+    "website": "https://www.taieri.co.nz/",
+    "legal_form": "Limited Liability Company"
+  },
+  "relationship": [
+    {
+      "subsidiary_of": "PGG Wrightson"
+    },
+    {
+      "located_in": "Milton"
+    },
+    {
+      "operates_in": "New Zealand"
+    },
+    {
+      "provides": "Fertilizer"
+    },
+    {
+      "provides": "Seeds"
+    },
+    {
+      "serves": "Farmers"
+    },
+    {
+      "part_of": "New Zealand economy"
+    },
+    {
+      "competitor": "Ravensdown"
+    },
+    {
+      "supplier_of": "Agricultural products"
+    },
+    {
+      "member_of": "Co-operative movement"
+    }
+  ]
+}

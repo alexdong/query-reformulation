@@ -1,0 +1,47 @@
+{
+  "entity": "Hydrology",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field": "Earth science",
+    "subfield_of": "Geology",
+    "focus": "Water resources",
+    "related_to": "Meteorology, Geology, Ecology",
+    "study_area": "Water cycle",
+    "application": "Water management",
+    "methodology": "Quantitative and qualitative analysis",
+    "historical_roots": "Ancient civilizations",
+    "key_concept": "Hydrologic cycle"
+  },
+  "relationship": [
+    {
+      "studies": "Hydrologic cycle"
+    },
+    {
+      "related_to": "Meteorology"
+    },
+    {
+      "related_to": "Geology"
+    },
+    {
+      "influences": "Water resource management"
+    },
+    {
+      "uses": "Remote sensing"
+    },
+    {
+      "employs": "Hydrological models"
+    },
+    {
+      "analyzes": "River systems"
+    },
+    {
+      "studies": "Groundwater"
+    },
+    {
+      "impacts": "Ecosystems"
+    },
+    {
+      "requires": "Geographic Information Systems"
+    }
+  ]
+}

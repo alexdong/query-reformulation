@@ -1,0 +1,47 @@
+{
+  "entity": "Economics",
+  "properties": {
+    "instance_of": "Social science",
+    "field_of_study": "Allocation of resources",
+    "subfield_of": "Social sciences",
+    "related_to": "Statistics, Mathematics",
+    "focuses_on": "Production, distribution, consumption",
+    "methodology": "Econometrics, Theoretical models",
+    "key_concept": "Scarcity",
+    "historical_origin": "Ancient Greece",
+    "major_thinker": "Adam Smith",
+    "discipline_area": "Human behavior"
+  },
+  "relationship": [
+    {
+      "studies": "Microeconomics"
+    },
+    {
+      "studies": "Macroeconomics"
+    },
+    {
+      "influences": "Public policy"
+    },
+    {
+      "related_to": "Behavioral economics"
+    },
+    {
+      "related_to": "Econometrics"
+    },
+    {
+      "influenced_by": "Political economy"
+    },
+    {
+      "analyzes": "Market failure"
+    },
+    {
+      "deals_with": "Supply and demand"
+    },
+    {
+      "requires": "Rationality"
+    },
+    {
+      "impacts": "Global trade"
+    }
+  ]
+}

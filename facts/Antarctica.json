@@ -1,0 +1,47 @@
+{
+  "entity": "Antarctica",
+  "properties": {
+    "type": "Continent",
+    "area": "14,200,000 km²",
+    "average_elevation": "2,300 m",
+    "lowest_point": "Bentley Subglacial Trench (-2,555 m)",
+    "highest_point": "Mount Vinson (4,892 m)",
+    "average_temperature": "-57 °C",
+    "population": "1,000 (seasonal)",
+    "discovery_date": "1820",
+    "governance": "International treaty",
+    "geological_era": "Phanerozoic"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "located_near": "Southern Ocean"
+    },
+    {
+      "surrounded_by": "Southern Ocean"
+    },
+    {
+      "treaty_governed_by": "Antarctic Treaty System"
+    },
+    {
+      "research_conducted_by": "National Science Foundation"
+    },
+    {
+      "explored_by": "Fabian Gottlieb von Bellingshausen"
+    },
+    {
+      "contains": "Transantarctic Mountains"
+    },
+    {
+      "contains": "Lake Vostok"
+    },
+    {
+      "biome": "Polar desert"
+    },
+    {
+      "species_found": "Emperor Penguin"
+    }
+  ]
+}

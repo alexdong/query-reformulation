@@ -1,0 +1,47 @@
+{
+  "entity": "Domestic Terminal",
+  "properties": {
+    "type": "Airport Facility",
+    "function": "Passenger Handling",
+    "location": "Within Airport",
+    "access": "Domestic Flights",
+    "services": "Check-in, Security",
+    "size": "Variable",
+    "design": "Functional",
+    "regulation": "Aviation Authority",
+    "security_level": "High",
+    "purpose": "Internal Travel"
+  },
+  "relationship": [
+    {
+      "part_of": "Airport"
+    },
+    {
+      "connects_to": "Aircraft"
+    },
+    {
+      "serves": "Domestic Flight"
+    },
+    {
+      "managed_by": "Airport Authority"
+    },
+    {
+      "contains": "Check-in Counter"
+    },
+    {
+      "contains": "Security Checkpoint"
+    },
+    {
+      "adjacent_to": "International Terminal"
+    },
+    {
+      "provides": "Passenger Services"
+    },
+    {
+      "requires": "Ground Crew"
+    },
+    {
+      "subject_to": "Aviation Regulations"
+    }
+  ]
+}

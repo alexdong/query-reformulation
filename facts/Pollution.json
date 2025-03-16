@@ -1,0 +1,47 @@
+{
+  "entity": "Pollution",
+  "properties": {
+    "instance_of": "Environmental issue",
+    "type": "Contamination",
+    "cause": "Human activity",
+    "impact": "Harmful effects",
+    "scale": "Local to global",
+    "measurement": "Concentration levels",
+    "classification": "Air, Water, Land",
+    "health_effect": "Respiratory problems",
+    "economic_impact": "Costly remediation",
+    "legal_framework": "Environmental regulations"
+  },
+  "relationship": [
+    {
+      "causes": "Climate change"
+    },
+    {
+      "affects": "Human health"
+    },
+    {
+      "affects": "Ecosystems"
+    },
+    {
+      "related_to": "Environmental degradation"
+    },
+    {
+      "mitigated_by": "Environmental protection"
+    },
+    {
+      "solved_by": "Sustainable practices"
+    },
+    {
+      "example_of": "Smog"
+    },
+    {
+      "example_of": "Acid rain"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "addressed_by": "Clean Air Act"
+    }
+  ]
+}

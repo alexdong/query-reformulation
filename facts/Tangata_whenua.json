@@ -1,0 +1,47 @@
+{
+  "entity": "Tangata whenua",
+  "properties": {
+    "definition": "Indigenous people",
+    "location": "Aotearoa (New Zealand)",
+    "ancestral_language": "Māori language",
+    "culture": "Māori culture",
+    "traditional_economy": "Subsistence",
+    "governance": "Tribal (Iwi)",
+    "spiritual_beliefs": "Polynesian religion",
+    "art_form": "Whakairo (carving), Rapa (weaving)",
+    "historical_treaty": "Treaty of Waitangi",
+    "contemporary_issues": "Land rights, Sovereignty"
+  },
+  "relationship": [
+    {
+      "is_a": "Indigenous peoples"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "speaks": "Māori language"
+    },
+    {
+      "practices": "Māori culture"
+    },
+    {
+      "signed": "Treaty of Waitangi"
+    },
+    {
+      "related_to": "Iwi"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "has_art": "Whakairo"
+    },
+    {
+      "has_art": "Rapa"
+    },
+    {
+      "advocates_for": "Māori sovereignty"
+    }
+  ]
+}

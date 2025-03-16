@@ -1,0 +1,47 @@
+{
+  "entity": "Te Reo Pākehā",
+  "properties": {
+    "name": "New Zealand Sign Language",
+    "type": "Sign language",
+    "origin": "New Zealand",
+    "status": "Official language",
+    "recognised": "1986",
+    "influenced_by": "British Sign Language, Māori Sign Language",
+    "users": "Approximately 5,000",
+    "writing_system": "Manual alphabet",
+    "governing_body": "New Zealand Sign Language Council",
+    "lexicon_size": "Estimated 10,000 signs"
+  },
+  "relationship": [
+    {
+      "influenced": "British Sign Language"
+    },
+    {
+      "influenced_by": "Māori Sign Language"
+    },
+    {
+      "related_to": "Sign language"
+    },
+    {
+      "official_language_of": "New Zealand"
+    },
+    {
+      "governed_by": "New Zealand Sign Language Council"
+    },
+    {
+      "part_of": "New Zealand culture"
+    },
+    {
+      "used_by": "Deaf community"
+    },
+    {
+      "related_to": "Linguistics"
+    },
+    {
+      "influenced": "New Zealand education"
+    },
+    {
+      "translation_of": "English"
+    }
+  ]
+}

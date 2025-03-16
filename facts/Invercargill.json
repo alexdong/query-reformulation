@@ -1,0 +1,47 @@
+{
+  "entity": "Invercargill",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Southland",
+    "population_2023": "80,577",
+    "latitude": "-46.446",
+    "longitude": "168.355",
+    "established": "1858",
+    "mayor": "Sir Tim Shadbolt (until 2021), Nobby Clark (current)",
+    "area_code": "956",
+    "timezone": "NZST"
+  },
+  "relationship": [
+    {
+      "part_of": "Southland District"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "nearest_city": "Blenheim"
+    },
+    {
+      "river_flows_through": "Invercargill City River"
+    },
+    {
+      "has_sister_city": "Kakamigahara"
+    },
+    {
+      "founded_by": "Murihiki"
+    },
+    {
+      "has_sport_team": "Invercargill Rugby Football Club"
+    },
+    {
+      "has_landmark": "Queens Park"
+    },
+    {
+      "has_transportation": "Invercargill Airport"
+    },
+    {
+      "influenced_by": "James Cowan"
+    }
+  ]
+}

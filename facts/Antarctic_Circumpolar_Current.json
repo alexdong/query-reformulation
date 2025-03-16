@@ -1,0 +1,47 @@
+{
+  "entity": "Antarctic Circumpolar Current",
+  "properties": {
+    "type": "Ocean current",
+    "location": "Antarctic region",
+    "volume": "30 million m³/s",
+    "velocity": "0.5–2 m/s",
+    "depth": "0–1000 m",
+    "temperature": "-1.5 to 4 °C",
+    "salinity": "34.5–35.2 psu",
+    "formation": "Wind-driven",
+    "impact": "Global ocean circulation",
+    "discovery_date": "1800s"
+  },
+  "relationship": [
+    {
+      "flows_around": "Antarctica"
+    },
+    {
+      "part_of": "Global ocean conveyor belt"
+    },
+    {
+      "influences": "Ocean productivity"
+    },
+    {
+      "impacts": "Climate"
+    },
+    {
+      "connected_to": "Subantarctic Front"
+    },
+    {
+      "connected_to": "Polar Front"
+    },
+    {
+      "transports": "Nutrients"
+    },
+    {
+      "supports": "Marine life"
+    },
+    {
+      "creates": "Upwelling"
+    },
+    {
+      "studied_by": "Oceanographers"
+    }
+  ]
+}

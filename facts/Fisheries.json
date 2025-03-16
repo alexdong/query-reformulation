@@ -1,0 +1,47 @@
+{
+  "entity": "Fisheries",
+  "properties": {
+    "instance_of": "Industry",
+    "type": "Primary sector",
+    "focus": "Fish & Aquatic Resources",
+    "economic_impact": "Significant",
+    "global_value": "Trillions USD",
+    "regulation": "Governmental",
+    "sustainability_concern": "Overfishing",
+    "employment": "Millions",
+    "geographical_scope": "Global",
+    "resource_type": "Renewable"
+  },
+  "relationship": [
+    {
+      "part_of": "Food industry"
+    },
+    {
+      "impacts": "Marine ecosystems"
+    },
+    {
+      "related_to": "Aquaculture"
+    },
+    {
+      "regulates": "Fishing"
+    },
+    {
+      "provides": "Seafood"
+    },
+    {
+      "employs": "Fishers"
+    },
+    {
+      "supports": "Coastal communities"
+    },
+    {
+      "threatens": "Biodiversity"
+    },
+    {
+      "impacts": "Global food security"
+    },
+    {
+      "linked_to": "FAO"
+    }
+  ]
+}

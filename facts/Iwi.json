@@ -1,0 +1,47 @@
+{
+  "entity": "Iwi",
+  "properties": {
+    "instance_of": "Tribal group",
+    "location": "New Zealand",
+    "culture": "Māori",
+    "language": "Te Reo Māori",
+    "origin": "Polynesia",
+    "governance": "Tribal elders",
+    "economy": "Traditional and modern",
+    "history": "Centuries of settlement",
+    "values": "Whakapapa, Mana, Tapu",
+    "population": "Varies by Iwi"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori people"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "related_to": "Treaty of Waitangi"
+    },
+    {
+      "ancestor": "Waka"
+    },
+    {
+      "governed_by": "Rangatira"
+    },
+    {
+      "has_rohe": "Territory"
+    },
+    {
+      "connected_to": "Marae"
+    },
+    {
+      "associated_with": "Haka"
+    },
+    {
+      "claims_land": "New Zealand"
+    },
+    {
+      "has_member": "Māori individual"
+    }
+  ]
+}

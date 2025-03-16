@@ -1,0 +1,47 @@
+{
+  "entity": "1715 Jacobite Rebellion",
+  "properties": {
+    "start_date": "1715-09-10",
+    "end_date": "1716-03-10",
+    "cause": "Succession Crisis",
+    "main_faction": "Jacobites",
+    "opposing_faction": "Hanoverians",
+    "location": "Great Britain",
+    "outcome": "Hanoverian victory",
+    "leader": "James Francis Edward Stuart",
+    "involved_countries": "Great Britain",
+    "historical_period": "18th Century"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Glorious Revolution"
+    },
+    {
+      "followed_by": "1745 Jacobite Rebellion"
+    },
+    {
+      "involved_person": "James Francis Edward Stuart"
+    },
+    {
+      "involved_person": "George I"
+    },
+    {
+      "involved_person": "Simon Fraser, 11th Lord Lovat"
+    },
+    {
+      "involved_person": "Earl of Mar"
+    },
+    {
+      "battle_took_place": "Battle of Sheriffmuir"
+    },
+    {
+      "battle_took_place": "Battle of Preston"
+    },
+    {
+      "battle_took_place": "Battle of Glenshiel"
+    },
+    {
+      "influenced": "Act of Settlement"
+    }
+  ]
+}

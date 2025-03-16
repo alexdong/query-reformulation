@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand national rugby team",
+  "properties": {
+    "short_name": "All Blacks",
+    "country": "New Zealand",
+    "sport": "Rugby union",
+    "confederation": "Oceania",
+    "world_ranking": "1",
+    "first_test_match": "1893-07-03",
+    "head_coach": "Ian Foster",
+    "captain": "Sam Cane",
+    "home_ground": "Eden Park",
+    "trophy": "Rugby World Cup"
+  },
+  "relationship": [
+    {
+      "member_of": "Oceania Rugby"
+    },
+    {
+      "governed_by": "New Zealand Rugby"
+    },
+    {
+      "competes_in": "Rugby Championship"
+    },
+    {
+      "competes_in": "Six Nations"
+    },
+    {
+      "won": "Rugby World Cup"
+    },
+    {
+      "rivalry_with": "Australia national rugby team"
+    },
+    {
+      "influenced": "Rugby union"
+    },
+    {
+      "player": "Richie McCaw"
+    },
+    {
+      "player": "Dan Carter"
+    },
+    {
+      "haka": "Ka Mate"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Human Food Supply",
+  "properties": {
+    "type": "System",
+    "scale": "Global",
+    "dependency": "Agriculture",
+    "primary_source": "Plants & Animals",
+    "population_supported": "8 Billion+",
+    "vulnerability": "Climate Change",
+    "key_resource": "Water",
+    "distribution": "Uneven",
+    "waste_percentage": "30-40%",
+    "technology_involved": "Biotechnology"
+  },
+  "relationship": [
+    {
+      "impacted_by": "Climate Change"
+    },
+    {
+      "dependent_on": "Agriculture"
+    },
+    {
+      "provides_for": "Human Population"
+    },
+    {
+      "threatened_by": "Pests"
+    },
+    {
+      "influenced_by": "Globalization"
+    },
+    {
+      "requires": "Fertilizers"
+    },
+    {
+      "affected_by": "Food Security"
+    },
+    {
+      "linked_to": "Sustainable Agriculture"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "supports": "Livestock Farming"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "State Services Commission (New Zealand)",
+  "properties": {
+    "instance_of": "Government agency",
+    "country": "New Zealand",
+    "formation_date": "1994",
+    "responsible_for": "Public service",
+    "headquarters_location": "Wellington",
+    "mandate": "Performance, capability, and accountability",
+    "replaced": "Public Service Commission",
+    "abolished": "2023",
+    "successor": "Public Service",
+    "website": "https://www.publicservice.govt.nz/"
+  },
+  "relationship": [
+    {
+      "reports_to": "Prime Minister of New Zealand"
+    },
+    {
+      "oversees": "Government departments"
+    },
+    {
+      "influences": "Public sector reform"
+    },
+    {
+      "collaborates_with": "Treasury (New Zealand)"
+    },
+    {
+      "develops": "Capability frameworks"
+    },
+    {
+      "promotes": "Good governance"
+    },
+    {
+      "provides": "Guidance to departments"
+    },
+    {
+      "focuses_on": "Public sector performance"
+    },
+    {
+      "impacts": "Policy implementation"
+    },
+    {
+      "part_of": "New Zealand government"
+    }
+  ]
+}

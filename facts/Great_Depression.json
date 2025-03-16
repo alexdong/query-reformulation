@@ -1,0 +1,47 @@
+{
+  "entity": "Great Depression",
+  "properties": {
+    "start_date": "1929",
+    "end_date": "1939",
+    "location": "Worldwide",
+    "cause": "Stock Market Crash",
+    "unemployment_peak": "25%",
+    "gdp_decline": "30%",
+    "inflation_rate": "-2.3%",
+    "deflationary": "True",
+    "recovery_method": "New Deal",
+    "severity": "Severe"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Roaring Twenties"
+    },
+    {
+      "followed_by": "World War II"
+    },
+    {
+      "caused": "Dust Bowl"
+    },
+    {
+      "influenced": "Keynesian economics"
+    },
+    {
+      "affected": "United States"
+    },
+    {
+      "affected": "Germany"
+    },
+    {
+      "affected": "Japan"
+    },
+    {
+      "response": "Social Security Act"
+    },
+    {
+      "response": "Agricultural Adjustment Act"
+    },
+    {
+      "contributed_to": "Rise of Fascism"
+    }
+  ]
+}

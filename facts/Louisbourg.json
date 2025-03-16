@@ -1,0 +1,47 @@
+{
+  "entity": "Louisbourg",
+  "properties": {
+    "type": "Fortress",
+    "location": "Cape Breton Island",
+    "country": "Canada",
+    "founded_by": "France",
+    "established": "1720",
+    "destroyed_by": "British",
+    "destroyed_date": "1760",
+    "reconstructed": "1960s",
+    "purpose": "Strategic Port",
+    "designation": "National Historic Site"
+  },
+  "relationship": [
+    {
+      "part_of": "New France"
+    },
+    {
+      "governed_by": "French Colonial Empire"
+    },
+    {
+      "attacked_by": "British"
+    },
+    {
+      "located_in": "Cape Breton Regional Municipality"
+    },
+    {
+      "influenced": "French Canadian Culture"
+    },
+    {
+      "site_of": "Siege of Louisbourg"
+    },
+    {
+      "involved_in": "Seven Years' War"
+    },
+    {
+      "contains": "Louisbourg Lighthouse"
+    },
+    {
+      "near": "Margaree Harbour"
+    },
+    {
+      "historical_period": "French Colonial Era"
+    }
+  ]
+}

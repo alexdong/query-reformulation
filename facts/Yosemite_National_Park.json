@@ -1,0 +1,47 @@
+{
+  "entity": "Yosemite National Park",
+  "properties": {
+    "location": "California, USA",
+    "established": "1890",
+    "area": "740,000 acres",
+    "designation": "National Park",
+    "elevation_min": "600 ft",
+    "elevation_max": "13,114 ft",
+    "climate": "Mediterranean",
+    "biomes": "Temperate Forest, Subalpine, Alpine",
+    "precipitation": "30-60 inches",
+    "UNESCO_status": "World Heritage Site"
+  },
+  "relationship": [
+    {
+      "part_of": "Sierra Nevada"
+    },
+    {
+      "contains": "Yosemite Valley"
+    },
+    {
+      "contains": "Half Dome"
+    },
+    {
+      "contains": "El Capitan"
+    },
+    {
+      "contains": "Yosemite Falls"
+    },
+    {
+      "managed_by": "National Park Service"
+    },
+    {
+      "adjacent_to": "Sierra National Forest"
+    },
+    {
+      "flora_includes": "Giant Sequoia"
+    },
+    {
+      "fauna_includes": "Black Bear"
+    },
+    {
+      "influenced": "American landscape painting"
+    }
+  ]
+}

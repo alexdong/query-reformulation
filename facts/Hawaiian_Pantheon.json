@@ -1,0 +1,47 @@
+{
+  "entity": "Hawaiian Pantheon",
+  "properties": {
+    "type": "Polytheistic",
+    "origin": "Hawaiian Islands",
+    "culture": "Hawaiian",
+    "belief_system": "Animism, ancestor veneration",
+    "pantheon_size": "Numerous",
+    "primary_role": "Creation, natural forces, human affairs",
+    "mythology_source": "Oral tradition, Kumulipo",
+    "deity_gender": "Varied",
+    "associated_concepts": "Mana, Kapu, Ohana",
+    "historical_period": "Pre-European contact"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian Mythology"
+    },
+    {
+      "related_to": "Kū (god)"
+    },
+    {
+      "related_to": "Lono (god)"
+    },
+    {
+      "related_to": "Kane (god)"
+    },
+    {
+      "related_to": "Kanaloa (god)"
+    },
+    {
+      "related_to": "Pele (goddess)"
+    },
+    {
+      "related_to": "Hāloa (deity)"
+    },
+    {
+      "related_to": "Maui (demigod)"
+    },
+    {
+      "influenced": "Hawaiian religion"
+    },
+    {
+      "associated_with": "Kumulipo"
+    }
+  ]
+}

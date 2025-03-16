@@ -1,0 +1,47 @@
+{
+  "entity": "Oceanic trench",
+  "properties": {
+    "type": "Geological feature",
+    "location": "Ocean floor",
+    "formation": "Subduction",
+    "depth": "6000-11000 m",
+    "shape": "Long, narrow depression",
+    "composition": "Sediment, basalt",
+    "pressure": "Extreme",
+    "temperature": "Near freezing",
+    "biodiversity": "Low, specialized",
+    "discovery_date": "1875"
+  },
+  "relationship": [
+    {
+      "part_of": "Ocean"
+    },
+    {
+      "formed_by": "Subduction zone"
+    },
+    {
+      "located_near": "Volcanic arc"
+    },
+    {
+      "contains": "Abyssal plain"
+    },
+    {
+      "adjacent_to": "Mid-ocean ridge"
+    },
+    {
+      "associated_with": "Hadal zone"
+    },
+    {
+      "example_of": "Mariana Trench"
+    },
+    {
+      "example_of": "Japan Trench"
+    },
+    {
+      "influences": "Deep ocean currents"
+    },
+    {
+      "studied_by": "Oceanography"
+    }
+  ]
+}

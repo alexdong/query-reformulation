@@ -1,0 +1,47 @@
+{
+  "entity": "Atlantic Ocean",
+  "properties": {
+    "type": "Ocean",
+    "area": "43,340,000 km²",
+    "average_depth": "3,646 m",
+    "max_depth": "8,486 m",
+    "salinity": "35‰",
+    "temperature": "Varies",
+    "location": "Between Americas & Europe/Africa",
+    "major_currents": "Gulf Stream, Canary Current",
+    "borders": "Americas, Europe, Africa",
+    "name_origin": "Greek 'Atlas'"
+  },
+  "relationship": [
+    {
+      "part_of": "World Ocean"
+    },
+    {
+      "adjacent_to": "North America"
+    },
+    {
+      "adjacent_to": "Europe"
+    },
+    {
+      "adjacent_to": "Africa"
+    },
+    {
+      "adjacent_to": "South America"
+    },
+    {
+      "contains": "Mid-Atlantic Ridge"
+    },
+    {
+      "flows_into": "Mediterranean Sea"
+    },
+    {
+      "flows_into": "Caribbean Sea"
+    },
+    {
+      "influences_climate_of": "Western Europe"
+    },
+    {
+      "supports": "Marine life"
+    }
+  ]
+}

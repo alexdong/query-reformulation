@@ -1,0 +1,47 @@
+{
+  "entity": "Mana",
+  "properties": {
+    "instance_of": "Concept",
+    "origin": "Polynesian culture",
+    "meaning": "Spiritual power",
+    "associated_with": "Life force",
+    "used_in": "Magic",
+    "cultural_significance": "Vital",
+    "related_to": "Tapu",
+    "found_in": "Oceania",
+    "synonym": "Wairua",
+    "concept_type": "Energy"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian mythology"
+    },
+    {
+      "related_to": "Tapu"
+    },
+    {
+      "associated_with": "Wairua"
+    },
+    {
+      "used_in": "Hawaiian religion"
+    },
+    {
+      "used_in": "Maori culture"
+    },
+    {
+      "concept_related": "Ki"
+    },
+    {
+      "concept_related": "Prana"
+    },
+    {
+      "influences": "Fantasy literature"
+    },
+    {
+      "appears_in": "Final Fantasy"
+    },
+    {
+      "concept_related": "Animism"
+    }
+  ]
+}

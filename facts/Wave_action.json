@@ -1,0 +1,47 @@
+{
+  "entity": "Wave action",
+  "properties": {
+    "definition": "Movement of ocean surface",
+    "type": "Geophysical process",
+    "energy_transfer": "Transports energy",
+    "wavelength": "Distance between crests",
+    "frequency": "Number of waves passing a point",
+    "amplitude": "Height of a wave",
+    "causes": "Wind, gravity, seismic activity",
+    "effects": "Erosion, deposition, sediment transport",
+    "measurement_unit": "Meters, Hertz",
+    "related_phenomenon": "Tides"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceanography"
+    },
+    {
+      "influences": "Coastal erosion"
+    },
+    {
+      "affects": "Sediment transport"
+    },
+    {
+      "related_to": "Wave propagation"
+    },
+    {
+      "impacts": "Beach morphology"
+    },
+    {
+      "causes": "Wind"
+    },
+    {
+      "related_to": "Tsunami"
+    },
+    {
+      "influences": "Littoral zone"
+    },
+    {
+      "part_of": "Hydrology"
+    },
+    {
+      "related_to": "Wave refraction"
+    }
+  ]
+}

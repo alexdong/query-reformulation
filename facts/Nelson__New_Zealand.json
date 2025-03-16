@@ -1,0 +1,47 @@
+{
+  "entity": "Nelson, New Zealand",
+  "properties": {
+    "type": "City",
+    "region": "Tasman-Nelson",
+    "country": "New Zealand",
+    "population_2023": "54,700",
+    "latitude": "-41.3333",
+    "longitude": "173.2167",
+    "foundation_date": "1842",
+    "mayor": "Nick Smith",
+    "area_km2": "1555",
+    "timezone": "NZST"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Tasman-Nelson Region"
+    },
+    {
+      "founded_by": "European settlers"
+    },
+    {
+      "near": "Golden Bay"
+    },
+    {
+      "river_flows_through": "Maitai River"
+    },
+    {
+      "has_sister_city": "Takamatsu, Japan"
+    },
+    {
+      "industry": "Tourism"
+    },
+    {
+      "attraction": "Nelson Lakes National Park"
+    },
+    {
+      "attraction": "World of WearableArt & Classic Cars Museum"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

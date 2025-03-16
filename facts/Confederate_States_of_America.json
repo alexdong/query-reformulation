@@ -1,0 +1,47 @@
+{
+  "entity": "Confederate States of America",
+  "properties": {
+    "formation_date": "1861-02-04",
+    "dissolution_date": "1865-04-09",
+    "capital": "Richmond, Virginia",
+    "government_type": "Confederate Republic",
+    "casus_belli": "Secession",
+    "area": "1,100,000 sq mi",
+    "population": "9,103,332 (1860)",
+    "currency": "Confederate dollar",
+    "flag": "Confederate battle flag",
+    "leader": "Jefferson Davis"
+  },
+  "relationship": [
+    {
+      "predecessor": "United States of America"
+    },
+    {
+      "succeeded_by": "United States of America"
+    },
+    {
+      "civil_war": "American Civil War"
+    },
+    {
+      "member_state": "South Carolina"
+    },
+    {
+      "member_state": "Mississippi"
+    },
+    {
+      "member_state": "Florida"
+    },
+    {
+      "member_state": "Alabama"
+    },
+    {
+      "fought_against": "Union"
+    },
+    {
+      "influenced_by": "States' Rights"
+    },
+    {
+      "economic_system": "Agriculture"
+    }
+  ]
+}

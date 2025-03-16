@@ -1,0 +1,47 @@
+{
+  "entity": "Southern Province (Sri Lanka)",
+  "properties": {
+    "type": "Province",
+    "country": "Sri Lanka",
+    "capital": "Galle",
+    "area_km2": "3652",
+    "population_2012": "2584400",
+    "density_km2": "708",
+    "major_city": "Galle",
+    "languages_spoken": "Sinhala, Tamil",
+    "religion": "Buddhism, Hinduism, Islam, Christianity",
+    "governor": "Rajitha Senaratne"
+  },
+  "relationship": [
+    {
+      "part_of": "Sri Lanka"
+    },
+    {
+      "borders": "Central Province (Sri Lanka)"
+    },
+    {
+      "borders": "Uva Province"
+    },
+    {
+      "borders": "Eastern Province (Sri Lanka)"
+    },
+    {
+      "borders": "Western Province (Sri Lanka)"
+    },
+    {
+      "contains": "Galle District"
+    },
+    {
+      "contains": "Matara District"
+    },
+    {
+      "contains": "Hambantota District"
+    },
+    {
+      "historical_region": "Southern Sri Lanka"
+    },
+    {
+      "economic_activity": "Tourism"
+    }
+  ]
+}

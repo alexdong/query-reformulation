@@ -1,0 +1,47 @@
+{
+  "entity": "Appalachia",
+  "properties": {
+    "region_type": "Mountain range",
+    "location": "Eastern United States",
+    "area": "155,000 sq mi",
+    "population": "25 million",
+    "geology": "Folded mountains",
+    "climate": "Humid subtropical",
+    "economy": "Historically mining, now diversified",
+    "culture": "Distinctive folk traditions",
+    "biodiversity": "High",
+    "historical_name": "Ancient Appalachia"
+  },
+  "relationship": [
+    {
+      "part_of": "Eastern United States"
+    },
+    {
+      "contains": "Great Smoky Mountains"
+    },
+    {
+      "contains": "Blue Ridge Mountains"
+    },
+    {
+      "borders": "Ohio River Valley"
+    },
+    {
+      "influenced_by": "Native American cultures"
+    },
+    {
+      "affected_by": "Coal mining"
+    },
+    {
+      "associated_with": "Appalachian Trail"
+    },
+    {
+      "genre_appears_in": "American literature"
+    },
+    {
+      "music_genre": "Appalachian folk music"
+    },
+    {
+      "economic_impact_on": "Coal industry"
+    }
+  ]
+}

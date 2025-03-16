@@ -1,0 +1,47 @@
+{
+  "entity": "Mitchell Hunt",
+  "properties": {
+    "birth_date": "1982-07-21",
+    "birth_place": "Melbourne, Australia",
+    "nationality": "Australian",
+    "occupation": "Software Engineer",
+    "education": "University of Melbourne",
+    "employer": "GitHub",
+    "known_for": "Emoji",
+    "github_username": "mitchland",
+    "contributor_to": "Unicode",
+    "award": "Webby Award"
+  },
+  "relationship": [
+    {
+      "works_at": "GitHub"
+    },
+    {
+      "contributes_to": "Unicode Consortium"
+    },
+    {
+      "educated_at": "University of Melbourne"
+    },
+    {
+      "involved_in": "Emoji standardization"
+    },
+    {
+      "member_of": "Unicode Technical Committee"
+    },
+    {
+      "influences": "Emoji design"
+    },
+    {
+      "collaborates_with": "Jennifer Lee"
+    },
+    {
+      "design_role": "Emoji designer"
+    },
+    {
+      "award_received_from": "The Webby Awards"
+    },
+    {
+      "related_to": "Unicode character"
+    }
+  ]
+}

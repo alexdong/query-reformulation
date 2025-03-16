@@ -1,0 +1,47 @@
+{
+  "entity": "New Guinea",
+  "properties": {
+    "type": "Island",
+    "location": "Oceania",
+    "area": "785,753 km²",
+    "highest_point": "Puncak Jaya",
+    "population": "8.5 million",
+    "countries": "Indonesia, Papua New Guinea",
+    "largest_city": "Port Moresby",
+    "biodiversity": "High",
+    "tectonic_setting": "Pacific Ring of Fire",
+    "geology": "Volcanic"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "adjacent_to": "Australia"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "governed_by": "Indonesia"
+    },
+    {
+      "governed_by": "Papua New Guinea"
+    },
+    {
+      "contains": "Fly River"
+    },
+    {
+      "contains": "Sepik River"
+    },
+    {
+      "has_biome": "Rainforest"
+    },
+    {
+      "has_species": "Birds-of-paradise"
+    },
+    {
+      "influenced_by": "Austronesian peoples"
+    }
+  ]
+}

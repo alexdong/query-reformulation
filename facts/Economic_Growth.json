@@ -1,0 +1,47 @@
+{
+  "entity": "Economic Growth",
+  "properties": {
+    "definition": "Increase in real GDP",
+    "measurement": "Percentage change in GDP",
+    "driver_1": "Capital Accumulation",
+    "driver_2": "Technological Progress",
+    "driver_3": "Labor Productivity",
+    "indicator": "GDP per capita",
+    "related_concept": "Economic Development",
+    "impact_positive": "Higher living standards",
+    "impact_negative": "Environmental degradation",
+    "affected_by": "Government Policy"
+  },
+  "relationship": [
+    {
+      "causes": "Increased Standard of Living"
+    },
+    {
+      "requires": "Investment"
+    },
+    {
+      "influenced_by": "Technological Innovation"
+    },
+    {
+      "impacts": "Employment Rate"
+    },
+    {
+      "related_to": "Gross Domestic Product"
+    },
+    {
+      "measured_by": "Real GDP Growth Rate"
+    },
+    {
+      "affected_by": "Inflation"
+    },
+    {
+      "impacts": "Poverty Reduction"
+    },
+    {
+      "requires": "Productivity Gains"
+    },
+    {
+      "impacts": "Income Distribution"
+    }
+  ]
+}

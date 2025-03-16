@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Reptiles",
+  "properties": {
+    "type": "Reptiles",
+    "habitat": "Marine",
+    "era": "Mesozoic to Present",
+    "size_range": "Varies greatly",
+    "diet": "Carnivorous",
+    "breathing": "Air-breathing",
+    "thermoregulation": "Ectothermic",
+    "conservation_status": "Varies by species",
+    "distribution": "Worldwide oceans",
+    "examples": "Sea Turtles, Sea Snakes, Marine Iguanas"
+  },
+  "relationship": [
+    {
+      "is_a": "Reptilia"
+    },
+    {
+      "part_of": "Marine Ecosystems"
+    },
+    {
+      "prey_on": "Fish"
+    },
+    {
+      "prey_on": "Crustaceans"
+    },
+    {
+      "threatened_by": "Climate Change"
+    },
+    {
+      "threatened_by": "Pollution"
+    },
+    {
+      "migrate_to": "Tropical Waters"
+    },
+    {
+      "reproduce_in": "Warm Waters"
+    },
+    {
+      "related_to": "Ichthyosaurs"
+    },
+    {
+      "related_to": "Plesiosaurs"
+    }
+  ]
+}

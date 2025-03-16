@@ -1,0 +1,47 @@
+{
+  "entity": "California Ranchos",
+  "properties": {
+    "type": "Land grants",
+    "location": "California",
+    "era": "Spanish & Mexican Colonial",
+    "establishment_date": "1767-1836",
+    "area_unit": "varas",
+    "original_owner": "Spanish Crown, Mexican Government",
+    "purpose": "Agriculture, Livestock",
+    "dissolution_date": "1864",
+    "land_size": "Millions of acres",
+    "legal_status": "Private property"
+  },
+  "relationship": [
+    {
+      "part_of": "Spanish Empire"
+    },
+    {
+      "part_of": "Mexican Empire"
+    },
+    {
+      "preceded_by": "Missions (California)"
+    },
+    {
+      "succeeded_by": "American Ranchos"
+    },
+    {
+      "located_in": "Alta California"
+    },
+    {
+      "governed_by": "Governors of California"
+    },
+    {
+      "land_use": "Agriculture"
+    },
+    {
+      "land_use": "Cattle ranching"
+    },
+    {
+      "influenced": "California history"
+    },
+    {
+      "land_owner": "Don"
+    }
+  ]
+}

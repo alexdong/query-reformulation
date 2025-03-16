@@ -1,0 +1,47 @@
+{
+  "entity": "Employment",
+  "properties": {
+    "instance_of": "Social concept",
+    "definition": "Work for wages or salary",
+    "type": "Contractual relationship",
+    "legal_status": "Governed by law",
+    "economic_indicator": "GDP",
+    "measurement_unit": "Person-hours",
+    "tax_implications": "Income tax, payroll tax",
+    "benefits_often_included": "Healthcare, retirement",
+    "impact_on_individual": "Income, skills, social status",
+    "impact_on_society": "Economic growth, innovation"
+  },
+  "relationship": [
+    {
+      "requires": "Labor"
+    },
+    {
+      "provides": "Income"
+    },
+    {
+      "related_to": "Occupation"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "governed_by": "Labor law"
+    },
+    {
+      "leads_to": "Career"
+    },
+    {
+      "requires": "Employer"
+    },
+    {
+      "provides": "Social security"
+    },
+    {
+      "impacts": "Unemployment"
+    },
+    {
+      "related_to": "Workplace"
+    }
+  ]
+}

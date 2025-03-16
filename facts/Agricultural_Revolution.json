@@ -1,0 +1,47 @@
+{
+  "entity": "Agricultural Revolution",
+  "properties": {
+    "type": "Historical Period",
+    "start_date": "c. 10,000 BCE",
+    "end_date": "c. 500 BCE",
+    "location": "Fertile Crescent",
+    "primary_impact": "Shift to settled agriculture",
+    "key_innovation": "Domestication of plants & animals",
+    "population_effect": "Population growth",
+    "social_change": "Development of villages",
+    "technology": "Irrigation, plows",
+    "preceding_era": "Mesolithic Period"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Mesolithic Period"
+    },
+    {
+      "followed_by": "Bronze Age"
+    },
+    {
+      "location_of": "Fertile Crescent"
+    },
+    {
+      "caused": "Sedentary Lifestyle"
+    },
+    {
+      "led_to": "Development of Civilizations"
+    },
+    {
+      "impacted": "Human Diet"
+    },
+    {
+      "influenced": "Social Stratification"
+    },
+    {
+      "resulted_in": "Surplus Food"
+    },
+    {
+      "enabled": "Specialization of Labor"
+    },
+    {
+      "related_to": "Neolithic Revolution"
+    }
+  ]
+}

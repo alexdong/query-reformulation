@@ -1,0 +1,47 @@
+{
+  "entity": "G7",
+  "properties": {
+    "type": "Intergovernmental forum",
+    "members": "Canada, France, Germany, Italy, Japan, UK, USA",
+    "purpose": "Economic policy coordination",
+    "first_meeting": "1975",
+    "location_of_summit": "Rotating",
+    "chairmanship": "Rotating",
+    "official_website": "g7.ca",
+    "focus": "Global economic challenges",
+    "predecessor": "Non-formal meetings",
+    "legal_status": "No treaty"
+  },
+  "relationship": [
+    {
+      "member_of": "Canada"
+    },
+    {
+      "member_of": "France"
+    },
+    {
+      "member_of": "Germany"
+    },
+    {
+      "member_of": "Italy"
+    },
+    {
+      "member_of": "Japan"
+    },
+    {
+      "member_of": "United Kingdom"
+    },
+    {
+      "member_of": "United States"
+    },
+    {
+      "related_to": "G8"
+    },
+    {
+      "influenced": "International economics"
+    },
+    {
+      "summit_hosted_by": "Japan"
+    }
+  ]
+}

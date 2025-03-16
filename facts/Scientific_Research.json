@@ -1,0 +1,47 @@
+{
+  "entity": "Scientific research",
+  "properties": {
+    "instance_of": "Process",
+    "purpose": "Knowledge creation",
+    "methodology": "Systematic investigation",
+    "funding_source": "Grants, Private",
+    "peer_review": "Essential",
+    "publication_type": "Journal articles, Reports",
+    "data_handling": "Rigorous",
+    "ethics_consideration": "Crucial",
+    "output_format": "Data, Theories",
+    "subject_area": "Diverse"
+  },
+  "relationship": [
+    {
+      "relies_on": "Scientific method"
+    },
+    {
+      "produces": "Scientific knowledge"
+    },
+    {
+      "funded_by": "Research funding"
+    },
+    {
+      "reviewed_by": "Peer review"
+    },
+    {
+      "contributes_to": "Innovation"
+    },
+    {
+      "uses": "Data analysis"
+    },
+    {
+      "involves": "Scientists"
+    },
+    {
+      "requires": "Hypothesis"
+    },
+    {
+      "leads_to": "Publication"
+    },
+    {
+      "impacts": "Society"
+    }
+  ]
+}

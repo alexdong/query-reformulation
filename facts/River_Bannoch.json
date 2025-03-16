@@ -1,0 +1,47 @@
+{
+  "entity": "River Bannoch",
+  "properties": {
+    "type": "River",
+    "location": "Scotland",
+    "length": "12.5 mi",
+    "source": "Beinn a' Mhuilinn",
+    "mouth": "River Spey",
+    "tributary_of": "River Spey",
+    "region": "Highland",
+    "flow_rate": "Variable",
+    "drainage_area": "84 sq mi",
+    "usage": "Hydroelectric power"
+  },
+  "relationship": [
+    {
+      "flows_through": "Highland"
+    },
+    {
+      "originates_at": "Beinn a' Mhuilinn"
+    },
+    {
+      "empties_into": "River Spey"
+    },
+    {
+      "part_of": "River Spey system"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "contributes_to": "River Spey"
+    },
+    {
+      "influenced_by": "Scottish Highlands"
+    },
+    {
+      "near": "Newtonmore"
+    },
+    {
+      "supports": "Salmon population"
+    },
+    {
+      "used_for": "Hydroelectric power generation"
+    }
+  ]
+}

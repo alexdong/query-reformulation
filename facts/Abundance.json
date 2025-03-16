@@ -1,0 +1,47 @@
+{
+  "entity": "Abundance",
+  "properties": {
+    "instance_of": "Concept",
+    "field": "Economics, Philosophy, Spirituality",
+    "definition": "Plentiful supply",
+    "opposite_of": "Scarcity",
+    "related_to": "Prosperity",
+    "aspect": "Positive psychology",
+    "focus": "Resource availability",
+    "measurement": "Quantity, Value",
+    "perception": "Subjective, Relative",
+    "impact": "Well-being, Sustainability"
+  },
+  "relationship": [
+    {
+      "causes": "Prosperity"
+    },
+    {
+      "contrasted_with": "Scarcity"
+    },
+    {
+      "related_to": "Resource"
+    },
+    {
+      "influences": "Economics"
+    },
+    {
+      "studied_in": "Positive psychology"
+    },
+    {
+      "impacts": "Sustainability"
+    },
+    {
+      "linked_to": "Law of Attraction"
+    },
+    {
+      "associated_with": "Gaia hypothesis"
+    },
+    {
+      "concept_in": "Philosophy"
+    },
+    {
+      "part_of": "Ecological economics"
+    }
+  ]
+}

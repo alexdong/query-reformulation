@@ -1,0 +1,47 @@
+{
+  "entity": "Little Blue Penguin",
+  "properties": {
+    "scientific_name": "Eudyptula minor",
+    "conservation_status": "Least Concern",
+    "average_height": "33 cm",
+    "average_weight": "1 kg",
+    "distribution": "Southern Hemisphere",
+    "diet": "Small fish",
+    "lifespan": "6-20 years",
+    "nesting_location": "Burrows",
+    "swim_speed": "Up to 12 km/h",
+    "predators": "Sharks, seals, cats"
+  },
+  "relationship": [
+    {
+      "part_of": "Sphenisciformes"
+    },
+    {
+      "lives_in": "Australia"
+    },
+    {
+      "lives_in": "New Zealand"
+    },
+    {
+      "lives_in": "Tasmania"
+    },
+    {
+      "prey_of": "Sharks"
+    },
+    {
+      "prey_of": "Seals"
+    },
+    {
+      "threatened_by": "Feral cats"
+    },
+    {
+      "related_to": "Fiordland Penguin"
+    },
+    {
+      "migration": "Limited"
+    },
+    {
+      "conservation_organization": "IUCN"
+    }
+  ]
+}

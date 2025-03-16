@@ -1,0 +1,47 @@
+{
+  "entity": "Neoclassical Architecture",
+  "properties": {
+    "style_origin": "Europe",
+    "period": "17th-19th centuries",
+    "inspiration": "Classical Antiquity",
+    "key_features": "Symmetry, order, proportion",
+    "materials": "Stone, marble, brick",
+    "decoration": "Columns, pediments, pilasters",
+    "purpose": "Public buildings, residences",
+    "aesthetic": "Formal, restrained, elegant",
+    "influence": "Renaissance architecture",
+    "reaction_against": "Rococo"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Ancient Greek architecture"
+    },
+    {
+      "influenced_by": "Ancient Roman architecture"
+    },
+    {
+      "influenced": "Federal architecture"
+    },
+    {
+      "influenced": "Georgian architecture"
+    },
+    {
+      "architect": "Andrea Palladio"
+    },
+    {
+      "architect": "Robert Adam"
+    },
+    {
+      "architect": "Claude Nicolas Ledoux"
+    },
+    {
+      "example_building": "Pantheon (Paris)"
+    },
+    {
+      "example_building": "United States Capitol"
+    },
+    {
+      "movement_part_of": "Architecture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Subpolar Gyre",
+  "properties": {
+    "type": "Ocean Gyre",
+    "location": "North Atlantic Ocean",
+    "area": "20 million km²",
+    "average_speed": "0.3 m/s",
+    "depth": "Hundreds of meters",
+    "clockwise_rotation": true,
+    "formation": "Wind patterns, Coriolis effect",
+    "water_mass": "North Atlantic Deep Water",
+    "impact": "Climate regulation",
+    "part_of": "Atlantic Meridional Overturning Circulation"
+  },
+  "relationship": [
+    {
+      "located_in": "North Atlantic Ocean"
+    },
+    {
+      "part_of": "Atlantic Meridional Overturning Circulation"
+    },
+    {
+      "influenced_by": "Coriolis effect"
+    },
+    {
+      "driven_by": "Trade winds"
+    },
+    {
+      "impacts": "Climate"
+    },
+    {
+      "contains": "North Atlantic Deep Water"
+    },
+    {
+      "adjacent_to": "Greenland"
+    },
+    {
+      "adjacent_to": "Iceland"
+    },
+    {
+      "adjacent_to": "European waters"
+    },
+    {
+      "affects": "Marine ecosystems"
+    }
+  ]
+}

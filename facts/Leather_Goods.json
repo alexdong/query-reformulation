@@ -1,0 +1,47 @@
+{
+  "entity": "Leather Goods",
+  "properties": {
+    "material": "Animal hide",
+    "primary_use": "Clothing, accessories, furniture",
+    "durability": "High",
+    "origin": "Ancient times",
+    "processing": "Tanning",
+    "aesthetic": "Classic, durable, luxurious",
+    "common_animal_sources": "Cow, sheep, goat, pig",
+    "types": "Bags, belts, shoes, jackets",
+    "repairable": "Yes",
+    "water_resistance": "Variable"
+  },
+  "relationship": [
+    {
+      "made_of": "Animal hide"
+    },
+    {
+      "related_to": "Tanning"
+    },
+    {
+      "used_in": "Fashion"
+    },
+    {
+      "predecessor_of": "Synthetic leather"
+    },
+    {
+      "industry": "Leather industry"
+    },
+    {
+      "associated_with": "Cobbler"
+    },
+    {
+      "style_influenced": "Western wear"
+    },
+    {
+      "product_of": "Leatherworking"
+    },
+    {
+      "used_for": "Horse tack"
+    },
+    {
+      "historical_use": "Armor"
+    }
+  ]
+}

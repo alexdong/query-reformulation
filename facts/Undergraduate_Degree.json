@@ -1,0 +1,47 @@
+{
+  "entity": "Undergraduate Degree",
+  "properties": {
+    "type": "Academic Degree",
+    "level": "Tertiary",
+    "duration": "3-6 years",
+    "credit_system": "Varies",
+    "purpose": "Foundation for further study/career",
+    "assessment": "Exams, Assignments, Projects",
+    "awarding_body": "University/College",
+    "prerequisite": "High School Diploma/Equivalent",
+    "common_fields": "Arts, Sciences, Engineering",
+    "cost": "Varies"
+  },
+  "relationship": [
+    {
+      "precedes": "Postgraduate Degree"
+    },
+    {
+      "requires": "Coursework"
+    },
+    {
+      "leads_to": "Career"
+    },
+    {
+      "part_of": "Higher Education"
+    },
+    {
+      "awarded_by": "University"
+    },
+    {
+      "requires": "Enrollment"
+    },
+    {
+      "includes": "Major"
+    },
+    {
+      "includes": "Minor"
+    },
+    {
+      "followed_by": "Career"
+    },
+    {
+      "related_to": "Academic Transcript"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "entity": "Weather",
+  "properties": {
+    "instance_of": "Atmospheric phenomenon",
+    "affected_by": "Solar radiation",
+    "measured_by": "Meteorology",
+    "influenced_by": "Climate",
+    "includes": "Humidity",
+    "causes": "Natural disasters",
+    "predictable_by": "Weather forecasting"
+  },
+  "relationship": [
+    {
+      "part_of": "Atmosphere"
+    },
+    {
+      "affects": "Agriculture"
+    },
+    {
+      "affects": "Human activity"
+    },
+    {
+      "studied_by": "Meteorologist"
+    },
+    {
+      "related_to": "Climate change"
+    },
+    {
+      "causes": "Storms"
+    },
+    {
+      "includes": "Rain"
+    },
+    {
+      "includes": "Snow"
+    },
+    {
+      "includes": "Hail"
+    },
+    {
+      "influenced_by": "Jet stream"
+    }
+  ]
+}

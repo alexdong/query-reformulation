@@ -1,0 +1,47 @@
+{
+  "entity": "Grandmaster Flash",
+  "properties": {
+    "birth_name": "Joseph Saddler",
+    "birth_date": "1958-01-01",
+    "birth_place": "Bronx, New York City",
+    "occupation": "DJ, rapper, producer",
+    "genre": "Hip hop",
+    "instrument": "Turntables",
+    "active_years": "1976–present",
+    "nationality": "American",
+    "associated_acts": "The Furious Five",
+    "award": "Grammy Hall of Fame Award"
+  },
+  "relationship": [
+    {
+      "member_of": "The Furious Five"
+    },
+    {
+      "influenced": "Run-DMC"
+    },
+    {
+      "influenced": "Public Enemy"
+    },
+    {
+      "influenced": "Beastie Boys"
+    },
+    {
+      "genre_of": "Hip hop music"
+    },
+    {
+      "associated_with": "Afrika Bambaataa"
+    },
+    {
+      "pioneered": "Scratching"
+    },
+    {
+      "performed_at": "Live Aid"
+    },
+    {
+      "song_featured_in": "The Message"
+    },
+    {
+      "record_label": "Elektra Records"
+    }
+  ]
+}

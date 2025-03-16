@@ -1,0 +1,47 @@
+{
+  "entity": "Colosseum",
+  "properties": {
+    "type": "Amphitheatre",
+    "location": "Rome",
+    "capacity": "50000",
+    "construction_start": "72 AD",
+    "construction_end": "80 AD",
+    "architect": "Vespasian",
+    "material": "Travertine",
+    "purpose": "Gladiatorial contests",
+    "status": "Ruins",
+    "designation": "UNESCO World Heritage Site"
+  },
+  "relationship": [
+    {
+      "part_of": "Roman Forum"
+    },
+    {
+      "built_by": "Flavian dynasty"
+    },
+    {
+      "hosted": "Gladiatorial combats"
+    },
+    {
+      "hosted": "Public spectacles"
+    },
+    {
+      "destroyed_by": "Earthquakes"
+    },
+    {
+      "influenced": "Bovallius"
+    },
+    {
+      "located_in": "Rome"
+    },
+    {
+      "design_influenced": "Amphitheatre of Verona"
+    },
+    {
+      "named_after": "Flavian dynasty"
+    },
+    {
+      "depicts": "Roman Empire"
+    }
+  ]
+}

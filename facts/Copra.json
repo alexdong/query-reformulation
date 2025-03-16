@@ -1,0 +1,47 @@
+{
+  "entity": "Copra",
+  "properties": {
+    "instance_of": "Agricultural product",
+    "derived_from": "Coconut",
+    "use": "Oil extraction",
+    "form": "Dried coconut kernel",
+    "color": "Brown",
+    "origin": "Tropical regions",
+    "unit": "Metric ton",
+    "production_region": "Southeast Asia, Pacific Islands",
+    "primary_use": "Coconut oil production",
+    "economic_importance": "Significant in developing countries"
+  },
+  "relationship": [
+    {
+      "derived_from": "Coconut"
+    },
+    {
+      "produced_in": "Indonesia"
+    },
+    {
+      "produced_in": "Philippines"
+    },
+    {
+      "produced_in": "Papua New Guinea"
+    },
+    {
+      "processed_into": "Coconut oil"
+    },
+    {
+      "used_for": "Animal feed"
+    },
+    {
+      "trade_partner": "China"
+    },
+    {
+      "trade_partner": "India"
+    },
+    {
+      "impacts": "Coconut farmers"
+    },
+    {
+      "related_to": "Coconut tree"
+    }
+  ]
+}

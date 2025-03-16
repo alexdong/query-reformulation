@@ -1,0 +1,47 @@
+{
+  "entity": "Siouan languages",
+  "properties": {
+    "language_family": "Siouan",
+    "geographic_area": "North America",
+    "number_of_languages": "Approximately 20",
+    "typology": "Polysynthetic",
+    "endangerment": "Varying, many endangered",
+    "writing_system": "Romanization",
+    "historical_importance": "Significant role in North American history",
+    "linguistic_features": "Agglutinative morphology, verb-initial word order",
+    "related_languages": "Ho-Chunk, Lakota, Crow",
+    "classification": "Subdivided into several branches"
+  },
+  "relationship": [
+    {
+      "part_of": "Native American languages"
+    },
+    {
+      "spoken_in": "United States"
+    },
+    {
+      "spoken_in": "Canada"
+    },
+    {
+      "related_to": "Oto-Manguean languages"
+    },
+    {
+      "influenced": "English (place names)"
+    },
+    {
+      "subgroup_of": "Native American language families"
+    },
+    {
+      "includes": "Lakota language"
+    },
+    {
+      "includes": "Dakota language"
+    },
+    {
+      "includes": "Crow language"
+    },
+    {
+      "studied_by": "Linguistics"
+    }
+  ]
+}

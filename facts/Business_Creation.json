@@ -1,0 +1,48 @@
+{
+  "entity": "Business Creation",
+  "properties": {
+    "definition": "Process of forming a new business",
+    "stage_1": "Idea Generation",
+    "stage_2": "Market Research",
+    "stage_3": "Business Planning",
+    "stage_4": "Funding Acquisition",
+    "stage_5": "Legal Formation",
+    "common_challenges": "Funding, Market Competition, Regulatory Compliance",
+    "key_factors": "Innovation, Market Need, Execution",
+    "legal_structures": "Sole Proprietorship, Partnership, Corporation",
+    "risk_assessment": "Identifying and mitigating potential risks",
+    "business_model": "Value Proposition, Customer Segments, Revenue Streams"
+  },
+  "relationship": [
+    {
+      "requires": "Entrepreneurship"
+    },
+    {
+      "leads_to": "Business Venture"
+    },
+    {
+      "influenced_by": "Economic Conditions"
+    },
+    {
+      "part_of": "Innovation Process"
+    },
+    {
+      "requires": "Market Analysis"
+    },
+    {
+      "involves": "Financial Planning"
+    },
+    {
+      "governed_by": "Business Law"
+    },
+    {
+      "impacts": "Job Creation"
+    },
+    {
+      "supports": "Economic Growth"
+    },
+    {
+      "related_to": "Startup"
+    }
+  ]
+}

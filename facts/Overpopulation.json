@@ -1,0 +1,47 @@
+{
+  "entity": "Overpopulation",
+  "properties": {
+    "definition": "Excessive human population",
+    "cause_1": "High birth rates",
+    "cause_2": "Declining mortality rates",
+    "impact_1": "Resource depletion",
+    "impact_2": "Environmental degradation",
+    "impact_3": "Famine",
+    "impact_4": "Poverty",
+    "affected_region_1": "Sub-Saharan Africa",
+    "affected_region_2": "South Asia",
+    "measurement": "Population density"
+  },
+  "relationship": [
+    {
+      "causes": "Resource scarcity"
+    },
+    {
+      "impacts": "Climate change"
+    },
+    {
+      "related_to": "Demographics"
+    },
+    {
+      "solution_approach": "Family planning"
+    },
+    {
+      "impacts": "Biodiversity loss"
+    },
+    {
+      "linked_to": "Carrying capacity"
+    },
+    {
+      "impacts": "Urbanization"
+    },
+    {
+      "related_to": "Malthusianism"
+    },
+    {
+      "impacts": "Water scarcity"
+    },
+    {
+      "impacts": "Food security"
+    }
+  ]
+}

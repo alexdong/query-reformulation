@@ -1,0 +1,47 @@
+{
+  "entity": "Certification",
+  "properties": {
+    "instance_of": "Process",
+    "purpose": "Validation",
+    "type": "Formal Recognition",
+    "issuer": "Organization",
+    "scope": "Skill/Knowledge",
+    "duration": "Variable",
+    "cost": "Variable",
+    "renewal": "Often Required",
+    "standard": "Defined Criteria",
+    "credibility": "Reputation Dependent"
+  },
+  "relationship": [
+    {
+      "requires": "Training"
+    },
+    {
+      "issued_by": "Accreditation Body"
+    },
+    {
+      "validates": "Competency"
+    },
+    {
+      "leads_to": "Career Advancement"
+    },
+    {
+      "related_to": "Standards"
+    },
+    {
+      "governed_by": "Regulatory Body"
+    },
+    {
+      "recognized_by": "Industry"
+    },
+    {
+      "demonstrates": "Proficiency"
+    },
+    {
+      "supports": "Quality Assurance"
+    },
+    {
+      "example_of": "ISO 9001"
+    }
+  ]
+}

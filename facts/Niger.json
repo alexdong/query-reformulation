@@ -1,0 +1,47 @@
+{
+  "entity": "Niger",
+  "properties": {
+    "capital": "Niamey",
+    "official_language": "French",
+    "population": "26.2 million (2023)",
+    "area_km2": "1,192,000",
+    "currency": "West African CFA franc",
+    "gdp_nominal": "$56.6 billion (2023)",
+    "largest_city": "Niamey",
+    "land_border_length_km": "4677",
+    "independence_date": "1960-08-03",
+    "government_type": "Semi-presidential republic"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "borders": "Algeria"
+    },
+    {
+      "borders": "Benin"
+    },
+    {
+      "borders": "Burkina Faso"
+    },
+    {
+      "borders": "Chad"
+    },
+    {
+      "borders": "Libya"
+    },
+    {
+      "borders": "Mali"
+    },
+    {
+      "borders": "Nigeria"
+    },
+    {
+      "member_of": "African Union"
+    },
+    {
+      "member_of": "United Nations"
+    }
+  ]
+}

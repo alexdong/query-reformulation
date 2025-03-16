@@ -1,0 +1,47 @@
+{
+  "entity": "War of the Austrian Succession",
+  "properties": {
+    "start_date": "1740",
+    "end_date": "1748",
+    "casus_belli": "Charles of Bavaria's claim to the Habsburg throne",
+    "primary_combatants": "Austria vs. Prussia, France, Bavaria, Spain, Sardinia, Great Britain",
+    "territorial_dispute": "Control of Silesia",
+    "outcome": "Treaty of Aix-la-Chapelle",
+    "major_theatre": "Central Europe, Italy, North America",
+    "involved_dynasties": "Habsburg, Hohenzollern, Bourbon, Savoy",
+    "strategic_importance": "Shift in European power dynamics",
+    "related_treaty": "Treaty of Aix-la-Chapelle"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Great Northern War"
+    },
+    {
+      "followed_by": "Seven Years' War"
+    },
+    {
+      "involved_entity": "Maria Theresa"
+    },
+    {
+      "involved_entity": "Frederick II of Prussia"
+    },
+    {
+      "involved_entity": "Charles VII, Holy Roman Emperor"
+    },
+    {
+      "involved_entity": "Louis XV of France"
+    },
+    {
+      "involved_entity": "George II of Great Britain"
+    },
+    {
+      "territory_disputed": "Silesia"
+    },
+    {
+      "treaty_signed": "Treaty of Aix-la-Chapelle"
+    },
+    {
+      "influenced": "Rise of Prussia"
+    }
+  ]
+}

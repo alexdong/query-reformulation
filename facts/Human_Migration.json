@@ -1,0 +1,47 @@
+{
+  "entity": "Human Migration",
+  "properties": {
+    "definition": "Movement of people",
+    "driver": "Economic opportunity",
+    "type": "Voluntary/Forced",
+    "scale": "Local/Global",
+    "historical_significance": "Significant",
+    "impact_on_culture": "Cultural diffusion",
+    "impact_on_economy": "Economic growth",
+    "impact_on_politics": "Political shifts",
+    "causes": "Conflict, Climate Change",
+    "measurement": "Population movement"
+  },
+  "relationship": [
+    {
+      "related_to": "Demography"
+    },
+    {
+      "impacts": "Globalization"
+    },
+    {
+      "causes": "Climate Change"
+    },
+    {
+      "related_to": "Urbanization"
+    },
+    {
+      "impacts": "Cultural Exchange"
+    },
+    {
+      "related_to": "Refugee Crisis"
+    },
+    {
+      "related_to": "Population Genetics"
+    },
+    {
+      "impacts": "Labor Market"
+    },
+    {
+      "related_to": "Historical Demography"
+    },
+    {
+      "impacts": "Geopolitics"
+    }
+  ]
+}

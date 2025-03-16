@@ -1,0 +1,47 @@
+{
+  "entity": "National Provincial Championship",
+  "properties": {
+    "alternative_name": "NPC",
+    "type": "Rugby union competition",
+    "country": "New Zealand",
+    "governing_body": "New Zealand Rugby Union",
+    "status": "Defunct",
+    "start_year": "1888",
+    "end_year": "1990",
+    "level": "Top",
+    "format": "League",
+    "replacement": "National Rugby Championship"
+  },
+  "relationship": [
+    {
+      "predecessor_of": "National Rugby Championship"
+    },
+    {
+      "part_of": "New Zealand rugby history"
+    },
+    {
+      "governed_by": "New Zealand Rugby Union"
+    },
+    {
+      "features": "Auckland (rugby union)"
+    },
+    {
+      "features": "Canterbury (rugby union)"
+    },
+    {
+      "features": "Wellington (rugby union)"
+    },
+    {
+      "features": "Otago (rugby union)"
+    },
+    {
+      "features": "Southland (rugby union)"
+    },
+    {
+      "features": "Taranaki (rugby union)"
+    },
+    {
+      "influenced": "New Zealand national rugby team"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Intercultural Communication",
+  "properties": {
+    "definition": "Exchange of meaning between people from different cultural backgrounds",
+    "field_of_study": "Communication Studies",
+    "focus": "Cultural differences & similarities",
+    "key_concept": "Ethnocentrism",
+    "related_concept": "Cultural relativism",
+    "importance": "Globalized world",
+    "challenges": "Misunderstandings, stereotypes",
+    "methods": "Qualitative & Quantitative research",
+    "subfields": "Cross-cultural adaptation, intercultural competence",
+    "origin": "Mid-20th century"
+  },
+  "relationship": [
+    {
+      "related_to": "Communication"
+    },
+    {
+      "influenced_by": "Anthropology"
+    },
+    {
+      "overlaps_with": "Cross-cultural psychology"
+    },
+    {
+      "addresses": "Globalization"
+    },
+    {
+      "requires": "Cultural awareness"
+    },
+    {
+      "impacts": "International relations"
+    },
+    {
+      "mitigates": "Cultural conflict"
+    },
+    {
+      "promotes": "Intercultural understanding"
+    },
+    {
+      "analyzes": "Nonverbal communication"
+    },
+    {
+      "studies": "Cultural values"
+    }
+  ]
+}

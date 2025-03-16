@@ -1,0 +1,47 @@
+{
+  "entity": "Magnetosphere",
+  "properties": {
+    "instance_of": "Region",
+    "type": "Plasma",
+    "location": "Earth",
+    "shape": "Irregular",
+    "size": "50,000–100,000 km",
+    "magnetic_field_strength": "25–65 microTesla",
+    "origin": "Geodynamo",
+    "protects_from": "Solar wind",
+    "discovery_date": "1912",
+    "discovered_by": "Karl Birkeland"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "protects": "Atmosphere"
+    },
+    {
+      "generates": "Auroras"
+    },
+    {
+      "interacts_with": "Solar wind"
+    },
+    {
+      "creates": "Radiation belts"
+    },
+    {
+      "influenced_by": "Sun"
+    },
+    {
+      "contains": "Bow shock"
+    },
+    {
+      "contains": "Magnetotail"
+    },
+    {
+      "related_to": "Geodynamo"
+    },
+    {
+      "affects": "Satellite orbits"
+    }
+  ]
+}

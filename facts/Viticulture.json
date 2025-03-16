@@ -1,0 +1,47 @@
+{
+  "entity": "Viticulture",
+  "properties": {
+    "instance_of": "Agricultural practice",
+    "focus": "Grape cultivation",
+    "purpose": "Wine production",
+    "region_dependent": "True",
+    "labor_intensive": "True",
+    "climate_dependent": "True",
+    "soil_dependent": "True",
+    "techniques": "Pruning, irrigation, pest control",
+    "economic_impact": "Significant",
+    "history": "Ancient"
+  },
+  "relationship": [
+    {
+      "produces": "Wine"
+    },
+    {
+      "requires": "Grapevines"
+    },
+    {
+      "influenced_by": "Oenology"
+    },
+    {
+      "part_of": "Agriculture"
+    },
+    {
+      "location": "Vineyard"
+    },
+    {
+      "affected_by": "Climate change"
+    },
+    {
+      "requires": "Soil"
+    },
+    {
+      "involves": "Pruning"
+    },
+    {
+      "related_to": "Terroir"
+    },
+    {
+      "impacts": "Economy"
+    }
+  ]
+}

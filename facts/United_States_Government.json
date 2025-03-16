@@ -1,0 +1,47 @@
+{
+  "entity": "United States Government",
+  "properties": {
+    "type": "Federal Government",
+    "constitution": "United States Constitution",
+    "capital": "Washington, D.C.",
+    "head_of_state": "President of the United States",
+    "legislative_branch": "United States Congress",
+    "executive_branch": "Executive Branch of the United States",
+    "judicial_branch": "Judicial Branch of the United States",
+    "system": "Federal Republic",
+    "established": "1789",
+    "population_governed": "331 million"
+  },
+  "relationship": [
+    {
+      "governs": "United States"
+    },
+    {
+      "branch_of": "Federal Government of the United States"
+    },
+    {
+      "leader_is": "Joe Biden"
+    },
+    {
+      "legislature_is": "United States Congress"
+    },
+    {
+      "judicial_body": "Supreme Court of the United States"
+    },
+    {
+      "influenced_by": "Articles of Confederation"
+    },
+    {
+      "created_by": "Constitutional Convention"
+    },
+    {
+      "responsible_for": "National Defense"
+    },
+    {
+      "power_granted_by": "United States Constitution"
+    },
+    {
+      "oversees": "Federal Agencies"
+    }
+  ]
+}

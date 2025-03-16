@@ -1,0 +1,47 @@
+{
+  "entity": "Schooner Viola",
+  "properties": {
+    "type": "Schooner",
+    "builder": "Jacob Engelbrecht",
+    "built_year": "1905",
+    "place_built": "Hamburg",
+    "length": "106 ft",
+    "beam": "25 ft",
+    "draft": "11 ft",
+    "owner": "Captain E.W. Moore",
+    "status": "Active",
+    "nationality": "American"
+  },
+  "relationship": [
+    {
+      "built_by": "Jacob Engelbrecht"
+    },
+    {
+      "location": "Maine"
+    },
+    {
+      "purpose": "Sail training"
+    },
+    {
+      "owner_of": "Captain E.W. Moore"
+    },
+    {
+      "operates_in": "Atlantic Ocean"
+    },
+    {
+      "associated_with": "Sailboat"
+    },
+    {
+      "type_of": "Wooden ship"
+    },
+    {
+      "related_to": "Maritime history"
+    },
+    {
+      "participates_in": "Tall ships races"
+    },
+    {
+      "example_of": "Schooner"
+    }
+  ]
+}

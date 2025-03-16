@@ -1,0 +1,47 @@
+{
+  "entity": "Education System",
+  "properties": {
+    "type": "System",
+    "purpose": "Knowledge Transfer",
+    "scope": "Lifelong Learning",
+    "funding": "Public & Private",
+    "levels": "Primary, Secondary, Tertiary",
+    "assessment": "Testing, Evaluation",
+    "curriculum": "Structured Learning",
+    "standardization": "Varies Globally",
+    "technology_integration": "Increasingly Common",
+    "goal": "Skill Development"
+  },
+  "relationship": [
+    {
+      "part_of": "Society"
+    },
+    {
+      "influences": "Economic Growth"
+    },
+    {
+      "related_to": "Pedagogy"
+    },
+    {
+      "impacts": "Social Mobility"
+    },
+    {
+      "requires": "Teachers"
+    },
+    {
+      "provides": "Qualifications"
+    },
+    {
+      "governed_by": "Government"
+    },
+    {
+      "supports": "Research"
+    },
+    {
+      "linked_to": "UNESCO"
+    },
+    {
+      "includes": "School"
+    }
+  ]
+}

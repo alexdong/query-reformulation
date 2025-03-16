@@ -1,0 +1,47 @@
+{
+  "entity": "Southern Ocean",
+  "properties": {
+    "name": "Southern Ocean",
+    "type": "Ocean",
+    "area": "20,330,000 km²",
+    "average_depth": "4,000 m",
+    "max_depth": "7,400 m",
+    "location": "Antarctic region",
+    "temperature": "Near freezing",
+    "salinity": "High",
+    "currents": "Antarctic Circumpolar Current",
+    "governance": "Antarctic Treaty System"
+  },
+  "relationship": [
+    {
+      "part_of": "World Ocean"
+    },
+    {
+      "surrounds": "Antarctica"
+    },
+    {
+      "adjacent_to": "Atlantic Ocean"
+    },
+    {
+      "adjacent_to": "Pacific Ocean"
+    },
+    {
+      "adjacent_to": "Indian Ocean"
+    },
+    {
+      "current_system": "Antarctic Circumpolar Current"
+    },
+    {
+      "contains": "Antarctic ice sheet"
+    },
+    {
+      "ecosystem": "Antarctic ecosystem"
+    },
+    {
+      "species_found": "Krill"
+    },
+    {
+      "research_governed_by": "SCAR"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "JR Hida Line",
+  "properties": {
+    "type": "Railway line",
+    "operator": "Japan Railways Group",
+    "start_station": "Toyama",
+    "end_station": "Takayama",
+    "length": "107.5 km",
+    "gauge": "1067 mm",
+    "electrification": "Non-electrified",
+    "opening_date": "1928-04-01",
+    "track_status": "Shared",
+    "route_color": "Purple"
+  },
+  "relationship": [
+    {
+      "part_of": "JR Routes"
+    },
+    {
+      "serves_location": "Toyama Prefecture"
+    },
+    {
+      "serves_location": "Gifu Prefecture"
+    },
+    {
+      "connects_to": "Hida Express"
+    },
+    {
+      "connects_to": "Tokaido Shinkansen"
+    },
+    {
+      "passes_through": "Hida Mountains"
+    },
+    {
+      "adjacent_to": "National Route 158"
+    },
+    {
+      "provides_access_to": "Takayama Jinya"
+    },
+    {
+      "station_on_line": "Kanayama Station"
+    },
+    {
+      "station_on_line": "Heshiki Station"
+    }
+  ]
+}

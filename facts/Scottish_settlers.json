@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish settlers",
+  "properties": {
+    "origin": "Scotland",
+    "migration_period": "17th-20th centuries",
+    "motivation": "Economic opportunity, religious freedom",
+    "primary_destinations": "North America, Australia, New Zealand",
+    "cultural_impact": "Gaelic culture, music, traditions",
+    "language": "Scots, Gaelic",
+    "religion": "Presbyterianism, Catholicism",
+    "economic_activity": "Agriculture, fishing, mining",
+    "social_structure": "Clan system influence",
+    "diet": "Oats, potatoes, fish"
+  },
+  "relationship": [
+    {
+      "migration_route": "Atlantic Ocean"
+    },
+    {
+      "influenced_culture": "American culture"
+    },
+    {
+      "settled_in": "Nova Scotia"
+    },
+    {
+      "settled_in": "Australia"
+    },
+    {
+      "settled_in": "New Zealand"
+    },
+    {
+      "related_to": "Highland Clearances"
+    },
+    {
+      "influenced": "Celtic music"
+    },
+    {
+      "interacted_with": "Indigenous peoples"
+    },
+    {
+      "contributed_to": "Canadian Confederation"
+    },
+    {
+      "part_of": "Scottish diaspora"
+    }
+  ]
+}

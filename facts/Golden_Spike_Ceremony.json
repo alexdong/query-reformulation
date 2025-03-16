@@ -1,0 +1,47 @@
+{
+  "entity": "Golden Spike Ceremony",
+  "properties": {
+    "date": "1869-05-10",
+    "location": "Promontory Summit, Utah",
+    "purpose": "Completion of Transcontinental Railroad",
+    "attendees": "Government officials, railroad workers, press",
+    "railroad_companies": "Central Pacific, Union Pacific",
+    "symbolism": "Uniting East and West",
+    "ceremonial_act": "Driving of the Golden Spike",
+    "spike_material": "Gold",
+    "railroad_gauge": "Standard gauge",
+    "historical_significance": "National symbol of progress"
+  },
+  "relationship": [
+    {
+      "part_of": "Transcontinental Railroad"
+    },
+    {
+      "involved_company": "Central Pacific Railroad"
+    },
+    {
+      "involved_company": "Union Pacific Railroad"
+    },
+    {
+      "attended_by": "Ulysses S. Grant"
+    },
+    {
+      "attended_by": "William H. Seward"
+    },
+    {
+      "attended_by": "Virgil E. Dickson"
+    },
+    {
+      "location_is_in": "Utah"
+    },
+    {
+      "influenced": "American westward expansion"
+    },
+    {
+      "preceded_by": "Pacific Railroad Act"
+    },
+    {
+      "followed_by": "Railroad expansion"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Food Security",
+  "properties": {
+    "definition": "Access to sufficient, safe, nutritious food",
+    "pillar_1": "Availability",
+    "pillar_2": "Access",
+    "pillar_3": "Utilization",
+    "pillar_4": "Stability",
+    "affected_by": "Climate Change",
+    "influenced_by": "Poverty",
+    "measured_by": "Food Insecurity Experience Scale (FIES)",
+    "goal": "Sustainable Development Goal 2",
+    "organization": "Food and Agriculture Organization (FAO)"
+  },
+  "relationship": [
+    {
+      "impacts": "Malnutrition"
+    },
+    {
+      "requires": "Agricultural Production"
+    },
+    {
+      "linked_to": "Sustainable Agriculture"
+    },
+    {
+      "affected_by": "Conflict"
+    },
+    {
+      "influenced_by": "Economic Growth"
+    },
+    {
+      "related_to": "Nutrition"
+    },
+    {
+      "dependent_on": "Water Resources"
+    },
+    {
+      "contributes_to": "Public Health"
+    },
+    {
+      "addressed_by": "Food Aid"
+    },
+    {
+      "part_of": "Global Food System"
+    }
+  ]
+}

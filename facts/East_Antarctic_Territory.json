@@ -1,0 +1,47 @@
+{
+  "entity": "East Antarctic Territory",
+  "properties": {
+    "type": "Territory",
+    "continent": "Antarctica",
+    "area_km2": "5400000",
+    "governed_by": "Australian Antarctic Territory",
+    "highest_point": "Mount Vinson",
+    "lowest_point": "Lambert Glacier",
+    "average_elevation_m": "1600",
+    "ice_coverage_percent": "99",
+    "population": "0",
+    "discovery_year": "1840"
+  },
+  "relationship": [
+    {
+      "part_of": "Antarctica"
+    },
+    {
+      "adjacent_to": "Indian Ocean"
+    },
+    {
+      "adjacent_to": "Southern Ocean"
+    },
+    {
+      "contains": "Lambert Glacier"
+    },
+    {
+      "contains": "Vinson Massif"
+    },
+    {
+      "governed_by": "Australian Antarctic Division"
+    },
+    {
+      "claimed_by": "Australia"
+    },
+    {
+      "claimed_by": "France"
+    },
+    {
+      "claimed_by": "New Zealand"
+    },
+    {
+      "research_station": "Casey Station"
+    }
+  ]
+}

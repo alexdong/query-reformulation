@@ -1,0 +1,47 @@
+{
+  "entity": "English Football League",
+  "properties": {
+    "instance_of": "Professional sports league",
+    "country": "England",
+    "founded": "1888",
+    "governing_body": "Football Association",
+    "number_of_teams": "92",
+    "divisions": "3",
+    "name_of_divisions": "Championship, League One, League Two",
+    "promotion_relegation": "Yes",
+    "broadcast_rights_holder": "Sky Sports",
+    "headquarters": "London"
+  },
+  "relationship": [
+    {
+      "member_of": "English football system"
+    },
+    {
+      "governed_by": "Football Association"
+    },
+    {
+      "includes_league": "Championship"
+    },
+    {
+      "includes_league": "League One"
+    },
+    {
+      "includes_league": "League Two"
+    },
+    {
+      "competes_with": "Premier League"
+    },
+    {
+      "teams_play_in": "England"
+    },
+    {
+      "sponsors": "Sky Bet"
+    },
+    {
+      "influenced": "National League"
+    },
+    {
+      "has_trophy": "EFL Trophy"
+    }
+  ]
+}

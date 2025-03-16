@@ -1,0 +1,47 @@
+{
+  "entity": "Predator (film series)",
+  "properties": {
+    "instance_of": "Science fiction franchise",
+    "creator": "John McTiernan",
+    "first_appearance": "Predator (film)",
+    "genre": "Science fiction, Action, Horror",
+    "setting": "Various planets, Earth",
+    "species": "Yautja",
+    "technology": "Plasma caster, cloaking device",
+    "motivation": "Hunting, Trophy collection",
+    "production_company": "MGM",
+    "first_film_date": "1987"
+  },
+  "relationship": [
+    {
+      "franchise_of": "Predator (film)"
+    },
+    {
+      "spawned": "Predators (film)"
+    },
+    {
+      "spawned": "Alien vs. Predator (film)"
+    },
+    {
+      "influenced": "Space opera"
+    },
+    {
+      "character_appears": "Dutch"
+    },
+    {
+      "character_appears": "Nolan"
+    },
+    {
+      "character_appears": "Rogue"
+    },
+    {
+      "weapon_used": "Plasma caster"
+    },
+    {
+      "planet_visited": "LV-426"
+    },
+    {
+      "species_is": "Yautja"
+    }
+  ]
+}

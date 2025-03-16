@@ -1,0 +1,47 @@
+{
+  "entity": "Government of New Zealand",
+  "properties": {
+    "type": "Parliamentary constitutional monarchy",
+    "head_of_state": "King Charles III",
+    "head_of_government": "Christopher Luxon",
+    "legislature": "New Zealand Parliament",
+    "capital": "Wellington",
+    "system": "Westminster system",
+    "currency": "New Zealand Dollar",
+    "official_language": "English, Māori, New Zealand Sign Language",
+    "governing_party": "National Party",
+    "established": "1852"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "leader": "Christopher Luxon"
+    },
+    {
+      "head_of_state": "King Charles III"
+    },
+    {
+      "legislature": "New Zealand Parliament"
+    },
+    {
+      "influenced_by": "Westminster system"
+    },
+    {
+      "treaty_signed_with": "Treaty of Waitangi"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "responsible_for": "New Zealand economy"
+    },
+    {
+      "administers": "New Zealand departments"
+    },
+    {
+      "oversees": "New Zealand Police"
+    }
+  ]
+}

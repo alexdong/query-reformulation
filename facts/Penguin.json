@@ -1,0 +1,47 @@
+{
+  "entity": "Penguin",
+  "properties": {
+    "kingdom": "Animalia",
+    "class": "Aves",
+    "order": "Sphenisciformes",
+    "family": "Spheniscidae",
+    "habitat": "Antarctica, Southern Hemisphere",
+    "diet": "Fish, krill, squid",
+    "lifespan": "15-20 years",
+    "size": "45-120 cm",
+    "conservation_status": "Varies by species",
+    "adaptation": "Flightless, excellent swimmers"
+  },
+  "relationship": [
+    {
+      "part_of": "Sphenisciformes"
+    },
+    {
+      "lives_in": "Antarctica"
+    },
+    {
+      "preys_on": "Krill"
+    },
+    {
+      "preys_on": "Fish"
+    },
+    {
+      "related_to": "Aptenodytes"
+    },
+    {
+      "related_to": "Pygoscelis"
+    },
+    {
+      "related_to": "Eudyptes"
+    },
+    {
+      "threatened_by": "Climate change"
+    },
+    {
+      "migration": "Seasonal"
+    },
+    {
+      "behavior": "Social"
+    }
+  ]
+}

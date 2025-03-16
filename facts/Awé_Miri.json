@@ -1,0 +1,47 @@
+{
+  "entity": "Awé Miri",
+  "properties": {
+    "birth_name": "Awe Miri",
+    "nationality": "Nigerian",
+    "occupation": "Politician",
+    "political_party": "People's Democratic Party",
+    "constituency": "Yola North/Girei Federal Constituency",
+    "education": "University of Jos",
+    "religion": "Christianity",
+    "gender": "Male",
+    "date_of_birth": "1963",
+    "member_of": "House of Representatives"
+  },
+  "relationship": [
+    {
+      "represents": "Adamawa State"
+    },
+    {
+      "member_of_party": "People's Democratic Party"
+    },
+    {
+      "educated_at": "University of Jos"
+    },
+    {
+      "political_affiliation": "Nigerian politics"
+    },
+    {
+      "constituency_located_in": "Adamawa State"
+    },
+    {
+      "role": "Federal Representative"
+    },
+    {
+      "legislative_body": "House of Representatives"
+    },
+    {
+      "member_of": "Nigerian politicians"
+    },
+    {
+      "involved_in": "Nigerian elections"
+    },
+    {
+      "occupation_type": "Legislator"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Skyline Enterprises",
+  "properties": {
+    "industry": "Tourism & Entertainment",
+    "founder": "Wayne Brown",
+    "hq_location": "Queenstown, New Zealand",
+    "established": "1986",
+    "business_model": "Design, Construction, Operation",
+    "focus": "Adventure Tourism",
+    "key_products": "Luge, Gondola, Jet Boat",
+    "employee_count": "Approximately 300",
+    "revenue": "NZD $100 million (estimated)",
+    "website": "skyline.co.nz"
+  },
+  "relationship": [
+    {
+      "parent_company": "Skyline Group"
+    },
+    {
+      "founder_of": "Wayne Brown"
+    },
+    {
+      "location_in": "Queenstown"
+    },
+    {
+      "operates_in": "New Zealand"
+    },
+    {
+      "operates_in": "Canada"
+    },
+    {
+      "operates_in": "South Korea"
+    },
+    {
+      "operates_in": "Germany"
+    },
+    {
+      "provides": "Luge rides"
+    },
+    {
+      "provides": "Gondola transport"
+    },
+    {
+      "owns": "Skyline Gondola"
+    }
+  ]
+}

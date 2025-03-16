@@ -1,0 +1,47 @@
+{
+  "entity": "Local Council",
+  "properties": {
+    "instance_of": "Government body",
+    "purpose": "Local governance",
+    "level": "Subnational",
+    "responsibility": "Local services",
+    "area_covered": "Geographic area",
+    "funding_source": "Council tax",
+    "elected_officials": "Councilors",
+    "decision_making": "Council meetings",
+    "legislation": "Local bylaws",
+    "reporting_to": "Upper-tier authority"
+  },
+  "relationship": [
+    {
+      "part_of": "Government"
+    },
+    {
+      "provides": "Public services"
+    },
+    {
+      "responsible_for": "Road maintenance"
+    },
+    {
+      "manages": "Local planning"
+    },
+    {
+      "employs": "Local staff"
+    },
+    {
+      "represents": "Local residents"
+    },
+    {
+      "works_with": "Parish council"
+    },
+    {
+      "funded_by": "Government grants"
+    },
+    {
+      "oversees": "Waste management"
+    },
+    {
+      "accountable_to": "Public"
+    }
+  ]
+}

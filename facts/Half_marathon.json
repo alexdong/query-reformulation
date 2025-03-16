@@ -1,0 +1,47 @@
+{
+  "entity": "Half marathon",
+  "properties": {
+    "instance_of": "Road running event",
+    "distance": "21.0975 km",
+    "approximate_distance": "13.1 miles",
+    "type": "Road race",
+    "governing_body": "World Athletics",
+    "popularity": "High",
+    "difficulty": "Moderate",
+    "surface": "Road",
+    "age_restriction": "16 years",
+    "typical_duration": "1.5 - 2.5 hours"
+  },
+  "relationship": [
+    {
+      "part_of": "Marathon"
+    },
+    {
+      "preceded_by": "5k race"
+    },
+    {
+      "followed_by": "Marathon"
+    },
+    {
+      "related_to": "Road running"
+    },
+    {
+      "athlete_participates": "Runner"
+    },
+    {
+      "organized_by": "Race organizer"
+    },
+    {
+      "location": "City"
+    },
+    {
+      "requires": "Running shoes"
+    },
+    {
+      "training_for": "Fitness"
+    },
+    {
+      "event_type": "Athletic competition"
+    }
+  ]
+}

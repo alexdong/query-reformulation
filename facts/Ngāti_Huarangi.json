@@ -1,0 +1,47 @@
+{
+  "entity": "Ngāti Huarangi",
+  "properties": {
+    "type": "Iwi",
+    "region": "Northland",
+    "ancestor": "Hoturoa",
+    "origin_language": "Māori",
+    "tribal_area": "Hauraki Gulf",
+    "rohe_size": "Approximately 10,000 hectares",
+    "traditional_occupation": "Fisheries, agriculture",
+    "mana_whenua": "Coromandel Peninsula",
+    "historical_importance": "Early Polynesian settlement",
+    "contemporary_focus": "Cultural preservation"
+  },
+  "relationship": [
+    {
+      "descendant_of": "Hoturoa"
+    },
+    {
+      "part_of": "Ngāti Tāwhiwhinui"
+    },
+    {
+      "related_to": "Ngāti Hine"
+    },
+    {
+      "related_to": "Ngāti Rehua"
+    },
+    {
+      "located_in": "Northland Region"
+    },
+    {
+      "associated_with": "Coromandel Peninsula"
+    },
+    {
+      "shares_ancestry_with": "Tainui"
+    },
+    {
+      "has_marae": "Hauraki Marae"
+    },
+    {
+      "has_marae": "Raukokai Marae"
+    },
+    {
+      "involved_in": "Treaty of Waitangi"
+    }
+  ]
+}

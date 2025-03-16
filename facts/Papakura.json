@@ -1,0 +1,47 @@
+{
+  "entity": "Papakura",
+  "properties": {
+    "type": "Town",
+    "location": "Auckland, New Zealand",
+    "population_2018": "37,800",
+    "region": "Auckland Region",
+    "postal_code": "2580",
+    "latitude": "-37.1333",
+    "longitude": "174.8500",
+    "established": "1840s",
+    "local_government": "Auckland Council",
+    "river": "Papakura Stream"
+  },
+  "relationship": [
+    {
+      "part_of": "Auckland Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "near": "Manukau City"
+    },
+    {
+      "suburb_of": "Auckland"
+    },
+    {
+      "has_part": "Papakura Marae"
+    },
+    {
+      "has_part": "Papakura Library"
+    },
+    {
+      "has_part": "Papakura War Memorial"
+    },
+    {
+      "connected_to": "State Highway 1"
+    },
+    {
+      "serviced_by": "Transports Auckland"
+    },
+    {
+      "historical_event": "New Zealand Land Wars"
+    }
+  ]
+}

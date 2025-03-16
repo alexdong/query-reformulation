@@ -1,0 +1,47 @@
+{
+  "entity": "Athol, New Zealand",
+  "properties": {
+    "type": "Town",
+    "region": "Central Otago",
+    "country": "New Zealand",
+    "population": "550 (2023 est.)",
+    "postal_code": "6023",
+    "latitude": "-45.1667",
+    "longitude": "169.1667",
+    "elevation": "375 m (1230 ft)",
+    "founded": "1863",
+    "time_zone": "NZST"
+  },
+  "relationship": [
+    {
+      "located_in": "Central Otago District"
+    },
+    {
+      "part_of": "South Island"
+    },
+    {
+      "near": "Alexandra"
+    },
+    {
+      "near": "Cromwell"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "industry": "Tourism"
+    },
+    {
+      "river": "Clutha River"
+    },
+    {
+      "historical_event": "Otago Gold Rush"
+    },
+    {
+      "transport": "State Highway 8"
+    },
+    {
+      "has_settlement": "Athol School"
+    }
+  ]
+}

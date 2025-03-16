@@ -1,0 +1,47 @@
+{
+  "entity": "Southland Coast",
+  "properties": {
+    "type": "Geographic region",
+    "location": "South Island, New Zealand",
+    "area": "13,500 km²",
+    "climate": "Temperate maritime",
+    "elevation": "Sea level to 300m",
+    "geology": "Sedimentary rocks",
+    "landscape": "Coastal plains, estuaries, lagoons",
+    "economy": "Agriculture, tourism, fishing",
+    "population": "Approximately 40,000",
+    "administered_by": "Southland District"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Invercargill"
+    },
+    {
+      "contains": "Fiordland National Park"
+    },
+    {
+      "adjacent_to": "Otago"
+    },
+    {
+      "adjacent_to": "Westland"
+    },
+    {
+      "influenced_by": "Foveaux Strait"
+    },
+    {
+      "contains": "Oreti Beach"
+    },
+    {
+      "economic_activity": "Dairy farming"
+    },
+    {
+      "tourism_attraction": "Catlins"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Canadian Confederation",
+  "properties": {
+    "type": "Political event",
+    "date": "July 1, 1867",
+    "location": "Canada",
+    "outcome": "Creation of Canada",
+    "legal_framework": "British North America Act",
+    "initial_provinces": "Nova Scotia, New Brunswick, Ontario, Quebec",
+    "driving_force": "John A. Macdonald",
+    "motivation": "Political union, economic stability",
+    "preceding_era": "British North America",
+    "constitutional_monarch": "Victoria"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Actua Confederation"
+    },
+    {
+      "followed_by": "Expansion of Canada"
+    },
+    {
+      "influenced": "Australian Federation"
+    },
+    {
+      "involved": "United Kingdom"
+    },
+    {
+      "involved": "Nova Scotia"
+    },
+    {
+      "involved": "New Brunswick"
+    },
+    {
+      "involved": "Ontario"
+    },
+    {
+      "involved": "Quebec"
+    },
+    {
+      "leader": "John A. Macdonald"
+    },
+    {
+      "legal_document": "British North America Act"
+    }
+  ]
+}

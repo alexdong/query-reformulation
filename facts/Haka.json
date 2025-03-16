@@ -1,0 +1,47 @@
+{
+  "entity": "Haka",
+  "properties": {
+    "type": "Ceremonial dance",
+    "origin": "Māori culture",
+    "location": "New Zealand",
+    "purpose": "Expression, challenge, unity",
+    "language": "Te Reo Māori",
+    "traditionally_performed_by": "Men",
+    "often_associated_with": "Rugby",
+    "cultural_significance": "High",
+    "accompanied_by": "Percussion",
+    "style": "Synchronized movements"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori culture"
+    },
+    {
+      "originates_from": "New Zealand"
+    },
+    {
+      "performed_by": "All Blacks"
+    },
+    {
+      "related_to": "Kapa haka"
+    },
+    {
+      "influenced": "Popular culture"
+    },
+    {
+      "associated_with": "Māori language"
+    },
+    {
+      "represents": "Māori identity"
+    },
+    {
+      "used_in": "Ceremonies"
+    },
+    {
+      "symbolizes": "Strength and unity"
+    },
+    {
+      "performed_at": "Sporting events"
+    }
+  ]
+}

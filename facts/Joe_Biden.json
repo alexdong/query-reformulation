@@ -1,0 +1,47 @@
+{
+  "entity": "Joe Biden",
+  "properties": {
+    "birth_date": "1942-11-20",
+    "birth_place": "Scranton, Pennsylvania",
+    "occupation": "Politician",
+    "party": "Democratic Party",
+    "education": "University of Delaware, Syracuse University",
+    "spouse": "Jill Biden",
+    "religion": "Roman Catholicism",
+    "height": "1.83 m",
+    "vice_president": "Kamala Harris",
+    "term_start": "2021-01-20"
+  },
+  "relationship": [
+    {
+      "predecessor": "Donald Trump"
+    },
+    {
+      "member_of": "Democratic Party"
+    },
+    {
+      "attended": "University of Delaware"
+    },
+    {
+      "attended": "Syracuse University"
+    },
+    {
+      "married_to": "Jill Biden"
+    },
+    {
+      "senator_for": "Delaware"
+    },
+    {
+      "signature_legislation": "American Rescue Plan Act"
+    },
+    {
+      "foreign_policy_focus": "Ukraine"
+    },
+    {
+      "appointed": "Pete Buttigieg"
+    },
+    {
+      "member_of": "Biden family"
+    }
+  ]
+}

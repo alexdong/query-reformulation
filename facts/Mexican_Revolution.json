@@ -1,0 +1,47 @@
+{
+  "entity": "Mexican Revolution",
+  "properties": {
+    "start_date": "1910",
+    "end_date": "1920",
+    "location": "Mexico",
+    "cause": "Political and economic inequality",
+    "main_ideology": "Social reform, land redistribution",
+    "key_figure_1": "Francisco I. Madero",
+    "key_figure_2": "Emiliano Zapata",
+    "key_figure_3": "Pancho Villa",
+    "outcome": "New Constitution, land reform",
+    "casualties": "1-2 million"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Porfiriato"
+    },
+    {
+      "followed_by": "Mexican Restoration"
+    },
+    {
+      "influenced": "Chicano Movement"
+    },
+    {
+      "involved": "Victoriano Huerta"
+    },
+    {
+      "involved": "Venustiano Carranza"
+    },
+    {
+      "battle_took_place": "Battle of Ciudad Juarez"
+    },
+    {
+      "battle_took_place": "Battle of Celaya"
+    },
+    {
+      "land_reform_resulted_in": "Ejidos"
+    },
+    {
+      "constitution_established": "1917 Mexican Constitution"
+    },
+    {
+      "inspired": "Agrarianism"
+    }
+  ]
+}

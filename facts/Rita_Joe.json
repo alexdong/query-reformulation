@@ -1,0 +1,47 @@
+{
+  "entity": "Rita Joe",
+  "properties": {
+    "birth_name": "Dorothy Marie Joe",
+    "birth_date": "1932-07-28",
+    "birth_place": "Whycocomagh, Nova Scotia",
+    "occupation": "Singer",
+    "genre": "Country, Folk",
+    "nationality": "Canadian",
+    "indigenous_status": "Mi'kmaq",
+    "known_for": "Singing in Mi'kmaq and English",
+    "awards": "Canadian Music Week Native American Music Award",
+    "instrument": "Guitar"
+  },
+  "relationship": [
+    {
+      "member_of": "Mi'kmaq people"
+    },
+    {
+      "genre_influenced": "Indigenous music"
+    },
+    {
+      "recorded_by": "CBC Records"
+    },
+    {
+      "performed_at": "New Brunswick Folk Festival"
+    },
+    {
+      "influenced": "Loretta Lynn"
+    },
+    {
+      "influenced": "Willie Nelson"
+    },
+    {
+      "recorded_track": "Snowflake, Winterfall"
+    },
+    {
+      "recorded_track": "My Man"
+    },
+    {
+      "recorded_track": "Indian Reservation"
+    },
+    {
+      "lived_in": "Nova Scotia"
+    }
+  ]
+}

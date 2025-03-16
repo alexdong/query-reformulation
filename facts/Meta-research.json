@@ -1,0 +1,47 @@
+{
+  "entity": "Meta-research",
+  "properties": {
+    "instance_of": "Academic field",
+    "alternative_name": "Research on research",
+    "focus": "Research methods & practices",
+    "goal": "Improve research quality",
+    "discipline": "Epistemology",
+    "related_to": "Science of Science",
+    "methodology": "Systematic review, meta-analysis",
+    "publication_type": "Journal articles, reports",
+    "scope": "All research domains",
+    "origin": "1970s"
+  },
+  "relationship": [
+    {
+      "studies": "Research"
+    },
+    {
+      "overlaps_with": "Bibliometrics"
+    },
+    {
+      "related_to": "Systematic review"
+    },
+    {
+      "uses": "Meta-analysis"
+    },
+    {
+      "addresses": "Research bias"
+    },
+    {
+      "improves": "Research reproducibility"
+    },
+    {
+      "analyzes": "Publication bias"
+    },
+    {
+      "contributes_to": "Evidence-based practice"
+    },
+    {
+      "influenced_by": "Philosophy of science"
+    },
+    {
+      "examines": "Research impact"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Technology",
+  "properties": {
+    "instance_of": "Field of study",
+    "definition": "Application of scientific knowledge",
+    "scope": "Tools, techniques, systems",
+    "origin": "Ancient times",
+    "driving_force": "Human need",
+    "impact": "Societal transformation",
+    "category": "Engineering",
+    "related_to": "Science",
+    "subfield": "Information Technology",
+    "focus": "Innovation"
+  },
+  "relationship": [
+    {
+      "depends_on": "Science"
+    },
+    {
+      "influences": "Society"
+    },
+    {
+      "related_to": "Engineering"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "drives": "Innovation"
+    },
+    {
+      "requires": "Mathematics"
+    },
+    {
+      "overlaps_with": "Automation"
+    },
+    {
+      "includes": "Artificial Intelligence"
+    },
+    {
+      "supports": "Communication"
+    },
+    {
+      "advances": "Medicine"
+    }
+  ]
+}

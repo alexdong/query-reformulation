@@ -1,0 +1,47 @@
+{
+  "entity": "ACT New Zealand",
+  "properties": {
+    "instance_of": "Political party",
+    "country": "New Zealand",
+    "ideology": "Libertarianism",
+    "founded": "1996",
+    "leader": "David Seymour",
+    "colour": "Blue",
+    "representation": "Parliament",
+    "focus": "Economic freedom",
+    "position_on_spectrum": "Right-wing",
+    "official_website": "act.org.nz"
+  },
+  "relationship": [
+    {
+      "member_of": "New Zealand political system"
+    },
+    {
+      "leader_is": "David Seymour"
+    },
+    {
+      "predecessor": "Association of Consumers and Taxpayers"
+    },
+    {
+      "ideologically_related_to": "Libertarianism"
+    },
+    {
+      "competes_with": "National Party"
+    },
+    {
+      "competes_with": "Labour Party"
+    },
+    {
+      "policy_focus": "Tax reform"
+    },
+    {
+      "policy_focus": "Deregulation"
+    },
+    {
+      "policy_focus": "Individual liberty"
+    },
+    {
+      "election_result": "Current representation in Parliament"
+    }
+  ]
+}

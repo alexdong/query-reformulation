@@ -1,0 +1,47 @@
+{
+  "entity": "Immigration, Refugees and Citizenship Canada",
+  "properties": {
+    "agency_type": "Government agency",
+    "parent_department": "Global Affairs Canada",
+    "established": "2015",
+    "headquarters": "Ottawa",
+    "mandate": "Immigration, citizenship, refugees",
+    "minister": "Marc Miller",
+    "website": "canada.ca/en/immigration-refugees-citizenship.html",
+    "jurisdiction": "Canada",
+    "responsible_for": "Processing applications",
+    "budget_2023": "Approximately $4.7 billion CAD"
+  },
+  "relationship": [
+    {
+      "reports_to": "Global Affairs Canada"
+    },
+    {
+      "part_of": "Government of Canada"
+    },
+    {
+      "administers": "Immigration Act"
+    },
+    {
+      "administers": "Citizenship Act"
+    },
+    {
+      "deals_with": "Refugees"
+    },
+    {
+      "deals_with": "Permanent residents"
+    },
+    {
+      "provides": "Citizenship services"
+    },
+    {
+      "oversees": "Visa processing"
+    },
+    {
+      "collaborates_with": "Canada Border Services Agency"
+    },
+    {
+      "impacts": "Canadian economy"
+    }
+  ]
+}

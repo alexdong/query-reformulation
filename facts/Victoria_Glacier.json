@@ -1,0 +1,47 @@
+{
+  "entity": "Victoria Glacier",
+  "properties": {
+    "type": "Glacier",
+    "location": "British Columbia",
+    "mountain_range": "Coast Mountains",
+    "length": "39 km",
+    "area": "260 sq km",
+    "elevation": "1,800 m",
+    "terminus_location": "Fitz Hugh Sound",
+    "formation_date": "Pleistocene Epoch",
+    "flow_rate": "Variable",
+    "named_after": "Queen Victoria"
+  },
+  "relationship": [
+    {
+      "part_of": "Coast Mountains"
+    },
+    {
+      "located_in": "British Columbia"
+    },
+    {
+      "flows_to": "Fitz Hugh Sound"
+    },
+    {
+      "tributary_of": "Pacific Ocean"
+    },
+    {
+      "adjacent_to": "Vancouver Island"
+    },
+    {
+      "influenced_by": "Pacific climate"
+    },
+    {
+      "contains": "Victoria Icefield"
+    },
+    {
+      "surrounded_by": "Mountains"
+    },
+    {
+      "studied_by": "Glaciologists"
+    },
+    {
+      "impacts": "Local ecosystems"
+    }
+  ]
+}

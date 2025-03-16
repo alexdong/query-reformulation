@@ -1,0 +1,47 @@
+{
+  "entity": "Malay Archipelago",
+  "properties": {
+    "type": "Archipelago",
+    "location": "Southeast Asia",
+    "area": "1900000 km²",
+    "population": "670 million",
+    "countries": "Indonesia, Malaysia, Philippines, Brunei, Singapore, East Timor, Thailand (partial)",
+    "largest_island": "Borneo",
+    "biodiversity": "High",
+    "tectonic_setting": "Ring of Fire",
+    "climate": "Tropical",
+    "historical_name": "East Indies"
+  },
+  "relationship": [
+    {
+      "part_of": "Maritime Southeast Asia"
+    },
+    {
+      "contains": "Borneo"
+    },
+    {
+      "contains": "Sumatra"
+    },
+    {
+      "contains": "Java"
+    },
+    {
+      "contains": "Sulawesi"
+    },
+    {
+      "borders": "Indian Ocean"
+    },
+    {
+      "borders": "Pacific Ocean"
+    },
+    {
+      "influenced_by": "Spice Trade"
+    },
+    {
+      "colonized_by": "Netherlands"
+    },
+    {
+      "influenced": "Malay culture"
+    }
+  ]
+}

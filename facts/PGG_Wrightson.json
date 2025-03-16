@@ -1,0 +1,47 @@
+{
+  "entity": "PGG Wrightson",
+  "properties": {
+    "industry": "Agricultural supplies",
+    "founder": "William Wrightson",
+    "established": "1858",
+    "headquarters": "Christchurch",
+    "country": "New Zealand",
+    "stock_exchange": "NZX",
+    "former_owner": "Sumitomo Corporation",
+    "services": "Agrichemicals, seeds, livestock",
+    "business_model": "Merchandise and services",
+    "employee_count": "Approximately 800"
+  },
+  "relationship": [
+    {
+      "parent_company": "Sumitomo Corporation"
+    },
+    {
+      "subsidiary_of": "Sumitomo Corporation"
+    },
+    {
+      "located_in": "Christchurch"
+    },
+    {
+      "industry_sector": "Agriculture"
+    },
+    {
+      "competitor": "Fonterra"
+    },
+    {
+      "competitor": "Ravensdown"
+    },
+    {
+      "provides_to": "Farmers"
+    },
+    {
+      "deals_in": "Agrichemicals"
+    },
+    {
+      "deals_in": "Livestock"
+    },
+    {
+      "part_of": "New Zealand economy"
+    }
+  ]
+}

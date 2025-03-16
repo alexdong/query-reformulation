@@ -1,0 +1,47 @@
+{
+  "entity": "Western Music",
+  "properties": {
+    "genre": "Music genre",
+    "origin": "Western culture",
+    "time_period": "Medieval times - Present",
+    "notation_system": "Staff notation",
+    "instrumentation": "Varied",
+    "harmonic_system": "Tonal harmony",
+    "rhythm": "Metered",
+    "form": "Diverse",
+    "vocal_style": "Varied",
+    "cultural_impact": "Global"
+  },
+  "relationship": [
+    {
+      "influenced": "Popular music"
+    },
+    {
+      "subgenre_of": "Music"
+    },
+    {
+      "includes": "Classical music"
+    },
+    {
+      "includes": "Jazz"
+    },
+    {
+      "includes": "Blues"
+    },
+    {
+      "includes": "Country music"
+    },
+    {
+      "includes": "Rock music"
+    },
+    {
+      "developed_from": "European music"
+    },
+    {
+      "related_to": "Music theory"
+    },
+    {
+      "performed_by": "Orchestra"
+    }
+  ]
+}

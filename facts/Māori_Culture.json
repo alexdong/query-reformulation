@@ -1,0 +1,47 @@
+{
+  "entity": "Māori culture",
+  "properties": {
+    "origin": "New Zealand",
+    "ancestral_language": "Te Reo Māori",
+    "traditional_art": "Whakairo (carving), Rāranga (weaving)",
+    "social_structure": "Iwi (tribe), Hapu (sub-tribe), Whānau (family)",
+    "spiritual_belief": "Tapu (sacredness), Mana (prestige/power), Whakapapa (genealogy)",
+    "traditional_performance": "Haka (ceremonial dance), Waiata (song)",
+    "traditional_weapon": "Māori weaponry",
+    "traditional_clothing": "Piupiu (flax skirt), Korowai (cloak)",
+    "oral_tradition": "Pūrākau (myth/legend), Whakataukī (proverb)",
+    "contemporary_status": "Revitalization efforts"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian culture"
+    },
+    {
+      "related_to": "Treaty of Waitangi"
+    },
+    {
+      "language_of": "Aotearoa (New Zealand)"
+    },
+    {
+      "influenced_by": "Pacific Islander mythology"
+    },
+    {
+      "practiced_by": "Māori people"
+    },
+    {
+      "has_artform": "Tā moko (tattoo)"
+    },
+    {
+      "has_ceremony": "Tangihanga (funeral)"
+    },
+    {
+      "has_custom": "Koha (gift-giving)"
+    },
+    {
+      "location": "Aotearoa (New Zealand)"
+    },
+    {
+      "influenced": "New Zealand identity"
+    }
+  ]
+}

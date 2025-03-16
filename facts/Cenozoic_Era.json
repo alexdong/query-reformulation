@@ -1,0 +1,47 @@
+{
+  "entity": "Cenozoic Era",
+  "properties": {
+    "start_date": "66 million years ago",
+    "end_date": "Present",
+    "epoch": "Phanerozoic",
+    "preceding_era": "Mesozoic Era",
+    "succeeding_era": "N/A",
+    "dominant_life": "Mammals, Birds, Flowering Plants",
+    "major_event_1": "Continental Drift",
+    "major_event_2": "Ice Ages",
+    "climate_trend": "Generally warmer, with cooling trends",
+    "geological_composition": "Sedimentary rocks, volcanic activity"
+  },
+  "relationship": [
+    {
+      "part_of": "Phanerozoic Eon"
+    },
+    {
+      "preceded_by": "Mesozoic Era"
+    },
+    {
+      "followed_by": "N/A"
+    },
+    {
+      "contains_period": "Paleogene Period"
+    },
+    {
+      "contains_period": "Neogene Period"
+    },
+    {
+      "contains_period": "Quaternary Period"
+    },
+    {
+      "influenced_life": "Evolution of Mammals"
+    },
+    {
+      "influenced_life": "Evolution of Birds"
+    },
+    {
+      "influenced_life": "Evolution of Flowering Plants"
+    },
+    {
+      "geographic_feature": "Formation of Himalayas"
+    }
+  ]
+}

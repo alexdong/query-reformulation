@@ -1,0 +1,47 @@
+{
+  "entity": "Sequoia National Park",
+  "properties": {
+    "type": "National Park",
+    "location": "California, USA",
+    "established": "1890",
+    "area": "404,093 acres",
+    "elevation_min": "1,300 ft",
+    "elevation_max": "14,500 ft",
+    "climate": "Mediterranean",
+    "biomes": "Forest, Mountain",
+    "governed_by": "National Park Service",
+    "visitors_2022": "1.8 million"
+  },
+  "relationship": [
+    {
+      "part_of": "California"
+    },
+    {
+      "contains": "Giant Forest"
+    },
+    {
+      "contains": "Moro Rock"
+    },
+    {
+      "contains": "Mount Whitney"
+    },
+    {
+      "neighbor_of": "Kings Canyon National Park"
+    },
+    {
+      "protects": "Sequoia Trees"
+    },
+    {
+      "protects": "Sierra Nevada"
+    },
+    {
+      "managed_by": "National Park Service"
+    },
+    {
+      "located_near": "Visalia, California"
+    },
+    {
+      "influenced_by": "Sierra Club"
+    }
+  ]
+}

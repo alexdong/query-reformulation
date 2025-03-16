@@ -1,0 +1,47 @@
+{
+  "entity": "Seattle Seahawks",
+  "properties": {
+    "instance_of": "American football team",
+    "league": "NFL",
+    "founded": "1976",
+    "city": "Seattle",
+    "state": "Washington",
+    "division": "NFC West",
+    "head_coach": "Mike Macdonald",
+    "team_owner": "Paul Allen (deceased)",
+    "team_colors": "Action Green, College Navy, Wolf Grey",
+    "stadium": "Lumen Field"
+  },
+  "relationship": [
+    {
+      "plays_in": "NFL"
+    },
+    {
+      "located_in": "Seattle"
+    },
+    {
+      "division_rival": "San Francisco 49ers"
+    },
+    {
+      "division_rival": "Los Angeles Rams"
+    },
+    {
+      "division_rival": "Arizona Cardinals"
+    },
+    {
+      "head_coach_is": "Mike Macdonald"
+    },
+    {
+      "plays_at": "Lumen Field"
+    },
+    {
+      "won_championship": "Super Bowl XLVIII"
+    },
+    {
+      "former_player": "Marshawn Lynch"
+    },
+    {
+      "former_player": "Russell Wilson"
+    }
+  ]
+}

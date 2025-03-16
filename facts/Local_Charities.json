@@ -1,0 +1,47 @@
+{
+  "entity": "Local Charities",
+  "properties": {
+    "type": "Nonprofit Organizations",
+    "focus": "Community Needs",
+    "funding": "Donations & Grants",
+    "scope": "Geographic Area",
+    "registration": "Legal Status",
+    "accountability": "Transparency Reports",
+    "impact": "Social Change",
+    "volunteer_base": "Community Members",
+    "governance": "Board of Directors",
+    "tax_status": "501(c)(3)"
+  },
+  "relationship": [
+    {
+      "supports": "Local Communities"
+    },
+    {
+      "funded_by": "Individual Donors"
+    },
+    {
+      "partner_with": "Local Businesses"
+    },
+    {
+      "regulated_by": "IRS"
+    },
+    {
+      "addresses": "Social Issues"
+    },
+    {
+      "serves": "Vulnerable Populations"
+    },
+    {
+      "employs": "Staff Members"
+    },
+    {
+      "reports_to": "Donors"
+    },
+    {
+      "collaborates_with": "Other Charities"
+    },
+    {
+      "located_in": "City/Town"
+    }
+  ]
+}

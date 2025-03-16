@@ -1,0 +1,47 @@
+{
+  "entity": "Economist",
+  "properties": {
+    "instance_of": "Profession",
+    "field_of_study": "Economics",
+    "typical_education": "PhD",
+    "work_environment": "Office",
+    "common_tasks": "Analysis, Modeling, Forecasting",
+    "skills": "Analytical, Mathematical, Communication",
+    "salary_range": "Varies",
+    "related_fields": "Statistics, Mathematics",
+    "governing_body": "None",
+    "ethics_focus": "Efficiency, Equity"
+  },
+  "relationship": [
+    {
+      "studies": "Economics"
+    },
+    {
+      "employs": "Econometrics"
+    },
+    {
+      "influenced_by": "Adam Smith"
+    },
+    {
+      "works_with": "Data"
+    },
+    {
+      "analyzes": "Markets"
+    },
+    {
+      "contributes_to": "Policy"
+    },
+    {
+      "models": "Behavior"
+    },
+    {
+      "researches": "Growth"
+    },
+    {
+      "writes": "Reports"
+    },
+    {
+      "collaborates_with": "Statisticians"
+    }
+  ]
+}

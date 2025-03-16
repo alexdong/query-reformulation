@@ -1,0 +1,46 @@
+{
+  "entity": "Battle of Edinburgh Castle (1573)",
+  "properties": {
+    "date": "May 1573",
+    "location": "Edinburgh Castle",
+    "combatant1": "John Erskine, Earl of Mar",
+    "combatant2": "James Hamilton, Earl of Arran",
+    "cause": "Religious and political tensions",
+    "outcome": "Mar's victory",
+    "belligerent_faction1": "Pro-Mary Queen of Scots",
+    "belligerent_faction2": "Pro-English",
+    "involved_person": "James Hamilton, Earl of Arran"
+  },
+  "relationship": [
+    {
+      "part_of": "Raid of Edinburgh Castle"
+    },
+    {
+      "preceded_by": "Raid of Stirling Castle (1573)"
+    },
+    {
+      "followed_by": "Siege of Edinburgh Castle (1573)"
+    },
+    {
+      "involved_in": "Scottish Reformation"
+    },
+    {
+      "involved_person": "John Erskine, Earl of Mar"
+    },
+    {
+      "involved_person": "Mary, Queen of Scots"
+    },
+    {
+      "involved_person": "James Hamilton, Earl of Arran"
+    },
+    {
+      "location": "Edinburgh"
+    },
+    {
+      "influenced": "Scottish politics"
+    },
+    {
+      "resulted_in": "Temporary control by Erskine"
+    }
+  ]
+}

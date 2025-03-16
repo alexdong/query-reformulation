@@ -1,0 +1,47 @@
+{
+  "entity": "Food Sustainability",
+  "properties": {
+    "definition": "Meeting food needs without compromising future generations",
+    "focus": "Environmental, social, and economic aspects",
+    "goal": "Resilient food systems",
+    "key_area_1": "Reduced food waste",
+    "key_area_2": "Sustainable agriculture",
+    "key_area_3": "Fair labor practices",
+    "impact_area_1": "Climate change mitigation",
+    "impact_area_2": "Biodiversity conservation",
+    "measurement": "Life Cycle Assessment (LCA)",
+    "related_concept": "Circular Economy"
+  },
+  "relationship": [
+    {
+      "impacts": "Climate Change"
+    },
+    {
+      "supports": "Sustainable Agriculture"
+    },
+    {
+      "requires": "Food Security"
+    },
+    {
+      "benefits": "Biodiversity"
+    },
+    {
+      "addresses": "Food Waste"
+    },
+    {
+      "linked_to": "Circular Economy"
+    },
+    {
+      "promotes": "Fair Trade"
+    },
+    {
+      "influenced_by": "Agroecology"
+    },
+    {
+      "requires": "Soil Health"
+    },
+    {
+      "connected_to": "Nutrition"
+    }
+  ]
+}

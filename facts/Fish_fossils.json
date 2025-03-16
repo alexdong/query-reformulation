@@ -1,0 +1,47 @@
+{
+  "entity": "Fish fossils",
+  "properties": {
+    "type": "Fossil",
+    "age": "Paleozoic to Present",
+    "preservation_type": "Mineralization",
+    "discovery_location": "Worldwide",
+    "study_field": "Paleontology",
+    "information_source": "Evolutionary history",
+    "size_range": "Microscopic to Giant",
+    "common_minerals": "Silica, Calcite, Pyrite",
+    "provides_data_on": "Ancient aquatic ecosystems",
+    "importance": "Understanding vertebrate evolution"
+  },
+  "relationship": [
+    {
+      "part_of": "Fossil record"
+    },
+    {
+      "related_to": "Vertebrates"
+    },
+    {
+      "found_in": "Sedimentary rock"
+    },
+    {
+      "studied_by": "Paleontologists"
+    },
+    {
+      "provides_evidence_for": "Evolution"
+    },
+    {
+      "example_of": "Paleozoic fossils"
+    },
+    {
+      "related_to": "Jawless fish"
+    },
+    {
+      "related_to": "Bony fish"
+    },
+    {
+      "contributes_to_understanding_of": "Cambrian explosion"
+    },
+    {
+      "found_with": "Plant fossils"
+    }
+  ]
+}

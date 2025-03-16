@@ -1,0 +1,47 @@
+{
+  "entity": "Norma Jean Baker",
+  "properties": {
+    "birth_name": "Norma Jeane Mortenson",
+    "birth_date": "1926-06-01",
+    "birth_place": "Los Angeles, California",
+    "occupation": "Actress",
+    "nationality": "American",
+    "spouse": "Mickey Rooney, Joe DiMaggio, Arthur Miller",
+    "children": "Christopher, Maria",
+    "death_date": "1962-08-04",
+    "death_place": "Los Angeles, California",
+    "cause_of_death": "Drug overdose"
+  },
+  "relationship": [
+    {
+      "starred_in": "Gentlemen Prefer Blondes"
+    },
+    {
+      "starred_in": "The Seven Year Itch"
+    },
+    {
+      "starred_in": "Some Like It Hot"
+    },
+    {
+      "directed_by": "Billy Wilder"
+    },
+    {
+      "influenced": "Elizabeth Taylor"
+    },
+    {
+      "influenced": "Audrey Hepburn"
+    },
+    {
+      "married_to": "Mickey Rooney"
+    },
+    {
+      "married_to": "Joe DiMaggio"
+    },
+    {
+      "married_to": "Arthur Miller"
+    },
+    {
+      "genre": "Comedy"
+    }
+  ]
+}

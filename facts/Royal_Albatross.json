@@ -1,0 +1,47 @@
+{
+  "entity": "Royal Albatross",
+  "properties": {
+    "scientific_name": "Diomedea eximius",
+    "wingspan": "1.1–1.5 m",
+    "weight": "8.7–11.3 kg",
+    "conservation_status": "Endangered",
+    "diet": "Fish, squid",
+    "habitat": "Ocean, islands",
+    "lifespan": "20–30 years",
+    "mating_system": "Monogamous",
+    "location": "Southern Ocean, New Zealand",
+    "average_speed": "118 km/h"
+  },
+  "relationship": [
+    {
+      "part_of_family": "Albatrosses"
+    },
+    {
+      "has_taxonomic_rank": "Species"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "preys_on": "Fish"
+    },
+    {
+      "preys_on": "Squid"
+    },
+    {
+      "threatened_by": "Climate change"
+    },
+    {
+      "threatened_by": "Plastic pollution"
+    },
+    {
+      "related_to": "Wandering Albatross"
+    },
+    {
+      "has_characteristic": "Large wingspan"
+    },
+    {
+      "part_of_ecosystem": "Marine ecosystem"
+    }
+  ]
+}

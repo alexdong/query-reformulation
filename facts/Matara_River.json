@@ -1,0 +1,47 @@
+{
+  "entity": "Matara River",
+  "properties": {
+    "location": "Sri Lanka",
+    "length": "107 km",
+    "source": "Kumburupone",
+    "mouth": "Indian Ocean",
+    "drainage_area": "1,977 km²",
+    "tributaries": "Several",
+    "flow_rate": "Variable",
+    "usage": "Irrigation, Drinking Water",
+    "basin_type": "River basin",
+    "ecological_importance": "Supports biodiversity"
+  },
+  "relationship": [
+    {
+      "flows_into": "Indian Ocean"
+    },
+    {
+      "located_in": "Sri Lanka"
+    },
+    {
+      "tributary_of": "N/A"
+    },
+    {
+      "source_location": "Kumburupone"
+    },
+    {
+      "part_of": "Southern Province"
+    },
+    {
+      "flows_through": "Matara"
+    },
+    {
+      "provides_water_to": "Agriculture"
+    },
+    {
+      "supports": "Aquatic life"
+    },
+    {
+      "contributes_to": "Local economy"
+    },
+    {
+      "adjacent_to": "Coastal plains"
+    }
+  ]
+}

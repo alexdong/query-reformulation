@@ -1,0 +1,47 @@
+{
+  "entity": "Mexican Land Grants",
+  "properties": {
+    "type": "Land grants",
+    "issuer": "Mexican Government",
+    "period": "1821-1848",
+    "location": "Mexican territories (present-day US Southwest)",
+    "recipient": "Individuals, families, communities",
+    "size": "Varying, often large (ranchos)",
+    "purpose": "Promote settlement, agriculture, and economic development",
+    "legal_basis": "Mexican colonial land laws",
+    "language": "Spanish",
+    "status": "Many invalidated after 1848"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Spanish Colonial Land Grants"
+    },
+    {
+      "followed_by": "US Homestead Act"
+    },
+    {
+      "part_of": "Mexican Revolution"
+    },
+    {
+      "impacted": "Native American populations"
+    },
+    {
+      "influenced": "California Ranchos"
+    },
+    {
+      "related_to": "Comstock Act"
+    },
+    {
+      "involved": "Rancho owners"
+    },
+    {
+      "resulted_in": "Land disputes"
+    },
+    {
+      "affected": "Mexican-American War"
+    },
+    {
+      "example_of": "Rancho de las Aguas"
+    }
+  ]
+}

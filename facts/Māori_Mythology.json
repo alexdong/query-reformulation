@@ -1,0 +1,47 @@
+{
+  "entity": "Māori Mythology",
+  "properties": {
+    "origin": "New Zealand",
+    "culture": "Māori",
+    "type": "Oral tradition",
+    "themes": "Creation, ancestry, nature",
+    "time_period": "Pre-European contact",
+    "language": "Te Reo Māori",
+    "deity_focus": "Tangaroa, Tāne, Rangi, Papa",
+    "creation_story": "Ranginui and Papatūānuku",
+    "moral_code": "Tapu, Noa, Utu",
+    "transmission": "Genealogy, storytelling"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian Mythology"
+    },
+    {
+      "related_to": "Creation Myth"
+    },
+    {
+      "influenced": "New Zealand art"
+    },
+    {
+      "character_appears": "Tāwhirimātea"
+    },
+    {
+      "character_appears": "Māui"
+    },
+    {
+      "character_appears": "Tangaroa"
+    },
+    {
+      "location_associated": "Aotearoa"
+    },
+    {
+      "concept_related": "Tapu"
+    },
+    {
+      "concept_related": "Whakapapa"
+    },
+    {
+      "influenced": "New Zealand literature"
+    }
+  ]
+}

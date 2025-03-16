@@ -1,0 +1,47 @@
+{
+  "entity": "Subduction",
+  "properties": {
+    "instance_of": "Geological process",
+    "type": "Plate tectonics",
+    "depth": "Up to 700 km",
+    "density": "Denser plate",
+    "temperature": "Varies",
+    "location": "Convergent boundaries",
+    "result": "Earthquakes, volcanoes, trenches",
+    "speed": "1-10 cm/year",
+    "material": "Oceanic crust, mantle",
+    "driving_force": "Mantle convection"
+  },
+  "relationship": [
+    {
+      "causes": "Earthquake"
+    },
+    {
+      "causes": "Volcanism"
+    },
+    {
+      "forms": "Oceanic trench"
+    },
+    {
+      "part_of": "Plate tectonics"
+    },
+    {
+      "occurs_at": "Convergent boundary"
+    },
+    {
+      "involves": "Oceanic plate"
+    },
+    {
+      "involves": "Continental plate"
+    },
+    {
+      "produces": "Magma"
+    },
+    {
+      "related_to": "Seismic activity"
+    },
+    {
+      "affects": "Lithosphere"
+    }
+  ]
+}

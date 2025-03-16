@@ -1,0 +1,47 @@
+{
+  "entity": "Accommodation",
+  "properties": {
+    "instance_of": "Service",
+    "type": "Lodging",
+    "provides": "Shelter",
+    "includes": "Amenities",
+    "cost": "Variable",
+    "location": "Various",
+    "duration": "Temporary",
+    "booking_method": "Online/Direct",
+    "rating": "Variable",
+    "accessibility": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Tourism"
+    },
+    {
+      "provided_by": "Hotel"
+    },
+    {
+      "provided_by": "Hostel"
+    },
+    {
+      "provided_by": "Airbnb"
+    },
+    {
+      "related_to": "Travel"
+    },
+    {
+      "requires": "Reservation"
+    },
+    {
+      "customer": "Tourist"
+    },
+    {
+      "serves": "Guest"
+    },
+    {
+      "located_in": "City"
+    },
+    {
+      "impacts": "Local Economy"
+    }
+  ]
+}

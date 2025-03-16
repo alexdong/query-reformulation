@@ -1,0 +1,47 @@
+{
+  "entity": "Aitutaki Lagoon EcoTrip",
+  "properties": {
+    "type": "Tourism operator",
+    "location": "Aitutaki, Cook Islands",
+    "focus": "Eco-tourism",
+    "activities": "Snorkeling, kayaking, lagoon cruise",
+    "website": "https://aitutakiecoy.com/",
+    "year_established": "2011",
+    "owner": "John Funaki",
+    "slogan": "Experience Aitutaki Naturally",
+    "languages_spoken": "Cook Islands Māori, English",
+    "sustainable_practices": "Minimal impact, reef protection"
+  },
+  "relationship": [
+    {
+      "part_of": "Tourism in the Cook Islands"
+    },
+    {
+      "located_in": "Aitutaki"
+    },
+    {
+      "offers": "Lagoon cruise"
+    },
+    {
+      "provides": "Snorkeling equipment"
+    },
+    {
+      "promotes": "Cook Islands Māori culture"
+    },
+    {
+      "supports": "Local community"
+    },
+    {
+      "focuses_on": "Marine conservation"
+    },
+    {
+      "employs": "Local guides"
+    },
+    {
+      "attracts": "Eco-tourists"
+    },
+    {
+      "related_to": "Aitutaki Marine Reserve"
+    }
+  ]
+}

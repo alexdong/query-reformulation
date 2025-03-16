@@ -1,0 +1,47 @@
+{
+  "entity": "Universities Scotland",
+  "properties": {
+    "type": "Organization",
+    "hq_location": "Edinburgh, Scotland",
+    "founded": "1998",
+    "purpose": "Higher education advocacy",
+    "members": "Scottish Universities",
+    "ceo": "Savina Patel",
+    "sector": "Education",
+    "website": "www.universities-scotland.ac.uk",
+    "focus": "Research, Teaching, Innovation",
+    "legal_status": "Scottish Registered Charity"
+  },
+  "relationship": [
+    {
+      "member_of": "Scottish Higher Education Sector"
+    },
+    {
+      "represents": "Scottish Universities"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "advocates_for": "Higher Education"
+    },
+    {
+      "collaborates_with": "Scottish Government"
+    },
+    {
+      "funds": "Research initiatives"
+    },
+    {
+      "promotes": "Student wellbeing"
+    },
+    {
+      "supports": "Knowledge transfer"
+    },
+    {
+      "influences": "Education policy"
+    },
+    {
+      "reports_to": "Members"
+    }
+  ]
+}

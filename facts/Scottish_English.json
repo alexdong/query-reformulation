@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish English",
+  "properties": {
+    "type": "Dialect",
+    "region": "Scotland",
+    "language": "English",
+    "influence": "Scots, Gaelic",
+    "pronunciation": "Distinctive",
+    "vocabulary": "Unique",
+    "grammar": "Variations",
+    "status": "Recognized",
+    "mutual_intelligibility": "Generally with Standard English",
+    "written_form": "Exists, but often reflects spoken form"
+  },
+  "relationship": [
+    {
+      "part_of": "English language"
+    },
+    {
+      "influenced_by": "Scots language"
+    },
+    {
+      "influenced_by": "Gaelic languages"
+    },
+    {
+      "spoken_in": "Scotland"
+    },
+    {
+      "related_to": "Glaswegian English"
+    },
+    {
+      "related_to": "Edinburgh English"
+    },
+    {
+      "has_variant": "Doric"
+    },
+    {
+      "contrasts_with": "Received Pronunciation"
+    },
+    {
+      "studied_in": "Linguistics"
+    },
+    {
+      "example_of": "Regional dialect"
+    }
+  ]
+}

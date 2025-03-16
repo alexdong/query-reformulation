@@ -1,0 +1,47 @@
+{
+  "entity": "Bottlenose Dolphin",
+  "properties": {
+    "scientific_name": "Tursiops truncatus",
+    "lifespan": "40-60 years",
+    "diet": "Fish, squid",
+    "habitat": "Oceans worldwide",
+    "length": "2.1-3 meters",
+    "weight": "150-650 kg",
+    "intelligence": "High",
+    "conservation_status": "Least Concern",
+    "skin_color": "Gray",
+    "social_behavior": "Highly social"
+  },
+  "relationship": [
+    {
+      "part_of": "Cetaceans"
+    },
+    {
+      "order": "Artiodactyla"
+    },
+    {
+      "family": "Delphinidae"
+    },
+    {
+      "prey_of": "Sharks"
+    },
+    {
+      "lives_in": "Atlantic Ocean"
+    },
+    {
+      "lives_in": "Pacific Ocean"
+    },
+    {
+      "related_to": "Common Dolphin"
+    },
+    {
+      "threatened_by": "Pollution"
+    },
+    {
+      "uses": "Echolocation"
+    },
+    {
+      "has_characteristic": "Blowhole"
+    }
+  ]
+}

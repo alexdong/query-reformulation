@@ -1,0 +1,47 @@
+{
+  "entity": "Animal Welfare",
+  "properties": {
+    "definition": "Well-being of animals",
+    "scope": "Sentient beings",
+    "focus": "Physical & psychological health",
+    "ethical_basis": "Moral consideration",
+    "legal_framework": "Animal protection laws",
+    "key_principles": "Five Freedoms",
+    "related_field": "Animal rights",
+    "scientific_discipline": "Ethology",
+    "historical_movement": "19th century",
+    "global_concern": "True"
+  },
+  "relationship": [
+    {
+      "part_of": "Animal Ethics"
+    },
+    {
+      "related_to": "Animal Rights"
+    },
+    {
+      "influenced_by": "Utilitarianism"
+    },
+    {
+      "promoted_by": "Royal Society for the Prevention of Cruelty to Animals"
+    },
+    {
+      "overlaps_with": "Veterinary Medicine"
+    },
+    {
+      "addresses": "Animal Cruelty"
+    },
+    {
+      "impacts": "Farm Animals"
+    },
+    {
+      "impacts": "Companion Animals"
+    },
+    {
+      "supports": "Five Freedoms"
+    },
+    {
+      "challenges": "Factory Farming"
+    }
+  ]
+}

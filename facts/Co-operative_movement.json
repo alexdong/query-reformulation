@@ -1,0 +1,47 @@
+{
+  "entity": "Co-operative movement",
+  "properties": {
+    "definition": "Voluntary association",
+    "principle": "Self-help, self-responsibility",
+    "origin": "19th century",
+    "sector": "Business, Economics",
+    "ideology": "Social economics",
+    "focus": "Democratic member-ownership",
+    "goal": "Mutual benefit",
+    "structure": "Democratic governance",
+    "scale": "Local to global",
+    "legal_form": "Various (co-operative, mutual association)"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Rochdale Pioneers"
+    },
+    {
+      "related_to": "Mutualism"
+    },
+    {
+      "preceded_by": "Friendly Societies"
+    },
+    {
+      "associated_with": "Socialism"
+    },
+    {
+      "promotes": "Economic democracy"
+    },
+    {
+      "sector": "Agriculture"
+    },
+    {
+      "sector": "Retail"
+    },
+    {
+      "sector": "Finance"
+    },
+    {
+      "member_of": "International Co-operative Alliance"
+    },
+    {
+      "example_of": "Credit union"
+    }
+  ]
+}

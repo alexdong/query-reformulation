@@ -1,0 +1,47 @@
+{
+  "entity": "Feral Cat",
+  "properties": {
+    "type": "Domestic cat",
+    "status": "Unowned",
+    "origin": "Domestic cat",
+    "diet": "Carnivorous",
+    "lifespan": "2-8 years",
+    "habitat": "Urban, Rural",
+    "social_behavior": "Solitary/Colonies",
+    "reproduction": "Rapid",
+    "size": "Small",
+    "conservation_status": "Least Concern"
+  },
+  "relationship": [
+    {
+      "is_a": "Domestic cat"
+    },
+    {
+      "related_to": "House cat"
+    },
+    {
+      "prey_on": "Rodents"
+    },
+    {
+      "threatens": "Bird populations"
+    },
+    {
+      "managed_by": "Trap-Neuter-Return"
+    },
+    {
+      "disease_carrier_of": "Rabies"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "controlled_by": "Animal control"
+    },
+    {
+      "related_to_organization": "Humane Society"
+    },
+    {
+      "lives_in": "Environment"
+    }
+  ]
+}

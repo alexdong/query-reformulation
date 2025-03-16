@@ -1,0 +1,47 @@
+{
+  "entity": "Kū",
+  "properties": {
+    "instance_of": "Hawaiian god",
+    "domain": "Cosmology",
+    "aspect": "Creation",
+    "gender": "Male",
+    "role": "Creator",
+    "associated_with": "Light",
+    "mythology": "Hawaiian mythology",
+    "parent": "Akua",
+    "sibling": "Lono, Kāne, Kanaloa",
+    "symbol": "Sun"
+  },
+  "relationship": [
+    {
+      "part_of": "Hawaiian pantheon"
+    },
+    {
+      "father_of": "Māui"
+    },
+    {
+      "sibling_of": "Lono"
+    },
+    {
+      "sibling_of": "Kāne"
+    },
+    {
+      "sibling_of": "Kanaloa"
+    },
+    {
+      "opposed_to": "Po (darkness)"
+    },
+    {
+      "associated_with": "Sun"
+    },
+    {
+      "related_to": "Hawaiian mythology"
+    },
+    {
+      "creator_of": "Earth"
+    },
+    {
+      "related_to": "Akua"
+    }
+  ]
+}

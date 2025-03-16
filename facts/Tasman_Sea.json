@@ -1,0 +1,47 @@
+{
+  "entity": "Tasman Sea",
+  "properties": {
+    "type": "Sea",
+    "area": "2,240,000 km²",
+    "max_depth": "5,221 m",
+    "location": "Between Australia & New Zealand",
+    "average_depth": "1,500 m",
+    "named_after": "Abel Tasman",
+    "part_of": "Southern Ocean",
+    "salinity": "34.7‰",
+    "temperature": "12-22 °C",
+    "geological_age": "Mesozoic"
+  },
+  "relationship": [
+    {
+      "borders": "Australia"
+    },
+    {
+      "borders": "New Zealand"
+    },
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "named_after": "Abel Tasman"
+    },
+    {
+      "flows_into": "Southern Ocean"
+    },
+    {
+      "current": "East Australia Current"
+    },
+    {
+      "current": "West Wind Drift"
+    },
+    {
+      "contains": "Tasman Island"
+    },
+    {
+      "influences_climate": "Eastern Australia"
+    },
+    {
+      "explored_by": "James Cook"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Quaternary glaciation",
+  "properties": {
+    "type": "Geological epoch",
+    "start_date": "2.58 million years ago",
+    "end_date": "Present",
+    "period": "Quaternary period",
+    "location": "Global",
+    "cause": "Milankovitch cycles",
+    "major_event": "Repeated glacial-interglacial cycles",
+    "impact": "Sea level changes, landscape modification",
+    "evidence": "Glacial deposits, moraines",
+    "study_field": "Glaciology"
+  },
+  "relationship": [
+    {
+      "part_of": "Quaternary period"
+    },
+    {
+      "caused_by": "Milankovitch cycles"
+    },
+    {
+      "includes": "Pleistocene epoch"
+    },
+    {
+      "includes": "Holocene epoch"
+    },
+    {
+      "impacts": "Sea level"
+    },
+    {
+      "modifies": "Landscape"
+    },
+    {
+      "evidence_found_in": "Moraines"
+    },
+    {
+      "evidence_found_in": "Glacial deposits"
+    },
+    {
+      "related_to": "Ice age"
+    },
+    {
+      "studied_by": "Glaciology"
+    }
+  ]
+}

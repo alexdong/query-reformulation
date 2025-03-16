@@ -1,0 +1,47 @@
+{
+  "entity": "Port Operations",
+  "properties": {
+    "definition": "Management of port activities",
+    "industry": "Maritime",
+    "scope": "Loading/Unloading, Storage, Handling",
+    "key_stakeholders": "Shipping lines, Cargo owners, Port Authority",
+    "technology_used": "Container cranes, Terminal Operating Systems (TOS)",
+    "performance_metrics": "Throughput, Dwell time, Efficiency",
+    "regulation_body": "International Maritime Organization (IMO)",
+    "economic_impact": "Trade facilitation, Job creation",
+    "security_concerns": "Cargo theft, Terrorism",
+    "environmental_impact": "Air/Water pollution, Noise"
+  },
+  "relationship": [
+    {
+      "part_of": "Supply Chain"
+    },
+    {
+      "supports": "International Trade"
+    },
+    {
+      "uses": "Container Ships"
+    },
+    {
+      "requires": "Dockworkers"
+    },
+    {
+      "managed_by": "Port Authority"
+    },
+    {
+      "impacts": "Maritime Economy"
+    },
+    {
+      "relies_on": "Infrastructure"
+    },
+    {
+      "affected_by": "Weather"
+    },
+    {
+      "influenced_by": "Automation"
+    },
+    {
+      "connected_to": "Logistics"
+    }
+  ]
+}

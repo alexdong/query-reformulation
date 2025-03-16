@@ -1,0 +1,47 @@
+{
+  "entity": "European Colonialism",
+  "properties": {
+    "type": "Historical Process",
+    "start_date": "15th Century",
+    "end_date": "20th Century",
+    "primary_motivations": "Economic, Political, Religious",
+    "geographic_scope": "Global",
+    "dominant_powers": "Britain, France, Spain, Portugal, Netherlands, Belgium, Germany, Italy",
+    "impact_on_indigenous_populations": "Exploitation, Displacement, Disease, Cultural Suppression",
+    "economic_system": "Mercantilism, Capitalism",
+    "legacy": "Political Boundaries, Cultural Exchange, Economic Disparities",
+    "decolonization_period": "Post-World War II"
+  },
+  "relationship": [
+    {
+      "caused": "Transatlantic Slave Trade"
+    },
+    {
+      "influenced": "Globalization"
+    },
+    {
+      "led_to": "Imperialism"
+    },
+    {
+      "involved": "Scramble for Africa"
+    },
+    {
+      "affected": "India"
+    },
+    {
+      "affected": "Southeast Asia"
+    },
+    {
+      "affected": "Americas"
+    },
+    {
+      "resulted_in": "Creation of Commonwealth"
+    },
+    {
+      "involved_power": "British Empire"
+    },
+    {
+      "involved_power": "French Colonial Empire"
+    }
+  ]
+}

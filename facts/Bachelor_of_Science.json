@@ -1,0 +1,47 @@
+{
+  "entity": "Bachelor of Science",
+  "properties": {
+    "instance_of": "Academic degree",
+    "field_of_study": "Science",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "typical_age": "18-22",
+    "credit_hours": "120",
+    "focus": "STEM",
+    "requires": "Lab work",
+    "assessment": "Exams, projects",
+    "prerequisite": "High school diploma"
+  },
+  "relationship": [
+    {
+      "precedes": "Master of Science"
+    },
+    {
+      "follows": "High school diploma"
+    },
+    {
+      "part_of": "Higher education"
+    },
+    {
+      "requires": "Mathematics"
+    },
+    {
+      "requires": "Statistics"
+    },
+    {
+      "requires": "Scientific method"
+    },
+    {
+      "leads_to": "Career"
+    },
+    {
+      "related_to": "STEM fields"
+    },
+    {
+      "alternative_to": "Bachelor of Arts"
+    },
+    {
+      "offered_by": "University"
+    }
+  ]
+}

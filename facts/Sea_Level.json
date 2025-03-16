@@ -1,0 +1,47 @@
+{
+  "entity": "Sea Level",
+  "properties": {
+    "type": "Physical Quantity",
+    "unit": "Meter",
+    "measurement_technique": "Tide Gauges, Satellite Altimetry",
+    "global_average": "0 meters (defined)",
+    "temporal_variation": "Fluctuates daily, seasonally, long-term trends",
+    "affected_by": "Gravity, Temperature, Salinity, Wind",
+    "reference_datum": "Mean Sea Level (MSL)",
+    "long_term_trend": "Rising",
+    "rate_of_rise": "3.3 mm/year (average)",
+    "causes_of_change": "Thermal Expansion, Ice Melt"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth's Surface"
+    },
+    {
+      "influenced_by": "Climate Change"
+    },
+    {
+      "impacts": "Coastal Erosion"
+    },
+    {
+      "affects": "Coastal Communities"
+    },
+    {
+      "related_to": "Tides"
+    },
+    {
+      "related_to": "Oceanography"
+    },
+    {
+      "measured_by": "Satellite Altimetry"
+    },
+    {
+      "measured_by": "Tide Gauge"
+    },
+    {
+      "impacts": "Saltwater Intrusion"
+    },
+    {
+      "related_to": "Global Warming"
+    }
+  ]
+}

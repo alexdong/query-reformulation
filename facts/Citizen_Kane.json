@@ -1,0 +1,47 @@
+{
+  "entity": "Citizen Kane",
+  "properties": {
+    "instance_of": "Film",
+    "director": "Orson Welles",
+    "release_date": "1941",
+    "genre": "Drama",
+    "country_of_origin": "USA",
+    "runtime": "119 minutes",
+    "production_company": "RKO Pictures",
+    "screenplay_by": "Orson Welles, Herman J. Mankiewicz",
+    "cinematography_by": "Gregg Toland",
+    "score_by": "Bernard Herrmann"
+  },
+  "relationship": [
+    {
+      "influenced": "Film Noir"
+    },
+    {
+      "influenced": "Long Take"
+    },
+    {
+      "influenced": "Nonlinear Narrative"
+    },
+    {
+      "starring": "Orson Welles"
+    },
+    {
+      "starring": "Joseph Cotten"
+    },
+    {
+      "starring": "Dorothy Comingore"
+    },
+    {
+      "adaptation_of": "Newspaper Tycoon"
+    },
+    {
+      "genre_includes": "Mystery"
+    },
+    {
+      "genre_includes": "Psychological Drama"
+    },
+    {
+      "award": "Academy Award for Best Original Screenplay"
+    }
+  ]
+}

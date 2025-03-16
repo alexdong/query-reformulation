@@ -1,0 +1,47 @@
+{
+  "entity": "Sky Tower",
+  "properties": {
+    "type": "Observation Tower",
+    "height": "328 m (1,076 ft)",
+    "location": "Auckland",
+    "country": "New Zealand",
+    "opening_date": "1997-08-17",
+    "architect": "Ron Seeto",
+    "operator": "SkyCity Entertainment Group",
+    "material": "Steel",
+    "design_style": "Modern",
+    "purpose": "Tourism, Communications"
+  },
+  "relationship": [
+    {
+      "located_in": "Auckland City"
+    },
+    {
+      "part_of": "SkyCity"
+    },
+    {
+      "architect_of": "Ron Seeto"
+    },
+    {
+      "operator_of": "SkyCity Entertainment Group"
+    },
+    {
+      "has_feature": "SkyJump"
+    },
+    {
+      "has_feature": "SkyWalk"
+    },
+    {
+      "has_feature": "Restaurant"
+    },
+    {
+      "provides_view_of": "Waitematā Harbour"
+    },
+    {
+      "influenced_by": "CN Tower"
+    },
+    {
+      "is_example_of": "Observation Tower"
+    }
+  ]
+}

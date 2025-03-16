@@ -1,0 +1,47 @@
+{
+  "entity": "Crew member",
+  "properties": {
+    "instance_of": "Occupation",
+    "works_in": "Film industry",
+    "skill": "Technical skills",
+    "responsibility": "Film production",
+    "department": "Various",
+    "required_skill": "Teamwork",
+    "salary": "Varies",
+    "union": "IATSE",
+    "training": "On-the-job",
+    "location": "Film set"
+  },
+  "relationship": [
+    {
+      "works_with": "Director"
+    },
+    {
+      "works_with": "Actor"
+    },
+    {
+      "reports_to": "Production manager"
+    },
+    {
+      "collaborates_with": "Camera operator"
+    },
+    {
+      "collaborates_with": "Sound mixer"
+    },
+    {
+      "works_for": "Production company"
+    },
+    {
+      "part_of": "Film crew"
+    },
+    {
+      "contributes_to": "Film"
+    },
+    {
+      "role_in": "Television production"
+    },
+    {
+      "related_to": "Stage crew"
+    }
+  ]
+}

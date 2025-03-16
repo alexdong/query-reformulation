@@ -1,0 +1,47 @@
+{
+  "entity": "Stoat",
+  "properties": {
+    "scientific_name": "Mustela erminea",
+    "kingdom": "Animalia",
+    "order": "Carnivora",
+    "family": "Mustelidae",
+    "lifespan": "3-5 years",
+    "mass": "250-1000 g",
+    "distribution": "North America, Eurasia",
+    "habitat": "Forests, grasslands",
+    "diet": "Small mammals, birds",
+    "conservation_status": "Least Concern"
+  },
+  "relationship": [
+    {
+      "is_a": "Mustelid"
+    },
+    {
+      "part_of_family": "Mustelidae"
+    },
+    {
+      "prey_of": "Eagles"
+    },
+    {
+      "prey_of": "Wolves"
+    },
+    {
+      "predator_of": "Voles"
+    },
+    {
+      "predator_of": "Mice"
+    },
+    {
+      "related_to": "American Ermine"
+    },
+    {
+      "related_to": "Sable"
+    },
+    {
+      "geographic_location": "Canada"
+    },
+    {
+      "geographic_location": "Russia"
+    }
+  ]
+}

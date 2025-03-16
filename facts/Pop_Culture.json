@@ -1,0 +1,47 @@
+{
+  "entity": "Pop Culture",
+  "properties": {
+    "definition": "Cultural phenomena",
+    "scope": "Mass media",
+    "timeframe": "Contemporary",
+    "influence": "Social trends",
+    "mediums": "Film, Music, Television",
+    "drivers": "Celebrity, Viral content",
+    "impact": "Consumerism, Identity",
+    "cycle": "Rapid change",
+    "origin": "20th Century",
+    "subject": "Entertainment"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Mass media"
+    },
+    {
+      "part_of": "Society"
+    },
+    {
+      "related_to": "Consumerism"
+    },
+    {
+      "features": "Celebrity"
+    },
+    {
+      "includes": "Music"
+    },
+    {
+      "includes": "Film"
+    },
+    {
+      "includes": "Television"
+    },
+    {
+      "impacts": "Fashion"
+    },
+    {
+      "drives": "Social media"
+    },
+    {
+      "reflects": "Current events"
+    }
+  ]
+}

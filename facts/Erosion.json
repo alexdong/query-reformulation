@@ -1,0 +1,47 @@
+{
+  "entity": "Erosion",
+  "properties": {
+    "instance_of": "Geological Process",
+    "type": "Mechanical & Chemical",
+    "agent": "Water, Wind, Ice, Gravity",
+    "rate": "Variable",
+    "impact": "Landscape Modification",
+    "scale": "Microscopic to Macro",
+    "causes": "Weathering, Transport",
+    "effect": "Soil Loss, Sedimentation",
+    "related_process": "Weathering",
+    "importance": "Shape Earth's Surface"
+  },
+  "relationship": [
+    {
+      "part_of": "Geomorphology"
+    },
+    {
+      "causes": "Weathering"
+    },
+    {
+      "results_in": "Sedimentation"
+    },
+    {
+      "affects": "Soil"
+    },
+    {
+      "impacts": "Landforms"
+    },
+    {
+      "influenced_by": "Climate"
+    },
+    {
+      "controlled_by": "Vegetation"
+    },
+    {
+      "example_of": "Sheet Erosion"
+    },
+    {
+      "example_of": "Gully Erosion"
+    },
+    {
+      "related_to": "Hydrology"
+    }
+  ]
+}

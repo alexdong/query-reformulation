@@ -1,0 +1,47 @@
+{
+  "entity": "Bedford",
+  "properties": {
+    "type": "Town",
+    "country": "United Kingdom",
+    "county": "Bedfordshire",
+    "population_2011": "33,739",
+    "river": "Great Ouse",
+    "latitude": "52.154",
+    "longitude": "-0.547",
+    "postcode": "MK40",
+    "established": "1189",
+    "mayor": "James Ford"
+  },
+  "relationship": [
+    {
+      "part_of": "Bedfordshire"
+    },
+    {
+      "located_in": "England"
+    },
+    {
+      "river_flows_through": "Great Ouse"
+    },
+    {
+      "has_twin_town": "Crépy-en-Valois"
+    },
+    {
+      "contains": "Bedford School"
+    },
+    {
+      "contains": "John Bunyan's Church"
+    },
+    {
+      "influenced": "John Bunyan"
+    },
+    {
+      "near": "Milton Keynes"
+    },
+    {
+      "historical_event": "Battle of Bedford"
+    },
+    {
+      "transport_link": "Midland Main Line"
+    }
+  ]
+}

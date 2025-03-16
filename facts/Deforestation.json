@@ -1,0 +1,47 @@
+{
+  "entity": "Deforestation",
+  "properties": {
+    "type": "Environmental issue",
+    "definition": "Clearing of forests",
+    "cause": "Agriculture, Logging, Urbanization",
+    "impact": "Climate change, Biodiversity loss",
+    "scale": "Global",
+    "rate": "Significant",
+    "affected_region": "Amazon, Congo Basin, Southeast Asia",
+    "measurement": "Hectares/year",
+    "related_issue": "Desertification",
+    "solution": "Reforestation, Sustainable forestry"
+  },
+  "relationship": [
+    {
+      "causes": "Climate change"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "linked_to": "Reforestation"
+    },
+    {
+      "related_to": "Sustainable forestry"
+    },
+    {
+      "affects": "Amazon rainforest"
+    },
+    {
+      "affects": "Congo Basin"
+    },
+    {
+      "affects": "Southeast Asia"
+    },
+    {
+      "contributes_to": "Soil erosion"
+    },
+    {
+      "impacts": "Indigenous communities"
+    },
+    {
+      "linked_to": "Carbon cycle"
+    }
+  ]
+}

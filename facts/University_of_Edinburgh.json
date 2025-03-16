@@ -1,0 +1,47 @@
+{
+  "entity": "University of Edinburgh",
+  "properties": {
+    "established": "1582",
+    "type": "Public research university",
+    "location": "Edinburgh, Scotland",
+    "chancellor": "Lord Lyon King of Arms",
+    "rector": "Emma Thompson",
+    "students": "29,830",
+    "staff": "10,000",
+    "motto": "Wisdom and Enlightenment",
+    "colours": "Black and Gold",
+    "endowment": "$373 million"
+  },
+  "relationship": [
+    {
+      "member_of": "Russell Group"
+    },
+    {
+      "located_in": "Edinburgh"
+    },
+    {
+      "founded_by": "Mary Stewart"
+    },
+    {
+      "has_alumnus": "David Hume"
+    },
+    {
+      "has_alumnus": "Sir Walter Scott"
+    },
+    {
+      "has_alumnus": "James Clerk Maxwell"
+    },
+    {
+      "affiliated_with": "Edinburgh Napier University"
+    },
+    {
+      "predecessor_of": "College of William and Mary"
+    },
+    {
+      "owns": "National Museum of Scotland"
+    },
+    {
+      "member_of": "Universities Scotland"
+    }
+  ]
+}

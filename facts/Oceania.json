@@ -1,0 +1,47 @@
+{
+  "entity": "Oceania",
+  "properties": {
+    "type": "Continent",
+    "area": "40,000,000 km²",
+    "population": "43,670,000",
+    "highest_point": "Puncak Jaya",
+    "lowest_point": "Dead Sea",
+    "largest_country": "Australia",
+    "smallest_country": "Nauru",
+    "climate": "Varied",
+    "currency": "Varied",
+    "geography": "Islands, reefs, volcanoes"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Australia"
+    },
+    {
+      "contains": "New Zealand"
+    },
+    {
+      "contains": "Papua New Guinea"
+    },
+    {
+      "borders": "Asia"
+    },
+    {
+      "influenced_by": "Austronesian peoples"
+    },
+    {
+      "has_region": "Melanesia"
+    },
+    {
+      "has_region": "Micronesia"
+    },
+    {
+      "has_region": "Polynesia"
+    },
+    {
+      "affected_by": "El Niño"
+    }
+  ]
+}

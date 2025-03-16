@@ -1,0 +1,47 @@
+{
+  "entity": "Bird",
+  "properties": {
+    "instance_of": "Animal",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "lifespan": "Variable",
+    "average_weight": "Variable",
+    "habitat": "Worldwide",
+    "diet": "Variable",
+    "wingspan": "Variable",
+    "color": "Variable"
+  },
+  "relationship": [
+    {
+      "is_a": "Vertebrate"
+    },
+    {
+      "part_of": "Ecosystem"
+    },
+    {
+      "preys_on": "Insects"
+    },
+    {
+      "prey_of": "Predator"
+    },
+    {
+      "related_to": "Evolution"
+    },
+    {
+      "has_part": "Feather"
+    },
+    {
+      "has_part": "Wing"
+    },
+    {
+      "has_part": "Beak"
+    },
+    {
+      "migration_pattern": "Seasonal"
+    },
+    {
+      "sound": "Song"
+    }
+  ]
+}

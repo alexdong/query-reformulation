@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Provincial Buildings",
+  "properties": {
+    "architect": "Henry Fenton",
+    "architectural_style": "Italianate",
+    "location": "Dunedin",
+    "construction_start": "1878",
+    "construction_end": "1883",
+    "building_type": "Government building",
+    "materials": "Oamaru stone",
+    "current_use": "Law Courts & Ministry of Justice",
+    "heritage_status": "Historic Place (Category I)",
+    "address": "127 Princes Street, Dunedin"
+  },
+  "relationship": [
+    {
+      "located_in": "Dunedin City Council"
+    },
+    {
+      "architectural_influence": "Italian Renaissance architecture"
+    },
+    {
+      "part_of": "Dunedin Heritage"
+    },
+    {
+      "built_by": "Provincial Government of Otago"
+    },
+    {
+      "design_influenced": "Other Dunedin buildings"
+    },
+    {
+      "historical_period": "19th century"
+    },
+    {
+      "function": "Administration"
+    },
+    {
+      "style_example": "Italianate architecture"
+    },
+    {
+      "heritage_register": "New Zealand Heritage List"
+    },
+    {
+      "contains": "Supreme Court of New Zealand"
+    }
+  ]
+}

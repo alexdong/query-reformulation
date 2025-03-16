@@ -1,0 +1,47 @@
+{
+  "entity": "Endangered species",
+  "properties": {
+    "definition": "At risk of extinction",
+    "category": "Biological classification",
+    "assessment_criteria": "IUCN Red List",
+    "threat_causes": "Habitat loss, climate change",
+    "conservation_status": "Vulnerable, Endangered, Critically Endangered",
+    "population_trend": "Declining",
+    "geographic_distribution": "Global",
+    "protection_laws": "CITES, ESA",
+    "scientific_study": "Conservation biology",
+    "data_source": "IUCN Red List"
+  },
+  "relationship": [
+    {
+      "part_of": "Biodiversity"
+    },
+    {
+      "threatened_by": "Climate change"
+    },
+    {
+      "protected_by": "CITES"
+    },
+    {
+      "studied_by": "Conservation biology"
+    },
+    {
+      "assessed_by": "IUCN"
+    },
+    {
+      "example": "Amur leopard"
+    },
+    {
+      "example": "Orangutan"
+    },
+    {
+      "example": "Black rhino"
+    },
+    {
+      "impacts": "Ecosystem disruption"
+    },
+    {
+      "related_to": "Extinction"
+    }
+  ]
+}

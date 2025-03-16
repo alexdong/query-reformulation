@@ -1,0 +1,47 @@
+{
+  "entity": "Taupō District",
+  "properties": {
+    "type": "Local government area",
+    "region": "North Island",
+    "country": "New Zealand",
+    "population_2023": "38,370",
+    "area_km2": "898",
+    "main_town": "Taupō",
+    "governing_body": "Taupō District Council",
+    "established": "1989",
+    "latitude": "-38.6667",
+    "longitude": "175.9167"
+  },
+  "relationship": [
+    {
+      "part_of": "Waikato Region"
+    },
+    {
+      "contains": "Lake Taupō"
+    },
+    {
+      "located_in": "North Island"
+    },
+    {
+      "governed_by": "Taupō District Council"
+    },
+    {
+      "neighbor_of": "Rotorua District"
+    },
+    {
+      "neighbor_of": "South Waikato District"
+    },
+    {
+      "contains": "Tongariro National Park"
+    },
+    {
+      "contains": "Huka Falls"
+    },
+    {
+      "tourism_attraction": "Maori Rock Carvings"
+    },
+    {
+      "economic_activity": "Agriculture"
+    }
+  ]
+}

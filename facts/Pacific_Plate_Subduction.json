@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Plate Subduction",
+  "properties": {
+    "type": "Tectonic Process",
+    "location": "Pacific Ocean",
+    "process": "Convergent Boundary",
+    "involved_plates": "Pacific Plate, Various Continental/Oceanic Plates",
+    "density_difference": "Pacific Plate (denser)",
+    "depth_reached": "Up to 700 km",
+    "magma_generation": "Partial Melting",
+    "volcanism_result": "Island Arcs/Continental Volcanism",
+    "earthquake_activity": "High",
+    "rate": "7-10 cm/year"
+  },
+  "relationship": [
+    {
+      "causes": "Ring of Fire"
+    },
+    {
+      "results_in": "Trench Formation"
+    },
+    {
+      "produces": "Earthquakes"
+    },
+    {
+      "produces": "Volcanoes"
+    },
+    {
+      "affects": "Japan"
+    },
+    {
+      "affects": "Cascadia Subduction Zone"
+    },
+    {
+      "affects": "Mariana Trench"
+    },
+    {
+      "part_of": "Plate Tectonics"
+    },
+    {
+      "influences": "Oceanic Crust Recycling"
+    },
+    {
+      "related_to": "Subduction Zone"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "1906 San Francisco Earthquake",
+  "properties": {
+    "magnitude": "7.9",
+    "date": "1906-04-18",
+    "location": "San Francisco, California",
+    "fault": "San Andreas Fault",
+    "estimated_deaths": "3,000",
+    "property_damage": "$400 million (1906 USD)",
+    "duration": "45-60 seconds",
+    "epicenter": "Near Daly City, California",
+    "caused": "Fire",
+    "affected_area": "Approximately 450 square miles"
+  },
+  "relationship": [
+    {
+      "preceded_by": "1857 Fort Tejon Earthquake"
+    },
+    {
+      "followed_by": "1989 Loma Prieta Earthquake"
+    },
+    {
+      "caused": "San Francisco Fire"
+    },
+    {
+      "located_on": "San Andreas Fault"
+    },
+    {
+      "affected": "San Francisco"
+    },
+    {
+      "affected": "Santa Rosa"
+    },
+    {
+      "influenced": "Earthquake engineering"
+    },
+    {
+      "part_of": "California Earthquake Authority"
+    },
+    {
+      "studied_by": "Seismology"
+    },
+    {
+      "related_to": "USGS"
+    }
+  ]
+}

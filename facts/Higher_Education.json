@@ -1,0 +1,47 @@
+{
+  "entity": "Higher Education",
+  "properties": {
+    "type": "Tertiary Education",
+    "level": "Post-secondary",
+    "focus": "Advanced Study",
+    "duration": "Varies",
+    "cost": "Varies",
+    "location": "Worldwide",
+    "credential": "Degree/Certificate",
+    "funding": "Public/Private",
+    "access": "Selective",
+    "purpose": "Knowledge & Skills"
+  },
+  "relationship": [
+    {
+      "precedes": "Career"
+    },
+    {
+      "requires": "Secondary Education"
+    },
+    {
+      "offers": "Bachelor's Degree"
+    },
+    {
+      "offers": "Master's Degree"
+    },
+    {
+      "offers": "Doctorate"
+    },
+    {
+      "employs": "Professor"
+    },
+    {
+      "funded_by": "Government"
+    },
+    {
+      "regulated_by": "Accreditation Agency"
+    },
+    {
+      "leads_to": "Research"
+    },
+    {
+      "contributes_to": "Economic Growth"
+    }
+  ]
+}

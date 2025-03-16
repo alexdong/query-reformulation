@@ -1,0 +1,47 @@
+{
+  "entity": "Hawaiian Mythology",
+  "properties": {
+    "origin": "Hawaii",
+    "type": "Oral tradition",
+    "time_period": "Pre-European contact",
+    "themes": "Creation, lineage, nature",
+    "pantheon": "Polytheistic",
+    "language": "Hawaiian language",
+    "transmission": "Genealogy (moʻokūʻauhau)",
+    "focus": "Deities, demigods, ancestors",
+    "cultural_significance": "Explains origins, customs",
+    "recorded_by": "Missionaries, Hawaiian scholars"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian Mythology"
+    },
+    {
+      "related_to": "Kū (god)"
+    },
+    {
+      "related_to": "Lono (god)"
+    },
+    {
+      "related_to": "Kane (god)"
+    },
+    {
+      "related_to": "Kanaloa (god)"
+    },
+    {
+      "related_to": "Pele (goddess)"
+    },
+    {
+      "related_to": "Maui (demigod)"
+    },
+    {
+      "influenced": "Hawaiian culture"
+    },
+    {
+      "story_features": "Kumulipo (creation chant)"
+    },
+    {
+      "story_features": "Hina (goddess)"
+    }
+  ]
+}

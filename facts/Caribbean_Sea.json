@@ -1,0 +1,47 @@
+{
+  "entity": "Caribbean Sea",
+  "properties": {
+    "type": "Sea",
+    "area": "2,754,000 km²",
+    "max_depth": "7,000 m",
+    "average_depth": "1,800 m",
+    "location": "Between North and South America",
+    "salinity": "35‰",
+    "temperature": "27-29 °C",
+    "borders": "North America, South America",
+    "connected_to": "Atlantic Ocean",
+    "name_origin": "Carib people"
+  },
+  "relationship": [
+    {
+      "part_of": "Atlantic Ocean"
+    },
+    {
+      "adjacent_to": "North America"
+    },
+    {
+      "adjacent_to": "South America"
+    },
+    {
+      "contains": "Bahamas"
+    },
+    {
+      "contains": "Cuba"
+    },
+    {
+      "contains": "Jamaica"
+    },
+    {
+      "contains": "Haiti"
+    },
+    {
+      "influences_climate": "Florida"
+    },
+    {
+      "supports": "Coral reefs"
+    },
+    {
+      "affected_by": "Hurricane season"
+    }
+  ]
+}

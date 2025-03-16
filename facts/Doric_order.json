@@ -1,0 +1,47 @@
+{
+  "entity": "Doric order",
+  "properties": {
+    "type": "Architectural order",
+    "origin": "Ancient Greece",
+    "period": "Archaic & Classical",
+    "capital_style": "Simple, circular",
+    "column_height_to_diameter_ratio": "Approximately 7:1",
+    "base": "Plain, no steps",
+    "shaft": "Fluted, slightly tapered",
+    "entablature": "Tripartite: architrave, frieze, cornice",
+    "frieze_decoration": "Metopes and triglyphs",
+    "example_structure": "Temple of Apollo (Thera)"
+  },
+  "relationship": [
+    {
+      "part_of": "Classical architecture"
+    },
+    {
+      "predecessor_of": "Ionic order"
+    },
+    {
+      "influenced": "Neoclassical architecture"
+    },
+    {
+      "architect": "Archaic Greek architects"
+    },
+    {
+      "style_of": "Greek temples"
+    },
+    {
+      "compared_to": "Ionic order"
+    },
+    {
+      "compared_to": "Corinthian order"
+    },
+    {
+      "located_in": "Ancient Greece"
+    },
+    {
+      "feature_of": "Greek temples"
+    },
+    {
+      "element_of": "Greek art"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Mauke",
+  "properties": {
+    "type": "Atoll",
+    "location": "Pacific Ocean",
+    "country": "French Polynesia",
+    "area": "13.3 km²",
+    "population": "1,977",
+    "language": "French",
+    "currency": "XPF",
+    "climate": "Tropical",
+    "highest_point": "130 m",
+    "island_group": "Tuamotu Archipelago"
+  },
+  "relationship": [
+    {
+      "part_of": "Tuamotu Archipelago"
+    },
+    {
+      "located_in": "French Polynesia"
+    },
+    {
+      "country": "France"
+    },
+    {
+      "archipelago_contains": "Motu Ahere"
+    },
+    {
+      "archipelago_contains": "Motu Oire"
+    },
+    {
+      "has_neighbor": "Rarotonga"
+    },
+    {
+      "has_neighbor": "Ahe"
+    },
+    {
+      "has_neighbor": "Napuka"
+    },
+    {
+      "economic_activity": "Copra production"
+    },
+    {
+      "economic_activity": "Pearl farming"
+    }
+  ]
+}

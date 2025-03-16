@@ -1,0 +1,47 @@
+{
+  "entity": "Nukunonu dialect",
+  "properties": {
+    "language_family": "Austronesian",
+    "language_group": "Nuclear Micronesian",
+    "location": "Nukunonu Atoll",
+    "country": "Kiribati",
+    "status": "Spoken",
+    "speakers": "Approximately 200",
+    "writing_system": "Latin script",
+    "dialect_of": "Gilbertese",
+    "typology": "Agglutinative",
+    "mutual_intelligibility": "Limited with other Gilbertese dialects"
+  },
+  "relationship": [
+    {
+      "part_of": "Gilbertese language"
+    },
+    {
+      "spoken_in": "Nukunonu Atoll"
+    },
+    {
+      "located_in": "Kiribati"
+    },
+    {
+      "influenced_by": "Gilbertese language"
+    },
+    {
+      "related_to": "Gilbertese dialects"
+    },
+    {
+      "part_of_family": "Austronesian languages"
+    },
+    {
+      "subgroup_of": "Nuclear Micronesian languages"
+    },
+    {
+      "written_in": "Latin alphabet"
+    },
+    {
+      "has_variant": "Local vocabulary"
+    },
+    {
+      "studied_by": "Linguists"
+    }
+  ]
+}

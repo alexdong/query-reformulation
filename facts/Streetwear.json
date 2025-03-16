@@ -1,0 +1,47 @@
+{
+  "entity": "Streetwear",
+  "properties": {
+    "definition": "Casual, athletic-influenced clothing",
+    "origin": "1980s New York City",
+    "style": "Relaxed, graphic-heavy, functional",
+    "key_elements": "Sneakers, hoodies, graphic tees, tracksuits",
+    "subgenres": "Skatewear, Y2K, Techwear",
+    "price_range": "Variable, often premium",
+    "target_audience": "Youth culture, fashion enthusiasts",
+    "materials": "Cotton, nylon, polyester",
+    "branding": "Logos, limited editions, collaborations",
+    "cultural_influence": "Hip-hop, skateboarding, art"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Hip Hop Culture"
+    },
+    {
+      "influenced": "High Fashion"
+    },
+    {
+      "associated_with": "Sneaker Culture"
+    },
+    {
+      "collaborates_with": "Athletic Brands"
+    },
+    {
+      "design_inspiration": "Skateboarding"
+    },
+    {
+      "prominent_brand": "Supreme"
+    },
+    {
+      "prominent_brand": "Stüssy"
+    },
+    {
+      "prominent_brand": "A Bathing Ape"
+    },
+    {
+      "related_concept": "Athleisure"
+    },
+    {
+      "design_inspiration": "Graffiti Art"
+    }
+  ]
+}

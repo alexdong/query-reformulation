@@ -1,0 +1,47 @@
+{
+  "entity": "Aitutaki",
+  "properties": {
+    "type": "Atoll",
+    "country": "Cook Islands",
+    "area": "28 sq km",
+    "population": "2,450",
+    "location": "South Pacific Ocean",
+    "latitude": "-21.1667",
+    "longitude": "-157.75",
+    "highest_point": "4 m",
+    "currency": "Cook Islands dollar",
+    "language": "Maori"
+  },
+  "relationship": [
+    {
+      "part_of": "Cook Islands"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "nearest_island": "Rarotonga"
+    },
+    {
+      "has_lagoon": "Aitutaki Lagoon"
+    },
+    {
+      "has_airport": "Aitutaki Airport"
+    },
+    {
+      "tourism_attraction": "Aitutaki Lagoon Retreat"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "has_climate": "Tropical climate"
+    },
+    {
+      "has_flora": "Coconut palms"
+    },
+    {
+      "has_fauna": "Giant Coconut Crab"
+    }
+  ]
+}

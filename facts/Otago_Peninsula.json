@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Peninsula",
+  "properties": {
+    "type": "Peninsula",
+    "location": "New Zealand",
+    "region": "Otago",
+    "area": "297 km²",
+    "highest_point": "Mount Allan",
+    "elevation": "600 m",
+    "geology": "Volcanic",
+    "climate": "Temperate maritime",
+    "biodiversity": "High",
+    "land_use": "Farming, Tourism"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "adjacent_to": "Otago Harbour"
+    },
+    {
+      "contains": "Taiaroa Head"
+    },
+    {
+      "contains": "Sandfly Bay"
+    },
+    {
+      "contains": "Chaslands"
+    },
+    {
+      "contains": "Port Chalmers"
+    },
+    {
+      "contains": "Careys Bay"
+    },
+    {
+      "contains": "Mount Allan"
+    },
+    {
+      "flora_includes": "Silver tussock grass"
+    },
+    {
+      "fauna_includes": "Royal albatross"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Franz Josef (glacier)",
+  "properties": {
+    "type": "Glacier",
+    "location": "Westland Tai Poutini National Park",
+    "country": "New Zealand",
+    "length": "11 km",
+    "elevation": "300 m",
+    "named_after": "Franz Joseph I",
+    "discovery_year": "1864",
+    "area": "73.4 km²",
+    "formation_date": "Late Pleistocene",
+    "flow_rate": "2.7 m/year"
+  },
+  "relationship": [
+    {
+      "part_of": "Westland Tai Poutini National Park"
+    },
+    {
+      "near": "Fox Glacier"
+    },
+    {
+      "named_for": "Franz Joseph I"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "tributary_of": "Tasman Sea"
+    },
+    {
+      "influenced_by": "Climate Change"
+    },
+    {
+      "adjacent_to": "Southern Alps"
+    },
+    {
+      "contains": "Franz Josef River"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "studied_by": "Glaciologists"
+    }
+  ]
+}

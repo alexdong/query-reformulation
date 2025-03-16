@@ -1,0 +1,47 @@
+{
+  "entity": "Rishi Sunak",
+  "properties": {
+    "birth_date": "1980-5-13",
+    "birth_place": "Winchester, England",
+    "nationality": "British",
+    "education": "Lincoln College, Oxford",
+    "occupation": "Politician",
+    "political_party": "Conservative Party",
+    "spouse": "Akshata Murty",
+    "net_worth": "615 million GBP",
+    "constituency": "Richmond (Yorks)",
+    "religion": "Hinduism"
+  },
+  "relationship": [
+    {
+      "predecessor": "Liz Truss"
+    },
+    {
+      "succeeded_by": null
+    },
+    {
+      "member_of": "UK Parliament"
+    },
+    {
+      "attended": "Stanford University"
+    },
+    {
+      "attended": "University of Oxford"
+    },
+    {
+      "role": "Chancellor of the Exchequer"
+    },
+    {
+      "member_of": "1922 Committee"
+    },
+    {
+      "supports": "Brexit"
+    },
+    {
+      "policy_focus": "Economy"
+    },
+    {
+      "family_member_of": "Murty family"
+    }
+  ]
+}

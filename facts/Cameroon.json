@@ -1,0 +1,47 @@
+{
+  "entity": "Cameroon",
+  "properties": {
+    "capital": "Yaoundé",
+    "official_languages": "French, English",
+    "population_2023": "28.7 million",
+    "area_km2": "475,442",
+    "currency": "Central African CFA franc",
+    "gdp_nominal": "$42.3 billion",
+    "continent": "Africa",
+    "independence_date": "1960-11-01",
+    "government_type": "Presidential republic",
+    "largest_city": "Douala"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "borders": "Nigeria"
+    },
+    {
+      "borders": "Chad"
+    },
+    {
+      "borders": "Central African Republic"
+    },
+    {
+      "borders": "Gabon"
+    },
+    {
+      "borders": "Equatorial Guinea"
+    },
+    {
+      "member_of": "African Union"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "former_colony_of": "German Empire"
+    },
+    {
+      "former_colony_of": "France"
+    }
+  ]
+}

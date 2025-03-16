@@ -1,0 +1,47 @@
+{
+  "entity": "The Bronx",
+  "properties": {
+    "type": "Borough",
+    "part_of": "New York City",
+    "population_2020": "1474735",
+    "area_sq_mi": "42.2",
+    "zip_codes": "104xx, 105xx",
+    "founded": "1664",
+    "named_after": "Jonas Bronck",
+    "latitude": "40.8333",
+    "longitude": "-73.9667",
+    "official_website": "https://www.nyc.gov/thebronx"
+  },
+  "relationship": [
+    {
+      "part_of": "New York City"
+    },
+    {
+      "located_in": "New York State"
+    },
+    {
+      "borders": "Manhattan"
+    },
+    {
+      "borders": "Westchester County"
+    },
+    {
+      "contains": "Yankee Stadium"
+    },
+    {
+      "contains": "Bronx Zoo"
+    },
+    {
+      "contains": "City Island"
+    },
+    {
+      "historical_event": "Bronx Rebellion"
+    },
+    {
+      "influences": "Hip Hop Culture"
+    },
+    {
+      "landmark": "Grand Concourse"
+    }
+  ]
+}

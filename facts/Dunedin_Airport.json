@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin Airport",
+  "properties": {
+    "iata_code": "ZDN",
+    "icao_code": "ZDIN",
+    "location": "Dunedin, New Zealand",
+    "elevation": "7 meters",
+    "runway_length": "1,973 meters",
+    "owner": "Dunedin City Council",
+    "type": "Public airport",
+    "website": "dunedinairport.co.nz",
+    "coordinates": "45°52′18″S 170°48′29″E",
+    "year_opened": "1935"
+  },
+  "relationship": [
+    {
+      "serves": "Dunedin"
+    },
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "operates_flight": "Air New Zealand"
+    },
+    {
+      "operates_flight": "Jetstar"
+    },
+    {
+      "operates_flight": "Origin Air"
+    },
+    {
+      "has_runway": "Runway 05/23"
+    },
+    {
+      "connected_to": "State Highway 88"
+    },
+    {
+      "part_of": "New Zealand airport system"
+    },
+    {
+      "serves_region": "Southern New Zealand"
+    }
+  ]
+}

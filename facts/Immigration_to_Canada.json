@@ -1,0 +1,47 @@
+{
+  "entity": "Immigration to Canada",
+  "properties": {
+    "type": "Process",
+    "country": "Canada",
+    "primary_motivation": "Economic opportunity",
+    "legal_framework": "Immigration and Refugee Protection Act",
+    "selection_system": "Points-based system",
+    "categories": "Skilled workers, Family sponsorship, Refugees",
+    "visa_types": "Temporary, Permanent",
+    "processing_time": "Variable",
+    "language_requirement": "English or French",
+    "economic_impact": "Positive"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Canadian economy"
+    },
+    {
+      "governed_by": "Immigration, Refugees and Citizenship Canada"
+    },
+    {
+      "part_of": "Canadian history"
+    },
+    {
+      "contributes_to": "Canadian multiculturalism"
+    },
+    {
+      "requires": "Passport"
+    },
+    {
+      "requires": "Visa"
+    },
+    {
+      "supports": "Canadian workforce"
+    },
+    {
+      "impacts": "Canadian society"
+    },
+    {
+      "related_to": "Canadian census"
+    },
+    {
+      "source_countries": "India"
+    }
+  ]
+}

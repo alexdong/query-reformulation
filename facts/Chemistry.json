@@ -1,0 +1,47 @@
+{
+  "entity": "Chemistry",
+  "properties": {
+    "instance_of": "Science",
+    "field_of_study": "Natural Science",
+    "description": "Study of matter and its properties",
+    "related_to": "Physics, Mathematics",
+    "subdiscipline": "Organic Chemistry, Inorganic Chemistry, Physical Chemistry",
+    "discovery_date": "Ancient times",
+    "methodology": "Scientific method",
+    "application": "Materials science, medicine",
+    "key_concept": "Chemical reactions, atoms, molecules",
+    "notation": "Chemical formulas"
+  },
+  "relationship": [
+    {
+      "studies": "Matter"
+    },
+    {
+      "related_to": "Physics"
+    },
+    {
+      "related_to": "Biology"
+    },
+    {
+      "uses": "Periodic table"
+    },
+    {
+      "employs": "Laboratory techniques"
+    },
+    {
+      "deals_with": "Chemical reactions"
+    },
+    {
+      "studies": "Atoms"
+    },
+    {
+      "studies": "Molecules"
+    },
+    {
+      "develops": "Materials"
+    },
+    {
+      "contributes_to": "Medicine"
+    }
+  ]
+}

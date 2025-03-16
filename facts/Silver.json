@@ -1,0 +1,47 @@
+{
+  "entity": "Silver",
+  "properties": {
+    "atomic_number": "47",
+    "atomic_weight": "107.8682",
+    "chemical_symbol": "Ag",
+    "density": "10.49 g/cm³",
+    "melting_point": "993.77 K",
+    "boiling_point": "2835 K",
+    "state": "Solid",
+    "group": "11",
+    "period": "5",
+    "appearance": "Silvery-white"
+  },
+  "relationship": [
+    {
+      "part_of": "Periodic table"
+    },
+    {
+      "used_in": "Jewelry"
+    },
+    {
+      "used_in": "Photography"
+    },
+    {
+      "used_in": "Electronics"
+    },
+    {
+      "occurs_in": "Argentite"
+    },
+    {
+      "occurs_in": "Silver nitrate"
+    },
+    {
+      "alloy_with": "Gold"
+    },
+    {
+      "discovered_by": "Ancient civilizations"
+    },
+    {
+      "mined_in": "Mexico"
+    },
+    {
+      "reacts_with": "Nitric acid"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Henry Comstock",
+  "properties": {
+    "birth_date": "1877-11-09",
+    "birth_place": "New York City",
+    "death_date": "1954-09-23",
+    "death_place": "New York City",
+    "occupation": "Journalist",
+    "nationality": "American",
+    "education": "Columbia University",
+    "known_for": "New York Evening Post",
+    "spouse": "Mary H. Comstock",
+    "awards": "Pulitzer Prize"
+  },
+  "relationship": [
+    {
+      "employed_by": "New York Evening Post"
+    },
+    {
+      "award_presented_by": "Pulitzer Foundation"
+    },
+    {
+      "spouse_of": "Mary H. Comstock"
+    },
+    {
+      "educated_at": "Columbia University"
+    },
+    {
+      "wrote_for": "New York World"
+    },
+    {
+      "covered_topic": "World War I"
+    },
+    {
+      "influenced": "Walter Lippmann"
+    },
+    {
+      "preceded_by": "William Allen White"
+    },
+    {
+      "succeeded_by": "Edward A. Bass"
+    },
+    {
+      "award_category": "Letters and Science"
+    }
+  ]
+}

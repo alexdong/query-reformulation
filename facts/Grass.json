@@ -1,0 +1,47 @@
+{
+  "entity": "Grass",
+  "properties": {
+    "instance_of": "Plant",
+    "kingdom": "Plantae",
+    "family": "Poaceae",
+    "type": "Herbaceous",
+    "color": "Green",
+    "uses": "Food, forage, biofuel",
+    "growth_habit": "Perennial or annual",
+    "photosynthesis": "True",
+    "oxygen_production": "True",
+    "carbon_dioxide_absorption": "True"
+  },
+  "relationship": [
+    {
+      "part_of": "Ecosystem"
+    },
+    {
+      "eaten_by": "Cow"
+    },
+    {
+      "used_in": "Hay"
+    },
+    {
+      "provides": "Oxygen"
+    },
+    {
+      "supports": "Wildlife"
+    },
+    {
+      "is_a_type_of": "Monocot"
+    },
+    {
+      "pollinated_by": "Wind"
+    },
+    {
+      "grows_in": "Field"
+    },
+    {
+      "used_for": "Turf"
+    },
+    {
+      "related_to": "Cereals"
+    }
+  ]
+}

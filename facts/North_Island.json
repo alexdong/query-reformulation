@@ -1,0 +1,47 @@
+{
+  "entity": "North Island",
+  "properties": {
+    "type": "Island",
+    "country": "New Zealand",
+    "area": "111,583 km²",
+    "population": "1,513,000",
+    "highest_point": "Mount Taranaki",
+    "latitude": "-37.0",
+    "longitude": "175.0",
+    "major_city": "Auckland",
+    "geological_feature": "Volcanic",
+    "climate": "Temperate"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "adjacent_to": "South Island"
+    },
+    {
+      "contains": "Auckland"
+    },
+    {
+      "contains": "Wellington"
+    },
+    {
+      "contains": "Rotorua"
+    },
+    {
+      "has_mountain": "Mount Taranaki"
+    },
+    {
+      "has_river": "Waikato River"
+    },
+    {
+      "influenced_by": "Māori culture"
+    },
+    {
+      "has_volcano": "Taupō Volcano"
+    }
+  ]
+}

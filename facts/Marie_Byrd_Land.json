@@ -1,0 +1,47 @@
+{
+  "entity": "Marie Byrd Land",
+  "properties": {
+    "type": "Territory",
+    "location": "Antarctica",
+    "area": "1,609,397 km²",
+    "named_after": "Marie Byrd",
+    "discovery_date": "1929",
+    "explored_by": "Richard E. Byrd",
+    "latitude": "-79°",
+    "longitude": "-105°",
+    "geology": "West Antarctic Ice Sheet",
+    "claim": "Unclaimed"
+  },
+  "relationship": [
+    {
+      "part_of": "Antarctica"
+    },
+    {
+      "adjacent_to": "West Antarctica"
+    },
+    {
+      "explored_by": "Richard E. Byrd Expedition"
+    },
+    {
+      "located_near": "Ross Ice Shelf"
+    },
+    {
+      "contains": "Shackleton Glacier"
+    },
+    {
+      "contains": "David Glacier"
+    },
+    {
+      "contains": "Horrocks Glacier"
+    },
+    {
+      "geological_feature": "Transantarctic Mountains"
+    },
+    {
+      "climate": "Polar"
+    },
+    {
+      "research_station": "Amundsen–Scott South Pole Station"
+    }
+  ]
+}

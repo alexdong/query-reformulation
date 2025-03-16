@@ -1,0 +1,47 @@
+{
+  "entity": "North Beach, San Francisco",
+  "properties": {
+    "type": "Neighborhood",
+    "city": "San Francisco",
+    "state": "California",
+    "population_2020": "17,774",
+    "area": "0.6 square miles",
+    "named_after": "North Beach, Italy",
+    "established": "1850s",
+    "latitude": "37.7933",
+    "longitude": "-122.4347",
+    "historical_significance": "Beat Generation"
+  },
+  "relationship": [
+    {
+      "part_of": "San Francisco"
+    },
+    {
+      "located_in": "California"
+    },
+    {
+      "influenced_by": "Italian culture"
+    },
+    {
+      "associated_with": "Beat Generation"
+    },
+    {
+      "contains": "City Lights Bookstore"
+    },
+    {
+      "contains": "Washington Square Park"
+    },
+    {
+      "neighbor_of": "Fisherman's Wharf"
+    },
+    {
+      "neighbor_of": "Nob Hill"
+    },
+    {
+      "landmark": "Coit Tower"
+    },
+    {
+      "cuisine": "Italian-American"
+    }
+  ]
+}

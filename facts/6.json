@@ -1,0 +1,47 @@
+{
+  "entity": "6",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "integer": "Yes",
+    "even": "Yes",
+    "divisible_by": "2, 1",
+    "prime_factorization": "2 * 3",
+    "mathematical_constant_related": "No",
+    "ordinal": "Sixth",
+    "successor": "7",
+    "predecessor": "5"
+  },
+  "relationship": [
+    {
+      "is_factor_of": "12"
+    },
+    {
+      "is_factor_of": "18"
+    },
+    {
+      "is_factor_of": "24"
+    },
+    {
+      "sum_of": "1 + 5"
+    },
+    {
+      "product_of": "2 * 3"
+    },
+    {
+      "appears_in": "Hexadecimal"
+    },
+    {
+      "appears_in": "Roman numerals (VI)"
+    },
+    {
+      "used_in": "Dice"
+    },
+    {
+      "related_to": "Geometry (hexagon)"
+    },
+    {
+      "related_to": "Music (sixteenth note)"
+    }
+  ]
+}

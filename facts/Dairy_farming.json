@@ -1,0 +1,47 @@
+{
+  "entity": "Dairy Farming",
+  "properties": {
+    "type": "Agricultural practice",
+    "product": "Milk",
+    "animal": "Cow",
+    "region": "Global",
+    "scale": "Varies",
+    "feed": "Hay, silage, grain",
+    "labor": "Significant",
+    "environmental_impact": "Moderate",
+    "economic_importance": "High",
+    "technology": "Modern"
+  },
+  "relationship": [
+    {
+      "part_of": "Agriculture"
+    },
+    {
+      "produces": "Dairy products"
+    },
+    {
+      "requires": "Land"
+    },
+    {
+      "involves": "Animal husbandry"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "supports": "Local economy"
+    },
+    {
+      "related_to": "Livestock farming"
+    },
+    {
+      "uses": "Dairy equipment"
+    },
+    {
+      "influenced_by": "Agricultural technology"
+    },
+    {
+      "provides_for": "Human consumption"
+    }
+  ]
+}

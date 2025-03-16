@@ -1,0 +1,47 @@
+{
+  "entity": "Philippine Sea Plate",
+  "properties": {
+    "type": "Tectonic plate",
+    "area": "2.7 million km²",
+    "location": "Western Pacific Ocean",
+    "boundary_type": "Subduction zone",
+    "average_age": "60 million years",
+    "movement": "Clockwise",
+    "density": "3.3 g/cm³",
+    "composition": "Oceanic crust",
+    "thickness": "10-15 km",
+    "collision_partner": "Okhotsk Plate"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Plate"
+    },
+    {
+      "adjacent_to": "Eurasian Plate"
+    },
+    {
+      "adjacent_to": "Okhotsk Plate"
+    },
+    {
+      "adjacent_to": "Mariana Plate"
+    },
+    {
+      "adjacent_to": "Micronesia Plate"
+    },
+    {
+      "subducts_beneath": "Mariana Plate"
+    },
+    {
+      "subducts_beneath": "Ryukyu Islands"
+    },
+    {
+      "responsible_for": "Mariana Trench"
+    },
+    {
+      "responsible_for": "Izu-Bonin Trench"
+    },
+    {
+      "causes": "Volcanic activity"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Cruise ship",
+  "properties": {
+    "type": "Ship",
+    "purpose": "Tourism",
+    "size": "Large",
+    "tonnage": "40,000+ GT",
+    "passenger_capacity": "2,000+",
+    "propulsion": "Diesel-electric",
+    "navigation": "GPS",
+    "crew_size": "1,000+",
+    "flag": "Various",
+    "cost_per_day": "$100+"
+  },
+  "relationship": [
+    {
+      "operates_for": "Cruise line"
+    },
+    {
+      "visits": "Port"
+    },
+    {
+      "carries": "Passenger"
+    },
+    {
+      "employs": "Crew member"
+    },
+    {
+      "provides": "Entertainment"
+    },
+    {
+      "includes": "Cabin"
+    },
+    {
+      "equipped_with": "Stabilizer"
+    },
+    {
+      "navigation_system": "Radar"
+    },
+    {
+      "part_of": "Maritime transport"
+    },
+    {
+      "related_to": "Maritime law"
+    }
+  ]
+}

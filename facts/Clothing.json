@@ -1,0 +1,47 @@
+{
+  "entity": "Clothing",
+  "properties": {
+    "instance_of": "Material object",
+    "purpose": "Protection, Adornment",
+    "material": "Fabric",
+    "category": "Personal item",
+    "style": "Variable",
+    "color": "Variable",
+    "size": "Variable",
+    "origin": "Prehistoric",
+    "type": "Textile",
+    "function": "Body covering"
+  },
+  "relationship": [
+    {
+      "made_of": "Fabric"
+    },
+    {
+      "worn_by": "Human"
+    },
+    {
+      "related_to": "Fashion"
+    },
+    {
+      "part_of": "Wardrobe"
+    },
+    {
+      "influenced_by": "Culture"
+    },
+    {
+      "designed_by": "Fashion designer"
+    },
+    {
+      "produced_by": "Textile industry"
+    },
+    {
+      "used_in": "Costume"
+    },
+    {
+      "associated_with": "Trend"
+    },
+    {
+      "category": "Apparel"
+    }
+  ]
+}

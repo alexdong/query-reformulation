@@ -1,0 +1,47 @@
+{
+  "entity": "Traditional Music",
+  "properties": {
+    "definition": "Music passed down through generations",
+    "origin": "Various cultures worldwide",
+    "transmission": "Oral tradition",
+    "style": "Varies greatly by culture",
+    "instrumentation": "Often acoustic, culturally specific",
+    "purpose": "Ritual, storytelling, entertainment",
+    "notation": "Typically unwritten",
+    "evolution": "Slow, gradual change",
+    "genre": "Folk music, ceremonial music",
+    "copyright": "Complex, often public domain"
+  },
+  "relationship": [
+    {
+      "influenced": "Contemporary Music"
+    },
+    {
+      "related_to": "Folk Music"
+    },
+    {
+      "performed_by": "Musician"
+    },
+    {
+      "part_of": "Cultural Heritage"
+    },
+    {
+      "originates_from": "Country"
+    },
+    {
+      "associated_with": "Ritual"
+    },
+    {
+      "uses_instrument": "Acoustic Guitar"
+    },
+    {
+      "uses_instrument": "Violin"
+    },
+    {
+      "related_to": "Music Theory"
+    },
+    {
+      "preserved_by": "Ethnomusicology"
+    }
+  ]
+}

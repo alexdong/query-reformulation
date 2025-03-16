@@ -1,0 +1,47 @@
+{
+  "entity": "Prince William, Duke of Cambridge",
+  "properties": {
+    "birth_date": "1982-06-21",
+    "birth_place": "Paddington Hospital",
+    "title": "Duke of Cambridge",
+    "full_name": "William Arthur Philip Louis",
+    "spouse": "Catherine, Princess of Wales",
+    "children": "3",
+    "education": "University of St Andrews",
+    "occupation": "Royal",
+    "nationality": "British",
+    "elder_child": "Prince George of Wales"
+  },
+  "relationship": [
+    {
+      "parent": "Charles III"
+    },
+    {
+      "parent": "Diana, Princess of Wales"
+    },
+    {
+      "sibling": "Princess Catherine"
+    },
+    {
+      "spouse_of": "Catherine, Princess of Wales"
+    },
+    {
+      "child_of": "Queen Elizabeth II"
+    },
+    {
+      "heir_to": "Charles III"
+    },
+    {
+      "attended": "Eton College"
+    },
+    {
+      "attended": "University of St Andrews"
+    },
+    {
+      "supports": "The Prince's Trust"
+    },
+    {
+      "involved_in": "Earthshot Prize"
+    }
+  ]
+}

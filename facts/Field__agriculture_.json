@@ -1,0 +1,47 @@
+{
+  "entity": "Field (agriculture)",
+  "properties": {
+    "instance_of": "Land area",
+    "type": "Agricultural land",
+    "use": "Cultivation",
+    "size": "Variable",
+    "location": "Rural area",
+    "soil_type": "Variable",
+    "irrigation": "Possible",
+    "crop": "Variable",
+    "fertilization": "Common",
+    "management": "Human"
+  },
+  "relationship": [
+    {
+      "part_of": "Farm"
+    },
+    {
+      "contains": "Crop"
+    },
+    {
+      "adjacent_to": "Field"
+    },
+    {
+      "managed_by": "Farmer"
+    },
+    {
+      "requires": "Soil"
+    },
+    {
+      "produces": "Food"
+    },
+    {
+      "affected_by": "Weather"
+    },
+    {
+      "part_of": "Landscape"
+    },
+    {
+      "uses": "Tractor"
+    },
+    {
+      "supports": "Ecosystem"
+    }
+  ]
+}

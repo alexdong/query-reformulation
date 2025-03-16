@@ -1,0 +1,47 @@
+{
+  "entity": "Auckland Council",
+  "properties": {
+    "type": "Local Government",
+    "location": "Auckland, New Zealand",
+    "established": "2010",
+    "population_served": "1.7 million",
+    "governing_body": "Auckland Regional Council",
+    "area_covered": "144,000 km²",
+    "mayor": "Wayne Brown",
+    "budget": "NZ$4.2 billion",
+    "website": "aucklandcouncil.govt.nz",
+    "responsible_for": "Infrastructure, Planning"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand Government"
+    },
+    {
+      "oversees": "Auckland Unitary Plan"
+    },
+    {
+      "funds": "Auckland Transport"
+    },
+    {
+      "manages": "Regional Parks"
+    },
+    {
+      "located_in": "Auckland Region"
+    },
+    {
+      "reports_to": "New Zealand Parliament"
+    },
+    {
+      "collaborates_with": "Department of Conservation"
+    },
+    {
+      "provides_service_to": "Auckland residents"
+    },
+    {
+      "successor_to": "Auckland Regional Council"
+    },
+    {
+      "employs": "6,000 people"
+    }
+  ]
+}

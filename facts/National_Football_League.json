@@ -1,0 +1,47 @@
+{
+  "entity": "National Football League",
+  "properties": {
+    "instance_of": "Professional sports league",
+    "founder": "Jim Thorpe",
+    "established": "1920",
+    "headquarters": "New York City",
+    "sport": "American football",
+    "governing_body": "NFL",
+    "revenue": "17.7 billion USD (2022)",
+    "teams": "32",
+    "league_type": "Men's",
+    "commissioner": "Roger Goodell"
+  },
+  "relationship": [
+    {
+      "part_of": "American sports"
+    },
+    {
+      "plays": "American football"
+    },
+    {
+      "league_member": "Arizona Cardinals"
+    },
+    {
+      "league_member": "Baltimore Ravens"
+    },
+    {
+      "league_member": "Buffalo Bills"
+    },
+    {
+      "broadcast_by": "CBS"
+    },
+    {
+      "broadcast_by": "NBC"
+    },
+    {
+      "broadcast_by": "ESPN"
+    },
+    {
+      "influenced": "XFL"
+    },
+    {
+      "preceded_by": "American Professional Football Association"
+    }
+  ]
+}

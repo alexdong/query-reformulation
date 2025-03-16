@@ -1,0 +1,47 @@
+{
+  "entity": "Territory",
+  "properties": {
+    "instance_of": "Geopolitical area",
+    "type": "Area of land",
+    "definition": "Area under jurisdiction",
+    "governance": "Political control",
+    "size": "Variable",
+    "boundary": "Defined limits",
+    "population": "Variable",
+    "resource": "Natural resources",
+    "economy": "Economic activity",
+    "legal_status": "Defined legal standing"
+  },
+  "relationship": [
+    {
+      "part_of": "Country"
+    },
+    {
+      "governed_by": "Government"
+    },
+    {
+      "contains": "City"
+    },
+    {
+      "adjacent_to": "Territory"
+    },
+    {
+      "resource_has": "Mineral"
+    },
+    {
+      "resource_has": "Water"
+    },
+    {
+      "economic_activity": "Agriculture"
+    },
+    {
+      "economic_activity": "Industry"
+    },
+    {
+      "population_has": "Citizen"
+    },
+    {
+      "boundary_shares_with": "Country"
+    }
+  ]
+}

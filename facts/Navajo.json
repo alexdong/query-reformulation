@@ -1,0 +1,47 @@
+{
+  "entity": "Navajo",
+  "properties": {
+    "name": "Navajo",
+    "alt_name": "Diné",
+    "language_family": "Athabaskan",
+    "location": "Southwestern United States",
+    "population": "~300,000",
+    "reservation": "Navajo Nation",
+    "governance": "Tribal government",
+    "religion": "Traditional Navajo religion",
+    "culture": "Matrilineal society",
+    "writing_system": "Developed in 1968"
+  },
+  "relationship": [
+    {
+      "part_of": "Athabaskan languages"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "located_in": "Arizona"
+    },
+    {
+      "located_in": "New Mexico"
+    },
+    {
+      "located_in": "Utah"
+    },
+    {
+      "related_to": "Hopi"
+    },
+    {
+      "related_to": "Zuni"
+    },
+    {
+      "influenced": "Navajo Code Talkers"
+    },
+    {
+      "governed_by": "Navajo Nation"
+    },
+    {
+      "language_of": "Navajo people"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "entity": "Eastern Hemisphere",
+  "properties": {
+    "area": "62,539,000 km²",
+    "population": "4.7 billion",
+    "continent": "Europe",
+    "latitude": "Varies",
+    "longitude": "Varies",
+    "geopolitical_region": "Global",
+    "climate": "Diverse",
+    "landmass": "Large"
+  },
+  "relationship": [
+    {
+      "contains": "Asia"
+    },
+    {
+      "contains": "Africa"
+    },
+    {
+      "contains": "Europe"
+    },
+    {
+      "intersects": "Prime Meridian"
+    },
+    {
+      "part_of": "Earth"
+    },
+    {
+      "adjacent_to": "Western Hemisphere"
+    },
+    {
+      "includes": "Indian Ocean"
+    },
+    {
+      "includes": "Pacific Ocean"
+    },
+    {
+      "historical_civilizations": "Ancient Egypt"
+    },
+    {
+      "historical_civilizations": "Roman Empire"
+    }
+  ]
+}

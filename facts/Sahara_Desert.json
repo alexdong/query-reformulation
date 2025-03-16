@@ -1,0 +1,47 @@
+{
+  "entity": "Sahara Desert",
+  "properties": {
+    "area": "9,200,000 km²",
+    "location": "North Africa",
+    "average_temperature": "35°C",
+    "highest_point": "Mount Tahat (2,907 m)",
+    "lowest_point": "-18°C",
+    "precipitation": "Less than 250 mm/year",
+    "largest_country": "Algeria",
+    "sand_coverage": "10%",
+    "formation_time": "Oligocene",
+    "biome": "Hot desert"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "borders": "Mediterranean Sea"
+    },
+    {
+      "borders": "Atlantic Ocean"
+    },
+    {
+      "contains": "Erg Chebbi"
+    },
+    {
+      "contains": "Ténéré Desert"
+    },
+    {
+      "crosses": "Niger River"
+    },
+    {
+      "influences": "Sahel"
+    },
+    {
+      "has_feature": "Dune"
+    },
+    {
+      "has_feature": "Oasis"
+    },
+    {
+      "inhabited_by": "Tuareg people"
+    }
+  ]
+}

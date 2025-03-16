@@ -1,0 +1,43 @@
+{
+  "entity": "Mammal",
+  "properties": {
+    "instance_of": "Class (biology)",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "characteristic": "Diaphragm",
+    "typical_gestation": "Variable",
+    "lifespan": "Variable"
+  },
+  "relationship": [
+    {
+      "ancestor": "Synapsids"
+    },
+    {
+      "descendant_of": "Therapsids"
+    },
+    {
+      "evolved_from": "Reptiles"
+    },
+    {
+      "diverged_with": "Birds"
+    },
+    {
+      "order": "Primates"
+    },
+    {
+      "order": "Cetacea"
+    },
+    {
+      "order": "Rodentia"
+    },
+    {
+      "order": "Carnivora"
+    },
+    {
+      "period": "Triassic Period"
+    },
+    {
+      "event": "K-Pg extinction event"
+    }
+  ]
+}

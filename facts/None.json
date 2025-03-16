@@ -1,0 +1,47 @@
+{
+  "entity": "None",
+  "properties": {
+    "type": "Null value",
+    "data_type": "Object",
+    "representation": "Keyword",
+    "language": "Python",
+    "purpose": "Placeholder",
+    "meaning": "Absence of value",
+    "boolean_equivalent": "False",
+    "comparison": "Less than any value",
+    "identity": "Unique identifier",
+    "usage": "Variable initialization"
+  },
+  "relationship": [
+    {
+      "is_a": "Null"
+    },
+    {
+      "used_in": "Variable assignment"
+    },
+    {
+      "used_in": "Function arguments"
+    },
+    {
+      "used_in": "Conditional statements"
+    },
+    {
+      "contrasted_with": "True"
+    },
+    {
+      "contrasted_with": "Data"
+    },
+    {
+      "related_to": "Boolean logic"
+    },
+    {
+      "used_in": "Error handling"
+    },
+    {
+      "used_in": "Database queries"
+    },
+    {
+      "related_to": "Empty set"
+    }
+  ]
+}

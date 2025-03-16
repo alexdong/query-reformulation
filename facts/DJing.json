@@ -1,0 +1,47 @@
+{
+  "entity": "DJing",
+  "properties": {
+    "definition": "Music performance art",
+    "origin": "1970s, Bronx, New York City",
+    "equipment": "Turntables, Mixer, Headphones",
+    "genre_focus": "Hip Hop, Electronic Dance Music",
+    "skill_required": "Beatmatching, Mixing, Phrasing",
+    "role": "Music selector, performer",
+    "technique": "Scratching, Beat juggling",
+    "software": "Serato, Traktor, VirtualDJ",
+    "related_art": "Sound engineering, Music production",
+    "cultural_impact": "Popularized remix culture"
+  },
+  "relationship": [
+    {
+      "influenced": "Hip Hop music"
+    },
+    {
+      "influenced": "Electronic Dance Music"
+    },
+    {
+      "related_to": "Turntablism"
+    },
+    {
+      "preceded_by": "Radio DJing"
+    },
+    {
+      "uses": "Mixer"
+    },
+    {
+      "uses": "Turntable"
+    },
+    {
+      "requires": "Music"
+    },
+    {
+      "performed_at": "Nightclub"
+    },
+    {
+      "related_to": "Scratching"
+    },
+    {
+      "associated_with": "Grandmaster Flash"
+    }
+  ]
+}

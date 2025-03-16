@@ -1,0 +1,47 @@
+{
+  "entity": "Joseph P. Kennedy Sr.",
+  "properties": {
+    "birth_date": "1888-11-25",
+    "birth_place": "Boston, Massachusetts",
+    "death_date": "1969-08-12",
+    "death_place": "Hyannis Port, Massachusetts",
+    "occupation": "Businessman, Diplomat, Politician",
+    "nationality": "American",
+    "education": "Harvard University",
+    "family": "Kennedy family",
+    "net_worth": "~$100 million (estimated)",
+    "religion": "Roman Catholic"
+  },
+  "relationship": [
+    {
+      "father_of": "Joseph P. Kennedy Jr."
+    },
+    {
+      "father_of": "Rosemary Kennedy"
+    },
+    {
+      "father_of": "Kathleen Kennedy"
+    },
+    {
+      "father_of": "Eunice Kennedy Shriver"
+    },
+    {
+      "father_of": "Robert F. Kennedy"
+    },
+    {
+      "father_of": "Jean Kennedy Smith"
+    },
+    {
+      "father_of": "Edward M. Kennedy"
+    },
+    {
+      "married_to": "Rose Fitzgerald Kennedy"
+    },
+    {
+      "appointed_as": "United States Ambassador to the United Kingdom"
+    },
+    {
+      "influenced": "Democratic Party"
+    }
+  ]
+}

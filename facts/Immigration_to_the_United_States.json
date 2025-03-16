@@ -1,0 +1,47 @@
+{
+  "entity": "Immigration to the United States",
+  "properties": {
+    "definition": "Movement to the US for settlement",
+    "historical_peak": "Late 19th/Early 20th Century",
+    "current_source": "Worldwide",
+    "legal_basis": "Immigration and Nationality Act",
+    "visa_types": "Family, Employment, Diversity",
+    "economic_impact": "Labor force growth",
+    "demographic_effect": "Population increase",
+    "cultural_impact": "Diversity of culture",
+    "policy_governance": "USCIS",
+    "historical_periods": "Colonial, Mass, New"
+  },
+  "relationship": [
+    {
+      "causes": "Economic opportunity"
+    },
+    {
+      "causes": "Political persecution"
+    },
+    {
+      "causes": "Family reunification"
+    },
+    {
+      "impacts": "US economy"
+    },
+    {
+      "impacts": "US culture"
+    },
+    {
+      "impacts": "US demographics"
+    },
+    {
+      "governed_by": "United States Congress"
+    },
+    {
+      "administered_by": "United States Citizenship and Immigration Services"
+    },
+    {
+      "influenced_by": "Ellis Island"
+    },
+    {
+      "related_to": "American Dream"
+    }
+  ]
+}

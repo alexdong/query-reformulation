@@ -1,0 +1,47 @@
+{
+  "entity": "Adam Smith",
+  "properties": {
+    "birth_date": "1723-06-16",
+    "birth_place": "Kirkcaldy, Scotland",
+    "death_date": "1790-07-23",
+    "death_place": "Edinburg, Scotland",
+    "nationality": "Scottish",
+    "occupation": "Economist",
+    "academic_advisor": "David Hume",
+    "field": "Economics",
+    "philosophical_stance": "Classical Liberalism",
+    "known_for": "The Wealth of Nations"
+  },
+  "relationship": [
+    {
+      "influenced": "Classical economics"
+    },
+    {
+      "influenced": "Free market"
+    },
+    {
+      "educated_at": "Glasgow University"
+    },
+    {
+      "taught_at": "Glasgow University"
+    },
+    {
+      "correspondent_of": "David Hume"
+    },
+    {
+      "influenced": "John Stuart Mill"
+    },
+    {
+      "influenced": "Karl Marx"
+    },
+    {
+      "work_published": "The Wealth of Nations"
+    },
+    {
+      "work_published": "The Theory of Moral Sentiments"
+    },
+    {
+      "member_of": "Scottish Enlightenment"
+    }
+  ]
+}

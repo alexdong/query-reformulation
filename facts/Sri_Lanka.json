@@ -1,0 +1,47 @@
+{
+  "entity": "Sri Lanka",
+  "properties": {
+    "official_name": "Democratic Socialist Republic of Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "largest_city": "Colombo",
+    "population": "21.6 million",
+    "area": "65,610 km²",
+    "currency": "Sri Lankan Rupee",
+    "official_languages": "Sinhala, Tamil",
+    "independence_date": "1948",
+    "government_type": "Parliamentary Republic",
+    "major_religion": "Buddhism"
+  },
+  "relationship": [
+    {
+      "located_in": "South Asia"
+    },
+    {
+      "borders": "India"
+    },
+    {
+      "island_group": "Indian Ocean"
+    },
+    {
+      "historical_name": "Ceylon"
+    },
+    {
+      "influenced_by": "India"
+    },
+    {
+      "colonial_power": "United Kingdom"
+    },
+    {
+      "civil_war_with": "Tamil people"
+    },
+    {
+      "exports": "Tea"
+    },
+    {
+      "produces": "Rubber"
+    },
+    {
+      "has_landmark": "Sigiriya"
+    }
+  ]
+}

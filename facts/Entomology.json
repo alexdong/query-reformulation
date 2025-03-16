@@ -1,0 +1,47 @@
+{
+  "entity": "Entomology",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field_of": "Biology",
+    "study_subject": "Insects",
+    "subfield_of": "Zoology",
+    "related_to": "Taxonomy",
+    "application": "Agriculture, Medicine",
+    "historical_origin": "16th century",
+    "key_figure": "Maria Sibylla Merian",
+    "methodology": "Observation, Classification",
+    "importance": "Ecosystem health"
+  },
+  "relationship": [
+    {
+      "studies": "Insecta"
+    },
+    {
+      "related_to": "Taxonomy"
+    },
+    {
+      "overlaps_with": "Pest Control"
+    },
+    {
+      "contributes_to": "Biodiversity Research"
+    },
+    {
+      "uses": "Microscopy"
+    },
+    {
+      "employs": "Morphology"
+    },
+    {
+      "influenced_by": "Carl Linnaeus"
+    },
+    {
+      "overlaps_with": "Ecology"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "related_to": "Systematics"
+    }
+  ]
+}

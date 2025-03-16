@@ -1,0 +1,47 @@
+{
+  "entity": "Mary Stewart",
+  "properties": {
+    "birth_date": "1916-06-11",
+    "birth_place": "Grimsby, England",
+    "death_date": "1990-10-10",
+    "nationality": "British",
+    "occupation": "Novelist",
+    "genre": "Romantic suspense",
+    "literary_movement": "Romanticism",
+    "pen_name": "Camille Jackson",
+    "awards": "British Fantasy Award",
+    "spouse": "Henry Stewart"
+  },
+  "relationship": [
+    {
+      "influenced": "Romantic suspense genre"
+    },
+    {
+      "author_of": "Nine Lives"
+    },
+    {
+      "author_of": "My Brother Michael"
+    },
+    {
+      "author_of": "The Crystal Cave"
+    },
+    {
+      "author_of": "The Merlin Trilogy"
+    },
+    {
+      "influenced": "Diana Gabaldon"
+    },
+    {
+      "influenced": "Elizabeth Chadwick"
+    },
+    {
+      "genre_includes": "Arthurian romance"
+    },
+    {
+      "genre_includes": "Spy novel"
+    },
+    {
+      "member_of": "Romantic Novelists' Association"
+    }
+  ]
+}

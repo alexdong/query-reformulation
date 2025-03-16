@@ -1,0 +1,47 @@
+{
+  "entity": "Midlothian",
+  "properties": {
+    "type": "County",
+    "country": "Scotland",
+    "area_km2": "1,427",
+    "population_2022": "163,500",
+    "region": "South East Scotland",
+    "historic_region": "Lothian",
+    "council_type": "Unitary authority",
+    "established": "1996",
+    "main_river": "River Esk",
+    "currency": "GBP"
+  },
+  "relationship": [
+    {
+      "part_of": "Scotland"
+    },
+    {
+      "borders": "East Lothian"
+    },
+    {
+      "borders": "Scottish Borders"
+    },
+    {
+      "borders": "City of Edinburgh"
+    },
+    {
+      "contains": "Galashiels"
+    },
+    {
+      "contains": "Lasswade"
+    },
+    {
+      "contains": "Penicuik"
+    },
+    {
+      "located_near": "Edinburgh"
+    },
+    {
+      "has_landmark": "Eildon Hills"
+    },
+    {
+      "economic_activity": "Agriculture"
+    }
+  ]
+}

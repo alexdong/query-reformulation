@@ -1,0 +1,47 @@
+{
+  "entity": "Trans-Saharan Trade",
+  "properties": {
+    "type": "Trade network",
+    "region": "Sub-Saharan Africa, North Africa",
+    "time_period": "c. 300 CE – 16th century",
+    "primary_goods_north": "Gold, slaves",
+    "primary_goods_south": "Salt, textiles",
+    "major_routes": "Dar Tichitt, Gao, Taghaza",
+    "peak_period": "11th-13th centuries",
+    "impact_on_africa": "Spread of Islam, urbanization",
+    "decline_reason": "European maritime trade",
+    "important_cities": "Timbuktu, Gao, Sijilmasa"
+  },
+  "relationship": [
+    {
+      "facilitated_by": "Camels"
+    },
+    {
+      "involved_empire": "Ghana Empire"
+    },
+    {
+      "involved_empire": "Mali Empire"
+    },
+    {
+      "involved_empire": "Songhai Empire"
+    },
+    {
+      "traded_with": "Berbers"
+    },
+    {
+      "traded_with": "Arab traders"
+    },
+    {
+      "influenced": "Spread of Islam in Africa"
+    },
+    {
+      "impacted": "Gold production"
+    },
+    {
+      "impacted": "Salt production"
+    },
+    {
+      "connected": "Mediterranean world"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Kapa Haka",
+  "properties": {
+    "type": "Performance art",
+    "origin": "Māori culture",
+    "language": "Te Reo Māori",
+    "purpose": "Cultural expression",
+    "music_style": "Polyphonic",
+    "dance_style": "Synchronized",
+    "clothing": "Traditional Māori attire",
+    "instruments": "Pūtōtō, Whaukatere, Rongomaiora",
+    "performance_setting": "Marae, stage",
+    "spiritual_significance": "Connection to ancestors"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori culture"
+    },
+    {
+      "related_to": "Haka"
+    },
+    {
+      "performed_by": "Rōpū"
+    },
+    {
+      "influenced_by": "Ancient traditions"
+    },
+    {
+      "associated_with": "Marae"
+    },
+    {
+      "uses_language": "Te Reo Māori"
+    },
+    {
+      "features": "Waiata"
+    },
+    {
+      "features": "Haka"
+    },
+    {
+      "features": "Poi"
+    },
+    {
+      "promotes": "Cultural preservation"
+    }
+  ]
+}

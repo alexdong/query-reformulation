@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Economic Policy",
+  "properties": {
+    "type": "Mixed economy",
+    "currency": "New Zealand Dollar (NZD)",
+    "gdp_2023": "246.3 billion USD",
+    "trade_partner_1": "China",
+    "tax_system": "Progressive income tax",
+    "inflation_rate_2023": "7.2%",
+    "unemployment_rate_2023": "3.8%",
+    "major_industries": "Agriculture, Tourism, Manufacturing",
+    "regulatory_agency": "Treasury",
+    "economic_model": "Social market economy"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Keynesian economics"
+    },
+    {
+      "part_of": "New Zealand Government"
+    },
+    {
+      "impacts": "New Zealand Dollar"
+    },
+    {
+      "supports": "Tourism industry"
+    },
+    {
+      "promotes": "Free trade agreements"
+    },
+    {
+      "regulates": "Reserve Bank of New Zealand"
+    },
+    {
+      "impacts": "New Zealand society"
+    },
+    {
+      "focuses_on": "Sustainable development"
+    },
+    {
+      "addresses": "Income inequality"
+    },
+    {
+      "impacts": "Agricultural sector"
+    }
+  ]
+}

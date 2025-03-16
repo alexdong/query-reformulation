@@ -1,0 +1,47 @@
+{
+  "entity": "Dengue fever",
+  "properties": {
+    "icd10": "A95",
+    "disease_type": "Viral infection",
+    "vector": "Aedes mosquitoes",
+    "incubation_period": "4-10 days",
+    "mortality_rate": "Less than 1%",
+    "symptoms": "Fever, rash, muscle/joint pain",
+    "transmission": "Mosquito bite",
+    "regions_affected": "Tropical and subtropical regions",
+    "diagnosis_method": "Serological tests, PCR",
+    "treatment": "Supportive care"
+  },
+  "relationship": [
+    {
+      "caused_by": "Dengue virus"
+    },
+    {
+      "transmitted_by": "Aedes aegypti"
+    },
+    {
+      "transmitted_by": "Aedes albopictus"
+    },
+    {
+      "prevents": "Dengue vaccine"
+    },
+    {
+      "affects": "Human"
+    },
+    {
+      "related_to": "Viral diseases"
+    },
+    {
+      "part_of": "Arbovirus diseases"
+    },
+    {
+      "managed_by": "World Health Organization"
+    },
+    {
+      "research_area": "Virology"
+    },
+    {
+      "impacts": "Public health"
+    }
+  ]
+}

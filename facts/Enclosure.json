@@ -1,0 +1,47 @@
+{
+  "entity": "Enclosure",
+  "properties": {
+    "instance_of": "Legal concept",
+    "type": "Land use change",
+    "historical_context": "British Agricultural Revolution",
+    "definition": "Consolidation of common land",
+    "impact": "Displacement of rural populations",
+    "period": "18th-19th century",
+    "location": "England",
+    "legal_basis": "Enclosure Acts",
+    "economic_effect": "Increased agricultural productivity",
+    "social_consequence": "Increased inequality"
+  },
+  "relationship": [
+    {
+      "part_of": "Agricultural Revolution"
+    },
+    {
+      "resulted_in": "Private land ownership"
+    },
+    {
+      "affected": "Common land"
+    },
+    {
+      "legislated_by": "Parliament of the United Kingdom"
+    },
+    {
+      "impacted": "Tenant farmers"
+    },
+    {
+      "led_to": "Increased urbanization"
+    },
+    {
+      "influenced": "Land reform"
+    },
+    {
+      "related_to": "Common rights"
+    },
+    {
+      "caused": "Rural poverty"
+    },
+    {
+      "example_of": "Land privatization"
+    }
+  ]
+}

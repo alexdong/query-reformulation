@@ -1,0 +1,47 @@
+{
+  "entity": "Mataura",
+  "properties": {
+    "type": "Town",
+    "country": "New Zealand",
+    "region": "Southland",
+    "population": "2415 (2018)",
+    "established": "1863",
+    "latitude": "-46.7333",
+    "longitude": "168.25",
+    "river": "Mataura River",
+    "economy": "Agriculture, Timber",
+    "postal_code": "9760"
+  },
+  "relationship": [
+    {
+      "located_in": "Southland Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "lies_on": "Mataura River"
+    },
+    {
+      "near": "Gore"
+    },
+    {
+      "founded_by": "Gold miners"
+    },
+    {
+      "industry": "Timber industry"
+    },
+    {
+      "agriculture": "Dairy farming"
+    },
+    {
+      "transport": "State Highway 6"
+    },
+    {
+      "historical_event": "Gold Rush"
+    },
+    {
+      "local_government": "Gore District"
+    }
+  ]
+}

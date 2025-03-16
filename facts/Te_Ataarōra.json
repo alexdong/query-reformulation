@@ -1,0 +1,47 @@
+{
+  "entity": "Te Ataarōra",
+  "properties": {
+    "instance_of": "Planet",
+    "alternative_name": "Morning Star",
+    "other_names": "Venus",
+    "type": "Celestial body",
+    "diameter": "12,104 km",
+    "orbital_period": "225 Earth days",
+    "rotational_period": "243 Earth days",
+    "distance_from_sun": "108 million km",
+    "atmosphere": "Dense, toxic",
+    "surface_temperature": "464 °C"
+  },
+  "relationship": [
+    {
+      "orbits": "Sun"
+    },
+    {
+      "part_of": "Solar System"
+    },
+    {
+      "visible_from": "Earth"
+    },
+    {
+      "named_after": "Roman goddess"
+    },
+    {
+      "named_after_maori": "Te Ataarōra"
+    },
+    {
+      "has_phase": "Venusian phases"
+    },
+    {
+      "studied_by": "NASA"
+    },
+    {
+      "observed_by": "Astronomers"
+    },
+    {
+      "related_to": "Planetary science"
+    },
+    {
+      "influences": "Ancient mythology"
+    }
+  ]
+}

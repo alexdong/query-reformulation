@@ -1,0 +1,47 @@
+{
+  "entity": "Hokitika",
+  "properties": {
+    "type": "Town",
+    "country": "New Zealand",
+    "region": "West Coast",
+    "population_2018": "3389",
+    "latitude": "-43.95",
+    "longitude": "170.25",
+    "established": "1864",
+    "river": "Hokitika River",
+    "timezone": "NZST",
+    "postal_code": "7982"
+  },
+  "relationship": [
+    {
+      "located_in": "West Coast Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "has_river": "Hokitika River"
+    },
+    {
+      "near": "Franz Josef"
+    },
+    {
+      "near": "Fox Glacier"
+    },
+    {
+      "industry": "Tourism"
+    },
+    {
+      "industry": "Greenstone"
+    },
+    {
+      "founded_by": "European settlers"
+    },
+    {
+      "historical_event": "West Coast Gold Rush"
+    },
+    {
+      "has_attraction": "Hokitika Gorge"
+    }
+  ]
+}

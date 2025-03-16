@@ -1,0 +1,47 @@
+{
+  "entity": "Milky Way",
+  "properties": {
+    "type": "Spiral Galaxy",
+    "diameter": "100,000 light-years",
+    "age": "13.6 billion years",
+    "mass": "1.5 trillion solar masses",
+    "location": "Local Group",
+    "contains": "100-400 billion stars",
+    "central_region": "Supermassive Black Hole",
+    "galactic_center": "Sagittarius A*",
+    "formation": "Hierarchical Galaxy Formation",
+    "visible_light_appearance": "Milky Band"
+  },
+  "relationship": [
+    {
+      "part_of": "Local Group"
+    },
+    {
+      "contains": "Solar System"
+    },
+    {
+      "orbits": "Local Supercluster"
+    },
+    {
+      "has_satellite": "Sagittarius Dwarf Spheroidal Galaxy"
+    },
+    {
+      "has_satellite": "Large Magellanic Cloud"
+    },
+    {
+      "has_satellite": "Small Magellanic Cloud"
+    },
+    {
+      "neighbor": "Andromeda Galaxy"
+    },
+    {
+      "observed_by": "Hubble Space Telescope"
+    },
+    {
+      "studied_by": "Astronomers"
+    },
+    {
+      "related_to": "Galaxies"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Continent",
+  "properties": {
+    "instance_of": "Geographical region",
+    "type": "Landmass",
+    "area_unit": "Square kilometers",
+    "population_unit": "People",
+    "highest_point": "Mountain",
+    "lowest_point": "Sea level",
+    "climate_type": "Varied",
+    "average_temperature": "Varies",
+    "largest_continent": "Asia",
+    "smallest_continent": "Australia"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Country"
+    },
+    {
+      "borders": "Ocean"
+    },
+    {
+      "located_on": "Planet Earth"
+    },
+    {
+      "adjacent_to": "Another continent"
+    },
+    {
+      "has_feature": "Mountain range"
+    },
+    {
+      "has_feature": "River"
+    },
+    {
+      "has_feature": "Desert"
+    },
+    {
+      "influenced_by": "Plate tectonics"
+    },
+    {
+      "studied_in": "Geography"
+    }
+  ]
+}

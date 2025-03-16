@@ -1,0 +1,47 @@
+{
+  "entity": "Natural Fiber",
+  "properties": {
+    "type": "Material",
+    "origin": "Plants or Animals",
+    "biodegradability": "High",
+    "renewable": "Yes",
+    "breathability": "Generally Good",
+    "strength": "Varies",
+    "moisture_absorption": "Generally High",
+    "texture": "Varies",
+    "common_examples": "Cotton, Wool, Silk, Linen, Hemp",
+    "sustainability": "Potentially High"
+  },
+  "relationship": [
+    {
+      "derived_from": "Plant"
+    },
+    {
+      "derived_from": "Animal"
+    },
+    {
+      "used_in": "Textile"
+    },
+    {
+      "alternative_to": "Synthetic Fiber"
+    },
+    {
+      "processed_into": "Yarn"
+    },
+    {
+      "component_of": "Fabric"
+    },
+    {
+      "example": "Cotton"
+    },
+    {
+      "example": "Wool"
+    },
+    {
+      "example": "Silk"
+    },
+    {
+      "example": "Linen"
+    }
+  ]
+}

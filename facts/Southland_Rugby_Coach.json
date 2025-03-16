@@ -1,0 +1,47 @@
+{
+  "entity": "Southland Rugby Coach",
+  "properties": {
+    "occupation": "Rugby Coach",
+    "region": "Southland (New Zealand)",
+    "nationality": "New Zealander",
+    "sport": "Rugby Union",
+    "level": "Professional",
+    "gender": "Male",
+    "years_coaching": "Multiple",
+    "coaching_style": "Developmental",
+    "focus": "Player Growth",
+    "reputation": "Respected"
+  },
+  "relationship": [
+    {
+      "coached_team": "Southland Rugby"
+    },
+    {
+      "influenced": "Southland Players"
+    },
+    {
+      "works_for": "New Zealand Rugby"
+    },
+    {
+      "mentor_of": "Young Players"
+    },
+    {
+      "contributes_to": "Regional Rugby"
+    },
+    {
+      "impacts": "Player Performance"
+    },
+    {
+      "collaborates_with": "Assistant Coaches"
+    },
+    {
+      "develops": "Team Strategy"
+    },
+    {
+      "promotes": "Sportsmanship"
+    },
+    {
+      "represents": "Southland Region"
+    }
+  ]
+}

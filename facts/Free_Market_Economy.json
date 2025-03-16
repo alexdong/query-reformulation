@@ -1,0 +1,47 @@
+{
+  "entity": "Free Market Economy",
+  "properties": {
+    "definition": "Economic system based on supply and demand",
+    "key_feature": "Private ownership",
+    "price_mechanism": "Determined by market forces",
+    "competition": "Encouraged",
+    "government_role": "Limited intervention",
+    "profit_motive": "Primary driver",
+    "resource_allocation": "Decentralized",
+    "consumer_sovereignty": "Consumer preferences guide production",
+    "innovation": "Driven by competition",
+    "risk_bearing": "Assumed by private actors"
+  },
+  "relationship": [
+    {
+      "contrasted_with": "Planned Economy"
+    },
+    {
+      "influenced_by": "Adam Smith"
+    },
+    {
+      "related_to": "Capitalism"
+    },
+    {
+      "supports": "Entrepreneurship"
+    },
+    {
+      "promotes": "Economic Growth"
+    },
+    {
+      "requires": "Property Rights"
+    },
+    {
+      "impacts": "Income Distribution"
+    },
+    {
+      "linked_to": "Laissez-faire"
+    },
+    {
+      "example_country": "United States"
+    },
+    {
+      "theory_basis": "Classical Economics"
+    }
+  ]
+}

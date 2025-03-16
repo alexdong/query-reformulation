@@ -1,0 +1,47 @@
+{
+  "entity": "Linlithgow",
+  "properties": {
+    "type": "Town",
+    "country": "Scotland",
+    "region": "West Lothian",
+    "population": "11,342",
+    "latitude": "55.973",
+    "longitude": "-3.478",
+    "river": "River Linnet",
+    "postcode": "EH49",
+    "established": "11th century",
+    "elevation": "131 m"
+  },
+  "relationship": [
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "part_of": "West Lothian"
+    },
+    {
+      "near": "Falkirk"
+    },
+    {
+      "near": "Stirling"
+    },
+    {
+      "has_landmark": "Linlithgow Palace"
+    },
+    {
+      "has_landmark": "St. Michael's Parish Church"
+    },
+    {
+      "served_by": "Edinburgh–Glasgow railway"
+    },
+    {
+      "member_of": "Royal Burgh"
+    },
+    {
+      "historical_figure_born": "Mary, Queen of Scots"
+    },
+    {
+      "influenced_by": "River Linnet"
+    }
+  ]
+}

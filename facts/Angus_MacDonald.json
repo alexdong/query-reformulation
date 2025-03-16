@@ -1,0 +1,47 @@
+{
+  "entity": "Angus MacDonald",
+  "properties": {
+    "birth_date": "1992-08-23",
+    "birth_place": "Inverness, Scotland",
+    "nationality": "Scottish",
+    "position": "Forward",
+    "current_team": "Bristol Rovers",
+    "height": "183 cm",
+    "weight": "77 kg",
+    "foot": "Right",
+    "jersey_number": "9",
+    "playing_style": "Pace & Finishing"
+  },
+  "relationship": [
+    {
+      "club_team": "Partick Thistle"
+    },
+    {
+      "club_team": "St Mirren"
+    },
+    {
+      "club_team": "Hull City"
+    },
+    {
+      "club_team": "Plymouth Argyle"
+    },
+    {
+      "league": "English Football League"
+    },
+    {
+      "country": "Scotland"
+    },
+    {
+      "country": "England"
+    },
+    {
+      "plays_for_national_team": "Scotland national football team"
+    },
+    {
+      "manager": "Paul Tisdale"
+    },
+    {
+      "competed_in": "Scottish Premiership"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Clevedon",
+  "properties": {
+    "type": "Town",
+    "country": "England",
+    "region": "Somerset",
+    "population": "32000",
+    "latitude": "51.354",
+    "longitude": "-2.943",
+    "established": "12th century",
+    "governance": "North Somerset Council",
+    "coastline": "Bristol Channel",
+    "OS_grid_reference": "ST2737"
+  },
+  "relationship": [
+    {
+      "part_of": "Somerset"
+    },
+    {
+      "located_in": "England"
+    },
+    {
+      "near": "Portishead"
+    },
+    {
+      "near": "Bristol"
+    },
+    {
+      "has_landmark": "Clevedon Pier"
+    },
+    {
+      "has_landmark": "St Andrew's Church"
+    },
+    {
+      "has_beach": "Clevedon Beach"
+    },
+    {
+      "served_by": "Great Western Railway"
+    },
+    {
+      "historical_event": "Somerset Rebellion"
+    },
+    {
+      "influenced_by": "Roman Britain"
+    }
+  ]
+}

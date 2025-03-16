@@ -1,0 +1,47 @@
+{
+  "entity": "William Armitage",
+  "properties": {
+    "birth_date": "1869",
+    "death_date": "1956",
+    "occupation": "Clergyman",
+    "nationality": "British",
+    "education": "Keble College, Oxford",
+    "denomination": "Anglican",
+    "title": "Vicar",
+    "influenced_by": "John Henry Newman",
+    "writing_style": "Theological",
+    "known_for": "Theology and Church History"
+  },
+  "relationship": [
+    {
+      "educated_at": "Keble College, Oxford"
+    },
+    {
+      "member_of": "Church of England"
+    },
+    {
+      "influenced": "Anglican theology"
+    },
+    {
+      "wrote_about": "Church history"
+    },
+    {
+      "preceded_by": "John Armitage (father)"
+    },
+    {
+      "succeeded_by": "Successor (unknown)"
+    },
+    {
+      "located_in": "Oxfordshire"
+    },
+    {
+      "served_as": "Vicar of St. Michael's Church, Oxford"
+    },
+    {
+      "wrote": "The History of the Oxford Diocesan Church Society"
+    },
+    {
+      "contributed_to": "Anglican Church"
+    }
+  ]
+}

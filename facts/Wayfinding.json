@@ -1,0 +1,47 @@
+{
+  "entity": "Wayfinding",
+  "properties": {
+    "definition": "Guiding people through spaces",
+    "purpose": "Orientation & Navigation",
+    "field": "Architecture & Design",
+    "type": "System",
+    "elements": "Signs, Maps, Landmarks",
+    "user_group": "Public",
+    "discipline": "Ergonomics",
+    "goal": "Ease of Movement",
+    "consideration": "Accessibility",
+    "application": "Buildings, Cities, Digital Environments"
+  },
+  "relationship": [
+    {
+      "related_to": "Spatial Cognition"
+    },
+    {
+      "uses": "Signage"
+    },
+    {
+      "incorporates": "Maps"
+    },
+    {
+      "influenced_by": "Behavioral Psychology"
+    },
+    {
+      "part_of": "Urban Planning"
+    },
+    {
+      "overlaps_with": "Human-Computer Interaction"
+    },
+    {
+      "improves": "User Experience"
+    },
+    {
+      "requires": "Information Architecture"
+    },
+    {
+      "supports": "Accessibility Standards"
+    },
+    {
+      "example_application": "Hospital Wayfinding"
+    }
+  ]
+}

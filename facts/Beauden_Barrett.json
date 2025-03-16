@@ -1,0 +1,47 @@
+{
+  "entity": "Beauden Barrett",
+  "properties": {
+    "birth_date": "1991-09-21",
+    "birth_place": "Hastings, New Zealand",
+    "nationality": "New Zealander",
+    "position": "Fly-half, Fullback",
+    "height": "1.82 m",
+    "weight": "86 kg",
+    "team": "Blues",
+    "sport": "Rugby Union",
+    "jersey_number": "10",
+    "super_rugby_caps": "153"
+  },
+  "relationship": [
+    {
+      "plays_for": "All Blacks"
+    },
+    {
+      "plays_for": "Taranaki"
+    },
+    {
+      "coach": "Ian Foster"
+    },
+    {
+      "sibling": "Kane Barrett"
+    },
+    {
+      "sibling": "Scot Barrett"
+    },
+    {
+      "plays_in_league": "Super Rugby"
+    },
+    {
+      "plays_in_league": "Rugby Championship"
+    },
+    {
+      "plays_in_league": "The Rugby World Cup"
+    },
+    {
+      "award": "World Rugby Player of the Year"
+    },
+    {
+      "award": "New Zealand Rugby Player of the Year"
+    }
+  ]
+}

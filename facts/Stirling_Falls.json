@@ -1,0 +1,47 @@
+{
+  "entity": "Stirling Falls",
+  "properties": {
+    "type": "Waterfall",
+    "location": "Stirling, Scotland",
+    "river": "Gargunnock Burn",
+    "height": "50m",
+    "coordinates": "56.0728°N 4.2239°W",
+    "region": "Stirling Council Area",
+    "geology": "Shale and sandstone",
+    "accessibility": "Limited",
+    "scenery": "Woodland",
+    "nearby_attraction": "Dumyat"
+  },
+  "relationship": [
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "part_of": "Gargunnock Burn"
+    },
+    {
+      "near": "Dumyat"
+    },
+    {
+      "located_in_region": "Stirling Council Area"
+    },
+    {
+      "flows_into": "Endrick Water"
+    },
+    {
+      "geological_formation": "Shale"
+    },
+    {
+      "geological_formation": "Sandstone"
+    },
+    {
+      "influenced_by": "Rainfall"
+    },
+    {
+      "ecosystem": "Woodland"
+    },
+    {
+      "attraction_for": "Hikers"
+    }
+  ]
+}

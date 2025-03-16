@@ -1,0 +1,47 @@
+{
+  "entity": "Austronesian languages",
+  "properties": {
+    "language_family": "Austronesian",
+    "geographic_area": "Maritime Southeast Asia, Pacific, Madagascar",
+    "number_of_languages": "Over 400",
+    "speakers": "Over 300 million",
+    "typology": "Agglutinative, often with verb-initial word order",
+    "origin_location": "Taiwan",
+    "oldest_language": "Proto-Austronesian",
+    "writing_system": "Various, often adopted from other languages",
+    "linguistic_diversity": "High",
+    "classification_method": "Comparative method"
+  },
+  "relationship": [
+    {
+      "part_of": "Language families"
+    },
+    {
+      "originates_from": "Taiwan (island)"
+    },
+    {
+      "related_to": "Austronesian peoples"
+    },
+    {
+      "includes": "Malay language"
+    },
+    {
+      "includes": "Javanese language"
+    },
+    {
+      "includes": "Tagalog language"
+    },
+    {
+      "includes": "Malagasy language"
+    },
+    {
+      "influenced": "Maritime culture"
+    },
+    {
+      "studied_by": "Linguistics"
+    },
+    {
+      "descended_from": "Proto-Austronesian language"
+    }
+  ]
+}

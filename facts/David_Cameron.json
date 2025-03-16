@@ -1,0 +1,47 @@
+{
+  "entity": "David Cameron",
+  "properties": {
+    "birth_date": "1966-09-25",
+    "birth_place": "London, England",
+    "political_party": "Conservative Party",
+    "education": "Brasenose College, Oxford",
+    "occupation": "Politician",
+    "spouse": "Samantha Cameron",
+    "children": "3",
+    "height": "1.83 m",
+    "net_worth": "Approximately £3.8 million",
+    "alma_mater": "Oxford University"
+  },
+  "relationship": [
+    {
+      "predecessor": "Gordon Brown"
+    },
+    {
+      "successor": "Theresa May"
+    },
+    {
+      "member_of": "House of Commons"
+    },
+    {
+      "served_as": "Prime Minister of the United Kingdom"
+    },
+    {
+      "member_of": "European Parliament"
+    },
+    {
+      "attended": "Harrow School"
+    },
+    {
+      "appointed": "Father of the House"
+    },
+    {
+      "role": "MP for Witney"
+    },
+    {
+      "involved_in": "Brexit referendum"
+    },
+    {
+      "position": "President of the International Alliance of Conservation"
+    }
+  ]
+}

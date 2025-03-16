@@ -1,0 +1,47 @@
+{
+  "entity": "Hydrothermal vent",
+  "properties": {
+    "type": "Geological feature",
+    "location": "Ocean floor",
+    "temperature": "1 to 400 °C",
+    "fluid_chemistry": "Mineral-rich",
+    "formation_process": "Seawater percolation",
+    "ecosystem_support": "Chemosynthesis",
+    "discovery_year": "1977",
+    "depth": "2000-3000 m",
+    "pressure": "High",
+    "primary_mineral": "Sulfide"
+  },
+  "relationship": [
+    {
+      "part_of": "Ocean"
+    },
+    {
+      "creates": "Black smoker"
+    },
+    {
+      "supports": "Chemosynthetic ecosystem"
+    },
+    {
+      "found_near": "Mid-ocean ridge"
+    },
+    {
+      "related_to": "Plate tectonics"
+    },
+    {
+      "produces": "Hydrothermal mineral deposits"
+    },
+    {
+      "habitat_for": "Tube worms"
+    },
+    {
+      "habitat_for": "Vent crabs"
+    },
+    {
+      "studied_by": "Marine geologists"
+    },
+    {
+      "example_location": "Mid-Atlantic Ridge"
+    }
+  ]
+}

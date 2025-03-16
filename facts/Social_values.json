@@ -1,0 +1,47 @@
+{
+  "entity": "Social values",
+  "properties": {
+    "definition": "Shared beliefs about what is desirable",
+    "type": "Cultural concept",
+    "scope": "Society",
+    "influence": "Behavior, norms",
+    "formation": "Cultural transmission, experience",
+    "variability": "Cross-cultural, temporal",
+    "impact": "Moral compass, social cohesion",
+    "examples": "Honesty, fairness, respect",
+    "related_to": "Ethics, morality",
+    "study_field": "Sociology"
+  },
+  "relationship": [
+    {
+      "part_of": "Culture"
+    },
+    {
+      "influences": "Social norms"
+    },
+    {
+      "related_to": "Morality"
+    },
+    {
+      "impacts": "Ethics"
+    },
+    {
+      "studied_by": "Sociology"
+    },
+    {
+      "related_to": "Anthropology"
+    },
+    {
+      "shapes": "Political ideologies"
+    },
+    {
+      "impacts": "Legal systems"
+    },
+    {
+      "influences": "Economic behavior"
+    },
+    {
+      "related_to": "Philosophy"
+    }
+  ]
+}

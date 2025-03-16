@@ -1,0 +1,47 @@
+{
+  "entity": "Romantic poetry",
+  "properties": {
+    "time_period": "Late 18th - Mid 19th Century",
+    "origin": "Europe",
+    "focus": "Emotion & Imagination",
+    "style": "Lyric, Narrative, Ballads",
+    "themes": "Nature, Individualism, Revolution",
+    "language": "Figurative, Evocative",
+    "form": "Varied, often experimental",
+    "reaction_to": "Neoclassicism",
+    "influence_on": "Victorian poetry",
+    "key_feature": "Subjectivity"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Enlightenment"
+    },
+    {
+      "reaction_against": "Neoclassicism"
+    },
+    {
+      "preceded_by": "Pre-Romanticism"
+    },
+    {
+      "followed_by": "Victorian poetry"
+    },
+    {
+      "associated_with": "William Wordsworth"
+    },
+    {
+      "associated_with": "Samuel Taylor Coleridge"
+    },
+    {
+      "associated_with": "Lord Byron"
+    },
+    {
+      "associated_with": "Percy Bysshe Shelley"
+    },
+    {
+      "associated_with": "John Keats"
+    },
+    {
+      "influenced": "Symbolism"
+    }
+  ]
+}

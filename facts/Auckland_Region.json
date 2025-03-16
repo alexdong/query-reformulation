@@ -1,0 +1,47 @@
+{
+  "entity": "Auckland Region",
+  "properties": {
+    "type": "Region",
+    "country": "New Zealand",
+    "population_2023": "1738000",
+    "area_km2": "4858",
+    "largest_city": "Auckland City",
+    "region_code": "06",
+    "governing_body": "Auckland Council",
+    "latitude": "-37.0000",
+    "longitude": "174.764",
+    "currency": "NZD"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "contains": "Auckland City"
+    },
+    {
+      "contains": "Manukau City"
+    },
+    {
+      "contains": "Northland Region"
+    },
+    {
+      "borders": "Waikato Region"
+    },
+    {
+      "borders": "Bay of Plenty Region"
+    },
+    {
+      "has_harbour": "Waitematā Harbour"
+    },
+    {
+      "has_volcano": "Rangitoto"
+    },
+    {
+      "economic_activity": "Tourism"
+    },
+    {
+      "major_industry": "Finance"
+    }
+  ]
+}

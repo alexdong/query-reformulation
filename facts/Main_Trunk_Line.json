@@ -1,0 +1,47 @@
+{
+  "entity": "Main Trunk Line",
+  "properties": {
+    "type": "Railway line",
+    "country": "New Zealand",
+    "length_km": "281",
+    "owner": "KiwiRail",
+    "gauge": "1067mm",
+    "status": "Operational",
+    "named_after": "Main Trunk",
+    "electrified": "Partially",
+    "opened": "1885",
+    "route_description": "Auckland to Wellington"
+  },
+  "relationship": [
+    {
+      "connects": "Auckland"
+    },
+    {
+      "connects": "Wellington"
+    },
+    {
+      "part_of": "New Zealand rail network"
+    },
+    {
+      "serves": "National passenger service"
+    },
+    {
+      "passes_through": "Raurimu"
+    },
+    {
+      "passes_through": "Taihape"
+    },
+    {
+      "passes_through": "National Park"
+    },
+    {
+      "crosses": "North Island Mainline"
+    },
+    {
+      "operated_by": "KiwiRail"
+    },
+    {
+      "historical_name": "North Island Main Trunk Railway"
+    }
+  ]
+}

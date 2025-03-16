@@ -1,0 +1,47 @@
+{
+  "entity": "Comstock Lode",
+  "properties": {
+    "discovery_date": "1859",
+    "location": "Nevada",
+    "mineral": "Silver",
+    "discovery_by": "Henry Comstock",
+    "peak_production": "1869",
+    "total_silver_produced": "690 million ounces",
+    "initial_claim_size": "160 acres",
+    "mining_method": "Hard rock mining",
+    "state": "Nevada",
+    "historical_significance": "American Silver Rush"
+  },
+  "relationship": [
+    {
+      "part_of": "Virginia City"
+    },
+    {
+      "discovery_by": "Henry Comstock"
+    },
+    {
+      "located_in": "Nevada"
+    },
+    {
+      "mineral_type": "Silver"
+    },
+    {
+      "influenced": "American Economy"
+    },
+    {
+      "related_to": "Pioneer Saloon"
+    },
+    {
+      "related_to": "Chollar Mine"
+    },
+    {
+      "part_of": "Sierra Nevada"
+    },
+    {
+      "caused": "Silver Rush"
+    },
+    {
+      "historical_event": "American West"
+    }
+  ]
+}

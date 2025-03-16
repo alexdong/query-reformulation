@@ -1,0 +1,47 @@
+{
+  "entity": "Advertising",
+  "properties": {
+    "instance_of": "Industry",
+    "definition": "Persuasive communication",
+    "primary_goal": "Promote products/services",
+    "economic_sector": "Marketing",
+    "revenue_model": "Client fees",
+    "key_mediums": "TV, Radio, Internet, Print",
+    "historical_origin": "17th century",
+    "regulation": "Varies by country",
+    "major_types": "Branding, Direct Response, Native",
+    "ethical_considerations": "Truthfulness, Transparency"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Propaganda"
+    },
+    {
+      "employs": "Marketing"
+    },
+    {
+      "uses": "Branding"
+    },
+    {
+      "targets": "Consumers"
+    },
+    {
+      "creates": "Marketing campaigns"
+    },
+    {
+      "relies_on": "Media"
+    },
+    {
+      "impacts": "Consumer behavior"
+    },
+    {
+      "regulated_by": "Federal Trade Commission"
+    },
+    {
+      "uses_technique": "Persuasion"
+    },
+    {
+      "related_to": "Public relations"
+    }
+  ]
+}

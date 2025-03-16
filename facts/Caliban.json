@@ -1,0 +1,47 @@
+{
+  "entity": "Caliban",
+  "properties": {
+    "instance_of": "Character",
+    "work_of_fiction": "The Tempest",
+    "species": "Unknown (possibly humanoid)",
+    "description": "Servant, enslaved",
+    "origin": "Island",
+    "creator": "Prospero",
+    "language": "Calibanian",
+    "role": "Slave",
+    "status": "Rebellious",
+    "literary_device": "Symbol"
+  },
+  "relationship": [
+    {
+      "creator": "Prospero"
+    },
+    {
+      "serves": "Prospero"
+    },
+    {
+      "appears_in": "The Tempest"
+    },
+    {
+      "related_to": "Ariel"
+    },
+    {
+      "related_to": "Miranda"
+    },
+    {
+      "influenced": "Postcolonial literature"
+    },
+    {
+      "symbolizes": "Colonized people"
+    },
+    {
+      "speaks": "Calibanian"
+    },
+    {
+      "location": "Island"
+    },
+    {
+      "theme": "Oppression"
+    }
+  ]
+}

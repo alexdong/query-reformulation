@@ -1,0 +1,47 @@
+{
+  "entity": "Sierra Nevada",
+  "properties": {
+    "type": "Mountain range",
+    "location": "California, Nevada, USA",
+    "highest_point": "Mount Whitney",
+    "area": "5,600 sq mi",
+    "formation_date": "Miocene epoch",
+    "geology": "Granitic",
+    "climate": "Mediterranean",
+    "biodiversity": "High",
+    "elevation_range": "1,444–14,508 ft",
+    "name_origin": "Sierra Onograi"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Coast Ranges"
+    },
+    {
+      "contains": "Yosemite National Park"
+    },
+    {
+      "contains": "Sequoia National Park"
+    },
+    {
+      "contains": "Kings Canyon National Park"
+    },
+    {
+      "adjacent_to": "Mojave Desert"
+    },
+    {
+      "river_flows_from": "Sacramento River"
+    },
+    {
+      "river_flows_from": "San Joaquin River"
+    },
+    {
+      "flora_includes": "Giant Sequoia"
+    },
+    {
+      "fauna_includes": "Black Bear"
+    },
+    {
+      "explored_by": "John C. Frémont"
+    }
+  ]
+}

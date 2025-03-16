@@ -1,0 +1,47 @@
+{
+  "entity": "Kyle Shanahan",
+  "properties": {
+    "birth_date": "1979-12-24",
+    "birth_place": "Harvard, Massachusetts, USA",
+    "nationality": "American",
+    "position": "Head Coach",
+    "team": "San Francisco 49ers",
+    "height": "6 ft 0 in (1.83 m)",
+    "spouse": "Kayla Shanahan",
+    "father": "Mike Shanahan",
+    "education": "University of California, Davis",
+    "playing_role": "Offensive Coordinator"
+  },
+  "relationship": [
+    {
+      "coach_of": "Brock Purdy"
+    },
+    {
+      "father_of": "Mike Shanahan"
+    },
+    {
+      "team_owner": "Jed York"
+    },
+    {
+      "plays_in": "NFL"
+    },
+    {
+      "league": "National Football League"
+    },
+    {
+      "plays_for": "San Francisco 49ers"
+    },
+    {
+      "influenced_by": "Bill Walsh"
+    },
+    {
+      "previous_role": "Offensive Coordinator"
+    },
+    {
+      "previous_team": "Atlanta Falcons"
+    },
+    {
+      "previous_team": "Denver Broncos"
+    }
+  ]
+}

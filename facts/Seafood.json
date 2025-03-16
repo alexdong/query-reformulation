@@ -1,0 +1,47 @@
+{
+  "entity": "Seafood",
+  "properties": {
+    "instance_of": "Food",
+    "type": "Aquatic animals",
+    "origin": "Oceans, Rivers, Lakes",
+    "nutrients": "Protein, Omega-3 fatty acids",
+    "preparation_methods": "Grilled, Fried, Steamed, Raw",
+    "common_species": "Fish, Crustaceans, Mollusks",
+    "flavor_profile": "Varied, often delicate",
+    "shelf_life": "Short, requires refrigeration",
+    "global_consumption": "High",
+    "economic_importance": "Significant"
+  },
+  "relationship": [
+    {
+      "is_a": "Animal"
+    },
+    {
+      "part_of": "Aquatic ecosystem"
+    },
+    {
+      "consumed_by": "Humans"
+    },
+    {
+      "source_of": "Omega-3"
+    },
+    {
+      "related_to": "Fishing"
+    },
+    {
+      "processed_into": "Fish oil"
+    },
+    {
+      "ingredient_in": "Sushi"
+    },
+    {
+      "found_in": "Ocean"
+    },
+    {
+      "threatened_by": "Overfishing"
+    },
+    {
+      "related_to_industry": "Aquaculture"
+    }
+  ]
+}

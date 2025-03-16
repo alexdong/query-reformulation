@@ -1,0 +1,47 @@
+{
+  "entity": "Edinburgh Festival Fringe",
+  "properties": {
+    "type": "Festival",
+    "location": "Edinburgh",
+    "country": "Scotland",
+    "start_date": "August",
+    "end_date": "August",
+    "year_founded": "1947",
+    "attendance": "2 million+",
+    "shows_presented": "700+",
+    "artists_involved": "45,000+",
+    "genre": "Performing Arts"
+  },
+  "relationship": [
+    {
+      "part_of": "Edinburgh Festival"
+    },
+    {
+      "located_in": "Edinburgh"
+    },
+    {
+      "country": "Scotland"
+    },
+    {
+      "founded_by": "Marion Coates"
+    },
+    {
+      "influenced": "Alternative Theatre"
+    },
+    {
+      "features": "Comedy"
+    },
+    {
+      "features": "Theatre"
+    },
+    {
+      "features": "Dance"
+    },
+    {
+      "features": "Music"
+    },
+    {
+      "awards": "Fringe First Awards"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "European Culture",
+  "properties": {
+    "definition": "Diverse traditions & values",
+    "geographic_area": "Europe",
+    "historical_period": "Ancient to Present",
+    "dominant_religions": "Christianity, Islam, Judaism",
+    "languages": "Indo-European, Uralic, Turkic",
+    "art_forms": "Painting, Sculpture, Music, Literature",
+    "political_system": "Democracy, Republics, Monarchies",
+    "economic_model": "Capitalism, Socialism",
+    "cuisine": "Varied, regional specialties",
+    "values": "Individualism, Collectivism, Humanism"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Ancient Greece"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "part_of": "World Culture"
+    },
+    {
+      "has_subculture": "Western Culture"
+    },
+    {
+      "has_subculture": "Eastern European Culture"
+    },
+    {
+      "influenced": "Renaissance"
+    },
+    {
+      "influenced": "Enlightenment"
+    },
+    {
+      "has_art_movement": "Impressionism"
+    },
+    {
+      "has_art_movement": "Baroque"
+    },
+    {
+      "has_literature": "Shakespeare"
+    }
+  ]
+}

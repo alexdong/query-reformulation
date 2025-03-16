@@ -1,0 +1,47 @@
+{
+  "entity": "Golden Gate Bridge",
+  "properties": {
+    "type": "Suspension bridge",
+    "location": "San Francisco Bay",
+    "length": "1.28 km",
+    "height": "227 m",
+    "color": "International Orange",
+    "designer": "Joseph Strauss",
+    "construction_start": "1933",
+    "construction_end": "1937",
+    "cost": "$35 million",
+    "material": "Steel"
+  },
+  "relationship": [
+    {
+      "crosses": "San Francisco Bay"
+    },
+    {
+      "connects": "San Francisco"
+    },
+    {
+      "connects": "Marin County"
+    },
+    {
+      "part_of": "California State Route 1"
+    },
+    {
+      "designed_by": "Joseph Strauss"
+    },
+    {
+      "engineered_by": "Charles Alton Ellis"
+    },
+    {
+      "built_during": "Great Depression"
+    },
+    {
+      "landmark_in": "San Francisco"
+    },
+    {
+      "featured_in": "Vertigo (film)"
+    },
+    {
+      "inspiration_for": "Golden Gate Park"
+    }
+  ]
+}

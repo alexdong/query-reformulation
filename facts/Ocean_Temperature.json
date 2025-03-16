@@ -1,0 +1,47 @@
+{
+  "entity": "Ocean Temperature",
+  "properties": {
+    "unit": "Celsius/Fahrenheit",
+    "measurement_type": "Physical Quantity",
+    "affected_by": "Solar Radiation",
+    "influenced_by": "Ocean Currents",
+    "depth_variation": "Significant",
+    "global_average": "19.7°C (67.5°F)",
+    "surface_temp_range": "0-32°C (32-90°F)",
+    "deep_water_temp": "Near Freezing",
+    "impacts": "Marine Life",
+    "data_source": "Buoys/Satellites"
+  },
+  "relationship": [
+    {
+      "part_of": "Climate System"
+    },
+    {
+      "influences": "Ocean Circulation"
+    },
+    {
+      "affects": "Coral Reefs"
+    },
+    {
+      "impacts": "Sea Level"
+    },
+    {
+      "related_to": "El Niño"
+    },
+    {
+      "related_to": "Ocean Acidification"
+    },
+    {
+      "measured_by": "Thermometer"
+    },
+    {
+      "data_collected_by": "NOAA"
+    },
+    {
+      "impacts": "Weather Patterns"
+    },
+    {
+      "related_to": "Thermohaline Circulation"
+    }
+  ]
+}

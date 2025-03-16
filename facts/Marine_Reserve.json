@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Reserve",
+  "properties": {
+    "type": "Protected Area",
+    "purpose": "Conservation",
+    "location": "Ocean",
+    "management": "Government/Organization",
+    "size": "Variable",
+    "biodiversity": "High",
+    "access": "Restricted",
+    "regulation": "Strict",
+    "establishment_date": "Variable",
+    "ecosystem": "Marine"
+  },
+  "relationship": [
+    {
+      "part_of": "Marine Protected Area"
+    },
+    {
+      "located_in": "Ocean"
+    },
+    {
+      "managed_by": "Government"
+    },
+    {
+      "protects": "Marine Life"
+    },
+    {
+      "contains": "Coral Reef"
+    },
+    {
+      "contains": "Seagrass Bed"
+    },
+    {
+      "supports": "Fisheries"
+    },
+    {
+      "impacts": "Tourism"
+    },
+    {
+      "benefits": "Ecosystem"
+    },
+    {
+      "related_to": "Marine Biology"
+    }
+  ]
+}

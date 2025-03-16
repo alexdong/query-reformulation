@@ -1,0 +1,47 @@
+{
+  "entity": "Customer Service",
+  "properties": {
+    "definition": "Support to customers",
+    "type": "Business function",
+    "goal": "Customer satisfaction",
+    "channels": "Phone, Email, Chat, Social Media",
+    "metrics": "CSAT, NPS, Resolution Time",
+    "importance": "Brand loyalty",
+    "skillset": "Communication, Empathy, Problem-solving",
+    "department": "Often within Operations",
+    "impact": "Revenue, Reputation",
+    "technology": "CRM, Helpdesk software"
+  },
+  "relationship": [
+    {
+      "part_of": "Business"
+    },
+    {
+      "supports": "Customer"
+    },
+    {
+      "uses": "CRM"
+    },
+    {
+      "improves": "Customer Experience"
+    },
+    {
+      "requires": "Communication Skills"
+    },
+    {
+      "influenced_by": "Customer Relationship Management"
+    },
+    {
+      "related_to": "Help Desk"
+    },
+    {
+      "impacts": "Brand Reputation"
+    },
+    {
+      "measures": "Net Promoter Score"
+    },
+    {
+      "requires": "Feedback"
+    }
+  ]
+}

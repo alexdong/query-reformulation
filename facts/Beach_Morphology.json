@@ -1,0 +1,47 @@
+{
+  "entity": "Beach Morphology",
+  "properties": {
+    "definition": "Study of beach shapes & changes",
+    "process_driven": "Influenced by waves, tides, currents",
+    "scale_range": "From millimeters to kilometers",
+    "time_scale": "Hours to millennia",
+    "sediment_source": "Rivers, cliffs, offshore deposits",
+    "sediment_type": "Sand, gravel, shells",
+    "classification": "Accretionary, Erosionary, Mixed",
+    "dynamic_system": "Constantly evolving",
+    "data_methods": "Surveys, remote sensing, modeling",
+    "impact_assessment": "Coastal management, hazard mitigation"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Wave action"
+    },
+    {
+      "influenced_by": "Tidal currents"
+    },
+    {
+      "part_of": "Coastal geomorphology"
+    },
+    {
+      "related_to": "Sediment transport"
+    },
+    {
+      "affects": "Coastal ecosystems"
+    },
+    {
+      "impacts": "Human infrastructure"
+    },
+    {
+      "studied_using": "LiDAR"
+    },
+    {
+      "analyzed_with": "Numerical models"
+    },
+    {
+      "related_to": "Beach erosion"
+    },
+    {
+      "part_of": "Geological processes"
+    }
+  ]
+}

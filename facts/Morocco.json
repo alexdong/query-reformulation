@@ -1,0 +1,47 @@
+{
+  "entity": "Morocco",
+  "properties": {
+    "capital": "Rabat",
+    "official_language": "Arabic",
+    "continent": "Africa",
+    "population": "36,909,077",
+    "currency": "Moroccan dirham",
+    "area_km2": "446,550",
+    "government": "Constitutional monarchy",
+    "largest_city": "Casablanca",
+    "national_dish": "Tagine",
+    "independence_date": "1956-03-2"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "borders": "Algeria"
+    },
+    {
+      "borders": "Western Sahara"
+    },
+    {
+      "member_of": "Arab League"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "located_in": "Maghreb"
+    },
+    {
+      "influenced": "Andalusian culture"
+    },
+    {
+      "has_city": "Marrakesh"
+    },
+    {
+      "has_city": "Fes"
+    },
+    {
+      "has_region": "Sahara"
+    }
+  ]
+}

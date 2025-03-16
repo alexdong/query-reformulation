@@ -1,0 +1,47 @@
+{
+  "entity": "Tiwai River",
+  "properties": {
+    "location": "Southland, New Zealand",
+    "length": "123 km",
+    "source": "Longwood Forest",
+    "mouth": "Foveaux Strait",
+    "tributary_of": "Foveaux Strait",
+    "river_type": "Greywater river",
+    "basin_area": "2,360 km²",
+    "discharge": "170 m³/s",
+    "region": "Southland Region",
+    "water_quality": "Variable"
+  },
+  "relationship": [
+    {
+      "flows_through": "Southland Region"
+    },
+    {
+      "source_location": "Longwood Forest"
+    },
+    {
+      "mouth_location": "Foveaux Strait"
+    },
+    {
+      "tributary_of": "Foveaux Strait"
+    },
+    {
+      "flows_into": "Tasman Sea"
+    },
+    {
+      "part_of": "Southland District"
+    },
+    {
+      "adjacent_to": "Te Anau"
+    },
+    {
+      "near": "Fiordland National Park"
+    },
+    {
+      "supports": "Native fish species"
+    },
+    {
+      "used_by": "Hydroelectric power generation"
+    }
+  ]
+}

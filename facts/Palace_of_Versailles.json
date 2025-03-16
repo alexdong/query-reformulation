@@ -1,0 +1,47 @@
+{
+  "entity": "Palace of Versailles",
+  "properties": {
+    "type": "Royal residence",
+    "location": "Versailles, France",
+    "architect": "Louis Le Vau",
+    "architect2": "Jules Hardouin-Mansart",
+    "built_start": "1661",
+    "built_end": "1710",
+    "original_purpose": "Hunting lodge",
+    "area": "85,000 m²",
+    "UNESCO_status": "World Heritage Site",
+    "style": "French Baroque"
+  },
+  "relationship": [
+    {
+      "part_of": "Île-de-France"
+    },
+    {
+      "built_for": "Louis XIV"
+    },
+    {
+      "influenced": "French architecture"
+    },
+    {
+      "contains": "Hall of Mirrors"
+    },
+    {
+      "contains": "Gardens of Versailles"
+    },
+    {
+      "contains": "Grand Trianon"
+    },
+    {
+      "contains": "Petit Trianon"
+    },
+    {
+      "former_function": "Royal court"
+    },
+    {
+      "event": "Tennis Court Oath"
+    },
+    {
+      "inspired": "Neoclassical architecture"
+    }
+  ]
+}

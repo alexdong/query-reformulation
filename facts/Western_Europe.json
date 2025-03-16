@@ -1,0 +1,47 @@
+{
+  "entity": "Western Europe",
+  "properties": {
+    "region_type": "Geopolitical region",
+    "population": "Approx. 375 million",
+    "area": "Approx. 2.0 million sq km",
+    "GDP_nominal": "Approx. $12 trillion",
+    "major_languages": "German, French, English, Spanish, Italian",
+    "dominant_religion": "Christianity",
+    "political_system": "Parliamentary democracies, constitutional monarchies",
+    "climate": "Temperate",
+    "HDI": "Very High",
+    "currency": "Euro, Pound Sterling, Swiss Franc"
+  },
+  "relationship": [
+    {
+      "part_of": "Europe"
+    },
+    {
+      "borders": "Eastern Europe"
+    },
+    {
+      "includes": "Germany"
+    },
+    {
+      "includes": "France"
+    },
+    {
+      "includes": "United Kingdom"
+    },
+    {
+      "includes": "Italy"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "influenced_by": "Renaissance"
+    },
+    {
+      "member_of": "European Union"
+    },
+    {
+      "economic_bloc": "OECD"
+    }
+  ]
+}

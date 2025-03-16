@@ -1,0 +1,47 @@
+{
+  "entity": "Culture (human activity)",
+  "properties": {
+    "instance_of": "Social phenomenon",
+    "definition": "Shared beliefs, values, practices",
+    "scope": "Human groups",
+    "transmission": "Learning, imitation",
+    "elements": "Art, music, customs, traditions",
+    "study_field": "Anthropology",
+    "related_concept": "Society",
+    "origin": "Human history",
+    "impact": "Shapes behavior, identity",
+    "change_rate": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Humanity"
+    },
+    {
+      "influences": "Social norms"
+    },
+    {
+      "related_to": "Values"
+    },
+    {
+      "related_to": "Beliefs"
+    },
+    {
+      "includes": "Art"
+    },
+    {
+      "includes": "Music"
+    },
+    {
+      "includes": "Traditions"
+    },
+    {
+      "studied_by": "Anthropology"
+    },
+    {
+      "impacts": "Identity"
+    },
+    {
+      "related_to": "Globalization"
+    }
+  ]
+}

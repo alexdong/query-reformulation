@@ -1,0 +1,47 @@
+{
+  "entity": "Banff National Park",
+  "properties": {
+    "type": "National Park",
+    "location": "Alberta, Canada",
+    "established": "1885",
+    "area": "6,640 km²",
+    "governed_by": "Parks Canada",
+    "UNESCO_status": "UNESCO World Heritage Site",
+    "elevation_range": "1,300–3,800 m",
+    "climate": "Alpine",
+    "primary_vegetation": "Coniferous forest",
+    "wildlife": "Grizzly bears, Elk, Bighorn Sheep"
+  },
+  "relationship": [
+    {
+      "part_of": "Canadian Rockies"
+    },
+    {
+      "located_in": "Alberta"
+    },
+    {
+      "adjacent_to": "Jasper National Park"
+    },
+    {
+      "contains": "Lake Louise"
+    },
+    {
+      "contains": "Moraine Lake"
+    },
+    {
+      "contains": "Banff Town"
+    },
+    {
+      "governed_by": "Government of Canada"
+    },
+    {
+      "protected_species": "Grizzly Bear"
+    },
+    {
+      "influenced_by": "Canadian Pacific Railway"
+    },
+    {
+      "tourism_attraction_for": "Canada"
+    }
+  ]
+}

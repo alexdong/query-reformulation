@@ -1,0 +1,47 @@
+{
+  "entity": "Christchurch Cathedral",
+  "properties": {
+    "architectural_style": "Gothic Revival",
+    "location": "Christchurch, New Zealand",
+    "status": "Ruined",
+    "year_built": 1864,
+    "architect": "Benjamin Mountfort",
+    "denomination": "Anglican",
+    "capacity": "6000",
+    "material": "Whitestone",
+    "earthquake_damage": "Severe",
+    "designation": "Historic Place (Category 1)"
+  },
+  "relationship": [
+    {
+      "part_of": "Christchurch City Centre"
+    },
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "designed_by": "Benjamin Mountfort"
+    },
+    {
+      "built_in": "1864"
+    },
+    {
+      "earthquake": "2011 Christchurch earthquake"
+    },
+    {
+      "influenced_by": "English Gothic Cathedrals"
+    },
+    {
+      "diocese": "Christchurch Diocese"
+    },
+    {
+      "destroyed_in": "2011 Christchurch earthquake"
+    },
+    {
+      "reconstruction_plan": "Christchurch Cathedral Reinstatement"
+    },
+    {
+      "historical_event": "Christchurch earthquakes"
+    }
+  ]
+}

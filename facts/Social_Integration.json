@@ -1,0 +1,47 @@
+{
+  "entity": "Social Integration",
+  "properties": {
+    "definition": "Process of inclusion",
+    "field": "Sociology",
+    "concept": "Social cohesion",
+    "aspect": "Community belonging",
+    "focus": "Individual-society interaction",
+    "outcome": "Social stability",
+    "related_to": "Assimilation",
+    "opposite_of": "Social exclusion",
+    "measurement": "Social capital",
+    "importance": "Well-being"
+  },
+  "relationship": [
+    {
+      "part_of": "Sociology"
+    },
+    {
+      "related_to": "Social Capital"
+    },
+    {
+      "contrasts_with": "Social Exclusion"
+    },
+    {
+      "influences": "Community Development"
+    },
+    {
+      "requires": "Social Norms"
+    },
+    {
+      "impacts": "Social Mobility"
+    },
+    {
+      "promotes": "Civic Engagement"
+    },
+    {
+      "linked_to": "Identity Formation"
+    },
+    {
+      "facilitates": "Intergroup Relations"
+    },
+    {
+      "supports": "Collective Action"
+    }
+  ]
+}

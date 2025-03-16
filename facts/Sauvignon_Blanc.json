@@ -1,0 +1,47 @@
+{
+  "entity": "Sauvignon Blanc",
+  "properties": {
+    "type": "Grape variety",
+    "origin": "Loire Valley, France",
+    "color": "Greenish-yellow",
+    "aroma": "Grassy, Gooseberry, Passionfruit",
+    "acidity": "High",
+    "body": "Light to Medium",
+    "aging_potential": "Low to Moderate",
+    "common_regions": "Loire Valley, Marlborough, Bordeaux",
+    "clone_of": "Unknown",
+    "genetic_parentage": "Cabernet Sauvignon x Traminer"
+  },
+  "relationship": [
+    {
+      "wine_grape_family": "Vitis vinifera"
+    },
+    {
+      "region_produces": "Loire Valley"
+    },
+    {
+      "region_produces": "Marlborough"
+    },
+    {
+      "region_produces": "Bordeaux"
+    },
+    {
+      "blended_with": "Semillon"
+    },
+    {
+      "blended_with": "Muscadelle"
+    },
+    {
+      "food_pairing": "Seafood"
+    },
+    {
+      "food_pairing": "Salad"
+    },
+    {
+      "wine_style": "Dry white wine"
+    },
+    {
+      "influenced_by": "Traminer"
+    }
+  ]
+}

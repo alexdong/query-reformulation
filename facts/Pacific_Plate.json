@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Plate",
+  "properties": {
+    "type": "Tectonic Plate",
+    "area": "165,000,000 km²",
+    "location": "Pacific Ocean",
+    "movement": "Westward",
+    "speed": "7–10 cm/year",
+    "density": "3.3 g/cm³",
+    "thickness": "100 km (average)",
+    "composition": "Oceanic crust, upper mantle",
+    "boundary_type": "Convergent, Transform",
+    "subduction_zones": "Numerous"
+  },
+  "relationship": [
+    {
+      "part_of": "Lithosphere"
+    },
+    {
+      "borders": "North American Plate"
+    },
+    {
+      "borders": "Eurasian Plate"
+    },
+    {
+      "borders": "Australian Plate"
+    },
+    {
+      "borders": "Philippine Sea Plate"
+    },
+    {
+      "borders": "Juan de Fuca Plate"
+    },
+    {
+      "subducts_under": "North American Plate"
+    },
+    {
+      "subducts_under": "Philippine Sea Plate"
+    },
+    {
+      "responsible_for": "Ring of Fire"
+    },
+    {
+      "causes": "Earthquakes"
+    }
+  ]
+}

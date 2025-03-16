@@ -1,0 +1,47 @@
+{
+  "entity": "Alcatraz Island",
+  "properties": {
+    "location": "San Francisco Bay",
+    "type": "Island",
+    "area": "1.37 acres",
+    "ownership": "National Park Service",
+    "former_use": "Federal Penitentiary",
+    "establishment_date": "1934",
+    "closure_date": "1963",
+    "max_inmates": "300",
+    "geology": "Volcanic",
+    "name_origin": "Spanish, 'Alcatraces' (pelican)"
+  },
+  "relationship": [
+    {
+      "part_of": "Golden Gate National Recreation Area"
+    },
+    {
+      "located_in": "California"
+    },
+    {
+      "influenced": "Popular Culture"
+    },
+    {
+      "former_inmate": "Al Capone"
+    },
+    {
+      "former_inmate": "Robert Stroud"
+    },
+    {
+      "architect": "Keynes, James & Knowles"
+    },
+    {
+      "designed_by": "Edward N. Swasey"
+    },
+    {
+      "connected_to": "San Francisco"
+    },
+    {
+      "accessible_by": "Ferry"
+    },
+    {
+      "featured_in": "Escape from Alcatraz"
+    }
+  ]
+}

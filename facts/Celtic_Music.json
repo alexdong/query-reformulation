@@ -1,0 +1,47 @@
+{
+  "entity": "Celtic Music",
+  "properties": {
+    "genre": "Folk Music",
+    "origin": "Celtic Regions",
+    "instruments": "Harp, Fiddle, Tin Whistle",
+    "style": "Traditional, Contemporary",
+    "language": "Gaelic, Irish, Scottish, Welsh, Breton",
+    "time_period": "Medieval - Present",
+    "cultural_significance": "Cultural Identity",
+    "rhythm": "Jigs, Reels, Hornpipes",
+    "vocal_style": "Storytelling, Ballads",
+    "notation": "Primarily Oral Tradition"
+  },
+  "relationship": [
+    {
+      "influenced": "Irish Folk Music"
+    },
+    {
+      "influenced": "Scottish Folk Music"
+    },
+    {
+      "related_to": "Gaelic Languages"
+    },
+    {
+      "subgenre_of": "Folk Music"
+    },
+    {
+      "associated_with": "Celtic Mythology"
+    },
+    {
+      "performed_by": "The Chieftains"
+    },
+    {
+      "performed_by": "Enya"
+    },
+    {
+      "performed_by": "Loreena McKennitt"
+    },
+    {
+      "originates_from": "Ireland"
+    },
+    {
+      "originates_from": "Scotland"
+    }
+  ]
+}

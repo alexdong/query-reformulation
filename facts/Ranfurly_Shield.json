@@ -1,0 +1,47 @@
+{
+  "entity": "Ranfurly Shield",
+  "properties": {
+    "type": "Rugby union trophy",
+    "country": "New Zealand",
+    "established": "1893",
+    "governing_body": "New Zealand Rugby Football Union",
+    "first_holder": "Canterbury",
+    "current_holder": "Tasman",
+    "challenge_rules": "Open challenge",
+    "material": "Silver",
+    "height": "610 mm",
+    "weight": "27 kg"
+  },
+  "relationship": [
+    {
+      "competition": "Rugby union"
+    },
+    {
+      "location": "New Zealand"
+    },
+    {
+      "governed_by": "New Zealand Rugby Football Union"
+    },
+    {
+      "first_won_by": "Canterbury"
+    },
+    {
+      "current_holder": "Tasman"
+    },
+    {
+      "challenge": "Open challenge"
+    },
+    {
+      "related_to": "National Provincial Championship"
+    },
+    {
+      "predecessor_of": "National Rugby Championship"
+    },
+    {
+      "held_by": "Auckland"
+    },
+    {
+      "held_by": "Wellington"
+    }
+  ]
+}

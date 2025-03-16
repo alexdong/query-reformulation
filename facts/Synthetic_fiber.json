@@ -1,0 +1,47 @@
+{
+  "entity": "Synthetic fiber",
+  "properties": {
+    "definition": "Man-made fibers",
+    "material": "Polymers",
+    "origin": "20th century",
+    "production_method": "Chemical processes",
+    "strength": "Generally high",
+    "elasticity": "Variable",
+    "cost": "Variable",
+    "biodegradability": "Generally low",
+    "common_types": "Polyester, Nylon, Acrylic, Rayon",
+    "application": "Textiles, ropes, plastics"
+  },
+  "relationship": [
+    {
+      "precursor": "Natural fibers"
+    },
+    {
+      "derived_from": "Petroleum"
+    },
+    {
+      "type_of": "Polymer"
+    },
+    {
+      "used_in": "Clothing"
+    },
+    {
+      "manufactured_by": "Chemical industry"
+    },
+    {
+      "alternative_to": "Cotton"
+    },
+    {
+      "related_to": "Textile industry"
+    },
+    {
+      "property_of": "Fabric"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "innovation_of": "Industrial Revolution"
+    }
+  ]
+}

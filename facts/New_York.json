@@ -1,0 +1,47 @@
+{
+  "entity": "New York",
+  "properties": {
+    "type": "State",
+    "capital": "Albany",
+    "population": "20200000",
+    "area_km2": "147300",
+    "largest_city": "New York City",
+    "nickname": "Empire State",
+    "state_flower": "Rose",
+    "state_bird": "Eastern Bluebird",
+    "founding_date": "1784",
+    "time_zone": "Eastern Time"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "borders": "New Jersey"
+    },
+    {
+      "borders": "Pennsylvania"
+    },
+    {
+      "borders": "Connecticut"
+    },
+    {
+      "borders": "Vermont"
+    },
+    {
+      "borders": "Massachusetts"
+    },
+    {
+      "contains": "New York City"
+    },
+    {
+      "contains": "Buffalo"
+    },
+    {
+      "contains": "Rochester"
+    },
+    {
+      "influenced_by": "Dutch Colonialism"
+    }
+  ]
+}

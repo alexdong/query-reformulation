@@ -1,0 +1,47 @@
+{
+  "entity": "Geology of New Zealand",
+  "properties": {
+    "type": "Geological region",
+    "location": "New Zealand",
+    "tectonic_setting": "Subduction zone",
+    "major_rocks": "Sedimentary, Volcanic, Metamorphic",
+    "age_of_rocks": "550 million years (Precambrian to Present)",
+    "dominant_processes": "Volcanism, Earthquakes, Erosion",
+    "mineral_resources": "Coal, Gold, Iron, Geothermal energy",
+    "landforms": "Mountains, Volcanoes, Fjords, Plains",
+    "plate_boundary": "Pacific Plate & Australian Plate",
+    "significant_event": "Alpine Fault movement"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Ring of Fire"
+    },
+    {
+      "located_on": "Australian Plate"
+    },
+    {
+      "located_on": "Pacific Plate"
+    },
+    {
+      "influenced_by": "Subduction"
+    },
+    {
+      "contains": "Alpine Fault"
+    },
+    {
+      "contains": "Taupō Volcanic Zone"
+    },
+    {
+      "contains": "Southern Alps"
+    },
+    {
+      "produces": "Geothermal energy"
+    },
+    {
+      "contains_mineral": "Gold"
+    },
+    {
+      "affected_by": "Earthquakes"
+    }
+  ]
+}

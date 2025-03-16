@@ -1,0 +1,47 @@
+{
+  "entity": "Idaho",
+  "properties": {
+    "capital": "Boise",
+    "state_motto": "Esto Perpetua",
+    "area_km2": "216443",
+    "population_2023": "1938303",
+    "state_flower": "Syringa",
+    "state_bird": "Mountain Bluebird",
+    "state_tree": "Western Larch",
+    "time_zone": "Mountain Time",
+    "official_website": "https://www.idaho.gov/",
+    "admission_date": "1890-07-03"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "located_in": "North America"
+    },
+    {
+      "borders": "Washington"
+    },
+    {
+      "borders": "Oregon"
+    },
+    {
+      "borders": "Nevada"
+    },
+    {
+      "borders": "Utah"
+    },
+    {
+      "major_river": "Snake River"
+    },
+    {
+      "major_city": "Boise"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "geographical_feature": "Rocky Mountains"
+    }
+  ]
+}

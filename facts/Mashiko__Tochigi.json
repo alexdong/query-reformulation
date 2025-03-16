@@ -1,0 +1,47 @@
+{
+  "entity": "Mashiko, Tochigi",
+  "properties": {
+    "type": "Town",
+    "location": "Tochigi Prefecture",
+    "country": "Japan",
+    "area_km2": "136.86",
+    "population": "12,797",
+    "postal_code": "321-0502",
+    "founded": "1889",
+    "timezone": "JST",
+    "coordinates": "36.9333°N 140.3167°E",
+    "elevation_m": "170"
+  },
+  "relationship": [
+    {
+      "part_of": "Tochigi Prefecture"
+    },
+    {
+      "located_in": "Kanto region"
+    },
+    {
+      "neighbor": "Otsuka"
+    },
+    {
+      "neighbor": "Moka"
+    },
+    {
+      "neighbor": "Ashikaga"
+    },
+    {
+      "produces": "Mashiko ware"
+    },
+    {
+      "known_for": "Pottery"
+    },
+    {
+      "has_landmark": "Mashiko Municipal Museum"
+    },
+    {
+      "has_transport": "JR East"
+    },
+    {
+      "influenced_by": "Japanese folk traditions"
+    }
+  ]
+}

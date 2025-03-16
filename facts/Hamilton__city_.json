@@ -1,0 +1,47 @@
+{
+  "entity": "Hamilton (city)",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Waikato",
+    "population_2023": "84,170",
+    "established": "1844",
+    "mayor": "Paula Southgate",
+    "area_km2": "207",
+    "timezone": "NZST",
+    "latitude": "-37.75",
+    "longitude": "175.3"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Waikato Region"
+    },
+    {
+      "has_sister_city": "Tochigi City"
+    },
+    {
+      "founded_by": "James Hamilton"
+    },
+    {
+      "has_river": "Waikato River"
+    },
+    {
+      "has_sport_team": "Waikato Chiefs"
+    },
+    {
+      "has_university": "University of Waikato"
+    },
+    {
+      "has_transport": "Hamilton Airport"
+    },
+    {
+      "influenced_by": "Māori culture"
+    },
+    {
+      "economic_sector": "Agriculture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "White Wine",
+  "properties": {
+    "type": "Wine",
+    "color": "Pale Yellow to Gold",
+    "fermentation": "Fermented from white grapes",
+    "alcohol_content": "Typically 10-14%",
+    "serving_temperature": "Chilled",
+    "acidity": "Generally higher than red wine",
+    "common_grapes": "Chardonnay, Sauvignon Blanc, Riesling",
+    "flavor_profile": "Citrus, Floral, Fruity",
+    "aging_potential": "Variable, some age well",
+    "origin": "Worldwide"
+  },
+  "relationship": [
+    {
+      "is_a": "Wine"
+    },
+    {
+      "produced_in": "France"
+    },
+    {
+      "produced_in": "Italy"
+    },
+    {
+      "produced_in": "United States"
+    },
+    {
+      "pairs_with": "Seafood"
+    },
+    {
+      "pairs_with": "Poultry"
+    },
+    {
+      "ingredient_of": "Wine cocktail"
+    },
+    {
+      "complementary_to": "Cheese"
+    },
+    {
+      "related_to": "Red Wine"
+    },
+    {
+      "grape_variety": "Chardonnay"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Atlantic Canada",
+  "properties": {
+    "region_type": "Geographic region",
+    "location": "Eastern Canada",
+    "area": "630,000 km²",
+    "population": "2.5 million",
+    "primary_languages": "English, French",
+    "climate": "Temperate",
+    "economy": "Fishing, Tourism, Natural Resources",
+    "geography": "Coastline, Islands, Highlands",
+    "political_status": "Part of Canada",
+    "largest_city": "Halifax"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "contains": "New Brunswick"
+    },
+    {
+      "contains": "Nova Scotia"
+    },
+    {
+      "contains": "Prince Edward Island"
+    },
+    {
+      "contains": "Newfoundland and Labrador"
+    },
+    {
+      "borders": "Quebec"
+    },
+    {
+      "influenced_by": "Mi'kmaq people"
+    },
+    {
+      "influenced_by": "French colonization"
+    },
+    {
+      "exports_to": "United States"
+    },
+    {
+      "tourism_attraction": "Cabot Trail"
+    }
+  ]
+}

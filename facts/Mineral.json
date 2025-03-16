@@ -1,0 +1,47 @@
+{
+  "entity": "Mineral",
+  "properties": {
+    "instance_of": "Solid",
+    "chemical_formula": "Variable",
+    "formation_process": "Geological",
+    "crystal_system": "Variable",
+    "luster": "Variable",
+    "hardness": "Variable (Mohs scale)",
+    "density": "Variable",
+    "color": "Variable",
+    "origin": "Earth",
+    "classification": "Mineralogy"
+  },
+  "relationship": [
+    {
+      "part_of": "Rock"
+    },
+    {
+      "composed_of": "Elements"
+    },
+    {
+      "studied_in": "Mineralogy"
+    },
+    {
+      "found_in": "Ore"
+    },
+    {
+      "related_to": "Crystallography"
+    },
+    {
+      "used_in": "Jewelry"
+    },
+    {
+      "example": "Quartz"
+    },
+    {
+      "example": "Diamond"
+    },
+    {
+      "example": "Gold"
+    },
+    {
+      "related_to": "Geology"
+    }
+  ]
+}

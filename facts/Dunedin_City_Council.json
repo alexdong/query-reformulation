@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin City Council",
+  "properties": {
+    "type": "Local government",
+    "location": "Dunedin, New Zealand",
+    "governs": "Dunedin",
+    "established": "1848",
+    "mayor": "Aaron Hawkins",
+    "population_served": "150,000",
+    "area_covered": "1,805 km²",
+    "website": "dunedin.govt.nz",
+    "funding_source": "Rates",
+    "responsible_for": "Infrastructure"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "oversees": "Dunedin Public Library"
+    },
+    {
+      "manages": "Otago Peninsula"
+    },
+    {
+      "employs": "Council staff"
+    },
+    {
+      "funds": "Arts initiatives"
+    },
+    {
+      "collaborates_with": "Ngāi Tahu"
+    },
+    {
+      "regulates": "Building consents"
+    },
+    {
+      "provides": "Waste management"
+    },
+    {
+      "responsible_for": "City planning"
+    }
+  ]
+}

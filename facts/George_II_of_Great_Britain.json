@@ -1,0 +1,47 @@
+{
+  "entity": "George II of Great Britain",
+  "properties": {
+    "birth_date": "1683-11-04",
+    "birth_place": "Hanover",
+    "death_date": "1740-11-28",
+    "death_place": "Hanover",
+    "title": "King of Great Britain",
+    "dynasty": "Hanoverian",
+    "spouse": "Caroline of Ansbach",
+    "father": "George I of Great Britain",
+    "mother": "Sophia Dorothea of Celle",
+    "religion": "Anglican"
+  },
+  "relationship": [
+    {
+      "predecessor": "George I of Great Britain"
+    },
+    {
+      "successor": "Frederick, Prince of Wales"
+    },
+    {
+      "part_of": "House of Hanover"
+    },
+    {
+      "married_to": "Caroline of Ansbach"
+    },
+    {
+      "ruled_over": "Great Britain"
+    },
+    {
+      "involved_in": "Jacobite rising of 1745"
+    },
+    {
+      "general": "George II (military)"
+    },
+    {
+      "influenced": "Robert Walpole"
+    },
+    {
+      "location": "Buckingham Palace"
+    },
+    {
+      "supported": "War of the Austrian Succession"
+    }
+  ]
+}

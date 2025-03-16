@@ -1,0 +1,47 @@
+{
+  "entity": "Labour",
+  "properties": {
+    "instance_of": "Political party",
+    "country": "United Kingdom",
+    "ideology": "Social democracy",
+    "founded_date": "1899",
+    "leader": "Keir Starmer",
+    "hq_location": "Walworth, London",
+    "color": "Red",
+    "membership": "500,000",
+    "electoral_system": "First past the post",
+    "political_position": "Centre-left"
+  },
+  "relationship": [
+    {
+      "member_of": "Parliament of the United Kingdom"
+    },
+    {
+      "leader_predecessor": "Jeremy Corbyn"
+    },
+    {
+      "founded_by": "Ramsey MacDonald"
+    },
+    {
+      "affiliated_with": "Labour Party (Australia)"
+    },
+    {
+      "influenced_by": "Fabian Society"
+    },
+    {
+      "policy_focus": "NHS"
+    },
+    {
+      "policy_focus": "Education"
+    },
+    {
+      "policy_focus": "Climate change"
+    },
+    {
+      "opposed_by": "Conservative Party"
+    },
+    {
+      "historical_event": "Atlee government"
+    }
+  ]
+}

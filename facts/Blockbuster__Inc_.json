@@ -1,0 +1,47 @@
+{
+  "entity": "Blockbuster, Inc.",
+  "properties": {
+    "industry": "Video Rental",
+    "founder": "David Cook",
+    "hq_location": "Plano, Texas",
+    "founded_date": "1985",
+    "defunct_date": "2010",
+    "peak_stores": "9000",
+    "business_model": "Rental & Sales",
+    "former_ceo": "Jim Keyes",
+    "reason_for_decline": "Streaming",
+    "stock_exchange": "NYSE"
+  },
+  "relationship": [
+    {
+      "competitor": "Netflix"
+    },
+    {
+      "competitor": "Redbox"
+    },
+    {
+      "acquired_by": "Viacom"
+    },
+    {
+      "parent_company": "Viacom"
+    },
+    {
+      "replaced_by": "Streaming Services"
+    },
+    {
+      "product": "DVD"
+    },
+    {
+      "product": "VHS"
+    },
+    {
+      "service_provided": "Movie Rental"
+    },
+    {
+      "service_provided": "Video Game Rental"
+    },
+    {
+      "influenced": "Home Entertainment"
+    }
+  ]
+}

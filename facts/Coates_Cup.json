@@ -1,0 +1,47 @@
+{
+  "entity": "Coates Cup",
+  "properties": {
+    "instance_of": "Soccer tournament",
+    "country": "Australia",
+    "founded": "1924",
+    "governing_body": "Football Federation Australia",
+    "type": "Knockout",
+    "level": "State",
+    "state": "New South Wales",
+    "competition_format": "Single-elimination",
+    "teams": "Amateur clubs",
+    "prize_money": "Varies"
+  },
+  "relationship": [
+    {
+      "participated_by": "Northern Tigers FC"
+    },
+    {
+      "participated_by": "Manly United FC"
+    },
+    {
+      "participated_by": "Sydney FC"
+    },
+    {
+      "governed_by": "Football Federation Australia"
+    },
+    {
+      "predecessor_of": "Australia Cup"
+    },
+    {
+      "location": "New South Wales"
+    },
+    {
+      "sport": "Soccer"
+    },
+    {
+      "related_to": "Australian soccer"
+    },
+    {
+      "influenced": "Australian football leagues"
+    },
+    {
+      "historical_event": "Early Australian soccer history"
+    }
+  ]
+}

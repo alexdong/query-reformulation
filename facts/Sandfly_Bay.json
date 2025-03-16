@@ -1,0 +1,47 @@
+{
+  "entity": "Sandfly Bay",
+  "properties": {
+    "type": "Bay",
+    "location": "Otago Peninsula",
+    "country": "New Zealand",
+    "latitude": "-45.543",
+    "longitude": "170.526",
+    "named_after": "Sandflies",
+    "geology": "Volcanic",
+    "ecosystem": "Coastal",
+    "conservation_status": "Protected Area",
+    "area": "Approximately 1 km²"
+  },
+  "relationship": [
+    {
+      "part_of": "Otago Peninsula"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Yellow-eyed Penguin"
+    },
+    {
+      "contains": "Hooker's Sea Lion"
+    },
+    {
+      "adjacent_to": "Chilcott's Arm"
+    },
+    {
+      "adjacent_to": "Macandrew Bay"
+    },
+    {
+      "influenced_by": "Volcanic Activity"
+    },
+    {
+      "habitat_for": "Shorebirds"
+    },
+    {
+      "managed_by": "Department of Conservation"
+    },
+    {
+      "nearby_landmark": "Signal Hill"
+    }
+  ]
+}

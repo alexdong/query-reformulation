@@ -1,0 +1,47 @@
+{
+  "entity": "Rarotonga International Airport",
+  "properties": {
+    "iata_code": "RAR",
+    "icao_code": "NCHR",
+    "elevation": "91 m",
+    "location": "Rarotonga",
+    "country": "Cook Islands",
+    "latitude": "-21.3667",
+    "longitude": "-159.7917",
+    "runway_length": "2743 m",
+    "operator": "Cook Islands Airport Authority",
+    "year_opened": "1972"
+  },
+  "relationship": [
+    {
+      "serves": "Rarotonga"
+    },
+    {
+      "located_in": "Cook Islands"
+    },
+    {
+      "has_airline": "Air New Zealand"
+    },
+    {
+      "has_airline": "Jetstar"
+    },
+    {
+      "has_airline": "Virgin Australia"
+    },
+    {
+      "connects_to": "Auckland International Airport"
+    },
+    {
+      "connects_to": "Sydney Airport"
+    },
+    {
+      "part_of": "Cook Islands Infrastructure"
+    },
+    {
+      "nearby_city": "Avarua"
+    },
+    {
+      "serves_region": "Southern Pacific"
+    }
+  ]
+}

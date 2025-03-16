@@ -1,0 +1,47 @@
+{
+  "entity": "El Niño",
+  "properties": {
+    "type": "Climate pattern",
+    "origin": "Pacific Ocean",
+    "frequency": "Irregular, ~2-7 years",
+    "duration": "9-12 months",
+    "temperature_anomaly": "Warmer than average",
+    "impact_region": "Global",
+    "opposite_phase": "La Niña",
+    "discovery_date": "1891",
+    "name_meaning": "The Boy (Spanish)",
+    "measurement": "Sea surface temperature"
+  },
+  "relationship": [
+    {
+      "part_of": "ENSO"
+    },
+    {
+      "causes": "Oceanic oscillator"
+    },
+    {
+      "affects": "Global weather"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "impacts": "Fisheries"
+    },
+    {
+      "related_to": "Southern Oscillation"
+    },
+    {
+      "predicts": "Climate models"
+    },
+    {
+      "monitored_by": "NOAA"
+    },
+    {
+      "influences": "Rainfall patterns"
+    },
+    {
+      "impacts": "Drought"
+    }
+  ]
+}

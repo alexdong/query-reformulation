@@ -1,0 +1,47 @@
+{
+  "entity": "Rainforest",
+  "properties": {
+    "type": "Biome",
+    "precipitation": "High",
+    "temperature": "Warm",
+    "biodiversity": "Very High",
+    "location": "Tropical Regions",
+    "area": "Approximately 44 million km²",
+    "oxygen_production": "Significant",
+    "carbon_storage": "Large",
+    "soil_type": "Thin & Nutrient-Poor",
+    "layers": "Emergent, Canopy, Understory, Forest Floor"
+  },
+  "relationship": [
+    {
+      "contains": "Trees"
+    },
+    {
+      "contains": "Animals"
+    },
+    {
+      "contains": "Insects"
+    },
+    {
+      "impacts": "Climate"
+    },
+    {
+      "supports": "Indigenous Peoples"
+    },
+    {
+      "threatened_by": "Deforestation"
+    },
+    {
+      "part_of": "Earth"
+    },
+    {
+      "located_in": "Amazon Basin"
+    },
+    {
+      "located_in": "Congo Basin"
+    },
+    {
+      "located_in": "Southeast Asia"
+    }
+  ]
+}

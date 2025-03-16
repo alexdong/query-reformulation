@@ -1,0 +1,47 @@
+{
+  "entity": "Bangladesh",
+  "properties": {
+    "capital": "Dhaka",
+    "official_language": "Bengali",
+    "population": "164.6 million (2023)",
+    "area_km2": "147570",
+    "currency": "BDT (৳)",
+    "independence_date": "1971-12-16",
+    "government_type": "Parliamentary republic",
+    "largest_city": "Dhaka",
+    "gini_index": "0.32",
+    "life_expectancy": "72.4 years"
+  },
+  "relationship": [
+    {
+      "part_of": "South Asia"
+    },
+    {
+      "borders": "India"
+    },
+    {
+      "borders": "Myanmar"
+    },
+    {
+      "located_in": "Bengal Delta"
+    },
+    {
+      "influenced_by": "Bengali culture"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "member_of": "UN"
+    },
+    {
+      "river_flows_through": "Ganges"
+    },
+    {
+      "river_flows_through": "Brahmaputra"
+    },
+    {
+      "major_export": "Ready-made garments"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "San Joaquin River",
+  "properties": {
+    "type": "River",
+    "length": "366 mi (589 km)",
+    "source": "Sierra Nevada",
+    "mouth": "San Francisco Bay",
+    "tributaries": "Merced River, Tuolumne River",
+    "basin_area": "40,600 sq mi (105,000 km²)",
+    "location": "California",
+    "flow_rate": "770 cu ft/s (21.8 m³/s)",
+    "drainage_area": "California",
+    "historical_name": "Tutulman"
+  },
+  "relationship": [
+    {
+      "flows_into": "San Francisco Bay"
+    },
+    {
+      "tributary_of": "Central Valley"
+    },
+    {
+      "part_of": "California Water System"
+    },
+    {
+      "passes_through": "Fresno"
+    },
+    {
+      "passes_through": "Tulare"
+    },
+    {
+      "flows_past": "Yosemite National Park"
+    },
+    {
+      "historical_name": "Tutulman"
+    },
+    {
+      "influenced_by": "California Water Wars"
+    },
+    {
+      "connected_to": "Delta-Mendota Canal"
+    },
+    {
+      "supports_ecosystem": "San Joaquin River Ecosystem"
+    }
+  ]
+}

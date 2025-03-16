@@ -1,0 +1,47 @@
+{
+  "entity": "Sir William Mason (judge)",
+  "properties": {
+    "birth_date": "1773-05-08",
+    "death_date": "1833-07-07",
+    "birth_place": "Willington, Bedfordshire",
+    "occupation": "Judge",
+    "education": "University of Cambridge",
+    "title": "Serjeant-at-Law",
+    "judge_of": "King's Bench",
+    "knighthood": "1818",
+    "family": "English gentry",
+    "cause_of_death": "illness"
+  },
+  "relationship": [
+    {
+      "educated_at": "Cambridge University"
+    },
+    {
+      "preceded_by": "Sir John Heathfield (judge)"
+    },
+    {
+      "succeeded_by": "Sir Thomas Wilde (judge)"
+    },
+    {
+      "appointed_as": "Serjeant-at-Law"
+    },
+    {
+      "member_of": "English legal system"
+    },
+    {
+      "influenced": "English jurisprudence"
+    },
+    {
+      "served_in": "King's Bench"
+    },
+    {
+      "legal_profession": "Barrister"
+    },
+    {
+      "family_member_of": "Mason family"
+    },
+    {
+      "location": "Willington, Bedfordshire"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Poverty",
+  "properties": {
+    "definition": "State of lacking basic needs",
+    "measurement": "Income, access to resources",
+    "cause_1": "Unemployment",
+    "cause_2": "Lack of education",
+    "cause_3": "Discrimination",
+    "effect_1": "Malnutrition",
+    "effect_2": "Poor health",
+    "effect_3": "Limited opportunity",
+    "global_prevalence": "Approximately 10%",
+    "related_concept": "Inequality"
+  },
+  "relationship": [
+    {
+      "causes": "Unemployment"
+    },
+    {
+      "exacerbated_by": "Economic Recession"
+    },
+    {
+      "linked_to": "Food Insecurity"
+    },
+    {
+      "impacts": "Child Development"
+    },
+    {
+      "addressed_by": "Social Welfare"
+    },
+    {
+      "related_to": "Income Inequality"
+    },
+    {
+      "measured_by": "Gini coefficient"
+    },
+    {
+      "affects": "Health"
+    },
+    {
+      "contributes_to": "Crime"
+    },
+    {
+      "mitigated_by": "Education"
+    }
+  ]
+}

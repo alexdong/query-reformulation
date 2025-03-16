@@ -1,0 +1,47 @@
+{
+  "entity": "Kaumatua",
+  "properties": {
+    "type": "Elder",
+    "culture": "Māori",
+    "role": "Advisor",
+    "status": "Respected",
+    "knowledge": "Traditional",
+    "responsibility": "Guidance",
+    "age": "Senior",
+    "authority": "Cultural",
+    "respect": "High",
+    "wisdom": "Experienced"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori society"
+    },
+    {
+      "related_to": "Whānau"
+    },
+    {
+      "related_to": "Hapū"
+    },
+    {
+      "related_to": "Iwi"
+    },
+    {
+      "mentors": "Rangatahi"
+    },
+    {
+      "holds": "Mana"
+    },
+    {
+      "possesses": "Tapu"
+    },
+    {
+      "transmits": "Kōrero"
+    },
+    {
+      "involved_in": "Marae"
+    },
+    {
+      "represents": "Cultural heritage"
+    }
+  ]
+}

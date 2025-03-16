@@ -1,0 +1,47 @@
+{
+  "entity": "Science",
+  "properties": {
+    "instance_of": "Academic discipline",
+    "field_of_study": "Knowledge",
+    "methodology": "Scientific method",
+    "goal": "Understanding nature",
+    "scope": "Universe",
+    "systematic_approach": "True",
+    "interdisciplinary": "True",
+    "language": "Mathematics",
+    "peer_review": "Essential",
+    "publication_type": "Journal articles"
+  },
+  "relationship": [
+    {
+      "subfield_of": "Knowledge"
+    },
+    {
+      "employs": "Scientific method"
+    },
+    {
+      "related_to": "Mathematics"
+    },
+    {
+      "overlaps_with": "Technology"
+    },
+    {
+      "influences": "Medicine"
+    },
+    {
+      "supports": "Engineering"
+    },
+    {
+      "requires": "Observation"
+    },
+    {
+      "requires": "Experimentation"
+    },
+    {
+      "produces": "Scientific theories"
+    },
+    {
+      "contributes_to": "Innovation"
+    }
+  ]
+}

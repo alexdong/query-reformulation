@@ -1,0 +1,47 @@
+{
+  "entity": "Moon",
+  "properties": {
+    "type": "Natural Satellite",
+    "diameter": "3,474 km",
+    "orbital_period": "27.3 days",
+    "distance_from_Earth": "384,400 km",
+    "density": "3.344 g/cm³",
+    "surface_gravity": "1.62 m/s²",
+    "atmosphere": "Exosphere",
+    "temperature_range": "-173 to 127 °C",
+    "composition": "Rock and Metal",
+    "named_after": "Luna (Roman goddess)"
+  },
+  "relationship": [
+    {
+      "orbits": "Earth"
+    },
+    {
+      "is_satellite_of": "Earth"
+    },
+    {
+      "gravitational_influence_on": "Earth"
+    },
+    {
+      "tides_caused_by": "Earth"
+    },
+    {
+      "part_of": "Solar System"
+    },
+    {
+      "studied_by": "NASA"
+    },
+    {
+      "explored_by": "Apollo program"
+    },
+    {
+      "has_feature": "Mare Tranquillitatis"
+    },
+    {
+      "has_feature": "South Pole-Aitken Basin"
+    },
+    {
+      "influenced_by": "Lunar calendar"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Thread (programming)",
+  "properties": {
+    "instance_of": "Programming language",
+    "paradigm": "Concurrent, Parallel",
+    "creator": "Leslie Lamport",
+    "year_created": "1978",
+    "purpose": "Distributed systems",
+    "data_type": "Message passing",
+    "formal_language": "Yes",
+    "abstraction_level": "High",
+    "influenced": "Actor model",
+    "status": "Active"
+  },
+  "relationship": [
+    {
+      "developed_by": "Leslie Lamport"
+    },
+    {
+      "influenced": "Erlang"
+    },
+    {
+      "influenced": "Go"
+    },
+    {
+      "related_to": "Actor model"
+    },
+    {
+      "used_in": "Distributed systems"
+    },
+    {
+      "concept_of": "Time warp"
+    },
+    {
+      "alternative_to": "Message passing"
+    },
+    {
+      "formalized_in": "Theoretical computer science"
+    },
+    {
+      "application": "Fault-tolerant systems"
+    },
+    {
+      "related_to": "Concurrency"
+    }
+  ]
+}

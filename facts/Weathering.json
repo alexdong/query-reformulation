@@ -1,0 +1,47 @@
+{
+  "entity": "Weathering",
+  "properties": {
+    "type": "Geological process",
+    "definition": "Breakdown of rocks",
+    "agent": "Atmospheric conditions",
+    "scale": "Microscopic to macroscopic",
+    "timeframe": "Long-term",
+    "classification": "Physical & Chemical",
+    "location": "Earth's surface",
+    "impact": "Soil formation",
+    "influence": "Climate",
+    "result": "Sediment"
+  },
+  "relationship": [
+    {
+      "causes": "Erosion"
+    },
+    {
+      "part_of": "Geological cycle"
+    },
+    {
+      "type": "Physical weathering"
+    },
+    {
+      "type": "Chemical weathering"
+    },
+    {
+      "affects": "Rocks"
+    },
+    {
+      "results_in": "Sediment"
+    },
+    {
+      "influenced_by": "Temperature"
+    },
+    {
+      "influenced_by": "Water"
+    },
+    {
+      "influenced_by": "Wind"
+    },
+    {
+      "related_to": "Soil"
+    }
+  ]
+}

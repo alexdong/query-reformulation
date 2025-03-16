@@ -1,0 +1,47 @@
+{
+  "entity": "Indonesia",
+  "properties": {
+    "capital": "Jakarta",
+    "official_language": "Indonesian",
+    "population": "277.5 million (2023)",
+    "area_km2": "1,904,569",
+    "currency": "Indonesian Rupiah",
+    "government": "Unitary presidential republic",
+    "largest_city": "Jakarta",
+    "continent": "Asia",
+    "national_anthem": "Indonesia Raya",
+    "independence_date": "1949"
+  },
+  "relationship": [
+    {
+      "part_of": "Southeast Asia"
+    },
+    {
+      "borders": "Timor-Leste"
+    },
+    {
+      "borders": "Papua New Guinea"
+    },
+    {
+      "member_of": "ASEAN"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "has_part": "Sumatra"
+    },
+    {
+      "has_part": "Java"
+    },
+    {
+      "has_part": "Kalimantan"
+    },
+    {
+      "has_part": "Sulawesi"
+    },
+    {
+      "influenced_by": "Hinduism"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Black Sea",
+  "properties": {
+    "type": "Sea",
+    "area": "164,000 sq mi",
+    "max_depth": "2,212 m",
+    "average_depth": "1,264 m",
+    "salinity": "17.5‰",
+    "location": "Eastern Europe",
+    "countries_bordering": "Bulgaria, Georgia, Romania, Russia, Turkey, Ukraine",
+    "outlet": "Sea of Marmara",
+    "drainage_area": "2,040,000 sq mi",
+    "geological_age": "Mesozoic"
+  },
+  "relationship": [
+    {
+      "part_of": "Atlantic Ocean"
+    },
+    {
+      "connected_to": "Sea of Marmara"
+    },
+    {
+      "flows_into": "Bosporus"
+    },
+    {
+      "flows_into": "Kerch Strait"
+    },
+    {
+      "tributary_of": "Danube"
+    },
+    {
+      "tributary_of": "Dnieper"
+    },
+    {
+      "tributary_of": "Don"
+    },
+    {
+      "contains": "Chornomorna Bioprospect"
+    },
+    {
+      "located_in": "Eastern Europe"
+    },
+    {
+      "adjacent_to": "Caucasus"
+    }
+  ]
+}

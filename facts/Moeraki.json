@@ -1,0 +1,47 @@
+{
+  "entity": "Moeraki",
+  "properties": {
+    "type": "Town",
+    "region": "Otago",
+    "country": "New Zealand",
+    "population": "Approximately 1000",
+    "latitude": "-45.075",
+    "longitude": "170.941",
+    "economy": "Agriculture, Tourism",
+    "foundation_date": "1854",
+    "named_after": "Moeraki (Pacific Island)",
+    "time_zone": "NZDT"
+  },
+  "relationship": [
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "near": "Moeraki Beach"
+    },
+    {
+      "has_landmark": "Moeraki Boulders"
+    },
+    {
+      "influenced_by": "Māori culture"
+    },
+    {
+      "has_industry": "Agriculture"
+    },
+    {
+      "has_industry": "Tourism"
+    },
+    {
+      "has_attraction": "Moeraki Lighthouse"
+    },
+    {
+      "connected_to": "State Highway 1"
+    },
+    {
+      "historical_event": "European settlement"
+    }
+  ]
+}

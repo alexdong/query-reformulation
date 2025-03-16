@@ -1,0 +1,47 @@
+{
+  "entity": "Tā moko",
+  "properties": {
+    "type": "Body modification",
+    "origin": "Māori culture",
+    "location": "New Zealand",
+    "technique": "Hand-tapped",
+    "pigment": "Natural dyes",
+    "purpose": "Identity, status, genealogy",
+    "historical_context": "Pre-European contact",
+    "revival": "Late 20th century",
+    "gender_specific": "Historically, male and female designs",
+    "art_form": "Traditional Māori art"
+  },
+  "relationship": [
+    {
+      "part_of": "Māori art"
+    },
+    {
+      "related_to": "Tāwera"
+    },
+    {
+      "related_to": "Uki"
+    },
+    {
+      "influenced_by": "Ancestral spirits"
+    },
+    {
+      "practiced_by": "Māori people"
+    },
+    {
+      "associated_with": "Whakapapa"
+    },
+    {
+      "represents": "Genealogy"
+    },
+    {
+      "requires": "Chisel (uhi)"
+    },
+    {
+      "location": "Face, body"
+    },
+    {
+      "cultural_significance": "Important cultural marker"
+    }
+  ]
+}

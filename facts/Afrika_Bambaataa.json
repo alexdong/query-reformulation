@@ -1,0 +1,47 @@
+{
+  "entity": "Afrika Bambaataa",
+  "properties": {
+    "birth_name": "Kevin Donovan",
+    "birth_date": "1951-01-17",
+    "birth_place": "The Bronx, New York City",
+    "occupation": "DJ, Record Producer, Rapper",
+    "genre": "Hip Hop, Electro",
+    "nationality": "American",
+    "active_years": "1979–present",
+    "instrument": "Turntables",
+    "label": "Beat Box Records",
+    "award": "Grammy Hall of Fame Award"
+  },
+  "relationship": [
+    {
+      "founder_of": "Zulu Nation"
+    },
+    {
+      "influenced": "Afrika Islam"
+    },
+    {
+      "influenced": "Grandmaster Flash"
+    },
+    {
+      "influenced": "Kool Herc"
+    },
+    {
+      "member_of": "Universal Zulu Nation"
+    },
+    {
+      "collaborated_with": "James Brown"
+    },
+    {
+      "produced_for": "Hashim"
+    },
+    {
+      "genre_influenced": "Electro-funk"
+    },
+    {
+      "performed_at": "Electric Lady Studios"
+    },
+    {
+      "associated_with": "Hip Hop Culture"
+    }
+  ]
+}

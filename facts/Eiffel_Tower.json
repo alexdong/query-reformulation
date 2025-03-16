@@ -1,0 +1,47 @@
+{
+  "entity": "Eiffel Tower",
+  "properties": {
+    "instance_of": "Iron lattice tower",
+    "location": "Paris",
+    "architect": "Gustave Eiffel",
+    "height": "330 m",
+    "construction_start": "1887",
+    "construction_end": "1889",
+    "material": "Wrought iron",
+    "purpose": "Observation tower",
+    "design_style": "Wrought-iron lattice",
+    "UNESCO_status": "World Heritage Site"
+  },
+  "relationship": [
+    {
+      "located_in": "Paris"
+    },
+    {
+      "designed_by": "Gustave Eiffel"
+    },
+    {
+      "part_of": "7th arrondissement of Paris"
+    },
+    {
+      "influenced": "Art Nouveau"
+    },
+    {
+      "attracts": "Tourist"
+    },
+    {
+      "landmark_in": "Île-de-France"
+    },
+    {
+      "built_during": "Third Republic"
+    },
+    {
+      "featured_in": "Film"
+    },
+    {
+      "has_part": "Observation deck"
+    },
+    {
+      "has_part": "Restaurant"
+    }
+  ]
+}

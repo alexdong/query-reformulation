@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand falcon",
+  "properties": {
+    "scientific_name": "Falco novaeseelandiae",
+    "conservation_status": "Endangered",
+    "wingspan": "120-160 cm",
+    "weight": "640-940 g",
+    "diet": "Birds, small mammals",
+    "habitat": "Diverse, open landscapes",
+    "distribution": "New Zealand",
+    "plumage": "Blue-grey, black markings",
+    "threats": "Introduced predators, habitat loss",
+    "average_lifespan": "12-24 years"
+  },
+  "relationship": [
+    {
+      "is_a": "Falcon"
+    },
+    {
+      "family": "Falconidae"
+    },
+    {
+      "native_to": "New Zealand"
+    },
+    {
+      "prey_on": "Grey fantail"
+    },
+    {
+      "prey_on": "Weka"
+    },
+    {
+      "threatened_by": "Stoat"
+    },
+    {
+      "threatened_by": "Feral cat"
+    },
+    {
+      "conservation_effort": "Recovery Program"
+    },
+    {
+      "part_of_ecosystem": "New Zealand ecosystem"
+    },
+    {
+      "related_to": "Kererū"
+    }
+  ]
+}

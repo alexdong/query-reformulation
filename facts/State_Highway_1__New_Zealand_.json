@@ -1,0 +1,47 @@
+{
+  "entity": "State Highway 1 (New Zealand)",
+  "properties": {
+    "type": "State Highway",
+    "country": "New Zealand",
+    "length_km": "679",
+    "route_number": "1",
+    "primary_surface": "Asphalt",
+    "major_cities_served": "Auckland, Wellington, Christchurch",
+    "designation": "Main Trunk Route",
+    "part_of": "New Zealand State Highway Network",
+    "established": "1923",
+    "toll_road": "No"
+  },
+  "relationship": [
+    {
+      "connects": "Auckland"
+    },
+    {
+      "connects": "Wellington"
+    },
+    {
+      "connects": "Christchurch"
+    },
+    {
+      "crosses": "North Island"
+    },
+    {
+      "crosses": "South Island"
+    },
+    {
+      "part_of": "New Zealand road network"
+    },
+    {
+      "managed_by": "New Zealand Transport Agency"
+    },
+    {
+      "route_predecessor": "Main Trunk Road"
+    },
+    {
+      "adjacent_to": "Pacific Ocean"
+    },
+    {
+      "passes_through": "National Park"
+    }
+  ]
+}

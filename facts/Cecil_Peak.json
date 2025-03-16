@@ -1,0 +1,47 @@
+{
+  "entity": "Cecil Peak",
+  "properties": {
+    "location": "Queenstown, New Zealand",
+    "elevation": "1949 m",
+    "type": "Mountain",
+    "region": "Otago",
+    "geological_era": "Tertiary",
+    "formation": "Volcanic",
+    "prominence": "1,335 m",
+    "coordinates": "45°18′S 168°17′E",
+    "part_of": "The Remarkables",
+    "view": "Lake Wakatipu"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "The Remarkables"
+    },
+    {
+      "near": "Queenstown"
+    },
+    {
+      "overlooks": "Lake Wakatipu"
+    },
+    {
+      "contains": "Cecil Track"
+    },
+    {
+      "adjacent_to": "Lake Wakatipu"
+    },
+    {
+      "geology": "Tertiary Period"
+    },
+    {
+      "formed_by": "Volcanism"
+    },
+    {
+      "climbed_by": "Hikers"
+    },
+    {
+      "viewed_from": "Queenstown Skyline Gondola"
+    }
+  ]
+}

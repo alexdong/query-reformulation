@@ -1,0 +1,47 @@
+{
+  "entity": "Partick Thistle Football Club",
+  "properties": {
+    "instance_of": "Football club",
+    "founded": "1882",
+    "location": "Glasgow",
+    "country": "Scotland",
+    "league": "Scottish Championship",
+    "nickname": "The Jags",
+    "home_stadium": "Firhill Stadium",
+    "colours": "Red and White",
+    "owner": "David Dobbins",
+    "manager": "Kris Doolan"
+  },
+  "relationship": [
+    {
+      "plays_in": "Scottish football"
+    },
+    {
+      "located_in": "Glasgow City"
+    },
+    {
+      "member_of": "Scottish Professional Football League"
+    },
+    {
+      "rival": "Queen's Park"
+    },
+    {
+      "plays_at": "Firhill Stadium"
+    },
+    {
+      "competed_in": "Scottish Cup"
+    },
+    {
+      "competed_in": "Scottish League Cup"
+    },
+    {
+      "former_player": "Allan McGregor"
+    },
+    {
+      "former_player": "Chris Erskine"
+    },
+    {
+      "successor_of": "Vale of Leven"
+    }
+  ]
+}

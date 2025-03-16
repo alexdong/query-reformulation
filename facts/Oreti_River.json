@@ -1,0 +1,47 @@
+{
+  "entity": "Oreti River",
+  "properties": {
+    "type": "River",
+    "location": "Southland, New Zealand",
+    "length": "138 km",
+    "source": "Takitimu Mountains",
+    "mouth": "Foveaux Strait",
+    "tributary_of": "Foveaux Strait",
+    "basin_area": "2,340 km²",
+    "discharge": "170 m³/s",
+    "region": "Southland Region",
+    "name_origin": "Māori language"
+  },
+  "relationship": [
+    {
+      "flows_through": "Southland Region"
+    },
+    {
+      "source_located_in": "Takitimu Mountains"
+    },
+    {
+      "empties_into": "Foveaux Strait"
+    },
+    {
+      "part_of": "Southland District"
+    },
+    {
+      "tributary_of": "Foveaux Strait"
+    },
+    {
+      "located_in_country": "New Zealand"
+    },
+    {
+      "flows_past": "Te Anau"
+    },
+    {
+      "flows_past": "Fiordland National Park"
+    },
+    {
+      "has_tributary": "Waiau River"
+    },
+    {
+      "adjacent_to": "Fiordland National Park"
+    }
+  ]
+}

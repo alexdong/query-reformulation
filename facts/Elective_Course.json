@@ -1,0 +1,47 @@
+{
+  "entity": "Elective Course",
+  "properties": {
+    "instance_of": "Educational Program",
+    "type": "Course",
+    "purpose": "Student Choice",
+    "requirement": "Optional",
+    "credit_hours": "Variable",
+    "level": "Undergraduate/Graduate",
+    "subject_area": "Diverse",
+    "assessment": "Graded",
+    "availability": "Scheduled",
+    "institution": "Educational Institution"
+  },
+  "relationship": [
+    {
+      "part_of": "Curriculum"
+    },
+    {
+      "offered_by": "University"
+    },
+    {
+      "requires": "Prerequisites"
+    },
+    {
+      "related_to": "Major"
+    },
+    {
+      "related_to": "Minor"
+    },
+    {
+      "taught_by": "Professor"
+    },
+    {
+      "contributes_to": "Degree"
+    },
+    {
+      "overlaps_with": "Core Course"
+    },
+    {
+      "alternative_to": "Required Course"
+    },
+    {
+      "supports": "Student Interests"
+    }
+  ]
+}

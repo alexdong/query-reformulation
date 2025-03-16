@@ -1,0 +1,47 @@
+{
+  "entity": "Hybridity",
+  "properties": {
+    "definition": "Combination of different elements",
+    "origin_concept": "Postcolonial theory",
+    "related_to": "Cultural exchange",
+    "field_of_study": "Literary theory",
+    "key_thinker": "Homi K. Bhabha",
+    "aspect": "Identity formation",
+    "impact": "Challenges essentialism",
+    "focus": "Ambiguity and in-betweenness",
+    "type": "Conceptual framework",
+    "application": "Analysis of cultural products"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Postcolonialism"
+    },
+    {
+      "related_to": "Cultural studies"
+    },
+    {
+      "developed_by": "Homi K. Bhabha"
+    },
+    {
+      "challenges": "Essentialism"
+    },
+    {
+      "analyzes": "Cultural products"
+    },
+    {
+      "impacts": "Identity"
+    },
+    {
+      "associated_with": "Mimicry"
+    },
+    {
+      "related_to": "Globalization"
+    },
+    {
+      "concept_in": "Literary theory"
+    },
+    {
+      "example_of": "Cultural blending"
+    }
+  ]
+}

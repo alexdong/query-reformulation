@@ -1,0 +1,47 @@
+{
+  "entity": "Baroque",
+  "properties": {
+    "style_of": "Art",
+    "period": "1600-1750",
+    "origin": "Rome",
+    "characterized_by": "Ornamentation, Drama, Grandeur",
+    "preceding_style": "Renaissance",
+    "succeeding_style": "Rococo",
+    "influenced_by": "Counter-Reformation",
+    "prominent_mediums": "Painting, Sculpture, Architecture, Music",
+    "key_composers": "Bach, Handel, Vivaldi",
+    "geographic_spread": "Europe, Latin America"
+  },
+  "relationship": [
+    {
+      "influenced": "Rococo"
+    },
+    {
+      "preceded_by": "Renaissance"
+    },
+    {
+      "part_of": "Art History"
+    },
+    {
+      "associated_with": "Counter-Reformation"
+    },
+    {
+      "artist": "Gian Lorenzo Bernini"
+    },
+    {
+      "artist": "Caravaggio"
+    },
+    {
+      "architect": "Christopher Wren"
+    },
+    {
+      "composer": "Johann Sebastian Bach"
+    },
+    {
+      "influenced": "Neoclassical"
+    },
+    {
+      "example_of": "Palace of Versailles"
+    }
+  ]
+}

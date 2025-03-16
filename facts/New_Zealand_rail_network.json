@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand rail network",
+  "properties": {
+    "type": "Railway network",
+    "country": "New Zealand",
+    "total_length": "4,483 km",
+    "gauge": "1067 mm",
+    "owner": "New Zealand Government",
+    "operator": "KiwiRail",
+    "electrification": "Limited",
+    "freight_focus": "Yes",
+    "passenger_service": "Yes",
+    "network_status": "Partially operational"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand transport system"
+    },
+    {
+      "operates_service": "KiwiRail"
+    },
+    {
+      "connects_to": "Auckland"
+    },
+    {
+      "connects_to": "Wellington"
+    },
+    {
+      "connects_to": "Christchurch"
+    },
+    {
+      "serves_region": "North Island"
+    },
+    {
+      "serves_region": "South Island"
+    },
+    {
+      "uses_technology": "Diesel locomotives"
+    },
+    {
+      "historical_significance": "Early colonial transport"
+    },
+    {
+      "impacts": "New Zealand economy"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Southern Alps",
+  "properties": {
+    "location": "New Zealand",
+    "type": "Mountain range",
+    "length": "340 km",
+    "highest_point": "Mount Cook",
+    "area": "15,000 km²",
+    "formation": "Plate tectonics",
+    "geology": "Sedimentary, metamorphic, igneous",
+    "climate": "Alpine",
+    "biodiversity": "High",
+    "average_elevation": "1,650 m"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "contains": "Mount Cook"
+    },
+    {
+      "adjacent_to": "West Coast Region"
+    },
+    {
+      "adjacent_to": "Canterbury Region"
+    },
+    {
+      "influences": "New Zealand climate"
+    },
+    {
+      "provides_water_to": "Waimakariri River"
+    },
+    {
+      "provides_water_to": "Hokitika River"
+    },
+    {
+      "supports": "Glaciers"
+    },
+    {
+      "habitat_for": "Kea"
+    },
+    {
+      "influences": "Tourism"
+    }
+  ]
+}

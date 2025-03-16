@@ -1,0 +1,47 @@
+{
+  "entity": "Hull City A.F.C.",
+  "properties": {
+    "instance_of": "Football club",
+    "founded": "1902",
+    "location": "Hull, England",
+    "league": "Championship",
+    "ground": "MKM Stadium",
+    "owner": "Acun Ilicali",
+    "nickname": "The Tigers",
+    "colours": "Black and Gold",
+    "manager": "Liam Rosenior",
+    "company_type": "Limited company"
+  },
+  "relationship": [
+    {
+      "plays_in": "English football league system"
+    },
+    {
+      "located_in": "Hull}, England"
+    },
+    {
+      "member_of": "English Football League"
+    },
+    {
+      "rivalry": "Sheffield Wednesday"
+    },
+    {
+      "plays_at": "MKM Stadium"
+    },
+    {
+      "founded_by": "George Elderton"
+    },
+    {
+      "has_sponsor": "William Hill"
+    },
+    {
+      "competed_in": "FA Cup"
+    },
+    {
+      "competed_in": "League Cup"
+    },
+    {
+      "has_player": "Liam Delap"
+    }
+  ]
+}

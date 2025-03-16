@@ -1,0 +1,47 @@
+{
+  "entity": "Northern Ireland",
+  "properties": {
+    "instance_of": "Country",
+    "capital": "Belfast",
+    "official_language": "English",
+    "population_2021": "1,903,166",
+    "area_km2": "13,876",
+    "currency": "Pound Sterling",
+    "part_of": "United Kingdom",
+    "time_zone": "GMT+1",
+    "major_religion": "Protestantism",
+    "geography": "Coastal, hilly"
+  },
+  "relationship": [
+    {
+      "part_of": "United Kingdom"
+    },
+    {
+      "borders": "Republic of Ireland"
+    },
+    {
+      "capital_city": "Belfast"
+    },
+    {
+      "historical_conflict": "The Troubles"
+    },
+    {
+      "influenced_by": "Celtic culture"
+    },
+    {
+      "member_of": "Council of Europe"
+    },
+    {
+      "has_region": "County Antrim"
+    },
+    {
+      "has_region": "County Down"
+    },
+    {
+      "has_region": "County Londonderry"
+    },
+    {
+      "has_region": "County Tyrone"
+    }
+  ]
+}

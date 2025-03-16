@@ -1,0 +1,47 @@
+{
+  "entity": "New South Wales",
+  "properties": {
+    "instance_of": "State",
+    "capital": "Sydney",
+    "country": "Australia",
+    "area_km2": "252,320",
+    "population_2021": "8,690,732",
+    "official_language": "English",
+    "sovereign": "Elizabeth II",
+    "governor": "Margaret Beazley",
+    "premier": "Chris Minns",
+    "established": "1788"
+  },
+  "relationship": [
+    {
+      "part_of": "Australia"
+    },
+    {
+      "borders": "Queensland"
+    },
+    {
+      "borders": "Victoria"
+    },
+    {
+      "borders": "South Australia"
+    },
+    {
+      "contains": "Sydney"
+    },
+    {
+      "contains": "Canberra"
+    },
+    {
+      "contains": "Newcastle"
+    },
+    {
+      "river_flows_through": "Murrumbidgee River"
+    },
+    {
+      "river_flows_through": "Hawkesbury River"
+    },
+    {
+      "influenced_by": "First peoples of Australia"
+    }
+  ]
+}

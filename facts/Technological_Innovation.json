@@ -1,0 +1,47 @@
+{
+  "entity": "Technological Innovation",
+  "properties": {
+    "definition": "New products/processes",
+    "driver": "Market need, Research",
+    "type": "Process",
+    "impact": "Economic, Social",
+    "measurement": "Patent count, Adoption rate",
+    "stage": "Ideation, Development, Implementation",
+    "risk": "High",
+    "reward": "High",
+    "category": "Engineering",
+    "example": "Internet, Smartphone"
+  },
+  "relationship": [
+    {
+      "drives": "Economic Growth"
+    },
+    {
+      "requires": "Research and Development"
+    },
+    {
+      "leads_to": "Product Development"
+    },
+    {
+      "impacts": "Society"
+    },
+    {
+      "influenced_by": "Scientific Discovery"
+    },
+    {
+      "related_to": "Automation"
+    },
+    {
+      "part_of": "Progress"
+    },
+    {
+      "facilitates": "Globalization"
+    },
+    {
+      "requires": "Investment"
+    },
+    {
+      "linked_to": "Digital Transformation"
+    }
+  ]
+}

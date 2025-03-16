@@ -1,0 +1,47 @@
+{
+  "entity": "Southern Culture",
+  "properties": {
+    "region": "Southern United States",
+    "history": "Antebellum South, Civil War, Reconstruction",
+    "music_genre": "Blues, Country, Gospel",
+    "cuisine": "Soul Food, Barbecue, Fried Chicken",
+    "literature": "Southern Gothic, William Faulkner, Harper Lee",
+    "values": "Hospitality, Family, Tradition",
+    "dialect": "Southern American English",
+    "religion": "Protestant Christianity",
+    "social_structure": "Historically agrarian, hierarchical",
+    "art_style": "Folk Art, Outsider Art"
+  },
+  "relationship": [
+    {
+      "influenced_by": "African American Culture"
+    },
+    {
+      "influenced": "American Literature"
+    },
+    {
+      "part_of": "American Culture"
+    },
+    {
+      "associated_with": "Civil Rights Movement"
+    },
+    {
+      "location": "Appalachia"
+    },
+    {
+      "location": "Deep South"
+    },
+    {
+      "associated_with": "Sweet Tea"
+    },
+    {
+      "associated_with": "Porch"
+    },
+    {
+      "influenced_by": "European Colonialism"
+    },
+    {
+      "associated_with": "Confederacy"
+    }
+  ]
+}

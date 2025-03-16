@@ -1,0 +1,47 @@
+{
+  "entity": "Road Running",
+  "properties": {
+    "instance_of": "Sport",
+    "type": "Athletic event",
+    "surface": "Pavement/Road",
+    "distance_unit": "Kilometers/Miles",
+    "governing_body": "World Athletics",
+    "origin": "19th Century England",
+    "popularity": "Global",
+    "requires": "Endurance",
+    "common_distances": "5k, 10k, Half Marathon, Marathon",
+    "equipment": "Running shoes"
+  },
+  "relationship": [
+    {
+      "part_of": "Athletics"
+    },
+    {
+      "related_to": "Track and Field"
+    },
+    {
+      "athlete_participates_in": "Marathon"
+    },
+    {
+      "athlete_participates_in": "Half Marathon"
+    },
+    {
+      "athlete_participates_in": "10K run"
+    },
+    {
+      "governed_by": "World Athletics"
+    },
+    {
+      "influenced_by": "Foot Racing"
+    },
+    {
+      "requires_skill": "Cardiovascular fitness"
+    },
+    {
+      "related_to": "Ultrarunning"
+    },
+    {
+      "training_method": "Interval training"
+    }
+  ]
+}

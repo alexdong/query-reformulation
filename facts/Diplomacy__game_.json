@@ -1,0 +1,47 @@
+{
+  "entity": "Diplomacy (game)",
+  "properties": {
+    "instance_of": "Board game",
+    "designer": "Allan B. Calhamer",
+    "genre": "Strategy",
+    "number_of_players": "2-6",
+    "playing_time": "4-8 hours",
+    "complexity": "High",
+    "theme": "World War I",
+    "origin": "United States",
+    "publication_date": "1971",
+    "language": "English"
+  },
+  "relationship": [
+    {
+      "influenced": "Risk (game)"
+    },
+    {
+      "influenced": "Axis & Allies"
+    },
+    {
+      "requires": "Negotiation"
+    },
+    {
+      "requires": "Bluffing"
+    },
+    {
+      "requires": "Strategic planning"
+    },
+    {
+      "game_type": "Geopolitical"
+    },
+    {
+      "setting": "Europe"
+    },
+    {
+      "setting": "Middle East"
+    },
+    {
+      "country_represented": "Great Britain"
+    },
+    {
+      "country_represented": "Germany"
+    }
+  ]
+}

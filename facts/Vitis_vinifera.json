@@ -1,0 +1,47 @@
+{
+  "entity": "Vitis vinifera",
+  "properties": {
+    "scientific_name": "Vitis vinifera",
+    "common_name": "Grapevine",
+    "family": "Vitaceae",
+    "origin": "Near East",
+    "chromosome_number": "2n = 38",
+    "plant_type": "Woody vine",
+    "fruit_type": "Berry",
+    "cultivation_area": "Worldwide",
+    "economic_importance": "Wine, table grapes",
+    "lifespan": "30-100 years"
+  },
+  "relationship": [
+    {
+      "produces": "Wine"
+    },
+    {
+      "produces": "Table grape"
+    },
+    {
+      "part_of": "Vitaceae"
+    },
+    {
+      "cultivated_in": "Italy"
+    },
+    {
+      "cultivated_in": "France"
+    },
+    {
+      "cultivated_in": "Spain"
+    },
+    {
+      "related_to": "Vitis"
+    },
+    {
+      "used_for": "Raisins"
+    },
+    {
+      "hybridizes_with": "Vitis labrusca"
+    },
+    {
+      "contains": "Resveratrol"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Edinburgh Festival",
+  "properties": {
+    "type": "Festival",
+    "location": "Edinburgh, Scotland",
+    "start_date": "August",
+    "end_date": "August",
+    "founded": "1947",
+    "founder": "Rudolf Bing",
+    "genre": "Performing Arts",
+    "attendance": "2.5 million",
+    "website": "edfringe.com",
+    "duration": "3 weeks"
+  },
+  "relationship": [
+    {
+      "part_of": "Edinburgh"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "founded_by": "Rudolf Bing"
+    },
+    {
+      "includes": "Edinburgh Fringe"
+    },
+    {
+      "includes": "Edinburgh International Festival"
+    },
+    {
+      "includes": "Edinburgh International Film Festival"
+    },
+    {
+      "includes": "Edinburgh International Book Festival"
+    },
+    {
+      "influenced": "Performing Arts"
+    },
+    {
+      "genre": "Theatre"
+    },
+    {
+      "genre": "Music"
+    }
+  ]
+}

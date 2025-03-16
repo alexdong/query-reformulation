@@ -1,0 +1,47 @@
+{
+  "entity": "Charles Darwin",
+  "properties": {
+    "birth_date": "1809-02-12",
+    "birth_place": "Shrewsbury, England",
+    "death_date": "1882-11-19",
+    "death_place": "Down House, Kent",
+    "nationality": "British",
+    "occupation": "Naturalist",
+    "education": "Christ's College, Cambridge",
+    "scientific_field": "Biology",
+    "spouse": "Emma Wedgwood",
+    "known_for": "Theory of Evolution"
+  },
+  "relationship": [
+    {
+      "influenced": "Alfred Russel Wallace"
+    },
+    {
+      "studied_at": "Cambridge University"
+    },
+    {
+      "ship_voyage": "HMS Beagle"
+    },
+    {
+      "wrote": "On the Origin of Species"
+    },
+    {
+      "influenced": "Gregor Mendel"
+    },
+    {
+      "collaborated_with": "Joseph Dalton Hooker"
+    },
+    {
+      "father_of": "George Darwin"
+    },
+    {
+      "member_of": "Royal Society"
+    },
+    {
+      "theory_supports": "Natural Selection"
+    },
+    {
+      "studied": "Galapagos finches"
+    }
+  ]
+}

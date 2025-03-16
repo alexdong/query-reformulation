@@ -1,0 +1,47 @@
+{
+  "entity": "Hawkesbury River",
+  "properties": {
+    "type": "River",
+    "location": "New South Wales, Australia",
+    "length": "120 km",
+    "source": "Yarrunga",
+    "mouth": "Broken Bay",
+    "tributaries": "Grose River, Colo River",
+    "basin_area": "15,530 km²",
+    "discharge_volume": "280 m³/s",
+    "estuary_type": "Bar-built estuary",
+    "aboriginal_name": "Daruk"
+  },
+  "relationship": [
+    {
+      "flows_into": "Broken Bay"
+    },
+    {
+      "tributary_of": "Daruk"
+    },
+    {
+      "located_in": "New South Wales"
+    },
+    {
+      "part_of": "Sydney Basin"
+    },
+    {
+      "near": "Sydney"
+    },
+    {
+      "historical_settlement": "Windsor"
+    },
+    {
+      "historical_settlement": "Richmond"
+    },
+    {
+      "flora_and_fauna": "Dwarf River Oak"
+    },
+    {
+      "flora_and_fauna": "Sydney Blue Gum"
+    },
+    {
+      "transportation": "Hawkesbury River Ferries"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Francis Hutcheson",
+  "properties": {
+    "birth_date": "1694-03-29",
+    "birth_place": "Stranraer, Scotland",
+    "death_date": "1746-08-08",
+    "death_place": "Kilton, England",
+    "nationality": "Scottish",
+    "occupation": "Philosopher",
+    "academic_title": "Professor of Moral Philosophy",
+    "philosophical_school": "Moral Sense Theory",
+    "influenced_by": "Franciscus Gomarus",
+    "known_for": "An Inquiry into the Principles of Beauty and Morality"
+  },
+  "relationship": [
+    {
+      "educated_at": "University of Glasgow"
+    },
+    {
+      "taught_by": "William Cameron (philosopher)"
+    },
+    {
+      "influenced": "Adam Smith"
+    },
+    {
+      "influenced": "David Hume"
+    },
+    {
+      "influenced": "Joseph Butler"
+    },
+    {
+      "student_of": "John Simson"
+    },
+    {
+      "professor_of": "University of Glasgow"
+    },
+    {
+      "work_published": "An Inquiry into the Principles of Beauty and Morality"
+    },
+    {
+      "work_published": "System of Moral Philosophy"
+    },
+    {
+      "member_of": "Royal Society"
+    }
+  ]
+}

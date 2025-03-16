@@ -1,0 +1,47 @@
+{
+  "entity": "Victorian Era",
+  "properties": {
+    "start_year": "1837",
+    "end_year": "1901",
+    "monarch": "Victoria",
+    "location": "United Kingdom",
+    "era_type": "Historical Period",
+    "industrial_status": "Industrial Revolution",
+    "social_class_structure": "Rigid",
+    "dominant_religion": "Christianity",
+    "art_style": "Victorian Gothic",
+    "scientific_advancements": "Significant"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Georgian Era"
+    },
+    {
+      "followed_by": "Edwardian Era"
+    },
+    {
+      "influenced": "Modernism"
+    },
+    {
+      "related_to": "Industrial Revolution"
+    },
+    {
+      "affected_by": "British Empire"
+    },
+    {
+      "associated_with": "Charles Dickens"
+    },
+    {
+      "associated_with": "Queen Victoria"
+    },
+    {
+      "influenced": "Victorian literature"
+    },
+    {
+      "impacted": "Social Reform"
+    },
+    {
+      "related_to": "Photography"
+    }
+  ]
+}

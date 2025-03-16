@@ -1,0 +1,47 @@
+{
+  "entity": "Spanish Civil War",
+  "properties": {
+    "start_date": "1936-07-17",
+    "end_date": "1939-04-01",
+    "location": "Spain",
+    "belligerents": "Republic vs. Nationalists",
+    "cause": "Political Instability",
+    "outcome": "Nationalist Victory",
+    "casualties": "500,000+",
+    "type": "Civil War",
+    "ideologies": "Communism, Fascism",
+    "preceding_event": "Second Spanish Republic"
+  },
+  "relationship": [
+    {
+      "part_of": "European history"
+    },
+    {
+      "involved": "Francisco Franco"
+    },
+    {
+      "involved": "Manuel Azaña"
+    },
+    {
+      "supported_by": "Nazi Germany"
+    },
+    {
+      "supported_by": "Soviet Union"
+    },
+    {
+      "influenced": "World War II"
+    },
+    {
+      "led_to": "Francoist Spain"
+    },
+    {
+      "affected": "Catalonia"
+    },
+    {
+      "involved_faction": "International Brigades"
+    },
+    {
+      "preceded_by": "Second Spanish Republic"
+    }
+  ]
+}

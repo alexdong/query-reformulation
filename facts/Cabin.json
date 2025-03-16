@@ -1,0 +1,47 @@
+{
+  "entity": "Cabin",
+  "properties": {
+    "instance_of": "Building",
+    "type": "Dwelling",
+    "material": "Wood",
+    "size": "Small",
+    "location": "Rural",
+    "purpose": "Shelter",
+    "style": "Rustic",
+    "construction": "Simple",
+    "feature": "Fireplace",
+    "roof_type": "Gable"
+  },
+  "relationship": [
+    {
+      "located_in": "Forest"
+    },
+    {
+      "part_of": "House"
+    },
+    {
+      "used_by": "Human"
+    },
+    {
+      "predecessor_of": "House"
+    },
+    {
+      "design_style": "Log Cabin"
+    },
+    {
+      "associated_with": "Frontier"
+    },
+    {
+      "influenced": "Cottage"
+    },
+    {
+      "example_of": "Outbuilding"
+    },
+    {
+      "found_in": "North America"
+    },
+    {
+      "related_to": "Shelter"
+    }
+  ]
+}

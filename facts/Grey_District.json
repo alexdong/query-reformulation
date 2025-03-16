@@ -1,0 +1,47 @@
+{
+  "entity": "Grey District",
+  "properties": {
+    "type": "Local government area",
+    "region": "West Coast",
+    "country": "New Zealand",
+    "population_2018": "13,395",
+    "area_km2": "2,276",
+    "mayor": "John Bevan",
+    "established": "1989",
+    "timezone": "NZST",
+    "currency": "NZD",
+    "coordinates": "-43.4667, 170.0500"
+  },
+  "relationship": [
+    {
+      "part_of": "West Coast Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Greymouth"
+    },
+    {
+      "contains": "Hokitika"
+    },
+    {
+      "contains": "Runanga"
+    },
+    {
+      "neighbor_of": "Buller District"
+    },
+    {
+      "neighbor_of": "Westland District"
+    },
+    {
+      "governed_by": "Grey District Council"
+    },
+    {
+      "economic_activity": "Coal mining"
+    },
+    {
+      "economic_activity": "Tourism"
+    }
+  ]
+}

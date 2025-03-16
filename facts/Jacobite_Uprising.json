@@ -1,0 +1,47 @@
+{
+  "entity": "Jacobite Uprising",
+  "properties": {
+    "type": "Rebellion",
+    "start_date": "1745",
+    "end_date": "1746",
+    "location": "Scotland, England",
+    "cause": "Succession dispute",
+    "main_faction1": "Jacobites",
+    "main_faction2": "British Government",
+    "leader1": "Charles Edward Stuart",
+    "outcome": "British victory",
+    "historical_period": "18th century"
+  },
+  "relationship": [
+    {
+      "preceded_by": "1715 Rebellion"
+    },
+    {
+      "followed_by": "Further Jacobite plots"
+    },
+    {
+      "involved": "Charles Edward Stuart"
+    },
+    {
+      "involved": "Bonnie Prince Charlie"
+    },
+    {
+      "involved": "George II"
+    },
+    {
+      "battle_took_place_at": "Battle of Culloden"
+    },
+    {
+      "battle_took_place_at": "Battle of Prestonpans"
+    },
+    {
+      "influenced": "Scottish culture"
+    },
+    {
+      "part_of": "War of the Austrian Succession"
+    },
+    {
+      "resulted_in": "Clan system decline"
+    }
+  ]
+}

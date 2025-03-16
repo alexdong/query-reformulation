@@ -1,0 +1,47 @@
+{
+  "entity": "Global Cinema",
+  "properties": {
+    "definition": "Worldwide film industry",
+    "scope": "All countries",
+    "history_start": "Late 19th century",
+    "economic_impact": "Significant",
+    "art_form": "Film",
+    "distribution_method": "Theatrical, Streaming, Home Video",
+    "cultural_impact": "High",
+    "technology_used": "Digital Cinema, Analog Film",
+    "funding_sources": "Private, Government",
+    "audience_size": "Billions"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Silent Film"
+    },
+    {
+      "influenced": "Bollywood"
+    },
+    {
+      "influenced": "Korean Cinema"
+    },
+    {
+      "part_of": "Entertainment Industry"
+    },
+    {
+      "related_to": "Film Festivals"
+    },
+    {
+      "employs": "Film Directors"
+    },
+    {
+      "employs": "Actors"
+    },
+    {
+      "produces": "Feature Films"
+    },
+    {
+      "distributes_to": "Movie Theaters"
+    },
+    {
+      "impacts": "Cultural Exchange"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "William Burns (poet)",
+  "properties": {
+    "birth_date": "1789-03-27",
+    "birth_place": "Dalmarnock, Glasgow",
+    "death_date": "1868-07-23",
+    "death_place": "Glasgow, Scotland",
+    "occupation": "Poet",
+    "nationality": "Scottish",
+    "literary_movement": "Romanticism",
+    "known_for": "Scottish dialect poetry",
+    "genre": "Lyric poetry",
+    "language": "Scottish Gaelic, English"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Robert Burns"
+    },
+    {
+      "contemporary_of": "Lord Byron"
+    },
+    {
+      "contemporary_of": "Walter Scott"
+    },
+    {
+      "wrote_for": "The Glasgow Chronicle"
+    },
+    {
+      "wrote_for": "The Caledonian Mercury"
+    },
+    {
+      "member_of": "Glasgow Poet's Club"
+    },
+    {
+      "style_influenced": "Scottish literature"
+    },
+    {
+      "subject_of": "Burns's poems"
+    },
+    {
+      "themes_explored": "Rural life, Nature, Patriotism"
+    },
+    {
+      "collected_works": "The Works of William Burns"
+    }
+  ]
+}

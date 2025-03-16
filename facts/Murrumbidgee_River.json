@@ -1,0 +1,47 @@
+{
+  "entity": "Murrumbidgee River",
+  "properties": {
+    "type": "River",
+    "length": "2508 km",
+    "source": "Mount Kosciuszko",
+    "mouth": "Murray River",
+    "location": "New South Wales, Victoria, Australia",
+    "drainage_area": "24,800 km²",
+    "average_flow": "640 m³/s",
+    "basin_country": "Australia",
+    "tributaries": "Numerous",
+    "river_system": "Murray-Darling basin"
+  },
+  "relationship": [
+    {
+      "flows_into": "Murray River"
+    },
+    {
+      "located_in": "New South Wales"
+    },
+    {
+      "located_in": "Victoria"
+    },
+    {
+      "part_of": "Murray-Darling basin"
+    },
+    {
+      "tributary_of": "Murray-Darling basin"
+    },
+    {
+      "flows_through": "Wagga Wagga"
+    },
+    {
+      "flows_through": "Griffith"
+    },
+    {
+      "flows_through": "Balranald"
+    },
+    {
+      "supports_flora": "River red gum"
+    },
+    {
+      "supports_fauna": "Murray cod"
+    }
+  ]
+}

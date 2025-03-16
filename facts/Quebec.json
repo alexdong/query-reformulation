@@ -1,0 +1,47 @@
+{
+  "entity": "Quebec",
+  "properties": {
+    "instance_of": "Province",
+    "country": "Canada",
+    "capital": "Quebec City",
+    "official_language": "French",
+    "area_km2": "1546007",
+    "population_2021": "8500000",
+    "currency": "Canadian Dollar",
+    "time_zone": "Eastern Time",
+    "largest_city": "Montreal",
+    "founding_date": "1608"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "located_in": "North America"
+    },
+    {
+      "borders": "Ontario"
+    },
+    {
+      "borders": "New Brunswick"
+    },
+    {
+      "borders": "Newfoundland and Labrador"
+    },
+    {
+      "has_river": "Saint Lawrence River"
+    },
+    {
+      "has_city": "Montreal"
+    },
+    {
+      "has_city": "Quebec City"
+    },
+    {
+      "influenced_by": "French colonization"
+    },
+    {
+      "governed_by": "Premier of Quebec"
+    }
+  ]
+}

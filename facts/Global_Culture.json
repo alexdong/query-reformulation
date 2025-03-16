@@ -1,0 +1,47 @@
+{
+  "entity": "Global Culture",
+  "properties": {
+    "definition": "Shared values, beliefs, and practices",
+    "scope": "Worldwide",
+    "drivers": "Globalization, Technology, Migration",
+    "characteristics": "Interconnectedness, Hybridity, Homogenization, Localization",
+    "impact": "Cultural exchange, Identity formation",
+    "challenges": "Cultural appropriation, Loss of tradition",
+    "dominant_languages": "English, Mandarin Chinese, Spanish",
+    "art_forms": "Music, Film, Literature, Visual Arts",
+    "food_trends": "Fusion cuisine, Plant-based diets",
+    "fashion_trends": "Streetwear, Athleisure"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Cultural Diffusion"
+    },
+    {
+      "part_of": "Human Culture"
+    },
+    {
+      "related_to": "Globalization"
+    },
+    {
+      "impacts": "Local Cultures"
+    },
+    {
+      "promoted_by": "Internet"
+    },
+    {
+      "affected_by": "Migration"
+    },
+    {
+      "example_of": "K-Pop"
+    },
+    {
+      "example_of": "Bollywood"
+    },
+    {
+      "influenced": "World Music"
+    },
+    {
+      "impacts": "Consumerism"
+    }
+  ]
+}

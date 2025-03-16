@@ -1,0 +1,47 @@
+{
+  "entity": "Melanesia",
+  "properties": {
+    "type": "Region",
+    "location": "Southwest Pacific Ocean",
+    "area": "183100 km²",
+    "population": "7000000",
+    "languages": "Austronesian, Papuan",
+    "geography": "Island chain, volcanic",
+    "climate": "Tropical",
+    "culture": "Diverse, traditional",
+    "countries": "Fiji, Papua New Guinea, Solomon Islands, Vanuatu",
+    "biodiversity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "borders": "Micronesia"
+    },
+    {
+      "contains": "New Caledonia"
+    },
+    {
+      "contains": "Bougainville"
+    },
+    {
+      "influenced_by": "Austronesian expansion"
+    },
+    {
+      "influenced": "European colonization"
+    },
+    {
+      "has_culture": "Kastom"
+    },
+    {
+      "has_language": "Tok Pisin"
+    },
+    {
+      "has_resource": "Nickel"
+    },
+    {
+      "has_flora": "Rainforest"
+    }
+  ]
+}

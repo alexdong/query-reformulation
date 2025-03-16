@@ -1,0 +1,47 @@
+{
+  "entity": "Spinning (dance)",
+  "properties": {
+    "instance_of": "Dance move",
+    "type": "Circular movement",
+    "origin": "African dance",
+    "style": "Breakdancing, Vogue",
+    "music_genre": "Hip hop, Electronic",
+    "difficulty": "Intermediate",
+    "body_part_used": "Lower body",
+    "requires": "Balance, Coordination",
+    "related_move": "Popping, Locking",
+    "popularity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Breakdancing"
+    },
+    {
+      "related_to": "Vogueing"
+    },
+    {
+      "influenced_by": "African dance"
+    },
+    {
+      "performed_in": "Hip hop dance"
+    },
+    {
+      "requires": "Balance"
+    },
+    {
+      "requires": "Coordination"
+    },
+    {
+      "associated_with": "DJing"
+    },
+    {
+      "performed_by": "B-boys"
+    },
+    {
+      "often_seen_in": "Music videos"
+    },
+    {
+      "preceded_by": "Toprock"
+    }
+  ]
+}

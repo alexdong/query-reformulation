@@ -1,0 +1,47 @@
+{
+  "entity": "Maritime Law",
+  "properties": {
+    "definition": "Body of law governing ships and shipping",
+    "scope": "International & National",
+    "historical_origin": "Ancient maritime customs",
+    "primary_focus": "Shipping, navigation, commerce at sea",
+    "governing_document": "United Nations Convention on the Law of the Sea",
+    "related_fields": "Commercial Law, Admiralty Law, Environmental Law",
+    "jurisdiction": "Varies by flag state & location",
+    "key_concepts": "Collision, Salvage, Maritime Liens",
+    "application": "Shipping contracts, cargo claims, ship arrests",
+    "development": "Evolved through custom and treaties"
+  },
+  "relationship": [
+    {
+      "part_of": "Law"
+    },
+    {
+      "related_to": "Admiralty Law"
+    },
+    {
+      "governed_by": "United Nations Convention on the Law of the Sea"
+    },
+    {
+      "influences": "International Trade"
+    },
+    {
+      "deals_with": "Ship"
+    },
+    {
+      "deals_with": "Cargo"
+    },
+    {
+      "regulates": "Maritime Claims"
+    },
+    {
+      "impacts": "Shipping Industry"
+    },
+    {
+      "related_to": "Salvage"
+    },
+    {
+      "related_to": "Marine Insurance"
+    }
+  ]
+}

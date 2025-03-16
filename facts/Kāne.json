@@ -1,0 +1,47 @@
+{
+  "entity": "Kāne",
+  "properties": {
+    "type": "Hawaiian God",
+    "domain": "Creation",
+    "aspect": "Light, Fresh Water",
+    "pantheon": "Hawaiian Pantheon",
+    "gender": "Male",
+    "role": "Creator God",
+    "associated_element": "Water",
+    "symbol": "Lei",
+    "family": "Original Sky Father",
+    "mythological_origin": "Proto-Polynesian"
+  },
+  "relationship": [
+    {
+      "parent": "Proto-Polynesian Mythology"
+    },
+    {
+      "sibling_of": "Taʻaroa"
+    },
+    {
+      "spouse_of": "Hina"
+    },
+    {
+      "child_of": "Papa"
+    },
+    {
+      "child_of": "Honua-Kai-I-Kea"
+    },
+    {
+      "associated_with": "Maui"
+    },
+    {
+      "associated_with": "Pele"
+    },
+    {
+      "part_of": "Hawaiian Mythology"
+    },
+    {
+      "related_to": "Kumulipo"
+    },
+    {
+      "worshipped_in": "Hawaii"
+    }
+  ]
+}

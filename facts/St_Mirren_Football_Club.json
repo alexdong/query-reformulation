@@ -1,0 +1,47 @@
+{
+  "entity": "St Mirren Football Club",
+  "properties": {
+    "founded": "1877",
+    "location": "Paisley",
+    "country": "Scotland",
+    "league": "Scottish Premiership",
+    "ground": "The Simple Digital Arena",
+    "nickname": "The Buddies",
+    "colours": "Black and White",
+    "manager": "Steven Robinson",
+    "ownership": "St Mirren Football Club Ltd",
+    "supporters_club": "St Mirren Supporters Club"
+  },
+  "relationship": [
+    {
+      "plays_in": "Scottish Premiership"
+    },
+    {
+      "located_in": "Paisley"
+    },
+    {
+      "member_of": "Scottish Football League"
+    },
+    {
+      "rival": "Greenock Morton"
+    },
+    {
+      "plays_at": "The Simple Digital Arena"
+    },
+    {
+      "has_coach": "Steven Robinson"
+    },
+    {
+      "won_trophy": "Scottish Cup"
+    },
+    {
+      "member_of_league": "Scottish Football League"
+    },
+    {
+      "founded_in": "Paisley"
+    },
+    {
+      "has_sponsor": "Simple Digital"
+    }
+  ]
+}

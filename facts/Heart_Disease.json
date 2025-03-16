@@ -1,0 +1,47 @@
+{
+  "entity": "Heart Disease",
+  "properties": {
+    "type": "Disease",
+    "icd10": "I00-I29",
+    "affected_organ": "Heart",
+    "prevalence": "High",
+    "mortality_rate": "Significant",
+    "risk_factors": "Multiple",
+    "symptoms": "Varied",
+    "diagnosis_method": "Tests & Imaging",
+    "treatment_options": "Medication & Surgery",
+    "etiology": "Complex"
+  },
+  "relationship": [
+    {
+      "causes": "Coronary Artery Disease"
+    },
+    {
+      "prevents_with": "Healthy Diet"
+    },
+    {
+      "prevents_with": "Exercise"
+    },
+    {
+      "treats_with": "Medication"
+    },
+    {
+      "treats_with": "Angioplasty"
+    },
+    {
+      "associated_with": "Stroke"
+    },
+    {
+      "associated_with": "Hypertension"
+    },
+    {
+      "risk_factor_for": "Diabetes"
+    },
+    {
+      "research_area": "Cardiology"
+    },
+    {
+      "impacts": "Public Health"
+    }
+  ]
+}

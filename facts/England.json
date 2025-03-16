@@ -1,0 +1,47 @@
+{
+  "entity": "England",
+  "properties": {
+    "capital": "London",
+    "population": "56.5 million",
+    "area": "130,395 km²",
+    "official_language": "English",
+    "currency": "Pound Sterling",
+    "sovereign": "Charles III",
+    "part_of": "United Kingdom",
+    "largest_city": "London",
+    "time_zone": "GMT/BST",
+    "national_sport": "Football"
+  },
+  "relationship": [
+    {
+      "part_of": "United Kingdom"
+    },
+    {
+      "borders": "Wales"
+    },
+    {
+      "borders": "Scotland"
+    },
+    {
+      "located_in": "Europe"
+    },
+    {
+      "influenced": "Shakespeare"
+    },
+    {
+      "influenced": "Beatles"
+    },
+    {
+      "member_of": "European Space Agency"
+    },
+    {
+      "historical_part_of": "Roman Empire"
+    },
+    {
+      "historical_part_of": "Anglo-Saxon Kingdom"
+    },
+    {
+      "major_river": "River Thames"
+    }
+  ]
+}

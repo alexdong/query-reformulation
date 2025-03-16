@@ -1,0 +1,47 @@
+{
+  "entity": "After Life (TV series)",
+  "properties": {
+    "instance_of": "Comedy-drama series",
+    "creator": "Ricky Gervais",
+    "genre": "Dark comedy",
+    "country_of_origin": "United Kingdom",
+    "network": "Netflix",
+    "start_date": "2019-03-08",
+    "number_of_seasons": "3",
+    "setting": "Tonbridge, Kent",
+    "language": "English",
+    "theme": "Grief, Loss, Suicide"
+  },
+  "relationship": [
+    {
+      "creator_of": "Ricky Gervais"
+    },
+    {
+      "starring": "Ricky Gervais"
+    },
+    {
+      "genre_is": "Comedy"
+    },
+    {
+      "genre_is": "Drama"
+    },
+    {
+      "network_is": "Netflix"
+    },
+    {
+      "country_of_origin_is": "United Kingdom"
+    },
+    {
+      "influenced_by": "The Office"
+    },
+    {
+      "influenced_by": "Curb Your Enthusiasm"
+    },
+    {
+      "setting_location": "Tonbridge"
+    },
+    {
+      "has_episode": "After Life (TV series) episode 1"
+    }
+  ]
+}

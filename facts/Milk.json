@@ -1,0 +1,47 @@
+{
+  "entity": "Milk",
+  "properties": {
+    "type": "Food",
+    "nutrient": "Calcium",
+    "color": "White",
+    "taste": "Slightly sweet",
+    "origin": "Mammals",
+    "fat_content": "Varies",
+    "shelf_life": "Limited",
+    "source": "Cows, goats, sheep",
+    "protein_content": "High",
+    "uses": "Beverage, cooking"
+  },
+  "relationship": [
+    {
+      "produced_by": "Cow"
+    },
+    {
+      "contains": "Lactose"
+    },
+    {
+      "is_a": "Dairy product"
+    },
+    {
+      "processed_into": "Cheese"
+    },
+    {
+      "processed_into": "Yogurt"
+    },
+    {
+      "used_in": "Cereal"
+    },
+    {
+      "used_in": "Ice cream"
+    },
+    {
+      "alternative_to": "Plant-based milk"
+    },
+    {
+      "related_to": "Dairy farming"
+    },
+    {
+      "nutrient_source_for": "Human"
+    }
+  ]
+}

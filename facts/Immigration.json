@@ -1,0 +1,47 @@
+{
+  "entity": "Immigration",
+  "properties": {
+    "definition": "Movement of people to a new country",
+    "type": "Social process",
+    "driver": "Economic opportunity",
+    "legal_status": "Varies by country",
+    "impact": "Demographic change",
+    "economic_effect": "Labor force",
+    "cultural_effect": "Diversity",
+    "political_effect": "Policy debate",
+    "historical_context": "Ongoing process",
+    "measurement": "Net migration rate"
+  },
+  "relationship": [
+    {
+      "causes": "Economic disparity"
+    },
+    {
+      "impacts": "Host country"
+    },
+    {
+      "impacts": "Origin country"
+    },
+    {
+      "regulated_by": "Immigration law"
+    },
+    {
+      "related_to": "Refugee"
+    },
+    {
+      "related_to": "Emigration"
+    },
+    {
+      "influenced_by": "Globalization"
+    },
+    {
+      "studied_by": "Demography"
+    },
+    {
+      "policy_area": "Government"
+    },
+    {
+      "impacts": "Social integration"
+    }
+  ]
+}

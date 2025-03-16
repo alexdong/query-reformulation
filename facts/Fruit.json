@@ -1,0 +1,47 @@
+{
+  "entity": "Fruit",
+  "properties": {
+    "instance_of": "Food",
+    "type": "Plant Part",
+    "taste": "Sweet/Sour",
+    "color": "Variable",
+    "nutrient_rich": "True",
+    "source_of": "Vitamins",
+    "origin": "Worldwide",
+    "botanical_definition": "Mature Ovary",
+    "contains": "Seeds",
+    "classification": "Kingdom Plantae"
+  },
+  "relationship": [
+    {
+      "is_a": "Plant"
+    },
+    {
+      "part_of": "Tree"
+    },
+    {
+      "part_of": "Vine"
+    },
+    {
+      "contains": "Vitamin C"
+    },
+    {
+      "contains": "Fiber"
+    },
+    {
+      "related_to": "Vegetable"
+    },
+    {
+      "used_in": "Dessert"
+    },
+    {
+      "used_in": "Juice"
+    },
+    {
+      "cultivated_in": "Orchard"
+    },
+    {
+      "example_of": "Apple"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Te Wahipounamu",
+  "properties": {
+    "type": "World Heritage Site",
+    "location": "South Island, New Zealand",
+    "designation_date": "1990",
+    "area_km2": "2804",
+    "criteria": "Natural (vii, viii, x)",
+    "inscription": "422",
+    "managing_organization": "Department of Conservation",
+    "geological_era": "Tertiary",
+    "biodiversity_hotspot": "Yes",
+    "name_meaning": "Place of the Greenstone"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "contains": "Aoraki / Mount Cook"
+    },
+    {
+      "contains": "Hokitika Gorge"
+    },
+    {
+      "contains": "Lake Matheson"
+    },
+    {
+      "contains": "Fiordland National Park"
+    },
+    {
+      "contains": "Westland Tai Poutini National Park"
+    },
+    {
+      "adjacent_to": "Tasman Sea"
+    },
+    {
+      "features": "Glaciers"
+    },
+    {
+      "features": "Rainforest"
+    }
+  ]
+}

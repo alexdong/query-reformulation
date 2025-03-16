@@ -1,0 +1,47 @@
+{
+  "entity": "Grapevine",
+  "properties": {
+    "type": "Plant",
+    "family": "Vitaceae",
+    "genus": "Vitis",
+    "fruit": "Grape",
+    "origin": "Near East",
+    "uses": "Wine, Table grapes, Raisins",
+    "propagation": "Cutting, Grafting",
+    "lifespan": "30-100+ years",
+    "climate": "Temperate",
+    "economic_importance": "High"
+  },
+  "relationship": [
+    {
+      "produces": "Wine"
+    },
+    {
+      "part_of": "Vineyard"
+    },
+    {
+      "cultivated_in": "Italy"
+    },
+    {
+      "cultivated_in": "France"
+    },
+    {
+      "cultivated_in": "United States"
+    },
+    {
+      "related_to": "Viticulture"
+    },
+    {
+      "disease": "Plasmopara viticola"
+    },
+    {
+      "pests": "Grape Phylloxera"
+    },
+    {
+      "variety": "Cabernet Sauvignon"
+    },
+    {
+      "variety": "Chardonnay"
+    }
+  ]
+}

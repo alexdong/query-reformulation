@@ -1,0 +1,47 @@
+{
+  "entity": "SkyJump",
+  "properties": {
+    "type": "Thrill ride",
+    "manufacturer": "Gerstlauer",
+    "launch_method": "Cable lift",
+    "height": "30 m (98 ft)",
+    "drop_angle": "Nearly vertical",
+    "speed": "55 km/h (34 mph)",
+    "duration": "Approximately 30 seconds",
+    "first_year": "2016",
+    "location": "Gold Reef City",
+    "operating_company": "City Resorts"
+  },
+  "relationship": [
+    {
+      "located_in": "Gold Reef City"
+    },
+    {
+      "operated_by": "City Resorts"
+    },
+    {
+      "manufacturer_of": "Gerstlauer"
+    },
+    {
+      "type_of": "Amusement ride"
+    },
+    {
+      "similar_to": "Drop Tower"
+    },
+    {
+      "located_in_country": "South Africa"
+    },
+    {
+      "attraction_type": "Thrill ride"
+    },
+    {
+      "feature_of": "Theme park"
+    },
+    {
+      "designed_by": "Gerstlauer Amusement Rides"
+    },
+    {
+      "predecessor_of": "No known predecessor"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Premier Team",
+  "properties": {
+    "instance_of": "Sports team",
+    "sport": "Basketball",
+    "country": "Philippines",
+    "league": "Philippine Basketball Association (PBA)",
+    "founded": "1996",
+    "home_city": "Manila",
+    "team_color": "Red and White",
+    "owner": "San Miguel Corporation",
+    "arena": "Mall of Asia Arena",
+    "dissolved": "2012"
+  },
+  "relationship": [
+    {
+      "part_of": "San Miguel Corporation"
+    },
+    {
+      "competes_in": "Philippine Basketball Association (PBA)"
+    },
+    {
+      "coach": "Tim Cone"
+    },
+    {
+      "player": "Smokey Si"
+    },
+    {
+      "player": "Eric Castro"
+    },
+    {
+      "player": "Johnny Abarzua"
+    },
+    {
+      "rival": "Talk 'n Text"
+    },
+    {
+      "predecessor": "San Miguel Beermen"
+    },
+    {
+      "successor": "San Miguel Beermen"
+    },
+    {
+      "won_award": "Philippine Basketball Association Finals"
+    }
+  ]
+}

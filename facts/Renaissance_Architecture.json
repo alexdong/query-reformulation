@@ -1,0 +1,47 @@
+{
+  "entity": "Renaissance Architecture",
+  "properties": {
+    "style_period": "1400-1600",
+    "origin": "Italy",
+    "revival_of": "Classical Architecture",
+    "focus": "Humanism",
+    "symmetry": "Emphasized",
+    "proportion": "Key element",
+    "materials": "Stone, Brick, Marble",
+    "ornamentation": "Restrained",
+    "dome_usage": "Common",
+    "arches": "Rounded, Segmental"
+  },
+  "relationship": [
+    {
+      "influenced": "Baroque Architecture"
+    },
+    {
+      "preceded_by": "Gothic Architecture"
+    },
+    {
+      "influenced": "Neoclassical Architecture"
+    },
+    {
+      "architect": "Filippo Brunelleschi"
+    },
+    {
+      "architect": "Donato Bramante"
+    },
+    {
+      "architect": "Leon Battista Alberti"
+    },
+    {
+      "building_example": "St. Peter's Basilica"
+    },
+    {
+      "building_example": "Florence Cathedral"
+    },
+    {
+      "building_example": "Tempietto"
+    },
+    {
+      "influenced_art_movement": "High Renaissance"
+    }
+  ]
+}

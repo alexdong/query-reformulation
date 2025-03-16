@@ -1,0 +1,47 @@
+{
+  "entity": "Peggy's Cove",
+  "properties": {
+    "type": "Village",
+    "location": "Nova Scotia",
+    "province": "Nova Scotia",
+    "country": "Canada",
+    "lighthouse": "Peggy's Point Lighthouse",
+    "population": "Approximately 20",
+    "economy": "Tourism",
+    "established": "1861",
+    "geography": "Coastal",
+    "coordinates": "44°32′36″N 63°40′18″W"
+  },
+  "relationship": [
+    {
+      "located_in": "Nova Scotia"
+    },
+    {
+      "part_of": "Dartmouth Region"
+    },
+    {
+      "contains": "Peggy's Point Lighthouse"
+    },
+    {
+      "attraction_for": "Tourists"
+    },
+    {
+      "influenced_by": "Maritime history"
+    },
+    {
+      "featured_in": "Photography"
+    },
+    {
+      "subject_of": "Artwork"
+    },
+    {
+      "near": "Chester, Nova Scotia"
+    },
+    {
+      "has_landmark": "Schooner Viola"
+    },
+    {
+      "associated_with": "Legend of Peggy"
+    }
+  ]
+}

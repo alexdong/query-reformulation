@@ -1,0 +1,47 @@
+{
+  "entity": "Palmerston North",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Manawatū-Whanganui",
+    "population_2023": "86,700",
+    "established": "1850",
+    "mayor": "Tane Mahuta",
+    "latitude": "-40.35",
+    "longitude": "175.55",
+    "area_km2": "695",
+    "timezone": "NZST"
+  },
+  "relationship": [
+    {
+      "part_of": "Manawatū-Whanganui Region"
+    },
+    {
+      "located_in_country": "New Zealand"
+    },
+    {
+      "has_river": "Manawatu River"
+    },
+    {
+      "has_transport": "Palmerston North Airport"
+    },
+    {
+      "has_university": "Massey University"
+    },
+    {
+      "has_railway_station": "Palmerston North Railway Station"
+    },
+    {
+      "founded_by": "James Thain"
+    },
+    {
+      "influenced_by": "European settlement"
+    },
+    {
+      "economic_sector": "Agriculture"
+    },
+    {
+      "twin_city": "Hockenheim"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Mawson Station",
+  "properties": {
+    "type": "Research station",
+    "location": "Antarctica",
+    "country": "Australia",
+    "established": "1954",
+    "coordinates": "69°39′S 62°34′E",
+    "purpose": "Scientific research",
+    "operator": "Australian Antarctic Division",
+    "elevation": "150 m (492 ft)",
+    "population": "25 (summer), 15 (winter)",
+    "named_after": "Douglas Mawson"
+  },
+  "relationship": [
+    {
+      "part_of": "Australian Antarctic Territory"
+    },
+    {
+      "located_in": "Antarctica"
+    },
+    {
+      "operated_by": "Australian Antarctic Division"
+    },
+    {
+      "research_focus": "Atmospheric science"
+    },
+    {
+      "research_focus": "Glaciology"
+    },
+    {
+      "research_focus": "Marine biology"
+    },
+    {
+      "named_for": "Douglas Mawson"
+    },
+    {
+      "nearby": "Lambert Glacier"
+    },
+    {
+      "serviced_by": "Icebreaker"
+    },
+    {
+      "connected_to": "Casey Station"
+    }
+  ]
+}

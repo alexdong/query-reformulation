@@ -1,0 +1,47 @@
+{
+  "entity": "Tama River",
+  "properties": {
+    "type": "River",
+    "length": "171 km",
+    "source": "Chichibu Mountains",
+    "mouth": "Tokyo Bay",
+    "country": "Japan",
+    "basin_area": "5,169 km²",
+    "tributaries": "Many",
+    "discharge": "250 m³/s",
+    "drainage_area": "Tokyo, Kanagawa, Saitama, Yamanashi, Nagano",
+    "name_origin": "Tama clan"
+  },
+  "relationship": [
+    {
+      "flows_to": "Tokyo Bay"
+    },
+    {
+      "source_location": "Chichibu Mountains"
+    },
+    {
+      "located_in": "Japan"
+    },
+    {
+      "flows_through": "Tokyo"
+    },
+    {
+      "flows_through": "Kanagawa"
+    },
+    {
+      "flows_through": "Saitama"
+    },
+    {
+      "flows_through": "Yamanashi"
+    },
+    {
+      "flows_through": "Nagano"
+    },
+    {
+      "part_of": "Kantō region"
+    },
+    {
+      "tributary_of": "Pacific Ocean"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Proto-Austronesian",
+  "properties": {
+    "type": "Language",
+    "family": "Austronesian",
+    "reconstructed_date": "4000-1500 BC",
+    "geographic_origin": "Taiwan, Maritime Southeast Asia",
+    "status": "Reconstructed",
+    "vocabulary_size": "Estimated 200-300 roots",
+    "writing_system": "None (reconstructed)",
+    "phoneme_count": "Estimated 30-40",
+    "influence_on": "Austronesian languages",
+    "study_method": "Comparative method"
+  },
+  "relationship": [
+    {
+      "parent_language": "Hypothetical ancestor"
+    },
+    {
+      "descendant_language": "Malayo-Polynesian"
+    },
+    {
+      "descendant_language": "Formosan languages"
+    },
+    {
+      "related_to": "Austric hypothesis"
+    },
+    {
+      "studied_by": "Robert Blust"
+    },
+    {
+      "studied_by": "Paul Geraghty"
+    },
+    {
+      "influenced": "Maritime culture"
+    },
+    {
+      "geographic_distribution": "Austronesian migration"
+    },
+    {
+      "vocabulary_shares_with": "Austric languages"
+    },
+    {
+      "related_to": "Lexicostatistics"
+    }
+  ]
+}

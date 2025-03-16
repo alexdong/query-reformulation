@@ -1,0 +1,47 @@
+{
+  "entity": "Amazon Rainforest",
+  "properties": {
+    "area": "6.7 million km²",
+    "location": "South America",
+    "countries": "Brazil, Peru, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname, French Guiana",
+    "biodiversity": "Highest on Earth",
+    "average_rainfall": "2300 mm annually",
+    "average_temperature": "27°C",
+    "elevation": "0-3000m",
+    "dominant_biome": "Tropical Rainforest",
+    "river_system": "Amazon River",
+    "carbon_storage": "Significant"
+  },
+  "relationship": [
+    {
+      "part_of": "South America"
+    },
+    {
+      "contains": "Amazon River"
+    },
+    {
+      "influences": "Global Climate"
+    },
+    {
+      "supports": "Indigenous Peoples"
+    },
+    {
+      "threatened_by": "Deforestation"
+    },
+    {
+      "contains": "Jaguar"
+    },
+    {
+      "contains": "Macaw"
+    },
+    {
+      "contains": "Kapok Tree"
+    },
+    {
+      "adjacent_to": "Andes Mountains"
+    },
+    {
+      "studied_by": "Scientists"
+    }
+  ]
+}

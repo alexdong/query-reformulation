@@ -1,0 +1,47 @@
+{
+  "entity": "Bible",
+  "properties": {
+    "instance_of": "Religious text",
+    "genre": "Religious literature",
+    "original_language": "Hebrew, Aramaic, Greek",
+    "religious_tradition": "Abrahamic religions",
+    "number_of_books": "73 (Catholic/Orthodox), 66 (Protestant)",
+    "publication_date": "Various (compilation over centuries)",
+    "primary_language": "English",
+    "subject": "Theology, History, Morality",
+    "format": "Scripture",
+    "influence": "Western culture"
+  },
+  "relationship": [
+    {
+      "preceding_text": "Old Testament"
+    },
+    {
+      "followed_by": "New Testament"
+    },
+    {
+      "author": "Various (attributed to divine inspiration)"
+    },
+    {
+      "influenced": "Christianity"
+    },
+    {
+      "influenced": "Judaism"
+    },
+    {
+      "influenced": "Islam"
+    },
+    {
+      "translation": "King James Bible"
+    },
+    {
+      "translation": "Septuagint"
+    },
+    {
+      "contains_story": "Genesis"
+    },
+    {
+      "contains_story": "Exodus"
+    }
+  ]
+}

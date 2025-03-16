@@ -1,0 +1,47 @@
+{
+  "entity": "West Coast (United States)",
+  "properties": {
+    "region_type": "Geographic region",
+    "location": "Western United States",
+    "states_included": "California, Oregon, Washington",
+    "population_2020": "223,000,000",
+    "area_km2": "2,250,000",
+    "climate": "Mediterranean, Oceanic, Humid Continental",
+    "economy_type": "Diverse, Tech, Agriculture",
+    "major_cities": "Los Angeles, Seattle, Portland",
+    "terrain": "Coastline, Mountains, Forests",
+    "cultural_influence": "Hollywood, Music, Innovation"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "borders": "Pacific Ocean"
+    },
+    {
+      "contains": "California"
+    },
+    {
+      "contains": "Oregon"
+    },
+    {
+      "contains": "Washington"
+    },
+    {
+      "economic_influence_on": "Global Economy"
+    },
+    {
+      "cultural_influence_on": "American Culture"
+    },
+    {
+      "major_industry": "Technology"
+    },
+    {
+      "landmark": "Golden Gate Bridge"
+    },
+    {
+      "natural_feature": "Sierra Nevada"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "South Island",
+  "properties": {
+    "type": "Island",
+    "country": "New Zealand",
+    "area": "34,450 km²",
+    "population": "1,150,000",
+    "highest_point": "Mount Cook",
+    "latitude": "-43.5340",
+    "longitude": "170.1180",
+    "major_city": "Christchurch",
+    "geological_era": "Tertiary",
+    "climate": "Temperate"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "adjacent_to": "North Island"
+    },
+    {
+      "contains": "Aoraki / Mount Cook"
+    },
+    {
+      "contains": "Fiordland National Park"
+    },
+    {
+      "contains": "Westland Tai Poutini National Park"
+    },
+    {
+      "has_river": "Waimakariri River"
+    },
+    {
+      "has_river": "Clutha River"
+    },
+    {
+      "influenced_by": "Alpine Fault"
+    },
+    {
+      "economy_based_on": "Tourism, Agriculture"
+    }
+  ]
+}

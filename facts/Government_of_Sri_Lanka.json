@@ -1,0 +1,47 @@
+{
+  "entity": "Government of Sri Lanka",
+  "properties": {
+    "type": "Parliamentary republic",
+    "head_of_state": "President of Sri Lanka",
+    "head_of_government": "Prime Minister of Sri Lanka",
+    "legislature": "Parliament of Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "constitution": "Constitution of Sri Lanka",
+    "currency": "Sri Lankan Rupee",
+    "official_languages": "Sinhala, Tamil",
+    "established": "1948 (Independence)",
+    "system": "Unitary"
+  },
+  "relationship": [
+    {
+      "part_of": "Sri Lanka"
+    },
+    {
+      "leader": "Ranil Wickremesinghe"
+    },
+    {
+      "legislative_body": "Parliament of Sri Lanka"
+    },
+    {
+      "judicial_branch": "Supreme Court of Sri Lanka"
+    },
+    {
+      "executive_branch": "President of Sri Lanka"
+    },
+    {
+      "influenced_by": "British Empire"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "deals_with": "Sri Lankan economy"
+    },
+    {
+      "responsible_for": "Sri Lankan civil war"
+    },
+    {
+      "oversees": "Central Bank of Sri Lanka"
+    }
+  ]
+}

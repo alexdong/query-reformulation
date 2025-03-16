@@ -1,0 +1,47 @@
+{
+  "entity": "Colombia",
+  "properties": {
+    "capital": "Bogotá",
+    "official_language": "Spanish",
+    "population": "51.5 million",
+    "currency": "Colombian Peso",
+    "area_km2": "1,141,748",
+    "continent": "South America",
+    "independence_date": "August 20, 1810",
+    "government": "Presidential Republic",
+    "largest_city": "Bogotá",
+    "national_sport": "Football"
+  },
+  "relationship": [
+    {
+      "borders": "Venezuela"
+    },
+    {
+      "borders": "Ecuador"
+    },
+    {
+      "borders": "Peru"
+    },
+    {
+      "borders": "Brazil"
+    },
+    {
+      "borders": "Panama"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "member_of": "OAS"
+    },
+    {
+      "produces": "Coffee"
+    },
+    {
+      "produces": "Emeralds"
+    },
+    {
+      "has_region": "Amazon Rainforest"
+    }
+  ]
+}

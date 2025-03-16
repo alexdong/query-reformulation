@@ -1,0 +1,47 @@
+{
+  "entity": "Teamsters Union",
+  "properties": {
+    "instance_of": "Labor union",
+    "founded": "1877",
+    "headquarters": "Washington, D.C.",
+    "industry": "Transportation",
+    "membership": "1.4 million",
+    "leader": "Sean O'Brien",
+    "type": "General labor union",
+    "jurisdiction": "Transportation and logistics",
+    "ideology": "Progressive",
+    "acronym": "IBT"
+  },
+  "relationship": [
+    {
+      "member_of": "American Federation of Labor"
+    },
+    {
+      "member_of": "AFL-CIO"
+    },
+    {
+      "influenced": "Civil Rights Movement"
+    },
+    {
+      "involved_in": "Hoffa scandal"
+    },
+    {
+      "represents": "Truck drivers"
+    },
+    {
+      "represents": "Warehouse workers"
+    },
+    {
+      "represents": "Airline employees"
+    },
+    {
+      "negotiates_with": "UPS"
+    },
+    {
+      "negotiates_with": "ABF Freight"
+    },
+    {
+      "history_related_to": "Jimmy Hoffa"
+    }
+  ]
+}

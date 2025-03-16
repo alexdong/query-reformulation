@@ -1,0 +1,47 @@
+{
+  "entity": "World Economy",
+  "properties": {
+    "type": "Economic System",
+    "size": "Trillions USD",
+    "growth_rate": "Varies",
+    "main_driver": "Global Trade",
+    "key_sectors": "Manufacturing, Services, Agriculture",
+    "major_players": "United States, China, Japan",
+    "governance": "International Organizations",
+    "measurement": "GDP",
+    "current_state": "Complex & Interconnected",
+    "impacted_by": "Geopolitical Events"
+  },
+  "relationship": [
+    {
+      "part_of": "Global System"
+    },
+    {
+      "influenced_by": "Globalization"
+    },
+    {
+      "impacts": "National Economies"
+    },
+    {
+      "governed_by": "World Trade Organization"
+    },
+    {
+      "affected_by": "Recessions"
+    },
+    {
+      "impacts": "Employment Rates"
+    },
+    {
+      "relates_to": "International Monetary Fund"
+    },
+    {
+      "relates_to": "World Bank"
+    },
+    {
+      "impacts": "Poverty Levels"
+    },
+    {
+      "influenced_by": "Technological Advancements"
+    }
+  ]
+}

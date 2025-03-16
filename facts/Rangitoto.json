@@ -1,0 +1,47 @@
+{
+  "entity": "Rangitoto",
+  "properties": {
+    "type": "Volcano",
+    "location": "Auckland, New Zealand",
+    "height": "260 m (853 ft)",
+    "formation_date": "600 AD",
+    "volcanic_status": "Dormant",
+    "island_type": "Volcanic",
+    "area": "2.8 km² (1.1 sq mi)",
+    "geological_era": "Quaternary",
+    "rock_type": "Basalt",
+    "name_origin": "Red Bird"
+  },
+  "relationship": [
+    {
+      "part_of": "Hauraki Gulf"
+    },
+    {
+      "near": "Waiheke Island"
+    },
+    {
+      "near": "Motutapu Island"
+    },
+    {
+      "formed_on": "Pacific Plate"
+    },
+    {
+      "eruption_style": "Strombolian"
+    },
+    {
+      "contains": "Rangitoto Summit Track"
+    },
+    {
+      "contains": "Lava Caves"
+    },
+    {
+      "flora_includes": "Kauri"
+    },
+    {
+      "fauna_includes": "Tui"
+    },
+    {
+      "visited_by": "Humans"
+    }
+  ]
+}

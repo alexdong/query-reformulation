@@ -1,0 +1,47 @@
+{
+  "entity": "Sun",
+  "properties": {
+    "type": "Star",
+    "age": "4.603 billion years",
+    "diameter": "1.39 million km",
+    "mass": "1.989 × 10^30 kg",
+    "surface_temperature": "5,778 K",
+    "core_temperature": "15 million K",
+    "composition": "Hydrogen, Helium",
+    "distance_from_Earth": "149.6 million km",
+    "luminosity": "3.828 × 10^26 W",
+    "spectral_type": "G2V"
+  },
+  "relationship": [
+    {
+      "orbits": "Milky Way"
+    },
+    {
+      "provides": "Light"
+    },
+    {
+      "provides": "Heat"
+    },
+    {
+      "supports_life_on": "Earth"
+    },
+    {
+      "has_part": "Photosphere"
+    },
+    {
+      "has_part": "Chromosphere"
+    },
+    {
+      "has_part": "Corona"
+    },
+    {
+      "influences": "Tides"
+    },
+    {
+      "causes": "Solar flares"
+    },
+    {
+      "related_to": "Solar system"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Ancient Greece",
+  "properties": {
+    "time_period": "c. 800 BC – 600 AD",
+    "location": "Southeastern Europe",
+    "civilization_type": "Classical Civilization",
+    "political_system": "City-states",
+    "language": "Ancient Greek",
+    "religion": "Greek mythology",
+    "writing_system": "Greek alphabet",
+    "major_achievement": "Philosophy, Democracy, Art",
+    "economic_system": "Agriculture, Trade",
+    "decline_reason": "Roman conquest"
+  },
+  "relationship": [
+    {
+      "influenced": "Roman civilization"
+    },
+    {
+      "part_of": "Mediterranean world"
+    },
+    {
+      "located_in": "Europe"
+    },
+    {
+      "developed": "Democracy"
+    },
+    {
+      "worshipped": "Zeus"
+    },
+    {
+      "wrote": "Iliad"
+    },
+    {
+      "wrote": "Odyssey"
+    },
+    {
+      "city_state": "Athens"
+    },
+    {
+      "city_state": "Sparta"
+    },
+    {
+      "war_with": "Persia"
+    }
+  ]
+}

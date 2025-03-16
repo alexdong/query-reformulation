@@ -1,0 +1,47 @@
+{
+  "entity": "Long-beaked Common Ground-Dove",
+  "properties": {
+    "scientific_name": "Columbina cummingi",
+    "conservation_status": "Near Threatened",
+    "distribution_region": "Mexico",
+    "diet_type": "Granivorous",
+    "average_weight_grams": "25",
+    "average_length_cm": "22",
+    "wingspan_cm": "31",
+    "habitat": "Semi-arid scrub",
+    "color": "Brown and grey",
+    "family": "Columbidae"
+  },
+  "relationship": [
+    {
+      "part_of": "Columbidae"
+    },
+    {
+      "lives_in": "Mexico"
+    },
+    {
+      "prey": "Seeds"
+    },
+    {
+      "threatens": "Habitat loss"
+    },
+    {
+      "related_to": "Common Ground-Dove"
+    },
+    {
+      "has_feature": "Beak"
+    },
+    {
+      "has_feature": "Wings"
+    },
+    {
+      "has_feature": "Feathers"
+    },
+    {
+      "is_a": "Bird"
+    },
+    {
+      "member_of": "Avian fauna"
+    }
+  ]
+}

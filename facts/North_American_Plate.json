@@ -1,0 +1,47 @@
+{
+  "entity": "North American Plate",
+  "properties": {
+    "type": "Tectonic Plate",
+    "area": "23,300,000 km²",
+    "location": "Western Hemisphere",
+    "composition": "Oceanic and Continental Crust",
+    "movement_type": "Convergent, Divergent, Transform",
+    "average_speed": "2-4 cm/year",
+    "boundary_type": "Complex",
+    "major_features": "Rocky Mountains, Sierra Nevada, Appalachian Mountains",
+    "includes_continents": "North America",
+    "adjacent_plates": "Pacific, Eurasian, African"
+  },
+  "relationship": [
+    {
+      "part_of": "Lithosphere"
+    },
+    {
+      "borders": "Pacific Plate"
+    },
+    {
+      "borders": "Eurasian Plate"
+    },
+    {
+      "borders": "African Plate"
+    },
+    {
+      "subduction_zone_with": "Pacific Plate"
+    },
+    {
+      "collision_with": "Eurasian Plate"
+    },
+    {
+      "includes": "Canada"
+    },
+    {
+      "includes": "United States"
+    },
+    {
+      "includes": "Mexico"
+    },
+    {
+      "responsible_for": "Earthquakes"
+    }
+  ]
+}

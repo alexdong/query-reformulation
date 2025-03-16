@@ -1,0 +1,47 @@
+{
+  "entity": "Wabanaki Confederacy",
+  "properties": {
+    "type": "Indigenous confederation",
+    "location": "Northeast North America",
+    "languages": "Miꞌkmaq, Maliseet, Passamaquoddy, Penobscot, Abenaki",
+    "territory": "Maine, New Brunswick, Nova Scotia, Quebec, New Hampshire, Vermont",
+    "approximate_formation": "1670s",
+    "original_name": "People of the Dawn",
+    "purpose": "Mutual defense and trade",
+    "membership": "Five Nations (originally)",
+    "treaties_signed": "Numerous, with European powers",
+    "current_status": "Ongoing, revitalized"
+  },
+  "relationship": [
+    {
+      "member_nation": "Miꞌkmaq Nation"
+    },
+    {
+      "member_nation": "Maliseet Nation"
+    },
+    {
+      "member_nation": "Passamaquoddy Tribe"
+    },
+    {
+      "member_nation": "Penobscot Nation"
+    },
+    {
+      "member_nation": "Abenaki Nation"
+    },
+    {
+      "treaty_with": "France"
+    },
+    {
+      "treaty_with": "Great Britain"
+    },
+    {
+      "influenced_by": "Haudenosaunee (Iroquois Confederacy)"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "located_in": "United States"
+    }
+  ]
+}

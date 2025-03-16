@@ -1,0 +1,47 @@
+{
+  "entity": "Paleontologist",
+  "properties": {
+    "instance_of": "Scientist",
+    "field_of_study": "Paleontology",
+    "primary_focus": "Fossil study",
+    "tools_used": "Excavation tools",
+    "education_required": "Doctorate",
+    "typical_employer": "Museum",
+    "related_field": "Geology",
+    "data_analyzed": "Fossil record",
+    "goal": "Understand past life",
+    "work_environment": "Field/Lab"
+  },
+  "relationship": [
+    {
+      "studies": "Fossils"
+    },
+    {
+      "collaborates_with": "Geologists"
+    },
+    {
+      "analyzes": "Sedimentary rock"
+    },
+    {
+      "contributes_to": "Scientific literature"
+    },
+    {
+      "excavates": "Fossil sites"
+    },
+    {
+      "identifies": "Extinct species"
+    },
+    {
+      "researches": "Evolution"
+    },
+    {
+      "works_at": "University"
+    },
+    {
+      "related_to": "Stratigraphy"
+    },
+    {
+      "discovers": "New species"
+    }
+  ]
+}

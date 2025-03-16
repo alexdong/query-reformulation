@@ -1,0 +1,47 @@
+{
+  "entity": "Charles III",
+  "properties": {
+    "birth_date": "1948-11-14",
+    "birth_place": "London",
+    "title": "King of the United Kingdom",
+    "full_name": "Charles Philip Arthur George",
+    "spouse": "Camilla, Queen Consort",
+    "father": "Prince Philip, Duke of Edinburgh",
+    "mother": "Elizabeth II",
+    "education": "Cambridge University",
+    "religion": "Anglican",
+    "succession": "Elizabeth II"
+  },
+  "relationship": [
+    {
+      "child_of": "Elizabeth II"
+    },
+    {
+      "spouse_of": "Diana, Princess of Wales"
+    },
+    {
+      "father_of": "Prince William"
+    },
+    {
+      "father_of": "Prince Harry"
+    },
+    {
+      "sibling_of": "Anne, Princess Royal"
+    },
+    {
+      "sibling_of": "Prince Andrew"
+    },
+    {
+      "sibling_of": "Prince Edward"
+    },
+    {
+      "attended": "Gordonstoun"
+    },
+    {
+      "member_of": "British royal family"
+    },
+    {
+      "predecessor": "Elizabeth II"
+    }
+  ]
+}

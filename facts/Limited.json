@@ -1,0 +1,46 @@
+{
+  "entity": "Limited",
+  "properties": {
+    "instance_of": "Television series",
+    "genre": "Comedy-drama",
+    "creator": "Tony Cole",
+    "country_of_origin": "United Kingdom",
+    "network": "Sky Atlantic",
+    "start_date": "2019",
+    "number_of_seasons": "3",
+    "setting": "London",
+    "language": "English"
+  },
+  "relationship": [
+    {
+      "created_by": "Brett Goldstein"
+    },
+    {
+      "created_by": "Tony Cole"
+    },
+    {
+      "genre": "Dark comedy"
+    },
+    {
+      "genre": "Satire"
+    },
+    {
+      "influenced": "Ted Lasso"
+    },
+    {
+      "starring": "Steve Coogan"
+    },
+    {
+      "starring": "Olivia Colman"
+    },
+    {
+      "setting_location": "London"
+    },
+    {
+      "production_company": "Roughcut Films"
+    },
+    {
+      "distributed_by": "Sky"
+    }
+  ]
+}

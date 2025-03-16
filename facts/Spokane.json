@@ -1,0 +1,47 @@
+{
+  "entity": "Spokane",
+  "properties": {
+    "type": "City",
+    "state": "Washington",
+    "population_2020": "228,734",
+    "area_sq_mi": "69.3",
+    "nickname": "Lilac City",
+    "founded": "1873",
+    "timezone": "Pacific",
+    "elevation_ft": "2,240",
+    "mayor": "Lisa Brown",
+    "area_code": "509"
+  },
+  "relationship": [
+    {
+      "part_of": "Washington"
+    },
+    {
+      "located_in": "Spokane County"
+    },
+    {
+      "river_flows_through": "Spokane River"
+    },
+    {
+      "near": "Coeur d'Alene"
+    },
+    {
+      "influenced_by": "Lewis and Clark Expedition"
+    },
+    {
+      "industry": "Aerospace"
+    },
+    {
+      "attraction": "Riverfront Park"
+    },
+    {
+      "attraction": "Gonzaga University"
+    },
+    {
+      "climate": "Humid continental"
+    },
+    {
+      "transportation": "Spokane International Airport"
+    }
+  ]
+}

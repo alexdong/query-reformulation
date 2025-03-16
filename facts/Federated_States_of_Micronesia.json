@@ -1,0 +1,47 @@
+{
+  "entity": "Federated States of Micronesia",
+  "properties": {
+    "capital": "Palikir",
+    "official_language": "English",
+    "population": "110,838",
+    "currency": "United States Dollar (USD)",
+    "area_km2": "702",
+    "sovereignty": "Sovereign state",
+    "continent": "Oceania",
+    "government": "Federal presidential republic",
+    "independence_date": "1986-11-03",
+    "member_of": "United Nations"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "borders": "Marshall Islands"
+    },
+    {
+      "borders": "Papua New Guinea"
+    },
+    {
+      "member_of": "Pacific Community"
+    },
+    {
+      "member_of": "Micronesian Presidents' Summit"
+    },
+    {
+      "has_state": "Yap"
+    },
+    {
+      "has_state": "Chuuk"
+    },
+    {
+      "has_state": "Pohnpei"
+    },
+    {
+      "has_state": "Kosrae"
+    }
+  ]
+}

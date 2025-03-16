@@ -1,0 +1,47 @@
+{
+  "entity": "Gold",
+  "properties": {
+    "atomic_number": "79",
+    "atomic_weight": "196.96657",
+    "chemical_symbol": "Au",
+    "density": "19.3 g/cm³",
+    "melting_point": "1064.18 °C",
+    "boiling_point": "2856 °C",
+    "state": "Solid",
+    "color": "Yellow",
+    "luster": "Metallic",
+    "group": "11"
+  },
+  "relationship": [
+    {
+      "part_of": "Periodic table"
+    },
+    {
+      "used_in": "Jewelry"
+    },
+    {
+      "used_in": "Currency"
+    },
+    {
+      "used_in": "Electronics"
+    },
+    {
+      "found_in": "Earth's crust"
+    },
+    {
+      "extracted_from": "Gold ore"
+    },
+    {
+      "alloy_with": "Copper"
+    },
+    {
+      "discovered_by": "Ancient civilizations"
+    },
+    {
+      "symbol_origin": "Aurum"
+    },
+    {
+      "related_to": "Precious metals"
+    }
+  ]
+}

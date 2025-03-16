@@ -1,0 +1,47 @@
+{
+  "entity": "Wintergarden (novel)",
+  "properties": {
+    "instance_of": "Novel",
+    "author": "Kristin Hannah",
+    "genre": "Historical fiction",
+    "publication_date": "2020-10-20",
+    "publisher": "St. Martin's Press",
+    "setting": "France, United States",
+    "narrative_perspective": "Multiple",
+    "themes": "Family, War, Resilience, Secrets",
+    "language": "English",
+    "awards": "New York Times Best Seller"
+  },
+  "relationship": [
+    {
+      "author_writes": "Kristin Hannah"
+    },
+    {
+      "genre_includes": "Historical fiction"
+    },
+    {
+      "setting_location": "France"
+    },
+    {
+      "setting_location": "United States"
+    },
+    {
+      "influenced_by": "World War II"
+    },
+    {
+      "character_appears": "Odile De Valday"
+    },
+    {
+      "character_appears": "Nora Remy"
+    },
+    {
+      "preceding_event": "World War II"
+    },
+    {
+      "related_to": "French Resistance"
+    },
+    {
+      "publication_country": "United States"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Hamilton (musical)",
+  "properties": {
+    "instance_of": "Musical",
+    "composer": "Lin-Manuel Miranda",
+    "lyricist": "Lin-Manuel Miranda",
+    "book_by": "Lin-Manuel Miranda",
+    "genre": "Historical musical",
+    "subject": "Alexander Hamilton",
+    "premiered": "2015",
+    "style": "Hip hop, R&B, Pop",
+    "awards": "11 Tony Awards",
+    "language": "English"
+  },
+  "relationship": [
+    {
+      "based_on": "Alexander Hamilton (biography)"
+    },
+    {
+      "written_by": "Lin-Manuel Miranda"
+    },
+    {
+      "performed_by": "Original Broadway Cast"
+    },
+    {
+      "influenced": "Musical theater"
+    },
+    {
+      "character_appears": "Alexander Hamilton"
+    },
+    {
+      "character_appears": "Aaron Burr"
+    },
+    {
+      "character_appears": "Eliza Schuyler Hamilton"
+    },
+    {
+      "location_set_in": "United States"
+    },
+    {
+      "time_period": "Late 18th Century"
+    },
+    {
+      "adaptation_of": "Hamilton (biography)"
+    }
+  ]
+}

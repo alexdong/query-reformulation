@@ -1,0 +1,47 @@
+{
+  "entity": "Recovery Program",
+  "properties": {
+    "instance_of": "Self-help group",
+    "focus": "Addiction recovery",
+    "origin": "Minnesota",
+    "founder": "Bill Wilson & Dr. Bob Smith",
+    "year_founded": "1935",
+    "core_text": "Twelve Steps",
+    "philosophy": "Spiritual principles",
+    "anonymity": "Central tenet",
+    "support_type": "Peer support",
+    "membership": "Open to anyone"
+  },
+  "relationship": [
+    {
+      "part_of": "Alcoholics Anonymous"
+    },
+    {
+      "influenced": "Narcotics Anonymous"
+    },
+    {
+      "influenced": "Al-Anon"
+    },
+    {
+      "related_to": "Self-help"
+    },
+    {
+      "concept_of": "Sponsorship"
+    },
+    {
+      "concept_of": "Service"
+    },
+    {
+      "concept_of": "Confidentiality"
+    },
+    {
+      "addresses": "Addiction"
+    },
+    {
+      "promotes": "Sobriety"
+    },
+    {
+      "inspired_by": "Oxford Group"
+    }
+  ]
+}

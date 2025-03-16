@@ -1,0 +1,47 @@
+{
+  "entity": "Business Plan",
+  "properties": {
+    "instance_of": "Document",
+    "purpose": "Roadmap",
+    "scope": "Business",
+    "sections": "Executive Summary, Market Analysis, Financial Projections",
+    "audience": "Investors, Stakeholders",
+    "format": "Written",
+    "length": "Variable",
+    "revision_frequency": "Periodic",
+    "key_element": "Financial Model",
+    "legal_status": "Not legally binding"
+  },
+  "relationship": [
+    {
+      "requires": "Market Research"
+    },
+    {
+      "leads_to": "Funding"
+    },
+    {
+      "includes": "Financial Projections"
+    },
+    {
+      "uses": "SWOT Analysis"
+    },
+    {
+      "addresses": "Business Goals"
+    },
+    {
+      "involves": "Management Team"
+    },
+    {
+      "supports": "Strategic Planning"
+    },
+    {
+      "analyzes": "Competitive Landscape"
+    },
+    {
+      "outlines": "Operational Plan"
+    },
+    {
+      "results_in": "Business Launch"
+    }
+  ]
+}

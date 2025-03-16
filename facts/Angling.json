@@ -1,0 +1,47 @@
+{
+  "entity": "Angling",
+  "properties": {
+    "instance_of": "Sport",
+    "type": "Leisure activity",
+    "equipment": "Fishing rod, line, hook, bait",
+    "target_species": "Fish",
+    "skill_required": "Technique, patience",
+    "location": "Freshwater, saltwater",
+    "popularity": "Worldwide",
+    "history": "Ancient",
+    "governing_body": "International Sport Fishing Federation",
+    "related_activity": "Fishing"
+  },
+  "relationship": [
+    {
+      "part_of": "Fishing"
+    },
+    {
+      "requires": "Fishing rod"
+    },
+    {
+      "uses": "Bait"
+    },
+    {
+      "targets": "Fish"
+    },
+    {
+      "influenced_by": "Fly fishing"
+    },
+    {
+      "related_to": "Recreational fishing"
+    },
+    {
+      "governed_by": "International Sport Fishing Federation"
+    },
+    {
+      "practiced_in": "Freshwater"
+    },
+    {
+      "practiced_in": "Saltwater"
+    },
+    {
+      "associated_with": "Tackle"
+    }
+  ]
+}

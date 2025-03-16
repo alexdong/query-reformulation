@@ -1,0 +1,47 @@
+{
+  "entity": "Highland Clearances",
+  "properties": {
+    "type": "Forced Displacement",
+    "time_period": "1745-1880",
+    "location": "Scottish Highlands",
+    "cause": "Agricultural Change, Land Ownership",
+    "impact": "Poverty, Emigration",
+    "scale": "Widespread",
+    "legal_basis": "Feudal Tenure",
+    "economic_driver": "Sheep Farming",
+    "social_impact": "Loss of Culture, Clan Structure",
+    "political_context": "Jacobite Uprising"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Jacobite Uprising"
+    },
+    {
+      "resulted_in": "Emigration to Canada"
+    },
+    {
+      "resulted_in": "Emigration to United States"
+    },
+    {
+      "involved": "Landlords"
+    },
+    {
+      "involved": "Tenants"
+    },
+    {
+      "affected": "Clan System"
+    },
+    {
+      "influenced": "Scottish Diaspora"
+    },
+    {
+      "related_to": "Agricultural Revolution"
+    },
+    {
+      "caused_by": "Enclosure"
+    },
+    {
+      "contributed_to": "Poverty"
+    }
+  ]
+}

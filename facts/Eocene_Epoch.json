@@ -1,0 +1,47 @@
+{
+  "entity": "Eocene Epoch",
+  "properties": {
+    "start_date": "56 million years ago",
+    "end_date": "33.9 million years ago",
+    "period_type": "Geologic Epoch",
+    "part_of": "Paleogene Period",
+    "preceding_epoch": "Paleocene Epoch",
+    "succeeding_epoch": "Oligocene Epoch",
+    "climate": "Warm, Greenhouse",
+    "dominant_life": "Early mammals, angiosperms",
+    "significant_event": "Early mammal diversification",
+    "geological_scale_rank": "Epoch"
+  },
+  "relationship": [
+    {
+      "part_of": "Paleogene"
+    },
+    {
+      "preceded_by": "Paleocene Epoch"
+    },
+    {
+      "followed_by": "Oligocene Epoch"
+    },
+    {
+      "located_in": "Mesozoic Era"
+    },
+    {
+      "contains": "Ypresian Age"
+    },
+    {
+      "contains": "Lutetian Age"
+    },
+    {
+      "contains": "Eutropian Age"
+    },
+    {
+      "influenced_by": "Greenhouse climate"
+    },
+    {
+      "characterized_by": "Early mammal evolution"
+    },
+    {
+      "geological_era": "Cenozoic Era"
+    }
+  ]
+}

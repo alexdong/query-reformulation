@@ -1,0 +1,47 @@
+{
+  "entity": "Captain Thomson",
+  "properties": {
+    "occupation": "Police Officer",
+    "nationality": "British",
+    "era": "Victorian",
+    "fictional": "Yes",
+    "genre": "Detective Fiction",
+    "creator": "Robert Barr",
+    "first_appearance": "The Trivialling",
+    "setting": "London",
+    "demeanor": "Intelligent, Observant",
+    "detective_method": "Deductive Reasoning"
+  },
+  "relationship": [
+    {
+      "protagonist_of": "The Trivialling"
+    },
+    {
+      "author_wrote": "Robert Barr"
+    },
+    {
+      "genre_is": "Detective Fiction"
+    },
+    {
+      "setting_in": "London"
+    },
+    {
+      "contemporary_of": "Sherlock Holmes"
+    },
+    {
+      "rival_of": "Eugene Valmont"
+    },
+    {
+      "influenced_by": "Arthur Conan Doyle"
+    },
+    {
+      "appears_in": "Short Stories"
+    },
+    {
+      "characteristic_of": "Victorian Era"
+    },
+    {
+      "depicts": "Crime"
+    }
+  ]
+}

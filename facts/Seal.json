@@ -1,0 +1,47 @@
+{
+  "entity": "Seal",
+  "properties": {
+    "kingdom": "Animalia",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Phocidae",
+    "lifespan": "20-30 years",
+    "diet": "Fish, squid",
+    "habitat": "Coastal waters",
+    "size": "1.5-2.5m",
+    "weight": "50-300 kg",
+    "conservation_status": "Least Concern"
+  },
+  "relationship": [
+    {
+      "is_a": "Pinniped"
+    },
+    {
+      "prey_of": "Polar bear"
+    },
+    {
+      "part_of_ecosystem": "Marine ecosystem"
+    },
+    {
+      "related_to": "Sea lion"
+    },
+    {
+      "found_in": "Arctic"
+    },
+    {
+      "found_in": "Antarctica"
+    },
+    {
+      "migration_pattern": "Seasonal"
+    },
+    {
+      "reproduction_method": "Viviparous"
+    },
+    {
+      "threat": "Climate change"
+    },
+    {
+      "behavior": "Social"
+    }
+  ]
+}

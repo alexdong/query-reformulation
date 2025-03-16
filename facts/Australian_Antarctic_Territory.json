@@ -1,0 +1,47 @@
+{
+  "entity": "Australian Antarctic Territory",
+  "properties": {
+    "type": "Territory",
+    "claimed_by": "Australia",
+    "area": "6,100,000 km²",
+    "location": "Antarctica",
+    "established": "1933",
+    "status": "Claimed",
+    "governed_by": "Australian Antarctic Division",
+    "coordinates": "-66.0, 45.0",
+    "named_after": "Antarctica",
+    "population": "0"
+  },
+  "relationship": [
+    {
+      "part_of": "Antarctica"
+    },
+    {
+      "claimed_by": "Australia"
+    },
+    {
+      "adjacent_to": "East Antarctic Territory"
+    },
+    {
+      "adjacent_to": "Wilkes Land"
+    },
+    {
+      "adjacent_to": "Marie Byrd Land"
+    },
+    {
+      "governed_by": "Australian Antarctic Division"
+    },
+    {
+      "treaty": "Antarctic Treaty System"
+    },
+    {
+      "contains": "Casey Station"
+    },
+    {
+      "contains": "Mawson Station"
+    },
+    {
+      "contains": "Davis Station"
+    }
+  ]
+}

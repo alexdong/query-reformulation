@@ -1,0 +1,47 @@
+{
+  "entity": "Romanesque Architecture",
+  "properties": {
+    "time_period": "1000-1200 AD",
+    "origin": "Europe",
+    "style": "Architectural",
+    "predecessor": "Carolingian Architecture",
+    "successor": "Gothic Architecture",
+    "characteristic_feature": "Rounded Arches",
+    "building_materials": "Stone",
+    "common_building_types": "Churches, Castles, Monasteries",
+    "decoration": "Sculptural Ornamentation",
+    "geographic_spread": "Western, Central, Eastern Europe"
+  },
+  "relationship": [
+    {
+      "influenced": "Gothic Architecture"
+    },
+    {
+      "preceded_by": "Carolingian Architecture"
+    },
+    {
+      "part_of": "Medieval Architecture"
+    },
+    {
+      "located_in": "Europe"
+    },
+    {
+      "example_of": "Architectural Style"
+    },
+    {
+      "building_material": "Stone"
+    },
+    {
+      "architect": "Unknown"
+    },
+    {
+      "feature": "Round Arch"
+    },
+    {
+      "building_type": "Church"
+    },
+    {
+      "building_type": "Castle"
+    }
+  ]
+}

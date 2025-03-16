@@ -1,0 +1,47 @@
+{
+  "entity": "Whakapapa",
+  "properties": {
+    "type": "Mountain",
+    "location": "North Island, New Zealand",
+    "elevation": "2499 m",
+    "region": "Tararua Range",
+    "national_park": "Tongariro National Park",
+    "prominence": "1682 m",
+    "first_ascent": "1888",
+    "difficulty": "Difficult",
+    "geology": "Volcanic",
+    "coordinates": "-39.4533, 176.055"
+  },
+  "relationship": [
+    {
+      "part_of": "Tararua Range"
+    },
+    {
+      "located_in": "North Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "within": "Tongariro National Park"
+    },
+    {
+      "near": "Mount Ngauruhoe"
+    },
+    {
+      "near": "Mount Ruapehu"
+    },
+    {
+      "adjacent_to": "Mount Taranaki"
+    },
+    {
+      "climbed_by": "Mountaineers"
+    },
+    {
+      "geological_formation": "Volcanic activity"
+    },
+    {
+      "part_of_range": "Main Divide"
+    }
+  ]
+}

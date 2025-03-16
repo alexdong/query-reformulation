@@ -1,0 +1,47 @@
+{
+  "entity": "Chinatown (neighborhood)",
+  "properties": {
+    "type": "Neighborhood",
+    "location": "North America",
+    "origin": "Chinese diaspora",
+    "population": "Varies by city",
+    "cuisine": "Chinese",
+    "architecture": "Traditional Chinese",
+    "language": "Chinese dialects",
+    "economy": "Small businesses",
+    "culture": "Chinese culture",
+    "history": "19th century"
+  },
+  "relationship": [
+    {
+      "part_of": "City"
+    },
+    {
+      "located_in": "Urban area"
+    },
+    {
+      "influenced_by": "Chinese immigration"
+    },
+    {
+      "associated_with": "Chinese New Year"
+    },
+    {
+      "contains": "Restaurants"
+    },
+    {
+      "contains": "Shops"
+    },
+    {
+      "contains": "Temples"
+    },
+    {
+      "related_to": "Chinese diaspora"
+    },
+    {
+      "example_of": "Ethnic enclave"
+    },
+    {
+      "often_features_in": "Film"
+    }
+  ]
+}

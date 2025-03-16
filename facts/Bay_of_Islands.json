@@ -1,0 +1,47 @@
+{
+  "entity": "Bay of Islands",
+  "properties": {
+    "location": "Northland, New Zealand",
+    "area": "1080 km²",
+    "population": "34,000 (2023)",
+    "type": "Harbour",
+    "discovery_date": "1642",
+    "discovered_by": "Abel Tasman",
+    "named_by": "Captain James Cook",
+    "climate": "Subtropical",
+    "marine_life": "Dolphins, Whales, Fish",
+    "tourism": "Major tourist destination"
+  },
+  "relationship": [
+    {
+      "part_of": "Northland Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "discovered_by": "Abel Tasman"
+    },
+    {
+      "named_by": "James Cook"
+    },
+    {
+      "contains": "Russell"
+    },
+    {
+      "contains": "Paihia"
+    },
+    {
+      "has_feature": "Cape Reinga"
+    },
+    {
+      "has_marine_mammal": "Bottlenose Dolphin"
+    },
+    {
+      "has_marine_mammal": "Humpback Whale"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

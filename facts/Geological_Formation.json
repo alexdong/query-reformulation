@@ -1,0 +1,47 @@
+{
+  "entity": "Geological Formation",
+  "properties": {
+    "instance_of": "Geological Unit",
+    "type": "Rock Body",
+    "composition": "Sedimentary, Igneous, Metamorphic",
+    "age": "Varies (Precambrian to Holocene)",
+    "location": "Worldwide",
+    "size": "Variable",
+    "formation_process": "Tectonic, Sedimentary, Volcanic",
+    "description": "Naturally occurring rock structure",
+    "study_field": "Geology",
+    "classification": "Lithostratigraphy"
+  },
+  "relationship": [
+    {
+      "part_of": "Lithosphere"
+    },
+    {
+      "contains": "Rock Layer"
+    },
+    {
+      "formed_by": "Sedimentation"
+    },
+    {
+      "formed_by": "Volcanism"
+    },
+    {
+      "formed_by": "Metamorphism"
+    },
+    {
+      "studied_by": "Geologist"
+    },
+    {
+      "adjacent_to": "Other Geological Formation"
+    },
+    {
+      "overlain_by": "Superjacent Formation"
+    },
+    {
+      "underlain_by": "Subordinate Formation"
+    },
+    {
+      "example": "Grand Canyon Formation"
+    }
+  ]
+}

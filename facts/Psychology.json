@@ -1,0 +1,47 @@
+{
+  "entity": "Psychology",
+  "properties": {
+    "instance_of": "Social science",
+    "field_of_study": "Behavior & Mental Processes",
+    "origin": "Ancient Greece",
+    "founder": "Wilhelm Wundt",
+    "subfield": "Cognitive Psychology, Developmental Psychology, Clinical Psychology",
+    "methodology": "Scientific Method, Observation, Experimentation",
+    "focus": "Mind and Behavior",
+    "related_to": "Neuroscience, Sociology, Philosophy",
+    "application": "Therapy, Education, Business",
+    "key_concept": "Cognition, Emotion, Motivation"
+  },
+  "relationship": [
+    {
+      "studies": "Human behavior"
+    },
+    {
+      "influenced_by": "Philosophy"
+    },
+    {
+      "related_to": "Cognitive Science"
+    },
+    {
+      "pioneered_by": "Sigmund Freud"
+    },
+    {
+      "branch_of": "Behavioral Science"
+    },
+    {
+      "studies": "Mental processes"
+    },
+    {
+      "related_to": "Clinical Psychology"
+    },
+    {
+      "studies": "Developmental Psychology"
+    },
+    {
+      "uses": "Psychological testing"
+    },
+    {
+      "contributes_to": "Mental health treatment"
+    }
+  ]
+}

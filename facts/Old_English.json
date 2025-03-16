@@ -1,0 +1,47 @@
+{
+  "entity": "Old English",
+  "properties": {
+    "instance_of": "Language",
+    "family": "Germanic",
+    "branch": "West Germanic",
+    "time_period": "c. 450-1150 AD",
+    "writing_system": "Futhorc, Latin alphabet",
+    "geographic_area": "England",
+    "influenced_by": "Proto-Germanic",
+    "descended_from": "Proto-Germanic",
+    "influenced": "Middle English",
+    "status": "Extinct"
+  },
+  "relationship": [
+    {
+      "part_of": "Proto-Germanic"
+    },
+    {
+      "ancestor_of": "Middle English"
+    },
+    {
+      "written_in": "Anglo-Saxon Chronicle"
+    },
+    {
+      "influenced": "Modern English"
+    },
+    {
+      "related_to": "West Germanic languages"
+    },
+    {
+      "literature": "Beowulf"
+    },
+    {
+      "literature": "The Wanderer"
+    },
+    {
+      "literature": "The Battle of Maldon"
+    },
+    {
+      "spoken_by": "Anglo-Saxons"
+    },
+    {
+      "studied_in": "Linguistics"
+    }
+  ]
+}

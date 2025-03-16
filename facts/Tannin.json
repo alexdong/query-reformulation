@@ -1,0 +1,47 @@
+{
+  "entity": "Tannin",
+  "properties": {
+    "instance_of": "Polyphenol",
+    "chemical_formula": "Complex mixture",
+    "molar_mass": "Variable",
+    "appearance": "Brown to yellow solids or liquids",
+    "solubility": "Soluble in alcohol, slightly soluble in water",
+    "source": "Plants",
+    "function": "Defense against herbivores",
+    "taste": "Astringent, bitter",
+    "classification": "Phenolic acid",
+    "molecular_weight": "500-3000 g/mol"
+  },
+  "relationship": [
+    {
+      "found_in": "Oak"
+    },
+    {
+      "found_in": "Tea"
+    },
+    {
+      "found_in": "Grape"
+    },
+    {
+      "used_in": "Leather tanning"
+    },
+    {
+      "used_in": "Winemaking"
+    },
+    {
+      "reacts_with": "Proteins"
+    },
+    {
+      "inhibits": "Digestive enzymes"
+    },
+    {
+      "antioxidant_activity": "Yes"
+    },
+    {
+      "related_to": "Phenolic compounds"
+    },
+    {
+      "derived_from": "Plant secondary metabolites"
+    }
+  ]
+}

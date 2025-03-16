@@ -1,0 +1,47 @@
+{
+  "entity": "Timaru",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Canterbury",
+    "population_2023": "27,057",
+    "latitude": "-44.3667",
+    "longitude": "169.9333",
+    "established": "1854",
+    "foundation_date": "1854",
+    "mayor": "Stefan Jansen",
+    "area_code": "03"
+  },
+  "relationship": [
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "part_of": "South Island"
+    },
+    {
+      "region_of": "New Zealand"
+    },
+    {
+      "near": "Moeraki"
+    },
+    {
+      "founded_by": "European settlers"
+    },
+    {
+      "harbour": "Timaru Harbour"
+    },
+    {
+      "river_flows_through": "Tiwai River"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "export": "Wool"
+    },
+    {
+      "attraction": "Caroline Bay"
+    }
+  ]
+}

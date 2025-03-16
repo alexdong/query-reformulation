@@ -1,0 +1,47 @@
+{
+  "entity": "Tokomairiro",
+  "properties": {
+    "type": "Town",
+    "location": "Otago",
+    "country": "New Zealand",
+    "region": "Southland",
+    "population": "Approximately 350",
+    "established": "1856",
+    "economy": "Agriculture",
+    "climate": "Temperate",
+    "elevation": "Approximately 100m",
+    "postal_code": "9586"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Southland District"
+    },
+    {
+      "near": "Milton"
+    },
+    {
+      "near": "Clutha River"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "transport": "State Highway 1"
+    },
+    {
+      "settled_by": "European settlers"
+    },
+    {
+      "founded_by": "Scottish settlers"
+    },
+    {
+      "historical_event": "Gold Rush"
+    },
+    {
+      "has_landmark": "Tokomairiro School"
+    }
+  ]
+}

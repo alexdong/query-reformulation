@@ -1,0 +1,47 @@
+{
+  "entity": "Roman Catholicism",
+  "properties": {
+    "instance_of": "Christian denomination",
+    "founder": "Saint Peter",
+    "head": "Pope",
+    "theology": "Thomism",
+    "sacraments": "7",
+    "scripture": "Bible",
+    "liturgy": "Mass",
+    "worship_language": "Latin, Vernacular",
+    "membership": "1.34 billion",
+    "geographical_distribution": "Worldwide"
+  },
+  "relationship": [
+    {
+      "part_of": "Christianity"
+    },
+    {
+      "influenced": "Western civilization"
+    },
+    {
+      "has_branch": "Eastern Catholicism"
+    },
+    {
+      "leader_of": "Vatican City"
+    },
+    {
+      "belief_in": "God"
+    },
+    {
+      "belief_in": "Jesus"
+    },
+    {
+      "belief_in": "Holy Spirit"
+    },
+    {
+      "doctrine_of": "Transubstantiation"
+    },
+    {
+      "practice": "Prayer"
+    },
+    {
+      "practice": "Confession"
+    }
+  ]
+}

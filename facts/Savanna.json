@@ -1,0 +1,47 @@
+{
+  "entity": "Savanna",
+  "properties": {
+    "type": "Ecosystem",
+    "biome": "Tropical grasslands",
+    "location": "Africa, South America, Australia",
+    "climate": "Warm, seasonal rainfall",
+    "dominant_vegetation": "Grasses, scattered trees",
+    "soil_type": "Nutrient-poor",
+    "average_rainfall": "500-1500 mm annually",
+    "temperature_range": "20-35°C",
+    "fire_regime": "Frequent",
+    "biodiversity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "contains": "African Elephant"
+    },
+    {
+      "contains": "Giraffe"
+    },
+    {
+      "contains": "Lion"
+    },
+    {
+      "supports": "Grazing"
+    },
+    {
+      "supports": "Photosynthesis"
+    },
+    {
+      "affected_by": "Climate Change"
+    },
+    {
+      "adjacent_to": "Tropical Rainforest"
+    },
+    {
+      "influenced_by": "Rain Shadow"
+    },
+    {
+      "example_of": "Grassland Biome"
+    }
+  ]
+}

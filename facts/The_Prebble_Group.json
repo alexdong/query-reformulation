@@ -1,0 +1,47 @@
+{
+  "entity": "The Prebble Group",
+  "properties": {
+    "industry": "Retail",
+    "founder": "John Prebble",
+    "location_headquarters": "Christchurch, New Zealand",
+    "business_sector": "Homewares & Gifts",
+    "employee_count": "Approximately 250",
+    "year_founded": "1973",
+    "ownership_type": "Privately held",
+    "brand_portfolio": "Multiple",
+    "retail_format": "Specialty stores",
+    "geographic_scope": "New Zealand"
+  },
+  "relationship": [
+    {
+      "founded_by": "John Prebble"
+    },
+    {
+      "industry_sector": "Retail"
+    },
+    {
+      "location_is_in": "New Zealand"
+    },
+    {
+      "has_subsidiary": "The Warehouse"
+    },
+    {
+      "competitor_of": "Farmers"
+    },
+    {
+      "has_brand": "Whitcoulls"
+    },
+    {
+      "has_brand": "Mighty Ape"
+    },
+    {
+      "has_brand": "The Crossing"
+    },
+    {
+      "employs": "Retail employees"
+    },
+    {
+      "operates_in": "Christchurch"
+    }
+  ]
+}

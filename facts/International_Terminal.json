@@ -1,0 +1,47 @@
+{
+  "entity": "International Terminal",
+  "properties": {
+    "type": "Building",
+    "function": "Passenger transport",
+    "location_type": "Airport",
+    "architecture": "Modern",
+    "construction_start": "Varies",
+    "capacity": "Varies",
+    "design_style": "Varies",
+    "material": "Concrete, Steel, Glass",
+    "operational_status": "Active",
+    "accessibility": "Varies"
+  },
+  "relationship": [
+    {
+      "part_of": "Airport"
+    },
+    {
+      "serves": "Airline"
+    },
+    {
+      "connects_to": "Domestic Terminal"
+    },
+    {
+      "facilitates": "International Flight"
+    },
+    {
+      "has_feature": "Customs"
+    },
+    {
+      "has_feature": "Immigration"
+    },
+    {
+      "provides": "Baggage Claim"
+    },
+    {
+      "contains": "Gate"
+    },
+    {
+      "serves": "Passenger"
+    },
+    {
+      "located_in": "City"
+    }
+  ]
+}

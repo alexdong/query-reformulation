@@ -1,0 +1,47 @@
+{
+  "entity": "Indigenous Australian Mythology",
+  "properties": {
+    "type": "Oral tradition",
+    "origin": "Australia",
+    "age": "Tens of thousands of years",
+    "themes": "Creation, Dreamtime, Ancestral Beings",
+    "transmission": "Storytelling, Song, Dance",
+    "language": "Numerous Indigenous languages",
+    "geographic_scope": "Continental",
+    "moral_lessons": "Respect for land, kinship",
+    "cultural_significance": "Identity, Law, Knowledge",
+    "variation": "Diverse across groups"
+  },
+  "relationship": [
+    {
+      "part_of": "Australian Aboriginal culture"
+    },
+    {
+      "related_to": "Dreamtime"
+    },
+    {
+      "features": "Totem"
+    },
+    {
+      "features": "Songline"
+    },
+    {
+      "features": "Rainbow Serpent"
+    },
+    {
+      "influenced": "Australian art"
+    },
+    {
+      "related_to": "Kinship system"
+    },
+    {
+      "related_to": "Terra nullius"
+    },
+    {
+      "depicts": "Ancestral Beings"
+    },
+    {
+      "explains": "Natural phenomena"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Kiapoi Harbour",
+  "properties": {
+    "type": "Estuary",
+    "location": "Canterbury, New Zealand",
+    "river_fed": "Waimakariri River",
+    "area": "27 km²",
+    "depth": "Shallow",
+    "geology": "Alluvial",
+    "establishement_date": "1858",
+    "primary_use": "Port & Aquaculture",
+    "management_authority": "Environment Canterbury",
+    "ecological_status": "Degraded"
+  },
+  "relationship": [
+    {
+      "part_of": "Waimakariri District"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "flows_into": "Pacific Ocean"
+    },
+    {
+      "fed_by": "Waimakariri River"
+    },
+    {
+      "adjacent_to": "Kiapoi"
+    },
+    {
+      "contains": "Mudflats"
+    },
+    {
+      "supports": "Birdlife"
+    },
+    {
+      "impacted_by": "Sedimentation"
+    },
+    {
+      "historically_used_for": "Timber Transport"
+    },
+    {
+      "connected_to": "Little River Rail Trail"
+    }
+  ]
+}

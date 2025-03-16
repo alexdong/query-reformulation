@@ -1,0 +1,47 @@
+{
+  "entity": "Berwickshire",
+  "properties": {
+    "type": "County",
+    "country": "Scotland",
+    "region": "Scottish Borders",
+    "area_km2": "664",
+    "population_2020": "17,500",
+    "historic_region": "March",
+    "river": "River Tweed",
+    "latitude": "55.533",
+    "longitude": "-2.167",
+    "local_authority": "Scottish Borders Council"
+  },
+  "relationship": [
+    {
+      "part_of": "Scottish Borders"
+    },
+    {
+      "borders": "Northumberland"
+    },
+    {
+      "contains": "Greenlaw"
+    },
+    {
+      "contains": "Coldstream"
+    },
+    {
+      "contains": "Laurencekirk"
+    },
+    {
+      "river_flows_through": "River Tweed"
+    },
+    {
+      "historical_part_of": "March"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "adjacent_to": "England"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    }
+  ]
+}

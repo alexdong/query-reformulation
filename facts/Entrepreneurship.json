@@ -1,0 +1,47 @@
+{
+  "entity": "Entrepreneurship",
+  "properties": {
+    "definition": "Process of creating a business",
+    "risk_level": "High",
+    "reward_potential": "High",
+    "skill_set": "Innovation, Management, Sales",
+    "motivation": "Opportunity, Independence, Wealth",
+    "stage": "Ideation, Planning, Execution",
+    "funding_sources": "Venture Capital, Loans, Bootstrapping",
+    "legal_structure": "Sole Proprietorship, LLC, Corporation",
+    "economic_impact": "Job Creation, Innovation",
+    "failure_rate": "Significant"
+  },
+  "relationship": [
+    {
+      "requires": "Business Plan"
+    },
+    {
+      "leads_to": "Business Creation"
+    },
+    {
+      "influenced_by": "Market Demand"
+    },
+    {
+      "related_to": "Innovation"
+    },
+    {
+      "requires": "Capital"
+    },
+    {
+      "often_involves": "Risk Taking"
+    },
+    {
+      "benefits_from": "Networking"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "often_requires": "Management"
+    },
+    {
+      "overlaps_with": "Small Business"
+    }
+  ]
+}

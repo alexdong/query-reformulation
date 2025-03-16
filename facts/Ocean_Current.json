@@ -1,0 +1,47 @@
+{
+  "entity": "Ocean Current",
+  "properties": {
+    "type": "Water movement",
+    "driver": "Wind, Density, Temperature",
+    "scale": "Global to Local",
+    "direction": "Variable",
+    "speed": "Variable",
+    "salinity_effect": "Significant",
+    "temperature_effect": "Significant",
+    "depth": "Surface to Deep",
+    "impact": "Climate, Marine Life",
+    "measurement_unit": "m/s"
+  },
+  "relationship": [
+    {
+      "part_of": "Ocean"
+    },
+    {
+      "drives": "Climate"
+    },
+    {
+      "affects": "Marine Life"
+    },
+    {
+      "influenced_by": "Coriolis Effect"
+    },
+    {
+      "caused_by": "Wind"
+    },
+    {
+      "impacts": "Upwelling"
+    },
+    {
+      "related_to": "Thermohaline Circulation"
+    },
+    {
+      "example": "Gulf Stream"
+    },
+    {
+      "example": "Kuroshio Current"
+    },
+    {
+      "example": "California Current"
+    }
+  ]
+}

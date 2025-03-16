@@ -1,0 +1,47 @@
+{
+  "entity": "Expansion of Canada",
+  "properties": {
+    "type": "Historical process",
+    "start_date": "1763",
+    "end_date": "1914",
+    "primary_driver": "British Empire",
+    "geographic_scope": "North America",
+    "initial_territory": "British North America",
+    "final_territory": "Dominion of Canada",
+    "key_legislation": "British North America Act",
+    "major_treaties": "Treaty of Paris, Treaty of Ghent",
+    "impact": "Indigenous displacement, resource exploitation"
+  },
+  "relationship": [
+    {
+      "part_of": "British Empire"
+    },
+    {
+      "preceded_by": "French Colonization of America"
+    },
+    {
+      "followed_by": "Modern Canada"
+    },
+    {
+      "involved": "Hudson's Bay Company"
+    },
+    {
+      "involved": "North-West Mounted Police"
+    },
+    {
+      "involved": "Métis people"
+    },
+    {
+      "involved": "Indigenous peoples"
+    },
+    {
+      "led_to": "Confederation of Canada"
+    },
+    {
+      "resulted_in": "Creation of provinces"
+    },
+    {
+      "influenced_by": "Manifest Destiny"
+    }
+  ]
+}

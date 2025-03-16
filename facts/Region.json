@@ -1,0 +1,47 @@
+{
+  "entity": "Region",
+  "properties": {
+    "instance_of": "Geographic area",
+    "type": "Administrative division",
+    "definition": "Area with shared characteristics",
+    "size": "Variable",
+    "population": "Variable",
+    "governance": "Varies",
+    "economy": "Diverse",
+    "culture": "Distinct",
+    "geography": "Varied",
+    "climate": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Country"
+    },
+    {
+      "contains": "City"
+    },
+    {
+      "borders": "Region"
+    },
+    {
+      "located_in": "Continent"
+    },
+    {
+      "has_capital": "City"
+    },
+    {
+      "economic_activity": "Agriculture"
+    },
+    {
+      "economic_activity": "Industry"
+    },
+    {
+      "cultural_group": "Ethnic group"
+    },
+    {
+      "natural_feature": "Mountain"
+    },
+    {
+      "natural_feature": "River"
+    }
+  ]
+}

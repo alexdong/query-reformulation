@@ -1,0 +1,47 @@
+{
+  "entity": "Hawaiian Culture",
+  "properties": {
+    "location": "Hawaii",
+    "language": "Hawaiian Language",
+    "traditional_religion": "Hawaiian religion",
+    "traditional_music": "Hawaiian music",
+    "traditional_dance": "Hula",
+    "traditional_clothing": "Kapa",
+    "social_structure": "Aliʻi Nui",
+    "traditional_food": "Poi",
+    "values": "Aloha, Ohana, Malama",
+    "art_form": "Lei making"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "part_of": "Pacific Islander culture"
+    },
+    {
+      "has_language": "Hawaiian Language"
+    },
+    {
+      "has_art": "Hula"
+    },
+    {
+      "has_cuisine": "Hawaiian cuisine"
+    },
+    {
+      "has_value": "Aloha"
+    },
+    {
+      "has_social_system": "Aliʻi Nui"
+    },
+    {
+      "associated_with": "Lei"
+    },
+    {
+      "influenced": "American culture"
+    },
+    {
+      "related_to": "Kingdom of Hawaii"
+    }
+  ]
+}

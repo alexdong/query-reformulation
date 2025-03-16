@@ -1,0 +1,47 @@
+{
+  "entity": "Buller District",
+  "properties": {
+    "type": "Local government area",
+    "region": "West Coast, New Zealand",
+    "population_2018": "10,797",
+    "area_km2": "3,547",
+    "mayor": "James McKerchar",
+    "established": "1876",
+    "council_seats": "7",
+    "main_river": "Buller River",
+    "primary_industry": "Tourism, Forestry",
+    "time_zone": "NZST"
+  },
+  "relationship": [
+    {
+      "part_of": "West Coast Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Greymouth"
+    },
+    {
+      "contains": "Reefton"
+    },
+    {
+      "contains": "Murchison"
+    },
+    {
+      "adjacent_to": "Westland District"
+    },
+    {
+      "adjacent_to": "Tasman-Nelson District"
+    },
+    {
+      "river_flows_to": "Tasman Sea"
+    },
+    {
+      "governed_by": "Buller District Council"
+    },
+    {
+      "has_economy": "Buller economy"
+    }
+  ]
+}

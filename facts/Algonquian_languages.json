@@ -1,0 +1,47 @@
+{
+  "entity": "Algonquian languages",
+  "properties": {
+    "family": "Algonquian",
+    "geographic_area": "North America, South America",
+    "number_of_languages": "Approximately 35",
+    "typology": "Polysynthetic",
+    "writing_system": "Various, often Romanization",
+    "iso_code": "Various",
+    "endangered": "Many are endangered",
+    "historical_importance": "Significant role in early European contact",
+    "linguistic_features": "Agglutinative morphology, verb-initial word order",
+    "related_to": "Uto-Aztecan"
+  },
+  "relationship": [
+    {
+      "part_of": "Native American languages"
+    },
+    {
+      "spoken_in": "Canada"
+    },
+    {
+      "spoken_in": "United States"
+    },
+    {
+      "spoken_in": "Mexico"
+    },
+    {
+      "influenced": "Michif"
+    },
+    {
+      "related_to": "Cree language"
+    },
+    {
+      "related_to": "Ojibwe language"
+    },
+    {
+      "related_to": "Blackfoot language"
+    },
+    {
+      "related_to": "Shawnee language"
+    },
+    {
+      "studied_by": "Linguistics"
+    }
+  ]
+}

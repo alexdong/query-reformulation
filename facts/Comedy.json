@@ -1,0 +1,47 @@
+{
+  "entity": "Comedy",
+  "properties": {
+    "instance_of": "Genre",
+    "type": "Performing art",
+    "purpose": "Entertainment",
+    "origin": "Ancient Greece",
+    "element": "Humor",
+    "style": "Various",
+    "form": "Performance, Writing",
+    "audience": "General",
+    "related_to": "Drama, Satire",
+    "medium": "Stage, Film, Television"
+  },
+  "relationship": [
+    {
+      "predecessor": "Ancient Greek Comedy"
+    },
+    {
+      "influenced": "Slapstick"
+    },
+    {
+      "influenced": "Stand-up comedy"
+    },
+    {
+      "related_to": "Farce"
+    },
+    {
+      "related_to": "Improvisation"
+    },
+    {
+      "performed_by": "Comedian"
+    },
+    {
+      "written_by": "Comedy writer"
+    },
+    {
+      "appears_in": "Film"
+    },
+    {
+      "appears_in": "Television show"
+    },
+    {
+      "example_of": "Sitcom"
+    }
+  ]
+}

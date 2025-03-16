@@ -1,0 +1,47 @@
+{
+  "entity": "Glasgow School of Art",
+  "properties": {
+    "type": "Art school",
+    "location": "Glasgow",
+    "founded": "1843",
+    "architect": "Charles Rennie Mackintosh",
+    "specialization": "Fine Art, Design",
+    "governing_body": "University of Glasgow",
+    "student_count": "2000",
+    "reputation": "Internationally renowned",
+    "style": "Art Nouveau",
+    "website": "https://www.gsa.ac.uk/"
+  },
+  "relationship": [
+    {
+      "part_of": "University of Glasgow"
+    },
+    {
+      "designed_by": "Charles Rennie Mackintosh"
+    },
+    {
+      "located_in": "Glasgow City Centre"
+    },
+    {
+      "influences": "Bauhaus"
+    },
+    {
+      "offers": "BA (Hons) Fine Art"
+    },
+    {
+      "offers": "MDes Product Design"
+    },
+    {
+      "student_attends": "Glasgow School of Art"
+    },
+    {
+      "building_style": "Glasgow School Style"
+    },
+    {
+      "has_work": "Charles Rennie Mackintosh"
+    },
+    {
+      "damaged_by": "2014 fire"
+    }
+  ]
+}

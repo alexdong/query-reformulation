@@ -1,0 +1,47 @@
+{
+  "entity": "International Space Station",
+  "properties": {
+    "type": "Space station",
+    "purpose": "Research & Observation",
+    "orbit_type": "Low Earth Orbit",
+    "altitude": "400 km",
+    "mass": "450,000 kg",
+    "length": "72 m",
+    "modules": "17",
+    "operational_since": "1998",
+    "program_countries": "15",
+    "cost": "$150 billion"
+  },
+  "relationship": [
+    {
+      "orbits": "Earth"
+    },
+    {
+      "managed_by": "NASA"
+    },
+    {
+      "partner_agency": "Roscosmos"
+    },
+    {
+      "partner_agency": "ESA"
+    },
+    {
+      "partner_agency": "JAXA"
+    },
+    {
+      "partner_agency": "CSA"
+    },
+    {
+      "research_area": "Microgravity"
+    },
+    {
+      "research_area": "Human Physiology"
+    },
+    {
+      "module_built_by": "Boeing"
+    },
+    {
+      "module_built_by": "Thales Alenia Space"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Wellington",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "population_2023": "433600",
+    "latitude": "-41.2864",
+    "longitude": "174.9536",
+    "region": "Wellington Region",
+    "established": "1840",
+    "nickname": "Windy Wellington",
+    "area_km2": "455",
+    "timezone": "NZST"
+  },
+  "relationship": [
+    {
+      "capital_of": "New Zealand"
+    },
+    {
+      "located_in": "Wellington Region"
+    },
+    {
+      "part_of": "North Island"
+    },
+    {
+      "influenced_by": "Māori culture"
+    },
+    {
+      "has_landmark": "Te Papa"
+    },
+    {
+      "has_landmark": "Mount Victoria"
+    },
+    {
+      "has_transport": "Wellington Airport"
+    },
+    {
+      "has_transport": "Wellington Railway Station"
+    },
+    {
+      "near_city": "Lower Hutt"
+    },
+    {
+      "influenced": "New Zealand art"
+    }
+  ]
+}

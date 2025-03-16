@@ -1,0 +1,47 @@
+{
+  "entity": "Fermentation",
+  "properties": {
+    "instance_of": "Biochemical process",
+    "type": "Anaerobic",
+    "purpose": "Food preservation",
+    "mechanism": "Microbial metabolism",
+    "products": "Acids, Alcohols, Gases",
+    "temperature": "Variable",
+    "oxygen_requirement": "Absent",
+    "energy_yield": "Low",
+    "application": "Food & Beverage",
+    "historical_use": "Ancient"
+  },
+  "relationship": [
+    {
+      "produces": "Lactic acid"
+    },
+    {
+      "produces": "Ethanol"
+    },
+    {
+      "uses_microorganism": "Yeast"
+    },
+    {
+      "uses_microorganism": "Bacteria"
+    },
+    {
+      "results_in": "Food preservation"
+    },
+    {
+      "used_in": "Beer"
+    },
+    {
+      "used_in": "Wine"
+    },
+    {
+      "used_in": "Kimchi"
+    },
+    {
+      "related_to": "Metabolism"
+    },
+    {
+      "part_of": "Biotechnology"
+    }
+  ]
+}

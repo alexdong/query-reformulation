@@ -1,0 +1,47 @@
+{
+  "entity": "Aitutaki Airport",
+  "properties": {
+    "iata_code": "AIU",
+    "icao_code": "NCAI",
+    "location": "Aitutaki, Cook Islands",
+    "elevation": "14 m (46 ft)",
+    "runway_length": "1,220 m (4,002 ft)",
+    "surface_type": "Asphalt",
+    "owner": "Cook Islands Government",
+    "status": "Open",
+    "coordinates": "18°56′33″S 166°45′30″E",
+    "time_zone": "UTC+12"
+  },
+  "relationship": [
+    {
+      "serves": "Aitutaki"
+    },
+    {
+      "located_in": "Cook Islands"
+    },
+    {
+      "operates_flight": "Air Cook Islands"
+    },
+    {
+      "has_service": "Rarotonga International Airport"
+    },
+    {
+      "type": "Airport"
+    },
+    {
+      "part_of": "Cook Islands Airports"
+    },
+    {
+      "has_property": "Runway"
+    },
+    {
+      "has_property": "Terminal"
+    },
+    {
+      "connected_to": "Pacific Ocean"
+    },
+    {
+      "nearby_landmark": "Aitutaki Lagoon"
+    }
+  ]
+}

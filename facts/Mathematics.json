@@ -1,0 +1,47 @@
+{
+  "entity": "Mathematics",
+  "properties": {
+    "instance_of": "Academic discipline",
+    "field_of_study": "Science",
+    "language": "Symbolic",
+    "origin": "Ancient Civilizations",
+    "branch_of": "Formal Science",
+    "application": "Ubiquitous",
+    "foundation": "Logic",
+    "system": "Axiomatic",
+    "focus": "Structure and Change",
+    "notation": "Mathematical notation"
+  },
+  "relationship": [
+    {
+      "related_to": "Physics"
+    },
+    {
+      "related_to": "Computer Science"
+    },
+    {
+      "related_to": "Statistics"
+    },
+    {
+      "related_to": "Engineering"
+    },
+    {
+      "subfield_of": "Number Theory"
+    },
+    {
+      "subfield_of": "Geometry"
+    },
+    {
+      "subfield_of": "Algebra"
+    },
+    {
+      "developed_by": "Pythagoras"
+    },
+    {
+      "influenced": "Cryptography"
+    },
+    {
+      "uses": "Mathematical Proof"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Seamount",
+  "properties": {
+    "instance_of": "Geological formation",
+    "type": "Submarine mountain",
+    "location": "Ocean floor",
+    "height": "Variable",
+    "formation": "Volcanic or tectonic",
+    "depth": "Variable",
+    "biodiversity": "High",
+    "visibility": "Often obscured",
+    "size": "Variable",
+    "composition": "Rock and sediment"
+  },
+  "relationship": [
+    {
+      "part_of": "Ocean"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "located_in": "Atlantic Ocean"
+    },
+    {
+      "related_to": "Hydrothermal vent"
+    },
+    {
+      "habitat_for": "Deep-sea coral"
+    },
+    {
+      "habitat_for": "Marine life"
+    },
+    {
+      "studied_by": "Marine biologists"
+    },
+    {
+      "threatened_by": "Bottom trawling"
+    },
+    {
+      "example_of": "Davidson Seamount"
+    },
+    {
+      "part_of_system": "Oceanic ridge"
+    }
+  ]
+}

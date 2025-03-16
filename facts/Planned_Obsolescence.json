@@ -1,0 +1,47 @@
+{
+  "entity": "Planned Obsolescence",
+  "properties": {
+    "definition": "Intentional design for limited lifespan",
+    "type": "Business strategy",
+    "motivation": "Increased sales",
+    "design_methods": "Psychological, Functional, System",
+    "historical_origin": "1920s",
+    "early_example": "Phoebus cartel",
+    "criticism": "Wasteful, environmentally damaging",
+    "economic_impact": "Stimulates consumption",
+    "ethical_considerations": "Consumer rights, sustainability",
+    "related_concept": "Perceived obsolescence"
+  },
+  "relationship": [
+    {
+      "caused_by": "Phoebus cartel"
+    },
+    {
+      "related_to": "Consumerism"
+    },
+    {
+      "opposed_by": "Right to Repair"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "influences": "Marketing"
+    },
+    {
+      "related_to": "Product lifecycle"
+    },
+    {
+      "criticized_by": "Environmentalists"
+    },
+    {
+      "promoted_by": "Manufacturers"
+    },
+    {
+      "example_of": "Business strategy"
+    },
+    {
+      "contrasted_with": "Durable goods"
+    }
+  ]
+}

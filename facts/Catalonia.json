@@ -1,0 +1,47 @@
+{
+  "entity": "Catalonia",
+  "properties": {
+    "instance_of": "Autonomous community",
+    "capital": "Barcelona",
+    "country": "Spain",
+    "official_language": "Catalan",
+    "area_km2": "32394",
+    "population_2023": "7714188",
+    "currency": "Euro",
+    "GDP_2023": "290000000000",
+    "time_zone": "CET",
+    "region_type": "Geographic region"
+  },
+  "relationship": [
+    {
+      "part_of": "Spain"
+    },
+    {
+      "borders": "France"
+    },
+    {
+      "borders": "Andorra"
+    },
+    {
+      "borders": "Aragon"
+    },
+    {
+      "borders": "Valencia"
+    },
+    {
+      "has_language": "Catalan language"
+    },
+    {
+      "located_in": "Pyrenees"
+    },
+    {
+      "has_city": "Barcelona"
+    },
+    {
+      "historical_region": "Marca Hispanica"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Polynesian culture",
+  "properties": {
+    "origin": "Pacific Ocean",
+    "language_family": "Austronesian",
+    "religion": "Animism, Polytheism",
+    "navigation": "Star navigation, Wave patterns",
+    "art_form": "Tattooing, Wood carving, Weaving",
+    "social_structure": "Hierarchical, Chiefdoms",
+    "music_style": "Percussion, Vocal harmonies",
+    "dance_style": "Hula, Ori Tahiti",
+    "cuisine": "Fish, Taro, Coconut",
+    "clothing": "Tapa cloth, Lauhala mats"
+  },
+  "relationship": [
+    {
+      "ancestor_of": "Maori culture"
+    },
+    {
+      "ancestor_of": "Hawaiian culture"
+    },
+    {
+      "ancestor_of": "Samoan culture"
+    },
+    {
+      "influenced": "Tongan culture"
+    },
+    {
+      "related_to": "Austronesian peoples"
+    },
+    {
+      "practice": "Wayfinding"
+    },
+    {
+      "uses": "Outrigger canoe"
+    },
+    {
+      "features": "Marae"
+    },
+    {
+      "deity": "Tane"
+    },
+    {
+      "deity": "Tangaroa"
+    }
+  ]
+}

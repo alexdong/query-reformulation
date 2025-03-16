@@ -1,0 +1,47 @@
+{
+  "entity": "Red wine",
+  "properties": {
+    "type": "Beverage",
+    "color": "Red",
+    "alcohol_content": "12-15%",
+    "grape_varietals": "Cabernet Sauvignon, Merlot, Pinot Noir",
+    "origin": "Ancient civilizations",
+    "serving_temperature": "15-18°C",
+    "taste_profile": "Tannic, Fruity, Earthy",
+    "aging_potential": "Variable",
+    "acidity": "Moderate to High",
+    "pairings": "Red meat, Cheese"
+  },
+  "relationship": [
+    {
+      "part_of": "Wine"
+    },
+    {
+      "produced_in": "France"
+    },
+    {
+      "produced_in": "Italy"
+    },
+    {
+      "produced_in": "Spain"
+    },
+    {
+      "contains": "Tannins"
+    },
+    {
+      "benefits": "Antioxidants"
+    },
+    {
+      "related_to": "Viticulture"
+    },
+    {
+      "related_to": "Enology"
+    },
+    {
+      "influenced_by": "Oak barrels"
+    },
+    {
+      "used_in": "Cooking"
+    }
+  ]
+}

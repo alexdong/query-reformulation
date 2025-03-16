@@ -1,0 +1,47 @@
+{
+  "entity": "Marine (biology)",
+  "properties": {
+    "instance_of": "Biological classification",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Phocidae",
+    "lifespan": "20-30 years",
+    "diet": "Fish, squid, crustaceans",
+    "habitat": "Coastal waters",
+    "conservation_status": "Least Concern"
+  },
+  "relationship": [
+    {
+      "part_of": "Phocidae"
+    },
+    {
+      "lives_in": "Arctic Ocean"
+    },
+    {
+      "lives_in": "Atlantic Ocean"
+    },
+    {
+      "lives_in": "Pacific Ocean"
+    },
+    {
+      "prey_of": "Polar bear"
+    },
+    {
+      "prey_of": "Killer whale"
+    },
+    {
+      "related_to": "Seal"
+    },
+    {
+      "related_to": "Walrus"
+    },
+    {
+      "has_feature": "Blubber"
+    },
+    {
+      "has_feature": "Whiskers"
+    }
+  ]
+}

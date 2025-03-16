@@ -1,0 +1,47 @@
+{
+  "entity": "Samoan language",
+  "properties": {
+    "iso_code": "sm",
+    "language_family": "Austronesian",
+    "script": "Latin",
+    "status": "Vital",
+    "native_speakers": "450,000",
+    "geographic_region": "Samoa, American Samoa",
+    "official_language": "Samoa",
+    "writing_system_origin": "Missionary",
+    "influenced_by": "Tongan",
+    "typology": "Polysynthetic"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian languages"
+    },
+    {
+      "spoken_in": "Samoa"
+    },
+    {
+      "spoken_in": "American Samoa"
+    },
+    {
+      "related_to": "Tongan language"
+    },
+    {
+      "influenced": "Tok Pisin"
+    },
+    {
+      "written_in": "Latin script"
+    },
+    {
+      "has_dialect": "Eastern Samoan"
+    },
+    {
+      "has_dialect": "Western Samoan"
+    },
+    {
+      "recognized_by": "UNESCO"
+    },
+    {
+      "language_code": "sm"
+    }
+  ]
+}

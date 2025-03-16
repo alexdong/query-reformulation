@@ -1,0 +1,47 @@
+{
+  "entity": "Aitutaki Lagoon",
+  "properties": {
+    "type": "Lagoon",
+    "location": "Cook Islands",
+    "area": "195 sq km",
+    "depth_avg": "27 m",
+    "depth_max": "39 m",
+    "island_group": "Northwest Cook Islands",
+    "formation": "Coral reef",
+    "water_temp": "28°C",
+    "salinity": "35 ppt",
+    "UNESCO_status": "UNESCO Biosphere Reserve"
+  },
+  "relationship": [
+    {
+      "part_of": "Cook Islands"
+    },
+    {
+      "contains": "Aitutaki Island"
+    },
+    {
+      "located_near": "Manuae"
+    },
+    {
+      "ecosystem": "Coral reef ecosystem"
+    },
+    {
+      "supports": "Marine life"
+    },
+    {
+      "tourism_attraction": "Snorkeling"
+    },
+    {
+      "tourism_attraction": "Diving"
+    },
+    {
+      "influenced_by": "Ocean currents"
+    },
+    {
+      "biodiversity": "High"
+    },
+    {
+      "geological_feature": "Atoll"
+    }
+  ]
+}

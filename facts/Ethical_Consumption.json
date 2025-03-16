@@ -1,0 +1,47 @@
+{
+  "entity": "Ethical Consumption",
+  "properties": {
+    "definition": "Consumer choices considering ethical factors",
+    "focus": "Social and environmental impact",
+    "alternative_name": "Responsible Consumption",
+    "scope": "Products, services, and production methods",
+    "motivation": "Values, beliefs, concerns",
+    "key_aspects": "Fair trade, sustainability, animal welfare",
+    "related_concept": "Sustainable Development",
+    "impact_area": "Labor practices, environmental protection",
+    "consumer_behavior": "Intentional purchasing",
+    "economic_impact": "Supports ethical businesses"
+  },
+  "relationship": [
+    {
+      "part_of": "Consumerism"
+    },
+    {
+      "related_to": "Fair Trade"
+    },
+    {
+      "supports": "Sustainable Development Goals"
+    },
+    {
+      "impacts": "Labor Standards"
+    },
+    {
+      "influences": "Supply Chain Management"
+    },
+    {
+      "promotes": "Environmental Sustainability"
+    },
+    {
+      "overlaps_with": "Socially Responsible Investing"
+    },
+    {
+      "requires": "Transparency"
+    },
+    {
+      "challenges": "Greenwashing"
+    },
+    {
+      "linked_to": "Consumer Rights"
+    }
+  ]
+}

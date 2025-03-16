@@ -1,0 +1,47 @@
+{
+  "entity": "Liz Truss",
+  "properties": {
+    "birth_date": "1975-12-20",
+    "birth_place": "Oxford, England",
+    "occupation": "Politician",
+    "political_party": "Conservative Party",
+    "education": "University of Oxford",
+    "nationality": "British",
+    "spouse": "Hugh Hepworth",
+    "height": "1.63 m",
+    "ukparliament": "True",
+    "constituency": "South West Norfolk"
+  },
+  "relationship": [
+    {
+      "prime_minister": "United Kingdom"
+    },
+    {
+      "chancellor_of_the_exchequer": "United Kingdom"
+    },
+    {
+      "member_of": "Conservative Party (UK)"
+    },
+    {
+      "educated_at": "University of Oxford"
+    },
+    {
+      "predecessor": "Kwasi Kwarteng"
+    },
+    {
+      "successor": "Rishi Sunak"
+    },
+    {
+      "member_of_parliament_for": "South West Norfolk"
+    },
+    {
+      "child_of": "Priscilla Mary Truss"
+    },
+    {
+      "spouse_of": "Hugh Hepworth"
+    },
+    {
+      "attended": "Roundwood Primary School"
+    }
+  ]
+}

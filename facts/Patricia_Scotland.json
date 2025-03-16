@@ -1,0 +1,47 @@
+{
+  "entity": "Patricia Scotland",
+  "properties": {
+    "birth_date": "1952-08-15",
+    "birth_place": "Belize City, Belize",
+    "nationality": "British",
+    "occupation": "Politician, Lawyer",
+    "education": "University of Warwick",
+    "political_party": "Labour Party",
+    "member_of": "House of Lords",
+    "title": "Baroness Scotland of Astill",
+    "spouse": "Peter Sandys",
+    "children": "2"
+  },
+  "relationship": [
+    {
+      "educated_at": "University of Warwick"
+    },
+    {
+      "member_of": "Labour Party"
+    },
+    {
+      "member_of": "House of Lords"
+    },
+    {
+      "appointed_by": "Tony Blair"
+    },
+    {
+      "held_office": "Secretary of State for International Development"
+    },
+    {
+      "held_office": "Minister of State for Education"
+    },
+    {
+      "held_office": "Attorney General for England and Wales"
+    },
+    {
+      "honorific_prefix": "Baroness"
+    },
+    {
+      "succeeded": "Boris Johnson"
+    },
+    {
+      "preceded_by": "David Cameron"
+    }
+  ]
+}

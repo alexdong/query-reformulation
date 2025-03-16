@@ -1,0 +1,47 @@
+{
+  "entity": "Hawaii",
+  "properties": {
+    "type": "State",
+    "capital": "Honolulu",
+    "population": "1420000",
+    "area_km2": "16931",
+    "official_language": "English",
+    "largest_city": "Honolulu",
+    "formation_date": "August 21, 1959",
+    "time_zone": "HST",
+    "currency": "USD",
+    "geography": "Archipelago"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "is_member_of": "Pacific Island Countries"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "has_volcano": "Mauna Loa"
+    },
+    {
+      "has_island": "Oahu"
+    },
+    {
+      "has_island": "Maui"
+    },
+    {
+      "has_island": "Hawaii (island)"
+    },
+    {
+      "tourism_attraction": "Pearl Harbor"
+    },
+    {
+      "product": "Pineapple"
+    }
+  ]
+}

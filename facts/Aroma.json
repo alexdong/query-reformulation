@@ -1,0 +1,47 @@
+{
+  "entity": "Aroma",
+  "properties": {
+    "instance_of": "Scent",
+    "type": "Olfactory",
+    "perception": "Smell",
+    "quality": "Fragrant",
+    "description": "Distinctive smell",
+    "related_to": "Flavor",
+    "associated_with": "Emotion",
+    "influenced_by": "Chemical compounds",
+    "detection_threshold": "Variable",
+    "subjective": "True"
+  },
+  "relationship": [
+    {
+      "part_of": "Olfactory system"
+    },
+    {
+      "related_to": "Fragrance"
+    },
+    {
+      "related_to": "Perfume"
+    },
+    {
+      "related_to": "Essential oil"
+    },
+    {
+      "associated_with": "Aromatherapy"
+    },
+    {
+      "detected_by": "Nose"
+    },
+    {
+      "influences": "Taste"
+    },
+    {
+      "evokes": "Memory"
+    },
+    {
+      "related_to": "Scented candle"
+    },
+    {
+      "related_to": "Aroma molecule"
+    }
+  ]
+}

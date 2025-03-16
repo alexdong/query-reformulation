@@ -1,0 +1,47 @@
+{
+  "entity": "Burn Water",
+  "properties": {
+    "type": "Chemical Compound",
+    "formula": "H2O",
+    "alternative_name": "Deuterium Oxide",
+    "appearance": "Colorless Liquid",
+    "density": "1.107 g/cm³",
+    "boiling_point": "101.42 °C",
+    "freezing_point": "25.26 °C",
+    "viscosity": "1.22 cP",
+    "radioactivity": "Not Radioactive",
+    "use": "Scientific Research"
+  },
+  "relationship": [
+    {
+      "is_a": "Water"
+    },
+    {
+      "isotope_of": "Hydrogen"
+    },
+    {
+      "isotope_of": "Oxygen"
+    },
+    {
+      "related_to": "Nuclear Physics"
+    },
+    {
+      "used_in": "Neutron Scattering"
+    },
+    {
+      "studied_by": "Ernest Rutherford"
+    },
+    {
+      "toxicity": "Toxic in high concentrations"
+    },
+    {
+      "alternative_name_for": "Heavy Water"
+    },
+    {
+      "used_in": "Nuclear Reactors"
+    },
+    {
+      "related_to": "Isotopes"
+    }
+  ]
+}

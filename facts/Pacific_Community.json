@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Community",
+  "properties": {
+    "short_name": "SPC",
+    "type": "Intergovernmental Organization",
+    "founded": "1947",
+    "headquarters": "Nouméa, New Caledonia",
+    "purpose": "Sustainable Development",
+    "membership": "22 Pacific Island Countries and Territories",
+    "mandate": "Regional Cooperation",
+    "languages": "English, French, Pidgin",
+    "focus_areas": "Ocean, Land, People",
+    "website": "spc.int"
+  },
+  "relationship": [
+    {
+      "member_country": "Australia"
+    },
+    {
+      "member_country": "Fiji"
+    },
+    {
+      "member_country": "New Zealand"
+    },
+    {
+      "member_country": "Papua New Guinea"
+    },
+    {
+      "parent_organization": "United Nations"
+    },
+    {
+      "collaborates_with": "UNESCO"
+    },
+    {
+      "provides_support_to": "Pacific Island Governments"
+    },
+    {
+      "focuses_on": "Climate Change"
+    },
+    {
+      "promotes": "Fisheries Management"
+    },
+    {
+      "supports": "Economic Growth"
+    }
+  ]
+}

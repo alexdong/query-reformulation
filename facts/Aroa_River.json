@@ -1,0 +1,47 @@
+{
+  "entity": "Aroa River",
+  "properties": {
+    "type": "River",
+    "location": "New Zealand",
+    "region": "Manawatū-Whanganui",
+    "source": "Tararua Range",
+    "mouth": "Manawatū River",
+    "length": "45 km",
+    "tributary_of": "Manawatū River",
+    "catchment": "Aroa Catchment",
+    "usage": "Irrigation, Recreation",
+    "water_quality": "Variable"
+  },
+  "relationship": [
+    {
+      "flows_into": "Manawatū River"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Aroa Catchment"
+    },
+    {
+      "originates_in": "Tararua Range"
+    },
+    {
+      "drains_into": "Pacific Ocean (via Manawatū River)"
+    },
+    {
+      "adjacent_to": "State Highway 1"
+    },
+    {
+      "supports_ecosystem": "Native fish species"
+    },
+    {
+      "used_for": "Agriculture"
+    },
+    {
+      "provides": "Irrigation water"
+    },
+    {
+      "near": "Palmerston North"
+    }
+  ]
+}

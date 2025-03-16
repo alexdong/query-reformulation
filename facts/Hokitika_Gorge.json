@@ -1,0 +1,47 @@
+{
+  "entity": "Hokitika Gorge",
+  "properties": {
+    "type": "Geological Formation",
+    "location": "West Coast, New Zealand",
+    "river": "Hokitika River",
+    "formation": "Glacial",
+    "color": "Turquoise",
+    "material": "Suspended Limestone",
+    "area": "Small",
+    "accessibility": "Easy",
+    "tourism": "Popular",
+    "nearby_town": "Hokitika"
+  },
+  "relationship": [
+    {
+      "located_in": "West Coast Region"
+    },
+    {
+      "part_of": "Hokitika River"
+    },
+    {
+      "formed_by": "Glacial Activity"
+    },
+    {
+      "contains": "Limestone"
+    },
+    {
+      "attracts": "Tourists"
+    },
+    {
+      "near": "Hokitika"
+    },
+    {
+      "influenced_by": "Erosion"
+    },
+    {
+      "visible_from": "Walking Tracks"
+    },
+    {
+      "feature_of": "New Zealand Landscape"
+    },
+    {
+      "associated_with": "Tourism New Zealand"
+    }
+  ]
+}

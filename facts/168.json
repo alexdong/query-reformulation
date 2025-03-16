@@ -1,0 +1,47 @@
+{
+  "entity": "168",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "even_number": "Yes",
+    "composite_number": "No",
+    "prime_factorization": "2^3 * 21",
+    "divisors": "1, 2, 3, 4, 6, 7, 8, 12, 14, 21, 24, 28, 42, 56, 84, 168",
+    "sum_of_divisors": "384",
+    "least_common_multiple_with_12": "168",
+    "greatest_common_divisor_with_24": "8",
+    "representation_in_binary": "10101000"
+  },
+  "relationship": [
+    {
+      "predecessor": "167"
+    },
+    {
+      "successor": "169"
+    },
+    {
+      "factor_of": "336"
+    },
+    {
+      "factor_of": "504"
+    },
+    {
+      "divisible_by": "2"
+    },
+    {
+      "divisible_by": "3"
+    },
+    {
+      "divisible_by": "4"
+    },
+    {
+      "divisible_by": "6"
+    },
+    {
+      "divisible_by": "7"
+    },
+    {
+      "divisible_by": "8"
+    }
+  ]
+}

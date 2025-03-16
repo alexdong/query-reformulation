@@ -1,0 +1,47 @@
+{
+  "entity": "United States",
+  "properties": {
+    "capital": "Washington, D.C.",
+    "official_language": "None (de facto English)",
+    "population": "333 million (2022)",
+    "area": "9.8 million sq mi",
+    "currency": "USD",
+    "government": "Federal Republic",
+    "GDP_nominal": "$25.44 trillion (2022)",
+    "sovereignty": "1776",
+    "largest_city": "New York City",
+    "national_anthem": "The Star-Spangled Banner"
+  },
+  "relationship": [
+    {
+      "part_of": "North America"
+    },
+    {
+      "borders": "Canada"
+    },
+    {
+      "borders": "Mexico"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "influenced": "Hollywood"
+    },
+    {
+      "has_state": "California"
+    },
+    {
+      "has_state": "Texas"
+    },
+    {
+      "has_state": "Florida"
+    },
+    {
+      "leader": "Joe Biden"
+    },
+    {
+      "major_industry": "Technology"
+    }
+  ]
+}

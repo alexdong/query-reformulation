@@ -1,0 +1,47 @@
+{
+  "entity": "PS Southern Cross",
+  "properties": {
+    "type": "Ship",
+    "owner": "P&O Cruises",
+    "flag": "Bahamas",
+    "gross_tonnage": "131,953 GT",
+    "passenger_capacity": "3,146",
+    "crew_members": "1,188",
+    "launched": "2011-05-02",
+    "in_service": "2011-11-08",
+    "builder": "Fincantieri",
+    "class": "Borealis class"
+  },
+  "relationship": [
+    {
+      "part_of_fleet": "P&O Cruises fleet"
+    },
+    {
+      "sister_ship": "PS Arcadia"
+    },
+    {
+      "sister_ship": "PS Aurora"
+    },
+    {
+      "sister_ship": "PS Oriana"
+    },
+    {
+      "built_at": "Fincantieri shipyard"
+    },
+    {
+      "route": "Australia & New Zealand"
+    },
+    {
+      "port_of_registry": "Nassau"
+    },
+    {
+      "operated_by": "Carnival Corporation"
+    },
+    {
+      "ship_type": "Cruise ship"
+    },
+    {
+      "design_features": "Borealis design"
+    }
+  ]
+}

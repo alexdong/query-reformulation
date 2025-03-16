@@ -1,0 +1,47 @@
+{
+  "entity": "Golden Age of Hollywood",
+  "properties": {
+    "time_period_start": "1927",
+    "time_period_end": "1969",
+    "location": "Hollywood, California",
+    "genre_focus": "Musicals, Dramas, Comedies",
+    "sound_introduction": "1927",
+    "color_introduction": "1935",
+    "studio_system": "Dominant",
+    "production_code": "Hays Code",
+    "economic_impact": "Significant",
+    "cultural_impact": "Enormous"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Silent Film Era"
+    },
+    {
+      "followed_by": "New Hollywood"
+    },
+    {
+      "influenced": "Modern Cinema"
+    },
+    {
+      "studio_involved": "MGM"
+    },
+    {
+      "studio_involved": "Warner Bros."
+    },
+    {
+      "studio_involved": "Paramount Pictures"
+    },
+    {
+      "actor_appeared": "Humphrey Bogart"
+    },
+    {
+      "actor_appeared": "Marilyn Monroe"
+    },
+    {
+      "director_involved": "Alfred Hitchcock"
+    },
+    {
+      "film_genre": "Film Noir"
+    }
+  ]
+}

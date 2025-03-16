@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Transport Agency",
+  "properties": {
+    "agency_type": "Government",
+    "country": "New Zealand",
+    "established": "2008",
+    "parent_agency": "Ministry of Transport",
+    "headquarters": "Wellington",
+    "responsible_for": "Roads, Rail, Maritime, Aviation",
+    "budget_2023": "6.1 billion NZD",
+    "abbreviation": "NZTA",
+    "website": "nzta.govt.nz",
+    "chief_executive": "Nicole Rosie"
+  },
+  "relationship": [
+    {
+      "regulates": "Road safety"
+    },
+    {
+      "manages": "State Highway Network"
+    },
+    {
+      "funds": "Public transport"
+    },
+    {
+      "collaborates_with": "Local councils"
+    },
+    {
+      "reports_to": "Ministry of Transport"
+    },
+    {
+      "employs": "4,700"
+    },
+    {
+      "oversees": "Road policing"
+    },
+    {
+      "responsible_for": "Land Transport Rule"
+    },
+    {
+      "provides": "Driver licensing"
+    },
+    {
+      "impacts": "New Zealand economy"
+    }
+  ]
+}

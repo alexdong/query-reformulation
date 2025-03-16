@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Premiership",
+  "properties": {
+    "instance_of": "Football league",
+    "country": "Scotland",
+    "level": "Top tier",
+    "founded": "1890",
+    "teams": "12",
+    "governing_body": "Scottish Professional Football League",
+    "promotion_system": "Scottish Championship",
+    "relegation_system": "Scottish Championship",
+    "season_format": "Autumn-Spring",
+    "trophy": "Scottish Premiership Trophy"
+  },
+  "relationship": [
+    {
+      "part_of": "Scottish football league system"
+    },
+    {
+      "governed_by": "Scottish Professional Football League"
+    },
+    {
+      "promotes_to": "UEFA Champions League"
+    },
+    {
+      "relegates_to": "Scottish Championship"
+    },
+    {
+      "team_plays_in": "Celtic FC"
+    },
+    {
+      "team_plays_in": "Rangers FC"
+    },
+    {
+      "team_plays_in": "Aberdeen FC"
+    },
+    {
+      "team_plays_in": "Hearts FC"
+    },
+    {
+      "influenced": "Scottish Cup"
+    },
+    {
+      "influenced": "Scottish League Cup"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand climate",
+  "properties": {
+    "type": "Temperate",
+    "latitude_range": "-34 to -24 degrees",
+    "longitude_range": "172 to 180 degrees East",
+    "rainfall_average": "1243 mm",
+    "sunshine_hours_average": "2000 hours",
+    "temperature_range_winter": "5-10°C",
+    "temperature_range_summer": "20-30°C",
+    "dominant_winds": "Prevailing westerly winds",
+    "influenced_by": "Southern Ocean",
+    "climate_zones": "Multiple, varying by region"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "influenced_by": "Roaring Forties"
+    },
+    {
+      "affected_by": "El Niño"
+    },
+    {
+      "affected_by": "La Niña"
+    },
+    {
+      "experiences": "Cyclones"
+    },
+    {
+      "experiences": "Fog"
+    },
+    {
+      "impacts_agriculture": "Horticulture"
+    },
+    {
+      "impacts_tourism": "Outdoor recreation"
+    },
+    {
+      "affects": "Biodiversity"
+    },
+    {
+      "region_has_climate": "North Island"
+    }
+  ]
+}

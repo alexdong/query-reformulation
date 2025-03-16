@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Sign Language",
+  "properties": {
+    "language_family": "Sign language",
+    "official_status": "Official language",
+    "country": "New Zealand",
+    "origin": "British Sign Language",
+    "lexicon_size": "Estimated 1000 signs",
+    "writing_system": "Manual alphabet",
+    "deaf_community": "New Zealand Deaf community",
+    "established": "1984",
+    "influenced_by": "Māori Sign Language",
+    "governing_body": "New Zealand Sign Language Council"
+  },
+  "relationship": [
+    {
+      "influenced": "New Zealand culture"
+    },
+    {
+      "related_to": "British Sign Language"
+    },
+    {
+      "used_by": "Deaf community"
+    },
+    {
+      "recognized_by": "New Zealand Parliament"
+    },
+    {
+      "promoted_by": "New Zealand Sign Language Council"
+    },
+    {
+      "part_of": "Sign language family"
+    },
+    {
+      "used_in": "Education"
+    },
+    {
+      "related_to": "New Zealand culture"
+    },
+    {
+      "translation_of": "Spoken New Zealand English"
+    },
+    {
+      "influenced": "New Zealand Sign Language Dictionary"
+    }
+  ]
+}

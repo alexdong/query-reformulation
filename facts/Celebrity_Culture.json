@@ -1,0 +1,47 @@
+{
+  "entity": "Celebrity Culture",
+  "properties": {
+    "definition": "Worship of famous people",
+    "origin": "Ancient Rome",
+    "focus": "Public figures",
+    "medium": "Media",
+    "drivers": "Fame, wealth, influence",
+    "impact": "Social trends, consumerism",
+    "criticism": "Superficiality, unrealistic expectations",
+    "historical_evolution": "Shift from aristocracy to popular figures",
+    "economic_impact": "Entertainment industry, marketing",
+    "contemporary_form": "Social media, paparazzi"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Roman Imperial Cult"
+    },
+    {
+      "related_to": "Fame"
+    },
+    {
+      "promotes": "Consumerism"
+    },
+    {
+      "fueled_by": "Media"
+    },
+    {
+      "impacts": "Social Media"
+    },
+    {
+      "associated_with": "Paparazzi"
+    },
+    {
+      "creates": "Fan culture"
+    },
+    {
+      "contributes_to": "Idolization"
+    },
+    {
+      "shapes": "Fashion trends"
+    },
+    {
+      "linked_to": "Public Relations"
+    }
+  ]
+}

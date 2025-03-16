@@ -1,0 +1,47 @@
+{
+  "entity": "Bird Conservation",
+  "properties": {
+    "definition": "Protecting bird populations",
+    "goal": "Species survival",
+    "focus": "Habitat preservation",
+    "threats": "Habitat loss, climate change",
+    "scale": "Global",
+    "method": "Legal protection, restoration",
+    "organization": "BirdLife International",
+    "importance": "Ecosystem health",
+    "indicator": "Biodiversity",
+    "funding": "Government, NGOs"
+  },
+  "relationship": [
+    {
+      "part_of": "Environmental conservation"
+    },
+    {
+      "related_to": "Habitat restoration"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "addresses": "Climate change"
+    },
+    {
+      "works_with": "Protected areas"
+    },
+    {
+      "benefits": "Ecosystem services"
+    },
+    {
+      "involves": "Ornithology"
+    },
+    {
+      "supports": "Sustainable development"
+    },
+    {
+      "requires": "Public awareness"
+    },
+    {
+      "overlaps_with": "Wildlife conservation"
+    }
+  ]
+}

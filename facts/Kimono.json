@@ -1,0 +1,47 @@
+{
+  "entity": "Kimono",
+  "properties": {
+    "instance_of": "Garment",
+    "type": "National dress",
+    "origin": "Japan",
+    "era": "Heian period",
+    "material": "Silk, cotton",
+    "style": "T-shaped, long-sleeved",
+    "gender": "Traditionally women",
+    "color_symbolism": "Varies by occasion",
+    "historical_use": "Formal wear",
+    "modern_use": "Festivals, special occasions"
+  },
+  "relationship": [
+    {
+      "predecessor": "Kosode"
+    },
+    {
+      "influenced": "Western fashion"
+    },
+    {
+      "associated_with": "Geisha"
+    },
+    {
+      "part_of": "Japanese culture"
+    },
+    {
+      "worn_during": "Hanami"
+    },
+    {
+      "related_to": "Yukata"
+    },
+    {
+      "design_features": "Obi"
+    },
+    {
+      "associated_with_art": "Ukiyo-e"
+    },
+    {
+      "symbolizes": "Elegance, tradition"
+    },
+    {
+      "made_from": "Fabric"
+    }
+  ]
+}

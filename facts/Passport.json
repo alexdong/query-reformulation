@@ -1,0 +1,47 @@
+{
+  "entity": "Passport",
+  "properties": {
+    "instance_of": "Document",
+    "purpose": "International Travel",
+    "issuing_authority": "Government",
+    "contains": "Photograph",
+    "validity_period": "5-10 years",
+    "data_format": "Machine-readable",
+    "security_features": "Holograms, Watermarks",
+    "biometric_data": "Increasingly included",
+    "color": "Navy Blue (varies by country)",
+    "required_for": "Visa-free travel"
+  },
+  "relationship": [
+    {
+      "issued_by": "Country"
+    },
+    {
+      "required_for": "International Travel"
+    },
+    {
+      "related_to": "Visa"
+    },
+    {
+      "used_in": "Border Control"
+    },
+    {
+      "contains": "Personal Information"
+    },
+    {
+      "associated_with": "Nationality"
+    },
+    {
+      "linked_to": "Passport Number"
+    },
+    {
+      "part_of": "Travel Documents"
+    },
+    {
+      "governed_by": "International Agreements"
+    },
+    {
+      "preceded_by": "Travel Permit"
+    }
+  ]
+}

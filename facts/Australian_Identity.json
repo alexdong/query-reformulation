@@ -1,0 +1,47 @@
+{
+  "entity": "Australian Identity",
+  "properties": {
+    "definition": "Sense of belonging to Australia",
+    "historical_context": "Colonial past, Indigenous heritage",
+    "geographic_influence": "Vast landscapes, isolation",
+    "cultural_blend": "British, Indigenous, European, Asian",
+    "values": "Fairness, egalitarianism, mateship",
+    "language": "Australian English",
+    "national_symbol": "Southern Cross, Kangaroo",
+    "sporting_culture": "Rugby, Cricket, Australian Rules Football",
+    "artistic_expression": "Aboriginal art, bush poetry",
+    "contemporary_challenges": "Reconciliation, multiculturalism"
+  },
+  "relationship": [
+    {
+      "influenced_by": "British Colonialism"
+    },
+    {
+      "impacted_by": "Indigenous Australians"
+    },
+    {
+      "shaped_by": "Migration"
+    },
+    {
+      "connected_to": "Australian Culture"
+    },
+    {
+      "related_to": "Australian History"
+    },
+    {
+      "manifests_in": "Australian Literature"
+    },
+    {
+      "reflected_in": "Australian Film"
+    },
+    {
+      "associated_with": "Australian Politics"
+    },
+    {
+      "impacts": "Australian Economy"
+    },
+    {
+      "part_of": "Australian National Identity"
+    }
+  ]
+}

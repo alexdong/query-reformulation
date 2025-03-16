@@ -1,0 +1,47 @@
+{
+  "entity": "Ethel Skakel",
+  "properties": {
+    "birth_date": "1928-08-27",
+    "birth_place": "New York City, New York, USA",
+    "death_date": "2022-08-09",
+    "death_place": "Darien, Connecticut, USA",
+    "nationality": "American",
+    "occupation": "Socialite",
+    "spouse": "Hubert Skakel",
+    "family_member_of": "Kennedy family",
+    "education": "Hollywood High School",
+    "known_for": "Michael Skakel case"
+  },
+  "relationship": [
+    {
+      "spouse_of": "Hubert Skakel"
+    },
+    {
+      "parent_of": "Catherine Skakel"
+    },
+    {
+      "parent_of": "John Skakel"
+    },
+    {
+      "parent_of": "Robert Skakel"
+    },
+    {
+      "parent_of": "Marina Skakel"
+    },
+    {
+      "related_to": "John F. Kennedy"
+    },
+    {
+      "related_to": "Rose Kennedy"
+    },
+    {
+      "involved_in": "Michael Skakel case"
+    },
+    {
+      "member_of": "Kennedy family"
+    },
+    {
+      "attended": "Hollywood High School"
+    }
+  ]
+}

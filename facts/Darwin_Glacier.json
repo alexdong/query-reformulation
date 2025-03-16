@@ -1,0 +1,47 @@
+{
+  "entity": "Darwin Glacier",
+  "properties": {
+    "type": "Glacier",
+    "location": "Antarctica",
+    "region": "Victoria Land",
+    "length": "13 km",
+    "width": "5 km",
+    "elevation": "1,500 m",
+    "flow_direction": "East",
+    "discovery_year": "1841",
+    "named_after": "Charles Darwin",
+    "parent_glacier": "Victoria Glacier"
+  },
+  "relationship": [
+    {
+      "part_of": "Victoria Land"
+    },
+    {
+      "located_in": "Antarctica"
+    },
+    {
+      "discovered_by": "James Clark Ross"
+    },
+    {
+      "flows_into": "Victoria Land"
+    },
+    {
+      "adjacent_to": "Victoria Glacier"
+    },
+    {
+      "tributary_of": "Victoria Glacier"
+    },
+    {
+      "influenced_by": "Climate Change"
+    },
+    {
+      "contains": "Ice"
+    },
+    {
+      "surrounded_by": "Mountains"
+    },
+    {
+      "near": "Drygalski Glacier"
+    }
+  ]
+}

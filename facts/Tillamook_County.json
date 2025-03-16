@@ -1,0 +1,47 @@
+{
+  "entity": "Tillamook County",
+  "properties": {
+    "type": "County",
+    "state": "Oregon",
+    "population_2020": "24,727",
+    "area_total": "2,543 sq mi",
+    "area_land": "2,317 sq mi",
+    "area_water": "226 sq mi",
+    "fountain_river": "Tillamook River",
+    "county_seat": "Tillamook",
+    "established": "1853",
+    "time_zone": "Pacific Time"
+  },
+  "relationship": [
+    {
+      "part_of": "Oregon"
+    },
+    {
+      "located_in": "Pacific Northwest"
+    },
+    {
+      "adjacent_to": "Lincoln County"
+    },
+    {
+      "adjacent_to": "Clatsop County"
+    },
+    {
+      "adjacent_to": "Yamhill County"
+    },
+    {
+      "contains": "Tillamook Bay"
+    },
+    {
+      "industry": "Dairy farming"
+    },
+    {
+      "industry": "Tourism"
+    },
+    {
+      "major_product": "Cheese"
+    },
+    {
+      "historical_event": "Oregon Territorial Act"
+    }
+  ]
+}

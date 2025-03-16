@@ -1,0 +1,47 @@
+{
+  "entity": "Skyline Gondola (Queenstown)",
+  "properties": {
+    "type": "Aerial lift",
+    "location": "Queenstown",
+    "country": "New Zealand",
+    "height": "450m",
+    "number_of_cabins": "20",
+    "length": "2.7km",
+    "opening_date": "1993",
+    "operator": "Skyline Queenstown",
+    "capacity": "15 people",
+    "elevation_gain": "900m"
+  },
+  "relationship": [
+    {
+      "located_in": "Queenstown"
+    },
+    {
+      "operated_by": "Skyline Queenstown"
+    },
+    {
+      "part_of": "Skyline Enterprises"
+    },
+    {
+      "provides_view_of": "Lake Wakatipu"
+    },
+    {
+      "connects_to": "Bob's Peak"
+    },
+    {
+      "attraction_type": "Tourist attraction"
+    },
+    {
+      "transport_type": "Cable car"
+    },
+    {
+      "offers": "Luge"
+    },
+    {
+      "provides": "Restaurant"
+    },
+    {
+      "feature": "Panoramic view"
+    }
+  ]
+}

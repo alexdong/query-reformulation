@@ -1,0 +1,47 @@
+{
+  "entity": "Jean Armour",
+  "properties": {
+    "birth_date": "1775-03-14",
+    "birth_place": "Paisley, Renfrewshire, Scotland",
+    "death_date": "1861-12-24",
+    "death_place": "Dumfries, Scotland",
+    "occupation": "Housekeeper",
+    "spouse": "Robert Burns",
+    "children": "Robert Burns Jr., Elizabeth Burns, Jean Burns, William Burns, Robert Burns",
+    "religion": "Church of Scotland",
+    "social_class": "Working class",
+    "known_for": "Relationship with Robert Burns"
+  },
+  "relationship": [
+    {
+      "married_to": "Robert Burns"
+    },
+    {
+      "child_of": "John Armour"
+    },
+    {
+      "child_of": "Frances Coffey"
+    },
+    {
+      "sibling_of": "John Armour Jr."
+    },
+    {
+      "sibling_of": "William Armour"
+    },
+    {
+      "resided_in": "Dumfries"
+    },
+    {
+      "influenced_by": "Scottish culture"
+    },
+    {
+      "associated_with": "Robert Burns' poetry"
+    },
+    {
+      "subject_of": "Burns' letters"
+    },
+    {
+      "location": "Paisley"
+    }
+  ]
+}

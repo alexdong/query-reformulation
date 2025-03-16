@@ -1,0 +1,47 @@
+{
+  "entity": "Plymouth Argyle",
+  "properties": {
+    "instance_of": "Football club",
+    "founded": "1886",
+    "location": "Plymouth",
+    "country": "England",
+    "league": "League One",
+    "ground": "Home Park",
+    "capacity": "19,500",
+    "nickname": "The Pilgrims",
+    "colours": "Green and White",
+    "owner": "Simon Hallett"
+  },
+  "relationship": [
+    {
+      "plays_in": "League One"
+    },
+    {
+      "located_in": "Plymouth"
+    },
+    {
+      "member_of": "The Football League"
+    },
+    {
+      "plays_at": "Home Park"
+    },
+    {
+      "rivalry": "Bristol Rovers"
+    },
+    {
+      "rivalry": "Exeter City"
+    },
+    {
+      "manager": "Steven Schumacher"
+    },
+    {
+      "founded_in": "1886"
+    },
+    {
+      "has_player": "Adam Randell"
+    },
+    {
+      "has_player": "Jordan Garrick"
+    }
+  ]
+}

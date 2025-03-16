@@ -1,0 +1,47 @@
+{
+  "entity": "Cultural Exchange",
+  "properties": {
+    "definition": "Sharing of ideas & customs",
+    "purpose": "Mutual understanding",
+    "scope": "Arts, education, cuisine",
+    "mechanism": "Travel, media, diplomacy",
+    "benefit": "Enriched perspectives",
+    "impact": "Social change",
+    "historical_significance": "Ancient trade routes",
+    "modern_facilitator": "Internet",
+    "challenges": "Cultural appropriation",
+    "outcome": "Hybrid cultures"
+  },
+  "relationship": [
+    {
+      "promotes": "Globalization"
+    },
+    {
+      "influences": "Intercultural Communication"
+    },
+    {
+      "facilitates": "Tourism"
+    },
+    {
+      "supports": "Diplomacy"
+    },
+    {
+      "impacts": "Art"
+    },
+    {
+      "impacts": "Music"
+    },
+    {
+      "impacts": "Cuisine"
+    },
+    {
+      "related_to": "UNESCO"
+    },
+    {
+      "example_of": "Silk Road"
+    },
+    {
+      "fosters": "Empathy"
+    }
+  ]
+}

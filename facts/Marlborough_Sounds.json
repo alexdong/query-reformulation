@@ -1,0 +1,47 @@
+{
+  "entity": "Marlborough Sounds",
+  "properties": {
+    "type": "Sounds",
+    "location": "New Zealand",
+    "region": "Marlborough",
+    "area": "1300 km²",
+    "geological_feature": "Fiordland",
+    "formation": "Glacial",
+    "biodiversity": "High",
+    "climate": "Temperate",
+    "water_type": "Saltwater",
+    "protected_area": "Marine Reserve"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Marlborough Region"
+    },
+    {
+      "adjacent_to": "Tasman Sea"
+    },
+    {
+      "contains": "Pelorus Sound"
+    },
+    {
+      "contains": "Queen Charlotte Sound"
+    },
+    {
+      "contains": "Kenepuru Sound"
+    },
+    {
+      "flora": "Kauri"
+    },
+    {
+      "fauna": "Dolphins"
+    },
+    {
+      "tourism": "Kayaking"
+    },
+    {
+      "influenced_by": "Glaciation"
+    }
+  ]
+}

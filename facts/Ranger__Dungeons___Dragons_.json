@@ -1,0 +1,47 @@
+{
+  "entity": "Ranger (Dungeons & Dragons)",
+  "properties": {
+    "instance_of": "Character class",
+    "game": "Dungeons & Dragons",
+    "alignment": "Neutral Good",
+    "primary_ability": "Wisdom",
+    "typical_weapon": "Longbow",
+    "armor_proficiency": "Light",
+    "hit_dice": "d8",
+    "level_range": "1-20",
+    "role": "Scout, Tracker",
+    "source": "Player's Handbook"
+  },
+  "relationship": [
+    {
+      "subclass_of": "Adventurer"
+    },
+    {
+      "related_to": "Druid"
+    },
+    {
+      "related_to": "Rogue"
+    },
+    {
+      "uses_skill": "Survival"
+    },
+    {
+      "uses_skill": "Stealth"
+    },
+    {
+      "uses_skill": "Perception"
+    },
+    {
+      "uses_ability": "Favored Enemy"
+    },
+    {
+      "uses_ability": "Track"
+    },
+    {
+      "appears_in_edition": "Advanced Dungeons & Dragons"
+    },
+    {
+      "appears_in_edition": "Dungeons & Dragons (5th edition)"
+    }
+  ]
+}

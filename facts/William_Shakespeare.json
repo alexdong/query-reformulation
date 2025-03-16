@@ -1,0 +1,47 @@
+{
+  "entity": "William Shakespeare",
+  "properties": {
+    "birth_date": "1564-04-23",
+    "birth_place": "Stratford-upon-Avon",
+    "death_date": "1616-04-23",
+    "death_place": "Stratford-upon-Avon",
+    "occupation": "Playwright",
+    "nationality": "English",
+    "period": "Elizabethan & Jacobean",
+    "genre": "Drama",
+    "known_for": "Plays, Poetry",
+    "spouse": "Anne Hathaway"
+  },
+  "relationship": [
+    {
+      "influenced": "English literature"
+    },
+    {
+      "member_of": "Lord Chamberlain's Men"
+    },
+    {
+      "wrote": "Hamlet"
+    },
+    {
+      "wrote": "Romeo and Juliet"
+    },
+    {
+      "wrote": "Macbeth"
+    },
+    {
+      "wrote": "Othello"
+    },
+    {
+      "wrote": "King Lear"
+    },
+    {
+      "born_in": "England"
+    },
+    {
+      "educated_at": "King Edward VI School"
+    },
+    {
+      "buried_in": "Holy Trinity Church"
+    }
+  ]
+}

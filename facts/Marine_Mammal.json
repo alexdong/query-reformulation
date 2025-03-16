@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Mammal",
+  "properties": {
+    "type": "Mammal",
+    "habitat": "Ocean, Rivers, Lakes",
+    "breathing": "Lungs",
+    "warm_blooded": "True",
+    "lifespan": "Variable",
+    "diet": "Variable",
+    "intelligence": "High",
+    "conservation_status": "Variable",
+    "size": "Variable",
+    "adaptation": "Hydrodynamic"
+  },
+  "relationship": [
+    {
+      "is_a": "Mammal"
+    },
+    {
+      "includes": "Whale"
+    },
+    {
+      "includes": "Seal"
+    },
+    {
+      "includes": "Dolphin"
+    },
+    {
+      "includes": "Manatee"
+    },
+    {
+      "related_to": "Cetacea"
+    },
+    {
+      "related_to": "Pinniped"
+    },
+    {
+      "threatened_by": "Climate Change"
+    },
+    {
+      "threatened_by": "Pollution"
+    },
+    {
+      "studied_by": "Marine Biology"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "British Commonwealth",
+  "properties": {
+    "instance_of": "Intergovernmental Organization",
+    "formed_date": "1931",
+    "type": "Political, Economic, and Cultural Association",
+    "head_of_state": "Charles III",
+    "membership": "56",
+    "official_languages": "English, French, Hindi, Urdu, Swahili",
+    "secretariat_location": "London",
+    "purpose": "International Cooperation",
+    "origin": "British Empire",
+    "area_covered": "30 million sq km"
+  },
+  "relationship": [
+    {
+      "member_state": "Canada"
+    },
+    {
+      "member_state": "Australia"
+    },
+    {
+      "member_state": "India"
+    },
+    {
+      "member_state": "New Zealand"
+    },
+    {
+      "member_state": "South Africa"
+    },
+    {
+      "predecessor": "British Empire"
+    },
+    {
+      "influenced_by": "Statute of Westminster"
+    },
+    {
+      "head_of_state": "Charles III"
+    },
+    {
+      "secretariat_head": "Patricia Scotland"
+    },
+    {
+      "associated_with": "CHOGM"
+    }
+  ]
+}

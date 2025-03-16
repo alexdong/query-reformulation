@@ -1,0 +1,47 @@
+{
+  "entity": "Auckland City",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Auckland",
+    "population_2023": "477,500",
+    "area_km2": "83",
+    "mayor": "Clem Philpott",
+    "established": "1842",
+    "timezone": "NZST",
+    "currency": "NZD",
+    "postal_code": "1010-1164"
+  },
+  "relationship": [
+    {
+      "part_of": "Auckland"
+    },
+    {
+      "located_in": "Auckland Region"
+    },
+    {
+      "has_neighbour": "Parnell"
+    },
+    {
+      "has_neighbour": "Freemans Bay"
+    },
+    {
+      "contains": "Auckland Domain"
+    },
+    {
+      "contains": "Auckland City Hospital"
+    },
+    {
+      "has_landmark": "Auckland Town Hall"
+    },
+    {
+      "has_transport": "Auckland Central railway station"
+    },
+    {
+      "economic_activity": "Retail"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Albatross Trust",
+  "properties": {
+    "instance_of": "Charity",
+    "focus": "Albatross Conservation",
+    "founded_date": "1998",
+    "location": "New Zealand",
+    "website": "albosstrust.org",
+    "legal_status": "Registered Charity",
+    "registration_number": "CC30743",
+    "primary_goal": "Protect Albatross",
+    "activities": "Research, Education, Advocacy",
+    "funding_source": "Donations"
+  },
+  "relationship": [
+    {
+      "works_for": "Albatross"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Conservation movement"
+    },
+    {
+      "related_to": "Bird conservation"
+    },
+    {
+      "focuses_on": "Wildlife protection"
+    },
+    {
+      "collaborates_with": "Department of Conservation"
+    },
+    {
+      "supports": "Scientific research"
+    },
+    {
+      "promotes": "Environmental awareness"
+    },
+    {
+      "addresses": "Biodiversity loss"
+    },
+    {
+      "involved_in": "Marine conservation"
+    }
+  ]
+}

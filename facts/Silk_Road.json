@@ -1,0 +1,47 @@
+{
+  "entity": "Silk Road",
+  "properties": {
+    "type": "Trade route",
+    "start_date": "2nd century BC",
+    "end_date": "15th century AD",
+    "length": "Approximately 6,400 km (4,000 mi)",
+    "primary_goods": "Silk, spices, tea, porcelain, jade",
+    "geographic_scope": "Asia, Europe, Africa",
+    "peak_period": "Tang Dynasty",
+    "decline_reason": "Maritime trade routes",
+    "cultural_exchange": "Buddhism, Islam, Christianity",
+    "name_origin": "Italian merchants"
+  },
+  "relationship": [
+    {
+      "connected_to": "China"
+    },
+    {
+      "connected_to": "Rome"
+    },
+    {
+      "connected_to": "Persia"
+    },
+    {
+      "influenced": "Marco Polo"
+    },
+    {
+      "influenced": "European Renaissance"
+    },
+    {
+      "facilitated_spread_of": "Buddhism"
+    },
+    {
+      "facilitated_spread_of": "Islam"
+    },
+    {
+      "involved_city": "Samarkand"
+    },
+    {
+      "involved_city": "Dunhuang"
+    },
+    {
+      "involved_city": "Constantinople"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Statute of Westminster 1931",
+  "properties": {
+    "type": "Act of Parliament",
+    "country": "United Kingdom",
+    "year": "1931",
+    "purpose": "Constitutional reform",
+    "scope": "Dominion status",
+    "effective_date": "1931-12-11",
+    "legislation_type": "Parliamentary Act",
+    "subject": "Commonwealth relations",
+    "ratification_required": "Yes",
+    "repealed_by": "Statute of Westminster 1947"
+  },
+  "relationship": [
+    {
+      "granted_status": "Dominions"
+    },
+    {
+      "influenced": "Commonwealth of Nations"
+    },
+    {
+      "preceded_by": "Imperial Conference"
+    },
+    {
+      "related_to": " Balfour Declaration"
+    },
+    {
+      "impacted": "Canada"
+    },
+    {
+      "impacted": "Australia"
+    },
+    {
+      "impacted": "New Zealand"
+    },
+    {
+      "impacted": "South Africa"
+    },
+    {
+      "impacted": "Ireland"
+    },
+    {
+      "part_of": "British Commonwealth"
+    }
+  ]
+}

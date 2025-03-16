@@ -1,0 +1,47 @@
+{
+  "entity": "Waimakariri River",
+  "properties": {
+    "location": "Canterbury, New Zealand",
+    "length": "160 km",
+    "source": "Southern Alps",
+    "mouth": "Pacific Ocean",
+    "tributaries": "Whitewaters River, Ellis Creek",
+    "basin_area": "2,634 km²",
+    "average_flow": "150 m³/s",
+    "name_origin": "Māori (Waimakariri)",
+    "river_type": "Alluvial",
+    "ecological_importance": "Habitat for native fish"
+  },
+  "relationship": [
+    {
+      "flows_through": "Canterbury Region"
+    },
+    {
+      "tributary_of": "Pacific Ocean"
+    },
+    {
+      "source_location": "Southern Alps"
+    },
+    {
+      "passes_near": "Christchurch"
+    },
+    {
+      "discharges_into": "Kaiapoi Harbour"
+    },
+    {
+      "part_of": "Canterbury Plains"
+    },
+    {
+      "influenced_by": "glacial activity"
+    },
+    {
+      "used_by": "Ngāi Tahu"
+    },
+    {
+      "supports": "brown trout"
+    },
+    {
+      "has_settlement": "Kaiapoi"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Society",
+  "properties": {
+    "instance_of": "Social group",
+    "definition": "Group of people living together",
+    "characteristic": "Shared culture",
+    "structure": "Hierarchical",
+    "scale": "Varies",
+    "formation": "Shared values",
+    "function": "Social organization",
+    "type": "Collective",
+    "study_field": "Sociology",
+    "evolution": "Historical"
+  },
+  "relationship": [
+    {
+      "part_of": "Humanity"
+    },
+    {
+      "governed_by": "Government"
+    },
+    {
+      "influenced_by": "Culture"
+    },
+    {
+      "creates": "Norms"
+    },
+    {
+      "produces": "Institutions"
+    },
+    {
+      "impacted_by": "Technology"
+    },
+    {
+      "requires": "Cooperation"
+    },
+    {
+      "studies": "Sociology"
+    },
+    {
+      "contains": "Social class"
+    },
+    {
+      "affected_by": "Globalization"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Human",
+  "properties": {
+    "instance_of": "Mammal",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Hominidae",
+    "average_lifespan": "73 years",
+    "binomial_name": "Homo sapiens",
+    "mass": "62 kg",
+    "height": "1.75 m"
+  },
+  "relationship": [
+    {
+      "part_of": "Homo"
+    },
+    {
+      "related_to": "Human evolution"
+    },
+    {
+      "habitat": "Worldwide"
+    },
+    {
+      "diet": "Omnivore"
+    },
+    {
+      "uses": "Technology"
+    },
+    {
+      "communicates_through": "Language"
+    },
+    {
+      "social_structure": "Society"
+    },
+    {
+      "creates": "Art"
+    },
+    {
+      "has_disease": "Cancer"
+    },
+    {
+      "related_to": "Human rights"
+    }
+  ]
+}

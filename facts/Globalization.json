@@ -1,0 +1,47 @@
+{
+  "entity": "Globalization",
+  "properties": {
+    "definition": "Increased interconnectedness",
+    "driver": "Technological advancements",
+    "scope": "Economic, political, cultural",
+    "origin": "Post-World War II",
+    "measurement": "KOF Index",
+    "impact": "Increased trade, migration",
+    "criticism": "Inequality, exploitation",
+    "benefit": "Economic growth, cultural exchange",
+    "trend": "Increasing, but complex",
+    "related_concept": "Interdependence"
+  },
+  "relationship": [
+    {
+      "causes": "International Trade"
+    },
+    {
+      "facilitates": "Multinational Corporations"
+    },
+    {
+      "impacts": "World Economy"
+    },
+    {
+      "influences": "Cultural Exchange"
+    },
+    {
+      "related_to": "World Bank"
+    },
+    {
+      "related_to": "International Monetary Fund"
+    },
+    {
+      "impacts": "Labor Markets"
+    },
+    {
+      "impacts": "Environmental Sustainability"
+    },
+    {
+      "promotes": "Free Trade Agreements"
+    },
+    {
+      "challenges": "National Sovereignty"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Anglican Church",
+  "properties": {
+    "instance_of": "Christian denomination",
+    "origin": "England",
+    "founder": "Henry VIII",
+    "liturgy": "Book of Common Prayer",
+    "theology": "Via Media",
+    "membership": "85 million",
+    "head": "Archbishop of Canterbury",
+    "sacraments": "Baptism, Eucharist, Confirmation, Marriage, Reconciliation, Holy Orders, Unction",
+    "worship_style": "Diverse, ranging from traditional to contemporary",
+    "governance": "Episcopal"
+  },
+  "relationship": [
+    {
+      "part_of": "Christianity"
+    },
+    {
+      "influenced_by": "Catholic Church"
+    },
+    {
+      "influenced": "Methodism"
+    },
+    {
+      "related_to": "Oxford Movement"
+    },
+    {
+      "branch_of": "Protestantism"
+    },
+    {
+      "leader_is": "Archbishop of Canterbury"
+    },
+    {
+      "has_province": "Church of England"
+    },
+    {
+      "has_province": "Anglican Church in Canada"
+    },
+    {
+      "has_province": "Anglican Church of Australia"
+    },
+    {
+      "related_to": "Thirty-Nine Articles"
+    }
+  ]
+}

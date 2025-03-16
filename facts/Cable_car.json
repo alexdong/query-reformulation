@@ -1,0 +1,47 @@
+{
+  "entity": "Cable car",
+  "properties": {
+    "type": "Mode of transport",
+    "power_source": "Electric",
+    "function": "Aerial lift",
+    "suspension_type": "Hanging cars",
+    "usage": "Passenger transport",
+    "construction_material": "Steel",
+    "origin": "19th century",
+    "first_use": "Mining",
+    "common_location": "Mountainous areas",
+    "alternative_name": "Funicular"
+  },
+  "relationship": [
+    {
+      "is_a": "Aerial lift system"
+    },
+    {
+      "used_for": "Tourism"
+    },
+    {
+      "related_to": "Funicular"
+    },
+    {
+      "developed_from": "Ropeway"
+    },
+    {
+      "operates_in": "Mountain"
+    },
+    {
+      "requires": "Cable"
+    },
+    {
+      "uses": "Electric motor"
+    },
+    {
+      "designed_by": "Karl Doppler"
+    },
+    {
+      "example_location": "San Francisco Cable Cars"
+    },
+    {
+      "part_of": "Urban transport"
+    }
+  ]
+}

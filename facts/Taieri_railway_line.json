@@ -1,0 +1,47 @@
+{
+  "entity": "Taieri railway line",
+  "properties": {
+    "type": "Railway line",
+    "location": "Otago, New Zealand",
+    "owner": "KiwiRail",
+    "gauge": "1067 mm",
+    "status": "Operational",
+    "length": "86.2 km",
+    "start_point": "Palmerston",
+    "end_point": "Mosgiel",
+    "opened": "1880",
+    "electrified": "No"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand rail network"
+    },
+    {
+      "connects_to": "Main North Line"
+    },
+    {
+      "serves": "Milton"
+    },
+    {
+      "serves": "Tokomairiro"
+    },
+    {
+      "serves": "Momona"
+    },
+    {
+      "connects_to": "Dunedin"
+    },
+    {
+      "connects_to": "Mosgiel"
+    },
+    {
+      "historical_significance": "Early Otago rail"
+    },
+    {
+      "cargo_transported": "Agricultural products"
+    },
+    {
+      "passenger_service": "Limited"
+    }
+  ]
+}

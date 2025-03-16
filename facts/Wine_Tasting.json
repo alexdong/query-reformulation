@@ -1,0 +1,47 @@
+{
+  "entity": "Wine Tasting",
+  "properties": {
+    "type": "Sensory Evaluation",
+    "purpose": "Quality Assessment",
+    "primary_sense": "Taste",
+    "involves": "Olfaction",
+    "requires": "Wine Glassware",
+    "often_includes": "Food Pairing",
+    "scoring_system": "Often Used",
+    "location": "Vineyard, Cellar, Tasting Room",
+    "duration": "Varies",
+    "skill_level": "Beginner to Expert"
+  },
+  "relationship": [
+    {
+      "part_of": "Viticulture"
+    },
+    {
+      "related_to": "Enology"
+    },
+    {
+      "influenced_by": "Sensory Science"
+    },
+    {
+      "requires": "Wine"
+    },
+    {
+      "assesses": "Acidity"
+    },
+    {
+      "assesses": "Tannins"
+    },
+    {
+      "assesses": "Aroma"
+    },
+    {
+      "often_paired_with": "Cheese"
+    },
+    {
+      "uses_scale": "Wine Aroma Wheel"
+    },
+    {
+      "training_institution": "WSET"
+    }
+  ]
+}

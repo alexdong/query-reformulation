@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Railway",
+  "properties": {
+    "type": "Railway network",
+    "region": "Otago, New Zealand",
+    "start_date": "1863",
+    "gauge": "1067 mm",
+    "initial_purpose": "Gold transport",
+    "owner": "New Zealand Government",
+    "first_line": "Port Chalmers to Dunedin",
+    "key_material": "Timber",
+    "significant_engineer": "John Mitchell",
+    "later_standardization": "1990"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand rail network"
+    },
+    {
+      "connected_to": "Dunedin"
+    },
+    {
+      "connected_to": "Port Chalmers"
+    },
+    {
+      "serves": "Alexandra"
+    },
+    {
+      "serves": "Cromwell"
+    },
+    {
+      "influenced_by": "British railway practices"
+    },
+    {
+      "used_for": "Passenger transport"
+    },
+    {
+      "used_for": "Freight transport"
+    },
+    {
+      "involved_in": "Otago gold rush"
+    },
+    {
+      "replaced_by": "Road transport"
+    }
+  ]
+}

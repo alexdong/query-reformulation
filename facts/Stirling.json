@@ -1,0 +1,47 @@
+{
+  "entity": "Stirling",
+  "properties": {
+    "type": "City",
+    "country": "Scotland",
+    "population_2022": "39,770",
+    "latitude": "56.443",
+    "longitude": "-4.065",
+    "region": "Stirling Council Area",
+    "river": "Forth",
+    "historic_importance": "Royal burgh",
+    "postal_code": "FK8",
+    "time_zone": "GMT/BST"
+  },
+  "relationship": [
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "part_of": "Stirling Council Area"
+    },
+    {
+      "near": "Doune"
+    },
+    {
+      "near": "Callander"
+    },
+    {
+      "has_landmark": "Stirling Castle"
+    },
+    {
+      "has_landmark": "Wallace Monument"
+    },
+    {
+      "has_landmark": "Old Bridge of Stirling"
+    },
+    {
+      "member_of": "Cities and towns in Scotland"
+    },
+    {
+      "influenced_by": "Scottish Wars of Independence"
+    },
+    {
+      "has_university": "University of Stirling"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "North American Culture",
+  "properties": {
+    "region": "North America",
+    "dominant_languages": "English, Spanish, French",
+    "primary_religions": "Christianity, Judaism, Islam",
+    "economic_system": "Capitalism",
+    "values": "Individualism, Freedom, Equality",
+    "cuisine": "Diverse, influenced by European, Indigenous, and Asian traditions",
+    "music_genres": "Rock, Pop, Country, Jazz, Blues",
+    "art_movements": "Abstract Expressionism, Pop Art, Impressionism",
+    "entertainment": "Hollywood film industry, Music, Sports",
+    "literary_traditions": "Modernism, Postmodernism, Indigenous storytelling"
+  },
+  "relationship": [
+    {
+      "influenced_by": "European Colonization"
+    },
+    {
+      "impacts": "Global Culture"
+    },
+    {
+      "shares_border_with": "Mexico"
+    },
+    {
+      "shares_border_with": "Canada"
+    },
+    {
+      "includes": "United States"
+    },
+    {
+      "includes": "Canada"
+    },
+    {
+      "includes": "Mexico"
+    },
+    {
+      "influenced": "Latin American Culture"
+    },
+    {
+      "impacts": "Indigenous Cultures"
+    },
+    {
+      "part_of": "Western Culture"
+    }
+  ]
+}

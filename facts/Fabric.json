@@ -1,0 +1,47 @@
+{
+  "entity": "Fabric",
+  "properties": {
+    "instance_of": "Textile",
+    "material": "Yarn",
+    "use": "Clothing, Home furnishings",
+    "production_method": "Weaving, Knitting, Felting",
+    "texture": "Varies",
+    "color": "Varies",
+    "pattern": "Varies",
+    "durability": "Varies",
+    "origin": "Ancient",
+    "composition": "Natural or Synthetic fibers"
+  },
+  "relationship": [
+    {
+      "made_of": "Yarn"
+    },
+    {
+      "used_in": "Clothing"
+    },
+    {
+      "used_in": "Home furnishings"
+    },
+    {
+      "produced_by": "Textile industry"
+    },
+    {
+      "related_to": "Textile"
+    },
+    {
+      "related_to": "Weaving"
+    },
+    {
+      "related_to": "Knitting"
+    },
+    {
+      "related_to": "Felting"
+    },
+    {
+      "type_of": "Material"
+    },
+    {
+      "predecessor_of": "Garment"
+    }
+  ]
+}

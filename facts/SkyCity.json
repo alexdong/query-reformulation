@@ -1,0 +1,47 @@
+{
+  "entity": "SkyCity",
+  "properties": {
+    "type": "Casino resort",
+    "location": "Auckland, New Zealand",
+    "opening_date": "1996",
+    "height": "174 m (571 ft)",
+    "floors": "39",
+    "architect": "Wing Tai Properties",
+    "owner": "SkyCity Entertainment Group",
+    "hotel_rooms": "300",
+    "restaurants": "20+",
+    "casino_area": "4,600 m² (49,000 sq ft)"
+  },
+  "relationship": [
+    {
+      "located_in": "Auckland"
+    },
+    {
+      "part_of": "SkyCity Entertainment Group"
+    },
+    {
+      "has_part": "Sky Tower"
+    },
+    {
+      "has_part": "SkyCity Hotel"
+    },
+    {
+      "has_part": "SkyCity Casino"
+    },
+    {
+      "attraction_type": "Tourist attraction"
+    },
+    {
+      "industry": "Hospitality"
+    },
+    {
+      "architectural_style": "Modern"
+    },
+    {
+      "influenced": "Auckland skyline"
+    },
+    {
+      "nearby": "Auckland CBD"
+    }
+  ]
+}

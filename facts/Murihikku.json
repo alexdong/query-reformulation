@@ -1,0 +1,47 @@
+{
+  "entity": "Murihikku",
+  "properties": {
+    "instance_of": "Anime series",
+    "creator": "Studio Comet",
+    "genre": "Mecha, Comedy, Harem",
+    "original_language": "Japanese",
+    "start_date": "2009-10-04",
+    "end_date": "2010-03-28",
+    "number_of_episodes": "12",
+    "theme_music": "Mirai e Jump",
+    "setting": "Earth",
+    "licensing": "Funimation"
+  },
+  "relationship": [
+    {
+      "adapted_from": "Muri-gu"
+    },
+    {
+      "directed_by": "Takayuki Inagaki"
+    },
+    {
+      "produced_by": "Gainax"
+    },
+    {
+      "music_composed_by": "Toshihiko Sahashi"
+    },
+    {
+      "character_appears": "Kouichi Masuda"
+    },
+    {
+      "character_appears": "Rin Okabe"
+    },
+    {
+      "character_appears": "Miki Makishima"
+    },
+    {
+      "influenced": "Gurren Lagann"
+    },
+    {
+      "similar_to": "Infinite Stratos"
+    },
+    {
+      "distributed_by": "Bandai Visual"
+    }
+  ]
+}

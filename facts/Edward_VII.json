@@ -1,0 +1,47 @@
+{
+  "entity": "Edward VII",
+  "properties": {
+    "birth_date": "1841-11-09",
+    "birth_place": "London, England",
+    "death_date": "1910-05-06",
+    "death_place": "Buckingham Palace, London",
+    "title": "King of the United Kingdom",
+    "father": "Victoria, Queen of the United Kingdom",
+    "mother": "Prince Albert of Saxe-Coburg and Gotha",
+    "spouse": "Alexandra of Denmark",
+    "reign_start": "1901-01-22",
+    "reign_end": "1910-05-06"
+  },
+  "relationship": [
+    {
+      "predecessor": "Victoria, Queen of the United Kingdom"
+    },
+    {
+      "successor": "George V"
+    },
+    {
+      "member_of": "British royal family"
+    },
+    {
+      "located_in": "United Kingdom"
+    },
+    {
+      "influenced": "Edwardian era"
+    },
+    {
+      "attended": "Oxford University"
+    },
+    {
+      "child_of": "Victoria, Queen of the United Kingdom"
+    },
+    {
+      "married_to": "Alexandra of Denmark"
+    },
+    {
+      "has_child": "Edward, Prince of Wales (1902)"
+    },
+    {
+      "involved_in": "Anglo-German naval arms race"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Education New Zealand",
+  "properties": {
+    "instance_of": "Government agency",
+    "country": "New Zealand",
+    "founded": "2016",
+    "purpose": "Promote NZ education",
+    "parent_organisation": "Ministry of Education (New Zealand)",
+    "headquarters_location": "Wellington",
+    "website": "educationnewzealand.govt.nz",
+    "focus": "International education",
+    "sectors_promoted": "Vocational, Higher, Primary, Secondary",
+    "brand": "EduNZ"
+  },
+  "relationship": [
+    {
+      "promotes": "New Zealand universities"
+    },
+    {
+      "promotes": "New Zealand polytechnics"
+    },
+    {
+      "collaborates_with": "New Zealand Trade and Enterprise"
+    },
+    {
+      "supports": "International students"
+    },
+    {
+      "works_with": "Education providers"
+    },
+    {
+      "funded_by": "New Zealand government"
+    },
+    {
+      "target_audience": "International educators"
+    },
+    {
+      "marketing_focus": "Study in New Zealand"
+    },
+    {
+      "reports_to": "Ministry of Education (New Zealand)"
+    },
+    {
+      "aims_to_increase": "International student numbers"
+    }
+  ]
+}

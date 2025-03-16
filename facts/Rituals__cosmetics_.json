@@ -1,0 +1,47 @@
+{
+  "entity": "Rituals (cosmetics)",
+  "properties": {
+    "instance_of": "Cosmetics brand",
+    "founder": "Bas Maas & Raymond Cloosterman",
+    "country_of_origin": "Netherlands",
+    "year_founded": "2005",
+    "headquarters_location": "Amsterdam",
+    "product_category": "Skincare, Body Care, Fragrance",
+    "business_model": "Retail, E-commerce",
+    "target_audience": "Young adults",
+    "brand_aesthetic": "Minimalist, Natural",
+    "parent_company": "L'Oréal"
+  },
+  "relationship": [
+    {
+      "owned_by": "L'Oréal"
+    },
+    {
+      "competitor": "The Body Shop"
+    },
+    {
+      "competitor": "Lush Cosmetics"
+    },
+    {
+      "product_line_includes": "Rituals Home"
+    },
+    {
+      "product_line_includes": "Rituals Men"
+    },
+    {
+      "product_line_includes": "Rituals Ayurveda"
+    },
+    {
+      "ingredient_source": "Natural ingredients"
+    },
+    {
+      "market_presence": "Europe"
+    },
+    {
+      "market_presence": "Asia"
+    },
+    {
+      "influenced_by": "Eastern traditions"
+    }
+  ]
+}

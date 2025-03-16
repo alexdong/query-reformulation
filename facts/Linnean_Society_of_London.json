@@ -1,0 +1,47 @@
+{
+  "entity": "Linnean Society of London",
+  "properties": {
+    "instance_of": "Scientific society",
+    "founder": "Sir Joseph Banks",
+    "established": "1788",
+    "location": "London, England",
+    "purpose": "Natural history & taxonomy",
+    "name_origin": "Carl Linnaeus",
+    "headquarters": "Burlington House",
+    "publication": "Linnean Society Journal",
+    "patron": "British monarch",
+    "archive_location": "British Library"
+  },
+  "relationship": [
+    {
+      "founded_by": "Sir Joseph Banks"
+    },
+    {
+      "publication": "Linnean Society Journal"
+    },
+    {
+      "member_of": "Royal Society"
+    },
+    {
+      "influences": "Taxonomy"
+    },
+    {
+      "honors": "Carl Linnaeus"
+    },
+    {
+      "located_in": "London"
+    },
+    {
+      "part_of": "Burlington House"
+    },
+    {
+      "related_to": "Natural history"
+    },
+    {
+      "promotes": "Scientific research"
+    },
+    {
+      "awards": "Linnean Medal"
+    }
+  ]
+}

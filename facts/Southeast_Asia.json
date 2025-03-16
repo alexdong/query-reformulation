@@ -1,0 +1,47 @@
+{
+  "entity": "Southeast Asia",
+  "properties": {
+    "region_type": "Geographic region",
+    "population": "680 million",
+    "area": "4.5 million km²",
+    "major_languages": "Malay, Thai, Vietnamese, Indonesian, Burmese",
+    "climate": "Tropical",
+    "GDP_nominal": "$3.8 trillion",
+    "political_status": "Diverse (independent nations)",
+    "geography": "Archipelago, mainland",
+    "major_religion": "Buddhism, Islam, Christianity, Hinduism",
+    "coordinates": "10°N 110°E"
+  },
+  "relationship": [
+    {
+      "part_of": "Asia"
+    },
+    {
+      "borders": "South Asia"
+    },
+    {
+      "contains": "Indonesia"
+    },
+    {
+      "contains": "Thailand"
+    },
+    {
+      "contains": "Vietnam"
+    },
+    {
+      "contains": "Philippines"
+    },
+    {
+      "contains": "Malaysia"
+    },
+    {
+      "influenced_by": "Indian culture"
+    },
+    {
+      "influenced_by": "Chinese culture"
+    },
+    {
+      "member_of": "ASEAN"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Literature",
+  "properties": {
+    "genre": "Literature",
+    "origin": "Scotland",
+    "language": "Scots, English, Gaelic",
+    "historical_period": "Medieval to Contemporary",
+    "themes": "Nature, Identity, History, Nationalism",
+    "influence": "Celtic Mythology, Romanticism, Modernism",
+    "literary_movement": "Romanticism, Renaissance, Enlightenment",
+    "form": "Poetry, Prose, Drama",
+    "style": "Lyrical, Narrative, Dramatic",
+    "importance": "Cultural Identity"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Celtic Mythology"
+    },
+    {
+      "influenced": "English Literature"
+    },
+    {
+      "part_of": "British Literature"
+    },
+    {
+      "author_wrote": "Robert Burns"
+    },
+    {
+      "author_wrote": "Sir Walter Scott"
+    },
+    {
+      "author_wrote": "James Hogg"
+    },
+    {
+      "author_wrote": "Muriel Spark"
+    },
+    {
+      "genre_includes": "Burns' poems"
+    },
+    {
+      "genre_includes": "Waverley novel"
+    },
+    {
+      "related_to": "Scottish Renaissance"
+    }
+  ]
+}

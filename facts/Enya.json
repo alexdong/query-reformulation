@@ -1,0 +1,47 @@
+{
+  "entity": "Enya",
+  "properties": {
+    "birth_name": "Eithne Pádraigín Ní Bhraonáin",
+    "birth_date": "1960-05-16",
+    "birth_place": "Killimore, County Waterford, Ireland",
+    "nationality": "Irish",
+    "occupation": "Singer, songwriter, musician, producer",
+    "genre": "New Age, Celtic, Ambient",
+    "instrument": "Piano, keyboard, vocals, guitar, flute, bouzouki",
+    "net_worth": "€60 million",
+    "record_label": "Reprise Records",
+    "family_member": "Clannad"
+  },
+  "relationship": [
+    {
+      "member_of": "Clannad"
+    },
+    {
+      "sibling_of": "Máire Ní Bhraonáin"
+    },
+    {
+      "influenced_by": "Celtic mythology"
+    },
+    {
+      "influenced": "Lisa Gerrard"
+    },
+    {
+      "collaborated_with": "Nick Ryan"
+    },
+    {
+      "produced_by": "Frank Peterson"
+    },
+    {
+      "associated_with": "Reprise Records"
+    },
+    {
+      "genre_similar_to": "Loreena McKennitt"
+    },
+    {
+      "album_includes": "Watermark"
+    },
+    {
+      "album_includes": "Shepherd Moons"
+    }
+  ]
+}

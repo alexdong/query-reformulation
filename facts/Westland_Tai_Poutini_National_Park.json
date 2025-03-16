@@ -1,0 +1,47 @@
+{
+  "entity": "Westland Tai Poutini National Park",
+  "properties": {
+    "type": "National Park",
+    "location": "South Island, New Zealand",
+    "established": "1960",
+    "area": "1,037 km²",
+    "named_after": "Westland region, Tai Poutini (Māori name)",
+    "features": "Glaciers, rainforest, coastline",
+    "biodiversity": "High",
+    "management_agency": "Department of Conservation",
+    "elevation_range": "0–3000 m",
+    "climate": "Temperate, wet"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand national parks"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "contains": "Franz Josef Glacier"
+    },
+    {
+      "contains": "Fox Glacier"
+    },
+    {
+      "adjacent_to": "Mount Aspiring National Park"
+    },
+    {
+      "adjacent_to": "Aoraki/Mount Cook National Park"
+    },
+    {
+      "ecosystem": "Temperate rainforest"
+    },
+    {
+      "flora": "Podocarp forest"
+    },
+    {
+      "fauna": "Kea, Blue Duck"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Ocean",
+  "properties": {
+    "type": "Ocean",
+    "area": "165.25 million km²",
+    "average_depth": "4,000 m",
+    "max_depth": "10,929 m (Challenger Deep)",
+    "salinity": "35‰",
+    "temperature": "Varies greatly",
+    "location": "Between Asia/Australia & Americas",
+    "contains": "Numerous islands",
+    "named_after": "Pacificus (peaceful)",
+    "largest": "World's largest ocean"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "borders": "Asia"
+    },
+    {
+      "borders": "Australia"
+    },
+    {
+      "borders": "Americas"
+    },
+    {
+      "contains": "Mariana Trench"
+    },
+    {
+      "contains": "Ring of Fire"
+    },
+    {
+      "currents": "North Pacific Current"
+    },
+    {
+      "currents": "South Pacific Current"
+    },
+    {
+      "impacts": "Climate"
+    },
+    {
+      "supports": "Marine life"
+    }
+  ]
+}

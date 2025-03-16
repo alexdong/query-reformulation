@@ -1,0 +1,47 @@
+{
+  "entity": "Kiwifruit",
+  "properties": {
+    "scientific_name": "Actinidia deliciosa",
+    "type": "Fruit",
+    "origin": "China",
+    "color": "Brown, Green",
+    "taste": "Sweet, Tart",
+    "vitamins": "C, K, E",
+    "texture": "Fuzzy, Juicy",
+    "shape": "Oval",
+    "size": "Small",
+    "family": "Actinidiaceae"
+  },
+  "relationship": [
+    {
+      "cultivated_in": "New Zealand"
+    },
+    {
+      "cultivated_in": "Italy"
+    },
+    {
+      "cultivated_in": "Chile"
+    },
+    {
+      "is_a": "Berry"
+    },
+    {
+      "contains": "Vitamin C"
+    },
+    {
+      "part_of": "Diet"
+    },
+    {
+      "related_to": "Actinidia"
+    },
+    {
+      "used_in": "Dessert"
+    },
+    {
+      "used_in": "Smoothie"
+    },
+    {
+      "related_to": "Fruit salad"
+    }
+  ]
+}

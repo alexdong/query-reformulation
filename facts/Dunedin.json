@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Otago",
+    "established": "1848",
+    "population": "250,000",
+    "latitude": "-45.5055",
+    "longitude": "170.8857",
+    "nickname": "Edinburgh of the South",
+    "mayor": "Aaron Hawkins",
+    "area_code": "+64 2"
+  },
+  "relationship": [
+    {
+      "founded_by": "Scottish settlers"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Otago Peninsula"
+    },
+    {
+      "near": "Port Chalmers"
+    },
+    {
+      "influenced_by": "Scottish architecture"
+    },
+    {
+      "has_university": "University of Otago"
+    },
+    {
+      "has_railway": "Dunedin Railways"
+    },
+    {
+      "has_museum": "Toitū Otago Museum"
+    },
+    {
+      "has_landmark": "Larnach Castle"
+    },
+    {
+      "economic_activity": "Tourism"
+    }
+  ]
+}

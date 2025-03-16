@@ -1,0 +1,47 @@
+{
+  "entity": "Polymer",
+  "properties": {
+    "instance_of": "Macromolecule",
+    "chemical_formula": "Variable",
+    "molecular_weight": "High",
+    "monomer": "Repeating units",
+    "classification": "Plastic, Rubber, Fiber",
+    "physical_state": "Solid, Liquid, Gas",
+    "discovery_date": "1839",
+    "discoverer": "Friedrich Alexander Kekulé",
+    "application": "Wide range",
+    "property": "Variable"
+  },
+  "relationship": [
+    {
+      "composed_of": "Monomer"
+    },
+    {
+      "type_of": "Macromolecule"
+    },
+    {
+      "related_to": "Polymer chemistry"
+    },
+    {
+      "used_in": "Plastic"
+    },
+    {
+      "used_in": "Rubber"
+    },
+    {
+      "used_in": "Fiber"
+    },
+    {
+      "related_to": "Condensation polymerization"
+    },
+    {
+      "related_to": "Addition polymerization"
+    },
+    {
+      "example_of": "Polyethylene"
+    },
+    {
+      "example_of": "Polypropylene"
+    }
+  ]
+}

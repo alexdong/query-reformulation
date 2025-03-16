@@ -1,0 +1,47 @@
+{
+  "entity": "Renaissance",
+  "properties": {
+    "time_period": "14th-17th century",
+    "origin": "Italy",
+    "meaning": "Rebirth",
+    "focus": "Classical Antiquity",
+    "artistic_style": "Realism, Humanism",
+    "intellectual_movement": "Humanism",
+    "scientific_advancement": "Astronomy, Anatomy",
+    "literary_language": "Vernacular",
+    "economic_driver": "Trade",
+    "geographic_spread": "Europe"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Middle Ages"
+    },
+    {
+      "followed_by": "Age of Discovery"
+    },
+    {
+      "influenced": "Scientific Revolution"
+    },
+    {
+      "influenced": "Protestant Reformation"
+    },
+    {
+      "artistic_movement": "High Renaissance"
+    },
+    {
+      "artist_associated": "Leonardo da Vinci"
+    },
+    {
+      "artist_associated": "Michelangelo"
+    },
+    {
+      "writer_associated": "William Shakespeare"
+    },
+    {
+      "city_associated": "Florence"
+    },
+    {
+      "intellectual_figure": "Niccolò Machiavelli"
+    }
+  ]
+}

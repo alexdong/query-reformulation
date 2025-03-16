@@ -1,0 +1,47 @@
+{
+  "entity": "Hausa people",
+  "properties": {
+    "ethnic_group": "Yes",
+    "language": "Hausa language",
+    "location": "Sub-Saharan Africa",
+    "religion": "Islam",
+    "population": "40 million+",
+    "region": "West Africa, Central Africa",
+    "traditional_occupation": "Agriculture, Trade",
+    "literacy_rate": "46.2%",
+    "political_system": "Traditional chieftaincy, Modern state governance",
+    "cultural_heritage": "Music, Dance, Oral Tradition"
+  },
+  "relationship": [
+    {
+      "part_of": "Nigerians"
+    },
+    {
+      "part_of": "Niger"
+    },
+    {
+      "language_spoken": "Hausa language"
+    },
+    {
+      "influenced_by": "Arabic language"
+    },
+    {
+      "trade_partner_of": "Fulani people"
+    },
+    {
+      "located_in": "Nigeria"
+    },
+    {
+      "located_in": "Niger Republic"
+    },
+    {
+      "influenced": "Nigerian literature"
+    },
+    {
+      "related_to": "Kanuri people"
+    },
+    {
+      "historical_interaction": "Songhai Empire"
+    }
+  ]
+}

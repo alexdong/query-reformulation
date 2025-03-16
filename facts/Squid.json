@@ -1,0 +1,47 @@
+{
+  "entity": "Squid",
+  "properties": {
+    "kingdom": "Animalia",
+    "phylum": "Mollusca",
+    "class": "Cephalopoda",
+    "lifespan": "1-5 years",
+    "habitat": "Oceans",
+    "size": "Up to 43 ft",
+    "diet": "Carnivorous",
+    "color": "Variable, camouflage",
+    "intelligence": "High",
+    "respiration": "Gills"
+  },
+  "relationship": [
+    {
+      "part_of": "Cephalopoda"
+    },
+    {
+      "prey_of": "Seals"
+    },
+    {
+      "prey_of": "Sharks"
+    },
+    {
+      "related_to": "Octopus"
+    },
+    {
+      "has_feature": "Ink sac"
+    },
+    {
+      "has_feature": "Tentacles"
+    },
+    {
+      "has_feature": "Beak"
+    },
+    {
+      "found_in": "Pacific Ocean"
+    },
+    {
+      "found_in": "Atlantic Ocean"
+    },
+    {
+      "threatened_by": "Overfishing"
+    }
+  ]
+}

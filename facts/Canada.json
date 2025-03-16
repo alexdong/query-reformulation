@@ -1,0 +1,47 @@
+{
+  "entity": "Canada",
+  "properties": {
+    "instance_of": "Country",
+    "capital": "Ottawa",
+    "official_languages": "English, French",
+    "population": "38,250,000 (2023)",
+    "area": "9,984,670 km²",
+    "currency": "Canadian Dollar",
+    "continent": "North America",
+    "government_type": "Parliamentary democracy",
+    "national_symbol": "Maple Leaf",
+    "founding_date": "1867"
+  },
+  "relationship": [
+    {
+      "part_of": "North America"
+    },
+    {
+      "borders": "United States"
+    },
+    {
+      "influenced_by": "French colonization"
+    },
+    {
+      "influenced_by": "British colonization"
+    },
+    {
+      "historical_event": "Battle of Vimy Ridge"
+    },
+    {
+      "historical_event": "Confederation"
+    },
+    {
+      "historical_figure": "Sir John A. Macdonald"
+    },
+    {
+      "historical_figure": "Louis Riel"
+    },
+    {
+      "major_industry": "Natural Resources"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    }
+  ]
+}

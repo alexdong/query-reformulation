@@ -1,0 +1,47 @@
+{
+  "entity": "World Health Organization",
+  "properties": {
+    "instance_of": "Specialized agency",
+    "agency_of": "United Nations",
+    "hq_location": "Geneva",
+    "formed": "1948",
+    "purpose": "International public health",
+    "director_general": "Tedros Adhanom Ghebreyesus",
+    "membership": "194",
+    "budget_2023": "6.3 billion USD",
+    "governing_body": "World Health Assembly",
+    "official_languages": "Arabic, Chinese, English, French, Russian, Spanish"
+  },
+  "relationship": [
+    {
+      "founded_by": "United Nations"
+    },
+    {
+      "headquarters_located_in": "Geneva"
+    },
+    {
+      "member_of": "United Nations system"
+    },
+    {
+      "works_with": "World Bank"
+    },
+    {
+      "coordinates_with": "UNICEF"
+    },
+    {
+      "deals_with": "Pandemics"
+    },
+    {
+      "focuses_on": "Global health security"
+    },
+    {
+      "reports_to": "World Health Assembly"
+    },
+    {
+      "collaborates_with": "National health ministries"
+    },
+    {
+      "addresses": "Noncommunicable diseases"
+    }
+  ]
+}

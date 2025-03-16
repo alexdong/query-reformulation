@@ -1,0 +1,47 @@
+{
+  "entity": "Geopolitics",
+  "properties": {
+    "definition": "Study of power & geography",
+    "field_of_study": "Political science",
+    "origin": "Late 19th century",
+    "key_concept": "Spatial relations of power",
+    "related_to": "International relations",
+    "focus": "State interactions",
+    "methodology": "Geographic analysis",
+    "influences": "Geography, History, Political Economy",
+    "prominent_thinker": "Rudolf Kjellén",
+    "scope": "Global scale"
+  },
+  "relationship": [
+    {
+      "influences": "International relations"
+    },
+    {
+      "related_to": "Geography"
+    },
+    {
+      "overlaps_with": "Geostrategy"
+    },
+    {
+      "analyzes": "Nation-states"
+    },
+    {
+      "examines": "Borders"
+    },
+    {
+      "impacts": "Foreign policy"
+    },
+    {
+      "studies": "Resource distribution"
+    },
+    {
+      "considers": "Climate change"
+    },
+    {
+      "intersects_with": "Political geography"
+    },
+    {
+      "influences": "Diplomacy"
+    }
+  ]
+}

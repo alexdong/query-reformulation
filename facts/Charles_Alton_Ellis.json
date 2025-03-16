@@ -1,0 +1,47 @@
+{
+  "entity": "Charles Alton Ellis",
+  "properties": {
+    "birth_date": "1899-03-15",
+    "birth_place": "Morristown, Tennessee",
+    "death_date": "1981-07-18",
+    "death_place": "Knoxville, Tennessee",
+    "occupation": "Writer",
+    "genre": "Science fiction, Fantasy",
+    "nationality": "American",
+    "pseudonym": "Ross Hanes",
+    "education": "University of Tennessee",
+    "known_for": "The Stormchasers"
+  },
+  "relationship": [
+    {
+      "influenced": "Science fiction literature"
+    },
+    {
+      "author_of": "The Stormchasers"
+    },
+    {
+      "author_of": "The Phantom City"
+    },
+    {
+      "author_of": "The Coming of the Space Eagles"
+    },
+    {
+      "genre_includes": "Science fiction"
+    },
+    {
+      "genre_includes": "Fantasy"
+    },
+    {
+      "influenced_by": "Pulp magazines"
+    },
+    {
+      "worked_at": "Argosy Magazine"
+    },
+    {
+      "attended": "University of Tennessee"
+    },
+    {
+      "preceded_by": "Pulp fiction era"
+    }
+  ]
+}

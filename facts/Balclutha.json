@@ -1,0 +1,47 @@
+{
+  "entity": "Balclutha",
+  "properties": {
+    "type": "Ship",
+    "ship_type": "Wooden barque",
+    "built_year": "1891",
+    "builder": "Alexander Hall & Co.",
+    "builder_location": "Aberdeen",
+    "nationality": "British",
+    "current_status": "Museum ship",
+    "home_port": "Aberdeen",
+    "length": "274 ft (83.5 m)",
+    "beam": "40 ft (12 m)"
+  },
+  "relationship": [
+    {
+      "built_by": "Alexander Hall & Co."
+    },
+    {
+      "ship_owner": "Balclutha Preservation Society"
+    },
+    {
+      "location": "San Francisco Maritime National Historical Park"
+    },
+    {
+      "sailed_in": "Pacific Ocean"
+    },
+    {
+      "cargo_carried": "Timber, Coal, Grain"
+    },
+    {
+      "built_in": "Aberdeen"
+    },
+    {
+      "ship_class": "Barque"
+    },
+    {
+      "operated_in": "New Zealand"
+    },
+    {
+      "preserved_at": "San Francisco"
+    },
+    {
+      "historical_period": "Late 19th century"
+    }
+  ]
+}

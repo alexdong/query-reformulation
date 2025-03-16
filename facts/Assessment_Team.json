@@ -1,0 +1,47 @@
+{
+  "entity": "Assessment Team",
+  "properties": {
+    "definition": "Group evaluating performance",
+    "purpose": "Performance evaluation",
+    "membership": "Multiple individuals",
+    "expertise": "Subject matter experts",
+    "process": "Structured assessment",
+    "output": "Performance feedback",
+    "scope": "Specific criteria",
+    "reporting": "Formal documentation",
+    "bias_mitigation": "Standardized procedures",
+    "training": "Assessment techniques"
+  },
+  "relationship": [
+    {
+      "part_of": "Performance Management"
+    },
+    {
+      "uses": "Rubric"
+    },
+    {
+      "evaluates": "Employee"
+    },
+    {
+      "reports_to": "Management"
+    },
+    {
+      "collaborates_with": "Human Resources"
+    },
+    {
+      "requires": "Assessment Criteria"
+    },
+    {
+      "provides": "Feedback"
+    },
+    {
+      "follows": "Assessment Guidelines"
+    },
+    {
+      "uses_tool": "Performance Review Software"
+    },
+    {
+      "impacts": "Career Development"
+    }
+  ]
+}

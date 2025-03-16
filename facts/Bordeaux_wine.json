@@ -1,0 +1,47 @@
+{
+  "entity": "Bordeaux wine",
+  "properties": {
+    "type": "Wine region",
+    "location": "Southwest France",
+    "grape_varieties": "Cabernet Sauvignon, Merlot, Cabernet Franc",
+    "appellation": "AOC",
+    "climate": "Maritime",
+    "soil": "Gravel, Clay, Limestone",
+    "average_price": "Varies widely",
+    "aging_potential": "Significant",
+    "classification": "1855 Classification",
+    "production_volume": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "produces": "Red wine"
+    },
+    {
+      "produces": "White wine"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "located_near": "Atlantic Ocean"
+    },
+    {
+      "has_appellation": "Médoc"
+    },
+    {
+      "has_appellation": "Saint-Émilion"
+    },
+    {
+      "has_appellation": "Pomerol"
+    },
+    {
+      "associated_with": "Wine tourism"
+    },
+    {
+      "tastes_like": "Blackcurrant, Cedar, Tobacco"
+    }
+  ]
+}

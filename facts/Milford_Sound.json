@@ -1,0 +1,47 @@
+{
+  "entity": "Milford Sound",
+  "properties": {
+    "type": "Fjord",
+    "location": "Fiordland National Park",
+    "country": "New Zealand",
+    "length": "1.57 miles",
+    "depth": "1600 feet",
+    "named_after": "Milford Haven",
+    "designation": "Marine Reserve",
+    "precipitation": "6600 mm annually",
+    "discovery_year": "1812",
+    "explorer": "James Cook"
+  },
+  "relationship": [
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "region": "Westland"
+    },
+    {
+      "tributary_of": "Tasman Sea"
+    },
+    {
+      "contains": "Stirling Falls"
+    },
+    {
+      "contains": "Mitre Peak"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "ecosystem": "Temperate rainforest"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "featured_in": "The Lord of the Rings"
+    }
+  ]
+}

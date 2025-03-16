@@ -1,0 +1,47 @@
+{
+  "entity": "Hobbiton Movie Set",
+  "properties": {
+    "location": "Matamata, New Zealand",
+    "purpose": "Movie set",
+    "film_series": "The Lord of the Rings",
+    "construction_start": "1999",
+    "area": "12 acres",
+    "number_of_hobbit_holes": "39",
+    "architect": "Brent Robinson",
+    "owner": "Warner Bros.",
+    "tourism_attraction": "Yes",
+    "design_inspiration": "J.R.R. Tolkien's writings"
+  },
+  "relationship": [
+    {
+      "located_in": "North Island (New Zealand)"
+    },
+    {
+      "part_of": "The Lord of the Rings film series"
+    },
+    {
+      "designed_by": "Brent Robinson (architect)"
+    },
+    {
+      "owned_by": "Warner Bros. Entertainment"
+    },
+    {
+      "featured_in": "The Lord of the Rings: The Fellowship of the Ring"
+    },
+    {
+      "featured_in": "The Hobbit film trilogy"
+    },
+    {
+      "attracts": "Tourists"
+    },
+    {
+      "inspired_by": "J.R.R. Tolkien"
+    },
+    {
+      "depicts": "Hobbiton"
+    },
+    {
+      "contributes_to": "New Zealand tourism"
+    }
+  ]
+}

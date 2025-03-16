@@ -1,0 +1,47 @@
+{
+  "entity": "Marketing",
+  "properties": {
+    "instance_of": "Business function",
+    "definition": "Promoting and selling products/services",
+    "primary_goal": "Increase sales & brand awareness",
+    "key_elements": "Market research, advertising, PR",
+    "discipline": "Social science",
+    "subfields": "Digital marketing, Content marketing",
+    "origin": "19th century",
+    "related_field": "Sales",
+    "focus": "Customer needs & wants",
+    "measurement": "ROI, KPIs"
+  },
+  "relationship": [
+    {
+      "relates_to": "Economics"
+    },
+    {
+      "uses": "Market research"
+    },
+    {
+      "employs": "Advertising"
+    },
+    {
+      "involves": "Branding"
+    },
+    {
+      "requires": "Consumer behavior"
+    },
+    {
+      "overlaps_with": "Public relations"
+    },
+    {
+      "drives": "Sales"
+    },
+    {
+      "influenced_by": "Psychology"
+    },
+    {
+      "uses_platform": "Social media"
+    },
+    {
+      "impacts": "Business strategy"
+    }
+  ]
+}

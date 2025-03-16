@@ -1,0 +1,47 @@
+{
+  "entity": "Economic Cycle",
+  "properties": {
+    "type": "Process",
+    "description": "Fluctuations in economic activity",
+    "duration": "Variable (months to years)",
+    "phases": "Expansion, Peak, Contraction, Trough",
+    "measurement": "GDP, Employment, Inflation",
+    "cause": "Complex, multiple factors",
+    "impact": "Business, Investment, Employment",
+    "predictability": "Limited",
+    "study_field": "Economics",
+    "related_concept": "Business cycle"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Monetary Policy"
+    },
+    {
+      "influenced_by": "Fiscal Policy"
+    },
+    {
+      "causes": "Unemployment"
+    },
+    {
+      "causes": "Inflation"
+    },
+    {
+      "part_of": "Business Cycle"
+    },
+    {
+      "related_to": "Recession"
+    },
+    {
+      "related_to": "Boom"
+    },
+    {
+      "studied_by": "Economists"
+    },
+    {
+      "modelled_by": "Keynesian Economics"
+    },
+    {
+      "modelled_by": "Austrian School of Economics"
+    }
+  ]
+}

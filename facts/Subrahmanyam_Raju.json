@@ -1,0 +1,47 @@
+{
+  "entity": "Subrahmanyam Raju",
+  "properties": {
+    "birth_date": "1958-07-14",
+    "birth_place": "Guntur, Andhra Pradesh, India",
+    "education": "Sri Venkateswara Arts College",
+    "political_party": "Bharatiya Janata Party",
+    "occupation": "Politician, Businessman",
+    "constituency": "Rajamahendravaram (Lok Sabha constituency)",
+    "religion": "Hinduism",
+    "spouse": "Lakshmi Devi",
+    "net_worth": "₹1,376 crore (2023)",
+    "languages": "Telugu, Hindi, English"
+  },
+  "relationship": [
+    {
+      "member_of": "Bharatiya Janata Party"
+    },
+    {
+      "constituency_represents": "Rajamahendravaram (Lok Sabha constituency)"
+    },
+    {
+      "education_at": "Sri Venkateswara Arts College"
+    },
+    {
+      "spouse_of": "Lakshmi Devi"
+    },
+    {
+      "member_of_parliament": "17th Lok Sabha"
+    },
+    {
+      "minister_of_state_for": "Ministry of Education (India)"
+    },
+    {
+      "political_affiliation": "Hindu nationalism"
+    },
+    {
+      "family_member_of": "Raju family"
+    },
+    {
+      "business_interest": "Raju Group"
+    },
+    {
+      "predecessor_in_office": "Dhananjay Singh"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Dairy cattle",
+  "properties": {
+    "type": "Domesticated animal",
+    "species": "Bos taurus",
+    "purpose": "Milk production",
+    "diet": "Herbivorous",
+    "origin": "Near East",
+    "lifespan": "10-15 years",
+    "weight": "500-700 kg",
+    "temperament": "Docile",
+    "milk_fat": "3.5-4.5%",
+    "economic_importance": "High"
+  },
+  "relationship": [
+    {
+      "breed_includes": "Holstein Friesian"
+    },
+    {
+      "breed_includes": "Jersey"
+    },
+    {
+      "breed_includes": "Brown Swiss"
+    },
+    {
+      "breed_includes": "Guernsey"
+    },
+    {
+      "breed_includes": "Ayrshire"
+    },
+    {
+      "related_to": "Beef cattle"
+    },
+    {
+      "produces": "Milk"
+    },
+    {
+      "grazes_on": "Grass"
+    },
+    {
+      "managed_by": "Farmers"
+    },
+    {
+      "part_of": "Agriculture"
+    }
+  ]
+}

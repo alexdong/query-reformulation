@@ -1,0 +1,47 @@
+{
+  "entity": "South Bank Parklands",
+  "properties": {
+    "type": "Park",
+    "location": "Brisbane",
+    "area": "17 hectares",
+    "developer": "Queensland Government",
+    "inauguration": "1993",
+    "design_architect": "Bligh Voller Nield",
+    "features": "Gardens, public art, riverfront",
+    "purpose": "Recreation, events, tourism",
+    "river": "Brisbane River",
+    "sub_area": "River Quay, Rainforest Walk, Arbour"
+  },
+  "relationship": [
+    {
+      "located_in": "Queensland"
+    },
+    {
+      "part_of": "Brisbane City"
+    },
+    {
+      "adjacent_to": "Brisbane River"
+    },
+    {
+      "designed_by": "Bligh Voller Nield"
+    },
+    {
+      "hosts": "Brisbane Festival"
+    },
+    {
+      "hosts": "Riverfire"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "contains": "River Quay"
+    },
+    {
+      "contains": "Rainforest Walk"
+    },
+    {
+      "contains": "The Arbour"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Glacial Activity",
+  "properties": {
+    "type": "Geological Process",
+    "driver": "Climate",
+    "material": "Ice",
+    "location": "High Latitudes/Altitudes",
+    "scale": "Regional to Continental",
+    "time_scale": "Thousands to Millions of Years",
+    "erosional_effect": "Significant",
+    "depositional_effect": "Significant",
+    "formation_temp": "Below Freezing",
+    "impact": "Landscape Modification"
+  },
+  "relationship": [
+    {
+      "causes": "Erosion"
+    },
+    {
+      "results_in": "Moraines"
+    },
+    {
+      "related_to": "Permafrost"
+    },
+    {
+      "affects": "Sea Level"
+    },
+    {
+      "part_of": "Hydrological Cycle"
+    },
+    {
+      "impacts": "Glacial Landforms"
+    },
+    {
+      "influenced_by": "Ice Age"
+    },
+    {
+      "related_to": "Glaciers"
+    },
+    {
+      "impacts": "Sediment Transport"
+    },
+    {
+      "contributes_to": "Isostatic Rebound"
+    }
+  ]
+}

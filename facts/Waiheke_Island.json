@@ -1,0 +1,47 @@
+{
+  "entity": "Waiheke Island",
+  "properties": {
+    "type": "Island",
+    "location": "Hauraki Gulf",
+    "country": "New Zealand",
+    "area": "116.9 km²",
+    "population": "8,852 (2018)",
+    "highest_point": "Mount Te Aroha",
+    "primary_industry": "Tourism",
+    "geology": "Volcanic",
+    "climate": "Temperate",
+    "time_zone": "NZDT"
+  },
+  "relationship": [
+    {
+      "part_of": "Hauraki Gulf"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "near": "Auckland"
+    },
+    {
+      "has_settlement": "Oneroa"
+    },
+    {
+      "has_settlement": "Ostend"
+    },
+    {
+      "has_winery": "Mudbrick Vineyard"
+    },
+    {
+      "has_winery": "Cable Bay Vineyards"
+    },
+    {
+      "has_beach": "Oneroa Beach"
+    },
+    {
+      "has_ferry_terminal": "Matiatia Wharf"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

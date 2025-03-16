@@ -1,0 +1,47 @@
+{
+  "entity": "Geology",
+  "properties": {
+    "instance_of": "Science",
+    "field_of_study": "Earth",
+    "sub_discipline_of": "Natural Science",
+    "related_to": "Geophysics",
+    "focuses_on": "Earth's structure, processes, and history",
+    "uses_method": "Scientific method",
+    "time_scale": "Geologic time",
+    "major_branch": "Mineralogy, Petrology, Sedimentology",
+    "key_concept": "Plate tectonics",
+    "historical_origin": "18th century"
+  },
+  "relationship": [
+    {
+      "studies": "Rocks"
+    },
+    {
+      "studies": "Minerals"
+    },
+    {
+      "studies": "Fossils"
+    },
+    {
+      "related_to": "Geochronology"
+    },
+    {
+      "related_to": "Hydrology"
+    },
+    {
+      "influences": "Civil Engineering"
+    },
+    {
+      "uses": "Remote Sensing"
+    },
+    {
+      "employs": "Geographic Information System"
+    },
+    {
+      "contributes_to": "Environmental Science"
+    },
+    {
+      "overlaps_with": "Paleontology"
+    }
+  ]
+}

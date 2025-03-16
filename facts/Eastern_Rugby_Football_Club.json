@@ -1,0 +1,47 @@
+{
+  "entity": "Eastern Rugby Football Club",
+  "properties": {
+    "founded": "1872",
+    "location": "Philadelphia, Pennsylvania",
+    "sport": "Rugby football",
+    "league": "USA Rugby",
+    "color": "Maroon and Gold",
+    "status": "Active",
+    "nickname": "Easterns",
+    "governing_body": "USA Rugby",
+    "home_ground": "Bok House",
+    "type": "Sports club"
+  },
+  "relationship": [
+    {
+      "member_of": "USA Rugby"
+    },
+    {
+      "located_in": "Philadelphia"
+    },
+    {
+      "plays_in": "Philadelphia Rugby Union"
+    },
+    {
+      "founded_by": "Charles A. Pinkerton"
+    },
+    {
+      "rival_of": "Old Blue Rugby Club"
+    },
+    {
+      "has_member": "Rugby player"
+    },
+    {
+      "competition": "USA Rugby Club Championship"
+    },
+    {
+      "influenced": "Philadelphia Rugby Union"
+    },
+    {
+      "predecessor_of": "None"
+    },
+    {
+      "successor_of": "None"
+    }
+  ]
+}

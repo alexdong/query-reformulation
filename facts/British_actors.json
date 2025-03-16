@@ -1,0 +1,47 @@
+{
+  "entity": "British actors",
+  "properties": {
+    "nationality": "British",
+    "profession": "Actor",
+    "origin": "United Kingdom",
+    "language": "English",
+    "industry": "Film",
+    "genre": "Drama",
+    "skill": "Acting",
+    "training": "Drama school",
+    "representation": "Talent agency",
+    "awards": "BAFTA"
+  },
+  "relationship": [
+    {
+      "works_with": "Film director"
+    },
+    {
+      "performs_in": "Film"
+    },
+    {
+      "performs_in": "Television"
+    },
+    {
+      "collaborates_with": "Writer"
+    },
+    {
+      "member_of": "Royal Shakespeare Company"
+    },
+    {
+      "trained_at": "RADA"
+    },
+    {
+      "influenced_by": "Method acting"
+    },
+    {
+      "represents": "Character"
+    },
+    {
+      "appears_in": "Stage play"
+    },
+    {
+      "promoted_by": "Publicist"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Celtic Mythology",
+  "properties": {
+    "type": "Mythology",
+    "origin": "Celtic peoples",
+    "time_period": "Iron Age - Early Medieval",
+    "geographic_area": "Europe, British Isles",
+    "themes": "Nature, Warfare, Otherworld",
+    "deities": "Numerous, varied by region",
+    "oral_tradition": "Primary transmission method",
+    "influence": "Celtic cultures, modern fantasy",
+    "fragments": "Limited written records",
+    "syncretism": "Roman and Christian influences"
+  },
+  "relationship": [
+    {
+      "influenced": "Arthurian Legend"
+    },
+    {
+      "related_to": "Irish Mythology"
+    },
+    {
+      "related_to": "Welsh Mythology"
+    },
+    {
+      "related_to": "Brittonic Mythology"
+    },
+    {
+      "deity_appears_in": "Dagda"
+    },
+    {
+      "deity_appears_in": "Morrigan"
+    },
+    {
+      "deity_appears_in": "Lugh"
+    },
+    {
+      "concept_related_to": "Tír na nÓg"
+    },
+    {
+      "concept_related_to": "Samhain"
+    },
+    {
+      "influenced": "Modern Fantasy Literature"
+    }
+  ]
+}

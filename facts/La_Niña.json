@@ -1,0 +1,47 @@
+{
+  "entity": "La Niña",
+  "properties": {
+    "type": "Climate pattern",
+    "opposite_of": "El Niño",
+    "temperature_anomaly": "Cooler-than-average",
+    "location": "Tropical Pacific Ocean",
+    "duration": "6-18 months",
+    "frequency": "Irregular",
+    "impacts": "Global weather patterns",
+    "strength_scale": "Weak, Moderate, Strong",
+    "discovery_year": "1950",
+    "named_by": "Jacob Bjerknes"
+  },
+  "relationship": [
+    {
+      "part_of": "ENSO"
+    },
+    {
+      "causes": "Increased rainfall in Australia"
+    },
+    {
+      "causes": "Drought in Indonesia"
+    },
+    {
+      "influences": "Hurricane activity"
+    },
+    {
+      "affects": "Jet stream"
+    },
+    {
+      "impacts": "Global agriculture"
+    },
+    {
+      "related_to": "Southern Oscillation"
+    },
+    {
+      "predicts": "Seasonal weather"
+    },
+    {
+      "monitored_by": "NOAA"
+    },
+    {
+      "impacts": "Ocean currents"
+    }
+  ]
+}

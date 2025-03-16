@@ -1,0 +1,47 @@
+{
+  "entity": "Refugee",
+  "properties": {
+    "instance_of": "Legal status",
+    "defined_by": "1951 Refugee Convention",
+    "reason_for_status": "Persecution",
+    "protected_by": "International law",
+    "location": "Various countries",
+    "vulnerable_group": "Yes",
+    "requires": "Protection",
+    "often_experiences": "Displacement",
+    "legal_basis": "Geneva Convention",
+    "related_concept": "Asylum seeker"
+  },
+  "relationship": [
+    {
+      "defined_in": "1951 Refugee Convention"
+    },
+    {
+      "related_to": "Asylum seeker"
+    },
+    {
+      "part_of": "Forced migration"
+    },
+    {
+      "affected_by": "Conflict"
+    },
+    {
+      "affected_by": "Natural disaster"
+    },
+    {
+      "assisted_by": "UNHCR"
+    },
+    {
+      "settled_in": "Host country"
+    },
+    {
+      "originates_from": "Country of origin"
+    },
+    {
+      "experiences": "Trauma"
+    },
+    {
+      "requires": "Humanitarian aid"
+    }
+  ]
+}

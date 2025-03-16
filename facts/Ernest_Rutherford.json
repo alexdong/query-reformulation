@@ -1,0 +1,47 @@
+{
+  "entity": "Ernest Rutherford",
+  "properties": {
+    "birth_date": "1871-08-30",
+    "birth_place": "Brightwater, New Zealand",
+    "death_date": "1934-10-19",
+    "death_place": "Cambridge, UK",
+    "nationality": "British",
+    "field": "Physics",
+    "doctoral_degree": "University of Cambridge",
+    "awards": "Nobel Prize in Chemistry",
+    "known_for": "Nuclear model of the atom",
+    "alma_mater": "University of Canterbury"
+  },
+  "relationship": [
+    {
+      "influenced": "Niels Bohr"
+    },
+    {
+      "student_of": "Thomas Parnell"
+    },
+    {
+      "worked_at": "McGill University"
+    },
+    {
+      "worked_at": "Manchester University"
+    },
+    {
+      "worked_at": "University of Cambridge"
+    },
+    {
+      "discovered": "Alpha particle"
+    },
+    {
+      "discovered": "Beta particle"
+    },
+    {
+      "experiment": "Gold foil experiment"
+    },
+    {
+      "mentor_of": "James Chadwick"
+    },
+    {
+      "contributed_to": "Rutherford scattering"
+    }
+  ]
+}

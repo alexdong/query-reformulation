@@ -1,0 +1,47 @@
+{
+  "entity": "Europe",
+  "properties": {
+    "continent": "Yes",
+    "area": "10,180,000 km²",
+    "population": "746 million",
+    "highest_point": "Mount Elbrus",
+    "lowest_point": "Caspian Sea",
+    "largest_lake": "Lake Ladoga",
+    "longest_river": "Volga",
+    "currency": "Euro (and others)",
+    "geopolitical_status": "Multiple countries",
+    "climate": "Varied"
+  },
+  "relationship": [
+    {
+      "part_of": "Eurasia"
+    },
+    {
+      "borders": "Asia"
+    },
+    {
+      "located_in": "Northern Hemisphere"
+    },
+    {
+      "contains": "Germany"
+    },
+    {
+      "contains": "France"
+    },
+    {
+      "contains": "Russia"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "influenced_by": "Greek Civilization"
+    },
+    {
+      "member_of": "Council of Europe"
+    },
+    {
+      "has_region": "Scandinavia"
+    }
+  ]
+}

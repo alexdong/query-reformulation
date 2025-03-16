@@ -1,0 +1,47 @@
+{
+  "entity": "Livestock",
+  "properties": {
+    "definition": "Domesticated animals raised for meat/products",
+    "type": "Animal",
+    "economic_importance": "Food source",
+    "includes": "Cattle, Pigs, Poultry",
+    "management": "Animal husbandry",
+    "impact": "Environmental, Economic",
+    "health_concern": "Disease",
+    "breeding": "Selective breeding",
+    "origin": "Domestication",
+    "welfare": "Animal welfare"
+  },
+  "relationship": [
+    {
+      "part_of": "Agriculture"
+    },
+    {
+      "provides": "Meat"
+    },
+    {
+      "provides": "Dairy"
+    },
+    {
+      "provides": "Wool"
+    },
+    {
+      "related_to": "Animal husbandry"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "affects": "Food security"
+    },
+    {
+      "source_of": "Manure"
+    },
+    {
+      "subject_of": "Veterinary medicine"
+    },
+    {
+      "related_to": "Genetic diversity"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Climate",
+  "properties": {
+    "instance_of": "Weather phenomenon",
+    "definition": "Average weather conditions",
+    "time_scale": "Long-term",
+    "measurement_unit": "Degrees Celsius/Fahrenheit",
+    "components": "Temperature, precipitation, wind",
+    "influenced_by": "Solar radiation, Earth's orbit",
+    "affected_by": "Greenhouse effect",
+    "data_source": "Meteorological stations",
+    "classification": "Köppen climate classification",
+    "impacts": "Ecosystems, human societies"
+  },
+  "relationship": [
+    {
+      "part_of": "Weather"
+    },
+    {
+      "causes": "Climate change"
+    },
+    {
+      "affects": "Ecosystems"
+    },
+    {
+      "influences": "Agriculture"
+    },
+    {
+      "impacts": "Sea level"
+    },
+    {
+      "related_to": "Meteorology"
+    },
+    {
+      "studied_by": "Climatology"
+    },
+    {
+      "type_of": "Global climate"
+    },
+    {
+      "example_of": "Tropical climate"
+    },
+    {
+      "measured_by": "Climate model"
+    }
+  ]
+}

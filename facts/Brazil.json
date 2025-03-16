@@ -1,0 +1,47 @@
+{
+  "entity": "Brazil",
+  "properties": {
+    "capital": "Brasília",
+    "official_language": "Portuguese",
+    "population": "214.75 million (2022)",
+    "area_km2": "8,515,767",
+    "currency": "Brazilian real",
+    "continent": "South America",
+    "largest_city": "São Paulo",
+    "national_sport": "Football",
+    "independence_date": "1822-09-07",
+    "government_type": "Federal presidential republic"
+  },
+  "relationship": [
+    {
+      "part_of": "South America"
+    },
+    {
+      "borders": "Argentina"
+    },
+    {
+      "borders": "Bolivia"
+    },
+    {
+      "borders": "Colombia"
+    },
+    {
+      "borders": "French Guiana"
+    },
+    {
+      "borders": "Paraguay"
+    },
+    {
+      "borders": "Peru"
+    },
+    {
+      "borders": "Suriname"
+    },
+    {
+      "borders": "Uruguay"
+    },
+    {
+      "member_of": "United Nations"
+    }
+  ]
+}

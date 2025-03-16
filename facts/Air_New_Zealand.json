@@ -1,0 +1,47 @@
+{
+  "entity": "Air New Zealand",
+  "properties": {
+    "iata_code": "NZ",
+    "icao_code": "NZA",
+    "hq_location": "Auckland",
+    "founded": "1940",
+    "fleet_size": "49",
+    "employees": "8,500",
+    "hub_airport": "Auckland Airport",
+    "country": "New Zealand",
+    "industry": "Airlines",
+    "ceo": "Brooke Foster"
+  },
+  "relationship": [
+    {
+      "parent_company": "Air New Zealand Limited"
+    },
+    {
+      "subsidiary_of": "Tourism Holdings Group"
+    },
+    {
+      "alliance": "Star Alliance"
+    },
+    {
+      "serves": "Auckland Airport"
+    },
+    {
+      "destinations": "Los Angeles"
+    },
+    {
+      "aircraft_manufacturer": "Boeing"
+    },
+    {
+      "aircraft_manufacturer": "Airbus"
+    },
+    {
+      "routes": "Pacific Islands"
+    },
+    {
+      "routes": "Australia"
+    },
+    {
+      "routes": "Asia"
+    }
+  ]
+}

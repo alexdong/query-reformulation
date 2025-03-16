@@ -1,0 +1,47 @@
+{
+  "entity": "Informer (TV series)",
+  "properties": {
+    "instance_of": "Television series",
+    "genre": "Crime drama",
+    "creator": "Aaron Korsh",
+    "network": "CBS",
+    "country_of_origin": "United States",
+    "start_date": "2017",
+    "end_date": "2023",
+    "number_of_seasons": "7",
+    "setting": "New York City",
+    "language": "English"
+  },
+  "relationship": [
+    {
+      "inspired_by": "Joe Pichini"
+    },
+    {
+      "executive_producer": "Nick Wootton"
+    },
+    {
+      "executive_producer": "Alison Brie"
+    },
+    {
+      "executive_producer": "Glenn Finn"
+    },
+    {
+      "starring": "Josh Groban"
+    },
+    {
+      "starring": "Jessica Day"
+    },
+    {
+      "starring": "Jason Sudekis"
+    },
+    {
+      "setting_location": "New York City"
+    },
+    {
+      "genre_related": "Comedy"
+    },
+    {
+      "genre_related": "Sitcom"
+    }
+  ]
+}

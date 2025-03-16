@@ -1,0 +1,47 @@
+{
+  "entity": "Supreme Court of New Zealand",
+  "properties": {
+    "type": "Court",
+    "country": "New Zealand",
+    "established": "1840",
+    "location": "Wellington",
+    "jurisdiction": "New Zealand",
+    "highest_court": "Yes",
+    "judges": "11",
+    "appeal_court": "Yes",
+    "governing_act": "Supreme Court Act 2004",
+    "court_building": "HM Courts Building"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand judicial system"
+    },
+    {
+      "hears_cases_regarding": "New Zealand law"
+    },
+    {
+      "appeals_from": "Court of Appeal of New Zealand"
+    },
+    {
+      "oversees": "New Zealand legal system"
+    },
+    {
+      "located_in": "Wellington"
+    },
+    {
+      "established_by": "New Zealand Parliament"
+    },
+    {
+      "judge_appointed_by": "Governor-General of New Zealand"
+    },
+    {
+      "functions_as": "Final court of appeal"
+    },
+    {
+      "related_to": "New Zealand legislation"
+    },
+    {
+      "influenced_by": "English common law"
+    }
+  ]
+}

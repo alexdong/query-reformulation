@@ -1,0 +1,47 @@
+{
+  "entity": "Commonwealth of Nations",
+  "properties": {
+    "instance_of": "Intergovernmental organization",
+    "type": "Political association",
+    "formed": "1949",
+    "head": "Charles III",
+    "membership": "56",
+    "purpose": "International cooperation",
+    "headquarters": "London",
+    "successor_of": "British Commonwealth",
+    "official_language": "English",
+    "symbol": "Commonwealth flag"
+  },
+  "relationship": [
+    {
+      "member_state": "United Kingdom"
+    },
+    {
+      "member_state": "Canada"
+    },
+    {
+      "member_state": "Australia"
+    },
+    {
+      "member_state": "India"
+    },
+    {
+      "member_state": "Nigeria"
+    },
+    {
+      "predecessor": "British Empire"
+    },
+    {
+      "influenced": "Decolonization"
+    },
+    {
+      "related_to": "United Nations"
+    },
+    {
+      "governed_by": "Commonwealth Secretariat"
+    },
+    {
+      "promotes": "Democracy"
+    }
+  ]
+}

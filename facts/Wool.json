@@ -1,0 +1,47 @@
+{
+  "entity": "Wool",
+  "properties": {
+    "material": "Animal fiber",
+    "origin": "Sheep",
+    "type": "Natural fiber",
+    "warmth": "High",
+    "durability": "High",
+    "renewable": "Yes",
+    "biodegradable": "Yes",
+    "common_use": "Clothing, blankets",
+    "fiber_diameter": "19-24 microns",
+    "processing": "Shearing, scouring, carding"
+  },
+  "relationship": [
+    {
+      "derived_from": "Sheep"
+    },
+    {
+      "used_in": "Clothing"
+    },
+    {
+      "used_in": "Textiles"
+    },
+    {
+      "processed_into": "Yarn"
+    },
+    {
+      "related_to": "Fiber"
+    },
+    {
+      "alternative_to": "Cotton"
+    },
+    {
+      "compared_to": "Synthetic fibers"
+    },
+    {
+      "part_of": "Textile industry"
+    },
+    {
+      "produced_in": "Australia"
+    },
+    {
+      "related_to": "Animal products"
+    }
+  ]
+}

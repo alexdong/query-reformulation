@@ -1,0 +1,47 @@
+{
+  "entity": "Public Relations",
+  "properties": {
+    "instance_of": "Profession",
+    "field": "Communication",
+    "goal": "Manage Reputation",
+    "focus": "Relationship Building",
+    "ethics_governed_by": "PRSA Code",
+    "history_began": "1900s",
+    "key_skill": "Communication",
+    "tools_used": "Media Relations, Social Media",
+    "scope": "Internal & External",
+    "related_field": "Marketing"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Journalism"
+    },
+    {
+      "employs": "Publicist"
+    },
+    {
+      "overlaps_with": "Marketing"
+    },
+    {
+      "part_of": "Communication Studies"
+    },
+    {
+      "uses": "Press Release"
+    },
+    {
+      "manages": "Brand Image"
+    },
+    {
+      "requires": "Crisis Management"
+    },
+    {
+      "promotes": "Corporate Social Responsibility"
+    },
+    {
+      "analyzes": "Public Opinion"
+    },
+    {
+      "governed_by": "PRSA"
+    }
+  ]
+}

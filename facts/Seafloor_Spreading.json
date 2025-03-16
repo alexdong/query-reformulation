@@ -1,0 +1,47 @@
+{
+  "entity": "Seafloor Spreading",
+  "properties": {
+    "type": "Geological Process",
+    "discovery_year": "1960s",
+    "primary_mechanism": "Convection",
+    "location": "Mid-Ocean Ridges",
+    "rate": "1-10 cm/year",
+    "evidence": "Magnetic Anomalies, Age of Seafloor",
+    "result": "New Oceanic Crust",
+    "driving_force": "Mantle Convection",
+    "related_to": "Plate Tectonics",
+    "contributor": "Harry Hess"
+  },
+  "relationship": [
+    {
+      "part_of": "Plate Tectonics"
+    },
+    {
+      "causes": "Oceanic Crust Formation"
+    },
+    {
+      "creates": "Mid-Ocean Ridges"
+    },
+    {
+      "generates": "Magnetic Anomalies"
+    },
+    {
+      "affects": "Ocean Basins"
+    },
+    {
+      "supported_by": "Paleomagnetism"
+    },
+    {
+      "explained_by": "Convection Currents"
+    },
+    {
+      "related_to": "Continental Drift"
+    },
+    {
+      "evidence_supports": "Wilson Cycle"
+    },
+    {
+      "observed_in": "Atlantic Ocean"
+    }
+  ]
+}

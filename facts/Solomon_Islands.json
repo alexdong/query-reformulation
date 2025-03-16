@@ -1,0 +1,47 @@
+{
+  "entity": "Solomon Islands",
+  "properties": {
+    "instance_of": "Country",
+    "capital": "Honiara",
+    "official_language": "English",
+    "currency": "SI$",
+    "population": "720,000",
+    "area_km2": "28,450",
+    "continent": "Oceania",
+    "government": "Parliamentary republic",
+    "independence_date": "1978-07-07",
+    "location": "South Pacific Ocean"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "borders": "Papua New Guinea"
+    },
+    {
+      "borders": "Vanuatu"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "influenced_by": "Australia"
+    },
+    {
+      "has_part": "Guadalcanal"
+    },
+    {
+      "has_part": "Malaita"
+    },
+    {
+      "has_part": "Choiseul"
+    },
+    {
+      "major_event": "Battle of Guadalcanal"
+    }
+  ]
+}

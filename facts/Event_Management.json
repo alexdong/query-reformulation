@@ -1,0 +1,47 @@
+{
+  "entity": "Event Management",
+  "properties": {
+    "definition": "Planning and executing events",
+    "industry": "Hospitality",
+    "scope": "Logistics, Marketing, Budgeting",
+    "skillset": "Organization, Communication, Problem-solving",
+    "typical_events": "Conferences, Weddings, Festivals",
+    "software_used": "Eventbrite, Cvent",
+    "revenue_model": "Service fees, Sponsorships",
+    "key_stakeholders": "Clients, Vendors, Attendees",
+    "risk_management": "Safety, Security, Contingency planning",
+    "career_path": "Event Planner, Coordinator, Manager"
+  },
+  "relationship": [
+    {
+      "part_of": "Hospitality Industry"
+    },
+    {
+      "uses": "Project Management"
+    },
+    {
+      "requires": "Marketing"
+    },
+    {
+      "involves": "Logistics"
+    },
+    {
+      "employs": "Event Planner"
+    },
+    {
+      "overlaps_with": "Public Relations"
+    },
+    {
+      "related_to": "Meeting Planning"
+    },
+    {
+      "uses_technology": "Eventbrite"
+    },
+    {
+      "impacts": "Tourism"
+    },
+    {
+      "influenced_by": "Hospitality Management"
+    }
+  ]
+}

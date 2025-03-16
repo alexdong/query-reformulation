@@ -1,0 +1,47 @@
+{
+  "entity": "Silver Tussock Grass",
+  "properties": {
+    "scientific_name": "Poa baileyi",
+    "family": "Poaceae",
+    "native_region": "North America",
+    "growth_habit": "Bunchgrass",
+    "height": "0.3-1 meter",
+    "leaf_color": "Blue-green",
+    "flowering_season": "Summer",
+    "soil_preference": "Well-drained",
+    "sun_exposure": "Full sun to partial shade",
+    "conservation_status": "Least Concern"
+  },
+  "relationship": [
+    {
+      "part_of": "Poaceae family"
+    },
+    {
+      "native_to": "North America"
+    },
+    {
+      "grows_in": "Grassland"
+    },
+    {
+      "provides_food_for": "Grasshoppers"
+    },
+    {
+      "supports": "Wildlife"
+    },
+    {
+      "used_by": "Native Americans"
+    },
+    {
+      "similar_to": "Blue Grama"
+    },
+    {
+      "is_a": "Bunchgrass"
+    },
+    {
+      "habitat": "Prairies"
+    },
+    {
+      "provides": "Erosion control"
+    }
+  ]
+}

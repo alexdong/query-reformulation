@@ -1,0 +1,47 @@
+{
+  "entity": "State Highway 88",
+  "properties": {
+    "type": "State Highway",
+    "state": "New York",
+    "length_mi": "14.4",
+    "route_number": "88",
+    "surface": "Asphalt",
+    "municipality": "Suffolk County",
+    "primary_use": "Commuter Route",
+    "named_for": "Long Island Expressway",
+    "designation_date": "1939",
+    "alternate_name": "Sunrise Highway"
+  },
+  "relationship": [
+    {
+      "connects": "New York State Route 27"
+    },
+    {
+      "connects": "Interstate 495"
+    },
+    {
+      "connects": "New York State Route 111"
+    },
+    {
+      "part_of": "Long Island Expressway"
+    },
+    {
+      "located_in": "Long Island"
+    },
+    {
+      "crosses": "South Service Road"
+    },
+    {
+      "crosses": "North Service Road"
+    },
+    {
+      "serves": "Commuters"
+    },
+    {
+      "passes_through": "Islip"
+    },
+    {
+      "passes_through": "Smithtown"
+    }
+  ]
+}

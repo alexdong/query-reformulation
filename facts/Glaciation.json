@@ -1,0 +1,47 @@
+{
+  "entity": "Glaciation",
+  "properties": {
+    "instance_of": "Geological process",
+    "type": "Climate event",
+    "duration": "Thousands of years",
+    "temperature_change": "Significant cooling",
+    "landform_creation": "U-shaped valleys, moraines",
+    "sea_level": "Lowered",
+    "ice_coverage": "Widespread",
+    "cause": "Milankovitch cycles",
+    "evidence": "Glacial deposits, striations",
+    "scale": "Regional to global"
+  },
+  "relationship": [
+    {
+      "part_of": "Climate change"
+    },
+    {
+      "causes": "Sea level fall"
+    },
+    {
+      "creates": "Glacial landforms"
+    },
+    {
+      "influenced_by": "Milankovitch cycles"
+    },
+    {
+      "related_to": "Ice age"
+    },
+    {
+      "affects": "Ecosystems"
+    },
+    {
+      "impacts": "Hydrology"
+    },
+    {
+      "evidence_found_in": "Glacial deposits"
+    },
+    {
+      "associated_with": "Erosion"
+    },
+    {
+      "example_of": "Quaternary glaciation"
+    }
+  ]
+}

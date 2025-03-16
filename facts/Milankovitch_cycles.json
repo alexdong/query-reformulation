@@ -1,0 +1,47 @@
+{
+  "entity": "Milankovitch cycles",
+  "properties": {
+    "type": "Astronomical cycles",
+    "description": "Variations in Earth's orbit and tilt",
+    "discoverer": "Milutin Milanković",
+    "time_scale": "Thousands to hundreds of thousands of years",
+    "primary_effect": "Climate change",
+    "components": "Eccentricity, Obliquity, Precession",
+    "field_of_study": "Paleoclimatology",
+    "mathematical_basis": "Orbital mechanics",
+    "predictive_power": "Long-term climate patterns",
+    "importance": "Ice age cycles"
+  },
+  "relationship": [
+    {
+      "influences": "Climate"
+    },
+    {
+      "discovered_by": "Milutin Milanković"
+    },
+    {
+      "related_to": "Paleoclimatology"
+    },
+    {
+      "component_of": "Earth's orbit"
+    },
+    {
+      "affects": "Ice ages"
+    },
+    {
+      "related_to": "Eccentricity (orbit)"
+    },
+    {
+      "related_to": "Obliquity (Earth's axis)"
+    },
+    {
+      "related_to": "Axial precession"
+    },
+    {
+      "impacts": "Glacial cycles"
+    },
+    {
+      "part_of": "Astronomy"
+    }
+  ]
+}

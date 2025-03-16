@@ -1,0 +1,47 @@
+{
+  "entity": "Micronesian Presidents' Summit",
+  "properties": {
+    "type": "Summit",
+    "purpose": "Regional cooperation",
+    "frequency": "Biennial",
+    "focus": "Economic development, climate change",
+    "first_held": "2006",
+    "location_type": "Pacific Islands",
+    "participants": "Micronesian Presidents",
+    "chairmanship_rotation": "Annual",
+    "official_language": "English",
+    "themes": "Sustainable development, security"
+  },
+  "relationship": [
+    {
+      "member_of": "Pacific Region"
+    },
+    {
+      "focuses_on": "Climate Change"
+    },
+    {
+      "includes_country": "Federated States of Micronesia"
+    },
+    {
+      "includes_country": "Marshall Islands"
+    },
+    {
+      "includes_country": "Palau"
+    },
+    {
+      "preceded_by": "Pacific Islands Forum"
+    },
+    {
+      "related_to": "Pacific Community"
+    },
+    {
+      "addresses": "Economic Development"
+    },
+    {
+      "organized_by": "Micronesian Governments"
+    },
+    {
+      "outcome": "Joint Communiqués"
+    }
+  ]
+}

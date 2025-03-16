@@ -1,0 +1,47 @@
+{
+  "entity": "Agriculture",
+  "properties": {
+    "instance_of": "Industry",
+    "definition": "Cultivation of plants and rearing of animals",
+    "primary_goal": "Food production",
+    "scale": "Varies",
+    "economic_sector": "Primary sector",
+    "importance": "Global food security",
+    "impact": "Environmental, social, economic",
+    "history": "Ancient",
+    "technology": "Evolving",
+    "location": "Worldwide"
+  },
+  "relationship": [
+    {
+      "part_of": "Food system"
+    },
+    {
+      "produces": "Food"
+    },
+    {
+      "employs": "Farmers"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "related_to": "Agronomy"
+    },
+    {
+      "requires": "Land"
+    },
+    {
+      "uses": "Fertilizers"
+    },
+    {
+      "influenced_by": "Climate"
+    },
+    {
+      "supports": "Rural communities"
+    },
+    {
+      "related_to": "Sustainable agriculture"
+    }
+  ]
+}

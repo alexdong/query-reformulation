@@ -1,0 +1,47 @@
+{
+  "entity": "Barry Lawrence",
+  "properties": {
+    "occupation": "Voice actor",
+    "birth_date": "1963-03-14",
+    "birth_place": "Los Angeles, California",
+    "nationality": "American",
+    "gender": "Male",
+    "known_for": "Voice work",
+    "agency": "Voice Actors Agency",
+    "website": "barrylawrence.com",
+    "awards": "Behind the Voice Actors Awards",
+    "education": "California State University, Northridge"
+  },
+  "relationship": [
+    {
+      "works_with": "Tara Strong"
+    },
+    {
+      "works_with": "Caitlin Glass"
+    },
+    {
+      "works_with": "Rob Paulsen"
+    },
+    {
+      "voice_acted_in": "Pokémon"
+    },
+    {
+      "voice_acted_in": "Yu-Gi-Oh!"
+    },
+    {
+      "voice_acted_in": "Digimon"
+    },
+    {
+      "voice_acted_in": "Ben 10"
+    },
+    {
+      "influenced_by": "Mel Blanc"
+    },
+    {
+      "member_of": "Voice Actors Agency"
+    },
+    {
+      "collaborated_with": "Funimation"
+    }
+  ]
+}

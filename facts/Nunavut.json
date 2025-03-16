@@ -1,0 +1,47 @@
+{
+  "entity": "Nunavut",
+  "properties": {
+    "type": "Territory",
+    "capital": "Iqaluit",
+    "population_2021": "36950",
+    "area_km2": "1934200",
+    "official_language": "English, Inuktitut, French",
+    "currency": "Canadian Dollar",
+    "time_zone": "UTC-7 to UTC-4",
+    "formation_date": "1999-04-01",
+    "geography": "Arctic",
+    "governor": "James Smith"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "located_in": "Arctic Region"
+    },
+    {
+      "border_country": "Northwest Territories"
+    },
+    {
+      "border_country": "Manitoba"
+    },
+    {
+      "has_region": "Baffin Island"
+    },
+    {
+      "has_region": "Ellesmere Island"
+    },
+    {
+      "has_region": "Victoria Island"
+    },
+    {
+      "Indigenous_people": "Inuit"
+    },
+    {
+      "language_spoken": "Inuktitut"
+    },
+    {
+      "economic_activity": "Mining"
+    }
+  ]
+}

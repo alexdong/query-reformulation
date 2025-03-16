@@ -1,0 +1,47 @@
+{
+  "entity": "Commonwealth Heads of Government Meeting (CHOGM)",
+  "properties": {
+    "type": "Intergovernmental meeting",
+    "purpose": "Forum for Commonwealth leaders",
+    "frequency": "Biennial (historically)",
+    "chairmanship_rotation": "Rotating",
+    "focus": "Global challenges, Commonwealth priorities",
+    "established": "1973",
+    "first_meeting": "Singapore, 1971",
+    "current_chair": "Ramesh Kalicharan",
+    "official_website": "thecommonwealth.org",
+    "theme_2023": "Living Together"
+  },
+  "relationship": [
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "hosted_by": "Rwanda (2023)"
+    },
+    {
+      "predecessor": "Prime Ministers' Conference"
+    },
+    {
+      "attended_by": "Heads of State/Government"
+    },
+    {
+      "focuses_on": "Sustainable Development Goals"
+    },
+    {
+      "addresses": "Climate Change"
+    },
+    {
+      "promotes": "Good Governance"
+    },
+    {
+      "supports": "Trade and Investment"
+    },
+    {
+      "influences": "Commonwealth policy"
+    },
+    {
+      "outcome": "Kigali Consensus"
+    }
+  ]
+}

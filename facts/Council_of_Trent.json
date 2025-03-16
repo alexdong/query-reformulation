@@ -1,0 +1,47 @@
+{
+  "entity": "Council of Trent",
+  "properties": {
+    "instance_of": "Ecumenical Council",
+    "start_date": "1545-12-13",
+    "end_date": "1563-12-03",
+    "location": "Trento, Italy",
+    "purpose": "Counter-Reformation",
+    "presided_by": "Pope Paul III",
+    "attendance": "Approximately 300",
+    "language": "Latin",
+    "subject": "Doctrinal disputes",
+    "outcome": "Clarification of Catholic doctrine"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Peace of Cateau-Cambrésis"
+    },
+    {
+      "succeeded_by": "Union of Brest"
+    },
+    {
+      "influenced": "Catholic Church"
+    },
+    {
+      "response_to": "Protestant Reformation"
+    },
+    {
+      "involved_in": "Counter-Reformation"
+    },
+    {
+      "decree_issued": "Tridentine Decrees"
+    },
+    {
+      "attended_by": "Charles Borromeo"
+    },
+    {
+      "attended_by": "Cardinal Cajetan"
+    },
+    {
+      "impacted": "Jesuits"
+    },
+    {
+      "related_to": "Council of Basel"
+    }
+  ]
+}

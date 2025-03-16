@@ -1,0 +1,47 @@
+{
+  "entity": "Volcanic Burn",
+  "properties": {
+    "type": "Burn injury",
+    "cause": "Volcanic activity",
+    "severity": "Variable",
+    "temperature": "High",
+    "mechanism": "Thermal, particulate",
+    "location": "Volcanic regions",
+    "affected_tissue": "Skin, respiratory system",
+    "complications": "Infection, respiratory distress",
+    "treatment": "Burn care, respiratory support",
+    "prevention": "Protective gear, evacuation"
+  },
+  "relationship": [
+    {
+      "is_a": "Burn"
+    },
+    {
+      "caused_by": "Volcano"
+    },
+    {
+      "related_to": "Ashfall"
+    },
+    {
+      "related_to": "Lava"
+    },
+    {
+      "affects": "Skin"
+    },
+    {
+      "affects": "Respiratory system"
+    },
+    {
+      "requires": "Burn treatment"
+    },
+    {
+      "requires": "Medical care"
+    },
+    {
+      "associated_with": "Volcanic eruption"
+    },
+    {
+      "occurs_in": "Volcanic landscape"
+    }
+  ]
+}

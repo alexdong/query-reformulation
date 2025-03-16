@@ -1,0 +1,47 @@
+{
+  "entity": "Art Deco",
+  "properties": {
+    "style_of": "Visual Arts",
+    "period": "1920s-1930s",
+    "origin": "France",
+    "influenced_by": "Art Nouveau, Bauhaus, Cubism",
+    "materials": "Chrome, Stainless Steel, Exotic Woods, Lacquer",
+    "themes": "Modernity, Luxury, Technology",
+    "geometric_forms": "Zigzags, Chevrons, Sunbursts",
+    "color_palette": "Bold, Contrasting Colors",
+    "architecture_feature": "Streamlined Shapes",
+    "design_focus": "Ornamentation & Functionality"
+  },
+  "relationship": [
+    {
+      "influenced": "Modernism"
+    },
+    {
+      "influenced": "Streamline Moderne"
+    },
+    {
+      "preceded_by": "Art Nouveau"
+    },
+    {
+      "contemporary_with": "Bauhaus"
+    },
+    {
+      "architect": "William Van Alen"
+    },
+    {
+      "architect": "Raymond Chandler"
+    },
+    {
+      "building_example": "Chrysler Building"
+    },
+    {
+      "building_example": "Eastern Columbia Building"
+    },
+    {
+      "design_element_in": "Ocean Liner Interiors"
+    },
+    {
+      "design_element_in": "Furniture Design"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Global Carbon Cycle",
+  "properties": {
+    "type": "Biogeochemical cycle",
+    "description": "Movement of carbon between atmosphere, oceans, land, and living organisms",
+    "reservoir_size_atmosphere": "880 Pg C",
+    "reservoir_size_ocean": "38,000 Pg C",
+    "reservoir_size_land": "2,000 Pg C",
+    "flux_rate_photosynthesis": "120 Pg C/year",
+    "flux_rate_respiration": "120 Pg C/year",
+    "driver": "Solar radiation, Temperature",
+    "time_scale": "Days to millennia",
+    "importance": "Regulates climate, supports life"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth system"
+    },
+    {
+      "influences": "Climate change"
+    },
+    {
+      "process": "Photosynthesis"
+    },
+    {
+      "process": "Respiration"
+    },
+    {
+      "process": "Decomposition"
+    },
+    {
+      "reservoir": "Atmosphere"
+    },
+    {
+      "reservoir": "Ocean"
+    },
+    {
+      "reservoir": "Lithosphere"
+    },
+    {
+      "impacts": "Biosphere"
+    },
+    {
+      "affected_by": "Human activity"
+    }
+  ]
+}

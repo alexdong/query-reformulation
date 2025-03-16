@@ -1,0 +1,47 @@
+{
+  "entity": "Democracy",
+  "properties": {
+    "instance_of": "Political system",
+    "definition": "Rule by the people",
+    "core_principle": "Popular sovereignty",
+    "key_feature": "Free and fair elections",
+    "type": "Government",
+    "origin": "Ancient Greece",
+    "modern_form": "Representative democracy",
+    "value": "Citizen participation",
+    "protection": "Rule of law",
+    "requirement": "Civil liberties"
+  },
+  "relationship": [
+    {
+      "is_a": "Political system"
+    },
+    {
+      "related_to": "Republic"
+    },
+    {
+      "contrasted_with": "Autocracy"
+    },
+    {
+      "influenced_by": "Enlightenment"
+    },
+    {
+      "example_country": "United States"
+    },
+    {
+      "example_country": "India"
+    },
+    {
+      "requires": "Constitution"
+    },
+    {
+      "promotes": "Human rights"
+    },
+    {
+      "challenges": "Tyranny of the majority"
+    },
+    {
+      "associated_with": "Suffrage"
+    }
+  ]
+}

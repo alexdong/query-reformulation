@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Aspiring National Park",
+  "properties": {
+    "location": "South Island, New Zealand",
+    "established": "1990",
+    "area": "355,200 hectares",
+    "designation": "National Park",
+    "governed_by": "Department of Conservation",
+    "highest_point": "Mount Aspiring (3,010 m)",
+    "ecosystem": "Temperate rainforest, alpine",
+    "climate": "Oceanic, cool",
+    "geology": "Schist, granite",
+    "biodiversity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Fiordland World Heritage Site"
+    },
+    {
+      "adjacent_to": "Westland Tai Poutini National Park"
+    },
+    {
+      "contains": "Dart River"
+    },
+    {
+      "contains": "Wilkin River"
+    },
+    {
+      "contains": "Lake Matheson"
+    },
+    {
+      "flora_includes": "Beech forest"
+    },
+    {
+      "fauna_includes": "Kea"
+    },
+    {
+      "fauna_includes": "Brown trout"
+    },
+    {
+      "activity_supported": "Tramping"
+    },
+    {
+      "activity_supported": "Mountaineering"
+    }
+  ]
+}

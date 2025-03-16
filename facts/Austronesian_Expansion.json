@@ -1,0 +1,47 @@
+{
+  "entity": "Austronesian Expansion",
+  "properties": {
+    "type": "Migration",
+    "start_date": "3000 BC",
+    "end_date": "1200 AD",
+    "origin": "Taiwan",
+    "language_family": "Austronesian",
+    "geographic_reach": "Oceania, Madagascar, Taiwan",
+    "primary_mode_of_transport": "Outrigger canoes",
+    "population_displacement": "Millions",
+    "cultural_impact": "Widespread",
+    "evidence_type": "Linguistic, Archaeological, Genetic"
+  },
+  "relationship": [
+    {
+      "ancestral_homeland": "Taiwan"
+    },
+    {
+      "spread_to": "Philippines"
+    },
+    {
+      "spread_to": "Indonesia"
+    },
+    {
+      "spread_to": "Malaysia"
+    },
+    {
+      "spread_to": "Polynesia"
+    },
+    {
+      "spread_to": "Madagascar"
+    },
+    {
+      "influenced": "Maritime Southeast Asia"
+    },
+    {
+      "related_to": "Lapita culture"
+    },
+    {
+      "impacted": "Indigenous populations"
+    },
+    {
+      "evidence_supports": "Out-of-Taiwan hypothesis"
+    }
+  ]
+}

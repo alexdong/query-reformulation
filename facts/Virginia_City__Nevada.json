@@ -1,0 +1,47 @@
+{
+  "entity": "Virginia City, Nevada",
+  "properties": {
+    "type": "City",
+    "state": "Nevada",
+    "population_2020": "1,676",
+    "established": "1850",
+    "elevation_meters": "1,473",
+    "nickname": "The Comstock",
+    "county": "Storey County",
+    "area_sq_mi": "3.6",
+    "historical_period": "American West",
+    "mining_resource": "Silver"
+  },
+  "relationship": [
+    {
+      "part_of": "Comstock Lode"
+    },
+    {
+      "located_in": "Nevada"
+    },
+    {
+      "founded_by": "Miners"
+    },
+    {
+      "influenced": "American Frontier Culture"
+    },
+    {
+      "historical_event": "Comstock Fire of 1870"
+    },
+    {
+      "has_landmark": "Piper's Opera House"
+    },
+    {
+      "has_landmark": "Mackey Mine"
+    },
+    {
+      "economic_activity": "Tourism"
+    },
+    {
+      "historical_figure": "Mark Twain"
+    },
+    {
+      "related_to": "Pioneer culture"
+    }
+  ]
+}

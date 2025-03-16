@@ -1,0 +1,47 @@
+{
+  "entity": "American Literature",
+  "properties": {
+    "definition": "Literature of the United States",
+    "time_period": "1600s - Present",
+    "genre_diversity": "High",
+    "themes": "Identity, Freedom, Democracy, The American Dream",
+    "historical_context": "American History",
+    "influence": "European Literature, Indigenous Oral Traditions",
+    "major_periods": "Colonial, Romantic, Realist, Modern, Postmodern",
+    "canon_status": "Established",
+    "language": "English",
+    "critical_study": "Extensive"
+  },
+  "relationship": [
+    {
+      "influenced_by": "European Literature"
+    },
+    {
+      "influenced": "World Literature"
+    },
+    {
+      "part_of": "Literature"
+    },
+    {
+      "related_to": "American History"
+    },
+    {
+      "includes_genre": "Novel"
+    },
+    {
+      "includes_genre": "Poetry"
+    },
+    {
+      "includes_genre": "Drama"
+    },
+    {
+      "author_associated": "Mark Twain"
+    },
+    {
+      "author_associated": "Emily Dickinson"
+    },
+    {
+      "author_associated": "F. Scott Fitzgerald"
+    }
+  ]
+}

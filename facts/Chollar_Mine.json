@@ -1,0 +1,47 @@
+{
+  "entity": "Chollar Mine",
+  "properties": {
+    "location": "Hangtown, California",
+    "type": "Gold mine",
+    "operational_period": "1850s-1907",
+    "owner": "Pennsylvania and California Mining Company",
+    "mineral_produced": "Gold",
+    "mining_method": "Shaft mining",
+    "depth": "1,500 feet",
+    "closure_reason": "Depletion",
+    "historical_significance": "Early California Gold Rush",
+    "associated_event": "California Gold Rush"
+  },
+  "relationship": [
+    {
+      "located_in": "California"
+    },
+    {
+      "part_of": "Mother Lode"
+    },
+    {
+      "produced_for": "Pennsylvania and California Mining Company"
+    },
+    {
+      "influenced": "Hangtown (historical)"
+    },
+    {
+      "contributed_to": "California's economy"
+    },
+    {
+      "associated_with": "Levi Parsons"
+    },
+    {
+      "associated_with": "John Bidwell"
+    },
+    {
+      "preceded_by": "Early California Gold Rush"
+    },
+    {
+      "followed_by": "Decline of Mother Lode mining"
+    },
+    {
+      "related_to": "Mining history"
+    }
+  ]
+}

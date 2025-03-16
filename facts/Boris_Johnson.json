@@ -1,0 +1,47 @@
+{
+  "entity": "Boris Johnson",
+  "properties": {
+    "birth_date": "1960-06-19",
+    "birth_place": "London, England",
+    "occupation": "Politician",
+    "education": "Balliol College, Oxford",
+    "political_party": "Conservative Party",
+    "nationality": "British",
+    "spouse": "Carrie Symonds",
+    "children": "6",
+    "height": "6 ft 3 in (191 cm)",
+    "alma_mater": "Balliol College, Oxford"
+  },
+  "relationship": [
+    {
+      "prime_minister_predecessor": "Theresa May"
+    },
+    {
+      "prime_minister_successor": "Rishi Sunak"
+    },
+    {
+      "member_of": "Parliament of the United Kingdom"
+    },
+    {
+      "mayor_of": "London"
+    },
+    {
+      "attended": "Eton College"
+    },
+    {
+      "editor_of": "The Daily Telegraph"
+    },
+    {
+      "member_of_parliament_constituency": "Uxbridge and South Ruislip"
+    },
+    {
+      "position_held": "Secretary of State for Foreign and Commonwealth Affairs"
+    },
+    {
+      "father_of": "Lawrence Johnson"
+    },
+    {
+      "attended": "Stonyhurst College"
+    }
+  ]
+}

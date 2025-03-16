@@ -1,0 +1,47 @@
+{
+  "entity": "Manurewa",
+  "properties": {
+    "type": "Suburb",
+    "location": "Auckland, New Zealand",
+    "population_2018": "38,744",
+    "postcode": "2102",
+    "region": "Auckland Region",
+    "area_km2": "30.77",
+    "maori_name": "Manurewa",
+    "local_government": "Auckland Council",
+    "established": "1840s",
+    "time_zone": "NZST"
+  },
+  "relationship": [
+    {
+      "part_of": "Auckland"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "has_neighbour": "Pakuranga"
+    },
+    {
+      "has_neighbour": "Flat Bush"
+    },
+    {
+      "has_neighbour": "Waiheke Island"
+    },
+    {
+      "serviced_by": "AT Metro"
+    },
+    {
+      "has_school": "Manurewa High School"
+    },
+    {
+      "has_school": "Manurewa College"
+    },
+    {
+      "has_park": "Manurewa Central Park"
+    },
+    {
+      "influenced_by": "Māori history"
+    }
+  ]
+}

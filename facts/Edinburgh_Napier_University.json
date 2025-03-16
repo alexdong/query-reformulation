@@ -1,0 +1,47 @@
+{
+  "entity": "Edinburgh Napier University",
+  "properties": {
+    "established": "1992",
+    "location": "Edinburgh, Scotland",
+    "type": "Public university",
+    "chancellor": "Lord Smith of Kelvin",
+    "vice_chancellor": "Andrea Nolan",
+    "students": "Approximately 20,000",
+    "colours": "Red and Gold",
+    "predecessor": "Napier Technical College",
+    "acronym": "ENU",
+    "research_focus": "Arts, Business, Computing, Health Sciences"
+  },
+  "relationship": [
+    {
+      "located_in": "Edinburgh"
+    },
+    {
+      "part_of": "Scottish higher education system"
+    },
+    {
+      "member_of": "UUK"
+    },
+    {
+      "preceded_by": "Napier Technical College"
+    },
+    {
+      "offers_program": "Business School"
+    },
+    {
+      "offers_program": "School of Computing"
+    },
+    {
+      "offers_program": "School of Health Sciences"
+    },
+    {
+      "affiliated_with": "Napier Students' Association"
+    },
+    {
+      "has_campus": "Craiglockhart Campus"
+    },
+    {
+      "has_campus": "Sighthill Campus"
+    }
+  ]
+}

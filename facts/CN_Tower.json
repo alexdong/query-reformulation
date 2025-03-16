@@ -1,0 +1,47 @@
+{
+  "entity": "CN Tower",
+  "properties": {
+    "type": "Observation Tower",
+    "location": "Toronto",
+    "height": "553.3 m (1,815 ft)",
+    "construction_start": "1973",
+    "construction_end": "1976",
+    "architect": "John Andrews",
+    "material": "Concrete, Steel",
+    "purpose": "Communications, Tourism",
+    "operator": "Canada Lands Company",
+    "designation": "National Historic Site of Canada"
+  },
+  "relationship": [
+    {
+      "located_in": "Toronto"
+    },
+    {
+      "part_of": "Downtown Toronto"
+    },
+    {
+      "built_by": "Canada"
+    },
+    {
+      "influenced": "Toronto skyline"
+    },
+    {
+      "has_part": "360 Restaurant"
+    },
+    {
+      "has_part": "EdgeWalk"
+    },
+    {
+      "has_part": "CN Tower Observation Deck"
+    },
+    {
+      "landmark_of": "Ontario"
+    },
+    {
+      "related_to": "Rogers Communications"
+    },
+    {
+      "preceded_by": "Parliament Building (Toronto)"
+    }
+  ]
+}

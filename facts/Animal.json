@@ -1,0 +1,47 @@
+{
+  "entity": "Animal",
+  "properties": {
+    "instance_of": "Living organism",
+    "kingdom": "Animalia",
+    "cell_type": "Eukaryotic",
+    "nutrition": "Heterotrophic",
+    "mobility": "Motile",
+    "size": "Variable",
+    "lifespan": "Variable",
+    "habitat": "Diverse",
+    "reproduction": "Sexual",
+    "body_plan": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "related_to": "Plant"
+    },
+    {
+      "related_to": "Fungi"
+    },
+    {
+      "prey_for": "Carnivore"
+    },
+    {
+      "eats": "Plant"
+    },
+    {
+      "has_part": "Organ"
+    },
+    {
+      "related_to": "Evolution"
+    },
+    {
+      "classified_as": "Chordata"
+    },
+    {
+      "classified_as": "Mammal"
+    },
+    {
+      "related_to": "Ecology"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Acadians",
+  "properties": {
+    "origin": "Acadia (region)",
+    "language": "French",
+    "religion": "Catholicism",
+    "culture": "French Canadian",
+    "historical_period": "17th-18th centuries",
+    "deportation_start": "1755",
+    "deportation_end": "1764",
+    "territory": "Eastern Canada",
+    "ancestral_region": "France",
+    "identity": "Ethnic group"
+  },
+  "relationship": [
+    {
+      "part_of": "French colonization"
+    },
+    {
+      "deported_to": "British colonies"
+    },
+    {
+      "related_to": "Grand Dérangement"
+    },
+    {
+      "influenced_by": "French language"
+    },
+    {
+      "descendant_of": "French settlers"
+    },
+    {
+      "settled_in": "Acadia"
+    },
+    {
+      "migration_to": "Louisiana"
+    },
+    {
+      "related_to": "Cajuns"
+    },
+    {
+      "conflict_with": "British Empire"
+    },
+    {
+      "cultural_heritage": "Acadian culture"
+    }
+  ]
+}

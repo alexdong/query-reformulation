@@ -1,0 +1,47 @@
+{
+  "entity": "Jamaica",
+  "properties": {
+    "capital": "Kingston",
+    "official_language": "English",
+    "population": "2.8 million",
+    "currency": "Jamaican dollar",
+    "area_km2": "10,991",
+    "sovereignty": "Independent",
+    "largest_city": "Kingston",
+    "national_sport": "Cricket",
+    "national_dish": "Ackee and saltfish",
+    "time_zone": "UTC-5"
+  },
+  "relationship": [
+    {
+      "part_of": "Caribbean"
+    },
+    {
+      "located_in": "North America"
+    },
+    {
+      "border_country": "None"
+    },
+    {
+      "influenced_by": "Spanish"
+    },
+    {
+      "influenced_by": "British"
+    },
+    {
+      "former_colony_of": "United Kingdom"
+    },
+    {
+      "music_genre": "Reggae"
+    },
+    {
+      "famous_person": "Bob Marley"
+    },
+    {
+      "island_group": "Greater Antilles"
+    },
+    {
+      "exports": "Bauxite"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "7",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "prime_number": "No",
+    "composite_number": "Yes",
+    "divisors": "1, 7",
+    "roman_numeral": "VII",
+    "cardinality": "Seventh",
+    "mathematical_constant": "None",
+    "binary_representation": "111",
+    "hexadecimal_representation": "7"
+  },
+  "relationship": [
+    {
+      "is_factor_of": "14"
+    },
+    {
+      "is_factor_of": "21"
+    },
+    {
+      "is_factor_of": "28"
+    },
+    {
+      "is_factor_of": "35"
+    },
+    {
+      "is_factor_of": "42"
+    },
+    {
+      "is_part_of": "70"
+    },
+    {
+      "is_part_of": "77"
+    },
+    {
+      "is_successor_of": "6"
+    },
+    {
+      "is_predecessor_of": "8"
+    },
+    {
+      "appears_in": "Lucky number 7"
+    }
+  ]
+}

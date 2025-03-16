@@ -1,0 +1,47 @@
+{
+  "entity": "Mataura River",
+  "properties": {
+    "location": "Southland, New Zealand",
+    "length": "237 km",
+    "source": "Southern Alps",
+    "mouth": "Clutha River",
+    "tributaries": "Mararoa River, Whitestone River",
+    "river_type": "Greywater river",
+    "catchment_area": "4,235 km²",
+    "average_flow": "150 m³/s",
+    "water_quality": "Variable",
+    "usage": "Irrigation, Hydroelectric power"
+  },
+  "relationship": [
+    {
+      "flows_into": "Clutha River"
+    },
+    {
+      "source_location": "Southern Alps"
+    },
+    {
+      "tributary_of": "Clutha River"
+    },
+    {
+      "region": "Southland"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "flows_through": "Gore"
+    },
+    {
+      "flows_through": "Wyndham"
+    },
+    {
+      "used_for": "Irrigation"
+    },
+    {
+      "used_for": "Hydroelectric power"
+    },
+    {
+      "part_of": "Southland Region"
+    }
+  ]
+}

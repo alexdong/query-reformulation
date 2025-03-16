@@ -1,0 +1,47 @@
+{
+  "entity": "Russell Group",
+  "properties": {
+    "instance_of": "Higher education association",
+    "country": "United Kingdom",
+    "formed_date": "1996",
+    "purpose": "Research excellence",
+    "membership": "12 universities",
+    "hq_location": "London, England",
+    "funding": "Government, philanthropy",
+    "focus": "Research-intensive",
+    "website": "russellgroup.ac.uk",
+    "predecessor": "Committee of Vice-Chancellors and Principals (CVCP)"
+  },
+  "relationship": [
+    {
+      "member_university": "University of Oxford"
+    },
+    {
+      "member_university": "University of Cambridge"
+    },
+    {
+      "member_university": "University College London"
+    },
+    {
+      "member_university": "Imperial College London"
+    },
+    {
+      "member_university": "University of Manchester"
+    },
+    {
+      "member_university": "University of Bristol"
+    },
+    {
+      "member_university": "University of Warwick"
+    },
+    {
+      "member_university": "University of Sheffield"
+    },
+    {
+      "member_university": "University of Glasgow"
+    },
+    {
+      "member_university": "King's College London"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Wānaka",
+  "properties": {
+    "type": "Town",
+    "location": "Central Otago, New Zealand",
+    "population": "5,500 (2023)",
+    "region": "Otago",
+    "postal_code": "9305",
+    "elevation": "301 m (987 ft)",
+    "named_after": "Lake Wānaka",
+    "economy": "Tourism, Agriculture",
+    "time_zone": "NZST",
+    "area_code": "+64 3 443"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Otago Region"
+    },
+    {
+      "near": "Queenstown"
+    },
+    {
+      "has_lake": "Lake Wānaka"
+    },
+    {
+      "has_mountain": "Mount Aspiring"
+    },
+    {
+      "attraction": "Roy's Peak"
+    },
+    {
+      "attraction": "That Wanaka Tree"
+    },
+    {
+      "industry": "Viticulture"
+    },
+    {
+      "sport": "Winter sports"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

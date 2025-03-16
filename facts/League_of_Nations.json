@@ -1,0 +1,47 @@
+{
+  "entity": "League of Nations",
+  "properties": {
+    "instance_of": "International Organization",
+    "founder": "Woodrow Wilson",
+    "established": "1920",
+    "dissolved": "1946",
+    "headquarters": "Geneva",
+    "purpose": "Maintain world peace",
+    "predecessor": "Committee on League of Nations",
+    "successor": "United Nations",
+    "treaty": "Treaty of Versailles",
+    "membership_peak": "63"
+  },
+  "relationship": [
+    {
+      "preceded_by": "World War I"
+    },
+    {
+      "succeeded_by": "United Nations"
+    },
+    {
+      "influenced": "United Nations Charter"
+    },
+    {
+      "member_state": "United States (never joined)"
+    },
+    {
+      "member_state": "United Kingdom"
+    },
+    {
+      "member_state": "France"
+    },
+    {
+      "member_state": "Germany (joined 1926)"
+    },
+    {
+      "member_state": "Japan (withdrew 1933)"
+    },
+    {
+      "involved_in": "Nanjing Incident"
+    },
+    {
+      "involved_in": "Abyssinia Crisis"
+    }
+  ]
+}

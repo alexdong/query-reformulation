@@ -1,0 +1,47 @@
+{
+  "entity": "Hapū",
+  "properties": {
+    "instance_of": "Social group",
+    "origin": "Māori culture",
+    "type": "Sub-iwi",
+    "leadership": "Rangatira",
+    "territory": "Rōhe",
+    "governance": "Whakapapa, Tikanga",
+    "size": "Variable",
+    "affiliation": "Iwi",
+    "structure": "Kin-based",
+    "importance": "Traditional governance"
+  },
+  "relationship": [
+    {
+      "part_of": "Iwi"
+    },
+    {
+      "governed_by": "Rangatira"
+    },
+    {
+      "located_in": "Rōhe"
+    },
+    {
+      "related_to": "Whānau"
+    },
+    {
+      "descendant_of": "Tupuna"
+    },
+    {
+      "practice": "Tikanga"
+    },
+    {
+      "connected_to": "Marae"
+    },
+    {
+      "associated_with": "Māori history"
+    },
+    {
+      "member_of": "Whānau"
+    },
+    {
+      "influenced_by": "Tapu"
+    }
+  ]
+}

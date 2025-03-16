@@ -1,0 +1,47 @@
+{
+  "entity": "Ōnuku Marae",
+  "properties": {
+    "type": "Marae",
+    "location": "Ōnuku, New Zealand",
+    "iwi": "Ngāi Tahu",
+    "subtribe": "Kaitūpuke",
+    "purpose": "Cultural and ceremonial",
+    "architectural_style": "Traditional Māori",
+    "established": "1840s",
+    "significant_feature": "Wharenui (meeting house)",
+    "historical_importance": "Early settlement site",
+    "current_use": "Community gatherings"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Ngāi Tahu Māori Trust Board"
+    },
+    {
+      "associated_with": "Kaitūpuke"
+    },
+    {
+      "contains": "Wharenui"
+    },
+    {
+      "associated_with_event": "Waitangi Treaty Grounds"
+    },
+    {
+      "related_to": "Māori culture"
+    },
+    {
+      "influenced_by": "Traditional Māori architecture"
+    },
+    {
+      "serves": "Local community"
+    },
+    {
+      "preserves": "Māori heritage"
+    },
+    {
+      "connected_to": "Ōnuku School"
+    }
+  ]
+}

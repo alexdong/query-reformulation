@@ -1,0 +1,47 @@
+{
+  "entity": "Financial Market",
+  "properties": {
+    "instance_of": "Market",
+    "purpose": "Capital Allocation",
+    "type": "Exchange/Over-the-Counter",
+    "participants": "Investors, Issuers, Intermediaries",
+    "function": "Price Discovery, Liquidity",
+    "regulation": "Government Agencies",
+    "risk": "Systemic Risk",
+    "instruments": "Stocks, Bonds, Derivatives",
+    "geography": "Global",
+    "time_frame": "Continuous"
+  },
+  "relationship": [
+    {
+      "includes": "Stock Market"
+    },
+    {
+      "includes": "Bond Market"
+    },
+    {
+      "includes": "Foreign Exchange Market"
+    },
+    {
+      "includes": "Commodities Market"
+    },
+    {
+      "regulated_by": "Securities and Exchange Commission"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "facilitates": "Investment"
+    },
+    {
+      "drives": "Economic Growth"
+    },
+    {
+      "affected_by": "Interest Rates"
+    },
+    {
+      "influenced_by": "Government Policy"
+    }
+  ]
+}

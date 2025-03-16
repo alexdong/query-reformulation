@@ -1,0 +1,47 @@
+{
+  "entity": "American Revolution",
+  "properties": {
+    "start_date": "1775",
+    "end_date": "1783",
+    "cause": "Taxation without representation",
+    "outcome": "American independence",
+    "location": "North America",
+    "belligerents": "Great Britain vs. United States",
+    "type": "Revolution",
+    "ideology": "Republicanism, Liberalism",
+    "significant_figure": "George Washington",
+    "resulted_in": "United States of America"
+  },
+  "relationship": [
+    {
+      "preceded_by": "French and Indian War"
+    },
+    {
+      "influenced": "French Revolution"
+    },
+    {
+      "led_to": "United States Constitution"
+    },
+    {
+      "involved": "George Washington"
+    },
+    {
+      "involved": "Benjamin Franklin"
+    },
+    {
+      "involved": "Thomas Jefferson"
+    },
+    {
+      "battle_took_place": "Battle of Saratoga"
+    },
+    {
+      "battle_took_place": "Battle of Yorktown"
+    },
+    {
+      "treaty_signed": "Treaty of Paris (1783)"
+    },
+    {
+      "influenced": "Louisiana Purchase"
+    }
+  ]
+}

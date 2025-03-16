@@ -1,0 +1,47 @@
+{
+  "entity": "Petroleum",
+  "properties": {
+    "instance_of": "Fossil fuel",
+    "chemical_formula": "Mixture of hydrocarbons",
+    "origin": "Decomposed organic matter",
+    "formation_time": "Millions of years",
+    "density": "0.7 - 1.0 g/cm³",
+    "viscosity": "Low",
+    "color": "Yellow to black",
+    "odor": "Strong, aromatic",
+    "primary_use": "Fuel, feedstock",
+    "discovery_date": "Ancient times"
+  },
+  "relationship": [
+    {
+      "part_of": "Crude oil"
+    },
+    {
+      "derived_from": "Organic matter"
+    },
+    {
+      "used_in": "Gasoline"
+    },
+    {
+      "used_in": "Diesel fuel"
+    },
+    {
+      "refines_to": "Petrochemicals"
+    },
+    {
+      "extracted_from": "Oil well"
+    },
+    {
+      "transported_by": "Pipeline"
+    },
+    {
+      "processed_at": "Oil refinery"
+    },
+    {
+      "impacts": "Climate change"
+    },
+    {
+      "related_to": "Fossil fuels"
+    }
+  ]
+}

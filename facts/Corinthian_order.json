@@ -1,0 +1,47 @@
+{
+  "entity": "Corinthian order",
+  "properties": {
+    "type": "Architectural order",
+    "origin": "Ancient Greece",
+    "period": "Classical Greece",
+    "capital_shape": "Acanthus leaves",
+    "column_height": "Taller than Doric",
+    "base": "Erect and molded",
+    "shaft": "Slender, often fluted",
+    "ornamentation": "Elaborate, decorative",
+    "predecessor": "Doric order",
+    "successor": "Ionic order"
+  },
+  "relationship": [
+    {
+      "part_of": "Greek architecture"
+    },
+    {
+      "influenced": "Roman architecture"
+    },
+    {
+      "preceded_by": "Doric order"
+    },
+    {
+      "followed_by": "Ionic order"
+    },
+    {
+      "architect": "Callimachus"
+    },
+    {
+      "example_location": "Temple of Apollo (Corinth"
+    },
+    {
+      "style_feature": "Acanthus leaf capital"
+    },
+    {
+      "related_to": "Greek art"
+    },
+    {
+      "used_in": "Ancient Greek temples"
+    },
+    {
+      "contrast_with": "Tuscan order"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Western Literature",
+  "properties": {
+    "definition": "Literature of Western cultures",
+    "origin": "Ancient Greece",
+    "time_period": "Ancient to Present",
+    "geographic_scope": "Europe, Americas, Australia",
+    "dominant_languages": "English, French, Spanish, German, Latin, Greek",
+    "key_themes": "Humanism, Individualism, Reason, Progress",
+    "historical_context": "Western Civilization",
+    "literary_movements": "Realism, Romanticism, Modernism",
+    "canon_formation": "Ongoing process",
+    "influence_on": "Global Literature"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Ancient Greek Literature"
+    },
+    {
+      "influenced": "American Literature"
+    },
+    {
+      "influenced": "British Literature"
+    },
+    {
+      "part_of": "World Literature"
+    },
+    {
+      "preceded_by": "Oral Tradition"
+    },
+    {
+      "related_to": "Philosophy"
+    },
+    {
+      "related_to": "History"
+    },
+    {
+      "includes": "Shakespeare"
+    },
+    {
+      "includes": "Homer"
+    },
+    {
+      "includes": "Dante Alighieri"
+    }
+  ]
+}

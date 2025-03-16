@@ -1,0 +1,47 @@
+{
+  "entity": "Te Roroa",
+  "properties": {
+    "type": "Māori iwi",
+    "region": "West Coast, New Zealand",
+    "ancestral_origin": "Tainui waka",
+    "irohi": "Ngāti Mahuta, Ngāti Tūwharetoa",
+    "traditional_occupation": "Greenstone gathering, fishing",
+    "tribal_area": "Arahura River",
+    "language": "Te Reo Māori",
+    "marae": "Mahara Marae",
+    "significant_figure": "Hemi Te Roroa",
+    "historical_treaty_signatory": "1840"
+  },
+  "relationship": [
+    {
+      "part_of": "Tainui"
+    },
+    {
+      "located_in": "West Coast Region"
+    },
+    {
+      "related_to": "Ngāti Mahuta"
+    },
+    {
+      "related_to": "Ngāti Tūwharetoa"
+    },
+    {
+      "has_marae": "Mahara Marae"
+    },
+    {
+      "associated_with": "Hemi Te Roroa"
+    },
+    {
+      "signed": "Treaty of Waitangi"
+    },
+    {
+      "traditional_lands_include": "Arahura River"
+    },
+    {
+      "language_spoken": "Te Reo Māori"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

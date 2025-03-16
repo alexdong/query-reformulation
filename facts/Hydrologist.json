@@ -1,0 +1,47 @@
+{
+  "entity": "Hydrologist",
+  "properties": {
+    "instance_of": "Profession",
+    "field_of_study": "Hydrology",
+    "requires_education": "Bachelor's Degree",
+    "typical_employer": "Government agencies",
+    "work_environment": "Field and Office",
+    "skills": "Data analysis, Modeling, GIS",
+    "related_field": "Geology, Environmental Science",
+    "salary_range": "$70,000 - $120,000",
+    "job_outlook": "Good",
+    "primary_task": "Water resource management"
+  },
+  "relationship": [
+    {
+      "studies": "Hydrology"
+    },
+    {
+      "employs": "GIS"
+    },
+    {
+      "related_to": "Geology"
+    },
+    {
+      "related_to": "Environmental Science"
+    },
+    {
+      "works_with": "Water resources"
+    },
+    {
+      "analyzes": "Rainfall data"
+    },
+    {
+      "models": "River systems"
+    },
+    {
+      "collaborates_with": "Engineers"
+    },
+    {
+      "contributes_to": "Water policy"
+    },
+    {
+      "uses": "Remote sensing"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Waitomo Caves",
+  "properties": {
+    "type": "Cave system",
+    "location": "North Island, New Zealand",
+    "discovery_date": "1887",
+    "discoverer": "Tane Tinorau",
+    "length": "300m (navigable section)",
+    "depth": "109m",
+    "geology": "Limestone",
+    "formation_age": "2-3 million years",
+    "primary_feature": "Glowworms (Arachnocampa luminosa)",
+    "tourism_status": "Major tourist attraction"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Waikato Region"
+    },
+    {
+      "contains": "Ruakuri Cave"
+    },
+    {
+      "contains": "Glowworm Grotto"
+    },
+    {
+      "discovered_by": "Tane Tinorau"
+    },
+    {
+      "species_inhabits": "Arachnocampa luminosa"
+    },
+    {
+      "geological_formation": "Limestone"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "influenced_by": "Karst topography"
+    },
+    {
+      "nearby_landmark": "Waitomo"
+    }
+  ]
+}

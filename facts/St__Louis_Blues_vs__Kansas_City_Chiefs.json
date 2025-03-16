@@ -1,0 +1,47 @@
+{
+  "entity": "St. Louis Blues vs. Kansas City Chiefs",
+  "properties": {
+    "sport": "American Football & Ice Hockey",
+    "location": "Missouri, USA",
+    "blues_founded": "1967",
+    "chiefs_founded": "1960",
+    "blues_league": "NHL",
+    "chiefs_league": "NFL",
+    "blues_colors": "Blue & Yellow",
+    "chiefs_colors": "Red & Gold",
+    "blues_arena": "Enterprise Center",
+    "chiefs_arena": "Arrowhead Stadium"
+  },
+  "relationship": [
+    {
+      "rivalry": "Missouri Rivalry"
+    },
+    {
+      "team_plays_in": "Missouri"
+    },
+    {
+      "blues_coach": "Craig Berube"
+    },
+    {
+      "chiefs_coach": "Andy Reid"
+    },
+    {
+      "blues_player": "Brayden Schenn"
+    },
+    {
+      "chiefs_player": "Patrick Mahomes"
+    },
+    {
+      "blues_division": "Central Division"
+    },
+    {
+      "chiefs_division": "AFC West"
+    },
+    {
+      "blues_owner": "Enterprise Holdings"
+    },
+    {
+      "chiefs_owner": "Clark Hunt"
+    }
+  ]
+}

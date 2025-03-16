@@ -1,0 +1,47 @@
+{
+  "entity": "Music",
+  "properties": {
+    "instance_of": "Art form",
+    "type": "Auditory art",
+    "definition": "Arrangement of sounds",
+    "element": "Melody, Harmony, Rhythm",
+    "purpose": "Entertainment, Expression, Ritual",
+    "notation": "Musical notation",
+    "history": "Ancient times",
+    "genre_variety": "Extensive",
+    "cultural_significance": "Universal",
+    "medium": "Sound"
+  },
+  "relationship": [
+    {
+      "is_a": "Art"
+    },
+    {
+      "related_to": "Sound"
+    },
+    {
+      "influenced_by": "Mathematics"
+    },
+    {
+      "performed_by": "Musician"
+    },
+    {
+      "composed_by": "Composer"
+    },
+    {
+      "genre_includes": "Classical music"
+    },
+    {
+      "genre_includes": "Jazz"
+    },
+    {
+      "genre_includes": "Rock music"
+    },
+    {
+      "used_in": "Film"
+    },
+    {
+      "part_of": "Culture"
+    }
+  ]
+}

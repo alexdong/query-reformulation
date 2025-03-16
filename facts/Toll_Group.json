@@ -1,0 +1,47 @@
+{
+  "entity": "Toll Group",
+  "properties": {
+    "industry": "Logistics",
+    "founder": "Robert Higgins",
+    "foundation_date": "1957",
+    "headquarters": "Melbourne",
+    "country": "Australia",
+    "revenue": "AUD 7.3 billion (2022)",
+    "number_of_employees": "53,000",
+    "services": "Freight, Logistics, Warehousing",
+    "parent_company": "Japan Post Holdings",
+    "website": "tollgroup.com"
+  },
+  "relationship": [
+    {
+      "subsidiary_of": "Japan Post Holdings"
+    },
+    {
+      "acquired": "Scott Free Logistics"
+    },
+    {
+      "acquired": "Bidfood"
+    },
+    {
+      "competitor_of": "CEVA Logistics"
+    },
+    {
+      "competitor_of": "DHL"
+    },
+    {
+      "operates_in": "Australia"
+    },
+    {
+      "operates_in": "New Zealand"
+    },
+    {
+      "operates_in": "Asia"
+    },
+    {
+      "provides_service_to": "Mining Industry"
+    },
+    {
+      "provides_service_to": "Retail Sector"
+    }
+  ]
+}

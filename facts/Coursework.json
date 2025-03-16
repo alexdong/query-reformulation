@@ -1,0 +1,47 @@
+{
+  "entity": "Coursework",
+  "properties": {
+    "type": "Assessment",
+    "format": "Written/Project",
+    "purpose": "Demonstrate understanding",
+    "weighting": "Variable",
+    "submission_method": "Online/Physical",
+    "assessment_type": "Formative/Summative",
+    "subject_area": "Varies",
+    "duration": "Extended",
+    "feedback_provided": "Yes",
+    "grading_scale": "Standard"
+  },
+  "relationship": [
+    {
+      "part_of": "Education"
+    },
+    {
+      "assesses": "Learning Outcomes"
+    },
+    {
+      "requires": "Research"
+    },
+    {
+      "evaluated_by": "Instructor"
+    },
+    {
+      "contributes_to": "Grade"
+    },
+    {
+      "related_to": "Assignment"
+    },
+    {
+      "overlaps_with": "Project"
+    },
+    {
+      "supports": "Student Learning"
+    },
+    {
+      "used_in": "Higher Education"
+    },
+    {
+      "alternative_to": "Exam"
+    }
+  ]
+}

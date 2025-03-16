@@ -1,0 +1,47 @@
+{
+  "entity": "Waikato Region",
+  "properties": {
+    "type": "Region",
+    "location": "New Zealand",
+    "area_km2": "29,400",
+    "population_2023": "467,500",
+    "region_code": "35",
+    "governing_body": "Waikato Regional Council",
+    "major_river": "Waikato River",
+    "primary_industries": "Agriculture, Dairy, Horticulture",
+    "climate": "Temperate",
+    "region_established": "1876"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "contains": "Hamilton City"
+    },
+    {
+      "contains": "Taupō District"
+    },
+    {
+      "adjacent_to": "Auckland Region"
+    },
+    {
+      "adjacent_to": "Bay of Plenty Region"
+    },
+    {
+      "contains": "Waitomo Caves"
+    },
+    {
+      "contains": "Rotorua Lakes"
+    },
+    {
+      "river_flows_through": "Waikato River"
+    },
+    {
+      "economic_activity": "Dairy Farming"
+    },
+    {
+      "tourism_attraction": "Hobbiton Movie Set"
+    }
+  ]
+}

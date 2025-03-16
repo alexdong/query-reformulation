@@ -1,0 +1,47 @@
+{
+  "entity": "Biodiversity Loss",
+  "properties": {
+    "definition": "Decline in species and ecosystem variety",
+    "rate": "Accelerating",
+    "primary_driver": "Human activity",
+    "impact_ecosystems": "Reduced resilience",
+    "impact_human_wellbeing": "Threatened food security",
+    "scale": "Global",
+    "measurement": "Species extinction rates, habitat loss",
+    "related_concept": "Sixth mass extinction",
+    "affected_taxa": "Plants, animals, microorganisms",
+    "severity": "Critical"
+  },
+  "relationship": [
+    {
+      "caused_by": "Habitat Destruction"
+    },
+    {
+      "caused_by": "Climate Change"
+    },
+    {
+      "caused_by": "Pollution"
+    },
+    {
+      "caused_by": "Overexploitation"
+    },
+    {
+      "impacts": "Ecosystem Services"
+    },
+    {
+      "impacts": "Human Health"
+    },
+    {
+      "linked_to": "Deforestation"
+    },
+    {
+      "linked_to": "Invasive Species"
+    },
+    {
+      "mitigated_by": "Conservation Efforts"
+    },
+    {
+      "related_to": "Sustainable Development"
+    }
+  ]
+}

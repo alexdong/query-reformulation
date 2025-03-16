@@ -1,0 +1,47 @@
+{
+  "entity": "Administration",
+  "properties": {
+    "instance_of": "Process",
+    "field": "Business",
+    "definition": "Management of organization",
+    "synonym": "Management",
+    "aspect": "Organizational",
+    "type": "Systematic",
+    "focus": "Policy Implementation",
+    "scope": "Wide",
+    "level": "Strategic",
+    "component": "Governance"
+  },
+  "relationship": [
+    {
+      "part_of": "Government"
+    },
+    {
+      "requires": "Leadership"
+    },
+    {
+      "involves": "Policy"
+    },
+    {
+      "supports": "Organization"
+    },
+    {
+      "includes": "Planning"
+    },
+    {
+      "requires": "Communication"
+    },
+    {
+      "results_in": "Implementation"
+    },
+    {
+      "related_to": "Bureaucracy"
+    },
+    {
+      "governs": "Resources"
+    },
+    {
+      "impacts": "Public Services"
+    }
+  ]
+}

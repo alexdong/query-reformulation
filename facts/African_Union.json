@@ -1,0 +1,47 @@
+{
+  "entity": "African Union",
+  "properties": {
+    "instance_of": "Intergovernmental organization",
+    "official_language": "Arabic, English, French, Portuguese",
+    "formation_date": "2001",
+    "successor_to": "Organisation of African Unity",
+    "headquarters_location": "Addis Ababa, Ethiopia",
+    "membership": "55",
+    "purpose": "African integration",
+    "chairperson": "Moussa Faki Mahamat",
+    "legal_status": "Treaty-based",
+    "budget_2023": "USD 781 million"
+  },
+  "relationship": [
+    {
+      "member_state": "Algeria"
+    },
+    {
+      "member_state": "Egypt"
+    },
+    {
+      "member_state": "Nigeria"
+    },
+    {
+      "member_state": "South Africa"
+    },
+    {
+      "predecessor": "Organisation of African Unity"
+    },
+    {
+      "located_in": "Africa"
+    },
+    {
+      "influenced_by": "Pan-Africanism"
+    },
+    {
+      "has_subsidiary": "African Union Commission"
+    },
+    {
+      "has_program": "African Peace and Security Architecture"
+    },
+    {
+      "works_with": "United Nations"
+    }
+  ]
+}

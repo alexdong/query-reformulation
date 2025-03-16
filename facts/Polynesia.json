@@ -1,0 +1,47 @@
+{
+  "entity": "Polynesia",
+  "properties": {
+    "type": "Region",
+    "location": "Pacific Ocean",
+    "area": "2,700,000 km²",
+    "population": "1.5 million",
+    "languages": "Austronesian",
+    "climate": "Tropical",
+    "geography": "Islands, Atolls, Volcanic",
+    "culture": "Austronesian",
+    "navigation": "Star Navigation",
+    "discovery": "17th Century"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "includes": "Hawaii"
+    },
+    {
+      "includes": "Samoa"
+    },
+    {
+      "includes": "Tonga"
+    },
+    {
+      "includes": "Tahiti"
+    },
+    {
+      "influenced": "Maori Culture"
+    },
+    {
+      "ancestor_of": "Micronesia"
+    },
+    {
+      "settled_by": "Austronesian People"
+    },
+    {
+      "exploration_method": "Double-hulled canoes"
+    },
+    {
+      "religion": "Tapu"
+    }
+  ]
+}

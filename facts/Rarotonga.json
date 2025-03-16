@@ -1,0 +1,47 @@
+{
+  "entity": "Rarotonga",
+  "properties": {
+    "type": "Island",
+    "country": "Cook Islands",
+    "area": "103",
+    "population": "14,000",
+    "highest_point": "Mount Rotoroa",
+    "latitude": "-21.23",
+    "longitude": "-159.78",
+    "currency": "Cook Islands dollar",
+    "language": "Maori",
+    "climate": "Tropical"
+  },
+  "relationship": [
+    {
+      "part_of": "Cook Islands"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "capital_of": "Cook Islands"
+    },
+    {
+      "contains": "Aitutaki"
+    },
+    {
+      "has_peak": "Mount Rotoroa"
+    },
+    {
+      "has_river": "Aroa River"
+    },
+    {
+      "has_lagoon": "Rarotonga Lagoon"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "tourism_attraction": "Rarotonga International Airport"
+    },
+    {
+      "has_settlement": "Avatiu"
+    }
+  ]
+}

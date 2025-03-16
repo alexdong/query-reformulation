@@ -1,0 +1,47 @@
+{
+  "entity": "Artificial Intelligence",
+  "properties": {
+    "instance_of": "Field of study",
+    "subfield_of": "Computer Science",
+    "goal": "Machine Intelligence",
+    "origin": "1950s",
+    "key_technique": "Machine Learning",
+    "application": "Automation",
+    "related_concept": "Robotics",
+    "approach": "Algorithms",
+    "data_dependency": "Large Datasets",
+    "ethical_consideration": "Bias"
+  },
+  "relationship": [
+    {
+      "developed_by": "Alan Turing"
+    },
+    {
+      "influenced_by": "Cybernetics"
+    },
+    {
+      "related_to": "Deep Learning"
+    },
+    {
+      "used_in": "Self-driving cars"
+    },
+    {
+      "used_in": "Natural Language Processing"
+    },
+    {
+      "impacts": "Job Market"
+    },
+    {
+      "requires": "Computational Power"
+    },
+    {
+      "challenges": "Explainability"
+    },
+    {
+      "research_area": "Neural Networks"
+    },
+    {
+      "related_to": "Data Science"
+    }
+  ]
+}

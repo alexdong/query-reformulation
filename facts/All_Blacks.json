@@ -1,0 +1,47 @@
+{
+  "entity": "All Blacks",
+  "properties": {
+    "instance_of": "Rugby union team",
+    "country": "New Zealand",
+    "sport": "Rugby union",
+    "founded": "1885",
+    "governing_body": "New Zealand Rugby",
+    "home_ground": "Eden Park",
+    "nickname": "Blacks",
+    "head_coach": "Ian Foster",
+    "captain": "Sam Cane",
+    "world_ranking": "1"
+  },
+  "relationship": [
+    {
+      "member_of": "New Zealand national rugby union team"
+    },
+    {
+      "plays_in": "Rugby Championship"
+    },
+    {
+      "plays_in": "Six Nations Championship"
+    },
+    {
+      "plays_in": "Rugby World Cup"
+    },
+    {
+      "governed_by": "New Zealand Rugby"
+    },
+    {
+      "rivalry_with": "Wallabies"
+    },
+    {
+      "influenced": "Rugby union"
+    },
+    {
+      "location": "New Zealand"
+    },
+    {
+      "has_player": "Richie McCaw"
+    },
+    {
+      "has_player": "Dan Carter"
+    }
+  ]
+}

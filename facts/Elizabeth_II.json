@@ -1,0 +1,47 @@
+{
+  "entity": "Elizabeth II",
+  "properties": {
+    "birth_date": "1926-04-21",
+    "birth_place": "London",
+    "title": "Queen of the United Kingdom",
+    "death_date": "2022-09-08",
+    "death_place": "Balmoral Castle",
+    "spouse": "Philip, Duke of Edinburgh",
+    "father": "George VI",
+    "mother": "Elizabeth Bowes-Lyon",
+    "religion": "Anglican",
+    "education": "Private"
+  },
+  "relationship": [
+    {
+      "reigned_over": "United Kingdom"
+    },
+    {
+      "predecessor": "George VI"
+    },
+    {
+      "successor": "Charles III"
+    },
+    {
+      "member_of": "British royal family"
+    },
+    {
+      "child_of": "George VI"
+    },
+    {
+      "spouse_of": "Philip, Duke of Edinburgh"
+    },
+    {
+      "attended": "Buckingham Palace"
+    },
+    {
+      "influenced": "Commonwealth of Nations"
+    },
+    {
+      "signed_into_law": "Statute"
+    },
+    {
+      "visited": "United States"
+    }
+  ]
+}

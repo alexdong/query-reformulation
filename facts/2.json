@@ -1,0 +1,47 @@
+{
+  "entity": "2",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "even_number": "Yes",
+    "prime_number": "No",
+    "cardinality": "Two",
+    "successor": "3",
+    "predecessor": "1",
+    "roman_numeral": "II",
+    "binary_representation": "10",
+    "mathematical_constant": "No"
+  },
+  "relationship": [
+    {
+      "is_factor_of": "4"
+    },
+    {
+      "is_factor_of": "6"
+    },
+    {
+      "is_factor_of": "8"
+    },
+    {
+      "is_factor_of": "10"
+    },
+    {
+      "sum_with": "1"
+    },
+    {
+      "product_with": "1"
+    },
+    {
+      "divides": "4"
+    },
+    {
+      "is_multiple_of": "1"
+    },
+    {
+      "appears_in": "Fibonacci sequence"
+    },
+    {
+      "used_in": "Binary system"
+    }
+  ]
+}

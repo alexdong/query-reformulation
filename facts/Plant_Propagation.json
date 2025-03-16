@@ -1,0 +1,47 @@
+{
+  "entity": "Plant Propagation",
+  "properties": {
+    "definition": "Creating new plants from existing ones",
+    "purpose": "Increase plant numbers, preserve varieties",
+    "methods": "Sexual & Asexual",
+    "benefit": "Faster reproduction, genetic consistency",
+    "cost": "Variable, depends on method",
+    "difficulty": "Ranges from easy to complex",
+    "application": "Horticulture, agriculture, conservation",
+    "requires": "Knowledge, tools, suitable environment",
+    "outcome": "New plant individuals",
+    "related_field": "Botany"
+  },
+  "relationship": [
+    {
+      "method_of": "Horticulture"
+    },
+    {
+      "type_of": "Plant Reproduction"
+    },
+    {
+      "requires": "Seed"
+    },
+    {
+      "involves": "Cuttings"
+    },
+    {
+      "involves": "Grafting"
+    },
+    {
+      "involves": "Layering"
+    },
+    {
+      "related_to": "Genetic Engineering"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "used_in": "Agriculture"
+    },
+    {
+      "studied_in": "Botany"
+    }
+  ]
+}

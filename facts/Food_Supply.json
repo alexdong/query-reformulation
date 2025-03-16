@@ -1,0 +1,47 @@
+{
+  "entity": "Food Supply",
+  "properties": {
+    "definition": "Availability of food",
+    "scope": "Global, Regional, Local",
+    "dependency": "Agriculture, Fisheries, Livestock",
+    "vulnerability": "Climate Change, Conflict, Economic Shocks",
+    "measurement": "Calories per capita, Food security index",
+    "impact": "Health, Economy, Social Stability",
+    "component": "Production, Distribution, Consumption",
+    "risk": "Famine, Malnutrition, Food Waste",
+    "trend": "Increasing demand, Variable availability",
+    "importance": "Human survival, Wellbeing"
+  },
+  "relationship": [
+    {
+      "affected_by": "Climate Change"
+    },
+    {
+      "supports": "Agriculture"
+    },
+    {
+      "impacts": "Food Security"
+    },
+    {
+      "influenced_by": "Population Growth"
+    },
+    {
+      "requires": "Transportation"
+    },
+    {
+      "linked_to": "Nutrition"
+    },
+    {
+      "affected_by": "Economic Recession"
+    },
+    {
+      "supports": "Livestock Farming"
+    },
+    {
+      "impacts": "Malnutrition"
+    },
+    {
+      "related_to": "Sustainable Development"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Green Island Rugby Football Club",
+  "properties": {
+    "founded": "1921",
+    "location": "Green Island, Dunedin",
+    "country": "New Zealand",
+    "sport": "Rugby Union",
+    "competition": "Heartland Championship",
+    "nickname": "The Greens",
+    "colours": "Green and White",
+    "governing_body": "New Zealand Rugby",
+    "home_ground": "Green Island Ground",
+    "player_count": "Approximately 300"
+  },
+  "relationship": [
+    {
+      "part_of": "Dunedin Rugby Football Union"
+    },
+    {
+      "located_in": "Dunedin"
+    },
+    {
+      "plays_in": "Heartland Championship"
+    },
+    {
+      "member_of": "New Zealand Rugby"
+    },
+    {
+      "rivalry_with": "Taieri Rugby Football Club"
+    },
+    {
+      "has_player": "Josh Bekhuis"
+    },
+    {
+      "has_player": "Liam Mitchell"
+    },
+    {
+      "coach": "Richard Douglas"
+    },
+    {
+      "competition_format": "Pool Play"
+    },
+    {
+      "trophy": "Heartland Championship Trophy"
+    }
+  ]
+}

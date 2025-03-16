@@ -1,0 +1,47 @@
+{
+  "entity": "James Hislop",
+  "properties": {
+    "birth_date": "1805-11-18",
+    "death_date": "1869-09-26",
+    "birth_place": "Forfar, Angus",
+    "nationality": "Scottish",
+    "occupation": "Congregational minister",
+    "education": "University of St Andrews",
+    "religious_affiliation": "Congregationalism",
+    "writing_style": "Investigative journalism",
+    "known_for": "The Romance of the Three Kingdoms",
+    "spouse": "Jane Paterson"
+  },
+  "relationship": [
+    {
+      "translator_of": "The Romance of the Three Kingdoms"
+    },
+    {
+      "influenced": "Sinologist"
+    },
+    {
+      "member_of": "Scottish Congregational Church"
+    },
+    {
+      "educated_at": "University of St Andrews"
+    },
+    {
+      "author_of": "Chinese Classics"
+    },
+    {
+      "author_of": "Confucius"
+    },
+    {
+      "author_of": "Mencius"
+    },
+    {
+      "preceded_by": "Robert Morrison"
+    },
+    {
+      "succeeded_by": "William Muir"
+    },
+    {
+      "located_in": "Angus"
+    }
+  ]
+}

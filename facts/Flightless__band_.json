@@ -1,0 +1,47 @@
+{
+  "entity": "Flightless (band)",
+  "properties": {
+    "genre": "Indie pop",
+    "origin": "California, USA",
+    "formed_year": "2017",
+    "members": "Zachary Luterman, Jake Pimm",
+    "record_label": "Captured Tracks",
+    "website": "flightlessband.com",
+    "instruments": "Guitar, Bass, Drums, Vocals",
+    "style": "Dream pop, Lo-fi",
+    "influenced_by": "Beach House, Real Estate",
+    "album_count": "2"
+  },
+  "relationship": [
+    {
+      "influenced": "Lo-fi music"
+    },
+    {
+      "member_of": "Musician"
+    },
+    {
+      "record_label": "Captured Tracks"
+    },
+    {
+      "genre": "Indie pop"
+    },
+    {
+      "influenced_by": "Beach House"
+    },
+    {
+      "influenced_by": "Real Estate"
+    },
+    {
+      "location": "California"
+    },
+    {
+      "album": "Yes, Modernity"
+    },
+    {
+      "album": "Self-Portrait"
+    },
+    {
+      "associated_artist": "Alex G"
+    }
+  ]
+}

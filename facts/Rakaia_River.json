@@ -1,0 +1,47 @@
+{
+  "entity": "Rakaia River",
+  "properties": {
+    "type": "River",
+    "location": "Canterbury, New Zealand",
+    "length": "256 km",
+    "source": "Southern Alps",
+    "mouth": "Pacific Ocean",
+    "tributaries": "Hakatere River",
+    "basin_area": "10,720 km²",
+    "discharge": "670 m³/s",
+    "name_origin": "Māori",
+    "region": "Mid Canterbury"
+  },
+  "relationship": [
+    {
+      "flows_through": "Canterbury Region"
+    },
+    {
+      "source_of": "Hakatere River"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "tributary_of": "Pacific Ocean"
+    },
+    {
+      "part_of": "Canterbury Plains"
+    },
+    {
+      "flows_past": "Lake Coleridge"
+    },
+    {
+      "flows_past": "Lake Heron"
+    },
+    {
+      "near": "Mount Sunday"
+    },
+    {
+      "used_by": "Māori"
+    },
+    {
+      "influenced_by": "Southern Alps"
+    }
+  ]
+}

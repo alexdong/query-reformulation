@@ -1,0 +1,47 @@
+{
+  "entity": "Sea ice",
+  "properties": {
+    "type": "Ice",
+    "formation": "Freezing of seawater",
+    "location": "Polar regions",
+    "thickness": "1.5-4 meters",
+    "salinity": "Lower than seawater",
+    "albedo": "High",
+    "density": "910 kg/m³",
+    "composition": "Frozen seawater",
+    "melting_point": "-1.8 °C",
+    "extent": "Varies seasonally"
+  },
+  "relationship": [
+    {
+      "part_of": "Cryosphere"
+    },
+    {
+      "influences": "Ocean currents"
+    },
+    {
+      "impacts": "Arctic ecosystem"
+    },
+    {
+      "affects": "Global climate"
+    },
+    {
+      "reflects": "Solar radiation"
+    },
+    {
+      "insulates": "Ocean"
+    },
+    {
+      "formed_from": "Seawater"
+    },
+    {
+      "dissolves_into": "Saltwater"
+    },
+    {
+      "affected_by": "Climate change"
+    },
+    {
+      "adjacent_to": "Landmass"
+    }
+  ]
+}

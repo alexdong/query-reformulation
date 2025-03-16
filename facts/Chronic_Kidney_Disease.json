@@ -1,0 +1,47 @@
+{
+  "entity": "Chronic Kidney Disease",
+  "properties": {
+    "definition": "Progressive loss of kidney function",
+    "icd10_code": "N18",
+    "affected_organ": "Kidney",
+    "stages": "5 stages (based on GFR)",
+    "common_causes": "Diabetes, Hypertension",
+    "symptoms": "Fatigue, Swelling, Nausea",
+    "diagnosis_method": "GFR measurement",
+    "prevalence": "Globally increasing",
+    "mortality_rate": "Significant",
+    "treatment_focus": "Managing complications"
+  },
+  "relationship": [
+    {
+      "causes": "Diabetes Mellitus"
+    },
+    {
+      "causes": "Hypertension"
+    },
+    {
+      "complication_of": "Diabetes Mellitus"
+    },
+    {
+      "complication_of": "Hypertension"
+    },
+    {
+      "treated_with": "Dialysis"
+    },
+    {
+      "treated_with": "Kidney Transplantation"
+    },
+    {
+      "risk_factor_for": "Cardiovascular Disease"
+    },
+    {
+      "associated_with": "Anemia"
+    },
+    {
+      "impacts": "Bone Health"
+    },
+    {
+      "managed_by": "Nephrologist"
+    }
+  ]
+}

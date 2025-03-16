@@ -1,0 +1,47 @@
+{
+  "entity": "MCing",
+  "properties": {
+    "definition": "Master of Ceremonies",
+    "genre": "Hip Hop",
+    "skillset": "Rapping, Improvisation, Stage Presence",
+    "role": "Host, Entertainer, Crowd Engagement",
+    "origin": "DJ Kool Herc",
+    "era": "1970s",
+    "style": "Rhythmic Speech, Rhyme Schemes",
+    "technique": "Call and Response, Freestyling",
+    "importance": "Central to Hip Hop Culture",
+    "related_role": "DJ, B-boy"
+  },
+  "relationship": [
+    {
+      "part_of": "Hip Hop"
+    },
+    {
+      "influenced_by": "Jamaican Toasting"
+    },
+    {
+      "performed_by": "Rakim"
+    },
+    {
+      "performed_by": "KRS-One"
+    },
+    {
+      "performed_by": "Eminem"
+    },
+    {
+      "related_to": "Freestyle Rap"
+    },
+    {
+      "requires": "Microphone"
+    },
+    {
+      "often_collaborates_with": "DJ"
+    },
+    {
+      "impacts": "Crowd Energy"
+    },
+    {
+      "preceded_by": "Party Host"
+    }
+  ]
+}

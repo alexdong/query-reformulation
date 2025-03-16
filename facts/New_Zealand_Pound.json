@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Pound",
+  "properties": {
+    "currency_code": "NZ£",
+    "symbol": "£",
+    "country": "New Zealand",
+    "era": "British Empire",
+    "introduction_date": "1842",
+    "demonetization_date": "1967",
+    "exchange_rate_to_NZD": "1 = 1",
+    "denomination": "1, 2, 1/2, 1/4",
+    "legal_tender": "Yes (until 1967)",
+    "replaced_by": "New Zealand Dollar"
+  },
+  "relationship": [
+    {
+      "part_of": "British Pound"
+    },
+    {
+      "used_in": "New Zealand"
+    },
+    {
+      "preceded_by": "New Zealand Shilling"
+    },
+    {
+      "succeeded_by": "New Zealand Dollar"
+    },
+    {
+      "influenced": "New Zealand Dollar"
+    },
+    {
+      "related_to": "Decimalisation of the pound"
+    },
+    {
+      "currency_type": "Historical currency"
+    },
+    {
+      "economic_indicator_of": "New Zealand"
+    },
+    {
+      "linked_to": "British Empire currency"
+    },
+    {
+      "has_variant": "New Zealand Sovereign"
+    }
+  ]
+}

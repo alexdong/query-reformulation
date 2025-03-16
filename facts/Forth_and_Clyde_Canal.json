@@ -1,0 +1,47 @@
+{
+  "entity": "Forth and Clyde Canal",
+  "properties": {
+    "type": "Canal",
+    "location": "Scotland",
+    "length": "65 miles",
+    "status": "Operational",
+    "construction_start": "1761",
+    "construction_end": "1790",
+    "engineer": "James Watt",
+    "purpose": "Transportation",
+    "elevation_change": "120 feet",
+    "ownership": "Scottish Canals"
+  },
+  "relationship": [
+    {
+      "flows_into": "River Clyde"
+    },
+    {
+      "flows_into": "River Forth"
+    },
+    {
+      "connects_to": "Falkirk Wheel"
+    },
+    {
+      "passes_through": "Glasgow"
+    },
+    {
+      "passes_through": "Falkirk"
+    },
+    {
+      "part_of": "Union Canal"
+    },
+    {
+      "influenced": "Industrial Revolution"
+    },
+    {
+      "serves": "Leisure boating"
+    },
+    {
+      "historical_use": "Coal transport"
+    },
+    {
+      "adjacent_to": "Towpath"
+    }
+  ]
+}

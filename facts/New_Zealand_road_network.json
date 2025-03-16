@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand road network",
+  "properties": {
+    "total_length_km": "101,331",
+    "type": "Road network",
+    "country": "New Zealand",
+    "surface_type_dominant": "Paved",
+    "network_classification": "State Highways, Local Roads",
+    "geographical_coverage": "North Island, South Island",
+    "terrain_challenge": "Mountainous, Coastal",
+    "funding_source": "Government",
+    "management_agency": "Waka Kotahi NZ Transport Agency",
+    "road_density_km2": "0.9"
+  },
+  "relationship": [
+    {
+      "connects": "Auckland"
+    },
+    {
+      "connects": "Wellington"
+    },
+    {
+      "connects": "Christchurch"
+    },
+    {
+      "part_of": "National infrastructure"
+    },
+    {
+      "influenced_by": "New Zealand geography"
+    },
+    {
+      "maintained_by": "Waka Kotahi NZ Transport Agency"
+    },
+    {
+      "supports": "Tourism"
+    },
+    {
+      "supports": "Freight transport"
+    },
+    {
+      "crosses": "Southern Alps"
+    },
+    {
+      "includes": "State Highway 1"
+    }
+  ]
+}

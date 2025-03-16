@@ -1,0 +1,47 @@
+{
+  "entity": "Maui (island)",
+  "properties": {
+    "type": "Island",
+    "part_of": "Hawaii",
+    "area": "1883 sq mi",
+    "highest_point": "Haleakalā",
+    "population": "148,870",
+    "climate": "Tropical",
+    "major_city": "Kahului",
+    "formation": "Volcanic",
+    "official_website": "www.visitmaui.com",
+    "time_zone": "HST"
+  },
+  "relationship": [
+    {
+      "part_of": "Hawaii (U.S. state)"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "neighbor_island": "Oahu"
+    },
+    {
+      "neighbor_island": "Big Island (Hawaii)"
+    },
+    {
+      "neighbor_island": "Molokai"
+    },
+    {
+      "neighbor_island": "Lanai"
+    },
+    {
+      "contains": "Haleakalā National Park"
+    },
+    {
+      "contains": "ʻĪao Valley State Monument"
+    },
+    {
+      "attraction": "Road to Hana"
+    },
+    {
+      "attraction": "Kaanapali Beach"
+    }
+  ]
+}

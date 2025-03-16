@@ -1,0 +1,47 @@
+{
+  "entity": "International Relations",
+  "properties": {
+    "instance_of": "Academic discipline",
+    "field_of_study": "Political Science",
+    "focus": "State interactions",
+    "subfields": "Diplomacy, Security Studies, International Law",
+    "methodology": "Quantitative, Qualitative, Historical",
+    "key_concept": "Sovereignty, Power, Diplomacy",
+    "historical_origin": "19th Century",
+    "related_fields": "Political Economy, History, Law",
+    "primary_actors": "States, International Organizations, NGOs",
+    "core_question": "How do states interact?"
+  },
+  "relationship": [
+    {
+      "studies": "Diplomacy"
+    },
+    {
+      "overlaps_with": "Political Economy"
+    },
+    {
+      "analyzes": "International Law"
+    },
+    {
+      "influenced_by": "Realism (international relations)"
+    },
+    {
+      "influenced_by": "Liberalism (international relations)"
+    },
+    {
+      "studies": "International Organizations"
+    },
+    {
+      "examines": "Conflict Resolution"
+    },
+    {
+      "related_to": "Foreign Policy"
+    },
+    {
+      "studies": "Globalization"
+    },
+    {
+      "impacts": "World Order"
+    }
+  ]
+}

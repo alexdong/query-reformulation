@@ -1,0 +1,47 @@
+{
+  "entity": "Southland Rugby Football Club",
+  "properties": {
+    "founded": "1885",
+    "location": "Invercargill",
+    "country": "New Zealand",
+    "sport": "Rugby Union",
+    "nickname": "The Stags",
+    "governing_body": "New Zealand Rugby",
+    "home_ground": "Rugby Park",
+    "competition": "National Provincial Championship",
+    "colours": "Maroon and White",
+    "status": "Amateur"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand rugby"
+    },
+    {
+      "located_in": "Invercargill City"
+    },
+    {
+      "plays_in": "National Provincial Championship Division 1"
+    },
+    {
+      "rivalry_with": "Otago Rugby Football Union"
+    },
+    {
+      "member_of": "Southland Rugby Football Union"
+    },
+    {
+      "coach": "Rob Hall"
+    },
+    {
+      "player_plays_for": "Mitchell Young"
+    },
+    {
+      "player_plays_for": "Willo Bremner"
+    },
+    {
+      "influenced_by": "New Zealand Rugby Football Union"
+    },
+    {
+      "historical_event": "1885 founding"
+    }
+  ]
+}

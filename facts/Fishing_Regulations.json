@@ -1,0 +1,45 @@
+{
+  "entity": "Fishing Regulations",
+  "properties": {
+    "type": "Legal Framework",
+    "purpose": "Resource Management",
+    "governed_by": "Government Agencies",
+    "scope": "Aquatic Environments",
+    "focus": "Sustainable Fishing",
+    "enforcement": "Law Enforcement",
+    "subject": "Fish Stocks",
+    "includes": "Catch Limits"
+  },
+  "relationship": [
+    {
+      "part_of": "Environmental Law"
+    },
+    {
+      "related_to": "Fisheries"
+    },
+    {
+      "impacts": "Marine Ecosystems"
+    },
+    {
+      "enforced_by": "Fish and Wildlife Service"
+    },
+    {
+      "overlaps_with": "Conservation"
+    },
+    {
+      "requires": "Fishing License"
+    },
+    {
+      "defines": "Protected Species"
+    },
+    {
+      "affects": "Commercial Fishing"
+    },
+    {
+      "affects": "Recreational Fishing"
+    },
+    {
+      "influenced_by": "Stock Assessments"
+    }
+  ]
+}

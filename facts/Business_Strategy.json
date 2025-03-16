@@ -1,0 +1,47 @@
+{
+  "entity": "Business Strategy",
+  "properties": {
+    "definition": "Long-term plans for achieving goals",
+    "focus": "Competitive advantage",
+    "scope": "Organization-wide",
+    "time_horizon": "3-5 years",
+    "key_element": "Value creation",
+    "type": "Management concept",
+    "discipline": "Strategic Management",
+    "framework": "Porter's Five Forces",
+    "tool": "SWOT analysis",
+    "outcome": "Sustainable growth"
+  },
+  "relationship": [
+    {
+      "part_of": "Management"
+    },
+    {
+      "requires": "Market Analysis"
+    },
+    {
+      "involves": "Competitive Analysis"
+    },
+    {
+      "uses": "Porter's Five Forces"
+    },
+    {
+      "employs": "SWOT analysis"
+    },
+    {
+      "impacts": "Organizational Performance"
+    },
+    {
+      "related_to": "Corporate Governance"
+    },
+    {
+      "requires": "Resource Allocation"
+    },
+    {
+      "influences": "Decision Making"
+    },
+    {
+      "supports": "Value Proposition"
+    }
+  ]
+}

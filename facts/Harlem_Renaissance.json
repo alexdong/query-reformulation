@@ -1,0 +1,47 @@
+{
+  "entity": "Harlem Renaissance",
+  "properties": {
+    "time_period_start": "1918",
+    "time_period_end": "1937",
+    "location": "Harlem, New York City",
+    "genre": "Literary, Artistic, Musical",
+    "cause": "Great Migration, World War I",
+    "theme": "Black Identity, Racial Pride, Social Justice",
+    "style": "Modernism, Blues, Jazz",
+    "impact": "Cultural Revival, Civil Rights Movement",
+    "decline_reason": "Great Depression",
+    "legacy": "Foundation for Black Arts"
+  },
+  "relationship": [
+    {
+      "influenced": "Civil Rights Movement"
+    },
+    {
+      "preceded_by": "New Negro Movement"
+    },
+    {
+      "contemporary_with": "Jazz Age"
+    },
+    {
+      "involved_artist": "Langston Hughes"
+    },
+    {
+      "involved_artist": "Zora Neale Hurston"
+    },
+    {
+      "involved_artist": "Duke Ellington"
+    },
+    {
+      "involved_artist": "Aaron Douglas"
+    },
+    {
+      "location_is_in": "New York City"
+    },
+    {
+      "part_of": "African American Culture"
+    },
+    {
+      "related_to": "Great Migration"
+    }
+  ]
+}

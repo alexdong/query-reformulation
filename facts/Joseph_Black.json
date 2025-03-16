@@ -1,0 +1,47 @@
+{
+  "entity": "Joseph Black",
+  "properties": {
+    "birth_date": "1728-08-14",
+    "birth_place": "Oldmeldrum",
+    "death_date": "1799-12-13",
+    "death_place": "London",
+    "nationality": "Scottish",
+    "occupation": "Chemist",
+    "field": "Chemistry",
+    "education": "University of Aberdeen",
+    "known_for": "Carbon dioxide discovery",
+    "scientific_society": "Royal Society"
+  },
+  "relationship": [
+    {
+      "educated_at": "University of Aberdeen"
+    },
+    {
+      "member_of": "Royal Society"
+    },
+    {
+      "influenced": "Henry Cavendish"
+    },
+    {
+      "influenced": "James Watt"
+    },
+    {
+      "discovered": "Carbon dioxide"
+    },
+    {
+      "discovered": "Magnesia"
+    },
+    {
+      "discovered": "Latent heat"
+    },
+    {
+      "worked_with": "Daniel Rutherford"
+    },
+    {
+      "preceded_by": "William Cullen"
+    },
+    {
+      "succeeded_by": "Humphry Davy"
+    }
+  ]
+}

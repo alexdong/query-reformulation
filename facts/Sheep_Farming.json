@@ -1,0 +1,47 @@
+{
+  "entity": "Sheep Farming",
+  "properties": {
+    "type": "Agricultural practice",
+    "animal_raised": "Sheep",
+    "primary_product": "Wool",
+    "secondary_products": "Meat, Milk",
+    "land_use": "Pasture, Grazing land",
+    "global_distribution": "Worldwide",
+    "economic_importance": "Significant",
+    "environmental_impact": "Variable",
+    "common_breeds": "Suffolk, Dorset, Merino",
+    "management_practices": "Shearing, Lambing"
+  },
+  "relationship": [
+    {
+      "part_of": "Agriculture"
+    },
+    {
+      "produces": "Wool"
+    },
+    {
+      "produces": "Lamb"
+    },
+    {
+      "requires": "Pasture"
+    },
+    {
+      "impacts": "Ecosystem"
+    },
+    {
+      "related_to": "Animal husbandry"
+    },
+    {
+      "uses": "Shearing"
+    },
+    {
+      "involves": "Lambing"
+    },
+    {
+      "affects": "Biodiversity"
+    },
+    {
+      "supports": "Rural economy"
+    }
+  ]
+}

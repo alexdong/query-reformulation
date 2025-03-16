@@ -1,0 +1,47 @@
+{
+  "entity": "United Kingdom Parliament",
+  "properties": {
+    "type": "Legislature",
+    "location": "Westminster",
+    "sovereign": "British Monarchy",
+    "bicameral": "Yes",
+    "upper_house": "House of Lords",
+    "lower_house": "House of Commons",
+    "head_of_state": "Charles III",
+    "established": "1215",
+    "system": "Westminster system",
+    "official_website": "https://www.parliament.uk/"
+  },
+  "relationship": [
+    {
+      "part_of": "United Kingdom"
+    },
+    {
+      "legislates_on": "Law"
+    },
+    {
+      "member_of": "Member of Parliament"
+    },
+    {
+      "governs": "United Kingdom"
+    },
+    {
+      "located_in": "London"
+    },
+    {
+      "approves": "Budget"
+    },
+    {
+      "scrutinizes": "Government"
+    },
+    {
+      "includes": "House of Commons"
+    },
+    {
+      "includes": "House of Lords"
+    },
+    {
+      "influenced_by": "Magna Carta"
+    }
+  ]
+}

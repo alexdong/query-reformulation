@@ -1,0 +1,47 @@
+{
+  "entity": "Tenant",
+  "properties": {
+    "instance_of": "Legal person",
+    "right": "Right of occupancy",
+    "obligation": "Rent payment",
+    "status": "Lessee",
+    "contract": "Lease agreement",
+    "property_type": "Real estate",
+    "duration": "Fixed or indefinite",
+    "responsibility": "Property maintenance (sometimes)",
+    "legal_framework": "Land law",
+    "protection": "Tenant rights"
+  },
+  "relationship": [
+    {
+      "landlord": "Landlord"
+    },
+    {
+      "agreement": "Lease"
+    },
+    {
+      "property": "Rental property"
+    },
+    {
+      "governed_by": "Contract law"
+    },
+    {
+      "subject_to": "Eviction"
+    },
+    {
+      "entitled_to": "Quiet enjoyment"
+    },
+    {
+      "protected_by": "Housing law"
+    },
+    {
+      "obligated_to": "Pay rent"
+    },
+    {
+      "can_be": "Commercial tenant"
+    },
+    {
+      "can_be": "Residential tenant"
+    }
+  ]
+}

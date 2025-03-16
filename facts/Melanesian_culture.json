@@ -1,0 +1,47 @@
+{
+  "entity": "Melanesian culture",
+  "properties": {
+    "region": "Melanesia",
+    "population": "Millions",
+    "languages": "Austronesian, Papuan",
+    "religion": "Animism, Christianity",
+    "art_form": "Woodcarving, Weaving, Music",
+    "social_structure": "Clan-based",
+    "economy": "Subsistence agriculture, Fishing",
+    "music_genre": "Traditional Melanesian music",
+    "dance_style": "Ceremonial dances",
+    "clothing": "Traditional barkcloth, woven fabrics"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceanic culture"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "influenced_by": "Austronesian expansion"
+    },
+    {
+      "shares_language_with": "Austronesian languages"
+    },
+    {
+      "shares_customs_with": "Polynesian culture"
+    },
+    {
+      "includes_countries": "Fiji"
+    },
+    {
+      "includes_countries": "Solomon Islands"
+    },
+    {
+      "includes_countries": "Vanuatu"
+    },
+    {
+      "includes_countries": "New Caledonia"
+    },
+    {
+      "includes_countries": "Papua New Guinea"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Materialism (philosophy)",
+  "properties": {
+    "instance_of": "Philosophical doctrine",
+    "core_tenet": "Reality is matter",
+    "focus": "Physical world",
+    "denies": "Dualism, Idealism",
+    "origin": "Ancient Greece",
+    "related_to": "Empiricism, Naturalism",
+    "key_figure_1": "Democritus",
+    "key_figure_2": "Thomas Hobbes",
+    "key_figure_3": "Karl Marx",
+    "modern_form": "Physicalism"
+  },
+  "relationship": [
+    {
+      "opposes": "Idealism"
+    },
+    {
+      "opposes": "Dualism"
+    },
+    {
+      "influenced": "Empiricism"
+    },
+    {
+      "influenced": "Naturalism"
+    },
+    {
+      "developed_by": "Democritus"
+    },
+    {
+      "developed_by": "Thomas Hobbes"
+    },
+    {
+      "developed_by": "Karl Marx"
+    },
+    {
+      "related_to": "Atomism"
+    },
+    {
+      "supports": "Scientific method"
+    },
+    {
+      "part_of": "Philosophy"
+    }
+  ]
+}

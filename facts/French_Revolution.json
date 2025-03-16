@@ -1,0 +1,47 @@
+{
+  "entity": "French Revolution",
+  "properties": {
+    "start_date": "1789",
+    "end_date": "1799",
+    "location": "France",
+    "cause": "Social inequality, economic crisis",
+    "type": "Revolution",
+    "ideology": "Enlightenment, Republicanism",
+    "monarch_involved": "Louis XVI",
+    "outcome": "Rise of Napoleon",
+    "significant_event": "Storming of the Bastille",
+    "phase": "Reign of Terror"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Ancien Régime"
+    },
+    {
+      "followed_by": "Napoleonic Era"
+    },
+    {
+      "influenced": "Haitian Revolution"
+    },
+    {
+      "influenced": "Liberalism"
+    },
+    {
+      "involved": "Maximilien Robespierre"
+    },
+    {
+      "involved": "Marie Antoinette"
+    },
+    {
+      "involved": "Georges Danton"
+    },
+    {
+      "led_to": "First French Republic"
+    },
+    {
+      "resulted_in": "Declaration of the Rights of Man and of the Citizen"
+    },
+    {
+      "part_of": "Age of Revolution"
+    }
+  ]
+}

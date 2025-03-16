@@ -1,0 +1,47 @@
+{
+  "entity": "Eastern Europe",
+  "properties": {
+    "region": "Europe",
+    "area": "2,100,000 km²",
+    "population": "240 million",
+    "languages": "Slavic, Romance, Germanic",
+    "geography": "Diverse: plains, mountains, forests",
+    "climate": "Temperate to Continental",
+    "historical_influence": "Roman, Byzantine, Ottoman, Soviet",
+    "economic_status": "Transitioning, varying levels of development",
+    "political_system": "Varied: democracies, republics, autocracies",
+    "cultural_heritage": "Rich, diverse traditions"
+  },
+  "relationship": [
+    {
+      "part_of": "Europe"
+    },
+    {
+      "borders": "Western Europe"
+    },
+    {
+      "influenced_by": "Byzantine Empire"
+    },
+    {
+      "influenced": "Soviet Union"
+    },
+    {
+      "contains": "Poland"
+    },
+    {
+      "contains": "Romania"
+    },
+    {
+      "contains": "Ukraine"
+    },
+    {
+      "shares_border_with": "Russia"
+    },
+    {
+      "historical_event": "Cold War"
+    },
+    {
+      "economic_partner": "European Union"
+    }
+  ]
+}

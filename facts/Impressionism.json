@@ -1,0 +1,47 @@
+{
+  "entity": "Impressionism",
+  "properties": {
+    "instance_of": "Art movement",
+    "origin": "France",
+    "time_period": "1860s-1880s",
+    "focus": "Capturing fleeting moments",
+    "technique": "Broken color, visible brushstrokes",
+    "subject_matter": "Landscapes, cityscapes, portraits",
+    "style": "Optical realism",
+    "rejection": "Salon des Refusés",
+    "influence": "Photography, Japanese prints",
+    "legacy": "Modern art"
+  },
+  "relationship": [
+    {
+      "influenced": "Post-Impressionism"
+    },
+    {
+      "influenced": "Neo-Impressionism"
+    },
+    {
+      "preceded_by": "Realism"
+    },
+    {
+      "artist_associated": "Claude Monet"
+    },
+    {
+      "artist_associated": "Pierre-Auguste Renoir"
+    },
+    {
+      "artist_associated": "Edgar Degas"
+    },
+    {
+      "artist_associated": "Berthe Morisot"
+    },
+    {
+      "artwork_example": "Impression, soleil levant"
+    },
+    {
+      "location_associated": "Paris"
+    },
+    {
+      "movement_part_of": "Art history"
+    }
+  ]
+}

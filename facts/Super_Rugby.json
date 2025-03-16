@@ -1,0 +1,47 @@
+{
+  "entity": "Super Rugby",
+  "properties": {
+    "instance_of": "Rugby union competition",
+    "governing_body": "SANZAAR",
+    "teams": "16",
+    "format": "League",
+    "first_year": "1996",
+    "location": "Oceania, Africa, South America",
+    "trophy": "Super Rugby Trophy",
+    "points_system": "Complex",
+    "current_champion": "Hurricanes",
+    "broadcast_networks": "Sky Sport, SuperSport"
+  },
+  "relationship": [
+    {
+      "part_of": "Rugby union"
+    },
+    {
+      "governed_by": "SANZAAR"
+    },
+    {
+      "teams_include": "Blues"
+    },
+    {
+      "teams_include": "Crusaders"
+    },
+    {
+      "teams_include": "Stormers"
+    },
+    {
+      "teams_include": "Lions"
+    },
+    {
+      "teams_include": "Reds"
+    },
+    {
+      "teams_include": "Waratahs"
+    },
+    {
+      "predecessor": "SARU Currie Cup"
+    },
+    {
+      "successor": "Super Rugby Pacific"
+    }
+  ]
+}

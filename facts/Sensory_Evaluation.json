@@ -1,0 +1,47 @@
+{
+  "entity": "Sensory Evaluation",
+  "properties": {
+    "definition": "Scientific panel testing",
+    "purpose": "Product quality assessment",
+    "methodology": "Controlled observation",
+    "data_type": "Subjective data",
+    "panelists": "Trained assessors",
+    "scale_type": "Hedonic, descriptive, discriminatory",
+    "application": "Food, cosmetics, materials",
+    "bias_control": "Statistical analysis",
+    "standard_body": "ASTM International",
+    "related_field": "Psychophysics"
+  },
+  "relationship": [
+    {
+      "uses": "Statistics"
+    },
+    {
+      "part_of": "Quality Control"
+    },
+    {
+      "related_to": "Psychophysics"
+    },
+    {
+      "employs": "Panelists"
+    },
+    {
+      "measures": "Sensory Attributes"
+    },
+    {
+      "analyzes": "Product Quality"
+    },
+    {
+      "uses_scale": "Hedonic Scale"
+    },
+    {
+      "uses_scale": "Descriptive Analysis"
+    },
+    {
+      "influenced_by": "Human Perception"
+    },
+    {
+      "standardized_by": "ASTM International"
+    }
+  ]
+}

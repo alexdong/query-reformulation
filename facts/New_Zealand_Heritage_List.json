@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Heritage List",
+  "properties": {
+    "type": "List",
+    "country": "New Zealand",
+    "administered_by": "Heritage New Zealand",
+    "purpose": "Heritage protection",
+    "criteria": "Historic, cultural, archaeological significance",
+    "establishment_date": "1992",
+    "listing_status": "Official",
+    "scope": "Buildings, landscapes, wāhi tapu",
+    "legal_basis": "Heritage New Zealand Pouhere Taonga Act 1993",
+    "online_access": "Yes"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand cultural heritage"
+    },
+    {
+      "administered_by": "Heritage New Zealand Pouhere Taonga"
+    },
+    {
+      "governed_by": "Heritage New Zealand Pouhere Taonga Act 1993"
+    },
+    {
+      "includes": "Category 1 Historic Place"
+    },
+    {
+      "includes": "Category 2 Historic Place"
+    },
+    {
+      "includes": "Wāhi Tūpuna"
+    },
+    {
+      "related_to": "Archaeological Sites"
+    },
+    {
+      "related_to": "Historic Buildings"
+    },
+    {
+      "protects": "Cultural Landscapes"
+    },
+    {
+      "influenced_by": "International heritage conventions"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Equatorial Current",
+  "properties": {
+    "type": "Ocean Current",
+    "location": "Equatorial Region",
+    "direction": "Westward",
+    "driven_by": "Trade Winds",
+    "average_speed": "1-2 m/s",
+    "depth": "Surface",
+    "part_of": "Ocean Circulation",
+    "influence_on": "Climate",
+    "impact_on": "Marine Life",
+    "description": "A westward-flowing current near the Equator"
+  },
+  "relationship": [
+    {
+      "part_of": "Atlantic Ocean"
+    },
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "part_of": "Indian Ocean"
+    },
+    {
+      "driven_by": "Trade Winds"
+    },
+    {
+      "influences": "El Niño"
+    },
+    {
+      "influences": "La Niña"
+    },
+    {
+      "affects": "Ocean Temperature"
+    },
+    {
+      "supports": "Marine Ecosystems"
+    },
+    {
+      "impacts": "Ocean Salinity"
+    },
+    {
+      "related_to": "Gulf Stream"
+    }
+  ]
+}

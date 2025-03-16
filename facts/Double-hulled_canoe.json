@@ -1,0 +1,47 @@
+{
+  "entity": "Double-hulled canoe",
+  "properties": {
+    "type": "Watercraft",
+    "design": "Two parallel hulls",
+    "origin": "Polynesia",
+    "material": "Wood, Fibreglass, Composite",
+    "purpose": "Transportation, Fishing, Recreation",
+    "stability": "High",
+    "speed": "Moderate",
+    "capacity": "Variable",
+    "length": "Variable",
+    "heritage": "Traditional Polynesian"
+  },
+  "relationship": [
+    {
+      "ancestor_of": "Outrigger canoe"
+    },
+    {
+      "used_by": "Polynesian navigators"
+    },
+    {
+      "related_to": "Va'a"
+    },
+    {
+      "related_to": "Te aloa"
+    },
+    {
+      "construction_technique": "Planking"
+    },
+    {
+      "used_for": "Ocean voyages"
+    },
+    {
+      "example_of": "Indigenous technology"
+    },
+    {
+      "influenced": "Modern canoe design"
+    },
+    {
+      "associated_with": "Pacific Islander culture"
+    },
+    {
+      "requires": "Paddling"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Acidity",
+  "properties": {
+    "definition": "Measure of hydrogen ion concentration",
+    "unit": "pH",
+    "type": "Chemical property",
+    "scale": "Logarithmic",
+    "related_concept": "Basicity",
+    "formula": "pH = -log₁₀[H⁺]",
+    "impact": "Affects chemical reactions",
+    "measurement_method": "pH meter, indicators",
+    "importance": "Crucial in chemistry, biology, and industry",
+    "related_phenomenon": "Corrosion"
+  },
+  "relationship": [
+    {
+      "caused_by": "Hydrogen ions"
+    },
+    {
+      "related_to": "pH scale"
+    },
+    {
+      "opposite_of": "Basicity"
+    },
+    {
+      "affects": "Chemical reactions"
+    },
+    {
+      "measured_by": "pH meter"
+    },
+    {
+      "influences": "Acid-base reactions"
+    },
+    {
+      "impacts": "Corrosion"
+    },
+    {
+      "related_to": "Titration"
+    },
+    {
+      "found_in": "Acids"
+    },
+    {
+      "important_in": "Biology"
+    }
+  ]
+}

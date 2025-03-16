@@ -1,0 +1,47 @@
+{
+  "entity": "Lifelong Learning",
+  "properties": {
+    "definition": "Continuous, voluntary, self-motivated learning",
+    "purpose": "Personal growth, career advancement, societal contribution",
+    "scope": "Formal, non-formal, informal learning",
+    "target_audience": "All ages, all backgrounds",
+    "motivation": "Intrinsic, extrinsic",
+    "methods": "Online courses, workshops, mentoring",
+    "benefits": "Improved skills, adaptability, well-being",
+    "challenges": "Time constraints, cost, access",
+    "related_concept": "Adult Education",
+    "importance": "Increasingly vital in a changing world"
+  },
+  "relationship": [
+    {
+      "supports": "Personal Development"
+    },
+    {
+      "promotes": "Career Advancement"
+    },
+    {
+      "requires": "Self-Motivation"
+    },
+    {
+      "facilitated_by": "Online Learning"
+    },
+    {
+      "linked_to": "Andragogy"
+    },
+    {
+      "impacts": "Economic Growth"
+    },
+    {
+      "supports": "Social Inclusion"
+    },
+    {
+      "overlaps_with": "Informal Learning"
+    },
+    {
+      "influenced_by": "UNESCO"
+    },
+    {
+      "contributes_to": "Knowledge Society"
+    }
+  ]
+}

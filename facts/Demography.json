@@ -1,0 +1,47 @@
+{
+  "entity": "Demography",
+  "properties": {
+    "definition": "Statistical study of populations",
+    "field_of_study": "Social science",
+    "subfield_of": "Statistics",
+    "related_to": "Population geography",
+    "focus": "Population size, structure, and distribution",
+    "data_sources": "Census data, surveys",
+    "key_metrics": "Birth rate, death rate, migration",
+    "historical_roots": "Ancient censuses",
+    "application": "Policy making, resource allocation",
+    "related_concept": "Population studies"
+  },
+  "relationship": [
+    {
+      "studies": "Population"
+    },
+    {
+      "uses": "Statistics"
+    },
+    {
+      "related_to": "Census"
+    },
+    {
+      "analyzes": "Mortality"
+    },
+    {
+      "analyzes": "Fertility"
+    },
+    {
+      "influences": "Public policy"
+    },
+    {
+      "intersects_with": "Geography"
+    },
+    {
+      "requires": "Data collection"
+    },
+    {
+      "predicts": "Population trends"
+    },
+    {
+      "impacts": "Resource management"
+    }
+  ]
+}

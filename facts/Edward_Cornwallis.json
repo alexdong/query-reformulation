@@ -1,0 +1,47 @@
+{
+  "entity": "Edward Cornwallis",
+  "properties": {
+    "birth_date": "1722-03-03",
+    "birth_place": "Cornwall, England",
+    "death_date": "1757-10-21",
+    "death_place": "Fowey, Cornwall, England",
+    "title": "Earl Cornwallis",
+    "occupation": "British Army Officer",
+    "allegiance": "Great Britain",
+    "rank": "Lieutenant General",
+    "family": "Cornwallis family",
+    "spouse": "Anne Cowper"
+  },
+  "relationship": [
+    {
+      "father": "William Cornwallis, 1st Earl Cornwallis"
+    },
+    {
+      "mother": "Elizabeth Elwes"
+    },
+    {
+      "served_in": "War of the Austrian Succession"
+    },
+    {
+      "served_in": "Seven Years' War"
+    },
+    {
+      "commanded": "British forces in India"
+    },
+    {
+      "governed": "Province of New York"
+    },
+    {
+      "governed": "Province of Virginia"
+    },
+    {
+      "involved_in": "Boston Massacre"
+    },
+    {
+      "involved_in": "American Revolutionary War"
+    },
+    {
+      "succeeded_by": "Charles Cornwallis, 2nd Earl Cornwallis"
+    }
+  ]
+}

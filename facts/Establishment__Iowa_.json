@@ -1,0 +1,47 @@
+{
+  "entity": "Establishment (Iowa)",
+  "properties": {
+    "type": "City",
+    "state": "Iowa",
+    "country": "United States",
+    "population_2020": "178",
+    "fusa_time_zone": "America/Chicago",
+    "coordinates_latitude": "41.1833",
+    "coordinates_longitude": "-91.7283",
+    "area_total": "0.68 sq mi",
+    "area_land": "0.68 sq mi",
+    "area_water": "0 sq mi"
+  },
+  "relationship": [
+    {
+      "located_in": "Cedar County, Iowa"
+    },
+    {
+      "part_of": "United States"
+    },
+    {
+      "state_capital": "Des Moines"
+    },
+    {
+      "nearest_city": "Stanwood"
+    },
+    {
+      "county": "Cedar County"
+    },
+    {
+      "river_flows_through": "Turkey River"
+    },
+    {
+      "incorporated": "1888"
+    },
+    {
+      "influenced_by": "Iowa"
+    },
+    {
+      "has_zip_code": "52065"
+    },
+    {
+      "part_of_region": "Midwest"
+    }
+  ]
+}

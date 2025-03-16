@@ -1,0 +1,47 @@
+{
+  "entity": "Nevada",
+  "properties": {
+    "capital": "Carson City",
+    "state_motto": "It is what it is",
+    "area_km2": "286119",
+    "population_2020": "3104614",
+    "nickname": "Silver State",
+    "official_language": "English",
+    "largest_city": "Las Vegas",
+    "time_zone": "Pacific Time",
+    "state_flower": "Sagebrush",
+    "admission_date": "1864-10-31"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "borders": "California"
+    },
+    {
+      "borders": "Oregon"
+    },
+    {
+      "borders": "Utah"
+    },
+    {
+      "borders": "Arizona"
+    },
+    {
+      "contains": "Lake Tahoe"
+    },
+    {
+      "contains": "Great Basin Desert"
+    },
+    {
+      "industry": "Gambling"
+    },
+    {
+      "industry": "Mining"
+    }
+  ]
+}

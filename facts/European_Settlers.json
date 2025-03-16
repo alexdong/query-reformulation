@@ -1,0 +1,47 @@
+{
+  "entity": "European Settlers",
+  "properties": {
+    "origin": "Europe",
+    "motivation": "Economic opportunity, Religious freedom, Land",
+    "time_period": "15th-20th centuries",
+    "primary_regions": "Americas, Australia, Africa",
+    "impact": "Colonialism, Displacement, Cultural Exchange",
+    "demographics": "Diverse ethnicities, Various social classes",
+    "technology": "Advanced weaponry, Shipbuilding",
+    "legal_framework": "European laws, Colonial charters",
+    "disease_impact": "Introduced diseases, Population decline",
+    "economic_system": "Mercantilism, Plantation economy"
+  },
+  "relationship": [
+    {
+      "colonized": "Indigenous peoples"
+    },
+    {
+      "influenced": "Colonialism"
+    },
+    {
+      "led_to": "Globalization"
+    },
+    {
+      "involved_in": "Transatlantic slave trade"
+    },
+    {
+      "established": "Colonies"
+    },
+    {
+      "introduced": "European languages"
+    },
+    {
+      "introduced": "European culture"
+    },
+    {
+      "impacted": "Native flora and fauna"
+    },
+    {
+      "engaged_in": "Inter-settler conflicts"
+    },
+    {
+      "resulted_in": "Nation-state formation"
+    }
+  ]
+}

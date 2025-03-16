@@ -1,0 +1,47 @@
+{
+  "entity": "Peggy's Point Lighthouse",
+  "properties": {
+    "location": "Peggy's Cove, Nova Scotia",
+    "type": "Lighthouse",
+    "status": "Operational",
+    "height": "13.5 m (44 ft)",
+    "year_built": "1911",
+    "architect": "Frederick William Cumberland",
+    "lighting_characteristic": "White, every 5 seconds",
+    "aid_to_navigation": "Yes",
+    "material": "Stone",
+    "owner": "Fisheries and Oceans Canada"
+  },
+  "relationship": [
+    {
+      "located_in": "Nova Scotia"
+    },
+    {
+      "part_of": "Peggy's Cove"
+    },
+    {
+      "built_by": "Frederick William Cumberland"
+    },
+    {
+      "managed_by": "Fisheries and Oceans Canada"
+    },
+    {
+      "near": "Peggy's Cove Swiss Inn"
+    },
+    {
+      "serves": "Maritime navigation"
+    },
+    {
+      "influenced_by": "Previous lighthouses"
+    },
+    {
+      "historical_period": "20th century"
+    },
+    {
+      "landmark_in": "Nova Scotia"
+    },
+    {
+      "photographed_by": "Various photographers"
+    }
+  ]
+}

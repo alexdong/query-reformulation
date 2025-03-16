@@ -1,0 +1,47 @@
+{
+  "entity": "Urban Gardening",
+  "properties": {
+    "definition": "Growing food in urban areas",
+    "location": "Cities, towns",
+    "methods": "Container gardening, rooftop farms, vertical farms",
+    "benefits": "Food security, community building, environmental sustainability",
+    "scale": "Small to large",
+    "crops": "Vegetables, fruits, herbs",
+    "soil_type": "Raised beds, containers, sometimes in-ground",
+    "water_source": "Rainwater harvesting, municipal water",
+    "challenges": "Space limitations, soil contamination, access",
+    "popularity": "Increasing"
+  },
+  "relationship": [
+    {
+      "part_of": "Sustainable Agriculture"
+    },
+    {
+      "related_to": "Permaculture"
+    },
+    {
+      "impacts": "Food Security"
+    },
+    {
+      "promotes": "Biodiversity"
+    },
+    {
+      "requires": "Soil"
+    },
+    {
+      "requires": "Water"
+    },
+    {
+      "benefits": "Community Gardens"
+    },
+    {
+      "supports": "Local Food Systems"
+    },
+    {
+      "influenced_by": "Victory Gardens"
+    },
+    {
+      "example_of": "Green Infrastructure"
+    }
+  ]
+}

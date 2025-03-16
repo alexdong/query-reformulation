@@ -1,0 +1,47 @@
+{
+  "entity": "House of Lords",
+  "properties": {
+    "instance_of": "Legislative body",
+    "country": "United Kingdom",
+    "type": "Upper house",
+    "location": "London",
+    "established": "1066",
+    "dissolves": "N/A",
+    "chamber_name": "House of Lords Chamber",
+    "membership": "800+",
+    "function": "Scrutinize legislation",
+    "head": "Lord Speaker"
+  },
+  "relationship": [
+    {
+      "part_of": "Parliament of the United Kingdom"
+    },
+    {
+      "legislates_with": "House of Commons"
+    },
+    {
+      "located_in": "Palace of Westminster"
+    },
+    {
+      "member_of": "Peerage"
+    },
+    {
+      "reviews": "Primary legislation"
+    },
+    {
+      "appoints": "Lords Spiritual"
+    },
+    {
+      "appoints": "Life Peers"
+    },
+    {
+      "influenced_by": "Magna Carta"
+    },
+    {
+      "function": "Debate policy"
+    },
+    {
+      "role": "Second chamber"
+    }
+  ]
+}

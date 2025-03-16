@@ -1,0 +1,47 @@
+{
+  "entity": "Diesel locomotive",
+  "properties": {
+    "type": "Railroad vehicle",
+    "fuel": "Diesel fuel",
+    "engine_type": "Internal combustion",
+    "traction_type": "Diesel-electric",
+    "use": "Freight and Passenger transport",
+    "development_start": "Early 1900s",
+    "widespread_use": "Mid-1900s",
+    "power_output": "Thousands of horsepower",
+    "weight": "Hundreds of tons",
+    "manufacturer": "Various (e.g., EMD, GE, ALCO)"
+  },
+  "relationship": [
+    {
+      "predecessor": "Steam locomotive"
+    },
+    {
+      "successor_to": "Steam locomotive"
+    },
+    {
+      "uses": "Diesel fuel"
+    },
+    {
+      "part_of": "Railway system"
+    },
+    {
+      "operates_on": "Railway track"
+    },
+    {
+      "manufactured_by": "Electro-Motive Diesel"
+    },
+    {
+      "manufactured_by": "General Electric"
+    },
+    {
+      "related_to": "Electric locomotive"
+    },
+    {
+      "used_in": "Rail transport"
+    },
+    {
+      "component_of": "Rolling stock"
+    }
+  ]
+}

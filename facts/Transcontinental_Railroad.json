@@ -1,0 +1,47 @@
+{
+  "entity": "Transcontinental Railroad",
+  "properties": {
+    "type": "Railroad",
+    "start_date": "1863",
+    "end_date": "1869",
+    "length_km": "3039",
+    "cost_usd": "138000000",
+    "primary_companies": "Union Pacific, Central Pacific",
+    "gauge": "Standard gauge",
+    "material": "Steel",
+    "significance": "National development",
+    "location": "United States"
+  },
+  "relationship": [
+    {
+      "built_by": "Chinese laborers"
+    },
+    {
+      "connects": "Omaha, Nebraska"
+    },
+    {
+      "connects": "Council Bluffs, Iowa"
+    },
+    {
+      "connects": "Sacramento, California"
+    },
+    {
+      "connects": "Promontory Summit, Utah"
+    },
+    {
+      "influenced": "Westward expansion"
+    },
+    {
+      "impacted": "Native American populations"
+    },
+    {
+      "funded_by": "US Government"
+    },
+    {
+      "engineer": "Grenville Dodge"
+    },
+    {
+      "involved_in": "Golden Spike ceremony"
+    }
+  ]
+}

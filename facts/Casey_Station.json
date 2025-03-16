@@ -1,0 +1,47 @@
+{
+  "entity": "Casey Station",
+  "properties": {
+    "type": "Research station",
+    "location": "Antarctica",
+    "coordinates": "-66.833333,162.7",
+    "established": "1988",
+    "operator": "Australian Antarctic Division",
+    "purpose": "Science research",
+    "population": "160 (summer)",
+    "elevation": "147 m (482 ft)",
+    "climate": "Polar",
+    "nearby": "McMurdo Sound"
+  },
+  "relationship": [
+    {
+      "part_of": "Australian Antarctic Territory"
+    },
+    {
+      "located_in": "Antarctica"
+    },
+    {
+      "operated_by": "Australian Antarctic Division"
+    },
+    {
+      "research_focus": "Glaciology"
+    },
+    {
+      "research_focus": "Meteorology"
+    },
+    {
+      "research_focus": "Biology"
+    },
+    {
+      "serves": "Australian Antarctic Program"
+    },
+    {
+      "connected_to": "Davis Station"
+    },
+    {
+      "connected_to": "Mawson Station"
+    },
+    {
+      "supports": "Aurora Basin Research Project"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Technological Advancement",
+  "properties": {
+    "definition": "Innovation in tools & processes",
+    "driver": "Human need & curiosity",
+    "impact": "Societal transformation",
+    "rate": "Exponential",
+    "measurement": "Moore's Law (computing)",
+    "era": "Information Age",
+    "scope": "All fields",
+    "catalyst": "Scientific discovery",
+    "benefit": "Increased efficiency",
+    "risk": "Ethical concerns"
+  },
+  "relationship": [
+    {
+      "impacts": "Society"
+    },
+    {
+      "drives": "Innovation"
+    },
+    {
+      "related_to": "Science"
+    },
+    {
+      "influences": "Economy"
+    },
+    {
+      "requires": "Research"
+    },
+    {
+      "leads_to": "Automation"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "facilitates": "Globalization"
+    },
+    {
+      "challenges": "Ethics"
+    },
+    {
+      "linked_to": "Digitalization"
+    }
+  ]
+}

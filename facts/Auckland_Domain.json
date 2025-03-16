@@ -1,0 +1,47 @@
+{
+  "entity": "Auckland Domain",
+  "properties": {
+    "type": "Park",
+    "location": "Auckland City",
+    "area": "64 hectares",
+    "established": "1840",
+    "original_purpose": "Māori pā",
+    "current_use": "Recreation, Events",
+    "features": "Museum, Wintergarden, Sculpture",
+    "elevation": "30 meters",
+    "geological_feature": "Volcanic cone",
+    "name_origin": "Māori: Te Pane o te Wairua"
+  },
+  "relationship": [
+    {
+      "located_in": "Auckland Region"
+    },
+    {
+      "part_of": "Auckland City"
+    },
+    {
+      "contains": "Auckland Museum"
+    },
+    {
+      "contains": "Wintergarden"
+    },
+    {
+      "contains": "Sculpture Park"
+    },
+    {
+      "historical_site_of": "Ngāti Whatua"
+    },
+    {
+      "former_use_as": "Military Reserve"
+    },
+    {
+      "adjacent_to": "University of Auckland"
+    },
+    {
+      "geological_type": "Tuff Ring"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

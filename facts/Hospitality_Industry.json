@@ -1,0 +1,47 @@
+{
+  "entity": "Hospitality Industry",
+  "properties": {
+    "industry_type": "Service",
+    "sector": "Tertiary",
+    "revenue_2023": "Trillions USD",
+    "employment": "Millions",
+    "growth_rate": "Variable",
+    "key_segments": "Lodging, Foodservice, Events",
+    "customer_focus": "Experience",
+    "geographic_scope": "Global",
+    "impact_on_GDP": "Significant",
+    "technology_adoption": "Increasing"
+  },
+  "relationship": [
+    {
+      "provides": "Tourism"
+    },
+    {
+      "employs": "Hotel Staff"
+    },
+    {
+      "includes": "Restaurants"
+    },
+    {
+      "supports": "Local Economy"
+    },
+    {
+      "affected_by": "Economic Cycles"
+    },
+    {
+      "influenced_by": "Travel Trends"
+    },
+    {
+      "requires": "Customer Service"
+    },
+    {
+      "impacts": "Community Development"
+    },
+    {
+      "overlaps_with": "Event Management"
+    },
+    {
+      "regulated_by": "Government"
+    }
+  ]
+}

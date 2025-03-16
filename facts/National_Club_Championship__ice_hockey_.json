@@ -1,0 +1,47 @@
+{
+  "entity": "National Club Championship (ice hockey)",
+  "properties": {
+    "sport": "Ice hockey",
+    "governing_body": "Finnish Ice Hockey Association",
+    "type": "Club competition",
+    "country": "Finland",
+    "level": "Top tier",
+    "format": "League",
+    "first_year": "1920",
+    "current_champion": "JYP-Kiekkoklubi",
+    "trophy": "Aaro Räihä Trophy",
+    "attendance": "Varies by team"
+  },
+  "relationship": [
+    {
+      "part_of": "Finnish league system"
+    },
+    {
+      "governed_by": "Finnish Ice Hockey Association"
+    },
+    {
+      "competes_with": "Mestis"
+    },
+    {
+      "predecessor": "SM-sarja"
+    },
+    {
+      "team_participates": "JYP-Kiekkoklubi"
+    },
+    {
+      "team_participates": "Tappara"
+    },
+    {
+      "team_participates": "HIFK"
+    },
+    {
+      "player_plays_for": "Patrik Laine"
+    },
+    {
+      "player_plays_for": "Aleksander Barkov"
+    },
+    {
+      "influenced": "Liiga"
+    }
+  ]
+}

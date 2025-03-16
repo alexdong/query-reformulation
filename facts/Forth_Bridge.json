@@ -1,0 +1,47 @@
+{
+  "entity": "Forth Bridge",
+  "properties": {
+    "type": "Cantilever railway bridge",
+    "location": "Scotland",
+    "designer": "Sir John Fowler",
+    "engineer": "Benjamin Baker",
+    "construction_start": "1883",
+    "construction_end": "1890",
+    "length": "5.5 km",
+    "height": "46 m",
+    "material": "Iron and Steel",
+    "listed_status": "Scheduled Monument"
+  },
+  "relationship": [
+    {
+      "crosses": "River Forth"
+    },
+    {
+      "connects": "South Queensferry"
+    },
+    {
+      "connects": "North Queensferry"
+    },
+    {
+      "part_of": "Fife Coastline"
+    },
+    {
+      "designed_by": "Sir John Fowler"
+    },
+    {
+      "engineered_by": "Benjamin Baker"
+    },
+    {
+      "built_in": "Scotland"
+    },
+    {
+      "influenced": "Tay Bridge"
+    },
+    {
+      "adjacent_to": "Queensferry Crossing"
+    },
+    {
+      "UNESCO_site": "United Kingdom"
+    }
+  ]
+}

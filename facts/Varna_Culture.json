@@ -1,0 +1,47 @@
+{
+  "entity": "Varna Culture",
+  "properties": {
+    "time_period": "5500-4100 BC",
+    "location": "Varna Necropolis, Bulgaria",
+    "discovery_date": "1949",
+    "archaeological_culture": "Chalcolithic",
+    "region": "Balkans",
+    "burial_type": "Tumulus",
+    "material_culture": "Copper, gold, pottery",
+    "social_structure": "Hierarchical",
+    "trade_network": "Black Sea region",
+    "significance": "Early evidence of social stratification"
+  },
+  "relationship": [
+    {
+      "part_of": "Chalcolithic"
+    },
+    {
+      "located_in": "Bulgaria"
+    },
+    {
+      "influenced": "Eneolithic cultures"
+    },
+    {
+      "contemporary_with": "Cucuteni-Trypillian culture"
+    },
+    {
+      "preceded_by": "Late Neolithic"
+    },
+    {
+      "followed_by": "Eneolithic cultures"
+    },
+    {
+      "excavated_by": "Georgi Stoykov"
+    },
+    {
+      "found_in": "Varna Necropolis"
+    },
+    {
+      "artifact_type": "Gold artifacts"
+    },
+    {
+      "associated_with": "Early Copper Age"
+    }
+  ]
+}

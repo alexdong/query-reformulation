@@ -1,0 +1,47 @@
+{
+  "entity": "Aquaculture",
+  "properties": {
+    "instance_of": "Agricultural practice",
+    "alternative_name": "Aquafarming",
+    "purpose": "Food production",
+    "scope": "Aquatic organisms",
+    "location": "Freshwater & Marine",
+    "economic_impact": "Significant",
+    "environmental_impact": "Variable",
+    "growth_rate": "Increasing",
+    "regulation": "Varies by region",
+    "technology": "Diverse"
+  },
+  "relationship": [
+    {
+      "part_of": "Agriculture"
+    },
+    {
+      "related_to": "Fisheries"
+    },
+    {
+      "impacts": "Marine ecosystems"
+    },
+    {
+      "requires": "Water resources"
+    },
+    {
+      "produces": "Fish"
+    },
+    {
+      "produces": "Shellfish"
+    },
+    {
+      "produces": "Seaweed"
+    },
+    {
+      "influenced_by": "Mariculture"
+    },
+    {
+      "contributes_to": "Food security"
+    },
+    {
+      "addressed_by": "Sustainable aquaculture"
+    }
+  ]
+}

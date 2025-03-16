@@ -1,0 +1,47 @@
+{
+  "entity": "Tāwerera",
+  "properties": {
+    "instance_of": "Māori figure",
+    "origin": "New Zealand",
+    "culture": "Māori",
+    "mythology": "Māori mythology",
+    "role": "Trickster",
+    "associated_with": "Tane",
+    "domain": "Sky",
+    "appearance": "Bird-like",
+    "behaviour": "Mischievous",
+    "power": "Shape-shifting"
+  },
+  "relationship": [
+    {
+      "father": "Rangi"
+    },
+    {
+      "mother": "Hine-āhu-roa"
+    },
+    {
+      "sibling_of": "Tāne"
+    },
+    {
+      "related_to": "Māui"
+    },
+    {
+      "opposed_to": "Tāwhirimātea"
+    },
+    {
+      "associated_with_place": "Rotorua"
+    },
+    {
+      "part_of_cycle": "Creation myth"
+    },
+    {
+      "depicted_in": "Māori art"
+    },
+    {
+      "story_features": "Transformation"
+    },
+    {
+      "symbolizes": "Playfulness"
+    }
+  ]
+}

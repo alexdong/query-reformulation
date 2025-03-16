@@ -1,0 +1,47 @@
+{
+  "entity": "The Lord of the Rings (film series)",
+  "properties": {
+    "instance_of": "Film series",
+    "director": "Peter Jackson",
+    "production_company": "New Line Cinema",
+    "release_date": "2001-2003",
+    "genre": "Fantasy",
+    "country_of_origin": "New Zealand",
+    "based_on": "The Lord of the Rings",
+    "screenwriter": "Fran Walsh",
+    "cinematography": "Andrew Lesnie",
+    "runtime": "558 minutes"
+  },
+  "relationship": [
+    {
+      "prequel": "The Hobbit (film series)"
+    },
+    {
+      "adaptation_of": "The Lord of the Rings (book series)"
+    },
+    {
+      "film_version": "The Fellowship of the Ring"
+    },
+    {
+      "film_version": "The Two Towers"
+    },
+    {
+      "film_version": "The Return of the King"
+    },
+    {
+      "actor": "Elijah Wood"
+    },
+    {
+      "actor": "Ian McKellen"
+    },
+    {
+      "actor": "Viggo Mortensen"
+    },
+    {
+      "influenced": "Fantasy film"
+    },
+    {
+      "award": "Academy Award"
+    }
+  ]
+}

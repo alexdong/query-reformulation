@@ -1,0 +1,47 @@
+{
+  "entity": "Meteorology",
+  "properties": {
+    "instance_of": "Science",
+    "field_of_study": "Atmospheric Science",
+    "subfield_of": "Earth Science",
+    "focus": "Weather and Climate",
+    "tools": "Weather models, radar, satellites",
+    "data_source": "Weather stations, buoys",
+    "related_to": "Climatology, Hydrology",
+    "importance": "Weather forecasting, climate change research",
+    "historical_roots": "Ancient observations",
+    "professional_body": "American Meteorological Society"
+  },
+  "relationship": [
+    {
+      "studies": "Atmosphere"
+    },
+    {
+      "predicts": "Weather"
+    },
+    {
+      "analyzes": "Climate"
+    },
+    {
+      "uses": "Numerical weather prediction"
+    },
+    {
+      "employs": "Doppler radar"
+    },
+    {
+      "observes_with": "Weather satellites"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "influences": "Aviation"
+    },
+    {
+      "related_to": "Global warming"
+    },
+    {
+      "pioneered_by": "Luke Howard"
+    }
+  ]
+}

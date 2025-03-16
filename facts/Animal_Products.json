@@ -1,0 +1,47 @@
+{
+  "entity": "Animal Products",
+  "properties": {
+    "type": "Commodity",
+    "origin": "Animals",
+    "use": "Food, Materials",
+    "category": "Agriculture",
+    "examples": "Meat, Dairy, Eggs, Leather, Wool",
+    "sustainability_concerns": "Environmental Impact, Animal Welfare",
+    "economic_importance": "Global Trade",
+    "processing": "Varies Widely",
+    "nutritional_value": "Varies by Product",
+    "regulation": "Food Safety Standards"
+  },
+  "relationship": [
+    {
+      "derived_from": "Livestock"
+    },
+    {
+      "part_of": "Food Supply"
+    },
+    {
+      "used_in": "Textile Industry"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "related_to": "Agriculture"
+    },
+    {
+      "source_of": "Protein"
+    },
+    {
+      "processed_into": "Leather Goods"
+    },
+    {
+      "contributes_to": "Global Economy"
+    },
+    {
+      "raises_concerns_about": "Animal Welfare"
+    },
+    {
+      "subject_of": "Ethical Consumption"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "South America",
+  "properties": {
+    "continent": "Continent",
+    "area": "17,840,000 km²",
+    "population": "434 million",
+    "highest_point": "Aconcagua",
+    "largest_lake": "Lake Titicaca",
+    "longest_river": "Amazon River",
+    "climate": "Varied",
+    "currency": "Varied",
+    "geography": "Diverse",
+    "location": "Western Hemisphere"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "located_in": "Western Hemisphere"
+    },
+    {
+      "contains": "Brazil"
+    },
+    {
+      "contains": "Argentina"
+    },
+    {
+      "contains": "Colombia"
+    },
+    {
+      "borders": "North America"
+    },
+    {
+      "has_mountain": "Andes"
+    },
+    {
+      "has_river": "Amazon River"
+    },
+    {
+      "has_biome": "Amazon Rainforest"
+    },
+    {
+      "influenced_by": "Indigenous cultures"
+    }
+  ]
+}

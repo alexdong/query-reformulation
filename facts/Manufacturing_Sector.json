@@ -1,0 +1,47 @@
+{
+  "entity": "Manufacturing Sector",
+  "properties": {
+    "industry_classification": "Secondary Sector",
+    "economic_indicator": "GDP Contribution",
+    "employment_type": "Blue-Collar & White-Collar",
+    "output": "Goods",
+    "scale": "Varies (Small to Large)",
+    "technology_usage": "High",
+    "capital_intensity": "High",
+    "global_impact": "Significant",
+    "trade_relation": "Export-Oriented",
+    "innovation_driver": "Technological Advancement"
+  },
+  "relationship": [
+    {
+      "part_of": "Economy"
+    },
+    {
+      "impacts": "Employment"
+    },
+    {
+      "relies_on": "Raw Materials"
+    },
+    {
+      "uses": "Technology"
+    },
+    {
+      "contributes_to": "Supply Chain"
+    },
+    {
+      "affected_by": "Economic Cycles"
+    },
+    {
+      "employs": "Workers"
+    },
+    {
+      "produces": "Products"
+    },
+    {
+      "requires": "Capital Investment"
+    },
+    {
+      "impacts": "Trade Balance"
+    }
+  ]
+}

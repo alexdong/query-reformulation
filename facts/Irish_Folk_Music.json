@@ -1,0 +1,47 @@
+{
+  "entity": "Irish Folk Music",
+  "properties": {
+    "genre": "Folk music",
+    "origin": "Ireland",
+    "time_period": "Ancient - Present",
+    "instruments": "Fiddle, Tin Whistle, Bodhrán, Guitar, Uilleann Pipes",
+    "style": "Storytelling, Dance, Ballads",
+    "language": "Irish, English",
+    "themes": "Love, Loss, History, Mythology",
+    "cultural_significance": "National Identity, Oral Tradition",
+    "related_genres": "Celtic Music, Traditional Music",
+    "transmission": "Oral tradition, sheet music"
+  },
+  "relationship": [
+    {
+      "influenced": "Irish American Music"
+    },
+    {
+      "related_to": "Celtic Music"
+    },
+    {
+      "performed_by": "The Chieftains"
+    },
+    {
+      "performed_by": "The Dubliners"
+    },
+    {
+      "performed_by": "Planxty"
+    },
+    {
+      "features_instrument": "Fiddle"
+    },
+    {
+      "features_instrument": "Tin Whistle"
+    },
+    {
+      "features_instrument": "Bodhrán"
+    },
+    {
+      "associated_with": "Irish Dance"
+    },
+    {
+      "part_of": "Irish Culture"
+    }
+  ]
+}

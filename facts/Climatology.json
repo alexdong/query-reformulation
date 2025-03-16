@@ -1,0 +1,47 @@
+{
+  "entity": "Climatology",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field": "Earth science",
+    "subfield_of": "Meteorology",
+    "focus": "Long-term climate patterns",
+    "study_scope": "Earth's climate system",
+    "data_source": "Historical records, models",
+    "methodology": "Statistical analysis, modeling",
+    "related_to": "Paleoclimatology",
+    "application": "Climate change research",
+    "importance": "Understanding climate variability"
+  },
+  "relationship": [
+    {
+      "studies": "Climate change"
+    },
+    {
+      "related_to": "Meteorology"
+    },
+    {
+      "overlaps_with": "Paleoclimatology"
+    },
+    {
+      "uses": "Climate models"
+    },
+    {
+      "analyzes": "Temperature records"
+    },
+    {
+      "investigates": "Precipitation patterns"
+    },
+    {
+      "impacts": "Ecology"
+    },
+    {
+      "influences": "Environmental policy"
+    },
+    {
+      "requires": "Statistical analysis"
+    },
+    {
+      "employs": "Geographic Information Systems"
+    }
+  ]
+}

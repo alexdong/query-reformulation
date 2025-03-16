@@ -1,0 +1,47 @@
+{
+  "entity": "Brittany",
+  "properties": {
+    "type": "Region",
+    "country": "France",
+    "capital": "Rennes",
+    "area": "14,400 km²",
+    "population": "2,000,000",
+    "language": "Breton, French",
+    "currency": "Euro",
+    "geography": "Coastal, Peninsular",
+    "historical_region": "Celtic",
+    "time_zone": "CET"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "borders": "Normandy"
+    },
+    {
+      "borders": "Loire Valley"
+    },
+    {
+      "has_city": "Brest"
+    },
+    {
+      "has_city": "Nantes"
+    },
+    {
+      "has_city": "Saint-Malo"
+    },
+    {
+      "culture": "Breton culture"
+    },
+    {
+      "cuisine": "Breton cuisine"
+    },
+    {
+      "historical_figure": "Alan of Brittany"
+    },
+    {
+      "influenced_by": "Celtic history"
+    }
+  ]
+}

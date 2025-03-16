@@ -1,0 +1,47 @@
+{
+  "entity": "Edwardian Baroque",
+  "properties": {
+    "style_of": "Architecture",
+    "period": "1901-1914",
+    "origin": "United Kingdom",
+    "influenced_by": "Baroque, Neoclassical, Beaux-Arts",
+    "characterized_by": "Monumentality, Ornamentation, Symmetry",
+    "materials": "Stone, Brick, Marble",
+    "common_features": "Grand facades, Columns, Pilasters, Sculptural details",
+    "purpose": "Public buildings, Banks, Railway stations",
+    "aesthetic": "Formal, Imposing, Luxurious",
+    "decline": "World War I"
+  },
+  "relationship": [
+    {
+      "influenced": "Neo-Baroque"
+    },
+    {
+      "preceded_by": "Late Victorian architecture"
+    },
+    {
+      "followed_by": "Art Deco"
+    },
+    {
+      "architect": "Edwin Lutyens"
+    },
+    {
+      "architect": "Francis Chittoe"
+    },
+    {
+      "architect": "William Emrys"
+    },
+    {
+      "building_example": "King's College London"
+    },
+    {
+      "building_example": "Australia House (London)"
+    },
+    {
+      "building_example": "Paddington Station"
+    },
+    {
+      "part_of": "British architecture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Toronto",
+  "properties": {
+    "capital_of": "Ontario",
+    "population_2021": "2930000",
+    "area_km2": "630",
+    "official_language": "English",
+    "time_zone": "Eastern Time",
+    "currency": "CAD",
+    "mayor": "Olivia Chow",
+    "founding_date": "1793",
+    "nickname": "The 6",
+    "postal_code": "M"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "located_in": "Ontario"
+    },
+    {
+      "has_neighbour": "Mississauga"
+    },
+    {
+      "influenced_by": "York"
+    },
+    {
+      "has_landmark": "CN Tower"
+    },
+    {
+      "has_sport_team": "Toronto Maple Leafs"
+    },
+    {
+      "has_sport_team": "Toronto Raptors"
+    },
+    {
+      "has_university": "University of Toronto"
+    },
+    {
+      "has_museum": "Royal Ontario Museum"
+    },
+    {
+      "connected_to": "Toronto Subway"
+    }
+  ]
+}

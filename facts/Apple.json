@@ -1,0 +1,47 @@
+{
+  "entity": "Apple",
+  "properties": {
+    "type": "Fruit",
+    "scientific_name": "Malus domestica",
+    "color": "Red, Green, Yellow",
+    "origin": "Central Asia",
+    "nutrients": "Fiber, Vitamin C, Antioxidants",
+    "taste": "Sweet, Tart",
+    "storage": "Cool, Dry",
+    "size": "Small to Medium",
+    "shape": "Round",
+    "cultivars": "Gala, Fuji, Granny Smith"
+  },
+  "relationship": [
+    {
+      "family": "Rosaceae"
+    },
+    {
+      "genus": "Malus"
+    },
+    {
+      "part_of": "Pome"
+    },
+    {
+      "used_in": "Apple pie"
+    },
+    {
+      "ingredient_in": "Cider"
+    },
+    {
+      "grown_in": "China"
+    },
+    {
+      "grown_in": "United States"
+    },
+    {
+      "related_to": "Pear"
+    },
+    {
+      "related_to": "Quince"
+    },
+    {
+      "disease": "Apple scab"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Baseball",
+  "properties": {
+    "instance_of": "Sport",
+    "origin": "United States",
+    "governing_body": "MLB",
+    "equipment": "Bat, Ball, Glove",
+    "team_size": "9",
+    "scoring_method": "Runs",
+    "field_type": "Diamond",
+    "sport_category": "Bat-and-ball",
+    "popularity": "High",
+    "olympic_status": "Exhibition (past)"
+  },
+  "relationship": [
+    {
+      "played_in": "Major League Baseball"
+    },
+    {
+      "related_to": "Cricket"
+    },
+    {
+      "player": "Jackie Robinson"
+    },
+    {
+      "player": "Babe Ruth"
+    },
+    {
+      "player": "Shohei Ohtani"
+    },
+    {
+      "league": "American League"
+    },
+    {
+      "league": "National League"
+    },
+    {
+      "hall_of_fame": "Baseball Hall of Fame"
+    },
+    {
+      "governed_by": "MLB"
+    },
+    {
+      "influenced": "Softball"
+    }
+  ]
+}

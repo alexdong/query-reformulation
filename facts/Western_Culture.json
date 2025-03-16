@@ -1,0 +1,47 @@
+{
+  "entity": "Western Culture",
+  "properties": {
+    "origin": "Ancient Greece & Rome",
+    "geographic_area": "Western World",
+    "dominant_religion": "Christianity",
+    "language_family": "Indo-European",
+    "artistic_style": "Realism, Impressionism, Modernism",
+    "political_system": "Democracy, Liberalism",
+    "economic_system": "Capitalism",
+    "values": "Individualism, Freedom, Equality",
+    "philosophical_basis": "Rationalism, Humanism",
+    "timeline": "Ancient times - Present"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Ancient Greece"
+    },
+    {
+      "influenced_by": "Ancient Rome"
+    },
+    {
+      "influenced": "Modern Art"
+    },
+    {
+      "influenced": "Western Philosophy"
+    },
+    {
+      "influenced": "Western Music"
+    },
+    {
+      "influenced": "Western Literature"
+    },
+    {
+      "part_of": "Global Culture"
+    },
+    {
+      "related_to": "European Culture"
+    },
+    {
+      "related_to": "North American Culture"
+    },
+    {
+      "has_subculture": "Pop Culture"
+    }
+  ]
+}

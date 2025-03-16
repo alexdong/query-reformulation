@@ -1,0 +1,47 @@
+{
+  "entity": "Tsunami",
+  "properties": {
+    "type": "Natural disaster",
+    "cause": "Underwater disturbance",
+    "wavelength": "Hundreds of kilometers",
+    "wave_height_open_ocean": "Less than 1 meter",
+    "wave_height_near_shore": "Up to 30 meters",
+    "speed_open_ocean": "700-800 km/h",
+    "speed_near_shore": "Slower",
+    "travel_time": "Minutes to hours",
+    "detection_method": "Buoys, Seismic data",
+    "warning_system": "Tsunami warning systems"
+  },
+  "relationship": [
+    {
+      "caused_by": "Earthquake"
+    },
+    {
+      "caused_by": "Volcanic eruption"
+    },
+    {
+      "caused_by": "Landslide"
+    },
+    {
+      "impacts": "Coastal areas"
+    },
+    {
+      "related_to": "Seismic activity"
+    },
+    {
+      "detected_by": "DART system"
+    },
+    {
+      "predicted_by": "Numerical models"
+    },
+    {
+      "mitigated_by": "Coastal defenses"
+    },
+    {
+      "studied_in": "Geophysics"
+    },
+    {
+      "example_event": "2004 Indian Ocean Tsunami"
+    }
+  ]
+}

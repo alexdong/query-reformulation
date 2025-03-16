@@ -1,0 +1,47 @@
+{
+  "entity": "Sea",
+  "properties": {
+    "instance_of": "Body of water",
+    "type": "Saltwater",
+    "covers_area": "70.8%",
+    "average_depth": "3,688 m",
+    "max_depth": "11,034 m",
+    "salinity": "3.5%",
+    "contains": "Water",
+    "color": "Blue",
+    "life_forms": "Marine life",
+    "connected_to": "Ocean"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Ocean current"
+    },
+    {
+      "supports": "Marine ecosystem"
+    },
+    {
+      "affects": "Climate"
+    },
+    {
+      "borders": "Continent"
+    },
+    {
+      "provides": "Transportation"
+    },
+    {
+      "source_of": "Seawater"
+    },
+    {
+      "impacts": "Coastal erosion"
+    },
+    {
+      "habitat_for": "Fish"
+    },
+    {
+      "influences": "Tides"
+    }
+  ]
+}

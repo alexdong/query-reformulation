@@ -1,0 +1,47 @@
+{
+  "entity": "Bernard Cannam",
+  "properties": {
+    "occupation": "Botanist",
+    "birth_date": "1937-07-28",
+    "death_date": "2024-03-13",
+    "nationality": "British",
+    "field": "Plant ecology",
+    "alma_mater": "University of Cambridge",
+    "known_for": "African plant ecology",
+    "research_area": "Savannas",
+    "awards": "Symington Medal",
+    "affiliated_with": "University of Oxford"
+  },
+  "relationship": [
+    {
+      "field_of_study": "Botany"
+    },
+    {
+      "influenced_by": "Arthur Tansley"
+    },
+    {
+      "worked_in": "Zambia"
+    },
+    {
+      "worked_in": "Tanzania"
+    },
+    {
+      "studied": "Plant communities"
+    },
+    {
+      "contributed_to": "Ecology"
+    },
+    {
+      "mentor_of": "David Wardle"
+    },
+    {
+      "member_of": "Linnean Society"
+    },
+    {
+      "publication": "African Plant Communities"
+    },
+    {
+      "research_focus": "Savanna ecosystems"
+    }
+  ]
+}

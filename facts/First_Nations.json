@@ -1,0 +1,47 @@
+{
+  "entity": "First Nations",
+  "properties": {
+    "definition": "Indigenous peoples of Canada",
+    "location": "Canada",
+    "population": "1.6 million (2021)",
+    "legal_status": "Recognized by Crown",
+    "culture": "Diverse, oral traditions",
+    "languages": "Numerous, many endangered",
+    "treaties": "Historical agreements with Crown",
+    "governance": "Self-governance initiatives",
+    "land_rights": "Ongoing claims and negotiations",
+    "heritage": "Rich cultural heritage"
+  },
+  "relationship": [
+    {
+      "part_of": "Indigenous peoples"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "related_to": "Métis"
+    },
+    {
+      "related_to": "Inuit"
+    },
+    {
+      "treaty_signed_with": "Crown"
+    },
+    {
+      "language_family": "Algonquian languages"
+    },
+    {
+      "language_family": "Siouan languages"
+    },
+    {
+      "influenced_by": "Residential school system"
+    },
+    {
+      "governance_structure": "Band Council"
+    },
+    {
+      "land_claim_area": "Northwest Territories"
+    }
+  ]
+}

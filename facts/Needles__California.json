@@ -1,0 +1,47 @@
+{
+  "entity": "Needles, California",
+  "properties": {
+    "type": "City",
+    "state": "California",
+    "population_2020": "3,934",
+    "area_total": "2.307 sq mi",
+    "fusa_time_zone": "America/Los_Angeles",
+    "established": "1902",
+    "elevation": "3,645 ft",
+    "named_for": "Jesse Needles",
+    "county": "San Bernardino County",
+    "latitude": "34.462"
+  },
+  "relationship": [
+    {
+      "located_in": "San Bernardino County"
+    },
+    {
+      "part_of": "Mojave Desert"
+    },
+    {
+      "near": "Barstow"
+    },
+    {
+      "near": "Daggett"
+    },
+    {
+      "named_after": "Jesse Needles"
+    },
+    {
+      "industry": "Railroad"
+    },
+    {
+      "transportation": "Route 66"
+    },
+    {
+      "economy": "Tourism"
+    },
+    {
+      "climate": "Desert climate"
+    },
+    {
+      "historical_event": "Santa Fe Railway"
+    }
+  ]
+}

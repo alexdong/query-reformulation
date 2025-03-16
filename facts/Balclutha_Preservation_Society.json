@@ -1,0 +1,47 @@
+{
+  "entity": "Balclutha Preservation Society",
+  "properties": {
+    "type": "Nonprofit Organization",
+    "location": "Balclutha, New Zealand",
+    "founded": "1969",
+    "focus": "Historic Preservation",
+    "purpose": "Protecting heritage",
+    "activities": "Restoration, advocacy",
+    "website": "balcluthapreservationsociety.co.nz",
+    "status": "Active",
+    "area_of_interest": "Maritime Heritage",
+    "governance": "Committee"
+  },
+  "relationship": [
+    {
+      "located_in": "Clutha District"
+    },
+    {
+      "protects": "SS Enterprise"
+    },
+    {
+      "member_of": "New Zealand Historic Places Trust"
+    },
+    {
+      "advocates_for": "Historic Buildings"
+    },
+    {
+      "collaborates_with": "Department of Conservation"
+    },
+    {
+      "funds_from": "Donations"
+    },
+    {
+      "involved_in": "Tourism"
+    },
+    {
+      "focuses_on": "Maritime History"
+    },
+    {
+      "supports": "Local Community"
+    },
+    {
+      "related_to": "Balclutha"
+    }
+  ]
+}

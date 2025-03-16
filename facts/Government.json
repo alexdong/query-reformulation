@@ -1,0 +1,47 @@
+{
+  "entity": "Government",
+  "properties": {
+    "instance_of": "Political system",
+    "purpose": "Governance",
+    "type": "Organization",
+    "authority": "Legitimacy",
+    "structure": "Hierarchy",
+    "function": "Policy making",
+    "scope": "Jurisdiction",
+    "power": "Sovereignty",
+    "accountability": "Rule of law",
+    "size": "Variable"
+  },
+  "relationship": [
+    {
+      "comprises": "Political party"
+    },
+    {
+      "exercises_power_over": "Citizen"
+    },
+    {
+      "creates": "Law"
+    },
+    {
+      "employs": "Civil servant"
+    },
+    {
+      "responsible_for": "Public service"
+    },
+    {
+      "influenced_by": "Constitution"
+    },
+    {
+      "provides": "Security"
+    },
+    {
+      "collects": "Tax"
+    },
+    {
+      "regulates": "Economy"
+    },
+    {
+      "subject_to": "Judiciary"
+    }
+  ]
+}

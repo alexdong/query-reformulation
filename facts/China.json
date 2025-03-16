@@ -1,0 +1,47 @@
+{
+  "entity": "China",
+  "properties": {
+    "capital": "Beijing",
+    "population": "1444216107",
+    "area": "9596900",
+    "official_language": "Standard Mandarin",
+    "currency": "Renminbi",
+    "government_type": "Socialist Republic",
+    "largest_city": "Shanghai",
+    "GDP_nominal": "17734065",
+    "ethnic_groups": "Han Chinese",
+    "geographic_region": "East Asia"
+  },
+  "relationship": [
+    {
+      "part_of": "Asia"
+    },
+    {
+      "borders": "Mongolia"
+    },
+    {
+      "borders": "Russia"
+    },
+    {
+      "borders": "India"
+    },
+    {
+      "borders": "Vietnam"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "member_of": "World Trade Organization"
+    },
+    {
+      "influenced": "Silk Road"
+    },
+    {
+      "historical_dynasty": "Ming Dynasty"
+    },
+    {
+      "major_river": "Yangtze River"
+    }
+  ]
+}

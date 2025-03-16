@@ -1,0 +1,47 @@
+{
+  "entity": "Hollywood Walk of Fame",
+  "properties": {
+    "location": "Hollywood Boulevard",
+    "city": "Los Angeles",
+    "state": "California",
+    "established": "1960",
+    "administered_by": "Hollywood Chamber of Commerce",
+    "star_shape": "Five-pointed star",
+    "star_material": "Bronze",
+    "star_color": "Blue (for performers)",
+    "star_color_2": "Green (for directors)",
+    "star_color_3": "Yellow (for producers)"
+  },
+  "relationship": [
+    {
+      "located_in": "Hollywood"
+    },
+    {
+      "part_of": "Hollywood Boulevard"
+    },
+    {
+      "honors": "Performers"
+    },
+    {
+      "honors_2": "Directors"
+    },
+    {
+      "honors_3": "Producers"
+    },
+    {
+      "administered_by": "Hollywood Chamber of Commerce"
+    },
+    {
+      "attraction": "Tourism"
+    },
+    {
+      "influenced": "Popular Culture"
+    },
+    {
+      "design_by": "A. N. Wesson"
+    },
+    {
+      "feature": "Stars"
+    }
+  ]
+}

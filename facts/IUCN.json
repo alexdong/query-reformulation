@@ -1,0 +1,47 @@
+{
+  "entity": "IUCN",
+  "properties": {
+    "acronym_for": "International Union for Conservation of Nature",
+    "type": "Organization",
+    "founded_date": "1948",
+    "headquarters": "Gland, Switzerland",
+    "mission": "Biodiversity conservation",
+    "focus": "Species, ecosystems, natural resources",
+    "membership": "Government and non-government organizations",
+    "governance": "Council",
+    "funding": "Donations, grants",
+    "website": "iucn.org"
+  },
+  "relationship": [
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "assesses": "Species"
+    },
+    {
+      "publishes": "Red List"
+    },
+    {
+      "works_with": "WWF"
+    },
+    {
+      "collaborates_with": "UNEP"
+    },
+    {
+      "focuses_on": "Biodiversity"
+    },
+    {
+      "promotes": "Sustainable development"
+    },
+    {
+      "headquartered_in": "Switzerland"
+    },
+    {
+      "founded_by": "Julian Huxley"
+    },
+    {
+      "influences": "Conservation policy"
+    }
+  ]
+}

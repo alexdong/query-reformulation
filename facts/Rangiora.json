@@ -1,0 +1,47 @@
+{
+  "entity": "Rangiora",
+  "properties": {
+    "type": "Town",
+    "country": "New Zealand",
+    "region": "Canterbury",
+    "population_2018": "18,136",
+    "postal_code": "7473",
+    "latitude": "-43.345",
+    "longitude": "172.755",
+    "established": "1854",
+    "river": "Rangitata River",
+    "local_government": "Selwyn District"
+  },
+  "relationship": [
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "near": "Kaiapoi"
+    },
+    {
+      "near": "Woodend"
+    },
+    {
+      "founded_by": "European settlers"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "industry": "Retail"
+    },
+    {
+      "transport": "State Highway 1"
+    },
+    {
+      "railway_line": "Main North Line"
+    },
+    {
+      "has_sister_city": "Wagga Wagga"
+    }
+  ]
+}

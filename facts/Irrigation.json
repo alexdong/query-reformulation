@@ -1,0 +1,47 @@
+{
+  "entity": "Irrigation",
+  "properties": {
+    "instance_of": "Agricultural technique",
+    "purpose": "Water crops",
+    "type": "Artificial watering",
+    "benefit": "Increased crop yield",
+    "method": "Various (drip, sprinkler, flood)",
+    "impact": "Food security",
+    "resource": "Water",
+    "location": "Arid/Semi-arid regions",
+    "history": "Ancient practice",
+    "environmental_impact": "Potential for salinization"
+  },
+  "relationship": [
+    {
+      "requires": "Water source"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "related_to": "Hydrology"
+    },
+    {
+      "influences": "Food production"
+    },
+    {
+      "used_in": "Agriculture"
+    },
+    {
+      "impacts": "Soil"
+    },
+    {
+      "requires": "Infrastructure"
+    },
+    {
+      "related_to": "Aquifer"
+    },
+    {
+      "impacts": "Ecosystem"
+    },
+    {
+      "method_includes": "Drip irrigation"
+    }
+  ]
+}

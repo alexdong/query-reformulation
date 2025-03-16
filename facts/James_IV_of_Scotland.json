@@ -1,0 +1,47 @@
+{
+  "entity": "James IV of Scotland",
+  "properties": {
+    "birth_date": "1473-09-01",
+    "birth_place": "Edinburgh Castle",
+    "death_date": "1513-08-09",
+    "death_place": "Battle of Flodden",
+    "title": "King of Scotland",
+    "dynasty": "House of Stuart",
+    "father": "James III of Scotland",
+    "mother": "Margaret Tudor",
+    "spouse": "Margaret Tudor",
+    "religion": "Catholicism"
+  },
+  "relationship": [
+    {
+      "predecessor": "James III of Scotland"
+    },
+    {
+      "successor": "James V of Scotland"
+    },
+    {
+      "married_to": "Margaret Tudor"
+    },
+    {
+      "father_of": "James V of Scotland"
+    },
+    {
+      "father_of": "Alexander Stewart, Earl of Buchan"
+    },
+    {
+      "involved_in": "Battle of Flodden"
+    },
+    {
+      "involved_in": "Smoot Treaty"
+    },
+    {
+      "diplomatic_relations": "France"
+    },
+    {
+      "influenced": "Scottish Renaissance"
+    },
+    {
+      "member_of": "House of Stuart"
+    }
+  ]
+}

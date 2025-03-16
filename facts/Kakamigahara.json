@@ -1,0 +1,47 @@
+{
+  "entity": "Kakamigahara",
+  "properties": {
+    "type": "City",
+    "location": "Gifu Prefecture",
+    "country": "Japan",
+    "area_km2": "346.5",
+    "population": "67,898",
+    "founded": "1889",
+    "timezone": "JST",
+    "postal_code": "501-3800",
+    "latitude": "35.4833",
+    "longitude": "137.5500"
+  },
+  "relationship": [
+    {
+      "part_of": "Gifu Prefecture"
+    },
+    {
+      "located_in": "Japan"
+    },
+    {
+      "near": "Minami-Kakamigahara"
+    },
+    {
+      "neighbor": "Mashiko"
+    },
+    {
+      "has_landmark": "Kakamigahara Aerospace Museum"
+    },
+    {
+      "has_industry": "Aerospace"
+    },
+    {
+      "has_transport": "JR Hida Line"
+    },
+    {
+      "has_river": "Tama River"
+    },
+    {
+      "governed_by": "Kakamigahara City Council"
+    },
+    {
+      "historical_event": "Establishment as a city"
+    }
+  ]
+}

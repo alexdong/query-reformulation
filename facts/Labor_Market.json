@@ -1,0 +1,47 @@
+{
+  "entity": "Labor Market",
+  "properties": {
+    "definition": "Supply and demand of labor",
+    "type": "Economic system",
+    "scope": "Geographic region",
+    "participants": "Employers, Workers",
+    "factors": "Education, Skills, Technology",
+    "metrics": "Unemployment rate, Wage levels",
+    "regulation": "Labor laws, Minimum wage",
+    "segmentation": "By skill, industry, occupation",
+    "elasticity": "Responsiveness to changes",
+    "impacted_by": "Economic cycles"
+  },
+  "relationship": [
+    {
+      "part_of": "Economy"
+    },
+    {
+      "influences": "Wage inequality"
+    },
+    {
+      "affected_by": "Automation"
+    },
+    {
+      "related_to": "Human Resources"
+    },
+    {
+      "impacts": "Economic growth"
+    },
+    {
+      "requires": "Labor statistics"
+    },
+    {
+      "governed_by": "Government policies"
+    },
+    {
+      "analyzed_by": "Economists"
+    },
+    {
+      "linked_to": "Job market"
+    },
+    {
+      "impacts": "Productivity"
+    }
+  ]
+}

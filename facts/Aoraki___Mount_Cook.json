@@ -1,0 +1,47 @@
+{
+  "entity": "Aoraki / Mount Cook",
+  "properties": {
+    "elevation": "3724 m",
+    "type": "Mountain",
+    "location": "South Island, New Zealand",
+    "region": "Canterbury",
+    "named_after": "Māori mythology",
+    "first_ascent": "1859",
+    "mountain_range": "Southern Alps",
+    "country": "New Zealand",
+    "latitude": "-44.423",
+    "longitude": "169.707"
+  },
+  "relationship": [
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "named_after": "Tāwhirimātea"
+    },
+    {
+      "near": "Lake Pukaki"
+    },
+    {
+      "climbed_by": "Tom Macaulay"
+    },
+    {
+      "climbed_by": "Guillaume Hermet"
+    },
+    {
+      "part_of_national_park": "Aoraki / Mount Cook National Park"
+    },
+    {
+      "influences": "New Zealand tourism"
+    },
+    {
+      "has_glacier": "Murchison Glacier"
+    },
+    {
+      "has_glacier": "Hooker Glacier"
+    }
+  ]
+}

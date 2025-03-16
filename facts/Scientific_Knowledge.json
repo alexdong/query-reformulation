@@ -1,0 +1,47 @@
+{
+  "entity": "Scientific Knowledge",
+  "properties": {
+    "type": "System of understanding",
+    "foundation": "Empirical evidence",
+    "process": "Scientific method",
+    "goal": "Explain natural phenomena",
+    "validation": "Peer review",
+    "nature": "Provisional",
+    "scope": "Universe",
+    "accumulation": "Cumulative",
+    "communication": "Scientific publications",
+    "subject": "Natural world"
+  },
+  "relationship": [
+    {
+      "based_on": "Scientific method"
+    },
+    {
+      "relies_on": "Observation"
+    },
+    {
+      "uses": "Experiment"
+    },
+    {
+      "produces": "Scientific theory"
+    },
+    {
+      "challenges": "Existing knowledge"
+    },
+    {
+      "builds_upon": "Previous research"
+    },
+    {
+      "disseminates_through": "Scientific journals"
+    },
+    {
+      "contributes_to": "Technological advancement"
+    },
+    {
+      "informed_by": "Data"
+    },
+    {
+      "requires": "Critical thinking"
+    }
+  ]
+}

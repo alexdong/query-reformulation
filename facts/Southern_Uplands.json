@@ -1,0 +1,47 @@
+{
+  "entity": "Southern Uplands",
+  "properties": {
+    "type": "Mountain range",
+    "location": "Scotland",
+    "area": "Approx. 9,000 sq km",
+    "highest_point": "Cairnbarrow (847 m)",
+    "geology": "Silurian and Devonian rocks",
+    "climate": "Temperate oceanic",
+    "average_rainfall": "Over 800 mm annually",
+    "land_use": "Primarily moorland and forestry",
+    "biodiversity": "Rich in flora and fauna",
+    "part_of": "Scottish Highlands"
+  },
+  "relationship": [
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "part_of": "Scottish Highlands"
+    },
+    {
+      "adjacent_to": "Central Belt"
+    },
+    {
+      "contains": "Galloway Forest Park"
+    },
+    {
+      "contains": "Moffat Hills"
+    },
+    {
+      "contains": "Ae Forest"
+    },
+    {
+      "river_flows_through": "River Tweed"
+    },
+    {
+      "river_flows_through": "River Dee"
+    },
+    {
+      "influenced_by": "Scottish Borders Council"
+    },
+    {
+      "geological_formation": "Silurian period"
+    }
+  ]
+}

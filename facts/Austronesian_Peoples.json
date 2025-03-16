@@ -1,0 +1,47 @@
+{
+  "entity": "Austronesian Peoples",
+  "properties": {
+    "language_family": "Austronesian",
+    "origin": "Taiwan",
+    "population": "500 million+",
+    "geographic_distribution": "Maritime Southeast Asia, Pacific Islands, Madagascar",
+    "cultural_traits": "Maritime culture, agriculture, ancestor veneration",
+    "historical_period": "Prehistoric - Present",
+    "genetic_ancestry": "Austro-Taiwanese, Papuan",
+    "religious_beliefs": "Animism, ancestor worship, syncretism",
+    "subsistence_methods": "Agriculture, fishing, trade",
+    "social_structure": "Tribal, hierarchical"
+  },
+  "relationship": [
+    {
+      "ancestral_language": "Proto-Austronesian"
+    },
+    {
+      "migration_route": "Austronesian Migration"
+    },
+    {
+      "related_to": "Formosan Languages"
+    },
+    {
+      "settled_in": "Madagascar"
+    },
+    {
+      "settled_in": "Philippines"
+    },
+    {
+      "settled_in": "Indonesia"
+    },
+    {
+      "settled_in": "Taiwan"
+    },
+    {
+      "influenced": "Malayo-Polynesian cultures"
+    },
+    {
+      "influenced_by": "Austro-Taiwaneese cultures"
+    },
+    {
+      "shares_culture_with": "Polynesian Peoples"
+    }
+  ]
+}

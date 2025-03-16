@@ -1,0 +1,47 @@
+{
+  "entity": "Nepal",
+  "properties": {
+    "capital": "Kathmandu",
+    "official_language": "Nepali",
+    "population": "30,896,590",
+    "area_km2": "147,181",
+    "currency": "Nepalese Rupee",
+    "government_type": "Parliamentary Republic",
+    "land_border_countries": "China, India",
+    "highest_point": "Mount Everest",
+    "gini_index": "0.397",
+    "time_zone": "Nepal Time (NPT)"
+  },
+  "relationship": [
+    {
+      "part_of": "South Asia"
+    },
+    {
+      "borders": "China"
+    },
+    {
+      "borders": "India"
+    },
+    {
+      "contains": "Mount Everest"
+    },
+    {
+      "member_of": "SAARC"
+    },
+    {
+      "located_in": "Himalayan Region"
+    },
+    {
+      "religion_major": "Hinduism"
+    },
+    {
+      "religion_minor": "Buddhism"
+    },
+    {
+      "language_spoken": "Nepali"
+    },
+    {
+      "influenced_by": "Tibetan culture"
+    }
+  ]
+}

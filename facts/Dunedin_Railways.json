@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin Railways",
+  "properties": {
+    "instance_of": "Railway company",
+    "location": "Dunedin, New Zealand",
+    "founded": "1870",
+    "owner": "Greater Dunedin Ltd",
+    "gauge": "1067 mm",
+    "heritage": "Heritage railway",
+    "tourism": "Tourist attraction",
+    "rolling_stock": "Steam locomotives",
+    "services": "Scenic railway tours",
+    "status": "Operating"
+  },
+  "relationship": [
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "operates_on": "Taieri Gorge Railway"
+    },
+    {
+      "operates_on": "Port Chalmers Railway"
+    },
+    {
+      "part_of": "New Zealand rail network"
+    },
+    {
+      "uses_locomotive": "Ab641"
+    },
+    {
+      "uses_locomotive": "B84"
+    },
+    {
+      "serves_city": "Dunedin"
+    },
+    {
+      "serves_city": "Port Chalmers"
+    },
+    {
+      "attracts": "Tourism"
+    },
+    {
+      "related_to": "New Zealand Historic Places Trust"
+    }
+  ]
+}

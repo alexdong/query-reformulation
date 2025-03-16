@@ -1,0 +1,47 @@
+{
+  "entity": "Bougainville",
+  "properties": {
+    "type": "Island",
+    "location": "South Pacific Ocean",
+    "part_of": "Solomon Islands",
+    "area": "9,992 km²",
+    "population": "200,000 (approx.)",
+    "official_language": "Tok Pisin, English",
+    "currency": "USD",
+    "resource": "Copper",
+    "largest_city": "Buka",
+    "political_status": "Autonomous Region"
+  },
+  "relationship": [
+    {
+      "part_of": "Solomon Islands"
+    },
+    {
+      "located_in": "South Pacific Ocean"
+    },
+    {
+      "has_region": "North Solomons"
+    },
+    {
+      "influenced_by": "PNG"
+    },
+    {
+      "has_mineral": "Panguna copper mine"
+    },
+    {
+      "has_ethnic_group": "Bougainvilleans"
+    },
+    {
+      "has_language": "Bougainvillean languages"
+    },
+    {
+      "has_conflict": "Bougainville Uprising"
+    },
+    {
+      "has_flora": "Rainforest"
+    },
+    {
+      "has_fauna": "Birds"
+    }
+  ]
+}

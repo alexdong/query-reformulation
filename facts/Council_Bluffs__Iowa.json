@@ -1,0 +1,47 @@
+{
+  "entity": "Council Bluffs, Iowa",
+  "properties": {
+    "type": "City",
+    "state": "Iowa",
+    "country": "United States",
+    "population_2020": "63073",
+    "founded": "1853",
+    "area_total": "34.68 sq mi",
+    "area_land": "33.55 sq mi",
+    "area_water": "1.13 sq mi",
+    "time_zone": "Central Time Zone",
+    "elevation": "794 ft"
+  },
+  "relationship": [
+    {
+      "part_of": "Pottawattamie County"
+    },
+    {
+      "located_on": "Missouri River"
+    },
+    {
+      "neighbor_of": "Omaha, Nebraska"
+    },
+    {
+      "historical_event": "Lewis and Clark Expedition"
+    },
+    {
+      "industry": "Manufacturing"
+    },
+    {
+      "transportation": "Union Pacific Railroad"
+    },
+    {
+      "attraction": "Bluff's Park"
+    },
+    {
+      "historical_figure": "Thomas Jefferson"
+    },
+    {
+      "historical_event": "Pony Express"
+    },
+    {
+      "economic_activity": "Agriculture"
+    }
+  ]
+}

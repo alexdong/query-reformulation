@@ -1,0 +1,47 @@
+{
+  "entity": "Rural Community",
+  "properties": {
+    "definition": "Sparsely populated areas",
+    "population_density": "Low",
+    "location": "Outside urban centers",
+    "economic_base": "Agriculture, natural resources",
+    "infrastructure": "Limited",
+    "social_fabric": "Strong community bonds",
+    "housing_type": "Often single-family homes",
+    "transportation": "Reliance on personal vehicles",
+    "amenities": "Fewer services and facilities",
+    "challenges": "Economic hardship, isolation"
+  },
+  "relationship": [
+    {
+      "part_of": "Geographic Region"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "impacts": "Natural Resources"
+    },
+    {
+      "affected_by": "Rural Flight"
+    },
+    {
+      "supports": "Local Economy"
+    },
+    {
+      "connected_to": "Small Town"
+    },
+    {
+      "influenced_by": "Government Policy"
+    },
+    {
+      "provides": "Agricultural Products"
+    },
+    {
+      "impacts": "Environmental Sustainability"
+    },
+    {
+      "related_to": "Demographics"
+    }
+  ]
+}

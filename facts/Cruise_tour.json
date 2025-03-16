@@ -1,0 +1,47 @@
+{
+  "entity": "Cruise tour",
+  "properties": {
+    "type": "Tourism activity",
+    "duration": "Variable",
+    "mode_of_transport": "Ship",
+    "destination_type": "Multiple locations",
+    "price_range": "Variable",
+    "included_services": "Accommodation, meals, entertainment",
+    "target_audience": "Diverse",
+    "seasonality": "Seasonal",
+    "origin": "19th century",
+    "common_routes": "Caribbean, Mediterranean, Alaska"
+  },
+  "relationship": [
+    {
+      "part_of": "Tourism"
+    },
+    {
+      "type_of": "Vacation"
+    },
+    {
+      "provides": "Travel experience"
+    },
+    {
+      "operated_by": "Cruise line"
+    },
+    {
+      "includes": "Shore excursion"
+    },
+    {
+      "destination": "Port"
+    },
+    {
+      "ship_type": "Cruise ship"
+    },
+    {
+      "related_to": "Maritime transport"
+    },
+    {
+      "influenced_by": "Maritime history"
+    },
+    {
+      "often_features": "Entertainment"
+    }
+  ]
+}

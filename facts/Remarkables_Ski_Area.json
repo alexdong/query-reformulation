@@ -1,0 +1,47 @@
+{
+  "entity": "Remarkables Ski Area",
+  "properties": {
+    "location": "Queenstown, New Zealand",
+    "altitude_base": "920 m (3,020 ft)",
+    "altitude_summit": "1,941 m (6,368 ft)",
+    "skiable_area": "365 hectares (900 acres)",
+    "number_of_lifts": "9",
+    "snow_type": "Natural",
+    "season_start": "Mid-June",
+    "season_end": "Early October",
+    "terrain_difficulty": "Varied",
+    "owner": "Ngai Tahu Tourism"
+  },
+  "relationship": [
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "located_in": "Queenstown-Lakes District"
+    },
+    {
+      "near": "Lake Wakatipu"
+    },
+    {
+      "operated_by": "Ngai Tahu Tourism"
+    },
+    {
+      "offers": "Skiing"
+    },
+    {
+      "offers": "Snowboarding"
+    },
+    {
+      "provides": "Mountain views"
+    },
+    {
+      "serves": "Queenstown"
+    },
+    {
+      "has_lift": "Summit Express"
+    },
+    {
+      "has_lift": "Highmark 6"
+    }
+  ]
+}

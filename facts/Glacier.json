@@ -1,0 +1,47 @@
+{
+  "entity": "Glacier",
+  "properties": {
+    "instance_of": "Landform",
+    "type": "Ice mass",
+    "formation_process": "Accumulation & Compaction",
+    "movement_type": "Flow",
+    "composition": "Ice & Snow",
+    "location": "Mountains, Polar Regions",
+    "size_range": "Variable",
+    "melting_rate": "Increasing",
+    "age_range": "Centuries to Millennia",
+    "density": "900 kg/m³"
+  },
+  "relationship": [
+    {
+      "part_of": "Cryosphere"
+    },
+    {
+      "contributes_to": "Sea level rise"
+    },
+    {
+      "impacts": "Hydrology"
+    },
+    {
+      "found_in": "Alpine region"
+    },
+    {
+      "found_in": "Polar region"
+    },
+    {
+      "erosion_agent": "Glacial erosion"
+    },
+    {
+      "forms": "Moraine"
+    },
+    {
+      "forms": "Glacial lake"
+    },
+    {
+      "affected_by": "Climate change"
+    },
+    {
+      "related_to": "Ice age"
+    }
+  ]
+}

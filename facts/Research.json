@@ -1,0 +1,47 @@
+{
+  "entity": "Research",
+  "properties": {
+    "instance_of": "Process",
+    "purpose": "Knowledge creation",
+    "type": "Systematic investigation",
+    "field": "Science, Academia",
+    "methodology": "Empirical, Theoretical",
+    "output": "Data, Findings, Publications",
+    "funding": "Grants, Sponsorship",
+    "ethics": "Integrity, Objectivity",
+    "peer_review": "Validation process",
+    "dissemination": "Publication, Presentation"
+  },
+  "relationship": [
+    {
+      "requires": "Data"
+    },
+    {
+      "leads_to": "Discovery"
+    },
+    {
+      "funded_by": "Grant"
+    },
+    {
+      "conducted_in": "Laboratory"
+    },
+    {
+      "uses": "Methodology"
+    },
+    {
+      "results_in": "Publication"
+    },
+    {
+      "reviewed_by": "Peer Reviewer"
+    },
+    {
+      "related_to": "Science"
+    },
+    {
+      "contributes_to": "Knowledge"
+    },
+    {
+      "employs": "Experiment"
+    }
+  ]
+}

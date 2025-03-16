@@ -1,0 +1,47 @@
+{
+  "entity": "San Francisco",
+  "properties": {
+    "capital_of": "California",
+    "population_2020": "873963",
+    "area_km2": "196.7",
+    "mayor": "London Breed",
+    "established": "1776",
+    "latitude": "37.7749",
+    "longitude": "-122.4194",
+    "time_zone": "Pacific Time",
+    "official_language": "English",
+    "nickname": "Golden Gate City"
+  },
+  "relationship": [
+    {
+      "part_of": "California"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "neighbor_of": "Oakland"
+    },
+    {
+      "neighbor_of": "Berkeley"
+    },
+    {
+      "has_landmark": "Golden Gate Bridge"
+    },
+    {
+      "has_landmark": "Alcatraz Island"
+    },
+    {
+      "has_landmark": "Lombard Street"
+    },
+    {
+      "influenced_cuisine": "California cuisine"
+    },
+    {
+      "major_industry": "Tourism"
+    },
+    {
+      "founded_by": "Spanish"
+    }
+  ]
+}

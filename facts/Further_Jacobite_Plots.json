@@ -1,0 +1,47 @@
+{
+  "entity": "Further Jacobite Plots",
+  "properties": {
+    "type": "Political conspiracies",
+    "period": "1746-1766",
+    "location": "Great Britain",
+    "motivation": "Restoration of the Stuart dynasty",
+    "main_supporters": "Jacobite sympathizers",
+    "outcome": "Suppressed",
+    "involved_parties": "British government, Jacobites",
+    "leader_figure": "Charles Edward Stuart",
+    "primary_goal": "Overthrow of the Hanoverian monarchy",
+    "secrecy_level": "High"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Jacobite Rising of 1745"
+    },
+    {
+      "followed_by": "No significant Jacobite uprisings"
+    },
+    {
+      "involved": "Charles Edward Stuart"
+    },
+    {
+      "involved": "Lord Shelburne"
+    },
+    {
+      "involved": "William, Duke of Cumberland"
+    },
+    {
+      "influenced_by": "Jacobitism"
+    },
+    {
+      "opposed_by": "Hanoverian dynasty"
+    },
+    {
+      "resulted_in": "Increased government surveillance"
+    },
+    {
+      "location": "Scotland"
+    },
+    {
+      "location": "England"
+    }
+  ]
+}

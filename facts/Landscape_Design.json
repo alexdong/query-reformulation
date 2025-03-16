@@ -1,0 +1,47 @@
+{
+  "entity": "Landscape Design",
+  "properties": {
+    "instance_of": "Art form",
+    "field_of": "Architecture",
+    "focus": "Outdoor spaces",
+    "purpose": "Aesthetic & Functional",
+    "elements": "Plants, Water, Structures",
+    "scale": "Varies (small gardens to large parks)",
+    "design_principles": "Unity, Balance, Rhythm, Proportion",
+    "software_used": "AutoCAD, SketchUp",
+    "history_dates": "Ancient times - Present",
+    "related_discipline": "Horticulture"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Garden Design"
+    },
+    {
+      "overlaps_with": "Urban Planning"
+    },
+    {
+      "requires_knowledge_of": "Botany"
+    },
+    {
+      "employs": "Landscape Architecture"
+    },
+    {
+      "incorporates": "Sustainable Design"
+    },
+    {
+      "creates": "Outdoor Living Spaces"
+    },
+    {
+      "impacts": "Ecology"
+    },
+    {
+      "utilizes": "Hardscaping"
+    },
+    {
+      "requires": "Site Analysis"
+    },
+    {
+      "related_to": "Environmental Design"
+    }
+  ]
+}

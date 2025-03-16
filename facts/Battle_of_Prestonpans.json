@@ -1,0 +1,47 @@
+{
+  "entity": "Battle of Prestonpans",
+  "properties": {
+    "date": "21 September 1745",
+    "location": "Prestonpans, East Lothian",
+    "outcome": "Jacobite victory",
+    "belligerents": "Jacobites vs. Government forces",
+    "commander_jacobite": "Charles Edward Stuart",
+    "commander_government": "Sir John Cope",
+    "strength_jacobite": "Approximately 10,000",
+    "strength_government": "Approximately 2,000",
+    "part_of": "Jacobite Rising of 1745",
+    "significance": "Boosted Jacobite morale"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Raising of the Standard"
+    },
+    {
+      "followed_by": "Battle of Falkirk Muir"
+    },
+    {
+      "involved": "Charles Edward Stuart"
+    },
+    {
+      "involved": "Sir John Cope"
+    },
+    {
+      "location_is_in": "East Lothian"
+    },
+    {
+      "part_of": "Jacobite Rising of 1745"
+    },
+    {
+      "influenced": "British history"
+    },
+    {
+      "resulted_in": "Jacobite advance"
+    },
+    {
+      "contributed_to": "Decline of Jacobitism"
+    },
+    {
+      "historical_period": "18th century"
+    }
+  ]
+}

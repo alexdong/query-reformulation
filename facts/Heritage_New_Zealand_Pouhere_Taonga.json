@@ -1,0 +1,47 @@
+{
+  "entity": "Heritage New Zealand Pouhere Taonga",
+  "properties": {
+    "alternative_name": "NZ Historic Places Trust",
+    "type": "Government agency",
+    "country": "New Zealand",
+    "founded": "1953",
+    "mandate": "Historic place protection",
+    "responsible_for": "Historic places",
+    "headquarters": "Wellington",
+    "website": "heritage.org.nz",
+    "governing_body": "Board of Trustees",
+    "funding_source": "Government & Donations"
+  },
+  "relationship": [
+    {
+      "parent_organization": "Department of Conservation"
+    },
+    {
+      "protects": "Waitangi Treaty Grounds"
+    },
+    {
+      "protects": "Kāwhia Regional Historic Reserve"
+    },
+    {
+      "protects": "Ruapehu National Historic Reserve"
+    },
+    {
+      "protects": "Old Whaling Station, Kaikoura"
+    },
+    {
+      "protects": "Cornwallis Fort"
+    },
+    {
+      "protects": "St Mary's Church, Parnell"
+    },
+    {
+      "registers": "Historic Place Categories"
+    },
+    {
+      "administers": "Historic Places Act 1993"
+    },
+    {
+      "collaborates_with": "Iwi"
+    }
+  ]
+}

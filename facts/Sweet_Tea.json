@@ -1,0 +1,47 @@
+{
+  "entity": "Sweet Tea",
+  "properties": {
+    "type": "Beverage",
+    "origin": "Southern United States",
+    "main_ingredient": "Black Tea",
+    "sweetener": "Sugar",
+    "color": "Amber",
+    "temperature": "Cold",
+    "taste": "Sweet",
+    "preparation": "Steeping, Sweetening",
+    "popularity": "High (Southern US)",
+    "cultural_significance": "Southern Hospitality"
+  },
+  "relationship": [
+    {
+      "is_a": "Tea"
+    },
+    {
+      "region_associated_with": "Southern United States"
+    },
+    {
+      "ingredient_of": "Iced Tea"
+    },
+    {
+      "precursor_to": "Arnold Palmer (drink)"
+    },
+    {
+      "often_served_with": "Southern Cuisine"
+    },
+    {
+      "related_to": "Hospitality"
+    },
+    {
+      "variation_of": "Black Tea"
+    },
+    {
+      "consumed_with": "Lemon"
+    },
+    {
+      "influenced_by": "British Tea Culture"
+    },
+    {
+      "common_in": "Family Gatherings"
+    }
+  ]
+}

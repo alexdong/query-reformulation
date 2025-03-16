@@ -1,0 +1,47 @@
+{
+  "entity": "Mary, Queen of Scots",
+  "properties": {
+    "birth_date": "1542-12-08",
+    "birth_place": "Linlithgow Palace",
+    "death_date": "1587-02-08",
+    "death_place": "Fotheringhay Castle",
+    "title": "Queen of Scotland",
+    "dynasty": "House of Stuart",
+    "religion": "Catholicism",
+    "spouse_1": "Francis II of France",
+    "spouse_2": "Henry Stuart, Lord Darnley",
+    "spouse_3": "James Hepburn, 4th Earl of Bothwell"
+  },
+  "relationship": [
+    {
+      "father": "James V of Scotland"
+    },
+    {
+      "mother": "Mary of Guise"
+    },
+    {
+      "sibling": "James Stuart, Earl of Moray"
+    },
+    {
+      "married_to": "Francis II of France"
+    },
+    {
+      "married_to": "Henry Stuart, Lord Darnley"
+    },
+    {
+      "married_to": "James Hepburn, 4th Earl of Bothwell"
+    },
+    {
+      "child_of": "James V of Scotland"
+    },
+    {
+      "child_of": "Mary of Guise"
+    },
+    {
+      "successor": "James VI of Scotland"
+    },
+    {
+      "involved_in": "Scottish Reformation"
+    }
+  ]
+}

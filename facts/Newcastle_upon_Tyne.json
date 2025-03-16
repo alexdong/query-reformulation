@@ -1,0 +1,47 @@
+{
+  "entity": "Newcastle upon Tyne",
+  "properties": {
+    "type": "City",
+    "population_2021": "385833",
+    "region": "North East England",
+    "country": "United Kingdom",
+    "latitude": "54.979",
+    "longitude": "-1.617",
+    "river": "Tyne",
+    "established": "1177",
+    "mayor": "Nick Forbes",
+    "area_km2": "82"
+  },
+  "relationship": [
+    {
+      "part_of": "Tyne and Wear"
+    },
+    {
+      "located_in": "England"
+    },
+    {
+      "has_neighbour": "Gateshead"
+    },
+    {
+      "has_neighbour": "Sunderland"
+    },
+    {
+      "has_neighbour": "Northumberland"
+    },
+    {
+      "has_landmark": "Newcastle Castle"
+    },
+    {
+      "has_landmark": "Tyne Bridge"
+    },
+    {
+      "has_team": "Newcastle United FC"
+    },
+    {
+      "industry": "Shipbuilding"
+    },
+    {
+      "university": "Newcastle University"
+    }
+  ]
+}

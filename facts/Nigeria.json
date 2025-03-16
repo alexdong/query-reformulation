@@ -1,0 +1,47 @@
+{
+  "entity": "Nigeria",
+  "properties": {
+    "capital": "Abuja",
+    "official_language": "English",
+    "population": "216,000,000",
+    "area_km2": "923,768",
+    "currency": "Nigerian Naira",
+    "continent": "Africa",
+    "government_type": "Federal Republic",
+    "largest_city": "Lagos",
+    "ethnic_groups": "Hausa, Igbo, Yoruba",
+    "independence_date": "1960-10-01"
+  },
+  "relationship": [
+    {
+      "member_of": "African Union"
+    },
+    {
+      "located_in": "Africa"
+    },
+    {
+      "borders": "Benin"
+    },
+    {
+      "borders": "Cameroon"
+    },
+    {
+      "borders": "Chad"
+    },
+    {
+      "borders": "Niger"
+    },
+    {
+      "currency_code": "NGN"
+    },
+    {
+      "language_spoken": "Igbo"
+    },
+    {
+      "language_spoken": "Hausa"
+    },
+    {
+      "language_spoken": "Yoruba"
+    }
+  ]
+}

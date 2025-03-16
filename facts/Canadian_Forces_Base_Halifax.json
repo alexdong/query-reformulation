@@ -1,0 +1,47 @@
+{
+  "entity": "Canadian Forces Base Halifax",
+  "properties": {
+    "type": "Military Base",
+    "location": "Halifax, Nova Scotia",
+    "established": "1945",
+    "parent_branch": "Canadian Armed Forces",
+    "area": "1.9 km² (0.73 sq mi)",
+    "purpose": "Naval, Air Force, Army",
+    "coordinates": "44°39′N 63°34′W",
+    "civilian_employees": "3,500",
+    "military_personnel": "8,000",
+    "host_unit": "Maritime Forces Atlantic"
+  },
+  "relationship": [
+    {
+      "part_of": "Maritime Forces Atlantic"
+    },
+    {
+      "located_in": "Halifax Regional Municipality"
+    },
+    {
+      "neighbor_of": "Citadel Hill National Historic Site"
+    },
+    {
+      "supports": "Royal Canadian Navy"
+    },
+    {
+      "supports": "Royal Canadian Air Force"
+    },
+    {
+      "supports": "Canadian Army"
+    },
+    {
+      "contains": "HMCS Halifax (ship)"
+    },
+    {
+      "adjacent_to": "Dartmouth, Nova Scotia"
+    },
+    {
+      "contributes_to": "Canadian sovereignty"
+    },
+    {
+      "connected_to": "CN Rail"
+    }
+  ]
+}

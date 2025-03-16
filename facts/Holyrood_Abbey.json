@@ -1,0 +1,47 @@
+{
+  "entity": "Holyrood Abbey",
+  "properties": {
+    "location": "Edinburgh, Scotland",
+    "founded_by": "David I of Scotland",
+    "founded": "1128",
+    "architectural_style": "Gothic",
+    "dissolved": "1794",
+    "religious_affiliation": "Scottish monasticism",
+    "order": "Augustinian",
+    "material": "Sandstone",
+    "status": "Ruins",
+    "adjacent_to": "Palace of Holyroodhouse"
+  },
+  "relationship": [
+    {
+      "part_of": "Palace of Holyroodhouse"
+    },
+    {
+      "located_in": "Edinburgh"
+    },
+    {
+      "founded_by": "David I of Scotland"
+    },
+    {
+      "influenced": "Scottish architecture"
+    },
+    {
+      "order_affiliation": "Augustinian Order"
+    },
+    {
+      "adjacent_to": "Canongate"
+    },
+    {
+      "architect": "John French (architect)"
+    },
+    {
+      "historical_event": "Wars of Scottish Independence"
+    },
+    {
+      "destroyed_by": "Scottish Reformation"
+    },
+    {
+      "monastery_type": "Augustinian monastery"
+    }
+  ]
+}

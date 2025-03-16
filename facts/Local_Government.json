@@ -1,0 +1,47 @@
+{
+  "entity": "Local Government",
+  "properties": {
+    "instance_of": "Government",
+    "level": "Subnational",
+    "purpose": "Public Services",
+    "scope": "Geographic Area",
+    "funding": "Taxes & Grants",
+    "responsibility": "Local Issues",
+    "accountability": "Citizens",
+    "size": "Variable",
+    "structure": "Diverse",
+    "legal_basis": "Statute"
+  },
+  "relationship": [
+    {
+      "part_of": "Government"
+    },
+    {
+      "provides": "Public Services"
+    },
+    {
+      "governs": "Municipality"
+    },
+    {
+      "funded_by": "Taxation"
+    },
+    {
+      "oversees": "Infrastructure"
+    },
+    {
+      "employs": "Local Officials"
+    },
+    {
+      "represents": "Community"
+    },
+    {
+      "subject_to": "National Government"
+    },
+    {
+      "impacts": "Local Economy"
+    },
+    {
+      "collaborates_with": "Regional Government"
+    }
+  ]
+}

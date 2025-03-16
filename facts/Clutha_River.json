@@ -1,0 +1,47 @@
+{
+  "entity": "Clutha River",
+  "properties": {
+    "river_type": "River",
+    "length": "322 km",
+    "source": "Southern Alps",
+    "mouth": "Pacific Ocean",
+    "country": "New Zealand",
+    "region": "Otago",
+    "tributary_of": "Pacific Ocean",
+    "discharge": "370 m³/s",
+    "basin_area": "23,290 km²",
+    "maori_name": "Mata-Au"
+  },
+  "relationship": [
+    {
+      "flows_through": "Otago Region"
+    },
+    {
+      "tributary_of": "Pacific Ocean"
+    },
+    {
+      "source_location": "Southern Alps"
+    },
+    {
+      "flows_past": "Dunedin"
+    },
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "discharges_into": "Tomahawk Lagoon"
+    },
+    {
+      "provides_water_to": "Irrigation"
+    },
+    {
+      "supports": "Brown trout"
+    },
+    {
+      "supports": "Ngāi Tahu"
+    },
+    {
+      "historical_use": "Māori transport"
+    }
+  ]
+}

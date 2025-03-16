@@ -1,0 +1,45 @@
+{
+  "entity": "Enology",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field": "Viticulture",
+    "focus": "Wine production",
+    "related_to": "Sensory science",
+    "origin": "Ancient Greece",
+    "study_area": "Fermentation",
+    "goal": "Wine quality",
+    "synonym": "Oenology"
+  },
+  "relationship": [
+    {
+      "related_to": "Viticulture"
+    },
+    {
+      "subfield_of": "Food science"
+    },
+    {
+      "influenced_by": "Chemistry"
+    },
+    {
+      "requires_knowledge_of": "Microbiology"
+    },
+    {
+      "studies": "Fermentation"
+    },
+    {
+      "analyzes": "Wine"
+    },
+    {
+      "impacts": "Wine quality"
+    },
+    {
+      "overlaps_with": "Brewing"
+    },
+    {
+      "practiced_in": "Wine regions"
+    },
+    {
+      "related_to": "Sensory evaluation"
+    }
+  ]
+}

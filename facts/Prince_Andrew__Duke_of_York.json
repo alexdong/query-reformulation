@@ -1,0 +1,45 @@
+{
+  "entity": "Prince Andrew, Duke of York",
+  "properties": {
+    "birth_date": "1960-02-19",
+    "birth_place": "Buckingham Palace",
+    "title": "Duke of York",
+    "occupation": "Former naval officer",
+    "sibling": "Prince Edward",
+    "parent": "Prince Philip",
+    "spouse": "Sarah, Duchess of York",
+    "education": "Gordonstoun"
+  },
+  "relationship": [
+    {
+      "member_of": "British Royal Family"
+    },
+    {
+      "child_of": "Queen Elizabeth II"
+    },
+    {
+      "child_of": "Prince Philip"
+    },
+    {
+      "sibling_of": "Princess Anne"
+    },
+    {
+      "sibling_of": "Prince Edward"
+    },
+    {
+      "married_to": "Sarah, Duchess of York"
+    },
+    {
+      "served_in": "Royal Navy"
+    },
+    {
+      "honorary_military_position": "Honorary Admiral"
+    },
+    {
+      "involved_in": "Jeffrey Epstein controversy"
+    },
+    {
+      "attended": "Gordonstoun"
+    }
+  ]
+}

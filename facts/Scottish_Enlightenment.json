@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Enlightenment",
+  "properties": {
+    "time_period": "18th Century",
+    "location": "Scotland",
+    "focus": "Reason & Inquiry",
+    "key_areas": "Philosophy, Science, Economics",
+    "impact": "Global Influence",
+    "preceding_era": "Early Modern Scotland",
+    "lasting_legacy": "Modern Thought",
+    "intellectual_climate": "Optimism & Progress",
+    "decline": "Early 19th Century",
+    "related_movement": "Age of Reason"
+  },
+  "relationship": [
+    {
+      "influenced": "American Revolution"
+    },
+    {
+      "influenced": "French Revolution"
+    },
+    {
+      "member_of": "David Hume"
+    },
+    {
+      "member_of": "Adam Smith"
+    },
+    {
+      "member_of": "Adam Ferguson"
+    },
+    {
+      "member_of": "Francis Hutcheson"
+    },
+    {
+      "member_of": "Joseph Black"
+    },
+    {
+      "influenced": "Political Economy"
+    },
+    {
+      "influenced": "Modern Science"
+    },
+    {
+      "related_to": "University of Edinburgh"
+    }
+  ]
+}

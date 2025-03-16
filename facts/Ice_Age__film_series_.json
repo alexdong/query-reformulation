@@ -1,0 +1,47 @@
+{
+  "entity": "Ice Age (film series)",
+  "properties": {
+    "instance_of": "Animated film series",
+    "genre": "Comedy, Adventure, Family",
+    "production_company": "Blue Sky Studios",
+    "first_release_date": "2002",
+    "setting": "Paleolithic Era",
+    "protagonist": "Manny",
+    "protagonist_species": "Woolly Mammoth",
+    "antagonist": "Captain Gutt",
+    "animation_technique": "CGI",
+    "country_of_origin": "United States"
+  },
+  "relationship": [
+    {
+      "prequel": "Ice Age: Dawn of the Dinosaurs"
+    },
+    {
+      "sequel": "Ice Age: The Meltdown"
+    },
+    {
+      "sequel": "Ice Age: Continental Drift"
+    },
+    {
+      "sequel": "Ice Age: Collision Course"
+    },
+    {
+      "character_appears": "Scrat"
+    },
+    {
+      "character_appears": "Sid"
+    },
+    {
+      "character_appears": "Diego"
+    },
+    {
+      "inspired_by": "Paleolithic Era"
+    },
+    {
+      "theme": "Friendship"
+    },
+    {
+      "influenced": "Animation"
+    }
+  ]
+}

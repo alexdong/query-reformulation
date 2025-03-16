@@ -1,0 +1,47 @@
+{
+  "entity": "Free Trade Agreement",
+  "properties": {
+    "type": "Trade Agreement",
+    "purpose": "Reduce Trade Barriers",
+    "scope": "Goods & Services",
+    "legal_framework": "International Law",
+    "negotiated_by": "Governments",
+    "impact": "Economic Growth",
+    "criticism": "Job Displacement",
+    "implementation": "Phased Reduction",
+    "dispute_resolution": "Arbitration",
+    "benefits": "Lower Prices"
+  },
+  "relationship": [
+    {
+      "part_of": "International Trade"
+    },
+    {
+      "promotes": "Economic Integration"
+    },
+    {
+      "requires": "Tariff Reduction"
+    },
+    {
+      "impacts": "National Economy"
+    },
+    {
+      "negotiated_with": "Partner Country"
+    },
+    {
+      "governed_by": "WTO"
+    },
+    {
+      "example": "NAFTA"
+    },
+    {
+      "example": "EU"
+    },
+    {
+      "impacts": "Supply Chain"
+    },
+    {
+      "related_to": "Trade Policy"
+    }
+  ]
+}

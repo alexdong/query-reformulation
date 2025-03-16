@@ -1,0 +1,47 @@
+{
+  "entity": "Fertilizer",
+  "properties": {
+    "type": "Chemical Compound",
+    "purpose": "Plant Nutrition",
+    "macronutrients": "N, P, K",
+    "form": "Solid, Liquid, Gas",
+    "application_method": "Broadcasting, Banding, Side-dressing",
+    "origin": "Natural, Synthetic",
+    "environmental_impact": "Water Pollution, Greenhouse Gas Emissions",
+    "cost": "Variable",
+    "regulation": "Varies by country",
+    "chemical_formula_example": "NH4NO3"
+  },
+  "relationship": [
+    {
+      "improves": "Crop Yield"
+    },
+    {
+      "contains": "Nitrogen"
+    },
+    {
+      "contains": "Phosphorus"
+    },
+    {
+      "contains": "Potassium"
+    },
+    {
+      "used_in": "Agriculture"
+    },
+    {
+      "impacts": "Soil Health"
+    },
+    {
+      "related_to": "Sustainable Agriculture"
+    },
+    {
+      "alternative_to": "Manure"
+    },
+    {
+      "produced_by": "Haber Process"
+    },
+    {
+      "affects": "Ecosystem"
+    }
+  ]
+}

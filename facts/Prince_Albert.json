@@ -1,0 +1,47 @@
+{
+  "entity": "Prince Albert",
+  "properties": {
+    "birth_date": "1819-08-26",
+    "birth_place": "Sladbrouk Castle, Dobříš, Bohemia",
+    "death_date": "1861-12-14",
+    "death_place": "Windsor Castle, Berkshire",
+    "title": "Prince Consort",
+    "spouse": "Queen Victoria",
+    "father": "Duke Leopold I",
+    "mother": "Princess Victoria of Saxe-Coburg-Saalfeld",
+    "nationality": "British",
+    "education": "University of Bonn"
+  },
+  "relationship": [
+    {
+      "spouse_of": "Victoria"
+    },
+    {
+      "father_of": "Victoria, Princess Royal"
+    },
+    {
+      "father_of": "Albert Medny"
+    },
+    {
+      "father_of": "Prince Leopold"
+    },
+    {
+      "father_of": "Princess Alice"
+    },
+    {
+      "member_of": "House of Saxe-Coburg and Gotha"
+    },
+    {
+      "influenced": "Public Works"
+    },
+    {
+      "promoted": "Science"
+    },
+    {
+      "involved_in": "Great Exhibition"
+    },
+    {
+      "educated_at": "University of Bonn"
+    }
+  ]
+}

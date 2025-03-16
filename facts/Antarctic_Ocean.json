@@ -1,0 +1,47 @@
+{
+  "entity": "Antarctic Ocean",
+  "properties": {
+    "type": "Ocean",
+    "location": "Antarctica",
+    "area": "20,300,000 km²",
+    "average_depth": "4,000 m",
+    "max_depth": "7,238 m",
+    "salinity": "35‰",
+    "temperature": "Near freezing",
+    "currents": "Circumpolar Current",
+    "ice_coverage": "Significant",
+    "biodiversity": "Limited, specialized"
+  },
+  "relationship": [
+    {
+      "part_of": "Southern Ocean"
+    },
+    {
+      "surrounds": "Antarctica"
+    },
+    {
+      "adjacent_to": "South America"
+    },
+    {
+      "contains": "Weddell Sea"
+    },
+    {
+      "contains": "Ross Sea"
+    },
+    {
+      "current_affects": "Circumpolar Current"
+    },
+    {
+      "supports": "Krill"
+    },
+    {
+      "supports": "Penguins"
+    },
+    {
+      "supports": "Seals"
+    },
+    {
+      "impacted_by": "Climate Change"
+    }
+  ]
+}

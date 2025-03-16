@@ -1,0 +1,47 @@
+{
+  "entity": "Hurricane Season",
+  "properties": {
+    "definition": "Annual period of tropical cyclone activity",
+    "location": "Atlantic Ocean, Northeast Pacific",
+    "start_date": "June 1",
+    "end_date": "November 30",
+    "peak_season": "August-October",
+    "classification_system": "Saffir-Simpson Scale",
+    "monitoring_agency": "National Hurricane Center",
+    "formation_conditions": "Warm ocean water, low wind shear",
+    "impacts": "Storm surge, flooding, wind damage",
+    "prediction_method": "Numerical weather prediction"
+  },
+  "relationship": [
+    {
+      "part_of": "Tropical cyclone"
+    },
+    {
+      "occurs_in": "Atlantic Ocean"
+    },
+    {
+      "occurs_in": "Northeast Pacific Ocean"
+    },
+    {
+      "monitored_by": "National Hurricane Center"
+    },
+    {
+      "affected_by": "El Niño"
+    },
+    {
+      "affected_by": "La Niña"
+    },
+    {
+      "measured_by": "Saffir-Simpson Scale"
+    },
+    {
+      "causes": "Storm surge"
+    },
+    {
+      "causes": "Flooding"
+    },
+    {
+      "impacts": "Coastal regions"
+    }
+  ]
+}

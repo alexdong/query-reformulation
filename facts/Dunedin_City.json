@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin City",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Otago",
+    "population_2023": "250,000",
+    "established": "1848",
+    "mayor": "Aaron Hawkins",
+    "latitude": "-45.505",
+    "longitude": "170.885",
+    "area_km2": "659",
+    "nickname": "Edinburgh of the South"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "has_neighbour": "Port Chalmers"
+    },
+    {
+      "founded_by": "Scottish settlers"
+    },
+    {
+      "influenced_by": "Edinburgh"
+    },
+    {
+      "has_landmark": "Dunedin Railway Station"
+    },
+    {
+      "has_university": "University of Otago"
+    },
+    {
+      "has_museum": "Toitū Otago Settlers Museum"
+    },
+    {
+      "has_sport_team": "Dunedin Volts"
+    },
+    {
+      "near_to": "Taieri River"
+    }
+  ]
+}

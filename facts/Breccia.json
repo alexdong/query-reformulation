@@ -1,0 +1,47 @@
+{
+  "entity": "Breccia",
+  "properties": {
+    "type": "Rock",
+    "description": "Clastic rock",
+    "composition": "Angular rock fragments",
+    "origin": "Impact or faulting",
+    "grain_size": "Variable",
+    "texture": "Heterogeneous",
+    "color": "Variable",
+    "formation": "Sedimentary",
+    "density": "Variable",
+    "hardness": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Sedimentary rock"
+    },
+    {
+      "contains": "Rock fragments"
+    },
+    {
+      "related_to": "Conglomerate"
+    },
+    {
+      "related_to": "Tuff"
+    },
+    {
+      "found_in": "Meteorite craters"
+    },
+    {
+      "example_location": "Nördlingen"
+    },
+    {
+      "process": "Lithification"
+    },
+    {
+      "classification": "Clastic"
+    },
+    {
+      "related_to": "Diagenesis"
+    },
+    {
+      "study_field": "Geology"
+    }
+  ]
+}

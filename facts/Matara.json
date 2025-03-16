@@ -1,0 +1,47 @@
+{
+  "entity": "Matara",
+  "properties": {
+    "type": "City",
+    "country": "Sri Lanka",
+    "population_2012": "61,926",
+    "region": "Southern",
+    "latitude": "5.9438",
+    "longitude": "80.9175",
+    "elevation": "14 m",
+    "timezone": "Asia/Colombo",
+    "postal_code": "81000",
+    "area_code": "091"
+  },
+  "relationship": [
+    {
+      "located_in": "Southern_Province_(Sri_Lanka)"
+    },
+    {
+      "part_of": "Sri_Lanka"
+    },
+    {
+      "near": "Weligama"
+    },
+    {
+      "near": "Devinuwara"
+    },
+    {
+      "has_landmark": "Star Fort (Matara)"
+    },
+    {
+      "has_landmark": "Matara_Light_House"
+    },
+    {
+      "has_transport": "Matara_Railway_Station"
+    },
+    {
+      "has_river": "Nilwala_River"
+    },
+    {
+      "influenced_by": "Dutch_East_India_Company"
+    },
+    {
+      "historical_event": "Kotte_Kingdom"
+    }
+  ]
+}

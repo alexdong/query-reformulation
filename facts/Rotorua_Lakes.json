@@ -1,0 +1,47 @@
+{
+  "entity": "Rotorua Lakes",
+  "properties": {
+    "type": "Lake system",
+    "location": "North Island, New Zealand",
+    "geological_feature": "Volcanic",
+    "area": "Approximately 350 km²",
+    "depth_avg": "Varies greatly",
+    "water_temp": "Warm",
+    "geothermal_activity": "High",
+    "primary_use": "Tourism, Recreation",
+    "maori_name": "Ngā Rotomā",
+    "part_of": "Taupō Volcanic Zone"
+  },
+  "relationship": [
+    {
+      "located_in": "North Island"
+    },
+    {
+      "part_of": "Taupō Volcanic Zone"
+    },
+    {
+      "contains": "Lake Rotorua"
+    },
+    {
+      "contains": "Lake Tarawera"
+    },
+    {
+      "contains": "Lake Okareka"
+    },
+    {
+      "influenced_by": "Volcanic activity"
+    },
+    {
+      "attracts": "Tourism"
+    },
+    {
+      "provides": "Recreational opportunities"
+    },
+    {
+      "significant_to": "Māori culture"
+    },
+    {
+      "nearby_city": "Rotorua"
+    }
+  ]
+}

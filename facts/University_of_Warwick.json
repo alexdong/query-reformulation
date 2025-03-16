@@ -1,0 +1,47 @@
+{
+  "entity": "University of Warwick",
+  "properties": {
+    "type": "Public research university",
+    "location": "Coventry, England",
+    "founded": "1965",
+    "vice_chancellor": "Peter Horrocks",
+    "students": "27,000+",
+    "staff": "7,000+",
+    "campus": "Gibraltar",
+    "colours": "Rose and Grey",
+    "research_income": "£189.7 million",
+    "world_ranking": "160"
+  },
+  "relationship": [
+    {
+      "member_of": "Russell Group"
+    },
+    {
+      "located_in": "West Midlands"
+    },
+    {
+      "founded_by": "local authorities"
+    },
+    {
+      "has_college": "John Snow College"
+    },
+    {
+      "has_department": "Warwick Business School"
+    },
+    {
+      "offers_degree": "BA"
+    },
+    {
+      "offers_degree": "BSc"
+    },
+    {
+      "affiliated_with": "Jubilee Centre"
+    },
+    {
+      "alumnus": "Lord Mandelson"
+    },
+    {
+      "alumnus": "Victoria Derbyshire"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Data Analysis",
+  "properties": {
+    "instance_of": "Process",
+    "field_of_study": "Statistics",
+    "purpose": "Insights & Decisions",
+    "tools": "Python, R, SQL",
+    "methods": "Regression, Clustering, Hypothesis Testing",
+    "data_types": "Structured, Unstructured",
+    "output": "Reports, Visualizations",
+    "skill_set": "Critical Thinking, Communication",
+    "related_field": "Machine Learning",
+    "application": "Business, Science, Healthcare"
+  },
+  "relationship": [
+    {
+      "uses": "Statistics"
+    },
+    {
+      "requires": "Data"
+    },
+    {
+      "employs": "SQL"
+    },
+    {
+      "utilizes": "Python"
+    },
+    {
+      "involves": "Data Visualization"
+    },
+    {
+      "supports": "Decision Making"
+    },
+    {
+      "overlaps_with": "Business Intelligence"
+    },
+    {
+      "precedes": "Machine Learning"
+    },
+    {
+      "requires_knowledge_of": "Mathematics"
+    },
+    {
+      "contributes_to": "Knowledge Discovery"
+    }
+  ]
+}

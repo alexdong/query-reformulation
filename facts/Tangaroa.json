@@ -1,0 +1,47 @@
+{
+  "entity": "Tangaroa",
+  "properties": {
+    "type": "God",
+    "domain": "Polynesian Mythology",
+    "aspect": "Ocean",
+    "role": "Creator",
+    "associated_with": "Water, Sea Life",
+    "culture": "Māori",
+    "alternative_names": "Taonga-nui-a-Rangi",
+    "origin": "Proto-Polynesian",
+    "symbol": "Sea",
+    "family": "Tāwhirimātea"
+  },
+  "relationship": [
+    {
+      "parent": "Rangi"
+    },
+    {
+      "sibling_of": "Tāne"
+    },
+    {
+      "sibling_of": "Tūmatauenga"
+    },
+    {
+      "sibling_of": "Haumia-tiketike"
+    },
+    {
+      "sibling_of": "Rongomātāne"
+    },
+    {
+      "father_of": "Tangata-whenua"
+    },
+    {
+      "enemy_of": "Tāwhirimātea"
+    },
+    {
+      "associated_with": "Maui"
+    },
+    {
+      "related_to": "Pacific Islander Mythology"
+    },
+    {
+      "worshipped_by": "Māori People"
+    }
+  ]
+}

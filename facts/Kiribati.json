@@ -1,0 +1,47 @@
+{
+  "entity": "Kiribati",
+  "properties": {
+    "capital": "South Tarawa",
+    "official_language": "Gilbertese, English",
+    "currency": "Australian Dollar (AUD)",
+    "population": "123,622",
+    "area_km2": "811",
+    "sovereignty": "Independent",
+    "location": "Central Pacific Ocean",
+    "government_type": "Parliamentary Republic",
+    "largest_island": "Tarawa",
+    "time_zone": "UTC+12"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "border_with": "Federated States of Micronesia"
+    },
+    {
+      "influenced_by": "New Zealand"
+    },
+    {
+      "has_part": "Tarawa Atoll"
+    },
+    {
+      "has_part": "Line Islands"
+    },
+    {
+      "has_part": "Phoenix Islands"
+    },
+    {
+      "climate": "Tropical"
+    }
+  ]
+}

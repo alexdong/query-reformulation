@@ -1,0 +1,47 @@
+{
+  "entity": "Larnach Castle",
+  "properties": {
+    "type": "Historic house museum",
+    "location": "Otago, New Zealand",
+    "architect": "William Armit",
+    "built": "1871",
+    "style": "Scottish Baronial",
+    "owner": "Barry Cox and Margaret Cox",
+    "area": "140 acres",
+    "rooms": "65",
+    "status": "Open to the public",
+    "original_name": "The Camp"
+  },
+  "relationship": [
+    {
+      "located_in": "Otago"
+    },
+    {
+      "part_of": "Queenstown-Lakes District"
+    },
+    {
+      "built_by": "William J. T. Larnach"
+    },
+    {
+      "architectural_style": "Scottish Baronial architecture"
+    },
+    {
+      "influenced_by": "Scottish castles"
+    },
+    {
+      "has_part": "Larnach Gardens"
+    },
+    {
+      "has_part": "Victorian gardens"
+    },
+    {
+      "features": "Water garden"
+    },
+    {
+      "features": "Terraced garden"
+    },
+    {
+      "attraction_for": "Tourism"
+    }
+  ]
+}

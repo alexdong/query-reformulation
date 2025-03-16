@@ -1,0 +1,47 @@
+{
+  "entity": "Christopher Luxon",
+  "properties": {
+    "birth_date": "1970-09-14",
+    "birth_place": "Christchurch, New Zealand",
+    "occupation": "Politician",
+    "education": "University of Canterbury, Stanford University, Auckland University of Technology",
+    "political_party": "National Party",
+    "constituency": "Ramu",
+    "spouse": "Rawinia Luxon",
+    "children": "2",
+    "religion": "Christianity",
+    "height": "1.83 m"
+  },
+  "relationship": [
+    {
+      "predecessor": "Jacinda Ardern"
+    },
+    {
+      "succeeded": "Jacinda Ardern"
+    },
+    {
+      "member_of": "New Zealand Parliament"
+    },
+    {
+      "leader_of": "National Party"
+    },
+    {
+      "nationality": "New Zealander"
+    },
+    {
+      "attended": "Stanford Graduate School of Business"
+    },
+    {
+      "former_employee_of": "American Express"
+    },
+    {
+      "former_employee_of": "Fairfax New Zealand"
+    },
+    {
+      "member_of": "Cabinet of New Zealand"
+    },
+    {
+      "represents": "Ramu"
+    }
+  ]
+}

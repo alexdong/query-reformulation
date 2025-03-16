@@ -1,0 +1,47 @@
+{
+  "entity": "Harvard University",
+  "properties": {
+    "instance_of": "University",
+    "established": "1636",
+    "location": "Cambridge, Massachusetts",
+    "type": "Private research university",
+    "endowment": "42.3 billion USD",
+    "president": "Claudine Gay",
+    "academic_staff": "12,500",
+    "student_enrollment": "20,000",
+    "colors": "Crimson and White",
+    "motto": "Veritas"
+  },
+  "relationship": [
+    {
+      "located_in": "Cambridge, Massachusetts"
+    },
+    {
+      "part_of": "Ivy League"
+    },
+    {
+      "founded_by": "Matthew Maud"
+    },
+    {
+      "alumnus": "Barack Obama"
+    },
+    {
+      "alumnus": "Bill Gates"
+    },
+    {
+      "alumnus": "Natalie Portman"
+    },
+    {
+      "member_of": "Association of American Universities"
+    },
+    {
+      "has_affiliation": "Harvard Medical School"
+    },
+    {
+      "has_affiliation": "Harvard Law School"
+    },
+    {
+      "preceded_by": "New College"
+    }
+  ]
+}

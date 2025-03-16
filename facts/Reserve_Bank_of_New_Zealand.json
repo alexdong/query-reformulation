@@ -1,0 +1,47 @@
+{
+  "entity": "Reserve Bank of New Zealand",
+  "properties": {
+    "instance_of": "Central bank",
+    "country": "New Zealand",
+    "established": "1989",
+    "headquarters_location": "Wellington",
+    "governor": "Adrian Orr",
+    "currency": "New Zealand dollar",
+    "mandate": "Price stability, financial stability, economic well-being",
+    "official_website": "rbnz.govt.nz",
+    "legal_status": "State-owned enterprise",
+    "primary_function": "Monetary policy"
+  },
+  "relationship": [
+    {
+      "regulates": "New Zealand banking system"
+    },
+    {
+      "part_of": "New Zealand government"
+    },
+    {
+      "issues": "New Zealand dollar"
+    },
+    {
+      "reports_to": "New Zealand Treasury"
+    },
+    {
+      "member_of": "Bank for International Settlements"
+    },
+    {
+      "influences": "New Zealand economy"
+    },
+    {
+      "sets": "Official Cash Rate"
+    },
+    {
+      "provides": "Financial stability"
+    },
+    {
+      "governed_by": "Reserve Bank of New Zealand Act 1989"
+    },
+    {
+      "located_in": "Wellington City"
+    }
+  ]
+}

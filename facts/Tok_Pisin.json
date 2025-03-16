@@ -1,0 +1,47 @@
+{
+  "entity": "Tok Pisin",
+  "properties": {
+    "type": "Creole language",
+    "primary_language_area": "Papua New Guinea",
+    "based_on": "English",
+    "influenced_by": "German, Malay, various Austronesian languages",
+    "speakers": "Approximately 120,000 - 200,000",
+    "writing_system": "Latin alphabet",
+    "status": "Official language (Papua New Guinea)",
+    "origin": "Late 19th century",
+    "lexicon_size": "Approximately 8000 words",
+    "pidgin_origin": "Plantation labor"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian languages"
+    },
+    {
+      "influenced": "Papua New Guinean literature"
+    },
+    {
+      "related_to": "English language"
+    },
+    {
+      "spoken_in": "Papua New Guinea"
+    },
+    {
+      "developed_from": "Pidgin English"
+    },
+    {
+      "has_variant": "Various regional dialects"
+    },
+    {
+      "used_in": "Trade and communication"
+    },
+    {
+      "influenced_by": "German language"
+    },
+    {
+      "influenced_by": "Malay language"
+    },
+    {
+      "official_language_with": "English and Hiri Motu"
+    }
+  ]
+}

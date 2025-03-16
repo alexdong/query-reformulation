@@ -1,0 +1,47 @@
+{
+  "entity": "Theatre",
+  "properties": {
+    "instance_of": "Art form",
+    "type": "Performing art",
+    "origin": "Ancient Greece",
+    "medium": "Live performance",
+    "elements": "Acting, Script, Stagecraft",
+    "purpose": "Entertainment, Ritual, Social Commentary",
+    "genre": "Drama, Comedy, Musical",
+    "audience": "Spectators",
+    "location": "Theatre building",
+    "history_length": "2500+ years"
+  },
+  "relationship": [
+    {
+      "predecessor": "Ancient Greek Drama"
+    },
+    {
+      "influenced": "Film"
+    },
+    {
+      "influenced": "Television"
+    },
+    {
+      "related_to": "Performing Arts"
+    },
+    {
+      "has_genre": "Tragedy"
+    },
+    {
+      "has_genre": "Comedy"
+    },
+    {
+      "has_genre": "Musical Theatre"
+    },
+    {
+      "employs": "Actors"
+    },
+    {
+      "employs": "Directors"
+    },
+    {
+      "employs": "Playwrights"
+    }
+  ]
+}

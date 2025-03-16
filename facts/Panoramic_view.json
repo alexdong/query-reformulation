@@ -1,0 +1,47 @@
+{
+  "entity": "Panoramic view",
+  "properties": {
+    "type": "Visual perspective",
+    "description": "Wide, sweeping vista",
+    "scope": "Extensive area",
+    "characteristic": "Broad horizon",
+    "application": "Photography, painting, architecture",
+    "aesthetic_quality": "Impressive, scenic",
+    "often_features": "Landscape, cityscape",
+    "related_concept": "Vista",
+    "historical_use": "Landscape painting",
+    "technical_aspect": "Wide-angle lens"
+  },
+  "relationship": [
+    {
+      "part_of": "Landscape"
+    },
+    {
+      "used_in": "Landscape painting"
+    },
+    {
+      "captured_by": "Photography"
+    },
+    {
+      "influenced_by": "Romanticism"
+    },
+    {
+      "associated_with": "Architecture"
+    },
+    {
+      "requires": "High vantage point"
+    },
+    {
+      "enhances": "Aesthetic appeal"
+    },
+    {
+      "depicts": "Scenery"
+    },
+    {
+      "related_to": "Vista"
+    },
+    {
+      "used_in": "Tourism"
+    }
+  ]
+}

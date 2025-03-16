@@ -1,0 +1,47 @@
+{
+  "entity": "Todd Woodward",
+  "properties": {
+    "occupation": "Entrepreneur",
+    "nationality": "American",
+    "education": "University of Michigan",
+    "company_founder": "Bluecore",
+    "expertise": "Marketing Technology",
+    "location": "Ann Arbor, Michigan",
+    "linkedin_profile": "linkedin.com/in/toddwoodward/",
+    "website": "toddwoodward.com",
+    "role": "Chief Strategy Officer",
+    "company": "Salesforce"
+  },
+  "relationship": [
+    {
+      "founder_of": "Bluecore"
+    },
+    {
+      "employee_of": "Salesforce"
+    },
+    {
+      "alumnus_of": "University of Michigan"
+    },
+    {
+      "advisor_of": "Various startups"
+    },
+    {
+      "investor_in": "Various companies"
+    },
+    {
+      "speaker_at": "Marketing conferences"
+    },
+    {
+      "contributor_to": "Marketing publications"
+    },
+    {
+      "mentors": "Marketing professionals"
+    },
+    {
+      "board_member_of": "Various organizations"
+    },
+    {
+      "expert_in": "Customer Data Platforms"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Catlins Coast",
+  "properties": {
+    "location": "Southeastern New Zealand",
+    "region": "Otago",
+    "type": "Coastal region",
+    "area": "Approximately 1,300 km²",
+    "geology": "Volcanic and sedimentary",
+    "climate": "Temperate maritime",
+    "biodiversity": "High",
+    "landscape": "Rugged, forested",
+    "population": "Sparse",
+    "tourism": "Ecotourism"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "contains": "Nugget Point"
+    },
+    {
+      "contains": "Purakaunui Falls"
+    },
+    {
+      "contains": "McLean Falls"
+    },
+    {
+      "adjacent_to": "Otago Peninsula"
+    },
+    {
+      "influenced_by": "Southern Alps"
+    },
+    {
+      "ecosystem": "Temperate rainforest"
+    },
+    {
+      "fauna_includes": "Yellow-eyed penguin"
+    },
+    {
+      "flora_includes": "Podocarp forest"
+    },
+    {
+      "attraction_for": "Birdwatchers"
+    }
+  ]
+}

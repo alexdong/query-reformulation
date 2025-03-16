@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Learning Cities",
+  "properties": {
+    "type": "Network",
+    "focus": "Lifelong Learning",
+    "established": "2017",
+    "parent_network": "UNESCO Global Network of Learning Cities",
+    "number_of_cities": "6",
+    "geographic_location": "New Zealand",
+    "governance": "Local Government New Zealand",
+    "vision": "Inclusive, sustainable learning",
+    "funding": "Local councils, grants",
+    "website": "https://www.lgf.org.nz/learning-cities/"
+  },
+  "relationship": [
+    {
+      "part_of": "UNESCO Global Network of Learning Cities"
+    },
+    {
+      "member_city": "Auckland"
+    },
+    {
+      "member_city": "Christchurch"
+    },
+    {
+      "member_city": "Dunedin"
+    },
+    {
+      "member_city": "Hamilton"
+    },
+    {
+      "member_city": "Palmerston North"
+    },
+    {
+      "member_city": "Whanganui"
+    },
+    {
+      "supports": "Lifelong Learning"
+    },
+    {
+      "promotes": "Community Engagement"
+    },
+    {
+      "aligned_with": "Sustainable Development Goals"
+    }
+  ]
+}

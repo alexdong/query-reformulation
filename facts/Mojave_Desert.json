@@ -1,0 +1,47 @@
+{
+  "entity": "Mojave Desert",
+  "properties": {
+    "type": "Desert",
+    "location": "North America",
+    "area": "150,000 sq mi",
+    "highest_point": "Clark Mountain",
+    "lowest_point": "Avenger Field",
+    "average_rainfall": "2-5 inches",
+    "climate": "Arid",
+    "primary_vegetation": "Shrubland",
+    "geology": "Volcanic",
+    "part_of": "North American Desert"
+  },
+  "relationship": [
+    {
+      "located_in": "United States"
+    },
+    {
+      "adjacent_to": "Great Basin Desert"
+    },
+    {
+      "adjacent_to": "Sonoran Desert"
+    },
+    {
+      "contains": "Death Valley"
+    },
+    {
+      "contains": "Joshua Tree National Park"
+    },
+    {
+      "contains": "Mojave National Preserve"
+    },
+    {
+      "flora_includes": "Joshua Tree"
+    },
+    {
+      "fauna_includes": "Desert Bighorn Sheep"
+    },
+    {
+      "influenced_by": "Pacific Ocean"
+    },
+    {
+      "explored_by": "Spanish Explorers"
+    }
+  ]
+}

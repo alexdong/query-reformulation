@@ -1,0 +1,47 @@
+{
+  "entity": "British Monarch",
+  "properties": {
+    "instance_of": "Monarchy",
+    "country": "United Kingdom",
+    "head_of_state": "True",
+    "succession_type": "Hereditary",
+    "official_residence": "Buckingham Palace",
+    "current_monarch": "Charles III",
+    "longest_reign": "Elizabeth II",
+    "historical_period": "Medieval to Modern",
+    "role": "Symbol of national unity",
+    "title": "King/Queen"
+  },
+  "relationship": [
+    {
+      "predecessor": "Kingdom of England"
+    },
+    {
+      "succeeded_by": "Commonwealth realm"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "related_to": "Prime Minister"
+    },
+    {
+      "ceremony": "Coronation"
+    },
+    {
+      "symbolizes": "British identity"
+    },
+    {
+      "influenced": "British law"
+    },
+    {
+      "related_to": "House of Windsor"
+    },
+    {
+      "historical_figure": "William the Conqueror"
+    },
+    {
+      "historical_figure": "Henry VIII"
+    }
+  ]
+}

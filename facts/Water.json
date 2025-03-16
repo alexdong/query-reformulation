@@ -1,0 +1,47 @@
+{
+  "entity": "Water",
+  "properties": {
+    "chemical_formula": "H₂O",
+    "state_of_matter": "Solid, Liquid, Gas",
+    "density": "1 g/cm³ (liquid)",
+    "color": "Colorless",
+    "taste": "Tasteless",
+    "odor": "Odorless",
+    "polarity": "Polar",
+    "dielectric_constant": "80.1",
+    "surface_tension": "0.073 N/m (20°C)",
+    "boiling_point": "100 °C"
+  },
+  "relationship": [
+    {
+      "is_a": "Chemical substance"
+    },
+    {
+      "part_of": "Hydrosphere"
+    },
+    {
+      "essential_for": "Life"
+    },
+    {
+      "dissolves": "Many substances"
+    },
+    {
+      "cycle": "Water cycle"
+    },
+    {
+      "found_in": "Oceans"
+    },
+    {
+      "source_of": "Drinking water"
+    },
+    {
+      "used_in": "Agriculture"
+    },
+    {
+      "component_of": "Blood"
+    },
+    {
+      "related_to": "Hydrogeology"
+    }
+  ]
+}

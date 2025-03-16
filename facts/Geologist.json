@@ -1,0 +1,47 @@
+{
+  "entity": "Geologist",
+  "properties": {
+    "instance_of": "Profession",
+    "field_of_study": "Geology",
+    "education_required": "Bachelor's Degree",
+    "typical_employer": "Government, Industry, Academia",
+    "work_environment": "Field, Lab, Office",
+    "tools_used": "Geological Hammer, GPS, Software",
+    "salary_range": "$70,000 - $150,000",
+    "related_fields": "Environmental Science, Paleontology",
+    "primary_task": "Study Earth's Structure",
+    "skills_needed": "Analytical, Problem-solving"
+  },
+  "relationship": [
+    {
+      "studies": "Geology"
+    },
+    {
+      "works_with": "Minerals"
+    },
+    {
+      "analyzes": "Rocks"
+    },
+    {
+      "investigates": "Earthquakes"
+    },
+    {
+      "maps": "Geological Formations"
+    },
+    {
+      "collaborates_with": "Hydrologist"
+    },
+    {
+      "researches": "Fossils"
+    },
+    {
+      "contributes_to": "Resource Exploration"
+    },
+    {
+      "advises": "Government Agencies"
+    },
+    {
+      "related_to": "Plate Tectonics"
+    }
+  ]
+}

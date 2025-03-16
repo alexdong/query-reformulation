@@ -1,0 +1,47 @@
+{
+  "entity": "Dartmouth Region",
+  "properties": {
+    "type": "Region",
+    "location": "Nova Scotia, Canada",
+    "area": "6,938 km²",
+    "population": "76,562 (2021)",
+    "primary_industry": "Agriculture, Tourism",
+    "major_river": "LaHave River",
+    "climate": "Humid continental",
+    "named_after": "Dartmouth College",
+    "established": "1784",
+    "time_zone": "Atlantic Time Zone"
+  },
+  "relationship": [
+    {
+      "part_of": "Nova Scotia"
+    },
+    {
+      "contains": "Halifax Regional Municipality"
+    },
+    {
+      "neighbor_of": "Lunenburg Region"
+    },
+    {
+      "influenced_by": "Mi'kmaq people"
+    },
+    {
+      "settled_by": "British"
+    },
+    {
+      "economic_activity": "Fishing"
+    },
+    {
+      "landmark": "Shubenacadie Wildlife Park"
+    },
+    {
+      "attraction": "Mahone Bay"
+    },
+    {
+      "historical_event": "American Revolution"
+    },
+    {
+      "transportation": "Highway 101"
+    }
+  ]
+}

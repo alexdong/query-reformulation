@@ -1,0 +1,47 @@
+{
+  "entity": "Witwatersrand",
+  "properties": {
+    "type": "Geographic region",
+    "location": "Gauteng, South Africa",
+    "alternative_name": "Rand",
+    "discovery_date": "1886",
+    "primary_resource": "Gold",
+    "population": "2.6 million (approx.)",
+    "area": "1,300 km²",
+    "major_city": "Johannesburg",
+    "economic_activity": "Mining, Manufacturing, Services",
+    "historical_significance": "Gold Rush"
+  },
+  "relationship": [
+    {
+      "part_of": "Gauteng"
+    },
+    {
+      "contains": "Johannesburg"
+    },
+    {
+      "discovery_led_to": "South African Gold Rush"
+    },
+    {
+      "influenced": "South African economy"
+    },
+    {
+      "located_in": "South Africa"
+    },
+    {
+      "major_industry": "Gold mining"
+    },
+    {
+      "impacted_by": "Apartheid"
+    },
+    {
+      "nearby_river": "Vaal River"
+    },
+    {
+      "historical_event": "Second Boer War"
+    },
+    {
+      "related_to": "Transvaal"
+    }
+  ]
+}

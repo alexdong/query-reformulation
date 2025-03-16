@@ -1,0 +1,47 @@
+{
+  "entity": "Temperate Rainforest",
+  "properties": {
+    "type": "Ecosystem",
+    "climate": "Mild, wet",
+    "latitude": "Mid-latitudes",
+    "precipitation": "High (200-1000 cm/year)",
+    "temperature": "Moderate (5-20°C)",
+    "dominant_trees": "Evergreen",
+    "biodiversity": "High",
+    "soil_type": "Thin, nutrient-poor",
+    "location_examples": "Pacific Northwest, Japan, Chile",
+    "canopy_cover": "Dense"
+  },
+  "relationship": [
+    {
+      "part_of": "Biome"
+    },
+    {
+      "contains": "Epiphyte"
+    },
+    {
+      "supports": "Old-growth forest"
+    },
+    {
+      "located_in": "North America"
+    },
+    {
+      "located_in": "Asia"
+    },
+    {
+      "located_in": "South America"
+    },
+    {
+      "threatened_by": "Deforestation"
+    },
+    {
+      "impacted_by": "Climate change"
+    },
+    {
+      "provides": "Habitat"
+    },
+    {
+      "similar_to": "Tropical Rainforest"
+    }
+  ]
+}

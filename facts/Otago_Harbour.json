@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Harbour",
+  "properties": {
+    "type": "Fjord",
+    "location": "New Zealand",
+    "region": "Otago",
+    "area": "640 km²",
+    "max_depth": "149 m",
+    "formation": "Glacial",
+    "geology": "Greywacke",
+    "is_part_of": "Pacific Ocean",
+    "drainage_area": "2,870 km²",
+    "shoreline": "230 km"
+  },
+  "relationship": [
+    {
+      "contains": "Dunedin"
+    },
+    {
+      "contains": "Port Chalmers"
+    },
+    {
+      "adjacent_to": "Taieri River"
+    },
+    {
+      "adjacent_to": "Clutha River"
+    },
+    {
+      "formed_during": "Quaternary Period"
+    },
+    {
+      "part_of": "South Island"
+    },
+    {
+      "influenced_by": "Last Glacial Maximum"
+    },
+    {
+      "supports": "Marine ecosystem"
+    },
+    {
+      "important_for": "Shipping"
+    },
+    {
+      "historical_use": "Māori settlement"
+    }
+  ]
+}

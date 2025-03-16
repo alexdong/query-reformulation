@@ -1,0 +1,47 @@
+{
+  "entity": "Cattle",
+  "properties": {
+    "kingdom": "Animalia",
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Bos",
+    "common_name": "Cattle",
+    "diet_type": "Herbivore",
+    "lifespan": "15-25 years",
+    "weight": "300-1000 kg",
+    "domestication_date": "10,500 years ago"
+  },
+  "relationship": [
+    {
+      "part_of": "Farm"
+    },
+    {
+      "provides": "Beef"
+    },
+    {
+      "provides": "Milk"
+    },
+    {
+      "related_to": "Dairy farming"
+    },
+    {
+      "related_to": "Ranching"
+    },
+    {
+      "prey_for": "Lion"
+    },
+    {
+      "prey_for": "Wolf"
+    },
+    {
+      "related_to": "Agriculture"
+    },
+    {
+      "breed_example": "Angus cattle"
+    },
+    {
+      "breed_example": "Holstein Friesian"
+    }
+  ]
+}

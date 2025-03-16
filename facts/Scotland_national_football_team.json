@@ -1,0 +1,47 @@
+{
+  "entity": "Scotland national football team",
+  "properties": {
+    "governing_body": "Scottish Football Association",
+    "confederation": "UEFA",
+    "nicknames": "The Tartans, The Caledonians",
+    "home_stadium": "Hampden Stadium",
+    "team_color": "Dark Blue",
+    "highest_fifa_ranking": "28",
+    "first_match": "1872-03-05",
+    "manager": "Steve Clarke",
+    "world_cup_appearances": "3",
+    "european_championship_appearances": "1"
+  },
+  "relationship": [
+    {
+      "member_of": "UEFA"
+    },
+    {
+      "plays_in": "FIFA World Cup"
+    },
+    {
+      "plays_in": "UEFA European Championship"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "rivalry_with": "England national football team"
+    },
+    {
+      "influenced_by": "Scottish football"
+    },
+    {
+      "coach": "Alex McLeish"
+    },
+    {
+      "coach": "Craig Brown"
+    },
+    {
+      "player_plays_for": "Celtic F.C."
+    },
+    {
+      "player_plays_for": "Rangers F.C."
+    }
+  ]
+}

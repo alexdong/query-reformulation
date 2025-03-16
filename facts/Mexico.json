@@ -1,0 +1,47 @@
+{
+  "entity": "Mexico",
+  "properties": {
+    "capital": "Mexico City",
+    "official_language": "Spanish",
+    "population": "128.4 million (2023)",
+    "currency": "Mexican Peso (MXN)",
+    "area_km2": "1,972,550",
+    "GDP_nominal": "$1.43 trillion (2023)",
+    "largest_city": "Mexico City",
+    "independence_date": "1821",
+    "government_type": "Federal Presidential Republic",
+    "land_border": "United States"
+  },
+  "relationship": [
+    {
+      "part_of": "North America"
+    },
+    {
+      "borders": "United States"
+    },
+    {
+      "borders": "Guatemala"
+    },
+    {
+      "borders": "Belize"
+    },
+    {
+      "member_of": "UN"
+    },
+    {
+      "member_of": "NAFTA"
+    },
+    {
+      "located_in": "Americas"
+    },
+    {
+      "influenced_by": "Spanish Empire"
+    },
+    {
+      "has_cuisine": "Mexican cuisine"
+    },
+    {
+      "has_landmark": "Chichen Itza"
+    }
+  ]
+}

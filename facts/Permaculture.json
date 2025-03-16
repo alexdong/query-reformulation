@@ -1,0 +1,47 @@
+{
+  "entity": "Permaculture",
+  "properties": {
+    "definition": "Sustainable land-use design",
+    "originating_country": "Australia",
+    "founder": "Bill Mollison",
+    "co_founder": "David Holmgren",
+    "year_established": "1980s",
+    "design_goal": "Mimic natural ecosystems",
+    "focus": "Agriculture & Land Management",
+    "ethics": "Earth Care, People Care, Fair Share",
+    "principles": "Observation, Interaction, Efficiency",
+    "related_concept": "Ecological Design"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Masanobu Fukuoka"
+    },
+    {
+      "inspired_by": "Indigenous Knowledge"
+    },
+    {
+      "related_to": "Agroecology"
+    },
+    {
+      "overlaps_with": "Organic Farming"
+    },
+    {
+      "promotes": "Biodiversity"
+    },
+    {
+      "addresses": "Climate Change"
+    },
+    {
+      "focuses_on": "Soil Health"
+    },
+    {
+      "incorporates": "Forest Gardening"
+    },
+    {
+      "utilizes": "Water Harvesting"
+    },
+    {
+      "supports": "Local Food Systems"
+    }
+  ]
+}

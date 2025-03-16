@@ -1,0 +1,47 @@
+{
+  "entity": "Victoria of Saxe-Coburg-Saalfeld",
+  "properties": {
+    "birth_date": "1819-10-24",
+    "birth_place": "Coburg, Duchy of Saxe-Coburg-Saalfeld",
+    "death_date": "1866-12-22",
+    "death_place": "Exmouth, Devon",
+    "nationality": "German, British",
+    "spouse": "Prince Albert of Saxe-Coburg and Gotha",
+    "title": "Queen Consort",
+    "mother": "Princess Louise of Saxe-Coburg-Saalfeld",
+    "father": "Duke Ernest I of Saxe-Coburg and Gotha",
+    "dynasty": "House of Saxe-Coburg and Gotha"
+  },
+  "relationship": [
+    {
+      "spouse_of": "Prince Albert of Saxe-Coburg and Gotha"
+    },
+    {
+      "child_of": "Princess Louise of Saxe-Coburg-Saalfeld"
+    },
+    {
+      "child_of": "Duke Ernest I of Saxe-Coburg and Gotha"
+    },
+    {
+      "mother_of": "Edward VII"
+    },
+    {
+      "mother_of": "Princess Alice of the United Kingdom"
+    },
+    {
+      "mother_of": "Prince Leopold of the United Kingdom"
+    },
+    {
+      "mother_of": "Princess Helena of the United Kingdom"
+    },
+    {
+      "mother_of": "Princess Louise of the United Kingdom"
+    },
+    {
+      "reigned_as": "Queen of the United Kingdom"
+    },
+    {
+      "member_of": "House of Saxe-Coburg and Gotha"
+    }
+  ]
+}

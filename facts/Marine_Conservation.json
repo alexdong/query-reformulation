@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Conservation",
+  "properties": {
+    "definition": "Protection of marine ecosystems",
+    "goal": "Biodiversity preservation",
+    "scope": "Oceans, Seas, Coastal areas",
+    "threats_addressed": "Pollution, Overfishing, Climate Change",
+    "methods": "Protected areas, Regulations, Restoration",
+    "importance": "Ecosystem services, Food security",
+    "scale": "Local to global",
+    "stakeholders": "Governments, NGOs, Communities",
+    "related_field": "Environmental science",
+    "economic_impact": "Tourism, Fisheries"
+  },
+  "relationship": [
+    {
+      "part_of": "Environmentalism"
+    },
+    {
+      "related_to": "Marine biology"
+    },
+    {
+      "addresses": "Ocean acidification"
+    },
+    {
+      "protects": "Coral reefs"
+    },
+    {
+      "impacts": "Fisheries management"
+    },
+    {
+      "requires": "Sustainable practices"
+    },
+    {
+      "supports": "Marine Protected Areas"
+    },
+    {
+      "influenced_by": "Rachel Carson"
+    },
+    {
+      "contributes_to": "Climate change mitigation"
+    },
+    {
+      "overlaps_with": "Ocean governance"
+    }
+  ]
+}

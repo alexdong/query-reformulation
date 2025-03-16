@@ -1,0 +1,47 @@
+{
+  "entity": "Runway 05/23",
+  "properties": {
+    "designator": "05/23",
+    "heading": "050°/230°",
+    "length": "7,000 feet",
+    "surface": "Asphalt",
+    "location": "Phoenix Sky Harbor International Airport",
+    "elevation": "2,373 feet",
+    "ILS_approach": "True",
+    "precision": "CAT II",
+    "width": "150 feet",
+    "usage": "Commercial Aviation"
+  },
+  "relationship": [
+    {
+      "located_at": "Phoenix Sky Harbor International Airport"
+    },
+    {
+      "part_of": "Airport Infrastructure"
+    },
+    {
+      "serves": "Commercial Aircraft"
+    },
+    {
+      "used_by": "Southwest Airlines"
+    },
+    {
+      "used_by": "American Airlines"
+    },
+    {
+      "approach_procedure": "ILS 05"
+    },
+    {
+      "approach_procedure": "ILS 23"
+    },
+    {
+      "connected_to": "Taxiway Alpha"
+    },
+    {
+      "connected_to": "Taxiway Bravo"
+    },
+    {
+      "regulation_by": "FAA"
+    }
+  ]
+}

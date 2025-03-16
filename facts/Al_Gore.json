@@ -1,0 +1,47 @@
+{
+  "entity": "Al Gore",
+  "properties": {
+    "birth_date": "1948-03-09",
+    "birth_place": "Washington, D.C.",
+    "occupation": "Politician",
+    "education": "Harvard University",
+    "political_party": "Democratic",
+    "spouse": "Ti Gore",
+    "children": "4",
+    "alma_mater": "Harvard University",
+    "nationality": "American",
+    "religion": "Protestant"
+  },
+  "relationship": [
+    {
+      "vice_president_under": "Bill Clinton"
+    },
+    {
+      "candidate_for": "U.S. President"
+    },
+    {
+      "award_recipient": "Nobel Peace Prize"
+    },
+    {
+      "founded": "The Climate Reality Project"
+    },
+    {
+      "authored": "An Inconvenient Truth"
+    },
+    {
+      "member_of": "Harvard Crimson"
+    },
+    {
+      "represented": "Tennessee"
+    },
+    {
+      "father_of": "Albert Gore III"
+    },
+    {
+      "influenced": "Climate Change Awareness"
+    },
+    {
+      "related_to": "Paul Gore"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Brisbane Roar FC",
+  "properties": {
+    "instance_of": "Football club",
+    "founded": "1957",
+    "location": "Brisbane",
+    "country": "Australia",
+    "league": "A-League",
+    "nickname": "Roar",
+    "home_ground": "Suncorp Stadium",
+    "team_color": "Orange & Blue",
+    "owner": "Football Federation Australia",
+    "head_coach": "Ross McCormack"
+  },
+  "relationship": [
+    {
+      "plays_in": "A-League"
+    },
+    {
+      "located_in": "Brisbane City Council"
+    },
+    {
+      "member_of": "Football Federation Australia"
+    },
+    {
+      "plays_at": "Suncorp Stadium"
+    },
+    {
+      "rival": "Melbourne Victory"
+    },
+    {
+      "has_player": "Jamie MacLaren"
+    },
+    {
+      "has_player": "Riku Matsuda"
+    },
+    {
+      "won_trophy": "A-League Championship"
+    },
+    {
+      "influenced_by": "Queensland State Football Team"
+    },
+    {
+      "predecessor": "NPM FC"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Industrial Revolution",
+  "properties": {
+    "start_date": "1760",
+    "end_date": "1840",
+    "location": "Great Britain",
+    "primary_sector": "Manufacturing",
+    "key_innovation": "Steam Engine",
+    "social_impact": "Urbanization",
+    "economic_system": "Capitalism",
+    "labor_system": "Factory System",
+    "political_impact": "Rise of Liberalism",
+    "environmental_impact": "Pollution"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Agricultural Revolution"
+    },
+    {
+      "followed_by": "Second Industrial Revolution"
+    },
+    {
+      "influenced": "Globalization"
+    },
+    {
+      "caused": "Urban Sprawl"
+    },
+    {
+      "led_to": "Rise of the Middle Class"
+    },
+    {
+      "involved": "James Watt"
+    },
+    {
+      "involved": "Richard Arkwright"
+    },
+    {
+      "impacted": "Textile Industry"
+    },
+    {
+      "impacted": "Coal Mining"
+    },
+    {
+      "related_to": "Luddites"
+    }
+  ]
+}

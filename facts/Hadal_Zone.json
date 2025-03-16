@@ -1,0 +1,47 @@
+{
+  "entity": "Hadal Zone",
+  "properties": {
+    "depth_range": "6,000 - 11,000 meters",
+    "location": "Ocean trenches",
+    "pressure": "100-110 MPa",
+    "temperature": "1-4 °C",
+    "light_penetration": "Absent",
+    "salinity": "Similar to surface waters",
+    "biodiversity": "Low, specialized organisms",
+    "oxygen_levels": "Variable, often low",
+    "discovery_date": "20th century",
+    "exploration_challenges": "Extreme pressure, darkness"
+  },
+  "relationship": [
+    {
+      "part_of": "Ocean"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "located_in": "Atlantic Ocean"
+    },
+    {
+      "located_in": "Indian Ocean"
+    },
+    {
+      "adjacent_to": "Abyssal Zone"
+    },
+    {
+      "contains": "Hadal Trench"
+    },
+    {
+      "inhabited_by": "Amphipoda"
+    },
+    {
+      "inhabited_by": "Snailfish"
+    },
+    {
+      "studied_by": "Oceanography"
+    },
+    {
+      "research_method": "Remotely Operated Vehicle"
+    }
+  ]
+}

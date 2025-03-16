@@ -1,0 +1,46 @@
+{
+  "entity": "Environment",
+  "properties": {
+    "definition": "Surroundings",
+    "includes": "Non-living elements",
+    "scope": "Local to global",
+    "importance": "Sustains life",
+    "affected_by": "Human activity",
+    "study_field": "Environmental science",
+    "impacted_by": "Climate change",
+    "resource": "Natural resources",
+    "component": "Ecosystem"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "affects": "Human health"
+    },
+    {
+      "studied_by": "Environmental science"
+    },
+    {
+      "includes": "Atmosphere"
+    },
+    {
+      "includes": "Hydrosphere"
+    },
+    {
+      "includes": "Lithosphere"
+    },
+    {
+      "affected_by": "Pollution"
+    },
+    {
+      "impacts": "Sustainability"
+    },
+    {
+      "related_to": "Ecology"
+    }
+  ]
+}

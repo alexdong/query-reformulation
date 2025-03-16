@@ -1,0 +1,47 @@
+{
+  "entity": "Chianti",
+  "properties": {
+    "type": "Wine Region",
+    "location": "Tuscany, Italy",
+    "primary_grape": "Sangiovese",
+    "wine_style": "Red Wine",
+    "appellation": "DOCG",
+    "soil_type": "Alba Stratus",
+    "average_alcohol": "13.5%",
+    "typical_flavor": "Cherry, Leather, Earth",
+    "climate": "Mediterranean",
+    "elevation": "200-500m"
+  },
+  "relationship": [
+    {
+      "part_of": "Tuscany"
+    },
+    {
+      "produces": "Chianti Classico"
+    },
+    {
+      "produces": "Chianti Rufina"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "located_in": "Italy"
+    },
+    {
+      "grape_variety": "Sangiovese"
+    },
+    {
+      "region_has_wine": "Chianti Classico"
+    },
+    {
+      "region_has_wine": "Chianti"
+    },
+    {
+      "wine_style_is": "Red Wine"
+    },
+    {
+      "region_has_city": "Florence"
+    }
+  ]
+}

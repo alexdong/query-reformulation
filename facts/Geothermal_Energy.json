@@ -1,0 +1,47 @@
+{
+  "entity": "Geothermal Energy",
+  "properties": {
+    "type": "Renewable Energy",
+    "source": "Earth's Heat",
+    "availability": "Constant",
+    "environmental_impact": "Low",
+    "resource_location": "Volcanically Active Regions",
+    "temperature_range": "Variable",
+    "extraction_method": "Drilling",
+    "applications": "Electricity, Heating",
+    "efficiency": "Variable",
+    "cost": "High Initial, Low Operational"
+  },
+  "relationship": [
+    {
+      "part_of": "Renewable Energy"
+    },
+    {
+      "related_to": "Plate Tectonics"
+    },
+    {
+      "used_for": "Geothermal Power Plant"
+    },
+    {
+      "utilized_in": "District Heating"
+    },
+    {
+      "location": "Iceland"
+    },
+    {
+      "location": "New Zealand"
+    },
+    {
+      "location": "United States"
+    },
+    {
+      "impacts": "Greenhouse Gas Emissions"
+    },
+    {
+      "requires": "Geothermal Reservoir"
+    },
+    {
+      "alternative_to": "Fossil Fuels"
+    }
+  ]
+}

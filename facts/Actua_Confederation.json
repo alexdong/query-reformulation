@@ -1,0 +1,47 @@
+{
+  "entity": "Actua Confederation",
+  "properties": {
+    "instance_of": "Confederation",
+    "location": "Switzerland",
+    "formation_date": "1803",
+    "dissolution_date": "1848",
+    "capital": "Bern",
+    "official_language": "German",
+    "government_type": "Federal republic",
+    "area_km2": "19,079",
+    "population_peak": "397,722",
+    "predecessor": "Helvetic Republic"
+  },
+  "relationship": [
+    {
+      "part_of": "Swiss Confederacy"
+    },
+    {
+      "preceded_by": "Helvetic Republic"
+    },
+    {
+      "succeeded_by": "Federal State of Switzerland"
+    },
+    {
+      "member_state": "Bern Canton"
+    },
+    {
+      "member_state": "Lucerne Canton"
+    },
+    {
+      "member_state": "Uri Canton"
+    },
+    {
+      "member_state": "Schwyz Canton"
+    },
+    {
+      "member_state": "Obwalden Canton"
+    },
+    {
+      "member_state": "Nidwalden Canton"
+    },
+    {
+      "influenced": "Federalism"
+    }
+  ]
+}

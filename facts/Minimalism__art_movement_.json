@@ -1,0 +1,47 @@
+{
+  "entity": "Minimalism (art movement)",
+  "properties": {
+    "instance_of": "Art movement",
+    "origin": "United States",
+    "start_date": "1960s",
+    "founder": "Donald Judd",
+    "key_artist": "Sol LeWitt",
+    "style": "Reduction, Simplicity",
+    "medium": "Industrial materials",
+    "aesthetic": "Geometric, Objective",
+    "reaction_against": "Abstract expressionism",
+    "focus": "Objecthood"
+  },
+  "relationship": [
+    {
+      "influenced": "Conceptual art"
+    },
+    {
+      "influenced": "Land art"
+    },
+    {
+      "preceded_by": "Abstract expressionism"
+    },
+    {
+      "related_to": "Postminimalism"
+    },
+    {
+      "artist_works_in": "Donald Judd"
+    },
+    {
+      "artist_works_in": "Sol LeWitt"
+    },
+    {
+      "artist_works_in": "Dan Flavin"
+    },
+    {
+      "movement_associated_with": "New York School"
+    },
+    {
+      "influenced": "Contemporary art"
+    },
+    {
+      "exhibited_at": "Museum of Modern Art"
+    }
+  ]
+}

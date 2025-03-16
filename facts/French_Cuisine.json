@@ -1,0 +1,47 @@
+{
+  "entity": "French Cuisine",
+  "properties": {
+    "type": "Cuisine",
+    "origin": "France",
+    "style": "Refined, Regional",
+    "emphasis": "Sauces, Butter, Wine",
+    "historical_period": "Medieval to Modern",
+    "key_ingredient": "Butter, Cream, Herbs",
+    "global_influence": "High",
+    "UNESCO_status": "Intangible Cultural Heritage",
+    "signature_dish": "Boeuf Bourguignon",
+    "common_technique": "Braising, Reduction"
+  },
+  "relationship": [
+    {
+      "influenced": "Nouvelle Cuisine"
+    },
+    {
+      "influenced": "American Cuisine"
+    },
+    {
+      "part_of": "European Cuisine"
+    },
+    {
+      "regional_variation": "Provencal Cuisine"
+    },
+    {
+      "regional_variation": "Alsatian Cuisine"
+    },
+    {
+      "associated_with": "Michelin Star"
+    },
+    {
+      "uses_ingredient": "Wine"
+    },
+    {
+      "uses_ingredient": "Cheese"
+    },
+    {
+      "chef_associated": "Auguste Escoffier"
+    },
+    {
+      "chef_associated": "Julia Child"
+    }
+  ]
+}

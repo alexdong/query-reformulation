@@ -1,0 +1,47 @@
+{
+  "entity": "Suffolk",
+  "properties": {
+    "type": "County",
+    "country": "United Kingdom",
+    "region": "East of England",
+    "area_km2": "1979",
+    "population_2021": "243,747",
+    "historic_county": "Suffolk",
+    "unitary_authority": "Yes",
+    "latitude": "52.25",
+    "longitude": "1.33",
+    "official_website": "suffolk.gov.uk"
+  },
+  "relationship": [
+    {
+      "part_of": "England"
+    },
+    {
+      "borders": "Norfolk"
+    },
+    {
+      "borders": "Essex"
+    },
+    {
+      "borders": "Cambridgeshire"
+    },
+    {
+      "contains": "Ipswich"
+    },
+    {
+      "contains": "Felixstowe"
+    },
+    {
+      "contains": "Aldeburgh"
+    },
+    {
+      "river_flows_through": "River Deben"
+    },
+    {
+      "historical_event": "Battle of Stowmarket"
+    },
+    {
+      "associated_with": "Suffolk Punch"
+    }
+  ]
+}

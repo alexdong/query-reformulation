@@ -1,0 +1,44 @@
+{
+  "entity": "Openness",
+  "properties": {
+    "instance_of": "Personality trait",
+    "part_of": "Big Five personality traits",
+    "description": "Trust, curiosity, imagination",
+    "opposite_trait": "Closedness",
+    "measurement_scale": "Likert scale",
+    "related_to": "Intellect",
+    "facet_includes": "Values"
+  },
+  "relationship": [
+    {
+      "related_to": "Agreeableness"
+    },
+    {
+      "related_to": "Conscientiousness"
+    },
+    {
+      "related_to": "Extraversion"
+    },
+    {
+      "related_to": "Neuroticism"
+    },
+    {
+      "measured_by": "NEO-PI-R"
+    },
+    {
+      "influences": "Creativity"
+    },
+    {
+      "influences": "Learning"
+    },
+    {
+      "correlates_with": "Intellectual curiosity"
+    },
+    {
+      "impacts": "Adaptability"
+    },
+    {
+      "part_of": "Personality psychology"
+    }
+  ]
+}

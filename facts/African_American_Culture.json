@@ -1,0 +1,47 @@
+{
+  "entity": "African American Culture",
+  "properties": {
+    "origin": "Africa, United States",
+    "heritage": "African, European, Indigenous American",
+    "music_genre": "Blues, Jazz, Gospel, Hip Hop",
+    "dance_style": "Tap, Lindy Hop, Stepping",
+    "cuisine": "Soul Food, Southern Cuisine",
+    "literature": "Harlem Renaissance, Slave Narratives",
+    "art_form": "Quilting, Sculpture, Painting",
+    "language": "African American Vernacular English (AAVE)",
+    "values": "Community, Resilience, Family",
+    "historical_context": "Slavery, Civil Rights Movement"
+  },
+  "relationship": [
+    {
+      "influenced": "Jazz Music"
+    },
+    {
+      "influenced": "Hip Hop Music"
+    },
+    {
+      "influenced": "Blues Music"
+    },
+    {
+      "part_of": "American Culture"
+    },
+    {
+      "related_to": "Harlem Renaissance"
+    },
+    {
+      "related_to": "Civil Rights Movement"
+    },
+    {
+      "originates_from": "African Diaspora"
+    },
+    {
+      "impacted_by": "Slavery"
+    },
+    {
+      "features": "Soul Food"
+    },
+    {
+      "features": "Gospel Music"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Edwardian Era",
+  "properties": {
+    "start_year": "1901",
+    "end_year": "1910",
+    "preceding_era": "Victorian Era",
+    "succeeding_era": "World War I",
+    "monarch": "Edward VII",
+    "location": "United Kingdom",
+    "technology": "Automobiles, Electricity",
+    "social_class": "Rise of the Middle Class",
+    "fashion": "S-bend corset, long skirts",
+    "art_movement": "Impressionism, Post-Impressionism"
+  },
+  "relationship": [
+    {
+      "part_of": "20th Century"
+    },
+    {
+      "influenced": "Art Deco"
+    },
+    {
+      "influenced_by": "Victorian Era"
+    },
+    {
+      "contemporary_with": "Belle Époque"
+    },
+    {
+      "monarch_ruled": "Edward VII"
+    },
+    {
+      "preceded_by": "Victorian Era"
+    },
+    {
+      "followed_by": "World War I"
+    },
+    {
+      "affected_by": "Industrial Revolution"
+    },
+    {
+      "social_impact_on": "Women's Suffrage"
+    },
+    {
+      "architectural_style": "Edwardian Baroque"
+    }
+  ]
+}

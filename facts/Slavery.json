@@ -1,0 +1,47 @@
+{
+  "entity": "Slavery",
+  "properties": {
+    "definition": "Forced labor",
+    "historical_scope": "Global",
+    "legal_status": "Illegal (modern)",
+    "economic_impact": "Significant (historically)",
+    "moral_status": "Unethical",
+    "primary_resource": "Human labor",
+    "common_commodities": "Agricultural products, minerals",
+    "affected_population": "Millions",
+    "peak_period": "17th-19th centuries",
+    "abolition_date": "Varies by region"
+  },
+  "relationship": [
+    {
+      "caused_by": "Economic demand"
+    },
+    {
+      "related_to": "Transatlantic slave trade"
+    },
+    {
+      "influenced": "Abolitionism"
+    },
+    {
+      "oppressed": "Enslaved people"
+    },
+    {
+      "resulted_in": "Rebellions"
+    },
+    {
+      "associated_with": "Plantation system"
+    },
+    {
+      "impacted": "African diaspora"
+    },
+    {
+      "legislation": "Missouri Compromise"
+    },
+    {
+      "legislation": "Emancipation Proclamation"
+    },
+    {
+      "related_to": "Indentured servitude"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Ngāti Māmoe",
+  "properties": {
+    "type": "Iwi",
+    "origin": "Central North Island",
+    "ancestor": "Hotuāniwa",
+    "region": "Hawke's Bay, Taranaki, Waikato",
+    "language": "Te Reo Māori",
+    "traditional_occupation": "Agriculture, fishing",
+    "mana": "Significant",
+    "history": "Complex, intertwined with other iwi",
+    "genealogy": "Traced through multiple lines",
+    "contemporary_population": "Approximately 10,000"
+  },
+  "relationship": [
+    {
+      "descendant_of": "Hotuāniwa"
+    },
+    {
+      "related_to": "Ngāti Raukawa"
+    },
+    {
+      "related_to": "Ngāti Kahungunu"
+    },
+    {
+      "related_to": "Ngāti Tūwharetoa"
+    },
+    {
+      "settlement": "Te Mata Peak"
+    },
+    {
+      "location": "Hawke's Bay"
+    },
+    {
+      "location": "Taranaki"
+    },
+    {
+      "location": "Waikato"
+    },
+    {
+      "treaty_partner": "British Empire"
+    },
+    {
+      "significant_event": "Land confiscations"
+    }
+  ]
+}

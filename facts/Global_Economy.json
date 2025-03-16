@@ -1,0 +1,47 @@
+{
+  "entity": "Global Economy",
+  "properties": {
+    "type": "System",
+    "size": "Trillions USD",
+    "growth_rate": "Varies",
+    "major_players": "United States, China, EU",
+    "key_sectors": "Manufacturing, Services, Finance",
+    "trade_volume": "High",
+    "interdependence": "High",
+    "governance": "Complex",
+    "indicators": "GDP, Inflation, Unemployment",
+    "vulnerability": "Geopolitical events"
+  },
+  "relationship": [
+    {
+      "impacted_by": "Globalization"
+    },
+    {
+      "influenced_by": "International Trade"
+    },
+    {
+      "dependent_on": "Financial Markets"
+    },
+    {
+      "affected_by": "Geopolitics"
+    },
+    {
+      "regulated_by": "International Monetary Fund"
+    },
+    {
+      "monitored_by": "World Bank"
+    },
+    {
+      "impacts": "National Economies"
+    },
+    {
+      "linked_to": "Supply Chains"
+    },
+    {
+      "affected_by": "Technological Innovation"
+    },
+    {
+      "impacts": "Labor Markets"
+    }
+  ]
+}

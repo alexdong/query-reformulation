@@ -1,0 +1,47 @@
+{
+  "entity": "Kea",
+  "properties": {
+    "species": "Bird",
+    "family": "Parrot",
+    "conservation_status": "Vulnerable",
+    "native_to": "New Zealand",
+    "diet": "Omnivorous",
+    "wingspan": "64-77 cm",
+    "weight": "220-360 g",
+    "intelligence": "High",
+    "color": "Olive-green",
+    "habitat": "Mountain forests"
+  },
+  "relationship": [
+    {
+      "part_of": "Parrots"
+    },
+    {
+      "lives_in": "New Zealand"
+    },
+    {
+      "prey_on": "Insects"
+    },
+    {
+      "eats": "Fruits"
+    },
+    {
+      "threatened_by": "Predation"
+    },
+    {
+      "related_to": "Kakapo"
+    },
+    {
+      "related_to": "Kākā"
+    },
+    {
+      "studied_by": "Ornithology"
+    },
+    {
+      "found_in": "Southern Alps"
+    },
+    {
+      "behavior": "Playful"
+    }
+  ]
+}

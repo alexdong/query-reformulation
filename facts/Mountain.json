@@ -1,0 +1,47 @@
+{
+  "entity": "Mountain",
+  "properties": {
+    "instance_of": "Landform",
+    "elevation": "Variable",
+    "formation": "Tectonic, Volcanic, Erosion",
+    "composition": "Rock, Soil, Ice",
+    "slope": "Variable",
+    "aspect": "Variable",
+    "height_unit": "meters",
+    "area": "Variable",
+    "location": "Worldwide",
+    "type": "Geological Feature"
+  },
+  "relationship": [
+    {
+      "part_of": "Geosphere"
+    },
+    {
+      "contains": "Peak"
+    },
+    {
+      "formed_by": "Plate Tectonics"
+    },
+    {
+      "affected_by": "Erosion"
+    },
+    {
+      "covered_by": "Glacier"
+    },
+    {
+      "supports": "Ecosystem"
+    },
+    {
+      "found_in": "Mountain Range"
+    },
+    {
+      "adjacent_to": "Valley"
+    },
+    {
+      "influences": "Climate"
+    },
+    {
+      "provides": "Natural Resource"
+    }
+  ]
+}

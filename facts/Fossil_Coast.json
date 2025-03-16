@@ -1,0 +1,47 @@
+{
+  "entity": "Fossil Coast",
+  "properties": {
+    "type": "Geological Formation",
+    "location": "Oregon",
+    "age": "Eocene",
+    "rock_type": "Sandstone",
+    "formation_process": "Marine deposition",
+    "fossil_content": "Marine fossils",
+    "discovery_date": "19th century",
+    "area": "Approximately 200 square miles",
+    "elevation": "Varies, coastal",
+    "geological_era": "Paleogene"
+  },
+  "relationship": [
+    {
+      "part_of": "Oregon Coast Range"
+    },
+    {
+      "contains": "Fossilized marine life"
+    },
+    {
+      "located_in": "Tillamook County"
+    },
+    {
+      "adjacent_to": "Cape Meares"
+    },
+    {
+      "geological_period": "Eocene epoch"
+    },
+    {
+      "studied_by": "Geologists"
+    },
+    {
+      "contains_fossil": "Fish fossils"
+    },
+    {
+      "contains_fossil": "Shells"
+    },
+    {
+      "influenced_by": "Tectonic activity"
+    },
+    {
+      "erosion_caused_by": "Pacific Ocean"
+    }
+  ]
+}

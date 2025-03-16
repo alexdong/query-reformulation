@@ -1,0 +1,47 @@
+{
+  "entity": "Aves",
+  "properties": {
+    "instance_of": "Class",
+    "scientific_name": "Aves",
+    "common_name": "Birds",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "body_covering": "Feathers",
+    "mode_of_reproduction": "Oviparous",
+    "average_lifespan": "Variable",
+    "distribution": "Worldwide",
+    "metabolism": "Endothermic"
+  },
+  "relationship": [
+    {
+      "superclass": "Dinosauria"
+    },
+    {
+      "subclass": "Archosaurs"
+    },
+    {
+      "order": "Passeriformes"
+    },
+    {
+      "order": "Strigiformes"
+    },
+    {
+      "order": "Apodiformes"
+    },
+    {
+      "member_of": "Animal"
+    },
+    {
+      "has_part": "Wing"
+    },
+    {
+      "has_part": "Beak"
+    },
+    {
+      "prey_on": "Insects"
+    },
+    {
+      "habitat": "Forest"
+    }
+  ]
+}

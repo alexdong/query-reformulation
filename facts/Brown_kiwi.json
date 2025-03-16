@@ -1,0 +1,47 @@
+{
+  "entity": "Brown kiwi",
+  "properties": {
+    "scientific_name": "Apteryx mantelli",
+    "conservation_status": "Endangered",
+    "lifespan": "10-15 years",
+    "weight": "2-4 kg",
+    "height": "45-53 cm",
+    "diet": "Insects, worms, fruit",
+    "habitat": "Forest floor",
+    "nocturnal": true,
+    "endemic_to": "New Zealand",
+    "egg_size": "138 x 98 mm"
+  },
+  "relationship": [
+    {
+      "part_of": "Apteryx"
+    },
+    {
+      "lives_in": "New Zealand"
+    },
+    {
+      "threatened_by": "Predators"
+    },
+    {
+      "prey": "Insects"
+    },
+    {
+      "related_to": "Kiwi"
+    },
+    {
+      "conservation_effort": "Operation Nest Egg"
+    },
+    {
+      "has_feature": "Long beak"
+    },
+    {
+      "has_feature": "Flightless"
+    },
+    {
+      "is_a": "Bird"
+    },
+    {
+      "taxonomic_class": "Aves"
+    }
+  ]
+}

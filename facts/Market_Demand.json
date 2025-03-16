@@ -1,0 +1,47 @@
+{
+  "entity": "Market Demand",
+  "properties": {
+    "definition": "Quantity consumers desire",
+    "unit": "Units/Time Period",
+    "factor_affected_by": "Price, Income, Tastes",
+    "type": "Economic concept",
+    "law_governing": "Law of Demand",
+    "elasticity_measurement": "Price Elasticity of Demand",
+    "influenced_by_advertising": "Yes",
+    "related_to": "Supply",
+    "determines": "Price",
+    "category": "Microeconomics"
+  },
+  "relationship": [
+    {
+      "is_a": "Economic Indicator"
+    },
+    {
+      "related_to": "Consumer Behavior"
+    },
+    {
+      "influenced_by": "Marketing"
+    },
+    {
+      "affects": "Production"
+    },
+    {
+      "impacts": "Revenue"
+    },
+    {
+      "measured_by": "Market Research"
+    },
+    {
+      "related_to": "Utility"
+    },
+    {
+      "impacts": "Pricing Strategy"
+    },
+    {
+      "requires": "Consumer"
+    },
+    {
+      "linked_to": "Sales"
+    }
+  ]
+}

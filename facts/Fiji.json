@@ -1,0 +1,47 @@
+{
+  "entity": "Fiji",
+  "properties": {
+    "instance_of": "Country",
+    "capital": "Suva",
+    "official_languages": "Fijian, English, Hindi",
+    "continent": "Oceania",
+    "population_total": "936,469",
+    "currency": "Fijian dollar",
+    "area_km2": "18,274",
+    "government": "Parliamentary Republic",
+    "sovereignty": "1970",
+    "location": "South Pacific Ocean"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "located_in": "South Pacific Ocean"
+    },
+    {
+      "borders": "Tonga"
+    },
+    {
+      "has_dependency": "Rotuma"
+    },
+    {
+      "influenced_by": "Melanesia"
+    },
+    {
+      "influenced_by": "Polynesia"
+    },
+    {
+      "has_economy": "Tourism"
+    },
+    {
+      "has_economy": "Sugarcane"
+    },
+    {
+      "has_natural_resource": "Timber"
+    }
+  ]
+}

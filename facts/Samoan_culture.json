@@ -1,0 +1,47 @@
+{
+  "entity": "Samoan culture",
+  "properties": {
+    "location": "Samoa, American Samoa",
+    "language": "Samoan, English",
+    "religion": "Christianity (primarily)",
+    "social_structure": "Fa'a Samoa (The Samoan Way)",
+    "family_system": "Extended family (aiga)",
+    "traditional_art": "Tatau (tattoo), carving, weaving",
+    "music_genre": "Traditional Samoan music, contemporary music",
+    "cuisine": "Coconut-based dishes, seafood, taro",
+    "traditional_dance": "Siva, Taualuga",
+    "clothing": "Traditional lavalava, modern Western clothing"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian culture"
+    },
+    {
+      "influenced_by": "Austronesian culture"
+    },
+    {
+      "related_to": "Fa'a Samoa"
+    },
+    {
+      "shares_language_with": "Tongan culture"
+    },
+    {
+      "shares_cuisine_with": "Hawaiian cuisine"
+    },
+    {
+      "shares_dance_with": "Maori haka"
+    },
+    {
+      "shares_art_with": "Hawaiian tattooing"
+    },
+    {
+      "located_in": "Oceania"
+    },
+    {
+      "governed_by": "Government of Samoa"
+    },
+    {
+      "influenced": "Pacific Islander identity"
+    }
+  ]
+}

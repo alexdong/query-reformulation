@@ -1,0 +1,47 @@
+{
+  "entity": "Rap Music",
+  "properties": {
+    "genre": "Music Genre",
+    "origin": "Bronx, New York City",
+    "year_of_origin": "1970s",
+    "style": "Rhythmic Spoken Word",
+    "instrumentation": "Sampling, Drum Machines, Synthesizers",
+    "subgenre_examples": "Hip Hop, Trap, Conscious Rap",
+    "lyrical_themes": "Social Commentary, Storytelling, Personal Experiences",
+    "cultural_impact": "Significant",
+    "language": "Primarily English",
+    "performance_style": "MCing"
+  },
+  "relationship": [
+    {
+      "influenced": "Hip Hop Culture"
+    },
+    {
+      "preceded_by": "DJing"
+    },
+    {
+      "related_to": "Poetry"
+    },
+    {
+      "influenced": "Popular Music"
+    },
+    {
+      "artist_associated": "Jay-Z"
+    },
+    {
+      "artist_associated": "Kendrick Lamar"
+    },
+    {
+      "artist_associated": "Eminem"
+    },
+    {
+      "subgenre_of": "African American Music"
+    },
+    {
+      "has_element": "Beat"
+    },
+    {
+      "lyrical_content_focuses_on": "Social Issues"
+    }
+  ]
+}

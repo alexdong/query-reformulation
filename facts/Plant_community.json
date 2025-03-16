@@ -1,0 +1,47 @@
+{
+  "entity": "Plant community",
+  "properties": {
+    "definition": "Assemblage of plant species",
+    "scale": "Variable (micro to landscape)",
+    "drivers": "Climate, Soil, Topography",
+    "succession": "Dynamic process",
+    "composition": "Species abundance & diversity",
+    "structure": "Vertical & Horizontal arrangement",
+    "function": "Ecosystem services",
+    "classification": "Based on dominant species",
+    "distribution": "Geographically variable",
+    "example": "Forest, grassland, tundra"
+  },
+  "relationship": [
+    {
+      "part_of": "Ecosystem"
+    },
+    {
+      "influenced_by": "Climate"
+    },
+    {
+      "affects": "Soil"
+    },
+    {
+      "interacts_with": "Animal community"
+    },
+    {
+      "succession_stage": "Pioneer community"
+    },
+    {
+      "succession_stage": "Climax community"
+    },
+    {
+      "type": "Forest community"
+    },
+    {
+      "type": "Grassland community"
+    },
+    {
+      "type": "Tundra community"
+    },
+    {
+      "study_field": "Plant ecology"
+    }
+  ]
+}

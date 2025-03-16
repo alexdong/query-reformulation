@@ -1,0 +1,47 @@
+{
+  "entity": "Golden Gate Park",
+  "properties": {
+    "type": "Urban park",
+    "location": "San Francisco",
+    "area": "13.5 sq mi",
+    "established": "1870",
+    "designer": "Frederick Law Olmsted",
+    "elevation": "100 ft",
+    "features": "Museums, gardens, lakes",
+    "name_origin": "Golden Gate Strait",
+    "governing_body": "San Francisco Recreation and Park Department",
+    "visitor_count": "13 million annually"
+  },
+  "relationship": [
+    {
+      "part_of": "San Francisco"
+    },
+    {
+      "designed_by": "Frederick Law Olmsted"
+    },
+    {
+      "adjacent_to": "Pacific Ocean"
+    },
+    {
+      "contains": "Japanese Tea Garden"
+    },
+    {
+      "contains": "California Academy of Sciences"
+    },
+    {
+      "contains": "de Young Museum"
+    },
+    {
+      "contains": "Conservatory of Flowers"
+    },
+    {
+      "near": "Sunset District"
+    },
+    {
+      "influenced": "City planning"
+    },
+    {
+      "inspired": "Other urban parks"
+    }
+  ]
+}

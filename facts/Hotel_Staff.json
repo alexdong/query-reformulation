@@ -1,0 +1,47 @@
+{
+  "entity": "Hotel Staff",
+  "properties": {
+    "instance_of": "Occupation",
+    "industry": "Hospitality",
+    "skill": "Customer Service",
+    "responsibility": "Guest Satisfaction",
+    "work_environment": "Hotel",
+    "typical_tasks": "Check-in, Housekeeping, Food Service",
+    "required_skills": "Communication, Problem-solving",
+    "education_level": "Varies",
+    "salary_range": "Varies",
+    "union_membership": "Possible"
+  },
+  "relationship": [
+    {
+      "employs": "Hotel Management"
+    },
+    {
+      "reports_to": "Hotel Manager"
+    },
+    {
+      "interacts_with": "Guests"
+    },
+    {
+      "collaborates_with": "Housekeeping Staff"
+    },
+    {
+      "supports": "Hotel Operations"
+    },
+    {
+      "provides": "Room Service"
+    },
+    {
+      "maintains": "Hotel Cleanliness"
+    },
+    {
+      "handles": "Guest Complaints"
+    },
+    {
+      "follows": "Hotel Policies"
+    },
+    {
+      "trains": "New Employees"
+    }
+  ]
+}

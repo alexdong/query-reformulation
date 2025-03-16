@@ -1,0 +1,47 @@
+{
+  "entity": "Belle Époque",
+  "properties": {
+    "time_period": "Late 19th - Early 20th Century",
+    "location": "Europe, particularly France",
+    "approximate_dates": "1871-1914",
+    "meaning": "Beautiful Era",
+    "characterized_by": "Optimism, peace, prosperity",
+    "art_style": "Art Nouveau, Impressionism",
+    "technology": "Electricity, Automobiles, Telephones",
+    "social_class": "Rise of the Bourgeoisie",
+    "political_climate": "Relative Peace, Colonialism",
+    "music_genre": "Romantic Era, early 20th-century classical"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Second French Empire"
+    },
+    {
+      "followed_by": "World War I"
+    },
+    {
+      "influenced": "Art Nouveau"
+    },
+    {
+      "influenced": "Impressionism"
+    },
+    {
+      "associated_with": "Paris"
+    },
+    {
+      "associated_with": "France"
+    },
+    {
+      "related_to": "Industrial Revolution"
+    },
+    {
+      "influenced": "Modernism"
+    },
+    {
+      "associated_with_event": "Exposition Universelle (1889)"
+    },
+    {
+      "associated_with_person": "Jules Verne"
+    }
+  ]
+}

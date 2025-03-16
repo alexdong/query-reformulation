@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Economy",
+  "properties": {
+    "type": "Market economy",
+    "gdp_nominal": "248.3 billion USD (2022)",
+    "gdp_per_capita": "54,737 USD (2022)",
+    "currency": "New Zealand Dollar (NZD)",
+    "major_industries": "Agriculture, Tourism, Manufacturing, Services",
+    "trade_partner": "China, Australia, United States",
+    "inflation_rate": "7.2% (2022)",
+    "unemployment_rate": "3.8% (Q4 2022)",
+    "credit_rating": "AA (Moody's)",
+    "tax_system": "Progressive"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "member_of": "World Trade Organization"
+    },
+    {
+      "member_of": "APEC"
+    },
+    {
+      "exports_to": "China"
+    },
+    {
+      "imports_from": "Australia"
+    },
+    {
+      "influenced_by": "Globalization"
+    },
+    {
+      "dependent_on": "Tourism"
+    },
+    {
+      "regulates": "Reserve Bank of New Zealand"
+    },
+    {
+      "supports": "Agriculture"
+    },
+    {
+      "impacted_by": "COVID-19 pandemic"
+    }
+  ]
+}

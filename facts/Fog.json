@@ -1,0 +1,47 @@
+{
+  "entity": "Fog",
+  "properties": {
+    "type": "Meteorological phenomenon",
+    "formation": "Condensation",
+    "visibility": "Reduced",
+    "temperature": "Near saturation",
+    "altitude": "Ground to 1000m",
+    "composition": "Water droplets/ice crystals",
+    "radiation": "Can be radiative",
+    "dissipation": "Sunlight/wind",
+    "classification": "Stratus, advection, upslope",
+    "impact": "Transportation disruption"
+  },
+  "relationship": [
+    {
+      "part_of": "Weather"
+    },
+    {
+      "causes": "Reduced visibility"
+    },
+    {
+      "related_to": "Cloud"
+    },
+    {
+      "affects": "Transportation"
+    },
+    {
+      "occurs_in": "Coastal regions"
+    },
+    {
+      "type_of": "Suspended particulate"
+    },
+    {
+      "impacts": "Navigation"
+    },
+    {
+      "related_to": "Humidity"
+    },
+    {
+      "formation_process": "Condensation"
+    },
+    {
+      "example_location": "London fog"
+    }
+  ]
+}

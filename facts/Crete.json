@@ -1,0 +1,47 @@
+{
+  "entity": "Crete",
+  "properties": {
+    "type": "Island",
+    "location": "Mediterranean Sea",
+    "area": "8,336 km²",
+    "population": "630,000",
+    "capital": "Heraklion",
+    "highest_point": "Mount Ida",
+    "language": "Greek",
+    "currency": "Euro",
+    "part_of_country": "Greece",
+    "climate": "Mediterranean"
+  },
+  "relationship": [
+    {
+      "part_of": "Greece"
+    },
+    {
+      "located_in": "Mediterranean Sea"
+    },
+    {
+      "near": "Cyprus"
+    },
+    {
+      "influenced": "Minoan Civilization"
+    },
+    {
+      "has_region": "Chania"
+    },
+    {
+      "has_region": "Rethymno"
+    },
+    {
+      "has_region": "Lasithi"
+    },
+    {
+      "has_city": "Heraklion"
+    },
+    {
+      "has_city": "Chania"
+    },
+    {
+      "has_mountain": "Mount Ida"
+    }
+  ]
+}

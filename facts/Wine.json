@@ -1,0 +1,47 @@
+{
+  "entity": "Wine",
+  "properties": {
+    "instance_of": "Beverage",
+    "type": "Fermented drink",
+    "primary_ingredient": "Grapes",
+    "alcohol_content": "11-16%",
+    "color": "Red, White, Rosé",
+    "taste": "Varies",
+    "origin": "Ancient civilizations",
+    "serving_temperature": "Varies",
+    "acidity": "Varies",
+    "aging_potential": "Varies"
+  },
+  "relationship": [
+    {
+      "produced_in": "Viticulture"
+    },
+    {
+      "paired_with": "Food"
+    },
+    {
+      "contains": "Ethanol"
+    },
+    {
+      "related_to": "Grape"
+    },
+    {
+      "influenced_by": "Terroir"
+    },
+    {
+      "requires": "Wine cellar"
+    },
+    {
+      "classification": "Wine label"
+    },
+    {
+      "related_to": "Wine tasting"
+    },
+    {
+      "associated_with": "Wine region"
+    },
+    {
+      "impacts": "Human health"
+    }
+  ]
+}

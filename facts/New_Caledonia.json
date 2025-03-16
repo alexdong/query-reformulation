@@ -1,0 +1,47 @@
+{
+  "entity": "New Caledonia",
+  "properties": {
+    "type": "Territory",
+    "country": "France",
+    "capital": "Nouméa",
+    "population": "270,000",
+    "area_km2": "18,575",
+    "currency": "CFP Franc",
+    "official_languages": "French, Kanak",
+    "location": "South Pacific Ocean",
+    "largest_city": "Nouméa",
+    "geography": "Island"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "neighbor": "Vanuatu"
+    },
+    {
+      "neighbor": "Fiji"
+    },
+    {
+      "influenced_by": "French culture"
+    },
+    {
+      "has_language": "French language"
+    },
+    {
+      "has_language": "Kanak language"
+    },
+    {
+      "has_economy": "Agriculture"
+    },
+    {
+      "has_economy": "Tourism"
+    },
+    {
+      "has_biodiversity": "Great Barrier Reef"
+    }
+  ]
+}

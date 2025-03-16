@@ -1,0 +1,47 @@
+{
+  "entity": "Dartmouth College",
+  "properties": {
+    "type": "University",
+    "location": "Hanover, New Hampshire",
+    "founded": "1769",
+    "president": "Philip J. Hanauer",
+    "mascot": "Big Green",
+    "colors": "Green and White",
+    "endowment": "3.3 Billion USD",
+    "student_population": "6,700",
+    "academic_rating": "Ivy League",
+    "campus_size": "270 acres"
+  },
+  "relationship": [
+    {
+      "member_of": "Ivy League"
+    },
+    {
+      "located_in": "Grafton County"
+    },
+    {
+      "founded_by": "Eleazar Wheelock"
+    },
+    {
+      "predecessor": "Dartmouth Indian School"
+    },
+    {
+      "has_alumnus": "Jimmy Carter"
+    },
+    {
+      "has_alumnus": "Robert Frost"
+    },
+    {
+      "has_alumnus": "Neil deGrasse Tyson"
+    },
+    {
+      "offers_degree": "Bachelor's Degree"
+    },
+    {
+      "offers_degree": "Master's Degree"
+    },
+    {
+      "offers_degree": "Doctorate"
+    }
+  ]
+}

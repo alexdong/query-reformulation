@@ -1,0 +1,47 @@
+{
+  "entity": "Prebiotics",
+  "properties": {
+    "type": "Non-digestible food ingredient",
+    "function": "Promote beneficial bacteria",
+    "source": "Plants, microorganisms",
+    "chemical_class": "Oligosaccharides, Polysaccharides",
+    "examples": "Inulin, Fructo-oligosaccharides (FOS), Galacto-oligosaccharides (GOS)",
+    "health_benefit": "Improved gut health",
+    "digestion": "Resistant to digestion",
+    "absorption": "Not absorbed in the upper GI tract",
+    "fermentation": "Fermented by gut microbiota",
+    "discovery_year": "1950s"
+  },
+  "relationship": [
+    {
+      "part_of": "Dietary fiber"
+    },
+    {
+      "promotes": "Gut microbiota"
+    },
+    {
+      "found_in": "Fruits"
+    },
+    {
+      "found_in": "Vegetables"
+    },
+    {
+      "found_in": "Grains"
+    },
+    {
+      "impacts": "Immune system"
+    },
+    {
+      "influences": "Nutrient absorption"
+    },
+    {
+      "related_to": "Probiotics"
+    },
+    {
+      "improves": "Digestive health"
+    },
+    {
+      "studied_in": "Nutrition"
+    }
+  ]
+}

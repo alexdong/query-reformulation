@@ -1,0 +1,47 @@
+{
+  "entity": "Parthenon",
+  "properties": {
+    "type": "Temple",
+    "location": "Athens",
+    "architect": "Ictinus & Callicrates",
+    "construction_start": "447 BC",
+    "construction_end": "438 BC",
+    "deity_dedicated_to": "Athena",
+    "architectural_style": "Doric",
+    "material": "Marble",
+    "height": "46 meters",
+    "width": "69.5 meters"
+  },
+  "relationship": [
+    {
+      "part_of": "Acropolis of Athens"
+    },
+    {
+      "located_in": "Greece"
+    },
+    {
+      "architect": "Ictinus"
+    },
+    {
+      "architect": "Callicrates"
+    },
+    {
+      "dedicated_to": "Athena"
+    },
+    {
+      "influenced": "Neoclassical architecture"
+    },
+    {
+      "style": "Doric order"
+    },
+    {
+      "historical_period": "Classical Greece"
+    },
+    {
+      "destroyed_in": "1687"
+    },
+    {
+      "restoration_led_by": "William Wilkins"
+    }
+  ]
+}

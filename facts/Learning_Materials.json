@@ -1,0 +1,47 @@
+{
+  "entity": "Learning Materials",
+  "properties": {
+    "type": "Educational Resources",
+    "purpose": "Facilitate Learning",
+    "format": "Diverse (text, video, interactive)",
+    "target_audience": "Students, Learners",
+    "content_source": "Curriculum, Experts",
+    "assessment_integration": "Often Included",
+    "copyright": "Varies",
+    "accessibility": "Increasingly Important",
+    "delivery_method": "Online, Print, Blended",
+    "cost": "Varies"
+  },
+  "relationship": [
+    {
+      "supports": "Instructional Design"
+    },
+    {
+      "used_in": "Education"
+    },
+    {
+      "related_to": "Curriculum"
+    },
+    {
+      "created_by": "Educators"
+    },
+    {
+      "includes": "Textbooks"
+    },
+    {
+      "includes": "Videos"
+    },
+    {
+      "includes": "Worksheets"
+    },
+    {
+      "supports": "Pedagogy"
+    },
+    {
+      "aligned_with": "Learning Objectives"
+    },
+    {
+      "impacts": "Student Performance"
+    }
+  ]
+}

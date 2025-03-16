@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Transport Infrastructure",
+  "properties": {
+    "type": "Infrastructure",
+    "country": "New Zealand",
+    "total_road_length_km": "103000",
+    "rail_length_km": "420",
+    "ports": "Numerous",
+    "airport_count": "34",
+    "funding_source": "Government",
+    "primary_material": "Asphalt, Concrete",
+    "challenges": "Geographic Isolation, Seismic Activity",
+    "regulation_body": "NZ Transport Agency"
+  },
+  "relationship": [
+    {
+      "connects": "Cities"
+    },
+    {
+      "supports": "Tourism"
+    },
+    {
+      "facilitates": "Trade"
+    },
+    {
+      "impacted_by": "Earthquakes"
+    },
+    {
+      "part_of": "National Economy"
+    },
+    {
+      "managed_by": "NZ Transport Agency"
+    },
+    {
+      "includes": "State Highways"
+    },
+    {
+      "includes": "Local Roads"
+    },
+    {
+      "includes": "Ports of Auckland"
+    },
+    {
+      "includes": "Auckland International Airport"
+    }
+  ]
+}

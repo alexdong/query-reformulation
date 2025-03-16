@@ -1,0 +1,47 @@
+{
+  "entity": "Legend of Peggy",
+  "properties": {
+    "instance_of": "Animated series",
+    "creator": "Osamu Dezaki",
+    "genre": "Adventure, Fantasy, Comedy",
+    "production_company": "Sunrise",
+    "original_run": "1987",
+    "setting": "Fantasy world",
+    "protagonist": "Peggy",
+    "number_of_episodes": "52",
+    "language": "Japanese",
+    "adaptation_of": "Legend of the Galactic Heroes"
+  },
+  "relationship": [
+    {
+      "creator_of": "Osamu Dezaki"
+    },
+    {
+      "produced_by": "Sunrise"
+    },
+    {
+      "influenced": "Space Battleship Yamato"
+    },
+    {
+      "inspired_by": "Legend of the Galactic Heroes"
+    },
+    {
+      "character_appears": "Peggy Sass"
+    },
+    {
+      "character_appears": "Jura"
+    },
+    {
+      "character_appears": "Pinocrin"
+    },
+    {
+      "setting_in": "Fantasy world"
+    },
+    {
+      "genre_is": "Adventure"
+    },
+    {
+      "genre_is": "Comedy"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "French Colonial Empire",
+  "properties": {
+    "type": "Empire",
+    "area_km2": "13,700,000",
+    "start_date": "1604",
+    "end_date": "1962",
+    "capital": "Paris",
+    "language": "French",
+    "religion": "Christianity",
+    "governance": "Monarchy/Republic",
+    "largest_territory": "Algeria",
+    "decolonization_start": "1945"
+  },
+  "relationship": [
+    {
+      "part_of": "European Colonialism"
+    },
+    {
+      "influenced": "French Language"
+    },
+    {
+      "influenced": "French Culture"
+    },
+    {
+      "influenced": "Francophonie"
+    },
+    {
+      "colonized": "Algeria"
+    },
+    {
+      "colonized": "Vietnam"
+    },
+    {
+      "colonized": "Canada"
+    },
+    {
+      "influenced": "Louisiana"
+    },
+    {
+      "involved_in": "Scramble for Africa"
+    },
+    {
+      "preceded_by": "French Exploration"
+    }
+  ]
+}

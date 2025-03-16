@@ -1,0 +1,47 @@
+{
+  "entity": "Newfoundland and Labrador",
+  "properties": {
+    "type": "Province",
+    "country": "Canada",
+    "capital": "St. John's",
+    "area_km2": "356,424",
+    "population_2021": "516,000",
+    "official_language": "English",
+    "currency": "CAD",
+    "time_zone": "NST/NDT",
+    "established": "1839",
+    "geography": "Rocky coastline, tundra, boreal forest"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "located_in": "Atlantic Canada"
+    },
+    {
+      "border_with": "Quebec"
+    },
+    {
+      "governed_by": "Premier of Newfoundland and Labrador"
+    },
+    {
+      "member_of": "Council of the Federation"
+    },
+    {
+      "contains": "Gros Morne National Park"
+    },
+    {
+      "contains": "L'Anse aux Meadows"
+    },
+    {
+      "influenced_by": "British colonization"
+    },
+    {
+      "economy_based_on": "Fishing, Oil & Gas"
+    },
+    {
+      "culture_influenced_by": "Irish, French, Indigenous"
+    }
+  ]
+}

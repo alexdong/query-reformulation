@@ -1,0 +1,47 @@
+{
+  "entity": "United States Environmental Protection Agency",
+  "properties": {
+    "agency_type": "Executive",
+    "hq_location": "Washington, D.C.",
+    "established": "1970",
+    "purpose": "Environmental protection",
+    "administrator": "Michael Regan",
+    "budget_2023": "$12.3 billion",
+    "parent_agency": "Executive Office of the President",
+    "jurisdiction": "United States",
+    "mandate": "Laws & Regulations",
+    "website": "epa.gov"
+  },
+  "relationship": [
+    {
+      "regulates": "Pollution"
+    },
+    {
+      "enforces": "Clean Air Act"
+    },
+    {
+      "enforces": "Clean Water Act"
+    },
+    {
+      "collaborates_with": "State agencies"
+    },
+    {
+      "reports_to": "President of the United States"
+    },
+    {
+      "funds": "Environmental research"
+    },
+    {
+      "impacts": "Public health"
+    },
+    {
+      "addresses": "Climate change"
+    },
+    {
+      "part_of": "Federal government"
+    },
+    {
+      "oversees": "Superfund program"
+    }
+  ]
+}

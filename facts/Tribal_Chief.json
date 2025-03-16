@@ -1,0 +1,47 @@
+{
+  "entity": "Tribal Chief",
+  "properties": {
+    "instance_of": "Leadership role",
+    "function": "Decision-making",
+    "authority": "Community",
+    "responsibility": "Well-being",
+    "selection_method": "Varies",
+    "hereditary": "Sometimes",
+    "elected": "Sometimes",
+    "power_source": "Respect/Tradition",
+    "cultural_significance": "High",
+    "historical_presence": "Ancient"
+  },
+  "relationship": [
+    {
+      "represents": "Tribe"
+    },
+    {
+      "governs": "Territory"
+    },
+    {
+      "succession_follows": "Customs"
+    },
+    {
+      "advises": "Community members"
+    },
+    {
+      "negotiates_with": "Other tribes"
+    },
+    {
+      "maintains": "Traditions"
+    },
+    {
+      "resolves": "Disputes"
+    },
+    {
+      "leads": "Rituals"
+    },
+    {
+      "related_to": "Kinship system"
+    },
+    {
+      "influences": "Social structure"
+    }
+  ]
+}

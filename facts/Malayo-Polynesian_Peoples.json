@@ -1,0 +1,47 @@
+{
+  "entity": "Malayo-Polynesian Peoples",
+  "properties": {
+    "language_family": "Austronesian",
+    "geographic_area": "Maritime Southeast Asia, Pacific Ocean",
+    "population": "Over 500 million",
+    "origin": "Taiwan (Austronesia)",
+    "historical_period": "Prehistoric - Present",
+    "cultural_traits": "Maritime adaptation, ancestor veneration, elaborate tattoos",
+    "religion": "Animism, Hinduism, Buddhism, Christianity",
+    "social_structure": "Segmentary lineages, hierarchical systems",
+    "economic_activity": "Agriculture, fishing, trade",
+    "art_forms": "Wood carving, weaving, music, dance"
+  },
+  "relationship": [
+    {
+      "ancestral_group": "Austronesian peoples"
+    },
+    {
+      "migration_route": "Austronesian Migration"
+    },
+    {
+      "influenced_by": "Hinduism"
+    },
+    {
+      "influenced_by": "Buddhism"
+    },
+    {
+      "includes": "Malay people"
+    },
+    {
+      "includes": "Javanese people"
+    },
+    {
+      "includes": "Filipino people"
+    },
+    {
+      "includes": "Maori people"
+    },
+    {
+      "includes": "Samoan people"
+    },
+    {
+      "related_to": "Oceanic peoples"
+    }
+  ]
+}

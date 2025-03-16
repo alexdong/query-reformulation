@@ -1,0 +1,47 @@
+{
+  "entity": "Invercargill City River",
+  "properties": {
+    "type": "River",
+    "location": "Southland, New Zealand",
+    "flows_into": "Foveaux Strait",
+    "length": "13 km",
+    "source": "Otara River",
+    "municipality": "Invercargill",
+    "name_origin": "Māori",
+    "water_quality": "Variable",
+    "historical_use": "Transportation, Power",
+    "ecological_importance": "Habitat"
+  },
+  "relationship": [
+    {
+      "flows_through": "Invercargill"
+    },
+    {
+      "tributary_of": "Otara River"
+    },
+    {
+      "part_of": "Southland Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "adjacent_to": "Invercargill City Council"
+    },
+    {
+      "supports_ecosystem": "Freshwater ecosystem"
+    },
+    {
+      "used_by": "Māori"
+    },
+    {
+      "influenced_by": "Climate"
+    },
+    {
+      "impacted_by": "Urbanization"
+    },
+    {
+      "connected_to": "Foveaux Strait"
+    }
+  ]
+}

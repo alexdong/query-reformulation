@@ -1,0 +1,47 @@
+{
+  "entity": "Burgundy",
+  "properties": {
+    "type": "Region",
+    "country": "France",
+    "capital": "Dijon",
+    "area_km2": "31841",
+    "population_2020": "1832963",
+    "wine_region": "Yes",
+    "historical_region": "Yes",
+    "language": "French",
+    "currency": "Euro",
+    "time_zone": "CET"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "borders": "Franche-Comté"
+    },
+    {
+      "borders": "Bourgogne-Franche-Comté"
+    },
+    {
+      "borders": "Auvergne-Rhône-Alpes"
+    },
+    {
+      "produces": "Burgundy wine"
+    },
+    {
+      "has_city": "Dijon"
+    },
+    {
+      "has_city": "Beaune"
+    },
+    {
+      "historical_kingdom": "Kingdom of Burgundy"
+    },
+    {
+      "influenced": "French cuisine"
+    },
+    {
+      "river_flows_through": "Saône"
+    }
+  ]
+}

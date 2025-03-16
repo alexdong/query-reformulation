@@ -1,0 +1,47 @@
+{
+  "entity": "Baroque Architecture",
+  "properties": {
+    "style_of": "Architecture",
+    "period": "1600-1750",
+    "origin": "Rome, Italy",
+    "characterized_by": "Ornamentation, Drama, Emotion",
+    "influenced_by": "Renaissance, Mannerism",
+    "materials": "Stone, Marble, Stucco, Bronze",
+    "common_features": "Curved lines, Grand scale, Theatrics",
+    "purpose": "Express power, religious fervor",
+    "geographic_spread": "Europe, Latin America",
+    "decline": "Rococo"
+  },
+  "relationship": [
+    {
+      "influenced": "Rococo Architecture"
+    },
+    {
+      "preceded_by": "Renaissance Architecture"
+    },
+    {
+      "influenced": "Neoclassical Architecture"
+    },
+    {
+      "architect": "Gian Lorenzo Bernini"
+    },
+    {
+      "architect": "Francesco Borromini"
+    },
+    {
+      "architect": "Christopher Wren"
+    },
+    {
+      "example_building": "St. Peter's Basilica"
+    },
+    {
+      "example_building": "Palace of Versailles"
+    },
+    {
+      "example_building": "Zwinger Palace"
+    },
+    {
+      "part_of_movement": "Baroque"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Consumer Behavior",
+  "properties": {
+    "definition": "Study of decision-making",
+    "field_of": "Social Science",
+    "subfield_of": "Marketing",
+    "influenced_by": "Psychology",
+    "focus": "Purchase decisions",
+    "scope": "Cognitive & Emotional",
+    "models": "Decision-making models",
+    "data_sources": "Surveys, Experiments",
+    "key_concepts": "Motivation, Perception, Learning",
+    "application": "Marketing Strategy"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Psychology"
+    },
+    {
+      "related_to": "Marketing"
+    },
+    {
+      "uses": "Decision-making models"
+    },
+    {
+      "impacts": "Brand Loyalty"
+    },
+    {
+      "affects": "Purchase Intention"
+    },
+    {
+      "studies": "Consumer Psychology"
+    },
+    {
+      "analyzes": "Customer Journey"
+    },
+    {
+      "involves": "Cognitive Bias"
+    },
+    {
+      "impacts": "Sales"
+    },
+    {
+      "related_to": "Neuromarketing"
+    }
+  ]
+}

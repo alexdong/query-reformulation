@@ -1,0 +1,47 @@
+{
+  "entity": "American Culture",
+  "properties": {
+    "definition": "Values, beliefs, behaviors of US citizens",
+    "geographic_location": "United States",
+    "dominant_language": "English",
+    "primary_religion": "Christianity",
+    "economic_system": "Capitalism",
+    "political_system": "Representative Democracy",
+    "art_forms": "Jazz, Blues, Hollywood Cinema",
+    "food_staple": "Fast Food, BBQ",
+    "values": "Individualism, Freedom, Equality",
+    "historical_period": "Post-Colonial Era"
+  },
+  "relationship": [
+    {
+      "influenced_by": "European Culture"
+    },
+    {
+      "influenced_by": "African Culture"
+    },
+    {
+      "influenced_by": "Indigenous Cultures"
+    },
+    {
+      "impacts": "Global Culture"
+    },
+    {
+      "associated_with": "Hollywood"
+    },
+    {
+      "associated_with": "American Dream"
+    },
+    {
+      "associated_with": "Baseball"
+    },
+    {
+      "influenced": "Popular Music"
+    },
+    {
+      "shaped_by": "Immigration"
+    },
+    {
+      "part_of": "Western Culture"
+    }
+  ]
+}

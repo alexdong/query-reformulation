@@ -1,0 +1,47 @@
+{
+  "entity": "Mediterranean Sea",
+  "properties": {
+    "type": "Sea",
+    "area": "2.5 million km²",
+    "max_depth": "5,267 m",
+    "average_depth": "1,500 m",
+    "salinity": "38.2 ‰",
+    "location": "Europe, Africa, Asia",
+    "basin_type": "Intercontinental Sea",
+    "shore_countries": "21",
+    "major_rivers": "Nile, Po, Ebro",
+    "biodiversity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Atlantic Ocean"
+    },
+    {
+      "borders": "Europe"
+    },
+    {
+      "borders": "Africa"
+    },
+    {
+      "borders": "Asia"
+    },
+    {
+      "contains": "Sicily"
+    },
+    {
+      "contains": "Crete"
+    },
+    {
+      "contains": "Cyprus"
+    },
+    {
+      "connected_to": "Black Sea"
+    },
+    {
+      "climate_affects": "Southern Europe"
+    },
+    {
+      "historical_importance": "Ancient Greece"
+    }
+  ]
+}

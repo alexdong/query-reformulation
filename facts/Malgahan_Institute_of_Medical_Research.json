@@ -1,0 +1,47 @@
+{
+  "entity": "Malgahan Institute of Medical Research",
+  "properties": {
+    "type": "Research institute",
+    "location": "Colombo, Sri Lanka",
+    "focus": "Medical research",
+    "established": "1983",
+    "funding": "Government & International",
+    "director": "Dr. Colvin Gooneratne",
+    "affiliation": "University of Colombo",
+    "research_areas": "Tropical diseases, Immunology",
+    "website": "http://www.mimr.lk/",
+    "legal_status": "Non-profit"
+  },
+  "relationship": [
+    {
+      "located_in": "Colombo"
+    },
+    {
+      "country": "Sri Lanka"
+    },
+    {
+      "part_of": "University of Colombo"
+    },
+    {
+      "research_focus": "Tropical medicine"
+    },
+    {
+      "research_focus": "Immunology"
+    },
+    {
+      "funded_by": "Government of Sri Lanka"
+    },
+    {
+      "funded_by": "World Health Organization"
+    },
+    {
+      "collaborates_with": "Medical research institutions"
+    },
+    {
+      "conducts_research_on": "Dengue fever"
+    },
+    {
+      "publication": "Sri Lanka Journal of Tropical Medicine"
+    }
+  ]
+}

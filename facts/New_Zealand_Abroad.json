@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Abroad",
+  "properties": {
+    "instance_of": "Television series",
+    "genre": "Travel documentary",
+    "presenter": "Jeremy Wells",
+    "production_company": "TVNZ",
+    "country_of_origin": "New Zealand",
+    "start_date": "2019",
+    "language": "English",
+    "format": "Documentary series",
+    "distribution_platform": "TVNZ OnDemand",
+    "focus": "Travel and Culture"
+  },
+  "relationship": [
+    {
+      "presented_by": "Jeremy Wells"
+    },
+    {
+      "produced_by": "TVNZ"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "genre": "Travel"
+    },
+    {
+      "genre": "Documentary"
+    },
+    {
+      "location_visited": "Fiji"
+    },
+    {
+      "location_visited": "Samoa"
+    },
+    {
+      "location_visited": "Tonga"
+    },
+    {
+      "distribution_platform": "TVNZ OnDemand"
+    },
+    {
+      "influenced_by": "Travel documentary"
+    }
+  ]
+}

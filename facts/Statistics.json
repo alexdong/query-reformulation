@@ -1,0 +1,47 @@
+{
+  "entity": "Statistics",
+  "properties": {
+    "instance_of": "Mathematical discipline",
+    "field_of_study": "Data Science",
+    "related_to": "Probability theory",
+    "application": "Data analysis",
+    "branch_of": "Mathematics",
+    "purpose": "Data interpretation",
+    "key_concept": "Statistical inference",
+    "methodology": "Hypothesis testing",
+    "tool": "Statistical software",
+    "historical_origin": "18th century"
+  },
+  "relationship": [
+    {
+      "subfield_of": "Mathematics"
+    },
+    {
+      "related_to": "Probability theory"
+    },
+    {
+      "uses": "Regression analysis"
+    },
+    {
+      "employs": "Descriptive statistics"
+    },
+    {
+      "requires": "Data collection"
+    },
+    {
+      "influences": "Machine learning"
+    },
+    {
+      "application_in": "Social sciences"
+    },
+    {
+      "application_in": "Natural sciences"
+    },
+    {
+      "pioneered_by": "Karl Pearson"
+    },
+    {
+      "related_concept": "Statistical significance"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "New Brunswick",
+  "properties": {
+    "type": "Province",
+    "country": "Canada",
+    "capital": "Fredericton",
+    "population_2021": "800,597",
+    "area_km2": "81,100",
+    "official_languages": "English, French",
+    "currency": "Canadian Dollar",
+    "time_zone": "Atlantic Time",
+    "founding_date": "1784",
+    "largest_city": "Moncton"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "located_in": "Atlantic Canada"
+    },
+    {
+      "border_country": "United States"
+    },
+    {
+      "adjacent_to": "Quebec"
+    },
+    {
+      "border_province": "Nova Scotia"
+    },
+    {
+      "governed_by": "Premier of New Brunswick"
+    },
+    {
+      "member_of": "Council of the Federation"
+    },
+    {
+      "has_industry": "Fishing"
+    },
+    {
+      "has_industry": "Forestry"
+    },
+    {
+      "has_landmark": "Hopewell Rocks"
+    }
+  ]
+}

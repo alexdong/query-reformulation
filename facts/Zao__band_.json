@@ -1,0 +1,51 @@
+{
+  "entity": "Zao (band)",
+  "properties": {
+    "genre": "Post-hardcore",
+    "origin": "Oakland, California",
+    "formed_in": "1995",
+    "members": "Dan Yemin, Sean Newton, Chris Alfieri, Logan Li",
+    "label": "Ipecac Recordings",
+    "associated_acts": "Converge, The Fall of Troy",
+    "website": "zaoband.com",
+    "style": "Aggressive, Emotional",
+    "influence": "Sunny Day Real Estate, Quicksand",
+    "notable_albums": "Where Good Leads to Bad, The Doubt Process"
+  },
+  "relationship": [
+    {
+      "influenced": "Birds in Row"
+    },
+    {
+      "influenced": "Touché Toussaint"
+    },
+    {
+      "label_affiliated": "Ipecac Recordings"
+    },
+    {
+      "member_instrument": "Dan Yemin",
+      "instrument": "Guitar, Vocals"
+    },
+    {
+      "member_instrument": "Sean Newton",
+      "instrument": "Drums"
+    },
+    {
+      "member_instrument": "Chris Alfieri",
+      "instrument": "Bass"
+    },
+    {
+      "member_instrument": "Logan Li",
+      "instrument": "Bass"
+    },
+    {
+      "genre_associated": "Post-hardcore"
+    },
+    {
+      "influenced_by": "Sunny Day Real Estate"
+    },
+    {
+      "influenced_by": "Quicksand"
+    }
+  ]
+}

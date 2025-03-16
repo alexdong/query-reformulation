@@ -1,0 +1,47 @@
+{
+  "entity": "Ocean",
+  "properties": {
+    "instance_of": "Body of water",
+    "type": "Saltwater",
+    "avg_depth": "3,688 m",
+    "max_depth": "10,929 m",
+    "surface_area": "361.9 million km²",
+    "salinity": "3.5 %",
+    "covers": "70.8% of Earth",
+    "temperature": "Varies",
+    "contains": "97% of Earth's water",
+    "color": "Blue"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Marine life"
+    },
+    {
+      "adjacent_to": "Continent"
+    },
+    {
+      "influences": "Climate"
+    },
+    {
+      "connected_to": "Sea"
+    },
+    {
+      "supports": "Marine ecosystem"
+    },
+    {
+      "impacts": "Weather"
+    },
+    {
+      "source_of": "Tides"
+    },
+    {
+      "currents": "Ocean current"
+    },
+    {
+      "contains": "Seafloor"
+    }
+  ]
+}

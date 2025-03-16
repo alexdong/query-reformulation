@@ -1,0 +1,47 @@
+{
+  "entity": "National Science Foundation",
+  "properties": {
+    "agency_type": "Independent agency",
+    "established": "1950",
+    "headquarters_location": "Arlington, Virginia",
+    "purpose": "Promote science and engineering",
+    "budget_2023": "$9.2 billion",
+    "director": "Subra Suresh",
+    "jurisdiction": "United States",
+    "funding_source": "U.S. Congress",
+    "website": "nsf.gov",
+    "parent_agency": "Department of Commerce"
+  },
+  "relationship": [
+    {
+      "funds": "Research"
+    },
+    {
+      "supports": "STEM education"
+    },
+    {
+      "collaborates_with": "Universities"
+    },
+    {
+      "oversees": "Research grants"
+    },
+    {
+      "awards": "NSF Fellowships"
+    },
+    {
+      "reports_to": "President of the United States"
+    },
+    {
+      "part_of": "United States government"
+    },
+    {
+      "related_to": "Science"
+    },
+    {
+      "related_to": "Engineering"
+    },
+    {
+      "member_of": "Federal Research and Development Agencies"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Regional Cuisine",
+  "properties": {
+    "definition": "Food traditions of a region",
+    "influenced_by": "Local ingredients",
+    "reflects": "Cultural heritage",
+    "shaped_by": "Climate & Geography",
+    "often_includes": "Traditional recipes",
+    "tied_to": "Specific locations",
+    "varies_by": "Geographic area",
+    "often_features": "Unique cooking techniques",
+    "preserves": "Historical practices",
+    "impacted_by": "Migration patterns"
+  },
+  "relationship": [
+    {
+      "is_example_of": "Cuisine"
+    },
+    {
+      "originates_in": "Geographic Region"
+    },
+    {
+      "uses_ingredient": "Local Produce"
+    },
+    {
+      "influenced_by": "Historical Events"
+    },
+    {
+      "associated_with": "Cultural Identity"
+    },
+    {
+      "prepared_with": "Traditional Cooking Methods"
+    },
+    {
+      "shares_characteristics_with": "National Cuisine"
+    },
+    {
+      "promotes": "Gastronomy Tourism"
+    },
+    {
+      "example_region": "Tuscany"
+    },
+    {
+      "example_region": "Louisiana"
+    }
+  ]
+}

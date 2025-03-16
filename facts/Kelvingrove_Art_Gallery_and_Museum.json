@@ -1,0 +1,47 @@
+{
+  "entity": "Kelvingrove Art Gallery and Museum",
+  "properties": {
+    "location": "Glasgow",
+    "architect": "William Fairbairn",
+    "opening_date": "1901",
+    "building_style": "Baronial",
+    "collection_size": "22,000+",
+    "governing_body": "Glasgow City Council",
+    "area": "27 acres",
+    "designation": "Museum",
+    "art_focus": "Diverse",
+    "exhibits_include": "Art, Natural History, Archaeology"
+  },
+  "relationship": [
+    {
+      "located_in": "Glasgow City"
+    },
+    {
+      "part_of": "Glasgow Museums"
+    },
+    {
+      "architectural_style": "Scottish Baronial Revival"
+    },
+    {
+      "collection_includes": "David Livingstone artifacts"
+    },
+    {
+      "exhibits": "Salvator Mundi"
+    },
+    {
+      "exhibits": "Prehistoric animal skeletons"
+    },
+    {
+      "influenced_by": "Arts and Crafts movement"
+    },
+    {
+      "funding_source": "City of Glasgow"
+    },
+    {
+      "visitor_attraction": "Glasgow"
+    },
+    {
+      "has_work": "Sir William Blake's 'The Bathers'"
+    }
+  ]
+}

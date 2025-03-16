@@ -1,0 +1,47 @@
+{
+  "entity": "Ofa Tu'ungafasi",
+  "properties": {
+    "birth_date": "1995-03-23",
+    "birth_place": "Nukuʻalofa, Tonga",
+    "nationality": "Tongan",
+    "position": "Prop",
+    "height": "1.93 m",
+    "weight": "115 kg",
+    "current_team": "Crusaders",
+    "super_league_debut": "2014",
+    "rugby_number": "3",
+    "international_team": "Tonga national rugby team"
+  },
+  "relationship": [
+    {
+      "plays_for": "Crusaders"
+    },
+    {
+      "plays_for": "Tonga national rugby team"
+    },
+    {
+      "born_in": "Nukuʻalofa"
+    },
+    {
+      "position_played": "Prop"
+    },
+    {
+      "national_team_member_of": "Tonga"
+    },
+    {
+      "competition": "Super Rugby"
+    },
+    {
+      "competition": "Rugby World Cup"
+    },
+    {
+      "plays_in_league": "New Zealand National Rugby Championship"
+    },
+    {
+      "influenced_by": "Graham Raki"
+    },
+    {
+      "team_coach": "Scott Robertson"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Māori Art",
+  "properties": {
+    "type": "Visual Art",
+    "origin": "Aotearoa (New Zealand)",
+    "culture": "Māori Culture",
+    "materials": "Wood, Stone, Fibre, Bone, Shell",
+    "purpose": "Spiritual, Decorative, Storytelling",
+    "style": "Stylized, Symbolic, Abstract",
+    "period": "Pre-European - Present",
+    "tradition": "Oral Tradition, Whakapapa (Genealogy)",
+    "protection": "Intellectual Property, Cultural Sensitivity",
+    "themes": "Ancestry, Nature, Spirituality"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Polynesian Art"
+    },
+    {
+      "part_of": "Tangible Cultural Heritage"
+    },
+    {
+      "related_to": "Whakapapa (Genealogy)"
+    },
+    {
+      "example_of": "Carving (Whakairo)"
+    },
+    {
+      "example_of": "Tā moko (Māori Tattoo)"
+    },
+    {
+      "example_of": "Raranga (Weaving)"
+    },
+    {
+      "associated_with": "Marae (Meeting Ground)"
+    },
+    {
+      "depicts": "Atua (Gods/Spirits)"
+    },
+    {
+      "used_in": "Ceremonial Practices"
+    },
+    {
+      "preserved_by": "Museums"
+    }
+  ]
+}

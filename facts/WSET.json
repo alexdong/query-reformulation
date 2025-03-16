@@ -1,0 +1,47 @@
+{
+  "entity": "WSET",
+  "properties": {
+    "acronym_stands_for": "Wine & Spirit Education Trust",
+    "type": "Educational organization",
+    "founded": "1966",
+    "hq_location": "London, UK",
+    "focus": "Wine and spirit education",
+    "levels_offered": "1-4 (Wine), 1-3 (Spirits)",
+    "target_audience": "Industry professionals, enthusiasts",
+    "certification_recognized_by": "Global wine industry",
+    "governing_body": "WSET Global",
+    "website": "wsetglobal.com"
+  },
+  "relationship": [
+    {
+      "provides": "Wine education"
+    },
+    {
+      "provides": "Spirit education"
+    },
+    {
+      "member_of": "British Accreditation Service (BAS)"
+    },
+    {
+      "located_in": "United Kingdom"
+    },
+    {
+      "has_program": "WSET Level 1 Award in Wines"
+    },
+    {
+      "has_program": "WSET Level 2 Award in Wines"
+    },
+    {
+      "has_program": "WSET Level 3 Award in Wines"
+    },
+    {
+      "has_program": "WSET Level 4 Diploma in Wines"
+    },
+    {
+      "influences": "Wine industry professionals"
+    },
+    {
+      "partner_with": "Wine schools"
+    }
+  ]
+}

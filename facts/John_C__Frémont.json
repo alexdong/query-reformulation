@@ -1,0 +1,47 @@
+{
+  "entity": "John C. Frémont",
+  "properties": {
+    "birth_date": "1813-11-21",
+    "birth_place": "Savannah, Georgia",
+    "death_date": "1890-07-14",
+    "death_place": "New York City",
+    "occupation": "Explorer, Soldier, Politician",
+    "nationality": "American",
+    "spouse": "Jesse Bennett Fremont",
+    "children": "6",
+    "military_rank": "Major General",
+    "political_party": "Republican"
+  },
+  "relationship": [
+    {
+      "explorer_of": "California"
+    },
+    {
+      "military_service_in": "Mexican-American War"
+    },
+    {
+      "governor_of": "California"
+    },
+    {
+      "candidate_for": "U.S. President"
+    },
+    {
+      "member_of": "Pathfinders Expedition"
+    },
+    {
+      "led_expedition": "Frémont Expedition"
+    },
+    {
+      "influenced": "American West Expansion"
+    },
+    {
+      "father_of": "David Winfield Fremont"
+    },
+    {
+      "served_with": "Kit Carson"
+    },
+    {
+      "involved_in": "Bear Flag Revolt"
+    }
+  ]
+}

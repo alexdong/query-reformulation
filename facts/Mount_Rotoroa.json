@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Rotoroa",
+  "properties": {
+    "type": "Volcano",
+    "location": "North Island, New Zealand",
+    "elevation": "1177 m",
+    "geological_setting": "Taupō Volcanic Zone",
+    "formation_date": "Pleistocene",
+    "volcanic_status": "Dormant",
+    "rock_type": "Rhyolite",
+    "eruption_style": "Phreatic",
+    "part_of": "Repau Repau Volcanic Complex",
+    "latitude": "-38.5667"
+  },
+  "relationship": [
+    {
+      "located_in": "North Island"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_near": "Lake Taupō"
+    },
+    {
+      "geological_region": "Taupō Volcanic Zone"
+    },
+    {
+      "tectonic_setting": "Pacific Plate"
+    },
+    {
+      "eruption_history": "Pleistocene Epoch"
+    },
+    {
+      "volcanic_arc": "Alpine Fault"
+    },
+    {
+      "neighboring_volcano": "Mount Ngauruhoe"
+    },
+    {
+      "geological_feature": "Repau Repau Volcanic Complex"
+    },
+    {
+      "influenced_by": "Plate Tectonics"
+    }
+  ]
+}

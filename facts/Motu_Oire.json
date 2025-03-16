@@ -1,0 +1,47 @@
+{
+  "entity": "Motu Oire",
+  "properties": {
+    "type": "Island",
+    "location": "French Polynesia",
+    "archipelago": "Tuamotu",
+    "area": "2.63 km²",
+    "elevation": "18 m",
+    "country": "France",
+    "uninhabited": true,
+    "latitude": "-18.4833",
+    "longitude": "-144.75",
+    "geological_type": "Volcanic"
+  },
+  "relationship": [
+    {
+      "part_of": "Tuamotu Archipelago"
+    },
+    {
+      "located_in": "French Polynesia"
+    },
+    {
+      "country": "France"
+    },
+    {
+      "archipelago_member": "Tuamotu"
+    },
+    {
+      "near": "Ahe Atoll"
+    },
+    {
+      "near": "Roto Atoll"
+    },
+    {
+      "near": "Niau Atoll"
+    },
+    {
+      "part_of_region": "Pacific Ocean"
+    },
+    {
+      "has_coordinate": "18.4833° S"
+    },
+    {
+      "has_coordinate": "-144.75° W"
+    }
+  ]
+}

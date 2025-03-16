@@ -1,0 +1,47 @@
+{
+  "entity": "Metalcore",
+  "properties": {
+    "genre": "Musical genre",
+    "origin": "United States",
+    "subgenre_of": "Metal",
+    "influenced_by": "Hardcore punk",
+    "typical_instruments": "Electric guitar, Bass guitar, Drums, Vocals",
+    "vocal_style": "Screaming, Clean vocals",
+    "era": "2000s-present",
+    "key_characteristics": "Aggressive riffs, Melodic choruses",
+    "popularity": "Significant",
+    "related_genres": "Post-hardcore, Deathcore"
+  },
+  "relationship": [
+    {
+      "influenced": "Post-hardcore"
+    },
+    {
+      "influenced_by": "Hardcore punk"
+    },
+    {
+      "influenced_by": "Metal"
+    },
+    {
+      "related_to": "Deathcore"
+    },
+    {
+      "related_to": "Emo"
+    },
+    {
+      "band_member": "August Burns Red"
+    },
+    {
+      "band_member": "Killswitch Engage"
+    },
+    {
+      "band_member": "Architects"
+    },
+    {
+      "subgenre_of": "Heavy metal"
+    },
+    {
+      "influenced": "Djent"
+    }
+  ]
+}

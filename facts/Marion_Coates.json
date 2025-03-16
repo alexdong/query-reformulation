@@ -1,0 +1,47 @@
+{
+  "entity": "Marion Coates",
+  "properties": {
+    "birth_date": "1917-08-28",
+    "death_date": "2017-09-03",
+    "birth_place": "Wolverhampton",
+    "nationality": "British",
+    "occupation": "Nurse",
+    "spouse": "John Coates",
+    "children": "2",
+    "honour": "British Empire Medal",
+    "service_role": "WWII Nurse",
+    "age_at_death": "100"
+  },
+  "relationship": [
+    {
+      "married_to": "John Coates"
+    },
+    {
+      "served_in": "World War II"
+    },
+    {
+      "recipient_of": "British Empire Medal"
+    },
+    {
+      "born_in": "Wolverhampton"
+    },
+    {
+      "died_in": "Wolverhampton"
+    },
+    {
+      "role": "Nurse"
+    },
+    {
+      "family_member_of": "Coates family"
+    },
+    {
+      "contributor_to": "NHS"
+    },
+    {
+      "influenced_by": "Florence Nightingale"
+    },
+    {
+      "part_of": "British Nursing"
+    }
+  ]
+}

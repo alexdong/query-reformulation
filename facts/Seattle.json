@@ -1,0 +1,47 @@
+{
+  "entity": "Seattle",
+  "properties": {
+    "capital_of": "Washington",
+    "population_2023": "753,675",
+    "founded": "1851",
+    "area_sq_mi": "83.4",
+    "major_industry": "Technology",
+    "climate": "Oceanic",
+    "nickname": "Emerald City",
+    "location": "Pacific Northwest",
+    "time_zone": "Pacific Time",
+    "elevation_ft": "274"
+  },
+  "relationship": [
+    {
+      "part_of": "Washington State"
+    },
+    {
+      "located_in": "United States"
+    },
+    {
+      "neighbor_of": "Bellevue"
+    },
+    {
+      "influenced_by": "Pioneer Square"
+    },
+    {
+      "has_landmark": "Space Needle"
+    },
+    {
+      "has_sport_team": "Seattle Seahawks"
+    },
+    {
+      "has_sport_team": "Seattle Mariners"
+    },
+    {
+      "has_sport_team": "Seattle Kraken"
+    },
+    {
+      "has_sport_team": "Seattle Sounders FC"
+    },
+    {
+      "founded_by": "Arthur Denny"
+    }
+  ]
+}

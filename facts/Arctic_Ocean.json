@@ -1,0 +1,47 @@
+{
+  "entity": "Arctic Ocean",
+  "properties": {
+    "type": "Ocean",
+    "area": "14,060,000 km²",
+    "average_depth": "1,205 m",
+    "max_depth": "5,554 m",
+    "salinity": "32–37 ppt",
+    "temperature": "−2 °C (28 °F)",
+    "location": "Arctic region",
+    "covers": "North Pole",
+    "borders": "North America, Eurasia",
+    "ice_coverage": "40% (seasonal)"
+  },
+  "relationship": [
+    {
+      "part_of": "World Ocean"
+    },
+    {
+      "adjacent_to": "Atlantic Ocean"
+    },
+    {
+      "adjacent_to": "Pacific Ocean"
+    },
+    {
+      "contains": "North Pole"
+    },
+    {
+      "flows_into": "Atlantic Ocean"
+    },
+    {
+      "flows_into": "Pacific Ocean"
+    },
+    {
+      "has_current": "Transpolar Drift"
+    },
+    {
+      "borders": "Greenland"
+    },
+    {
+      "borders": "Russia"
+    },
+    {
+      "supports": "Arctic ecosystem"
+    }
+  ]
+}

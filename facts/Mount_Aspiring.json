@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Aspiring",
+  "properties": {
+    "type": "Mountain",
+    "elevation": "3064 m",
+    "location": "South Island, New Zealand",
+    "mountain_range": "Southern Alps",
+    "named_after": "Robert F. Aspiring",
+    "first_ascent": "1894",
+    "national_park": "Fiordland National Park",
+    "rock_type": "Granite",
+    "glacier": "Darwin Glacier",
+    "designation": "UNESCO World Heritage Site"
+  },
+  "relationship": [
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "located_in": "Fiordland National Park"
+    },
+    {
+      "region": "Otago"
+    },
+    {
+      "near": "Milford Sound"
+    },
+    {
+      "near": "Lake Wanaka"
+    },
+    {
+      "climbed_by": "Bernard Cannam"
+    },
+    {
+      "climbed_by": "Angus MacDonald"
+    },
+    {
+      "contains": "Darwin Glacier"
+    },
+    {
+      "part_of": "Te Wahipounamu"
+    },
+    {
+      "influenced_by": "Robert F. Aspiring"
+    }
+  ]
+}

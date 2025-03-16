@@ -1,0 +1,47 @@
+{
+  "entity": "Victoria Land",
+  "properties": {
+    "type": "Landmass",
+    "location": "Antarctica",
+    "area": "160000 km²",
+    "named_after": "Queen Victoria",
+    "discovery_year": "1841",
+    "discovered_by": "James Clark Ross",
+    "geological_feature": "Volcanic",
+    "climate": "Polar",
+    "highest_point": "Mount Erebus",
+    "part_of": "Ross Dependency"
+  },
+  "relationship": [
+    {
+      "located_in": "Antarctica"
+    },
+    {
+      "adjacent_to": "Ross Sea"
+    },
+    {
+      "adjacent_to": "McMurdo Sound"
+    },
+    {
+      "contains": "Mount Erebus"
+    },
+    {
+      "contains": "Drygalski Fjord"
+    },
+    {
+      "part_of": "Ross Dependency"
+    },
+    {
+      "named_after": "Queen Victoria"
+    },
+    {
+      "explored_by": "James Clark Ross"
+    },
+    {
+      "geology_type": "Volcanic"
+    },
+    {
+      "neighboring_land": "Marie Byrd Land"
+    }
+  ]
+}

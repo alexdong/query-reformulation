@@ -1,0 +1,47 @@
+{
+  "entity": "Geography",
+  "properties": {
+    "instance_of": "Academic discipline",
+    "field_of_study": "Earth sciences",
+    "subfield": "Physical geography, Human geography",
+    "focus": "Earth's surface, human populations",
+    "methodology": "Spatial analysis, cartography",
+    "related_to": "Geology, Sociology",
+    "origin": "Ancient Greece",
+    "key_concept": "Location, place, region, movement, interaction",
+    "scale": "Global, regional, local",
+    "application": "Urban planning, environmental management"
+  },
+  "relationship": [
+    {
+      "studies": "Physical geography"
+    },
+    {
+      "studies": "Human geography"
+    },
+    {
+      "related_to": "Cartography"
+    },
+    {
+      "related_to": "Geology"
+    },
+    {
+      "related_to": "Climatology"
+    },
+    {
+      "influenced_by": "Eratosthenes"
+    },
+    {
+      "influenced_by": "Alexander von Humboldt"
+    },
+    {
+      "uses": "GIS"
+    },
+    {
+      "studies_phenomena_in": "Biogeography"
+    },
+    {
+      "studies_phenomena_in": "Political geography"
+    }
+  ]
+}

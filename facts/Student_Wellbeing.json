@@ -1,0 +1,47 @@
+{
+  "entity": "Student Wellbeing",
+  "properties": {
+    "definition": "Holistic health of students",
+    "includes": "Mental health, Physical health, Social-emotional wellbeing",
+    "impacts": "Academic performance, Attendance, Retention",
+    "affected_by": "Stress, Trauma, Social isolation",
+    "supports": "School counselors, Mental health services",
+    "goal": "Promote positive development",
+    "level": "Individual, School, Community",
+    "measurement": "Surveys, Assessments, Data analysis",
+    "importance": "Critical for success",
+    "related_concept": "Positive psychology"
+  },
+  "relationship": [
+    {
+      "supports": "Education"
+    },
+    {
+      "impacts": "Academic achievement"
+    },
+    {
+      "linked_to": "Mental health"
+    },
+    {
+      "influenced_by": "Family environment"
+    },
+    {
+      "related_to": "School climate"
+    },
+    {
+      "requires": "Early intervention"
+    },
+    {
+      "addresses": "Bullying"
+    },
+    {
+      "promotes": "Resilience"
+    },
+    {
+      "connected_to": "Social support"
+    },
+    {
+      "impacts": "Student retention"
+    }
+  ]
+}

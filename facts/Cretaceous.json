@@ -1,0 +1,47 @@
+{
+  "entity": "Cretaceous",
+  "properties": {
+    "type": "Geological period",
+    "era": "Mesozoic",
+    "start_date": "145 million years ago",
+    "end_date": "66 million years ago",
+    "preceding_period": "Jurassic",
+    "succeeding_period": "Paleogene",
+    "major_event": "Cretaceous–Paleogene extinction event",
+    "dominant_life": "Dinosaurs",
+    "climate": "Warm",
+    "sea_level": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Mesozoic Era"
+    },
+    {
+      "preceded_by": "Jurassic Period"
+    },
+    {
+      "followed_by": "Paleogene Period"
+    },
+    {
+      "contains": "Maastrichtian"
+    },
+    {
+      "contains": "Campanian"
+    },
+    {
+      "contains": "Santonian"
+    },
+    {
+      "ends_with": "Cretaceous–Paleogene extinction event"
+    },
+    {
+      "life_forms": "Tyrannosaurus rex"
+    },
+    {
+      "life_forms": "Velociraptor"
+    },
+    {
+      "geological_feature": "Morrison Formation"
+    }
+  ]
+}

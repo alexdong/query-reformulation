@@ -1,0 +1,47 @@
+{
+  "entity": "James Clark Ross",
+  "properties": {
+    "birth_date": "1800-10-15",
+    "birth_place": "London, England",
+    "death_date": "1868-12-23",
+    "death_place": "Slough, England",
+    "occupation": "Naval officer",
+    "nationality": "British",
+    "spouse": "Mary Henrietta Innell",
+    "known_for": "Ross Expedition",
+    "awards": "Royal Geographical Society's Gold Medal",
+    "family": "John Ross (uncle)"
+  },
+  "relationship": [
+    {
+      "expedition_leader_of": "Ross Expedition"
+    },
+    {
+      "member_of": "Royal Navy"
+    },
+    {
+      "discovered": "Ross Sea"
+    },
+    {
+      "discovered": "Victoria Land"
+    },
+    {
+      "discovered": "Mount Erebus"
+    },
+    {
+      "discovered": "Mount Terror"
+    },
+    {
+      "charted": "Antarctica"
+    },
+    {
+      "studied": "geomagnetism"
+    },
+    {
+      "named_after": "Ross Ice Shelf"
+    },
+    {
+      "influenced": "Antarctic exploration"
+    }
+  ]
+}

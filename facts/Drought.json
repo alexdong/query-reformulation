@@ -1,0 +1,47 @@
+{
+  "entity": "Drought",
+  "properties": {
+    "instance_of": "Natural disaster",
+    "type": "Meteorological, Agricultural, Hydrological",
+    "cause": "Lack of precipitation",
+    "impact": "Water scarcity, crop failure",
+    "duration": "Months to years",
+    "severity": "Varies",
+    "affected_areas": "Globally",
+    "measurement": "Palmer Drought Index",
+    "related_phenomenon": "Desertification",
+    "economic_impact": "Significant"
+  },
+  "relationship": [
+    {
+      "causes": "Water scarcity"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "exacerbated_by": "Climate change"
+    },
+    {
+      "mitigated_by": "Water conservation"
+    },
+    {
+      "related_to": "Desertification"
+    },
+    {
+      "measured_by": "Palmer Drought Index"
+    },
+    {
+      "affects": "Ecosystems"
+    },
+    {
+      "impacts": "Human health"
+    },
+    {
+      "response": "Drought relief"
+    },
+    {
+      "studied_in": "Hydrology"
+    }
+  ]
+}

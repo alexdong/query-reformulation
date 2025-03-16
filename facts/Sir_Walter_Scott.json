@@ -1,0 +1,47 @@
+{
+  "entity": "Sir Walter Scott",
+  "properties": {
+    "birth_date": "1771-01-15",
+    "birth_place": "Edinburgh",
+    "death_date": "1832-09-21",
+    "death_place": "Abbotsford",
+    "nationality": "Scottish",
+    "occupation": "Author",
+    "literary_genre": "Historical novel",
+    "title": "Sir",
+    "known_for": "Waverley, Ivanhoe",
+    "period": "Romanticism"
+  },
+  "relationship": [
+    {
+      "influenced": "Charles Dickens"
+    },
+    {
+      "influenced": "James Fenimore Cooper"
+    },
+    {
+      "preceded_by": "James Macpherson"
+    },
+    {
+      "contemporary_of": "Lord Byron"
+    },
+    {
+      "contemporary_of": "Mary Shelley"
+    },
+    {
+      "member_of": "Royal Society of Edinburgh"
+    },
+    {
+      "authored": "Waverley"
+    },
+    {
+      "authored": "Ivanhoe"
+    },
+    {
+      "authored": "Rob Roy"
+    },
+    {
+      "lived_in": "Abbotsford"
+    }
+  ]
+}

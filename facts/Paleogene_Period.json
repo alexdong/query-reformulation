@@ -1,0 +1,47 @@
+{
+  "entity": "Paleogene Period",
+  "properties": {
+    "start_date": "66 million years ago",
+    "end_date": "23.03 million years ago",
+    "era": "Cenozoic",
+    "epoch_start": "Danian",
+    "epoch_end": "Astian",
+    "preceding_period": "Cretaceous Period",
+    "succeeding_period": "Neogene Period",
+    "dominant_life": "Early mammals, birds, flowering plants",
+    "major_event_1": "K-Pg extinction event",
+    "geologic_scale": "Major division"
+  },
+  "relationship": [
+    {
+      "part_of": "Cenozoic Era"
+    },
+    {
+      "preceded_by": "Cretaceous Period"
+    },
+    {
+      "followed_by": "Neogene Period"
+    },
+    {
+      "contains": "Paleocene Epoch"
+    },
+    {
+      "contains": "Eocene Epoch"
+    },
+    {
+      "contains": "Oligocene Epoch"
+    },
+    {
+      "characterized_by": "Paleogene mammal evolution"
+    },
+    {
+      "influenced_by": "Plate tectonics"
+    },
+    {
+      "climate_change": "Early Paleogene warming"
+    },
+    {
+      "fossil_record": "Paleogene fossils"
+    }
+  ]
+}

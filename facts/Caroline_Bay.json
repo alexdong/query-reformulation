@@ -1,0 +1,47 @@
+{
+  "entity": "Caroline Bay",
+  "properties": {
+    "type": "Bay",
+    "location": "South Australia",
+    "named_after": "Caroline von Hugel",
+    "part_of": "Spencer Gulf",
+    "coordinates": "34°34′S 136°37′E",
+    "length": "Approximately 5 km",
+    "depth": "Varies, generally shallow",
+    "shoreline": "Sandy and rocky",
+    "climate": "Mediterranean",
+    "nearby_city": "Port Lincoln"
+  },
+  "relationship": [
+    {
+      "located_in": "South Australia"
+    },
+    {
+      "part_of": "Spencer Gulf"
+    },
+    {
+      "named_after": "Caroline von Hugel"
+    },
+    {
+      "near": "Port Lincoln"
+    },
+    {
+      "contains": "Caroline Bay Marina"
+    },
+    {
+      "adjacent_to": "Boston Bay"
+    },
+    {
+      "influenced_by": "Spencer Gulf"
+    },
+    {
+      "has_feature": "Beach"
+    },
+    {
+      "has_feature": "Recreation Area"
+    },
+    {
+      "supports_ecosystem": "Marine Life"
+    }
+  ]
+}

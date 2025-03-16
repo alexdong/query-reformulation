@@ -1,0 +1,47 @@
+{
+  "entity": "Hokitika River",
+  "properties": {
+    "location": "West Coast, New Zealand",
+    "length": "142 km",
+    "source": "Southern Alps",
+    "mouth": "Tasman Sea",
+    "region": "Westland District",
+    "tributary_of": "Tasman Sea",
+    "river_type": "Greywacke river",
+    "discharge": "150 m³/s",
+    "catchment_area": "2,850 km²",
+    "geology": "Greywacke bedrock"
+  },
+  "relationship": [
+    {
+      "flows_through": "Hokitika"
+    },
+    {
+      "tributary_of": "Tasman Sea"
+    },
+    {
+      "located_in": "Westland Tai Poutini National Park"
+    },
+    {
+      "part_of": "West Coast Region"
+    },
+    {
+      "originates_in": "Southern Alps"
+    },
+    {
+      "drains_to": "Tasman Sea"
+    },
+    {
+      "adjacent_to": "West Coast"
+    },
+    {
+      "supports_ecosystem": "Westland Petrel"
+    },
+    {
+      "historical_use": "Gold mining"
+    },
+    {
+      "provides_habitat_for": "Brown trout"
+    }
+  ]
+}

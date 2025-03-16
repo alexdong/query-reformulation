@@ -1,0 +1,50 @@
+{
+  "entity": "Omaha, Nebraska",
+  "properties": {
+    "type": "City",
+    "population_2020": "486051",
+    "state": "Nebraska",
+    "founded": "1854",
+    "area_total": "195.33 sq mi",
+    "mayor": "Jean Stothert",
+    "timezone": "Central Time",
+    "nickname": "Heartland of America",
+    "elevation": "1,000 ft",
+    "fusa_code": "OMH"
+  },
+  "relationship": [
+    {
+      "located_in": "Douglas County, Nebraska"
+    },
+    {
+      "part_of": "Omaha–Council Bluffs Metropolitan Area"
+    },
+    {
+      "lies_on": "Missouri River"
+    },
+    {
+      "major_industry": "Finance"
+    },
+    {
+      "founded_by": "Pond Creek tribe"
+    },
+    {
+      "neighbor_city": "Council Bluffs, Iowa"
+    },
+    {
+      "historical_event": "Oregon Trail"
+    },
+    {
+      "university": "University of Nebraska Omaha"
+    },
+    {
+      "sports_team": "Omaha Storm Chasers"
+    },
+    {
+      "historical_figure": "Marcus Aurelius"
+    },
+    {
+      "attraction": "Henry Doorly Zoo and Aquarium"
+    }
+  ]
+}

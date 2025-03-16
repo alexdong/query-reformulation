@@ -1,0 +1,47 @@
+{
+  "entity": "Tectonic Activity",
+  "properties": {
+    "type": "Geological Process",
+    "cause": "Plate Tectonics",
+    "scale": "Global",
+    "manifestation": "Earthquakes, Volcanoes, Mountain Building",
+    "driving_force": "Convection Currents",
+    "rate": "Variable",
+    "impact": "Shape Earth's Surface",
+    "related_to": "Geophysics",
+    "time_scale": "Millions of Years",
+    "measurement": "Seismic Waves, GPS Data"
+  },
+  "relationship": [
+    {
+      "causes": "Earthquake"
+    },
+    {
+      "causes": "Volcanism"
+    },
+    {
+      "results_in": "Mountain Range"
+    },
+    {
+      "part_of": "Plate Tectonics"
+    },
+    {
+      "influences": "Geological Hazards"
+    },
+    {
+      "related_to": "Seismology"
+    },
+    {
+      "related_to": "Volcanology"
+    },
+    {
+      "affects": "Lithosphere"
+    },
+    {
+      "impacts": "Continental Drift"
+    },
+    {
+      "studied_by": "Geologists"
+    }
+  ]
+}

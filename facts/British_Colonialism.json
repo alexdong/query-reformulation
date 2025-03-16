@@ -1,0 +1,47 @@
+{
+  "entity": "British Colonialism",
+  "properties": {
+    "start_date": "16th century",
+    "end_date": "20th century",
+    "geographic_scope": "Global",
+    "primary_motivation": "Economic & Political",
+    "governing_body": "British Empire",
+    "legal_framework": "Statute of Westminster",
+    "impact_on_indigenous_pop": "Significant Disruption",
+    "trade_system": "Mercantilism",
+    "dominant_religion": "Christianity",
+    "legacy": "Complex & Contested"
+  },
+  "relationship": [
+    {
+      "influenced": "Industrial Revolution"
+    },
+    {
+      "involved_in": "Transatlantic Slave Trade"
+    },
+    {
+      "colonized": "India"
+    },
+    {
+      "colonized": "Australia"
+    },
+    {
+      "colonized": "Canada"
+    },
+    {
+      "colonized": "Nigeria"
+    },
+    {
+      "involved_in": "Opium Wars"
+    },
+    {
+      "led_to": "Decolonization"
+    },
+    {
+      "impacted": "Globalization"
+    },
+    {
+      "caused": "Cultural Exchange"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "International Law",
+  "properties": {
+    "type": "Legal System",
+    "governs": "States & International Organizations",
+    "source": "Treaties, Custom, General Principles",
+    "enforcement": "Limited, relies on reciprocity & institutions",
+    "subject_matter": "Cross-border relations",
+    "origin": "Ancient practices, Westphalian system",
+    "branches": "Public, Private, Criminal",
+    "court": "International Court of Justice",
+    "related_concept": "Sovereignty",
+    "purpose": "Maintain order, resolve disputes"
+  },
+  "relationship": [
+    {
+      "part_of": "Law"
+    },
+    {
+      "related_to": "Diplomacy"
+    },
+    {
+      "governed_by": "United Nations"
+    },
+    {
+      "influenced_by": "Natural Law"
+    },
+    {
+      "deals_with": "Human Rights"
+    },
+    {
+      "includes": "Law of the Sea"
+    },
+    {
+      "includes": "International Humanitarian Law"
+    },
+    {
+      "includes": "International Trade Law"
+    },
+    {
+      "related_to": "International Relations"
+    },
+    {
+      "interpreted_by": "International Court of Justice"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Sahel",
+  "properties": {
+    "type": "Geographic region",
+    "location": "Africa",
+    "area": "3.6 million km²",
+    "climate": "Semi-arid",
+    "population": "450 million (2021)",
+    "countries_included": "Senegal, Mauritania, Mali, Burkina Faso, Niger, Nigeria, Chad, Sudan, Eritrea",
+    "average_rainfall": "100-600 mm annually",
+    "primary_economic_activity": "Agriculture & Livestock",
+    "major_river": "Niger River",
+    "vegetation": "Savanna"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "borders": "Sahara Desert"
+    },
+    {
+      "borders": "Sudano-Guinean zone"
+    },
+    {
+      "contains": "Niger River"
+    },
+    {
+      "affected_by": "Desertification"
+    },
+    {
+      "influenced_by": "Monsoon"
+    },
+    {
+      "economic_activity": "Agriculture"
+    },
+    {
+      "political_issue": "Food security"
+    },
+    {
+      "environmental_issue": "Climate change"
+    },
+    {
+      "contains_country": "Mali"
+    }
+  ]
+}

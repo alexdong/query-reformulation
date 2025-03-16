@@ -1,0 +1,47 @@
+{
+  "entity": "Manukau City",
+  "properties": {
+    "type": "City",
+    "region": "Auckland",
+    "country": "New Zealand",
+    "population_2013": "107,779",
+    "area_km2": "157.3",
+    "established": "1989",
+    "dissolved": "2023",
+    "mayor_last": "James Collins",
+    "time_zone": "NZST",
+    "coordinates": "36°57′S 174°51′E"
+  },
+  "relationship": [
+    {
+      "part_of": "Auckland Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "succeeded_by": "Auckland Council"
+    },
+    {
+      "contains": "Manukau Harbour"
+    },
+    {
+      "neighbor_of": "Franklin District"
+    },
+    {
+      "neighbor_of": "Papakura District"
+    },
+    {
+      "neighbor_of": "Otara"
+    },
+    {
+      "has_suburb": "Flat Bush"
+    },
+    {
+      "has_suburb": "East Tamaki"
+    },
+    {
+      "economic_activity": "Manufacturing"
+    }
+  ]
+}

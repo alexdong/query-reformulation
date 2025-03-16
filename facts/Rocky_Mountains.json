@@ -1,0 +1,47 @@
+{
+  "entity": "Rocky Mountains",
+  "properties": {
+    "type": "Mountain range",
+    "location": "North America",
+    "length": "3,000 miles (4,800 km)",
+    "highest_peak": "Mount Elbert",
+    "formation_date": "65 million years ago",
+    "geological_era": "Laramide orogeny",
+    "area": "250,000 sq mi (650,000 km²)",
+    "average_elevation": "11,000 feet (3,350 m)",
+    "rock_type": "Sedimentary, metamorphic, igneous",
+    "climate": "Alpine"
+  },
+  "relationship": [
+    {
+      "part_of": "North America"
+    },
+    {
+      "contains": "Colorado"
+    },
+    {
+      "contains": "Wyoming"
+    },
+    {
+      "contains": "Montana"
+    },
+    {
+      "adjacent_to": "Great Plains"
+    },
+    {
+      "adjacent_to": "Canadian Rockies"
+    },
+    {
+      "formed_during": "Laramide orogeny"
+    },
+    {
+      "influenced_by": "Plate tectonics"
+    },
+    {
+      "contains": "National Park"
+    },
+    {
+      "has_peak": "Mount Logan"
+    }
+  ]
+}

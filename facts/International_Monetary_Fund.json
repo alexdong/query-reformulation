@@ -1,0 +1,47 @@
+{
+  "entity": "International Monetary Fund",
+  "properties": {
+    "instance_of": "International organization",
+    "hq_location": "Washington, D.C.",
+    "formed": "1944",
+    "purpose": "Global monetary cooperation",
+    "membership": "190 countries",
+    "type": "Specialized agency",
+    "governing_body": "Board of Governors",
+    "head": "Kristalina Georgieva",
+    "funding": "Member contributions",
+    "official_language": "English"
+  },
+  "relationship": [
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "headquartered_in": "Washington, D.C."
+    },
+    {
+      "founded_by": "Bretton Woods Agreement"
+    },
+    {
+      "related_to": "World Bank"
+    },
+    {
+      "provides": "Financial assistance"
+    },
+    {
+      "monitors": "Economic policies"
+    },
+    {
+      "influences": "Global economy"
+    },
+    {
+      "governed_by": "Board of Governors"
+    },
+    {
+      "specializes_in": "Financial stability"
+    },
+    {
+      "works_with": "National governments"
+    }
+  ]
+}

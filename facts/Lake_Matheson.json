@@ -1,0 +1,47 @@
+{
+  "entity": "Lake Matheson",
+  "properties": {
+    "type": "Lake",
+    "location": "Westland District, New Zealand",
+    "area": "0.42 km²",
+    "elevation": "261 m",
+    "formation": "Glacial",
+    "water_color": "Black/Mirror-like",
+    "reflection_quality": "Exceptional",
+    "nearby_town": "Fox Glacier",
+    "named_after": "Robert Matheson",
+    "region": "South Island"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "located_in": "Westland Tai Poutini National Park"
+    },
+    {
+      "near": "Fox Glacier"
+    },
+    {
+      "near": "Franz Josef Glacier"
+    },
+    {
+      "formed_by": "Glacial activity"
+    },
+    {
+      "tributary_of": "Arahura River"
+    },
+    {
+      "influenced_by": "Southern Alps"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "photographed_by": "Numerous photographers"
+    },
+    {
+      "appears_in": "New Zealand landscapes"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Tuff Ring",
+  "properties": {
+    "type": "Volcanic Feature",
+    "formation": "Phreatomagmatic eruption",
+    "material": "Tuff",
+    "location": "Oregon, USA",
+    "age": "Pliocene",
+    "diameter": "Up to 1 km",
+    "elevation": "Variable",
+    "geological_setting": "Cascade Volcanic Arc",
+    "formation_process": "Explosive eruption",
+    "associated_volcano": "Mount Shasta"
+  },
+  "relationship": [
+    {
+      "part_of": "Cascade Range"
+    },
+    {
+      "located_in": "Oregon"
+    },
+    {
+      "formed_by": "Volcanism"
+    },
+    {
+      "associated_with": "Mount Shasta"
+    },
+    {
+      "type_of": "Ring structure"
+    },
+    {
+      "composed_of": "Tuff"
+    },
+    {
+      "geological_era": "Pliocene"
+    },
+    {
+      "process": "Phreatomagmatic eruption"
+    },
+    {
+      "region": "Pacific Northwest"
+    },
+    {
+      "related_to": "Volcanic landform"
+    }
+  ]
+}

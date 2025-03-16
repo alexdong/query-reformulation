@@ -1,0 +1,47 @@
+{
+  "entity": "Sedimentary Rock",
+  "properties": {
+    "type": "Rock type",
+    "formation_process": "Lithification",
+    "grain_size": "Variable",
+    "composition": "Sediments",
+    "layering": "Often present",
+    "common_minerals": "Quartz, Feldspar, Clay Minerals",
+    "rock_cycle_stage": "Accumulation, Cementation",
+    "porosity": "Variable",
+    "permeability": "Variable",
+    "economic_importance": "Fossil fuels, building materials"
+  },
+  "relationship": [
+    {
+      "forms_part_of": "Rock Cycle"
+    },
+    {
+      "contains": "Sediment"
+    },
+    {
+      "often_found_with": "Metamorphic Rock"
+    },
+    {
+      "weathered_into": "Soil"
+    },
+    {
+      "erosion_leads_to": "Sediment"
+    },
+    {
+      "formed_from": "Igneous Rock"
+    },
+    {
+      "example_of": "Shale"
+    },
+    {
+      "example_of": "Sandstone"
+    },
+    {
+      "example_of": "Limestone"
+    },
+    {
+      "contains": "Fossil"
+    }
+  ]
+}

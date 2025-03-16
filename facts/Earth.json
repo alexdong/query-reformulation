@@ -1,0 +1,47 @@
+{
+  "entity": "Earth",
+  "properties": {
+    "type": "Planet",
+    "diameter": "12,742 km",
+    "mass": "5.97 × 10^24 kg",
+    "density": "5.51 g/cm³",
+    "distance_from_sun": "149.6 million km",
+    "orbital_period": "365.25 days",
+    "rotation_period": "24 hours",
+    "atmosphere": "Nitrogen, Oxygen",
+    "surface_water": "71%",
+    "age": "4.54 ± 0.05 billion years"
+  },
+  "relationship": [
+    {
+      "orbits": "Sun"
+    },
+    {
+      "part_of": "Solar System"
+    },
+    {
+      "has_moon": "Moon"
+    },
+    {
+      "located_in": "Milky Way"
+    },
+    {
+      "has_satellite": "International Space Station"
+    },
+    {
+      "influenced_by": "Gravity"
+    },
+    {
+      "supports": "Life"
+    },
+    {
+      "tectonic_plates": "Lithosphere"
+    },
+    {
+      "magnetic_field": "Magnetosphere"
+    },
+    {
+      "studied_by": "Geology"
+    }
+  ]
+}

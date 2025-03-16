@@ -1,0 +1,47 @@
+{
+  "entity": "Animalia",
+  "properties": {
+    "kingdom": "Animal",
+    "classification": "Kingdom",
+    "members": "Animals",
+    "cell_type": "Eukaryotic",
+    "mode_of_nutrition": "Heterotrophic",
+    "body_plan": "Diverse",
+    "size": "Microscopic to gigantic",
+    "habitat": "Ubiquitous",
+    "life_cycle": "Sexual or Asexual",
+    "mobility": "Mostly motile"
+  },
+  "relationship": [
+    {
+      "part_of": "Life"
+    },
+    {
+      "includes": "Chordata"
+    },
+    {
+      "includes": "Arthropoda"
+    },
+    {
+      "includes": "Mollusca"
+    },
+    {
+      "includes": "Echinodermata"
+    },
+    {
+      "related_to": "Plants"
+    },
+    {
+      "related_to": "Fungi"
+    },
+    {
+      "related_to": "Protista"
+    },
+    {
+      "study_field": "Zoology"
+    },
+    {
+      "evolutionary_ancestor": "Protists"
+    }
+  ]
+}

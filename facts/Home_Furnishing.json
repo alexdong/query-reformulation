@@ -1,0 +1,47 @@
+{
+  "entity": "Home Furnishing",
+  "properties": {
+    "type": "Industry",
+    "scope": "Residential",
+    "materials": "Wood, Metal, Fabric, Plastic",
+    "style_range": "Traditional to Modern",
+    "market_size": "Billions USD",
+    "includes": "Furniture, Textiles, Lighting",
+    "design_focus": "Aesthetics, Functionality, Comfort",
+    "distribution_channels": "Retail, Online, Wholesale",
+    "trend": "Sustainability, Smart Home Integration",
+    "customer_base": "Homeowners, Renters"
+  },
+  "relationship": [
+    {
+      "part_of": "Consumer Goods"
+    },
+    {
+      "related_to": "Interior Design"
+    },
+    {
+      "manufactured_by": "Furniture Manufacturers"
+    },
+    {
+      "sold_at": "Retail Stores"
+    },
+    {
+      "influenced_by": "Home Decor Trends"
+    },
+    {
+      "requires": "Logistics"
+    },
+    {
+      "impacts": "Real Estate"
+    },
+    {
+      "complements": "Home Improvement"
+    },
+    {
+      "design_by": "Industrial Designers"
+    },
+    {
+      "marketed_to": "Consumers"
+    }
+  ]
+}

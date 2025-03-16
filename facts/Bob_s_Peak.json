@@ -1,0 +1,47 @@
+{
+  "entity": "Bob's Peak",
+  "properties": {
+    "type": "Mountain",
+    "location": "Auckland, New Zealand",
+    "elevation": "219 m (719 ft)",
+    "region": "Auckland Region",
+    "geological_formation": "Volcanic",
+    "part_of": "Waitākere Ranges",
+    "named_after": "Bob Jackson",
+    "access": "Hiking trails",
+    "view": "Auckland City",
+    "popular_activity": "Paragliding"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Waitākere Ranges"
+    },
+    {
+      "near": "Huia"
+    },
+    {
+      "near": "Titirangi"
+    },
+    {
+      "accessed_by": "Hiking trails"
+    },
+    {
+      "view_of": "Auckland City"
+    },
+    {
+      "named_after": "Bob Jackson"
+    },
+    {
+      "geology": "Volcanic"
+    },
+    {
+      "activity": "Paragliding"
+    },
+    {
+      "region": "Auckland Region"
+    }
+  ]
+}

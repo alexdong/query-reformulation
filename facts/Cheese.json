@@ -1,0 +1,47 @@
+{
+  "entity": "Cheese",
+  "properties": {
+    "instance_of": "Food",
+    "type": "Dairy product",
+    "origin": "Multiple",
+    "main_ingredient": "Milk",
+    "flavor": "Variable",
+    "texture": "Variable",
+    "shelf_life": "Variable",
+    "fat_content": "Variable",
+    "serving_size": "Variable",
+    "nutritional_value": "Variable"
+  },
+  "relationship": [
+    {
+      "is_a": "Dairy"
+    },
+    {
+      "contains": "Calcium"
+    },
+    {
+      "produced_in": "France"
+    },
+    {
+      "produced_in": "Italy"
+    },
+    {
+      "produced_in": "Switzerland"
+    },
+    {
+      "paired_with": "Wine"
+    },
+    {
+      "used_in": "Pizza"
+    },
+    {
+      "used_in": "Mac and Cheese"
+    },
+    {
+      "related_to": "Dairy farming"
+    },
+    {
+      "category": "Food group"
+    }
+  ]
+}

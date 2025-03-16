@@ -1,0 +1,47 @@
+{
+  "entity": "Local Economy",
+  "properties": {
+    "definition": "Geographic area's economic activity",
+    "scope": "City, County, Region",
+    "focus": "Small businesses, local jobs",
+    "drivers": "Consumer spending, local investment",
+    "indicators": "Employment rate, income levels",
+    "challenges": "Competition, limited resources",
+    "benefits": "Community wealth, job creation",
+    "impacted_by": "Government policies, global trends",
+    "data_source": "Local government agencies, Chambers of Commerce",
+    "measurement": "Gross Regional Product (GRP)"
+  },
+  "relationship": [
+    {
+      "part_of": "National Economy"
+    },
+    {
+      "influenced_by": "Consumer Confidence"
+    },
+    {
+      "supports": "Small Business"
+    },
+    {
+      "creates": "Local Jobs"
+    },
+    {
+      "impacted_by": "Tourism"
+    },
+    {
+      "affected_by": "Supply Chain"
+    },
+    {
+      "dependent_on": "Local Government"
+    },
+    {
+      "contributes_to": "Community Development"
+    },
+    {
+      "measured_by": "Economic Indicators"
+    },
+    {
+      "related_to": "Regional Planning"
+    }
+  ]
+}

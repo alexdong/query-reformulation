@@ -1,0 +1,47 @@
+{
+  "entity": "Lasswade",
+  "properties": {
+    "type": "Valley",
+    "location": "Midlothian, Scotland",
+    "river": "River Esk",
+    "elevation_range": "100–400 m (330–1,310 ft)",
+    "geology": "Basalt, shale, sandstone",
+    "area": "Approximately 10 sq mi (26 sq km)",
+    "drainage": "North Sea",
+    "agriculture": "Historically important for agriculture",
+    "settlements": "Includes villages like Lasswade and Bonnyrigg",
+    "landscape": "Rolling hills and farmland"
+  },
+  "relationship": [
+    {
+      "part_of": "Midlothian"
+    },
+    {
+      "contains": "River Esk"
+    },
+    {
+      "adjacent_to": "Penicuik"
+    },
+    {
+      "adjacent_to": "Pathhead"
+    },
+    {
+      "contains_settlement": "Lasswade Village"
+    },
+    {
+      "contains_settlement": "Bonnyrigg"
+    },
+    {
+      "influenced_by": "Scottish Borders"
+    },
+    {
+      "geology_related": "Edinburgh Geological Society"
+    },
+    {
+      "agriculture_related": "Scottish agriculture"
+    },
+    {
+      "historical_context": "Scottish history"
+    }
+  ]
+}

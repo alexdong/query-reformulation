@@ -1,0 +1,47 @@
+{
+  "entity": "John Milton",
+  "properties": {
+    "birth_date": "1608-12-09",
+    "birth_place": "Cheapside, London",
+    "death_date": "1674-12-08",
+    "death_place": "Bunhill Row, London",
+    "nationality": "English",
+    "occupation": "Poet, polemicist, man of letters",
+    "period": "English Renaissance, Early Modern",
+    "literary_genre": "Epic poetry, verse",
+    "religious_affiliation": "Puritan",
+    "blindness_start": "1651"
+  },
+  "relationship": [
+    {
+      "influenced": "Romanticism"
+    },
+    {
+      "influenced": "English literature"
+    },
+    {
+      "educated_at": "Christ's College, Cambridge"
+    },
+    {
+      "preceded_by": "Edmund Spenser"
+    },
+    {
+      "followed_by": "Alexander Pope"
+    },
+    {
+      "wrote": "Paradise Lost"
+    },
+    {
+      "wrote": "Paradise Regained"
+    },
+    {
+      "wrote": "Samson Agonistes"
+    },
+    {
+      "married_to": "Mary Powell"
+    },
+    {
+      "father_of": "Anne Milton"
+    }
+  ]
+}

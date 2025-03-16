@@ -1,0 +1,47 @@
+{
+  "entity": "Origin country",
+  "properties": {
+    "instance_of": "Concept",
+    "definition": "Place of birth/creation",
+    "synonym": "Place of origin",
+    "related_to": "Nationality",
+    "aspect": "Cultural heritage",
+    "scope": "People, objects, ideas",
+    "category": "Geography",
+    "relevance": "Identity, history",
+    "impact": "Cultural influence",
+    "usage": "Legal, genealogical"
+  },
+  "relationship": [
+    {
+      "related_to": "Nationality"
+    },
+    {
+      "associated_with": "Cultural heritage"
+    },
+    {
+      "influences": "Identity"
+    },
+    {
+      "determines": "Legal jurisdiction"
+    },
+    {
+      "impacts": "Genealogy"
+    },
+    {
+      "linked_to": "Place"
+    },
+    {
+      "related_to": "History"
+    },
+    {
+      "affects": "Migration"
+    },
+    {
+      "connected_to": "Ethnicity"
+    },
+    {
+      "part_of": "Geography"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Malthusian Catastrophe",
+  "properties": {
+    "type": "Theory",
+    "author": "Thomas Malthus",
+    "publication_date": "1798",
+    "work": "An Essay on the Principle of Population",
+    "core_argument": "Population growth exceeds resource growth",
+    "limiting_factor": "Resource scarcity",
+    "primary_resource": "Food",
+    "population_growth": "Exponential",
+    "resource_growth": "Linear",
+    "impact": "Famine, disease, war"
+  },
+  "relationship": [
+    {
+      "influenced": "Darwinism"
+    },
+    {
+      "criticized_by": "Karl Marx"
+    },
+    {
+      "related_to": "Demography"
+    },
+    {
+      "contradicts": "Optimism"
+    },
+    {
+      "impacts": "Poverty"
+    },
+    {
+      "related_to": "Carrying capacity"
+    },
+    {
+      "addressed_in": "Club of Rome"
+    },
+    {
+      "challenged_by": "Green Revolution"
+    },
+    {
+      "relevant_to": "Sustainable development"
+    },
+    {
+      "example_of": "Population crisis"
+    }
+  ]
+}

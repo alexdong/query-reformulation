@@ -1,0 +1,47 @@
+{
+  "entity": "Ontario",
+  "properties": {
+    "type": "Province",
+    "capital": "Toronto",
+    "population_2021": "14700000",
+    "area_km2": "824414",
+    "official_language": "English",
+    "premier": "Doug Ford",
+    "lgis_body": "Legislative Assembly of Ontario",
+    "currency": "Canadian Dollar",
+    "time_zone": "Eastern Time",
+    "postal_code_system": "Canadian postal system"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "borders": "Quebec"
+    },
+    {
+      "borders": "Manitoba"
+    },
+    {
+      "borders": "Michigan"
+    },
+    {
+      "borders": "New York"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "has_city": "Toronto"
+    },
+    {
+      "has_city": "Ottawa"
+    },
+    {
+      "has_lake": "Lake Ontario"
+    },
+    {
+      "member_of": "Canadian provinces and territories"
+    }
+  ]
+}

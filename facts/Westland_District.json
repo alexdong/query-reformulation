@@ -1,0 +1,47 @@
+{
+  "entity": "Westland District",
+  "properties": {
+    "type": "Local government area",
+    "region": "West Coast, New Zealand",
+    "area_km2": "6159",
+    "population_2023": "11,078",
+    "region_code": "9703",
+    "mayor": "Jamie Clearwater",
+    "established": "1989",
+    "timezone": "NZST",
+    "currency": "NZD",
+    "coordinates": "-44.25, 169.5"
+  },
+  "relationship": [
+    {
+      "part_of": "West Coast Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Hokitika"
+    },
+    {
+      "contains": "Franz Josef"
+    },
+    {
+      "contains": "Glacier"
+    },
+    {
+      "adjacent_to": "Buller District"
+    },
+    {
+      "adjacent_to": "Grey District"
+    },
+    {
+      "economic_activity": "Tourism"
+    },
+    {
+      "economic_activity": "Agriculture"
+    },
+    {
+      "natural_feature": "Southern Alps"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Aquatic Ecosystem",
+  "properties": {
+    "type": "Ecosystem",
+    "habitat": "Water bodies",
+    "size": "Variable",
+    "biodiversity": "High",
+    "primary_producers": "Phytoplankton, Aquatic plants",
+    "trophic_levels": "Multiple",
+    "water_types": "Freshwater, Saltwater, Brackish",
+    "oxygen_levels": "Variable",
+    "temperature_range": "Variable",
+    "importance": "Supports life, regulates climate"
+  },
+  "relationship": [
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "contains": "Fish"
+    },
+    {
+      "contains": "Invertebrates"
+    },
+    {
+      "contains": "Aquatic Plants"
+    },
+    {
+      "affected_by": "Pollution"
+    },
+    {
+      "influenced_by": "Climate Change"
+    },
+    {
+      "supports": "Biodiversity"
+    },
+    {
+      "provides": "Food Source"
+    },
+    {
+      "interacts_with": "Terrestrial Ecosystem"
+    },
+    {
+      "example_of": "Lake"
+    }
+  ]
+}

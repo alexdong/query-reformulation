@@ -1,0 +1,47 @@
+{
+  "entity": "Mass Media",
+  "properties": {
+    "definition": "Large-scale communication",
+    "scope": "Broadcasting, publishing, internet",
+    "reach": "Wide audience",
+    "format": "Text, audio, video",
+    "impact": "Shapes public opinion",
+    "ownership": "Concentrated in few hands",
+    "types": "Television, Radio, Print, Internet",
+    "function": "Information dissemination",
+    "historical_origin": "19th century",
+    "economic_model": "Advertising-supported"
+  },
+  "relationship": [
+    {
+      "influences": "Public Opinion"
+    },
+    {
+      "part_of": "Communication"
+    },
+    {
+      "employs": "Journalists"
+    },
+    {
+      "uses": "Advertising"
+    },
+    {
+      "related_to": "Media Literacy"
+    },
+    {
+      "impacts": "Culture"
+    },
+    {
+      "includes": "Newspapers"
+    },
+    {
+      "includes": "Television"
+    },
+    {
+      "includes": "Radio"
+    },
+    {
+      "related_to": "Propaganda"
+    }
+  ]
+}

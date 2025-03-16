@@ -1,0 +1,47 @@
+{
+  "entity": "Steven Joyce",
+  "properties": {
+    "birth_date": "1963-08-27",
+    "birth_place": "Christchurch, New Zealand",
+    "nationality": "New Zealander",
+    "occupation": "Politician, Businessman",
+    "education": "University of Canterbury",
+    "political_party": "National Party",
+    "constituency": "Taranaki-King Country",
+    "ministerial_portfolio": "Economic Development",
+    "spouse": "Joanna Joyce",
+    "children": "3"
+  },
+  "relationship": [
+    {
+      "member_of": "New Zealand Parliament"
+    },
+    {
+      "prime_minister_appointed_by": "John Key"
+    },
+    {
+      "prime_minister_appointed_by": "Bill English"
+    },
+    {
+      "educated_at": "University of Canterbury"
+    },
+    {
+      "constituency_represents": "Taranaki-King Country"
+    },
+    {
+      "political_affiliation": "National Party (New Zealand)"
+    },
+    {
+      "predecessor_in_office": "Nathan Guy"
+    },
+    {
+      "successor_in_office": "Simon Bridges"
+    },
+    {
+      "member_of_committee": "Finance and Expenditure Committee"
+    },
+    {
+      "resigned_from_office": "2018"
+    }
+  ]
+}

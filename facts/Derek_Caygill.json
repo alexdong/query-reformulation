@@ -1,0 +1,47 @@
+{
+  "entity": "Derek Caygill",
+  "properties": {
+    "instance_of": "British sculptor",
+    "birth_date": "1935-08-18",
+    "place_of_birth": "Bradford",
+    "nationality": "British",
+    "education": "Leeds College of Art",
+    "medium": "Bronze, Stone",
+    "style": "Figurative",
+    "known_for": "Public sculptures",
+    "influenced_by": "Henry Moore",
+    "death_date": "2023-03-18"
+  },
+  "relationship": [
+    {
+      "influenced": "Contemporary sculpture"
+    },
+    {
+      "student_at": "Leeds College of Art"
+    },
+    {
+      "work_located_in": "Bradford"
+    },
+    {
+      "work_located_in": "London"
+    },
+    {
+      "influenced_by": "Henry Moore"
+    },
+    {
+      "style_influenced": "Modernism"
+    },
+    {
+      "member_of": "Royal Academy"
+    },
+    {
+      "exhibited_at": "Tate Britain"
+    },
+    {
+      "award_received": "Royal Society of British Sculptors"
+    },
+    {
+      "work_depicts": "Human figure"
+    }
+  ]
+}

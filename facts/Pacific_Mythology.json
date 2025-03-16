@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Mythology",
+  "properties": {
+    "type": "Mythology",
+    "region": "Pacific Ocean",
+    "scope": "Diverse cultures",
+    "themes": "Creation, Ancestors, Navigation, Warfare",
+    "oral_tradition": "Primary transmission",
+    "pantheon_size": "Varies greatly",
+    "deities_role": "Natural forces, human affairs",
+    "creation_stories": "Multiple, varied",
+    "cultural_significance": "Central to identity",
+    "influence": "Art, music, social structure"
+  },
+  "relationship": [
+    {
+      "influenced": "Polynesian culture"
+    },
+    {
+      "related_to": "Oceanic art"
+    },
+    {
+      "overlaps_with": "Melanesian mythology"
+    },
+    {
+      "includes": "Maori mythology"
+    },
+    {
+      "includes": "Hawaiian mythology"
+    },
+    {
+      "includes": "Samoan mythology"
+    },
+    {
+      "includes": "Micronesian mythology"
+    },
+    {
+      "shares_themes_with": "Indigenous Australian mythology"
+    },
+    {
+      "features": "Maui"
+    },
+    {
+      "features": "Tangaroa"
+    }
+  ]
+}

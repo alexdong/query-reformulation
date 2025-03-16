@@ -1,0 +1,47 @@
+{
+  "entity": "Soil",
+  "properties": {
+    "instance_of": "Regolith",
+    "composition": "Minerals, Organic Matter, Water, Air",
+    "formation_process": "Weathering",
+    "color": "Variable",
+    "texture": "Variable",
+    "pH": "Variable",
+    "fertility": "Variable",
+    "depth": "Variable",
+    "type": "Various (e.g., loam, clay, sand)",
+    "importance": "Supports plant life"
+  },
+  "relationship": [
+    {
+      "part_of": "Lithosphere"
+    },
+    {
+      "supports": "Plant"
+    },
+    {
+      "contains": "Mineral"
+    },
+    {
+      "contains": "Organic Matter"
+    },
+    {
+      "affected_by": "Weathering"
+    },
+    {
+      "provides": "Nutrient"
+    },
+    {
+      "supports": "Ecosystem"
+    },
+    {
+      "is_a": "Natural Resource"
+    },
+    {
+      "process": "Pedogenesis"
+    },
+    {
+      "location": "Terrestrial Biomes"
+    }
+  ]
+}

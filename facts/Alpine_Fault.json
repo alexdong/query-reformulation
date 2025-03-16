@@ -1,0 +1,47 @@
+{
+  "entity": "Alpine Fault",
+  "properties": {
+    "type": "Strike-slip fault",
+    "location": "South Island, New Zealand",
+    "length": "178 km",
+    "formation_date": "Late Cretaceous",
+    "slip_rate": "20–25 mm/year",
+    "tectonic_setting": "Convergent boundary",
+    "involved_plates": "Pacific Plate, Australian Plate",
+    "fault_type": "Right-lateral strike-slip",
+    "seismic_hazard": "High",
+    "depth": "15–25 km"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand tectonic plate boundary"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "adjacent_to": "Southern Alps"
+    },
+    {
+      "associated_with": "Fiordland National Park"
+    },
+    {
+      "caused_by": "Plate tectonics"
+    },
+    {
+      "influences": "Geomorphology"
+    },
+    {
+      "generates": "Earthquakes"
+    },
+    {
+      "study_area_for": "Geology"
+    },
+    {
+      "impacts": "Landscape"
+    },
+    {
+      "related_to": "Hokitika Terrane"
+    }
+  ]
+}

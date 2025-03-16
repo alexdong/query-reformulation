@@ -1,0 +1,47 @@
+{
+  "entity": "Micronesia",
+  "properties": {
+    "location": "Western Pacific Ocean",
+    "population": "110,844",
+    "capital": "Palikir",
+    "official_language": "English",
+    "currency": "United States Dollar",
+    "governance": "Federated States of Micronesia",
+    "climate": "Tropical",
+    "area": "702 sq km",
+    "ethnic_groups": "Micronesian, Filipino, Chinese",
+    "religion": "Christianity"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "influenced_by": "Spanish Colonialism"
+    },
+    {
+      "influenced_by": "German Colonialism"
+    },
+    {
+      "influenced_by": "Japanese Colonialism"
+    },
+    {
+      "influenced_by": "United States Colonialism"
+    },
+    {
+      "contains": "Yap"
+    },
+    {
+      "contains": "Pohnpei"
+    },
+    {
+      "contains": "Chuuk"
+    },
+    {
+      "contains": "Kosrae"
+    },
+    {
+      "traditional_art": "Lap Lap"
+    }
+  ]
+}

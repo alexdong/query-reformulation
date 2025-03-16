@@ -1,0 +1,47 @@
+{
+  "entity": "Agricultural Products",
+  "properties": {
+    "type": "Commodities",
+    "origin": "Agriculture",
+    "category": "Food & Raw Materials",
+    "importance": "Global Economy",
+    "examples": "Wheat, Corn, Soybeans",
+    "trade_volume": "High",
+    "impact": "Food Security",
+    "seasonality": "Variable",
+    "storage": "Required",
+    "processing": "Often Necessary"
+  },
+  "relationship": [
+    {
+      "produced_by": "Farming"
+    },
+    {
+      "dependent_on": "Weather"
+    },
+    {
+      "traded_in": "Commodity Markets"
+    },
+    {
+      "impacts": "Food Prices"
+    },
+    {
+      "used_in": "Animal Feed"
+    },
+    {
+      "used_in": "Human Consumption"
+    },
+    {
+      "processed_into": "Food Products"
+    },
+    {
+      "supports": "Agricultural Industry"
+    },
+    {
+      "affected_by": "Pest Control"
+    },
+    {
+      "influenced_by": "Agricultural Technology"
+    }
+  ]
+}

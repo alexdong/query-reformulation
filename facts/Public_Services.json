@@ -1,0 +1,47 @@
+{
+  "entity": "Public Services",
+  "properties": {
+    "definition": "Services provided by government",
+    "purpose": "Citizen well-being",
+    "funding": "Taxation",
+    "scope": "Wide-ranging",
+    "examples": "Healthcare, Education, Infrastructure",
+    "delivery_method": "Direct or contracted",
+    "accountability": "Government & oversight bodies",
+    "impact": "Social and economic development",
+    "accessibility": "Universal or targeted",
+    "regulation": "Governmental laws and policies"
+  },
+  "relationship": [
+    {
+      "funded_by": "Taxation"
+    },
+    {
+      "provided_to": "Citizens"
+    },
+    {
+      "governed_by": "Government"
+    },
+    {
+      "includes": "Healthcare"
+    },
+    {
+      "includes": "Education"
+    },
+    {
+      "includes": "Infrastructure"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "impacts": "Society"
+    },
+    {
+      "regulated_by": "Governmental Agencies"
+    },
+    {
+      "part_of": "State"
+    }
+  ]
+}

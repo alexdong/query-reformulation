@@ -1,0 +1,47 @@
+{
+  "entity": "Canadian Multiculturalism",
+  "properties": {
+    "type": "Policy",
+    "official_status": "Law",
+    "year_adopted": "1971",
+    "prime_minister": "Pierre Elliott Trudeau",
+    "legal_framework": "Canadian Multiculturalism Act",
+    "goal": "Promote diversity",
+    "focus": "Equality, Inclusion",
+    "guarantees": "Freedom of expression, religion",
+    "impact": "Social cohesion, cultural enrichment",
+    "criticism": "Potential for fragmentation"
+  },
+  "relationship": [
+    {
+      "part_of": "Canadian policy"
+    },
+    {
+      "influenced_by": "Post-war immigration"
+    },
+    {
+      "related_to": "Immigration to Canada"
+    },
+    {
+      "impacts": "Canadian identity"
+    },
+    {
+      "supports": "Cultural preservation"
+    },
+    {
+      "promotes": "Intercultural dialogue"
+    },
+    {
+      "contradicts": "Assimilation"
+    },
+    {
+      "impacts": "Canadian society"
+    },
+    {
+      "related_to": "Charter of Rights and Freedoms"
+    },
+    {
+      "influenced": "Immigration policies"
+    }
+  ]
+}

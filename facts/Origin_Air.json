@@ -1,0 +1,47 @@
+{
+  "entity": "Origin Air",
+  "properties": {
+    "iata_code": "O6",
+    "icao_code": "OAL",
+    "hq_location": "Melbourne, Australia",
+    "fleet_size": "6",
+    "aircraft_type": "Boeing 737",
+    "foundation_date": "2023",
+    "ceo": "Ryan Both",
+    "business_model": "Charter",
+    "status": "Operating",
+    "country_of_origin": "Australia"
+  },
+  "relationship": [
+    {
+      "parent_company": "Lex Air"
+    },
+    {
+      "aircraft_manufacturer": "Boeing"
+    },
+    {
+      "hub_airport": "Melbourne Airport"
+    },
+    {
+      "service_area": "Australia"
+    },
+    {
+      "service_type": "Charter flights"
+    },
+    {
+      "regulatory_body": "Civil Aviation Safety Authority"
+    },
+    {
+      "competitor": "Jetstar"
+    },
+    {
+      "competitor": "Qantas"
+    },
+    {
+      "aircraft_model": "Boeing 737-800"
+    },
+    {
+      "employee_count": "Approximately 100"
+    }
+  ]
+}

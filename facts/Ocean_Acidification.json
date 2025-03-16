@@ -1,0 +1,47 @@
+{
+  "entity": "Ocean Acidification",
+  "properties": {
+    "definition": "Decrease in ocean pH",
+    "cause": "Absorption of atmospheric CO2",
+    "chemical_reaction": "CO2 + H2O -> H2CO3",
+    "primary_effect": "Reduced carbonate availability",
+    "impacted_organisms": "Shell-forming organisms",
+    "measurement_unit": "pH",
+    "current_rate": "Faster than past events",
+    "global_scale": "Worldwide",
+    "time_scale": "Ongoing, accelerating",
+    "related_phenomenon": "Climate Change"
+  },
+  "relationship": [
+    {
+      "caused_by": "Anthropogenic Emissions"
+    },
+    {
+      "impacts": "Coral Reefs"
+    },
+    {
+      "affects": "Marine Ecosystems"
+    },
+    {
+      "linked_to": "Carbon Cycle"
+    },
+    {
+      "reduces": "Calcification"
+    },
+    {
+      "threatens": "Shellfish"
+    },
+    {
+      "exacerbated_by": "Warming Waters"
+    },
+    {
+      "studied_by": "Oceanography"
+    },
+    {
+      "mitigation_strategy": "Carbon Capture"
+    },
+    {
+      "related_to": "Seawater"
+    }
+  ]
+}

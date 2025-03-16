@@ -1,0 +1,47 @@
+{
+  "entity": "Tourist",
+  "properties": {
+    "instance_of": "Person",
+    "motivation": "Leisure, Exploration",
+    "activity": "Travel",
+    "demographic": "Variable",
+    "economic_impact": "Significant",
+    "origin": "Variable",
+    "destination": "Variable",
+    "duration": "Variable",
+    "spending": "Variable",
+    "impact_on_culture": "Variable"
+  },
+  "relationship": [
+    {
+      "visits": "Tourist_attraction"
+    },
+    {
+      "travels_to": "Country"
+    },
+    {
+      "uses": "Transportation"
+    },
+    {
+      "stays_in": "Accommodation"
+    },
+    {
+      "consumes": "Food"
+    },
+    {
+      "purchases": "Souvenir"
+    },
+    {
+      "influenced_by": "Travel Agency"
+    },
+    {
+      "impacts": "Local Economy"
+    },
+    {
+      "experiences": "Culture"
+    },
+    {
+      "generates": "Tourism Revenue"
+    }
+  ]
+}

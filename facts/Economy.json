@@ -1,0 +1,47 @@
+{
+  "entity": "Economy",
+  "properties": {
+    "instance_of": "Social science",
+    "field_of_study": "Economics",
+    "focus": "Production, distribution, consumption",
+    "system_type": "Complex adaptive system",
+    "scale": "Micro, Macro, Global",
+    "key_concept": "Scarcity",
+    "measurement": "GDP, Inflation, Unemployment",
+    "subfield": "Microeconomics, Macroeconomics",
+    "related_discipline": "Political science, Sociology",
+    "historical_development": "Mercantilism, Capitalism, Socialism"
+  },
+  "relationship": [
+    {
+      "impacts": "Standard of living"
+    },
+    {
+      "influences": "Government policy"
+    },
+    {
+      "requires": "Resources"
+    },
+    {
+      "drives": "Innovation"
+    },
+    {
+      "affects": "Employment"
+    },
+    {
+      "interacts_with": "Financial markets"
+    },
+    {
+      "depends_on": "Labor"
+    },
+    {
+      "related_to": "Trade"
+    },
+    {
+      "impacts": "Investment"
+    },
+    {
+      "analyzed_by": "Economists"
+    }
+  ]
+}

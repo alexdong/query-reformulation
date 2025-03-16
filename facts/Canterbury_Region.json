@@ -1,0 +1,47 @@
+{
+  "entity": "Canterbury Region",
+  "properties": {
+    "type": "Region",
+    "country": "New Zealand",
+    "area_km2": "16386",
+    "population_2023": "677000",
+    "region_code": "03",
+    "major_city": "Christchurch",
+    "climate": "Temperate",
+    "economy": "Agriculture, Tourism",
+    "latitude": "-43.5",
+    "longitude": "173.0"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "contains": "Christchurch City"
+    },
+    {
+      "contains": "Timaru"
+    },
+    {
+      "contains": "Rangiora"
+    },
+    {
+      "borders": "West Coast Region"
+    },
+    {
+      "borders": "Otago Region"
+    },
+    {
+      "borders": "Tasman-Marlborough Region"
+    },
+    {
+      "river_flows_through": "Waimakariri River"
+    },
+    {
+      "river_flows_through": "Rakaia River"
+    },
+    {
+      "influenced_by": "Ngāi Tahu"
+    }
+  ]
+}

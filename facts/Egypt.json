@@ -1,0 +1,47 @@
+{
+  "entity": "Egypt",
+  "properties": {
+    "capital": "Cairo",
+    "official_language": "Arabic",
+    "continent": "Africa",
+    "population": "110 million",
+    "area_km2": "1010408",
+    "currency": "Egyptian Pound",
+    "government": "Semi-presidential republic",
+    "largest_city": "Cairo",
+    "major_religion": "Islam",
+    "geography": "Desert, Nile River"
+  },
+  "relationship": [
+    {
+      "located_in": "Africa"
+    },
+    {
+      "borders": "Libya"
+    },
+    {
+      "borders": "Sudan"
+    },
+    {
+      "borders": "Israel"
+    },
+    {
+      "borders": "Gaza Strip"
+    },
+    {
+      "has_part": "Sinai Peninsula"
+    },
+    {
+      "river_flows_through": "Nile"
+    },
+    {
+      "historical_civilization": "Ancient Egypt"
+    },
+    {
+      "influenced": "Islamic architecture"
+    },
+    {
+      "member_of": "Arab League"
+    }
+  ]
+}

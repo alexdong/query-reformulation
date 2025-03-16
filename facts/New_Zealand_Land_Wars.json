@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Land Wars",
+  "properties": {
+    "instance_of": "Conflict",
+    "location": "New Zealand",
+    "time_period": "1845-1872",
+    "cause": "Land disputes",
+    "involved_parties": "Māori, British Empire",
+    "outcome": "British victory, Māori land loss",
+    "legal_basis": "Treaty of Waitangi",
+    "primary_language": "Māori, English",
+    "total_casualties": "Thousands",
+    "historical_significance": "Impacted Māori sovereignty"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Musket Wars"
+    },
+    {
+      "caused_by": "Treaty of Waitangi"
+    },
+    {
+      "involved": "Hongi Hika"
+    },
+    {
+      "involved": "William Hobson"
+    },
+    {
+      "involved": "Te Rangihiātoa"
+    },
+    {
+      "involved": "Pākehā"
+    },
+    {
+      "resulted_in": "Waitangi Tribunal"
+    },
+    {
+      "influenced": "Māori Renaissance"
+    },
+    {
+      "part_of": "New Zealand history"
+    },
+    {
+      "related_to": "Treaty of Waitangi claims"
+    }
+  ]
+}

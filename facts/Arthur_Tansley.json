@@ -1,0 +1,47 @@
+{
+  "entity": "Arthur Tansley",
+  "properties": {
+    "birth_date": "1875-08-31",
+    "death_date": "1941-11-23",
+    "birth_place": "Eccles, Lancashire",
+    "nationality": "British",
+    "occupation": "Botanist",
+    "field": "Ecology",
+    "education": "University of Manchester",
+    "doctoral_advisor": "James William Hirst",
+    "known_for": "Coined 'ecosystem'",
+    "awards": "Royal Medal"
+  },
+  "relationship": [
+    {
+      "influenced": "Rachel Carson"
+    },
+    {
+      "influenced": "Eugene Odum"
+    },
+    {
+      "member_of": "Linnean Society"
+    },
+    {
+      "professor_of": "University of Manchester"
+    },
+    {
+      "studied": "Botany"
+    },
+    {
+      "contributed_to": "Journal of Ecology"
+    },
+    {
+      "worked_at": "Imperial Forestry Institute"
+    },
+    {
+      "developed": "Concept of ecosystem"
+    },
+    {
+      "studied_with": "James William Hirst"
+    },
+    {
+      "publication": "The British Isles and the Sea"
+    }
+  ]
+}

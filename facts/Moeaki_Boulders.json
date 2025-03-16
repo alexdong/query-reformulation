@@ -1,0 +1,47 @@
+{
+  "entity": "Moeaki Boulders",
+  "properties": {
+    "type": "Geological formation",
+    "location": "Koekohe Beach, New Zealand",
+    "formation_age": "60-80 million years",
+    "material": "Conglomerate",
+    "diameter_range": "1 to 3 meters",
+    "origin": "Paleocene epoch",
+    "erosion_agent": "Ocean waves",
+    "discovery_date": "Unknown",
+    "protected_area": "Fossil Coast",
+    "geological_period": "Paleogene"
+  },
+  "relationship": [
+    {
+      "part_of": "Fossil Coast"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "formed_during": "Paleocene"
+    },
+    {
+      "composed_of": "Conglomerate rock"
+    },
+    {
+      "eroded_by": "Ocean"
+    },
+    {
+      "found_near": "Koekohe Beach"
+    },
+    {
+      "influenced_by": "Wave action"
+    },
+    {
+      "related_to": "Geology of New Zealand"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "studied_by": "Geologists"
+    }
+  ]
+}

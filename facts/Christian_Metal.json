@@ -1,0 +1,47 @@
+{
+  "entity": "Christian Metal",
+  "properties": {
+    "genre": "Metal music",
+    "themes": "Christian faith, spirituality",
+    "origin": "1980s",
+    "lyrical_content": "Biblical references, theological concepts",
+    "target_audience": "Christian listeners",
+    "subgenre_of": "Metal",
+    "instrumentation": "Electric guitars, bass, drums, vocals",
+    "style": "Varies widely, from melodic to extreme",
+    "influence": "Christian beliefs, metal music",
+    "distribution": "Independent labels, online platforms"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Metal music"
+    },
+    {
+      "subgenre_of": "Heavy metal"
+    },
+    {
+      "related_to": "Christian music"
+    },
+    {
+      "artist_performs": "Bride"
+    },
+    {
+      "artist_performs": "Stryper"
+    },
+    {
+      "artist_performs": "Deliverance"
+    },
+    {
+      "influenced": "Contemporary Christian music"
+    },
+    {
+      "overlaps_with": "Progressive Christian metal"
+    },
+    {
+      "shares_themes_with": "Christian rock"
+    },
+    {
+      "often_features": "Biblical narratives"
+    }
+  ]
+}

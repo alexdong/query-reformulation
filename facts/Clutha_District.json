@@ -1,0 +1,47 @@
+{
+  "entity": "Clutha District",
+  "properties": {
+    "type": "Local government area",
+    "country": "New Zealand",
+    "region": "Otago",
+    "area_km2": "2077",
+    "population_2018": "12777",
+    "established": "1876",
+    "abolished": "2022",
+    "mayor_2019": "Bryan Hannan",
+    "timezone": "NZDT",
+    "currency": "NZD"
+  },
+  "relationship": [
+    {
+      "part_of": "Otago Region"
+    },
+    {
+      "contains": "Milton"
+    },
+    {
+      "contains": "Balclutha"
+    },
+    {
+      "contains": "Owaka"
+    },
+    {
+      "borders": "Dunedin"
+    },
+    {
+      "borders": "Southland Region"
+    },
+    {
+      "river_flows_through": "Clutha River"
+    },
+    {
+      "economic_activity": "Agriculture"
+    },
+    {
+      "economic_activity": "Tourism"
+    },
+    {
+      "historical_name": "Clutha County"
+    }
+  ]
+}

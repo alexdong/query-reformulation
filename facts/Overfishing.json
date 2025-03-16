@@ -1,0 +1,47 @@
+{
+  "entity": "Overfishing",
+  "properties": {
+    "definition": "Depletion of fish stocks",
+    "cause": "Excessive fishing",
+    "impact": "Ecosystem disruption",
+    "scale": "Global",
+    "affected_species": "Various fish species",
+    "economic_impact": "Loss of livelihoods",
+    "environmental_consequence": "Habitat destruction",
+    "measurement": "Catch per unit effort (CPUE)",
+    "related_concept": "Marine conservation",
+    "solution": "Sustainable fishing practices"
+  },
+  "relationship": [
+    {
+      "causes": "Marine ecosystem degradation"
+    },
+    {
+      "impacts": "Food security"
+    },
+    {
+      "related_to": "Fisheries"
+    },
+    {
+      "contributes_to": "Biodiversity loss"
+    },
+    {
+      "addressed_by": "Fishing quotas"
+    },
+    {
+      "requires": "Marine protected areas"
+    },
+    {
+      "linked_to": "Aquaculture"
+    },
+    {
+      "impacts": "Coastal communities"
+    },
+    {
+      "mitigated_by": "Fisheries management"
+    },
+    {
+      "related_to": "Climate change"
+    }
+  ]
+}

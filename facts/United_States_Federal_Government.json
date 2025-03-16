@@ -1,0 +1,47 @@
+{
+  "entity": "United States Federal Government",
+  "properties": {
+    "type": "Federal Government",
+    "sovereign_state": "United States",
+    "head_of_state": "President of the United States",
+    "legislative_branch": "United States Congress",
+    "executive_branch": "Executive Branch of the United States",
+    "judicial_branch": "Judicial Branch of the United States",
+    "constitution": "United States Constitution",
+    "capital": "Washington, D.C.",
+    "established": "1789",
+    "system": "Federal Republic"
+  },
+  "relationship": [
+    {
+      "governs": "United States"
+    },
+    {
+      "branch_of": "Federal Government"
+    },
+    {
+      "member_of": "Government"
+    },
+    {
+      "head_of": "Executive Branch of the United States"
+    },
+    {
+      "legislates": "United States Congress"
+    },
+    {
+      "judges": "Supreme Court of the United States"
+    },
+    {
+      "authored_by": "United States Constitution"
+    },
+    {
+      "located_in": "Washington, D.C."
+    },
+    {
+      "influenced_by": "Articles of Confederation"
+    },
+    {
+      "oversees": "Federal Agencies"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Seed",
+  "properties": {
+    "instance_of": "Plant structure",
+    "type": "Reproductive unit",
+    "contains": "Embryo",
+    "provides": "Nourishment",
+    "protects": "Embryo",
+    "dispersal_method": "Various",
+    "size": "Variable",
+    "color": "Variable",
+    "origin": "Plant",
+    "function": "Propagation"
+  },
+  "relationship": [
+    {
+      "part_of": "Plant"
+    },
+    {
+      "contains": "Embryo"
+    },
+    {
+      "provides": "Endosperm"
+    },
+    {
+      "requires": "Soil"
+    },
+    {
+      "requires": "Water"
+    },
+    {
+      "requires": "Sunlight"
+    },
+    {
+      "results_in": "Plant"
+    },
+    {
+      "related_to": "Germination"
+    },
+    {
+      "type_of": "Ovule"
+    },
+    {
+      "related_to": "Botany"
+    }
+  ]
+}

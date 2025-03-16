@@ -1,0 +1,46 @@
+{
+  "entity": "Ecology",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field_of": "Biology",
+    "focus": "Organism interactions",
+    "study_level": "Organism, population, community, ecosystem, biosphere",
+    "origin": "Germany",
+    "founder": "Ernst Haeckel",
+    "related_to": "Environmental science",
+    "subfield": "Community ecology",
+    "application": "Conservation biology"
+  },
+  "relationship": [
+    {
+      "studies": "Biodiversity"
+    },
+    {
+      "interacts_with": "Environment"
+    },
+    {
+      "influences": "Conservation"
+    },
+    {
+      "related_to": "Systems theory"
+    },
+    {
+      "requires": "Statistics"
+    },
+    {
+      "uses": "Modeling"
+    },
+    {
+      "overlaps_with": "Evolutionary biology"
+    },
+    {
+      "impacts": "Climate change"
+    },
+    {
+      "studies_population": "Population"
+    },
+    {
+      "studies_community": "Community"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Academia",
+  "properties": {
+    "instance_of": "System",
+    "focus": "Research & Teaching",
+    "goal": "Knowledge Creation",
+    "structure": "Hierarchical",
+    "funding": "Grants & Tuition",
+    "peer_review": "Essential",
+    "publication": "Journals & Books",
+    "reputation": "Based on Output",
+    "career_path": "Tenure Track",
+    "evaluation": "Metrics & Reputation"
+  },
+  "relationship": [
+    {
+      "part_of": "Higher Education"
+    },
+    {
+      "employs": "Professor"
+    },
+    {
+      "produces": "Research Paper"
+    },
+    {
+      "awards": "Nobel Prize"
+    },
+    {
+      "influenced_by": "Enlightenment"
+    },
+    {
+      "requires": "Critical Thinking"
+    },
+    {
+      "promotes": "Intellectual Curiosity"
+    },
+    {
+      "fosters": "Collaboration"
+    },
+    {
+      "relies_on": "University"
+    },
+    {
+      "criticized_for": "Bias"
+    }
+  ]
+}

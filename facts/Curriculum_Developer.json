@@ -1,0 +1,47 @@
+{
+  "entity": "Curriculum Developer",
+  "properties": {
+    "occupation": "Profession",
+    "field": "Education",
+    "skills": "Instructional Design, Assessment, Subject Matter Expertise",
+    "responsibilities": "Design, Develop, Evaluate",
+    "education": "Bachelor's Degree (often Master's)",
+    "tools": "Learning Management Systems (LMS), Authoring Software",
+    "industry": "Education, Training",
+    "salary_range": "$60,000 - $100,000",
+    "work_environment": "Office, Remote",
+    "related_roles": "Instructional Designer, Educational Technologist"
+  },
+  "relationship": [
+    {
+      "collaborates_with": "Teacher"
+    },
+    {
+      "designs_for": "Student"
+    },
+    {
+      "uses": "Instructional Design Model"
+    },
+    {
+      "creates": "Learning Objectives"
+    },
+    {
+      "evaluates": "Assessment"
+    },
+    {
+      "employs": "Bloom's Taxonomy"
+    },
+    {
+      "aligns_with": "Standards"
+    },
+    {
+      "integrates": "Technology"
+    },
+    {
+      "works_with": "Subject Matter Expert"
+    },
+    {
+      "contributes_to": "Educational Program"
+    }
+  ]
+}

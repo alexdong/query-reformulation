@@ -1,0 +1,47 @@
+{
+  "entity": "Cuisine",
+  "properties": {
+    "instance_of": "Cultural tradition",
+    "type": "Food preparation",
+    "origin": "Geographic region",
+    "characteristic": "Flavor profiles",
+    "influenced_by": "History & Culture",
+    "ingredients": "Local produce",
+    "techniques": "Cooking methods",
+    "presentation": "Plating style",
+    "reflects": "Social customs",
+    "associated_with": "Nationality"
+  },
+  "relationship": [
+    {
+      "part_of": "Culture"
+    },
+    {
+      "influenced_by": "Geography"
+    },
+    {
+      "related_to": "Gastronomy"
+    },
+    {
+      "example_of": "Italian cuisine"
+    },
+    {
+      "example_of": "French cuisine"
+    },
+    {
+      "example_of": "Japanese cuisine"
+    },
+    {
+      "associated_with": "Chef"
+    },
+    {
+      "uses": "Recipe"
+    },
+    {
+      "includes": "Dish"
+    },
+    {
+      "originates_from": "Country"
+    }
+  ]
+}

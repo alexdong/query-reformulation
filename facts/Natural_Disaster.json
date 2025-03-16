@@ -1,0 +1,47 @@
+{
+  "entity": "Natural Disaster",
+  "properties": {
+    "type": "Event",
+    "cause": "Natural Processes",
+    "impact": "Destructive",
+    "scale": "Local to Global",
+    "predictability": "Variable",
+    "frequency": "Recurring",
+    "severity": "Varies",
+    "affected_area": "Geographic",
+    "human_impact": "Significant",
+    "recovery_time": "Extended"
+  },
+  "relationship": [
+    {
+      "causes": "Climate Change"
+    },
+    {
+      "results_in": "Humanitarian Crisis"
+    },
+    {
+      "impacts": "Ecosystem"
+    },
+    {
+      "preceded_by": "Geological Activity"
+    },
+    {
+      "followed_by": "Disaster Relief"
+    },
+    {
+      "related_to": "Meteorology"
+    },
+    {
+      "example_of": "Earthquake"
+    },
+    {
+      "example_of": "Hurricane"
+    },
+    {
+      "example_of": "Tsunami"
+    },
+    {
+      "mitigated_by": "Disaster Preparedness"
+    }
+  ]
+}

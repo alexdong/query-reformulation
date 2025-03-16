@@ -1,0 +1,47 @@
+{
+  "entity": "Unicorn",
+  "properties": {
+    "instance_of": "Mythical creature",
+    "description": "Horse-like creature with a single horn",
+    "origin": "Ancient Greece",
+    "symbolism": "Purity, Grace, Magic",
+    "appearance": "White horse, spiral horn",
+    "gender": "Typically female",
+    "habitat": "Forests, meadows",
+    "diet": "Plants, herbs",
+    "rarity": "Extremely rare",
+    "mythology": "Various cultures"
+  },
+  "relationship": [
+    {
+      "related_to": "Pegasus"
+    },
+    {
+      "related_to": "Centaur"
+    },
+    {
+      "appears_in": "Greek mythology"
+    },
+    {
+      "appears_in": "European folklore"
+    },
+    {
+      "associated_with": "Chivalry"
+    },
+    {
+      "associated_with": "Virginity"
+    },
+    {
+      "depicted_in": "Art"
+    },
+    {
+      "depicted_in": "Literature"
+    },
+    {
+      "inspiration_for": "Fantasy literature"
+    },
+    {
+      "symbolizes": "Innocence"
+    }
+  ]
+}

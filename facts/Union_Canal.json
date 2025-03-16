@@ -1,0 +1,47 @@
+{
+  "entity": "Union Canal",
+  "properties": {
+    "type": "Canal",
+    "location": "Scotland & England",
+    "length": "24.7 km",
+    "built": "1801",
+    "owner": "Canal & River Trust",
+    "purpose": "Transport & Recreation",
+    "elevation_change": "31 m",
+    "locks": "9",
+    "status": "Operational",
+    "geography": "Central Scotland & Lancashire"
+  },
+  "relationship": [
+    {
+      "connects": "Falkirk"
+    },
+    {
+      "connects": "Edinburgh"
+    },
+    {
+      "connects": "Manchester"
+    },
+    {
+      "part_of": "British canal network"
+    },
+    {
+      "flows_into": "River Forth"
+    },
+    {
+      "flows_into": "River Irwell"
+    },
+    {
+      "engineered_by": "John Rennie"
+    },
+    {
+      "influenced": "Industrial Revolution"
+    },
+    {
+      "adjacent_to": "Edinburgh Canal"
+    },
+    {
+      "serves": "Tourism"
+    }
+  ]
+}

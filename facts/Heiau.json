@@ -1,0 +1,47 @@
+{
+  "entity": "Heiau",
+  "properties": {
+    "type": "Temple",
+    "culture": "Hawaiian",
+    "purpose": "Religious/Ceremonial",
+    "construction_material": "Stone",
+    "location": "Hawaii",
+    "function": "Sacrifice/Worship",
+    "era": "Ancient Hawaii",
+    "status": "Historic Site",
+    "design": "Terraced/Platform",
+    "significance": "Spiritual Center"
+  },
+  "relationship": [
+    {
+      "part_of": "Hawaiian religion"
+    },
+    {
+      "associated_with": "Aliʻi"
+    },
+    {
+      "associated_with": "Kahuna"
+    },
+    {
+      "location_of": "Pu'uhonua o Honaunau"
+    },
+    {
+      "location_of": "Pu'u o Mahuka Heiau"
+    },
+    {
+      "influenced": "Hawaiian society"
+    },
+    {
+      "ritual_performed": "Human sacrifice"
+    },
+    {
+      "associated_with_deity": "Kū"
+    },
+    {
+      "associated_with_deity": "Lono"
+    },
+    {
+      "predecessor_of": "Modern Hawaiian churches"
+    }
+  ]
+}

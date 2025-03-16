@@ -1,0 +1,47 @@
+{
+  "entity": "Language",
+  "properties": {
+    "instance_of": "Communication system",
+    "type": "Formal system",
+    "domain": "Linguistics",
+    "medium": "Spoken/Written",
+    "purpose": "Communication",
+    "structure": "Grammar, Vocabulary",
+    "evolution": "Constant change",
+    "classification": "Typology, Family",
+    "representation": "Phonetics, Semantics",
+    "cognitive_basis": "Human cognition"
+  },
+  "relationship": [
+    {
+      "part_of": "Communication"
+    },
+    {
+      "related_to": "Linguistics"
+    },
+    {
+      "used_in": "Culture"
+    },
+    {
+      "has_variant": "Dialect"
+    },
+    {
+      "related_to": "Grammar"
+    },
+    {
+      "related_to": "Semantics"
+    },
+    {
+      "related_to": "Phonology"
+    },
+    {
+      "influenced_by": "History"
+    },
+    {
+      "used_by": "Human"
+    },
+    {
+      "example_of": "English"
+    }
+  ]
+}

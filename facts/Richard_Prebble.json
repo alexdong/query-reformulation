@@ -1,0 +1,47 @@
+{
+  "entity": "Richard Prebble",
+  "properties": {
+    "birth_date": "1947-08-03",
+    "birth_place": "Wellington, New Zealand",
+    "occupation": "Politician, Businessman",
+    "nationality": "New Zealander",
+    "education": "Victoria University of Wellington",
+    "political_party": "ACT New Zealand",
+    "spouse": "Sheila Prebble",
+    "children": "2",
+    "height": "1.83 m",
+    "alma_mater": "Victoria University of Wellington"
+  },
+  "relationship": [
+    {
+      "member_of": "New Zealand House of Representatives"
+    },
+    {
+      "leader_of": "ACT New Zealand"
+    },
+    {
+      "predecessor": "Derek Caygill"
+    },
+    {
+      "successor": "Steven Joyce"
+    },
+    {
+      "member_of": "Labour Party (formerly)"
+    },
+    {
+      "influenced": "New Zealand economic policy"
+    },
+    {
+      "critic_of": "New Zealand bureaucracy"
+    },
+    {
+      "business_affiliation": "The Prebble Group"
+    },
+    {
+      "columnist_for": "New Zealand Herald"
+    },
+    {
+      "advocate_for": "Free market economics"
+    }
+  ]
+}

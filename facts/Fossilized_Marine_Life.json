@@ -1,0 +1,47 @@
+{
+  "entity": "Fossilized Marine Life",
+  "properties": {
+    "type": "Fossil",
+    "formation_process": "Mineralization",
+    "age_range": "Millions of years",
+    "preservation_quality": "Variable",
+    "common_finds": "Shells, bones, teeth",
+    "geological_era": "Paleozoic to Cenozoic",
+    "location": "Sedimentary rock",
+    "study_field": "Paleontology",
+    "information_source": "Geological record",
+    "provides_data_on": "Past marine ecosystems"
+  },
+  "relationship": [
+    {
+      "part_of": "Fossil Record"
+    },
+    {
+      "related_to": "Marine Life"
+    },
+    {
+      "found_in": "Sedimentary Rock"
+    },
+    {
+      "studied_by": "Paleontologist"
+    },
+    {
+      "evidence_of": "Extinction Events"
+    },
+    {
+      "indicates": "Past Climate"
+    },
+    {
+      "contributes_to": "Evolutionary History"
+    },
+    {
+      "example_of": "Trilobites"
+    },
+    {
+      "example_of": "Ammonites"
+    },
+    {
+      "example_of": "Marine Reptiles"
+    }
+  ]
+}

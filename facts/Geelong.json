@@ -1,0 +1,47 @@
+{
+  "entity": "Geelong",
+  "properties": {
+    "type": "City",
+    "population_2021": "258,718",
+    "state": "Victoria",
+    "country": "Australia",
+    "established": "1847",
+    "latitude": "-37.464",
+    "longitude": "144.507",
+    "mayor": "Peter Cain",
+    "area_km2": "1,458",
+    "time_zone": "Australian Eastern Standard Time"
+  },
+  "relationship": [
+    {
+      "part_of": "Victoria"
+    },
+    {
+      "located_in": "Corio Bay"
+    },
+    {
+      "near": "Melbourne"
+    },
+    {
+      "founded_by": "John Batman"
+    },
+    {
+      "industry": "Manufacturing"
+    },
+    {
+      "sport_team": "Geelong Football Club"
+    },
+    {
+      "sport_team": "Geelong United FC"
+    },
+    {
+      "river": "Barwon River"
+    },
+    {
+      "historical_event": "Eureka Rebellion"
+    },
+    {
+      "attraction": "National Wool Museum"
+    }
+  ]
+}

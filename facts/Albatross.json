@@ -1,0 +1,47 @@
+{
+  "entity": "Albatross",
+  "properties": {
+    "kingdom": "Animalia",
+    "class": "Aves",
+    "order": "Procellariiformes",
+    "family": "Diomedeidae",
+    "wingspan": "Up to 3.5 m",
+    "conservation_status": "Vulnerable",
+    "diet": "Fish, squid, krill",
+    "habitat": "Ocean, islands",
+    "lifespan": "30-50 years",
+    "distribution": "Worldwide oceans"
+  },
+  "relationship": [
+    {
+      "part_of_family": "Diomedeidae"
+    },
+    {
+      "order_includes": "Procellariiformes"
+    },
+    {
+      "preys_on": "Fish"
+    },
+    {
+      "lives_in": "Ocean"
+    },
+    {
+      "threatened_by": "Plastic pollution"
+    },
+    {
+      "related_to": "Petrels"
+    },
+    {
+      "found_in_region": "Antarctica"
+    },
+    {
+      "found_in_region": "Pacific Ocean"
+    },
+    {
+      "found_in_region": "Arctic"
+    },
+    {
+      "migration_route": "Global"
+    }
+  ]
+}

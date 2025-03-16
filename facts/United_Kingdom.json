@@ -1,0 +1,47 @@
+{
+  "entity": "United Kingdom",
+  "properties": {
+    "capital": "London",
+    "official_language": "English",
+    "population": "67.2 million",
+    "area_km2": "242,495",
+    "currency": "Pound Sterling",
+    "sovereign": "Charles III",
+    "prime_minister": "Rishi Sunak",
+    "largest_city": "London",
+    "GDP_nominal": "$3.33 trillion",
+    "member_of": "Commonwealth"
+  },
+  "relationship": [
+    {
+      "part_of": "Europe"
+    },
+    {
+      "borders": "Ireland"
+    },
+    {
+      "influenced": "United States"
+    },
+    {
+      "member_of": "G7"
+    },
+    {
+      "has_part": "England"
+    },
+    {
+      "has_part": "Scotland"
+    },
+    {
+      "has_part": "Wales"
+    },
+    {
+      "has_part": "Northern Ireland"
+    },
+    {
+      "historical_event": "Industrial Revolution"
+    },
+    {
+      "monarch": "Elizabeth II"
+    }
+  ]
+}

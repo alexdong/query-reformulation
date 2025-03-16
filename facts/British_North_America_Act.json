@@ -1,0 +1,47 @@
+{
+  "entity": "British North America Act",
+  "properties": {
+    "short_name": "BNA Act",
+    "type": "Act of Parliament",
+    "country": "United Kingdom",
+    "year": "1867",
+    "purpose": "Confederation",
+    "legal_system": "Common Law",
+    "governed_territory": "Dominion of Canada",
+    "amended_by": "Constitution Act, 1982",
+    "repealed_in": "1982",
+    "language": "English"
+  },
+  "relationship": [
+    {
+      "created": "Dominion of Canada"
+    },
+    {
+      "enacted_by": "Parliament of the United Kingdom"
+    },
+    {
+      "influenced": "Canadian Constitution"
+    },
+    {
+      "preceded_by": "Confederation Debates"
+    },
+    {
+      "resulted_in": "Federalism"
+    },
+    {
+      "governs": "Provinces and Territories"
+    },
+    {
+      "defined": "Division of Powers"
+    },
+    {
+      "impacted": "Indigenous Peoples"
+    },
+    {
+      "replaced_by": "Constitution Act, 1982"
+    },
+    {
+      "related_to": "Westminster system"
+    }
+  ]
+}

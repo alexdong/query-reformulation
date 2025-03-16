@@ -1,0 +1,47 @@
+{
+  "entity": "Small Business",
+  "properties": {
+    "definition": "Privately owned enterprise",
+    "size_category": "Micro, Small, Medium",
+    "employee_count_range": "<500",
+    "revenue_limit": "Varies by country",
+    "legal_structure": "Sole Proprietorship, Partnership, LLC, Corporation",
+    "economic_impact": "Job creation, innovation",
+    "sector_representation": "All sectors",
+    "funding_sources": "Loans, investors, bootstrapping",
+    "challenges": "Competition, regulation, cash flow",
+    "importance": "Economic growth"
+  },
+  "relationship": [
+    {
+      "part_of": "Economy"
+    },
+    {
+      "impacts": "Job Market"
+    },
+    {
+      "supported_by": "Small Business Administration"
+    },
+    {
+      "regulated_by": "Government"
+    },
+    {
+      "provides": "Goods and Services"
+    },
+    {
+      "fosters": "Innovation"
+    },
+    {
+      "employs": "Workers"
+    },
+    {
+      "competes_with": "Large Corporations"
+    },
+    {
+      "benefits_from": "Entrepreneurship"
+    },
+    {
+      "contributes_to": "GDP"
+    }
+  ]
+}

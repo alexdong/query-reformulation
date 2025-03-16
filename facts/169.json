@@ -1,0 +1,47 @@
+{
+  "entity": "169",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "integer": "Yes",
+    "odd_number": "Yes",
+    "prime_factorization": "1 x 169",
+    "square_of": "13",
+    "divisors": "1, 13, 169",
+    "sum_of_digits": "16",
+    "representation": "CLXIX (Roman numerals)",
+    "is_deficient": "Yes"
+  },
+  "relationship": [
+    {
+      "is_factor_of": "278"
+    },
+    {
+      "is_factor_of": "338"
+    },
+    {
+      "is_factor_of": "537"
+    },
+    {
+      "is_factor_of": "873"
+    },
+    {
+      "is_factor_of": "1105"
+    },
+    {
+      "is_factor_of": "1690"
+    },
+    {
+      "is_square_of": "13"
+    },
+    {
+      "predecessor": "168"
+    },
+    {
+      "successor": "170"
+    },
+    {
+      "appears_in_sequence": "Fibonacci numbers"
+    }
+  ]
+}

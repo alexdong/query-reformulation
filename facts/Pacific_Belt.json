@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Belt",
+  "properties": {
+    "type": "Geological Feature",
+    "location": "Pacific Ocean",
+    "length": "15,500 km",
+    "depth": "8,000 m",
+    "formation": "Subduction",
+    "tectonic_setting": "Convergent",
+    "volcanism": "Extensive",
+    "earthquakes": "Frequent",
+    "composition": "Basaltic",
+    "age": "200 million years"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Ring of Fire"
+    },
+    {
+      "contains": "Mariana Trench"
+    },
+    {
+      "contains": "Aleutian Islands"
+    },
+    {
+      "adjacent_to": "North American Plate"
+    },
+    {
+      "adjacent_to": "Pacific Plate"
+    },
+    {
+      "associated_with": "Subduction Zone"
+    },
+    {
+      "produces": "Volcanoes"
+    },
+    {
+      "causes": "Earthquakes"
+    },
+    {
+      "influences": "Tsunami"
+    },
+    {
+      "located_near": "Japan"
+    }
+  ]
+}

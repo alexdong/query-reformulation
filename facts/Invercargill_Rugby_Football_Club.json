@@ -1,0 +1,47 @@
+{
+  "entity": "Invercargill Rugby Football Club",
+  "properties": {
+    "founded": "1881",
+    "location": "Invercargill",
+    "country": "New Zealand",
+    "competition": "Southland Division 1",
+    "nicknames": "Maroons",
+    "home_ground": "Balmoral Bush",
+    "governing_body": "New Zealand Rugby",
+    "colours": "Maroon and White",
+    "status": "Amateur",
+    "trophies": "Multiple Southland Championships"
+  },
+  "relationship": [
+    {
+      "part_of": "Southland Rugby Football Union"
+    },
+    {
+      "located_in": "Invercargill City"
+    },
+    {
+      "plays_in": "National Club Championship"
+    },
+    {
+      "rivalry_with": "Eastern Rugby Football Club"
+    },
+    {
+      "member_of": "New Zealand Rugby Football Union"
+    },
+    {
+      "coach": "Southland Rugby Coach"
+    },
+    {
+      "player_plays_for": "All Blacks"
+    },
+    {
+      "sponsored_by": "Local Businesses"
+    },
+    {
+      "has_team": "Premier Team"
+    },
+    {
+      "competition_type": "Rugby Union"
+    }
+  ]
+}

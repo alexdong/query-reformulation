@@ -1,0 +1,47 @@
+{
+  "entity": "Tapu (mythology)",
+  "properties": {
+    "type": "Deity",
+    "culture": "Hawaiian",
+    "domain": "Fertility, Growth",
+    "gender": "Male",
+    "associated_with": "Agriculture",
+    "role": "Guardian",
+    "worshiped_by": "Ancient Hawaiians",
+    "mythological_family": "Hawaiian Pantheon",
+    "appearance": "Often depicted as a stone image",
+    "location": "Various heiau (temples) in Hawaii"
+  },
+  "relationship": [
+    {
+      "related_to": "Hawaiian mythology"
+    },
+    {
+      "part_of": "Hawaiian Pantheon"
+    },
+    {
+      "associated_with": "Kāne"
+    },
+    {
+      "associated_with": "Kū"
+    },
+    {
+      "associated_with": "Lono"
+    },
+    {
+      "associated_with": "Kanaloa"
+    },
+    {
+      "worshiped_at": "Heiau"
+    },
+    {
+      "function": "Protecting crops"
+    },
+    {
+      "related_to": "Hawaiian religion"
+    },
+    {
+      "symbolizes": "Abundance"
+    }
+  ]
+}

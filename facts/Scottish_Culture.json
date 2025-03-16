@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Culture",
+  "properties": {
+    "location": "Scotland",
+    "language": "Scottish Gaelic, Scots, English",
+    "music_genre": "Celtic music",
+    "dance_style": "Scottish country dance",
+    "traditional_dress": "Kilt, Tartan",
+    "sport": "Shinty, Curling, Highland Games",
+    "cuisine": "Haggis, Shortbread, Scotch Whisky",
+    "literary_tradition": "Robert Burns, Walter Scott",
+    "art_form": "Celtic knotwork, Thistle motifs",
+    "historical_period": "Medieval Scotland"
+  },
+  "relationship": [
+    {
+      "part_of": "British Culture"
+    },
+    {
+      "influenced_by": "Norse Culture"
+    },
+    {
+      "shares_language_with": "Irish Culture"
+    },
+    {
+      "produces": "Scotch Whisky"
+    },
+    {
+      "features_in": "Highland Games"
+    },
+    {
+      "written_by": "Robert Burns"
+    },
+    {
+      "depicts": "Clan System"
+    },
+    {
+      "associated_with": "Bagpipes"
+    },
+    {
+      "celebrates": "Burns Night"
+    },
+    {
+      "originates_from": "Gaelic Culture"
+    }
+  ]
+}

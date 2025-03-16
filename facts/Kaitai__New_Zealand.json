@@ -1,0 +1,47 @@
+{
+  "entity": "Kaitai, New Zealand",
+  "properties": {
+    "type": "Settlement",
+    "region": "Tasman-Nelson",
+    "country": "New Zealand",
+    "latitude": "-41.342",
+    "longitude": "173.273",
+    "population_estimate": "300",
+    "postal_code": "7042",
+    "time_zone": "NZST",
+    "elevation": "20m",
+    "river": "Maitai River"
+  },
+  "relationship": [
+    {
+      "located_in": "Tasman District"
+    },
+    {
+      "part_of": "Nelson-Tasman Region"
+    },
+    {
+      "near": "Blenheim"
+    },
+    {
+      "flows_into": "Tasman Bay"
+    },
+    {
+      "river_name": "Maitai River"
+    },
+    {
+      "contains": "Kaitai School"
+    },
+    {
+      "has_landmark": "St. Andrews Church"
+    },
+    {
+      "serves": "Rural community"
+    },
+    {
+      "connected_to": "State Highway 6"
+    },
+    {
+      "influenced_by": "Māori culture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Knitting",
+  "properties": {
+    "instance_of": "Textile craft",
+    "type": "Needlework",
+    "origin": "Ancient",
+    "materials": "Yarn, Needles",
+    "technique": "Looping",
+    "purpose": "Clothing, Textiles",
+    "skill_level": "Beginner to Advanced",
+    "related_craft": "Crochet",
+    "history_region": "Worldwide",
+    "cultural_significance": "Varies by region"
+  },
+  "relationship": [
+    {
+      "uses": "Yarn"
+    },
+    {
+      "uses": "Knitting needles"
+    },
+    {
+      "produces": "Fabric"
+    },
+    {
+      "related_to": "Crochet"
+    },
+    {
+      "part_of": "Textile arts"
+    },
+    {
+      "influenced_by": "Needlepoint"
+    },
+    {
+      "associated_with": "Fiber arts"
+    },
+    {
+      "historical_example": "Stocking stitch"
+    },
+    {
+      "used_in": "Clothing"
+    },
+    {
+      "technique_in": "Weaving"
+    }
+  ]
+}

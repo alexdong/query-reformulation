@@ -1,0 +1,47 @@
+{
+  "entity": "Super Bowl",
+  "properties": {
+    "instance_of": "American football championship",
+    "league": "National Football League (NFL)",
+    "first_held": "1967",
+    "frequency": "Annual",
+    "trophy": "Vince Lombardi Trophy",
+    "duration": "Approximately 3 hours",
+    "attendance_capacity": "60,000-80,000",
+    "broadcast_audience": "Over 100 million",
+    "revenue": "Over $500 million",
+    "location_type": "Stadium"
+  },
+  "relationship": [
+    {
+      "preceded_by": "NFL Championship Game"
+    },
+    {
+      "followed_by": "Next Super Bowl"
+    },
+    {
+      "features": "NFL team"
+    },
+    {
+      "features": "AFC champion"
+    },
+    {
+      "features": "NFC champion"
+    },
+    {
+      "sponsored_by": "Various sponsors"
+    },
+    {
+      "halftime_show": "Super Bowl Halftime Show"
+    },
+    {
+      "awards": "Vince Lombardi Trophy"
+    },
+    {
+      "broadcast_on": "CBS"
+    },
+    {
+      "broadcast_on": "NBC"
+    }
+  ]
+}

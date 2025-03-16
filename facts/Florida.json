@@ -1,0 +1,47 @@
+{
+  "entity": "Florida",
+  "properties": {
+    "capital": "Tallahassee",
+    "population": "22,244,823",
+    "area_km2": "170,304",
+    "state_motto": "In God We Trust",
+    "nickname": "Sunshine State",
+    "largest_city": "Jacksonville",
+    "official_language": "English",
+    "governor": "Ron DeSantis",
+    "time_zone": "Eastern Time Zone",
+    "state_flower": "Orange Blossom"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "borders": "Georgia"
+    },
+    {
+      "borders": "Alabama"
+    },
+    {
+      "located_in": "Southeastern United States"
+    },
+    {
+      "has_region": "Florida Keys"
+    },
+    {
+      "has_region": "Everglades"
+    },
+    {
+      "industry": "Tourism"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "major_river": "St. Johns River"
+    },
+    {
+      "climate": "Subtropical"
+    }
+  ]
+}

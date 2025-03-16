@@ -1,0 +1,47 @@
+{
+  "entity": "Edinburgh Castle",
+  "properties": {
+    "type": "Castle",
+    "location": "Edinburgh, Scotland",
+    "elevation": "120m (394 ft)",
+    "architectural_style": "Various",
+    "owner": "Crown Estate",
+    "year_built": "12th century",
+    "area": "11.24 hectares (28 acres)",
+    "material": "Rock",
+    "historical_period": "Medieval",
+    "status": "Tourist attraction"
+  },
+  "relationship": [
+    {
+      "part_of": "Old Town, Edinburgh"
+    },
+    {
+      "located_in": "City of Edinburgh"
+    },
+    {
+      "country": "Scotland"
+    },
+    {
+      "influenced": "Scottish history"
+    },
+    {
+      "battle_occurred": "Battle of Edinburgh Castle (1573)"
+    },
+    {
+      "siege_occurred": "Siege of Edinburgh Castle (1650)"
+    },
+    {
+      "contains": "Scottish Crown Jewels"
+    },
+    {
+      "houses": "One O'Clock Gun"
+    },
+    {
+      "associated_with": "Mary, Queen of Scots"
+    },
+    {
+      "defended": "Edinburgh"
+    }
+  ]
+}

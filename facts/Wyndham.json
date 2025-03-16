@@ -1,0 +1,47 @@
+{
+  "entity": "Wyndham",
+  "properties": {
+    "type": "Town",
+    "country": "United Kingdom",
+    "region": "Buckinghamshire",
+    "population_2011": "12,783",
+    "postcode": "HP14",
+    "grid_reference": "SP8049",
+    "area_code": "01494",
+    "elevation": "130m",
+    "local_authority": "Buckinghamshire Council",
+    "river": "River Thame"
+  },
+  "relationship": [
+    {
+      "located_in": "Buckinghamshire"
+    },
+    {
+      "part_of": "Chilterns"
+    },
+    {
+      "near": "High Wycombe"
+    },
+    {
+      "served_by": "Great Western Main Line"
+    },
+    {
+      "has_landmark": "Wyndham Village Hall"
+    },
+    {
+      "has_building": "St Mary's Church, Wyndham"
+    },
+    {
+      "contains": "Wyndham Common"
+    },
+    {
+      "historical_part_of": "Hughenden"
+    },
+    {
+      "has_historical_event": "Hughenden Manor"
+    },
+    {
+      "connected_to": "A40 road"
+    }
+  ]
+}

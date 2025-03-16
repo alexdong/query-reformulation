@@ -1,0 +1,47 @@
+{
+  "entity": "Oyashio Current",
+  "properties": {
+    "type": "Ocean current",
+    "location": "North Pacific Ocean",
+    "origin": "Kamchatka Peninsula",
+    "direction": "Southward",
+    "depth": "Deep",
+    "temperature": "Cold",
+    "salinity": "High",
+    "part_of": "Subarctic Current",
+    "discovery_year": "1940",
+    "name_meaning": "Old Ocean"
+  },
+  "relationship": [
+    {
+      "flows_into": "Subarctic Current"
+    },
+    {
+      "originates_from": "Kamchatka Peninsula"
+    },
+    {
+      "influences": "Sea of Okhotsk"
+    },
+    {
+      "impacts_climate": "North Pacific"
+    },
+    {
+      "adjacent_to": "Aleutian Islands"
+    },
+    {
+      "affects_marine_life": "Salmon"
+    },
+    {
+      "part_of_system": "Pacific Ocean"
+    },
+    {
+      "contributes_to": "North Pacific Gyre"
+    },
+    {
+      "interacts_with": "Kuroshio Current"
+    },
+    {
+      "studied_by": "Oceanographers"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Kumburupone",
+  "properties": {
+    "type": "Village",
+    "location": "Ghana",
+    "region": "Ashanti",
+    "district": "Sekyere East",
+    "population_estimate": "Unknown",
+    "language_spoken": "Twi",
+    "economy": "Agriculture",
+    "religion": "Traditional Religions, Christianity",
+    "elevation": "Unknown",
+    "coordinates": "Unknown"
+  },
+  "relationship": [
+    {
+      "located_in": "Ashanti Region"
+    },
+    {
+      "part_of": "Ghana"
+    },
+    {
+      "district": "Sekyere East"
+    },
+    {
+      "has_nearby": "Sekyere East District"
+    },
+    {
+      "influenced_by": "Ashanti Empire"
+    },
+    {
+      "economy_based_on": "Agriculture"
+    },
+    {
+      "religion_includes": "Christianity"
+    },
+    {
+      "religion_includes": "Traditional Religions"
+    },
+    {
+      "language_spoken": "Twi"
+    },
+    {
+      "influenced_by": "Ghanaian culture"
+    }
+  ]
+}

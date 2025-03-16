@@ -1,0 +1,47 @@
+{
+  "entity": "Doubtful Sound",
+  "properties": {
+    "type": "Fjord",
+    "location": "Fiordland National Park",
+    "country": "New Zealand",
+    "length": "40 km",
+    "area": "340 sq km",
+    "depth": "420 m",
+    "formation": "Glacial",
+    "name_origin": "Difficult to navigate",
+    "freshwater": "Yes",
+    "tributary": "Lake Manapouri"
+  },
+  "relationship": [
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "connected_to": "Lake Manapouri"
+    },
+    {
+      "accessed_by": "Doubtful Sound Track"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "ecosystem_contains": "Dolphins"
+    },
+    {
+      "ecosystem_contains": "Seals"
+    },
+    {
+      "ecosystem_contains": "Penguins"
+    },
+    {
+      "tourism_attraction": "Cruise tours"
+    },
+    {
+      "adjacent_to": "Tasman Sea"
+    }
+  ]
+}

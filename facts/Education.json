@@ -1,0 +1,47 @@
+{
+  "entity": "Education",
+  "properties": {
+    "instance_of": "Process",
+    "purpose": "Knowledge acquisition",
+    "field_of_study": "Social science",
+    "level": "Varies",
+    "type": "Formal, Informal, Non-formal",
+    "importance": "Societal development",
+    "funding_source": "Government, Private",
+    "accessibility": "Varies globally",
+    "goal": "Personal growth",
+    "impact": "Economic advancement"
+  },
+  "relationship": [
+    {
+      "part_of": "Learning"
+    },
+    {
+      "related_to": "Pedagogy"
+    },
+    {
+      "influenced_by": "Philosophy"
+    },
+    {
+      "requires": "Teaching"
+    },
+    {
+      "leads_to": "Career"
+    },
+    {
+      "supports": "Literacy"
+    },
+    {
+      "impacts": "Culture"
+    },
+    {
+      "governed_by": "Educational policy"
+    },
+    {
+      "provides": "Skills"
+    },
+    {
+      "promotes": "Critical thinking"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Tokelau",
+  "properties": {
+    "type": "Territory",
+    "country": "New Zealand",
+    "status": "Overseas Territory",
+    "population": "1441",
+    "area": "12 sq km",
+    "capital": "None (Administration based in New Zealand)",
+    "currency": "New Zealand Dollar (NZD)",
+    "official_language": "Tokelauan, English",
+    "location": "Pacific Ocean",
+    "governor": "New Zealand Representative"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "governed_by": "New Zealand"
+    },
+    {
+      "language_spoken": "Tokelauan"
+    },
+    {
+      "language_spoken": "English"
+    },
+    {
+      "currency_used": "New Zealand Dollar"
+    },
+    {
+      "island_group": "Tuvalu Islands"
+    },
+    {
+      "administered_by": "New Zealand Ministry of Foreign Affairs and Trade"
+    },
+    {
+      "has_dependency": "New Zealand"
+    },
+    {
+      "neighbor_country": "Tuvalu"
+    }
+  ]
+}

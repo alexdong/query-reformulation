@@ -1,0 +1,47 @@
+{
+  "entity": "Uki, Fukushima",
+  "properties": {
+    "type": "Town",
+    "location": "Fukushima Prefecture",
+    "country": "Japan",
+    "area_code": "024",
+    "postal_code": "960-1101",
+    "population_2020": "14,378",
+    "founded": "1889",
+    "coordinates": "37.8333°N 140.4500°E",
+    "governed_by": "Uki Town Office",
+    "part_of": "Tōhoku region"
+  },
+  "relationship": [
+    {
+      "located_in": "Fukushima Prefecture"
+    },
+    {
+      "part_of": "Japan"
+    },
+    {
+      "near": "Bandai"
+    },
+    {
+      "near": "Aizuwakamatsu"
+    },
+    {
+      "influenced_by": "Edo period"
+    },
+    {
+      "has_landmark": "Uki Shrine"
+    },
+    {
+      "has_industry": "Agriculture"
+    },
+    {
+      "has_transport": "JR Banetsu Line"
+    },
+    {
+      "affected_by": "2011 Tohoku earthquake and tsunami"
+    },
+    {
+      "has_historical_event": "Battle of Uki"
+    }
+  ]
+}

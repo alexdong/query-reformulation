@@ -1,0 +1,47 @@
+{
+  "entity": "Crude Oil",
+  "properties": {
+    "type": "Fossil Fuel",
+    "chemical_formula": "Mixture of Hydrocarbons",
+    "origin": "Geologic Processes",
+    "density": "0.8 - 1.0 g/cm³",
+    "viscosity": "Low",
+    "color": "Dark Brown to Black",
+    "odor": "Strong, Petroleum-like",
+    "formation_time": "Millions of Years",
+    "main_component": "Hydrocarbons",
+    "use": "Fuel, Raw Material"
+  },
+  "relationship": [
+    {
+      "refined_into": "Gasoline"
+    },
+    {
+      "refined_into": "Diesel Fuel"
+    },
+    {
+      "refined_into": "Heating Oil"
+    },
+    {
+      "extracted_from": "Petroleum Reservoir"
+    },
+    {
+      "traded_on": "NYMEX"
+    },
+    {
+      "produced_in": "Saudi Arabia"
+    },
+    {
+      "impacts": "Climate Change"
+    },
+    {
+      "used_for": "Plastics Production"
+    },
+    {
+      "transported_by": "Oil Tanker"
+    },
+    {
+      "related_to": "Petroleum"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Tairuaroa",
+  "properties": {
+    "type": "Volcano",
+    "location": "North Island, New Zealand",
+    "elevation": "1,492 m (4,895 ft)",
+    "region": "Taupō Volcanic Zone",
+    "status": "Dormant",
+    "last_eruption": "c. 10,000 years ago",
+    "volcanic_arc": "Taupō Volcanic Arc",
+    "rock_type": "Rhyolite",
+    "formation_date": "Pleistocene",
+    "part_of": "Taupō Caldera"
+  },
+  "relationship": [
+    {
+      "located_in": "North Island"
+    },
+    {
+      "part_of": "Taupō Caldera"
+    },
+    {
+      "located_near": "Mount Ngauruhoe"
+    },
+    {
+      "located_near": "Mount Ruapehu"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "tectonic_setting": "Subduction zone"
+    },
+    {
+      "eruption_style": "Phreatomagmatic"
+    },
+    {
+      "geological_feature": "Lava dome"
+    },
+    {
+      "associated_with": "Taupō Volcanic Zone"
+    },
+    {
+      "geological_era": "Pleistocene"
+    }
+  ]
+}

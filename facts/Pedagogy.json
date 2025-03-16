@@ -1,0 +1,47 @@
+{
+  "entity": "Pedagogy",
+  "properties": {
+    "instance_of": "Educational theory",
+    "field_of_study": "Education",
+    "focus": "Teaching methods",
+    "origin": "Ancient Greece",
+    "related_to": "Andragogy",
+    "synonym": "Teaching practice",
+    "scope": "Learning process",
+    "includes": "Curriculum design",
+    "aspect": "Student-teacher interaction",
+    "goal": "Effective learning"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Socrates"
+    },
+    {
+      "related_to": "Educational psychology"
+    },
+    {
+      "contrasts_with": "Andragogy"
+    },
+    {
+      "developed_by": "Johann Heinrich Pestalozzi"
+    },
+    {
+      "related_to": "Constructivism"
+    },
+    {
+      "related_to": "Bloom's Taxonomy"
+    },
+    {
+      "overlaps_with": "Curriculum"
+    },
+    {
+      "part_of": "Teaching"
+    },
+    {
+      "related_to": "Learning"
+    },
+    {
+      "influenced": "Teacher training"
+    }
+  ]
+}

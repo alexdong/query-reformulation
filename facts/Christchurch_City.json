@@ -1,0 +1,47 @@
+{
+  "entity": "Christchurch City",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Canterbury",
+    "population_2023": "400000",
+    "area_km2": "339.3",
+    "mayor": "Phil Maunder",
+    "established": "1850",
+    "timezone": "NZST",
+    "latitude": "-43.5320",
+    "longitude": "172.6088"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "river_flows_through": "Avon River"
+    },
+    {
+      "near": "Akaroa"
+    },
+    {
+      "influenced_by": "English settlement"
+    },
+    {
+      "has_sister_city": "Sapporo"
+    },
+    {
+      "has_landmark": "Christchurch Cathedral"
+    },
+    {
+      "has_transport": "Christchurch Airport"
+    },
+    {
+      "affected_by": "2011 Christchurch earthquake"
+    },
+    {
+      "economic_sector": "Tourism"
+    }
+  ]
+}

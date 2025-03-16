@@ -1,0 +1,47 @@
+{
+  "entity": "Multinational Corporation",
+  "properties": {
+    "definition": "Operates in multiple countries",
+    "revenue": "Varies greatly",
+    "employees": "Often >10,000",
+    "headquarters": "Varies by corporation",
+    "assets": "Typically >$1 billion",
+    "industry": "Diverse",
+    "structure": "Complex, hierarchical",
+    "legal_status": "Varies by jurisdiction",
+    "impact": "Significant economic & social",
+    "governance": "Board of Directors"
+  },
+  "relationship": [
+    {
+      "employs": "Employee"
+    },
+    {
+      "impacts": "Global Economy"
+    },
+    {
+      "regulated_by": "Government"
+    },
+    {
+      "competes_with": "Domestic Company"
+    },
+    {
+      "invests_in": "Foreign Direct Investment"
+    },
+    {
+      "produces": "Goods/Services"
+    },
+    {
+      "headquartered_in": "Country"
+    },
+    {
+      "influences": "International Trade"
+    },
+    {
+      "contributes_to": "GDP"
+    },
+    {
+      "example_of": "Apple Inc."
+    }
+  ]
+}

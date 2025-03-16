@@ -1,0 +1,47 @@
+{
+  "entity": "University of Colombo",
+  "properties": {
+    "established": "1920",
+    "location": "Colombo, Sri Lanka",
+    "type": "Public University",
+    "governing_body": "Ministry of Higher Education, Sri Lanka",
+    "academic_staff": "700+",
+    "student_population": "13,000+",
+    "fields_of_study": "Arts, Science, Commerce, Law, Medicine",
+    "website": "www.cmb.ac.lk",
+    "motto": "Disa Vidusli",
+    "affiliations": "Sri Lanka"
+  },
+  "relationship": [
+    {
+      "located_in": "Colombo"
+    },
+    {
+      "country": "Sri Lanka"
+    },
+    {
+      "type_of": "Higher Education Institution"
+    },
+    {
+      "predecessor": "Colombo Collegiate"
+    },
+    {
+      "member_of": "Universities of Sri Lanka"
+    },
+    {
+      "offers": "Bachelor's Degree"
+    },
+    {
+      "offers": "Master's Degree"
+    },
+    {
+      "offers": "Doctorate"
+    },
+    {
+      "has_faculty": "Faculty of Arts"
+    },
+    {
+      "has_faculty": "Faculty of Science"
+    }
+  ]
+}

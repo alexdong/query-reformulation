@@ -1,0 +1,47 @@
+{
+  "entity": "English settlement of North America",
+  "properties": {
+    "start_date": "1607",
+    "end_date": "1775",
+    "region": "North America",
+    "motivation": "Economic & Religious",
+    "initial_colony": "Jamestown",
+    "dominant_language": "English",
+    "governing_body": "British Empire",
+    "primary_crops": "Tobacco, Cotton, Maize",
+    "population_growth": "Significant",
+    "legal_system": "English Common Law"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Exploration of North America"
+    },
+    {
+      "followed_by": "American Revolution"
+    },
+    {
+      "influenced": "United States"
+    },
+    {
+      "colonized": "Virginia"
+    },
+    {
+      "colonized": "Massachusetts"
+    },
+    {
+      "colonized": "Pennsylvania"
+    },
+    {
+      "involved": "Virginia Company"
+    },
+    {
+      "involved": "Plymouth Colony"
+    },
+    {
+      "involved": "Puritans"
+    },
+    {
+      "impacted": "Native Americans"
+    }
+  ]
+}

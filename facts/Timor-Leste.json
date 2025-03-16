@@ -1,0 +1,47 @@
+{
+  "entity": "Timor-Leste",
+  "properties": {
+    "official_name": "Democratic Republic of Timor-Leste",
+    "capital": "Dili",
+    "population": "1300000",
+    "area_km2": "14874",
+    "official_languages": "Tetum, Portuguese",
+    "currency": "US Dollar",
+    "independence_date": "2002-05-20",
+    "gdp_nominal": "2.3 billion USD",
+    "largest_city": "Dili",
+    "time_zone": "UTC+9"
+  },
+  "relationship": [
+    {
+      "part_of": "Southeast Asia"
+    },
+    {
+      "border_country": "Indonesia"
+    },
+    {
+      "island_part_of": "Timor"
+    },
+    {
+      "former_colony_of": "Portugal"
+    },
+    {
+      "administered_by": "United Nations"
+    },
+    {
+      "influenced_by": "Catholicism"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "member_of": "ASEAN"
+    },
+    {
+      "located_near": "Australia"
+    },
+    {
+      "has_language": "Tetum"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Southland District Council",
+  "properties": {
+    "type": "Local government",
+    "region": "Southland",
+    "country": "New Zealand",
+    "population_2023": "19,500",
+    "mayor": "Robbie Beattie",
+    "area_km2": "7500",
+    "establishment_date": "1989",
+    "headquarters_location": "Invercargill",
+    "website": "southlanddc.govt.nz",
+    "governance_type": "Unitary authority"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Southland Region"
+    },
+    {
+      "governs": "Invercargill"
+    },
+    {
+      "governs": "Te Anau"
+    },
+    {
+      "governs": "Riverton"
+    },
+    {
+      "member_of": "Local Government New Zealand"
+    },
+    {
+      "provides_service_to": "Southland residents"
+    },
+    {
+      "responsible_for": "Road maintenance"
+    },
+    {
+      "responsible_for": "Waste management"
+    },
+    {
+      "reports_to": "Department of Internal Affairs"
+    }
+  ]
+}

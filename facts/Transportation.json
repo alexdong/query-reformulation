@@ -1,0 +1,47 @@
+{
+  "entity": "Transportation",
+  "properties": {
+    "instance_of": "System",
+    "purpose": "Movement",
+    "scale": "Global",
+    "type": "Infrastructure",
+    "economic_impact": "Significant",
+    "environmental_impact": "Variable",
+    "historical_development": "Long",
+    "key_component": "Vehicles",
+    "regulation": "Government",
+    "dependency": "Energy"
+  },
+  "relationship": [
+    {
+      "uses": "Road"
+    },
+    {
+      "uses": "Rail transport"
+    },
+    {
+      "uses": "Waterway"
+    },
+    {
+      "uses": "Air transport"
+    },
+    {
+      "impacts": "Economy"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "relies_on": "Logistics"
+    },
+    {
+      "supports": "Trade"
+    },
+    {
+      "affects": "Urban planning"
+    },
+    {
+      "influenced_by": "Technology"
+    }
+  ]
+}

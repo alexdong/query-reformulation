@@ -1,0 +1,47 @@
+{
+  "entity": "Sicily",
+  "properties": {
+    "type": "Island",
+    "region": "Southern Europe",
+    "area": "25,711 km²",
+    "population": "5,093,837",
+    "capital": "Palermo",
+    "part_of": "Italy",
+    "highest_point": "Mount Etna",
+    "language": "Italian",
+    "currency": "Euro",
+    "time_zone": "CET"
+  },
+  "relationship": [
+    {
+      "part_of": "Italy"
+    },
+    {
+      "located_in": "Mediterranean Sea"
+    },
+    {
+      "near": "Calabria"
+    },
+    {
+      "near": "Malta"
+    },
+    {
+      "influenced_by": "Ancient Greece"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "has_volcano": "Mount Etna"
+    },
+    {
+      "has_city": "Palermo"
+    },
+    {
+      "has_city": "Catania"
+    },
+    {
+      "historical_region": "Magna Graecia"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Seine",
+  "properties": {
+    "type": "River",
+    "length": "777 km",
+    "source": "Barberousse",
+    "mouth": "English Channel",
+    "country": "France",
+    "basin_area": "79,122 km²",
+    "discharge": "314 m³/s",
+    "max_width": "1,6 km",
+    "average_depth": "1.5 m",
+    "tributary_of": "English Channel"
+  },
+  "relationship": [
+    {
+      "flows_through": "Paris"
+    },
+    {
+      "flows_through": "Rouen"
+    },
+    {
+      "flows_through": "Le Havre"
+    },
+    {
+      "tributary": "Yonne"
+    },
+    {
+      "tributary": "Aube"
+    },
+    {
+      "tributary": "Loing"
+    },
+    {
+      "flows_into": "Normandy"
+    },
+    {
+      "part_of": "Paris Basin"
+    },
+    {
+      "navigable_by": "Cargo ships"
+    },
+    {
+      "historical_importance": "Trade route"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Deep South",
+  "properties": {
+    "region_type": "Cultural region",
+    "location": "Southeastern United States",
+    "primary_states": "Alabama, Georgia, Mississippi, South Carolina",
+    "secondary_states": "Louisiana, Tennessee, Arkansas, Texas",
+    "climate": "Humid subtropical",
+    "economy": "Agriculture, Tourism",
+    "historical_significance": "Slavery, Civil War",
+    "cultural_traits": "Southern hospitality, Distinctive cuisine",
+    "music_genre": "Blues, Country, Gospel",
+    "literary_setting": "Southern Gothic"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "borders": "Midwest"
+    },
+    {
+      "influenced_by": "Antebellum South"
+    },
+    {
+      "contains": "Mississippi River"
+    },
+    {
+      "associated_with": "Civil Rights Movement"
+    },
+    {
+      "cuisine_influenced": "Soul Food"
+    },
+    {
+      "music_genre_originates": "Blues"
+    },
+    {
+      "literature_genre_setting": "Southern Gothic"
+    },
+    {
+      "historical_event": "American Civil War"
+    },
+    {
+      "economic_activity": "Cotton production"
+    }
+  ]
+}

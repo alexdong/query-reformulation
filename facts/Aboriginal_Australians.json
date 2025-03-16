@@ -1,0 +1,47 @@
+{
+  "entity": "Aboriginal Australians",
+  "properties": {
+    "origin": "Australia",
+    "population": "750,000+",
+    "language_family": "Pama-Nyungan, Murri",
+    "culture": "Oral tradition, kinship systems, Dreamtime",
+    "history": "65,000+ years",
+    "religion": "Animism, Ancestor worship",
+    "art_form": "Rock art, Dot painting",
+    "land_management": "Firestick farming",
+    "governance": "Traditional law, Elders",
+    "status": "Indigenous"
+  },
+  "relationship": [
+    {
+      "related_to": "Torres Strait Islanders"
+    },
+    {
+      "located_in": "Australia"
+    },
+    {
+      "influenced_by": "Dreamtime"
+    },
+    {
+      "related_to": "Terra Nullius"
+    },
+    {
+      "affected_by": "Stolen Generations"
+    },
+    {
+      "related_to": "Uluru"
+    },
+    {
+      "related_to": "Australian Aboriginal languages"
+    },
+    {
+      "related_to": "Australian history"
+    },
+    {
+      "related_to": "Indigenous Australian art"
+    },
+    {
+      "related_to": "National Reconciliation Week"
+    }
+  ]
+}

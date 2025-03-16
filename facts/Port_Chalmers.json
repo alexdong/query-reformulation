@@ -1,0 +1,47 @@
+{
+  "entity": "Port Chalmers",
+  "properties": {
+    "type": "Town",
+    "location": "Otago, New Zealand",
+    "established": "1844",
+    "population": "3000",
+    "harbour": "Port Chalmers",
+    "region": "Otago",
+    "mayor": "Steve Walker",
+    "industry": "Shipping, Tourism",
+    "latitude": "-45.5333",
+    "longitude": "170.8500"
+  },
+  "relationship": [
+    {
+      "part_of": "Dunedin"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "harboured_by": "Otago Harbour"
+    },
+    {
+      "founded_by": "Captain Thomson"
+    },
+    {
+      "influenced_by": "Scottish settlement"
+    },
+    {
+      "connected_to": "Dunedin Railways"
+    },
+    {
+      "has_port": "Port Chalmers"
+    },
+    {
+      "attracts": "Cruise ships"
+    },
+    {
+      "near": "Careys Bay"
+    },
+    {
+      "historical_event": "New Zealand Land Wars"
+    }
+  ]
+}

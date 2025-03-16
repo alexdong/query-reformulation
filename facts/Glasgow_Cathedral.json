@@ -1,0 +1,47 @@
+{
+  "entity": "Glasgow Cathedral",
+  "properties": {
+    "architectural_style": "Gothic",
+    "location": "Glasgow",
+    "denomination": "Scottish Episcopal Church",
+    "year_built": "1115",
+    "official_name": "High Kirk of Glasgow",
+    "status": "Active",
+    "capacity": "1500",
+    "founding_date": "1115",
+    "materials": "Sandstone",
+    "listed_building_grade": "Category A"
+  },
+  "relationship": [
+    {
+      "part_of": "Glasgow"
+    },
+    {
+      "architect": "John Keppoch"
+    },
+    {
+      "influenced": "Scottish Gothic architecture"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "has_part": "Saint Mungo"
+    },
+    {
+      "has_part": "Necropolis"
+    },
+    {
+      "related_to": "Scottish Reformation"
+    },
+    {
+      "style_of": "Gothic Revival"
+    },
+    {
+      "diocese_of": "Glasgow and the Clyde"
+    },
+    {
+      "preceded_by": "Earlier church"
+    }
+  ]
+}

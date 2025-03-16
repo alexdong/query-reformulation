@@ -1,0 +1,47 @@
+{
+  "entity": "Luge",
+  "properties": {
+    "instance_of": "Sport",
+    "type": "Winter sport",
+    "governing_body": "International Luge Federation (FIL)",
+    "equipment": "Sled",
+    "surface": "Ice",
+    "speed": "Up to 136.4 km/h",
+    "origin": "Switzerland",
+    "first_olympic": "1994",
+    "discipline": "Racing",
+    "track_length": "Typically 1.2–1.5 km"
+  },
+  "relationship": [
+    {
+      "part_of": "Winter Olympics"
+    },
+    {
+      "governed_by": "FIL"
+    },
+    {
+      "requires": "Sled"
+    },
+    {
+      "performed_on": "Ice track"
+    },
+    {
+      "related_to": "Skeleton"
+    },
+    {
+      "athlete_participates": "Luge athlete"
+    },
+    {
+      "track_designed_by": "Luge track designer"
+    },
+    {
+      "influenced_by": "Tobogganing"
+    },
+    {
+      "country_hosts": "Luge World Cup"
+    },
+    {
+      "medal_awarded_at": "Luge World Championships"
+    }
+  ]
+}

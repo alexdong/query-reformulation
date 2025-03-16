@@ -1,0 +1,47 @@
+{
+  "entity": "Rancho de las Aguas",
+  "properties": {
+    "type": "Rancho",
+    "location": "San Bernardino County, California",
+    "land_area": "13,333 acres",
+    "year_acquired": "1841",
+    "owner": "Luís María Lugo",
+    "original_purpose": "Cattle ranching",
+    "water_source": "Santa Ana River",
+    "historical_significance": "Early California ranching",
+    "present_status": "Part of Chino Hills State Park",
+    "native_flora": "Coastal sage scrub"
+  },
+  "relationship": [
+    {
+      "part_of": "Chino Hills State Park"
+    },
+    {
+      "located_in": "San Bernardino County, California"
+    },
+    {
+      "owned_by": "Luís María Lugo"
+    },
+    {
+      "historical_period": "Mexican California"
+    },
+    {
+      "adjacent_to": "Brea Creek"
+    },
+    {
+      "influenced_by": "Spanish Colonial Missions"
+    },
+    {
+      "water_source_of": "Santa Ana River"
+    },
+    {
+      "land_grant": "San Bernardino Land Grant"
+    },
+    {
+      "ecosystem": "California chaparral and woodlands"
+    },
+    {
+      "historical_event": "California Gold Rush"
+    }
+  ]
+}

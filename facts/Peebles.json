@@ -1,0 +1,47 @@
+{
+  "entity": "Peebles",
+  "properties": {
+    "type": "Town",
+    "country": "Scotland",
+    "region": "Scottish Borders",
+    "population": "3,337 (2011)",
+    "river": "Tweed",
+    "established": "11th century",
+    "latitude": "55.342",
+    "longitude": "-3.453",
+    "postcode": "EH45",
+    "elevation": "160 m (525 ft)"
+  },
+  "relationship": [
+    {
+      "part_of": "Scottish Borders"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "river_flows_through": "River Tweed"
+    },
+    {
+      "near": "Innerleithen"
+    },
+    {
+      "near": "Melrose"
+    },
+    {
+      "has_landmark": "Peebles Hydro"
+    },
+    {
+      "has_landmark": "Traquair House"
+    },
+    {
+      "has_event": "Peebles Agricultural Show"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "historical_figure_born_in": "William Brodie"
+    }
+  ]
+}

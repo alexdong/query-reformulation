@@ -1,0 +1,47 @@
+{
+  "entity": "University of Otago",
+  "properties": {
+    "established": "1847",
+    "location": "Dunedin",
+    "country": "New Zealand",
+    "type": "Public University",
+    "student_population": "26,000",
+    "governing_body": "University Council",
+    "vice_chancellor": "David McLauchlan",
+    "motto": "Sapere Aude",
+    "colours": "Cadmium Yellow and Royal Blue",
+    "research_focus": "Health Sciences, Humanities, Sciences"
+  },
+  "relationship": [
+    {
+      "located_in": "Otago Peninsula"
+    },
+    {
+      "member_of": "Universities New Zealand"
+    },
+    {
+      "founded_by": "Thomas Burns"
+    },
+    {
+      "has_alumni": "Richard Prebble"
+    },
+    {
+      "has_alumni": "Sam Johnson"
+    },
+    {
+      "offers_degree": "Bachelor of Arts"
+    },
+    {
+      "offers_degree": "Bachelor of Science"
+    },
+    {
+      "affiliated_with": "Otago Rugby Football Club"
+    },
+    {
+      "preceded_by": "Otago Boys' High School"
+    },
+    {
+      "research_partner": "Malaghan Institute of Medical Research"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Protein",
+  "properties": {
+    "instance_of": "Biomolecule",
+    "chemical_formula": "C, H, O, N, S",
+    "molecular_weight": "Variable",
+    "building_block": "Amino acid",
+    "function": "Structural, enzymatic, signaling",
+    "level_of_structure": "Primary, Secondary, Tertiary, Quaternary",
+    "found_in": "All living organisms",
+    "dietary_source": "Meat, eggs, legumes",
+    "essential": "Some amino acids",
+    "degradation": "Proteolysis"
+  },
+  "relationship": [
+    {
+      "part_of": "Cell"
+    },
+    {
+      "involved_in": "Metabolism"
+    },
+    {
+      "interacts_with": "DNA"
+    },
+    {
+      "synthesized_by": "Ribosome"
+    },
+    {
+      "composed_of": "Amino acid"
+    },
+    {
+      "regulated_by": "Gene expression"
+    },
+    {
+      "affected_by": "pH"
+    },
+    {
+      "affected_by": "Temperature"
+    },
+    {
+      "studied_in": "Biochemistry"
+    },
+    {
+      "related_to": "Enzyme"
+    }
+  ]
+}

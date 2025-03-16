@@ -1,0 +1,47 @@
+{
+  "entity": "Fish",
+  "properties": {
+    "instance_of": "Vertebrate",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "habitat": "Aquatic",
+    "breathing_method": "Gills",
+    "body_covering": "Scales",
+    "temperature_regulation": "Ectothermic",
+    "diet": "Omnivorous",
+    "lifespan": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Ecosystem"
+    },
+    {
+      "prey_for": "Seabird"
+    },
+    {
+      "predator_of": "Zooplankton"
+    },
+    {
+      "related_to": "Aquaculture"
+    },
+    {
+      "found_in": "Ocean"
+    },
+    {
+      "found_in": "Freshwater"
+    },
+    {
+      "type_of": "Animal"
+    },
+    {
+      "related_to": "Ichthyology"
+    },
+    {
+      "has_species": "Salmon"
+    },
+    {
+      "has_species": "Tuna"
+    }
+  ]
+}

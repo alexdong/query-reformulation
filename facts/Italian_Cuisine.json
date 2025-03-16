@@ -1,0 +1,47 @@
+{
+  "entity": "Italian Cuisine",
+  "properties": {
+    "origin": "Italy",
+    "style": "Regional",
+    "focus": "Fresh Ingredients",
+    "staple_grain": "Wheat",
+    "primary_oil": "Olive Oil",
+    "common_sauce": "Tomato Sauce",
+    "dairy_product": "Parmesan Cheese",
+    "meat_preference": "Pork, Beef, Chicken",
+    "dessert_focus": "Pastries, Gelato",
+    "wine_pairing": "Wine"
+  },
+  "relationship": [
+    {
+      "influenced": "American Cuisine"
+    },
+    {
+      "part_of": "Mediterranean Diet"
+    },
+    {
+      "regional_variation": "Sicilian Cuisine"
+    },
+    {
+      "regional_variation": "Tuscan Cuisine"
+    },
+    {
+      "ingredient_used_in": "Pizza"
+    },
+    {
+      "ingredient_used_in": "Pasta"
+    },
+    {
+      "dish_type": "Risotto"
+    },
+    {
+      "dish_type": "Polenta"
+    },
+    {
+      "associated_with": "Italian Culture"
+    },
+    {
+      "influenced_by": "Ancient Roman Cuisine"
+    }
+  ]
+}

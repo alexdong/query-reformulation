@@ -1,0 +1,47 @@
+{
+  "entity": "N. T. Rama Rao Family",
+  "properties": {
+    "founder": "N. T. Rama Rao",
+    "industry": "Telugu Cinema, Politics",
+    "origin": "Andhra Pradesh, India",
+    "prominence": "Telugu Film Industry, Andhra Pradesh Politics",
+    "dynasty": "Political Dynasty",
+    "language": "Telugu",
+    "religion": "Hinduism",
+    "net_worth": "Significant",
+    "family_name": "Rama Rao",
+    "legacy": "Significant cultural and political impact"
+  },
+  "relationship": [
+    {
+      "member_of": "Rama Rao Family"
+    },
+    {
+      "founded_by": "N. T. Rama Rao"
+    },
+    {
+      "spouse_of": "Basavatarakam Nandamuri"
+    },
+    {
+      "child_of": "Rama Rao Sr."
+    },
+    {
+      "father_of": "Nandamuri Balakrishna"
+    },
+    {
+      "father_of": "Nandamuri Kalyan Ram"
+    },
+    {
+      "father_of": "Nandamuri Harikrishna"
+    },
+    {
+      "grandchild_of": "Nandamuri Harikrishna"
+    },
+    {
+      "influenced": "Telugu Cinema"
+    },
+    {
+      "political_affiliation": "Telugu Desam Party"
+    }
+  ]
+}

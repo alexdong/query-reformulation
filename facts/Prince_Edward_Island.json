@@ -1,0 +1,47 @@
+{
+  "entity": "Prince Edward Island",
+  "properties": {
+    "type": "Island Province",
+    "country": "Canada",
+    "capital": "Charlottetown",
+    "area_km2": "5667",
+    "population_2021": "173670",
+    "official_language": "English",
+    "currency": "CAD",
+    "time_zone": "AST",
+    "highest_point": "Kinsmount",
+    "discovery_date": "1720"
+  },
+  "relationship": [
+    {
+      "part_of": "Canada"
+    },
+    {
+      "located_in": "Atlantic Canada"
+    },
+    {
+      "border_with": "Nova Scotia"
+    },
+    {
+      "named_after": "Edward, Prince of Wales"
+    },
+    {
+      "has_province_capital": "Charlottetown"
+    },
+    {
+      "contains": "Confederation Bridge"
+    },
+    {
+      "contains": "Red Shores Golf Resort"
+    },
+    {
+      "influenced_by": "Indigenous Peoples"
+    },
+    {
+      "produces": "Potatoes"
+    },
+    {
+      "known_for": "Anne of Green Gables"
+    }
+  ]
+}

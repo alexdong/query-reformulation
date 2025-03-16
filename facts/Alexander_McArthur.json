@@ -1,0 +1,47 @@
+{
+  "entity": "Alexander McArthur",
+  "properties": {
+    "birth_date": "1923-07-23",
+    "birth_place": "Vancouver, British Columbia",
+    "death_date": "2017-07-27",
+    "nationality": "Canadian",
+    "occupation": "Politician",
+    "political_party": "Progressive Conservative",
+    "education": "University of British Columbia",
+    "spouse": "Jean McArthur",
+    "children": "3",
+    "member_of": "Canadian House of Commons"
+  },
+  "relationship": [
+    {
+      "member_of_parliament_for": "Vancouver South"
+    },
+    {
+      "minister_of": "Public Works"
+    },
+    {
+      "minister_of": "National Revenue"
+    },
+    {
+      "appointed_by": "John Diefenbaker"
+    },
+    {
+      "preceded_by": "Charles Choquette"
+    },
+    {
+      "succeeded_by": "John Fraser"
+    },
+    {
+      "served_in": "Canadian Senate"
+    },
+    {
+      "educated_at": "University of British Columbia"
+    },
+    {
+      "political_ideology": "Conservatism"
+    },
+    {
+      "influenced_by": "John A. Macdonald"
+    }
+  ]
+}

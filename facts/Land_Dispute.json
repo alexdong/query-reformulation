@@ -1,0 +1,47 @@
+{
+  "entity": "Land Dispute",
+  "properties": {
+    "definition": "Conflict over land ownership",
+    "cause": "Boundary disagreements, inheritance, historical claims",
+    "location": "Worldwide, prevalent in developing nations",
+    "impact": "Economic instability, social unrest, displacement",
+    "legal_framework": "Varies by jurisdiction",
+    "resolution_methods": "Mediation, arbitration, litigation",
+    "scale": "Local to national",
+    "duration": "Short-term to multi-generational",
+    "common_parties": "Individuals, communities, governments",
+    "related_concept": "Property rights"
+  },
+  "relationship": [
+    {
+      "causes": "Historical Injustice"
+    },
+    {
+      "impacts": "Forced Displacement"
+    },
+    {
+      "resolved_by": "Legal System"
+    },
+    {
+      "related_to": "Property Law"
+    },
+    {
+      "impacts": "Poverty"
+    },
+    {
+      "involves": "Indigenous Peoples"
+    },
+    {
+      "exacerbated_by": "Corruption"
+    },
+    {
+      "linked_to": "Resource Conflict"
+    },
+    {
+      "addressed_by": "Land Reform"
+    },
+    {
+      "impacts": "Environmental Degradation"
+    }
+  ]
+}

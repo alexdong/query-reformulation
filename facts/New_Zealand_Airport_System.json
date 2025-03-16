@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Airport System",
+  "properties": {
+    "type": "Infrastructure",
+    "country": "New Zealand",
+    "number_of_airports": "37",
+    "regulatory_body": "CAA (Civil Aviation Authority)",
+    "primary_hub": "Auckland Airport",
+    "total_passengers_2023": "22.7 million",
+    "economic_impact": "Significant",
+    "aviation_safety_rating": "High",
+    "international_connections": "Extensive",
+    "cargo_handling": "Substantial"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand Transport System"
+    },
+    {
+      "serves": "New Zealand Tourism"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "operated_by": "Air New Zealand"
+    },
+    {
+      "connected_to": "Pacific Ocean"
+    },
+    {
+      "regulated_by": "Civil Aviation Authority"
+    },
+    {
+      "facilitates": "International Trade"
+    },
+    {
+      "supports": "Regional Development"
+    },
+    {
+      "impacts": "New Zealand Economy"
+    },
+    {
+      "infrastructure_of": "Auckland Airport"
+    }
+  ]
+}

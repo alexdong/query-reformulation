@@ -1,0 +1,47 @@
+{
+  "entity": "Economic Disparity",
+  "properties": {
+    "definition": "Unequal distribution of wealth",
+    "measurement": "Gini coefficient, income ratios",
+    "cause_1": "Globalization",
+    "cause_2": "Technological change",
+    "cause_3": "Policy choices",
+    "impact_1": "Social unrest",
+    "impact_2": "Reduced economic growth",
+    "impact_3": "Health inequalities",
+    "related_concept": "Poverty",
+    "scale": "Global, National, Local"
+  },
+  "relationship": [
+    {
+      "contributes_to": "Social Inequality"
+    },
+    {
+      "impacts": "Human Development"
+    },
+    {
+      "linked_to": "Wealth Distribution"
+    },
+    {
+      "exacerbated_by": "Tax Policy"
+    },
+    {
+      "related_to": "Income Inequality"
+    },
+    {
+      "measured_by": "Gini Coefficient"
+    },
+    {
+      "affects": "Quality of Life"
+    },
+    {
+      "influenced_by": "Globalization"
+    },
+    {
+      "impacts": "Political Stability"
+    },
+    {
+      "studied_by": "Economics"
+    }
+  ]
+}

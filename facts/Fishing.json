@@ -1,0 +1,47 @@
+{
+  "entity": "Fishing",
+  "properties": {
+    "instance_of": "Recreational activity",
+    "type": "Subsistence & Sport",
+    "tool": "Fishing rod",
+    "target": "Fish",
+    "location": "Aquatic environments",
+    "purpose": "Food & Recreation",
+    "history": "Ancient",
+    "regulation": "Varies by region",
+    "gear": "Bait, lures, nets",
+    "conservation": "Sustainable practices"
+  },
+  "relationship": [
+    {
+      "part_of": "Leisure"
+    },
+    {
+      "requires": "Fishing rod"
+    },
+    {
+      "targets": "Fish"
+    },
+    {
+      "occurs_in": "Aquatic ecosystem"
+    },
+    {
+      "related_to": "Aquaculture"
+    },
+    {
+      "impacts": "Marine biodiversity"
+    },
+    {
+      "influenced_by": "Fisheries management"
+    },
+    {
+      "associated_with": "Angling"
+    },
+    {
+      "provides": "Food source"
+    },
+    {
+      "governed_by": "Fishing regulations"
+    }
+  ]
+}

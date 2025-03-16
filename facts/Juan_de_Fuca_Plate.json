@@ -1,0 +1,47 @@
+{
+  "entity": "Juan de Fuca Plate",
+  "properties": {
+    "type": "Tectonic Plate",
+    "location": "Pacific Northwest",
+    "size": "230,000 km²",
+    "boundary_type": "Subduction Zone",
+    "subducts_under": "North American Plate",
+    "named_after": "Juan de Fuca",
+    "discovery_date": "1967",
+    "movement_direction": "Northwest",
+    "movement_rate": "3-4 cm/year",
+    "associated_fault": "Cascadia Subduction Zone"
+  },
+  "relationship": [
+    {
+      "part_of": "Pacific Plate"
+    },
+    {
+      "adjacent_to": "North American Plate"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "causes": "Earthquakes"
+    },
+    {
+      "creates": "Volcanic Arc"
+    },
+    {
+      "associated_with": "Cascadia Subduction Zone"
+    },
+    {
+      "influences": "Tsunami Risk"
+    },
+    {
+      "geological_feature": "Juan de Fuca Ridge"
+    },
+    {
+      "adjacent_to_ocean": "Salish Sea"
+    },
+    {
+      "related_to": "Tectonic Activity"
+    }
+  ]
+}

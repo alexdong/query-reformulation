@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Baronial Architecture",
+  "properties": {
+    "style_origin": "Scotland",
+    "period": "19th Century",
+    "influenced_by": "Gothic Revival, Medievalism",
+    "key_feature": "Towers, battlements, turrets",
+    "materials": "Stone, slate",
+    "aesthetic": "Romantic, picturesque",
+    "purpose": "Domestic, estate buildings",
+    "ornamentation": "Heraldic motifs, gargoyles",
+    "example_building": "Balmoral Castle",
+    "design_philosophy": "Expression of power, identity"
+  },
+  "relationship": [
+    {
+      "influenced": "Neo-Gothic architecture"
+    },
+    {
+      "influenced_by": "Scottish Gothic"
+    },
+    {
+      "example_of": "Architectural style"
+    },
+    {
+      "associated_with": "Scottish Renaissance"
+    },
+    {
+      "location": "Scotland"
+    },
+    {
+      "architect": "William Burn"
+    },
+    {
+      "architect": "David Bryce"
+    },
+    {
+      "architect": "Robert Rowand Anderson"
+    },
+    {
+      "design_element": "Crenellations"
+    },
+    {
+      "design_element": "Machicolations"
+    }
+  ]
+}

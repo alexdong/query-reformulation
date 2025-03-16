@@ -1,0 +1,47 @@
+{
+  "entity": "Russia",
+  "properties": {
+    "capital": "Moscow",
+    "official_language": "Russian",
+    "population": "144 million",
+    "area": "17 million km²",
+    "currency": "Ruble",
+    "government_type": "Federal semi-presidential republic",
+    "largest_city": "Moscow",
+    "continent": "Europe/Asia",
+    "national_anthem": "State Anthem of the Russian Federation",
+    "GDP_nominal": "$1.8 trillion"
+  },
+  "relationship": [
+    {
+      "part_of": "Eurasia"
+    },
+    {
+      "borders": "China"
+    },
+    {
+      "borders": "Ukraine"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "member_of": "BRICS"
+    },
+    {
+      "historical_event": "Russian Revolution"
+    },
+    {
+      "leader": "Vladimir Putin"
+    },
+    {
+      "major_religion": "Russian Orthodox Christianity"
+    },
+    {
+      "resource": "Oil"
+    },
+    {
+      "region_contains": "Volga River"
+    }
+  ]
+}

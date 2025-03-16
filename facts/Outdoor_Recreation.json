@@ -1,0 +1,47 @@
+{
+  "entity": "Outdoor Recreation",
+  "properties": {
+    "definition": "Leisure activities in natural environments",
+    "type": "Activity",
+    "benefits": "Physical, Mental, Social",
+    "popularity": "High",
+    "environmental_impact": "Variable",
+    "economic_impact": "Significant",
+    "accessibility": "Variable",
+    "seasonality": "Often Seasonal",
+    "risk_level": "Variable",
+    "governance": "Varies by activity & location"
+  },
+  "relationship": [
+    {
+      "part_of": "Leisure"
+    },
+    {
+      "includes": "Hiking"
+    },
+    {
+      "includes": "Camping"
+    },
+    {
+      "includes": "Fishing"
+    },
+    {
+      "includes": "Rock Climbing"
+    },
+    {
+      "requires": "Equipment"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "promotes": "Physical Fitness"
+    },
+    {
+      "related_to": "Tourism"
+    },
+    {
+      "governed_by": "National Park Service"
+    }
+  ]
+}

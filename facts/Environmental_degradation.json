@@ -1,0 +1,47 @@
+{
+  "entity": "Environmental degradation",
+  "properties": {
+    "type": "Process",
+    "cause": "Human activity",
+    "impact": "Ecosystem damage",
+    "scale": "Global",
+    "definition": "Deterioration of environment",
+    "rate": "Increasing",
+    "affected_resource": "Natural resources",
+    "primary_driver": "Pollution",
+    "related_issue": "Climate change",
+    "measurement": "Environmental indicators"
+  },
+  "relationship": [
+    {
+      "causes": "Pollution"
+    },
+    {
+      "impacts": "Biodiversity loss"
+    },
+    {
+      "contributes_to": "Climate change"
+    },
+    {
+      "linked_to": "Deforestation"
+    },
+    {
+      "exacerbated_by": "Overpopulation"
+    },
+    {
+      "results_in": "Resource depletion"
+    },
+    {
+      "affects": "Human health"
+    },
+    {
+      "mitigated_by": "Conservation"
+    },
+    {
+      "related_to": "Sustainability"
+    },
+    {
+      "studied_by": "Environmental science"
+    }
+  ]
+}

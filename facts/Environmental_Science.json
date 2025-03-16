@@ -1,0 +1,44 @@
+{
+  "entity": "Environmental Science",
+  "properties": {
+    "instance_of": "Interdisciplinary field",
+    "focus": "Environment & Human Impact",
+    "origin": "1960s",
+    "related_to": "Social Sciences",
+    "methodology": "Scientific Method",
+    "goal": "Solve Environmental Problems",
+    "subfield": "Chemistry"
+  },
+  "relationship": [
+    {
+      "studies": "Ecosystems"
+    },
+    {
+      "addresses": "Climate Change"
+    },
+    {
+      "requires": "Data Analysis"
+    },
+    {
+      "overlaps_with": "Sustainability"
+    },
+    {
+      "employs": "Remote Sensing"
+    },
+    {
+      "influenced_by": "Rachel Carson"
+    },
+    {
+      "related_to": "Conservation"
+    },
+    {
+      "requires": "Environmental Policy"
+    },
+    {
+      "impacts": "Human Health"
+    },
+    {
+      "studies": "Pollution"
+    }
+  ]
+}

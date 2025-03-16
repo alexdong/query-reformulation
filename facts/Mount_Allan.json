@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Allan",
+  "properties": {
+    "elevation_m": "3139",
+    "location": "Alberta",
+    "range": "Canadian Rockies",
+    "province": "Alberta",
+    "country": "Canada",
+    "type": "Mountain",
+    "first_ascent": "1924",
+    "named_after": "John Allan (mountaineer)",
+    "rock_type": "Shale, limestone",
+    "latitude": "51.3561° N"
+  },
+  "relationship": [
+    {
+      "part_of": "Canadian Rockies"
+    },
+    {
+      "located_in": "Alberta"
+    },
+    {
+      "near": "Canmore"
+    },
+    {
+      "named_for": "John Allan (mountaineer)"
+    },
+    {
+      "contains": "Allan Glacier"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "geology": "Rocky Mountains"
+    },
+    {
+      "adjacent_to": "Ha Ling Peak"
+    },
+    {
+      "elevation_comparable_to": "Grizzly Peak"
+    },
+    {
+      "part_of_region": "Bow Valley"
+    }
+  ]
+}

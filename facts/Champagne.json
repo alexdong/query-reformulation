@@ -1,0 +1,47 @@
+{
+  "entity": "Champagne",
+  "properties": {
+    "type": "Sparkling wine",
+    "region": "Champagne, France",
+    "grape_varieties": "Pinot Noir, Chardonnay, Pinot Meunier",
+    "production_method": "Méthode Champenoise",
+    "alcohol_content": "12-13%",
+    "color": "Gold",
+    "taste": "Dry, Fruity, Yeasty",
+    "appellation": "AOC Champagne",
+    "aging_requirement": "Minimum 15 months",
+    "price_range": "Varies, often expensive"
+  },
+  "relationship": [
+    {
+      "produced_in": "France"
+    },
+    {
+      "is_a": "Sparkling wine"
+    },
+    {
+      "region_governed_by": "Champagne region"
+    },
+    {
+      "grape_variety_used": "Pinot Noir"
+    },
+    {
+      "grape_variety_used": "Chardonnay"
+    },
+    {
+      "grape_variety_used": "Pinot Meunier"
+    },
+    {
+      "production_method": "Méthode Champenoise"
+    },
+    {
+      "paired_with": "Seafood"
+    },
+    {
+      "paired_with": "Celebrations"
+    },
+    {
+      "influenced_by": "Monastery of Hautvillers"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Environmental Awareness",
+  "properties": {
+    "definition": "Understanding environmental issues",
+    "focus": "Sustainability, conservation",
+    "importance": "Ecological balance",
+    "scope": "Global, local",
+    "drivers": "Education, activism",
+    "impact": "Behavior change",
+    "measurement": "Ecological footprint",
+    "related_concept": "Environmentalism",
+    "historical_origin": "1960s",
+    "key_issue": "Climate Change"
+  },
+  "relationship": [
+    {
+      "promotes": "Sustainability"
+    },
+    {
+      "impacts": "Biodiversity"
+    },
+    {
+      "linked_to": "Climate Change"
+    },
+    {
+      "influenced_by": "Rachel Carson"
+    },
+    {
+      "supports": "Conservation"
+    },
+    {
+      "requires": "Education"
+    },
+    {
+      "drives": "Green Movement"
+    },
+    {
+      "related_to": "Environmentalism"
+    },
+    {
+      "impacts": "Pollution"
+    },
+    {
+      "connected_to": "Resource Depletion"
+    }
+  ]
+}

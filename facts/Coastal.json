@@ -1,0 +1,47 @@
+{
+  "entity": "Coastal",
+  "properties": {
+    "type": "Retailer",
+    "industry": "Apparel",
+    "founded": "1994",
+    "headquarters": "Newport Beach, California",
+    "owner": "Jack Brock",
+    "focus": "Surf & Lifestyle",
+    "online_presence": "Yes",
+    "physical_stores": "Yes",
+    "target_audience": "Young Adults",
+    "brands_carried": "Billabong, Quiksilver, Rip Curl"
+  },
+  "relationship": [
+    {
+      "parent_company": "Jack's Retail Group"
+    },
+    {
+      "competitor": "Zumiez"
+    },
+    {
+      "competitor": "PacSun"
+    },
+    {
+      "sells": "Surfboards"
+    },
+    {
+      "sells": "Clothing"
+    },
+    {
+      "sells": "Footwear"
+    },
+    {
+      "located_in": "California"
+    },
+    {
+      "distributor_of": "Billabong"
+    },
+    {
+      "distributor_of": "Quiksilver"
+    },
+    {
+      "distributor_of": "Rip Curl"
+    }
+  ]
+}

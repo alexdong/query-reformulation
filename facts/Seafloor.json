@@ -1,0 +1,47 @@
+{
+  "entity": "Seafloor",
+  "properties": {
+    "instance_of": "Geological feature",
+    "location": "Oceans",
+    "composition": "Sediment, Rock",
+    "depth": "Varies",
+    "area": "70% Earth's surface",
+    "topography": "Abyssal plains, trenches, ridges",
+    "temperature": "Near freezing",
+    "pressure": "Extreme",
+    "light": "Absent",
+    "salinity": "High"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Abyssal plain"
+    },
+    {
+      "contains": "Ocean trench"
+    },
+    {
+      "contains": "Mid-ocean ridge"
+    },
+    {
+      "covered_by": "Ocean water"
+    },
+    {
+      "adjacent_to": "Continental margin"
+    },
+    {
+      "supports": "Deep-sea life"
+    },
+    {
+      "studied_by": "Oceanography"
+    },
+    {
+      "process": "Plate tectonics"
+    },
+    {
+      "feature_of": "Marine geology"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Wave Refraction",
+  "properties": {
+    "definition": "Bending of waves",
+    "cause": "Change in wave speed",
+    "medium_dependence": "Varies by medium",
+    "wavelength_effect": "Wavelength dependent",
+    "frequency_effect": "Frequency remains constant",
+    "amplitude_effect": "Amplitude generally unchanged",
+    "direction_change": "Change in propagation direction",
+    "type": "Wave phenomenon",
+    "application": "Optics, Acoustics, Seismology",
+    "related_phenomenon": "Diffraction, Reflection"
+  },
+  "relationship": [
+    {
+      "causes": "Change in medium"
+    },
+    {
+      "affects": "Wavelength"
+    },
+    {
+      "related_to": "Huygens' principle"
+    },
+    {
+      "observed_in": "Water waves"
+    },
+    {
+      "observed_in": "Light waves"
+    },
+    {
+      "observed_in": "Seismic waves"
+    },
+    {
+      "explains": "Mirage"
+    },
+    {
+      "used_in": "Lens design"
+    },
+    {
+      "influences": "Sound localization"
+    },
+    {
+      "part_of": "Wave propagation"
+    }
+  ]
+}

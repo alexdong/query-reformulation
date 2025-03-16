@@ -1,0 +1,47 @@
+{
+  "entity": "Glacial Deposits",
+  "properties": {
+    "type": "Sedimentary Rocks",
+    "formation_process": "Glacial Action",
+    "composition": "Variable (clay, sand, gravel, boulders)",
+    "grain_size": "Wide range, from clay to large boulders",
+    "sorting": "Poorly sorted",
+    "layering": "Often lacking, but can show varves",
+    "color": "Gray, brown, or reddish-brown",
+    "texture": "Unstratified, chaotic",
+    "location": "Periglacial and glacial environments",
+    "examples": "Till, Outwash, Moraines"
+  },
+  "relationship": [
+    {
+      "part_of": "Sedimentary Rocks"
+    },
+    {
+      "formed_by": "Glaciers"
+    },
+    {
+      "contains": "Till"
+    },
+    {
+      "contains": "Outwash"
+    },
+    {
+      "contains": "Moraines"
+    },
+    {
+      "found_in": "Periglacial Environments"
+    },
+    {
+      "related_to": "Varves"
+    },
+    {
+      "impacts": "Landscape"
+    },
+    {
+      "studied_in": "Glaciology"
+    },
+    {
+      "associated_with": "Erosion"
+    }
+  ]
+}

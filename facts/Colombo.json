@@ -1,0 +1,47 @@
+{
+  "entity": "Colombo",
+  "properties": {
+    "type": "City",
+    "country": "Sri Lanka",
+    "population_2023": "560,000",
+    "latitude": "6.9178",
+    "longitude": "79.8742",
+    "established": "1796",
+    "time_zone": "Asia/Colombo",
+    "currency": "Lanka rupee",
+    "elevation": "10m",
+    "area_km2": "240"
+  },
+  "relationship": [
+    {
+      "capital_of": "Sri Lanka"
+    },
+    {
+      "located_in": "Western Province"
+    },
+    {
+      "part_of": "South Asia"
+    },
+    {
+      "influenced_by": "Portuguese Empire"
+    },
+    {
+      "influenced_by": "Dutch East Indies"
+    },
+    {
+      "influenced_by": "British Empire"
+    },
+    {
+      "has_landmark": "Gangaramaya Temple"
+    },
+    {
+      "has_landmark": "Independence Memorial Hall"
+    },
+    {
+      "has_transport": "Bandaranaike International Airport"
+    },
+    {
+      "near_city": "Mount Lavinia"
+    }
+  ]
+}

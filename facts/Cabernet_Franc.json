@@ -1,0 +1,47 @@
+{
+  "entity": "Cabernet Franc",
+  "properties": {
+    "type": "Grape variety",
+    "origin": "Loire Valley, France",
+    "color": "Red",
+    "flavor_profile": "Bell pepper, raspberry, violet",
+    "acidity": "High",
+    "tannin_level": "Medium",
+    "parent_variety": "Saurignin",
+    "cross_with": "Cabernet Sauvignon",
+    "viticultural_characteristics": "Early ripening",
+    "common_regions": "France, Italy, USA, Canada"
+  },
+  "relationship": [
+    {
+      "is_a": "Vitis vinifera"
+    },
+    {
+      "used_in_wine": "Bordeaux wine"
+    },
+    {
+      "used_in_wine": "Chinon"
+    },
+    {
+      "blended_with": "Cabernet Sauvignon"
+    },
+    {
+      "blended_with": "Merlot"
+    },
+    {
+      "grown_in": "Tuscany"
+    },
+    {
+      "grown_in": "Ontario"
+    },
+    {
+      "influences": "Cabernet Sauvignon"
+    },
+    {
+      "part_of": "Bordeaux"
+    },
+    {
+      "related_to": "Loire Valley"
+    }
+  ]
+}

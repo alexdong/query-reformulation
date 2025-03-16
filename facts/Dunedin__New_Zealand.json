@@ -1,0 +1,47 @@
+{
+  "entity": "Dunedin, New Zealand",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Otago",
+    "population_2023": "250,000",
+    "established": "1848",
+    "latitude": "-45.505",
+    "longitude": "170.885",
+    "nickname": "Edinburgh of the South",
+    "mayor": "Aaron Hawkins",
+    "timezone": "NZDT"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "founded_by": "Scottish settlers"
+    },
+    {
+      "influenced_by": "Edinburgh"
+    },
+    {
+      "has_university": "University of Otago"
+    },
+    {
+      "has_landmark": "Dunedin Railway Station"
+    },
+    {
+      "has_attraction": "Royal Albatross Centre"
+    },
+    {
+      "near_to": "Moeraki Boulders"
+    },
+    {
+      "economic_sector": "Tourism"
+    },
+    {
+      "historical_event": "Gold Rush"
+    }
+  ]
+}

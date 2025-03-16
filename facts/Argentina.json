@@ -1,0 +1,47 @@
+{
+  "entity": "Argentina",
+  "properties": {
+    "capital": "Buenos Aires",
+    "official_language": "Spanish",
+    "currency": "Argentine Peso (ARS)",
+    "population": "45.8 million (2023)",
+    "area_km2": "2,780,400",
+    "continent": "South America",
+    "largest_city": "Buenos Aires",
+    "national_sport": "Football",
+    "independence_date": "1816-07-09",
+    "government_type": "Federal Republic"
+  },
+  "relationship": [
+    {
+      "part_of": "South America"
+    },
+    {
+      "borders": "Chile"
+    },
+    {
+      "borders": "Bolivia"
+    },
+    {
+      "borders": "Paraguay"
+    },
+    {
+      "borders": "Brazil"
+    },
+    {
+      "member_of": "UN"
+    },
+    {
+      "member_of": "Mercosur"
+    },
+    {
+      "influenced_by": "European immigration"
+    },
+    {
+      "has_landmark": "Iguazu Falls"
+    },
+    {
+      "has_city": "Mendoza"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Capital",
+  "properties": {
+    "instance_of": "Economic concept",
+    "definition": "Accumulated wealth",
+    "related_to": "Investment",
+    "type": "Financial asset",
+    "source": "Production",
+    "function": "Generate income",
+    "form": "Money, property, equipment",
+    "role": "Means of production",
+    "concept_in": "Economics",
+    "synonym": "Wealth"
+  },
+  "relationship": [
+    {
+      "related_to": "Labor"
+    },
+    {
+      "generates": "Profit"
+    },
+    {
+      "used_in": "Production"
+    },
+    {
+      "part_of": "Means of production"
+    },
+    {
+      "contributes_to": "Economic growth"
+    },
+    {
+      "requires": "Investment"
+    },
+    {
+      "associated_with": "Marxism"
+    },
+    {
+      "concept_in": "Classical economics"
+    },
+    {
+      "influences": "Capitalism"
+    },
+    {
+      "related_to": "Surplus value"
+    }
+  ]
+}

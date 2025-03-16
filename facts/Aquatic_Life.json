@@ -1,0 +1,47 @@
+{
+  "entity": "Aquatic Life",
+  "properties": {
+    "type": "Biodiversity",
+    "habitat": "Water bodies",
+    "oxygen_requirement": "Dissolved oxygen",
+    "temperature_range": "Varies",
+    "salinity": "Freshwater/Saltwater",
+    "trophic_level": "Varies",
+    "size": "Microscopic to gigantic",
+    "adaptation": "Hydrodynamic, Gills, Fins",
+    "importance": "Ecosystem function",
+    "conservation_status": "Threatened/Stable"
+  },
+  "relationship": [
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "interacts_with": "Phytoplankton"
+    },
+    {
+      "prey_for": "Marine Mammals"
+    },
+    {
+      "feeds_on": "Zooplankton"
+    },
+    {
+      "lives_in": "Coral Reefs"
+    },
+    {
+      "lives_in": "Freshwater Ecosystems"
+    },
+    {
+      "threatened_by": "Pollution"
+    },
+    {
+      "affected_by": "Climate Change"
+    },
+    {
+      "includes": "Fish"
+    },
+    {
+      "includes": "Marine Invertebrates"
+    }
+  ]
+}

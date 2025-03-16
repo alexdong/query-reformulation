@@ -1,0 +1,47 @@
+{
+  "entity": "Māori People",
+  "properties": {
+    "origin": "Polynesia",
+    "language": "Te Reo Māori",
+    "population": "~750,000",
+    "culture": "Indigenous",
+    "location": "Aotearoa (New Zealand)",
+    "traditional_occupation": "Agriculture, Fishing, Hunting",
+    "governance": "Tribal (Iwi)",
+    "religion": "Traditional Māori beliefs, Christianity",
+    "art_form": "Tā moko, weaving, carving",
+    "treaty": "Treaty of Waitangi"
+  },
+  "relationship": [
+    {
+      "ancestor_of": "Polynesian people"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "language_related_to": "Austronesian languages"
+    },
+    {
+      "signed": "Treaty of Waitangi"
+    },
+    {
+      "influenced_by": "European colonization"
+    },
+    {
+      "has_part": "Iwi"
+    },
+    {
+      "practice": "Haka"
+    },
+    {
+      "practice": "Kapa Haka"
+    },
+    {
+      "related_to": "New Zealand history"
+    },
+    {
+      "has_concept": "Mana"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Weight Management",
+  "properties": {
+    "definition": "Achieving and maintaining a healthy body weight",
+    "goal": "Improved health & well-being",
+    "methods": "Diet, exercise, behavior modification",
+    "related_disease": "Obesity, Diabetes",
+    "measurement": "Body Mass Index (BMI)",
+    "focus": "Calorie balance",
+    "long_term_goal": "Sustainable lifestyle changes",
+    "risk_factor": "Sedentary lifestyle",
+    "benefit": "Reduced disease risk",
+    "field_of_study": "Nutrition"
+  },
+  "relationship": [
+    {
+      "causes": "Obesity"
+    },
+    {
+      "prevents": "Type 2 Diabetes"
+    },
+    {
+      "requires": "Healthy Diet"
+    },
+    {
+      "requires": "Physical Activity"
+    },
+    {
+      "influences": "Metabolism"
+    },
+    {
+      "impacts": "Cardiovascular Health"
+    },
+    {
+      "related_to": "Body Composition"
+    },
+    {
+      "involves": "Behavioral Therapy"
+    },
+    {
+      "linked_to": "Nutrition"
+    },
+    {
+      "impacts": "Mental Health"
+    }
+  ]
+}

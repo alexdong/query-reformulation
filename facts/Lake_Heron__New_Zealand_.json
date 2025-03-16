@@ -1,0 +1,47 @@
+{
+  "entity": "Lake Heron (New Zealand)",
+  "properties": {
+    "type": "Lake",
+    "location": "Southland, New Zealand",
+    "area": "27 km²",
+    "max_depth": "121 m",
+    "elevation": "163 m",
+    "drainage": "Oreti River",
+    "formation": "Glacial",
+    "water_body_type": "Freshwater",
+    "region": "Southland",
+    "coordinates": "-46.7167, 168.4167"
+  },
+  "relationship": [
+    {
+      "part_of": "Southland Region"
+    },
+    {
+      "tributary_to": "Oreti River"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "near": "Te Anau"
+    },
+    {
+      "contains": "Brown trout"
+    },
+    {
+      "contains": "Rainbow trout"
+    },
+    {
+      "surrounded_by": "Fiordland National Park"
+    },
+    {
+      "connected_to": "Lake Te Anau"
+    },
+    {
+      "ecosystem": "Freshwater ecosystem"
+    }
+  ]
+}

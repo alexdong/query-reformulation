@@ -1,0 +1,47 @@
+{
+  "entity": "Modern Science",
+  "properties": {
+    "time_period": "16th century - Present",
+    "foundation": "Scientific Revolution",
+    "methodology": "Scientific Method",
+    "focus": "Empirical Observation, Experimentation",
+    "scope": "Natural World, Universe",
+    "key_concept": "Falsifiability",
+    "discipline": "Interdisciplinary",
+    "goal": "Understanding, Prediction",
+    "impact": "Technological Advancement, Societal Change",
+    "paradigm": "Positivism"
+  },
+  "relationship": [
+    {
+      "preceded_by": "Classical Science"
+    },
+    {
+      "influenced": "Technology"
+    },
+    {
+      "developed_by": "Scientists"
+    },
+    {
+      "relies_on": "Mathematics"
+    },
+    {
+      "overlaps_with": "Philosophy of Science"
+    },
+    {
+      "impacts": "Medicine"
+    },
+    {
+      "impacts": "Engineering"
+    },
+    {
+      "related_to": "Scientific Revolution"
+    },
+    {
+      "uses": "Observation"
+    },
+    {
+      "requires": "Experimentation"
+    }
+  ]
+}

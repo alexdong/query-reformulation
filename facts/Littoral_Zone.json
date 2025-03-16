@@ -1,0 +1,47 @@
+{
+  "entity": "Littoral Zone",
+  "properties": {
+    "definition": "Area between high and low tide",
+    "location": "Coastal regions",
+    "type": "Ecological zone",
+    "width": "Variable",
+    "salinity": "Fluctuating",
+    "wave_action": "High",
+    "oxygen_levels": "Variable",
+    "substrate": "Diverse (sand, rock, sediment)",
+    "biodiversity": "High",
+    "light_penetration": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Coastal ecosystem"
+    },
+    {
+      "adjacent_to": "Ocean"
+    },
+    {
+      "adjacent_to": "Terrestrial zone"
+    },
+    {
+      "inhabited_by": "Marine life"
+    },
+    {
+      "inhabited_by": "Intertidal organisms"
+    },
+    {
+      "affected_by": "Tides"
+    },
+    {
+      "influenced_by": "Wave action"
+    },
+    {
+      "impacted_by": "Human activity"
+    },
+    {
+      "example_organism": "Seaweed"
+    },
+    {
+      "example_organism": "Crab"
+    }
+  ]
+}

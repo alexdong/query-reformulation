@@ -1,0 +1,47 @@
+{
+  "entity": "Entertainment",
+  "properties": {
+    "type": "Industry",
+    "definition": "Activities for enjoyment",
+    "scope": "Global",
+    "revenue_2022": "$850 Billion",
+    "major_sectors": "Film, Music, Gaming, Live Events",
+    "impact": "Economic, Social, Cultural",
+    "growth_driver": "Technological advancements",
+    "key_trend": "Streaming services",
+    "audience": "Worldwide",
+    "regulation": "Varies by country"
+  },
+  "relationship": [
+    {
+      "part_of": "Creative Industries"
+    },
+    {
+      "employs": "Actors"
+    },
+    {
+      "employs": "Musicians"
+    },
+    {
+      "employs": "Filmmakers"
+    },
+    {
+      "influenced_by": "Technology"
+    },
+    {
+      "provides": "Leisure"
+    },
+    {
+      "supports": "Tourism"
+    },
+    {
+      "related_to": "Media"
+    },
+    {
+      "impacts": "Popular Culture"
+    },
+    {
+      "includes": "Sports"
+    }
+  ]
+}

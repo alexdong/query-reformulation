@@ -1,0 +1,47 @@
+{
+  "entity": "Sedimentary Cycle",
+  "properties": {
+    "type": "Geochemical Cycle",
+    "description": "Movement of minerals within Earth",
+    "driving_force": "Weathering & Erosion",
+    "components": "Rocks, Minerals, Sediments",
+    "processes": "Weathering, Erosion, Transportation, Deposition, Lithification",
+    "time_scale": "Varies (10s to 1000s of years)",
+    "reservoir": "Lithosphere",
+    "output": "Sedimentary Rocks",
+    "input": "Atmosphere, Hydrosphere, Biosphere",
+    "importance": "Formation of sedimentary rocks"
+  },
+  "relationship": [
+    {
+      "part_of": "Rock Cycle"
+    },
+    {
+      "drives": "Sedimentation"
+    },
+    {
+      "influenced_by": "Weathering"
+    },
+    {
+      "affected_by": "Erosion"
+    },
+    {
+      "involves": "Lithification"
+    },
+    {
+      "source_of": "Sedimentary Rocks"
+    },
+    {
+      "impacts": "Geological Record"
+    },
+    {
+      "related_to": "Carbon Cycle"
+    },
+    {
+      "related_to": "Phosphorus Cycle"
+    },
+    {
+      "part_of": "Earth System"
+    }
+  ]
+}

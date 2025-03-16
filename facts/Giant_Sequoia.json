@@ -1,0 +1,47 @@
+{
+  "entity": "Giant Sequoia",
+  "properties": {
+    "scientific_name": "Sequoiadendron giganteum",
+    "family": "Cupressaceae",
+    "average_height": "60-80m",
+    "max_height": "94.6m",
+    "typical_trunk_diameter": "5-7m",
+    "max_trunk_diameter": "10.5m",
+    "lifespan": "2000-3000+ years",
+    "native_region": "Sierra Nevada, California",
+    "conservation_status": "Endangered",
+    "bark_thickness": "30-100cm"
+  },
+  "relationship": [
+    {
+      "part_of": "Sierra Nevada"
+    },
+    {
+      "genus": "Sequoiadendron"
+    },
+    {
+      "family": "Cupressaceae"
+    },
+    {
+      "habitat": "Montane forests"
+    },
+    {
+      "related_to": "Redwood"
+    },
+    {
+      "threatened_by": "Climate change"
+    },
+    {
+      "contains": "National Park"
+    },
+    {
+      "located_in": "California"
+    },
+    {
+      "provides_habitat_for": "Black bear"
+    },
+    {
+      "studied_by": "Botany"
+    }
+  ]
+}

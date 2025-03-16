@@ -1,0 +1,47 @@
+{
+  "entity": "Wine Aroma Wheel",
+  "properties": {
+    "type": "Diagram",
+    "creator": "Ann Noble",
+    "year_created": "1981",
+    "purpose": "Wine description",
+    "organization": "American Society of Wine Educators (ASWE)",
+    "version": "Revised 2007",
+    "scope": "Aroma compounds",
+    "categories": "Primary, Secondary, Tertiary",
+    "visual_representation": "Circular diagram",
+    "language": "English"
+  },
+  "relationship": [
+    {
+      "created_by": "Ann Noble"
+    },
+    {
+      "developed_for": "Wine professionals"
+    },
+    {
+      "used_in": "Wine tasting"
+    },
+    {
+      "part_of": "Sensory evaluation"
+    },
+    {
+      "describes": "Wine characteristics"
+    },
+    {
+      "includes_category": "Fruit aromas"
+    },
+    {
+      "includes_category": "Floral aromas"
+    },
+    {
+      "includes_category": "Spice aromas"
+    },
+    {
+      "related_to": "Flavor chemistry"
+    },
+    {
+      "published_by": "American Society of Wine Educators"
+    }
+  ]
+}

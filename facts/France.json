@@ -1,0 +1,47 @@
+{
+  "entity": "France",
+  "properties": {
+    "instance_of": "Country",
+    "capital": "Paris",
+    "official_language": "French",
+    "currency": "Euro",
+    "population": "67.75 million",
+    "area": "643,801 km²",
+    "GDP_nominal": "$2.94 trillion",
+    "continent": "Europe",
+    "government_type": "Semi-presidential republic",
+    "national_anthem": "La Marseillaise"
+  },
+  "relationship": [
+    {
+      "part_of": "European Union"
+    },
+    {
+      "borders": "Germany"
+    },
+    {
+      "borders": "Spain"
+    },
+    {
+      "borders": "Italy"
+    },
+    {
+      "member_of": "NATO"
+    },
+    {
+      "has_city": "Paris"
+    },
+    {
+      "has_city": "Marseille"
+    },
+    {
+      "has_river": "Seine"
+    },
+    {
+      "influenced": "French Revolution"
+    },
+    {
+      "historical_figure": "Napoleon"
+    }
+  ]
+}

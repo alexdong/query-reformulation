@@ -1,0 +1,47 @@
+{
+  "entity": "Coral Reef",
+  "properties": {
+    "type": "Ecosystem",
+    "biodiversity": "High",
+    "location": "Tropical Oceans",
+    "formation_time": "Thousands of years",
+    "primary_builder": "Coral Polyps",
+    "water_temperature": "23-29°C",
+    "salinity": "32-36 ppt",
+    "depth_range": "0-50m",
+    "area_covered": "0.1% of ocean floor",
+    "status": "Declining"
+  },
+  "relationship": [
+    {
+      "part_of": "Ocean"
+    },
+    {
+      "contains": "Fish"
+    },
+    {
+      "supports": "Marine Life"
+    },
+    {
+      "threatened_by": "Climate Change"
+    },
+    {
+      "affected_by": "Ocean Acidification"
+    },
+    {
+      "provides": "Coastal Protection"
+    },
+    {
+      "source_of": "Tourism"
+    },
+    {
+      "built_by": "Scleractinia"
+    },
+    {
+      "symbiotic_relationship_with": "Zooxanthellae"
+    },
+    {
+      "impacts": "Fisheries"
+    }
+  ]
+}

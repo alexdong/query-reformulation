@@ -1,0 +1,47 @@
+{
+  "entity": "American Dream",
+  "properties": {
+    "definition": "National ethos of upward mobility",
+    "origin": "1931, James Truslow Adams",
+    "core_belief": "Opportunity for all",
+    "historical_context": "Post-Great Depression",
+    "associated_values": "Freedom, equality, prosperity",
+    "economic_focus": "Homeownership, wealth accumulation",
+    "social_mobility": "Intergenerational advancement",
+    "criticisms": "Inequality, unrealistic expectations",
+    "geographic_association": "United States",
+    "contemporary_relevance": "Ongoing debate"
+  },
+  "relationship": [
+    {
+      "influenced_by": "Declaration of Independence"
+    },
+    {
+      "related_to": "Social mobility"
+    },
+    {
+      "contradicts": "Class stratification"
+    },
+    {
+      "impacts": "Consumerism"
+    },
+    {
+      "tied_to": "Capitalism"
+    },
+    {
+      "challenges": "Income inequality"
+    },
+    {
+      "promoted_by": "Frontier mentality"
+    },
+    {
+      "criticized_by": "Karl Marx"
+    },
+    {
+      "manifests_in": "Suburbanization"
+    },
+    {
+      "linked_to": "Immigration"
+    }
+  ]
+}

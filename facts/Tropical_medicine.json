@@ -1,0 +1,47 @@
+{
+  "entity": "Tropical medicine",
+  "properties": {
+    "definition": "Medical care in tropics",
+    "focus": "Infectious diseases",
+    "scope": "Prevention & treatment",
+    "origin": "19th century",
+    "geographic_focus": "Tropical regions",
+    "related_field": "Public health",
+    "key_concern": "Vector-borne diseases",
+    "diagnostic_challenge": "Complex presentations",
+    "research_area": "Drug resistance",
+    "training_focus": "Global health"
+  },
+  "relationship": [
+    {
+      "treats": "Malaria"
+    },
+    {
+      "treats": "Dengue fever"
+    },
+    {
+      "treats": "Yellow fever"
+    },
+    {
+      "treats": "Leishmaniasis"
+    },
+    {
+      "related_to": "Parasitology"
+    },
+    {
+      "related_to": "Epidemiology"
+    },
+    {
+      "influenced_by": "Louis Pasteur"
+    },
+    {
+      "influenced_by": "Ronald Ross"
+    },
+    {
+      "overlaps_with": "Global health"
+    },
+    {
+      "research_focus": "Neglected tropical diseases"
+    }
+  ]
+}

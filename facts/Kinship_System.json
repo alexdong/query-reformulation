@@ -1,0 +1,47 @@
+{
+  "entity": "Kinship System",
+  "properties": {
+    "definition": "Social organization based on family ties",
+    "type": "Social structure",
+    "focus": "Relationships & Obligations",
+    "scope": "Varies by culture",
+    "function": "Social control & support",
+    "basis": "Descent, marriage, or shared identity",
+    "complexity": "Ranges from simple to complex",
+    "importance": "Historically significant",
+    "alternative_name": "Family system",
+    "study_field": "Anthropology"
+  },
+  "relationship": [
+    {
+      "part_of": "Social System"
+    },
+    {
+      "related_to": "Family"
+    },
+    {
+      "influences": "Social Norms"
+    },
+    {
+      "studied_by": "Anthropology"
+    },
+    {
+      "example_in": "Indigenous Australian kinship"
+    },
+    {
+      "example_in": "Hopi kinship"
+    },
+    {
+      "example_in": "Iroquois kinship"
+    },
+    {
+      "contrasts_with": "Nuclear Family"
+    },
+    {
+      "impacts": "Inheritance"
+    },
+    {
+      "defines": "Social Roles"
+    }
+  ]
+}

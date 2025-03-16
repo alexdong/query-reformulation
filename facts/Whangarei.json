@@ -1,0 +1,47 @@
+{
+  "entity": "Whangarei",
+  "properties": {
+    "type": "City",
+    "country": "New Zealand",
+    "region": "Northland",
+    "population_2023": "84,700",
+    "latitude": "-34.1467",
+    "longitude": "174.143",
+    "established": "1840",
+    "area_km2": "1,756",
+    "mayor": "Vinny Lia",
+    "timezone": "NZST"
+  },
+  "relationship": [
+    {
+      "part_of": "Northland Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "has_river": "Whangarei River"
+    },
+    {
+      "has_harbour": "Whangarei Harbour"
+    },
+    {
+      "near_to": "Marsden Cross"
+    },
+    {
+      "has_climate": "Subtropical"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "industry": "Tourism"
+    },
+    {
+      "has_attraction": "Clarks Cove"
+    },
+    {
+      "has_attraction": "Pukenui Forest"
+    }
+  ]
+}

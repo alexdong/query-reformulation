@@ -1,0 +1,47 @@
+{
+  "entity": "Hydrosphere",
+  "properties": {
+    "instance_of": "Spheres of Earth",
+    "description": "Total mass of water",
+    "location": "Earth",
+    "composition": "Water (liquid, solid, gas)",
+    "volume": "1.386 billion km³",
+    "mass": "1.4 x 10^21 kg",
+    "salinity": "Varies",
+    "temperature": "Varies",
+    "density": "Varies",
+    "covers_earth": "71%"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "interacts_with": "Atmosphere"
+    },
+    {
+      "interacts_with": "Lithosphere"
+    },
+    {
+      "influences": "Climate"
+    },
+    {
+      "contains": "Oceans"
+    },
+    {
+      "contains": "Rivers"
+    },
+    {
+      "contains": "Lakes"
+    },
+    {
+      "contains": "Glaciers"
+    },
+    {
+      "contains": "Groundwater"
+    },
+    {
+      "cycle": "Water cycle"
+    }
+  ]
+}

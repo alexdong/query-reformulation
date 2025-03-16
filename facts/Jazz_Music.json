@@ -1,0 +1,47 @@
+{
+  "entity": "Jazz Music",
+  "properties": {
+    "genre": "Music genre",
+    "origin": "African American communities",
+    "location": "New Orleans",
+    "time_period": "Early 20th century",
+    "style": "Improvisation, Swing, Blues",
+    "instrumentation": "Saxophone, Trumpet, Piano, Bass, Drums",
+    "harmonic_structure": "Complex chords",
+    "rhythm": "Syncopation",
+    "influence": "Blues, Ragtime, European harmony",
+    "legacy": "Significant cultural impact"
+  },
+  "relationship": [
+    {
+      "influenced": "Blues"
+    },
+    {
+      "influenced": "Ragtime"
+    },
+    {
+      "influenced": "Swing Music"
+    },
+    {
+      "influenced": "Bebop"
+    },
+    {
+      "subgenre_of": "American Music"
+    },
+    {
+      "associated_with": "Louis Armstrong"
+    },
+    {
+      "associated_with": "Duke Ellington"
+    },
+    {
+      "associated_with": "Charlie Parker"
+    },
+    {
+      "associated_with": "Miles Davis"
+    },
+    {
+      "has_style": "Improvisation"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Silk",
+  "properties": {
+    "material": "Natural fiber",
+    "origin": "Sericulture",
+    "production_location": "China, India, Japan, Brazil",
+    "strength": "High tensile strength",
+    "luster": "Shiny",
+    "composition": "Fibroin, Sericin",
+    "use": "Clothing, textiles, surgery",
+    "color": "White (before dyeing)",
+    "process": "Reeling, weaving",
+    "cost": "Expensive"
+  },
+  "relationship": [
+    {
+      "produced_by": "Silkworm"
+    },
+    {
+      "type_of": "Textile"
+    },
+    {
+      "used_in": "Sari"
+    },
+    {
+      "related_to": "Sericulture"
+    },
+    {
+      "originates_from": "China"
+    },
+    {
+      "used_for": "Surgical sutures"
+    },
+    {
+      "processed_into": "Chiffon"
+    },
+    {
+      "related_to": "Mulberry tree"
+    },
+    {
+      "dyes_with": "Natural dyes"
+    },
+    {
+      "alternative_to": "Cotton"
+    }
+  ]
+}

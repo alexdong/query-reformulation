@@ -1,0 +1,47 @@
+{
+  "entity": "Asia",
+  "properties": {
+    "continent": "Asia",
+    "area": "44,614,000 km²",
+    "population": "4.7 billion",
+    "highest_point": "Mount Everest",
+    "lowest_point": "Dead Sea",
+    "largest_country": "Russia",
+    "most_populous_country": "China",
+    "climate": "Varied",
+    "geography": "Diverse",
+    "economic_status": "Mixed"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "borders": "Europe"
+    },
+    {
+      "contains": "China"
+    },
+    {
+      "contains": "India"
+    },
+    {
+      "contains": "Japan"
+    },
+    {
+      "influenced": "Silk Road"
+    },
+    {
+      "has_region": "Southeast Asia"
+    },
+    {
+      "has_region": "Central Asia"
+    },
+    {
+      "has_religion": "Islam"
+    },
+    {
+      "has_religion": "Buddhism"
+    }
+  ]
+}

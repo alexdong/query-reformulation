@@ -1,0 +1,47 @@
+{
+  "entity": "N/A",
+  "properties": {
+    "meaning": "Not Applicable",
+    "type": "Placeholder",
+    "usage": "Data Absence",
+    "context": "Data Reporting",
+    "representation": "N/A",
+    "synonym": "NA",
+    "category": "Data Handling",
+    "purpose": "Indicate Missing Data",
+    "origin": "Statistical Reporting",
+    "alternative": "Not Available"
+  },
+  "relationship": [
+    {
+      "related_to": "Missing Data"
+    },
+    {
+      "used_in": "Data Analysis"
+    },
+    {
+      "contrasted_with": "Available Data"
+    },
+    {
+      "part_of": "Data Set"
+    },
+    {
+      "used_with": "Data Visualization"
+    },
+    {
+      "defined_in": "Statistical Standards"
+    },
+    {
+      "related_to": "Data Quality"
+    },
+    {
+      "used_in": "Reporting"
+    },
+    {
+      "implies": "Data Gap"
+    },
+    {
+      "alternative_for": "Null"
+    }
+  ]
+}

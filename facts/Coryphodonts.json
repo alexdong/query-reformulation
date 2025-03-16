@@ -1,0 +1,47 @@
+{
+  "entity": "Coryphodonts",
+  "properties": {
+    "type": "Extinct mammal",
+    "era": "Eocene",
+    "size": "Medium-sized",
+    "diet": "Herbivorous",
+    "habitat": "Freshwater",
+    "geographic_range": "Europe, Asia, North America",
+    "extinction_date": "34 million years ago",
+    "related_to": "Ungulates",
+    "distinctive_feature": "Paddle-like feet",
+    "discovery_date": "1842"
+  },
+  "relationship": [
+    {
+      "part_of": "Eocene epoch"
+    },
+    {
+      "predecessor_to": "Mesonychids"
+    },
+    {
+      "related_to": "Ungulates"
+    },
+    {
+      "found_in": "Europe"
+    },
+    {
+      "found_in": "Asia"
+    },
+    {
+      "found_in": "North America"
+    },
+    {
+      "ancestor_of": "Hippopotamuses (disputed)"
+    },
+    {
+      "contemporary_with": "Hesperotherium"
+    },
+    {
+      "contemporary_with": "Paleotherium"
+    },
+    {
+      "studied_by": "Richard Owen"
+    }
+  ]
+}

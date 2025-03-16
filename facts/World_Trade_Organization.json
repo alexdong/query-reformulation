@@ -1,0 +1,47 @@
+{
+  "entity": "World Trade Organization",
+  "properties": {
+    "instance_of": "International organization",
+    "type": "Intergovernmental organization",
+    "headquarters_location": "Geneva",
+    "established": "1995",
+    "preceding_organization": "General Agreement on Tariffs and Trade (GATT)",
+    "membership": "164",
+    "purpose": "Trade liberalization",
+    "governing_body": "WTO Ministerial Conference",
+    "director_general": "Ngozi Okonjo-Iweala",
+    "legal_basis": "Marrakesh Agreement"
+  },
+  "relationship": [
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "succeeded": "General Agreement on Tariffs and Trade (GATT)"
+    },
+    {
+      "negotiates_with": "Member states"
+    },
+    {
+      "regulates": "International trade"
+    },
+    {
+      "resolves": "Trade disputes"
+    },
+    {
+      "promotes": "Free trade"
+    },
+    {
+      "impacts": "Global economy"
+    },
+    {
+      "criticized_for": "Lack of transparency"
+    },
+    {
+      "influences": "Trade policy"
+    },
+    {
+      "related_to": "World Economic Forum"
+    }
+  ]
+}

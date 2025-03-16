@@ -1,0 +1,47 @@
+{
+  "entity": "Düsseldorf",
+  "properties": {
+    "capital_of": "North Rhine-Westphalia",
+    "population_2022": "629,042",
+    "area_km2": "217.41",
+    "founded": "1130",
+    "official_language": "German",
+    "currency": "Euro",
+    "time_zone": "CET",
+    "mayor": "Thomas Geisel",
+    "postal_code": "40000-41549",
+    "latitude": "51.455"
+  },
+  "relationship": [
+    {
+      "located_in": "Germany"
+    },
+    {
+      "part_of": "Rhine-Ruhr Metropolitan Region"
+    },
+    {
+      "river_flows_through": "Rhine"
+    },
+    {
+      "neighbor_city": "Essen"
+    },
+    {
+      "neighbor_city": "Solingen"
+    },
+    {
+      "member_of": "European Union"
+    },
+    {
+      "has_landmark": "Königsallee"
+    },
+    {
+      "has_landmark": "Rheinturm"
+    },
+    {
+      "has_museum": "Kunstsammlung Nordrhein-Westfalen"
+    },
+    {
+      "has_university": "Heinrich Heine University Düsseldorf"
+    }
+  ]
+}

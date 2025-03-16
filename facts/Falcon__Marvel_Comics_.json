@@ -1,0 +1,47 @@
+{
+  "entity": "Falcon (Marvel Comics)",
+  "properties": {
+    "instance_of": "Superhero",
+    "publisher": "Marvel Comics",
+    "first_appearance": "Captain America #117",
+    "creator": "Steve Englehart & Steve Ditko",
+    "alter_ego": "Sam Wilson",
+    "occupation": "Former U.S. Paratrooper, Vigilante",
+    "powers": "Flight, Enhanced Strength, Combat Skills",
+    "base_of_operations": "New York City",
+    "affiliation": "Avengers",
+    "species": "Human"
+  },
+  "relationship": [
+    {
+      "predecessor": "Redwing"
+    },
+    {
+      "successor_of": "Captain America"
+    },
+    {
+      "member_of": "Avengers"
+    },
+    {
+      "fought_against": "Red Skull"
+    },
+    {
+      "ally_of": "Captain America"
+    },
+    {
+      "appears_in": "Marvel Cinematic Universe"
+    },
+    {
+      "inspired_by": "Hal Jordan"
+    },
+    {
+      "character_appears": "Sharon Carter"
+    },
+    {
+      "character_appears": "Winter Soldier"
+    },
+    {
+      "universe": "Marvel Universe"
+    }
+  ]
+}

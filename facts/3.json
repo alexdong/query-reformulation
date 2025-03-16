@@ -1,0 +1,47 @@
+{
+  "entity": "3",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "cardinality": "Three",
+    "mathematical_property": "Prime number",
+    "roman_numeral": "III",
+    "binary_representation": "11",
+    "divisors": "1, 3",
+    "successor": "4",
+    "predecessor": "2",
+    "ordinal": "Third"
+  },
+  "relationship": [
+    {
+      "is_factor_of": "6"
+    },
+    {
+      "is_factor_of": "9"
+    },
+    {
+      "is_factor_of": "12"
+    },
+    {
+      "is_factor_of": "15"
+    },
+    {
+      "is_a": "Natural number"
+    },
+    {
+      "is_a": "Integer"
+    },
+    {
+      "is_a": "Prime number"
+    },
+    {
+      "part_of": "Pi"
+    },
+    {
+      "appears_in": "Fibonacci sequence"
+    },
+    {
+      "related_to": "Triangle"
+    }
+  ]
+}

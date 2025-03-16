@@ -1,0 +1,47 @@
+{
+  "entity": "Blues Music",
+  "properties": {
+    "genre": "Music genre",
+    "origin": "African American communities",
+    "region": "Southern United States",
+    "time_period": "Late 19th century",
+    "instrumentation": "Guitar, harmonica, vocals",
+    "form": "12-bar blues",
+    "themes": "Hardship, love, loss",
+    "style": "Call and response",
+    "influence": "African spirituals, work songs",
+    "legacy": "Foundation of rock and roll"
+  },
+  "relationship": [
+    {
+      "influenced": "Rock and Roll"
+    },
+    {
+      "influenced": "Jazz"
+    },
+    {
+      "influenced": "Rhythm and Blues"
+    },
+    {
+      "preceded_by": "African Spirituals"
+    },
+    {
+      "related_to": "Delta Blues"
+    },
+    {
+      "related_to": "Chicago Blues"
+    },
+    {
+      "artist_performs": "Robert Johnson"
+    },
+    {
+      "artist_performs": "Muddy Waters"
+    },
+    {
+      "artist_performs": "B.B. King"
+    },
+    {
+      "subgenre_of": "African American Music"
+    }
+  ]
+}

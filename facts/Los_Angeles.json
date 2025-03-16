@@ -1,0 +1,47 @@
+{
+  "entity": "Los Angeles",
+  "properties": {
+    "type": "City",
+    "population_2020": "3971883",
+    "area_km2": "1302",
+    "state": "California",
+    "mayor": "Karen Bass",
+    "latitude": "34.0522",
+    "longitude": "-118.2437",
+    "nickname": "City of Angels",
+    "established": "1781",
+    "time_zone": "Pacific Time"
+  },
+  "relationship": [
+    {
+      "part_of": "Los Angeles County"
+    },
+    {
+      "located_in": "Southern California"
+    },
+    {
+      "metropolitan_area": "Greater Los Angeles"
+    },
+    {
+      "influenced_by": "Spanish Colonial architecture"
+    },
+    {
+      "industry": "Entertainment industry"
+    },
+    {
+      "landmark": "Hollywood Sign"
+    },
+    {
+      "river": "Los Angeles River"
+    },
+    {
+      "climate": "Mediterranean climate"
+    },
+    {
+      "attraction": "Griffith Observatory"
+    },
+    {
+      "neighbor": "Santa Monica"
+    }
+  ]
+}

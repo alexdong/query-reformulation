@@ -1,0 +1,47 @@
+{
+  "entity": "Foveaux Strait",
+  "properties": {
+    "type": "Strait",
+    "location": "Between New Zealand & New Caledonia",
+    "max_depth": "1187 m",
+    "width": "41 km",
+    "area": "11,000 km²",
+    "name_origin": "French explorer",
+    "part_of": "South Pacific Ocean",
+    "coordinates": "-47.5, 168.8",
+    "named_after": "Joseph Foveaux",
+    "geological_feature": "Continental shelf"
+  },
+  "relationship": [
+    {
+      "borders": "South Island, New Zealand"
+    },
+    {
+      "borders": "Stewart Island / Rakiura"
+    },
+    {
+      "borders": "Solomon Sea"
+    },
+    {
+      "adjacent_to": "Tasman Sea"
+    },
+    {
+      "part_of": "Pacific Plate"
+    },
+    {
+      "explored_by": "Jean-François de Galaup, comte de Lapérouse"
+    },
+    {
+      "shipping_route": "New Zealand - Australia"
+    },
+    {
+      "historical_use": "Māori waka travel"
+    },
+    {
+      "contains": "Numerous islands"
+    },
+    {
+      "influenced_by": "Ocean currents"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Mosgiel",
+  "properties": {
+    "type": "Town",
+    "location": "Otago, New Zealand",
+    "population_2018": "28,700",
+    "established": "1844",
+    "mayor": "Raymond Junk",
+    "region": "Otago",
+    "postal_code": "3572",
+    "time_zone": "NZST",
+    "area_code": "03",
+    "river": "Taieri River"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "near": "Dunedin"
+    },
+    {
+      "founded_by": "James Fulton"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "industry": "Manufacturing"
+    },
+    {
+      "has_sport_team": "Mosgiel AFC"
+    },
+    {
+      "has_school": "Mosgiel Area School"
+    },
+    {
+      "has_railway_station": "Mosgiel railway station"
+    },
+    {
+      "historical_event": "Taieri Gold Rush"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Indian Ocean",
+  "properties": {
+    "type": "Ocean",
+    "area": "73,556,000 km²",
+    "max_depth": "7,291 m",
+    "average_depth": "3,962 m",
+    "location": "Between Africa, Asia, and Australia",
+    "salinity": "35‰",
+    "temperature": "25-31°C",
+    "major_currents": "Monsun currents, Somali Current",
+    "geological_age": "200 million years",
+    "named_after": "India"
+  },
+  "relationship": [
+    {
+      "part_of": "World Ocean"
+    },
+    {
+      "borders": "Africa"
+    },
+    {
+      "borders": "Asia"
+    },
+    {
+      "borders": "Australia"
+    },
+    {
+      "contains": "Maldives"
+    },
+    {
+      "contains": "Seychelles"
+    },
+    {
+      "contains": "Madagascar"
+    },
+    {
+      "adjacent_to": "Arabian Sea"
+    },
+    {
+      "adjacent_to": "Red Sea"
+    },
+    {
+      "influenced_by": "Monsoon"
+    }
+  ]
+}

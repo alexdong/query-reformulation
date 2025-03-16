@@ -1,0 +1,47 @@
+{
+  "entity": "Volcanology",
+  "properties": {
+    "instance_of": "Scientific discipline",
+    "field_of_study": "Geology",
+    "subfield_of": "Geophysics",
+    "focus": "Volcanoes",
+    "methodology": "Observation, Experimentation, Modeling",
+    "related_to": "Plate tectonics",
+    "historical_beginnings": "17th century",
+    "key_technique": "Seismic monitoring",
+    "data_source": "Volcanic eruptions",
+    "goal": "Understanding volcanic processes"
+  },
+  "relationship": [
+    {
+      "studies": "Volcano"
+    },
+    {
+      "related_to": "Geothermal energy"
+    },
+    {
+      "uses": "Seismology"
+    },
+    {
+      "employs": "Remote sensing"
+    },
+    {
+      "predicts": "Volcanic eruptions"
+    },
+    {
+      "analyzes": "Lava"
+    },
+    {
+      "investigates": "Magma"
+    },
+    {
+      "impacts": "Hazard assessment"
+    },
+    {
+      "contributes_to": "Earth science"
+    },
+    {
+      "requires": "Geochemistry"
+    }
+  ]
+}

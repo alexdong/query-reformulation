@@ -1,0 +1,47 @@
+{
+  "entity": "Ancient Egyptian Architecture",
+  "properties": {
+    "time_period": "3100 BC – 30 BC",
+    "location": "Egypt",
+    "style": "Monumental, Religious",
+    "materials": "Limestone, Granite, Mud Brick",
+    "purpose": "Religious, Funerary, Royal",
+    "characteristic": "Post and lintel",
+    "decoration": "Hieroglyphs, Reliefs, Paintings",
+    "scale": "Massive, Grand",
+    "influence": "Nubian, Mesopotamian",
+    "legacy": "Enduring, Iconic"
+  },
+  "relationship": [
+    {
+      "influenced": "Greek Architecture"
+    },
+    {
+      "built_by": "Ancient Egyptians"
+    },
+    {
+      "example_of": "Monumental Architecture"
+    },
+    {
+      "located_in": "Nile River Valley"
+    },
+    {
+      "includes": "Pyramids"
+    },
+    {
+      "includes": "Temples"
+    },
+    {
+      "includes": "Mastabas"
+    },
+    {
+      "associated_with": "Egyptian Mythology"
+    },
+    {
+      "design_feature": "Obelisks"
+    },
+    {
+      "example_structure": "Karnak Temple"
+    }
+  ]
+}

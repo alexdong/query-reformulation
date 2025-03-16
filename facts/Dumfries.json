@@ -1,0 +1,47 @@
+{
+  "entity": "Dumfries",
+  "properties": {
+    "type": "Town",
+    "country": "Scotland",
+    "region": "Dumfries and Galloway",
+    "population_2020": "39,710",
+    "river": "Nith",
+    "established": "1106",
+    "latitude": "54.8333",
+    "longitude": "-3.0833",
+    "postcode": "DG1-DG2",
+    "area_code": "01387"
+  },
+  "relationship": [
+    {
+      "part_of": "Dumfries and Galloway"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "near": "Lockerbie"
+    },
+    {
+      "near": "Newton Stewart"
+    },
+    {
+      "river_flows_through": "River Nith"
+    },
+    {
+      "has_landmark": "Dumfries Castle"
+    },
+    {
+      "has_landmark": "Devorgilla Bridge"
+    },
+    {
+      "influenced_by": "Robert Burns"
+    },
+    {
+      "historical_event": "Covenanters' Wars"
+    },
+    {
+      "connected_to": "Solway Firth"
+    }
+  ]
+}

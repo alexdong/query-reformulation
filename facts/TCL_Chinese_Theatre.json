@@ -1,0 +1,47 @@
+{
+  "entity": "TCL Chinese Theatre",
+  "properties": {
+    "type": "Movie theater",
+    "location": "Hollywood, Los Angeles",
+    "architect": "Clarence W. Busch",
+    "style": "Chinese Baroque",
+    "opening_date": "1927-05-10",
+    "original_name": "Grauman's Chinese Theatre",
+    "capacity": "937",
+    "owner": "TCL Corporation",
+    "landmark": "Yes",
+    "address": "6925 Hollywood Blvd"
+  },
+  "relationship": [
+    {
+      "located_in": "Hollywood"
+    },
+    {
+      "part_of": "Hollywood Walk of Fame"
+    },
+    {
+      "designed_by": "Robert Hill"
+    },
+    {
+      "owned_by": "TCL Corporation"
+    },
+    {
+      "predecessor": "Key System"
+    },
+    {
+      "influenced": "Art Deco"
+    },
+    {
+      "features": "Forecourt"
+    },
+    {
+      "hosts": "Movie premieres"
+    },
+    {
+      "associated_with": "Sid Grauman"
+    },
+    {
+      "tourist_attraction": "Yes"
+    }
+  ]
+}

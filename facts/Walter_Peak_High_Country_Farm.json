@@ -1,0 +1,47 @@
+{
+  "entity": "Walter Peak High Country Farm",
+  "properties": {
+    "type": "Farm",
+    "location": "Lake Wakatipu",
+    "country": "New Zealand",
+    "owner": "The Russell Family",
+    "area": "2,400 hectares",
+    "altitude": "300-1200 meters",
+    "livestock": "Sheep, cattle, deer",
+    "tourism": "Agritourism",
+    "establishment_date": "1880s",
+    "specialty": "High country farming"
+  },
+  "relationship": [
+    {
+      "located_in": "South Island"
+    },
+    {
+      "part_of": "Queenstown Lakes District"
+    },
+    {
+      "operates_in": "Otago Region"
+    },
+    {
+      "produces": "Lamb"
+    },
+    {
+      "produces": "Beef"
+    },
+    {
+      "produces": "Venison"
+    },
+    {
+      "offers": "Farm tours"
+    },
+    {
+      "provides": "Scenic cruises"
+    },
+    {
+      "employs": "Farm workers"
+    },
+    {
+      "adjacent_to": "Lake Wakatipu"
+    }
+  ]
+}

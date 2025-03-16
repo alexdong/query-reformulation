@@ -1,0 +1,47 @@
+{
+  "entity": "Washington (state)",
+  "properties": {
+    "capital": "Olympia",
+    "largest_city": "Seattle",
+    "area_km2": "215420",
+    "population_2023": "7900000",
+    "state_motto": "The Evergreen State",
+    "official_website": "dor.wa.gov",
+    "time_zone": "Pacific Time",
+    "state_flower": "Coast Rhododendron",
+    "state_bird": "American Robin",
+    "admission_date": "1889-11-11"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "borders": "Oregon"
+    },
+    {
+      "borders": "Idaho"
+    },
+    {
+      "borders": "British Columbia"
+    },
+    {
+      "located_in": "Pacific Northwest"
+    },
+    {
+      "major_city": "Seattle"
+    },
+    {
+      "major_city": "Spokane"
+    },
+    {
+      "river_flows_through": "Columbia River"
+    },
+    {
+      "industry": "Aerospace"
+    },
+    {
+      "landmark": "Mount Rainier"
+    }
+  ]
+}

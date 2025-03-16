@@ -1,0 +1,50 @@
+{
+  "entity": "KiwiRail",
+  "properties": {
+    "instance_of": "Rail company",
+    "country": "New Zealand",
+    "owner": "New Zealand Government",
+    "industry": "Transportation",
+    "founded": "1983",
+    "headquarters": "Wellington",
+    "employee_count": "Approximately 900",
+    "network_length": "Approximately 4,200 km",
+    "gauge": "1067 mm",
+    "services": "Freight & Passenger"
+  },
+  "relationship": [
+    {
+      "parent_company": "New Zealand Government"
+    },
+    {
+      "operates_on": "New Zealand rail network"
+    },
+    {
+      "subsidiary_of": "New Zealand State Owned Enterprises"
+    },
+    {
+      "serves": "New Zealand"
+    },
+    {
+      "competitor_of": "Mainfreight"
+    },
+    {
+      "competitor_of": "Toll Group"
+    },
+    {
+      "uses_technology": "Diesel locomotives"
+    },
+    {
+      "provides_service_to": "New Zealand economy"
+    },
+    {
+      "connected_to": "Port of Tauranga"
+    },
+    {
+      "connected_to": "Picton"
+    },
+    {
+      "connected_to": "Christchurch"
+    }
+  ]
+}

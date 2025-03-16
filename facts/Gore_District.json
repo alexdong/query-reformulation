@@ -1,0 +1,47 @@
+{
+  "entity": "Gore District",
+  "properties": {
+    "type": "Local government area",
+    "region": "Southland, New Zealand",
+    "population_2018": "13,391",
+    "area_km2": "2,219",
+    "established": "1871",
+    "mayor": "Ben Bell",
+    "council_type": "Unitary authority",
+    "main_river": "Gore River",
+    "economy": "Agriculture, Tourism",
+    "time_zone": "NZST"
+  },
+  "relationship": [
+    {
+      "part_of": "Southland Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "contains": "Gore"
+    },
+    {
+      "contains": "Mataura"
+    },
+    {
+      "contains": "Athol"
+    },
+    {
+      "adjacent_to": "Clutha District"
+    },
+    {
+      "adjacent_to": "Southland District"
+    },
+    {
+      "governed_by": "Gore District Council"
+    },
+    {
+      "economy_sector": "Dairy farming"
+    },
+    {
+      "economy_sector": "Sheep farming"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Master of Arts",
+  "properties": {
+    "instance_of": "Academic degree",
+    "field_of_study": "Various",
+    "level": "Postgraduate",
+    "duration": "1-3 years",
+    "prerequisite": "Bachelor's degree",
+    "focus": "Specialized study",
+    "assessment_methods": "Thesis, exams, coursework",
+    "purpose": "Advanced knowledge",
+    "common_disciplines": "Humanities, Social Sciences, Sciences",
+    "credential_type": "Academic credential"
+  },
+  "relationship": [
+    {
+      "predecessor": "Bachelor's degree"
+    },
+    {
+      "successor": "Doctor of Philosophy"
+    },
+    {
+      "offered_by": "University"
+    },
+    {
+      "requires": "Coursework"
+    },
+    {
+      "culminates_in": "Thesis"
+    },
+    {
+      "related_to": "Academic discipline"
+    },
+    {
+      "part_of": "Postgraduate education"
+    },
+    {
+      "leads_to": "Career advancement"
+    },
+    {
+      "recognized_by": "Accreditation agency"
+    },
+    {
+      "requires": "Academic supervisor"
+    }
+  ]
+}

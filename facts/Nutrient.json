@@ -1,0 +1,47 @@
+{
+  "entity": "Nutrient",
+  "properties": {
+    "instance_of": "Chemical compound",
+    "role": "Essential for life",
+    "classification": "Macronutrient, Micronutrient",
+    "function": "Supports bodily functions",
+    "source": "Food, Supplements",
+    "unit": "mg, mcg, IU",
+    "bioavailability": "Varies by source",
+    "deficiency_impact": "Health problems",
+    "excess_impact": "Toxicity",
+    "metabolism": "Processed by body"
+  },
+  "relationship": [
+    {
+      "part_of": "Food"
+    },
+    {
+      "required_for": "Human health"
+    },
+    {
+      "type": "Macronutrient"
+    },
+    {
+      "type": "Micronutrient"
+    },
+    {
+      "interacts_with": "Enzyme"
+    },
+    {
+      "absorbed_by": "Body"
+    },
+    {
+      "found_in": "Vitamin"
+    },
+    {
+      "found_in": "Mineral"
+    },
+    {
+      "impacts": "Metabolism"
+    },
+    {
+      "related_to": "Diet"
+    }
+  ]
+}

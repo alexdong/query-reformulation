@@ -1,0 +1,47 @@
+{
+  "entity": "Communication",
+  "properties": {
+    "instance_of": "Process",
+    "definition": "Exchange of information",
+    "field_of_study": "Social sciences",
+    "types": "Verbal, Nonverbal, Written",
+    "elements": "Sender, Receiver, Message, Channel, Context",
+    "models": "Shannon–Weaver model, Transactional model",
+    "importance": "Social interaction, Understanding",
+    "discipline": "Linguistics, Psychology, Sociology",
+    "goal": "Conveying meaning",
+    "impact": "Relationships, Society"
+  },
+  "relationship": [
+    {
+      "requires": "Language"
+    },
+    {
+      "influences": "Culture"
+    },
+    {
+      "part_of": "Social interaction"
+    },
+    {
+      "related_to": "Information theory"
+    },
+    {
+      "uses": "Nonverbal communication"
+    },
+    {
+      "employs": "Verbal communication"
+    },
+    {
+      "facilitates": "Understanding"
+    },
+    {
+      "impacts": "Relationships"
+    },
+    {
+      "studied_in": "Communication studies"
+    },
+    {
+      "depends_on": "Feedback"
+    }
+  ]
+}

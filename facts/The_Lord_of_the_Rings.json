@@ -1,0 +1,47 @@
+{
+  "entity": "The Lord of the Rings",
+  "properties": {
+    "instance_of": "Fantasy novel",
+    "author": "J.R.R.Tolkien",
+    "genre": "High fantasy",
+    "publication_date": "1954",
+    "setting": "Middle-earth",
+    "language": "English",
+    "country_of_origin": "United Kingdom",
+    "number_of_volumes": "3",
+    "main_characters": "Frodo, Aragorn, Gandalf",
+    "publisher": "George Allen & Unwin"
+  },
+  "relationship": [
+    {
+      "prequel": "The Hobbit"
+    },
+    {
+      "sequel": "The Silmarillion"
+    },
+    {
+      "adapted_to": "Film"
+    },
+    {
+      "influenced": "Fantasy literature"
+    },
+    {
+      "character_appears": "Gandalf"
+    },
+    {
+      "character_appears": "Frodo"
+    },
+    {
+      "character_appears": "Aragorn"
+    },
+    {
+      "location": "Rivendell"
+    },
+    {
+      "location": "Mordor"
+    },
+    {
+      "event": "War of the Ring"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Gaelic languages",
+  "properties": {
+    "language_family": "Indo-European",
+    "origin": "Gaeltacht",
+    "speakers": "80,000",
+    "script": "Latin alphabet",
+    "status": "Vulnerable",
+    "geographic_location": "Ireland, Scotland",
+    "official_status": "Regional",
+    "related_language": "Old Irish",
+    "writing_system": "Gaelic script",
+    "typology": "Synthetic"
+  },
+  "relationship": [
+    {
+      "part_of": "Celtic languages"
+    },
+    {
+      "related_to": "Old Irish"
+    },
+    {
+      "spoken_in": "Ireland"
+    },
+    {
+      "spoken_in": "Scotland"
+    },
+    {
+      "influenced": "Irish literature"
+    },
+    {
+      "influenced": "Scottish literature"
+    },
+    {
+      "dialect_of": "Irish language"
+    },
+    {
+      "dialect_of": "Scottish Gaelic"
+    },
+    {
+      "revival_movement": "Foras na Gaeilge"
+    },
+    {
+      "related_to": "Bardic tradition"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Rachel Carson",
+  "properties": {
+    "birth_date": "1907-05-24",
+    "birth_place": "Springdale, Pennsylvania",
+    "death_date": "1964-04-14",
+    "death_place": "Maine",
+    "nationality": "American",
+    "occupation": "Marine biologist",
+    "education": "Johns Hopkins University",
+    "field": "Ecology",
+    "genre": "Non-fiction",
+    "awards": "National Medal"
+  },
+  "relationship": [
+    {
+      "author_of": "Silent Spring"
+    },
+    {
+      "influenced": "Environmental movement"
+    },
+    {
+      "studied_at": "Johns Hopkins University"
+    },
+    {
+      "preceded_by": "Henry David Thoreau"
+    },
+    {
+      "influenced": "Gaylord Nelson"
+    },
+    {
+      "worked_at": "U.S. Bureau of Fisheries"
+    },
+    {
+      "wrote_about": "Pesticides"
+    },
+    {
+      "subject_of": "Rachel Carson's Legacy"
+    },
+    {
+      "award_given_by": "United States Government"
+    },
+    {
+      "related_to": "Marine biology"
+    }
+  ]
+}

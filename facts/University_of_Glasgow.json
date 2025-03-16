@@ -1,0 +1,47 @@
+{
+  "entity": "University of Glasgow",
+  "properties": {
+    "established": "1451",
+    "type": "Public research university",
+    "location": "Glasgow, Scotland",
+    "chancellor": "Lord Wilson of Dinton",
+    "principal": "Sir Christopher Brooks",
+    "motto": "Via Sapientiae",
+    "colours": "Old Gold & Black",
+    "staff_number": "6,500",
+    "student_number": "27,000",
+    "governing_body": "Court of the University"
+  },
+  "relationship": [
+    {
+      "member_of": "Russell Group"
+    },
+    {
+      "located_in": "Glasgow City Council"
+    },
+    {
+      "preceded_by": "University of Glasgow (1577–1905)"
+    },
+    {
+      "affiliated_with": "University of Glasgow Students' Representative Council"
+    },
+    {
+      "alumnus": "James Watt"
+    },
+    {
+      "alumnus": "William Robertson"
+    },
+    {
+      "alumnus": "Mary Somerville"
+    },
+    {
+      "member_of": "Universities Scotland"
+    },
+    {
+      "research_focus": "Medicine, Engineering, Humanities"
+    },
+    {
+      "has_subsidiary": "Hunterian Museum"
+    }
+  ]
+}

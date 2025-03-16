@@ -1,0 +1,47 @@
+{
+  "entity": "Finance",
+  "properties": {
+    "instance_of": "Social science",
+    "field_of_study": "Economics",
+    "subfield_of": "Economics",
+    "related_to": "Investment",
+    "involves": "Risk management",
+    "deals_with": "Money",
+    "requires": "Accounting",
+    "uses": "Financial modeling",
+    "governed_by": "Regulations",
+    "impacts": "Global economy"
+  },
+  "relationship": [
+    {
+      "is_branch_of": "Economics"
+    },
+    {
+      "related_to": "Banking"
+    },
+    {
+      "requires": "Accounting"
+    },
+    {
+      "involves": "Investment"
+    },
+    {
+      "impacts": "Stock market"
+    },
+    {
+      "governed_by": "Securities and Exchange Commission"
+    },
+    {
+      "uses": "Financial ratios"
+    },
+    {
+      "analyzes": "Financial statements"
+    },
+    {
+      "requires": "Mathematics"
+    },
+    {
+      "influences": "Corporate finance"
+    }
+  ]
+}

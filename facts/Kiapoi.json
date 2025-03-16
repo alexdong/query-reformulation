@@ -1,0 +1,47 @@
+{
+  "entity": "Kiapoi",
+  "properties": {
+    "type": "Town",
+    "location": "Canterbury",
+    "country": "New Zealand",
+    "population_2018": "17,934",
+    "river": "Waimakariri River",
+    "region": "North Canterbury",
+    "established": "1851",
+    "mayor": "David Johnstone",
+    "postal_code": "7440",
+    "time_zone": "NZDT"
+  },
+  "relationship": [
+    {
+      "part_of": "Canterbury Region"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "near": "Christchurch"
+    },
+    {
+      "river_flows_through": "Waimakariri River"
+    },
+    {
+      "governed_by": "Waimakariri District Council"
+    },
+    {
+      "has_suburb": "Cornerstone"
+    },
+    {
+      "has_suburb": "Kaiapoi Island"
+    },
+    {
+      "affected_by": "2011 Christchurch earthquake"
+    },
+    {
+      "industry": "Agriculture"
+    },
+    {
+      "transport": "State Highway 1"
+    }
+  ]
+}

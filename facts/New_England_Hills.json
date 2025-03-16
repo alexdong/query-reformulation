@@ -1,0 +1,47 @@
+{
+  "entity": "New England Hills",
+  "properties": {
+    "type": "Geographic region",
+    "location": "Northeastern United States",
+    "area": "Approximately 10,000 sq mi",
+    "geology": "Appalachian Mountains",
+    "climate": "Humid continental",
+    "elevation": "Varies, up to 3,491 ft (Mount Washington)",
+    "vegetation": "Mixed forests",
+    "population_density": "Varies, generally lower than coastal areas",
+    "economy": "Tourism, agriculture, manufacturing",
+    "terrain": "Rolling hills, valleys, mountains"
+  },
+  "relationship": [
+    {
+      "part_of": "United States"
+    },
+    {
+      "contains": "Vermont"
+    },
+    {
+      "contains": "New Hampshire"
+    },
+    {
+      "contains": "Maine"
+    },
+    {
+      "contains": "Massachusetts"
+    },
+    {
+      "contains": "Connecticut"
+    },
+    {
+      "contains": "Rhode Island"
+    },
+    {
+      "adjacent_to": "Atlantic Ocean"
+    },
+    {
+      "influenced_by": "Appalachian Upland"
+    },
+    {
+      "has_feature": "Mount Washington"
+    }
+  ]
+}

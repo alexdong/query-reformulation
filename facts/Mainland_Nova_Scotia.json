@@ -1,0 +1,47 @@
+{
+  "entity": "Mainland Nova Scotia",
+  "properties": {
+    "type": "Peninsula",
+    "area": "55,000 km²",
+    "population": "2.0 million",
+    "capital": "Halifax",
+    "official_language": "English",
+    "highest_point": "White Hill",
+    "major_river": "Annapolis River",
+    "geology": "Appalachian",
+    "climate": "Humid continental",
+    "time_zone": "AST/ADT"
+  },
+  "relationship": [
+    {
+      "part_of": "Nova Scotia"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "borders": "New Brunswick"
+    },
+    {
+      "borders": "Prince Edward Island"
+    },
+    {
+      "region_contains": "Halifax Regional Municipality"
+    },
+    {
+      "region_contains": "Cape Breton"
+    },
+    {
+      "influenced_by": "Mi'kmaq people"
+    },
+    {
+      "influenced_by": "French colonization"
+    },
+    {
+      "exports": "Seafood"
+    },
+    {
+      "industry": "Tourism"
+    }
+  ]
+}

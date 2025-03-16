@@ -1,0 +1,47 @@
+{
+  "entity": "Roman Empire",
+  "properties": {
+    "capital": "Rome",
+    "founder": "Romulus",
+    "largest_empire": "Yes",
+    "area_km2": "5000000",
+    "population_peak": "60000000",
+    "language": "Latin",
+    "religion": "Roman polytheism, Christianity",
+    "government": "Empire",
+    "system_of_law": "Roman law",
+    "decline_date": "476"
+  },
+  "relationship": [
+    {
+      "predecessor": "Roman Republic"
+    },
+    {
+      "successors": "Byzantine Empire, Holy Roman Empire"
+    },
+    {
+      "influenced": "Western Civilization"
+    },
+    {
+      "located_in": "Europe, Africa, Asia"
+    },
+    {
+      "military_conflict": "Punic Wars"
+    },
+    {
+      "military_conflict": "Roman-Persian Wars"
+    },
+    {
+      "ruled_by": "Julius Caesar"
+    },
+    {
+      "ruled_by": "Augustus"
+    },
+    {
+      "architectural_style": "Roman architecture"
+    },
+    {
+      "invention": "Concrete"
+    }
+  ]
+}

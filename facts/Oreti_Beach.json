@@ -1,0 +1,47 @@
+{
+  "entity": "Oreti Beach",
+  "properties": {
+    "type": "Beach",
+    "location": "Southland, New Zealand",
+    "region": "Southland",
+    "country": "New Zealand",
+    "latitude": "-46.6333",
+    "longitude": "168.4500",
+    "geology": "Coastal",
+    "access": "Limited",
+    "known_for": "Fossil finds",
+    "nearby_landmark": "Oreti River"
+  },
+  "relationship": [
+    {
+      "part_of": "Southland Coast"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "adjacent_to": "Oreti River"
+    },
+    {
+      "influenced_by": "Coastal erosion"
+    },
+    {
+      "contains": "Fossils"
+    },
+    {
+      "near": "The Catlins"
+    },
+    {
+      "region": "Southland"
+    },
+    {
+      "influenced": "Glaciation"
+    },
+    {
+      "ecosystem": "Coastal"
+    },
+    {
+      "attraction_for": "Paleontologists"
+    }
+  ]
+}

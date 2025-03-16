@@ -1,0 +1,47 @@
+{
+  "entity": "Old Town, Edinburgh",
+  "properties": {
+    "type": "Historic district",
+    "location": "Edinburgh, Scotland",
+    "area": "270 hectares",
+    "population": "20,000",
+    "elevation": "93 m (305 ft)",
+    "founded": "7th century",
+    "architectural_style": "Medieval, Georgian",
+    "UNESCO_status": "World Heritage Site",
+    "main_language": "English",
+    "governed_by": "City of Edinburgh Council"
+  },
+  "relationship": [
+    {
+      "part_of": "Edinburgh"
+    },
+    {
+      "located_in": "City of Edinburgh"
+    },
+    {
+      "contains": "Edinburgh Castle"
+    },
+    {
+      "contains": "Royal Mile"
+    },
+    {
+      "influenced_by": "Medieval architecture"
+    },
+    {
+      "influenced_by": "Georgian architecture"
+    },
+    {
+      "historical_event": "Scottish Reformation"
+    },
+    {
+      "historical_event": "Lang Siege"
+    },
+    {
+      "landmark": "St Giles' Cathedral"
+    },
+    {
+      "tourist_attraction": "Grassmarket"
+    }
+  ]
+}

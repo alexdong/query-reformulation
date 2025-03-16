@@ -1,0 +1,47 @@
+{
+  "entity": "Flax",
+  "properties": {
+    "scientific_name": "Linum usitatissimum",
+    "plant_type": "Annual plant",
+    "family": "Linaceae",
+    "origin": "Mediterranean region",
+    "seed_color": "Blue-green",
+    "fiber_type": "Bast fiber",
+    "oil_content": "30-40%",
+    "uses": "Fiber, Oil, Food",
+    "cultivation_area": "Global",
+    "harvest_time": "Summer"
+  },
+  "relationship": [
+    {
+      "part_of": "Linaceae"
+    },
+    {
+      "produces": "Flaxseed oil"
+    },
+    {
+      "provides": "Linen fabric"
+    },
+    {
+      "used_in": "Canvas"
+    },
+    {
+      "cultivated_in": "Canada"
+    },
+    {
+      "cultivated_in": "China"
+    },
+    {
+      "cultivated_in": "India"
+    },
+    {
+      "related_to": "Hemp"
+    },
+    {
+      "nutrient_source": "Omega-3 fatty acids"
+    },
+    {
+      "used_by": "Ancient Egyptians"
+    }
+  ]
+}

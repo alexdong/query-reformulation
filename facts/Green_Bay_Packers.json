@@ -1,0 +1,47 @@
+{
+  "entity": "Green Bay Packers",
+  "properties": {
+    "instance_of": "American football team",
+    "league": "NFL",
+    "founded": "1919",
+    "city": "Green Bay, Wisconsin",
+    "division": "NFC North",
+    "head_coach": "Matt LaFleur",
+    "owner": "Green Bay Packers, Inc.",
+    "stadium": "Lambeau Field",
+    "team_colors": "Green and Gold",
+    "championships": "13"
+  },
+  "relationship": [
+    {
+      "plays_in": "NFL"
+    },
+    {
+      "located_in": "Green Bay, Wisconsin"
+    },
+    {
+      "plays_at": "Lambeau Field"
+    },
+    {
+      "coach": "Vince Lombardi"
+    },
+    {
+      "player": "Aaron Rodgers"
+    },
+    {
+      "player": "Brett Favre"
+    },
+    {
+      "rival": "Chicago Bears"
+    },
+    {
+      "division_rival": "Minnesota Vikings"
+    },
+    {
+      "member_of": "NFL franchises"
+    },
+    {
+      "won": "Super Bowl"
+    }
+  ]
+}

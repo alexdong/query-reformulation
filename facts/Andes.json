@@ -1,0 +1,47 @@
+{
+  "entity": "Andes",
+  "properties": {
+    "type": "Mountain range",
+    "location": "South America",
+    "length": "7,000 km",
+    "highest_peak": "Aconcagua",
+    "average_height": "4,000 m",
+    "formation_type": "Tectonic",
+    "geological_era": "Tertiary",
+    "countries_through": "Argentina, Bolivia, Chile, Colombia, Ecuador, Peru, Venezuela",
+    "area": "1,600,000 km²",
+    "biodiversity_hotspot": "Yes"
+  },
+  "relationship": [
+    {
+      "part_of": "South America"
+    },
+    {
+      "contains": "Aconcagua"
+    },
+    {
+      "contains": "Lake Titicaca"
+    },
+    {
+      "adjacent_to": "Pacific Ocean"
+    },
+    {
+      "adjacent_to": "Amazon Rainforest"
+    },
+    {
+      "influences": "Andean culture"
+    },
+    {
+      "influences": "Inca civilization"
+    },
+    {
+      "influences": "Andean languages"
+    },
+    {
+      "provides_water_to": "Amazon River"
+    },
+    {
+      "impacts": "Climate of South America"
+    }
+  ]
+}

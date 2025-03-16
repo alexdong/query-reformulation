@@ -1,0 +1,47 @@
+{
+  "entity": "Lake Wakatipu",
+  "properties": {
+    "type": "Lake",
+    "location": "South Island, New Zealand",
+    "area": "151 km²",
+    "max_depth": "314 m",
+    "length": "82 km",
+    "elevation": "310 m",
+    "tributaries": "Several streams",
+    "outflow": "Otago River",
+    "formation": "Glacial",
+    "shoreline_cities": "Queenstown, Frankton"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "tributary_of": "Otago River"
+    },
+    {
+      "near": "The Remarkables"
+    },
+    {
+      "near": "Cecil Peak"
+    },
+    {
+      "contains": "Walter Peak"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "serves_as": "Water source"
+    },
+    {
+      "adjacent_to": "Queenstown"
+    }
+  ]
+}

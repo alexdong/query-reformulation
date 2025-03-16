@@ -1,0 +1,47 @@
+{
+  "entity": "Southern Oscillation",
+  "properties": {
+    "instance_of": "Climate pattern",
+    "type": "ENSO",
+    "location": "Tropical Pacific",
+    "measurement": "Sea surface temperature, atmospheric pressure",
+    "period": "3-7 years",
+    "discovery_date": "19th century",
+    "discoverer": "Gilbert Blyth",
+    "name_origin": "Southern Hemisphere",
+    "impact": "Global weather patterns",
+    "related_phenomenon": "El Niño"
+  },
+  "relationship": [
+    {
+      "part_of": "ENSO"
+    },
+    {
+      "causes": "El Niño"
+    },
+    {
+      "influences": "Trade winds"
+    },
+    {
+      "affects": "Ocean currents"
+    },
+    {
+      "impacts": "Australia"
+    },
+    {
+      "impacts": "Indonesia"
+    },
+    {
+      "impacts": "South America"
+    },
+    {
+      "measured_by": "Southern Oscillation Index"
+    },
+    {
+      "related_to": "Walker circulation"
+    },
+    {
+      "studied_in": "Climate science"
+    }
+  ]
+}

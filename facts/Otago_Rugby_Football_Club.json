@@ -1,0 +1,47 @@
+{
+  "entity": "Otago Rugby Football Club",
+  "properties": {
+    "instance_of": "Rugby union club",
+    "founded": "1882",
+    "location": "Dunedin",
+    "country": "New Zealand",
+    "governing_body": "New Zealand Rugby",
+    "home_ground": "Forsyth Barr Stadium",
+    "nickname": "The Razorbacks",
+    "competition": "National Provincial Championship",
+    "colours": "Navy Blue and White",
+    "trophy": "Ranfurly Shield"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand rugby"
+    },
+    {
+      "located_in": "Otago Region"
+    },
+    {
+      "plays_in": "National Provincial Championship"
+    },
+    {
+      "rivalry_with": "Southland Rugby Football Club"
+    },
+    {
+      "has_member": "Dunedin Rugby Football Club"
+    },
+    {
+      "has_member": "Green Island Rugby Football Club"
+    },
+    {
+      "won": "Ranfurly Shield"
+    },
+    {
+      "coach": "Todd Woodward"
+    },
+    {
+      "player": "Mitchell Hunt"
+    },
+    {
+      "player": "Josh Ioane"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Micronesian Mythology",
+  "properties": {
+    "region": "Micronesia",
+    "type": "Oral tradition",
+    "themes": "Creation, Ancestry, Navigation, Spirits",
+    "deities": "Numerous, localized",
+    "stories": "Vary by island group",
+    "transmission": "Oral storytelling, dance",
+    "influence": "Animism, ancestor veneration",
+    "time_period": "Pre-colonial",
+    "cultural_significance": "Explains origins, guides behavior",
+    "related_to": "Melanesian Mythology, Polynesian Mythology"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceanic Mythology"
+    },
+    {
+      "influenced": "Micronesian art"
+    },
+    {
+      "related_to": "Navigation techniques"
+    },
+    {
+      "features": "Kapre"
+    },
+    {
+      "features": "Maui"
+    },
+    {
+      "features": "Tangaroa"
+    },
+    {
+      "features": "Nuku"
+    },
+    {
+      "associated_with": "Yapese mythology"
+    },
+    {
+      "associated_with": "Chuukese mythology"
+    },
+    {
+      "associated_with": "Pohnpeian mythology"
+    }
+  ]
+}

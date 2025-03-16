@@ -1,0 +1,47 @@
+{
+  "entity": "British Royal Family",
+  "properties": {
+    "instance_of": "Royal Family",
+    "country": "United Kingdom",
+    "head": "Charles III",
+    "dynasty": "House of Windsor",
+    "official_residence": "Buckingham Palace",
+    "established": "1917",
+    "lineage": "Descended from Saxe-Coburg and Gotha",
+    "role": "Constitutional Monarchy",
+    "symbol": "Royal Coat of Arms",
+    "wealth": "Estimated £600 million"
+  },
+  "relationship": [
+    {
+      "member_of": "House of Windsor"
+    },
+    {
+      "ruled_by": "Charles III"
+    },
+    {
+      "predecessor": "British Royal Family (previous houses)"
+    },
+    {
+      "located_in": "United Kingdom"
+    },
+    {
+      "has_member": "William, Prince of Wales"
+    },
+    {
+      "has_member": "Catherine, Princess of Wales"
+    },
+    {
+      "has_member": "Prince Harry, Duke of Sussex"
+    },
+    {
+      "related_to": "Commonwealth of Nations"
+    },
+    {
+      "influenced_by": "British History"
+    },
+    {
+      "performs_function": "State Ceremonies"
+    }
+  ]
+}

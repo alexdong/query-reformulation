@@ -1,0 +1,47 @@
+{
+  "entity": "Halifax Regional Municipality",
+  "properties": {
+    "type": "Municipal Government",
+    "population_2021": "400,373",
+    "area_km2": "560",
+    "provincial_region": "Nova Scotia",
+    "established": "1996",
+    "mayor": "Mike Savage",
+    "currency": "CAD",
+    "time_zone": "AST",
+    "postal_code": "B2B, B3B, B3H, B3J, B3K, B3L, B3M, B3N, B3P, B3R, B3S, B3T, B3V, B3W, B4B, B4C, B4E, B4F, B4G, B4H, B4J, B4K, B4L, B4M, B4N, B4P, B4R, B4S, B4T, B4V, B4W",
+    "official_language": "English"
+  },
+  "relationship": [
+    {
+      "part_of": "Nova Scotia"
+    },
+    {
+      "contains": "Halifax"
+    },
+    {
+      "contains": "Dartmouth"
+    },
+    {
+      "contains": "Bedford"
+    },
+    {
+      "located_near": "Atlantic Ocean"
+    },
+    {
+      "member_of": "Nova Scotia Municipalities"
+    },
+    {
+      "governed_by": "Halifax Regional Council"
+    },
+    {
+      "economic_sector": "Tourism"
+    },
+    {
+      "historical_event": "Halifax Explosion"
+    },
+    {
+      "influenced_by": "Mi'kmaq people"
+    }
+  ]
+}

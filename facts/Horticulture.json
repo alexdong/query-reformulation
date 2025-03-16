@@ -1,0 +1,47 @@
+{
+  "entity": "Horticulture",
+  "properties": {
+    "instance_of": "Applied science",
+    "field_of": "Agriculture",
+    "focus": "Plant cultivation",
+    "includes": "Botany",
+    "related_to": "Landscape architecture",
+    "scope": "Ornamental plants, fruits, vegetables",
+    "history": "Ancient civilizations",
+    "application": "Food production, aesthetics",
+    "techniques": "Pruning, irrigation, fertilization",
+    "importance": "Food security, environmental sustainability"
+  },
+  "relationship": [
+    {
+      "related_to": "Botany"
+    },
+    {
+      "overlaps_with": "Agronomy"
+    },
+    {
+      "employs": "Soil science"
+    },
+    {
+      "utilizes": "Plant propagation"
+    },
+    {
+      "requires": "Entomology"
+    },
+    {
+      "influences": "Landscape design"
+    },
+    {
+      "supports": "Urban gardening"
+    },
+    {
+      "contributes_to": "Permaculture"
+    },
+    {
+      "impacts": "Food security"
+    },
+    {
+      "benefits": "Biodiversity"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Lake Wānaka",
+  "properties": {
+    "type": "Lake",
+    "location": "South Island, New Zealand",
+    "area": "194 km²",
+    "max_depth": "310 m",
+    "elevation": "276 m",
+    "length": "63 km",
+    "width": "12 km",
+    "drainage_basin": "Clutha River",
+    "formation": "Glacial",
+    "name_origin": "Māori language"
+  },
+  "relationship": [
+    {
+      "part_of": "Clutha River catchment"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "near": "Mount Aspiring National Park"
+    },
+    {
+      "tributary_to": "Clutha River"
+    },
+    {
+      "contains": "That's Dumb Island"
+    },
+    {
+      "surrounded_by": "Southern Alps"
+    },
+    {
+      "influenced_by": "glacial activity"
+    },
+    {
+      "provides_water_to": "hydroelectric power"
+    },
+    {
+      "popular_for": "recreation"
+    },
+    {
+      "nearby_city": "Wānaka"
+    }
+  ]
+}

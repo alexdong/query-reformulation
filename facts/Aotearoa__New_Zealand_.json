@@ -1,0 +1,47 @@
+{
+  "entity": "Aotearoa (New Zealand)",
+  "properties": {
+    "official_name": "New Zealand",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "population": "5138000",
+    "currency": "NZD",
+    "official_languages": "English, Māori, NZ Sign Language",
+    "area_km2": "268021",
+    "government_type": "Parliamentary democracy",
+    "head_of_state": "King Charles III",
+    "national_symbol": "Silver Fern"
+  },
+  "relationship": [
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "located_near": "Australia"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "has_territory": "Chatham Islands"
+    },
+    {
+      "has_national_park": "Fiordland National Park"
+    },
+    {
+      "has_city": "Auckland"
+    },
+    {
+      "has_mountain": "Mount Cook"
+    },
+    {
+      "has_indigenous_people": "Māori"
+    },
+    {
+      "produces": "Kiwifruit"
+    }
+  ]
+}

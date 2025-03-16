@@ -1,0 +1,47 @@
+{
+  "entity": "Pacific Coast Ranges",
+  "properties": {
+    "type": "Mountain range",
+    "location": "West Coast of North America",
+    "length": "Approximately 2,300 miles",
+    "highest_peak": "Mount Shasta",
+    "geologic_era": "Tertiary Period",
+    "formation_process": "Tectonic uplift & Volcanism",
+    "climate": "Varied, from Mediterranean to Alpine",
+    "biodiversity": "High",
+    "drainage": "Pacific Ocean",
+    "area": "Approximately 150,000 sq mi"
+  },
+  "relationship": [
+    {
+      "part_of": "North American Cordillera"
+    },
+    {
+      "contains": "Sierra Nevada"
+    },
+    {
+      "contains": "Cascade Range"
+    },
+    {
+      "contains": "Coast Ranges"
+    },
+    {
+      "adjacent_to": "Great Basin"
+    },
+    {
+      "adjacent_to": "Mojave Desert"
+    },
+    {
+      "formed_by": "Juan de Fuca Plate"
+    },
+    {
+      "influences": "California Current"
+    },
+    {
+      "supports": "Temperate Rainforest"
+    },
+    {
+      "impacts": "Pacific Flyway"
+    }
+  ]
+}

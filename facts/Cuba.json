@@ -1,0 +1,47 @@
+{
+  "entity": "Cuba",
+  "properties": {
+    "capital": "Havana",
+    "official_language": "Spanish",
+    "currency": "Cuban Peso (CUP)",
+    "population": "11.3 million (2023)",
+    "area_km2": "109,884",
+    "government_type": "Socialist Republic",
+    "largest_city": "Havana",
+    "geography": "Caribbean",
+    "independence_date": "1898",
+    "national_dish": "Ropa Vieja"
+  },
+  "relationship": [
+    {
+      "part_of": "Caribbean"
+    },
+    {
+      "located_in": "North America"
+    },
+    {
+      "neighbor": "Bahamas"
+    },
+    {
+      "influenced_by": "Spain"
+    },
+    {
+      "historical_event": "Cuban Revolution"
+    },
+    {
+      "leader": "Miguel Díaz-Canel"
+    },
+    {
+      "trade_partner": "China"
+    },
+    {
+      "export_product": "Sugar"
+    },
+    {
+      "music_genre": "Son Cubano"
+    },
+    {
+      "sport": "Baseball"
+    }
+  ]
+}

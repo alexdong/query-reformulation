@@ -1,0 +1,47 @@
+{
+  "entity": "Sydney",
+  "properties": {
+    "capital_of": "New South Wales",
+    "population_2021": "5,312,941",
+    "country": "Australia",
+    "latitude": "-33.8688",
+    "longitude": "151.2093",
+    "area_km2": "12,368",
+    "time_zone": "Australian Eastern Time",
+    "established": "1788",
+    "currency": "AUD",
+    "mayor": "Clover Moore"
+  },
+  "relationship": [
+    {
+      "part_of": "Australia"
+    },
+    {
+      "located_in": "New South Wales"
+    },
+    {
+      "harbors": "Sydney Harbour"
+    },
+    {
+      "contains": "Sydney Opera House"
+    },
+    {
+      "contains": "Sydney Harbour Bridge"
+    },
+    {
+      "influenced_by": "Indigenous Australians"
+    },
+    {
+      "founded_by": "Arthur Phillip"
+    },
+    {
+      "major_industry": "Tourism"
+    },
+    {
+      "sister_city": "Los Angeles"
+    },
+    {
+      "has_sport_team": "Sydney Swans"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Fossil",
+  "properties": {
+    "instance_of": "Remains",
+    "formation_process": "Preservation",
+    "age_range": "Millions of years",
+    "type": "Body or trace",
+    "discovery_location": "Sedimentary rock",
+    "study_field": "Paleontology",
+    "common_material": "Mineralized tissue",
+    "size_range": "Microscopic to gigantic",
+    "formation_environment": "Ancient ecosystems",
+    "provides_info_about": "Past life"
+  },
+  "relationship": [
+    {
+      "part_of": "Sedimentary rock"
+    },
+    {
+      "studied_by": "Paleontologist"
+    },
+    {
+      "found_in": "Geological formation"
+    },
+    {
+      "provides_evidence_for": "Evolution"
+    },
+    {
+      "example_of": "Trilobite"
+    },
+    {
+      "example_of": "Ammonite"
+    },
+    {
+      "related_to": "Stratigraphy"
+    },
+    {
+      "used_in": "Dating methods"
+    },
+    {
+      "contributes_to": "Fossil record"
+    },
+    {
+      "represents": "Extinct species"
+    }
+  ]
+}

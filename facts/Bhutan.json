@@ -1,0 +1,47 @@
+{
+  "entity": "Bhutan",
+  "properties": {
+    "official_name": "Kingdom of Bhutan",
+    "capital": "Thimphu",
+    "population": "771,682",
+    "area_km2": "38,394",
+    "currency": "Ngultrum (BTN)",
+    "language": "Dzongkha",
+    "government": "Constitutional monarchy",
+    "gdp_nominal": "$2.6 billion (2023)",
+    "gini_coefficient": "0.32",
+    "happiness_rank": "95"
+  },
+  "relationship": [
+    {
+      "located_in": "Asia"
+    },
+    {
+      "borders": "India"
+    },
+    {
+      "borders": "China"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "member_of": "SAARC"
+    },
+    {
+      "head_of_state": "Jigme Khesar Namgyel Wangchuck"
+    },
+    {
+      "prime_minister": "Tshering Tobgay"
+    },
+    {
+      "religion": "Buddhism"
+    },
+    {
+      "influenced_by": "Tibetan culture"
+    },
+    {
+      "has_part": "Himalayas"
+    }
+  ]
+}

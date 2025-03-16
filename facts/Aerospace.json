@@ -1,0 +1,47 @@
+{
+  "entity": "Aerospace",
+  "properties": {
+    "instance_of": "Industry",
+    "description": "Design, manufacture, and operation of aircraft and spacecraft",
+    "sector": "Engineering",
+    "subfields": "Aeronautics, Astronautics",
+    "related_fields": "Mechanical Engineering, Physics",
+    "major_companies": "Boeing, Airbus, SpaceX",
+    "materials_used": "Aluminum, Titanium, Composites",
+    "regulation": "FAA, ESA, NASA",
+    "application": "Transportation, Defense, Research",
+    "economic_impact": "Trillions of USD"
+  },
+  "relationship": [
+    {
+      "employs": "Aerospace Engineer"
+    },
+    {
+      "develops": "Aircraft"
+    },
+    {
+      "develops": "Spacecraft"
+    },
+    {
+      "related_to": "Aviation"
+    },
+    {
+      "related_to": "Space Exploration"
+    },
+    {
+      "uses": "Rocket Propulsion"
+    },
+    {
+      "requires": "Aerodynamics"
+    },
+    {
+      "influenced_by": "Wright Brothers"
+    },
+    {
+      "contributes_to": "Satellite Technology"
+    },
+    {
+      "supports": "Global Transportation"
+    }
+  ]
+}

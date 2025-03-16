@@ -1,0 +1,47 @@
+{
+  "entity": "Tide",
+  "properties": {
+    "type": "Gravitational phenomenon",
+    "caused_by": "Gravitational pull of Moon & Sun",
+    "measurement_unit": "Meters",
+    "cycle_period": "Approximately 12 hours",
+    "high_tide_height": "Varies geographically",
+    "low_tide_height": "Varies geographically",
+    "tidal_range": "Difference between high & low tide",
+    "influence_on": "Coastal ecosystems",
+    "related_to": "Lunar cycle",
+    "predictability": "Generally predictable"
+  },
+  "relationship": [
+    {
+      "caused_by": "Moon"
+    },
+    {
+      "caused_by": "Sun"
+    },
+    {
+      "affects": "Coastal areas"
+    },
+    {
+      "related_to": "Lunar cycle"
+    },
+    {
+      "type_of": "Wave"
+    },
+    {
+      "influences": "Intertidal zone"
+    },
+    {
+      "related_to": "Spring tide"
+    },
+    {
+      "related_to": "Neap tide"
+    },
+    {
+      "measured_by": "Tide gauge"
+    },
+    {
+      "part_of": "Ocean"
+    }
+  ]
+}

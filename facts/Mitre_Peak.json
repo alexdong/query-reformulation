@@ -1,0 +1,47 @@
+{
+  "entity": "Mitre Peak",
+  "properties": {
+    "type": "Mountain",
+    "location": "Fiordland National Park",
+    "country": "New Zealand",
+    "height": "1692 m",
+    "geological_era": "Tertiary Period",
+    "rock_type": "Greywacke",
+    "prominence": "1544 m",
+    "coordinates": "44°48′S 166°53′E",
+    "name_origin": "Maori",
+    "visibility": "Often shrouded in mist"
+  },
+  "relationship": [
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "adjacent_to": "Lake Te Anau"
+    },
+    {
+      "geological_formation": "Tertiary Period"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "appears_in": "Tourism"
+    },
+    {
+      "photographed_by": "Numerous photographers"
+    },
+    {
+      "featured_in": "New Zealand currency"
+    },
+    {
+      "cultural_significance": "Ngāi Tahu"
+    }
+  ]
+}

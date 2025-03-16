@@ -1,0 +1,47 @@
+{
+  "entity": "European Americans",
+  "properties": {
+    "definition": "Descendants of Europeans",
+    "origin": "Europe",
+    "population": "~57.9 million (2020)",
+    "geographic_distribution": "United States",
+    "ethnic_groups": "German, Irish, Italian, Polish, etc.",
+    "language": "English (primarily)",
+    "religion": "Christianity (primarily)",
+    "ancestry": "Various European nations",
+    "cultural_influence": "Significant on US culture",
+    "average_income": "$78,000 (2022)"
+  },
+  "relationship": [
+    {
+      "part_of": "American people"
+    },
+    {
+      "descended_from": "European people"
+    },
+    {
+      "influenced": "American culture"
+    },
+    {
+      "migration_pattern": "European migration"
+    },
+    {
+      "related_to": "White Americans"
+    },
+    {
+      "contributor_to": "American history"
+    },
+    {
+      "settled_in": "North America"
+    },
+    {
+      "subgroup_of": "White ethnicity"
+    },
+    {
+      "impact_on": "United States demographics"
+    },
+    {
+      "associated_with": "Colonialism"
+    }
+  ]
+}

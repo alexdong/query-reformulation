@@ -1,0 +1,47 @@
+{
+  "entity": "High School Diploma",
+  "properties": {
+    "type": "Educational credential",
+    "purpose": "Secondary education completion",
+    "required_for": "College admission",
+    "issuing_authority": "School district",
+    "duration": "4 years (typically)",
+    "subject_areas": "Core subjects",
+    "assessment": "Standardized tests",
+    "recognition": "Nationwide",
+    "level": "Secondary",
+    "prerequisite": "Attendance and coursework"
+  },
+  "relationship": [
+    {
+      "precedes": "College Degree"
+    },
+    {
+      "requires": "Coursework"
+    },
+    {
+      "leads_to": "Employment"
+    },
+    {
+      "issuance_governed_by": "State Department of Education"
+    },
+    {
+      "part_of": "Secondary Education"
+    },
+    {
+      "assessment_method": "SAT"
+    },
+    {
+      "assessment_method": "ACT"
+    },
+    {
+      "required_for": "Vocational Training"
+    },
+    {
+      "alternative_to": "GED"
+    },
+    {
+      "influences": "Career Opportunities"
+    }
+  ]
+}

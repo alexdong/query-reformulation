@@ -1,0 +1,47 @@
+{
+  "entity": "River Teith",
+  "properties": {
+    "type": "River",
+    "location": "Scotland",
+    "source": "Auchray Burn",
+    "mouth": "River Forth",
+    "length": "26 miles",
+    "region": "Perth and Kinross",
+    "tributary_of": "River Forth",
+    "fish_species": "Brown trout, Salmon",
+    "catchment_area": "234 sq km",
+    "river_basin": "Forth"
+  },
+  "relationship": [
+    {
+      "flows_through": "Strathendry"
+    },
+    {
+      "flows_into": "River Forth"
+    },
+    {
+      "tributary_of": "Forth River"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "part_of": "Forth Catchment"
+    },
+    {
+      "fish_species_found": "Brown Trout"
+    },
+    {
+      "fish_species_found": "Salmon"
+    },
+    {
+      "flows_past": "Crieff"
+    },
+    {
+      "flows_past": "Dochaty"
+    },
+    {
+      "source_is": "Auchray Burn"
+    }
+  ]
+}

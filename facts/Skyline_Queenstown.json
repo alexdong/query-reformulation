@@ -1,0 +1,47 @@
+{
+  "entity": "Skyline Queenstown",
+  "properties": {
+    "type": "Hotel",
+    "location": "Queenstown, New Zealand",
+    "star_rating": "4",
+    "architectural_style": "Modern",
+    "number_of_rooms": "198",
+    "opening_date": "2020",
+    "owner": "Ōtorohanga Investments Limited",
+    "view": "Lake Wakatipu, The Remarkables",
+    "amenities": "Spa, Pool, Restaurant",
+    "website": "https://www.skylinequeenstown.co.nz/"
+  },
+  "relationship": [
+    {
+      "part_of": "Skyline Enterprises"
+    },
+    {
+      "located_in": "Queenstown"
+    },
+    {
+      "near": "The Remarkables"
+    },
+    {
+      "overlooks": "Lake Wakatipu"
+    },
+    {
+      "provides": "Accommodation"
+    },
+    {
+      "offers": "Dining"
+    },
+    {
+      "has_amenity": "Spa"
+    },
+    {
+      "has_amenity": "Swimming Pool"
+    },
+    {
+      "serves": "Tourism"
+    },
+    {
+      "operated_by": "Skyline Queenstown"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Mi'kmaq",
+  "properties": {
+    "native_name": "Mi'kmaq",
+    "location": "Atlantic Canada",
+    "language": "Mi'kmaq",
+    "population": "10,000+",
+    "status": "Recognized First Nation",
+    "culture": "Indigenous",
+    "traditions": "Oral history, storytelling",
+    "economy": "Historically hunting/fishing, now diverse",
+    "governance": "Chiefs and Councils",
+    "territory": "Gesgapegiag"
+  },
+  "relationship": [
+    {
+      "part_of": "Indigenous peoples"
+    },
+    {
+      "related_to": "Wabanaki Confederacy"
+    },
+    {
+      "language_family": "Algonquian languages"
+    },
+    {
+      "located_in": "Canada"
+    },
+    {
+      "influenced_by": "French colonization"
+    },
+    {
+      "treaty_with": "British Empire"
+    },
+    {
+      "ancestor_of": "Gesgapegiag"
+    },
+    {
+      "has_member": "Rita Joe"
+    },
+    {
+      "has_member": "Pauline Metallic"
+    },
+    {
+      "shares_territory_with": "Acadians"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "International Trade",
+  "properties": {
+    "definition": "Exchange of goods/services across borders",
+    "driver": "Comparative Advantage",
+    "benefit": "Economic Growth",
+    "barrier": "Tariffs, Quotas",
+    "measurement": "Exports + Imports",
+    "governing_body": "World Trade Organization (WTO)",
+    "type": "Economic Activity",
+    "impact": "Job Creation, Innovation",
+    "scale": "Trillions of USD annually",
+    "legal_framework": "General Agreement on Tariffs and Trade (GATT)"
+  },
+  "relationship": [
+    {
+      "impacts": "Gross Domestic Product (GDP)"
+    },
+    {
+      "facilitates": "Globalization"
+    },
+    {
+      "regulated_by": "World Trade Organization (WTO)"
+    },
+    {
+      "influences": "Balance of Payments"
+    },
+    {
+      "requires": "Transportation"
+    },
+    {
+      "involves": "Supply Chain"
+    },
+    {
+      "impacts": "Currency Exchange Rates"
+    },
+    {
+      "promotes": "Specialization"
+    },
+    {
+      "depends_on": "Trade Agreements"
+    },
+    {
+      "supports": "Foreign Direct Investment (FDI)"
+    }
+  ]
+}

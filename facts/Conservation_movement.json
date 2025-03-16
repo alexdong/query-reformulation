@@ -1,0 +1,47 @@
+{
+  "entity": "Conservation movement",
+  "properties": {
+    "instance_of": "Social movement",
+    "focus": "Natural resources",
+    "origin": "19th century",
+    "goal": "Protect environment",
+    "early_figure": "John Muir",
+    "key_concept": "Sustainability",
+    "related_to": "Environmentalism",
+    "geographic_scope": "Global",
+    "initial_focus": "Forests & Wildlife",
+    "modern_focus": "Climate Change"
+  },
+  "relationship": [
+    {
+      "influenced": "Environmentalism"
+    },
+    {
+      "preceded": "Environmental movement"
+    },
+    {
+      "advocated_by": "Sierra Club"
+    },
+    {
+      "advocated_by": "The Nature Conservancy"
+    },
+    {
+      "inspired": "National Park movement"
+    },
+    {
+      "related_to": "Wildlife preservation"
+    },
+    {
+      "related_to": "Forestry"
+    },
+    {
+      "promoted_by": "John James Audubon"
+    },
+    {
+      "influenced": "Sustainable development"
+    },
+    {
+      "overlaps_with": "Green politics"
+    }
+  ]
+}

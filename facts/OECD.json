@@ -1,0 +1,47 @@
+{
+  "entity": "OECD",
+  "properties": {
+    "short_name": "Organisation for Economic Co-operation and Development",
+    "type": "Intergovernmental organization",
+    "hq_location": "Paris, France",
+    "founding_date": "1961",
+    "purpose": "Economic cooperation",
+    "membership": "38",
+    "languages": "Multilingual (English, French)",
+    "secretary_general": "Mathias Cormann",
+    "website": "www.oecd.org",
+    "focus": "Economic and social well-being"
+  },
+  "relationship": [
+    {
+      "member_country": "United States"
+    },
+    {
+      "member_country": "Germany"
+    },
+    {
+      "member_country": "United Kingdom"
+    },
+    {
+      "member_country": "Japan"
+    },
+    {
+      "member_country": "Canada"
+    },
+    {
+      "reports_on": "Economic indicators"
+    },
+    {
+      "promotes": "Sustainable development"
+    },
+    {
+      "analyzes": "Public policy"
+    },
+    {
+      "collaborates_with": "G20"
+    },
+    {
+      "related_to": "World Bank"
+    }
+  ]
+}

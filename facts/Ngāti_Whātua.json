@@ -1,0 +1,47 @@
+{
+  "entity": "Ngāti Whātua",
+  "properties": {
+    "type": "Māori iwi",
+    "region": "Auckland, Northland",
+    "ancestor": "Hoturoa",
+    "tribal_mountain": "Takapuna",
+    "rohe": "Tāmaki Makaurau, Northland",
+    "language": "Te Reo Māori",
+    "population": "Approximately 6,000",
+    "traditional_occupation": "Fisheries, agriculture",
+    "significant_site": "Orakei",
+    "treaty_partner": "British Crown"
+  },
+  "relationship": [
+    {
+      "descendant_of": "Hoturoa"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Māori people"
+    },
+    {
+      "related_to": "Ngāti Paoa"
+    },
+    {
+      "related_to": "Ngāti Manuhiri"
+    },
+    {
+      "claims_land_in": "Tāmaki Makaurau"
+    },
+    {
+      "claims_land_in": "Northland"
+    },
+    {
+      "treaty_signed_with": "British Crown"
+    },
+    {
+      "has_marae": "Ōrākei Marae"
+    },
+    {
+      "has_marae": "Parawai Marae"
+    }
+  ]
+}

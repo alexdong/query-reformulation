@@ -1,0 +1,47 @@
+{
+  "entity": "8",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "even_number": "Yes",
+    "composite_number": "No",
+    "prime_number": "No",
+    "divisible_by": "1, 2, 4, 8",
+    "roman_numeral": "VIII",
+    "octal": "10",
+    "hexadecimal": "8",
+    "binary": "1000"
+  },
+  "relationship": [
+    {
+      "predecessor": "7"
+    },
+    {
+      "successor": "9"
+    },
+    {
+      "sum_with": "0"
+    },
+    {
+      "product_with": "1"
+    },
+    {
+      "part_of": "16"
+    },
+    {
+      "factor_of": "16"
+    },
+    {
+      "related_to": "Fibonacci sequence"
+    },
+    {
+      "used_in": "Binary system"
+    },
+    {
+      "appears_in": "Periodic table"
+    },
+    {
+      "related_to": "Octahedron"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Tautuku Bay",
+  "properties": {
+    "type": "Bay",
+    "location": "Southland, New Zealand",
+    "region": "Southland",
+    "coordinates": "-46.6333, 169.5333",
+    "area": "Small",
+    "geology": "Coastal",
+    "landscape": "Rugged",
+    "access": "Limited",
+    "conservation_status": "Protected",
+    "nearby_feature": "The Catlins"
+  },
+  "relationship": [
+    {
+      "part_of": "The Catlins"
+    },
+    {
+      "located_in": "Southland Region"
+    },
+    {
+      "contains": "Tautuku River"
+    },
+    {
+      "adjacent_to": "Tautuku Peninsula"
+    },
+    {
+      "influenced_by": "Coastal erosion"
+    },
+    {
+      "flora_includes": "Southern Rata"
+    },
+    {
+      "fauna_includes": "New Zealand fur seal"
+    },
+    {
+      "tourism_type": "Scenic"
+    },
+    {
+      "geological_era": "Tertiary Period"
+    },
+    {
+      "historical_use": "Māori settlement"
+    }
+  ]
+}

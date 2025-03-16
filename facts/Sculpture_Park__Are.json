@@ -1,0 +1,47 @@
+{
+  "entity": "Sculpture Park (Are",
+  "properties": {
+    "type": "Park",
+    "location": "Are, Norway",
+    "established": "1995",
+    "area": "350 hectares",
+    "owner": "Are Municipality",
+    "focus": "Contemporary sculpture",
+    "artist_representation": "International",
+    "accessibility": "Year-round",
+    "admission_fee": "Yes",
+    "landscape_type": "Forest"
+  },
+  "relationship": [
+    {
+      "located_in": "Norway"
+    },
+    {
+      "part_of": "Trøndelag county"
+    },
+    {
+      "contains": "Sculptures"
+    },
+    {
+      "artist_exhibited": "Anthony Caro"
+    },
+    {
+      "artist_exhibited": "Louise Bourgeois"
+    },
+    {
+      "artist_exhibited": "Barry Flanagan"
+    },
+    {
+      "influenced_by": "Land art"
+    },
+    {
+      "promotes": "Contemporary art"
+    },
+    {
+      "attracts": "Tourists"
+    },
+    {
+      "managed_by": "Are Municipality"
+    }
+  ]
+}

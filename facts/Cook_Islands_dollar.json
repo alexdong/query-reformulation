@@ -1,0 +1,47 @@
+{
+  "entity": "Cook Islands dollar",
+  "properties": {
+    "currency_code": "CKD",
+    "symbol": "$",
+    "ISO_4217_numeric_code": "148",
+    "introduced": "1972",
+    "subunit": "1/100",
+    "legal_tender_in": "Cook Islands",
+    "pegged_to": "New Zealand dollar",
+    "exchange_rate_fixed": "True",
+    "issuer": "Cook Islands National Bank",
+    "denomination": "1, 2, 5, 10, 20, 50, 100"
+  },
+  "relationship": [
+    {
+      "currency_union": "New Zealand dollar"
+    },
+    {
+      "country": "Cook Islands"
+    },
+    {
+      "issuing_authority": "Cook Islands National Bank"
+    },
+    {
+      "currency_code_is": "CKD"
+    },
+    {
+      "subunit_is": "Cent"
+    },
+    {
+      "exchange_rate_with": "New Zealand dollar"
+    },
+    {
+      "influenced_by": "New Zealand dollar"
+    },
+    {
+      "legal_tender_in_country": "Cook Islands"
+    },
+    {
+      "part_of": "Oceania"
+    },
+    {
+      "related_currency": "New Zealand dollar"
+    }
+  ]
+}

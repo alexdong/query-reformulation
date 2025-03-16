@@ -1,0 +1,47 @@
+{
+  "entity": "Sensory Science",
+  "properties": {
+    "definition": "Study of perception",
+    "field_of": "Food Science, Psychology",
+    "focus": "Human senses",
+    "methods": "Sensory evaluation, psychophysics",
+    "application": "Product development, quality control",
+    "data_type": "Subjective",
+    "scale": "Quantitative, Qualitative",
+    "related_discipline": "Consumer Science",
+    "goal": "Understand sensory experiences",
+    "importance": "Consumer acceptance"
+  },
+  "relationship": [
+    {
+      "studies": "Taste"
+    },
+    {
+      "studies": "Smell"
+    },
+    {
+      "studies": "Vision"
+    },
+    {
+      "studies": "Touch"
+    },
+    {
+      "studies": "Hearing"
+    },
+    {
+      "uses": "Sensory panels"
+    },
+    {
+      "relies_on": "Psychophysics"
+    },
+    {
+      "overlaps_with": "Consumer Science"
+    },
+    {
+      "influences": "Product Design"
+    },
+    {
+      "employs": "Descriptive Analysis"
+    }
+  ]
+}

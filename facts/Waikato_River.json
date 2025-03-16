@@ -1,0 +1,47 @@
+{
+  "entity": "Waikato River",
+  "properties": {
+    "type": "River",
+    "location": "New Zealand",
+    "length": "425 km",
+    "source": "Taupō Volcanic Zone",
+    "mouth": "Tasman Sea",
+    "basin_area": "25,400 km²",
+    "discharge": "840 m³/s",
+    "maori_name": "Waihora",
+    "water_quality": "Generally good",
+    "importance": "Significant resource"
+  },
+  "relationship": [
+    {
+      "flows_through": "North Island"
+    },
+    {
+      "tributary_of": "Tasman Sea"
+    },
+    {
+      "source_of": "Lake Taupō"
+    },
+    {
+      "passes_through": "Hamilton"
+    },
+    {
+      "maori_iwi": "Ngāti Tūwharetoa"
+    },
+    {
+      "maori_iwi": "Raukawa"
+    },
+    {
+      "maori_iwi": "Waikato Tainui"
+    },
+    {
+      "used_for": "Hydroelectric power"
+    },
+    {
+      "used_for": "Irrigation"
+    },
+    {
+      "supports": "Native fish species"
+    }
+  ]
+}

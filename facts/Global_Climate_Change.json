@@ -1,0 +1,47 @@
+{
+  "entity": "Global Climate Change",
+  "properties": {
+    "type": "Environmental Issue",
+    "cause": "Greenhouse Gas Emissions",
+    "temperature_increase": "+1.1°C",
+    "primary_driver": "Human Activity",
+    "affected_sphere": "Earth's Climate System",
+    "major_impact": "Sea Level Rise",
+    "measurement_unit": "Degrees Celsius",
+    "time_scale": "Decades to Centuries",
+    "scientific_consensus": "Overwhelming",
+    "reporting_body": "IPCC"
+  },
+  "relationship": [
+    {
+      "causes": "Greenhouse Effect"
+    },
+    {
+      "impacts": "Extreme Weather"
+    },
+    {
+      "related_to": "Carbon Cycle"
+    },
+    {
+      "affects": "Biodiversity"
+    },
+    {
+      "mitigation_strategy": "Renewable Energy"
+    },
+    {
+      "adaptation_strategy": "Coastal Defenses"
+    },
+    {
+      "linked_to": "Paris Agreement"
+    },
+    {
+      "impacts": "Ocean Acidification"
+    },
+    {
+      "contributes_to": "Melting Glaciers"
+    },
+    {
+      "studied_by": "Climatology"
+    }
+  ]
+}

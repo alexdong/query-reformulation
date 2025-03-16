@@ -1,0 +1,47 @@
+{
+  "entity": "South Pacific Ocean",
+  "properties": {
+    "area": "16,560,000 km²",
+    "average_depth": "4,080 m",
+    "max_depth": "10,882 m (Challenger Deep)",
+    "location": "Southern Hemisphere",
+    "borders": "Australia, New Zealand, South America, Antarctica",
+    "salinity": "35‰",
+    "temperature": "Varies, generally cooler",
+    "major_currents": "East Australian Current, Peru Current, Humboldt Current",
+    "is_part_of": "Pacific Ocean",
+    "contains": "Numerous islands"
+  },
+  "relationship": [
+    {
+      "borders": "Australia"
+    },
+    {
+      "borders": "New Zealand"
+    },
+    {
+      "borders": "South America"
+    },
+    {
+      "borders": "Antarctica"
+    },
+    {
+      "contains": "Fiji"
+    },
+    {
+      "contains": "Samoa"
+    },
+    {
+      "contains": "Tonga"
+    },
+    {
+      "part_of": "Pacific Ocean"
+    },
+    {
+      "influenced_by": "El Niño"
+    },
+    {
+      "impacts": "Climate of Oceania"
+    }
+  ]
+}

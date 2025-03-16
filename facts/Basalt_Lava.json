@@ -1,0 +1,47 @@
+{
+  "entity": "Basalt Lava",
+  "properties": {
+    "type": "Igneous Rock",
+    "composition": "Mafic",
+    "color": "Dark",
+    "texture": "Fine-grained",
+    "viscosity": "Low",
+    "temperature": "700-1200 °C",
+    "density": "2.8-3.0 g/cm³",
+    "formation": "Volcanic Eruption",
+    "mineral_content": "Plagioclase, Pyroxene, Olivine",
+    "origin": "Mantle"
+  },
+  "relationship": [
+    {
+      "flows_into": "Lava Flow"
+    },
+    {
+      "forms": "Basalt"
+    },
+    {
+      "associated_with": "Volcanism"
+    },
+    {
+      "found_in": "Hawaii"
+    },
+    {
+      "found_in": "Iceland"
+    },
+    {
+      "forms": "Columnar Basalt"
+    },
+    {
+      "creates": "Lava Tube"
+    },
+    {
+      "erupts_from": "Volcano"
+    },
+    {
+      "contains": "Olivine"
+    },
+    {
+      "part_of": "Earth's Crust"
+    }
+  ]
+}

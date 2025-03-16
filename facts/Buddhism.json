@@ -1,0 +1,47 @@
+{
+  "entity": "Buddhism",
+  "properties": {
+    "origin": "India",
+    "founder": "Siddhartha Gautama",
+    "religion_type": "Dharma",
+    "core_text": "Tripitaka",
+    "major_branches": "Theravada, Mahayana, Vajrayana",
+    "number_of_followers": "520 million",
+    "deity": "None (non-theistic)",
+    "ethical_system": "Eightfold Path",
+    "goal": "Nirvana",
+    "philosophical_stance": "Anatta (no-self)"
+  },
+  "relationship": [
+    {
+      "influenced": "Hinduism"
+    },
+    {
+      "influenced": "Taoism"
+    },
+    {
+      "influenced": "Zen"
+    },
+    {
+      "related_to": "Four Noble Truths"
+    },
+    {
+      "related_to": "Eightfold Path"
+    },
+    {
+      "related_to": "Karma"
+    },
+    {
+      "related_to": "Reincarnation"
+    },
+    {
+      "practiced_in": "China"
+    },
+    {
+      "practiced_in": "Japan"
+    },
+    {
+      "practiced_in": "Thailand"
+    }
+  ]
+}

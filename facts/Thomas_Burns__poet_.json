@@ -1,0 +1,47 @@
+{
+  "entity": "Thomas Burns (poet)",
+  "properties": {
+    "birth_date": "1765-06-26",
+    "birth_place": "Dumfries",
+    "death_date": "1859-01-12",
+    "death_place": "Dumfries",
+    "occupation": "Poet",
+    "nationality": "Scottish",
+    "known_for": "Poetry, Burns family",
+    "family_relation": "Son of Robert Burns",
+    "literary_genre": "Lyric poetry",
+    "education": "Private"
+  },
+  "relationship": [
+    {
+      "father": "Robert Burns"
+    },
+    {
+      "mother": "Jean Armour"
+    },
+    {
+      "sibling": "William Burns (poet)"
+    },
+    {
+      "influenced_by": "Romanticism"
+    },
+    {
+      "associated_with": "Scottish literature"
+    },
+    {
+      "publication": "Burns's Poems"
+    },
+    {
+      "member_of": "Burns family"
+    },
+    {
+      "location": "Dumfries"
+    },
+    {
+      "period": "Romantic era"
+    },
+    {
+      "style": "Romantic poetry"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Dalhousie University",
+  "properties": {
+    "established": "1818",
+    "location": "Halifax, Nova Scotia",
+    "type": "Public University",
+    "motto": "Ora et Labora",
+    "colours": "Black and Gold",
+    "president": "Frank Sommers",
+    "student_population": "20,000",
+    "fields_of_study": "Arts, Science, Engineering, Medicine",
+    "governing_body": "Senate",
+    "name_origin": "Lord Dalhousie"
+  },
+  "relationship": [
+    {
+      "located_in": "Nova Scotia"
+    },
+    {
+      "member_of": "U15"
+    },
+    {
+      "founded_by": "Methodist Church"
+    },
+    {
+      "has_faculty": "Dalhousie Faculty of Medicine"
+    },
+    {
+      "has_program": "Bachelor of Commerce"
+    },
+    {
+      "has_building": "Dalhousie University Library"
+    },
+    {
+      "alumnus": "Donald Oliver"
+    },
+    {
+      "alumnus": "John Buchanan"
+    },
+    {
+      "rivalry_with": "Saint Mary's University"
+    },
+    {
+      "research_focus": "Oceanography"
+    }
+  ]
+}

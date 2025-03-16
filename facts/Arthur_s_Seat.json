@@ -1,0 +1,47 @@
+{
+  "entity": "Arthur's Seat",
+  "properties": {
+    "type": "Hill",
+    "location": "Edinburgh",
+    "country": "Scotland",
+    "elevation": "251 m",
+    "geological_formation": "Volcanic",
+    "formation_time": "347 million years ago",
+    "area": "1.67 km²",
+    "part_of": "Holyrood Park",
+    "view": "Edinburgh",
+    "access": "Public"
+  },
+  "relationship": [
+    {
+      "located_in": "Edinburgh"
+    },
+    {
+      "part_of": "Holyrood Park"
+    },
+    {
+      "geological_era": "Carboniferous"
+    },
+    {
+      "nearby_landmark": "Edinburgh Castle"
+    },
+    {
+      "nearby_landmark": "Palace of Holyroodhouse"
+    },
+    {
+      "geological_type": "Basalt"
+    },
+    {
+      "geological_process": "Volcanism"
+    },
+    {
+      "historical_use": "Royal Hunting Ground"
+    },
+    {
+      "legend_associated": "Arthurian Legend"
+    },
+    {
+      "accessible_by": "Hiking"
+    }
+  ]
+}

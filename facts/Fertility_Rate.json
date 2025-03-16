@@ -1,0 +1,47 @@
+{
+  "entity": "Fertility Rate",
+  "properties": {
+    "definition": "Births per 1000 women",
+    "unit": "births/1000 women",
+    "measurement_type": "Demographic",
+    "affected_by": "Healthcare, Education, Economy",
+    "influenced_by": "Cultural norms",
+    "calculation_method": "Live births / (Female population aged 15-49)",
+    "time_period": "Annual",
+    "data_source": "United Nations",
+    "indicator_type": "Population Indicator",
+    "relevance": "Sustainable Development Goals"
+  },
+  "relationship": [
+    {
+      "impacts": "Population Growth"
+    },
+    {
+      "related_to": "Total Fertility Rate"
+    },
+    {
+      "influenced_by": "Contraception"
+    },
+    {
+      "correlated_with": "Life Expectancy"
+    },
+    {
+      "affects": "Ageing Population"
+    },
+    {
+      "impacts": "Labor Force"
+    },
+    {
+      "related_to": "Demographic Transition"
+    },
+    {
+      "influenced_by": "Women's Empowerment"
+    },
+    {
+      "impacts": "Economic Development"
+    },
+    {
+      "measured_in": "World Bank"
+    }
+  ]
+}

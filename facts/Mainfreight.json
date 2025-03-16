@@ -1,0 +1,47 @@
+{
+  "entity": "Mainfreight",
+  "properties": {
+    "industry": "Logistics",
+    "founder": "Neil Norman",
+    "hq_location": "Palmerston North, New Zealand",
+    "stock_exchange": "NZX",
+    "stock_ticker": "MFG",
+    "employee_count": "12,000+",
+    "revenue_2023": "NZD $3.7 billion",
+    "business_model": "3PL, Transportation, Warehousing",
+    "services_offered": "Express, Road, Rail, Air & Sea Freight",
+    "founded_year": "1973"
+  },
+  "relationship": [
+    {
+      "subsidiary_of": "Mainfreight Group"
+    },
+    {
+      "competitor": "Toll Group"
+    },
+    {
+      "competitor": "DHL Group"
+    },
+    {
+      "competitor": "FedEx"
+    },
+    {
+      "operates_in": "New Zealand"
+    },
+    {
+      "operates_in": "Australia"
+    },
+    {
+      "operates_in": "Europe"
+    },
+    {
+      "customer_of": "Various Businesses"
+    },
+    {
+      "supplier_of": "Logistics Services"
+    },
+    {
+      "has_division": "Mainfreight Australia"
+    }
+  ]
+}

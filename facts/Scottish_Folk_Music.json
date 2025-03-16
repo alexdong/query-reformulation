@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Folk Music",
+  "properties": {
+    "genre": "Folk music",
+    "origin": "Scotland",
+    "time_period": "Medieval - Present",
+    "instruments": "Fiddle, Accordion, Guitar, Bagpipes",
+    "themes": "Storytelling, History, Landscape",
+    "style": "Ballads, Reels, Jigs",
+    "language": "Scots, Gaelic, English",
+    "influence": "Celtic music",
+    "legacy": "Cultural identity",
+    "popularity": "Global"
+  },
+  "relationship": [
+    {
+      "influenced": "Irish Folk Music"
+    },
+    {
+      "influenced_by": "Medieval Scottish Music"
+    },
+    {
+      "performer": "The Corries"
+    },
+    {
+      "performer": "Loreena McKennitt"
+    },
+    {
+      "performer": "Capercaillie"
+    },
+    {
+      "related_to": "Scottish Dance"
+    },
+    {
+      "associated_with": "Highland Games"
+    },
+    {
+      "features_in": "Scottish Culture"
+    },
+    {
+      "subgenre_of": "Celtic Music"
+    },
+    {
+      "instrument_used": "Great Highland Bagpipe"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Gospel Music",
+  "properties": {
+    "genre": "Religious Music",
+    "origin": "African American Communities",
+    "time_period": "19th Century",
+    "style": "Variety (Blues, Jazz, Contemporary)",
+    "themes": "Faith, Hope, Redemption",
+    "instruments": "Piano, Organ, Vocals, Drums",
+    "language": "English (primarily)",
+    "vocal_style": "Call and Response, Improvisation",
+    "influence": "Blues, Spirituals, Hymns",
+    "purpose": "Worship, Praise"
+  },
+  "relationship": [
+    {
+      "influenced": "Contemporary Christian Music"
+    },
+    {
+      "predecessor": "Spirituals"
+    },
+    {
+      "related_to": "Christianity"
+    },
+    {
+      "subgenre_of": "Religious Music"
+    },
+    {
+      "artist_performs": "Mahalia Jackson"
+    },
+    {
+      "artist_performs": "Kirk Franklin"
+    },
+    {
+      "artist_performs": "Edwin Hawkins"
+    },
+    {
+      "style_influenced": "Soul Music"
+    },
+    {
+      "genre_features": "Call and Response"
+    },
+    {
+      "historical_context": "American Civil Rights Movement"
+    }
+  ]
+}

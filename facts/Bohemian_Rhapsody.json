@@ -1,0 +1,47 @@
+{
+  "entity": "Bohemian Rhapsody",
+  "properties": {
+    "instance_of": "Song",
+    "artist": "Queen",
+    "genre": "Rock",
+    "release_date": "1975",
+    "album": "A Night at the Opera",
+    "length": "5:55",
+    "composer": "Freddie Mercury",
+    "producer": "Roy Thomas Baker",
+    "label": "EMI",
+    "chart_peak": "1"
+  },
+  "relationship": [
+    {
+      "performed_by": "Queen"
+    },
+    {
+      "written_by": "Freddie Mercury"
+    },
+    {
+      "appears_on_album": "A Night at the Opera"
+    },
+    {
+      "influenced": "Pop music"
+    },
+    {
+      "genre_is": "Progressive rock"
+    },
+    {
+      "featured_in_film": "Wayne's World"
+    },
+    {
+      "style_is": "Opera"
+    },
+    {
+      "recording_location": "Rockfield Studios"
+    },
+    {
+      "producer_is": "Roy Thomas Baker"
+    },
+    {
+      "member_is": "Brian May"
+    }
+  ]
+}

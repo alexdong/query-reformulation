@@ -1,0 +1,47 @@
+{
+  "entity": "Angiosperms",
+  "properties": {
+    "instance_of": "Plant group",
+    "common_name": "Flowering plants",
+    "scientific_name": "Magnoliophyta",
+    "reproduction": "Sexual",
+    "seed_type": "Dicot or Monocot",
+    "pollination_method": "Various",
+    "vascular_system": "Vascular",
+    "dominant_generation": "Sporophyte",
+    "global_distribution": "Worldwide",
+    "number_of_species": "Approx. 391,000"
+  },
+  "relationship": [
+    {
+      "part_of": "Plants"
+    },
+    {
+      "subclass_of": "Spermatophytes"
+    },
+    {
+      "related_to": "Gymnosperms"
+    },
+    {
+      "pollinated_by": "Insects"
+    },
+    {
+      "pollinated_by": "Birds"
+    },
+    {
+      "provides_food_for": "Animals"
+    },
+    {
+      "produces": "Fruits"
+    },
+    {
+      "produces": "Seeds"
+    },
+    {
+      "contains": "Flowers"
+    },
+    {
+      "important_for": "Ecosystems"
+    }
+  ]
+}

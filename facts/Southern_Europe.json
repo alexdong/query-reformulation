@@ -1,0 +1,47 @@
+{
+  "entity": "Southern Europe",
+  "properties": {
+    "region_type": "Geographic region",
+    "continent": "Europe",
+    "area": "2,300,000 km²",
+    "population": "240 million",
+    "climate": "Mediterranean",
+    "languages": "Romance languages",
+    "economy": "Tourism, Agriculture, Manufacturing",
+    "geography": "Mountains, Coastlines, Islands",
+    "culture": "Diverse, Historical",
+    "political_status": "Various countries"
+  },
+  "relationship": [
+    {
+      "part_of": "Europe"
+    },
+    {
+      "borders": "Central Europe"
+    },
+    {
+      "includes": "Italy"
+    },
+    {
+      "includes": "Spain"
+    },
+    {
+      "includes": "Greece"
+    },
+    {
+      "includes": "Portugal"
+    },
+    {
+      "includes": "France"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "has_cuisine": "Mediterranean cuisine"
+    },
+    {
+      "contains_landmark": "Colosseum"
+    }
+  ]
+}

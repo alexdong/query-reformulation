@@ -1,0 +1,47 @@
+{
+  "entity": "Earns Law Burn",
+  "properties": {
+    "type": "Burn",
+    "location": "Dumfries and Galloway",
+    "country": "Scotland",
+    "altitude": "271 m (889 ft)",
+    "coordinates": "55°16′36″N 3°41′38″W",
+    "geology": "Basalt",
+    "formation_type": "Volcanic",
+    "age": "Early Cretaceous",
+    "status": "Extinct",
+    "part_of": "Southern Uplands"
+  },
+  "relationship": [
+    {
+      "located_in": "Dumfries and Galloway"
+    },
+    {
+      "part_of": "Southern Uplands"
+    },
+    {
+      "geological_period": "Cretaceous"
+    },
+    {
+      "type_of": "Volcanic burn"
+    },
+    {
+      "region": "Scotland"
+    },
+    {
+      "adjacent_to": "New England Hills"
+    },
+    {
+      "formed_from": "Basalt lava"
+    },
+    {
+      "influenced_by": "Glacial erosion"
+    },
+    {
+      "contains": "Burn water"
+    },
+    {
+      "nearby": "Whitehope Fell"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "St. Peter's Basilica",
+  "properties": {
+    "architectural_style": "Renaissance architecture",
+    "location": "Vatican City",
+    "status": "Basilica",
+    "capacity": "20,000",
+    "dome_height": "136.57 m",
+    "construction_start": "1506",
+    "construction_end": "1626",
+    "architects": "Multiple",
+    "patron": "Popes",
+    "denomination": "Catholic"
+  },
+  "relationship": [
+    {
+      "part_of": "Vatican City"
+    },
+    {
+      "designed_by": "Donato Bramante"
+    },
+    {
+      "designed_by": "Michelangelo"
+    },
+    {
+      "designed_by": "Gian Lorenzo Bernini"
+    },
+    {
+      "contains": "Michelangelo's Pietà"
+    },
+    {
+      "contains": "Bernini's Baldachin"
+    },
+    {
+      "adjacent_to": "St. Peter's Square"
+    },
+    {
+      "influenced": "Baroque architecture"
+    },
+    {
+      "religious_significance": "Papal"
+    },
+    {
+      "burial_site": "St. Peter"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Insect",
+  "properties": {
+    "instance_of": "Class",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "body_segments": "3 (head, thorax, abdomen)",
+    "exoskeleton": "Chitinous",
+    "respiration": "Tracheal",
+    "development": "Metamorphosis",
+    "eyes": "Compound",
+    "size": "Tiny to large",
+    "distribution": "Worldwide"
+  },
+  "relationship": [
+    {
+      "part_of": "Arthropoda"
+    },
+    {
+      "has_order": "Coleoptera"
+    },
+    {
+      "has_order": "Lepidoptera"
+    },
+    {
+      "has_order": "Hymenoptera"
+    },
+    {
+      "has_order": "Diptera"
+    },
+    {
+      "has_order": "Hemiptera"
+    },
+    {
+      "prey_for": "Bird"
+    },
+    {
+      "pollinates": "Flower"
+    },
+    {
+      "contributes_to": "Ecosystem"
+    },
+    {
+      "studied_in": "Entomology"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Hiking Trail",
+  "properties": {
+    "type": "Path",
+    "surface": "Dirt",
+    "difficulty": "Moderate",
+    "length": "Variable",
+    "elevation_gain": "Variable",
+    "usage": "Recreation",
+    "environment": "Natural",
+    "marking": "Blazes",
+    "accessibility": "Variable",
+    "maintenance": "Regular"
+  },
+  "relationship": [
+    {
+      "located_in": "National Park"
+    },
+    {
+      "part_of": "Trail System"
+    },
+    {
+      "intersects": "Water Body"
+    },
+    {
+      "connects_to": "Another Trail"
+    },
+    {
+      "passes_through": "Forest"
+    },
+    {
+      "provides_access_to": "Scenic View"
+    },
+    {
+      "used_by": "Hiker"
+    },
+    {
+      "requires": "Hiking Boots"
+    },
+    {
+      "managed_by": "Government Agency"
+    },
+    {
+      "features": "Wildlife"
+    }
+  ]
+}

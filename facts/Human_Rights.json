@@ -1,0 +1,47 @@
+{
+  "entity": "Human Rights",
+  "properties": {
+    "definition": "Basic rights inherent to all humans",
+    "origin": "Universal Declaration of Human Rights",
+    "scope": "Civil, political, economic, social, cultural",
+    "legal_basis": "International law",
+    "enforcement": "Varies by jurisdiction",
+    "protection_provided": "Equality, freedom, dignity",
+    "monitoring_body": "United Nations Human Rights Office",
+    "related_concept": "International law",
+    "historical_context": "Enlightenment, post-WWII",
+    "key_principle": "Universality"
+  },
+  "relationship": [
+    {
+      "protected_by": "International law"
+    },
+    {
+      "promoted_by": "United Nations"
+    },
+    {
+      "related_to": "Civil liberties"
+    },
+    {
+      "influenced_by": "Enlightenment"
+    },
+    {
+      "addressed_by": "Universal Declaration of Human Rights"
+    },
+    {
+      "impacts": "Individual freedom"
+    },
+    {
+      "requires": "Rule of law"
+    },
+    {
+      "challenges": "Political oppression"
+    },
+    {
+      "linked_to": "Humanitarian law"
+    },
+    {
+      "advocated_by": "Amnesty International"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Modern Gold Rushes",
+  "properties": {
+    "definition": "Renewed interest in gold prospecting",
+    "time_period": "Late 20th - 21st Century",
+    "driver": "High gold prices",
+    "location": "Global, esp. Alaska, Yukon, Australia",
+    "technology": "Metal detectors, GPS, drones",
+    "scale": "Smaller than historical rushes",
+    "participants": "Hobbyists, prospectors, small-scale miners",
+    "environmental_impact": "Potential for habitat disruption",
+    "legal_framework": "Varies by jurisdiction",
+    "economic_impact": "Localized economic activity"
+  },
+  "relationship": [
+    {
+      "predecessor": "California Gold Rush"
+    },
+    {
+      "influenced_by": "High gold prices"
+    },
+    {
+      "uses_technology": "Metal detector"
+    },
+    {
+      "location_is_in": "Alaska"
+    },
+    {
+      "location_is_in": "Yukon"
+    },
+    {
+      "location_is_in": "Australia"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "regulated_by": "Government"
+    },
+    {
+      "employs": "GPS"
+    },
+    {
+      "uses_tool": "Drone"
+    }
+  ]
+}

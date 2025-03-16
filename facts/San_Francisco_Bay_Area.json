@@ -1,0 +1,47 @@
+{
+  "entity": "San Francisco Bay Area",
+  "properties": {
+    "type": "Metropolitan area",
+    "population_2020": "13,517,000",
+    "location": "California, USA",
+    "area_km2": "20,474",
+    "major_city": "San Francisco",
+    "climate": "Mediterranean",
+    "economy_type": "Technology, Finance, Tourism",
+    "average_income": "$120,000",
+    "cost_of_living": "Very High",
+    "geography": "Coastal, Hills, Bay"
+  },
+  "relationship": [
+    {
+      "part_of": "California"
+    },
+    {
+      "contains": "San Francisco"
+    },
+    {
+      "contains": "Oakland"
+    },
+    {
+      "contains": "San Jose"
+    },
+    {
+      "borders": "Santa Cruz Mountains"
+    },
+    {
+      "influenced_by": "Gold Rush"
+    },
+    {
+      "economic_hub_for": "Silicon Valley"
+    },
+    {
+      "major_industry": "Technology"
+    },
+    {
+      "landmark": "Golden Gate Bridge"
+    },
+    {
+      "natural_feature": "San Francisco Bay"
+    }
+  ]
+}

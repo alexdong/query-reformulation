@@ -1,0 +1,47 @@
+{
+  "entity": "Social Structure",
+  "properties": {
+    "definition": "Arrangement of individuals/groups",
+    "field_of_study": "Sociology",
+    "type": "System",
+    "focus": "Relationships & Roles",
+    "level_of_analysis": "Macro",
+    "key_concept": "Hierarchy",
+    "related_concept": "Social Stratification",
+    "impacts": "Opportunities, Outcomes",
+    "origin": "Ancient Greece",
+    "theory_foundation": "Functionalism, Conflict Theory"
+  },
+  "relationship": [
+    {
+      "part_of": "Society"
+    },
+    {
+      "studied_by": "Sociology"
+    },
+    {
+      "influences": "Social Mobility"
+    },
+    {
+      "related_to": "Social Stratification"
+    },
+    {
+      "impacts": "Culture"
+    },
+    {
+      "analyzed_by": "Functionalism"
+    },
+    {
+      "analyzed_by": "Conflict Theory"
+    },
+    {
+      "impacts": "Power Dynamics"
+    },
+    {
+      "related_to": "Social Institutions"
+    },
+    {
+      "example_of": "Family"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Gesgasegiag",
+  "properties": {
+    "instance_of": "Mythical creature",
+    "origin": "Inuit mythology",
+    "description": "Sea monster",
+    "appearance": "Large, serpent-like",
+    "habitat": "Arctic waters",
+    "diet": "Marine mammals",
+    "size": "Varies, often immense",
+    "temperament": "Dangerous, unpredictable",
+    "region": "Arctic Canada",
+    "cultural_significance": "Represents ocean's power"
+  },
+  "relationship": [
+    {
+      "part_of": "Inuit mythology"
+    },
+    {
+      "related_to": "Qalupalik"
+    },
+    {
+      "related_to": "Adlet"
+    },
+    {
+      "associated_with": "Arctic regions"
+    },
+    {
+      "fear_of": "Inuit people"
+    },
+    {
+      "represents": "Ocean's danger"
+    },
+    {
+      "story_appears_in": "Inuit folklore"
+    },
+    {
+      "habitat_overlaps_with": "Narwhal"
+    },
+    {
+      "prey_on": "Seal"
+    },
+    {
+      "threat_to": "Kayaks"
+    }
+  ]
+}

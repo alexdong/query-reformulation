@@ -1,0 +1,47 @@
+{
+  "entity": "Brad Bedell",
+  "properties": {
+    "occupation": "Software Engineer",
+    "birthdate": "1974-07-28",
+    "nationality": "American",
+    "education": "University of Illinois at Urbana-Champaign",
+    "employer": "Google",
+    "known_for": "GraphQL",
+    "field": "Computer Science",
+    "expertise": "API Design",
+    "github_username": "bradbenio",
+    "website": "bradbenio.com"
+  },
+  "relationship": [
+    {
+      "developed": "GraphQL"
+    },
+    {
+      "works_at": "Google"
+    },
+    {
+      "alumnus_of": "University of Illinois at Urbana-Champaign"
+    },
+    {
+      "contributor_to": "GraphQL Foundation"
+    },
+    {
+      "authored": "GraphQL Specification"
+    },
+    {
+      "influences": "API Design"
+    },
+    {
+      "speaker_at": "GraphQL Summit"
+    },
+    {
+      "mentor_of": "GraphQL Community"
+    },
+    {
+      "collaborated_with": "Facebook"
+    },
+    {
+      "promoted": "API Standards"
+    }
+  ]
+}

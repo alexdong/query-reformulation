@@ -1,0 +1,47 @@
+{
+  "entity": "Kings Canyon National Park",
+  "properties": {
+    "location": "California, USA",
+    "established": "1890",
+    "area": "865,790 acres",
+    "elevation_min": "1,480 ft",
+    "elevation_max": "14,500 ft",
+    "biome": "Montane",
+    "governed_by": "United States National Park Service",
+    "neighboring_park": "Sequoia National Park",
+    "climate": "Mediterranean",
+    "designation": "National Park"
+  },
+  "relationship": [
+    {
+      "part_of": "Sierra Nevada"
+    },
+    {
+      "contains": "Kings Canyon"
+    },
+    {
+      "contains": "Cedar Grove"
+    },
+    {
+      "adjacent_to": "Sequoia National Park"
+    },
+    {
+      "managed_by": "National Park Service"
+    },
+    {
+      "located_in": "California"
+    },
+    {
+      "has_feature": "General Grant Tree"
+    },
+    {
+      "has_feature": "Mist Falls"
+    },
+    {
+      "has_species": "Black Bear"
+    },
+    {
+      "has_species": "California Condor"
+    }
+  ]
+}

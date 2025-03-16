@@ -1,0 +1,47 @@
+{
+  "entity": "Tonga",
+  "properties": {
+    "instance_of": "Country",
+    "capital": "Nukuʻalofa",
+    "official_language": "Tongan",
+    "population": "103,000",
+    "area_km2": "747",
+    "currency": "Tongan paʻanga",
+    "sovereignty": "Constitutional Monarchy",
+    "continent": "Oceania",
+    "geographic_coordinate": "18°55′S 175°11′W",
+    "gdp_nominal": "0.05 billion USD"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesia"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "member_of": "Commonwealth"
+    },
+    {
+      "member_of": "Pacific Islands Forum"
+    },
+    {
+      "monarch": "Tupou VI"
+    },
+    {
+      "has_island": "Tongatapu"
+    },
+    {
+      "has_island": "Vavaʻu"
+    },
+    {
+      "has_island": "Haʻapai"
+    },
+    {
+      "influenced_by": "Tuʻi Tonga Empire"
+    },
+    {
+      "border_touches": "None"
+    }
+  ]
+}

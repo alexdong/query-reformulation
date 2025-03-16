@@ -1,0 +1,47 @@
+{
+  "entity": "Education in New Zealand",
+  "properties": {
+    "type": "National education system",
+    "governing_body": "Ministry of Education",
+    "compulsory_age": "6-16 years",
+    "language_of_instruction": "English",
+    "funding_source": "Government & Student Fees",
+    "curriculum_framework": "The New Zealand Curriculum",
+    "assessment_method": "National Standards & School-based",
+    "school_levels": "Early Childhood, Primary, Secondary, Tertiary",
+    "literacy_rate": "98.9%",
+    "focus": "Student-centered learning"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "governed_by": "New Zealand Government"
+    },
+    {
+      "influenced_by": "Biculturalism"
+    },
+    {
+      "includes": "Early Childhood Education"
+    },
+    {
+      "includes": "Primary Education"
+    },
+    {
+      "includes": "Secondary Education"
+    },
+    {
+      "includes": "Tertiary Education"
+    },
+    {
+      "standard_setting_body": "New Zealand Qualifications Authority"
+    },
+    {
+      "curriculum_developed_by": "Ministry of Education"
+    },
+    {
+      "related_to": "Māori education"
+    }
+  ]
+}

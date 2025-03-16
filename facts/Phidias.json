@@ -1,0 +1,47 @@
+{
+  "entity": "Phidias",
+  "properties": {
+    "birth_place": "Sicyon",
+    "death_place": "Rome",
+    "occupation": "Sculptor",
+    "nationality": "Greek",
+    "flourished_in": "5th century BC",
+    "art_movement": "Classical Greek art",
+    "known_for": "Parthenon sculptures",
+    "influenced": "Later Greek sculptors",
+    "status": "Citizen",
+    "student_of": "Hegias"
+  },
+  "relationship": [
+    {
+      "worked_for": "Pericles"
+    },
+    {
+      "collaborated_with": "Alcamenes"
+    },
+    {
+      "sculpted": "Athena Parthenos"
+    },
+    {
+      "sculpted": "Zeus at Olympia"
+    },
+    {
+      "designed": "Parthenon"
+    },
+    {
+      "supervised": "Workshop"
+    },
+    {
+      "student_of": "Hegias"
+    },
+    {
+      "influenced": "Lysippos"
+    },
+    {
+      "located_in": "Athens"
+    },
+    {
+      "member_of": "Athenian citizen body"
+    }
+  ]
+}

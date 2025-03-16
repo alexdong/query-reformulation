@@ -1,0 +1,47 @@
+{
+  "entity": "Wave Propagation",
+  "properties": {
+    "definition": "Energy transfer through a medium or vacuum",
+    "type": "Physical phenomenon",
+    "medium": "Solid, Liquid, Gas, Vacuum",
+    "speed": "Dependent on medium properties",
+    "wavelength": "Distance between crests",
+    "frequency": "Number of cycles per unit time",
+    "amplitude": "Maximum displacement from equilibrium",
+    "wave_equation": "Partial differential equation describing wave behavior",
+    "energy": "Proportional to square of amplitude",
+    "examples": "Sound, Light, Water waves"
+  },
+  "relationship": [
+    {
+      "related_to": "Physics"
+    },
+    {
+      "related_to": "Wave mechanics"
+    },
+    {
+      "governed_by": "Maxwell's equations"
+    },
+    {
+      "related_to": "Huygens' principle"
+    },
+    {
+      "related_to": "Doppler effect"
+    },
+    {
+      "related_to": "Interference"
+    },
+    {
+      "related_to": "Diffraction"
+    },
+    {
+      "related_to": "Reflection"
+    },
+    {
+      "related_to": "Refraction"
+    },
+    {
+      "application_in": "Acoustics"
+    }
+  ]
+}

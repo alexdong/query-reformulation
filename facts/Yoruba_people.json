@@ -1,0 +1,47 @@
+{
+  "entity": "Yoruba people",
+  "properties": {
+    "language": "Yoruba language",
+    "location": "West Africa",
+    "religion": "Traditional Yoruba religion, Christianity, Islam",
+    "population": "40-50 million",
+    "ethnic_group": "West African ethnic group",
+    "culture": "Rich oral tradition, music, art",
+    "historical_kingdom": "Oyo Empire, Ife",
+    "literacy_rate": "60%",
+    "traditional_occupation": "Agriculture, crafts",
+    "social_structure": "Patrilineal, hierarchical"
+  },
+  "relationship": [
+    {
+      "part_of": "Niger-Congo languages"
+    },
+    {
+      "located_in": "Nigeria"
+    },
+    {
+      "located_in": "Benin"
+    },
+    {
+      "located_in": "Togo"
+    },
+    {
+      "located_in": "Sierra Leone"
+    },
+    {
+      "influenced": "Brazilian culture"
+    },
+    {
+      "related_to": "Igbo people"
+    },
+    {
+      "related_to": "Hausa people"
+    },
+    {
+      "historical_interaction": "Trans-Atlantic slave trade"
+    },
+    {
+      "deity_worships": "Ọ̀rúnmìlà"
+    }
+  ]
+}

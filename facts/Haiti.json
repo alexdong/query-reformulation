@@ -1,0 +1,47 @@
+{
+  "entity": "Haiti",
+  "properties": {
+    "capital": "Port-au-Prince",
+    "official_language": "French, Haitian Creole",
+    "population": "11.4 million (2023)",
+    "area_km2": "27,750",
+    "currency": "Guaranteed Haitian Dollar",
+    "independence_date": "1804",
+    "government_type": "Semi-presidential republic",
+    "continent": "North America",
+    "largest_city": "Port-au-Prince",
+    "gini_index": "54.9 (2010)"
+  },
+  "relationship": [
+    {
+      "part_of": "Caribbean"
+    },
+    {
+      "located_in": "Western Hemisphere"
+    },
+    {
+      "border_country": "Dominican Republic"
+    },
+    {
+      "former_colony_of": "France"
+    },
+    {
+      "influenced_by": "Vodou"
+    },
+    {
+      "historical_event": "Haitian Revolution"
+    },
+    {
+      "natural_disaster": "2010 Haiti earthquake"
+    },
+    {
+      "major_export": "Cocoa"
+    },
+    {
+      "related_to": "Toussaint Louverture"
+    },
+    {
+      "member_of": "United Nations"
+    }
+  ]
+}

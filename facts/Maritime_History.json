@@ -1,0 +1,47 @@
+{
+  "entity": "Maritime History",
+  "properties": {
+    "definition": "Human interaction with the sea",
+    "scope": "Navigation, trade, warfare, exploration",
+    "time_span": "Prehistory - Present",
+    "geographic_focus": "Global",
+    "key_technology": "Shipbuilding, Navigation tools",
+    "economic_impact": "Trade, Resource extraction",
+    "cultural_impact": "Exchange of ideas, Migration",
+    "early_era": "Ancient Mesopotamia",
+    "modern_era": "Steam power, Containerization",
+    "related_field": "Oceanography"
+  },
+  "relationship": [
+    {
+      "influenced": "Global Trade"
+    },
+    {
+      "preceded_by": "Riverine Transport"
+    },
+    {
+      "impacted": "Colonialism"
+    },
+    {
+      "involved": "Navigation"
+    },
+    {
+      "involved": "Shipbuilding"
+    },
+    {
+      "related_to": "Maritime Law"
+    },
+    {
+      "influenced": "Exploration"
+    },
+    {
+      "impacted": "Piracy"
+    },
+    {
+      "involved_in": "Naval Warfare"
+    },
+    {
+      "contributed_to": "Archaeology"
+    }
+  ]
+}

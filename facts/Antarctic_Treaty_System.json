@@ -1,0 +1,47 @@
+{
+  "entity": "Antarctic Treaty System",
+  "properties": {
+    "type": "International treaty",
+    "signed": "1959-12-01",
+    "entered_into_force": "1961-06-23",
+    "depositary": "United States",
+    "purpose": "Peaceful use, scientific research",
+    "parties": "12",
+    "location": "Antarctica",
+    "legal_basis": "United Nations Charter",
+    "governs": "Antarctic continent",
+    "status": "Active"
+  },
+  "relationship": [
+    {
+      "based_on": "United Nations Charter"
+    },
+    {
+      "signed_by": "United States"
+    },
+    {
+      "signed_by": "Soviet Union"
+    },
+    {
+      "signed_by": "United Kingdom"
+    },
+    {
+      "signed_by": "Argentina"
+    },
+    {
+      "signed_by": "Australia"
+    },
+    {
+      "signed_by": "Chile"
+    },
+    {
+      "signed_by": "France"
+    },
+    {
+      "signed_by": "New Zealand"
+    },
+    {
+      "related_to": "Environmental protection"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Biodiversity",
+  "properties": {
+    "definition": "Variety of life in oceans",
+    "scope": "Oceans, Seas, Estuaries",
+    "importance": "Ecosystem services, food security",
+    "threats": "Pollution, overfishing, climate change",
+    "scale": "Microscopic to gigantic",
+    "habitat_types": "Coral reefs, deep sea, mangroves",
+    "estimated_species": "2.2 million (estimated)",
+    "conservation_status": "Declining",
+    "economic_value": "Trillions of dollars",
+    "scientific_study": "Marine biology"
+  },
+  "relationship": [
+    {
+      "part_of": "Biodiversity"
+    },
+    {
+      "impacted_by": "Climate Change"
+    },
+    {
+      "threatens": "Food Security"
+    },
+    {
+      "supports": "Coral Reefs"
+    },
+    {
+      "includes": "Marine Mammals"
+    },
+    {
+      "includes": "Fish Species"
+    },
+    {
+      "includes": "Phytoplankton"
+    },
+    {
+      "affected_by": "Ocean Acidification"
+    },
+    {
+      "studied_by": "Marine Biology"
+    },
+    {
+      "impacts": "Human Health"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "United Nations Security Council",
+  "properties": {
+    "instance_of": "Intergovernmental body",
+    "purpose": "Maintain international peace",
+    "headquarters_location": "New York City",
+    "established": "1945",
+    "members": "15",
+    "permanent_members": "5",
+    "voting_system": "Two-thirds majority",
+    "resolution_type": "Security Council Resolution",
+    "power": "Veto power",
+    "parent_organization": "United Nations"
+  },
+  "relationship": [
+    {
+      "authorized": "Peacekeeping missions"
+    },
+    {
+      "includes": "Permanent members"
+    },
+    {
+      "includes": "Non-permanent members"
+    },
+    {
+      "resolves": "International disputes"
+    },
+    {
+      "can_impose": "Sanctions"
+    },
+    {
+      "can_authorize": "Military action"
+    },
+    {
+      "reports_to": "United Nations General Assembly"
+    },
+    {
+      "member_state": "China"
+    },
+    {
+      "member_state": "France"
+    },
+    {
+      "member_state": "Russia"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Digestive System",
+  "properties": {
+    "type": "Organ System",
+    "function": "Digestion & Absorption",
+    "main_organs": "Esophagus, Stomach, Intestines",
+    "length": "Approximately 9 meters",
+    "enzymes_involved": "Amylase, Protease, Lipase",
+    "waste_product": "Feces",
+    "primary_nutrient_absorption": "Carbohydrates, Proteins, Fats",
+    "starts_at": "Mouth",
+    "ends_at": "Anus",
+    "controlled_by": "Autonomic Nervous System"
+  },
+  "relationship": [
+    {
+      "part_of": "Human Body"
+    },
+    {
+      "function_related_to": "Metabolism"
+    },
+    {
+      "connected_to": "Circulatory System"
+    },
+    {
+      "disease_affects": "Gastroesophageal Reflux Disease"
+    },
+    {
+      "disease_affects": "Irritable Bowel Syndrome"
+    },
+    {
+      "process_involves": "Peristalsis"
+    },
+    {
+      "produces": "Vitamin K"
+    },
+    {
+      "contains": "Gut Microbiota"
+    },
+    {
+      "influenced_by": "Diet"
+    },
+    {
+      "related_to": "Immune System"
+    }
+  ]
+}

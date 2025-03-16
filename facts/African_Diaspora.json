@@ -1,0 +1,47 @@
+{
+  "entity": "African Diaspora",
+  "properties": {
+    "definition": "Dispersion of African peoples",
+    "origin": "Africa",
+    "historical_start": "16th century",
+    "primary_cause": "Transatlantic Slave Trade",
+    "geographic_spread": "Americas, Europe, Asia",
+    "population_size": "Estimated 150 million+",
+    "cultural_impact": "Significant, diverse",
+    "religious_influence": "Mix of African & adopted religions",
+    "economic_role": "Varied, often marginalized",
+    "political_influence": "Growing, advocating for rights"
+  },
+  "relationship": [
+    {
+      "part_of": "Human migration"
+    },
+    {
+      "caused_by": "Transatlantic Slave Trade"
+    },
+    {
+      "influenced": "African American Culture"
+    },
+    {
+      "influenced": "Brazilian Culture"
+    },
+    {
+      "influenced": "Caribbean Culture"
+    },
+    {
+      "related_to": "Pan-Africanism"
+    },
+    {
+      "impacts": "Racial Identity"
+    },
+    {
+      "connected_to": "Colonialism"
+    },
+    {
+      "contributes_to": "Cultural Hybridity"
+    },
+    {
+      "associated_with": "Reparations movement"
+    }
+  ]
+}

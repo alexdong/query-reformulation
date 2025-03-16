@@ -1,0 +1,47 @@
+{
+  "entity": "Heritage (band)",
+  "properties": {
+    "instance_of": "Musical group",
+    "genre": "Christian metal",
+    "origin": "United States",
+    "formed_year": "1991",
+    "disbanded_year": "2008",
+    "label": "Solid State Records",
+    "associated_acts": "Caliban, Zao",
+    "current_members": "None",
+    "past_members": "Brad Bedell, Joey Daub, Nate Garret",
+    "website": "heritageband.com"
+  },
+  "relationship": [
+    {
+      "influenced": "Norma Jean"
+    },
+    {
+      "influenced": "Every Time I Die"
+    },
+    {
+      "member_is": "Brad Bedell"
+    },
+    {
+      "member_is": "Joey Daub"
+    },
+    {
+      "member_is": "Nate Garret"
+    },
+    {
+      "genre_is": "Christian metal"
+    },
+    {
+      "record_label": "Solid State Records"
+    },
+    {
+      "associated_with": "Caliban"
+    },
+    {
+      "associated_with": "Zao"
+    },
+    {
+      "style_influenced": "Metalcore"
+    }
+  ]
+}

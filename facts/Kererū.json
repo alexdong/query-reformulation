@@ -1,0 +1,47 @@
+{
+  "entity": "Kererū",
+  "properties": {
+    "scientific_name": "Dendrocoelia robinsoni",
+    "conservation_status": "At risk",
+    "common_name": "New Zealand wood pigeon",
+    "wingspan": "62 cm",
+    "length": "43 cm",
+    "weight": "580 g",
+    "diet": "Fruit, seeds",
+    "habitat": "Native forests",
+    "distribution": "New Zealand",
+    "plumage": "Iridescent green"
+  },
+  "relationship": [
+    {
+      "is_a": "Bird"
+    },
+    {
+      "family": "Columbidae"
+    },
+    {
+      "native_to": "New Zealand"
+    },
+    {
+      "prey_of": "Morepork"
+    },
+    {
+      "prey_of": "Little Spotted Kiwi"
+    },
+    {
+      "threatened_by": "Possum"
+    },
+    {
+      "threatened_by": "Stoat"
+    },
+    {
+      "part_of_ecosystem": "New Zealand temperate forests"
+    },
+    {
+      "feeds_on": "Rimu fruit"
+    },
+    {
+      "related_to": "Wood pigeon"
+    }
+  ]
+}

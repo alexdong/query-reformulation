@@ -1,0 +1,47 @@
+{
+  "entity": "Immigration Law",
+  "properties": {
+    "definition": "Rules governing entry/residence",
+    "subject": "People",
+    "scope": "National & International",
+    "primary_area": "Administrative Law",
+    "governed_by": "Legislature & Courts",
+    "key_concept": "Nationality",
+    "related_field": "Human Rights Law",
+    "impacts": "Labor Market, Economy",
+    "often_complex": "True",
+    "enforced_by": "Government Agencies"
+  },
+  "relationship": [
+    {
+      "part_of": "Law"
+    },
+    {
+      "related_to": "Citizenship"
+    },
+    {
+      "governs": "Visa"
+    },
+    {
+      "impacts": "Refugee Law"
+    },
+    {
+      "influenced_by": "International Law"
+    },
+    {
+      "related_to": "Border Control"
+    },
+    {
+      "affects": "Family Reunification"
+    },
+    {
+      "overlaps_with": "Asylum Law"
+    },
+    {
+      "requires": "Documentation"
+    },
+    {
+      "impacts": "Deportation"
+    }
+  ]
+}

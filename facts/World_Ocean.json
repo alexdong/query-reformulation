@@ -1,0 +1,47 @@
+{
+  "entity": "World Ocean",
+  "properties": {
+    "type": "Ocean",
+    "area": "361.9 million km²",
+    "average_depth": "3,688 m",
+    "max_depth": "10,929 m (Challenger Deep)",
+    "salinity": "35‰",
+    "temperature_range": "-1 to 30 °C",
+    "volume": "1.335 billion km³",
+    "covers": "70.8% of Earth's surface",
+    "contains": "97% of Earth's water",
+    "divided_into": "Five Oceans"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Marine life"
+    },
+    {
+      "influences": "Climate"
+    },
+    {
+      "connected_to": "Atlantic Ocean"
+    },
+    {
+      "connected_to": "Arctic Ocean"
+    },
+    {
+      "connected_to": "Indian Ocean"
+    },
+    {
+      "connected_to": "Southern Ocean"
+    },
+    {
+      "contains": "Oceanic trench"
+    },
+    {
+      "impacts": "Global carbon cycle"
+    },
+    {
+      "studied_by": "Oceanography"
+    }
+  ]
+}

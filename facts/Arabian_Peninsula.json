@@ -1,0 +1,47 @@
+{
+  "entity": "Arabian Peninsula",
+  "properties": {
+    "type": "Peninsula",
+    "area": "2,330,000 km²",
+    "location": "Western Asia",
+    "highest_point": "Jabal Akhdar",
+    "climate": "Arid",
+    "population": "40 million (2020)",
+    "primary_language": "Arabic",
+    "dominant_religion": "Islam",
+    "geological_era": "Cenozoic",
+    "resource": "Petroleum"
+  },
+  "relationship": [
+    {
+      "part_of": "Asia"
+    },
+    {
+      "borders": "Red Sea"
+    },
+    {
+      "borders": "Persian Gulf"
+    },
+    {
+      "contains": "Saudi Arabia"
+    },
+    {
+      "contains": "Yemen"
+    },
+    {
+      "contains": "Oman"
+    },
+    {
+      "contains": "United Arab Emirates"
+    },
+    {
+      "contains": "Qatar"
+    },
+    {
+      "contains": "Kuwait"
+    },
+    {
+      "influenced_by": "Islam"
+    }
+  ]
+}

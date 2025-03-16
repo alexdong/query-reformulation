@@ -1,0 +1,47 @@
+{
+  "entity": "Maritime Silk Road",
+  "properties": {
+    "type": "Trade route",
+    "era": "Ancient",
+    "start_date": "2nd century BC",
+    "end_date": "15th century",
+    "primary_goods": "Silk, spices, porcelain",
+    "geographic_scope": "Asia, Africa, Europe",
+    "origin": "China",
+    "peak_period": "Tang Dynasty",
+    "influenced_culture": "Multiple",
+    "decline_reason": "Rise of Atlantic trade"
+  },
+  "relationship": [
+    {
+      "part_of": "Silk Road"
+    },
+    {
+      "connected_to": "Indian Ocean"
+    },
+    {
+      "influenced": "Southeast Asia"
+    },
+    {
+      "influenced": "Arabian Peninsula"
+    },
+    {
+      "influenced": "East Africa"
+    },
+    {
+      "connected_to_port": "Quanzhou"
+    },
+    {
+      "connected_to_port": "Malacca"
+    },
+    {
+      "connected_to_port": "Alexandria"
+    },
+    {
+      "involved_in": "Cultural exchange"
+    },
+    {
+      "preceded_by": "Early sea trade"
+    }
+  ]
+}

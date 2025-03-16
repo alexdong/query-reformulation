@@ -1,0 +1,47 @@
+{
+  "entity": "Port (maritime)",
+  "properties": {
+    "instance_of": "Harbor",
+    "type": "Maritime facility",
+    "purpose": "Shipping",
+    "location_type": "Coastal",
+    "economic_activity": "Trade",
+    "infrastructure": "Docks, Warehouses",
+    "size": "Variable",
+    "importance": "Variable",
+    "water_depth": "Variable",
+    "historical_significance": "Variable"
+  },
+  "relationship": [
+    {
+      "located_in": "City"
+    },
+    {
+      "connected_to": "Shipping lane"
+    },
+    {
+      "serves": "Ship"
+    },
+    {
+      "part_of": "Coastline"
+    },
+    {
+      "facilitates": "International trade"
+    },
+    {
+      "employs": "Dockworker"
+    },
+    {
+      "exports": "Goods"
+    },
+    {
+      "imports": "Goods"
+    },
+    {
+      "near": "Sea"
+    },
+    {
+      "related_to": "Maritime transport"
+    }
+  ]
+}

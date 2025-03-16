@@ -1,0 +1,47 @@
+{
+  "entity": "University of Oxford",
+  "properties": {
+    "type": "University",
+    "location": "Oxford, England",
+    "established": "1096",
+    "chancellor": "Chris Patten",
+    "vice_chancellor": "Iain Gollins",
+    "student_population": "28,650",
+    "staff_size": "16,770",
+    "academic_staff": "8,700",
+    "endowment": "£6.3 billion",
+    "motto": "Dominus Illuminat Me"
+  },
+  "relationship": [
+    {
+      "member_of": "Russell Group"
+    },
+    {
+      "located_in": "Oxfordshire"
+    },
+    {
+      "founded_by": "Augustinians"
+    },
+    {
+      "has_college": "Christ Church"
+    },
+    {
+      "has_college": "Balliol College"
+    },
+    {
+      "has_college": "Merton College"
+    },
+    {
+      "alumnus": "Oscar Wilde"
+    },
+    {
+      "alumnus": "J.R.R. Tolkien"
+    },
+    {
+      "alumnus": "Stephen Hawking"
+    },
+    {
+      "rivalry": "University of Cambridge"
+    }
+  ]
+}

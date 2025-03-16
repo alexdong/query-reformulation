@@ -1,0 +1,47 @@
+{
+  "entity": "Mount Cook",
+  "properties": {
+    "name": "Mount Cook",
+    "alternative_name": "Aoraki",
+    "elevation": "3724 m",
+    "location": "South Island, New Zealand",
+    "mountain_range": "Southern Alps",
+    "country": "New Zealand",
+    "first_ascent": "1859",
+    "rock_type": "Granite",
+    "glacier_cover": "Approximately 70%",
+    "designation": "National Park"
+  },
+  "relationship": [
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "located_in": "South Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "part_of": "Aoraki/Mount Cook National Park"
+    },
+    {
+      "named_after": "Captain James Cook"
+    },
+    {
+      "named_after_maori": "Aoraki"
+    },
+    {
+      "climbed_by": "Tomax Bevan"
+    },
+    {
+      "climbed_by": "Guillermo Anglada"
+    },
+    {
+      "contains": "Tasman Glacier"
+    },
+    {
+      "adjacent_to": "Mount Tasman"
+    }
+  ]
+}

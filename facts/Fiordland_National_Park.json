@@ -1,0 +1,47 @@
+{
+  "entity": "Fiordland National Park",
+  "properties": {
+    "location": "South Island, New Zealand",
+    "area": "1,250,000 hectares",
+    "designation": "National Park",
+    "established": "1909",
+    "UNESCO_status": "UNESCO World Heritage Site",
+    "ecosystem": "Temperate rainforest",
+    "precipitation": "High",
+    "elevation": "1,700 m (5,577 ft)",
+    "dominant_flora": "Beech trees",
+    "fauna_includes": "Kea, Kiwi, Dolphin"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "adjacent_to": "Te Wahipounamu"
+    },
+    {
+      "contains": "Milford Sound"
+    },
+    {
+      "contains": "Doubtful Sound"
+    },
+    {
+      "managed_by": "Department of Conservation"
+    },
+    {
+      "influenced_by": "Glaciation"
+    },
+    {
+      "biodiversity_includes": "New Zealand falcon"
+    },
+    {
+      "tourism_attraction": "Cruise ships"
+    },
+    {
+      "protected_species": "Brown kiwi"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Samoan Mythology",
+  "properties": {
+    "origin": "Samoa",
+    "type": "Polytheistic",
+    "cultural_significance": "Central to Samoan identity",
+    "creation_myth": "Tangaloa and Tagaloa",
+    "pantheon_size": "Numerous deities",
+    "oral_tradition": "Passed down through generations",
+    "themes": "Creation, lineage, morality",
+    "influence": "Tongan and Māori mythology",
+    "primary_source": "Fa'a Samoa (Way of Samoa)",
+    "deity_hierarchy": "Complex, often fluid"
+  },
+  "relationship": [
+    {
+      "part_of": "Polynesian Mythology"
+    },
+    {
+      "related_to": "Tongan Mythology"
+    },
+    {
+      "related_to": "Māori Mythology"
+    },
+    {
+      "deity_appears_in": "Tangaloa"
+    },
+    {
+      "deity_appears_in": "Tagaloa"
+    },
+    {
+      "deity_appears_in": "Aitu"
+    },
+    {
+      "deity_appears_in": "Tāfatafa"
+    },
+    {
+      "creation_story_features": "Earth Diver Myth"
+    },
+    {
+      "cultural_practice_related_to": "Fa'a Samoa"
+    },
+    {
+      "influenced_by": "Austronesian beliefs"
+    }
+  ]
+}

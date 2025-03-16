@@ -1,0 +1,47 @@
+{
+  "entity": "Attorney General for England and Wales",
+  "properties": {
+    "office": "Legal Officer of the Crown",
+    "jurisdiction": "England and Wales",
+    "role": "Chief Legal Advisor",
+    "head_of": "Crown Prosecution Service",
+    "advisor_to": "Prime Minister",
+    "legal_advisor_to": "Government",
+    "appointment": "Royal Appointment",
+    "salary": "£182,000 (approx.)",
+    "reporting_to": "Prime Minister",
+    "established": "1674"
+  },
+  "relationship": [
+    {
+      "reports_to": "Prime Minister"
+    },
+    {
+      "advises": "Government"
+    },
+    {
+      "leads": "Crown Prosecution Service"
+    },
+    {
+      "oversees": "Serious Fraud Office"
+    },
+    {
+      "represents": "Crown"
+    },
+    {
+      "appointed_by": "Monarch"
+    },
+    {
+      "succession": "Previous Attorney General"
+    },
+    {
+      "predecessor": "Previous Attorney General"
+    },
+    {
+      "member_of": "Cabinet"
+    },
+    {
+      "legal_basis": "Common Law"
+    }
+  ]
+}

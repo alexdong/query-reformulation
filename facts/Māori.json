@@ -1,0 +1,47 @@
+{
+  "entity": "Māori",
+  "properties": {
+    "origin": "New Zealand",
+    "language": "Te Reo Māori",
+    "culture": "Polynesian",
+    "population": "~750,000",
+    "traditional_belief": "Tapu, Mana, Whakapapa",
+    "tribal_structure": "Iwi, Hapū, Whānau",
+    "art_form": "Tā moko, Rapa Nui",
+    "traditional_clothing": "Piupiu, Korowai",
+    "treaty": "Treaty of Waitangi",
+    "contemporary_issues": "Land rights, Language revitalization"
+  },
+  "relationship": [
+    {
+      "ancestor": "Polynesians"
+    },
+    {
+      "language_related_to": "Austronesian languages"
+    },
+    {
+      "treaty_signed_with": "British Empire"
+    },
+    {
+      "located_in": "Aotearoa (New Zealand)"
+    },
+    {
+      "influenced_by": "European colonization"
+    },
+    {
+      "has_art_form": "Tā moko"
+    },
+    {
+      "has_belief_system": "Tapu"
+    },
+    {
+      "has_social_structure": "Whānau"
+    },
+    {
+      "leader_of": "Rangitāne"
+    },
+    {
+      "part_of": "New Zealand"
+    }
+  ]
+}

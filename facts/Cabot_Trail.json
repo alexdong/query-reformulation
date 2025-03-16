@@ -1,0 +1,47 @@
+{
+  "entity": "Cabot Trail",
+  "properties": {
+    "type": "Scenic Highway",
+    "location": "Nova Scotia",
+    "length": "335 km",
+    "designation": "National Scenic Drive",
+    "named_after": "John Cabot",
+    "established": "1932",
+    "terrain": "Coastal, Mountainous",
+    "elevation_gain": "Significant",
+    "scenery": "Ocean views, Highlands",
+    "part_of": "Celtic Shores Coastal Trail"
+  },
+  "relationship": [
+    {
+      "located_in": "Cape Breton Island"
+    },
+    {
+      "passes_through": "Victoria County"
+    },
+    {
+      "passes_through": "Inverness County"
+    },
+    {
+      "passes_through": "Richmond County"
+    },
+    {
+      "attraction_for": "Tourism"
+    },
+    {
+      "part_of": "Nova Scotia"
+    },
+    {
+      "influenced_by": "John Cabot"
+    },
+    {
+      "provides_access_to": "National Park Cape Breton Highlands"
+    },
+    {
+      "popular_with": "Cyclists"
+    },
+    {
+      "featured_in": "List of scenic drives"
+    }
+  ]
+}

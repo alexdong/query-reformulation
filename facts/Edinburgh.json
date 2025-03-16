@@ -1,0 +1,47 @@
+{
+  "entity": "Edinburgh",
+  "properties": {
+    "type": "City",
+    "country": "Scotland",
+    "population": "548,950",
+    "latitude": "55.95° N",
+    "longitude": "3.20° W",
+    "elevation": "267 m",
+    "currency": "GBP",
+    "time_zone": "GMT/BST",
+    "established": "638",
+    "area": "240.8 sq km"
+  },
+  "relationship": [
+    {
+      "part_of": "United Kingdom"
+    },
+    {
+      "capital_of": "Scotland"
+    },
+    {
+      "located_in": "Edinburghshire"
+    },
+    {
+      "has_neighbour": "Glasgow"
+    },
+    {
+      "festival": "Edinburgh Festival Fringe"
+    },
+    {
+      "landmark": "Edinburgh Castle"
+    },
+    {
+      "landmark": "Palace of Holyroodhouse"
+    },
+    {
+      "university": "University of Edinburgh"
+    },
+    {
+      "river": "River Forth"
+    },
+    {
+      "influenced": "Scottish Enlightenment"
+    }
+  ]
+}

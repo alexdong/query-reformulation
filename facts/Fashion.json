@@ -1,0 +1,47 @@
+{
+  "entity": "Fashion",
+  "properties": {
+    "instance_of": "Industry",
+    "definition": "Style and trends in clothing",
+    "history_length": "Centuries",
+    "economic_impact": "Trillions USD",
+    "creative_field": "Yes",
+    "influenced_by": "Culture, Art, Technology",
+    "key_elements": "Clothing, Footwear, Accessories",
+    "design_focus": "Aesthetics, Functionality",
+    "global_reach": "Worldwide",
+    "related_concept": "Style"
+  },
+  "relationship": [
+    {
+      "part_of": "Culture"
+    },
+    {
+      "influenced_by": "Art"
+    },
+    {
+      "influenced_by": "History"
+    },
+    {
+      "related_to": "Textile"
+    },
+    {
+      "related_to": "Design"
+    },
+    {
+      "related_to": "Retail"
+    },
+    {
+      "influenced": "Social Trends"
+    },
+    {
+      "related_to": "Advertising"
+    },
+    {
+      "related_to": "Manufacturing"
+    },
+    {
+      "related_to": "Fashion Design"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Ice",
+  "properties": {
+    "instance_of": "Solid",
+    "chemical_formula": "H2O",
+    "state": "Solid",
+    "density": "0.92 g/cm³",
+    "melting_point": "0 °C",
+    "freezing_point": "0 °C",
+    "color": "Transparent",
+    "taste": "Neutral",
+    "texture": "Crystalline",
+    "formation_process": "Freezing"
+  },
+  "relationship": [
+    {
+      "composed_of": "Water"
+    },
+    {
+      "part_of": "Glacier"
+    },
+    {
+      "found_in": "Arctic"
+    },
+    {
+      "found_in": "Antarctica"
+    },
+    {
+      "used_in": "Ice hockey"
+    },
+    {
+      "used_in": "Refrigeration"
+    },
+    {
+      "type_of": "Snow"
+    },
+    {
+      "related_to": "Water cycle"
+    },
+    {
+      "forms_from": "Liquid water"
+    },
+    {
+      "related_to": "Climate change"
+    }
+  ]
+}

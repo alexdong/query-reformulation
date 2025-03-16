@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Invertebrates",
+  "properties": {
+    "type": "Animals",
+    "habitat": "Marine environments",
+    "size": "Microscopic to Giant",
+    "kingdom": "Animalia",
+    "symmetry": "Radial or Bilateral",
+    "cellular_organization": "Various (sponges, tissues, organs)",
+    "respiration": "Gills, diffusion, skin",
+    "diet": "Herbivore, Carnivore, Omnivore, Filter feeder",
+    "distribution": "Worldwide oceans",
+    "importance": "Ecosystem function, food source"
+  },
+  "relationship": [
+    {
+      "part_of": "Animal Kingdom"
+    },
+    {
+      "includes": "Cnidaria"
+    },
+    {
+      "includes": "Mollusca"
+    },
+    {
+      "includes": "Echinodermata"
+    },
+    {
+      "includes": "Crustacea"
+    },
+    {
+      "prey_for": "Fish"
+    },
+    {
+      "contributes_to": "Marine food web"
+    },
+    {
+      "affected_by": "Ocean acidification"
+    },
+    {
+      "provides": "Food source for humans"
+    },
+    {
+      "example_of": "Coral"
+    }
+  ]
+}

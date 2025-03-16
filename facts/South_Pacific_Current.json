@@ -1,0 +1,47 @@
+{
+  "entity": "South Pacific Current",
+  "properties": {
+    "type": "Ocean Current",
+    "location": "South Pacific Ocean",
+    "origin": "Antarctic Ocean",
+    "direction": "Northward",
+    "average_speed": "0.5 m/s",
+    "temperature": "Cold",
+    "depth": "Surface",
+    "salinity": "Lower",
+    "part_of": "Antarctic Circumpolar Current",
+    "influenced_by": "Prevailing Winds"
+  },
+  "relationship": [
+    {
+      "flows_into": "Equatorial Current"
+    },
+    {
+      "part_of": "Antarctic Circumpolar Current"
+    },
+    {
+      "impacts_climate": "Polynesia"
+    },
+    {
+      "affects_marine_life": "Marine Ecosystem"
+    },
+    {
+      "originates_from": "Antarctic Ocean"
+    },
+    {
+      "influenced_by": "Prevailing Winds"
+    },
+    {
+      "transports": "Nutrients"
+    },
+    {
+      "impacts": "Ocean Temperature"
+    },
+    {
+      "flows_near": "New Zealand"
+    },
+    {
+      "flows_near": "Fiji"
+    }
+  ]
+}

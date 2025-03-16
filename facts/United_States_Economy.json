@@ -1,0 +1,47 @@
+{
+  "entity": "United States Economy",
+  "properties": {
+    "type": "Market Economy",
+    "GDP_nominal": "25.44 trillion USD (2022)",
+    "GDP_per_capita": "76,330 USD (2022)",
+    "currency": "United States Dollar",
+    "major_sectors": "Services, Manufacturing, Agriculture",
+    "inflation_rate": "4.9% (2023)",
+    "unemployment_rate": "3.7% (October 2023)",
+    "national_debt": "33.17 trillion USD (October 2023)",
+    "trade_balance": "-666.9 billion USD (2022)",
+    "federal_reserve": "Central Bank"
+  },
+  "relationship": [
+    {
+      "part_of": "Global Economy"
+    },
+    {
+      "influenced_by": "Keynesian Economics"
+    },
+    {
+      "regulated_by": "Government of the United States"
+    },
+    {
+      "exports_to": "Canada"
+    },
+    {
+      "imports_from": "China"
+    },
+    {
+      "impacts": "US Stock Market"
+    },
+    {
+      "impacts": "US Federal Reserve"
+    },
+    {
+      "impacts": "US National Debt"
+    },
+    {
+      "supports": "US Labor Market"
+    },
+    {
+      "impacts": "US Consumer Price Index"
+    }
+  ]
+}

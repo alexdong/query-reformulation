@@ -1,0 +1,47 @@
+{
+  "entity": "Hiri Motu",
+  "properties": {
+    "instance_of": "Constructed language",
+    "creator": "Harold Malcolm Schiff",
+    "purpose": "Inter-island communication",
+    "type": "Trade language",
+    "origin": "Papua New Guinea",
+    "creation_date": "1969",
+    "lexicon_size": "Approximately 200 words",
+    "influenced_by": "Tok Pisin, English, various Austronesian languages",
+    "status": "Experimental",
+    "script": "Latin alphabet"
+  },
+  "relationship": [
+    {
+      "creator_is": "Harold Malcolm Schiff"
+    },
+    {
+      "influenced_by": "Tok Pisin"
+    },
+    {
+      "influenced_by": "English language"
+    },
+    {
+      "influenced_by": "Austronesian languages"
+    },
+    {
+      "used_in": "Papua New Guinea"
+    },
+    {
+      "purpose_is": "Trade"
+    },
+    {
+      "type_is": "Pidgin"
+    },
+    {
+      "related_to": "Language construction"
+    },
+    {
+      "alternative_name": "HMO"
+    },
+    {
+      "language_family": "Isolated"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Ancient Egypt",
+  "properties": {
+    "civilization_type": "Ancient civilization",
+    "location": "Northeast Africa",
+    "major_river": "Nile River",
+    "writing_system": "Hieroglyphs",
+    "religion": "Egyptian mythology",
+    "political_system": "Pharaoh",
+    "time_period": "c. 3100 BC – 30 BC",
+    "deity_pantheon": "Ra, Osiris, Isis",
+    "economic_base": "Agriculture",
+    "famous_structure": "Pyramids of Giza"
+  },
+  "relationship": [
+    {
+      "part_of": "Africa"
+    },
+    {
+      "influenced": "Greco-Roman culture"
+    },
+    {
+      "ruled_by": "Pharaohs"
+    },
+    {
+      "built": "Pyramids of Giza"
+    },
+    {
+      "worshipped": "Ra"
+    },
+    {
+      "developed": "Hieroglyphs"
+    },
+    {
+      "located_in": "Nile River Valley"
+    },
+    {
+      "conquered_by": "Roman Empire"
+    },
+    {
+      "religion_influenced": "Coptic Christianity"
+    },
+    {
+      "art_style": "Ancient Egyptian art"
+    }
+  ]
+}

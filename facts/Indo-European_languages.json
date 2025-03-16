@@ -1,0 +1,47 @@
+{
+  "entity": "Indo-European languages",
+  "properties": {
+    "type": "Language family",
+    "origin": "Pontic-Caspian Steppe",
+    "speakers": "3.2 billion",
+    "geographic_distribution": "Worldwide",
+    "time_depth": "6000-8000 years",
+    "classification_method": "Comparative method",
+    "major_branches": "Albanian, Anatolian, Armenian, Balto-Slavic, Celtic, Germanic, Hellenic, Indo-Iranian, Italic, Tocharian",
+    "reconstruction_language": "Proto-Indo-European",
+    "writing_system": "Varies by language",
+    "study_field": "Historical linguistics"
+  },
+  "relationship": [
+    {
+      "part_of": "Languages"
+    },
+    {
+      "descended_from": "Proto-Indo-European"
+    },
+    {
+      "includes": "Germanic languages"
+    },
+    {
+      "includes": "Romance languages"
+    },
+    {
+      "includes": "Slavic languages"
+    },
+    {
+      "includes": "Indo-Iranian languages"
+    },
+    {
+      "influenced": "Latin"
+    },
+    {
+      "influenced": "Greek language"
+    },
+    {
+      "studied_by": "William Dwight Whitney"
+    },
+    {
+      "related_to": "Uralic languages"
+    }
+  ]
+}

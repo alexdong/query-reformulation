@@ -1,0 +1,47 @@
+{
+  "entity": "Royal Albatross Centre",
+  "properties": {
+    "type": "Wildlife Centre",
+    "location": "Otago Peninsula, New Zealand",
+    "established": "1990",
+    "focus": "Albatross Conservation",
+    "species_focus": "Northern Royal Albatross",
+    "area": "10 hectares",
+    "purpose": "Research & Education",
+    "owner": "Department of Conservation",
+    "coordinates": "45°32′S 170°48′E",
+    "website": "https://www.royalalbatross.org.nz/"
+  },
+  "relationship": [
+    {
+      "located_in": "Otago Peninsula"
+    },
+    {
+      "part_of": "New Zealand"
+    },
+    {
+      "managed_by": "Department of Conservation"
+    },
+    {
+      "focuses_on": "Northern Royal Albatross"
+    },
+    {
+      "involved_in": "Wildlife Conservation"
+    },
+    {
+      "provides": "Educational Programs"
+    },
+    {
+      "conducts": "Scientific Research"
+    },
+    {
+      "supports": "Albatross Trust"
+    },
+    {
+      "near": "Taiaroa Head"
+    },
+    {
+      "attraction_for": "Tourism"
+    }
+  ]
+}

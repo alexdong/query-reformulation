@@ -1,0 +1,47 @@
+{
+  "entity": "Akaroa",
+  "properties": {
+    "type": "Town",
+    "location": "Banks Peninsula",
+    "country": "New Zealand",
+    "region": "Canterbury",
+    "population": "3385 (2023)",
+    "established": "1837",
+    "language": "English",
+    "currency": "NZD",
+    "time_zone": "NZDT",
+    "area_code": "+64 3 329"
+  },
+  "relationship": [
+    {
+      "part_of": "Banks Peninsula"
+    },
+    {
+      "located_in": "Canterbury Region"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "founded_by": "Jean-François Langlois"
+    },
+    {
+      "influenced_by": "French settlement"
+    },
+    {
+      "has_landmark": "Akaroa Lighthouse"
+    },
+    {
+      "has_industry": "Tourism"
+    },
+    {
+      "has_economy": "Agriculture"
+    },
+    {
+      "near": "Christchurch"
+    },
+    {
+      "has_history": "Hurunui-nui-tāwhi"
+    }
+  ]
+}

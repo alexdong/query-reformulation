@@ -1,0 +1,47 @@
+{
+  "entity": "Santa Clara, California",
+  "properties": {
+    "type": "City",
+    "population_2020": "111,138",
+    "state": "California",
+    "county": "Santa Clara County",
+    "established": "1777",
+    "area_total": "19.35 sq mi",
+    "timezone": "Pacific Time",
+    "elevation": "254 ft",
+    "mayor": "Lisa Gillmor",
+    "fictional_depiction": "Silicon Valley"
+  },
+  "relationship": [
+    {
+      "part_of": "Silicon Valley"
+    },
+    {
+      "located_in": "Santa Clara County"
+    },
+    {
+      "neighbor_of": "San Jose"
+    },
+    {
+      "founded_by": "Mission Santa Clara"
+    },
+    {
+      "industry": "Technology"
+    },
+    {
+      "landmark": "Levi's Stadium"
+    },
+    {
+      "university": "Santa Clara University"
+    },
+    {
+      "company_headquartered": "Intel"
+    },
+    {
+      "historical_event": "California Gold Rush"
+    },
+    {
+      "transportation": "Caltrain"
+    }
+  ]
+}

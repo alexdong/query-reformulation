@@ -1,0 +1,47 @@
+{
+  "entity": "Local Business",
+  "properties": {
+    "type": "Business",
+    "location": "Specific Geographic Area",
+    "revenue": "Varies",
+    "employees": "Few to Moderate",
+    "ownership": "Private",
+    "customer_base": "Local Community",
+    "impact": "Community Economic Growth",
+    "marketing": "Word-of-Mouth, Local Ads",
+    "competition": "Other Local Businesses",
+    "legal_structure": "Sole Proprietorship, LLC, etc."
+  },
+  "relationship": [
+    {
+      "supports": "Local Economy"
+    },
+    {
+      "located_in": "City"
+    },
+    {
+      "provides": "Goods/Services"
+    },
+    {
+      "employs": "Local Residents"
+    },
+    {
+      "competes_with": "Chain Stores"
+    },
+    {
+      "part_of": "Main Street"
+    },
+    {
+      "serves": "Community"
+    },
+    {
+      "contributes_to": "Local Tax Revenue"
+    },
+    {
+      "often_reviewed_on": "Yelp"
+    },
+    {
+      "promoted_by": "Chamber of Commerce"
+    }
+  ]
+}

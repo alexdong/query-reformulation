@@ -1,0 +1,47 @@
+{
+  "entity": "Atmosphere",
+  "properties": {
+    "instance_of": "Layer of Earth",
+    "composition": "Nitrogen, Oxygen, Argon",
+    "average_mass": "5.15×10^18 kg",
+    "temperature_range": "-100 to 1000 °C",
+    "pressure_at_sea_level": "1013.25 hPa",
+    "density_at_sea_level": "1.225 kg/m³",
+    "troposphere_height": "8-15 km",
+    "stratosphere_height": "15-50 km",
+    "ozone_layer_location": "Stratosphere",
+    "protects_from": "Solar radiation"
+  },
+  "relationship": [
+    {
+      "part_of": "Earth"
+    },
+    {
+      "contains": "Ozone"
+    },
+    {
+      "influences": "Weather"
+    },
+    {
+      "influences": "Climate"
+    },
+    {
+      "layer_above": "Exosphere"
+    },
+    {
+      "layer_below": "Surface"
+    },
+    {
+      "process": "Photosynthesis"
+    },
+    {
+      "process": "Respiration"
+    },
+    {
+      "affected_by": "Pollution"
+    },
+    {
+      "study_field": "Meteorology"
+    }
+  ]
+}

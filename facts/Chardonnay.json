@@ -1,0 +1,47 @@
+{
+  "entity": "Chardonnay",
+  "properties": {
+    "type": "Grape variety",
+    "origin": "Burgundy, France",
+    "color": "Green",
+    "flavor_profile": "Citrus, Apple, Tropical Fruit",
+    "acidity": "High",
+    "body": "Full",
+    "clones": "Numerous",
+    "vinification": "Versatile",
+    "aging_potential": "High",
+    "global_production": "Widespread"
+  },
+  "relationship": [
+    {
+      "parent_variety": "Pinot Noir"
+    },
+    {
+      "parent_variety": "Gouais Blanc"
+    },
+    {
+      "region_grown_in": "Burgundy"
+    },
+    {
+      "region_grown_in": "California"
+    },
+    {
+      "region_grown_in": "Australia"
+    },
+    {
+      "wine_style": "White wine"
+    },
+    {
+      "used_in": "Champagne"
+    },
+    {
+      "paired_with": "Seafood"
+    },
+    {
+      "influenced": "Oak aging"
+    },
+    {
+      "related_to": "Pinot Grigio"
+    }
+  ]
+}

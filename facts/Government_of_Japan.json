@@ -1,0 +1,47 @@
+{
+  "entity": "Government of Japan",
+  "properties": {
+    "type": "Parliamentary constitutional monarchy",
+    "head_of_state": "Emperor Naruhito",
+    "head_of_government": "Fumio Kishida",
+    "capital": "Tokyo",
+    "legislature": "Diet",
+    "currency": "Japanese Yen (JPY)",
+    "official_language": "Japanese",
+    "area": "377,975 km²",
+    "population": "125.7 million",
+    "established": "1868"
+  },
+  "relationship": [
+    {
+      "part_of": "Japanese Empire"
+    },
+    {
+      "member_of": "G7"
+    },
+    {
+      "treaty_with": "United States"
+    },
+    {
+      "trade_partner": "China"
+    },
+    {
+      "influenced_by": "Meiji Restoration"
+    },
+    {
+      "located_in": "Japan"
+    },
+    {
+      "defense_force": "Japan Self-Defense Forces"
+    },
+    {
+      "economic_system": "Market economy"
+    },
+    {
+      "political_ideology": "Liberalism"
+    },
+    {
+      "governs": "Japan"
+    }
+  ]
+}

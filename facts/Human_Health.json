@@ -1,0 +1,46 @@
+{
+  "entity": "Human Health",
+  "properties": {
+    "definition": "Physical and mental well-being",
+    "affected_by": "Stress",
+    "influenced_by": "Genetics",
+    "requires": "Nutrition",
+    "dependent_on": "Environment",
+    "measured_by": "Vital signs",
+    "impacted_by": "Disease",
+    "promoted_by": "Exercise",
+    "goal": "Longevity"
+  },
+  "relationship": [
+    {
+      "part_of": "Human Biology"
+    },
+    {
+      "related_to": "Public Health"
+    },
+    {
+      "impacts": "Quality of Life"
+    },
+    {
+      "requires": "Medical Care"
+    },
+    {
+      "influenced_by": "Healthcare"
+    },
+    {
+      "affected_by": "Mental Health"
+    },
+    {
+      "impacts": "Productivity"
+    },
+    {
+      "related_to": "Disease Prevention"
+    },
+    {
+      "requires": "Sleep"
+    },
+    {
+      "influenced_by": "Social Determinants of Health"
+    }
+  ]
+}

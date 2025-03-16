@@ -1,0 +1,47 @@
+{
+  "entity": "Nanumea",
+  "properties": {
+    "type": "Atoll",
+    "country": "Tuvalu",
+    "location": "Pacific Ocean",
+    "area": "22.2",
+    "population": "615",
+    "latitude": "-4.333",
+    "longitude": "179.2",
+    "highest_point": "6",
+    "island_group": "Northern Tuvalu",
+    "currency": "Australian Dollar"
+  },
+  "relationship": [
+    {
+      "part_of": "Tuvalu"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "capital_of": "Nanumea"
+    },
+    {
+      "contains": "Nanumaga"
+    },
+    {
+      "contains": "Motufaea"
+    },
+    {
+      "contains": "Falevai"
+    },
+    {
+      "influenced_by": "Austronesian peoples"
+    },
+    {
+      "economy_based_on": "Fishing"
+    },
+    {
+      "climate": "Tropical"
+    },
+    {
+      "governed_by": "Tuvalu government"
+    }
+  ]
+}

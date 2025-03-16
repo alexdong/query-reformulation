@@ -1,0 +1,47 @@
+{
+  "entity": "UNESCO",
+  "properties": {
+    "acronym_for": "United Nations Educational, Scientific and Cultural Organization",
+    "hq_location": "Paris",
+    "established": "1945",
+    "type": "Specialized agency",
+    "parent_organization": "United Nations",
+    "director_general": "Audrey Azoulay",
+    "mission": "Peace through education",
+    "fields_of_work": "Education, Science, Culture",
+    "member_states": "194",
+    "official_languages": "Arabic, Chinese, English, French, Russian, Spanish"
+  },
+  "relationship": [
+    {
+      "founded_by": "United Nations"
+    },
+    {
+      "works_with": "UNESCO World Heritage Centre"
+    },
+    {
+      "promotes": "World Heritage Sites"
+    },
+    {
+      "recognizes": "Intangible Cultural Heritage"
+    },
+    {
+      "supports": "Education for All"
+    },
+    {
+      "funds": "Scientific Research"
+    },
+    {
+      "collaborates_with": "UNESCO Biosphere Reserves"
+    },
+    {
+      "awards": "UNESCO Prize for Peace Education"
+    },
+    {
+      "part_of": "United Nations Sustainable Development Goals"
+    },
+    {
+      "reports_to": "United Nations General Assembly"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Bordeaux",
+  "properties": {
+    "type": "Wine region",
+    "location": "France",
+    "area": "127,000 hectares",
+    "grape_varieties": "Cabernet Sauvignon, Merlot, Cabernet Franc",
+    "appellation": "AOC",
+    "climate": "Maritime",
+    "soil": "Gravel, Clay",
+    "average_rainfall": "900 mm",
+    "wine_style": "Full-bodied, Tannic",
+    "reputation": "World-renowned"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "produces": "Bordeaux wine"
+    },
+    {
+      "located_in": "Nouvelle-Aquitaine"
+    },
+    {
+      "influenced_by": "Roman viticulture"
+    },
+    {
+      "has_sub_region": "Médoc"
+    },
+    {
+      "has_sub_region": "Saint-Émilion"
+    },
+    {
+      "has_sub_region": "Graves"
+    },
+    {
+      "exports_to": "Worldwide"
+    },
+    {
+      "classification": "1855 Bordeaux Classification"
+    },
+    {
+      "associated_with": "Château Margaux"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Resource",
+  "properties": {
+    "instance_of": "Concept",
+    "field": "Economics",
+    "definition": "Supply of materials",
+    "type": "Tangible/Intangible",
+    "category": "Natural/Human/Capital",
+    "unit": "Quantity",
+    "valuation": "Economic Value",
+    "scarcity": "Limited",
+    "allocation": "Distribution",
+    "management": "Resource Management"
+  },
+  "relationship": [
+    {
+      "part_of": "Economy"
+    },
+    {
+      "used_in": "Production"
+    },
+    {
+      "related_to": "Sustainability"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "requires": "Technology"
+    },
+    {
+      "governed_by": "Law"
+    },
+    {
+      "managed_by": "Organization"
+    },
+    {
+      "example_of": "Oil"
+    },
+    {
+      "example_of": "Water"
+    },
+    {
+      "example_of": "Human Capital"
+    }
+  ]
+}

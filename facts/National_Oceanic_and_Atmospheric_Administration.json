@@ -1,0 +1,47 @@
+{
+  "entity": "National Oceanic and Atmospheric Administration",
+  "properties": {
+    "agency_type": "Scientific and regulatory agency",
+    "parent_agency": "Department of Commerce",
+    "hq_location": "Silver Spring, Maryland",
+    "established": "1970",
+    "mission": "Science, Service, Stewardship",
+    "budget_2023": "$6.5 billion",
+    "administrator": "Richard W. Edson",
+    "focus": "Oceans, Atmosphere, Climate",
+    "data_source": "Publicly available",
+    "website": "www.noaa.gov"
+  },
+  "relationship": [
+    {
+      "part_of": "United States government"
+    },
+    {
+      "sub_agency_of": "Department of Commerce"
+    },
+    {
+      "provides_data_to": "National Weather Service"
+    },
+    {
+      "collaborates_with": "NASA"
+    },
+    {
+      "manages": "National Marine Sanctuaries"
+    },
+    {
+      "studies": "Climate change"
+    },
+    {
+      "monitors": "Ocean conditions"
+    },
+    {
+      "research_area": "Meteorology"
+    },
+    {
+      "responsible_for": "Hurricane forecasting"
+    },
+    {
+      "provides_information_to": "Fisheries management"
+    }
+  ]
+}

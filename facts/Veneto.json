@@ -1,0 +1,47 @@
+{
+  "entity": "Veneto",
+  "properties": {
+    "type": "Region",
+    "country": "Italy",
+    "capital": "Venice",
+    "area_km2": "18,411",
+    "population_2023": "5,022,000",
+    "ISO_3166_code": "IT-VEN",
+    "currency": "Euro",
+    "official_language": "Italian",
+    "major_river": "Po",
+    "historical_region": "Venetia"
+  },
+  "relationship": [
+    {
+      "part_of": "Italy"
+    },
+    {
+      "borders": "Trentino-Alto Adige"
+    },
+    {
+      "borders": "Friuli-Venezia Giulia"
+    },
+    {
+      "borders": "Lombardy"
+    },
+    {
+      "borders": "Emilia-Romagna"
+    },
+    {
+      "contains": "Venice"
+    },
+    {
+      "contains": "Verona"
+    },
+    {
+      "contains": "Padua"
+    },
+    {
+      "historical_part_of": "Republic of Venice"
+    },
+    {
+      "influenced_cuisine": "Venetian cuisine"
+    }
+  ]
+}

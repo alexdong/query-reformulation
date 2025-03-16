@@ -1,0 +1,47 @@
+{
+  "entity": "Land",
+  "properties": {
+    "instance_of": "Geographic area",
+    "type": "Terrestrial surface",
+    "composition": "Soil, rock, minerals",
+    "part_of": "Earth",
+    "can_be": "Continent, Country, Region",
+    "has_feature": "Mountains, Rivers, Forests",
+    "supports": "Ecosystems",
+    "used_for": "Agriculture, Housing, Industry",
+    "measured_in": "Hectares, Acres, Square kilometers",
+    "affected_by": "Climate change"
+  },
+  "relationship": [
+    {
+      "located_on": "Earth"
+    },
+    {
+      "contains": "Ecosystem"
+    },
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "borders": "Country"
+    },
+    {
+      "has_capital": "City"
+    },
+    {
+      "governed_by": "Government"
+    },
+    {
+      "supports": "Flora"
+    },
+    {
+      "supports": "Fauna"
+    },
+    {
+      "resource": "Mineral"
+    },
+    {
+      "has_boundary": "Sea"
+    }
+  ]
+}

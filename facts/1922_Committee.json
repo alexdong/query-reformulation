@@ -1,0 +1,47 @@
+{
+  "entity": "1922 Committee",
+  "properties": {
+    "purpose": "British intelligence",
+    "formation_date": "1922",
+    "dissolution_date": "1926",
+    "founder": "Ralph Assheton",
+    "location": "London",
+    "focus": "Soviet Union",
+    "reporting_to": "Committee of Imperial Defence",
+    "staff_size": "Small",
+    "budget": "Limited",
+    "predecessor": "MI1(b)"
+  },
+  "relationship": [
+    {
+      "predecessor_of": "MI6"
+    },
+    {
+      "founded_by": "Ralph Assheton"
+    },
+    {
+      "reports_to": "Committee of Imperial Defence"
+    },
+    {
+      "focuses_on": "Soviet Union"
+    },
+    {
+      "involved_in": "Espionage"
+    },
+    {
+      "member_of": "British intelligence agencies"
+    },
+    {
+      "successor_to": "MI1(b)"
+    },
+    {
+      "location_in": "London"
+    },
+    {
+      "influenced": "British foreign policy"
+    },
+    {
+      "operated_during": "Interwar period"
+    }
+  ]
+}

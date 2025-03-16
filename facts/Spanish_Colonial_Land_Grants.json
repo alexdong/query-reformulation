@@ -1,0 +1,47 @@
+{
+  "entity": "Spanish Colonial Land Grants",
+  "properties": {
+    "type": "Land grant",
+    "issuer": "Spanish Crown",
+    "region": "Spanish America",
+    "time_period": "16th-19th centuries",
+    "purpose": "Colonization & Settlement",
+    "recipient": "Individuals/Groups",
+    "size": "Varies (small to vast)",
+    "legal_status": "Royal decree/charter",
+    "rights_granted": "Land ownership, water rights, governance",
+    "impact": "Shaped land distribution & society"
+  },
+  "relationship": [
+    {
+      "part_of": "Spanish Colonialism"
+    },
+    {
+      "issued_by": "Spanish Monarchy"
+    },
+    {
+      "recipient_is": "Encomenderos"
+    },
+    {
+      "recipient_is": "Indigenous Peoples"
+    },
+    {
+      "recipient_is": "Spanish Settlers"
+    },
+    {
+      "influenced": "Mexican Land Tenure"
+    },
+    {
+      "resulted_in": "Ranchos"
+    },
+    {
+      "overlaps_with": "Indigenous Land Claims"
+    },
+    {
+      "challenged_by": "Mexican Revolution"
+    },
+    {
+      "related_to": "Treaty of Guadalupe Hidalgo"
+    }
+  ]
+}

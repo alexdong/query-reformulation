@@ -1,0 +1,47 @@
+{
+  "entity": "Decolonization",
+  "properties": {
+    "definition": "Process of dismantling colonial empires",
+    "period": "Post-World War II",
+    "primary_driver": "Nationalism",
+    "geographic_scope": "Global",
+    "impact": "Political, economic, social change",
+    "ideology": "Self-determination",
+    "resistance_methods": "Political activism, armed struggle",
+    "colonial_powers": "United Kingdom, France, Belgium, Spain, Portugal",
+    "timeline_start": "1945",
+    "timeline_end": "1975"
+  },
+  "relationship": [
+    {
+      "caused_by": "World War II"
+    },
+    {
+      "influenced": "Postcolonialism"
+    },
+    {
+      "related_to": "Nationalism"
+    },
+    {
+      "affected": "Former colonies"
+    },
+    {
+      "opposed_by": "Colonial powers"
+    },
+    {
+      "led_to": "Independence movements"
+    },
+    {
+      "example_region": "Africa"
+    },
+    {
+      "example_region": "Asia"
+    },
+    {
+      "example_country": "India"
+    },
+    {
+      "example_country": "Algeria"
+    }
+  ]
+}

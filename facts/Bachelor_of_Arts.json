@@ -1,0 +1,47 @@
+{
+  "entity": "Bachelor of Arts",
+  "properties": {
+    "instance_of": "Academic degree",
+    "field_of_study": "Humanities, Social Sciences, Arts",
+    "level": "Undergraduate",
+    "duration": "3-4 years",
+    "credit_hours": "120",
+    "typical_age": "18-22",
+    "focus": "Broad education",
+    "assessment_method": "Exams, Essays, Projects",
+    "prerequisite": "High school diploma",
+    "award_by": "University"
+  },
+  "relationship": [
+    {
+      "predecessor": "High School Diploma"
+    },
+    {
+      "successor": "Master of Arts"
+    },
+    {
+      "type_of": "Undergraduate Degree"
+    },
+    {
+      "related_to": "Bachelor of Science"
+    },
+    {
+      "offered_by": "University"
+    },
+    {
+      "requires": "Coursework"
+    },
+    {
+      "leads_to": "Career"
+    },
+    {
+      "part_of": "Higher Education"
+    },
+    {
+      "includes": "Major"
+    },
+    {
+      "requires": "Electives"
+    }
+  ]
+}

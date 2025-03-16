@@ -1,0 +1,47 @@
+{
+  "entity": "Nickel",
+  "properties": {
+    "atomic_number": "28",
+    "atomic_weight": "58.6934",
+    "element_category": "Transition metal",
+    "appearance": "Silvery-white",
+    "density": "8.908 g/cm³",
+    "melting_point": "295.57 °C",
+    "boiling_point": "2913 °C",
+    "electronegativity": "1.91 (Pauling scale)",
+    "oxidation_states": "-1, 0, +1, +2, +3",
+    "abundance_crust": "0.0065%"
+  },
+  "relationship": [
+    {
+      "part_of": "Periodic table"
+    },
+    {
+      "used_in": "Stainless steel"
+    },
+    {
+      "used_in": "Batteries"
+    },
+    {
+      "occurs_with": "Iron"
+    },
+    {
+      "occurs_with": "Copper"
+    },
+    {
+      "discovered_by": "Axel Fredrik Cronstedt"
+    },
+    {
+      "named_after": "Old German: Kupfernickel"
+    },
+    {
+      "alloy_with": "Cobalt"
+    },
+    {
+      "mineral_found_in": "Pentlandite"
+    },
+    {
+      "isotope_of": "Nickel-60"
+    }
+  ]
+}

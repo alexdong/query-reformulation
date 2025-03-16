@@ -1,0 +1,47 @@
+{
+  "entity": "Dietary Fiber",
+  "properties": {
+    "instance_of": "Nutrient",
+    "type": "Carbohydrate",
+    "digestibility": "Indigestible",
+    "source": "Plants",
+    "function": "Promotes gut health",
+    "soluble_types": "Pectin, Gums, Mucilage",
+    "insoluble_types": "Cellulose, Lignin",
+    "recommended_intake": "25-38 grams/day",
+    "health_benefit": "Reduces risk of disease",
+    "chemical_formula": "Variable"
+  },
+  "relationship": [
+    {
+      "part_of": "Diet"
+    },
+    {
+      "found_in": "Fruits"
+    },
+    {
+      "found_in": "Vegetables"
+    },
+    {
+      "found_in": "Legumes"
+    },
+    {
+      "improves": "Digestive System"
+    },
+    {
+      "reduces_risk_of": "Heart Disease"
+    },
+    {
+      "reduces_risk_of": "Type 2 Diabetes"
+    },
+    {
+      "helps_regulate": "Blood Sugar"
+    },
+    {
+      "contributes_to": "Weight Management"
+    },
+    {
+      "related_to": "Prebiotics"
+    }
+  ]
+}

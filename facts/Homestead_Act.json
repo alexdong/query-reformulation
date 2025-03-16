@@ -1,0 +1,47 @@
+{
+  "entity": "Homestead Act",
+  "properties": {
+    "official_name": "An Act to Encourage Home Building",
+    "signed_by": "Abraham Lincoln",
+    "signed_date": "1862-05-20",
+    "purpose": "Land distribution",
+    "land_size": "160 acres",
+    "residency_requirement": "5 years",
+    "improvement_requirement": "Cultivation & Dwelling",
+    "administered_by": "Bureau of Land Management",
+    "repealed": "1996",
+    "legislation_type": "United States federal law"
+  },
+  "relationship": [
+    {
+      "part_of": "Land policy"
+    },
+    {
+      "influenced": "Westward expansion"
+    },
+    {
+      "resulted_in": "Settlement of the Great Plains"
+    },
+    {
+      "impacted": "Native Americans"
+    },
+    {
+      "related_to": "Dawes Act"
+    },
+    {
+      "preceded_by": "Preemption Act"
+    },
+    {
+      "followed_by": "Timber Culture Act"
+    },
+    {
+      "associated_with": "Abraham Lincoln"
+    },
+    {
+      "location": "United States"
+    },
+    {
+      "impacted_industry": "Agriculture"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Ministry of Foreign Affairs and Trade",
+  "properties": {
+    "agency_type": "Government Ministry",
+    "country": "New Zealand",
+    "responsible_for": "Foreign policy, Trade",
+    "head": "Hon. Nanaia Mahuta",
+    "established": "1989",
+    "parent_department": "State Services Commission",
+    "location": "Wellington",
+    "budget_2023_2024": "NZ$333.9 million",
+    "mandate": "Promote New Zealand's interests",
+    "website": "mfat.govt.nz"
+  },
+  "relationship": [
+    {
+      "reports_to": "Prime Minister of New Zealand"
+    },
+    {
+      "part_of": "New Zealand Government"
+    },
+    {
+      "collaborates_with": "World Trade Organization"
+    },
+    {
+      "collaborates_with": "United Nations"
+    },
+    {
+      "negotiates_with": "Foreign Governments"
+    },
+    {
+      "promotes": "New Zealand Trade"
+    },
+    {
+      "advises": "Government on Foreign Affairs"
+    },
+    {
+      "represents": "New Zealand Abroad"
+    },
+    {
+      "employs": "Diplomats"
+    },
+    {
+      "deals_with": "International Law"
+    }
+  ]
+}

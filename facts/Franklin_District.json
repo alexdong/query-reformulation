@@ -1,0 +1,47 @@
+{
+  "entity": "Franklin District",
+  "properties": {
+    "type": "Local government area",
+    "country": "New Zealand",
+    "region": "Auckland",
+    "area_km2": "1637",
+    "population_2013": "35,500",
+    "established": "1876",
+    "abolished": "2023",
+    "mayor_2022": "Andrew Baker",
+    "council_seats": "7",
+    "timezone": "NZST"
+  },
+  "relationship": [
+    {
+      "part_of": "Auckland Region"
+    },
+    {
+      "contains": "Papakura"
+    },
+    {
+      "contains": "Manurewa"
+    },
+    {
+      "contains": "Clevedon"
+    },
+    {
+      "borders": "Manukau City"
+    },
+    {
+      "borders": "Waiheke Island"
+    },
+    {
+      "borders": "Otorohanga District"
+    },
+    {
+      "governed_by": "Franklin District Council"
+    },
+    {
+      "located_in": "North Island"
+    },
+    {
+      "predecessor_of": "Auckland Council"
+    }
+  ]
+}

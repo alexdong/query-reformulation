@@ -1,0 +1,47 @@
+{
+  "entity": "Challenger Deep",
+  "properties": {
+    "type": "Oceanic trench",
+    "location": "Mariana Trench",
+    "depth": "10,929 m (35,853 ft)",
+    "discovery_date": "1951",
+    "named_after": "HMS Challenger",
+    "country_proximity": "Pacific Ocean",
+    "pressure": "1,086 bar",
+    "temperature": "1–4 °C (34–39 °F)",
+    "salinity": "3.5% (typical ocean salinity)",
+    "research_focus": "Hadal zone biology"
+  },
+  "relationship": [
+    {
+      "part_of": "Mariana Trench"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "explored_by": "Trieste (submersible)"
+    },
+    {
+      "explored_by": "Deepsea Challenger (submersible)"
+    },
+    {
+      "explored_by": "Limiting Factor (submersible)"
+    },
+    {
+      "adjacent_to": "Sirena Deep"
+    },
+    {
+      "adjacent_to": "Challenger Deep (western basin)"
+    },
+    {
+      "studied_by": "Oceanography"
+    },
+    {
+      "research_area": "Hadal zone"
+    },
+    {
+      "influenced_by": "HMS Challenger expedition"
+    }
+  ]
+}

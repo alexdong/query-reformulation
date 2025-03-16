@@ -1,0 +1,47 @@
+{
+  "entity": "Early Gold Discoveries",
+  "properties": {
+    "type": "Historical Events",
+    "era": "Ancient History - 19th Century",
+    "material": "Gold",
+    "impact": "Economic & Social Change",
+    "location_type": "Geographic Locations",
+    "discovery_method": "Surface Prospecting, Mining",
+    "scale": "Varies (small to large)",
+    "initial_use": "Ornamentation, Ritual, Currency",
+    "geological_origin": "Hydrothermal Veins, Placer Deposits",
+    "documentation": "Archaeological Records, Historical Accounts"
+  },
+  "relationship": [
+    {
+      "preceded": "Modern Gold Rushes"
+    },
+    {
+      "influenced": "Trade Routes"
+    },
+    {
+      "location_is": "Nakhla Oasis"
+    },
+    {
+      "location_is": "Varna Culture"
+    },
+    {
+      "location_is": "Witwatersrand"
+    },
+    {
+      "location_is": "Kalgoorlie"
+    },
+    {
+      "influenced": "Ancient Egypt"
+    },
+    {
+      "influenced": "Roman Empire"
+    },
+    {
+      "influenced": "Australian Economy"
+    },
+    {
+      "influenced": "Trans-Saharan Trade"
+    }
+  ]
+}

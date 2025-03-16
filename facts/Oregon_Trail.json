@@ -1,0 +1,47 @@
+{
+  "entity": "Oregon Trail",
+  "properties": {
+    "type": "Emigrant Trail",
+    "location": "United States",
+    "start_point": "Independence, Missouri",
+    "end_point": "Oregon City, Oregon",
+    "length": "2,170 miles",
+    "peak_use": "1840s-1860s",
+    "difficulty": "High",
+    "terrain": "Varied",
+    "purpose": "Westward Migration",
+    "historical_period": "American Westward Expansion"
+  },
+  "relationship": [
+    {
+      "part_of": "American Westward Expansion"
+    },
+    {
+      "route_to": "Oregon City"
+    },
+    {
+      "starts_at": "Independence, Missouri"
+    },
+    {
+      "crosses": "Missouri River"
+    },
+    {
+      "crosses": "Snake River"
+    },
+    {
+      "influenced": "Pioneer Life"
+    },
+    {
+      "associated_with": "Marcus Whitman"
+    },
+    {
+      "associated_with": "Ezra Meeker"
+    },
+    {
+      "depicted_in": "Oregon Trail (video game)"
+    },
+    {
+      "impacted": "Native American Tribes"
+    }
+  ]
+}

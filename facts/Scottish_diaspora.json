@@ -1,0 +1,47 @@
+{
+  "entity": "Scottish Diaspora",
+  "properties": {
+    "definition": "People of Scottish descent living abroad",
+    "origin": "Scotland",
+    "peak_migration": "18th-20th centuries",
+    "primary_motivations": "Economic opportunity, religious persecution, political unrest",
+    "largest_communities": "United States, Canada, Australia, New Zealand",
+    "cultural_impact": "Preservation of Scottish culture, influence on local customs",
+    "economic_impact": "Remittances, trade, investment",
+    "identity_markers": "Scottish heritage, Gaelic language, tartan",
+    "historical_periods": "Plantations, Highland Clearances, Post-WWII",
+    "current_estimate": "Millions worldwide"
+  },
+  "relationship": [
+    {
+      "part_of": "Human migration"
+    },
+    {
+      "influenced": "Celtic culture"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "related_to": "Highland Clearances"
+    },
+    {
+      "impacts": "Scottish economy"
+    },
+    {
+      "contributes_to": "Cultural preservation"
+    },
+    {
+      "settled_in": "United States"
+    },
+    {
+      "settled_in": "Canada"
+    },
+    {
+      "settled_in": "Australia"
+    },
+    {
+      "settled_in": "New Zealand"
+    }
+  ]
+}

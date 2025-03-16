@@ -1,0 +1,47 @@
+{
+  "entity": "Late 19th Century",
+  "properties": {
+    "time_period": "1871-1900",
+    "preceding_era": "Mid-19th Century",
+    "succeeding_era": "Early 20th Century",
+    "geographical_scope": "Global",
+    "dominant_ideology": "Imperialism, Nationalism",
+    "major_technology": "Electricity, Steel",
+    "population_growth": "Rapid",
+    "economic_system": "Industrial Capitalism",
+    "political_climate": "Rise of Nation-States",
+    "artistic_movement": "Impressionism, Art Nouveau"
+  },
+  "relationship": [
+    {
+      "part_of": "19th Century"
+    },
+    {
+      "influenced": "Early 20th Century"
+    },
+    {
+      "witnessed": "Second Industrial Revolution"
+    },
+    {
+      "involved": "Scramble for Africa"
+    },
+    {
+      "involved": "Berlin Conference"
+    },
+    {
+      "involved": "Meiji Restoration"
+    },
+    {
+      "involved": "Franco-Prussian War"
+    },
+    {
+      "involved": "American Civil War"
+    },
+    {
+      "influenced": "Modernism"
+    },
+    {
+      "involved": "Rise of Socialism"
+    }
+  ]
+}

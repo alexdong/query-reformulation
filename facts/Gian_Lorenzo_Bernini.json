@@ -1,0 +1,47 @@
+{
+  "entity": "Gian Lorenzo Bernini",
+  "properties": {
+    "birth_date": "1598-12-07",
+    "birth_place": "Naples, Italy",
+    "death_date": "1680-11-18",
+    "death_place": "Rome, Italy",
+    "occupation": "Sculptor",
+    "art_movement": "Baroque",
+    "nationality": "Italian",
+    "father": "Pietro Bernini",
+    "influenced_by": "Annibale Carracci",
+    "known_for": "Sculptures, Architecture"
+  },
+  "relationship": [
+    {
+      "influenced": "Alessandro Algardi"
+    },
+    {
+      "collaborated_with": "Francesco Borromini"
+    },
+    {
+      "student_of": "Pietro Bernini"
+    },
+    {
+      "worked_for": "Popes"
+    },
+    {
+      "created": "Apollo and Daphne"
+    },
+    {
+      "created": "Ecstasy of Saint Teresa"
+    },
+    {
+      "designed": "St. Peter's Basilica"
+    },
+    {
+      "designed": "Piazza San Pietro"
+    },
+    {
+      "member_of": "Accademia dei Lincei"
+    },
+    {
+      "style_of": "Baroque art"
+    }
+  ]
+}

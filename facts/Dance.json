@@ -1,0 +1,47 @@
+{
+  "entity": "Dance",
+  "properties": {
+    "instance_of": "Art form",
+    "type": "Performing art",
+    "origin": "Prehistoric",
+    "purpose": "Expression, Ritual, Entertainment",
+    "style_variety": "Extensive",
+    "music_dependence": "Often",
+    "physical_activity": "Yes",
+    "cultural_significance": "High",
+    "skill_required": "High",
+    "notation_system": "Various"
+  },
+  "relationship": [
+    {
+      "part_of": "Performing arts"
+    },
+    {
+      "related_to": "Music"
+    },
+    {
+      "influenced_by": "Culture"
+    },
+    {
+      "genre_includes": "Ballet"
+    },
+    {
+      "genre_includes": "Hip hop"
+    },
+    {
+      "genre_includes": "Contemporary dance"
+    },
+    {
+      "genre_includes": "Folk dance"
+    },
+    {
+      "performed_by": "Dancer"
+    },
+    {
+      "choreographed_by": "Choreographer"
+    },
+    {
+      "associated_with": "Costume"
+    }
+  ]
+}

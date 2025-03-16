@@ -1,0 +1,47 @@
+{
+  "entity": "336",
+  "properties": {
+    "type": "Number",
+    "natural_number": "Yes",
+    "even_number": "Yes",
+    "composite_number": "Yes",
+    "divisible_by": "2, 3, 4, 6, 8, 12, 16, 24, 28, 48, 56, 96, 112, 168, 336",
+    "sum_of_divisors": "1080",
+    "prime_factorization": "2^4 * 3 * 7",
+    "hexadecimal": "150",
+    "binary": "101010000",
+    "ordinal": "Three hundred thirty-six"
+  },
+  "relationship": [
+    {
+      "predecessor": "335"
+    },
+    {
+      "successor": "337"
+    },
+    {
+      "factor_of": "672"
+    },
+    {
+      "factor_of": "1008"
+    },
+    {
+      "factor_of": "1344"
+    },
+    {
+      "factor_of": "2016"
+    },
+    {
+      "divisible_by": "2"
+    },
+    {
+      "divisible_by": "3"
+    },
+    {
+      "divisible_by": "4"
+    },
+    {
+      "divisible_by": "6"
+    }
+  ]
+}

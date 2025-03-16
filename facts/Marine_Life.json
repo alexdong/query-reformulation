@@ -1,0 +1,47 @@
+{
+  "entity": "Marine Life",
+  "properties": {
+    "type": "Biodiversity",
+    "habitat": "Oceans, Seas",
+    "size_range": "Microscopic to Giant",
+    "oxygen_requirement": "Varies",
+    "salt_tolerance": "High",
+    "temperature_range": "Varies",
+    "depth_range": "0 to 11,000m",
+    "trophic_level": "Varies",
+    "conservation_status": "Varies",
+    "importance": "Ecosystem health"
+  },
+  "relationship": [
+    {
+      "part_of": "Biosphere"
+    },
+    {
+      "interacts_with": "Coral Reefs"
+    },
+    {
+      "preys_on": "Zooplankton"
+    },
+    {
+      "prey_of": "Marine Mammals"
+    },
+    {
+      "includes": "Fish"
+    },
+    {
+      "includes": "Marine Reptiles"
+    },
+    {
+      "includes": "Marine Invertebrates"
+    },
+    {
+      "affected_by": "Ocean Acidification"
+    },
+    {
+      "threatened_by": "Overfishing"
+    },
+    {
+      "supports": "Human Food Supply"
+    }
+  ]
+}

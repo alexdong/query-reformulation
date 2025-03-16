@@ -1,0 +1,47 @@
+{
+  "entity": "Wolf",
+  "properties": {
+    "kingdom": "Animalia",
+    "order": "Carnivora",
+    "family": "Canidae",
+    "lifespan": "8-13 years",
+    "weight": "20-175 kg",
+    "habitat": "Forests, Tundra, Grasslands",
+    "diet": "Carnivorous",
+    "conservation_status": "Least Concern",
+    "social_behavior": "Pack",
+    "communication": "Howls, body language"
+  },
+  "relationship": [
+    {
+      "is_a": "Canid"
+    },
+    {
+      "prey_on": "Deer"
+    },
+    {
+      "prey_on": "Rabbit"
+    },
+    {
+      "member_of": "Canidae_family"
+    },
+    {
+      "related_to": "Dog"
+    },
+    {
+      "related_to": "Fox"
+    },
+    {
+      "lives_in": "North America"
+    },
+    {
+      "lives_in": "Europe"
+    },
+    {
+      "threatened_by": "Habitat loss"
+    },
+    {
+      "part_of_ecosystem": "Forest"
+    }
+  ]
+}

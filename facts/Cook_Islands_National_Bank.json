@@ -1,0 +1,47 @@
+{
+  "entity": "Cook Islands National Bank",
+  "properties": {
+    "entity_type": "Bank",
+    "country": "Cook Islands",
+    "established": "1986",
+    "headquarters": "Rarotonga",
+    "currency": "Cook Islands Dollar",
+    "ownership": "Government",
+    "assets_2022": "NZD 1.1 billion",
+    "services": "Retail, Commercial, Investment",
+    "regulatory_body": "Cook Islands Financial Commission",
+    "website": "www.cinb.co.ck"
+  },
+  "relationship": [
+    {
+      "parent_company": "Cook Islands Investment Corporation"
+    },
+    {
+      "located_in": "Rarotonga"
+    },
+    {
+      "regulates": "Cook Islands Financial Commission"
+    },
+    {
+      "currency_used": "Cook Islands Dollar"
+    },
+    {
+      "provides_service_to": "Cook Islands"
+    },
+    {
+      "industry": "Banking"
+    },
+    {
+      "competitor": "Westpac"
+    },
+    {
+      "competitor": "ANZ"
+    },
+    {
+      "offers": "Mortgages"
+    },
+    {
+      "offers": "Savings Accounts"
+    }
+  ]
+}

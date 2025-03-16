@@ -1,0 +1,47 @@
+{
+  "entity": "Coastal Plain",
+  "properties": {
+    "type": "Geomorphological Feature",
+    "location": "Edge of Continent",
+    "elevation": "Low",
+    "slope": "Gentle",
+    "soil": "Alluvial/Sedimentary",
+    "geology": "Flat/Nearly Flat",
+    "drainage": "Poor",
+    "vegetation": "Diverse",
+    "land_use": "Agriculture/Development",
+    "formation": "Sediment Deposition"
+  },
+  "relationship": [
+    {
+      "part_of": "Continent"
+    },
+    {
+      "adjacent_to": "Ocean"
+    },
+    {
+      "contains": "River"
+    },
+    {
+      "influences": "Biodiversity"
+    },
+    {
+      "impacted_by": "Sea Level Rise"
+    },
+    {
+      "supports": "Agriculture"
+    },
+    {
+      "found_in": "Southeastern United States"
+    },
+    {
+      "found_in": "Atlantic Coastal Plain"
+    },
+    {
+      "found_in": "Gulf Coastal Plain"
+    },
+    {
+      "adjacent_to": "Barrier Island"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Educational Standards",
+  "properties": {
+    "type": "Framework",
+    "purpose": "Learning Outcomes",
+    "scope": "Curriculum",
+    "level": "Grade/Subject",
+    "development": "Expert Panels",
+    "implementation": "Schools/Districts",
+    "assessment": "Student Performance",
+    "revision_cycle": "Periodic",
+    "format": "Documents/Websites",
+    "example": "Common Core State Standards"
+  },
+  "relationship": [
+    {
+      "influences": "Curriculum Development"
+    },
+    {
+      "supports": "Instructional Design"
+    },
+    {
+      "used_by": "Teachers"
+    },
+    {
+      "aligned_with": "Assessment"
+    },
+    {
+      "related_to": "Learning Objectives"
+    },
+    {
+      "impacts": "Student Achievement"
+    },
+    {
+      "governed_by": "Government Agencies"
+    },
+    {
+      "example_of": "Curriculum Framework"
+    },
+    {
+      "overlaps_with": "Learning Outcomes"
+    },
+    {
+      "addresses": "Educational Goals"
+    }
+  ]
+}

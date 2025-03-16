@@ -1,0 +1,47 @@
+{
+  "entity": "Takitimu Mountains",
+  "properties": {
+    "type": "Mountain range",
+    "location": "North Island, New Zealand",
+    "region": "Bay of Plenty",
+    "highest_point": "937 m (3,074 ft)",
+    "maori_name": "Takitimu",
+    "geological_era": "Tertiary Period",
+    "formation_type": "Volcanic",
+    "area": "Approximately 1,000 km²",
+    "named_after": "Takitimu canoe",
+    "landscape_type": "Forested hills"
+  },
+  "relationship": [
+    {
+      "part_of": "North Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "region_of": "Bay of Plenty"
+    },
+    {
+      "named_for": "Takitimu canoe"
+    },
+    {
+      "contains": "Mount Putauaki"
+    },
+    {
+      "contains": "Mount Ngaio"
+    },
+    {
+      "near": "Whakatane"
+    },
+    {
+      "near": "Kawerau"
+    },
+    {
+      "influences": "Ngāti Awa"
+    },
+    {
+      "geologically_related_to": "Taupo Volcanic Zone"
+    }
+  ]
+}

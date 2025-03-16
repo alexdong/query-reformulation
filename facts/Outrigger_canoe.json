@@ -1,0 +1,47 @@
+{
+  "entity": "Outrigger canoe",
+  "properties": {
+    "type": "Watercraft",
+    "origin": "Polynesia",
+    "purpose": "Transportation, Fishing, Racing",
+    "material": "Wood, Fiberglass, Carbon Fiber",
+    "propulsion": "Paddle",
+    "stability": "Enhanced",
+    "length": "Varies",
+    "beam": "Varies",
+    "outrigger_function": "Stabilization",
+    "historical_significance": "Ancient maritime technology"
+  },
+  "relationship": [
+    {
+      "ancestor_of": "Va'a"
+    },
+    {
+      "related_to": "Canoe"
+    },
+    {
+      "used_in": "Polynesian navigation"
+    },
+    {
+      "associated_with": "Oceania"
+    },
+    {
+      "design_influenced": "Modern racing canoes"
+    },
+    {
+      "material_derived_from": "Wood"
+    },
+    {
+      "sport": "Outrigger canoeing"
+    },
+    {
+      "used_by": "Polynesians"
+    },
+    {
+      "feature": "Outrigger"
+    },
+    {
+      "part_of": "Maritime history"
+    }
+  ]
+}

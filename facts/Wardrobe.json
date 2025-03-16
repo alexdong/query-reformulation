@@ -1,0 +1,47 @@
+{
+  "entity": "Wardrobe",
+  "properties": {
+    "instance_of": "Furniture",
+    "material": "Wood",
+    "purpose": "Storage",
+    "style": "Varies",
+    "color": "Varies",
+    "height": "Varies",
+    "width": "Varies",
+    "depth": "Varies",
+    "origin": "Ancient Egypt",
+    "function": "Clothing storage"
+  },
+  "relationship": [
+    {
+      "part_of": "Bedroom"
+    },
+    {
+      "related_to": "Closet"
+    },
+    {
+      "design_influenced": "Art Deco"
+    },
+    {
+      "used_in": "Fashion"
+    },
+    {
+      "historical_example": "Chests of drawers"
+    },
+    {
+      "design_style": "Queen Anne"
+    },
+    {
+      "associated_with": "Clothing"
+    },
+    {
+      "type_of": "Storage furniture"
+    },
+    {
+      "predecessor": "Chest"
+    },
+    {
+      "design_element": "Doors"
+    }
+  ]
+}

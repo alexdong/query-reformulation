@@ -1,0 +1,47 @@
+{
+  "entity": "Military Reserve",
+  "properties": {
+    "type": "Armed force component",
+    "purpose": "National defense",
+    "status": "Standby",
+    "training": "Regular drills",
+    "personnel": "Citizen-soldiers",
+    "reporting_to": "Regular military",
+    "funding": "Government",
+    "legal_basis": "National law",
+    "activation": "Mobilization",
+    "equipment": "Military hardware"
+  },
+  "relationship": [
+    {
+      "part_of": "Armed forces"
+    },
+    {
+      "component_of": "National defense"
+    },
+    {
+      "related_to": "National Guard"
+    },
+    {
+      "recruits_from": "Civilian population"
+    },
+    {
+      "provides": "Reserve personnel"
+    },
+    {
+      "supports": "Regular military"
+    },
+    {
+      "governed_by": "Defense ministry"
+    },
+    {
+      "training_standard": "Military doctrine"
+    },
+    {
+      "role_in": "Contingency planning"
+    },
+    {
+      "activated_by": "Government order"
+    }
+  ]
+}

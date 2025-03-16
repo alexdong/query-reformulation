@@ -1,0 +1,47 @@
+{
+  "entity": "Gordonstoun",
+  "properties": {
+    "type": "Boarding school",
+    "location": "Moray, Scotland",
+    "founded": "1934",
+    "founder": "Kurt Hahn",
+    "headmaster": "Lachlan Stuart",
+    "educational_philosophy": "Experiential learning",
+    "website": "https://www.gordonstoun.org.uk/",
+    "gender": "Coeducational",
+    "age_range": "13-18",
+    "academic_year": "September - June"
+  },
+  "relationship": [
+    {
+      "founded_by": "Kurt Hahn"
+    },
+    {
+      "located_in": "Moray"
+    },
+    {
+      "type_of": "Independent school"
+    },
+    {
+      "part_of": "British education system"
+    },
+    {
+      "attended_by": "Prince Philip, Duke of Edinburgh"
+    },
+    {
+      "attended_by": "King Charles III"
+    },
+    {
+      "influenced": "Atlantic College"
+    },
+    {
+      "educational_approach": "Seamus Heaney"
+    },
+    {
+      "predecessor": "Salzburg School"
+    },
+    {
+      "member_of": "HMC"
+    }
+  ]
+}

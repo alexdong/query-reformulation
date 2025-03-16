@@ -1,0 +1,47 @@
+{
+  "entity": "Merlot",
+  "properties": {
+    "type": "Grape variety",
+    "origin": "Bordeaux, France",
+    "color": "Red",
+    "flavor_profile": "Plum, Cherry, Chocolate",
+    "acidity": "Medium",
+    "tannin_level": "Low to Medium",
+    "clone_of": "Pinot Noir",
+    "genetic_makeup": "Pinot Noir x Cabernet Franc",
+    "common_regions": "Bordeaux, California, Washington",
+    "aging_potential": "Moderate"
+  },
+  "relationship": [
+    {
+      "is_a": "Vitis vinifera"
+    },
+    {
+      "part_of": "Bordeaux wine"
+    },
+    {
+      "blended_with": "Cabernet Sauvignon"
+    },
+    {
+      "blended_with": "Malbec"
+    },
+    {
+      "grown_in": "California"
+    },
+    {
+      "grown_in": "Washington State"
+    },
+    {
+      "used_in": "Chianti"
+    },
+    {
+      "influences": "Red wine"
+    },
+    {
+      "related_to": "Pinot Noir"
+    },
+    {
+      "related_to": "Cabernet Franc"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Passenger (musician)",
+  "properties": {
+    "birth_name": "Mike Rosenberg",
+    "birth_date": "1983-6-13",
+    "birth_place": "Chiswick, London",
+    "nationality": "British",
+    "occupation": "Musician",
+    "instrument": "Guitar, Vocals",
+    "genre": "Folk, Indie Folk",
+    "record_label": "Decca Records",
+    "website": "passengerofficial.com",
+    "net_worth": "Estimated $5 million"
+  },
+  "relationship": [
+    {
+      "member_of": "British musicians"
+    },
+    {
+      "influenced_by": "Bob Dylan"
+    },
+    {
+      "influenced_by": "Van Morrison"
+    },
+    {
+      "collaborated_with": "Ed Sheeran"
+    },
+    {
+      "performed_at": "Glastonbury Festival"
+    },
+    {
+      "performed_at": "Austin City Limits Music Festival"
+    },
+    {
+      "wrote": "Let Her Go"
+    },
+    {
+      "wrote": "Safety"
+    },
+    {
+      "album": "Whistling Past the Reeds"
+    },
+    {
+      "touring_support": "Ed Sheeran"
+    }
+  ]
+}

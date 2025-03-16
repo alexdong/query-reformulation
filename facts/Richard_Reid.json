@@ -1,0 +1,47 @@
+{
+  "entity": "Richard Reid",
+  "properties": {
+    "birth_date": "1973-12-14",
+    "birth_place": "Jamaica",
+    "nationality": "British",
+    "occupation": "Terrorist",
+    "known_for": "Shoe bomber",
+    "religion": "Islam",
+    "ideology": "Islamic extremism",
+    "criminal_charge": "Attempted murder",
+    "current_status": "Imprisoned",
+    "sentence_length": "Life imprisonment"
+  },
+  "relationship": [
+    {
+      "member_of": "Al-Qaeda"
+    },
+    {
+      "attacked": "American Airlines Flight 63"
+    },
+    {
+      "associated_with": "Ramzi bin al-Shibh"
+    },
+    {
+      "trained_by": "Khalid al-Mihdhar"
+    },
+    {
+      "influenced_by": "Osama bin Laden"
+    },
+    {
+      "nationality_origin": "Jamaica"
+    },
+    {
+      "nationality_residence": "United Kingdom"
+    },
+    {
+      "arrested_in": "Canada"
+    },
+    {
+      "trial_location": "United States"
+    },
+    {
+      "imprisoned_in": "United States"
+    }
+  ]
+}

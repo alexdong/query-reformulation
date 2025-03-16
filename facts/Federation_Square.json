@@ -1,0 +1,47 @@
+{
+  "entity": "Federation Square",
+  "properties": {
+    "type": "Public square",
+    "location": "Melbourne",
+    "architect": "Lab Architecture Studio",
+    "inaugural_date": "2002",
+    "area": "2.25 ha",
+    "design_style": "Deconstructivism",
+    "owner": "Government of Victoria",
+    "material": "Steel, glass, concrete",
+    "purpose": "Public events, cultural activities",
+    "cost": "$178 million"
+  },
+  "relationship": [
+    {
+      "located_in": "Melbourne CBD"
+    },
+    {
+      "part_of": "Melbourne Arts Precinct"
+    },
+    {
+      "adjacent_to": "Flinders Street Station"
+    },
+    {
+      "designed_by": "Lab Architecture Studio"
+    },
+    {
+      "hosted_event": "Australian Football League Grand Final"
+    },
+    {
+      "hosted_event": "Melbourne International Film Festival"
+    },
+    {
+      "architectural_style": "Deconstructivism"
+    },
+    {
+      "influenced_by": "Postmodernism"
+    },
+    {
+      "contains": "Ian Potter Centre: NGV Australia"
+    },
+    {
+      "contains": "Forum Melbourne"
+    }
+  ]
+}

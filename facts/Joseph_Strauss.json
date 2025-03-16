@@ -1,0 +1,47 @@
+{
+  "entity": "Joseph Strauss",
+  "properties": {
+    "birth_date": "June 24, 1870",
+    "birth_place": "Cincinnati, Ohio",
+    "death_date": "March 28, 1938",
+    "death_place": "Berkeley, California",
+    "nationality": "American",
+    "occupation": "Engineer",
+    "education": "University of Cincinnati",
+    "known_for": "Golden Gate Bridge",
+    "awards": "Franklin Institute Medal",
+    "engineering_specialty": "Bridge Engineering"
+  },
+  "relationship": [
+    {
+      "designed": "Golden Gate Bridge"
+    },
+    {
+      "designed": "Triborough Bridge"
+    },
+    {
+      "designed": "Bay Bridge"
+    },
+    {
+      "worked_with": "Irving Morrow"
+    },
+    {
+      "influenced": "Othmar Ammann"
+    },
+    {
+      "member_of": "American Society of Civil Engineers"
+    },
+    {
+      "attended": "University of Cincinnati"
+    },
+    {
+      "lived_in": "San Francisco, California"
+    },
+    {
+      "collaborated_with": "Charles Alton Ellis"
+    },
+    {
+      "contributed_to": "San Francisco Bay Area"
+    }
+  ]
+}

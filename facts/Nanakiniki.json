@@ -1,0 +1,47 @@
+{
+  "entity": "Nanakiniki",
+  "properties": {
+    "type": "Dish",
+    "cuisine": "Okinawan",
+    "main_ingredient": "Tomato",
+    "secondary_ingredients": "Onion, Pork, Tofu",
+    "preparation_method": "Simmered",
+    "taste": "Savory, Tangy",
+    "origin": "Okinawa Prefecture",
+    "color": "Red",
+    "texture": "Soft",
+    "serving_temperature": "Warm"
+  },
+  "relationship": [
+    {
+      "is_a": "Okinawan cuisine"
+    },
+    {
+      "ingredient_includes": "Tomato"
+    },
+    {
+      "ingredient_includes": "Pork"
+    },
+    {
+      "ingredient_includes": "Tofu"
+    },
+    {
+      "part_of": "Okinawan cuisine"
+    },
+    {
+      "related_to": "Okinawa"
+    },
+    {
+      "similar_to": "Jimami Tofu"
+    },
+    {
+      "preceded_by": "Traditional Okinawan cooking"
+    },
+    {
+      "influenced_by": "Japanese cuisine"
+    },
+    {
+      "served_with": "Rice"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Queenstown Skyline",
+  "properties": {
+    "type": "Mountain range",
+    "location": "New Zealand",
+    "region": "Otago",
+    "highest_point": "1,423 m (4,669 ft)",
+    "geological_era": "Tertiary Period",
+    "formation_type": "Fault-block",
+    "composition": "Schist, granite",
+    "viewpoint": "Lake Wakatipu",
+    "tourism_importance": "High",
+    "name_origin": "Maori"
+  },
+  "relationship": [
+    {
+      "part_of": "Southern Alps"
+    },
+    {
+      "adjacent_to": "Cecil Peak"
+    },
+    {
+      "adjacent_to": "Ben Lomond"
+    },
+    {
+      "overlooks": "Lake Wakatipu"
+    },
+    {
+      "contains": "Bob's Peak"
+    },
+    {
+      "contains": "Queenstown Gondola"
+    },
+    {
+      "influences": "Queenstown tourism"
+    },
+    {
+      "geologically_related_to": "Fiordland National Park"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "forms_part_of": "Otago region"
+    }
+  ]
+}

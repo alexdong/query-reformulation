@@ -1,0 +1,47 @@
+{
+  "entity": "Market Research",
+  "properties": {
+    "definition": "Systematic process of gathering information",
+    "purpose": "Understand market trends & consumer behavior",
+    "methods": "Surveys, interviews, focus groups, observation",
+    "data_types": "Qualitative & Quantitative",
+    "industry": "Marketing",
+    "scope": "Product, Brand, Customer, Market",
+    "cost": "Variable, depends on scope",
+    "reporting": "Analysis & Recommendations",
+    "timeline": "Variable, from days to months",
+    "benefit": "Informed decision-making"
+  },
+  "relationship": [
+    {
+      "uses": "Statistics"
+    },
+    {
+      "employs": "Sampling"
+    },
+    {
+      "related_to": "Marketing"
+    },
+    {
+      "informs": "Business Strategy"
+    },
+    {
+      "requires": "Data Analysis"
+    },
+    {
+      "overlaps_with": "Consumer Research"
+    },
+    {
+      "utilizes": "Surveys"
+    },
+    {
+      "analyzes": "Customer Behavior"
+    },
+    {
+      "impacts": "Product Development"
+    },
+    {
+      "supports": "Competitive Analysis"
+    }
+  ]
+}

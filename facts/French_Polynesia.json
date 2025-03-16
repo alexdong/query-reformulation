@@ -1,0 +1,47 @@
+{
+  "entity": "French Polynesia",
+  "properties": {
+    "type": "Territory",
+    "capital": "Papeete",
+    "population": "277,853",
+    "area_km2": "3,827",
+    "official_language": "French",
+    "currency": "XPF",
+    "location": "South Pacific Ocean",
+    "governor": "Moetaina Borna",
+    "country": "France",
+    "time_zone": "UTC-10"
+  },
+  "relationship": [
+    {
+      "part_of": "France"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "island_group": "Society Islands"
+    },
+    {
+      "archipelago": "Tuamotu"
+    },
+    {
+      "island_group": "Marquesas Islands"
+    },
+    {
+      "island_group": "Austral Islands"
+    },
+    {
+      "influenced_by": "France"
+    },
+    {
+      "economy_based_on": "Tourism"
+    },
+    {
+      "major_export": "Pearls"
+    },
+    {
+      "historical_contact": "United Kingdom"
+    }
+  ]
+}

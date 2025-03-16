@@ -1,0 +1,47 @@
+{
+  "entity": "Charles Edward Stuart",
+  "properties": {
+    "birth_date": "1720-11-31",
+    "birth_place": "Rome, Italy",
+    "title": "Prince",
+    "dynasty": "Stuart",
+    "father": "James Francis Edward Stuart",
+    "mother": "Maria Clementina Sobieska",
+    "claimed_title": "King of Great Britain",
+    "death_date": "1788-01-31",
+    "death_place": "Rome, Italy",
+    "nickname": "The Young Pretender"
+  },
+  "relationship": [
+    {
+      "part_of": "Jacobite rising of 1745"
+    },
+    {
+      "father": "James Francis Edward Stuart"
+    },
+    {
+      "mother": "Maria Clementina Sobieska"
+    },
+    {
+      "supported_by": "Jacobites"
+    },
+    {
+      "fought_against": "Great Britain"
+    },
+    {
+      "involved_in": "Battle of Culloden"
+    },
+    {
+      "escaped_with_help_of": "Flora MacDonald"
+    },
+    {
+      "exiled_to": "France"
+    },
+    {
+      "lived_in": "Castel Fusaro"
+    },
+    {
+      "influenced": "Romanticism"
+    }
+  ]
+}

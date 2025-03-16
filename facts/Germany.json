@@ -1,0 +1,47 @@
+{
+  "entity": "Germany",
+  "properties": {
+    "capital": "Berlin",
+    "official_language": "German",
+    "population": "83.2 million",
+    "area": "357,022 km²",
+    "currency": "Euro (EUR)",
+    "GDP_nominal": "$4.22 trillion",
+    "form_of_government": "Federal parliamentary republic",
+    "member_of": "European Union",
+    "national_anthem": "Das Lied der Deutschen",
+    "largest_city": "Berlin"
+  },
+  "relationship": [
+    {
+      "located_in": "Europe"
+    },
+    {
+      "borders": "France"
+    },
+    {
+      "borders": "Poland"
+    },
+    {
+      "borders": "Czech Republic"
+    },
+    {
+      "borders": "Austria"
+    },
+    {
+      "borders": "Switzerland"
+    },
+    {
+      "borders": "Netherlands"
+    },
+    {
+      "borders": "Belgium"
+    },
+    {
+      "borders": "Denmark"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    }
+  ]
+}

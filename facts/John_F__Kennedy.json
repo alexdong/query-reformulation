@@ -1,0 +1,47 @@
+{
+  "entity": "John F. Kennedy",
+  "properties": {
+    "birth_date": "1917-05-29",
+    "birth_place": "Brookline, Massachusetts",
+    "death_date": "1963-11-22",
+    "death_place": "Dallas, Texas",
+    "occupation": "Politician",
+    "political_party": "Democratic Party",
+    "spouse": "Jacqueline Kennedy",
+    "education": "Harvard University",
+    "religion": "Roman Catholic",
+    "military_branch": "United States Navy"
+  },
+  "relationship": [
+    {
+      "president_of": "United States"
+    },
+    {
+      "father": "Joseph P. Kennedy Sr."
+    },
+    {
+      "mother": "Rose Kennedy"
+    },
+    {
+      "sibling_of": "Robert F. Kennedy"
+    },
+    {
+      "sibling_of": "Jean Kennedy Smith"
+    },
+    {
+      "preceded_by": "Dwight D. Eisenhower"
+    },
+    {
+      "succeeded_by": "Lyndon B. Johnson"
+    },
+    {
+      "member_of": "United States Senate"
+    },
+    {
+      "attended": "Choate Rosemary Hall"
+    },
+    {
+      "award": "Purple Heart"
+    }
+  ]
+}

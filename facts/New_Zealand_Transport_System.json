@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand Transport System",
+  "properties": {
+    "type": "Infrastructure",
+    "country": "New Zealand",
+    "area_served": "New Zealand",
+    "mode": "Multimodal",
+    "length_km": "115,000",
+    "operator": "NZTA",
+    "funding_source": "Government",
+    "regulation_body": "Ministry of Transport",
+    "safety_focus": "Road Safety",
+    "priority": "Economic Development"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand Infrastructure"
+    },
+    {
+      "connects_to": "New Zealand Cities"
+    },
+    {
+      "uses": "Roads"
+    },
+    {
+      "uses": "Railways"
+    },
+    {
+      "uses": "Ports"
+    },
+    {
+      "uses": "Airports"
+    },
+    {
+      "impacts": "New Zealand Economy"
+    },
+    {
+      "influenced_by": "New Zealand Geography"
+    },
+    {
+      "managed_by": "New Zealand Transport Agency"
+    },
+    {
+      "supports": "Tourism"
+    }
+  ]
+}

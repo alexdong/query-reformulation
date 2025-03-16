@@ -1,0 +1,47 @@
+{
+  "entity": "Gravity",
+  "properties": {
+    "instance_of": "Fundamental force",
+    "unit": "Newton (N)",
+    "discovery_date": "Ancient (observed)",
+    "description": "Attraction between masses",
+    "strength": "Weakest fundamental force",
+    "range": "Infinite",
+    "mediated_by": "Graviton (hypothetical)",
+    "governs": "Celestial motion",
+    "related_to": "Spacetime",
+    "formula": "F = Gm1m2/r^2"
+  },
+  "relationship": [
+    {
+      "acts_on": "Mass"
+    },
+    {
+      "related_to": "Newtonian mechanics"
+    },
+    {
+      "related_to": "General relativity"
+    },
+    {
+      "influences": "Tides"
+    },
+    {
+      "influences": "Orbital mechanics"
+    },
+    {
+      "related_to": "Black hole"
+    },
+    {
+      "related_to": "Gravitational lensing"
+    },
+    {
+      "related_to": "Gravitational waves"
+    },
+    {
+      "related_to": "Cosmology"
+    },
+    {
+      "related_to": "Einstein field equations"
+    }
+  ]
+}

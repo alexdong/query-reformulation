@@ -1,0 +1,47 @@
+{
+  "entity": "Researcher",
+  "properties": {
+    "instance_of": "Occupation",
+    "field_of_study": "Varies",
+    "activity_sector": "Academia/Industry",
+    "skill": "Analytical",
+    "goal": "Knowledge creation",
+    "education_level": "Graduate degree",
+    "methodology": "Scientific method",
+    "output": "Publications",
+    "funding_source": "Grants/Contracts",
+    "role": "Investigator"
+  },
+  "relationship": [
+    {
+      "works_for": "University"
+    },
+    {
+      "collaborates_with": "Peer"
+    },
+    {
+      "mentored_by": "Professor"
+    },
+    {
+      "studies": "Topic"
+    },
+    {
+      "funded_by": "Grant Agency"
+    },
+    {
+      "publishes_in": "Journal"
+    },
+    {
+      "contributes_to": "Project"
+    },
+    {
+      "analyzes": "Data"
+    },
+    {
+      "designs": "Experiment"
+    },
+    {
+      "reports_to": "Principal Investigator"
+    }
+  ]
+}

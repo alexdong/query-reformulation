@@ -1,0 +1,47 @@
+{
+  "entity": "Operation Nest Egg",
+  "properties": {
+    "type": "Wildlife conservation program",
+    "country": "New Zealand",
+    "start_date": "1942",
+    "end_date": "1976",
+    "species_targeted": "Kiwi",
+    "organization": "New Zealand Wildlife Service",
+    "goal": "Increase kiwi population",
+    "method": "Incubation and rearing",
+    "location": "North Island, New Zealand",
+    "success": "Significant population increase"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand conservation efforts"
+    },
+    {
+      "managed_by": "New Zealand Wildlife Service"
+    },
+    {
+      "species_involved": "Kiwi"
+    },
+    {
+      "goal_achieved": "Kiwi population increase"
+    },
+    {
+      "method_used": "Artificial incubation"
+    },
+    {
+      "location_of": "North Island"
+    },
+    {
+      "preceded_by": "Early kiwi conservation attempts"
+    },
+    {
+      "influenced": "Other avian conservation programs"
+    },
+    {
+      "contributor": "Ernest Hayes"
+    },
+    {
+      "related_to": "New Zealand native fauna"
+    }
+  ]
+}

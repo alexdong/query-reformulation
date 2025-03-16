@@ -1,0 +1,47 @@
+{
+  "entity": "Government Policy",
+  "properties": {
+    "type": "Regulation",
+    "purpose": "Public Benefit",
+    "implementation": "Government Agency",
+    "scope": "Jurisdiction",
+    "legal_basis": "Statute",
+    "evaluation_method": "Metrics",
+    "impact_assessment": "Analysis",
+    "funding_source": "Taxation",
+    "enforcement_mechanism": "Legal Action",
+    "review_frequency": "Periodic"
+  },
+  "relationship": [
+    {
+      "influences": "Economic Growth"
+    },
+    {
+      "impacts": "Social Welfare"
+    },
+    {
+      "requires": "Public Consultation"
+    },
+    {
+      "created_by": "Legislature"
+    },
+    {
+      "administered_by": "Bureaucracy"
+    },
+    {
+      "affects": "Citizens"
+    },
+    {
+      "aligned_with": "Political Agenda"
+    },
+    {
+      "subject_to": "Judicial Review"
+    },
+    {
+      "supports": "Public Services"
+    },
+    {
+      "responds_to": "Social Need"
+    }
+  ]
+}

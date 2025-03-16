@@ -1,0 +1,47 @@
+{
+  "entity": "Chemical industry",
+  "properties": {
+    "industry_type": "Manufacturing",
+    "sector": "Basic materials",
+    "global_revenue": "~$5 trillion (2020)",
+    "major_products": "Plastics, Fertilizers, Pharmaceuticals",
+    "employment": "Millions worldwide",
+    "regulation": "Stringent (e.g., REACH, EPA)",
+    "raw_materials": "Crude oil, Natural gas, Minerals",
+    "research_focus": "Sustainability, Green chemistry",
+    "geographic_concentration": "Asia-Pacific, North America, Europe",
+    "impact_on_economy": "Significant"
+  },
+  "relationship": [
+    {
+      "produces": "Plastics"
+    },
+    {
+      "produces": "Fertilizers"
+    },
+    {
+      "produces": "Pharmaceuticals"
+    },
+    {
+      "uses": "Crude oil"
+    },
+    {
+      "uses": "Natural gas"
+    },
+    {
+      "regulated_by": "Environmental Protection Agency"
+    },
+    {
+      "regulated_by": "REACH"
+    },
+    {
+      "impacts": "Agriculture"
+    },
+    {
+      "impacts": "Healthcare"
+    },
+    {
+      "related_to": "Petrochemical industry"
+    }
+  ]
+}

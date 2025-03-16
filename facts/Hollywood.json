@@ -1,0 +1,47 @@
+{
+  "entity": "Hollywood",
+  "properties": {
+    "type": "Neighborhood",
+    "location": "Los Angeles",
+    "state": "California",
+    "industry": "Film & Television",
+    "population": "34000",
+    "area": "16.3 sq mi",
+    "nickname": "Dream Factory",
+    "origin": "Spanish land grant",
+    "first_film": "In Old California (1910)",
+    "major_studio": "Universal Studios"
+  },
+  "relationship": [
+    {
+      "part_of": "Los Angeles"
+    },
+    {
+      "located_in": "California"
+    },
+    {
+      "industry_leader_in": "Motion Picture"
+    },
+    {
+      "influenced": "Global Cinema"
+    },
+    {
+      "associated_with": "Golden Age of Hollywood"
+    },
+    {
+      "contains": "Walk of Fame"
+    },
+    {
+      "produces": "Blockbuster Films"
+    },
+    {
+      "employs": "Actors"
+    },
+    {
+      "associated_with": "Studio System"
+    },
+    {
+      "landmark": "TCL Chinese Theatre"
+    }
+  ]
+}

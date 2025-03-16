@@ -1,0 +1,47 @@
+{
+  "entity": "World War I",
+  "properties": {
+    "start_date": "1914-07-28",
+    "end_date": "1918-11-11",
+    "conflict_type": "Global war",
+    "belligerents": "Central Powers vs. Allied Powers",
+    "casualties": "37 million",
+    "location": "Europe, Africa, Middle East, Asia, Pacific",
+    "cause": "Assassination of Archduke Franz Ferdinand",
+    "outcome": "Allied victory",
+    "treaties": "Treaty of Versailles",
+    "preceding_event": "July Crisis"
+  },
+  "relationship": [
+    {
+      "part_of": "20th century"
+    },
+    {
+      "preceded_by": "Franco-Prussian War"
+    },
+    {
+      "followed_by": "World War II"
+    },
+    {
+      "involved": "Germany"
+    },
+    {
+      "involved": "Austria-Hungary"
+    },
+    {
+      "involved": "United Kingdom"
+    },
+    {
+      "involved": "France"
+    },
+    {
+      "involved": "Russia"
+    },
+    {
+      "involved": "United States"
+    },
+    {
+      "led_to": "League of Nations"
+    }
+  ]
+}

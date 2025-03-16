@@ -1,0 +1,47 @@
+{
+  "entity": "Shell (mollusk)",
+  "properties": {
+    "instance_of": "Protective structure",
+    "material": "Calcium carbonate",
+    "function": "Protection, support",
+    "formation": "Secretion",
+    "type": "Exoskeleton",
+    "found_in": "Marine and freshwater environments",
+    "size": "Variable",
+    "color": "Variable",
+    "shape": "Variable",
+    "composition": "Organic matrix + minerals"
+  },
+  "relationship": [
+    {
+      "part_of": "Mollusca"
+    },
+    {
+      "produces": "Nacre"
+    },
+    {
+      "found_in_habitat": "Ocean"
+    },
+    {
+      "found_in_habitat": "Freshwater"
+    },
+    {
+      "related_to": "Gastropoda"
+    },
+    {
+      "related_to": "Bivalvia"
+    },
+    {
+      "related_to": "Cephalopoda"
+    },
+    {
+      "used_by": "Humans"
+    },
+    {
+      "studied_in": "Paleontology"
+    },
+    {
+      "related_to": "Biomineralization"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Management",
+  "properties": {
+    "instance_of": "Process",
+    "field_of_study": "Business",
+    "purpose": "Organizational Efficiency",
+    "focus": "Planning, Organizing, Leading, Controlling",
+    "level": "Strategic, Tactical, Operational",
+    "theory": "Scientific Management, Systems Theory",
+    "skill_set": "Leadership, Communication, Decision-making",
+    "discipline": "Social Science",
+    "application": "Business, Nonprofits, Government",
+    "related_to": "Organization"
+  },
+  "relationship": [
+    {
+      "uses": "Leadership"
+    },
+    {
+      "requires": "Planning"
+    },
+    {
+      "involves": "Decision-making"
+    },
+    {
+      "employs": "Strategy"
+    },
+    {
+      "related_to": "Human Resources"
+    },
+    {
+      "impacts": "Productivity"
+    },
+    {
+      "requires": "Organization"
+    },
+    {
+      "overlaps_with": "Administration"
+    },
+    {
+      "influences": "Business Process"
+    },
+    {
+      "studied_in": "Business School"
+    }
+  ]
+}

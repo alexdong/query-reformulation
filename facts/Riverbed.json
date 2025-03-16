@@ -1,0 +1,47 @@
+{
+  "entity": "Riverbed",
+  "properties": {
+    "instance_of": "Geological feature",
+    "composition": "Sediment, gravel, sand",
+    "location": "Along rivers",
+    "formation_process": "Erosion, deposition",
+    "shape": "Varies",
+    "depth": "Varies",
+    "width": "Varies",
+    "function": "Channel water, habitat",
+    "erosion_type": "Hydraulic action, abrasion",
+    "sediment_source": "Watershed"
+  },
+  "relationship": [
+    {
+      "part_of": "Watershed"
+    },
+    {
+      "contains": "Sediment"
+    },
+    {
+      "adjacent_to": "Floodplain"
+    },
+    {
+      "influenced_by": "River"
+    },
+    {
+      "supports": "Aquatic life"
+    },
+    {
+      "affected_by": "Flooding"
+    },
+    {
+      "erosion_by": "Water"
+    },
+    {
+      "deposits": "Alluvium"
+    },
+    {
+      "impacts": "Groundwater"
+    },
+    {
+      "studied_in": "Geomorphology"
+    }
+  ]
+}

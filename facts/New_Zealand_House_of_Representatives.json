@@ -1,0 +1,47 @@
+{
+  "entity": "New Zealand House of Representatives",
+  "properties": {
+    "instance_of": "Legislative body",
+    "country": "New Zealand",
+    "type": "Parliament",
+    "location": "Wellington",
+    "number_of_members": "120",
+    "head": "Speaker of the House",
+    "established": "1854",
+    "legislative_system": "Parliamentary system",
+    "electoral_system": "Mixed-member proportional representation",
+    "building": "Parliament House"
+  },
+  "relationship": [
+    {
+      "part_of": "New Zealand Parliament"
+    },
+    {
+      "located_in": "Wellington City"
+    },
+    {
+      "governs": "New Zealand"
+    },
+    {
+      "elected_by": "New Zealand electorate"
+    },
+    {
+      "member_of": "MP"
+    },
+    {
+      "head_of": "Speaker of the House"
+    },
+    {
+      "function": "Legislation"
+    },
+    {
+      "function": "Representation"
+    },
+    {
+      "function": "Scrutiny"
+    },
+    {
+      "influenced_by": "Westminster system"
+    }
+  ]
+}

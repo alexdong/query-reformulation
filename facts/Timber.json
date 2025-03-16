@@ -1,0 +1,47 @@
+{
+  "entity": "Timber",
+  "properties": {
+    "instance_of": "Natural resource",
+    "source": "Trees",
+    "use": "Construction, fuel, paper",
+    "origin": "Forests",
+    "renewable": "Yes",
+    "unit": "Cubic meter",
+    "type": "Wood",
+    "color": "Varies",
+    "density": "Varies",
+    "value": "Economic"
+  },
+  "relationship": [
+    {
+      "derived_from": "Trees"
+    },
+    {
+      "used_in": "Construction"
+    },
+    {
+      "used_in": "Furniture"
+    },
+    {
+      "processed_into": "Lumber"
+    },
+    {
+      "part_of": "Forestry"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "traded_as": "Commodity"
+    },
+    {
+      "related_to": "Deforestation"
+    },
+    {
+      "used_for": "Fuel"
+    },
+    {
+      "supports": "Wildlife"
+    }
+  ]
+}

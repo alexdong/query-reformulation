@@ -1,0 +1,47 @@
+{
+  "entity": "Uintatherium",
+  "properties": {
+    "taxon_rank": "Genus",
+    "era": "Paleocene",
+    "diet": "Herbivore",
+    "size": "Large",
+    "skull_length": "Approximately 1 meter",
+    "body_length": "Approximately 3 meters",
+    "weight": "2-3 tonnes",
+    "discovery_location": "North America, Europe, Asia",
+    "fossil_evidence": "Abundant",
+    "extinction_date": "Approximately 56 million years ago"
+  },
+  "relationship": [
+    {
+      "part_of": "Mammalia"
+    },
+    {
+      "order": "Mammalia"
+    },
+    {
+      "family": "Uintatheriidae"
+    },
+    {
+      "predecessor": "Palaeotheriidae"
+    },
+    {
+      "contemporary_with": "Eocene mammals"
+    },
+    {
+      "found_in": "Fort Union Formation"
+    },
+    {
+      "found_in": "Wasatch Formation"
+    },
+    {
+      "related_to": "Indricotherium"
+    },
+    {
+      "exhibits": "Prominent horn structures"
+    },
+    {
+      "habitat": "Warm, forested environments"
+    }
+  ]
+}

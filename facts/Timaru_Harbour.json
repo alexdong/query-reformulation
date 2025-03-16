@@ -1,0 +1,47 @@
+{
+  "entity": "Timaru Harbour",
+  "properties": {
+    "type": "Natural harbour",
+    "location": "Timaru, New Zealand",
+    "region": "Canterbury",
+    "owner": "Timaru District Council",
+    "depth": "14.6 meters",
+    "area": "1.6 square kilometers",
+    "year_established": "1855",
+    "primary_use": "Shipping port",
+    "cargo_handled": "Fertilizer, grain, logs",
+    "coordinates": "-45.0667, 169.7333"
+  },
+  "relationship": [
+    {
+      "part_of": "South Island"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "serves": "Timaru"
+    },
+    {
+      "managed_by": "Timaru District Council"
+    },
+    {
+      "connected_to": "Waitangi River"
+    },
+    {
+      "exports_to": "International markets"
+    },
+    {
+      "imports_from": "International markets"
+    },
+    {
+      "supports_industry": "Agriculture"
+    },
+    {
+      "facilitates_trade": "New Zealand"
+    },
+    {
+      "adjacent_to": "Caroline Bay"
+    }
+  ]
+}

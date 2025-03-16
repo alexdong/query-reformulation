@@ -1,0 +1,47 @@
+{
+  "entity": "Tokelauan language",
+  "properties": {
+    "iso_code": "tok",
+    "script": "Latin script",
+    "language_family": "Austronesian",
+    "endangered": "Vulnerable",
+    "native_speakers": "Approximately 4,000",
+    "geographic_location": "Tokelau, New Zealand, Samoa, Tuvalu",
+    "writing_system": "Latin alphabet",
+    "status": "Official in Tokelau",
+    "influenced_by": "Tuvaluan, Samoan",
+    "typology": "Polysynthetic"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian languages"
+    },
+    {
+      "spoken_in": "Tokelau"
+    },
+    {
+      "spoken_in": "New Zealand"
+    },
+    {
+      "spoken_in": "Samoa"
+    },
+    {
+      "spoken_in": "Tuvalu"
+    },
+    {
+      "related_to": "Tuvaluan language"
+    },
+    {
+      "related_to": "Samoan language"
+    },
+    {
+      "influenced": "New Zealand Sign Language"
+    },
+    {
+      "has_dialect": "Fakaofo dialect"
+    },
+    {
+      "has_dialect": "Nukunonu dialect"
+    }
+  ]
+}

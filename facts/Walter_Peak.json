@@ -1,0 +1,47 @@
+{
+  "entity": "Walter Peak",
+  "properties": {
+    "type": "Mountain",
+    "location": "Southland, New Zealand",
+    "elevation": "978 m",
+    "region": "Fiordland National Park",
+    "named_after": "Walter Mitford",
+    "geological_era": "Tertiary Period",
+    "dominant_rock_type": "Schist",
+    "water_feature": "Lake Wakatipu",
+    "visibility": "Often obscured by clouds",
+    "tourism_attraction": "Scenic views"
+  },
+  "relationship": [
+    {
+      "part_of": "Fiordland National Park"
+    },
+    {
+      "located_in": "Southland Region"
+    },
+    {
+      "overlooks": "Lake Wakatipu"
+    },
+    {
+      "named_after": "Walter Mitford"
+    },
+    {
+      "near": "Queenstown"
+    },
+    {
+      "part_of_chain": "Southern Alps"
+    },
+    {
+      "contains": "Walter Peak High Country Farm"
+    },
+    {
+      "geology_related_to": "Southern Alps"
+    },
+    {
+      "tourism_destination_for": "Cruise ships"
+    },
+    {
+      "visible_from": "Glenorchy"
+    }
+  ]
+}

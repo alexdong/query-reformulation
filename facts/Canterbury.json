@@ -1,0 +1,47 @@
+{
+  "entity": "Canterbury",
+  "properties": {
+    "type": "City",
+    "country": "England",
+    "population": "121,802",
+    "region": "Kent",
+    "latitude": "51.3037",
+    "longitude": "-0.4073",
+    "river": "River Stour",
+    "cathedral": "Canterbury Cathedral",
+    "established": "Roman era",
+    "postal_code": "CT1-CT9"
+  },
+  "relationship": [
+    {
+      "part_of": "Kent"
+    },
+    {
+      "located_in": "England"
+    },
+    {
+      "has_landmark": "Canterbury Cathedral"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "visited_by": "Thomas Becket"
+    },
+    {
+      "pilgrimage_site_for": "Christians"
+    },
+    {
+      "has_university": "University of Kent"
+    },
+    {
+      "near_to": "Whitstable"
+    },
+    {
+      "historical_event": "Battle of Canterbury"
+    },
+    {
+      "member_of": "Cities and Towns of the Cinque Ports"
+    }
+  ]
+}

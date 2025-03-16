@@ -1,0 +1,47 @@
+{
+  "entity": "Marae",
+  "properties": {
+    "type": "Complex",
+    "location": "New Zealand",
+    "culture": "Māori",
+    "function": "Community Centre",
+    "architecture": "Traditional",
+    "significance": "Spiritual & Social",
+    "materials": "Wood, earth, reeds",
+    "design_principle": "Wharenui (meeting house)",
+    "ceremonial_ground": "Pā",
+    "protection": "Tapu"
+  },
+  "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "associated_with": "Māori culture"
+    },
+    {
+      "part_of": "Pā"
+    },
+    {
+      "contains": "Wharenui"
+    },
+    {
+      "associated_with": "Tangata whenua"
+    },
+    {
+      "related_to": "Kaitiakitanga"
+    },
+    {
+      "governed_by": "Marae Committee"
+    },
+    {
+      "hosts": "Hangi"
+    },
+    {
+      "associated_with": "Powhiri"
+    },
+    {
+      "represents": "Ancestral connection"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "Polynesian People",
+  "properties": {
+    "origin": "Polynesia",
+    "language_family": "Austronesian",
+    "population": "Millions",
+    "culture": "Maritime",
+    "religion": "Traditional Polynesian religion",
+    "ancestral_homeland": "Austronesia",
+    "navigation": "Celestial navigation",
+    "subsistence": "Agriculture, fishing",
+    "social_structure": "Tribal",
+    "art_form": "Tattooing"
+  },
+  "relationship": [
+    {
+      "part_of": "Austronesian peoples"
+    },
+    {
+      "related_to": "Maori"
+    },
+    {
+      "related_to": "Hawaiians"
+    },
+    {
+      "related_to": "Samoans"
+    },
+    {
+      "related_to": "Tongan people"
+    },
+    {
+      "migrated_to": "Hawaii"
+    },
+    {
+      "migrated_to": "New Zealand"
+    },
+    {
+      "migrated_to": "Easter Island"
+    },
+    {
+      "influenced_by": "Austronesian culture"
+    },
+    {
+      "practice": "Wayfinding"
+    }
+  ]
+}

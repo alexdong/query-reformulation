@@ -1,0 +1,47 @@
+{
+  "entity": "Niutao",
+  "properties": {
+    "type": "Atoll",
+    "location": "Tuvalu",
+    "area": "23.5 sq km",
+    "population": "1,558",
+    "island_group": "Tuvalu",
+    "latitude": "-4.33333",
+    "longitude": "-179.05",
+    "highest_point": "4 m",
+    "governed_by": "Government of Tuvalu",
+    "currency": "Tuvaluan dollar"
+  },
+  "relationship": [
+    {
+      "part_of": "Tuvalu"
+    },
+    {
+      "located_in": "Pacific Ocean"
+    },
+    {
+      "capital_of_island": "Niutao village"
+    },
+    {
+      "has_island": "Motutabu"
+    },
+    {
+      "has_island": "Fata"
+    },
+    {
+      "has_island": "Lani"
+    },
+    {
+      "has_island": "Pata"
+    },
+    {
+      "has_island": "Veliso"
+    },
+    {
+      "influenced_by": "Polynesian culture"
+    },
+    {
+      "economy_based_on": "Fishing and Agriculture"
+    }
+  ]
+}

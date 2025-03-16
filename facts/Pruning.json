@@ -1,0 +1,47 @@
+{
+  "entity": "Pruning",
+  "properties": {
+    "instance_of": "Horticultural technique",
+    "purpose": "Plant health, aesthetics",
+    "type": "Selective removal",
+    "tool": "Shears, saws",
+    "timing": "Varies by species",
+    "benefit": "Air circulation, sunlight",
+    "impact_on_growth": "Stimulates, redirects",
+    "effect_on_flowering": "Promotes, reduces",
+    "related_to": "Plant physiology",
+    "origin": "Ancient practices"
+  },
+  "relationship": [
+    {
+      "part_of": "Horticulture"
+    },
+    {
+      "used_for": "Tree care"
+    },
+    {
+      "used_for": "Shrub care"
+    },
+    {
+      "requires": "Gardening tools"
+    },
+    {
+      "impacts": "Plant growth"
+    },
+    {
+      "related_to": "Botany"
+    },
+    {
+      "influences": "Fruit production"
+    },
+    {
+      "performed_by": "Gardener"
+    },
+    {
+      "affects": "Plant shape"
+    },
+    {
+      "technique_for": "Landscape design"
+    }
+  ]
+}

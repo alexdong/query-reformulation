@@ -1,0 +1,47 @@
+{
+  "entity": "Francesco Borromini",
+  "properties": {
+    "birth_date": "1599-09-27",
+    "birth_place": "Isola di Capriglia",
+    "death_date": "1667-08-03",
+    "death_place": "Rome",
+    "nationality": "Italian",
+    "profession": "Architect",
+    "art_movement": "Baroque",
+    "influenced_by": "Giacomo Barozzi",
+    "worked_in": "Rome",
+    "style": "Dynamic, complex"
+  },
+  "relationship": [
+    {
+      "influenced": "Carlo Rainaldi"
+    },
+    {
+      "influenced": "Nicola Salvi"
+    },
+    {
+      "employer_of": "Cardinal Ippolito Aldobrandini"
+    },
+    {
+      "collaborated_with": "Gian Lorenzo Bernini"
+    },
+    {
+      "designed": "San Carlo alle Quattro Fontane"
+    },
+    {
+      "designed": "Sant'Ivo alla Sapienza"
+    },
+    {
+      "designed": "Oratorio di San Filippo Neri"
+    },
+    {
+      "worked_on": "Palazzo Spada"
+    },
+    {
+      "student_of": "Giacomo Barozzi"
+    },
+    {
+      "part_of": "Baroque architecture"
+    }
+  ]
+}

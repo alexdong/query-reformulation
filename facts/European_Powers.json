@@ -1,0 +1,47 @@
+{
+  "entity": "European Powers",
+  "properties": {
+    "type": "Political Entities",
+    "continent": "Europe",
+    "historical_period": "16th-20th Centuries",
+    "influence_area": "Global",
+    "economic_system": "Mercantilism/Capitalism",
+    "political_system": "Monarchy/Republic",
+    "military_strength": "Significant",
+    "colonial_possessions": "Vast",
+    "major_powers": "United Kingdom, France, Germany, Russia, Spain",
+    "decline_reason": "Internal conflicts/Economic shifts"
+  },
+  "relationship": [
+    {
+      "competed_with": "Ottoman Empire"
+    },
+    {
+      "colonized": "Africa"
+    },
+    {
+      "colonized": "Asia"
+    },
+    {
+      "influenced": "American Revolution"
+    },
+    {
+      "involved_in": "World War I"
+    },
+    {
+      "involved_in": "World War II"
+    },
+    {
+      "rivalry": "Franco-British Rivalry"
+    },
+    {
+      "treaty_signed": "Treaty of Versailles"
+    },
+    {
+      "led_to": "European Union"
+    },
+    {
+      "controlled": "Scramble for Africa"
+    }
+  ]
+}
