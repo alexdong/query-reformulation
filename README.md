@@ -1,6 +1,7 @@
 A ML model that can generate query reformulations 
 
-## Project Definition
+Project Definition
+===================
 
 > Build an API to a machine learning model that given an input query can generate one or more adequate search engine queries to obtain requested information.
 > 
@@ -39,7 +40,8 @@ A ML model that can generate query reformulations
 > query refinement strategies
 
 
-## Observation
+Observation
+--------------
 
 Looking at the examples provided, it shows the following cases
 - conciseness rewrite (1)
@@ -70,8 +72,13 @@ Two other significant observations are:
     use a reasoning model to produce the reformulated output. It'll cost under
     $5 for every 10k reformulations pairs.
 
-STEP 1: Prepare synthetic data
---------------------------------
+
+Plan
+--------
+
+
+Step 1: Prepare synthetic data
+
 1. Take MS-MARCO and HotpotQA datasets and extract the questions from them.
 2. Consolidate notes into a Prompt and iterate over random sample of questions
    to generate outputs. (Start with 50 pairs)
@@ -80,8 +87,8 @@ STEP 1: Prepare synthetic data
 4. Slowly build up to 10 reformulation pairs per type using API.
 5. Generate 10k reformulation pairs using API.
 
-STEP 2: Train a model
-----------------------
+Step 2: Train a model
+
 1. Take a standard Flan-5T-base model and quantize it to 8-bits and run on
    different inference runtime.
 2. Get a benchmark suite working, establish a baseline for both accuracy and
@@ -90,51 +97,55 @@ STEP 2: Train a model
    colab. 
 (Rinse and repeat)
 
+Step 3: Performance tuning
 
-Datasets
-----------
+1. Quantize the model to 8-bits 
+2. run on ONNX runtime
+3. Run on a CPU and measure the latency
+4. Compile to GGML and run it on CPU
+5. add an API layer on top of the model and measure the latency
 
--  
-- [HotpotQA](https://hotpotqa.github.io/): a json file with [{'question'}] field. `jq '.[].question' hotpot_test_fullwiki_v1.json > questions.txt`
-- [MS-MARCO](https://huggingface.co/datasets/microsoft/ms_marco): is a parquet file with `query_type` and `query` columns.  `pqrs cat test-00000-of-00001.parquet --json | jq -r ".query" >> questions.txt`
-- `shuf questions.txt && wc -l questions.txt` = 198k questions
-
-LLM Models
-----------
-
-With the same PRMOPT.md, the DeepSeek R1 reasoning model produces more concise response than the chat model. https://chat.deepseek.com/a/chat/s/3fb4eabf-52dc-4ba2-8192-940a6320fc7b
-
-For example, given the same prompt, the input "The Oberoi family is part of a hotel company that has a head office in what city?" produces the following outputs:
-
-    R1: Oberoi Hotels head office city
-    V3: Oberoi family hotel company head office city
-
-Another example is the ability to strip off excessive information from the input. For example, "Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?" produces the following outputs:
-
-    R1: Milhouse The Simpsons character namesake
-    V3: Allie Goertz song about Milhouse\nThe Simpsons character Milhouse\nMatt Groening Milhouse namesake
-
-The reasoning model does cost a lot more because it charges includes all tokens from CoT and the final answer. 
 
 Prepare Synthetic Data
------------------------
+==========================
 
 15/March
+------------
+
 A few considerations to keep in mind when preparing the synthetic data:
 1. Chat Prefix Completion is a good way to get output; 
 2. Context Caching is critical to lower the cost of the reasoning model;
 
-16/March
-The approach to use the reasoning model to generate "output" from questions from MS-MARCO and HotpotQA datasets is not feasible. The cost of the reasoning model is too high, latency is also incredibly high.
+The approach to use the reasoning model to generate "output" from questions
+from MS-MARCO and HotpotQA datasets is not feasible. The cost of the reasoning
+model is too high, latency is also incredibly high. Not happy with the result.
+Maybe I need a different approach to generate the synthetic data.
 
-Waking up thinking that I can go the other way. I can randomly sample entities from wikidata, then use a non-reasoning model to rewrite the "output" into "inputs". 
+16/March
+------------
+
+Waking up thinking that I can go the other way. I can randomly sample entities
+from wikidata to produce the `subqueries`, then use a LLM to rewrite them into
+a "query". The `subqueries` can be generated deterministically from the
+wikidata API. The latest LLM seems to be able to handle the "summarise" a lot
+better. 
+
+The deterministic generation of `subqueries` will allow me to generate a lot of
+data for free. The idea is captured in [[README-synthetic-data-chain.md]].
+
+Given the subqueries, I can use the LLM to generate the final query. The
+prompts are:
 
 - Chaining: [[PROMPT-question_generation-chaining.md]]
 - Comparison: [[PROMPT-question_generation-comparison.md]]
 - Expansion: [[PROMPT-question_generation-expansion.md]]
 
-LLM Models Evaluation
-----------------------
+One more benefit of this approach is that when I ask for the input, I can
+generate 25 different queries. This will give us the training data for
+"conciseness" and "reparaphrasing" for free.
+
+Choose the LLM - o3-mini
+----------------------------
 
 Evaluated the above prompts against main LLMs of different parameter counts. Here are the results:
 
@@ -160,8 +171,8 @@ Looks like o3-mini is the best option for generating synthetic data.
 Batch API: https://platform.openai.com/docs/guides/batch
 
 
-Fine-tuning Options
--------------------------------
+Fine-tuning
+===============
 
 Twitter has proven that BERT-base can be scaled to handle 100ms latency on a
 CPU. So we can safely assume that a similar parameter count model can be used

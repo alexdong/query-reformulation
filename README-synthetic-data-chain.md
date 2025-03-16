@@ -1,18 +1,91 @@
-I am working on producing a set of synthetic data by query WikiData through its API endpoint.
+I am working on producing a set of synthetic data of queries through WikiData
+API.
 
+The following describes the process from the simpliest query and gradually
+building up to a set of subqueries.
+
+Generation Algorithm
+====================
+
+Foundation - Triple Query
+-------------------------
 Here is the rough outline of how I might approach this
 
-1. Randomly choose an entity from WikiData
-2. Query the entity for its properties and qualifiers
-3. Use the properties and qualifiers to generate a question
+1. Randomly choose an entity from WikiData (`action=query&list=random&rnnamespace=0&rnlimit=1`)
+2. Query the entity for its properties and qualifiers (`action=wbgetentities&ids=Q42&props=claims`)
+3. Pick a random property and qualifier from the entity (P569 - birth date, P570 - death date, P19 - birth place)
+4. Use the properties and qualifiers to generate a query
 
 For example:
 
 1. Randomly choose Nikola Tesla
 2. Query Nikola Tesla for its properties and qualifiers and pick the following:
-    - birth date
-    - death date
-3. Nikola Tesla lifespan
+    - lifespan (p569, p570)
+    - birth place (p19)
+
+Queries:
+- Nikola Tesla lifespan
+- Nikola Tesla birth place
+
+
+Chain of questions
+------------------
+
+Here we try to navigate through the graph to create a chain of queries. Building up from the previous workflow.
+
+4. Randomly choose a property from the previous entity (birth place -> Smiljan, Austrian Empire)
+5. Use the entity to repeat step 2 and 3.
+6. Form a chain of 2-5 queries.
+
+For example
+
+3. Nikla Tesla birth place
+4. Smiljan, Austrian Empire -> Notable people born in Smiljan, Austrian Empire
+5. Ferdinand Kovačević -> Invention
+6. Telegraphy
+
+Query chain:
+
+- Nikola Tesla birth place
+  Notable people born in birth place
+  Inventor of telegraphy
+
+
+Comparison 
+--------------------------
+
+Based on the "Simplest Query" section, we can also introduce a comparison of
+the results from shared properties and qualifiers.
+
+For example, the following subqeries can be generated for the question: "Who
+lives longer? Nikola Tesla or Ferdinand Kovačević"
+
+- Nikola Tesla lifespan
+- Ferdinand Kovačević lifespan
+
+
+Query Composition
+-----------------
+
+Further, the comparison can be extended to a list of items.
+
+Use a randomly selected property to produce a set of queries that cover all
+available properties in a specific subdomain.
+
+For example, the following subqueries can be generated for the question: "of
+all the inventions by Tesla, which one came the earliest?"
+
+- Year of Tesla invented Induction motor
+- Year of Tesla invented Tesla Coil
+- Year of Tesla invented AC system design
+- Year of Tesla invented Wireless Communication
+- Year of Tesla invented Remote Control drone
+- Year of Tesla invented Neon and Flourescent lighting
+- Year of Tesla invented Tesla Turbine
+- Year of Tesla invented Tesla Valve
+- Year of Tesla invented Tesla Osciillator
+
+## Key Rules for Queries
 
 Make sure the following rules are carefully followed:
 
@@ -20,5 +93,4 @@ Make sure the following rules are carefully followed:
 2. align with WikiData ontology
 3. avoid ambiguity and comparatives
 4. prioritize specificity
-
-
+5. join subqueries into a single line, separated by \n
