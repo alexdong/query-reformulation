@@ -69,7 +69,11 @@ def process_json_files() -> None:
         if "entity" not in data:
             # Extract the entity from the file name
             entity_name = file_path.stem.replace('_', ' ')
-            data["entity"] = entity_name
+            # append the "relationship" key to the data using LLM, ai!
+            data = {
+                "entity": entity_name,
+                "properties": data
+            }
             console.print(f"[yellow]Extracted entity from filename:[/] {entity_name}")
 
         properties = data.get("properties", {})
