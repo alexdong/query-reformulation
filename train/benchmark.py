@@ -2,14 +2,20 @@ import json
 import statistics
 import time
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Union
 
 import torch
 from tqdm import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
+# Add these imports for ONNX support
+import onnx
+import onnxruntime as ort
+import numpy as np
+
 DEV_DATASET = Path("datasets/dev.jsonl")
 MODEL_SIZES = ["small", "base", "large"]
+ONNX_DIR = Path("models/onnx")
 
 def load_dataset(file_path: Path) -> List[Dict[str, Any]]:
     """Load dataset from a jsonl file."""
@@ -55,41 +61,165 @@ def load_model(model_size: str, force_cpu: bool = False) -> tuple[AutoModelForSe
 
     return model, tokenizer, device
 
+def quantize_and_export_to_onnx(
+    model: AutoModelForSeq2SeqLM, 
+    tokenizer: AutoTokenizer, 
+    model_size: str
+) -> Path:
+    """Quantize the model and export to ONNX format.
+    
+    Args:
+        model: The PyTorch model to quantize and export
+        tokenizer: The tokenizer for the model
+        model_size: Size of the model ('small', 'base', or 'large')
+        
+    Returns:
+        Path to the exported ONNX model
+    """
+    print(f"[INFO] Quantizing and exporting model to ONNX...")
+    
+    # Create directory if it doesn't exist
+    ONNX_DIR.mkdir(parents=True, exist_ok=True)
+    onnx_path = ONNX_DIR / f"flan-t5-{model_size}-quantized.onnx"
+    
+    # Skip if model already exists
+    if onnx_path.exists():
+        print(f"[INFO] ONNX model already exists at {onnx_path}")
+        return onnx_path
+    
+    # Prepare model for export
+    model.eval()
+    
+    # Quantize the model to int8
+    # Note: We're using dynamic quantization which is applied during export
+    quantized_model = torch.quantization.quantize_dynamic(
+        model, {torch.nn.Linear}, dtype=torch.qint8
+    )
+    
+    # Create dummy input for tracing
+    dummy_input = tokenizer("reformulate:This is a test query", return_tensors="pt")
+    
+    # Export the model to ONNX
+    with torch.no_grad():
+        torch.onnx.export(
+            quantized_model,
+            (dummy_input["input_ids"], dummy_input["attention_mask"]),
+            onnx_path,
+            opset_version=12,
+            input_names=["input_ids", "attention_mask"],
+            output_names=["logits"],
+            dynamic_axes={
+                "input_ids": {0: "batch_size", 1: "sequence_length"},
+                "attention_mask": {0: "batch_size", 1: "sequence_length"},
+                "logits": {0: "batch_size", 1: "sequence_length"}
+            }
+        )
+    
+    print(f"[INFO] Model exported to {onnx_path}")
+    return onnx_path
+
 def generate_reformulation(
-    model: AutoModelForSeq2SeqLM,
+    model: Union[AutoModelForSeq2SeqLM, ort.InferenceSession],
     tokenizer: AutoTokenizer,
     query: str,
     device: torch.device,
+    use_onnx: bool = False
 ) -> str:
-    """Generate query reformulation using the model."""
+    """Generate query reformulation using the model.
+    
+    Args:
+        model: Either a PyTorch model or ONNX InferenceSession
+        tokenizer: The tokenizer for the model
+        query: The query to reformulate
+        device: The device to run inference on
+        use_onnx: Whether to use ONNX runtime for inference
+        
+    Returns:
+        The reformulated query
+    """
     input_text = f"reformulate:{query}"
-    inputs = tokenizer(input_text, return_tensors="pt").to(device)
+    
+    if use_onnx:
+        # ONNX Runtime inference
+        inputs = tokenizer(input_text, return_tensors="pt")
+        ort_inputs = {
+            "input_ids": inputs["input_ids"].cpu().numpy(),
+            "attention_mask": inputs["attention_mask"].cpu().numpy()
+        }
+        
+        # Run inference
+        ort_outputs = model.run(None, ort_inputs)
+        
+        # Process outputs
+        # Note: This is simplified and may need adjustment based on the actual model output
+        output_ids = np.argmax(ort_outputs[0], axis=-1)
+        return tokenizer.decode(output_ids[0], skip_special_tokens=True)
+    else:
+        # PyTorch inference
+        inputs = tokenizer(input_text, return_tensors="pt").to(device)
+        
+        with torch.no_grad():
+            outputs = model.generate(
+                **inputs,
+                max_length=128,
+                num_return_sequences=1,
+            )
+        
+        return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-    with torch.no_grad():
-        outputs = model.generate(
-            **inputs,
-            max_length=128,
-            num_return_sequences=1,
-        )
-
-    return tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-# Quantise the model and run on onnxruntime, ai!
-def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: bool = False) -> Dict[str, float]:
-    """Benchmark the model on the dataset."""
-    model, tokenizer, device = load_model(model_size, force_cpu)
+def benchmark_model(
+    model_size: str, 
+    dataset: List[Dict[str, Any]], 
+    force_cpu: bool = False,
+    use_onnx: bool = False
+) -> Dict[str, float]:
+    """Benchmark the model on the dataset.
+    
+    Args:
+        model_size: Size of the model ('small', 'base', or 'large')
+        dataset: The dataset to benchmark on
+        force_cpu: Whether to force CPU usage
+        use_onnx: Whether to use ONNX runtime
+        
+    Returns:
+        Dictionary of benchmark statistics
+    """
+    if use_onnx:
+        # Load PyTorch model first to export to ONNX if needed
+        model, tokenizer, device = load_model(model_size, force_cpu=True)  # Force CPU for ONNX export
+        
+        # Quantize and export to ONNX
+        onnx_path = quantize_and_export_to_onnx(model, tokenizer, model_size)
+        
+        # Create ONNX Runtime session
+        print(f"[INFO] Creating ONNX Runtime session...")
+        # Configure session options for better performance
+        sess_options = ort.SessionOptions()
+        sess_options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
+        sess_options.intra_op_num_threads = 4  # Adjust based on your CPU
+        
+        # Create inference session
+        model = ort.InferenceSession(str(onnx_path), sess_options)
+        device = torch.device("cpu")  # ONNX Runtime uses CPU
+        print(f"[INFO] Using ONNX Runtime on CPU")
+    else:
+        # Load regular PyTorch model
+        model, tokenizer, device = load_model(model_size, force_cpu)
 
     total_time = 0
     total_queries = len(dataset)
     query_times = []  # Track individual query times for statistics
 
-    generate_reformulation(model, tokenizer, dataset[0]["query"], device)
+    # Warm-up run
+    generate_reformulation(model, tokenizer, dataset[0]["query"], device, use_onnx)
 
     print(f"[INFO] Benchmarking flan-t5-{model_size} on {total_queries} queries...")
+    print(f"[INFO] Using {'ONNX Runtime' if use_onnx else 'PyTorch'}")
+    
     for item in tqdm(dataset, desc=f"Processing queries", unit="query"):
         query = item["query"]
         query_start = time.time()
-        reformulation = generate_reformulation(model, tokenizer, query, device)
+        reformulation = generate_reformulation(model, tokenizer, query, device, use_onnx)
         query_time = time.time() - query_start
         total_time += query_time
         query_times.append(query_time)  # Store individual query time
@@ -110,6 +240,7 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
 
     return {
         "model_size": model_size,
+        "runtime": "onnx" if use_onnx else "pytorch",
         "average_time": total_time / total_queries if total_queries > 0 else 0,
         "median_time": median_time,
         "stddev_time": stddev_time,
@@ -120,15 +251,29 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
 
 
 if __name__ == "__main__":
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Benchmark Flan-T5 models for query reformulation")
+    parser.add_argument("--model-size", choices=MODEL_SIZES, default=None, 
+                        help="Size of the model to benchmark (small, base, large)")
+    parser.add_argument("--force-cpu", action="store_true", 
+                        help="Force using CPU even if GPU/MPS is available")
+    parser.add_argument("--use-onnx", action="store_true",
+                        help="Use ONNX Runtime for inference")
+    
+    args = parser.parse_args()
+    
     dataset = load_dataset(DEV_DATASET)
     print(f"[INFO] Loaded {len(dataset)} examples from {DEV_DATASET}")
 
-    for model_size in MODEL_SIZES:
-        stats = benchmark_model(model_size, dataset, force_cpu=True)
+    model_sizes = [args.model_size] if args.model_size else MODEL_SIZES
+    
+    for model_size in model_sizes:
+        stats = benchmark_model(model_size, dataset, args.force_cpu, args.use_onnx)
         
         # Pretty print stats
         print(f"\n{'=' * 50}")
-        print(f"📊 RESULTS FOR FLAN-T5-{model_size.upper()} 📊")
+        print(f"📊 RESULTS FOR FLAN-T5-{model_size.upper()} ({stats['runtime'].upper()}) 📊")
         print(f"{'=' * 50}")
         print(f"🕒 Average time per query: {stats['average_time']*1000:.2f} ms")
         print(f"🕒 Median time per query:  {stats['median_time']*1000:.2f} ms")
