@@ -48,3 +48,10 @@ def get_entity_properties(entity: str) -> Dict[str, str]:
     if data and "properties" in data:
         return data["properties"]
     return {}
+
+def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
+    """Get relationships for a specific entity."""
+    data = load_entity_data(entity)
+    if data and "relationship" in data:
+        return data["relationship"]
+    return []
