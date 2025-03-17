@@ -31,7 +31,12 @@ def load_model(model_size: str) -> tuple:
 
     return model, tokenizer, device
 
-def generate_reformulation(model, tokenizer, query: str, device) -> str:
+def generate_reformulation(
+    model: AutoModelForSeq2SeqLM, 
+    tokenizer: AutoTokenizer, 
+    query: str, 
+    device: torch.device
+) -> str:
     """Generate query reformulation using the model."""
     input_text = f"reformulate:{query}"
     inputs = tokenizer(input_text, return_tensors="pt").to(device)
