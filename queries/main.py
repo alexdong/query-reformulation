@@ -154,13 +154,34 @@ def create_batch_request_file(reformulation_type: str) -> None:
     assert subqueries_file.exists(), f"Subqueries file not found: {subqueries_file}"
     
     batch_file = QUERIES_DIR / f"batch-input-{reformulation_type}.jsonl"
+    print(f"[INFO] Creating batch request file: {batch_file}")
+    
     with open(subqueries_file, "r") as f:
         subqueries_list = [line.strip() for line in f if line.strip()]
     
     with open(batch_file, "w") as f:
-        for subqueries in subqueries_list:
+        for i, subqueries in enumerate(subqueries_list):
+            # Create a unique custom_id for each request
+            custom_id = f"{reformulation_type}_line_{i+1}"
+            
+            # Get the request body
             request_body, _ = create_request_body(reformulation_type, subqueries)
-            f.write(json.dumps(request_body) + "\n")
+            
+            # Remove metadata from the request body (it should be in the top-level structure)
+            metadata = request_body.pop("metadata", {})
+            
+            # Create the batch request structure
+            batch_request = {
+                "custom_id": custom_id,
+                "method": "POST",
+                "url": "/v1/chat/completions",
+                "body": request_body,
+                # Include metadata at the top level
+                "metadata": metadata
+            }
+            
+            # Write the batch request to the file
+            f.write(json.dumps(batch_request) + "\n")
     
     print(f"[INFO] Created batch request file with {len(subqueries_list)} requests")
     print(f"[INFO] You can now upload this file to OpenAI's batch processing API:")
