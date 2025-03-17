@@ -29,7 +29,16 @@ def load_model(model_size: str, force_cpu: bool = False) -> tuple:
     Returns:
         Tuple of (model, tokenizer, device)
     """
-    model_name = f"google/flan-t5-{model_size}"
+    # Map the size to the correct model name
+    if model_size == "small":
+        model_name = "google/flan-t5-small"
+    elif model_size == "base":
+        model_name = "google/flan-t5-base"
+    elif model_size == "large":
+        model_name = "google/flan-t5-large"
+    else:
+        model_name = f"google/flan-t5-{model_size}"
+        
     print(f"[INFO] Loading {model_name}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
