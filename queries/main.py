@@ -15,46 +15,18 @@ REFORMULATION_TYPES = ["comparison", "expansion", "chaining"]
 QUERIES_DIR.mkdir(exist_ok=True)
 
 def render_prompt(reformulation_type: str, subqueries: str) -> str:
-    """
-    Render the prompt template for the given reformulation type and subqueries.
-    
-    Args:
-        reformulation_type: One of "comparison", "expansion", or "chaining"
-        subqueries: The subqueries string to reformulate
-        
-    Returns:
-        The rendered prompt
-    """
-    # Set up Jinja2 environment with the correct template loader
     template_loader = jinja2.FileSystemLoader(PROMPTS_DIR)
     template_env = jinja2.Environment(loader=template_loader)
-    
-    # Load the template for the specific reformulation type
     template = template_env.get_template(f"_PROMPT-{reformulation_type}.md")
+    return template.render(subqueries=subqueries)
     
-    # Render the template with the subqueries
-    prompt = template.render(subqueries=subqueries)
-    
-    return prompt
 
 def create_request_body(reformulation_type: str, subqueries: str) -> Tuple[Dict[str, Any], str]:
-    """
-    Create the request body for the OpenAI API.
-    
-    Args:
-        reformulation_type: One of "comparison", "expansion", or "chaining"
-        subqueries: The subqueries string to reformulate
-        
-    Returns:
-        Tuple of (request_body, prompt)
-    """
     prompt = render_prompt(reformulation_type, subqueries)
-    
-    # Create the request body
     request_body = {
         "model": "o3-mini",
         "messages": [
-            {"role": "system", "content": "You are a NLP aware specialist that reverses engineer search subqueries into their original search query."},
+            {"role": "system", "content": "You are a NLP specialist with search query."},
             {"role": "user", "content": prompt}
         ],
         "max_completion_tokens": 4068,
@@ -63,25 +35,12 @@ def create_request_body(reformulation_type: str, subqueries: str) -> Tuple[Dict[
             "reformulation_type": reformulation_type
         }
     }
-    
     return request_body, prompt
 
+
 def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
-    """
-    Generate queries from subqueries using OpenAI's o3-mini model.
-    
-    Args:
-        reformulation_type: One of "comparison", "expansion", or "chaining"
-        subqueries: The subqueries string to reformulate
-        
-    Returns:
-        List of generated queries
-    """
     # Create the request body and get the rendered prompt
     request_body, prompt = create_request_body(reformulation_type, subqueries)
-    print(prompt)
-    
-    print(f"[INFO] Generated prompt for {reformulation_type}")
     
     # Remove metadata from the request for the API call
     api_request = request_body.copy()
@@ -120,22 +79,8 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     return cleaned_queries
 
 def save_queries(reformulation_type: str, subqueries: str, queries: List[str]) -> None:
-    """
-    Save the generated queries to a JSONL file (JSON Lines).
-    Each line contains a single query and its corresponding subqueries.
-    
-    Args:
-        reformulation_type: One of "comparison", "expansion", or "chaining"
-        subqueries: The original subqueries
-        queries: List of generated queries
-    """
-    import json
-    
     output_file = QUERIES_DIR / f"{reformulation_type}.jsonl"
-    
     print(f"[INFO] Saving queries to {output_file}")
-    
-    # Append each query as a separate line
     with open(output_file, "a") as f:
         for query in queries:
             pair = {
@@ -143,7 +88,6 @@ def save_queries(reformulation_type: str, subqueries: str, queries: List[str]) -
                 "subqueries": subqueries
             }
             f.write(json.dumps(pair) + "\n")
-    
     print(f"[INFO] Saved {len(queries)} queries to {output_file}")
 
 def process_subqueries_file(reformulation_type: str) -> None:
@@ -207,26 +151,15 @@ def create_batch_request_file(reformulation_type: str) -> None:
     
     # Path to the subqueries file
     subqueries_file = Path("subqueries") / f"{reformulation_type}.txt"
+    assert subqueries_file.exists(), f"Subqueries file not found: {subqueries_file}"
     
-    if not subqueries_file.exists():
-        raise FileNotFoundError(f"Subqueries file not found: {subqueries_file}")
-    
-    # Path to the output batch file
     batch_file = QUERIES_DIR / f"batch-input-{reformulation_type}.jsonl"
-    
-    print(f"[INFO] Creating batch request file: {batch_file}")
-    
-    # Read the subqueries file
     with open(subqueries_file, "r") as f:
         subqueries_list = [line.strip() for line in f if line.strip()]
     
-    # Create the batch file
     with open(batch_file, "w") as f:
         for subqueries in subqueries_list:
-            # Create the request body
             request_body, _ = create_request_body(reformulation_type, subqueries)
-            
-            # Write the batch request to the file
             f.write(json.dumps(request_body) + "\n")
     
     print(f"[INFO] Created batch request file with {len(subqueries_list)} requests")
