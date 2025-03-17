@@ -26,6 +26,7 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     # This avoids issues with Jinja2 syntax in the template files
     prompt = prompt_template.replace("{{subqueries}}", subqueries)
     print(prompt)
+    return []
     
     print(f"[INFO] Generated prompt for {reformulation_type}")
     
