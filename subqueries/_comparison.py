@@ -2,6 +2,8 @@ import json
 import random
 from typing import List
 
+from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn
+
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
@@ -16,7 +18,6 @@ def get_entities_by_type(
     entity_type: str, min_count: int = 2, max_count: int = 5
 ) -> List[str]:
     """Find entities of the specified type."""
-    print(f"Finding entities of type '{entity_type}'...")
     matching_entities = []
 
     for file_path in FACTS_DIR.glob("*.json"):
@@ -42,8 +43,6 @@ def get_entities_by_type(
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
 
-    # print(f"Found {len(matching_entities)} entities of type '{entity_type}'")
-
     # If we found enough entities, randomly select between min_count and max_count
     if len(matching_entities) >= min_count:
         count = min(
@@ -55,7 +54,6 @@ def get_entities_by_type(
     return matching_entities
 
 def get_common_properties(entities: List[str]) -> List[str]:
-    # print(f"Finding common properties among {len(entities)} entities...")
     entity_properties = {}
     
     # Track which properties have numeric values
@@ -84,7 +82,6 @@ def get_common_properties(entities: List[str]) -> List[str]:
         if p not in ["type"] and p in properties_with_numbers
     ]
 
-    # print(f"Found {len(filtered_props)} common properties with numeric values")
     return filtered_props
 
 def format_property_name(prop: str) -> str:
@@ -120,7 +117,6 @@ def generate(entity_type: str) -> str:
         return ""  # Need at least 2 entities for comparison
 
     # Find common properties
-    # print(f"Generating comparison for {entity_type} entities: {entities}")
     common_props = get_common_properties(entities)
     if not common_props:
         return ""
@@ -128,7 +124,6 @@ def generate(entity_type: str) -> str:
     # Pick a random common property and convert to human readable format
     prop = random.choice(common_props)
     formatted_prop = format_property_name(prop)
-    # print(f"Picked property: {prop} -> {formatted_prop}")
 
     # Generate subqueries - join with \n to keep on one line
     subqueries = [f"{entity} {formatted_prop}" for entity in entities]
@@ -136,7 +131,6 @@ def generate(entity_type: str) -> str:
 
 def generate_comparison_subqueries(count: int = 1333) -> None:
     """Generate comparison subqueries and write to output file."""
-    print(f"Generating {count} comparison subqueries...")
     ensure_output_directory(OUTPUT_FILE)
 
     # Get all unique entity types
@@ -145,26 +139,36 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
     print(f"Found {len(entity_types)} entity types")
 
     subqueries_list = []
-    attempts = 0
     max_attempts = count * 10  # Limit attempts to avoid infinite loops
-    while len(subqueries_list) < count and attempts < max_attempts:
-        attempts += 1
-
-        # Pick a random entity type and generate a subquery
-        entity_type = random.choice(entity_types)
-        subquery = generate(entity_type)
-        if not subquery or \
-                len(subquery.strip()) == 1000 or \
-                subquery in subqueries_list:
-            continue
+    
+    with Progress(
+        TextColumn("[bold blue]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        TimeRemainingColumn(),
+    ) as progress:
+        task = progress.add_task(f"Generating {count} comparison subqueries", total=count)
         
-        subqueries_list.append(subquery)
-        if len(subqueries_list) % 50 == 0:
-            print(f"Generated {len(subqueries_list)}/{count} comparison subqueries")
+        attempts = 0
+        while len(subqueries_list) < count and attempts < max_attempts:
+            attempts += 1
+
+            # Pick a random entity type and generate a subquery
+            entity_type = random.choice(entity_types)
+            subquery = generate(entity_type)
+            if not subquery or \
+                    len(subquery.strip()) == 1000 or \
+                    subquery in subqueries_list:
+                continue
+            
+            subqueries_list.append(subquery)
+            progress.update(task, completed=len(subqueries_list))
 
     # Write the subqueries to the output file
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(subqueries_list))
+    
+    print(f"Completed generating {len(subqueries_list)} comparison subqueries")
 
 if __name__ == "__main__":
     # print(generate("City"))
