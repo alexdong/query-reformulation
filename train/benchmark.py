@@ -112,7 +112,7 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
 
     return results
 
-def run_benchmarks(model_sizes: List[str] = MODEL_SIZES, force_cpu: bool = False) -> List[Dict[str, float]]:
+def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> List[Dict[str, float]]:
     """Run benchmarks for all specified model sizes."""
     dataset = load_dataset(DEV_DATASET)
 
@@ -120,29 +120,16 @@ def run_benchmarks(model_sizes: List[str] = MODEL_SIZES, force_cpu: bool = False
 
     results = []
     for model_size in model_sizes:
-        result = benchmark_model(model_size, dataset, force_cpu)
+        result = benchmark_model(model_size, dataset, force_cpu=True)
         results.append(result)
 
         print(f"\n[RESULTS] flan-t5-{model_size}:")
-        print(f"Total time: {result['total_time']:.2f}s")
         print(f"Average time per query: {result['average_time']:.4f}s")
-        print(f"Queries per second: {result['queries_per_second']:.2f}")
+        # add median time per query and stddev, ai!
         print("=" * 50)
 
     return results
 
 if __name__ == "__main__":
-    import argparse
-    
-    parser = argparse.ArgumentParser(description="Benchmark Flan-T5 models for query reformulation")
-    parser.add_argument("--model-size", choices=MODEL_SIZES, default=None, 
-                        help="Size of the model to benchmark (small, base, large)")
-    parser.add_argument("--force-cpu", action="store_true", 
-                        help="Force using CPU even if GPU/MPS is available")
-    
-    args = parser.parse_args()
-    
-    if args.model_size:
-        run_benchmarks([args.model_size], args.force_cpu)
-    else:
-        run_benchmarks(MODEL_SIZES, args.force_cpu)
+    for model_size in MODEL_SIZES:
+        run_benchmarks(args.model_size)
