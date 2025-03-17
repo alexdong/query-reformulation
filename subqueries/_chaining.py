@@ -67,14 +67,14 @@ def traverse_relationship_chain(
 def generate(start_entity: str) -> str:
     # Traverse relationship chain
     chain = traverse_relationship_chain(start_entity)
-    print(chain)
+    #print(chain)
     if not chain:
         return ""
 
     # Generate subqueries
     subqueries = []
     chain_length = random.randint(2, 3)
-    while len(subqueries) < chain_length:
+    while len(subqueries) < chain_length and chain:
         source, rel_type, target = chain.pop(0)
         target_data = load_entity_data(target)
         source_data = load_entity_data(source)
@@ -86,8 +86,9 @@ def generate(start_entity: str) -> str:
 
     # Add a property query at the end if possible
     # Always end with the last target's property query
-    subqueries.append(f"{target_type} {format_property_name(random.choice(list(target_data['properties'].keys())))}")
-    print(subqueries)
+    final_property = format_property_name(random.choice(list(target_data['properties'].keys())))
+    subqueries.append(f"{target_type} {final_property}")
+    #print(subqueries)
 
     # Join with \n to keep on one line
     return "\\n".join(subqueries)
@@ -97,7 +98,7 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
     # Get all entity files
     entity_files = list(FACTS_DIR.glob("*.json"))
     assert entity_files, "No entity files found"
-    print(f"Found {len(entity_files)} entity files")
+    #print(f"Found {len(entity_files)} entity files")
     
     generate_subqueries_with_progress(
         count=count,
@@ -109,5 +110,5 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
 
 if __name__ == "__main__":
     #generate("Dunedin")
-    generate("Clutha River")
-    #generate_chaining_subqueries()
+    #generate("Clutha River")
+    generate_chaining_subqueries()

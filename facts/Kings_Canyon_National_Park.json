@@ -13,5 +13,39 @@
     "designation": "National Park",
     "type": "NationalPark"
   },
-  "relationship": []
+  "relationship": [
+    {
+      "location": "California, USA"
+    },
+    {
+      "established": "1890"
+    },
+    {
+      "area": "865,790 acres"
+    },
+    {
+      "elevation_min": "1,480 ft"
+    },
+    {
+      "elevation_max": "14,500 ft"
+    },
+    {
+      "biome": "Montane"
+    },
+    {
+      "governed_by": "United States National Park Service"
+    },
+    {
+      "neighboring_park": "Sequoia National Park"
+    },
+    {
+      "climate": "Mediterranean"
+    },
+    {
+      "designation": "National Park"
+    },
+    {
+      "type": "NationalPark"
+    }
+  ]
 }
