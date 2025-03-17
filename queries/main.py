@@ -140,6 +140,7 @@ def process_subqueries_file(reformulation_type: str) -> None:
 
 
 if __name__ == "__main__":
+    """
     reformulation_type = "chaining"
     subqueries = "Aoraki Mount Cook Part Of Mountain range\nMountain range Provides Water To River\nRiver Basin Area"
     queries = [
@@ -149,5 +150,13 @@ if __name__ == "__main__":
             'What is the area of the river basin linked to the mountain range that provides water to the river encompassing Aoraki Mount Cook?',
             'What is the area of the basin of the river that gets its water from the mountain range which includes Aoraki Mount Cook?'
             ]
-    #generate_queries(reformulation_type, subqueries)
+
+    reformulation_type = "comparison"
+    subqueries = "Qantas Foundation Date\nJetstar Foundation Date"
+    """
+
+    reformulation_type = "expansion"
+    subqueries = "Loreena McKennitt Harp\nLoreena McKennitt Keyboards\nLoreena McKennitt Guitar\nLoreena McKennitt Percussion"
+
+    queries = generate_queries(reformulation_type, subqueries)
     save_queries(reformulation_type, subqueries, queries)
