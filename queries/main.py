@@ -35,7 +35,6 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
             {"role": "system", "content": "You are a NLP aware specialist that reverses engineer search subqueries into their original search query."},
             {"role": "user", "content": prompt},
         ],
-        temperature=0.7,
         max_completion_tokens=4068,
     )
 
