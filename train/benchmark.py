@@ -188,8 +188,13 @@ def benchmark_model(
         # Load PyTorch model first to export to ONNX if needed
         model, tokenizer, device = load_model(model_size, force_cpu=True)  # Force CPU for ONNX export
         
-        # Quantize and export to ONNX if the model doesn't exist, ai!
-        onnx_path = quantize_and_export_to_onnx(model, tokenizer, model_size)
+        # Check if ONNX model already exists
+        onnx_path = ONNX_DIR / f"flan-t5-{model_size}-quantized.onnx"
+        if not onnx_path.exists():
+            # Quantize and export to ONNX only if it doesn't exist
+            onnx_path = quantize_and_export_to_onnx(model, tokenizer, model_size)
+        else:
+            print(f"[INFO] Using existing ONNX model at {onnx_path}")
         
         # Create ONNX Runtime session
         print(f"[INFO] Creating ONNX Runtime session...")
