@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 # Define directories and files
-DATASET_DIR = Path("dataset")
+DATASET_DIR = Path("datasets")
 FULL_DATASET = DATASET_DIR / "full.jsonl"
 TRAINING_DATASET = DATASET_DIR / "training.jsonl"
 VALIDATION_DATASET = DATASET_DIR / "validation.jsonl"

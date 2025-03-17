@@ -13,7 +13,7 @@ from typing import Dict, List
 
 # Define directories
 QUERIES_DIR = Path("queries")
-DATASET_DIR = Path("dataset")
+DATASET_DIR = Path("datasets")
 REFORMULATION_TYPES = ["comparison", "expansion", "chaining"]
 
 # Ensure the dataset directory exists

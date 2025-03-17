@@ -42,7 +42,7 @@ Once the dataset is generated, we use the `split.py` to create the dev, training
 
 Here is the ratio we are going to use:
 
-- dataset/training.jsonl: 80%
-- dataset/validation.jsonl: 10%
-- dataset/test.jsonl: 10%
+- datasets/training.jsonl: 80%
+- datasets/validation.jsonl: 10%
+- datasets/test.jsonl: 10%
 - dataset/dev.jsonl: 200 (small subset from the training.jsonl)
