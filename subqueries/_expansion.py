@@ -25,9 +25,7 @@ def find_entities_with_csv_properties(
             entity_name = file_path.stem.replace("_", " ")
             with open(file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-
-                if "properties" not in data:
-                    continue
+                assert "properties" in data, f"No properties found for {entity_name}"
 
                 for prop_name, prop_value in data["properties"].items():
                     # Skip certain metadata properties
@@ -35,8 +33,8 @@ def find_entities_with_csv_properties(
                         continue
 
                     # Check if property value is a string and contains commas
-                    if isinstance(prop_value, str) and "," in prop_value:
-                        values = [v.strip() for v in prop_value.split(",") if v.strip()]
+                    if ", " in prop_value:
+                        values = [v.strip() for v in prop_value.split(", ") if v.strip()]
                         if min_values <= len(values) <= max_values:
                             entities_with_csv.append(
                                 (entity_name, prop_name, prop_value),
