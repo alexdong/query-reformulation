@@ -57,12 +57,20 @@ def get_entities_by_type(
 def get_common_properties(entities: List[str]) -> List[str]:
     print(f"Finding common properties among {len(entities)} entities...")
     entity_properties = {}
+    
+    # Track which properties have numeric values
+    properties_with_numbers = set()
 
     for entity in entities:
         props = get_entity_properties(entity)
         if props:
             # Only consider properties with non-empty values
             entity_properties[entity] = {k for k, v in props.items() if v}
+            
+            # Check which properties have numeric values
+            for prop, value in props.items():
+                if value and any(char.isdigit() for char in str(value)):
+                    properties_with_numbers.add(prop)
 
     # Find intersection of all property sets
     if not entity_properties or len(entity_properties) < 2:
@@ -70,13 +78,13 @@ def get_common_properties(entities: List[str]) -> List[str]:
 
     common_props = list(set.intersection(*entity_properties.values()))
 
-    # Filter out some common metadata properties that aren't interesting for comparison
-    # Only select the properties with values that have numbers, ai!
+    # Filter to only include properties with numeric values and exclude metadata properties
     filtered_props = [
-        p for p in common_props if p not in ["type"]
+        p for p in common_props 
+        if p not in ["type"] and p in properties_with_numbers
     ]
 
-    print(f"Found {len(filtered_props)} common properties")
+    print(f"Found {len(filtered_props)} common properties with numeric values")
     return filtered_props
 
 def generate(entity_type: str) -> str:
