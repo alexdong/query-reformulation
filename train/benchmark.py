@@ -17,16 +17,37 @@ def load_dataset(file_path: Path) -> List[Dict[str, Any]]:
             data.append(json.loads(line))
     return data
 
-# add an option to run only on CPU. also, support MPS, ai!
-def load_model(model_size: str) -> tuple:
-    """Load the Flan-T5 model and tokenizer of specified size."""
+def load_model(model_size: str, force_cpu: bool = False) -> tuple:
+    """Load the Flan-T5 model and tokenizer of specified size.
+    
+    Args:
+        model_size: Size of the model ('small', 'base', or 'large')
+        force_cpu: If True, forces the model to run on CPU even if GPU/MPS is available
+    
+    Returns:
+        Tuple of (model, tokenizer, device)
+    """
     model_name = f"google/flan-t5-{model_size}"
     print(f"[INFO] Loading {model_name}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    
+    # Determine device
+    if force_cpu:
+        device = torch.device("cpu")
+        print("[INFO] Forcing CPU usage as requested")
+    elif torch.cuda.is_available():
+        device = torch.device("cuda")
+        print("[INFO] Using CUDA GPU")
+    elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+        device = torch.device("mps")
+        print("[INFO] Using Apple MPS (Metal Performance Shaders)")
+    else:
+        device = torch.device("cpu")
+        print("[INFO] Using CPU (no GPU/MPS available)")
+    
+    # Load model to the selected device
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
 
     return model, tokenizer, device
@@ -50,9 +71,9 @@ def generate_reformulation(
 
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-def benchmark_model(model_size: str, dataset: List[Dict[str, Any]]) -> Dict[str, float]:
+def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: bool = False) -> Dict[str, float]:
     """Benchmark the model on the dataset."""
-    model, tokenizer, device = load_model(model_size)
+    model, tokenizer, device = load_model(model_size, force_cpu)
 
     total_time = 0
     total_queries = len(dataset)
@@ -90,7 +111,7 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]]) -> Dict[str,
 
     return results
 
-def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> List[Dict[str, float]]:
+def run_benchmarks(model_sizes: List[str] = MODEL_SIZES, force_cpu: bool = False) -> List[Dict[str, float]]:
     """Run benchmarks for all specified model sizes."""
     dataset = load_dataset(DEV_DATASET)
 
@@ -98,7 +119,7 @@ def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> List[Dict[str, float
 
     results = []
     for model_size in model_sizes:
-        result = benchmark_model(model_size, dataset)
+        result = benchmark_model(model_size, dataset, force_cpu)
         results.append(result)
 
         print(f"\n[RESULTS] flan-t5-{model_size}:")
@@ -110,4 +131,17 @@ def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> List[Dict[str, float
     return results
 
 if __name__ == "__main__":
-    run_benchmarks(MODEL_SIZES)
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Benchmark Flan-T5 models for query reformulation")
+    parser.add_argument("--model-size", choices=MODEL_SIZES, default=None, 
+                        help="Size of the model to benchmark (small, base, large)")
+    parser.add_argument("--force-cpu", action="store_true", 
+                        help="Force using CPU even if GPU/MPS is available")
+    
+    args = parser.parse_args()
+    
+    if args.model_size:
+        run_benchmarks([args.model_size], args.force_cpu)
+    else:
+        run_benchmarks(MODEL_SIZES, args.force_cpu)
