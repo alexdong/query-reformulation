@@ -71,9 +71,9 @@ def generate_reformulation(
 
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: bool = False) -> Dict[str, float]:
+def benchmark_model(model_size: str, dataset: List[Dict[str, Any]]) -> Dict[str, float]:
     """Benchmark the model on the dataset."""
-    model, tokenizer, device = load_model(model_size, force_cpu)
+    model, tokenizer, device = load_model(model_size, force_cpu=True)
 
     total_time = 0
     total_queries = len(dataset)
@@ -85,6 +85,7 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
     print(f"[INFO] Benchmarking flan-t5-{model_size} on {total_queries} queries...")
     start_time = time.time()
 
+    # add a progress bar visualization here, ai!
     for item in dataset:
         query = item["query"]
         query_start = time.time()
