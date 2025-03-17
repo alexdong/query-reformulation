@@ -120,6 +120,29 @@ def random_entity_type_selector(entity_types: List[str]) -> str:
     """Select a random entity type."""
     return random.choice(entity_types)
 
+def format_property_name(prop: str) -> str:
+    """Convert property name to human readable format.
+    
+    Examples:
+        area_km2 -> Area km²
+        population_density -> Population density
+        gdp_per_capita -> GDP per capita
+    """
+    # Replace underscores with spaces
+    formatted = prop.replace('_', ' ')
+    
+    # Capitalize first letter of each word
+    formatted = ' '.join(word.capitalize() for word in formatted.split())
+    
+    # Handle special cases
+    formatted = formatted.replace('Km2', 'km²')
+    formatted = formatted.replace('Km 2', 'km²')
+    formatted = formatted.replace('Gdp', 'GDP')
+    formatted = formatted.replace('Unesco', 'UNESCO')
+    formatted = formatted.replace('Oecd', 'OECD')
+    
+    return formatted
+
 if __name__ == "__main__":
     print(get_all_entity_types())
     print(get_entity_properties("Dunedin"))

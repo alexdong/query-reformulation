@@ -4,6 +4,7 @@ from typing import List, Tuple
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
+    format_property_name,
     generate_subqueries_with_progress,
     get_entity_properties,
     get_entity_relationships,
@@ -83,7 +84,8 @@ def generate(start_entity: str) -> str:
     if filtered_props:
         # Add a property query
         prop_name = random.choice(list(filtered_props.keys()))
-        chain.append((final_entity, prop_name, filtered_props[prop_name]))
+        formatted_prop = format_property_name(prop_name)
+        chain.append((final_entity, formatted_prop, filtered_props[prop_name]))
 
     # Generate subqueries
     subqueries = []

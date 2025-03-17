@@ -5,6 +5,7 @@ from typing import List
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
+    format_property_name,
     generate_subqueries_with_progress,
     get_all_entity_types,
     get_entity_properties,
@@ -83,23 +84,6 @@ def get_common_properties(entities: List[str]) -> List[str]:
 
     return filtered_props
 
-def format_property_name(prop: str) -> str:
-    """Convert property name to human readable format.
-    
-    Examples:
-        area_km2 -> Area km²
-        population_density -> Population density
-    """
-    # Replace underscores with spaces
-    formatted = prop.replace('_', ' ')
-    
-    # Capitalize first letter of each word
-    formatted = ' '.join(word.capitalize() for word in formatted.split())
-    
-    # Handle special cases
-    formatted = formatted.replace('Km2', 'km²')
-    formatted = formatted.replace('Km 2', 'km²')
-    return formatted
 
 def generate(entity_type: str) -> str:
     """Generate a comparison subquery for a given entity type.
