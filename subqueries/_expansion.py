@@ -58,6 +58,7 @@ def generate(entity_name: str) -> str:
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
         for prop_name, prop_value in data["properties"].items():
+            #print(prop_name, prop_value)
             # Skip certain metadata properties
             if prop_name in ["type", "location", "description"]:
                 continue
@@ -65,47 +66,22 @@ def generate(entity_name: str) -> str:
             # Check if property value is a string and contains commas
             if isinstance(prop_value, str) and ", " in prop_value:
                 values = [v.strip() for v in prop_value.split(", ") if v.strip()]
+                #print(values)  
                 if len(values) >= 3:
                     csv_properties.append((prop_name, prop_value))
     
     # If no CSV properties found, return empty string
-    print(csv_properties)
     if not csv_properties:
         return ""
     
     # Pick a random CSV property
     prop_name, prop_value = random.choice(csv_properties)
-    print(prop_name, prop_value)
+    #print(prop_name, prop_value)
     
-    # Clean and split CSV values
-    # Replace semicolons with commas if they're used as separators
-    if ";" in prop_value and "," not in prop_value:
-        prop_value = prop_value.replace(";", ",")
-        
-    # Split by comma and clean values
-    values = [v.strip() for v in prop_value.split(",")]
-    
-    # Remove empty values and values that are just numbers or very short
-    values = [v for v in values if v and not re.match(r'^\d+$', v) and len(v) > 1]
-
-    # Skip if we don't have enough valid values
-    if len(values) < 3:
-        return ""
-
     # Generate subqueries
     subqueries = []
     for value in values:
-        # Format the subquery based on the property and value
-        if prop_name.lower() in [
-            "uses", "applications", "types", "categories", "examples"
-        ]:
-            subqueries.append(f"{entity_name} {value}")
-        else:
-            subqueries.append(f"{entity_name} {prop_name} {value}")
-
-    # Limit to a reasonable number of subqueries
-    if len(subqueries) > 8:
-        subqueries = random.sample(subqueries, 8)
+        subqueries.append(f"{entity_name} {value}")
 
     # Join with \n to keep on one line
     return "\\n".join(subqueries)
@@ -154,6 +130,6 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
     print(f"Completed generating {len(subqueries_list)} expansion subqueries")
 
 if __name__ == "__main__":
-    generate("Dunedin")
-    generate("Gifu Prefecture")
-    #generate_expansion_subqueries()
+    # generate("Dunedin")
+    # print(generate("Gifu Prefecture"))
+    generate_expansion_subqueries()
