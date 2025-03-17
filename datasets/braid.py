@@ -9,7 +9,7 @@ and creates a combined dataset where each query is paired with its subqueries.
 import json
 import re
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, List
 
 # Define directories
 QUERIES_DIR = Path("queries")
@@ -90,7 +90,7 @@ def braid_files() -> None:
                 for query in queries:
                     full_dataset.append({
                         "query": query,
-                        "subqueries": subqueries
+                        "subqueries": subqueries,
                     })
     
     # Write the full dataset

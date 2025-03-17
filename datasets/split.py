@@ -12,7 +12,7 @@ This script takes the full.jsonl dataset and splits it into:
 import json
 import random
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import Any, Dict, List
 
 # Define directories and files
 DATASET_DIR = Path("dataset")
@@ -76,7 +76,7 @@ def split_dataset() -> None:
     save_dataset(test_data, TEST_DATASET)
     save_dataset(dev_data, DEV_DATASET)
     
-    print(f"[INFO] Dataset split complete:")
+    print("[INFO] Dataset split complete:")
     print(f"  - Training: {len(train_data)} examples")
     print(f"  - Validation: {len(val_data)} examples")
     print(f"  - Test: {len(test_data)} examples")

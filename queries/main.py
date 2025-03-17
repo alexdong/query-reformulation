@@ -1,7 +1,7 @@
-import os
 import json
+import os
 from pathlib import Path
-from typing import List, Tuple, Dict, Any
+from typing import Any, Dict, List, Tuple
 
 import jinja2
 from openai import OpenAI
@@ -27,13 +27,13 @@ def create_request_body(reformulation_type: str, subqueries: str) -> Tuple[Dict[
         "model": "o3-mini",
         "messages": [
             {"role": "system", "content": "You are a NLP specialist with search query."},
-            {"role": "user", "content": prompt}
+            {"role": "user", "content": prompt},
         ],
         "max_completion_tokens": 4068,
         "metadata": {
             "subqueries": subqueries,
-            "reformulation_type": reformulation_type
-        }
+            "reformulation_type": reformulation_type,
+        },
     }
     return request_body, prompt
 
@@ -85,7 +85,7 @@ def save_queries(reformulation_type: str, subqueries: str, queries: List[str]) -
         for query in queries:
             pair = {
                 "query": query,
-                "subqueries": subqueries
+                "subqueries": subqueries,
             }
             f.write(json.dumps(pair) + "\n")
     print(f"[INFO] Saved {len(queries)} queries to {output_file}")
@@ -97,7 +97,13 @@ def process_subqueries_file(reformulation_type: str) -> None:
     Args:
         reformulation_type: One of "comparison", "expansion", or "chaining"
     """
-    from rich.progress import Progress, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
+    from rich.progress import (
+        BarColumn,
+        Progress,
+        TextColumn,
+        TimeElapsedColumn,
+        TimeRemainingColumn,
+    )
     
     assert reformulation_type in REFORMULATION_TYPES
     
@@ -166,7 +172,7 @@ def create_batch_request_file(reformulation_type: str) -> None:
             
             # Get the request body
             request_body, _ = create_request_body(reformulation_type, subqueries)
-            metadata = request_body.pop("metadata", {})
+            request_body.pop("metadata", {})
             
             # Create the batch request structure
             batch_request = {
@@ -180,8 +186,8 @@ def create_batch_request_file(reformulation_type: str) -> None:
             f.write(json.dumps(batch_request) + "\n")
     
     print(f"[INFO] Created batch request file with {len(subqueries_list)} requests")
-    print(f"[INFO] You can now upload this file to OpenAI's batch processing API:")
-    print(f"[INFO] https://platform.openai.com/docs/guides/batch")
+    print("[INFO] You can now upload this file to OpenAI's batch processing API:")
+    print("[INFO] https://platform.openai.com/docs/guides/batch")
 
 
 if __name__ == "__main__":
