@@ -17,7 +17,7 @@ def load_dataset(file_path: Path) -> List[Dict[str, Any]]:
             data.append(json.loads(line))
     return data
 
-# TODO: add an option to run only on CPU.
+# add an option to run only on CPU. also, support MPS, ai!
 def load_model(model_size: str) -> tuple:
     """Load the Flan-T5 model and tokenizer of specified size."""
     model_name = f"google/flan-t5-{model_size}"
@@ -71,10 +71,12 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]]) -> Dict[str,
         query_time = time.time() - query_start
         total_time += query_time
 
+        """
         print(f"Query: {query}")
         print(f"Reformulation: {reformulation}")
         print(f"Time: {query_time:.4f}s")
         print("-" * 50)
+        """
 
     end_time = time.time()
 
