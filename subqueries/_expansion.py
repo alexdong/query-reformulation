@@ -66,30 +66,16 @@ def clean_csv_values(csv_string: str) -> List[str]:
     return values
 
 def generate(entity_name: str) -> str:
-    """Generate an expansion subquery for a given entity.
-    
-    Args:
-        entity_name: The name of the entity to generate expansion for
-        
-    Returns:
-        A string containing the generated subquery or empty string if generation failed
-    """
-    # Find CSV properties for this entity
     csv_properties = []
-    
     file_path = FACTS_DIR / f"{entity_name.replace(' ', '_')}.json"
     if not file_path.exists():
         return ""
 
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-        if "properties" not in data:
-            return ""
-
         for prop_name, prop_value in data["properties"].items():
             # Skip certain metadata properties
-            if prop_name in ["type", "instance_of", "description"]:
+            if prop_name in ["type", "location", "description"]:
                 continue
 
             # Check if property value is a string and contains commas
@@ -99,11 +85,13 @@ def generate(entity_name: str) -> str:
                     csv_properties.append((prop_name, prop_value))
     
     # If no CSV properties found, return empty string
+    print(csv_properties)
     if not csv_properties:
         return ""
     
     # Pick a random CSV property
     prop_name, prop_value = random.choice(csv_properties)
+    print(prop_name, prop_value)
     
     # Split and clean the CSV value
     values = clean_csv_values(prop_value)
@@ -175,4 +163,5 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
 
 if __name__ == "__main__":
     generate("Dunedin")
+    generate("Gifu Prefecture")
     #generate_expansion_subqueries()
