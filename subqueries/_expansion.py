@@ -179,4 +179,5 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
     print(f"Completed generating {len(subqueries_list)} expansion subqueries")
 
 if __name__ == "__main__":
-    generate_expansion_subqueries()
+    generate("Dunedin")
+    #generate_expansion_subqueries()
