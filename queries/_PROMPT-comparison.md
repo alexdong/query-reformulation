@@ -1,3 +1,6 @@
+{% extends "_PROMPT-base.md" %}
+
+{% block context %}
 {% block guidelines %}
 1. Identify the core entities and the shared property in these subqueries.  
 2. Guess the intent of the comparison over the property. 

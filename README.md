@@ -131,7 +131,13 @@ wikidata API. The latest LLM seems to be able to handle the "summarise" a lot
 better. 
 
 The deterministic generation of `subqueries` will allow me to generate a lot of
-data for free. The idea is captured in [[README-synthetic-data-chain.md]].
+data for free. The idea is captured in [[subquries/README.md]].
+
+One more benefit of this approach is that when I ask for the input, I can
+generate 25 different queries. This will give us the training data for
+"conciseness" and "reparaphrasing" for free.
+
+[[`queries/_README.md`]] has the plan to generate the queries from the subqueries.
 
 Given the subqueries, I can use the LLM to generate the final query. The
 prompts are:
@@ -140,9 +146,6 @@ prompts are:
 - Comparison: [[PROMPT-question_generation-comparison.md]]
 - Expansion: [[PROMPT-question_generation-expansion.md]]
 
-One more benefit of this approach is that when I ask for the input, I can
-generate 25 different queries. This will give us the training data for
-"conciseness" and "reparaphrasing" for free.
 
 Choose the LLM - o3-mini
 ----------------------------
@@ -224,11 +227,6 @@ Also took the time to clean up the project structure as follows:
   Since we have 25 quries per subquery, we have 25 lines per subquery.
   These 3 files are the training/test data for the SFT step.
 - `docs/`: contains the READMEs and other documentation files.
-
-
-Generate Queries from Subqueries
----------------------------------
-
 
 
 

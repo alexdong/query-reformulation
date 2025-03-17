@@ -6,7 +6,6 @@ from _utils import (
     SUBQUERIES_DIR,
     format_property_name,
     generate_subqueries_with_progress,
-    get_entity_properties,
     get_entity_relationships,
     load_entity_data,
     random_entity_selector,

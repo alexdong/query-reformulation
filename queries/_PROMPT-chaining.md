@@ -1,3 +1,5 @@
+{% extends "_PROMPT-base.md" %}
+
 {% block guidelines %}
 1. Identify the core entities and the shared property in these subqueries.  
 2. The subqueries follow a sequential chain-of-logic triples, follow through the chain to identify the question the user is trying to ask.

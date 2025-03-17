@@ -1,3 +1,5 @@
+{% extends "_PROMPT-base.md" %}
+
 {% block guidelines %}
 1. Identify the core entities, the associated properties in each subquery.
 2. Use your knowledge to identify the core entity that is common in all subqueries
