@@ -142,23 +142,13 @@ def generate_reformulation(
         
         return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
+# add an option to use TorchScript. save the model to a file and load it back. ai!
 def benchmark_model(
     model_size: str, 
     dataset: List[Dict[str, Any]], 
     force_cpu: bool = False,
     use_onnx: bool = False
 ) -> Dict[str, float]:
-    """Benchmark the model on the dataset.
-    
-    Args:
-        model_size: Size of the model ('small', 'base', or 'large')
-        dataset: The dataset to benchmark on
-        force_cpu: Whether to force CPU usage
-        use_onnx: Whether to use ONNX runtime
-        
-    Returns:
-        Dictionary of benchmark statistics
-    """
     if use_onnx:
         print("[INFO] ONNX export for T5 models is complex - using PyTorch instead")
         use_onnx = False
@@ -172,7 +162,7 @@ def benchmark_model(
     query_times = []  # Track individual query times for statistics
 
     # Warm-up run
-    generate_reformulation(model, tokenizer, dataset[0]["query"], device, use_onnx=False)
+    generate_reformulation(model, tokenizer, dataset[0]["query"], device, use_onnx=use_onnx)
 
     print(f"[INFO] Benchmarking flan-t5-{model_size} on {total_queries} queries...")
     print(f"[INFO] Using PyTorch")
