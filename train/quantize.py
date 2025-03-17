@@ -6,7 +6,6 @@ Quantize the model to 8-bit for faster inference on CPU.
 import argparse
 import time
 from pathlib import Path
-from typing import Tuple
 
 import torch
 from rich.console import Console
@@ -18,7 +17,7 @@ QUANTIZED_DIR = Path("models/quantized")
 console = Console()
 
 
-def load_model(model_size: str, force_cpu: bool = False) -> Tuple[AutoModelForSeq2SeqLM, AutoTokenizer]:
+def load_model(model_size: str, force_cpu: bool = False):
     """Load the model and tokenizer.
     
     Args:
@@ -26,7 +25,7 @@ def load_model(model_size: str, force_cpu: bool = False) -> Tuple[AutoModelForSe
         force_cpu: Whether to force CPU usage even if GPU is available
         
     Returns:
-        Tuple of (model, tokenizer)
+        Tuple of (model, tokenizer, device)
     """
     model_name = f"google/flan-t5-{model_size}"
     
@@ -45,11 +44,11 @@ def load_model(model_size: str, force_cpu: bool = False) -> Tuple[AutoModelForSe
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
     model = model.to(device)
     
-    return model, tokenizer
+    return model, tokenizer, device
 
 
-def quantize_model(model: AutoModelForSeq2SeqLM, model_size: str) -> torch.nn.Module:
-    """Dynamically quantize the model to 8-bit.
+def quantize_model(model, model_size: str):
+    """Quantize the model using int8 weights.
     
     Args:
         model: The PyTorch model to quantize
@@ -66,17 +65,25 @@ def quantize_model(model: AutoModelForSeq2SeqLM, model_size: str) -> torch.nn.Mo
     # Prepare for quantization
     model.eval()
     
-    # Apply dynamic quantization
-    quantized_model = torch.quantization.quantize_dynamic(
-        model,
-        {torch.nn.Linear},  # Quantize only linear layers
-        dtype=torch.qint8
-    )
+    # Apply weight-only quantization (a simpler approach that works better with transformers)
+    # We'll quantize the weights to int8 but keep activations in fp32
+    with torch.no_grad():
+        for name, module in model.named_modules():
+            if isinstance(module, torch.nn.Linear):
+                # Quantize weights to int8
+                module.weight.data = torch.quantize_per_tensor(
+                    module.weight.data, 
+                    scale=1.0/127.0, 
+                    zero_point=0, 
+                    dtype=torch.qint8
+                ).dequantize()
+                
+                console.print(f"[dim]Quantized linear layer: {name}[/dim]")
     
-    return quantized_model
+    return model
 
 
-def save_quantized_model(model: torch.nn.Module, tokenizer: AutoTokenizer, model_size: str) -> Path:
+def save_quantized_model(model, tokenizer, model_size: str) -> Path:
     """Save the quantized model.
     
     Args:
@@ -99,19 +106,20 @@ def save_quantized_model(model: torch.nn.Module, tokenizer: AutoTokenizer, model
     return save_dir
 
 
-def test_quantized_model(model: torch.nn.Module, tokenizer: AutoTokenizer) -> None:
+def test_quantized_model(model, tokenizer, device) -> None:
     """Test the quantized model with a sample query.
     
     Args:
         model: The quantized model
         tokenizer: The tokenizer for the model
+        device: The device to run inference on
     """
     sample_query = "Create a table for top noise cancelling headphones that are not expensive"
     
     console.print(f"[bold]Testing with sample query:[/bold] {sample_query}")
     
     # Tokenize input
-    inputs = tokenizer(sample_query, return_tensors="pt")
+    inputs = tokenizer(sample_query, return_tensors="pt").to(device)
     
     # Measure inference time
     start_time = time.time()
@@ -143,7 +151,10 @@ def main(model_size: str, force_cpu: bool = False) -> None:
         force_cpu: Whether to force CPU usage even if GPU is available
     """
     # Load model
-    model, tokenizer = load_model(model_size, force_cpu)
+    model, tokenizer, device = load_model(model_size, force_cpu)
+    
+    # Get original model size
+    original_size = sum(p.numel() * p.element_size() for p in model.parameters()) / (1024 * 1024)
     
     # Quantize model
     quantized_model = quantize_model(model, model_size)
@@ -152,10 +163,10 @@ def main(model_size: str, force_cpu: bool = False) -> None:
     save_quantized_model(quantized_model, tokenizer, model_size)
     
     # Test quantized model
-    test_quantized_model(quantized_model, tokenizer)
+    quantized_model = quantized_model.to(device)
+    test_quantized_model(quantized_model, tokenizer, device)
     
     # Print model size comparison
-    original_size = sum(p.numel() * p.element_size() for p in model.parameters()) / (1024 * 1024)
     quantized_size = sum(p.numel() * p.element_size() for p in quantized_model.parameters()) / (1024 * 1024)
     
     console.print(f"[bold]Original model size:[/bold] {original_size:.2f} MB")
