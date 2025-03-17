@@ -82,13 +82,9 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
     total_queries = len(dataset)
     query_times = []  # Track individual query times for statistics
 
-    # Warm-up run
-    if total_queries > 0:
-        generate_reformulation(model, tokenizer, dataset[0]["query"], device)
+    generate_reformulation(model, tokenizer, dataset[0]["query"], device)
 
     print(f"[INFO] Benchmarking flan-t5-{model_size} on {total_queries} queries...")
-    start_time = time.time()
-
     for item in tqdm(dataset, desc=f"Processing queries", unit="query"):
         query = item["query"]
         query_start = time.time()
@@ -97,51 +93,22 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
         total_time += query_time
         query_times.append(query_time)  # Store individual query time
 
-        """
-        print(f"Query: {query}")
-        print(f"Reformulation: {reformulation}")
-        print(f"Time: {query_time:.4f}s")
-        print("-" * 50)
-        """
-
-    end_time = time.time()
-
-    # Calculate statistics
+    # Calculate statistics. 
+    # add p80, p90 and p95, ai!
     median_time = statistics.median(query_times) if query_times else 0
     stddev_time = statistics.stdev(query_times) if len(query_times) > 1 else 0
 
-    results = {
+    return {
         "model_size": model_size,
-        "total_time": end_time - start_time,
         "average_time": total_time / total_queries if total_queries > 0 else 0,
         "median_time": median_time,
-        "stddev_time": stddev_time,
-        "queries_per_second": total_queries / total_time if total_time > 0 else 0,
-        "total_queries": total_queries,
-        "query_times": query_times,  # Include all individual times for further analysis if needed
+        "stddev_time": stddev_time
     }
 
-    return results
-
-def run_benchmarks(model_sizes: List[str] = MODEL_SIZES, force_cpu: bool = False) -> List[Dict[str, float]]:
-    """Run benchmarks for all specified model sizes."""
-    dataset = load_dataset(DEV_DATASET)
-
-    print(f"[INFO] Loaded {len(dataset)} examples from {DEV_DATASET}")
-
-    results = []
-    for model_size in model_sizes:
-        result = benchmark_model(model_size, dataset, force_cpu)
-        results.append(result)
-
-        print(f"\n[RESULTS] flan-t5-{model_size}:")
-        print(f"Average time per query: {result['average_time']:.4f}s")
-        print(f"Median time per query: {result['median_time']:.4f}s")
-        print(f"Standard deviation: {result['stddev_time']:.4f}s")
-        print("=" * 50)
-
-    return results
 
 if __name__ == "__main__":
+    dataset = load_dataset(DEV_DATASET)
+    print(f"[INFO] Loaded {len(dataset)} examples from {DEV_DATASET}")
+
     for model_size in MODEL_SIZES:
-        run_benchmarks([model_size])
+        print(benchmark_model(model_size, dataset, force_cpu=True))
