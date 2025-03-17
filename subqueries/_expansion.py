@@ -1,12 +1,10 @@
 import json
 import random
-import re
 from typing import List, Tuple
 
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
-    ensure_output_directory,
     generate_subqueries_with_progress,
     random_entity_selector,
 )
@@ -14,7 +12,7 @@ from _utils import (
 OUTPUT_FILE = SUBQUERIES_DIR / "expansion.txt"
 
 def find_entities_with_csv_properties(
-    min_values: int = 3, max_values: int = 10
+    min_values: int = 3, max_values: int = 10,
 ) -> List[Tuple[str, str, str]]:
     """
     Find entities with properties that contain CSV lists.
@@ -41,7 +39,7 @@ def find_entities_with_csv_properties(
                         values = [v.strip() for v in prop_value.split(",") if v.strip()]
                         if min_values <= len(values) <= max_values:
                             entities_with_csv.append(
-                                (entity_name, prop_name, prop_value)
+                                (entity_name, prop_name, prop_value),
                             )
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
@@ -66,7 +64,7 @@ def generate(entity_name: str) -> str:
             # Check if property value is a string and contains commas
             if isinstance(prop_value, str) and ", " in prop_value:
                 values = [v.strip() for v in prop_value.split(", ") if v.strip()]
-                #print(values)  
+                #print(values)
                 if len(values) >= 3:
                     csv_properties.append((prop_name, prop_value))
     

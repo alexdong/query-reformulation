@@ -1,14 +1,13 @@
 import random
-from typing import List, Tuple, Optional
+from typing import List, Tuple
 
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
-    ensure_output_directory,
+    generate_subqueries_with_progress,
     get_entity_properties,
     get_entity_relationships,
     load_entity_data,
-    generate_subqueries_with_progress,
     random_entity_selector,
 )
 

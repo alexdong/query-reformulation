@@ -5,17 +5,16 @@ from typing import List
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
-    ensure_output_directory,
+    generate_subqueries_with_progress,
     get_all_entity_types,
     get_entity_properties,
-    generate_subqueries_with_progress,
     random_entity_type_selector,
 )
 
 OUTPUT_FILE = SUBQUERIES_DIR / "comparison.txt"
 
 def get_entities_by_type(
-    entity_type: str, min_count: int = 2, max_count: int = 5
+    entity_type: str, min_count: int = 2, max_count: int = 5,
 ) -> List[str]:
     """Find entities of the specified type."""
     matching_entities = []
@@ -47,7 +46,7 @@ def get_entities_by_type(
     if len(matching_entities) >= min_count:
         count = min(
             max(min_count, random.randint(min_count, max_count)),
-            len(matching_entities)
+            len(matching_entities),
         )
         return random.sample(matching_entities, count)
 
@@ -78,7 +77,7 @@ def get_common_properties(entities: List[str]) -> List[str]:
 
     # Filter to only include properties with numeric values and exclude metadata properties
     filtered_props = [
-        p for p in common_props 
+        p for p in common_props
         if p not in ["type"] and p in properties_with_numbers
     ]
 
@@ -137,7 +136,7 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
     print(f"Found {len(entity_types)} entity types")
     
     # Create a selector function that returns a random entity type
-    def entity_type_selector():
+    def entity_type_selector() -> str:
         return random_entity_type_selector(entity_types)
     
     generate_subqueries_with_progress(
