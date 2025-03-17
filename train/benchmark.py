@@ -82,14 +82,13 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]]) -> Dict[str,
         "model_size": model_size,
         "total_time": end_time - start_time,
         "average_time": total_time / total_queries if total_queries > 0 else 0,
-        "queries_per_second": total_queries / total_time if total_time > 0 else
-0,
+        "queries_per_second": total_queries / total_time if total_time > 0 else 0,
         "total_queries": total_queries,
     }
 
     return results
 
-def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> None:
+def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> List[Dict[str, float]]:
     """Run benchmarks for all specified model sizes."""
     dataset = load_dataset(DEV_DATASET)
 
@@ -109,5 +108,4 @@ def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> None:
     return results
 
 if __name__ == "__main__":
-    for model_size in MODEL_SIZES:
-        run_benchmarks(model_size)
+    run_benchmarks(MODEL_SIZES)
