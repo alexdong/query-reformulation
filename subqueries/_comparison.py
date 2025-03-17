@@ -79,17 +79,48 @@ def get_common_properties(entities: List[str]) -> List[str]:
     print(f"Found {len(filtered_props)} common properties")
     return filtered_props
 
-# generate(entity: str) -> str and update the rest accordingly, ai!
-def generate(entity_types: List[str], count: int) -> List[str]:
-    """Generate comparison subqueries.
+def generate(entity_type: str) -> str:
+    """Generate a comparison subquery for a given entity type.
     
     Args:
-        entity_types: List of entity types to choose from
-        count: Number of subqueries to generate
+        entity_type: The entity type to generate a comparison for
         
     Returns:
-        List of generated subqueries
+        A string containing the generated subquery or empty string if generation failed
     """
+    # Get random entities of this type
+    entities = get_entities_by_type(entity_type, 2, 5)
+
+    if len(entities) < 2:
+        return ""  # Need at least 2 entities for comparison
+
+    # Find common properties
+    common_props = get_common_properties(entities)
+
+    if not common_props:
+        return ""
+
+    # Pick a random common property
+    prop = random.choice(common_props)
+
+    # Generate subqueries - join with \n to keep on one line
+    subqueries = [f"{entity} {prop}" for entity in entities]
+    return "\\n".join(subqueries)
+
+def generate_comparison_subqueries(count: int = 1333) -> None:
+    """Generate comparison subqueries and write to output file."""
+    print(f"Generating {count} comparison subqueries...")
+    ensure_output_directory(OUTPUT_FILE)
+
+    # Get all unique entity types
+    entity_types = get_all_entity_types()
+
+    if not entity_types:
+        print("No entity types found")
+        return
+
+    print(f"Found {len(entity_types)} entity types")
+
     subqueries_list = []
     attempts = 0
     max_attempts = count * 10  # Limit attempts to avoid infinite loops
@@ -106,52 +137,17 @@ def generate(entity_types: List[str], count: int) -> List[str]:
 
         # Pick a random entity type
         entity_type = random.choice(entity_types)
-
-        # Get random entities of this type
-        entities = get_entities_by_type(entity_type, 2, 5)
-
-        if len(entities) < 2:
-            continue  # Need at least 2 entities for comparison
-
-        # Find common properties
-        common_props = get_common_properties(entities)
-
-        if not common_props:
-            continue
-
-        # Pick a random common property
-        prop = random.choice(common_props)
-
-        # Generate subqueries - join with \n to keep on one line
-        subqueries = [f"{entity} {prop}" for entity in entities]
-        subquery_text = "\\n".join(subqueries)
-
-        # Avoid duplicates
-        if subquery_text not in subqueries_list:
-            subqueries_list.append(subquery_text)
+        
+        # Generate a subquery
+        subquery = generate(entity_type)
+        
+        # If generation was successful and not a duplicate, add to list
+        if subquery and subquery not in subqueries_list:
+            subqueries_list.append(subquery)
 
             # Print progress
             if len(subqueries_list) % 50 == 0:
                 print(f"Generated {len(subqueries_list)}/{count} comparison subqueries")
-                
-    return subqueries_list
-
-def generate_comparison_subqueries(count: int = 1333) -> None:
-    """Generate comparison subqueries and write to output file."""
-    print(f"Generating {count} comparison subqueries...")
-    ensure_output_directory(OUTPUT_FILE)
-
-    # Get all unique entity types
-    entity_types = get_all_entity_types()
-
-    if not entity_types:
-        print("No entity types found")
-        return
-
-    print(f"Found {len(entity_types)} entity types")
-
-    # Generate subqueries
-    subqueries_list = generate(entity_types, count)
 
     # Write to file
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
