@@ -87,6 +87,29 @@ def get_common_properties(entities: List[str]) -> List[str]:
     print(f"Found {len(filtered_props)} common properties with numeric values")
     return filtered_props
 
+def format_property_name(prop: str) -> str:
+    """Convert property name to human readable format.
+    
+    Examples:
+        area_km2 -> Area km²
+        population_density -> Population density
+        gdp_per_capita -> GDP per capita
+    """
+    # Replace underscores with spaces
+    formatted = prop.replace('_', ' ')
+    
+    # Capitalize first letter of each word
+    formatted = ' '.join(word.capitalize() for word in formatted.split())
+    
+    # Handle special cases
+    formatted = formatted.replace('Km2', 'km²')
+    formatted = formatted.replace('Km 2', 'km²')
+    formatted = formatted.replace('Gdp', 'GDP')
+    formatted = formatted.replace('Unesco', 'UNESCO')
+    formatted = formatted.replace('Oecd', 'OECD')
+    
+    return formatted
+
 def generate(entity_type: str) -> str:
     """Generate a comparison subquery for a given entity type.
     
@@ -107,12 +130,13 @@ def generate(entity_type: str) -> str:
     if not common_props:
         return ""
 
-    # Pick a random common property and convert to human readable format. area_km2 -> Area km², ai!
+    # Pick a random common property and convert to human readable format
     prop = random.choice(common_props)
-    print(f"Picked property: {prop}")
+    formatted_prop = format_property_name(prop)
+    print(f"Picked property: {prop} -> {formatted_prop}")
 
     # Generate subqueries - join with \n to keep on one line
-    subqueries = [f"{entity} {prop}" for entity in entities]
+    subqueries = [f"{entity} {formatted_prop}" for entity in entities]
     return "\\n".join(subqueries)
 
 def generate_comparison_subqueries(count: int = 1333) -> None:
