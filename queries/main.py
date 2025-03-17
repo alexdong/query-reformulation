@@ -25,6 +25,7 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     # Instead of using Jinja2 template, let's use a simple string replacement
     # This avoids issues with Jinja2 syntax in the template files
     prompt = prompt_template.replace("{{subqueries}}", subqueries)
+    print(prompt)
     
     print(f"[INFO] Generated prompt for {reformulation_type}")
     
@@ -41,8 +42,8 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     # Calculate and print token usage and cost
     input_tokens = response.usage.prompt_tokens
     output_tokens = response.usage.completion_tokens
-    input_cost = input_tokens * 0.00015  # $0.15 per 1000 tokens
-    output_cost = output_tokens * 0.0006  # $0.60 per 1000 tokens
+    input_cost = input_tokens * 0.00015  # $1.15 per 1M tokens
+    output_cost = output_tokens * 0.0006  # $4.40 per 1M tokens
     total_cost = input_cost + output_cost
     
     print(f"[INFO] Token usage: {input_tokens} input tokens, {output_tokens} output tokens")
@@ -50,6 +51,7 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     
     # Extract the generated queries
     generated_text = response.choices[0].message.content
+    print(f"[INFO] Generated text: {generated_text}")
     
     # Split the response into individual queries
     queries = generated_text.strip().split("\n")
