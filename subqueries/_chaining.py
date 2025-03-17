@@ -1,5 +1,7 @@
 import random
-from typing import List, Tuple
+from typing import List, Tuple, Optional
+
+from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn
 
 from _utils import (
     FACTS_DIR,
@@ -54,103 +56,109 @@ def traverse_relationship_chain(
 
     return chain
 
+def generate(start_entity: str) -> str:
+    """Generate a chaining subquery starting from the given entity.
+    
+    Args:
+        start_entity: The entity to start the chain from
+        
+    Returns:
+        A string containing the generated subquery or empty string if generation failed
+    """
+    # Traverse relationship chain
+    chain = traverse_relationship_chain(start_entity)
+
+    if not chain:
+        return ""
+
+    # Add a property query at the end if possible
+    final_entity = chain[-1][2]
+    properties = get_entity_properties(final_entity)
+
+    # Filter out common metadata properties
+    filtered_props = {
+        k: v for k, v in properties.items()
+        if k not in ["type", "instance_of", "description"]
+    }
+
+    if filtered_props:
+        # Add a property query
+        prop_name = random.choice(list(filtered_props.keys()))
+        chain.append((final_entity, prop_name, filtered_props[prop_name]))
+
+    # Generate subqueries
+    subqueries = []
+
+    # Process relationship chain
+    for i, (source, rel_type, target) in enumerate(chain):
+        if i < len(chain) - 1 or not filtered_props:
+            # For relationships
+            source_type = ""
+            source_data = load_entity_data(source)
+            if source_data and "properties" in source_data:
+                if "type" in source_data["properties"]:
+                    source_type = source_data["properties"]["type"]
+                elif "instance_of" in source_data["properties"]:
+                    source_type = source_data["properties"]["instance_of"]
+
+            target_type = ""
+            target_data = load_entity_data(target)
+            if target_data and "properties" in target_data:
+                if "type" in target_data["properties"]:
+                    target_type = target_data["properties"]["type"]
+                elif "instance_of" in target_data["properties"]:
+                    target_type = target_data["properties"]["instance_of"]
+
+            if source_type and target_type:
+                subqueries.append(f"{source} {rel_type} {target_type}")
+            else:
+                subqueries.append(f"{source} {rel_type} {target}")
+        else:
+            # For the final property
+            subqueries.append(f"{source} {rel_type}")
+
+    # Join with \n to keep on one line
+    return "\\n".join(subqueries)
+
 def generate_chaining_subqueries(count: int = 1333) -> None:
     """Generate chaining subqueries and write to output file."""
-    print(f"Generating {count} chaining subqueries...")
     ensure_output_directory(OUTPUT_FILE)
 
     # Get all entity files
     entity_files = list(FACTS_DIR.glob("*.json"))
-    if not entity_files:
-        print("No entity files found")
-        return
-
+    assert entity_files, "No entity files found"
     print(f"Found {len(entity_files)} entity files")
 
-    # Generate subqueries
     subqueries_list = []
-    attempts = 0
     max_attempts = count * 10  # Limit attempts to avoid infinite loops
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        while len(subqueries_list) < count and attempts < max_attempts:
-            attempts += 1
-
-            # Print progress more frequently
-            if attempts % 100 == 0:
-                print(
-                    f"Attempt {attempts}/{max_attempts}, "
-                    f"generated {len(subqueries_list)}/{count} subqueries"
-                )
-
-            # Pick a random entity to start with
-            random_file = random.choice(entity_files)
-            start_entity = random_file.stem.replace("_", " ")
-
-            # Traverse relationship chain
-            chain = traverse_relationship_chain(start_entity)
-
-            if not chain:
-                continue
-
-            # Add a property query at the end if possible
-            final_entity = chain[-1][2]
-            properties = get_entity_properties(final_entity)
-
-            # Filter out common metadata properties
-            filtered_props = {
-                k: v for k, v in properties.items()
-                if k not in ["type", "instance_of", "description"]
-            }
-
-            if filtered_props:
-                # Add a property query
-                prop_name = random.choice(list(filtered_props.keys()))
-                chain.append((final_entity, prop_name, filtered_props[prop_name]))
-
-            # Generate subqueries
-            subqueries = []
-
-            # Process relationship chain
-            for i, (source, rel_type, target) in enumerate(chain):
-                if i < len(chain) - 1 or not filtered_props:
-                    # For relationships
-                    source_type = ""
-                    source_data = load_entity_data(source)
-                    if source_data and "properties" in source_data:
-                        if "type" in source_data["properties"]:
-                            source_type = source_data["properties"]["type"]
-                        elif "instance_of" in source_data["properties"]:
-                            source_type = source_data["properties"]["instance_of"]
-
-                    target_type = ""
-                    target_data = load_entity_data(target)
-                    if target_data and "properties" in target_data:
-                        if "type" in target_data["properties"]:
-                            target_type = target_data["properties"]["type"]
-                        elif "instance_of" in target_data["properties"]:
-                            target_type = target_data["properties"]["instance_of"]
-
-                    if source_type and target_type:
-                        subqueries.append(f"{source} {rel_type} {target_type}")
-                    else:
-                        subqueries.append(f"{source} {rel_type} {target}")
-                else:
-                    # For the final property
-                    subqueries.append(f"{source} {rel_type}")
-
-            # Join with \n to keep on one line
-            subquery_text = "\\n".join(subqueries)
-
-            # Avoid duplicates
-            if subquery_text not in subqueries_list:
-                subqueries_list.append(subquery_text)
-                f.write(f"{subquery_text}\n")
-
-                # Print progress
-                if len(subqueries_list) % 50 == 0:
-                    print(f"Generated {len(subqueries_list)}/{count} chaining subqueries")
-
+    
+    with Progress(
+        TextColumn("[bold blue]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        TimeRemainingColumn(),
+    ) as progress:
+        task = progress.add_task(f"Generating {count} chaining subqueries", total=count)
+        
+        attempts = 0
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            while len(subqueries_list) < count and attempts < max_attempts:
+                attempts += 1
+                
+                # Pick a random entity to start with
+                random_file = random.choice(entity_files)
+                start_entity = random_file.stem.replace("_", " ")
+                
+                # Generate a subquery
+                subquery = generate(start_entity)
+                
+                if not subquery or subquery in subqueries_list:
+                    continue
+                
+                subqueries_list.append(subquery)
+                f.write(f"{subquery}\n")
+                progress.update(task, completed=len(subqueries_list))
+    
     print(f"Completed generating {len(subqueries_list)} chaining subqueries")
 
 if __name__ == "__main__":
