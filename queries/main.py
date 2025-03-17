@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from typing import List
+
 import jinja2
 from openai import OpenAI
 
@@ -41,12 +42,12 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     
     # Call the API
-    print(f"[INFO] Calling OpenAI API with o3-mini model...")
+    print("[INFO] Calling OpenAI API with o3-mini model...")
     response = client.chat.completions.create(
         model="o3-mini",
         messages=[
             {"role": "system", "content": "You are a helpful assistant that generates search queries."},
-            {"role": "user", "content": prompt}
+            {"role": "user", "content": prompt},
         ],
         temperature=0.7,
         max_tokens=1024,
