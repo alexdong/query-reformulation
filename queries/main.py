@@ -32,7 +32,7 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
             {"role": "user", "content": prompt},
         ],
         temperature=0.7,
-        max_tokens=4068
+        max_tokens=4068,
     )
 
     # Calculate and print token usage and cost
@@ -109,6 +109,5 @@ def process_subqueries_file(reformulation_type: str) -> None:
     print(f"[INFO] Finished processing all subqueries for {reformulation_type}")
 
 if __name__ == "__main__":
-    import sys
    
     generate_queries("chaining", "Aoraki Mount Cook Part Of Mountain range\nMountain range Provides Water To River\nRiver Basin Area")
