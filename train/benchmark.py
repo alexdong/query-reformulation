@@ -142,30 +142,19 @@ def benchmark_model(
 
 
 if __name__ == "__main__":
-    import argparse
-    
-    parser = argparse.ArgumentParser(description="Benchmark Flan-T5 models for query reformulation")
-    parser.add_argument("--model-size", choices=MODEL_SIZES, default="base", 
-                        help="Size of the model (small, base, large)")
-    parser.add_argument("--force-cpu", action="store_true", 
-                        help="Force using CPU even if GPU/MPS is available")
-    parser.add_argument("--use-onnx", action="store_true",
-                        help="Use ONNX Runtime for inference")
-    parser.add_argument("--use-torchscript", action="store_true",
-                        help="Use TorchScript for inference")
-    
-    args = parser.parse_args()
-    
-    # Load the dataset
     dataset = load_dataset(DEV_DATASET)
     print(f"[INFO] Loaded {len(dataset)} examples from {DEV_DATASET}")
 
+    model_size = "base"
+    force_cpu = True
+    use_onnx = False
+    use_torchscript = True
     stats = benchmark_model(
-        args.model_size, 
+        model_size, 
         dataset, 
-        args.force_cpu, 
-        args.use_onnx, 
-        args.use_torchscript
+        force_cpu, 
+        use_onnx, 
+        use_torchscript
     )
     
     # Pretty print stats

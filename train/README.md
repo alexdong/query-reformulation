@@ -25,6 +25,8 @@ Files
 Performance Log
 ===============
 
+SFT -> Quantize -> TorchScript
+
 Baseline runtime performance on CPU
 -------------------------------------
 
@@ -43,6 +45,7 @@ Baseline runtime performance on CPU
 
 Dynamically Quantized with TorchScript
 ---------------------------------------
+
 
 
 
