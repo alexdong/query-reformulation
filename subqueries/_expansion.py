@@ -11,7 +11,9 @@ from _utils import (
 
 OUTPUT_FILE = SUBQUERIES_DIR / "expansion.txt"
 
-def find_entities_with_csv_properties(min_values: int = 3, max_values: int = 10) -> List[Tuple[str, str, str]]:
+def find_entities_with_csv_properties(
+    min_values: int = 3, max_values: int = 10
+) -> List[Tuple[str, str, str]]:
     """
     Find entities with properties that contain CSV lists.
     Returns a list of tuples: (entity_name, property_name, property_value)
@@ -36,7 +38,9 @@ def find_entities_with_csv_properties(min_values: int = 3, max_values: int = 10)
                     if isinstance(prop_value, str) and "," in prop_value:
                         values = [v.strip() for v in prop_value.split(",") if v.strip()]
                         if min_values <= len(values) <= max_values:
-                            entities_with_csv.append((entity_name, prop_name, prop_value))
+                            entities_with_csv.append(
+                                (entity_name, prop_name, prop_value)
+                            )
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
 
@@ -84,7 +88,10 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
 
             # Print progress more frequently
             if attempts % 100 == 0:
-                print(f"Attempt {attempts}/{max_attempts}, generated {len(subqueries_list)}/{count} subqueries")
+                print(
+                    f"Attempt {attempts}/{max_attempts}, "
+                    f"generated {len(subqueries_list)}/{count} subqueries"
+                )
 
             if not csv_properties:
                 break
@@ -103,7 +110,9 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
             subqueries = []
             for value in values:
                 # Format the subquery based on the property and value
-                if prop_name.lower() in ["uses", "applications", "types", "categories", "examples"]:
+                if prop_name.lower() in [
+                    "uses", "applications", "types", "categories", "examples"
+                ]:
                     subqueries.append(f"{entity_name} {value}")
                 else:
                     subqueries.append(f"{entity_name} {prop_name} {value}")

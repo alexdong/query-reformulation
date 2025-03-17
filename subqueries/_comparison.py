@@ -12,11 +12,9 @@ from _utils import (
 
 OUTPUT_FILE = SUBQUERIES_DIR / "comparison.txt"
 
-from _utils import SUBQUERIES_DIR
-
-OUTPUT_FILE = SUBQUERIES_DIR / "comparison.txt"
-
-def get_entities_by_type(entity_type: str, min_count: int = 2, max_count: int = 5) -> List[str]:
+def get_entities_by_type(
+    entity_type: str, min_count: int = 2, max_count: int = 5
+) -> List[str]:
     """Find entities of the specified type."""
     print(f"Finding entities of type '{entity_type}'...")
     matching_entities = []
@@ -38,7 +36,8 @@ def get_entities_by_type(entity_type: str, min_count: int = 2, max_count: int = 
                     matching_entities.append(file_path.stem.replace("_", " "))
 
                     # If we have enough entities, we can stop
-                    if len(matching_entities) >= max_count * 3:  # Get more than needed to allow for random selection
+                    # Get more than needed to allow for random selection
+                    if len(matching_entities) >= max_count * 3:
                         break
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
@@ -47,7 +46,10 @@ def get_entities_by_type(entity_type: str, min_count: int = 2, max_count: int = 
 
     # If we found enough entities, randomly select between min_count and max_count
     if len(matching_entities) >= min_count:
-        count = min(max(min_count, random.randint(min_count, max_count)), len(matching_entities))
+        count = min(
+            max(min_count, random.randint(min_count, max_count)),
+            len(matching_entities)
+        )
         return random.sample(matching_entities, count)
 
     return matching_entities
@@ -70,7 +72,9 @@ def get_common_properties(entities: List[str]) -> List[str]:
     common_props = list(set.intersection(*entity_properties.values()))
 
     # Filter out some common metadata properties that aren't interesting for comparison
-    filtered_props = [p for p in common_props if p not in ["type", "instance_of", "description"]]
+    filtered_props = [
+        p for p in common_props if p not in ["type", "instance_of", "description"]
+    ]
 
     print(f"Found {len(filtered_props)} common properties")
     return filtered_props
@@ -100,7 +104,10 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
 
             # Print progress more frequently
             if attempts % 100 == 0:
-                print(f"Attempt {attempts}/{max_attempts}, generated {len(subqueries_list)}/{count} subqueries")
+                print(
+                    f"Attempt {attempts}/{max_attempts}, "
+                    f"generated {len(subqueries_list)}/{count} subqueries"
+                )
 
             # Pick a random entity type
             entity_type = random.choice(entity_types)
