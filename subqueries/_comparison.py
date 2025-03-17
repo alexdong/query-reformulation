@@ -1,3 +1,4 @@
+# This file should be renamed to _main.py
 import json
 import os
 from pathlib import Path
@@ -63,6 +64,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+import json
 import random
 import os
 from pathlib import Path
@@ -74,12 +76,13 @@ from _utils import (
     ensure_output_directory, 
     load_entity_data,
     get_all_entity_types,
-    get_entity_properties
+    get_entity_properties,
+    get_entity_type
 )
 
 OUTPUT_FILE = DATASET_DIR / "subqueries-comparison.txt"
 
-def get_entities_by_type(entity_type: str, count: int = 3) -> List[str]:
+def get_entities_by_type(entity_type: str, min_count: int = 2, max_count: int = 5) -> List[str]:
     """Find entities of the specified type."""
     matching_entities = []
     
@@ -100,13 +103,14 @@ def get_entities_by_type(entity_type: str, count: int = 3) -> List[str]:
                     matching_entities.append(file_path.stem.replace("_", " "))
                     
                     # If we have enough entities, we can stop
-                    if len(matching_entities) >= count * 2:  # Get more than needed to allow for random selection
+                    if len(matching_entities) >= max_count * 3:  # Get more than needed to allow for random selection
                         break
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
     
-    # If we found enough entities, randomly select the requested count
-    if len(matching_entities) >= count:
+    # If we found enough entities, randomly select between min_count and max_count
+    if len(matching_entities) >= min_count:
+        count = min(max(min_count, random.randint(min_count, max_count)), len(matching_entities))
         return random.sample(matching_entities, count)
     
     return matching_entities
@@ -118,10 +122,11 @@ def get_common_properties(entities: List[str]) -> List[str]:
     for entity in entities:
         props = get_entity_properties(entity)
         if props:
-            entity_properties[entity] = set(props.keys())
+            # Only consider properties with non-empty values
+            entity_properties[entity] = {k for k, v in props.items() if v}
     
     # Find intersection of all property sets
-    if not entity_properties:
+    if not entity_properties or len(entity_properties) < 2:
         return []
         
     common_props = list(set.intersection(*entity_properties.values()))
@@ -138,6 +143,10 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
     # Get all unique entity types
     entity_types = get_all_entity_types()
     
+    if not entity_types:
+        print("No entity types found")
+        return
+    
     # Generate subqueries
     subqueries_list = []
     attempts = 0
@@ -148,14 +157,10 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
             attempts += 1
             
             # Pick a random entity type
-            if not entity_types:
-                break
-                
             entity_type = random.choice(entity_types)
             
             # Get random entities of this type
-            num_entities = random.randint(2, 5)  # Between 2 and 5 entities
-            entities = get_entities_by_type(entity_type, num_entities)
+            entities = get_entities_by_type(entity_type, 2, 5)
             
             if len(entities) < 2:
                 continue  # Need at least 2 entities for comparison
