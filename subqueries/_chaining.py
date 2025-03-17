@@ -75,27 +75,19 @@ def generate(start_entity: str) -> str:
     subqueries = []
     chain_length = random.randint(2, 3)
     while len(subqueries) < chain_length:
-        source, rel_type, target = random.choice(chain)
-        
-        # Get the target entity's type
+        source, rel_type, target = chain.pop(0)
         target_data = load_entity_data(target)
-        target_type = ""
-        if target_data and "properties" in target_data and "type" in target_data["properties"]:
-            target_type = target_data["properties"]["type"]
-        
-        # Add the target type to the subquery if available
-        if target_type:
+        source_data = load_entity_data(source)
+        target_type = target_data["properties"]["type"]
+        if len(subqueries) == 0:
             subqueries.append(f"{source} {format_property_name(rel_type)} {target_type}")
         else:
-            subqueries.append(f"{source} {format_property_name(rel_type)}")
+            subqueries.append(f"{source_data['properties']['type']} {format_property_name(rel_type)} {target_type}")
 
     # Add a property query at the end if possible
-    final_entity = chain[-1][2]
-    properties = get_entity_properties(final_entity)
-
     # Always end with the last target's property query
-    target_entity = get_entity_properties(target)
-    subqueries.append(f"{final_entity} {format_property_name(random.choice(list(properties.keys())))}")
+    subqueries.append(f"{target_type} {format_property_name(random.choice(list(target_data['properties'].keys())))}")
+    print(subqueries)
 
     # Join with \n to keep on one line
     return "\\n".join(subqueries)

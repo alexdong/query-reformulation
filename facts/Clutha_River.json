@@ -21,10 +21,10 @@
       "tributary_of": "Firth of Clutha"
     },
     {
-      "located_in_administrative_division": "Otago Region"
+      "located_in": "Otago Region"
     },
     {
-      "flows_through_administrative_division": "Southland Region"
+      "flows_through": "Southland Region"
     },
     {
       "part_of": "New Zealand"
@@ -39,7 +39,7 @@
       "originates_in": "Southern Alps"
     },
     {
-      "adjacent_to_administrative_division": "Central Otago District"
+      "adjacent_to": "Central Otago District"
     },
     {
       "has_settlement_on_bank": "Balclutha"

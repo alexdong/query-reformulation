@@ -18,10 +18,10 @@
       "flows_into": "Pacific Ocean"
     },
     {
-      "located_in_administrative_division": "North Island"
+      "located_in": "North Island"
     },
     {
-      "flows_through_administrative_division": "Taupō District"
+      "flows_through": "Taupō District"
     },
     {
       "tributary_of": "Waikato River"

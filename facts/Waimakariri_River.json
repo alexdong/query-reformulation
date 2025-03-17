@@ -24,10 +24,10 @@
       "flows_into": "Kaiapoi River"
     },
     {
-      "located_in_administrative_division": "Canterbury Region"
+      "located_in": "Canterbury Region"
     },
     {
-      "flows_through_administrative_division": "Selwyn District"
+      "flows_through": "Selwyn District"
     },
     {
       "tributary_of": "Pacific Ocean"

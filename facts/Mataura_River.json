@@ -18,10 +18,10 @@
       "flows_into": "Clutha River"
     },
     {
-      "located_in_administrative_division": "Southland Region"
+      "located_in": "Southland Region"
     },
     {
-      "flows_through_administrative_division": "Gore District"
+      "flows_through": "Gore District"
     },
     {
       "tributary_of": "Clutha River"
