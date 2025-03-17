@@ -48,22 +48,6 @@ def find_entities_with_csv_properties(
 
     return entities_with_csv
 
-def clean_csv_values(csv_string: str) -> List[str]:
-    """Clean and split CSV values, handling various formats."""
-    # Replace semicolons with commas if they're used as separators
-    if ";" in csv_string and "," not in csv_string:
-        csv_string = csv_string.replace(";", ",")
-
-    # Split by comma
-    values = [v.strip() for v in csv_string.split(",")]
-
-    # Remove empty values
-    values = [v for v in values if v]
-
-    # Remove any values that are just numbers or very short
-    values = [v for v in values if not re.match(r'^\d+$', v) and len(v) > 1]
-
-    return values
 
 def generate(entity_name: str) -> str:
     csv_properties = []
@@ -93,8 +77,16 @@ def generate(entity_name: str) -> str:
     prop_name, prop_value = random.choice(csv_properties)
     print(prop_name, prop_value)
     
-    # Split and clean the CSV value
-    values = clean_csv_values(prop_value)
+    # Clean and split CSV values
+    # Replace semicolons with commas if they're used as separators
+    if ";" in prop_value and "," not in prop_value:
+        prop_value = prop_value.replace(";", ",")
+        
+    # Split by comma and clean values
+    values = [v.strip() for v in prop_value.split(",")]
+    
+    # Remove empty values and values that are just numbers or very short
+    values = [v for v in values if v and not re.match(r'^\d+$', v) and len(v) > 1]
 
     # Skip if we don't have enough valid values
     if len(values) < 3:
