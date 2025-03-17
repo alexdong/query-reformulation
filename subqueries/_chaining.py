@@ -36,16 +36,25 @@ def traverse_relationship_chain(
         relationships = get_entity_relationships(current_entity)
         assert relationships, f"No relationships found for {current_entity}"
 
-        # Instead of picking a random relationship, pick the random one where the target entity exists, ai!
-        relationship = random.choice(relationships)
+        # Find relationships where the target entity exists
+        valid_relationships = []
+        for rel in relationships:
+            rel_type = next(iter(rel.keys()))
+            target_entity = rel[rel_type]
+            
+            if target_entity and load_entity_data(target_entity):
+                valid_relationships.append(rel)
+
+        # If no valid relationships found, break
+        if not valid_relationships:
+            break
+
+        # Pick a random valid relationship
+        relationship = random.choice(valid_relationships)
 
         # Extract relationship type and target entity
         rel_type = next(iter(relationship.keys()))
         target_entity = relationship[rel_type]
-
-        # Check if target entity exists
-        if not target_entity or not load_entity_data(target_entity):
-            break
 
         # Add to chain
         chain.append((current_entity, rel_type, target_entity))
