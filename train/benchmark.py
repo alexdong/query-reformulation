@@ -19,6 +19,7 @@ def load_dataset(file_path: Path) -> List[Dict[str, Any]]:
             data.append(json.loads(line))
     return data
 
+# explicitly define the return tuple's member types, ai!
 def load_model(model_size: str, force_cpu: bool = False) -> tuple:
     """Load the Flan-T5 model and tokenizer of specified size.
     
@@ -29,16 +30,8 @@ def load_model(model_size: str, force_cpu: bool = False) -> tuple:
     Returns:
         Tuple of (model, tokenizer, device)
     """
-    # Map the size to the correct model name
-    if model_size == "small":
-        model_name = "google/flan-t5-small"
-    elif model_size == "base":
-        model_name = "google/flan-t5-base"
-    elif model_size == "large":
-        model_name = "google/flan-t5-large"
-    else:
-        model_name = f"google/flan-t5-{model_size}"
-        
+    assert model_size in MODEL_SIZES, f"Invalid model size: {model_size}"
+    model_name = f"google/flan-t5-{model_size}"
     print(f"[INFO] Loading {model_name}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -151,17 +144,5 @@ def run_benchmarks(model_sizes: List[str] = MODEL_SIZES, force_cpu: bool = False
     return results
 
 if __name__ == "__main__":
-    import argparse
-    
-    parser = argparse.ArgumentParser(description="Benchmark Flan-T5 models for query reformulation")
-    parser.add_argument("--model-size", choices=MODEL_SIZES, default=None, 
-                        help="Size of the model to benchmark (small, base, large)")
-    parser.add_argument("--force-cpu", action="store_true", 
-                        help="Force using CPU even if GPU/MPS is available")
-    
-    args = parser.parse_args()
-    
-    if args.model_size:
-        run_benchmarks([args.model_size], args.force_cpu)
-    else:
-        run_benchmarks(MODEL_SIZES, args.force_cpu)
+    for model_size in MODEL_SIZES:
+        run_benchmarks(.model_size)
