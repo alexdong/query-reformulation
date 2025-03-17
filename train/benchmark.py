@@ -19,8 +19,7 @@ def load_dataset(file_path: Path) -> List[Dict[str, Any]]:
             data.append(json.loads(line))
     return data
 
-# explicitly define the return tuple's member types, ai!
-def load_model(model_size: str, force_cpu: bool = False) -> tuple:
+def load_model(model_size: str, force_cpu: bool = False) -> tuple[AutoModelForSeq2SeqLM, AutoTokenizer, torch.device]:
     """Load the Flan-T5 model and tokenizer of specified size.
     
     Args:
@@ -145,4 +144,4 @@ def run_benchmarks(model_sizes: List[str] = MODEL_SIZES, force_cpu: bool = False
 
 if __name__ == "__main__":
     for model_size in MODEL_SIZES:
-        run_benchmarks(.model_size)
+        run_benchmarks([model_size])
