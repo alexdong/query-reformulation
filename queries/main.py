@@ -109,5 +109,20 @@ def process_subqueries_file(reformulation_type: str) -> None:
     print(f"[INFO] Finished processing all subqueries for {reformulation_type}")
 
 if __name__ == "__main__":
+    import sys
+    
+    if len(sys.argv) > 1:
+        reformulation_type = sys.argv[1]
+        if reformulation_type not in REFORMULATION_TYPES:
+            print(f"[ERROR] Invalid reformulation type: {reformulation_type}")
+            print(f"[ERROR] Valid types are: {', '.join(REFORMULATION_TYPES)}")
+            sys.exit(1)
+    else:
+        print(f"[INFO] No reformulation type specified. Please choose from: {', '.join(REFORMULATION_TYPES)}")
+        reformulation_type = input("Enter reformulation type: ")
+        if reformulation_type not in REFORMULATION_TYPES:
+            print(f"[ERROR] Invalid reformulation type: {reformulation_type}")
+            sys.exit(1)
+    
     process_subqueries_file(reformulation_type)
     print(f"[SUCCESS] Successfully generated queries for {reformulation_type}")
