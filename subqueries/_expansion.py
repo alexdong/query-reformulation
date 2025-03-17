@@ -61,37 +61,44 @@ def clean_csv_values(csv_string: str) -> List[str]:
 
 def generate_expansion_subqueries(count: int = 1333) -> None:
     """Generate expansion subqueries and write to output file."""
+    print(f"Generating {count} expansion subqueries...")
     ensure_output_directory(OUTPUT_FILE)
-
+    
     # Find entities with CSV properties
     csv_properties = find_entities_with_csv_properties()
-
+    
     if not csv_properties:
         print("No entities with CSV properties found")
         return
-
+    
+    print(f"Found {len(csv_properties)} entities with CSV properties")
+    
     # Generate subqueries
     subqueries_list = []
     attempts = 0
     max_attempts = count * 10  # Limit attempts to avoid infinite loops
-
+    
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         while len(subqueries_list) < count and attempts < max_attempts:
             attempts += 1
-
+            
+            # Print progress more frequently
+            if attempts % 100 == 0:
+                print(f"Attempt {attempts}/{max_attempts}, generated {len(subqueries_list)}/{count} subqueries")
+            
             if not csv_properties:
                 break
-
+                
             # Pick a random entity with CSV property
             entity_name, prop_name, prop_value = random.choice(csv_properties)
-
+            
             # Split and clean the CSV value
             values = clean_csv_values(prop_value)
-
+            
             # Skip if we don't have enough valid values
             if len(values) < 3:
                 continue
-
+            
             # Generate subqueries
             subqueries = []
             for value in values:
@@ -100,22 +107,23 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
                     subqueries.append(f"{entity_name} {value}")
                 else:
                     subqueries.append(f"{entity_name} {prop_name} {value}")
-
+            
             # Limit to a reasonable number of subqueries
             if len(subqueries) > 8:
                 subqueries = random.sample(subqueries, 8)
-
-            subquery_text = "\n".join(subqueries)
-
+                
+            # Join with \n to keep on one line
+            subquery_text = "\\n".join(subqueries)
+            
             # Avoid duplicates
             if subquery_text not in subqueries_list:
                 subqueries_list.append(subquery_text)
                 f.write(f"{subquery_text}\n")
-
+                
                 # Print progress
-                if len(subqueries_list) % 100 == 0:
-                    print(f"Generated {len(subqueries_list)} expansion subqueries")
-
+                if len(subqueries_list) % 50 == 0:
+                    print(f"Generated {len(subqueries_list)}/{count} expansion subqueries")
+    
     print(f"Completed generating {len(subqueries_list)} expansion subqueries")
 
 if __name__ == "__main__":
