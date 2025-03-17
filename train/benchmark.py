@@ -123,5 +123,16 @@ if __name__ == "__main__":
     print(f"[INFO] Loaded {len(dataset)} examples from {DEV_DATASET}")
 
     for model_size in MODEL_SIZES:
-        stats = benchmark_model(model_size, dataset, force_cpu=True))
-        #pretty print stats, ai!
+        stats = benchmark_model(model_size, dataset, force_cpu=True)
+        
+        # Pretty print stats
+        print(f"\n{'=' * 50}")
+        print(f"📊 RESULTS FOR FLAN-T5-{model_size.upper()} 📊")
+        print(f"{'=' * 50}")
+        print(f"🕒 Average time per query: {stats['average_time']*1000:.2f} ms")
+        print(f"🕒 Median time per query:  {stats['median_time']*1000:.2f} ms")
+        print(f"📏 Standard deviation:     {stats['stddev_time']*1000:.2f} ms")
+        print(f"📈 90th percentile (P90):  {stats['p90_time']*1000:.2f} ms")
+        print(f"📈 95th percentile (P95):  {stats['p95_time']*1000:.2f} ms")
+        print(f"📈 99th percentile (P99):  {stats['p99_time']*1000:.2f} ms")
+        print(f"{'=' * 50}")
