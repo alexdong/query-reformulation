@@ -35,7 +35,15 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
         max_tokens=4068
     )
 
-    # Print the cost of the request in terms of input and output tokens, ai!
+    # Calculate and print token usage and cost
+    input_tokens = response.usage.prompt_tokens
+    output_tokens = response.usage.completion_tokens
+    input_cost = input_tokens * 0.00015  # $0.15 per 1000 tokens
+    output_cost = output_tokens * 0.0006  # $0.60 per 1000 tokens
+    total_cost = input_cost + output_cost
+    
+    print(f"[INFO] Token usage: {input_tokens} input tokens, {output_tokens} output tokens")
+    print(f"[INFO] Estimated cost: ${input_cost:.4f} (input) + ${output_cost:.4f} (output) = ${total_cost:.4f}")
     
     # Extract the generated queries
     generated_text = response.choices[0].message.content
