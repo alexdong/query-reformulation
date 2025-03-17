@@ -14,19 +14,25 @@ REFORMULATION_TYPES = ["comparison", "expansion", "chaining"]
 QUERIES_DIR.mkdir(exist_ok=True)
 
 def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
-    # Load the appropriate prompt template
-    prompt_path = PROMPTS_DIR / f"_PROMPT-{reformulation_type}.md"
-    assert prompt_path.exists(), f"Prompt template not found: {prompt_path}"
+    """
+    Generate queries from subqueries using OpenAI's o3-mini model.
+    
+    Args:
+        reformulation_type: One of "comparison", "expansion", or "chaining"
+        subqueries: The subqueries string to reformulate
+        
+    Returns:
+        List of generated queries
+    """
+    # Set up Jinja2 environment with the correct template loader
+    template_loader = jinja2.FileSystemLoader(PROMPTS_DIR)
+    template_env = jinja2.Environment(loader=template_loader)
+    
+    # Load the template for the specific reformulation type
+    template = template_env.get_template(f"_PROMPT-{reformulation_type}.md")
     
     # Render the template with the subqueries
-    with open(prompt_path, "r") as f:
-        prompt_template = f.read()
-    
-    # Instead of using Jinja2 template, let's use a simple string replacement
-    # This avoids issues with Jinja2 syntax in the template files
-    prompt = prompt_template.replace("{{subqueries}}", subqueries)
-    print(prompt)
-    return []
+    prompt = template.render(subqueries=subqueries)
     
     print(f"[INFO] Generated prompt for {reformulation_type}")
     
@@ -48,17 +54,26 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     total_cost = input_cost + output_cost
     
     print(f"[INFO] Token usage: {input_tokens} input tokens, {output_tokens} output tokens")
-    print(f"[INFO] Estimated cost: ${input_cost:.4f} (input) + ${output_cost:.4f} (output) = ${total_cost:.4f}")
+    print(f"[INFO] Estimated cost: ${input_cost:.6f} (input) + ${output_cost:.6f} (output) = ${total_cost:.6f}")
     
     # Extract the generated queries
     generated_text = response.choices[0].message.content
-    print(f"[INFO] Generated text: {generated_text}")
     
     # Split the response into individual queries
     queries = generated_text.strip().split("\n")
     
-    print(f"[INFO] Generated {len(queries)} queries")
-    return queries
+    # Clean up the queries (remove empty lines, numbering, etc.)
+    cleaned_queries = []
+    for query in queries:
+        query = query.strip()
+        if query and not query.startswith("#") and not query.startswith("```"):
+            # Remove any numbering (like "1.", "2.", etc.)
+            if query[0].isdigit() and query[1:3] in [". ", ") "]:
+                query = query[3:].strip()
+            cleaned_queries.append(query)
+    
+    print(f"[INFO] Generated {len(cleaned_queries)} queries")
+    return cleaned_queries
 
 def save_queries(reformulation_type: str, subqueries: str, queries: List[str]) -> None:
     """
