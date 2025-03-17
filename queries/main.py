@@ -110,6 +110,8 @@ def process_subqueries_file(reformulation_type: str) -> None:
     Args:
         reformulation_type: One of "comparison", "expansion", or "chaining"
     """
+    from rich.progress import Progress, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
+    
     assert reformulation_type in REFORMULATION_TYPES
     
     # Path to the subqueries file
@@ -124,17 +126,28 @@ def process_subqueries_file(reformulation_type: str) -> None:
     with open(subqueries_file, "r") as f:
         subqueries_list = [line.strip() for line in f if line.strip()]
     
-    # Process each subquery
-    for i, subqueries in enumerate(subqueries_list):
-        print(f"[INFO] Processing subquery {i+1}/{len(subqueries_list)}")
+    total_subqueries = len(subqueries_list)
+    print(f"[INFO] Found {total_subqueries} subqueries to process")
+    
+    # Process each subquery with a progress bar
+    with Progress(
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+        TimeElapsedColumn(),
+        TimeRemainingColumn(),
+    ) as progress:
+        task = progress.add_task(f"[cyan]Processing {reformulation_type} subqueries", total=total_subqueries)
         
-        # Generate queries for this subquery
-        queries = generate_queries(reformulation_type, subqueries)
-        
-        # Save the generated queries
-        save_queries(reformulation_type, subqueries, queries)
-        
-        print(f"[INFO] Completed processing subquery {i+1}/{len(subqueries_list)}")
+        for i, subqueries in enumerate(subqueries_list):
+            # Generate queries for this subquery
+            queries = generate_queries(reformulation_type, subqueries)
+            
+            # Save the generated queries
+            save_queries(reformulation_type, subqueries, queries)
+            
+            # Update progress
+            progress.update(task, advance=1, description=f"[cyan]Processing {reformulation_type} subqueries ({i+1}/{total_subqueries})")
     
     print(f"[INFO] Finished processing all subqueries for {reformulation_type}")
 
