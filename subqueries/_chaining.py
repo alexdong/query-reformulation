@@ -76,14 +76,24 @@ def generate(start_entity: str) -> str:
     chain_length = random.randint(2, 3)
     while len(subqueries) < chain_length:
         source, rel_type, target = random.choice(chain)
-        # Add `target` entity's type to the subquery, ai!
-        subqueries.append(f"{source} {format_property_name(rel_type)}")
+        
+        # Get the target entity's type
+        target_data = load_entity_data(target)
+        target_type = ""
+        if target_data and "properties" in target_data and "type" in target_data["properties"]:
+            target_type = target_data["properties"]["type"]
+        
+        # Add the target type to the subquery if available
+        if target_type:
+            subqueries.append(f"{source} {format_property_name(rel_type)} {target_type}")
+        else:
+            subqueries.append(f"{source} {format_property_name(rel_type)}")
 
     # Add a property query at the end if possible
     final_entity = chain[-1][2]
     properties = get_entity_properties(final_entity)
 
-   # Always end with the last target's property query
+    # Always end with the last target's property query
     target_entity = get_entity_properties(target)
     subqueries.append(f"{final_entity} {format_property_name(random.choice(list(properties.keys())))}")
 
