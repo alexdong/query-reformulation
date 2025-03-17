@@ -33,6 +33,7 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     
     # Render the template with the subqueries
     prompt = template.render(subqueries=subqueries)
+    print(prompt)
     
     print(f"[INFO] Generated prompt for {reformulation_type}")
     
@@ -72,7 +73,7 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
                 query = query[3:].strip()
             cleaned_queries.append(query)
     
-    print(f"[INFO] Generated {len(cleaned_queries)} queries")
+    print(f"[INFO] Generated {cleaned_queries}")
     return cleaned_queries
 
 def save_queries(reformulation_type: str, subqueries: str, queries: List[str]) -> None:
@@ -129,6 +130,16 @@ def process_subqueries_file(reformulation_type: str) -> None:
     
     print(f"[INFO] Finished processing all subqueries for {reformulation_type}")
 
+
 if __name__ == "__main__":
-   
-    generate_queries("chaining", "Aoraki Mount Cook Part Of Mountain range\nMountain range Provides Water To River\nRiver Basin Area")
+    reformulation_type = "chaining"
+    subqueries = "Aoraki Mount Cook Part Of Mountain range\nMountain range Provides Water To River\nRiver Basin Area"
+    queries = [
+            'What is the area of the river basin for the river that receives water from the mountain range which includes Aoraki Mount Cook?',
+            'What is the size of the river basin of the river fed by the mountain range that Aoraki Mount Cook is part of?',
+            'What is the area of the basin for the river that is supplied by the mountain range containing Aoraki Mount Cook?',
+            'What is the area of the river basin linked to the mountain range that provides water to the river encompassing Aoraki Mount Cook?',
+            'What is the area of the basin of the river that gets its water from the mountain range which includes Aoraki Mount Cook?'
+            ]
+    #generate_queries(reformulation_type, subqueries)
+    save_queries(reformulation_type, subqueries, queries)
