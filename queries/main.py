@@ -1,4 +1,5 @@
 import os
+import json
 from pathlib import Path
 from typing import List
 
@@ -152,6 +153,66 @@ def process_subqueries_file(reformulation_type: str) -> None:
     print(f"[INFO] Finished processing all subqueries for {reformulation_type}")
 
 
+def create_batch_request_file(reformulation_type: str) -> None:
+    """
+    Create a batch request file for OpenAI's batch processing API.
+    The file will be saved to queries/batch-input-{reformulation_type}.jsonl
+    
+    Args:
+        reformulation_type: One of "comparison", "expansion", or "chaining"
+    """
+    assert reformulation_type in REFORMULATION_TYPES, f"Invalid reformulation type: {reformulation_type}"
+    
+    # Path to the subqueries file
+    subqueries_file = Path("subqueries") / f"{reformulation_type}.txt"
+    
+    if not subqueries_file.exists():
+        raise FileNotFoundError(f"Subqueries file not found: {subqueries_file}")
+    
+    # Path to the output batch file
+    batch_file = QUERIES_DIR / f"batch-input-{reformulation_type}.jsonl"
+    
+    print(f"[INFO] Creating batch request file: {batch_file}")
+    
+    # Set up Jinja2 environment with the correct template loader
+    template_loader = jinja2.FileSystemLoader(PROMPTS_DIR)
+    template_env = jinja2.Environment(loader=template_loader)
+    
+    # Load the template for the specific reformulation type
+    template = template_env.get_template(f"_PROMPT-{reformulation_type}.md")
+    
+    # Read the subqueries file
+    with open(subqueries_file, "r") as f:
+        subqueries_list = [line.strip() for line in f if line.strip()]
+    
+    # Create the batch file
+    with open(batch_file, "w") as f:
+        for subqueries in subqueries_list:
+            # Render the template with the subqueries
+            prompt = template.render(subqueries=subqueries)
+            
+            # Create the batch request object
+            batch_request = {
+                "model": "o3-mini",
+                "messages": [
+                    {"role": "system", "content": "You are a NLP aware specialist that reverses engineer search subqueries into their original search query."},
+                    {"role": "user", "content": prompt}
+                ],
+                "max_completion_tokens": 4068,
+                "metadata": {
+                    "subqueries": subqueries,
+                    "reformulation_type": reformulation_type
+                }
+            }
+            
+            # Write the batch request to the file
+            f.write(json.dumps(batch_request) + "\n")
+    
+    print(f"[INFO] Created batch request file with {len(subqueries_list)} requests")
+    print(f"[INFO] You can now upload this file to OpenAI's batch processing API:")
+    print(f"[INFO] https://platform.openai.com/docs/guides/batch")
+
+
 if __name__ == "__main__":
     """
     reformulation_type = "chaining"
@@ -168,8 +229,11 @@ if __name__ == "__main__":
     subqueries = "Qantas Foundation Date\nJetstar Foundation Date"
     """
 
+    # Example of generating queries for a single subquery
     reformulation_type = "expansion"
     subqueries = "Loreena McKennitt Harp\nLoreena McKennitt Keyboards\nLoreena McKennitt Guitar\nLoreena McKennitt Percussion"
-
     queries = generate_queries(reformulation_type, subqueries)
     save_queries(reformulation_type, subqueries, queries)
+    
+    # Example of creating a batch request file
+    # create_batch_request_file("expansion")
