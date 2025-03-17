@@ -79,6 +79,7 @@ def get_common_properties(entities: List[str]) -> List[str]:
     print(f"Found {len(filtered_props)} common properties")
     return filtered_props
 
+# generate(entity: str) -> str and update the rest accordingly, ai!
 def generate(entity_types: List[str], count: int) -> List[str]:
     """Generate comparison subqueries.
     
