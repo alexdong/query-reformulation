@@ -21,8 +21,12 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     # Render the template with the subqueries
     with open(prompt_path, "r") as f:
         prompt_template = f.read()
-    template = jinja2.Template(prompt_template)
-    prompt = template.render(subqueries=subqueries)
+    
+    # Instead of using Jinja2 template, let's use a simple string replacement
+    # This avoids issues with Jinja2 syntax in the template files
+    prompt = prompt_template.replace("{{subqueries}}", subqueries)
+    
+    print(f"[INFO] Generated prompt for {reformulation_type}")
     
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     response = client.chat.completions.create(
