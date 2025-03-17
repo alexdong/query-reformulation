@@ -2,8 +2,8 @@ import random
 from typing import List, Tuple
 
 from _utils import (
-    SUBQUERIES_DIR,
     FACTS_DIR,
+    SUBQUERIES_DIR,
     ensure_output_directory,
     get_entity_properties,
     get_entity_relationships,
@@ -64,7 +64,7 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
     if not entity_files:
         print("No entity files found")
         return
-        
+
     print(f"Found {len(entity_files)} entity files")
 
     # Generate subqueries
@@ -75,7 +75,7 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         while len(subqueries_list) < count and attempts < max_attempts:
             attempts += 1
-            
+
             # Print progress more frequently
             if attempts % 100 == 0:
                 print(f"Attempt {attempts}/{max_attempts}, generated {len(subqueries_list)}/{count} subqueries")
