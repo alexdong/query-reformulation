@@ -207,6 +207,7 @@ if __name__ == "__main__":
     """
 
     # Example of generating queries for a single subquery
+    """
     reformulation_type = "expansion"
     subqueries = "Loreena McKennitt Harp\nLoreena McKennitt Keyboards\nLoreena McKennitt Guitar\nLoreena McKennitt Percussion"
     queries = generate_queries(reformulation_type, subqueries)
@@ -219,4 +220,4 @@ if __name__ == "__main__":
         create_batch_request_file(reformulation_type)
     """
 
-    #create_batch_request_file("expansion")
+    create_batch_request_file("expansion")
