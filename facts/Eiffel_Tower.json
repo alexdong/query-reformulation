@@ -1,7 +1,6 @@
 {
   "entity": "Eiffel Tower",
   "properties": {
-    "instance_of": "Iron lattice tower",
     "location": "Paris",
     "architect": "Gustave Eiffel",
     "height": "330 m",
@@ -10,38 +9,39 @@
     "material": "Wrought iron",
     "purpose": "Observation tower",
     "design_style": "Wrought-iron lattice",
-    "UNESCO_status": "World Heritage Site"
+    "UNESCO_status": "World Heritage Site",
+    "type": "Iron lattice tower"
   },
   "relationship": [
     {
       "located_in": "Paris"
     },
     {
+      "part_of": "France"
+    },
+    {
+      "architectural_style": "Iron Lattice Tower"
+    },
+    {
       "designed_by": "Gustave Eiffel"
-    },
-    {
-      "part_of": "7th arrondissement of Paris"
-    },
-    {
-      "influenced": "Art Nouveau"
-    },
-    {
-      "attracts": "Tourist"
-    },
-    {
-      "landmark_in": "Île-de-France"
     },
     {
       "built_during": "Third Republic"
     },
     {
-      "featured_in": "Film"
+      "has_property": "Iron"
     },
     {
-      "has_part": "Observation deck"
+      "influenced": "Seattle Space Needle"
     },
     {
-      "has_part": "Restaurant"
+      "is_a": "Tower"
+    },
+    {
+      "tourist_attraction_in": "Île de la Cité"
+    },
+    {
+      "has_coordinate": "48.8584° N, 2.2945° E"
     }
   ]
 }

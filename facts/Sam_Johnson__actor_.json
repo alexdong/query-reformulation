@@ -1,5 +1,5 @@
 {
-  "entity": "Sam Johnson (actor)",
+  "entity": "Sam Johnson  actor ",
   "properties": {
     "birth_date": "1978-10-26",
     "birth_place": "London, England",
@@ -10,38 +10,39 @@
     "height": "1.83 m",
     "net_worth": "£3 million (approx.)",
     "known_for": "Bafta nomination",
-    "genre": "Comedy"
+    "genre": "Comedy",
+    "type": "Actor"
   },
   "relationship": [
     {
-      "spouse_of": "Tamara Smart"
+      "instance_of": "human"
     },
     {
-      "educated_at": "Royal Academy of Dramatic Art"
+      "occupation": "actor"
     },
     {
-      "appears_in": "Hacks"
+      "birthPlace": "Carmel, New York"
     },
     {
-      "appears_in": "After Life"
+      "educatedAt": "University of Massachusetts Amherst"
     },
     {
-      "appears_in": "The Reluctant Fundamentalist"
+      "spouse": "Kelly Johnson"
     },
     {
-      "appears_in": "Bohemian Rhapsody"
+      "child": "James Johnson"
     },
     {
-      "appears_in": "Informer"
+      "filmAppearance": "Now You See Me"
     },
     {
-      "appears_in": "Banana"
+      "filmAppearance": "The Angriest Man in Brooklyn"
     },
     {
-      "nationality_of": "United Kingdom"
+      "awardReceived": "Screen Actors Guild Award"
     },
     {
-      "member_of": "British actors"
+      "countryOfCitizenship": "United States"
     }
   ]
 }

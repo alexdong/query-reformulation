@@ -10,24 +10,10 @@
     "technology": "Automobiles, Electricity",
     "social_class": "Rise of the Middle Class",
     "fashion": "S-bend corset, long skirts",
-    "art_movement": "Impressionism, Post-Impressionism"
+    "art_movement": "Impressionism, Post-Impressionism",
+    "type": "HistoricalPeriod"
   },
   "relationship": [
-    {
-      "part_of": "20th Century"
-    },
-    {
-      "influenced": "Art Deco"
-    },
-    {
-      "influenced_by": "Victorian Era"
-    },
-    {
-      "contemporary_with": "Belle Époque"
-    },
-    {
-      "monarch_ruled": "Edward VII"
-    },
     {
       "preceded_by": "Victorian Era"
     },
@@ -35,13 +21,28 @@
       "followed_by": "World War I"
     },
     {
-      "affected_by": "Industrial Revolution"
+      "part_of": "19th Century"
     },
     {
-      "social_impact_on": "Women's Suffrage"
+      "influenced_by": "Industrial Revolution"
     },
     {
-      "architectural_style": "Edwardian Baroque"
+      "associated_with": "Edward VII (king)"
+    },
+    {
+      "characterized_by": "Social Reform"
+    },
+    {
+      "associated_with_art_movement": "Arts and Crafts movement"
+    },
+    {
+      "influenced_by": "Imperialism"
+    },
+    {
+      "associated_with_technology": "Automobile"
+    },
+    {
+      "influenced_by": "Belle Époque"
     }
   ]
 }

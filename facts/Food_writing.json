@@ -10,38 +10,39 @@
     "historical_roots": "Roman gastronomy, medieval cookbooks",
     "key_elements": "Sensory detail, storytelling, cultural context",
     "related_fields": "Journalism, culinary arts, literature",
-    "digital_presence": "Blogs, online magazines, social media"
+    "digital_presence": "Blogs, online magazines, social media",
+    "type": "CreativeWork"
   },
   "relationship": [
     {
-      "influenced_by": "Gastronomy"
+      "instance_of": "creative work"
     },
     {
-      "overlaps_with": "Culinary arts"
+      "genre": "journalism"
     },
     {
-      "subgenre_of": "Journalism"
+      "subject": "food"
     },
     {
-      "related_to": "Food photography"
+      "influenced_by": "culinary arts"
     },
     {
-      "often_features": "Chefs"
+      "created_by": "food writer"
     },
     {
-      "often_features": "Restaurants"
+      "publication": "magazine"
     },
     {
-      "example_writer": "M.F.K. Fisher"
+      "publication": "cookbook"
     },
     {
-      "example_writer": "Ruth Reichl"
+      "publication": "blog"
     },
     {
-      "publication": "New York Times Food"
+      "related_to": "gastronomy"
     },
     {
-      "publication": "Eater"
+      "style": "narrative"
     }
   ]
 }

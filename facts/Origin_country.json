@@ -1,7 +1,6 @@
 {
   "entity": "Origin country",
   "properties": {
-    "instance_of": "Concept",
     "definition": "Place of birth/creation",
     "synonym": "Place of origin",
     "related_to": "Nationality",
@@ -10,38 +9,39 @@
     "category": "Geography",
     "relevance": "Identity, history",
     "impact": "Cultural influence",
-    "usage": "Legal, genealogical"
+    "usage": "Legal, genealogical",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "related_to": "Nationality"
+      "located_in": "Continent"
     },
     {
-      "associated_with": "Cultural heritage"
+      "has_official_language": "Language"
     },
     {
-      "influences": "Identity"
+      "has_national_symbol": "Symbol"
     },
     {
-      "determines": "Legal jurisdiction"
+      "produces": "Product"
     },
     {
-      "impacts": "Genealogy"
+      "influenced_by": "Culture"
     },
     {
-      "linked_to": "Place"
+      "has_historical_event": "Event"
     },
     {
-      "related_to": "History"
+      "has_geopolitical_region": "Geopolitical region"
     },
     {
-      "affects": "Migration"
+      "exports_to": "Country"
     },
     {
-      "connected_to": "Ethnicity"
+      "imports_from": "Country"
     },
     {
-      "part_of": "Geography"
+      "has_national_cuisine": "Cuisine"
     }
   ]
 }

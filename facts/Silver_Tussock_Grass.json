@@ -10,38 +10,39 @@
     "flowering_season": "Summer",
     "soil_preference": "Well-drained",
     "sun_exposure": "Full sun to partial shade",
-    "conservation_status": "Least Concern"
+    "conservation_status": "Least Concern",
+    "type": "Plant"
   },
   "relationship": [
     {
-      "part_of": "Poaceae family"
+      "taxon_rank": "Poaceae"
     },
     {
-      "native_to": "North America"
+      "has_member": "Muhlenbergia capillaris"
     },
     {
-      "grows_in": "Grassland"
+      "part_of": "North American prairie"
     },
     {
-      "provides_food_for": "Grasshoppers"
+      "habitat": "grassland"
     },
     {
-      "supports": "Wildlife"
+      "found_in_biome": "Temperate grasslands"
     },
     {
-      "used_by": "Native Americans"
+      "is_a": "grass"
     },
     {
-      "similar_to": "Blue Grama"
+      "has_characteristic": "inflorescence"
     },
     {
-      "is_a": "Bunchgrass"
+      "grows_in": "soil"
     },
     {
-      "habitat": "Prairies"
+      "affected_by": "herbivory"
     },
     {
-      "provides": "Erosion control"
+      "provides_habitat_for": "insects"
     }
   ]
 }

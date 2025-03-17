@@ -10,38 +10,39 @@
     "industry": "Education, Training",
     "salary_range": "$60,000 - $100,000",
     "work_environment": "Office, Remote",
-    "related_roles": "Instructional Designer, Educational Technologist"
+    "related_roles": "Instructional Designer, Educational Technologist",
+    "type": "Professional"
   },
   "relationship": [
     {
-      "collaborates_with": "Teacher"
+      "develops": "Educational Material"
     },
     {
-      "designs_for": "Student"
+      "works_for": "Educational Institution"
     },
     {
-      "uses": "Instructional Design Model"
+      "collaborates_with": "Instructional Designer"
     },
     {
-      "creates": "Learning Objectives"
+      "consults_with": "Subject Matter Expert"
     },
     {
-      "evaluates": "Assessment"
+      "aligns_with": "Learning Standard"
     },
     {
-      "employs": "Bloom's Taxonomy"
+      "assesses": "Student Learning Outcome"
     },
     {
-      "aligns_with": "Standards"
+      "designs": "Curriculum Unit"
     },
     {
-      "integrates": "Technology"
+      "reviews": "Assessment Tool"
     },
     {
-      "works_with": "Subject Matter Expert"
+      "reports_to": "Curriculum Director"
     },
     {
-      "contributes_to": "Educational Program"
+      "uses": "Learning Management System"
     }
   ]
 }

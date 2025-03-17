@@ -10,14 +10,18 @@
     "passenger_volume_2023": "7.7 million",
     "runway_length": "3400",
     "time_zone": "NZST",
-    "serves_city": "Auckland"
+    "serves_city": "Auckland",
+    "type": "Airport"
   },
   "relationship": [
     {
-      "located_in": "New Zealand"
+      "located_in": "Auckland Region"
     },
     {
-      "operates_in": "Auckland Region"
+      "part_of": "New Zealand"
+    },
+    {
+      "operates_as": "AKL"
     },
     {
       "serves": "Auckland"
@@ -29,19 +33,16 @@
       "connected_to": "Qantas"
     },
     {
-      "has_terminal": "International Terminal"
+      "has_service": "Customs"
     },
     {
-      "has_terminal": "Domestic Terminal"
+      "has_service": "Immigration Service"
     },
     {
-      "has_runway": "Runway 06/24"
+      "employs": "Mascot Airport Services"
     },
     {
-      "part_of": "New Zealand transport infrastructure"
-    },
-    {
-      "nearby_city": "Manukau City"
+      "has_infrastructure": "Runway"
     }
   ]
 }

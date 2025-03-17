@@ -10,38 +10,39 @@
     "education": "Harvard University",
     "spouse": "Joan Kennedy",
     "children": "4",
-    "cause_of_death": "Brain tumor"
+    "cause_of_death": "Brain tumor",
+    "type": "Politician"
   },
   "relationship": [
+    {
+      "instance_of": "politician"
+    },
+    {
+      "birthPlace": "Brookline"
+    },
+    {
+      "familyMember": "Joseph P. Kennedy Sr."
+    },
+    {
+      "familyMember": "Rose Fitzgerald Kennedy"
+    },
     {
       "member_of": "United States Senate"
     },
     {
-      "preceded_by": "Joseph P. Kennedy Jr."
+      "educated_at": "Harvard University"
     },
     {
-      "succeeded_by": "John F. Kennedy"
+      "spouse": "Joan Kennedy"
     },
     {
-      "father": "Joseph P. Kennedy Sr."
+      "child": "Kara Kennedy Allen"
     },
     {
-      "mother": "Rose Fitzgerald Kennedy"
+      "member_of_political_party": "Democratic Party"
     },
     {
-      "brother": "John F. Kennedy"
-    },
-    {
-      "sister": "Jean Kennedy Smith"
-    },
-    {
-      "represented": "Massachusetts"
-    },
-    {
-      "influenced": "Healthcare reform"
-    },
-    {
-      "award": "Presidential Medal of Freedom"
+      "deathPlace": "Hyannis"
     }
   ]
 }

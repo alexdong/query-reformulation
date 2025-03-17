@@ -1,7 +1,6 @@
 {
   "entity": "Fiji",
   "properties": {
-    "instance_of": "Country",
     "capital": "Suva",
     "official_languages": "Fijian, English, Hindi",
     "continent": "Oceania",
@@ -10,38 +9,39 @@
     "area_km2": "18,274",
     "government": "Parliamentary Republic",
     "sovereignty": "1970",
-    "location": "South Pacific Ocean"
+    "location": "South Pacific Ocean",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Oceania"
+      "located_in": "Oceania"
+    },
+    {
+      "part_of": "Melanesia"
+    },
+    {
+      "has_capital": "Suva"
+    },
+    {
+      "has_official_language": "Fijian language"
+    },
+    {
+      "has_official_language": "Hindi language"
+    },
+    {
+      "has_currency": "Fijian dollar"
     },
     {
       "member_of": "Commonwealth of Nations"
     },
     {
-      "located_in": "South Pacific Ocean"
+      "member_of": "United Nations"
     },
     {
-      "borders": "Tonga"
+      "influenced_by": "Great Britain"
     },
     {
-      "has_dependency": "Rotuma"
-    },
-    {
-      "influenced_by": "Melanesia"
-    },
-    {
-      "influenced_by": "Polynesia"
-    },
-    {
-      "has_economy": "Tourism"
-    },
-    {
-      "has_economy": "Sugarcane"
-    },
-    {
-      "has_natural_resource": "Timber"
+      "has_neighbor": "Vanuatu"
     }
   ]
 }

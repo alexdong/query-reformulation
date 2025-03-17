@@ -10,38 +10,39 @@
     "member_of": "European Union",
     "land_border": "France, Switzerland, Austria, Slovenia",
     "highest_point": "Mont Blanc (shared with France)",
-    "national_holiday": "Republic Day"
+    "national_holiday": "Republic Day",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Europe"
+      "located_in": "Europe"
     },
     {
-      "located_in": "European Union"
+      "part_of": "European_Union"
     },
     {
-      "influenced": "Roman Empire"
+      "has_capital": "Rome"
     },
     {
-      "has_region": "Lazio"
+      "member_of": "Council_of_Europe"
     },
     {
-      "has_region": "Sicily"
+      "influenced_by": "Roman_Empire"
     },
     {
-      "has_region": "Veneto"
+      "has_official_language": "Italian_language"
     },
     {
-      "has_city": "Milan"
+      "borders_country": "France"
     },
     {
-      "has_city": "Naples"
+      "has_currency": "Euro"
     },
     {
-      "has_art_movement": "Renaissance"
+      "has_national_symbol": "Italian_flag"
     },
     {
-      "cuisine_influenced": "Italian cuisine"
+      "has_historical_figure": "Julius_Caesar"
     }
   ]
 }

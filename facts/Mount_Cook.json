@@ -10,38 +10,39 @@
     "first_ascent": "1859",
     "rock_type": "Granite",
     "glacier_cover": "Approximately 70%",
-    "designation": "National Park"
+    "designation": "National Park",
+    "type": "Mountain"
   },
   "relationship": [
     {
-      "part_of": "Southern Alps"
+      "located_in": "South Island (island)"
     },
     {
-      "located_in": "South Island"
+      "part_of": "Southern Alps (mountain range)"
     },
     {
-      "located_in": "New Zealand"
+      "instance_of": "mountain"
     },
     {
-      "part_of": "Aoraki/Mount Cook National Park"
+      "named_after": "James Cook (person)"
     },
     {
-      "named_after": "Captain James Cook"
+      "elevation_above": "sea"
     },
     {
-      "named_after_maori": "Aoraki"
+      "geography_of": "New Zealand"
     },
     {
-      "climbed_by": "Tomax Bevan"
+      "has_peak": "Mount Cook (peak)"
     },
     {
-      "climbed_by": "Guillermo Anglada"
+      "adjacent_to": "Aoraki/Mount Cook National Park"
     },
     {
-      "contains": "Tasman Glacier"
+      "influenced_by": "glacier"
     },
     {
-      "adjacent_to": "Mount Tasman"
+      "has_coordinate": "44°03′S 170°21′E"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "entity": "Levi's Stadium",
+  "entity": "Levi s Stadium",
   "properties": {
     "location": "Santa Clara, California",
     "capacity": "68,500",
@@ -10,38 +10,39 @@
     "cost": "$1.3 Billion",
     "design_style": "Modern",
     "named_after": "Levi Strauss & Co.",
-    "coordinates": "37.3722° N, 121.955° W"
+    "coordinates": "37.3722° N, 121.955° W",
+    "type": "Stadium"
   },
   "relationship": [
     {
-      "team_hosts": "San Francisco 49ers"
+      "located_in": "Santa Clara, California"
     },
     {
-      "league": "NFL"
+      "part_of": "Santa Clara County"
     },
     {
-      "city": "Santa Clara"
+      "has_architect": "HOK"
     },
     {
-      "state": "California"
+      "built_by": "Mortenson Construction"
     },
     {
-      "part_of": "Bay Area"
+      "hosts_event": "Super Bowl 50"
     },
     {
-      "event_held": "Super Bowl 50"
+      "hosts_event": "NFL season"
     },
     {
-      "event_held": "College Football Playoff National Championship"
+      "hosts_event": "College Football Playoff National Championship"
     },
     {
-      "adjacent_to": "Great America"
+      "has_owner": "San Francisco 49ers"
     },
     {
-      "architectural_style_influenced": "HOK"
+      "has_capacity": "83,000"
     },
     {
-      "construction_company": "Skanska USA"
+      "instance_of": "stadium"
     }
   ]
 }

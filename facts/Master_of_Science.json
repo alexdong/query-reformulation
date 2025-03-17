@@ -1,7 +1,6 @@
 {
   "entity": "Master of Science",
   "properties": {
-    "instance_of": "Academic degree",
     "field_of_study": "Science",
     "duration": "1-3 years",
     "level": "Postgraduate",
@@ -10,38 +9,39 @@
     "thesis_required": "Often",
     "credits": "30-60",
     "cost": "Varies",
-    "purpose": "Advanced study"
+    "purpose": "Advanced study",
+    "type": "Academic degree"
   },
   "relationship": [
     {
-      "predecessor": "Bachelor's degree"
+      "instance_of": "academic degree"
     },
     {
-      "successor": "Doctor of Philosophy"
+      "has_prerequisite": "Bachelor's degree"
     },
     {
-      "offered_by": "University"
+      "field_of_study": "Academic discipline"
     },
     {
-      "requires": "Coursework"
+      "awarded_by": "University"
     },
     {
-      "requires": "Research"
+      "has_part": "Course"
     },
     {
-      "leads_to": "Career advancement"
+      "requires": "Thesis"
     },
     {
-      "specialization_in": "Biology"
+      "has_purpose": "Career advancement"
     },
     {
-      "specialization_in": "Computer Science"
+      "preceded_by": "Bachelor's degree"
     },
     {
-      "specialization_in": "Engineering"
+      "results_in": "Professional qualification"
     },
     {
-      "related_to": "Academic discipline"
+      "related_to": "Research"
     }
   ]
 }

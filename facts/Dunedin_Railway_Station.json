@@ -10,38 +10,39 @@
     "designation": "Historic Place (Category I)",
     "owner": "KiwiRail",
     "function": "Railway station",
-    "listed_on": "NZ Historic Places Trust"
+    "listed_on": "NZ Historic Places Trust",
+    "type": "Railwaystation"
   },
   "relationship": [
-    {
-      "serves_city": "Dunedin"
-    },
-    {
-      "architectural_style": "Edwardian Baroque architecture"
-    },
     {
       "located_in": "Otago"
     },
     {
-      "part_of": "New Zealand rail network"
+      "part_of": "New Zealand"
     },
     {
-      "built_by": "George Forrester"
+      "architect": "Thomas Turnbull"
     },
     {
-      "train_serves": "Taieri railway line"
+      "style": "Edwardian Baroque"
     },
     {
-      "train_serves": "Main North Line"
+      "serves_station": "Taieri railway line"
     },
     {
-      "influenced_by": "Italian Renaissance architecture"
+      "serves_station": "Main North Line"
     },
     {
-      "historical_significance": "Early railway development"
+      "serves_station": "Port Chalmers railway line"
     },
     {
-      "design_features": "Clock tower"
+      "operator": "KiwiRail"
+    },
+    {
+      "predecessor": "Provincial railway station (Dunedin)"
+    },
+    {
+      "has_building_material": "Oamaru stone"
     }
   ]
 }

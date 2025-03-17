@@ -1,7 +1,6 @@
 {
   "entity": "Science",
   "properties": {
-    "instance_of": "Academic discipline",
     "field_of_study": "Knowledge",
     "methodology": "Scientific method",
     "goal": "Understanding nature",
@@ -10,38 +9,39 @@
     "interdisciplinary": "True",
     "language": "Mathematics",
     "peer_review": "Essential",
-    "publication_type": "Journal articles"
+    "publication_type": "Journal articles",
+    "type": "Academic discipline"
   },
   "relationship": [
     {
-      "subfield_of": "Knowledge"
+      "instance_of": "academic discipline"
     },
     {
-      "employs": "Scientific method"
+      "subclass_of": "knowledge"
     },
     {
-      "related_to": "Mathematics"
+      "has_field": "Physics"
     },
     {
-      "overlaps_with": "Technology"
+      "has_field": "Chemistry"
     },
     {
-      "influences": "Medicine"
+      "has_field": "Biology"
     },
     {
-      "supports": "Engineering"
+      "has_field": "Mathematics"
     },
     {
-      "requires": "Observation"
+      "has_field": "Astronomy"
     },
     {
-      "requires": "Experimentation"
+      "created_by": "Human"
     },
     {
-      "produces": "Scientific theories"
+      "used_in": "Technology"
     },
     {
-      "contributes_to": "Innovation"
+      "related_to": "Philosophy"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "colours": "Green and White",
     "governing_body": "New Zealand Rugby",
     "home_ground": "Green Island Ground",
-    "player_count": "Approximately 300"
+    "player_count": "Approximately 300",
+    "type": "SportsClub"
   },
   "relationship": [
     {
-      "part_of": "Dunedin Rugby Football Union"
+      "instance_of": "rugby club"
     },
     {
-      "located_in": "Dunedin"
+      "located_in": "Green Island, New Zealand"
     },
     {
-      "plays_in": "Heartland Championship"
+      "country_of_origin": "New Zealand"
     },
     {
-      "member_of": "New Zealand Rugby"
+      "participates_in": "New Zealand Heartland Championship"
     },
     {
-      "rivalry_with": "Taieri Rugby Football Club"
+      "affiliated_with": "New Zealand Rugby Football Union"
     },
     {
-      "has_player": "Josh Bekhuis"
+      "has_member": "Green Island Rugby Football Club player"
     },
     {
-      "has_player": "Liam Mitchell"
+      "subclass_of": "sports club"
     },
     {
-      "coach": "Richard Douglas"
+      "has_coach": "rugby coach"
     },
     {
-      "competition_format": "Pool Play"
+      "has_sponsor": "business organization"
     },
     {
-      "trophy": "Heartland Championship Trophy"
+      "founded_by": "group of people"
     }
   ]
 }

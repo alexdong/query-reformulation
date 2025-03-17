@@ -10,38 +10,39 @@
     "continent": "Oceania",
     "government": "Federal presidential republic",
     "independence_date": "1986-11-03",
-    "member_of": "United Nations"
+    "member_of": "United Nations",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "part_of": "Oceania"
-    },
     {
       "located_in": "Pacific Ocean"
     },
     {
-      "borders": "Marshall Islands"
+      "part_of": "Oceania"
     },
     {
-      "borders": "Papua New Guinea"
+      "member_of": "United Nations"
     },
     {
       "member_of": "Pacific Community"
     },
     {
-      "member_of": "Micronesian Presidents' Summit"
+      "member_of": "Micronesian Regional Security Initiative"
     },
     {
-      "has_state": "Yap"
+      "has_capital": "Palikir"
     },
     {
-      "has_state": "Chuuk"
+      "influenced_by": "United States"
     },
     {
-      "has_state": "Pohnpei"
+      "has_official_language": "English"
     },
     {
-      "has_state": "Kosrae"
+      "has_currency": "United States Dollar"
+    },
+    {
+      "has_government_type": "Parliamentary republic"
     }
   ]
 }

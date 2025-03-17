@@ -10,38 +10,39 @@
     "diet": "Carnivorous",
     "conservation_status": "Least Concern",
     "social_behavior": "Pack",
-    "communication": "Howls, body language"
+    "communication": "Howls, body language",
+    "type": "Mammal"
   },
   "relationship": [
     {
-      "is_a": "Canid"
+      "instance_of": "Canis lupus"
     },
     {
-      "prey_on": "Deer"
+      "part_of": "Ecosystem"
     },
     {
-      "prey_on": "Rabbit"
+      "interacts_with": "Prey"
     },
     {
-      "member_of": "Canidae_family"
+      "has_offspring": "Pup"
     },
     {
-      "related_to": "Dog"
+      "lives_in": "Territory"
     },
     {
-      "related_to": "Fox"
+      "controlled_by": "Human"
     },
     {
-      "lives_in": "North America"
+      "prey_for": "Predator"
     },
     {
-      "lives_in": "Europe"
+      "member_of": "Pack"
     },
     {
-      "threatened_by": "Habitat loss"
+      "found_in": "Habitat"
     },
     {
-      "part_of_ecosystem": "Forest"
+      "related_to": "Mythology"
     }
   ]
 }

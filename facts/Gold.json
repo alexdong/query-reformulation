@@ -10,38 +10,39 @@
     "state": "Solid",
     "color": "Yellow",
     "luster": "Metallic",
-    "group": "11"
+    "group": "11",
+    "type": "PreciousMetal"
   },
   "relationship": [
     {
+      "instance_of": "Precious metal"
+    },
+    {
+      "chemical_formula": "Au"
+    },
+    {
+      "found_in_country": "South Africa"
+    },
+    {
+      "used_for": "Jewelry"
+    },
+    {
+      "used_for": "Investment"
+    },
+    {
+      "extracted_from": "Ore"
+    },
+    {
+      "refined_by": "Refinery"
+    },
+    {
+      "has_property": "Malleability"
+    },
+    {
+      "has_property": "Ductility"
+    },
+    {
       "part_of": "Periodic table"
-    },
-    {
-      "used_in": "Jewelry"
-    },
-    {
-      "used_in": "Currency"
-    },
-    {
-      "used_in": "Electronics"
-    },
-    {
-      "found_in": "Earth's crust"
-    },
-    {
-      "extracted_from": "Gold ore"
-    },
-    {
-      "alloy_with": "Copper"
-    },
-    {
-      "discovered_by": "Ancient civilizations"
-    },
-    {
-      "symbol_origin": "Aurum"
-    },
-    {
-      "related_to": "Precious metals"
     }
   ]
 }

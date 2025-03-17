@@ -1,7 +1,6 @@
 {
   "entity": "Advertising",
   "properties": {
-    "instance_of": "Industry",
     "definition": "Persuasive communication",
     "primary_goal": "Promote products/services",
     "economic_sector": "Marketing",
@@ -10,38 +9,39 @@
     "historical_origin": "17th century",
     "regulation": "Varies by country",
     "major_types": "Branding, Direct Response, Native",
-    "ethical_considerations": "Truthfulness, Transparency"
+    "ethical_considerations": "Truthfulness, Transparency",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "influenced_by": "Propaganda"
+      "instance_of": "marketing"
     },
     {
-      "employs": "Marketing"
+      "used_by": "business"
     },
     {
-      "uses": "Branding"
+      "has_medium": "media"
     },
     {
-      "targets": "Consumers"
+      "promotes": "product"
     },
     {
-      "creates": "Marketing campaigns"
+      "targets": "consumer"
     },
     {
-      "relies_on": "Media"
+      "creates": "advertisement"
     },
     {
-      "impacts": "Consumer behavior"
+      "influenced_by": "marketing strategy"
     },
     {
-      "regulated_by": "Federal Trade Commission"
+      "requires": "creative"
     },
     {
-      "uses_technique": "Persuasion"
+      "evaluated_by": "market research"
     },
     {
-      "related_to": "Public relations"
+      "part_of": "public relations"
     }
   ]
 }

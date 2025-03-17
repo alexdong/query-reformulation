@@ -1,7 +1,6 @@
 {
   "entity": "Public Relations",
   "properties": {
-    "instance_of": "Profession",
     "field": "Communication",
     "goal": "Manage Reputation",
     "focus": "Relationship Building",
@@ -10,38 +9,39 @@
     "key_skill": "Communication",
     "tools_used": "Media Relations, Social Media",
     "scope": "Internal & External",
-    "related_field": "Marketing"
+    "related_field": "Marketing",
+    "type": "Profession"
   },
   "relationship": [
     {
-      "influenced_by": "Journalism"
+      "manages": "Organization"
     },
     {
-      "employs": "Publicist"
+      "influences": "Public Opinion"
     },
     {
-      "overlaps_with": "Marketing"
+      "works_for": "Company"
     },
     {
-      "part_of": "Communication Studies"
+      "communicates_with": "Media"
     },
     {
-      "uses": "Press Release"
+      "creates": "Press Release"
     },
     {
-      "manages": "Brand Image"
+      "part_of": "Marketing"
     },
     {
-      "requires": "Crisis Management"
+      "deals_with": "Crisis Management"
     },
     {
-      "promotes": "Corporate Social Responsibility"
+      "reports_to": "Executive Management"
     },
     {
-      "analyzes": "Public Opinion"
+      "uses": "Social Media"
     },
     {
-      "governed_by": "PRSA"
+      "aims_to_improve": "Brand Reputation"
     }
   ]
 }

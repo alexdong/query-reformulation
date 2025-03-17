@@ -1,7 +1,6 @@
 {
   "entity": "New Zealand Herald",
   "properties": {
-    "instance_of": "Newspaper",
     "publisher": "NZME",
     "country": "New Zealand",
     "founded": "1860",
@@ -10,38 +9,39 @@
     "language": "English",
     "circulation": "130,000 (approx.)",
     "website": "nzherald.co.nz",
-    "genre": "General News"
+    "genre": "General News",
+    "type": "Newspaper"
   },
   "relationship": [
     {
-      "publication_location": "Auckland"
+      "publisher": "NZME"
     },
     {
-      "owned_by": "NZME"
+      "located_in": "New Zealand"
     },
     {
-      "founder": "Alfred Nathan"
+      "headquartered_in": "Auckland"
     },
     {
-      "competitor": "Stuff"
+      "publication_format": "Newspaper"
     },
     {
-      "covers_topic": "New Zealand Politics"
+      "genre": "News"
     },
     {
-      "covers_topic": "Sports"
+      "language": "English"
     },
     {
-      "covers_topic": "Business"
+      "founded_by": "William Buckland"
     },
     {
-      "part_of": "NZME"
+      "publication_date": "1860"
     },
     {
-      "employs": "Journalists"
+      "coverage_area": "New Zealand"
     },
     {
-      "has_section": "Weekend Herald"
+      "has_edition": "Weekend Herald"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Petroleum",
   "properties": {
-    "instance_of": "Fossil fuel",
     "chemical_formula": "Mixture of hydrocarbons",
     "origin": "Decomposed organic matter",
     "formation_time": "Millions of years",
@@ -10,38 +9,39 @@
     "color": "Yellow to black",
     "odor": "Strong, aromatic",
     "primary_use": "Fuel, feedstock",
-    "discovery_date": "Ancient times"
+    "discovery_date": "Ancient times",
+    "type": "Fossil fuel"
   },
   "relationship": [
     {
-      "part_of": "Crude oil"
+      "instance_of": "crude_oil"
     },
     {
-      "derived_from": "Organic matter"
+      "produced_in": "Saudi Arabia"
     },
     {
-      "used_in": "Gasoline"
+      "used_for": "fuel"
     },
     {
-      "used_in": "Diesel fuel"
+      "refined_into": "gasoline"
     },
     {
-      "refines_to": "Petrochemicals"
+      "extracted_from": "oil_well"
     },
     {
-      "extracted_from": "Oil well"
+      "transported_by": "oil_tanker"
     },
     {
-      "transported_by": "Pipeline"
+      "traded_on": "NYMEX"
     },
     {
-      "processed_at": "Oil refinery"
+      "impacts": "climate_change"
     },
     {
-      "impacts": "Climate change"
+      "is_a": "fossil_fuel"
     },
     {
-      "related_to": "Fossil fuels"
+      "component_of": "petroleum_product"
     }
   ]
 }

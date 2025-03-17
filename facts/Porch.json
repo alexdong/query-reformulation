@@ -1,7 +1,6 @@
 {
   "entity": "Porch",
   "properties": {
-    "instance_of": "Architectural feature",
     "material": "Wood, Concrete, Stone",
     "function": "Shelter, Decoration, Entryway",
     "location": "Front of house",
@@ -10,38 +9,39 @@
     "roof_type": "Gable, Hip, Flat",
     "climate_adaptation": "Warm climates",
     "historical_use": "Social gathering",
-    "design_element": "Facade"
+    "design_element": "Facade",
+    "type": "Architectural feature"
   },
   "relationship": [
     {
+      "has_feature": "Roof"
+    },
+    {
       "part_of": "House"
+    },
+    {
+      "located_on": "Building"
+    },
+    {
+      "covered_by": "Awning"
     },
     {
       "adjacent_to": "Yard"
     },
     {
-      "connected_to": "Front door"
+      "provides_access_to": "Entrance"
     },
     {
-      "influenced_by": "Vernacular architecture"
+      "supports": "Railings"
     },
     {
-      "style_example": "Colonnade"
+      "decorated_with": "Planter"
     },
     {
-      "style_example": "Wrap-around porch"
+      "provides_shelter_for": "Bird"
     },
     {
-      "found_in_region": "Southern United States"
-    },
-    {
-      "associated_with": "Front stoop"
-    },
-    {
-      "design_feature_of": "Victorian architecture"
-    },
-    {
-      "provides": "Outdoor space"
+      "has_material": "Wood"
     }
   ]
 }

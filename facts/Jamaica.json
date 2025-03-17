@@ -10,38 +10,39 @@
     "largest_city": "Kingston",
     "national_sport": "Cricket",
     "national_dish": "Ackee and saltfish",
-    "time_zone": "UTC-5"
+    "time_zone": "UTC-5",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Caribbean"
+      "located_in": "Caribbean"
     },
     {
-      "located_in": "North America"
+      "part_of": "North America"
     },
     {
-      "border_country": "None"
+      "has_capital": "Kingston"
     },
     {
-      "influenced_by": "Spanish"
+      "influenced_by": "Taino"
+    },
+    {
+      "influenced_by": "Maroon"
     },
     {
       "influenced_by": "British"
     },
     {
-      "former_colony_of": "United Kingdom"
+      "has_official_language": "English"
     },
     {
-      "music_genre": "Reggae"
+      "has_currency": "Jamaican dollar"
     },
     {
-      "famous_person": "Bob Marley"
+      "member_of": "Commonwealth of Nations"
     },
     {
-      "island_group": "Greater Antilles"
-    },
-    {
-      "exports": "Bauxite"
+      "has_national_anthem": "Jamaica, Land We Love"
     }
   ]
 }

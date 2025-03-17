@@ -10,38 +10,39 @@
     "team": "Blues",
     "sport": "Rugby Union",
     "jersey_number": "10",
-    "super_rugby_caps": "153"
+    "super_rugby_caps": "153",
+    "type": "Athlete"
   },
   "relationship": [
     {
-      "plays_for": "All Blacks"
+      "instance_of": "rugby player"
     },
     {
-      "plays_for": "Taranaki"
+      "nationality": "New Zealand"
+    },
+    {
+      "plays_for": "Blues (rugby)"
+    },
+    {
+      "sibling": "Jane Barrett"
+    },
+    {
+      "sibling": "Scott Barrett"
+    },
+    {
+      "member_of": "All Blacks"
     },
     {
       "coach": "Ian Foster"
     },
     {
-      "sibling": "Kane Barrett"
+      "position": "Fly-half"
     },
     {
-      "sibling": "Scot Barrett"
+      "educated_at": "Otaki College"
     },
     {
-      "plays_in_league": "Super Rugby"
-    },
-    {
-      "plays_in_league": "Rugby Championship"
-    },
-    {
-      "plays_in_league": "The Rugby World Cup"
-    },
-    {
-      "award": "World Rugby Player of the Year"
-    },
-    {
-      "award": "New Zealand Rugby Player of the Year"
+      "award_recipient_for": "World Rugby Player of the Year"
     }
   ]
 }

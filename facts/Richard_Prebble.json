@@ -10,38 +10,39 @@
     "spouse": "Sheila Prebble",
     "children": "2",
     "height": "1.83 m",
-    "alma_mater": "Victoria University of Wellington"
+    "alma_mater": "Victoria University of Wellington",
+    "type": "PoliticalFigure"
   },
   "relationship": [
     {
-      "member_of": "New Zealand House of Representatives"
+      "instance_of": "politician"
     },
     {
-      "leader_of": "ACT New Zealand"
+      "member_of": "ACT New Zealand"
     },
     {
-      "predecessor": "Derek Caygill"
+      "employed_by": "National Party (New Zealand)"
     },
     {
-      "successor": "Steven Joyce"
+      "educated_at": "Victoria University of Wellington"
     },
     {
-      "member_of": "Labour Party (formerly)"
+      "citizen_of": "New Zealand"
     },
     {
-      "influenced": "New Zealand economic policy"
+      "influenced_by": "Roger Douglas"
     },
     {
-      "critic_of": "New Zealand bureaucracy"
+      "publication_author": "Richard Prebble: Damned Serious"
     },
     {
-      "business_affiliation": "The Prebble Group"
+      "political_ideology": "neoliberalism"
     },
     {
-      "columnist_for": "New Zealand Herald"
+      "position_held": "Leader of the House"
     },
     {
-      "advocate_for": "Free market economics"
+      "award_recipient": "New Zealand Order of Merit"
     }
   ]
 }

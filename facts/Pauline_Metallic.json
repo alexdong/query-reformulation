@@ -10,38 +10,39 @@
     "cultural_affiliation": "Mi'kmaq",
     "education": "Self-taught",
     "awards": "Governor General's Award in Visual Arts",
-    "subject_matter": "Mi'kmaq culture, spirituality"
+    "subject_matter": "Mi'kmaq culture, spirituality",
+    "type": "Musician"
   },
   "relationship": [
     {
-      "member_of": "Mi'kmaq people"
+      "instance_of": "human"
     },
     {
-      "born_in": "Esgenoôpetitj"
+      "occupation": "singer"
     },
     {
-      "award_presented_by": "Governor General of Canada"
+      "member_of": "Inuktitut singers"
     },
     {
-      "influenced_by": "Mi'kmaq traditions"
+      "birth_place": "Kuujjuaq"
     },
     {
-      "works_in_medium": "Soapstone"
+      "influenced_by": "Buffy Sainte-Marie"
     },
     {
-      "works_in_medium": "Argillite"
+      "genre": "Indigenous music"
     },
     {
-      "exhibits_at": "National Gallery of Canada"
+      "award_received": "Polaris Music Prize"
     },
     {
-      "depicts": "Mi'kmaq legends"
+      "language": "Inuktitut"
     },
     {
-      "represents": "Indigenous art"
+      "performer_in": "Aakuluk Aaputi"
     },
     {
-      "associated_with": "Indigenous artists"
+      "record_label": "Constellation Records"
     }
   ]
 }

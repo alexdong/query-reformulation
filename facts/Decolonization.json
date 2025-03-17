@@ -10,38 +10,39 @@
     "resistance_methods": "Political activism, armed struggle",
     "colonial_powers": "United Kingdom, France, Belgium, Spain, Portugal",
     "timeline_start": "1945",
-    "timeline_end": "1975"
+    "timeline_end": "1975",
+    "type": "Historical process"
   },
   "relationship": [
     {
-      "caused_by": "World War II"
+      "instance_of": "Political process"
     },
     {
-      "influenced": "Postcolonialism"
+      "caused_by": "Colonialism"
     },
     {
-      "related_to": "Nationalism"
+      "result": "Nation-state"
     },
     {
-      "affected": "Former colonies"
+      "preceded_by": "Imperialism"
     },
     {
-      "opposed_by": "Colonial powers"
+      "influenced_by": "Nationalism"
     },
     {
-      "led_to": "Independence movements"
+      "related_to": "Postcolonialism"
     },
     {
-      "example_region": "Africa"
+      "affected": "Indigenous peoples"
     },
     {
-      "example_region": "Asia"
+      "involved": "Anti-colonial movements"
     },
     {
-      "example_country": "India"
+      "part_of": "History"
     },
     {
-      "example_country": "Algeria"
+      "has_topic": "Self-determination"
     }
   ]
 }

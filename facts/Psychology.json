@@ -1,7 +1,6 @@
 {
   "entity": "Psychology",
   "properties": {
-    "instance_of": "Social science",
     "field_of_study": "Behavior & Mental Processes",
     "origin": "Ancient Greece",
     "founder": "Wilhelm Wundt",
@@ -10,38 +9,39 @@
     "focus": "Mind and Behavior",
     "related_to": "Neuroscience, Sociology, Philosophy",
     "application": "Therapy, Education, Business",
-    "key_concept": "Cognition, Emotion, Motivation"
+    "key_concept": "Cognition, Emotion, Motivation",
+    "type": "Social science"
   },
   "relationship": [
     {
-      "studies": "Human behavior"
+      "field_of": "Science"
     },
     {
-      "influenced_by": "Philosophy"
+      "subclass_of": "Social_science"
     },
     {
-      "related_to": "Cognitive Science"
+      "study": "Human_behavior"
     },
     {
-      "pioneered_by": "Sigmund Freud"
+      "deals_with": "Mental_processes"
     },
     {
-      "branch_of": "Behavioral Science"
+      "related_to": "Neuroscience"
     },
     {
-      "studies": "Mental processes"
+      "related_to": "Sociology"
     },
     {
-      "related_to": "Clinical Psychology"
+      "developed_by": "Wilhelm_Wundt"
     },
     {
-      "studies": "Developmental Psychology"
+      "application": "Psychotherapy"
     },
     {
-      "uses": "Psychological testing"
+      "branch_of": "Behavioral_sciences"
     },
     {
-      "contributes_to": "Mental health treatment"
+      "study": "Cognition"
     }
   ]
 }

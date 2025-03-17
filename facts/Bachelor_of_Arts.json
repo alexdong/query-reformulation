@@ -1,7 +1,6 @@
 {
   "entity": "Bachelor of Arts",
   "properties": {
-    "instance_of": "Academic degree",
     "field_of_study": "Humanities, Social Sciences, Arts",
     "level": "Undergraduate",
     "duration": "3-4 years",
@@ -10,38 +9,39 @@
     "focus": "Broad education",
     "assessment_method": "Exams, Essays, Projects",
     "prerequisite": "High school diploma",
-    "award_by": "University"
+    "award_by": "University",
+    "type": "Academic degree"
   },
   "relationship": [
     {
-      "predecessor": "High School Diploma"
+      "instance_of": "academic degree"
     },
     {
-      "successor": "Master of Arts"
+      "has_field": "humanities"
     },
     {
-      "type_of": "Undergraduate Degree"
+      "has_field": "social sciences"
     },
     {
-      "related_to": "Bachelor of Science"
+      "has_field": "natural sciences"
     },
     {
-      "offered_by": "University"
+      "requires": "higher education institution"
     },
     {
-      "requires": "Coursework"
+      "preceded_by": "high school diploma"
     },
     {
-      "leads_to": "Career"
+      "leads_to": "graduate degree"
     },
     {
-      "part_of": "Higher Education"
+      "has_prerequisite": "high school coursework"
     },
     {
-      "includes": "Major"
+      "defined_by": "academic curriculum"
     },
     {
-      "requires": "Electives"
+      "awarded_by": "university"
     }
   ]
 }

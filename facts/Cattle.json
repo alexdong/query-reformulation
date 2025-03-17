@@ -10,38 +10,39 @@
     "diet_type": "Herbivore",
     "lifespan": "15-25 years",
     "weight": "300-1000 kg",
-    "domestication_date": "10,500 years ago"
+    "domestication_date": "10,500 years ago",
+    "type": "Livestock"
   },
   "relationship": [
     {
-      "part_of": "Farm"
+      "instance_of": "domesticated_animal"
     },
     {
-      "provides": "Beef"
+      "part_of": "livestock"
     },
     {
-      "provides": "Milk"
+      "feeds_on": "grass"
     },
     {
-      "related_to": "Dairy farming"
+      "produces": "beef"
     },
     {
-      "related_to": "Ranching"
+      "produces": "milk"
     },
     {
-      "prey_for": "Lion"
+      "has_disease": "bovine_tuberculosis"
     },
     {
-      "prey_for": "Wolf"
+      "managed_by": "farmer"
     },
     {
-      "related_to": "Agriculture"
+      "located_in": "pasture"
     },
     {
-      "breed_example": "Angus cattle"
+      "related_to": "ranch"
     },
     {
-      "breed_example": "Holstein Friesian"
+      "has_breed": "Angus"
     }
   ]
 }

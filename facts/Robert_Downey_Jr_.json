@@ -1,5 +1,5 @@
 {
-  "entity": "Robert Downey Jr.",
+  "entity": "Robert Downey Jr ",
   "properties": {
     "birth_date": "1965-09-06",
     "birth_place": "New York City",
@@ -10,38 +10,39 @@
     "awards": "Academy Award",
     "net_worth": "$300 million",
     "height": "1.74 m",
-    "education": "Santa Monica High School"
+    "education": "Santa Monica High School",
+    "type": "Actor"
   },
   "relationship": [
     {
-      "starred_in": "Iron Man"
+      "instance_of": "actor"
     },
     {
-      "starred_in": "Oppenheimer"
+      "birthPlace": "New York City"
     },
     {
-      "starred_in": "Sherlock Holmes"
+      "spouse": "Susan Downey"
     },
     {
-      "directed_by": "Robert Altman"
+      "child": "Exton Elias Downey"
     },
     {
-      "collaborated_with": "Chris Evans"
+      "child": "Avril Roel Downey"
     },
     {
-      "influenced_by": "Charlie Chaplin"
+      "educatedAt": "Santa Monica High School"
     },
     {
-      "member_of": "Screen Actors Guild"
+      "occupation": "producer"
     },
     {
-      "genre": "Superhero film"
+      "awardReceived": "Academy Award"
     },
     {
-      "film_series": "Marvel Cinematic Universe"
+      "filmography": "Iron Man"
     },
     {
-      "award_presented_by": "Academy Awards"
+      "memberOf": "Screen Actors Guild"
     }
   ]
 }

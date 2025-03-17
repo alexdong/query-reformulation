@@ -1,7 +1,6 @@
 {
   "entity": "Qantas",
   "properties": {
-    "instance_of": "Airline",
     "country": "Australia",
     "iata_code": "QF",
     "icao_code": "QFA",
@@ -10,38 +9,39 @@
     "ceo": "Vanessa Hudson",
     "fleet_size": "125",
     "hub": "Sydney Airport",
-    "employees": "20,000"
+    "employees": "20,000",
+    "type": "Airline"
   },
   "relationship": [
     {
-      "subsidiary_of": "Qantas Airways Limited"
+      "instance_of": "airline"
     },
     {
-      "parent_organization": "Australian Government"
+      "parent_organization": "Qantas Airways Limited"
     },
     {
-      "operates_in": "Australia"
+      "headquarters_location": "Sydney"
     },
     {
-      "operates_in": "Asia"
+      "country_of_origin": "Australia"
     },
     {
-      "operates_in": "Oceania"
+      "subsidiary_of": "Australian Government"
     },
     {
-      "aircraft_manufactured_by": "Boeing"
+      "fleet_size": "Qantas Fleet"
     },
     {
-      "aircraft_manufactured_by": "Airbus"
+      "service_area": "Australia"
     },
     {
-      "competitor": "Virgin Australia"
+      "hub_transport": "Sydney Airport"
     },
     {
-      "service_provided": "Domestic Flights"
+      "founded_by": "Queensland and Northern Territory Aerial Services"
     },
     {
-      "service_provided": "International Flights"
+      "member_of": "Star Alliance"
     }
   ]
 }

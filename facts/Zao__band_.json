@@ -1,5 +1,5 @@
 {
-  "entity": "Zao (band)",
+  "entity": "Zao  band ",
   "properties": {
     "genre": "Post-hardcore",
     "origin": "Oakland, California",
@@ -10,42 +10,39 @@
     "website": "zaoband.com",
     "style": "Aggressive, Emotional",
     "influence": "Sunny Day Real Estate, Quicksand",
-    "notable_albums": "Where Good Leads to Bad, The Doubt Process"
+    "notable_albums": "Where Good Leads to Bad, The Doubt Process",
+    "type": "MusicGroup"
   },
   "relationship": [
     {
-      "influenced": "Birds in Row"
+      "instance_of": "music_group"
     },
     {
-      "influenced": "Touché Toussaint"
+      "country_of_origin": "Russia"
     },
     {
-      "label_affiliated": "Ipecac Recordings"
+      "genre": "Russian rock"
     },
     {
-      "member_instrument": "Dan Yemin",
-      "instrument": "Guitar, Vocals"
+      "influenced_by": "Led Zeppelin"
     },
     {
-      "member_instrument": "Sean Newton",
-      "instrument": "Drums"
+      "influenced_by": "Black Sabbath"
     },
     {
-      "member_instrument": "Chris Alfieri",
-      "instrument": "Bass"
+      "member": "Mikhail 'Mitya' Kharlamov"
     },
     {
-      "member_instrument": "Logan Li",
-      "instrument": "Bass"
+      "member": "Yuri Shevchuk"
     },
     {
-      "genre_associated": "Post-hardcore"
+      "member": "Denis Shvabrin"
     },
     {
-      "influenced_by": "Sunny Day Real Estate"
+      "influenced": "Braty Pukachevy"
     },
     {
-      "influenced_by": "Quicksand"
+      "influenced": "Splean"
     }
   ]
 }

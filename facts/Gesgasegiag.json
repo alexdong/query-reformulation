@@ -1,7 +1,6 @@
 {
   "entity": "Gesgasegiag",
   "properties": {
-    "instance_of": "Mythical creature",
     "origin": "Inuit mythology",
     "description": "Sea monster",
     "appearance": "Large, serpent-like",
@@ -10,38 +9,39 @@
     "size": "Varies, often immense",
     "temperament": "Dangerous, unpredictable",
     "region": "Arctic Canada",
-    "cultural_significance": "Represents ocean's power"
+    "cultural_significance": "Represents ocean's power",
+    "type": "Mythical creature"
   },
   "relationship": [
     {
-      "part_of": "Inuit mythology"
+      "instance_of": "mythical_figure"
     },
     {
-      "related_to": "Qalupalik"
+      "part_of": "Anishinaabe_mythology"
     },
     {
-      "related_to": "Adlet"
+      "related_to": "Nanabozho"
     },
     {
-      "associated_with": "Arctic regions"
+      "depicted_in": "Anishinaabe_folklore"
     },
     {
-      "fear_of": "Inuit people"
+      "associated_with": "Anishinaabe_people"
     },
     {
-      "represents": "Ocean's danger"
+      "originates_from": "North America"
     },
     {
-      "story_appears_in": "Inuit folklore"
+      "function": "cultural_hero"
     },
     {
-      "habitat_overlaps_with": "Narwhal"
+      "acts_within": "Anishinaabe_territory"
     },
     {
-      "prey_on": "Seal"
+      "theme": "trickster"
     },
     {
-      "threat_to": "Kayaks"
+      "influenced_by": "oral_tradition"
     }
   ]
 }

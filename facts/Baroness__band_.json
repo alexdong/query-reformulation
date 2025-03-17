@@ -1,5 +1,5 @@
 {
-  "entity": "Baroness (band)",
+  "entity": "Baroness  band ",
   "properties": {
     "genre": "Post-punk",
     "origin": "New York City",
@@ -10,38 +10,39 @@
     "instrumentation": "Guitar, Bass, Drums, Vocals",
     "style": "Sludge Metal, Doom Metal, Post-Metal",
     "reunion_year": "2019",
-    "previous_name": "Dissipator"
+    "previous_name": "Dissipator",
+    "type": "MusicGroup"
   },
   "relationship": [
     {
-      "influenced_by": "Black Sabbath"
+      "instance_of": "music_group"
     },
     {
-      "influenced_by": "Melvins"
+      "country_of_origin": "United Kingdom"
     },
     {
-      "influenced_by": "Neurosis"
+      "genre": "post-punk"
     },
     {
-      "member_is": "John Baizley"
+      "influenced_by": "Joy Division"
     },
     {
-      "member_is": "Mia Berrigan"
+      "influenced_by": "The Cure"
     },
     {
-      "member_is": "Georgia Brooker"
+      "member": "John Squire"
     },
     {
-      "record_label": "Matador Records"
+      "member": "Sara Lugo"
     },
     {
-      "album": "Yellow & Black and Red"
+      "member": "Andy Sears"
     },
     {
-      "album": "Blue Reward"
+      "label": "Baroness (band)"
     },
     {
-      "genre_is": "Post-punk"
+      "stylistic_influence": "progressive_rock"
     }
   ]
 }

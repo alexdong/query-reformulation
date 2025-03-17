@@ -10,38 +10,39 @@
     "political_affiliation": "Arab nationalism",
     "education": "High school",
     "crime_date": "1968-06-05",
-    "victim": "Robert F. Kennedy"
+    "victim": "Robert F. Kennedy",
+    "type": "Assassin"
   },
   "relationship": [
     {
-      "assassinated": "Robert F. Kennedy"
+      "instance_of": "assassin"
     },
     {
-      "member_of": "Arab nationalist movement"
+      "birth_place": "Jerusalem"
     },
     {
-      "born_in": "Jerusalem"
+      "member_of": "Palestine Liberation Organization"
     },
     {
-      "nationality_of": "United States"
+      "victim": "Robert F. Kennedy"
     },
     {
-      "trial_location": "Los Angeles"
+      "employed_by": "Baskin-Robbins"
     },
     {
-      "sentenced_by": "Judge Herbert Curtis Walker"
+      "nationality": "United States of America"
     },
     {
-      "appealed_by": "Defense attorneys"
+      "convicted_of": "Murder"
     },
     {
-      "influenced_by": "Palestinian nationalism"
+      "imprisoned_in": "San Quentin State Prison"
     },
     {
-      "related_to": "Yitzhak Rabin"
+      "influenced_by": "Arab nationalism"
     },
     {
-      "involved_in": "1968 United States presidential election"
+      "parental_figure": "Ali Sirhan"
     }
   ]
 }

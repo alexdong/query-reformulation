@@ -1,7 +1,6 @@
 {
   "entity": "Academia",
   "properties": {
-    "instance_of": "System",
     "focus": "Research & Teaching",
     "goal": "Knowledge Creation",
     "structure": "Hierarchical",
@@ -10,38 +9,39 @@
     "publication": "Journals & Books",
     "reputation": "Based on Output",
     "career_path": "Tenure Track",
-    "evaluation": "Metrics & Reputation"
+    "evaluation": "Metrics & Reputation",
+    "type": "System"
   },
   "relationship": [
     {
-      "part_of": "Higher Education"
+      "instance_of": "educational institution"
     },
     {
-      "employs": "Professor"
+      "subclass_of": "university"
     },
     {
-      "produces": "Research Paper"
+      "located_in": "city"
     },
     {
-      "awards": "Nobel Prize"
+      "has_member": "academic"
     },
     {
-      "influenced_by": "Enlightenment"
+      "offers": "educational program"
     },
     {
-      "requires": "Critical Thinking"
+      "research_area": "field of study"
     },
     {
-      "promotes": "Intellectual Curiosity"
+      "funded_by": "organization"
     },
     {
-      "fosters": "Collaboration"
+      "has_department": "academic department"
     },
     {
-      "relies_on": "University"
+      "publication": "academic journal"
     },
     {
-      "criticized_for": "Bias"
+      "affiliation": "research institute"
     }
   ]
 }

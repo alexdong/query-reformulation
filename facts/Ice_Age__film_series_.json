@@ -1,7 +1,6 @@
 {
-  "entity": "Ice Age (film series)",
+  "entity": "Ice Age  film series ",
   "properties": {
-    "instance_of": "Animated film series",
     "genre": "Comedy, Adventure, Family",
     "production_company": "Blue Sky Studios",
     "first_release_date": "2002",
@@ -10,38 +9,39 @@
     "protagonist_species": "Woolly Mammoth",
     "antagonist": "Captain Gutt",
     "animation_technique": "CGI",
-    "country_of_origin": "United States"
+    "country_of_origin": "United States",
+    "type": "Animated film series"
   },
   "relationship": [
     {
-      "prequel": "Ice Age: Dawn of the Dinosaurs"
+      "instance_of": "film series"
     },
     {
-      "sequel": "Ice Age: The Meltdown"
+      "creator": "Blue Sky Studios"
     },
     {
-      "sequel": "Ice Age: Continental Drift"
+      "adapted_work": "Ice Age (comic strip)"
     },
     {
-      "sequel": "Ice Age: Collision Course"
+      "preceded_by": "Ice Age (short film)"
     },
     {
-      "character_appears": "Scrat"
+      "followed_by": "Ice Age: Collision Course"
     },
     {
-      "character_appears": "Sid"
+      "distributed_by": "20th Century Fox"
     },
     {
-      "character_appears": "Diego"
+      "genre": "animated comedy"
     },
     {
-      "inspired_by": "Paleolithic Era"
+      "character": "Scrat"
     },
     {
-      "theme": "Friendship"
+      "setting": "Paleolithic Era"
     },
     {
-      "influenced": "Animation"
+      "theme": "family"
     }
   ]
 }

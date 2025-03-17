@@ -10,38 +10,39 @@
     "sport": "Rugby union",
     "national_team": "All Blacks",
     "revenue_2022": "NZ$173.7 million",
-    "legal_status": "Company"
+    "legal_status": "Company",
+    "type": "SportsOrganization"
   },
   "relationship": [
     {
-      "governed_by": "Sports New Zealand"
+      "instance_of": "national sports organization"
     },
     {
-      "manages": "All Blacks"
+      "country": "New Zealand"
     },
     {
-      "manages": "Black Ferns"
+      "governs": "All Blacks"
     },
     {
-      "member_of": "Sanzaar"
+      "member_of": "World Rugby"
     },
     {
-      "competition": "Super Rugby"
+      "subclass_of": "rugby union governing body"
     },
     {
-      "competition": "Rugby Championship"
+      "headquarters_location": "Auckland"
     },
     {
-      "competition": "NPC"
-    },
-    {
-      "founded_by": "Thomas Ellison"
+      "founded_by": "New Zealand Rugby Football Association"
     },
     {
       "sponsors": "HSBC"
     },
     {
-      "governs_competition": "National Provincial Championship"
+      "manages": "Mitre 10 Cup"
+    },
+    {
+      "responsible_for": "Rugby World Cup"
     }
   ]
 }

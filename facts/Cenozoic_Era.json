@@ -10,38 +10,39 @@
     "major_event_1": "Continental Drift",
     "major_event_2": "Ice Ages",
     "climate_trend": "Generally warmer, with cooling trends",
-    "geological_composition": "Sedimentary rocks, volcanic activity"
+    "geological_composition": "Sedimentary rocks, volcanic activity",
+    "type": "GeologicalEra"
   },
   "relationship": [
     {
-      "part_of": "Phanerozoic Eon"
+      "part_of": "Geologic Time Scale"
     },
     {
       "preceded_by": "Mesozoic Era"
     },
     {
-      "followed_by": "N/A"
+      "followed_by": "Future Era"
     },
     {
-      "contains_period": "Paleogene Period"
+      "contains": "Paleogene Period"
     },
     {
-      "contains_period": "Neogene Period"
+      "contains": "Neogene Period"
     },
     {
-      "contains_period": "Quaternary Period"
+      "contains": "Quaternary Period"
     },
     {
-      "influenced_life": "Evolution of Mammals"
+      "characterized_by": "Evolution of Mammals"
     },
     {
-      "influenced_life": "Evolution of Birds"
+      "characterized_by": "Continental Drift"
     },
     {
-      "influenced_life": "Evolution of Flowering Plants"
+      "influenced_by": "Plate Tectonics"
     },
     {
-      "geographic_feature": "Formation of Himalayas"
+      "resulted_in": "Current Geological Formations"
     }
   ]
 }

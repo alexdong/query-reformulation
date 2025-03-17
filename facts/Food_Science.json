@@ -1,7 +1,6 @@
 {
   "entity": "Food Science",
   "properties": {
-    "instance_of": "Interdisciplinary field",
     "focus": "Food production & preservation",
     "related_to": "Chemistry, Biology, Engineering",
     "goal": "Improve food quality & safety",
@@ -10,38 +9,39 @@
     "methodology": "Scientific method",
     "career_path": "Food Technologist, Researcher",
     "importance": "Global food security",
-    "origin": "19th century"
+    "origin": "19th century",
+    "type": "Interdisciplinary field"
   },
   "relationship": [
     {
-      "related_to": "Nutrition"
+      "subclass_of": "Science"
     },
     {
-      "employs": "Sensory science"
+      "instance_of": "Academic discipline"
     },
     {
-      "studies": "Food spoilage"
+      "applied_to": "Food"
     },
     {
-      "utilizes": "Food processing"
+      "studies": "Nutrition"
     },
     {
-      "requires": "Food safety"
+      "related_to": "Chemistry"
     },
     {
-      "overlaps_with": "Culinary arts"
+      "related_to": "Microbiology"
     },
     {
-      "impacts": "Agriculture"
+      "related_to": "Engineering"
     },
     {
-      "contributes_to": "Public health"
+      "employs": "Sensory evaluation"
     },
     {
-      "research_area": "Food packaging"
+      "concerned_with": "Food processing"
     },
     {
-      "influences": "Food industry"
+      "contributes_to": "Food safety"
     }
   ]
 }

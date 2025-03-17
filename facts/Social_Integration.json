@@ -10,38 +10,39 @@
     "related_to": "Assimilation",
     "opposite_of": "Social exclusion",
     "measurement": "Social capital",
-    "importance": "Well-being"
+    "importance": "Well-being",
+    "type": "SocialProcess"
   },
   "relationship": [
     {
-      "part_of": "Sociology"
+      "instance_of": "Social Group"
     },
     {
-      "related_to": "Social Capital"
+      "part_of": "Society"
     },
     {
-      "contrasts_with": "Social Exclusion"
+      "has_process": "Acculturation"
     },
     {
-      "influences": "Community Development"
+      "has_agent": "Community"
     },
     {
-      "requires": "Social Norms"
+      "has_result": "Social Cohesion"
     },
     {
-      "impacts": "Social Mobility"
+      "has_topic": "Interpersonal Relationship"
     },
     {
-      "promotes": "Civic Engagement"
+      "has_agent": "Family"
     },
     {
-      "linked_to": "Identity Formation"
+      "has_agent": "Education"
     },
     {
-      "facilitates": "Intergroup Relations"
+      "has_agent": "Government"
     },
     {
-      "supports": "Collective Action"
+      "has_agent": "Civil Society"
     }
   ]
 }

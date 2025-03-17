@@ -1,7 +1,6 @@
 {
   "entity": "Otago Rugby Football Club",
   "properties": {
-    "instance_of": "Rugby union club",
     "founded": "1882",
     "location": "Dunedin",
     "country": "New Zealand",
@@ -10,38 +9,39 @@
     "nickname": "The Razorbacks",
     "competition": "National Provincial Championship",
     "colours": "Navy Blue and White",
-    "trophy": "Ranfurly Shield"
+    "trophy": "Ranfurly Shield",
+    "type": "Rugby union club"
   },
   "relationship": [
     {
-      "part_of": "New Zealand rugby"
+      "instance_of": "rugby club"
     },
     {
       "located_in": "Otago Region"
     },
     {
-      "plays_in": "National Provincial Championship"
+      "country": "New Zealand"
     },
     {
-      "rivalry_with": "Southland Rugby Football Club"
+      "subsumes": "Otago Rugby Football Union"
     },
     {
-      "has_member": "Dunedin Rugby Football Club"
+      "member_of": "New Zealand Rugby Football Union"
     },
     {
-      "has_member": "Green Island Rugby Football Club"
+      "plays_in": "National Provincial Championship Division 1"
     },
     {
-      "won": "Ranfurly Shield"
+      "founded_by": "local rugby enthusiasts"
     },
     {
-      "coach": "Todd Woodward"
+      "has_sponsor": "local businesses"
     },
     {
-      "player": "Mitchell Hunt"
+      "has_player": "rugby player"
     },
     {
-      "player": "Josh Ioane"
+      "has_coach": "rugby coach"
     }
   ]
 }

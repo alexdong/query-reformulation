@@ -10,38 +10,39 @@
     "outcome": "Hanoverian victory",
     "leader": "James Francis Edward Stuart",
     "involved_countries": "Great Britain",
-    "historical_period": "18th Century"
+    "historical_period": "18th Century",
+    "type": "Rebellion"
   },
   "relationship": [
     {
-      "preceded_by": "Glorious Revolution"
+      "part_of": "War of the Grand Alliance"
     },
     {
-      "followed_by": "1745 Jacobite Rebellion"
+      "preceded_by": "1710 Jacobite Rising"
     },
     {
-      "involved_person": "James Francis Edward Stuart"
+      "succeeded_by": "Jacobite risings"
     },
     {
-      "involved_person": "George I"
+      "involved_in": "Battle of Sheriffmuir"
     },
     {
-      "involved_person": "Simon Fraser, 11th Lord Lovat"
+      "involved_in": "Battle of Prestonpans"
     },
     {
-      "involved_person": "Earl of Mar"
+      "involved_in": "Siege of Inverness"
     },
     {
-      "battle_took_place": "Battle of Sheriffmuir"
+      "involved_in": "Battle of Glenshiel"
     },
     {
-      "battle_took_place": "Battle of Preston"
+      "caused_by": "Political instability in Great Britain"
     },
     {
-      "battle_took_place": "Battle of Glenshiel"
+      "influenced_by": "Divine right of kings"
     },
     {
-      "influenced": "Act of Settlement"
+      "resulted_in": "Act of Proscription"
     }
   ]
 }

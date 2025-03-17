@@ -10,7 +10,8 @@
     "social_class_structure": "Rigid",
     "dominant_religion": "Christianity",
     "art_style": "Victorian Gothic",
-    "scientific_advancements": "Significant"
+    "scientific_advancements": "Significant",
+    "type": "HistoricalPeriod"
   },
   "relationship": [
     {
@@ -20,28 +21,28 @@
       "followed_by": "Edwardian Era"
     },
     {
-      "influenced": "Modernism"
+      "located_in": "United Kingdom"
     },
     {
-      "related_to": "Industrial Revolution"
-    },
-    {
-      "affected_by": "British Empire"
-    },
-    {
-      "associated_with": "Charles Dickens"
+      "influenced_by": "Industrial Revolution"
     },
     {
       "associated_with": "Queen Victoria"
     },
     {
-      "influenced": "Victorian literature"
+      "produced_work": "Victorian literature"
     },
     {
-      "impacted": "Social Reform"
+      "characterized_by": "Victorian morality"
     },
     {
-      "related_to": "Photography"
+      "influenced": "Modern architecture"
+    },
+    {
+      "related_to": "British Empire"
+    },
+    {
+      "caused": "Social reforms"
     }
   ]
 }

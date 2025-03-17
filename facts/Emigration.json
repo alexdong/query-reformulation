@@ -1,7 +1,6 @@
 {
   "entity": "Emigration",
   "properties": {
-    "instance_of": "Social process",
     "definition": "Movement away from a place of origin",
     "motivation": "Economic, political, social",
     "scale": "Individual to mass",
@@ -10,38 +9,39 @@
     "opposite_of": "Immigration",
     "historical_significance": "Shaped societies",
     "driver": "Push and pull factors",
-    "legal_status": "Varies by country"
+    "legal_status": "Varies by country",
+    "type": "Social process"
   },
   "relationship": [
     {
-      "causes": "Economic hardship"
+      "instance_of": "Human migration"
     },
     {
-      "causes": "Political persecution"
+      "caused_by": "Economic hardship"
     },
     {
-      "results_in": "Population change"
+      "results_in": "Population decline"
     },
     {
-      "impacts": "Host country"
+      "motivates": "Push factor"
     },
     {
-      "impacts": "Origin country"
-    },
-    {
-      "related_to": "Globalization"
-    },
-    {
-      "influenced_by": "Political climate"
+      "influenced_by": "Political instability"
     },
     {
       "facilitated_by": "Transportation"
     },
     {
-      "related_to": "Diaspora"
+      "results_in": "Diaspora"
     },
     {
-      "example_of": "Irish diaspora"
+      "related_to": "Immigration"
+    },
+    {
+      "affected_by": "Social network"
+    },
+    {
+      "part_of": "Demographic change"
     }
   ]
 }

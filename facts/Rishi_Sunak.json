@@ -10,38 +10,39 @@
     "spouse": "Akshata Murty",
     "net_worth": "615 million GBP",
     "constituency": "Richmond (Yorks)",
-    "religion": "Hinduism"
+    "religion": "Hinduism",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "predecessor": "Liz Truss"
+      "instance_of": "politician"
     },
     {
-      "succeeded_by": null
+      "member_of": "Conservative Party (UK)"
     },
     {
-      "member_of": "UK Parliament"
+      "spouse": "Akshata Murty"
     },
     {
-      "attended": "Stanford University"
+      "child_of": "Yasvir Sunak"
     },
     {
-      "attended": "University of Oxford"
+      "child_of": "Usha Sunak"
     },
     {
-      "role": "Chancellor of the Exchequer"
+      "educated_at": "Winchester College"
     },
     {
-      "member_of": "1922 Committee"
+      "educated_at": "Lincoln College, Oxford"
     },
     {
-      "supports": "Brexit"
+      "occupation": "Member of Parliament"
     },
     {
-      "policy_focus": "Economy"
+      "represents": "Richmond (UK Parliament constituency)"
     },
     {
-      "family_member_of": "Murty family"
+      "holds_position": "Prime Minister of the United Kingdom"
     }
   ]
 }

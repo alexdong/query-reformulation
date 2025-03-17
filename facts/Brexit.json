@@ -1,7 +1,6 @@
 {
   "entity": "Brexit",
   "properties": {
-    "instance_of": "Political event",
     "alternative_name": "EU Exit",
     "date_of_referendum": "2016-06-23",
     "result_vote_share_leave": "51.9%",
@@ -10,38 +9,39 @@
     "legal_framework": "Treaty on European Union",
     "main_issue": "Sovereignty, Trade, Immigration",
     "economic_impact": "Mixed",
-    "political_ideology": "Populism, Nationalism"
+    "political_ideology": "Populism, Nationalism",
+    "type": "Political event"
   },
   "relationship": [
     {
-      "caused_by": "European debt crisis"
+      "instance_of": "political event"
     },
     {
-      "preceded_by": "UK membership of the EU"
+      "caused_by": "European Union"
     },
     {
-      "influenced": "2019 UK general election"
+      "result": "Withdrawal Agreement"
     },
     {
-      "related_to": "David Cameron"
+      "influenced_by": "David Cameron"
     },
     {
-      "related_to": "Theresa May"
+      "affected": "United Kingdom"
     },
     {
-      "related_to": "Boris Johnson"
+      "affected": "European Union"
     },
     {
-      "impacts": "UK economy"
+      "has_participant": "Theresa May"
     },
     {
-      "impacts": "EU economy"
+      "has_participant": "Boris Johnson"
     },
     {
-      "negotiated_with": "European Commission"
+      "related_to": "Northern Ireland Protocol"
     },
     {
-      "legal_basis": "Lisbon Treaty"
+      "has_effect": "Economic impact"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "habitat": "Coastal waters",
     "size": "1.5-2.5m",
     "weight": "50-300 kg",
-    "conservation_status": "Least Concern"
+    "conservation_status": "Least Concern",
+    "type": "Animal"
   },
   "relationship": [
     {
-      "is_a": "Pinniped"
+      "instance_of": "mammal"
     },
     {
-      "prey_of": "Polar bear"
+      "taxon": "Carnivora"
     },
     {
-      "part_of_ecosystem": "Marine ecosystem"
+      "has_habitat": "ocean"
     },
     {
-      "related_to": "Sea lion"
+      "part_of": "marine ecosystem"
     },
     {
-      "found_in": "Arctic"
+      "prey_of": "orca"
     },
     {
-      "found_in": "Antarctica"
+      "eats": "fish"
     },
     {
-      "migration_pattern": "Seasonal"
+      "has_characteristic": "blubber"
     },
     {
-      "reproduction_method": "Viviparous"
+      "lives_in": "Antarctica"
     },
     {
-      "threat": "Climate change"
+      "threatened_by": "climate change"
     },
     {
-      "behavior": "Social"
+      "related_to": "pinniped"
     }
   ]
 }

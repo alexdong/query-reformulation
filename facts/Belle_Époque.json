@@ -10,7 +10,8 @@
     "technology": "Electricity, Automobiles, Telephones",
     "social_class": "Rise of the Bourgeoisie",
     "political_climate": "Relative Peace, Colonialism",
-    "music_genre": "Romantic Era, early 20th-century classical"
+    "music_genre": "Romantic Era, early 20th-century classical",
+    "type": "Historical period"
   },
   "relationship": [
     {
@@ -20,28 +21,28 @@
       "followed_by": "World War I"
     },
     {
-      "influenced": "Art Nouveau"
+      "located_in": "France"
     },
     {
-      "influenced": "Impressionism"
+      "associated_with": "Art Nouveau"
+    },
+    {
+      "associated_with": "Impressionism"
+    },
+    {
+      "associated_with": "Fin de siècle"
+    },
+    {
+      "influenced_by": "Industrial Revolution"
+    },
+    {
+      "characterized_by": "Optimism"
     },
     {
       "associated_with": "Paris"
     },
     {
-      "associated_with": "France"
-    },
-    {
-      "related_to": "Industrial Revolution"
-    },
-    {
-      "influenced": "Modernism"
-    },
-    {
-      "associated_with_event": "Exposition Universelle (1889)"
-    },
-    {
-      "associated_with_person": "Jules Verne"
+      "associated_with": "Technological advancements"
     }
   ]
 }

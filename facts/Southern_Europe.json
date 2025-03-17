@@ -10,38 +10,39 @@
     "economy": "Tourism, Agriculture, Manufacturing",
     "geography": "Mountains, Coastlines, Islands",
     "culture": "Diverse, Historical",
-    "political_status": "Various countries"
+    "political_status": "Various countries",
+    "type": "Continent"
   },
   "relationship": [
     {
       "part_of": "Europe"
     },
     {
-      "borders": "Central Europe"
+      "located_in": "Europe"
     },
     {
-      "includes": "Italy"
+      "borders": "North Africa"
     },
     {
-      "includes": "Spain"
+      "has_country": "Italy"
     },
     {
-      "includes": "Greece"
+      "has_country": "Greece"
     },
     {
-      "includes": "Portugal"
+      "has_country": "Spain"
     },
     {
-      "includes": "France"
+      "has_country": "Portugal"
+    },
+    {
+      "has_country": "Croatia"
     },
     {
       "influenced_by": "Roman Empire"
     },
     {
-      "has_cuisine": "Mediterranean cuisine"
-    },
-    {
-      "contains_landmark": "Colosseum"
+      "has_climate": "Mediterranean climate"
     }
   ]
 }

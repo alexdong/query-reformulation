@@ -10,38 +10,39 @@
     "cultural_significance": "Cultural Identity",
     "rhythm": "Jigs, Reels, Hornpipes",
     "vocal_style": "Storytelling, Ballads",
-    "notation": "Primarily Oral Tradition"
+    "notation": "Primarily Oral Tradition",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Irish Folk Music"
+      "instance_of": "music genre"
     },
     {
-      "influenced": "Scottish Folk Music"
+      "originates_from": "Celtic culture"
     },
     {
-      "related_to": "Gaelic Languages"
+      "influenced_by": "Irish traditional music"
     },
     {
-      "subgenre_of": "Folk Music"
+      "influenced_by": "Scottish traditional music"
     },
     {
-      "associated_with": "Celtic Mythology"
+      "has_genre": "folk music"
     },
     {
-      "performed_by": "The Chieftains"
+      "has_instrument": "fiddle"
     },
     {
-      "performed_by": "Enya"
+      "has_instrument": "tin whistle"
     },
     {
-      "performed_by": "Loreena McKennitt"
+      "has_instrument": "bodhrán"
     },
     {
-      "originates_from": "Ireland"
+      "related_to": "Irish dance"
     },
     {
-      "originates_from": "Scotland"
+      "related_to": "Scottish dance"
     }
   ]
 }

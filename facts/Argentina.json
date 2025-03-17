@@ -10,38 +10,39 @@
     "largest_city": "Buenos Aires",
     "national_sport": "Football",
     "independence_date": "1816-07-09",
-    "government_type": "Federal Republic"
+    "government_type": "Federal Republic",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "South America"
+      "located_in": "South America"
     },
     {
-      "borders": "Chile"
+      "part_of": "United Nations"
     },
     {
-      "borders": "Bolivia"
+      "has_capital": "Buenos Aires"
     },
     {
-      "borders": "Paraguay"
+      "influenced_by": "Spain"
     },
     {
-      "borders": "Brazil"
+      "has_currency": "Argentine peso"
     },
     {
-      "member_of": "UN"
+      "member_of": "World Trade Organization"
     },
     {
-      "member_of": "Mercosur"
+      "has_official_language": "Spanish language"
     },
     {
-      "influenced_by": "European immigration"
+      "borders_country": "Chile"
     },
     {
-      "has_landmark": "Iguazu Falls"
+      "has_national_sport": "Football (soccer)"
     },
     {
-      "has_city": "Mendoza"
+      "has_historical_event": "Argentine Revolution"
     }
   ]
 }

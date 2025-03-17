@@ -1,5 +1,5 @@
 {
-  "entity": "Mary, Queen of Scots",
+  "entity": "Mary  Queen of Scots",
   "properties": {
     "birth_date": "1542-12-08",
     "birth_place": "Linlithgow Palace",
@@ -10,38 +10,39 @@
     "religion": "Catholicism",
     "spouse_1": "Francis II of France",
     "spouse_2": "Henry Stuart, Lord Darnley",
-    "spouse_3": "James Hepburn, 4th Earl of Bothwell"
+    "spouse_3": "James Hepburn, 4th Earl of Bothwell",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "father": "James V of Scotland"
+      "instance_of": "monarch"
     },
     {
-      "mother": "Mary of Guise"
-    },
-    {
-      "sibling": "James Stuart, Earl of Moray"
-    },
-    {
-      "married_to": "Francis II of France"
-    },
-    {
-      "married_to": "Henry Stuart, Lord Darnley"
-    },
-    {
-      "married_to": "James Hepburn, 4th Earl of Bothwell"
+      "rdfs:label": "Scotland"
     },
     {
       "child_of": "James V of Scotland"
     },
     {
-      "child_of": "Mary of Guise"
+      "spouse_of": "Francis II of France"
     },
     {
-      "successor": "James VI of Scotland"
+      "sibling_of": "James VI of Scotland"
     },
     {
-      "involved_in": "Scottish Reformation"
+      "rdfs:label": "England"
+    },
+    {
+      "imprisoned_by": "Elizabeth I of England"
+    },
+    {
+      "executed_by": "England"
+    },
+    {
+      "member_of": "House of Stuart"
+    },
+    {
+      "influenced_by": "John Knox"
     }
   ]
 }

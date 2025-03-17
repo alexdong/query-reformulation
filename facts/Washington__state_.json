@@ -1,5 +1,5 @@
 {
-  "entity": "Washington (state)",
+  "entity": "Washington  state ",
   "properties": {
     "capital": "Olympia",
     "largest_city": "Seattle",
@@ -10,11 +10,21 @@
     "time_zone": "Pacific Time",
     "state_flower": "Coast Rhododendron",
     "state_bird": "American Robin",
-    "admission_date": "1889-11-11"
+    "admission_date": "1889-11-11",
+    "type": "AdministrativeDivision"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States of America"
+    },
+    {
+      "part_of": "North America"
+    },
+    {
+      "has_capital": "Olympia"
+    },
+    {
+      "borders": "Canada"
     },
     {
       "borders": "Oregon"
@@ -23,25 +33,16 @@
       "borders": "Idaho"
     },
     {
-      "borders": "British Columbia"
+      "has_governor": "Jay Inslee"
     },
     {
-      "located_in": "Pacific Northwest"
+      "has_official_language": "English"
     },
     {
-      "major_city": "Seattle"
+      "instance_of": "U.S. state"
     },
     {
-      "major_city": "Spokane"
-    },
-    {
-      "river_flows_through": "Columbia River"
-    },
-    {
-      "industry": "Aerospace"
-    },
-    {
-      "landmark": "Mount Rainier"
+      "has_major_river": "Columbia River"
     }
   ]
 }

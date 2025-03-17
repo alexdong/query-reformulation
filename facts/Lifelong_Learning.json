@@ -10,38 +10,39 @@
     "benefits": "Improved skills, adaptability, well-being",
     "challenges": "Time constraints, cost, access",
     "related_concept": "Adult Education",
-    "importance": "Increasingly vital in a changing world"
+    "importance": "Increasingly vital in a changing world",
+    "type": "EducationalActivity"
   },
   "relationship": [
     {
-      "supports": "Personal Development"
+      "instance_of": "Educational process"
     },
     {
-      "promotes": "Career Advancement"
+      "subclass_of": "Formal education"
     },
     {
-      "requires": "Self-Motivation"
+      "motivated_by_agent": "Individual"
     },
     {
-      "facilitated_by": "Online Learning"
+      "has_topic": "Knowledge"
     },
     {
-      "linked_to": "Andragogy"
+      "has_purpose": "Personal development"
     },
     {
-      "impacts": "Economic Growth"
+      "related_to": "Skills"
     },
     {
-      "supports": "Social Inclusion"
+      "part_of": "Human capital"
     },
     {
-      "overlaps_with": "Informal Learning"
+      "enabled_by": "Technology"
     },
     {
-      "influenced_by": "UNESCO"
+      "supports": "Career development"
     },
     {
-      "contributes_to": "Knowledge Society"
+      "influenced_by": "Societal change"
     }
   ]
 }

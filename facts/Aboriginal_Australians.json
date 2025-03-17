@@ -10,38 +10,39 @@
     "art_form": "Rock art, Dot painting",
     "land_management": "Firestick farming",
     "governance": "Traditional law, Elders",
-    "status": "Indigenous"
+    "status": "Indigenous",
+    "type": "Indigenous peoples"
   },
   "relationship": [
     {
-      "related_to": "Torres Strait Islanders"
+      "part_of": "Australia"
     },
     {
       "located_in": "Australia"
     },
     {
-      "influenced_by": "Dreamtime"
+      "has_ancestor": "Indigenous Australians"
     },
     {
-      "related_to": "Terra Nullius"
+      "has_language": "Australian Aboriginal languages"
     },
     {
-      "affected_by": "Stolen Generations"
+      "has_culture": "Australian Aboriginal culture"
     },
     {
-      "related_to": "Uluru"
+      "has_religion": "Aboriginal Australian religion"
     },
     {
-      "related_to": "Australian Aboriginal languages"
+      "has_art": "Aboriginal Australian art"
     },
     {
-      "related_to": "Australian history"
+      "has_traditional_knowledge": "Traditional Aboriginal knowledge"
     },
     {
-      "related_to": "Indigenous Australian art"
+      "has_relationship": "Terra Nullius"
     },
     {
-      "related_to": "National Reconciliation Week"
+      "has_relationship": "Stolen Generations"
     }
   ]
 }

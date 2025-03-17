@@ -10,38 +10,39 @@
     "colours": "Black and White",
     "manager": "Steven Robinson",
     "ownership": "St Mirren Football Club Ltd",
-    "supporters_club": "St Mirren Supporters Club"
+    "supporters_club": "St Mirren Supporters Club",
+    "type": "FootballClub"
   },
   "relationship": [
+    {
+      "instance_of": "football club"
+    },
+    {
+      "located_in": "Renfrewshire"
+    },
+    {
+      "country_of_origin": "Scotland"
+    },
     {
       "plays_in": "Scottish Premiership"
     },
     {
-      "located_in": "Paisley"
+      "has_sponsor": "Scottish Gas"
     },
     {
-      "member_of": "Scottish Football League"
-    },
-    {
-      "rival": "Greenock Morton"
-    },
-    {
-      "plays_at": "The Simple Digital Arena"
+      "founded_by": "local community"
     },
     {
       "has_coach": "Steven Robinson"
     },
     {
-      "won_trophy": "Scottish Cup"
+      "has_player": "Markeith Bairault"
     },
     {
-      "member_of_league": "Scottish Football League"
+      "member_of": "Scottish Football Association"
     },
     {
-      "founded_in": "Paisley"
-    },
-    {
-      "has_sponsor": "Simple Digital"
+      "rival_of": "Greenock Morton"
     }
   ]
 }

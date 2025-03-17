@@ -10,38 +10,39 @@
     "geographic_variation": "Differ across regions",
     "social_impact": "Shapes societal norms",
     "key_themes": "Individuality, belonging, rebellion",
-    "digital_presence": "Heavy reliance on internet"
+    "digital_presence": "Heavy reliance on internet",
+    "type": "SocialGroup"
   },
   "relationship": [
     {
       "influenced_by": "Social Media"
     },
     {
-      "part_of": "Popular Culture"
+      "part_of": "Society"
     },
     {
-      "related_to": "Generations"
+      "shaped_by": "Economic Conditions"
     },
     {
-      "impacts": "Fashion"
+      "responds_to": "Political Climate"
     },
     {
-      "impacts": "Music"
+      "creates": "Trends"
     },
     {
-      "impacts": "Language"
+      "expresses_through": "Music"
     },
     {
-      "influenced_by": "Globalization"
+      "expresses_through": "Fashion"
     },
     {
-      "related_to": "Subcultures"
+      "influenced_by": "Technology"
     },
     {
-      "impacts": "Politics"
+      "shaped_by": "Family"
     },
     {
-      "related_to": "Consumerism"
+      "impacts": "Consumerism"
     }
   ]
 }

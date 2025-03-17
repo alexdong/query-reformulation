@@ -10,38 +10,39 @@
     "education_level": "Highly educated",
     "unionization_rate": "27.4% (2022)",
     "geographic_distribution": "Concentrated in urban areas",
-    "work_week_average": "37.3 hours (2022)"
+    "work_week_average": "37.3 hours (2022)",
+    "type": "LaborForce"
   },
   "relationship": [
     {
-      "influenced_by": "Canadian economy"
+      "employs": "Canadian Economy"
     },
     {
-      "part_of": "Canadian society"
+      "contributes_to": "Gross Domestic Product"
     },
     {
-      "affected_by": "Government policies"
+      "affected_by": "Government Policies"
     },
     {
-      "impacts": "Canadian GDP"
+      "requires": "Education System"
     },
     {
-      "employs": "Canadian citizens"
+      "influenced_by": "Technological Advancements"
     },
     {
-      "requires": "Skills and training"
+      "impacts": "Canadian Society"
     },
     {
-      "subject_to": "Labour laws"
+      "provides": "Tax Revenue"
     },
     {
-      "contributes_to": "Tax revenue"
+      "dependent_on": "Natural Resources"
     },
     {
-      "affected_by": "Technological advancements"
+      "interacts_with": "Labour Unions"
     },
     {
-      "related_to": "Immigration"
+      "shaped_by": "Demographic Trends"
     }
   ]
 }

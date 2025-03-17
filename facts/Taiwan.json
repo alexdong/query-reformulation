@@ -10,38 +10,39 @@
     "government": "Semi-presidential republic",
     "GDP_nominal": "$775 billion (2023)",
     "major_export": "Electronics",
-    "time_zone": "Taiwan Standard Time (TST)"
+    "time_zone": "Taiwan Standard Time (TST)",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "part_of": "East Asia"
-    },
     {
       "located_in": "Asia"
     },
     {
-      "border_country": "People's Republic of China"
+      "part_of": "First Chinese Empire"
     },
     {
-      "island_group": "Taiwanese archipelago"
+      "has_capital": "Taipei"
     },
     {
-      "influenced_by": "Japanese Empire"
+      "influenced_by": "Republic of China"
     },
     {
-      "historical_period": "Qing Dynasty"
+      "has_neighbor": "People's Republic of China"
     },
     {
-      "trade_partner": "United States"
+      "has_official_language": "Mandarin Chinese"
     },
     {
-      "technology_leader_in": "Semiconductors"
+      "has_currency": "New Taiwan dollar"
     },
     {
-      "governed_by": "Taiwanese government"
+      "member_of": "World Trade Organization"
     },
     {
-      "recognized_by": "United States"
+      "has_leader": "Lai Ching-te"
+    },
+    {
+      "has_historical_event": "Battle of Keelung"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "doctoral_degree": "University of Cambridge",
     "awards": "Nobel Prize in Chemistry",
     "known_for": "Nuclear model of the atom",
-    "alma_mater": "University of Canterbury"
+    "alma_mater": "University of Canterbury",
+    "type": "Scientist"
   },
   "relationship": [
     {
+      "instance_of": "scientist"
+    },
+    {
+      "country_of_citizenship": "New Zealand"
+    },
+    {
+      "alma_mater": "University of Cambridge"
+    },
+    {
+      "doctoral_advisor": "J.J. Thomson"
+    },
+    {
+      "field_of_work": "nuclear physics"
+    },
+    {
+      "member_of": "Royal Society"
+    },
+    {
+      "award_received": "Nobel Prize in Chemistry"
+    },
+    {
+      "discovered_or_invented": "nuclear atom"
+    },
+    {
+      "laboratory": "Rutherford Laboratory"
+    },
+    {
       "influenced": "Niels Bohr"
-    },
-    {
-      "student_of": "Thomas Parnell"
-    },
-    {
-      "worked_at": "McGill University"
-    },
-    {
-      "worked_at": "Manchester University"
-    },
-    {
-      "worked_at": "University of Cambridge"
-    },
-    {
-      "discovered": "Alpha particle"
-    },
-    {
-      "discovered": "Beta particle"
-    },
-    {
-      "experiment": "Gold foil experiment"
-    },
-    {
-      "mentor_of": "James Chadwick"
-    },
-    {
-      "contributed_to": "Rutherford scattering"
     }
   ]
 }

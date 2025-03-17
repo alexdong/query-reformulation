@@ -1,7 +1,6 @@
 {
   "entity": "San Francisco 49ers",
   "properties": {
-    "instance_of": "American football team",
     "founded": "1946",
     "city": "Santa Clara, California",
     "league": "NFL",
@@ -10,38 +9,39 @@
     "owner": "Jed York",
     "stadium": "Levi's Stadium",
     "team_color": "Red and Gold",
-    "championships": "5"
+    "championships": "5",
+    "type": "American football team"
   },
   "relationship": [
     {
-      "plays_in": "NFL"
+      "instance_of": "American football team"
     },
     {
-      "located_in": "Santa Clara, California"
+      "located_in": "San Francisco, California"
     },
     {
-      "member_of": "NFC West"
+      "part_of": "National Football League"
     },
     {
-      "plays_for": "Levi's Stadium"
+      "plays_in": "Levi's Stadium"
     },
     {
-      "coach": "Kyle Shanahan"
+      "head_coach": "Kyle Shanahan"
     },
     {
-      "owner": "York family"
+      "owner": "Jed York"
     },
     {
-      "rival": "Los Angeles Rams"
+      "founded_by": "Frank Robinson and Tony Morabito"
     },
     {
-      "rival": "Seattle Seahawks"
+      "has_member": "Christian McCaffrey"
     },
     {
-      "won": "Super Bowl"
+      "rival_of": "Los Angeles Rams"
     },
     {
-      "plays_against": "Green Bay Packers"
+      "championship": "Super Bowl"
     }
   ]
 }

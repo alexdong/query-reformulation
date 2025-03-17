@@ -10,38 +10,39 @@
     "member_of": "House of Lords",
     "title": "Baroness Scotland of Astill",
     "spouse": "Peter Sandys",
-    "children": "2"
+    "children": "2",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "educated_at": "University of Warwick"
+      "instance_of": "politician"
     },
     {
-      "member_of": "Labour Party"
+      "country_of_citizenship": "Saint Vincent and the Grenadines"
+    },
+    {
+      "occupation": "lawyer"
     },
     {
       "member_of": "House of Lords"
     },
     {
-      "appointed_by": "Tony Blair"
+      "educated_at": "University of the West Indies"
     },
     {
-      "held_office": "Secretary of State for International Development"
+      "position_held": "Secretary-General of the Commonwealth of Nations"
     },
     {
-      "held_office": "Minister of State for Education"
+      "award_received": "Dame Commander of the Order of St Michael and St George (DCMG)"
     },
     {
-      "held_office": "Attorney General for England and Wales"
+      "member_of": "Labour Party (UK)"
     },
     {
-      "honorific_prefix": "Baroness"
+      "birth_place": "Kingstown"
     },
     {
-      "succeeded": "Boris Johnson"
-    },
-    {
-      "preceded_by": "David Cameron"
+      "family_relation": "daughter of Simeon Scotland"
     }
   ]
 }

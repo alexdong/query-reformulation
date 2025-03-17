@@ -10,38 +10,39 @@
     "color": "Natural (beige/grey), can be dyed",
     "weight": "Light to medium",
     "breathability": "Excellent",
-    "historical_use": "Clothing, household textiles"
+    "historical_use": "Clothing, household textiles",
+    "type": "Textile"
   },
   "relationship": [
     {
-      "made_from": "Flax"
+      "material": "flax"
     },
     {
-      "type_of": "Textile"
+      "instance_of": "textile"
     },
     {
-      "used_in": "Clothing"
+      "used_for": "clothing"
     },
     {
-      "used_in": "Bedding"
+      "used_for": "bedding"
     },
     {
-      "used_in": "Tablecloths"
+      "used_for": "tablecloth"
     },
     {
-      "related_to": "Cotton"
+      "produced_in": "Belgium"
     },
     {
-      "related_to": "Silk"
+      "produced_in": "Ireland"
     },
     {
-      "historical_significance": "Ancient Egypt"
+      "related_to": "cotton"
     },
     {
-      "production_region": "Belgium"
+      "related_to": "silk"
     },
     {
-      "processing_method": "Weaving"
+      "has_property": "absorbent"
     }
   ]
 }

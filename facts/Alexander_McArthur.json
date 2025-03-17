@@ -10,38 +10,39 @@
     "education": "University of British Columbia",
     "spouse": "Jean McArthur",
     "children": "3",
-    "member_of": "Canadian House of Commons"
+    "member_of": "Canadian House of Commons",
+    "type": "Author"
   },
   "relationship": [
     {
-      "member_of_parliament_for": "Vancouver South"
+      "instance_of": "male human"
     },
     {
-      "minister_of": "Public Works"
+      "occupation": "fashion designer"
     },
     {
-      "minister_of": "National Revenue"
+      "employed_by": "Ann Lowe"
     },
     {
-      "appointed_by": "John Diefenbaker"
+      "educated_at": "Savannah College of Art and Design"
     },
     {
-      "preceded_by": "Charles Choquette"
+      "award_received": "Council of Fashion Designers of America Award"
     },
     {
-      "succeeded_by": "John Fraser"
+      "country_of_citizenship": "United States of America"
     },
     {
-      "served_in": "Canadian Senate"
+      "place_of_birth": "Atlanta"
     },
     {
-      "educated_at": "University of British Columbia"
+      "works_at": "Alexander McQueen"
     },
     {
-      "political_ideology": "Conservatism"
+      "influenced_by": "Rei Kawakubo"
     },
     {
-      "influenced_by": "John A. Macdonald"
+      "design_style": "avant-garde fashion"
     }
   ]
 }

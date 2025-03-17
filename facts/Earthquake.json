@@ -1,7 +1,6 @@
 {
   "entity": "Earthquake",
   "properties": {
-    "instance_of": "Natural disaster",
     "magnitude_scale": "Moment magnitude scale",
     "cause": "Tectonic plate movement",
     "frequency": "Frequent",
@@ -10,38 +9,39 @@
     "damage_type": "Structural, Geological",
     "detection_method": "Seismograph",
     "wave_type": "P-wave, S-wave, Surface wave",
-    "related_phenomenon": "Tsunami"
+    "related_phenomenon": "Tsunami",
+    "type": "Natural disaster"
   },
   "relationship": [
     {
-      "caused_by": "Tectonic plate"
+      "instance_of": "Natural phenomenon"
     },
     {
-      "measured_by": "Seismograph"
+      "caused_by": "Tectonic activity"
     },
     {
-      "generates": "Seismic wave"
+      "occurs_on": "Earth"
     },
     {
-      "can_cause": "Tsunami"
+      "measured_by": "Moment magnitude scale"
     },
     {
-      "occurs_in": "Fault line"
+      "has_effect": "Ground shaking"
+    },
+    {
+      "has_effect": "Tsunami"
+    },
+    {
+      "has_effect": "Landslide"
     },
     {
       "studied_by": "Seismology"
     },
     {
-      "related_to": "Plate tectonics"
+      "predicted_by": "Earthquake prediction"
     },
     {
-      "impacts": "Human settlement"
-    },
-    {
-      "affects": "Geology"
-    },
-    {
-      "example_of": "San Francisco earthquake"
+      "part_of": "Geological process"
     }
   ]
 }

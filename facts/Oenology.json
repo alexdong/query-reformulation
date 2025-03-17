@@ -1,7 +1,6 @@
 {
   "entity": "Oenology",
   "properties": {
-    "instance_of": "Scientific discipline",
     "alternative_name": "Viticulture and Enology",
     "field": "Wine science",
     "focus": "Wine production",
@@ -10,38 +9,39 @@
     "application": "Wine quality control",
     "origin": "Ancient Greece",
     "subfield": "Sensory analysis",
-    "goal": "Optimize wine characteristics"
+    "goal": "Optimize wine characteristics",
+    "type": "Scientific discipline"
   },
   "relationship": [
     {
-      "related_to": "Viticulture"
+      "instance_of": "wine making"
     },
     {
-      "related_to": "Enology"
+      "subclass_of": "viticulture"
     },
     {
-      "influenced_by": "Chemistry"
+      "used_in": "wine"
     },
     {
-      "influenced_by": "Biology"
+      "studied_by": "food science"
     },
     {
-      "influenced_by": "Microbiology"
+      "related_to": "chemistry"
     },
     {
-      "requires_knowledge_of": "Wine tasting"
+      "related_to": "microbiology"
     },
     {
-      "overlaps_with": "Food science"
+      "related_to": "sensory science"
     },
     {
-      "employs": "Sensory evaluation"
+      "requires": "wine tasting"
     },
     {
-      "impacts": "Wine industry"
+      "part_of": "agriculture"
     },
     {
-      "studies": "Fermentation process"
+      "related_to": "enology"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "period": "Elizabethan & Jacobean",
     "genre": "Drama",
     "known_for": "Plays, Poetry",
-    "spouse": "Anne Hathaway"
+    "spouse": "Anne Hathaway",
+    "type": "Writer"
   },
   "relationship": [
     {
-      "influenced": "English literature"
+      "instance_of": "human"
     },
     {
-      "member_of": "Lord Chamberlain's Men"
+      "birthPlace": "Stratford-upon-Avon"
     },
     {
-      "wrote": "Hamlet"
+      "deathPlace": "Stratford-upon-Avon"
     },
     {
-      "wrote": "Romeo and Juliet"
+      "occupation": "playwright"
     },
     {
-      "wrote": "Macbeth"
+      "occupation": "poet"
     },
     {
-      "wrote": "Othello"
+      "member_of": "King's Men"
     },
     {
-      "wrote": "King Lear"
+      "influenced": "John Milton"
     },
     {
-      "born_in": "England"
+      "influenced": "Charles Dickens"
     },
     {
-      "educated_at": "King Edward VI School"
+      "author_of": "Hamlet"
     },
     {
-      "buried_in": "Holy Trinity Church"
+      "author_of": "Romeo and Juliet"
     }
   ]
 }

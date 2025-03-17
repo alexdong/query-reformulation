@@ -1,5 +1,5 @@
 {
-  "entity": "Immigration, Refugees and Citizenship Canada",
+  "entity": "Immigration  Refugees and Citizenship Canada",
   "properties": {
     "agency_type": "Government agency",
     "parent_department": "Global Affairs Canada",
@@ -10,38 +10,39 @@
     "website": "canada.ca/en/immigration-refugees-citizenship.html",
     "jurisdiction": "Canada",
     "responsible_for": "Processing applications",
-    "budget_2023": "Approximately $4.7 billion CAD"
+    "budget_2023": "Approximately $4.7 billion CAD",
+    "type": "GovernmentAgency"
   },
   "relationship": [
-    {
-      "reports_to": "Global Affairs Canada"
-    },
     {
       "part_of": "Government of Canada"
     },
     {
-      "administers": "Immigration Act"
+      "administered_by": "Privy Council"
     },
     {
-      "administers": "Citizenship Act"
+      "responsible_for": "Canadian citizenship"
     },
     {
-      "deals_with": "Refugees"
+      "responsible_for": "Immigration to Canada"
     },
     {
-      "deals_with": "Permanent residents"
+      "responsible_for": "Refugee resettlement"
     },
     {
-      "provides": "Citizenship services"
+      "reports_to": "Minister of Immigration, Refugees and Citizenship"
     },
     {
-      "oversees": "Visa processing"
+      "has_department": "Immigration and Refugee Board of Canada"
     },
     {
-      "collaborates_with": "Canada Border Services Agency"
+      "has_subsidiary": "Visa Application Centres"
     },
     {
-      "impacts": "Canadian economy"
+      "located_in": "Canada"
+    },
+    {
+      "operates_in": "Worldwide"
     }
   ]
 }

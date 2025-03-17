@@ -10,38 +10,39 @@
     "time_zone": "Australian Eastern Time",
     "established": "1788",
     "currency": "AUD",
-    "mayor": "Clover Moore"
+    "mayor": "Clover Moore",
+    "type": "City"
   },
   "relationship": [
-    {
-      "part_of": "Australia"
-    },
     {
       "located_in": "New South Wales"
     },
     {
-      "harbors": "Sydney Harbour"
+      "part_of": "Australia"
     },
     {
-      "contains": "Sydney Opera House"
+      "has_population": "9672000"
     },
     {
-      "contains": "Sydney Harbour Bridge"
-    },
-    {
-      "influenced_by": "Indigenous Australians"
+      "capital_of": "Australia"
     },
     {
       "founded_by": "Arthur Phillip"
     },
     {
-      "major_industry": "Tourism"
+      "has_landmark": "Sydney Opera House"
     },
     {
-      "sister_city": "Los Angeles"
+      "has_transport": "Sydney Trains"
     },
     {
-      "has_sport_team": "Sydney Swans"
+      "has_river": "Parramatta River"
+    },
+    {
+      "has_climate": "Humid subtropical climate"
+    },
+    {
+      "member_of": "Sydney metropolitan area"
     }
   ]
 }

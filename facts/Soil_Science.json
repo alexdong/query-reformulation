@@ -1,7 +1,6 @@
 {
   "entity": "Soil Science",
   "properties": {
-    "instance_of": "Scientific discipline",
     "field": "Earth Science",
     "subfield_of": "Pedology",
     "focus": "Soil formation, classification, and behavior",
@@ -10,11 +9,21 @@
     "importance": "Food production, water filtration, carbon sequestration",
     "scale": "Microscopic to global",
     "key_concept": "Soil health",
-    "application": "Sustainable land management"
+    "application": "Sustainable land management",
+    "type": "Scientific discipline"
   },
   "relationship": [
     {
-      "studies": "Soil"
+      "instance_of": "natural_process"
+    },
+    {
+      "subclass_of": "Earth_science"
+    },
+    {
+      "field_of": "Agronomy"
+    },
+    {
+      "studies": "Soil_horizon"
     },
     {
       "related_to": "Pedology"
@@ -23,25 +32,16 @@
       "influences": "Agriculture"
     },
     {
-      "influences": "Environmental Science"
+      "impacts": "Environmental_science"
     },
     {
-      "uses": "Soil classification"
+      "related_to": "Hydrology"
     },
     {
-      "analyzes": "Soil horizons"
+      "related_to": "Geomorphology"
     },
     {
-      "impacts": "Water quality"
-    },
-    {
-      "contributes_to": "Ecology"
-    },
-    {
-      "requires_knowledge_of": "Chemistry"
-    },
-    {
-      "requires_knowledge_of": "Biology"
+      "studies": "Soil_fertility"
     }
   ]
 }

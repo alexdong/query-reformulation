@@ -1,7 +1,6 @@
 {
   "entity": "Textile",
   "properties": {
-    "instance_of": "Material",
     "definition": "Interwoven fibers",
     "primary_use": "Clothing, Home Furnishings",
     "material_type": "Natural, Synthetic, or Blended",
@@ -10,38 +9,39 @@
     "durability": "Varies by fiber",
     "aesthetic_quality": "Color, Texture, Pattern",
     "historical_significance": "Ancient craft",
-    "economic_impact": "Global industry"
+    "economic_impact": "Global industry",
+    "type": "Material"
   },
   "relationship": [
     {
-      "made_of": "Fiber"
+      "instance_of": "material"
     },
     {
-      "used_in": "Clothing"
+      "used_for": "clothing"
     },
     {
-      "related_to": "Weaving"
+      "produced_by": "textile industry"
     },
     {
-      "related_to": "Knitting"
+      "made_of": "fiber"
     },
     {
-      "produced_in": "Textile industry"
+      "related_to": "fashion"
     },
     {
-      "derived_from": "Plant"
+      "used_in": "home furnishings"
     },
     {
-      "derived_from": "Animal"
+      "has_property": "durability"
     },
     {
-      "related_to": "Fashion"
+      "part_of": "clothing_material"
     },
     {
-      "part_of": "Home furnishing"
+      "related_to": "weaving"
     },
     {
-      "influenced_by": "Dyeing"
+      "used_for": "upholstery"
     }
   ]
 }

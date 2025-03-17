@@ -10,9 +10,16 @@
     "education": "University of Cincinnati",
     "known_for": "Golden Gate Bridge",
     "awards": "Franklin Institute Medal",
-    "engineering_specialty": "Bridge Engineering"
+    "engineering_specialty": "Bridge Engineering",
+    "type": "Engineer"
   },
   "relationship": [
+    {
+      "instance_of": "engineer"
+    },
+    {
+      "member_of": "American Society of Civil Engineers"
+    },
     {
       "designed": "Golden Gate Bridge"
     },
@@ -20,28 +27,22 @@
       "designed": "Triborough Bridge"
     },
     {
-      "designed": "Bay Bridge"
+      "designed": "San Francisco–Oakland Bay Bridge"
     },
     {
-      "worked_with": "Irving Morrow"
+      "employee_of": "California Department of Public Works"
     },
     {
-      "influenced": "Othmar Ammann"
+      "educated_at": "University of Minnesota"
     },
     {
-      "member_of": "American Society of Civil Engineers"
+      "influenced_by": "Charles Herbert Gibbs"
     },
     {
-      "attended": "University of Cincinnati"
+      "award_recipient_for": "Franklin Institute"
     },
     {
-      "lived_in": "San Francisco, California"
-    },
-    {
-      "collaborated_with": "Charles Alton Ellis"
-    },
-    {
-      "contributed_to": "San Francisco Bay Area"
+      "spouse_of": "Alice H. Strauss"
     }
   ]
 }

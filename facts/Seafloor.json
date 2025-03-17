@@ -1,7 +1,6 @@
 {
   "entity": "Seafloor",
   "properties": {
-    "instance_of": "Geological feature",
     "location": "Oceans",
     "composition": "Sediment, Rock",
     "depth": "Varies",
@@ -10,38 +9,39 @@
     "temperature": "Near freezing",
     "pressure": "Extreme",
     "light": "Absent",
-    "salinity": "High"
+    "salinity": "High",
+    "type": "Geological feature"
   },
   "relationship": [
     {
-      "part_of": "Earth"
+      "part_of": "Ocean"
     },
     {
-      "contains": "Abyssal plain"
+      "located_in": "Earth"
     },
     {
-      "contains": "Ocean trench"
+      "covered_by": "Water"
     },
     {
-      "contains": "Mid-ocean ridge"
+      "contains": "Sediment"
     },
     {
-      "covered_by": "Ocean water"
+      "supports": "Benthic zone"
     },
     {
-      "adjacent_to": "Continental margin"
+      "supports": "Abyssal plain"
     },
     {
-      "supports": "Deep-sea life"
+      "supports": "Hydrothermal vent"
+    },
+    {
+      "adjacent_to": "Water column"
+    },
+    {
+      "supports": "Marine life"
     },
     {
       "studied_by": "Oceanography"
-    },
-    {
-      "process": "Plate tectonics"
-    },
-    {
-      "feature_of": "Marine geology"
     }
   ]
 }

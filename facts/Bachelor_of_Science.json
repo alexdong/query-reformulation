@@ -1,7 +1,6 @@
 {
   "entity": "Bachelor of Science",
   "properties": {
-    "instance_of": "Academic degree",
     "field_of_study": "Science",
     "level": "Undergraduate",
     "duration": "4 years",
@@ -10,38 +9,39 @@
     "focus": "STEM",
     "requires": "Lab work",
     "assessment": "Exams, projects",
-    "prerequisite": "High school diploma"
+    "prerequisite": "High school diploma",
+    "type": "Academic degree"
   },
   "relationship": [
     {
-      "precedes": "Master of Science"
+      "instance_of": "academic degree"
     },
     {
-      "follows": "High school diploma"
+      "has_field": "science"
     },
     {
-      "part_of": "Higher education"
+      "requires": "higher education institution"
     },
     {
-      "requires": "Mathematics"
+      "preceded_by": "high school diploma"
     },
     {
-      "requires": "Statistics"
+      "leads_to": "graduate degree"
     },
     {
-      "requires": "Scientific method"
+      "has_prerequisite": "high school coursework"
     },
     {
-      "leads_to": "Career"
+      "defined_by": "accreditation agency"
     },
     {
-      "related_to": "STEM fields"
+      "results_in": "employment"
     },
     {
-      "alternative_to": "Bachelor of Arts"
+      "specialization": "major"
     },
     {
-      "offered_by": "University"
+      "issuing_authority": "university"
     }
   ]
 }

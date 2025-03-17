@@ -10,38 +10,39 @@
     "cost": "Variable",
     "monitoring": "Essential for success",
     "timeline": "Long-term process",
-    "importance": "Climate change mitigation"
+    "importance": "Climate change mitigation",
+    "type": "EnvironmentalConservation"
   },
   "relationship": [
     {
-      "part_of": "Environmental Management"
+      "instance_of": "Ecological restoration"
     },
     {
-      "related_to": "Ecology"
+      "part_of": "Ecosystem"
     },
     {
-      "requires": "Ecological Assessment"
+      "has_purpose": "Biodiversity conservation"
     },
     {
-      "impacts": "Biodiversity"
+      "requires": "Environmental planning"
     },
     {
-      "addresses": "Environmental Degradation"
+      "implemented_by": "Conservation organization"
     },
     {
-      "overlaps_with": "Conservation Biology"
+      "affects": "Soil"
     },
     {
-      "employs": "Reforestation"
+      "affects": "Water resources"
     },
     {
-      "involves": "Invasive Species Removal"
+      "impacts": "Wildlife"
     },
     {
-      "benefits": "Carbon Sequestration"
+      "requires": "Native plant species"
     },
     {
-      "supports": "Ecosystem Services"
+      "monitored_by": "Ecologist"
     }
   ]
 }

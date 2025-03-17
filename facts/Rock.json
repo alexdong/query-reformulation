@@ -1,7 +1,6 @@
 {
   "entity": "Rock",
   "properties": {
-    "instance_of": "Mineral Aggregate",
     "composition": "Minerals",
     "formation": "Geological Processes",
     "density": "Variable",
@@ -10,38 +9,39 @@
     "texture": "Variable",
     "origin": "Earth's Crust",
     "classification": "Petrology",
-    "state": "Solid"
+    "state": "Solid",
+    "type": "Mineral Aggregate"
   },
   "relationship": [
     {
-      "part_of": "Earth"
+      "instance_of": "rock"
     },
     {
-      "type_of": "Mineral"
+      "part_of": "lithosphere"
     },
     {
-      "formed_by": "Weathering"
+      "located_in": "Earth"
     },
     {
-      "found_in": "Sedimentary Rock"
+      "composed_of": "mineral"
     },
     {
-      "found_in": "Igneous Rock"
+      "formed_in": "geological_process"
     },
     {
-      "found_in": "Metamorphic Rock"
+      "has_property": "hardness"
     },
     {
-      "studied_by": "Geology"
+      "has_property": "density"
     },
     {
-      "used_in": "Construction"
+      "studied_by": "geology"
     },
     {
-      "contains": "Quartz"
+      "used_for": "construction"
     },
     {
-      "contains": "Feldspar"
+      "found_in": "sedimentary_rock"
     }
   ]
 }

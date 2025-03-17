@@ -10,38 +10,39 @@
     "literacy_rate": "Lower",
     "life_expectancy": "Lower",
     "healthcare_access": "Limited",
-    "agricultural_dependence": "High"
+    "agricultural_dependence": "High",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Global Economy"
+      "part_of": "World"
     },
     {
-      "often_located_in": "Global South"
+      "located_in": "Geopolitical entity"
     },
     {
-      "recipient_of": "Foreign Aid"
+      "has_characteristic": "Economic development"
     },
     {
-      "subject_of": "Sustainable Development Goals"
+      "influenced_by": "Globalization"
     },
     {
-      "impacted_by": "Climate Change"
+      "recipient_of": "Foreign aid"
     },
     {
-      "source_of": "Labor Migration"
+      "contributor_to": "Global economy"
     },
     {
-      "affected_by": "Debt"
+      "subject_of": "Sustainable development goals"
     },
     {
-      "often_experiences": "Political Instability"
+      "affected_by": "Climate change"
     },
     {
-      "contributes_to": "Global Trade"
+      "experiencing": "Demographic transition"
     },
     {
-      "example_country": "India"
+      "characterized_by": "Poverty"
     }
   ]
 }

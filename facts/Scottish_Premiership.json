@@ -1,7 +1,6 @@
 {
   "entity": "Scottish Premiership",
   "properties": {
-    "instance_of": "Football league",
     "country": "Scotland",
     "level": "Top tier",
     "founded": "1890",
@@ -10,9 +9,16 @@
     "promotion_system": "Scottish Championship",
     "relegation_system": "Scottish Championship",
     "season_format": "Autumn-Spring",
-    "trophy": "Scottish Premiership Trophy"
+    "trophy": "Scottish Premiership Trophy",
+    "type": "Football league"
   },
   "relationship": [
+    {
+      "instance_of": "football league"
+    },
+    {
+      "country": "Scotland"
+    },
     {
       "part_of": "Scottish football league system"
     },
@@ -20,28 +26,22 @@
       "governed_by": "Scottish Professional Football League"
     },
     {
-      "promotes_to": "UEFA Champions League"
+      "has_participant": "Celtic FC"
     },
     {
-      "relegates_to": "Scottish Championship"
+      "has_participant": "Rangers FC"
     },
     {
-      "team_plays_in": "Celtic FC"
+      "predecessor_of": "Scottish Premier League"
     },
     {
-      "team_plays_in": "Rangers FC"
+      "successor_of": "Scottish Football League Premier Division"
     },
     {
-      "team_plays_in": "Aberdeen FC"
+      "has_season": "2023–24 Scottish Premiership"
     },
     {
-      "team_plays_in": "Hearts FC"
-    },
-    {
-      "influenced": "Scottish Cup"
-    },
-    {
-      "influenced": "Scottish League Cup"
+      "located_in": "United Kingdom"
     }
   ]
 }

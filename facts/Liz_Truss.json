@@ -10,14 +10,12 @@
     "spouse": "Hugh Hepworth",
     "height": "1.63 m",
     "ukparliament": "True",
-    "constituency": "South West Norfolk"
+    "constituency": "South West Norfolk",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "prime_minister": "United Kingdom"
-    },
-    {
-      "chancellor_of_the_exchequer": "United Kingdom"
+      "instance_of": "politician"
     },
     {
       "member_of": "Conservative Party (UK)"
@@ -26,22 +24,25 @@
       "educated_at": "University of Oxford"
     },
     {
-      "predecessor": "Kwasi Kwarteng"
+      "place_of_birth": "Roundswell, Hertfordshire"
+    },
+    {
+      "occupation": "Member of Parliament"
+    },
+    {
+      "office": "Prime Minister of the United Kingdom"
+    },
+    {
+      "predecessor": "Boris Johnson"
     },
     {
       "successor": "Rishi Sunak"
     },
     {
-      "member_of_parliament_for": "South West Norfolk"
+      "member_of_parliament_for": "South West Norfolk (UK Parliament constituency)"
     },
     {
-      "child_of": "Priscilla Mary Truss"
-    },
-    {
-      "spouse_of": "Hugh Hepworth"
-    },
-    {
-      "attended": "Roundwood Primary School"
+      "nationality": "British"
     }
   ]
 }

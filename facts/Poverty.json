@@ -10,38 +10,39 @@
     "effect_2": "Poor health",
     "effect_3": "Limited opportunity",
     "global_prevalence": "Approximately 10%",
-    "related_concept": "Inequality"
+    "related_concept": "Inequality",
+    "type": "SocialCondition"
   },
   "relationship": [
     {
       "causes": "Unemployment"
     },
     {
-      "exacerbated_by": "Economic Recession"
+      "exacerbated_by": "Conflict"
     },
     {
-      "linked_to": "Food Insecurity"
+      "results_in": "FoodInsecurity"
     },
     {
-      "impacts": "Child Development"
+      "associated_with": "SocialInequality"
     },
     {
-      "addressed_by": "Social Welfare"
+      "contributes_to": "HealthDisparities"
     },
     {
-      "related_to": "Income Inequality"
+      "linked_to": "LackOfEducation"
     },
     {
-      "measured_by": "Gini coefficient"
+      "influenced_by": "EconomicRecession"
     },
     {
-      "affects": "Health"
+      "manifests_as": "Malnutrition"
     },
     {
-      "contributes_to": "Crime"
+      "addressed_by": "SocialSafetyNet"
     },
     {
-      "mitigated_by": "Education"
+      "related_to": "IncomeInequality"
     }
   ]
 }

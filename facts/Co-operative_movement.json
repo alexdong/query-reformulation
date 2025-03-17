@@ -10,38 +10,39 @@
     "goal": "Mutual benefit",
     "structure": "Democratic governance",
     "scale": "Local to global",
-    "legal_form": "Various (co-operative, mutual association)"
+    "legal_form": "Various (co-operative, mutual association)",
+    "type": "Organization"
   },
   "relationship": [
     {
-      "influenced_by": "Rochdale Pioneers"
+      "instance_of": "social movement"
     },
     {
-      "related_to": "Mutualism"
+      "part_of": "economy"
     },
     {
-      "preceded_by": "Friendly Societies"
+      "related_to": "mutualism"
     },
     {
-      "associated_with": "Socialism"
+      "influenced_by": "Robert Owen"
     },
     {
-      "promotes": "Economic democracy"
+      "influenced_by": "Charles Fourier"
     },
     {
-      "sector": "Agriculture"
+      "has_member": "consumer cooperative"
     },
     {
-      "sector": "Retail"
+      "has_member": "worker cooperative"
     },
     {
-      "sector": "Finance"
+      "has_member": "agricultural cooperative"
     },
     {
-      "member_of": "International Co-operative Alliance"
+      "promoted_by": "Rochdale Pioneers"
     },
     {
-      "example_of": "Credit union"
+      "related_to": "social economy"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "improvement_requirement": "Cultivation & Dwelling",
     "administered_by": "Bureau of Land Management",
     "repealed": "1996",
-    "legislation_type": "United States federal law"
+    "legislation_type": "United States federal law",
+    "type": "Legislation"
   },
   "relationship": [
     {
-      "part_of": "Land policy"
+      "instance_of": "legislation"
     },
     {
-      "influenced": "Westward expansion"
+      "part_of": "United States federal law"
     },
     {
-      "resulted_in": "Settlement of the Great Plains"
+      "preceded_by": "Organic Acts"
     },
     {
-      "impacted": "Native Americans"
+      "influenced": "Settlement of the American West"
+    },
+    {
+      "result": "Land ownership"
+    },
+    {
+      "created_by": "United States Congress"
+    },
+    {
+      "signed_into_law_by": "Abraham Lincoln"
+    },
+    {
+      "enabled": "Western expansion"
     },
     {
       "related_to": "Dawes Act"
     },
     {
-      "preceded_by": "Preemption Act"
-    },
-    {
-      "followed_by": "Timber Culture Act"
-    },
-    {
-      "associated_with": "Abraham Lincoln"
-    },
-    {
-      "location": "United States"
-    },
-    {
-      "impacted_industry": "Agriculture"
+      "impacts": "Native American land rights"
     }
   ]
 }

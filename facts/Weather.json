@@ -1,44 +1,44 @@
 {
   "entity": "Weather",
   "properties": {
-    "instance_of": "Atmospheric phenomenon",
     "affected_by": "Solar radiation",
     "measured_by": "Meteorology",
     "influenced_by": "Climate",
     "includes": "Humidity",
     "causes": "Natural disasters",
-    "predictable_by": "Weather forecasting"
+    "predictable_by": "Weather forecasting",
+    "type": "Atmospheric phenomenon"
   },
   "relationship": [
     {
-      "part_of": "Atmosphere"
+      "instance_of": "meteorological phenomenon"
     },
     {
-      "affects": "Agriculture"
+      "causes": "climate"
     },
     {
-      "affects": "Human activity"
+      "affects": "human activity"
     },
     {
-      "studied_by": "Meteorologist"
+      "has_property": "temperature"
     },
     {
-      "related_to": "Climate change"
+      "has_property": "precipitation"
     },
     {
-      "causes": "Storms"
+      "has_property": "wind speed"
     },
     {
-      "includes": "Rain"
+      "has_property": "humidity"
     },
     {
-      "includes": "Snow"
+      "part_of": "Earth"
     },
     {
-      "includes": "Hail"
+      "influences": "agriculture"
     },
     {
-      "influenced_by": "Jet stream"
+      "predicts": "weather forecast"
     }
   ]
 }

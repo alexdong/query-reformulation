@@ -10,38 +10,39 @@
     "ideology": "Islamic extremism",
     "criminal_charge": "Attempted murder",
     "current_status": "Imprisoned",
-    "sentence_length": "Life imprisonment"
+    "sentence_length": "Life imprisonment",
+    "type": "Criminal"
   },
   "relationship": [
+    {
+      "instance_of": "shoe_bomber"
+    },
+    {
+      "birth_place": "Jamaica"
+    },
+    {
+      "citizen_of": "United Kingdom"
+    },
     {
       "member_of": "Al-Qaeda"
     },
     {
-      "attacked": "American Airlines Flight 63"
+      "arrested_by": "United States Federal Bureau of Investigation"
     },
     {
-      "associated_with": "Ramzi bin al-Shibh"
+      "imprisoned_in": "United States Federal Bureau of Prisons"
     },
     {
-      "trained_by": "Khalid al-Mihdhar"
+      "attacked": "American Airlines Flight 17"
     },
     {
-      "influenced_by": "Osama bin Laden"
+      "nationality": "British"
     },
     {
-      "nationality_origin": "Jamaica"
+      "educated_at": "North Greenwich School"
     },
     {
-      "nationality_residence": "United Kingdom"
-    },
-    {
-      "arrested_in": "Canada"
-    },
-    {
-      "trial_location": "United States"
-    },
-    {
-      "imprisoned_in": "United States"
+      "family_member": "Jean Reid"
     }
   ]
 }

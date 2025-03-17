@@ -1,7 +1,6 @@
 {
   "entity": "Mineral",
   "properties": {
-    "instance_of": "Solid",
     "chemical_formula": "Variable",
     "formation_process": "Geological",
     "crystal_system": "Variable",
@@ -10,38 +9,39 @@
     "density": "Variable",
     "color": "Variable",
     "origin": "Earth",
-    "classification": "Mineralogy"
+    "classification": "Mineralogy",
+    "type": "Solid"
   },
   "relationship": [
     {
-      "part_of": "Rock"
+      "instance_of": "Chemical substance"
     },
     {
-      "composed_of": "Elements"
+      "subclass_of": "Material"
     },
     {
-      "studied_in": "Mineralogy"
+      "formed_in": "Geological process"
     },
     {
-      "found_in": "Ore"
+      "found_in": "Rock"
     },
     {
-      "related_to": "Crystallography"
+      "has_property": "Physical property"
     },
     {
-      "used_in": "Jewelry"
+      "used_for": "Industrial process"
     },
     {
-      "example": "Quartz"
+      "identified_by": "Chemical formula"
     },
     {
-      "example": "Diamond"
+      "part_of": "Ore"
     },
     {
-      "example": "Gold"
+      "related_to": "Mineral group"
     },
     {
-      "related_to": "Geology"
+      "has_application": "Technology"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "iso_code": "mā",
     "writing_system": "Latin alphabet",
     "dialect_region": "North Island, South Island",
-    "related_languages": "Rapanui, Hawaiian"
+    "related_languages": "Rapanui, Hawaiian",
+    "type": "Language"
   },
   "relationship": [
     {
-      "part_of": "Austronesian languages"
+      "instance_of": "language"
     },
     {
-      "spoken_in": "New Zealand"
+      "part_of": "Māori_culture"
     },
     {
-      "influenced_by": "English language"
+      "spoken_in": "Aotearoa"
     },
     {
-      "revitalisation_effort": "Kōhanga Reo"
+      "has_variant": "Te Reo Māori_dialect"
     },
     {
-      "revitalisation_effort": "Te Ataarōra"
+      "related_to": "Māori_people"
     },
     {
-      "related_to": "Māori culture"
+      "influenced_by": "Proto-Polynesian_language"
     },
     {
-      "taught_at": "University of Auckland"
+      "revived_by": "Kōhanga_reo"
     },
     {
-      "recognized_by": "UNESCO"
+      "promoted_by": "Te_Tāhuhu_kōrero_o_te_Reo_Māori"
     },
     {
-      "has_variant": "Te Reo Pākehā"
+      "has_literature": "Māori_literature"
     },
     {
-      "used_in": "Waiata (songs)"
+      "used_in": "Waiata_Māori"
     }
   ]
 }

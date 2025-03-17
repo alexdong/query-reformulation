@@ -10,38 +10,39 @@
     "known_for": "African plant ecology",
     "research_area": "Savannas",
     "awards": "Symington Medal",
-    "affiliated_with": "University of Oxford"
+    "affiliated_with": "University of Oxford",
+    "type": "Artist"
   },
   "relationship": [
     {
-      "field_of_study": "Botany"
+      "instance_of": "human"
     },
     {
-      "influenced_by": "Arthur Tansley"
+      "occupation": "architect"
     },
     {
-      "worked_in": "Zambia"
+      "works_at": "Foster + Partners"
     },
     {
-      "worked_in": "Tanzania"
+      "educated_at": "University College London"
     },
     {
-      "studied": "Plant communities"
+      "member_of": "Royal Institute of British Architects"
     },
     {
-      "contributed_to": "Ecology"
+      "award_received": "RIBA Stirling Prize"
     },
     {
-      "mentor_of": "David Wardle"
+      "designed": "Apple Park"
     },
     {
-      "member_of": "Linnean Society"
+      "designed": "Reichstag Dome"
     },
     {
-      "publication": "African Plant Communities"
+      "collaborated_with": "Norman Foster"
     },
     {
-      "research_focus": "Savanna ecosystems"
+      "nationality": "British"
     }
   ]
 }

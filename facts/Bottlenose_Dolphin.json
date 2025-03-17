@@ -10,38 +10,39 @@
     "intelligence": "High",
     "conservation_status": "Least Concern",
     "skin_color": "Gray",
-    "social_behavior": "Highly social"
+    "social_behavior": "Highly social",
+    "type": "Mammal"
   },
   "relationship": [
     {
-      "part_of": "Cetaceans"
+      "instance_of": "marine mammal"
     },
     {
-      "order": "Artiodactyla"
+      "has_taxonomic_parent": "Odontoceti"
     },
     {
-      "family": "Delphinidae"
+      "part_of": "Cetacea"
     },
     {
-      "prey_of": "Sharks"
+      "lives_in": "ocean"
     },
     {
-      "lives_in": "Atlantic Ocean"
+      "interacts_with": "human"
     },
     {
-      "lives_in": "Pacific Ocean"
+      "preys_on": "fish"
     },
     {
-      "related_to": "Common Dolphin"
+      "has_habitat": "coral reef"
     },
     {
-      "threatened_by": "Pollution"
+      "communicates_with": "other bottlenose dolphins"
     },
     {
-      "uses": "Echolocation"
+      "has_characteristic": "echolocation"
     },
     {
-      "has_characteristic": "Blowhole"
+      "is_a": "delphinid"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
-  "entity": "Informer (TV series)",
+  "entity": "Informer  TV series ",
   "properties": {
-    "instance_of": "Television series",
     "genre": "Crime drama",
     "creator": "Aaron Korsh",
     "network": "CBS",
@@ -10,38 +9,39 @@
     "end_date": "2023",
     "number_of_seasons": "7",
     "setting": "New York City",
-    "language": "English"
+    "language": "English",
+    "type": "Television series"
   },
   "relationship": [
     {
-      "inspired_by": "Joe Pichini"
+      "instance_of": "television_series"
     },
     {
-      "executive_producer": "Nick Wootton"
+      "country_of_origin": "United States"
     },
     {
-      "executive_producer": "Alison Brie"
+      "genre": "crime_fiction"
     },
     {
-      "executive_producer": "Glenn Finn"
+      "creator": "J.J. Abrams"
     },
     {
-      "starring": "Josh Groban"
+      "creator": "Jonathan Nolan"
     },
     {
-      "starring": "Jessica Day"
+      "creator": "Lisa Joy"
     },
     {
-      "starring": "Jason Sudekis"
+      "network": "HBO"
     },
     {
-      "setting_location": "New York City"
+      "adapted_work": "You Shall Not Lie"
     },
     {
-      "genre_related": "Comedy"
+      "starring": "Joel Edgerton"
     },
     {
-      "genre_related": "Sitcom"
+      "starring": "Jack Reynor"
     }
   ]
 }

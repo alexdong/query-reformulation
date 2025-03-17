@@ -10,38 +10,39 @@
     "reporting_to": "Head of State",
     "focus_areas": "Trade, Security, Human Rights",
     "decision_making": "Executive Branch",
-    "impacted_by": "Geopolitics"
+    "impacted_by": "Geopolitics",
+    "type": "Diplomacy"
   },
   "relationship": [
     {
-      "influences": "International Law"
+      "represents": "Country"
     },
     {
-      "negotiates_with": "Foreign Governments"
+      "coordinates_with": "International Organization"
     },
     {
-      "implements": "Treaties"
+      "negotiates_with": "Foreign Government"
     },
     {
-      "coordinates_with": "Intelligence Agencies"
+      "implements_policy_for": "Citizen"
     },
     {
-      "impacts": "Global Economy"
+      "reports_to": "Head of State"
     },
     {
-      "affects": "National Security"
+      "manages_relationship_with": "Foreign Country"
     },
     {
-      "represents": "Nation State"
+      "advises_on": "International Law"
     },
     {
-      "advises": "Head of State"
+      "coordinates_with": "Diplomatic Mission"
     },
     {
-      "collaborates_with": "International Organizations"
+      "responsible_for": "Treaty"
     },
     {
-      "subject_to": "Public Opinion"
+      "influences": "International Relations"
     }
   ]
 }

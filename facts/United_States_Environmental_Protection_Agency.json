@@ -10,38 +10,39 @@
     "parent_agency": "Executive Office of the President",
     "jurisdiction": "United States",
     "mandate": "Laws & Regulations",
-    "website": "epa.gov"
+    "website": "epa.gov",
+    "type": "GovernmentAgency"
   },
   "relationship": [
+    {
+      "part_of": "United States Federal Government"
+    },
+    {
+      "subclass_of": "Government Agency"
+    },
+    {
+      "created_by": "Richard Nixon"
+    },
+    {
+      "responsible_for": "Clean Air Act"
+    },
+    {
+      "responsible_for": "Clean Water Act"
+    },
     {
       "regulates": "Pollution"
     },
     {
-      "enforces": "Clean Air Act"
+      "works_with": "Environmental Protection Agency (European Union)"
     },
     {
-      "enforces": "Clean Water Act"
+      "headquarters_location": "Washington, D.C."
     },
     {
-      "collaborates_with": "State agencies"
+      "employs": "Federal Employees"
     },
     {
-      "reports_to": "President of the United States"
-    },
-    {
-      "funds": "Environmental research"
-    },
-    {
-      "impacts": "Public health"
-    },
-    {
-      "addresses": "Climate change"
-    },
-    {
-      "part_of": "Federal government"
-    },
-    {
-      "oversees": "Superfund program"
+      "mandate": "Environmental Protection"
     }
   ]
 }

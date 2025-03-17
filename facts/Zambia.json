@@ -10,20 +10,24 @@
     "independence_date": "1964",
     "government_type": "Presidential republic",
     "GDP_nominal": "27.7 billion USD",
-    "land_border_countries": "8"
+    "land_border_countries": "8",
+    "type": "Country"
   },
   "relationship": [
     {
       "located_in": "Africa"
     },
     {
-      "borders": "Angola"
+      "part_of": "Southern Africa"
     },
     {
-      "borders": "Botswana"
+      "has_capital": "Lusaka"
     },
     {
       "borders": "Democratic Republic of the Congo"
+    },
+    {
+      "borders": "Tanzania"
     },
     {
       "borders": "Malawi"
@@ -32,16 +36,13 @@
       "borders": "Mozambique"
     },
     {
-      "borders": "Namibia"
-    },
-    {
-      "borders": "Tanzania"
-    },
-    {
       "borders": "Zimbabwe"
     },
     {
-      "member_of": "African Union"
+      "borders": "Botswana"
+    },
+    {
+      "has_official_language": "Bemba"
     }
   ]
 }

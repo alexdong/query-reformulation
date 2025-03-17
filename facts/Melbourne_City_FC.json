@@ -1,7 +1,6 @@
 {
   "entity": "Melbourne City FC",
   "properties": {
-    "instance_of": "Football club",
     "founded": "1998",
     "location": "Melbourne",
     "country": "Australia",
@@ -10,38 +9,39 @@
     "owner": "City Football Group",
     "home_stadium": "Melbourne Rectangular Stadium",
     "colours": "Sky Blue & Navy",
-    "manager": "Peter Popovic"
+    "manager": "Peter Popovic",
+    "type": "Football club"
   },
   "relationship": [
     {
-      "parent_organization": "City Football Group"
-    },
-    {
-      "rival": "Melbourne Victory"
-    },
-    {
-      "plays_in": "A-League"
+      "instance_of": "football club"
     },
     {
       "located_in": "Melbourne"
     },
     {
-      "member_of": "Football Federation Australia"
+      "country": "Australia"
     },
     {
-      "competitor_in": "AFC Champions League"
+      "league": "A-League"
+    },
+    {
+      "subsidiary_of": "City Football Group"
+    },
+    {
+      "sport": "football"
+    },
+    {
+      "has_coach": "Peter Popović"
     },
     {
       "has_player": "Jamie Maclaren"
     },
     {
-      "has_player": "Andrew Nabbout"
+      "founded_by": "John Dimopoulos"
     },
     {
-      "won_trophy": "A-League Championship"
-    },
-    {
-      "sponsored_by": "Etihad Airways"
+      "slogan": "For Melbourne. For Football."
     }
   ]
 }

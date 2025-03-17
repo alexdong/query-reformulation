@@ -10,38 +10,39 @@
     "style": "Rhythmic Speech, Rhyme Schemes",
     "technique": "Call and Response, Freestyling",
     "importance": "Central to Hip Hop Culture",
-    "related_role": "DJ, B-boy"
+    "related_role": "DJ, B-boy",
+    "type": "Performance"
   },
   "relationship": [
     {
-      "part_of": "Hip Hop"
+      "instance_of": "performance"
     },
     {
-      "influenced_by": "Jamaican Toasting"
+      "subclass_of": "public_speaking"
     },
     {
-      "performed_by": "Rakim"
+      "used_for": "entertainment"
     },
     {
-      "performed_by": "KRS-One"
+      "requires": "microphone"
     },
     {
-      "performed_by": "Eminem"
+      "requires": "sound_system"
     },
     {
-      "related_to": "Freestyle Rap"
+      "performed_at": "event"
     },
     {
-      "requires": "Microphone"
+      "performed_by": "master_of_ceremonies"
     },
     {
-      "often_collaborates_with": "DJ"
+      "related_to": "music"
     },
     {
-      "impacts": "Crowd Energy"
+      "related_to": "comedy"
     },
     {
-      "preceded_by": "Party Host"
+      "part_of": "show"
     }
   ]
 }

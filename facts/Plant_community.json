@@ -10,38 +10,39 @@
     "function": "Ecosystem services",
     "classification": "Based on dominant species",
     "distribution": "Geographically variable",
-    "example": "Forest, grassland, tundra"
+    "example": "Forest, grassland, tundra",
+    "type": "Ecosystem"
   },
   "relationship": [
     {
-      "part_of": "Ecosystem"
+      "instance_of": "Ecosystem"
+    },
+    {
+      "part_of": "Biome"
+    },
+    {
+      "located_in": "Geographic area"
+    },
+    {
+      "interacts_with": "Species"
     },
     {
       "influenced_by": "Climate"
     },
     {
-      "affects": "Soil"
+      "affected_by": "Disturbance"
     },
     {
-      "interacts_with": "Animal community"
+      "contributes_to": "Biodiversity"
     },
     {
-      "succession_stage": "Pioneer community"
+      "provides": "Habitat"
     },
     {
-      "succession_stage": "Climax community"
+      "succession_of": "Succession stage"
     },
     {
-      "type": "Forest community"
-    },
-    {
-      "type": "Grassland community"
-    },
-    {
-      "type": "Tundra community"
-    },
-    {
-      "study_field": "Plant ecology"
+      "characterized_by": "Vegetation structure"
     }
   ]
 }

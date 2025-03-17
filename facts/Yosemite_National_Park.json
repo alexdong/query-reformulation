@@ -10,38 +10,39 @@
     "climate": "Mediterranean",
     "biomes": "Temperate Forest, Subalpine, Alpine",
     "precipitation": "30-60 inches",
-    "UNESCO_status": "World Heritage Site"
+    "UNESCO_status": "World Heritage Site",
+    "type": "NationalPark"
   },
   "relationship": [
+    {
+      "located_in": "California"
+    },
     {
       "part_of": "Sierra Nevada"
     },
     {
-      "contains": "Yosemite Valley"
-    },
-    {
-      "contains": "Half Dome"
-    },
-    {
-      "contains": "El Capitan"
-    },
-    {
-      "contains": "Yosemite Falls"
+      "instance_of": "national_park"
     },
     {
       "managed_by": "National Park Service"
     },
     {
-      "adjacent_to": "Sierra National Forest"
+      "contains": "Yosemite Valley"
     },
     {
-      "flora_includes": "Giant Sequoia"
+      "has_landmark": "El Capitan"
     },
     {
-      "fauna_includes": "Black Bear"
+      "has_landmark": "Half Dome"
     },
     {
-      "influenced": "American landscape painting"
+      "has_landmark": "Yosemite Falls"
+    },
+    {
+      "established_in": "1890"
+    },
+    {
+      "area": "1,196 square miles"
     }
   ]
 }

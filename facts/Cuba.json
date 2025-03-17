@@ -10,38 +10,39 @@
     "largest_city": "Havana",
     "geography": "Caribbean",
     "independence_date": "1898",
-    "national_dish": "Ropa Vieja"
+    "national_dish": "Ropa Vieja",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "part_of": "Caribbean"
-    },
     {
       "located_in": "North America"
     },
     {
-      "neighbor": "Bahamas"
+      "part_of": "Caribbean"
+    },
+    {
+      "has_capital": "Havana"
     },
     {
       "influenced_by": "Spain"
     },
     {
-      "historical_event": "Cuban Revolution"
+      "has_official_language": "Spanish"
     },
     {
-      "leader": "Miguel Díaz-Canel"
+      "has_currency": "Cuban peso"
     },
     {
-      "trade_partner": "China"
+      "member_of": "United Nations"
     },
     {
-      "export_product": "Sugar"
+      "has_leader": "Miguel Díaz-Canel"
     },
     {
-      "music_genre": "Son Cubano"
+      "has_historical_event": "Cuban Revolution"
     },
     {
-      "sport": "Baseball"
+      "neighbor_of": "Jamaica"
     }
   ]
 }

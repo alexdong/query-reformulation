@@ -10,38 +10,39 @@
     "impact_2": "Reduced economic growth",
     "impact_3": "Health inequalities",
     "related_concept": "Poverty",
-    "scale": "Global, National, Local"
+    "scale": "Global, National, Local",
+    "type": "Inequality"
   },
   "relationship": [
     {
-      "contributes_to": "Social Inequality"
+      "causes": "Income Inequality"
     },
     {
-      "impacts": "Human Development"
+      "exacerbated_by": "Globalization"
     },
     {
-      "linked_to": "Wealth Distribution"
+      "contributes_to": "Social Unrest"
     },
     {
-      "exacerbated_by": "Tax Policy"
+      "linked_to": "Poverty"
     },
     {
-      "related_to": "Income Inequality"
+      "impacts": "Education"
     },
     {
-      "measured_by": "Gini Coefficient"
+      "related_to": "Wealth Distribution"
     },
     {
-      "affects": "Quality of Life"
+      "influenced_by": "Government Policy"
     },
     {
-      "influenced_by": "Globalization"
+      "manifests_as": "Health Disparities"
     },
     {
-      "impacts": "Political Stability"
+      "correlated_with": "Geographic Location"
     },
     {
-      "studied_by": "Economics"
+      "affects": "Social Mobility"
     }
   ]
 }

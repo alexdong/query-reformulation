@@ -10,38 +10,39 @@
     "lifespan": "20–30 years",
     "mating_system": "Monogamous",
     "location": "Southern Ocean, New Zealand",
-    "average_speed": "118 km/h"
+    "average_speed": "118 km/h",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "part_of_family": "Albatrosses"
+      "instance_of": "bird"
     },
     {
-      "has_taxonomic_rank": "Species"
+      "taxon": "Albatrossidae"
     },
     {
-      "located_in": "New Zealand"
+      "has_conservation_status": "Near Threatened"
     },
     {
-      "preys_on": "Fish"
+      "habitat": "open ocean"
     },
     {
-      "preys_on": "Squid"
+      "found_in": "New Zealand"
     },
     {
-      "threatened_by": "Climate change"
+      "found_in": "Australia"
     },
     {
-      "threatened_by": "Plastic pollution"
+      "feeds_on": "fish"
     },
     {
-      "related_to": "Wandering Albatross"
+      "feeds_on": "squid"
     },
     {
-      "has_characteristic": "Large wingspan"
+      "has_characteristic": "wingspan"
     },
     {
-      "part_of_ecosystem": "Marine ecosystem"
+      "part_of": "marine ecosystem"
     }
   ]
 }

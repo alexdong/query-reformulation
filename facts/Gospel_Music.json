@@ -10,38 +10,39 @@
     "language": "English (primarily)",
     "vocal_style": "Call and Response, Improvisation",
     "influence": "Blues, Spirituals, Hymns",
-    "purpose": "Worship, Praise"
+    "purpose": "Worship, Praise",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Contemporary Christian Music"
+      "instance_of": "music genre"
     },
     {
-      "predecessor": "Spirituals"
+      "subclass_of": "Christian music"
     },
     {
-      "related_to": "Christianity"
+      "influenced_by": "Blues"
     },
     {
-      "subgenre_of": "Religious Music"
+      "influenced_by": "Jazz"
     },
     {
-      "artist_performs": "Mahalia Jackson"
+      "influenced_by": "Spirituals"
     },
     {
-      "artist_performs": "Kirk Franklin"
+      "created_by": "African American communities"
     },
     {
-      "artist_performs": "Edwin Hawkins"
+      "associated_with": "Black church"
     },
     {
-      "style_influenced": "Soul Music"
+      "has_genre": "Contemporary gospel"
     },
     {
-      "genre_features": "Call and Response"
+      "has_genre": "Traditional gospel"
     },
     {
-      "historical_context": "American Civil Rights Movement"
+      "related_to": "Pentecostalism"
     }
   ]
 }

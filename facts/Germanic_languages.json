@@ -10,38 +10,39 @@
     "subgroups": "West, North, East, and sometimes Central",
     "geographic_distribution": "Europe, North America, Australia",
     "historical_period": "Pre-Proto-Germanic (c. 2000 BC)",
-    "classification": "Language family"
+    "classification": "Language family",
+    "type": "LanguageFamily"
   },
   "relationship": [
+    {
+      "instance_of": "language family"
+    },
     {
       "part_of": "Indo-European languages"
     },
     {
-      "descended_from": "Proto-Germanic"
+      "has_language": "German language"
     },
     {
-      "includes": "English"
+      "has_language": "English language"
     },
     {
-      "includes": "German"
+      "has_language": "Dutch language"
     },
     {
-      "includes": "Dutch"
+      "has_language": "Swedish language"
     },
     {
-      "includes": "Swedish"
+      "has_language": "Norwegian language"
     },
     {
-      "includes": "Norwegian"
+      "has_language": "Danish language"
     },
     {
-      "influenced": "Romance languages"
+      "geographic_region": "Northern Europe"
     },
     {
-      "related_to": "Celtic languages"
-    },
-    {
-      "studied_in": "Linguistics"
+      "influenced_by": "Proto-Germanic"
     }
   ]
 }

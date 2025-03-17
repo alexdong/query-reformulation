@@ -10,38 +10,39 @@
     "surface_temp_range": "0-32°C (32-90°F)",
     "deep_water_temp": "Near Freezing",
     "impacts": "Marine Life",
-    "data_source": "Buoys/Satellites"
+    "data_source": "Buoys/Satellites",
+    "type": "Quantity"
   },
   "relationship": [
+    {
+      "influenced_by": "Solar Radiation"
+    },
+    {
+      "affected_by": "Wind Patterns"
+    },
+    {
+      "affected_by": "Ocean Currents"
+    },
+    {
+      "impacts": "Marine Ecosystems"
+    },
+    {
+      "influences": "Weather Patterns"
+    },
     {
       "part_of": "Climate System"
     },
     {
-      "influences": "Ocean Circulation"
+      "measured_by": "Buoy"
     },
     {
-      "affects": "Coral Reefs"
+      "affected_by": "El Niño-Southern Oscillation"
     },
     {
       "impacts": "Sea Level"
     },
     {
-      "related_to": "El Niño"
-    },
-    {
-      "related_to": "Ocean Acidification"
-    },
-    {
-      "measured_by": "Thermometer"
-    },
-    {
-      "data_collected_by": "NOAA"
-    },
-    {
-      "impacts": "Weather Patterns"
-    },
-    {
-      "related_to": "Thermohaline Circulation"
+      "related_to": "Thermal Expansion"
     }
   ]
 }

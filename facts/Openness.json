@@ -1,44 +1,44 @@
 {
   "entity": "Openness",
   "properties": {
-    "instance_of": "Personality trait",
     "part_of": "Big Five personality traits",
     "description": "Trust, curiosity, imagination",
     "opposite_trait": "Closedness",
     "measurement_scale": "Likert scale",
     "related_to": "Intellect",
-    "facet_includes": "Values"
+    "facet_includes": "Values",
+    "type": "Personality trait"
   },
   "relationship": [
     {
-      "related_to": "Agreeableness"
+      "instance_of": "Quality"
     },
     {
-      "related_to": "Conscientiousness"
+      "related_to": "Privacy"
     },
     {
-      "related_to": "Extraversion"
+      "related_to": "Transparency"
     },
     {
-      "related_to": "Neuroticism"
+      "characteristic_of": "Communication"
     },
     {
-      "measured_by": "NEO-PI-R"
+      "characteristic_of": "Government"
     },
     {
-      "influences": "Creativity"
+      "related_to": "Trust"
     },
     {
-      "influences": "Learning"
+      "related_to": "Honesty"
     },
     {
-      "correlates_with": "Intellectual curiosity"
+      "related_to": "Accountability"
     },
     {
-      "impacts": "Adaptability"
+      "related_to": "Collaboration"
     },
     {
-      "part_of": "Personality psychology"
+      "related_to": "Inclusivity"
     }
   ]
 }

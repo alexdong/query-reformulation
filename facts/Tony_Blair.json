@@ -10,38 +10,39 @@
     "children": "4",
     "religion": "Christianity",
     "nationality": "British",
-    "title": "Prime Minister"
+    "title": "Prime Minister",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "predecessor": "John Major"
+      "instance_of": "politician"
     },
     {
-      "successor": "Gordon Brown"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "served_as": "Leader of the Labour Party"
+      "member_of": "Labour Party"
     },
     {
-      "member_of": "Parliament of the United Kingdom"
+      "prime_minister_of": "United Kingdom"
     },
     {
-      "attended": "Fettes College"
+      "spouse_of": "Cherie Blair"
     },
     {
-      "appointed": "Governor of Jerusalem"
+      "child_of": "Fay Blair"
     },
     {
-      "authored": "A Journey"
+      "educated_at": "St John's College, Oxford"
     },
     {
-      "influenced": "New Labour"
+      "appointed_by": "Queen Elizabeth II"
     },
     {
-      "involved_in": "Iraq War"
+      "successor_of": "John Major"
     },
     {
-      "received": "Order of the Garter"
+      "predecessor_of": "Gordon Brown"
     }
   ]
 }

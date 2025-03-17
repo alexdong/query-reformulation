@@ -1,7 +1,6 @@
 {
-  "entity": "State Services Commission (New Zealand)",
+  "entity": "State Services Commission  New Zealand ",
   "properties": {
-    "instance_of": "Government agency",
     "country": "New Zealand",
     "formation_date": "1994",
     "responsible_for": "Public service",
@@ -10,38 +9,39 @@
     "replaced": "Public Service Commission",
     "abolished": "2023",
     "successor": "Public Service",
-    "website": "https://www.publicservice.govt.nz/"
+    "website": "https://www.publicservice.govt.nz/",
+    "type": "Government agency"
   },
   "relationship": [
     {
-      "reports_to": "Prime Minister of New Zealand"
+      "instance_of": "government agency"
     },
     {
-      "oversees": "Government departments"
+      "subclass_of": "New Zealand government"
     },
     {
-      "influences": "Public sector reform"
+      "regulates": "electricity sector"
     },
     {
-      "collaborates_with": "Treasury (New Zealand)"
+      "regulates": "gas sector"
     },
     {
-      "develops": "Capability frameworks"
+      "reports_to": "New Zealand Parliament"
     },
     {
-      "promotes": "Good governance"
+      "has_member": "New Zealand Governor-General"
     },
     {
-      "provides": "Guidance to departments"
+      "responsible_for": "economic regulation"
     },
     {
-      "focuses_on": "Public sector performance"
+      "responsible_for": "consumer protection"
     },
     {
-      "impacts": "Policy implementation"
+      "located_in": "New Zealand"
     },
     {
-      "part_of": "New Zealand government"
+      "has_publication": "State of the Electricity Sector Report"
     }
   ]
 }

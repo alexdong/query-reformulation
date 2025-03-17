@@ -10,38 +10,39 @@
     "social_impact": "Segregation",
     "spatial_extent": "Metropolitan areas",
     "planning_challenge": "Sustainable development",
-    "measurement": "Impervious surface coverage"
+    "measurement": "Impervious surface coverage",
+    "type": "LandUse"
   },
   "relationship": [
     {
-      "causes": "Suburbanization"
+      "causes": "Environmental degradation"
     },
     {
-      "results_in": "Traffic congestion"
+      "results_in": "Habitat fragmentation"
     },
     {
-      "impacts": "Environment"
+      "associated_with": "Automobile dependency"
     },
     {
-      "related_to": "Urban planning"
+      "contributes_to": "Increased commuting"
     },
     {
-      "contributes_to": "Air pollution"
+      "occurs_in": "Metropolitan area"
     },
     {
-      "associated_with": "Automobile"
+      "impacts": "Local economy"
     },
     {
-      "impacts": "Public health"
+      "requires": "Infrastructure"
     },
     {
-      "linked_to": "Land use"
+      "often_leads_to": "Suburbanization"
     },
     {
-      "opposed_by": "Smart growth"
+      "influenced_by": "Population growth"
     },
     {
-      "example_location": "Atlanta"
+      "mitigated_by": "Smart growth"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Horticulture",
   "properties": {
-    "instance_of": "Applied science",
     "field_of": "Agriculture",
     "focus": "Plant cultivation",
     "includes": "Botany",
@@ -10,38 +9,39 @@
     "history": "Ancient civilizations",
     "application": "Food production, aesthetics",
     "techniques": "Pruning, irrigation, fertilization",
-    "importance": "Food security, environmental sustainability"
+    "importance": "Food security, environmental sustainability",
+    "type": "Applied science"
   },
   "relationship": [
+    {
+      "instance_of": "Gardening"
+    },
+    {
+      "subclass_of": "Agriculture"
+    },
+    {
+      "used_in": "Landscaping"
+    },
+    {
+      "produces": "Ornamental plants"
+    },
+    {
+      "requires": "Soil"
+    },
+    {
+      "requires": "Water"
+    },
+    {
+      "requires": "Sunlight"
+    },
+    {
+      "involves": "Plant propagation"
+    },
     {
       "related_to": "Botany"
     },
     {
-      "overlaps_with": "Agronomy"
-    },
-    {
-      "employs": "Soil science"
-    },
-    {
-      "utilizes": "Plant propagation"
-    },
-    {
-      "requires": "Entomology"
-    },
-    {
-      "influences": "Landscape design"
-    },
-    {
-      "supports": "Urban gardening"
-    },
-    {
-      "contributes_to": "Permaculture"
-    },
-    {
-      "impacts": "Food security"
-    },
-    {
-      "benefits": "Biodiversity"
+      "studied_by": "Agronomy"
     }
   ]
 }

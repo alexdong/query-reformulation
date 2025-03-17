@@ -10,38 +10,39 @@
     "initial_claim_size": "160 acres",
     "mining_method": "Hard rock mining",
     "state": "Nevada",
-    "historical_significance": "American Silver Rush"
+    "historical_significance": "American Silver Rush",
+    "type": "Mine"
   },
   "relationship": [
     {
-      "part_of": "Virginia City"
-    },
-    {
-      "discovery_by": "Henry Comstock"
-    },
-    {
       "located_in": "Nevada"
-    },
-    {
-      "mineral_type": "Silver"
-    },
-    {
-      "influenced": "American Economy"
-    },
-    {
-      "related_to": "Pioneer Saloon"
-    },
-    {
-      "related_to": "Chollar Mine"
     },
     {
       "part_of": "Sierra Nevada"
     },
     {
-      "caused": "Silver Rush"
+      "discovered_by": "Henry Comstock"
     },
     {
-      "historical_event": "American West"
+      "mined_by": "Virginia City"
+    },
+    {
+      "produced": "Silver"
+    },
+    {
+      "produced": "Gold"
+    },
+    {
+      "influenced": "Comstock Lode Railroad"
+    },
+    {
+      "caused": "Comstock Fire"
+    },
+    {
+      "contributed_to": "Nevada's statehood"
+    },
+    {
+      "associated_with": "Mark Twain"
     }
   ]
 }

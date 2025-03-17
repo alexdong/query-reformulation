@@ -10,9 +10,19 @@
     "reign_end": "1837-06-20",
     "father": "George III",
     "mother": "Charlotte of Mecklenburg-Strelitz",
-    "spouse": "Charlotte Sophia of Saxe-Coburg-Saalfeld"
+    "spouse": "Charlotte Sophia of Saxe-Coburg-Saalfeld",
+    "type": "Monarch"
   },
   "relationship": [
+    {
+      "instance_of": "monarch"
+    },
+    {
+      "reign_start": "1830"
+    },
+    {
+      "reign_end": "1837"
+    },
     {
       "predecessor": "George IV"
     },
@@ -20,28 +30,19 @@
       "successor": "Victoria"
     },
     {
-      "part_of": "House of Hanover"
+      "family_member": "Charlotte, Princess of Wales"
     },
     {
-      "influenced": "Chartist movement"
+      "member_of": "House of Hanover"
     },
     {
-      "involved_in": "Corn Laws"
+      "birth_place": "Kensington Palace"
     },
     {
-      "supported": "Reform Act 1832"
+      "death_place": "Palace of Hanover"
     },
     {
-      "child_of": "George III"
-    },
-    {
-      "married_to": "Charlotte Sophia of Saxe-Coburg-Saalfeld"
-    },
-    {
-      "located_in": "United Kingdom"
-    },
-    {
-      "member_of": "British royal family"
+      "publication": "Royal Assent to the Poor Law Amendment Act 1834"
     }
   ]
 }

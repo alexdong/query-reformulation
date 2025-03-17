@@ -1,7 +1,6 @@
 {
   "entity": "Procellariiformes",
   "properties": {
-    "instance_of": "Bird order",
     "common_name": "Tube-nosed seabirds",
     "class": "Aves",
     "distribution": "Global (oceans)",
@@ -10,38 +9,39 @@
     "wingspan": "1.3–3.4 m",
     "conservation_status": "Variable",
     "metabolism": "High",
-    "adaptation": "Salt glands"
+    "adaptation": "Salt glands",
+    "type": "Bird order"
   },
   "relationship": [
     {
-      "part_of": "Aves"
+      "taxonrank": "Procellariiformes"
     },
     {
-      "includes": "Albatrosses"
+      "instance_of": "aves"
     },
     {
-      "includes": "Petrels"
+      "subclass_of": "Neornithes"
     },
     {
-      "includes": "Shearwaters"
+      "has_member": "Diomedeidae"
     },
     {
-      "includes": "Storm-petrels"
+      "has_member": "Procellariidae"
     },
     {
-      "related_to": "Pelecaniformes"
+      "has_member": "Oceanitidae"
     },
     {
-      "habitat": "Ocean"
+      "part_of": "Animal Kingdom"
     },
     {
-      "preys_on": "Fish"
+      "has_characteristic": "pelagic lifestyle"
     },
     {
-      "feeds_on": "Squid"
+      "has_characteristic": "salt gland"
     },
     {
-      "migration": "Long-distance"
+      "in_taxonomy_tree": "Aves"
     }
   ]
 }

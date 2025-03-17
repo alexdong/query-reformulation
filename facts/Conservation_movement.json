@@ -1,7 +1,6 @@
 {
   "entity": "Conservation movement",
   "properties": {
-    "instance_of": "Social movement",
     "focus": "Natural resources",
     "origin": "19th century",
     "goal": "Protect environment",
@@ -10,38 +9,39 @@
     "related_to": "Environmentalism",
     "geographic_scope": "Global",
     "initial_focus": "Forests & Wildlife",
-    "modern_focus": "Climate Change"
+    "modern_focus": "Climate Change",
+    "type": "Social movement"
   },
   "relationship": [
     {
-      "influenced": "Environmentalism"
+      "instance_of": "environmentalism"
     },
     {
-      "preceded": "Environmental movement"
+      "part_of": "environmental_movement"
     },
     {
-      "advocated_by": "Sierra Club"
+      "influenced_by": "deep_ecology"
     },
     {
-      "advocated_by": "The Nature Conservancy"
+      "advocates_for": "biodiversity"
     },
     {
-      "inspired": "National Park movement"
+      "opposes": "environmental_degradation"
     },
     {
-      "related_to": "Wildlife preservation"
+      "promotes": "sustainable_development"
     },
     {
-      "related_to": "Forestry"
+      "related_to": "wildlife_conservation"
     },
     {
-      "promoted_by": "John James Audubon"
+      "related_to": "protected_area"
     },
     {
-      "influenced": "Sustainable development"
+      "influenced_by": "naturalism"
     },
     {
-      "overlaps_with": "Green politics"
+      "advocates_for": "environmental_policy"
     }
   ]
 }

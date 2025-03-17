@@ -9,38 +9,39 @@
     "study_field": "Environmental science",
     "impacted_by": "Climate change",
     "resource": "Natural resources",
-    "component": "Ecosystem"
+    "component": "Ecosystem",
+    "type": "Place"
   },
   "relationship": [
     {
-      "part_of": "Earth"
+      "instance_of": "Physical_environment"
     },
     {
-      "impacts": "Biodiversity"
+      "part_of": "Universe"
     },
     {
-      "affects": "Human health"
+      "has_property": "Climate"
     },
     {
-      "studied_by": "Environmental science"
+      "affected_by": "Human_activity"
     },
     {
-      "includes": "Atmosphere"
+      "contains": "Ecosystem"
     },
     {
-      "includes": "Hydrosphere"
+      "has_component": "Natural_resource"
     },
     {
-      "includes": "Lithosphere"
+      "influences": "Biodiversity"
     },
     {
-      "affected_by": "Pollution"
+      "affected_by": "Geological_process"
     },
     {
-      "impacts": "Sustainability"
+      "has_feature": "Landform"
     },
     {
-      "related_to": "Ecology"
+      "impacts": "Human_health"
     }
   ]
 }

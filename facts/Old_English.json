@@ -1,7 +1,6 @@
 {
   "entity": "Old English",
   "properties": {
-    "instance_of": "Language",
     "family": "Germanic",
     "branch": "West Germanic",
     "time_period": "c. 450-1150 AD",
@@ -10,38 +9,39 @@
     "influenced_by": "Proto-Germanic",
     "descended_from": "Proto-Germanic",
     "influenced": "Middle English",
-    "status": "Extinct"
+    "status": "Extinct",
+    "type": "Language"
   },
   "relationship": [
+    {
+      "predecessor_of": "Middle English"
+    },
     {
       "part_of": "Proto-Germanic"
     },
     {
-      "ancestor_of": "Middle English"
+      "influenced": "Middle English"
     },
     {
-      "written_in": "Anglo-Saxon Chronicle"
+      "written_in": "Runes"
     },
     {
-      "influenced": "Modern English"
+      "spoken_in": "Anglo-Saxon England"
     },
     {
       "related_to": "West Germanic languages"
     },
     {
-      "literature": "Beowulf"
+      "influenced": "Modern English"
     },
     {
-      "literature": "The Wanderer"
+      "characterized_by": "Old English grammar"
     },
     {
-      "literature": "The Battle of Maldon"
+      "written_with": "Latin alphabet"
     },
     {
-      "spoken_by": "Anglo-Saxons"
-    },
-    {
-      "studied_in": "Linguistics"
+      "developed_from": "Proto-Germanic languages"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Ahe",
   "properties": {
-    "instance_of": "Village",
     "located_in": "Iran",
     "province": "East Azerbaijan",
     "latitude": "38.4667",
@@ -10,38 +9,39 @@
     "population_total": "1500",
     "time_zone": "UTC+3:30",
     "area_code": "041",
-    "postal_code": "53771"
+    "postal_code": "53771",
+    "type": "Village"
   },
   "relationship": [
     {
-      "part_of": "East Azerbaijan Province"
+      "located_in": "Mesopotamia"
     },
     {
-      "located_near": "Ahar"
+      "part_of": "Sumer"
     },
     {
-      "contains": "Agricultural land"
+      "ruled_by": "Ur-Nammu"
     },
     {
-      "has_climate": "Humid subtropical"
+      "influenced_by": "Sumerian civilization"
     },
     {
-      "has_economy": "Agriculture"
+      "has_artifact": "Clay tablet"
     },
     {
-      "has_language": "Azerbaijani"
+      "destroyed_by": "Elamites"
     },
     {
-      "governed_by": "Local council"
+      "has_ruler": "Iddin-Marduk"
     },
     {
-      "connected_to": "Road 44"
+      "has_language": "Akkadian language"
     },
     {
-      "influenced_by": "Persian culture"
+      "has_religion": "Mesopotamian religion"
     },
     {
-      "has_landmark": "Local mosque"
+      "related_to": "Khammātu"
     }
   ]
 }

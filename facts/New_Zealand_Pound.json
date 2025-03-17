@@ -10,38 +10,39 @@
     "exchange_rate_to_NZD": "1 = 1",
     "denomination": "1, 2, 1/2, 1/4",
     "legal_tender": "Yes (until 1967)",
-    "replaced_by": "New Zealand Dollar"
+    "replaced_by": "New Zealand Dollar",
+    "type": "Currency"
   },
   "relationship": [
     {
-      "part_of": "British Pound"
-    },
-    {
-      "used_in": "New Zealand"
-    },
-    {
-      "preceded_by": "New Zealand Shilling"
+      "preceded_by": "British Pound"
     },
     {
       "succeeded_by": "New Zealand Dollar"
     },
     {
-      "influenced": "New Zealand Dollar"
+      "used_in_country": "New Zealand"
     },
     {
-      "related_to": "Decimalisation of the pound"
+      "issn": "Q129475"
     },
     {
-      "currency_type": "Historical currency"
+      "currency_code": "NZP"
     },
     {
-      "economic_indicator_of": "New Zealand"
+      "part_of": "British Pound Sterling"
     },
     {
-      "linked_to": "British Empire currency"
+      "decimal_subunit": "New Zealand Pound Sterling"
     },
     {
-      "has_variant": "New Zealand Sovereign"
+      "influenced_by": "British monetary system"
+    },
+    {
+      "replaced_by": "New Zealand Dollar"
+    },
+    {
+      "has_issuer": "Reserve Bank of New Zealand"
     }
   ]
 }

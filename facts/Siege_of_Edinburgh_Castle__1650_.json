@@ -1,5 +1,5 @@
 {
-  "entity": "Siege of Edinburgh Castle (1650)",
+  "entity": "Siege of Edinburgh Castle  1650 ",
   "properties": {
     "start_date": "1650-05-13",
     "end_date": "1650-08-15",
@@ -10,38 +10,39 @@
     "commander_royalist": "David Leslie",
     "siege_duration": "94 days",
     "casualties_parliament": "Relatively low",
-    "casualties_royalist": "Significant"
+    "casualties_royalist": "Significant",
+    "type": "HistoricalEvent"
   },
   "relationship": [
     {
-      "part_of": "Wars of the Three Kingdoms"
+      "instance_of": "siege"
     },
     {
-      "involved_in": "English Interregnum"
+      "part_of": "Third English Civil War"
     },
     {
-      "opposed_by": "David Leslie"
+      "involved_in": "Cromwellian conquest of Scotland"
     },
     {
-      "led_by": "Robert Lilburne"
+      "location": "Edinburgh Castle"
     },
     {
-      "location_is": "Edinburgh"
+      "commander": "Thomas Fairfax"
     },
     {
-      "preceded_by": "Battle of Dunbar (1650)"
+      "defender": "Andrew Ker"
     },
     {
-      "followed_by": "Capture of Stirling Castle (1650)"
+      "preceded_by": "Battle of Dunbar"
     },
     {
-      "involved_faction": "Parliament of England"
+      "followed_by": "Execution of Charles I"
     },
     {
-      "involved_faction": "Royalist Scotland"
+      "influenced_by": "English Civil War"
     },
     {
-      "resulted_in": "Parliamentary control of Edinburgh"
+      "result": "Scottish surrender"
     }
   ]
 }

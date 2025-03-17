@@ -10,38 +10,39 @@
     "time_zone": "CET",
     "mayor": "Thomas Geisel",
     "postal_code": "40000-41549",
-    "latitude": "51.455"
+    "latitude": "51.455",
+    "type": "City"
   },
   "relationship": [
     {
-      "located_in": "Germany"
+      "located_in": "North Rhine-Westphalia"
     },
     {
-      "part_of": "Rhine-Ruhr Metropolitan Region"
+      "part_of": "Germany"
     },
     {
-      "river_flows_through": "Rhine"
-    },
-    {
-      "neighbor_city": "Essen"
-    },
-    {
-      "neighbor_city": "Solingen"
-    },
-    {
-      "member_of": "European Union"
-    },
-    {
-      "has_landmark": "Königsallee"
+      "has_neighbor": "Essen"
     },
     {
       "has_landmark": "Rheinturm"
     },
     {
-      "has_museum": "Kunstsammlung Nordrhein-Westfalen"
+      "has_river": "Rhine"
     },
     {
-      "has_university": "Heinrich Heine University Düsseldorf"
+      "influenced_by": "Hohenzollern dynasty"
+    },
+    {
+      "has_economy": "Düsseldorf economy"
+    },
+    {
+      "has_transportation_system": "Düsseldorf Airport"
+    },
+    {
+      "has_municipality": "Düsseldorf municipality"
+    },
+    {
+      "has_historical_event": "Peace of Westphalia"
     }
   ]
 }

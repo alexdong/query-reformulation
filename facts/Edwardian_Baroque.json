@@ -10,38 +10,39 @@
     "common_features": "Grand facades, Columns, Pilasters, Sculptural details",
     "purpose": "Public buildings, Banks, Railway stations",
     "aesthetic": "Formal, Imposing, Luxurious",
-    "decline": "World War I"
+    "decline": "World War I",
+    "type": "Architectural style"
   },
   "relationship": [
     {
-      "influenced": "Neo-Baroque"
+      "architectural_style_of": "Edwardian architecture"
     },
     {
-      "preceded_by": "Late Victorian architecture"
+      "influenced_by": "Baroque architecture"
     },
     {
-      "followed_by": "Art Deco"
+      "influenced_by": "Palladianism"
     },
     {
-      "architect": "Edwin Lutyens"
+      "geographic_location": "United Kingdom"
     },
     {
-      "architect": "Francis Chittoe"
+      "time_period": "Edwardian era"
     },
     {
-      "architect": "William Emrys"
+      "associated_with": "British Empire"
     },
     {
-      "building_example": "King's College London"
+      "example_of": "Architectural style"
     },
     {
-      "building_example": "Australia House (London)"
+      "characterized_by": "Ornamentation"
     },
     {
-      "building_example": "Paddington Station"
+      "related_to": "Beaux-Arts architecture"
     },
     {
-      "part_of": "British architecture"
+      "used_in": "Public buildings"
     }
   ]
 }

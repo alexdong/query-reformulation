@@ -10,38 +10,39 @@
     "independence_date": "2002-05-20",
     "gdp_nominal": "2.3 billion USD",
     "largest_city": "Dili",
-    "time_zone": "UTC+9"
+    "time_zone": "UTC+9",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Asia"
+    },
     {
       "part_of": "Southeast Asia"
     },
     {
-      "border_country": "Indonesia"
+      "has_neighbor": "Indonesia"
     },
     {
-      "island_part_of": "Timor"
+      "has_neighbor": "Australia"
     },
     {
-      "former_colony_of": "Portugal"
+      "influenced_by": "Portugal"
     },
     {
-      "administered_by": "United Nations"
+      "created_by": "United Nations"
     },
     {
-      "influenced_by": "Catholicism"
+      "has_official_language": "Tetum"
+    },
+    {
+      "has_official_language": "Portuguese"
     },
     {
       "member_of": "United Nations"
     },
     {
-      "member_of": "ASEAN"
-    },
-    {
-      "located_near": "Australia"
-    },
-    {
-      "has_language": "Tetum"
+      "member_of": "Association of Southeast Asian Nations"
     }
   ]
 }

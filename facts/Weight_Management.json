@@ -10,38 +10,39 @@
     "long_term_goal": "Sustainable lifestyle changes",
     "risk_factor": "Sedentary lifestyle",
     "benefit": "Reduced disease risk",
-    "field_of_study": "Nutrition"
+    "field_of_study": "Nutrition",
+    "type": "HealthCondition"
   },
   "relationship": [
+    {
+      "instance_of": "Health_care"
+    },
+    {
+      "subclass_of": "Lifestyle_change"
+    },
+    {
+      "related_to": "Nutrition"
+    },
+    {
+      "related_to": "Physical_fitness"
+    },
     {
       "causes": "Obesity"
     },
     {
-      "prevents": "Type 2 Diabetes"
+      "treated_by": "Dieting"
     },
     {
-      "requires": "Healthy Diet"
+      "treated_by": "Exercise"
     },
     {
-      "requires": "Physical Activity"
+      "influenced_by": "Behavioral_therapy"
     },
     {
-      "influences": "Metabolism"
+      "requires": "Medical_assessment"
     },
     {
-      "impacts": "Cardiovascular Health"
-    },
-    {
-      "related_to": "Body Composition"
-    },
-    {
-      "involves": "Behavioral Therapy"
-    },
-    {
-      "linked_to": "Nutrition"
-    },
-    {
-      "impacts": "Mental Health"
+      "impacts": "Overall_health"
     }
   ]
 }

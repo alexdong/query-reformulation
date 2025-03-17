@@ -10,38 +10,39 @@
     "literary_movement": "Romanticism, Renaissance, Enlightenment",
     "form": "Poetry, Prose, Drama",
     "style": "Lyrical, Narrative, Dramatic",
-    "importance": "Cultural Identity"
+    "importance": "Cultural Identity",
+    "type": "Literature"
   },
   "relationship": [
     {
-      "influenced_by": "Celtic Mythology"
+      "instance_of": "literature"
     },
     {
-      "influenced": "English Literature"
+      "country": "Scotland"
     },
     {
-      "part_of": "British Literature"
+      "influenced_by": "Celtic literature"
     },
     {
-      "author_wrote": "Robert Burns"
+      "influenced_by": "English literature"
     },
     {
-      "author_wrote": "Sir Walter Scott"
+      "historical_period": "Scottish Renaissance"
     },
     {
-      "author_wrote": "James Hogg"
+      "historical_period": "Romanticism"
     },
     {
-      "author_wrote": "Muriel Spark"
+      "genre": "poetry"
     },
     {
-      "genre_includes": "Burns' poems"
+      "genre": "prose"
     },
     {
-      "genre_includes": "Waverley novel"
+      "author": "Robert Burns"
     },
     {
-      "related_to": "Scottish Renaissance"
+      "author": "Sir Walter Scott"
     }
   ]
 }

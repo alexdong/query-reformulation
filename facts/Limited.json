@@ -1,7 +1,6 @@
 {
   "entity": "Limited",
   "properties": {
-    "instance_of": "Television series",
     "genre": "Comedy-drama",
     "creator": "Tony Cole",
     "country_of_origin": "United Kingdom",
@@ -9,38 +8,39 @@
     "start_date": "2019",
     "number_of_seasons": "3",
     "setting": "London",
-    "language": "English"
+    "language": "English",
+    "type": "Television series"
   },
   "relationship": [
     {
-      "created_by": "Brett Goldstein"
+      "instance_of": "limited_liability_company"
     },
     {
-      "created_by": "Tony Cole"
+      "has_legal_form": "business_entity"
     },
     {
-      "genre": "Dark comedy"
+      "subclass_of": "corporation"
     },
     {
-      "genre": "Satire"
+      "has_attribute": "liability"
     },
     {
-      "influenced": "Ted Lasso"
+      "has_characteristic": "limited_liability"
     },
     {
-      "starring": "Steve Coogan"
+      "defined_in": "company_law"
     },
     {
-      "starring": "Olivia Colman"
+      "regulated_by": "government_agency"
     },
     {
-      "setting_location": "London"
+      "has_purpose": "business_activity"
     },
     {
-      "production_company": "Roughcut Films"
+      "requires": "articles_of_incorporation"
     },
     {
-      "distributed_by": "Sky"
+      "has_owner": "shareholder"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Impressionism",
   "properties": {
-    "instance_of": "Art movement",
     "origin": "France",
     "time_period": "1860s-1880s",
     "focus": "Capturing fleeting moments",
@@ -10,38 +9,39 @@
     "style": "Optical realism",
     "rejection": "Salon des Refusés",
     "influence": "Photography, Japanese prints",
-    "legacy": "Modern art"
+    "legacy": "Modern art",
+    "type": "Art movement"
   },
   "relationship": [
+    {
+      "instance_of": "art movement"
+    },
+    {
+      "influenced_by": "Realism"
+    },
     {
       "influenced": "Post-Impressionism"
     },
     {
-      "influenced": "Neo-Impressionism"
+      "associated_with_place": "France"
     },
     {
-      "preceded_by": "Realism"
+      "creator_of_work": "Claude Monet"
     },
     {
-      "artist_associated": "Claude Monet"
+      "creator_of_work": "Pierre-Auguste Renoir"
     },
     {
-      "artist_associated": "Pierre-Auguste Renoir"
+      "creator_of_work": "Edgar Degas"
     },
     {
-      "artist_associated": "Edgar Degas"
+      "subject_of": "art history"
     },
     {
-      "artist_associated": "Berthe Morisot"
+      "characterized_by": "plein air painting"
     },
     {
-      "artwork_example": "Impression, soleil levant"
-    },
-    {
-      "location_associated": "Paris"
-    },
-    {
-      "movement_part_of": "Art history"
+      "style_of": "painting"
     }
   ]
 }

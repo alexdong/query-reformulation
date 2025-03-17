@@ -10,38 +10,39 @@
     "flow_rate": "Variable",
     "usage": "Irrigation, Drinking Water",
     "basin_type": "River basin",
-    "ecological_importance": "Supports biodiversity"
+    "ecological_importance": "Supports biodiversity",
+    "type": "River"
   },
   "relationship": [
     {
-      "flows_into": "Indian Ocean"
+      "flows_into": "Brahmaputra River"
     },
     {
-      "located_in": "Sri Lanka"
+      "tributary_of": "Brahmaputra River"
     },
     {
-      "tributary_of": "N/A"
+      "located_in_administrative_division": "Chhattisgarh"
     },
     {
-      "source_location": "Kumburupone"
+      "located_in_administrative_division": "Odisha"
     },
     {
-      "part_of": "Southern Province"
+      "located_in_administrative_division": "Jharkhand"
     },
     {
-      "flows_through": "Matara"
+      "flows_through_country": "India"
     },
     {
-      "provides_water_to": "Agriculture"
+      "originates_in": "Chhattisgarh"
     },
     {
-      "supports": "Aquatic life"
+      "has_source_location": "Bastar"
     },
     {
-      "contributes_to": "Local economy"
+      "part_of": "Ganga-Brahmaputra River System"
     },
     {
-      "adjacent_to": "Coastal plains"
+      "has_associated_flora": "Tropical Moist Forest"
     }
   ]
 }

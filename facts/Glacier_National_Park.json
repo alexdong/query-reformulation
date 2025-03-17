@@ -10,38 +10,39 @@
     "precipitation": "30–60 inches annually",
     "major_feature": "Glaciers",
     "UNESCO_designation": "World Heritage Site",
-    "visitor_count": "3 million (2022)"
+    "visitor_count": "3 million (2022)",
+    "type": "NationalPark"
   },
   "relationship": [
-    {
-      "part_of": "National Park System"
-    },
     {
       "located_in": "Montana"
     },
     {
-      "adjacent_to": "Waterton Lakes National Park"
+      "part_of": "United States of America"
     },
     {
-      "contains": "Going-to-the-Sun Road"
+      "has_designation": "National Park (Q567) (US National Park System)"
+    },
+    {
+      "established_by": "United States Federal Government"
+    },
+    {
+      "adjacent_to": "Canada"
     },
     {
       "contains": "Lake McDonald"
     },
     {
-      "contains": "Many Glacier Road"
+      "contains": "Going-to-the-Sun Road"
     },
     {
-      "species_found": "Grizzly Bear"
+      "protected_by": "United States Environmental Protection Agency"
     },
     {
-      "species_found": "Mountain Goat"
+      "has_ecosystem": "Temperate coniferous forest"
     },
     {
-      "species_found": "Gray Wolf"
-    },
-    {
-      "managed_by": "National Park Service"
+      "biodiversity_includes": "Grizzly bear"
     }
   ]
 }

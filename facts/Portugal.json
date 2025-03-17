@@ -10,38 +10,39 @@
     "national_dish": "Bacalhau",
     "national_sport": "Football",
     "independence_date": "1143",
-    "member_of": "European Union"
+    "member_of": "European Union",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "borders": "Spain"
-    },
-    {
-      "is_member_of": "NATO"
-    },
-    {
-      "has_colony": "Brazil"
-    },
     {
       "located_in": "Iberian Peninsula"
     },
     {
-      "influenced": "Brazilian culture"
+      "part_of": "European Union"
     },
     {
-      "exports_to": "Germany"
+      "member_of": "NATO"
     },
     {
-      "imports_from": "China"
+      "has_capital": "Lisbon"
     },
     {
-      "has_region": "Algarve"
+      "influenced_by": "Roman Empire"
     },
     {
-      "has_city": "Porto"
+      "has_official_language": "Portuguese language"
     },
     {
-      "historical_figure": "Henry the Navigator"
+      "has_border_with": "Spain"
+    },
+    {
+      "has_historical_period": "Portuguese Age of Discovery"
+    },
+    {
+      "has_currency": "Euro"
+    },
+    {
+      "has_national_symbol": "Portuguese coat of arms"
     }
   ]
 }

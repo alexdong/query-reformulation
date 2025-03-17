@@ -10,38 +10,39 @@
     "geometric_forms": "Zigzags, Chevrons, Sunbursts",
     "color_palette": "Bold, Contrasting Colors",
     "architecture_feature": "Streamlined Shapes",
-    "design_focus": "Ornamentation & Functionality"
+    "design_focus": "Ornamentation & Functionality",
+    "type": "ArtisticMovement"
   },
   "relationship": [
     {
-      "influenced": "Modernism"
+      "influenced_by": "Arts and Crafts movement"
     },
     {
-      "influenced": "Streamline Moderne"
+      "influenced_by": "Cubism"
     },
     {
-      "preceded_by": "Art Nouveau"
+      "influenced_by": "Bauhaus"
     },
     {
-      "contemporary_with": "Bauhaus"
+      "influenced_by": "Ancient Egyptian art"
     },
     {
-      "architect": "William Van Alen"
+      "part_of": "20th century"
     },
     {
-      "architect": "Raymond Chandler"
+      "associated_with_event": "Roaring Twenties"
     },
     {
-      "building_example": "Chrysler Building"
+      "associated_with_place": "Paris"
     },
     {
-      "building_example": "Eastern Columbia Building"
+      "associated_with_place": "New York City"
     },
     {
-      "design_element_in": "Ocean Liner Interiors"
+      "characterized_by": "Geometric shapes"
     },
     {
-      "design_element_in": "Furniture Design"
+      "influenced": "Mid-Century Modern"
     }
   ]
 }

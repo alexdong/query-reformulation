@@ -10,38 +10,39 @@
     "impact_3": "Urbanization",
     "measurement": "Population density",
     "historical_example_1": "Industrial Revolution",
-    "modern_example": "Sub-Saharan Africa"
+    "modern_example": "Sub-Saharan Africa",
+    "type": "DemographicEvent"
   },
   "relationship": [
     {
-      "causes": "Demographic transition"
+      "causes": "Birth rate"
     },
     {
-      "impacts": "Environmental degradation"
+      "results_in": "Urbanization"
     },
     {
-      "related_to": "Carrying capacity"
+      "impacts": "Resource depletion"
     },
     {
-      "linked_to": "Malthusian catastrophe"
+      "contributes_to": "Economic growth"
     },
     {
-      "influenced_by": "Fertility rate"
+      "exacerbates": "Environmental degradation"
     },
     {
-      "influenced_by": "Mortality rate"
+      "affects": "Housing market"
     },
     {
-      "impacts": "Urban sprawl"
+      "influences": "Infrastructure development"
     },
     {
-      "related_to": "Population density"
+      "related_to": "Migration"
     },
     {
-      "impacts": "Economic growth"
+      "impacts": "Public services"
     },
     {
-      "impacts": "Food security"
+      "occurs_in": "Geographic area"
     }
   ]
 }

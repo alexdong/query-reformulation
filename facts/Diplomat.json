@@ -1,7 +1,6 @@
 {
   "entity": "Diplomat",
   "properties": {
-    "instance_of": "Occupation",
     "field": "International Relations",
     "represents": "State",
     "skill": "Negotiation",
@@ -10,38 +9,39 @@
     "area_of_expertise": "Foreign Policy",
     "status": "Civil Servant",
     "location": "Foreign Country",
-    "communication": "Protocol"
+    "communication": "Protocol",
+    "type": "Occupation"
   },
   "relationship": [
-    {
-      "works_for": "Ministry of Foreign Affairs"
-    },
-    {
-      "reports_to": "Ambassador"
-    },
-    {
-      "collaborates_with": "Consul"
-    },
-    {
-      "negotiates_with": "Foreign Government"
-    },
     {
       "represents": "Country"
     },
     {
-      "attends": "International Conference"
+      "works_for": "Government Agency"
     },
     {
-      "writes": "Diplomatic Note"
+      "located_in": "Embassy"
     },
     {
-      "deals_with": "International Law"
+      "negotiates_with": "Foreign Diplomat"
     },
     {
-      "specializes_in": "Trade Agreement"
+      "reports_to": "Head of Mission"
     },
     {
-      "trained_in": "Diplomatic Academy"
+      "member_of": "International Organization"
+    },
+    {
+      "accredited_to": "Host Country"
+    },
+    {
+      "specializes_in": "Area of Expertise"
+    },
+    {
+      "communicates_with": "Government Official"
+    },
+    {
+      "follows_protocol_of": "Diplomatic Protocol"
     }
   ]
 }

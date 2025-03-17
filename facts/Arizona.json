@@ -10,14 +10,15 @@
     "largest_city": "Phoenix",
     "time_zone": "MST",
     "state_flower": "Saguaro Cactus Blossom",
-    "admission_date": "1912-02-14"
+    "admission_date": "1912-02-14",
+    "type": "AdministrativeDivision"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States of America"
     },
     {
-      "located_in": "Southwest United States"
+      "part_of": "North America"
     },
     {
       "borders": "California"
@@ -32,16 +33,16 @@
       "borders": "Nevada"
     },
     {
-      "contains": "Grand Canyon"
+      "has_capital": "Phoenix"
     },
     {
-      "contains": "Sedona"
+      "has_river": "Colorado River"
     },
     {
-      "climate": "Desert"
+      "has_landmark": "Grand Canyon"
     },
     {
-      "economy": "Tourism"
+      "member_of": "United States Census Bureau State or Territory"
     }
   ]
 }

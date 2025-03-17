@@ -10,38 +10,39 @@
     "environmental_consequence": "Habitat destruction",
     "measurement": "Catch per unit effort (CPUE)",
     "related_concept": "Marine conservation",
-    "solution": "Sustainable fishing practices"
+    "solution": "Sustainable fishing practices",
+    "type": "EnvironmentalIssue"
   },
   "relationship": [
     {
-      "causes": "Marine ecosystem degradation"
+      "causes": "Marine Ecosystem Degradation"
     },
     {
-      "impacts": "Food security"
+      "results_in": "Decline in Fish Stocks"
     },
     {
-      "related_to": "Fisheries"
+      "affects": "Biodiversity"
     },
     {
-      "contributes_to": "Biodiversity loss"
+      "impacts": "Food Security"
     },
     {
-      "addressed_by": "Fishing quotas"
+      "contributes_to": "Habitat Destruction"
     },
     {
-      "requires": "Marine protected areas"
+      "is_a": "Environmental Problem"
     },
     {
-      "linked_to": "Aquaculture"
+      "related_to": "Fishing Industry"
     },
     {
-      "impacts": "Coastal communities"
+      "influenced_by": "Human Activity"
     },
     {
-      "mitigated_by": "Fisheries management"
+      "mitigated_by": "Sustainable Fishing Practices"
     },
     {
-      "related_to": "Climate change"
+      "linked_to": "Climate Change"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "polarity": "Polar",
     "dielectric_constant": "80.1",
     "surface_tension": "0.073 N/m (20°C)",
-    "boiling_point": "100 °C"
+    "boiling_point": "100 °C",
+    "type": "Fluid"
   },
   "relationship": [
     {
-      "is_a": "Chemical substance"
+      "instance_of": "H2O"
     },
     {
-      "part_of": "Hydrosphere"
+      "subclass_of": "Matter"
+    },
+    {
+      "part_of": "Earth"
+    },
+    {
+      "flows_to": "River"
+    },
+    {
+      "dissolves": "Salt"
+    },
+    {
+      "is_a": "Chemical_compound"
+    },
+    {
+      "cycle_part_of": "Water_cycle"
     },
     {
       "essential_for": "Life"
     },
     {
-      "dissolves": "Many substances"
+      "found_in": "Ocean"
     },
     {
-      "cycle": "Water cycle"
-    },
-    {
-      "found_in": "Oceans"
-    },
-    {
-      "source_of": "Drinking water"
-    },
-    {
-      "used_in": "Agriculture"
-    },
-    {
-      "component_of": "Blood"
-    },
-    {
-      "related_to": "Hydrogeology"
+      "used_by": "Human"
     }
   ]
 }

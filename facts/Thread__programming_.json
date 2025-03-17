@@ -1,7 +1,6 @@
 {
-  "entity": "Thread (programming)",
+  "entity": "Thread  programming ",
   "properties": {
-    "instance_of": "Programming language",
     "paradigm": "Concurrent, Parallel",
     "creator": "Leslie Lamport",
     "year_created": "1978",
@@ -10,38 +9,39 @@
     "formal_language": "Yes",
     "abstraction_level": "High",
     "influenced": "Actor model",
-    "status": "Active"
+    "status": "Active",
+    "type": "Programming language"
   },
   "relationship": [
     {
-      "developed_by": "Leslie Lamport"
+      "instance_of": "Parallel computing"
     },
     {
-      "influenced": "Erlang"
+      "used_for": "Concurrent programming"
     },
     {
-      "influenced": "Go"
+      "related_to": "Operating system"
     },
     {
-      "related_to": "Actor model"
+      "implemented_in": "Programming language"
     },
     {
-      "used_in": "Distributed systems"
+      "requires": "Synchronization primitive"
     },
     {
-      "concept_of": "Time warp"
+      "studied_in": "Computer science"
     },
     {
-      "alternative_to": "Message passing"
+      "used_in": "Multitasking"
     },
     {
-      "formalized_in": "Theoretical computer science"
+      "has_property": "Thread safety"
     },
     {
-      "application": "Fault-tolerant systems"
+      "influenced_by": "Process (computer science)"
     },
     {
-      "related_to": "Concurrency"
+      "used_with": "Inter-thread communication"
     }
   ]
 }

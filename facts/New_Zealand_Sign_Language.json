@@ -10,38 +10,39 @@
     "deaf_community": "New Zealand Deaf community",
     "established": "1984",
     "influenced_by": "Māori Sign Language",
-    "governing_body": "New Zealand Sign Language Council"
+    "governing_body": "New Zealand Sign Language Council",
+    "type": "SignLanguage"
   },
   "relationship": [
     {
-      "influenced": "New Zealand culture"
+      "instance_of": "sign language"
     },
     {
-      "related_to": "British Sign Language"
+      "language_code": "NZSL"
     },
     {
-      "used_by": "Deaf community"
+      "related_to": "Deaf community"
     },
     {
-      "recognized_by": "New Zealand Parliament"
+      "developed_by": "Māori people"
+    },
+    {
+      "used_in": "New Zealand"
+    },
+    {
+      "influenced_by": "Māori sign language"
+    },
+    {
+      "recognized_as": "official language"
+    },
+    {
+      "has_variant": "regional sign variations"
     },
     {
       "promoted_by": "New Zealand Sign Language Council"
     },
     {
-      "part_of": "Sign language family"
-    },
-    {
-      "used_in": "Education"
-    },
-    {
-      "related_to": "New Zealand culture"
-    },
-    {
-      "translation_of": "Spoken New Zealand English"
-    },
-    {
-      "influenced": "New Zealand Sign Language Dictionary"
+      "used_for": "communication"
     }
   ]
 }

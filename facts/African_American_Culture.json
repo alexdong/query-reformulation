@@ -10,38 +10,39 @@
     "art_form": "Quilting, Sculpture, Painting",
     "language": "African American Vernacular English (AAVE)",
     "values": "Community, Resilience, Family",
-    "historical_context": "Slavery, Civil Rights Movement"
+    "historical_context": "Slavery, Civil Rights Movement",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "influenced": "Jazz Music"
+      "influenced_by": "West African cultures"
     },
     {
-      "influenced": "Hip Hop Music"
+      "part_of": "African diaspora"
     },
     {
-      "influenced": "Blues Music"
+      "created_by": "African people"
     },
     {
-      "part_of": "American Culture"
+      "has_genre": "Blues music"
     },
     {
-      "related_to": "Harlem Renaissance"
+      "has_genre": "Jazz music"
     },
     {
-      "related_to": "Civil Rights Movement"
+      "has_genre": "Gospel music"
     },
     {
-      "originates_from": "African Diaspora"
+      "influenced": "American culture"
     },
     {
-      "impacted_by": "Slavery"
+      "associated_with": "Harlem Renaissance"
     },
     {
-      "features": "Soul Food"
+      "associated_with": "Civil Rights Movement"
     },
     {
-      "features": "Gospel Music"
+      "has_expression": "Soul food"
     }
   ]
 }

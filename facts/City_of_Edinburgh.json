@@ -10,38 +10,39 @@
     "area_km2": "241",
     "currency": "GBP",
     "official_language": "English",
-    "time_zone": "GMT"
+    "time_zone": "GMT",
+    "type": "City"
   },
   "relationship": [
     {
-      "part_of": "Edinburghshire"
+      "located_in": "Scotland"
     },
     {
-      "located_in": "Lothian"
+      "part_of": "United Kingdom"
     },
     {
-      "has_neighbour": "East Lothian"
+      "has_administrative_unit": "City of Edinburgh Council"
     },
     {
-      "has_neighbour": "West Lothian"
+      "has_population": "Edinburgh (local authority)"
     },
     {
-      "has_neighbour": "Midlothian"
+      "has_landmark": "Edinburgh Castle"
     },
     {
-      "contains": "Edinburgh Castle"
+      "has_river": "River Forth"
     },
     {
-      "contains": "Royal Mile"
+      "has_neighbourhood": "Newington"
     },
     {
-      "contains": "Arthur's Seat"
+      "has_economy": "Edinburgh economy"
     },
     {
-      "festival": "Edinburgh Festival Fringe"
+      "has_transportation_system": "Edinburgh Trams"
     },
     {
-      "university": "University of Edinburgh"
+      "influenced_by": "Kingdom of Alba"
     }
   ]
 }

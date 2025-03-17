@@ -10,38 +10,39 @@
     "largest_city": "Sydney",
     "government": "Parliamentary democracy",
     "national_animal": "Kangaroo",
-    "national_symbol": "Golden Wattle"
+    "national_symbol": "Golden Wattle",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Earth"
+    },
     {
       "part_of": "Oceania"
     },
     {
-      "borders": "Timor-Leste"
-    },
-    {
-      "member_of": "Commonwealth of Nations"
-    },
-    {
-      "located_near": "New Zealand"
+      "has_capital": "Canberra"
     },
     {
       "influenced_by": "British Empire"
     },
     {
-      "has_territory": "Australian Antarctic Territory"
+      "has_official_language": "English language"
     },
     {
-      "has_state": "New South Wales"
+      "has_currency": "Australian dollar"
     },
     {
-      "has_state": "Victoria"
+      "has_head_of_state": "Monarch of the United Kingdom"
     },
     {
-      "has_city": "Melbourne"
+      "member_of": "Commonwealth of Nations"
     },
     {
-      "has_city": "Brisbane"
+      "has_border_with": "Papua New Guinea"
+    },
+    {
+      "has_neighbor": "New Zealand"
     }
   ]
 }

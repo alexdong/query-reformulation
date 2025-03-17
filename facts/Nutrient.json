@@ -1,7 +1,6 @@
 {
   "entity": "Nutrient",
   "properties": {
-    "instance_of": "Chemical compound",
     "role": "Essential for life",
     "classification": "Macronutrient, Micronutrient",
     "function": "Supports bodily functions",
@@ -10,38 +9,39 @@
     "bioavailability": "Varies by source",
     "deficiency_impact": "Health problems",
     "excess_impact": "Toxicity",
-    "metabolism": "Processed by body"
+    "metabolism": "Processed by body",
+    "type": "Chemical compound"
   },
   "relationship": [
     {
-      "part_of": "Food"
+      "instance_of": "chemical_compound"
     },
     {
-      "required_for": "Human health"
+      "has_property": "molecular_weight"
     },
     {
-      "type": "Macronutrient"
+      "involved_in": "metabolic_process"
     },
     {
-      "type": "Micronutrient"
+      "required_for": "biological_process"
     },
     {
-      "interacts_with": "Enzyme"
+      "contributes_to": "health_benefit"
     },
     {
-      "absorbed_by": "Body"
+      "deficiency_causes": "disease"
     },
     {
-      "found_in": "Vitamin"
+      "found_in": "food"
     },
     {
-      "found_in": "Mineral"
+      "absorbed_by": "organism"
     },
     {
-      "impacts": "Metabolism"
+      "transported_by": "transport_protein"
     },
     {
-      "related_to": "Diet"
+      "essential_for": "growth"
     }
   ]
 }

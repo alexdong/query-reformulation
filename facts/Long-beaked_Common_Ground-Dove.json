@@ -10,38 +10,39 @@
     "wingspan_cm": "31",
     "habitat": "Semi-arid scrub",
     "color": "Brown and grey",
-    "family": "Columbidae"
+    "family": "Columbidae",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "part_of": "Columbidae"
+      "instance_of": "Common Ground-Dove"
     },
     {
-      "lives_in": "Mexico"
+      "has_taxon_rank": "species"
     },
     {
-      "prey": "Seeds"
+      "subclass_of": "Aves"
     },
     {
-      "threatens": "Habitat loss"
+      "in_taxon": "Birds"
     },
     {
-      "related_to": "Common Ground-Dove"
+      "in_taxon": "Columbiformes"
     },
     {
-      "has_feature": "Beak"
+      "has_habitat": "Grassland"
     },
     {
-      "has_feature": "Wings"
+      "has_habitat": "Shrubland"
     },
     {
-      "has_feature": "Feathers"
+      "feeds_on": "Insects"
     },
     {
-      "is_a": "Bird"
+      "feeds_on": "Seeds"
     },
     {
-      "member_of": "Avian fauna"
+      "part_of": "Neotropical fauna"
     }
   ]
 }

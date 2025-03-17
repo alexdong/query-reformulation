@@ -10,38 +10,39 @@
     "pegged_to": "New Zealand dollar",
     "exchange_rate_fixed": "True",
     "issuer": "Cook Islands National Bank",
-    "denomination": "1, 2, 5, 10, 20, 50, 100"
+    "denomination": "1, 2, 5, 10, 20, 50, 100",
+    "type": "Currency"
   },
   "relationship": [
     {
-      "currency_union": "New Zealand dollar"
+      "issuance_currency": "Cook Islands"
     },
     {
-      "country": "Cook Islands"
+      "has_currency_code": "CKD"
     },
     {
-      "issuing_authority": "Cook Islands National Bank"
+      "has_subunit": "Cook Islands cent"
     },
     {
-      "currency_code_is": "CKD"
+      "exchange_rate": "New Zealand dollar"
     },
     {
-      "subunit_is": "Cent"
+      "influenced_by": "New Zealand Dollar"
     },
     {
-      "exchange_rate_with": "New Zealand dollar"
+      "legal_tender_in": "Cook Islands"
     },
     {
-      "influenced_by": "New Zealand dollar"
+      "managed_by": "Cook Islands Monetary Authority"
     },
     {
-      "legal_tender_in_country": "Cook Islands"
+      "has_ISO4217_alpha": "CKD"
     },
     {
-      "part_of": "Oceania"
+      "has_ISO4217_numeric": "288"
     },
     {
-      "related_currency": "New Zealand dollar"
+      "has_official_use": "Cook Islands"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "current_rate": "Faster than past events",
     "global_scale": "Worldwide",
     "time_scale": "Ongoing, accelerating",
-    "related_phenomenon": "Climate Change"
+    "related_phenomenon": "Climate Change",
+    "type": "EnvironmentalIssue"
   },
   "relationship": [
     {
-      "caused_by": "Anthropogenic Emissions"
+      "causes": "Carbon Dioxide"
     },
     {
-      "impacts": "Coral Reefs"
+      "results_in": "Marine Ecosystem Degradation"
     },
     {
-      "affects": "Marine Ecosystems"
+      "affects": "Coral Reefs"
     },
     {
-      "linked_to": "Carbon Cycle"
+      "impacts": "Shellfish"
     },
     {
-      "reduces": "Calcification"
+      "is_a": "Environmental Problem"
     },
     {
-      "threatens": "Shellfish"
+      "contributes_to": "Climate Change"
     },
     {
-      "exacerbated_by": "Warming Waters"
+      "measured_by": "pH Level"
+    },
+    {
+      "influenced_by": "Atmospheric Carbon Dioxide Concentration"
+    },
+    {
+      "mitigated_by": "Carbon Capture"
     },
     {
       "studied_by": "Oceanography"
-    },
-    {
-      "mitigation_strategy": "Carbon Capture"
-    },
-    {
-      "related_to": "Seawater"
     }
   ]
 }

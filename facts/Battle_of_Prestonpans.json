@@ -10,38 +10,39 @@
     "strength_jacobite": "Approximately 10,000",
     "strength_government": "Approximately 2,000",
     "part_of": "Jacobite Rising of 1745",
-    "significance": "Boosted Jacobite morale"
+    "significance": "Boosted Jacobite morale",
+    "type": "Battle"
   },
   "relationship": [
-    {
-      "preceded_by": "Raising of the Standard"
-    },
-    {
-      "followed_by": "Battle of Falkirk Muir"
-    },
-    {
-      "involved": "Charles Edward Stuart"
-    },
-    {
-      "involved": "Sir John Cope"
-    },
-    {
-      "location_is_in": "East Lothian"
-    },
     {
       "part_of": "Jacobite Rising of 1745"
     },
     {
-      "influenced": "British history"
+      "located_in": "East Lothian"
     },
     {
-      "resulted_in": "Jacobite advance"
+      "involved_in": "Jacobite cause"
     },
     {
-      "contributed_to": "Decline of Jacobitism"
+      "opposed_by": "British Army"
     },
     {
-      "historical_period": "18th century"
+      "commander_of": "Charles Edward Stuart"
+    },
+    {
+      "commander_of": "William, Duke of Cumberland"
+    },
+    {
+      "preceded_by": "Battle of Falkirk Muir"
+    },
+    {
+      "followed_by": "Battle of Culloden"
+    },
+    {
+      "result": "Jacobite victory"
+    },
+    {
+      "influenced": "Scottish history"
     }
   ]
 }

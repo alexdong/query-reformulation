@@ -10,38 +10,39 @@
     "first_appearance": "The Trivialling",
     "setting": "London",
     "demeanor": "Intelligent, Observant",
-    "detective_method": "Deductive Reasoning"
+    "detective_method": "Deductive Reasoning",
+    "type": "FictionalCharacter"
   },
   "relationship": [
     {
-      "protagonist_of": "The Trivialling"
+      "instance_of": "human"
     },
     {
-      "author_wrote": "Robert Barr"
+      "occupation": "naval officer"
     },
     {
-      "genre_is": "Detective Fiction"
+      "member_of": "Royal Navy"
     },
     {
-      "setting_in": "London"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "contemporary_of": "Sherlock Holmes"
+      "place_of_birth": "Scotland"
     },
     {
-      "rival_of": "Eugene Valmont"
+      "involved_in": "Napoleonic Wars"
     },
     {
-      "influenced_by": "Arthur Conan Doyle"
+      "commanded": "HMS Bellerophon"
     },
     {
-      "appears_in": "Short Stories"
+      "award_received": "Knight Commander of the Order of the Bath"
     },
     {
-      "characteristic_of": "Victorian Era"
+      "depicted_in": "Portrait of Captain Thomas Masterman Hardy"
     },
     {
-      "depicts": "Crime"
+      "predecessor_of": "Captain Thomas Masterman Hardy"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "notation": "Typically unwritten",
     "evolution": "Slow, gradual change",
     "genre": "Folk music, ceremonial music",
-    "copyright": "Complex, often public domain"
+    "copyright": "Complex, often public domain",
+    "type": "MusicWork"
   },
   "relationship": [
     {
-      "influenced": "Contemporary Music"
+      "instance_of": "cultural_heritage"
     },
     {
-      "related_to": "Folk Music"
+      "genre": "music"
     },
     {
-      "performed_by": "Musician"
+      "expression_of": "cultural_identity"
     },
     {
-      "part_of": "Cultural Heritage"
+      "performed_by": "musician"
     },
     {
-      "originates_from": "Country"
+      "preserved_in": "archive"
     },
     {
-      "associated_with": "Ritual"
+      "influenced": "modern_music"
     },
     {
-      "uses_instrument": "Acoustic Guitar"
+      "originates_from": "geographic_area"
     },
     {
-      "uses_instrument": "Violin"
+      "transmitted_to": "listener"
     },
     {
-      "related_to": "Music Theory"
+      "used_in": "cultural_event"
     },
     {
-      "preserved_by": "Ethnomusicology"
+      "related_to": "folk_music"
     }
   ]
 }

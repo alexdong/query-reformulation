@@ -10,38 +10,39 @@
     "era": "2000s-present",
     "key_characteristics": "Aggressive riffs, Melodic choruses",
     "popularity": "Significant",
-    "related_genres": "Post-hardcore, Deathcore"
+    "related_genres": "Post-hardcore, Deathcore",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Post-hardcore"
+      "instance_of": "music genre"
     },
     {
-      "influenced_by": "Hardcore punk"
+      "subclass_of": "heavy metal"
     },
     {
-      "influenced_by": "Metal"
+      "influenced_by": "post-hardcore"
     },
     {
-      "related_to": "Deathcore"
+      "influenced_by": "death metal"
     },
     {
-      "related_to": "Emo"
+      "has_characteristic": "breakdown (music)"
     },
     {
-      "band_member": "August Burns Red"
+      "has_characteristic": "double bass drum"
     },
     {
-      "band_member": "Killswitch Engage"
+      "associated_with": "August Burns Red"
     },
     {
-      "band_member": "Architects"
+      "associated_with": "Killswitch Engage"
     },
     {
-      "subgenre_of": "Heavy metal"
+      "has_subgenre": "Djent"
     },
     {
-      "influenced": "Djent"
+      "has_subgenre": "Melodic Metalcore"
     }
   ]
 }

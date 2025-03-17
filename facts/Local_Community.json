@@ -10,38 +10,39 @@
     "social_structure": "Families, groups, organizations",
     "challenges": "Economic hardship, social divisions",
     "opportunities": "Local development, social cohesion",
-    "examples": "Neighborhoods, villages, towns"
+    "examples": "Neighborhoods, villages, towns",
+    "type": "PopulatedPlace"
   },
   "relationship": [
     {
-      "part_of": "Region"
+      "instance_of": "Q5"
     },
     {
-      "located_in": "Country"
+      "located_in": "Q30937"
     },
     {
-      "impacted_by": "Government Policy"
+      "part_of": "Q35657"
     },
     {
-      "interacts_with": "Local Economy"
+      "has_resident": "Q215645"
     },
     {
-      "contains": "Local Businesses"
+      "has_member": "Q107759"
     },
     {
-      "influenced_by": "Local Culture"
+      "participates_in": "Q43229"
     },
     {
-      "participates_in": "Community Events"
+      "governed_by": "Q14478"
     },
     {
-      "governed_by": "Local Government"
+      "has_activity": "Q515"
     },
     {
-      "supports": "Local Charities"
+      "provides_service_to": "Q20752"
     },
     {
-      "connected_to": "Neighboring Communities"
+      "has_event": "Q1486"
     }
   ]
 }

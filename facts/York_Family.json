@@ -10,38 +10,39 @@
     "language": "English",
     "wealth": "Significant",
     "influence": "Regional",
-    "historical_period": "12th-15th Centuries"
+    "historical_period": "12th-15th Centuries",
+    "type": "Family"
   },
   "relationship": [
     {
-      "member_of": "English Nobility"
+      "instance_of": "family"
     },
     {
-      "related_to": "House Neville"
+      "country_of_origin": "England"
     },
     {
-      "related_to": "House Percy"
+      "member_of": "British nobility"
     },
     {
-      "descendant_of": "Stephen of Scarborough"
+      "has_member": "Elizabeth York (Queen of England)"
     },
     {
-      "ancestor_of": "Richard Neville, 16th Baron Neville"
+      "has_member": "Edward York"
+    },
+    {
+      "has_member": "Richard York (Duke of York)"
+    },
+    {
+      "related_to": "House of Lancaster"
     },
     {
       "involved_in": "Wars of the Roses"
     },
     {
-      "held_title": "Earl of Salisbury"
+      "has_ancestor": "Lionel of Antwerp, 1st Earl of Ulster"
     },
     {
-      "held_title": "Earl of Warwick"
-    },
-    {
-      "controlled_territory": "Yorkshire"
-    },
-    {
-      "supported": "English Monarchy"
+      "has_descendant": "House of Tudor"
     }
   ]
 }

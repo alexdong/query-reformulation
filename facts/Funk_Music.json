@@ -10,38 +10,39 @@
     "vocal_style": "Call and response, chanted vocals",
     "danceability": "High",
     "key_elements": "Groove, rhythm, dance",
-    "subgenre_of": "R&B"
+    "subgenre_of": "R&B",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Disco"
+      "instance_of": "music genre"
     },
     {
-      "influenced": "Hip Hop"
+      "subclass_of": "Rhythm and blues"
     },
     {
-      "influenced": "House Music"
+      "influenced_by": "Soul music"
     },
     {
-      "preceded_by": "Soul Music"
+      "influenced_by": "Jazz"
     },
     {
-      "artist": "James Brown"
+      "created_by": "James Brown"
     },
     {
-      "artist": "Sly and the Family Stone"
+      "associated_with": "Parliament-Funkadelic"
     },
     {
-      "artist": "Parliament-Funkadelic"
+      "associated_with": "Sly and the Family Stone"
     },
     {
-      "related_to": "Jazz"
+      "has_characteristic": "Syncopation"
     },
     {
-      "subgenre": "Boogie Funk"
+      "has_characteristic": "Groove"
     },
     {
-      "subgenre": "Electro-Funk"
+      "related_to": "Disco"
     }
   ]
 }

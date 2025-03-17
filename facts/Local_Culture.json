@@ -10,38 +10,39 @@
     "identity": "Sense of belonging",
     "expression": "Festivals, rituals",
     "intangible": "Knowledge, skills, beliefs",
-    "preservation": "Efforts to maintain heritage"
+    "preservation": "Efforts to maintain heritage",
+    "type": "CulturalTradition"
   },
   "relationship": [
     {
-      "part_of": "Human Culture"
+      "instance_of": "intangible_cultural_heritage"
     },
     {
-      "influenced_by": "Geography"
+      "part_of": "region"
     },
     {
-      "influenced_by": "History"
+      "influenced_by": "historical_event"
     },
     {
-      "related_to": "Folklore"
+      "expressed_in": "art_form"
     },
     {
-      "related_to": "Traditions"
+      "shaped_by": "demographic_group"
     },
     {
-      "manifests_in": "Cuisine"
+      "transmitted_through": "folklore"
     },
     {
-      "manifests_in": "Music"
+      "associated_with": "geographical_feature"
     },
     {
-      "manifests_in": "Art"
+      "manifests_in": "tradition"
     },
     {
-      "related_to": "Community"
+      "promoted_by": "cultural_organization"
     },
     {
-      "impacts": "Tourism"
+      "related_to": "cuisine"
     }
   ]
 }

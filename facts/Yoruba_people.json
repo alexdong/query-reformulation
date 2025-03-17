@@ -10,38 +10,39 @@
     "historical_kingdom": "Oyo Empire, Ife",
     "literacy_rate": "60%",
     "traditional_occupation": "Agriculture, crafts",
-    "social_structure": "Patrilineal, hierarchical"
+    "social_structure": "Patrilineal, hierarchical",
+    "type": "Ethnic group"
   },
   "relationship": [
-    {
-      "part_of": "Niger-Congo languages"
-    },
     {
       "located_in": "Nigeria"
     },
     {
-      "located_in": "Benin"
+      "part_of": "West Africa"
     },
     {
-      "located_in": "Togo"
+      "has_language": "Yoruba language"
     },
     {
-      "located_in": "Sierra Leone"
+      "has_religion": "Yorùbá religion"
     },
     {
-      "influenced": "Brazilian culture"
+      "related_to": "Benin (historical state)"
     },
     {
-      "related_to": "Igbo people"
+      "related_to": "Ifé"
+    },
+    {
+      "related_to": "Oyo Empire"
+    },
+    {
+      "has_culture": "Yoruba culture"
+    },
+    {
+      "influenced_by": "Igbo people"
     },
     {
       "related_to": "Hausa people"
-    },
-    {
-      "historical_interaction": "Trans-Atlantic slave trade"
-    },
-    {
-      "deity_worships": "Ọ̀rúnmìlà"
     }
   ]
 }

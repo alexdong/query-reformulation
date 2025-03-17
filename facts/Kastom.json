@@ -10,38 +10,39 @@
     "promoted_by": "Indigenous communities",
     "challenges": "Globalization, Westernization",
     "language": "Vernacular languages",
-    "importance": "Social cohesion"
+    "importance": "Social cohesion",
+    "type": "CulturalTradition"
   },
   "relationship": [
     {
-      "part_of": "Melanesian culture"
+      "instance_of": "customary_practice"
     },
     {
-      "related_to": "Cultural relativism"
+      "related_to": "cultural_heritage"
     },
     {
-      "influences": "Tourism"
+      "associated_with": "traditional_knowledge"
     },
     {
-      "intersects_with": "Intellectual property"
+      "part_of": "cultural_identity"
     },
     {
-      "associated_with": "Big Man system"
+      "influenced_by": "ancestral_beliefs"
     },
     {
-      "overlaps_with": "Traditional ecological knowledge"
+      "expressed_in": "ritual"
     },
     {
-      "impacts": "Economic development"
+      "manifests_in": "social_structure"
     },
     {
-      "challenges": "Cultural appropriation"
+      "transmitted_through": "oral_tradition"
     },
     {
-      "promotes": "Community governance"
+      "promoted_by": "community_leaders"
     },
     {
-      "linked_to": "Pacific Islander identity"
+      "related_to": "intangible_cultural_heritage"
     }
   ]
 }

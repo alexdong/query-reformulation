@@ -10,38 +10,39 @@
     "passenger_capacity": "Limited, cramped",
     "navigation_method": "Celestial Navigation",
     "common_diseases": "Scorbut, Typhoid",
-    "construction_material": "Wood"
+    "construction_material": "Wood",
+    "type": "Ship"
   },
   "relationship": [
     {
-      "powered_by": "Wind"
+      "used_for": "Colonial Settlement"
     },
     {
-      "influenced_by": "Age of Exploration"
+      "part_of": "Colonial Economy"
     },
     {
-      "used_for": "Transatlantic Slave Trade"
+      "enabled": "Colonial Trade"
     },
     {
-      "contributed_to": "Colonial Economy"
+      "transported": "Indentured Servants"
     },
     {
-      "involved_technology": "Caravel"
+      "transported": "Enslaved People"
     },
     {
-      "involved_technology": "Sloop"
+      "facilitated": "Colonial Migration"
     },
     {
-      "involved_technology": "East Indiaman"
+      "influenced": "Colonial Demographics"
     },
     {
-      "impacted_by": "Storms"
+      "required": "Shipbuilding"
     },
     {
-      "impacted_by": "Piracy"
+      "affected": "Colonial Ports"
     },
     {
-      "related_to": "Indentured Servitude"
+      "subject_of": "Maritime Law"
     }
   ]
 }

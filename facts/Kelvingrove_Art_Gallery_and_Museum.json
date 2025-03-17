@@ -10,38 +10,39 @@
     "area": "27 acres",
     "designation": "Museum",
     "art_focus": "Diverse",
-    "exhibits_include": "Art, Natural History, Archaeology"
+    "exhibits_include": "Art, Natural History, Archaeology",
+    "type": "Museum"
   },
   "relationship": [
     {
-      "located_in": "Glasgow City"
+      "instance_of": "museum"
     },
     {
-      "part_of": "Glasgow Museums"
+      "located_in": "Glasgow"
     },
     {
-      "architectural_style": "Scottish Baronial Revival"
+      "part_of": "Glasgow City Council"
     },
     {
-      "collection_includes": "David Livingstone artifacts"
+      "has_work": "James Abbott McNeill Whistler - Arrangement in Grey and Black No.1"
     },
     {
-      "exhibits": "Salvator Mundi"
+      "has_work": "Sir Joseph Noel Paton - The Disasters of Penelope"
     },
     {
-      "exhibits": "Prehistoric animal skeletons"
+      "architect": "William Fairbairn"
     },
     {
-      "influenced_by": "Arts and Crafts movement"
+      "collection_contains": "Scottish art"
     },
     {
-      "funding_source": "City of Glasgow"
+      "collection_contains": "European art"
     },
     {
-      "visitor_attraction": "Glasgow"
+      "predecessor_of": "Kelvingrove Museum and Art Gallery (historical)"
     },
     {
-      "has_work": "Sir William Blake's 'The Bathers'"
+      "has_theme": "art"
     }
   ]
 }

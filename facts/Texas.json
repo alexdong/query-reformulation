@@ -10,38 +10,39 @@
     "largest_city": "Houston",
     "state_flower": "Bluebonnet",
     "state_bird": "Northern Mockingbird",
-    "time_zone": "Central Time Zone"
+    "time_zone": "Central Time Zone",
+    "type": "AdministrativeDivision"
   },
   "relationship": [
+    {
+      "located_in": "United States of America"
+    },
     {
       "part_of": "United States"
     },
     {
-      "borders": "Oklahoma"
+      "has_capital": "Austin"
     },
     {
-      "borders": "Arkansas"
+      "has_neighbor": "Oklahoma"
     },
     {
-      "borders": "Louisiana"
+      "has_neighbor": "Louisiana"
     },
     {
-      "borders": "New Mexico"
+      "has_neighbor": "Arkansas"
     },
     {
-      "borders": "Mexico"
+      "has_neighbor": "New Mexico"
     },
     {
-      "located_in": "South Central United States"
+      "has_neighbor": "Colorado"
     },
     {
-      "has_major_city": "Dallas"
+      "has_neighbor": "Kansas"
     },
     {
-      "has_major_city": "San Antonio"
-    },
-    {
-      "influenced_by": "Tejas"
+      "has_neighbor": "Mexico"
     }
   ]
 }

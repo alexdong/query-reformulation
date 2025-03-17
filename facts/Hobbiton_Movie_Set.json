@@ -10,38 +10,39 @@
     "architect": "Brent Robinson",
     "owner": "Warner Bros.",
     "tourism_attraction": "Yes",
-    "design_inspiration": "J.R.R. Tolkien's writings"
+    "design_inspiration": "J.R.R. Tolkien's writings",
+    "type": "TouristAttraction"
   },
   "relationship": [
     {
-      "located_in": "North Island (New Zealand)"
+      "located_in": "Waikato Region"
     },
     {
-      "part_of": "The Lord of the Rings film series"
+      "part_of": "New Zealand"
     },
     {
-      "designed_by": "Brent Robinson (architect)"
+      "created_by": "Peter Jackson"
     },
     {
-      "owned_by": "Warner Bros. Entertainment"
+      "used_for": "The Lord of the Rings film series"
     },
     {
-      "featured_in": "The Lord of the Rings: The Fellowship of the Ring"
+      "used_for": "The Hobbit film series"
     },
     {
-      "featured_in": "The Hobbit film trilogy"
+      "designed_by": "Grant Major"
     },
     {
-      "attracts": "Tourists"
+      "architectural_style": "English countryside architecture"
     },
     {
-      "inspired_by": "J.R.R. Tolkien"
+      "attraction_type": "Tourist attraction"
     },
     {
-      "depicts": "Hobbiton"
+      "managed_by": "Warner Bros. Discovery"
     },
     {
-      "contributes_to": "New Zealand tourism"
+      "depicts": "Hobbiton (fictional)"
     }
   ]
 }

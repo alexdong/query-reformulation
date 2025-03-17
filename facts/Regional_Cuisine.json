@@ -10,38 +10,39 @@
     "varies_by": "Geographic area",
     "often_features": "Unique cooking techniques",
     "preserves": "Historical practices",
-    "impacted_by": "Migration patterns"
+    "impacted_by": "Migration patterns",
+    "type": "CulinaryTradition"
   },
   "relationship": [
     {
-      "is_example_of": "Cuisine"
+      "instance_of": "food"
     },
     {
-      "originates_in": "Geographic Region"
+      "has_characteristic": "flavor"
     },
     {
-      "uses_ingredient": "Local Produce"
+      "influenced_by": "HistoricalEvent"
     },
     {
-      "influenced_by": "Historical Events"
+      "associated_with": "GeographicArea"
     },
     {
-      "associated_with": "Cultural Identity"
+      "associated_with": "Culture"
     },
     {
-      "prepared_with": "Traditional Cooking Methods"
+      "ingredient_of": "Dish"
     },
     {
-      "shares_characteristics_with": "National Cuisine"
+      "preparation_method": "CookingTechnique"
     },
     {
-      "promotes": "Gastronomy Tourism"
+      "originates_from": "Country"
     },
     {
-      "example_region": "Tuscany"
+      "associated_with": "Tradition"
     },
     {
-      "example_region": "Louisiana"
+      "influenced_by": "AgriculturalProduct"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "housing_type": "Often single-family homes",
     "transportation": "Reliance on personal vehicles",
     "amenities": "Fewer services and facilities",
-    "challenges": "Economic hardship, isolation"
+    "challenges": "Economic hardship, isolation",
+    "type": "Settlement"
   },
   "relationship": [
     {
-      "part_of": "Geographic Region"
+      "located_in": "GeographicArea"
     },
     {
-      "impacts": "Agriculture"
+      "part_of": "Region"
     },
     {
-      "impacts": "Natural Resources"
+      "has_resident": "Human"
     },
     {
-      "affected_by": "Rural Flight"
+      "economic_activity": "Agriculture"
     },
     {
-      "supports": "Local Economy"
+      "governed_by": "LocalGovernment"
     },
     {
-      "connected_to": "Small Town"
+      "provides_service_to": "Population"
     },
     {
-      "influenced_by": "Government Policy"
+      "has_infrastructure": "Road"
     },
     {
-      "provides": "Agricultural Products"
+      "affected_by": "NaturalDisaster"
     },
     {
-      "impacts": "Environmental Sustainability"
+      "cultural_heritage": "Tradition"
     },
     {
-      "related_to": "Demographics"
+      "connected_to": "TransportationNetwork"
     }
   ]
 }

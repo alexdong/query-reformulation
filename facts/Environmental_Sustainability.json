@@ -10,38 +10,39 @@
     "key_concept": "Interconnectedness",
     "goal": "Long-term well-being",
     "related_concept": "Regenerative practices",
-    "impact_area": "Climate change, biodiversity"
+    "impact_area": "Climate change, biodiversity",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "is_a": "Sustainability"
+      "instance_of": "Environmentalism"
     },
     {
-      "requires": "Resource conservation"
+      "part_of": "Sustainable Development"
     },
     {
-      "addresses": "Climate change"
+      "causes": "Climate Change"
     },
     {
-      "promotes": "Renewable energy"
+      "requires": "Resource Management"
     },
     {
       "impacts": "Biodiversity"
     },
     {
-      "benefits": "Human health"
+      "related_to": "Circular Economy"
     },
     {
-      "supports": "Circular economy"
+      "promotes": "Renewable Energy"
     },
     {
-      "requires": "Policy changes"
+      "requires": "Environmental Policy"
     },
     {
-      "linked_to": "Environmental science"
+      "affects": "Human Health"
     },
     {
-      "influenced_by": "Deep ecology"
+      "supports": "Ecosystem Services"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Farm",
   "properties": {
-    "instance_of": "Agricultural land",
     "purpose": "Food production",
     "location": "Rural area",
     "size": "Variable",
@@ -10,38 +9,39 @@
     "livestock": "Possible",
     "ownership": "Private/Public",
     "economic_activity": "Agriculture",
-    "resource": "Land"
+    "resource": "Land",
+    "type": "Agricultural land"
   },
   "relationship": [
     {
-      "part_of": "Agricultural system"
+      "located_in": "AgriculturalLand"
     },
     {
-      "produces": "Food"
-    },
-    {
-      "located_in": "Rural area"
+      "produces": "AgriculturalProduct"
     },
     {
       "employs": "Farmer"
     },
     {
-      "uses": "Tractor"
+      "uses": "FarmEquipment"
     },
     {
-      "requires": "Water"
+      "part_of": "AgriculturalRegion"
     },
     {
-      "impacts": "Environment"
+      "managed_by": "AgriculturalOrganization"
     },
     {
-      "part_of": "Landscape"
+      "has_feature": "NaturalFeature"
     },
     {
-      "related_to": "Agriculture"
+      "connected_to": "TransportationRoute"
     },
     {
-      "supports": "Biodiversity"
+      "requires": "WaterResource"
+    },
+    {
+      "affected_by": "WeatherEvent"
     }
   ]
 }

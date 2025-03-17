@@ -10,38 +10,39 @@
     "themes": "Love, Loss, History, Mythology",
     "cultural_significance": "National Identity, Oral Tradition",
     "related_genres": "Celtic Music, Traditional Music",
-    "transmission": "Oral tradition, sheet music"
+    "transmission": "Oral tradition, sheet music",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Irish American Music"
+      "instance_of": "music genre"
     },
     {
-      "related_to": "Celtic Music"
+      "originates_from": "Ireland"
+    },
+    {
+      "influenced_by": "Celtic music"
+    },
+    {
+      "has_genre": "traditional music"
+    },
+    {
+      "related_to": "Irish dance"
     },
     {
       "performed_by": "The Chieftains"
     },
     {
-      "performed_by": "The Dubliners"
+      "has_instrument": "Irish fiddle"
     },
     {
-      "performed_by": "Planxty"
+      "has_instrument": "Irish flute"
     },
     {
-      "features_instrument": "Fiddle"
+      "has_instrument": "Bodhrán"
     },
     {
-      "features_instrument": "Tin Whistle"
-    },
-    {
-      "features_instrument": "Bodhrán"
-    },
-    {
-      "associated_with": "Irish Dance"
-    },
-    {
-      "part_of": "Irish Culture"
+      "inspired_by": "Irish mythology"
     }
   ]
 }

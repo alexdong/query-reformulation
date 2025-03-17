@@ -10,38 +10,39 @@
     "monitoring_agency": "National Hurricane Center",
     "formation_conditions": "Warm ocean water, low wind shear",
     "impacts": "Storm surge, flooding, wind damage",
-    "prediction_method": "Numerical weather prediction"
+    "prediction_method": "Numerical weather prediction",
+    "type": "MeteorologicalEvent"
   },
   "relationship": [
     {
-      "part_of": "Tropical cyclone"
+      "instance_of": "meteorological phenomenon"
     },
     {
-      "occurs_in": "Atlantic Ocean"
+      "part_of": "climate"
     },
     {
-      "occurs_in": "Northeast Pacific Ocean"
+      "occurs_during": "year"
+    },
+    {
+      "affected_by": "El Niño-Southern Oscillation"
+    },
+    {
+      "predicts": "tropical cyclone"
+    },
+    {
+      "measured_by": "Saffir–Simpson hurricane wind scale"
+    },
+    {
+      "causes": "flooding"
+    },
+    {
+      "impacts": "coastal region"
     },
     {
       "monitored_by": "National Hurricane Center"
     },
     {
-      "affected_by": "El Niño"
-    },
-    {
-      "affected_by": "La Niña"
-    },
-    {
-      "measured_by": "Saffir-Simpson Scale"
-    },
-    {
-      "causes": "Storm surge"
-    },
-    {
-      "causes": "Flooding"
-    },
-    {
-      "impacts": "Coastal regions"
+      "related_to": "tropical cyclone formation"
     }
   ]
 }

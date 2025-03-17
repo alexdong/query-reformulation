@@ -10,7 +10,8 @@
     "dominant_life": "Early mammals",
     "sea_level": "High",
     "continent": "Laurasia",
-    "rock_type": "Sedimentary"
+    "rock_type": "Sedimentary",
+    "type": "GeologicalPeriod"
   },
   "relationship": [
     {
@@ -20,28 +21,28 @@
       "followed_by": "Eocene Epoch"
     },
     {
-      "part_of": "Paleogene Period"
-    },
-    {
       "part_of": "Cenozoic Era"
     },
     {
-      "located_in": "Earth"
+      "located_in": "Geologic Time Scale"
     },
     {
-      "event": "Paleocene–Eocene Thermal Maximum"
+      "characterized_by": "Paleocene-Eocene Thermal Maximum"
     },
     {
-      "flora": "Angiosperms"
+      "contains": "Thanetian Age"
     },
     {
-      "fauna": "Uintatheres"
+      "contains": "Selandian Age"
     },
     {
-      "fauna": "Coryphodonts"
+      "contains": "Danian Age"
     },
     {
-      "influenced": "Evolution of mammals"
+      "influenced_by": "K-Pg extinction event"
+    },
+    {
+      "associated_with": "Paleocene mammal fauna"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "continent": "Oceania",
     "independence_date": "1975-09-16",
     "government_type": "Parliamentary republic",
-    "largest_city": "Port Moresby"
+    "largest_city": "Port Moresby",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Oceania"
+      "located_in": "Oceania"
     },
     {
-      "borders": "Indonesia"
+      "part_of": "Melanesia"
+    },
+    {
+      "has_neighbor": "Indonesia"
+    },
+    {
+      "has_neighbor": "Australia"
+    },
+    {
+      "has_neighbor": "Solomon Islands"
+    },
+    {
+      "has_neighbor": "Vanuatu"
+    },
+    {
+      "influenced_by": "Germany"
+    },
+    {
+      "influenced_by": "United Kingdom"
     },
     {
       "member_of": "Commonwealth of Nations"
     },
     {
       "member_of": "United Nations"
-    },
-    {
-      "located_in": "South Pacific Ocean"
-    },
-    {
-      "influenced_by": "Australia"
-    },
-    {
-      "has_language": "Tok Pisin"
-    },
-    {
-      "has_language": "English"
-    },
-    {
-      "has_language": "Hiri Motu"
-    },
-    {
-      "contains": "New Guinea Island"
     }
   ]
 }

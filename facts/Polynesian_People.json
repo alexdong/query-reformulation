@@ -10,38 +10,39 @@
     "navigation": "Celestial navigation",
     "subsistence": "Agriculture, fishing",
     "social_structure": "Tribal",
-    "art_form": "Tattooing"
+    "art_form": "Tattooing",
+    "type": "Ethnic group"
   },
   "relationship": [
     {
-      "part_of": "Austronesian peoples"
+      "part_of": "Oceania"
     },
     {
-      "related_to": "Maori"
+      "located_in": "Pacific Ocean"
     },
     {
-      "related_to": "Hawaiians"
+      "ancestor_of": "Micronesian People"
     },
     {
-      "related_to": "Samoans"
+      "related_to": "Austronesian People"
     },
     {
-      "related_to": "Tongan people"
+      "developed": "Polynesian Navigation"
     },
     {
-      "migrated_to": "Hawaii"
+      "created": "Polynesian Mythology"
     },
     {
-      "migrated_to": "New Zealand"
+      "practiced": "Polynesian Religion"
     },
     {
-      "migrated_to": "Easter Island"
+      "influenced": "Tongan Culture"
     },
     {
-      "influenced_by": "Austronesian culture"
+      "language_family": "Austronesian languages"
     },
     {
-      "practice": "Wayfinding"
+      "subsistence_based_on": "Agriculture"
     }
   ]
 }

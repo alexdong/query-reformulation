@@ -1,7 +1,6 @@
 {
   "entity": "Tourism",
   "properties": {
-    "instance_of": "Industry",
     "definition": "Travel for pleasure or business",
     "economic_impact": "Significant",
     "growth_rate": "Variable",
@@ -10,38 +9,39 @@
     "cultural_impact": "Exchange and preservation",
     "key_drivers": "Income, Price, Trends",
     "global_contribution_GDP": "10%",
-    "related_concept": "Hospitality"
+    "related_concept": "Hospitality",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "impacts": "Economy"
+      "instance_of": "recreation"
     },
     {
-      "supports": "Hospitality industry"
+      "part_of": "economy"
     },
     {
-      "related_to": "Travel"
+      "has_destination": "Tourist_attraction"
     },
     {
-      "affects": "Environment"
+      "related_to": "Transportation"
     },
     {
-      "promotes": "Cultural exchange"
+      "has_effect": "Economic_impact"
     },
     {
-      "influenced_by": "Globalization"
+      "has_participant": "Tourist"
     },
     {
-      "requires": "Infrastructure"
+      "related_to": "Culture"
     },
     {
-      "benefits": "Local communities"
+      "has_sector": "Hospitality_industry"
     },
     {
-      "impacts": "Heritage"
+      "influenced_by": "Government"
     },
     {
-      "driven_by": "Marketing"
+      "has_impact_on": "Environment"
     }
   ]
 }

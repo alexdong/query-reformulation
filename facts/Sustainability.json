@@ -9,38 +9,39 @@
     "related_concept": "Corporate Social Responsibility",
     "goal": "Long-term well-being",
     "focus": "Resource management",
-    "importance": "Climate change mitigation"
+    "importance": "Climate change mitigation",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "impacts": "Climate Change"
+      "instance_of": "Environmentalism"
     },
     {
-      "supports": "Circular Economy"
+      "part_of": "SustainableDevelopment"
     },
     {
-      "requires": "Resource Conservation"
+      "has_topic": "ClimateChange"
     },
     {
-      "promotes": "Renewable Energy"
+      "related_to": "CorporateSocialResponsibility"
     },
     {
-      "addresses": "Poverty"
+      "causes": "EnvironmentalProtection"
     },
     {
-      "linked_to": "Sustainable Development Goals"
+      "requires": "ResourceManagement"
     },
     {
-      "influences": "Environmental Policy"
+      "impacts": "EconomicGrowth"
     },
     {
-      "benefits": "Biodiversity"
+      "influences": "PublicPolicy"
     },
     {
-      "requires": "Stakeholder Engagement"
+      "promotes": "CircularEconomy"
     },
     {
-      "related_to": "Triple Bottom Line"
+      "supports": "Biodiversity"
     }
   ]
 }

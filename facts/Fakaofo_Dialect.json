@@ -10,38 +10,39 @@
     "mutual_intelligibility": "Tokelau",
     "iso_language_code": "tok",
     "dialect_of": "Tokelau language",
-    "geographic_distribution": "Fakaofo island"
+    "geographic_distribution": "Fakaofo island",
+    "type": "Language"
   },
   "relationship": [
     {
-      "part_of": "Tokelau language"
+      "part_of": "Fakaofo Language"
     },
     {
-      "spoken_in": "Fakaofo"
+      "spoken_in": "Fakaofo Atoll"
     },
     {
-      "influenced_by": "Proto-Polynesian"
+      "has_variant": "Fakaofo Language"
     },
     {
-      "related_to": "Nukufao dialect"
+      "related_to": "Austronesian languages"
     },
     {
-      "related_to": "Funafuti language"
+      "influenced_by": "Tuvaluan Language"
     },
     {
-      "has_variant": "Tokelau dialect"
+      "has_feature": "phonology"
     },
     {
-      "geographic_region": "Polynesia"
+      "has_feature": "grammar"
     },
     {
-      "subgroup_of": "Austronesian languages"
+      "has_feature": "vocabulary"
     },
     {
-      "language_code_standard": "ISO 639-1"
+      "documented_by": "Linguistic documentation"
     },
     {
-      "language_area": "Oceania"
+      "studied_in": "Linguistic study"
     }
   ]
 }

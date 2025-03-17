@@ -10,38 +10,39 @@
     "spouse": "Carrie Symonds",
     "children": "6",
     "height": "6 ft 3 in (191 cm)",
-    "alma_mater": "Balliol College, Oxford"
+    "alma_mater": "Balliol College, Oxford",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "prime_minister_predecessor": "Theresa May"
+      "instance_of": "politician"
     },
     {
-      "prime_minister_successor": "Rishi Sunak"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "member_of": "Parliament of the United Kingdom"
+      "member_of": "Conservative Party (UK)"
     },
     {
-      "mayor_of": "London"
+      "office": "Prime Minister of the United Kingdom"
     },
     {
-      "attended": "Eton College"
+      "educated_at": "Stonyhurst College"
     },
     {
-      "editor_of": "The Daily Telegraph"
+      "educated_at": "Balliol College, Oxford"
     },
     {
-      "member_of_parliament_constituency": "Uxbridge and South Ruislip"
+      "family_member": "Stanley Johnson"
     },
     {
-      "position_held": "Secretary of State for Foreign and Commonwealth Affairs"
+      "spouse": "Carrie Symonds"
     },
     {
-      "father_of": "Lawrence Johnson"
+      "publication": "Johnson's Almanac"
     },
     {
-      "attended": "Stonyhurst College"
+      "award": "Honorary Doctorate, University of Bristol"
     }
   ]
 }

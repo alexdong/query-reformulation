@@ -10,38 +10,39 @@
     "boroughs": "5",
     "major_industry": "Finance",
     "time_zone": "Eastern Time",
-    "official_language": "None"
+    "official_language": "None",
+    "type": "City"
   },
   "relationship": [
     {
-      "part_of": "New York State"
+      "locatedIn": "United States"
     },
     {
-      "located_in": "Tri-State Area"
+      "partOf": "New York State"
     },
     {
-      "contains": "Manhattan"
+      "capitalOf": "New York State"
     },
     {
-      "contains": "Brooklyn"
+      "hasPart": "Manhattan"
     },
     {
-      "contains": "Queens"
+      "hasPart": "Brooklyn"
     },
     {
-      "contains": "The Bronx"
+      "hasPart": "Queens"
     },
     {
-      "contains": "Staten Island"
+      "hasPart": "The Bronx"
     },
     {
-      "influenced": "American Culture"
+      "hasPart": "Staten Island"
     },
     {
-      "has_landmark": "Statue of Liberty"
+      "mayorOf": "Eric Adams"
     },
     {
-      "has_landmark": "Empire State Building"
+      "influencedBy": "New Amsterdam"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "location": "Wellington",
     "budget_2023_2024": "NZ$333.9 million",
     "mandate": "Promote New Zealand's interests",
-    "website": "mfat.govt.nz"
+    "website": "mfat.govt.nz",
+    "type": "GovernmentAgency"
   },
   "relationship": [
+    {
+      "subsumed_by": "Government agency"
+    },
+    {
+      "part_of": "Government of New Zealand"
+    },
+    {
+      "located_in": "New Zealand"
+    },
+    {
+      "responsible_for": "New Zealand's foreign policy"
+    },
+    {
+      "employs": "New Zealand public servant"
+    },
     {
       "reports_to": "Prime Minister of New Zealand"
     },
     {
-      "part_of": "New Zealand Government"
-    },
-    {
-      "collaborates_with": "World Trade Organization"
+      "coordinates_with": "New Zealand Trade Commission"
     },
     {
       "collaborates_with": "United Nations"
     },
     {
-      "negotiates_with": "Foreign Governments"
+      "regulates": "International trade"
     },
     {
-      "promotes": "New Zealand Trade"
-    },
-    {
-      "advises": "Government on Foreign Affairs"
-    },
-    {
-      "represents": "New Zealand Abroad"
-    },
-    {
-      "employs": "Diplomats"
-    },
-    {
-      "deals_with": "International Law"
+      "member_of": "Asia-Pacific Economic Cooperation"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Brisbane Broncos",
   "properties": {
-    "instance_of": "Professional sports team",
     "sport": "Rugby league",
     "founded": "1988",
     "location": "Brisbane",
@@ -10,38 +9,39 @@
     "colours": "Orange, Maroon, Gold",
     "stadium": "Suncorp Stadium",
     "competition": "NRL",
-    "owner": "News Corp"
+    "owner": "News Corp",
+    "type": "Professional sports team"
   },
   "relationship": [
     {
-      "plays_in": "National Rugby League"
+      "instance_of": "rugby league team"
     },
     {
-      "located_in": "Queensland"
+      "located_in": "Brisbane"
+    },
+    {
+      "country_of_origin": "Australia"
+    },
+    {
+      "sport": "rugby league"
+    },
+    {
+      "member_of": "National Rugby League"
+    },
+    {
+      "founded_by": "News Limited"
     },
     {
       "head_coach": "Kevin Walters"
     },
     {
-      "rivalry": "Canberra Raiders"
+      "plays_in": "Suncorp Stadium"
     },
     {
-      "member_of": "Australian Rugby League"
+      "has_sponsor": "Hays"
     },
     {
-      "plays_at": "Suncorp Stadium"
-    },
-    {
-      "won_title": "1997 NRL Grand Final"
-    },
-    {
-      "won_title": "1998 NRL Grand Final"
-    },
-    {
-      "player": "Darren Lockyer"
-    },
-    {
-      "player": "Allan Langer"
+      "rival_team": "Canberra Raiders"
     }
   ]
 }

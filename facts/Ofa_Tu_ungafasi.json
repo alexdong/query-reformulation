@@ -1,5 +1,5 @@
 {
-  "entity": "Ofa Tu'ungafasi",
+  "entity": "Ofa Tu ungafasi",
   "properties": {
     "birth_date": "1995-03-23",
     "birth_place": "Nukuʻalofa, Tonga",
@@ -10,38 +10,39 @@
     "current_team": "Crusaders",
     "super_league_debut": "2014",
     "rugby_number": "3",
-    "international_team": "Tonga national rugby team"
+    "international_team": "Tonga national rugby team",
+    "type": "MusicalWork"
   },
   "relationship": [
     {
-      "plays_for": "Crusaders"
+      "instance_of": "human"
     },
     {
-      "plays_for": "Tonga national rugby team"
+      "country_of_citizenship": "Tonga"
     },
     {
-      "born_in": "Nukuʻalofa"
+      "place_of_birth": "Tonga"
     },
     {
-      "position_played": "Prop"
+      "occupation": "politician"
     },
     {
-      "national_team_member_of": "Tonga"
+      "member_of": "Tongan Parliament"
     },
     {
-      "competition": "Super Rugby"
+      "educated_at": "Tongan educational institution"
     },
     {
-      "competition": "Rugby World Cup"
+      "family_member_of": "Tongan noble family"
     },
     {
-      "plays_in_league": "New Zealand National Rugby Championship"
+      "political_ideology": "conservative"
     },
     {
-      "influenced_by": "Graham Raki"
+      "publication": "Tongan government report"
     },
     {
-      "team_coach": "Scott Robertson"
+      "awards_received": "Tongan national honour"
     }
   ]
 }

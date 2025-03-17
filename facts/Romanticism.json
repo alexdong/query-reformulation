@@ -10,38 +10,39 @@
     "influence_on": "Nationalism, Liberalism",
     "geographic_spread": "Europe, Americas",
     "literary_genre": "Lyric Poetry, Gothic Novel",
-    "musical_style": "Emphasis on melody & harmony"
+    "musical_style": "Emphasis on melody & harmony",
+    "type": "ArtMovement"
   },
   "relationship": [
-    {
-      "preceded_by": "Neoclassicism"
-    },
-    {
-      "followed_by": "Victorian Era"
-    },
     {
       "influenced": "Symbolism"
     },
     {
-      "influenced": "Expressionism"
+      "preceded": "Victorian Era"
     },
     {
-      "artist": "William Wordsworth"
+      "inspired_by": "Age of Enlightenment"
     },
     {
-      "artist": "Lord Byron"
+      "associated_with": "Jean-Jacques Rousseau"
     },
     {
-      "artist": "Percy Bysshe Shelley"
+      "influenced": "Nationalism"
     },
     {
-      "composer": "Ludwig van Beethoven"
+      "associated_with": "William Wordsworth"
     },
     {
-      "painter": "Caspar David Friedrich"
+      "influenced": "Gothic Literature"
     },
     {
-      "movement_in": "German Romanticism"
+      "part_of": "European History"
+    },
+    {
+      "associated_with": "Immanuel Kant"
+    },
+    {
+      "influenced": "Art Nouveau"
     }
   ]
 }

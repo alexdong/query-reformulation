@@ -10,38 +10,39 @@
     "organization": "BirdLife International",
     "importance": "Ecosystem health",
     "indicator": "Biodiversity",
-    "funding": "Government, NGOs"
+    "funding": "Government, NGOs",
+    "type": "Environmentalism"
   },
   "relationship": [
     {
-      "part_of": "Environmental conservation"
+      "instance_of": "conservation effort"
     },
     {
-      "related_to": "Habitat restoration"
+      "part_of": "Biodiversity Conservation"
     },
     {
-      "impacts": "Biodiversity"
+      "motivated_by_goal": "Habitat Preservation"
     },
     {
-      "addresses": "Climate change"
+      "focuses_on": "Bird"
     },
     {
-      "works_with": "Protected areas"
+      "implemented_by": "Conservation Organization"
     },
     {
-      "benefits": "Ecosystem services"
+      "requires": "Habitat"
     },
     {
-      "involves": "Ornithology"
+      "influenced_by": "Ecological Research"
     },
     {
-      "supports": "Sustainable development"
+      "impacts": "Bird Population"
     },
     {
-      "requires": "Public awareness"
+      "benefits": "Ecosystem"
     },
     {
-      "overlaps_with": "Wildlife conservation"
+      "related_to": "Environmental Policy"
     }
   ]
 }

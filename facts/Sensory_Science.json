@@ -10,38 +10,39 @@
     "scale": "Quantitative, Qualitative",
     "related_discipline": "Consumer Science",
     "goal": "Understand sensory experiences",
-    "importance": "Consumer acceptance"
+    "importance": "Consumer acceptance",
+    "type": "Academic discipline"
   },
   "relationship": [
     {
-      "studies": "Taste"
+      "instance_of": "sensory science"
     },
     {
-      "studies": "Smell"
+      "subclass_of": "science"
     },
     {
-      "studies": "Vision"
+      "related_to": "neuroscience"
     },
     {
-      "studies": "Touch"
+      "related_to": "psychology"
     },
     {
-      "studies": "Hearing"
+      "related_to": "perception"
     },
     {
-      "uses": "Sensory panels"
+      "related_to": "cognitive science"
     },
     {
-      "relies_on": "Psychophysics"
+      "used_in": "artificial intelligence"
     },
     {
-      "overlaps_with": "Consumer Science"
+      "used_in": "human-computer interaction"
     },
     {
-      "influences": "Product Design"
+      "studied_by": "sensory scientists"
     },
     {
-      "employs": "Descriptive Analysis"
+      "applied_to": "product design"
     }
   ]
 }

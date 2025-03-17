@@ -1,7 +1,6 @@
 {
   "entity": "Radar",
   "properties": {
-    "instance_of": "Technology",
     "purpose": "Object Detection",
     "principle": "Radio Waves",
     "developer": "Heinrich Hertz",
@@ -10,38 +9,39 @@
     "signal_type": "Radio Signals",
     "resolution": "Varies by Frequency",
     "detection_range": "Varies by Power",
-    "invention_date": "1886"
+    "invention_date": "1886",
+    "type": "Technology"
   },
   "relationship": [
     {
-      "uses": "Radio Waves"
+      "instance_of": "detection system"
     },
     {
-      "developed_by": "Heinrich Hertz"
+      "used_by": "air traffic control"
     },
     {
-      "used_in": "Military"
+      "part_of": "surveillance system"
     },
     {
-      "used_in": "Aviation"
+      "operates_in": "atmosphere"
     },
     {
-      "used_in": "Meteorology"
+      "measures": "distance"
     },
     {
-      "related_to": "Sonar"
+      "uses": "electromagnetic radiation"
     },
     {
-      "component_of": "Radar System"
+      "developed_by": "military"
     },
     {
-      "detects": "Aircraft"
+      "used_for": "navigation"
     },
     {
-      "detects": "Ships"
+      "component_of": "sonar"
     },
     {
-      "preceded_by": "Early Radio Technology"
+      "related_to": "Doppler effect"
     }
   ]
 }

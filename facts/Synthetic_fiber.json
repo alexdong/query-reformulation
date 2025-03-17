@@ -10,38 +10,39 @@
     "cost": "Variable",
     "biodegradability": "Generally low",
     "common_types": "Polyester, Nylon, Acrylic, Rayon",
-    "application": "Textiles, ropes, plastics"
+    "application": "Textiles, ropes, plastics",
+    "type": "Material"
   },
   "relationship": [
     {
-      "precursor": "Natural fibers"
+      "instance_of": "Textile"
     },
     {
-      "derived_from": "Petroleum"
+      "material": "Polymer"
     },
     {
-      "type_of": "Polymer"
+      "used_for": "Clothing"
     },
     {
-      "used_in": "Clothing"
+      "produced_by": "Chemical industry"
     },
     {
-      "manufactured_by": "Chemical industry"
+      "has_property": "Tensile strength"
     },
     {
-      "alternative_to": "Cotton"
+      "related_to": "Natural fiber"
     },
     {
-      "related_to": "Textile industry"
+      "used_in": "Carpets"
     },
     {
-      "property_of": "Fabric"
+      "created_from": "Monomer"
     },
     {
-      "impacts": "Environment"
+      "alternative_name": "Man-made fiber"
     },
     {
-      "innovation_of": "Industrial Revolution"
+      "has_application": "Ropes"
     }
   ]
 }

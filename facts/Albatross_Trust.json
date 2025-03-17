@@ -1,7 +1,6 @@
 {
   "entity": "Albatross Trust",
   "properties": {
-    "instance_of": "Charity",
     "focus": "Albatross Conservation",
     "founded_date": "1998",
     "location": "New Zealand",
@@ -10,38 +9,39 @@
     "registration_number": "CC30743",
     "primary_goal": "Protect Albatross",
     "activities": "Research, Education, Advocacy",
-    "funding_source": "Donations"
+    "funding_source": "Donations",
+    "type": "Charity"
   },
   "relationship": [
     {
-      "works_for": "Albatross"
+      "instance_of": "conservation organization"
     },
     {
-      "located_in": "New Zealand"
+      "parent_organization": "Royal Society for the Protection of Birds"
     },
     {
-      "part_of": "Conservation movement"
+      "located_in": "United Kingdom"
     },
     {
-      "related_to": "Bird conservation"
+      "focuses_on": "albatross"
     },
     {
-      "focuses_on": "Wildlife protection"
+      "works_with": "BirdLife International"
     },
     {
-      "collaborates_with": "Department of Conservation"
+      "funds": "albatross research"
     },
     {
-      "supports": "Scientific research"
+      "collaborates_with": "Pacific Rim Conservation"
     },
     {
-      "promotes": "Environmental awareness"
+      "operates_in": "Pacific Ocean"
     },
     {
-      "addresses": "Biodiversity loss"
+      "supports": "albatross breeding colonies"
     },
     {
-      "involved_in": "Marine conservation"
+      "advocates_for": "seabird conservation"
     }
   ]
 }

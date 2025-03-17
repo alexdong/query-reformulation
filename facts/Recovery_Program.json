@@ -1,7 +1,6 @@
 {
   "entity": "Recovery Program",
   "properties": {
-    "instance_of": "Self-help group",
     "focus": "Addiction recovery",
     "origin": "Minnesota",
     "founder": "Bill Wilson & Dr. Bob Smith",
@@ -10,38 +9,39 @@
     "philosophy": "Spiritual principles",
     "anonymity": "Central tenet",
     "support_type": "Peer support",
-    "membership": "Open to anyone"
+    "membership": "Open to anyone",
+    "type": "Self-help group"
   },
   "relationship": [
     {
-      "part_of": "Alcoholics Anonymous"
+      "instance_of": "AddictionTreatmentCenter"
     },
     {
-      "influenced": "Narcotics Anonymous"
+      "has_part": "SupportGroup"
     },
     {
-      "influenced": "Al-Anon"
+      "has_topic": "SubstanceAbuse"
     },
     {
-      "related_to": "Self-help"
+      "provided_by": "HealthcareOrganization"
     },
     {
-      "concept_of": "Sponsorship"
+      "has_participant": "Person"
     },
     {
-      "concept_of": "Service"
+      "has_goal": "BehaviorChange"
     },
     {
-      "concept_of": "Confidentiality"
+      "has_method": "CognitiveBehavioralTherapy"
     },
     {
-      "addresses": "Addiction"
+      "requires": "Assessment"
     },
     {
-      "promotes": "Sobriety"
+      "influenced_by": "12StepMovement"
     },
     {
-      "inspired_by": "Oxford Group"
+      "has_outcome": "ImprovedMentalHealth"
     }
   ]
 }

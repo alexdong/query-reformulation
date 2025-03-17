@@ -1,7 +1,6 @@
 {
   "entity": "Landscape Design",
   "properties": {
-    "instance_of": "Art form",
     "field_of": "Architecture",
     "focus": "Outdoor spaces",
     "purpose": "Aesthetic & Functional",
@@ -10,38 +9,39 @@
     "design_principles": "Unity, Balance, Rhythm, Proportion",
     "software_used": "AutoCAD, SketchUp",
     "history_dates": "Ancient times - Present",
-    "related_discipline": "Horticulture"
+    "related_discipline": "Horticulture",
+    "type": "Art form"
   },
   "relationship": [
     {
-      "influenced_by": "Garden Design"
+      "has_genre": "Gardening"
     },
     {
-      "overlaps_with": "Urban Planning"
+      "part_of": "Site"
     },
     {
-      "requires_knowledge_of": "Botany"
+      "created_by": "Landscape Architect"
     },
     {
-      "employs": "Landscape Architecture"
+      "uses": "Plant"
     },
     {
-      "incorporates": "Sustainable Design"
+      "uses": "Hardscape"
     },
     {
-      "creates": "Outdoor Living Spaces"
+      "influenced_by": "Landscape Architecture History"
     },
     {
-      "impacts": "Ecology"
+      "requires": "Soil"
     },
     {
-      "utilizes": "Hardscaping"
+      "requires": "Water"
     },
     {
-      "requires": "Site Analysis"
+      "aims_for": "Aesthetic"
     },
     {
-      "related_to": "Environmental Design"
+      "part_of": "Urban Planning"
     }
   ]
 }

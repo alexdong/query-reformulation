@@ -1,7 +1,6 @@
 {
   "entity": "Kū",
   "properties": {
-    "instance_of": "Hawaiian god",
     "domain": "Cosmology",
     "aspect": "Creation",
     "gender": "Male",
@@ -10,38 +9,39 @@
     "mythology": "Hawaiian mythology",
     "parent": "Akua",
     "sibling": "Lono, Kāne, Kanaloa",
-    "symbol": "Sun"
+    "symbol": "Sun",
+    "type": "Hawaiian god"
   },
   "relationship": [
     {
-      "part_of": "Hawaiian pantheon"
+      "instance_of": "god"
     },
     {
-      "father_of": "Māui"
+      "parent_of": "Lono"
     },
     {
-      "sibling_of": "Lono"
+      "sibling_of": "Kane"
     },
     {
-      "sibling_of": "Kāne"
+      "spouse_of": "Hina"
     },
     {
-      "sibling_of": "Kanaloa"
+      "related_to": "Maui"
     },
     {
-      "opposed_to": "Po (darkness)"
+      "associated_with": "Hawaiʻi"
     },
     {
-      "associated_with": "Sun"
+      "worshiped_in": "Hawaiian religion"
     },
     {
-      "related_to": "Hawaiian mythology"
+      "domain_of": "Sky"
     },
     {
-      "creator_of": "Earth"
+      "attribute_of": "Strength"
     },
     {
-      "related_to": "Akua"
+      "function_of": "Agriculture"
     }
   ]
 }

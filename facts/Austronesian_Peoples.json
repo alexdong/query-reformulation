@@ -10,38 +10,39 @@
     "genetic_ancestry": "Austro-Taiwanese, Papuan",
     "religious_beliefs": "Animism, ancestor worship, syncretism",
     "subsistence_methods": "Agriculture, fishing, trade",
-    "social_structure": "Tribal, hierarchical"
+    "social_structure": "Tribal, hierarchical",
+    "type": "PopulationGroup"
   },
   "relationship": [
     {
-      "ancestral_language": "Proto-Austronesian"
+      "part_of": "Austronesia"
     },
     {
-      "migration_route": "Austronesian Migration"
+      "located_in": "Oceania"
     },
     {
-      "related_to": "Formosan Languages"
+      "located_in": "Southeast Asia"
     },
     {
-      "settled_in": "Madagascar"
+      "related_to": "Austronesian languages"
     },
     {
-      "settled_in": "Philippines"
+      "influenced": "Maritime Silk Road"
     },
     {
-      "settled_in": "Indonesia"
+      "ancestor_of": "Malayo-Polynesian peoples"
     },
     {
-      "settled_in": "Taiwan"
+      "descendant_of": "Proto-Austronesian peoples"
     },
     {
-      "influenced": "Malayo-Polynesian cultures"
+      "has_culture": "Austronesian culture"
     },
     {
-      "influenced_by": "Austro-Taiwaneese cultures"
+      "interacts_with": "Austronesian migrations"
     },
     {
-      "shares_culture_with": "Polynesian Peoples"
+      "has_artifact": "Austronesian art"
     }
   ]
 }

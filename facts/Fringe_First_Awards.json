@@ -1,7 +1,6 @@
 {
   "entity": "Fringe First Awards",
   "properties": {
-    "instance_of": "Award",
     "presented_by": "The Scotsman",
     "purpose": "Recognize new writing",
     "focus": "Edinburgh Festival Fringe",
@@ -10,38 +9,39 @@
     "award_type": "Theatre award",
     "presented_in": "Edinburgh, Scotland",
     "criteria": "Originality and innovation",
-    "prize_amount": "£500"
+    "prize_amount": "£500",
+    "type": "Award"
   },
   "relationship": [
     {
-      "part_of": "Edinburgh Festival Fringe"
+      "instance_of": "award ceremony"
     },
     {
-      "presented_to": "Playwright"
+      "presented_by": "Edinburgh Festival Fringe"
     },
     {
-      "sponsored_by": "The Scotsman"
-    },
-    {
-      "recognizes": "New writing"
+      "sponsored_by": "Creative Scotland"
     },
     {
       "location": "Edinburgh"
     },
     {
+      "part_of": "Edinburgh Festival"
+    },
+    {
+      "award_for": "theatre production"
+    },
+    {
+      "established_date": "2000"
+    },
+    {
+      "purpose": "recognize new writing"
+    },
+    {
+      "genre": "theatre"
+    },
+    {
       "country": "Scotland"
-    },
-    {
-      "related_to": "Theatre"
-    },
-    {
-      "award_category": "Drama"
-    },
-    {
-      "influenced_by": "Edinburgh Festival"
-    },
-    {
-      "predecessor": "Edinburgh Festival"
     }
   ]
 }

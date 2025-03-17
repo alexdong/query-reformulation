@@ -1,7 +1,6 @@
 {
   "entity": "Mona Lisa",
   "properties": {
-    "instance_of": "Painting",
     "artist": "Leonardo da Vinci",
     "creation_date": "1503-1517",
     "medium": "Oil on poplar panel",
@@ -10,38 +9,39 @@
     "dimensions": "77 x 53 cm",
     "subject": "Lisa del Giocondo",
     "genre": "Portrait",
-    "movement": "High Renaissance"
+    "movement": "High Renaissance",
+    "type": "Painting"
   },
   "relationship": [
     {
-      "part_of": "Louvre Museum"
+      "instance_of": "painting"
     },
     {
       "created_by": "Leonardo da Vinci"
     },
     {
-      "influenced": "Portrait painting"
-    },
-    {
       "depicts": "Lisa del Giocondo"
     },
     {
-      "style_of": "Renaissance art"
+      "located_in": "Musée du Louvre"
     },
     {
-      "located_in": "France"
+      "genre": "portrait"
     },
     {
-      "exhibited_at": "Musée du Louvre"
+      "style": "Renaissance art"
     },
     {
-      "inspiration_for": "Countless reproductions"
+      "subject": "portraiture"
     },
     {
-      "is_example_of": "Portraiture"
+      "artwork_type": "oil painting"
     },
     {
-      "historical_period": "Italian Renaissance"
+      "influenced": "numerous artists"
+    },
+    {
+      "part_of": "Louvre collection"
     }
   ]
 }

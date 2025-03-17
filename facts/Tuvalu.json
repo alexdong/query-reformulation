@@ -1,7 +1,6 @@
 {
   "entity": "Tuvalu",
   "properties": {
-    "instance_of": "Country",
     "official_language": "Tuvaluan, English",
     "capital": "Funafuti",
     "population_total": "11,396",
@@ -10,38 +9,39 @@
     "sovereignty": "Independent",
     "location": "Pacific Ocean",
     "government_type": "Parliamentary Republic",
-    "member_of": "United Nations"
+    "member_of": "United Nations",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "part_of": "Polynesia"
-    },
     {
       "located_in": "Pacific Ocean"
     },
     {
-      "member_of": "Commonwealth of Nations"
+      "part_of": "Polynesia"
+    },
+    {
+      "has_capital": "Funafuti"
     },
     {
       "member_of": "United Nations"
     },
     {
-      "capital_of": "Funafuti"
+      "member_of": "Commonwealth of Nations"
     },
     {
-      "influenced_by": "New Zealand"
+      "influenced_by": "United Kingdom"
     },
     {
-      "neighbor": "Kiribati"
+      "has_official_language": "Tuvaluan"
     },
     {
-      "neighbor": "Solomon Islands"
+      "has_official_language": "English"
     },
     {
-      "currency_used": "Australian Dollar"
+      "has_currency": "Tuvaluan dollar"
     },
     {
-      "language_spoken": "Tuvaluan"
+      "has_head_of_state": "King Charles III"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Super Rugby",
   "properties": {
-    "instance_of": "Rugby union competition",
     "governing_body": "SANZAAR",
     "teams": "16",
     "format": "League",
@@ -10,38 +9,39 @@
     "trophy": "Super Rugby Trophy",
     "points_system": "Complex",
     "current_champion": "Hurricanes",
-    "broadcast_networks": "Sky Sport, SuperSport"
+    "broadcast_networks": "Sky Sport, SuperSport",
+    "type": "Rugby union competition"
   },
   "relationship": [
     {
-      "part_of": "Rugby union"
+      "instance_of": "rugby union competition"
+    },
+    {
+      "part_of": "rugby union"
+    },
+    {
+      "country_of_origin": "Australia"
+    },
+    {
+      "country_of_origin": "New Zealand"
+    },
+    {
+      "country_of_origin": "South Africa"
     },
     {
       "governed_by": "SANZAAR"
     },
     {
-      "teams_include": "Blues"
+      "subclass_of": "sports league"
     },
     {
-      "teams_include": "Crusaders"
+      "has_participant": "Blues (rugby union team)"
     },
     {
-      "teams_include": "Stormers"
+      "has_participant": "Crusaders (rugby union team)"
     },
     {
-      "teams_include": "Lions"
-    },
-    {
-      "teams_include": "Reds"
-    },
-    {
-      "teams_include": "Waratahs"
-    },
-    {
-      "predecessor": "SARU Currie Cup"
-    },
-    {
-      "successor": "Super Rugby Pacific"
+      "has_participant": "Stormers (rugby union team)"
     }
   ]
 }

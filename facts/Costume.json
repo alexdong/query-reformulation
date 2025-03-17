@@ -1,7 +1,6 @@
 {
   "entity": "Costume",
   "properties": {
-    "instance_of": "Garment",
     "purpose": "Adornment, Performance",
     "material": "Fabric, Leather, Metal",
     "design_element": "Color, Pattern, Shape",
@@ -10,38 +9,39 @@
     "function": "Representation, Disguise",
     "creation_process": "Design, Construction",
     "related_field": "Fashion, Theatre",
-    "style": "Varies widely"
+    "style": "Varies widely",
+    "type": "Garment"
   },
   "relationship": [
     {
-      "worn_by": "Actor"
+      "instance_of": "dress"
     },
     {
-      "used_in": "Theatre"
+      "used_by": "person"
     },
     {
-      "part_of": "Fashion"
+      "part_of": "wardrobe"
     },
     {
-      "related_to": "Clothing"
+      "depicts": "character"
     },
     {
-      "influenced_by": "Historical Period"
+      "associated_with": "event"
     },
     {
-      "design_by": "Costume Designer"
+      "made_of": "fabric"
     },
     {
-      "depicts": "Character"
+      "created_by": "costume_designer"
     },
     {
-      "associated_with": "Cosplay"
+      "style": "fashion_style"
     },
     {
-      "example_of": "Masquerade Costume"
+      "inspired_by": "historical_period"
     },
     {
-      "displayed_at": "Museum"
+      "has_attribute": "color"
     }
   ]
 }

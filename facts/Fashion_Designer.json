@@ -1,7 +1,6 @@
 {
   "entity": "Fashion Designer",
   "properties": {
-    "instance_of": "Occupation",
     "field": "Fashion",
     "skill": "Design",
     "creative_area": "Clothing & Accessories",
@@ -10,38 +9,39 @@
     "typical_tools": "Sketching tools, CAD software",
     "design_style": "Varies",
     "focus": "Aesthetics & Functionality",
-    "salary": "Varies"
+    "salary": "Varies",
+    "type": "Occupation"
   },
   "relationship": [
     {
-      "designs_for": "Clothing"
+      "instance_of": "human"
     },
     {
-      "designs_for": "Accessories"
+      "occupation": "fashion_designer"
     },
     {
-      "collaborates_with": "Textile Manufacturers"
+      "works_for": "fashion_house"
     },
     {
-      "influenced_by": "Art Movements"
+      "creates": "clothing_item"
     },
     {
-      "works_with": "Models"
+      "influenced_by": "fashion_movement"
     },
     {
-      "works_with": "Photographers"
+      "educated_at": "educational_institution"
     },
     {
-      "works_with": "Seamstresses"
+      "nationality": "country"
     },
     {
-      "creates": "Fashion Trends"
+      "design_style": "fashion_style"
     },
     {
-      "presents_at": "Fashion Week"
+      "collaborates_with": "artist"
     },
     {
-      "associated_with": "Brand"
+      "awards_received": "award"
     }
   ]
 }

@@ -10,11 +10,18 @@
     "economy": "Technology, forestry, agriculture",
     "terrain": "Mountains, forests, coastline",
     "dominant_culture": "Mix of Indigenous, European, and Asian influences",
-    "bioregion": "Pacific temperate rainforest"
+    "bioregion": "Pacific temperate rainforest",
+    "type": "Region"
   },
   "relationship": [
     {
-      "part_of": "North America"
+      "located_in": "North America"
+    },
+    {
+      "part_of": "United States of America"
+    },
+    {
+      "borders": "Canada"
     },
     {
       "contains": "Washington"
@@ -26,22 +33,16 @@
       "contains": "Idaho"
     },
     {
-      "contains": "British Columbia"
+      "influenced_by": "Indigenous peoples of the Pacific Northwest"
     },
     {
-      "borders": "Canada"
+      "has_climate": "Temperate rainforest climate"
     },
     {
-      "borders": "United States"
+      "produces": "Timber"
     },
     {
-      "influenced_by": "Indigenous peoples"
-    },
-    {
-      "economic_activity": "Logging"
-    },
-    {
-      "natural_feature": "Mount Rainier"
+      "associated_with": "Salmon"
     }
   ]
 }

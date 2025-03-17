@@ -10,38 +10,39 @@
     "agency": "Voice Actors Agency",
     "website": "barrylawrence.com",
     "awards": "Behind the Voice Actors Awards",
-    "education": "California State University, Northridge"
+    "education": "California State University, Northridge",
+    "type": "Artist"
   },
   "relationship": [
     {
-      "works_with": "Tara Strong"
+      "instance_of": "human"
     },
     {
-      "works_with": "Caitlin Glass"
+      "occupation": "film_producer"
     },
     {
-      "works_with": "Rob Paulsen"
+      "country_of_citizenship": "United States of America"
     },
     {
-      "voice_acted_in": "Pokémon"
+      "educated_at": "University of California, Los Angeles"
     },
     {
-      "voice_acted_in": "Yu-Gi-Oh!"
+      "works_for": "Warner Bros."
     },
     {
-      "voice_acted_in": "Digimon"
+      "collaborator": "Jon Peters"
     },
     {
-      "voice_acted_in": "Ben 10"
+      "film_producer_of": "Batman (1989 film)"
     },
     {
-      "influenced_by": "Mel Blanc"
+      "film_producer_of": "Coneheads"
     },
     {
-      "member_of": "Voice Actors Agency"
+      "film_producer_of": "Superman Returns"
     },
     {
-      "collaborated_with": "Funimation"
+      "film_producer_of": "The Long Kiss Goodnight"
     }
   ]
 }

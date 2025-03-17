@@ -1,7 +1,6 @@
 {
   "entity": "Scientific Method",
   "properties": {
-    "instance_of": "Process",
     "purpose": "Investigation",
     "field": "Science",
     "origin": "17th Century",
@@ -10,38 +9,39 @@
     "goal": "Knowledge Generation",
     "bias_mitigation": "Peer Review",
     "falsifiability": "Crucial",
-    "documentation": "Essential"
+    "documentation": "Essential",
+    "type": "Process"
   },
   "relationship": [
     {
-      "relies_on": "Logic"
+      "is_a": "Research_method"
     },
     {
-      "uses": "Observation"
+      "used_in": "Scientific_research"
     },
     {
-      "generates": "Scientific Theories"
+      "requires": "Observation"
     },
     {
-      "requires": "Hypothesis"
+      "produces": "Scientific_knowledge"
     },
     {
-      "involves": "Experiment"
+      "involves": "Hypothesis"
     },
     {
-      "analyzes": "Data"
+      "includes": "Experiment"
     },
     {
       "leads_to": "Conclusion"
     },
     {
-      "influenced_by": "Francis Bacon"
+      "validated_by": "Peer_review"
     },
     {
-      "related_to": "Empirical Method"
+      "developed_by": "Francis_Bacon"
     },
     {
-      "supports": "Scientific Consensus"
+      "related_to": "Empiricism"
     }
   ]
 }

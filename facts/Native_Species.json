@@ -10,38 +10,39 @@
     "biodiversity": "Contributes to richness",
     "genetic_diversity": "Unique gene pool",
     "ecological_importance": "Keystone species",
-    "distribution": "Geographic range"
+    "distribution": "Geographic range",
+    "type": "Organism"
   },
   "relationship": [
+    {
+      "instance_of": "Biological_species"
+    },
+    {
+      "natural_habitat": "Ecosystem"
+    },
     {
       "part_of": "Biodiversity"
     },
     {
-      "threatened_by": "Invasive Species"
+      "interacts_with": "Other_species"
     },
     {
-      "impacts": "Ecosystem"
+      "contributes_to": "Food_web"
     },
     {
-      "dependent_on": "Habitat"
+      "affected_by": "Climate_change"
     },
     {
-      "interacts_with": "Other Species"
+      "threatened_by": "Invasive_species"
     },
     {
-      "affected_by": "Climate Change"
+      "plays_role_in": "Ecological_process"
     },
     {
-      "example": "American Bison"
+      "found_in": "Geographic_location"
     },
     {
-      "example": "Giant Panda"
-    },
-    {
-      "example": "California Condor"
-    },
-    {
-      "studied_by": "Ecologist"
+      "has_conservation_status": "Conservation_status"
     }
   ]
 }

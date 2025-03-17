@@ -10,38 +10,39 @@
     "height": "5 ft 5 in (165 cm)",
     "eye_color": "Blue",
     "hair_color": "Brown",
-    "known_for": "The Worst Witch"
+    "known_for": "The Worst Witch",
+    "type": "Actor"
   },
   "relationship": [
     {
-      "starred_in": "The Worst Witch"
+      "instance_of": "human"
     },
     {
-      "starred_in": "Father Brown"
+      "occupation": "actress"
     },
     {
-      "starred_in": "Hanna"
+      "birthPlace": "London"
     },
     {
-      "starred_in": "Kill Your Darlings"
+      "educatedAt": "Royal Academy of Dramatic Art"
     },
     {
-      "starred_in": "After Life"
+      "memberOfCast": "The Order"
     },
     {
-      "member_of": "British nationality"
+      "memberOfCast": "Pennyworth"
     },
     {
-      "child_of": "Unknown"
+      "memberOfCast": "Killing Eve"
     },
     {
-      "sibling_of": "Unknown"
+      "characterPlayed": "Eleanor"
     },
     {
-      "associated_with": "United Agents"
+      "characterPlayed": "Sophie"
     },
     {
-      "genre": "Drama"
+      "characterPlayed": "June Ravelle"
     }
   ]
 }

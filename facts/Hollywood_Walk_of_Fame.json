@@ -10,38 +10,39 @@
     "star_material": "Bronze",
     "star_color": "Blue (for performers)",
     "star_color_2": "Green (for directors)",
-    "star_color_3": "Yellow (for producers)"
+    "star_color_3": "Yellow (for producers)",
+    "type": "Memorial"
   },
   "relationship": [
     {
-      "located_in": "Hollywood"
+      "located_in": "Los Angeles"
     },
     {
-      "part_of": "Hollywood Boulevard"
+      "part_of": "Hollywood"
     },
     {
-      "honors": "Performers"
+      "created_by": "Harry E. Coddy"
     },
     {
-      "honors_2": "Directors"
+      "sponsored_by": "Hollywood Chamber of Commerce"
     },
     {
-      "honors_3": "Producers"
+      "has_attribute": "star"
     },
     {
-      "administered_by": "Hollywood Chamber of Commerce"
+      "honors": "celebrities"
     },
     {
-      "attraction": "Tourism"
+      "influenced_by": "Motion picture industry"
     },
     {
-      "influenced": "Popular Culture"
+      "has_event": "ceremony"
     },
     {
-      "design_by": "A. N. Wesson"
+      "design_by": "A. L. Warren"
     },
     {
-      "feature": "Stars"
+      "maintained_by": "Hollywood Historic Trust"
     }
   ]
 }

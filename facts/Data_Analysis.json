@@ -1,7 +1,6 @@
 {
   "entity": "Data Analysis",
   "properties": {
-    "instance_of": "Process",
     "field_of_study": "Statistics",
     "purpose": "Insights & Decisions",
     "tools": "Python, R, SQL",
@@ -10,38 +9,39 @@
     "output": "Reports, Visualizations",
     "skill_set": "Critical Thinking, Communication",
     "related_field": "Machine Learning",
-    "application": "Business, Science, Healthcare"
+    "application": "Business, Science, Healthcare",
+    "type": "Process"
   },
   "relationship": [
     {
-      "uses": "Statistics"
+      "has_field": "Statistics"
+    },
+    {
+      "uses": "Machine Learning"
     },
     {
       "requires": "Data"
     },
     {
-      "employs": "SQL"
+      "produces": "Insights"
     },
     {
-      "utilizes": "Python"
+      "employs": "Programming"
     },
     {
-      "involves": "Data Visualization"
+      "is_a": "Scientific Discipline"
     },
     {
       "supports": "Decision Making"
     },
     {
-      "overlaps_with": "Business Intelligence"
+      "utilizes": "Data Visualization"
     },
     {
-      "precedes": "Machine Learning"
+      "involves": "Data Mining"
     },
     {
-      "requires_knowledge_of": "Mathematics"
-    },
-    {
-      "contributes_to": "Knowledge Discovery"
+      "applied_to": "Business"
     }
   ]
 }

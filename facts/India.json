@@ -10,38 +10,39 @@
     "government_type": "Parliamentary Republic",
     "independence_date": "1947-08-15",
     "gdp_nominal": "3.4 Trillion USD",
-    "time_zone": "IST (UTC+5:30)"
+    "time_zone": "IST (UTC+5:30)",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Asia"
+      "located_in": "Asia"
     },
     {
-      "borders": "Pakistan"
+      "part_of": "South Asia"
     },
     {
-      "borders": "China"
+      "has_capital": "New Delhi"
     },
     {
-      "borders": "Bangladesh"
+      "influenced_by": "Indo-Aryan languages"
     },
     {
-      "borders": "Nepal"
-    },
-    {
-      "borders": "Bhutan"
-    },
-    {
-      "member_of": "Commonwealth of Nations"
+      "has_official_language": "Hindi"
     },
     {
       "member_of": "United Nations"
     },
     {
-      "religion_major": "Hinduism"
+      "has_currency": "Indian rupee"
     },
     {
-      "religion_minor": "Islam"
+      "ruled_by": "Indian government"
+    },
+    {
+      "has_neighbor": "China"
+    },
+    {
+      "has_historical_period": "Mauryan Empire"
     }
   ]
 }

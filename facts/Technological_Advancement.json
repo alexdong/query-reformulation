@@ -10,38 +10,39 @@
     "scope": "All fields",
     "catalyst": "Scientific discovery",
     "benefit": "Increased efficiency",
-    "risk": "Ethical concerns"
+    "risk": "Ethical concerns",
+    "type": "Process"
   },
   "relationship": [
+    {
+      "instance_of": "Innovation"
+    },
+    {
+      "result_of": "Scientific Research"
+    },
+    {
+      "causes": "Economic Growth"
+    },
     {
       "impacts": "Society"
     },
     {
-      "drives": "Innovation"
+      "enables": "Automation"
     },
     {
-      "related_to": "Science"
+      "requires": "Investment"
     },
     {
-      "influences": "Economy"
+      "leads_to": "New Products"
     },
     {
-      "requires": "Research"
-    },
-    {
-      "leads_to": "Automation"
-    },
-    {
-      "impacts": "Environment"
+      "influences": "Human Behavior"
     },
     {
       "facilitates": "Globalization"
     },
     {
-      "challenges": "Ethics"
-    },
-    {
-      "linked_to": "Digitalization"
+      "is_a": "Process"
     }
   ]
 }

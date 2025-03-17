@@ -10,38 +10,39 @@
     "most_populous_country": "China",
     "climate": "Varied",
     "geography": "Diverse",
-    "economic_status": "Mixed"
+    "economic_status": "Mixed",
+    "type": "Continent"
   },
   "relationship": [
     {
       "part_of": "Earth"
     },
     {
-      "borders": "Europe"
+      "located_in": "Earth"
     },
     {
       "contains": "China"
     },
     {
-      "contains": "India"
+      "borders": "Europe"
     },
     {
-      "contains": "Japan"
-    },
-    {
-      "influenced": "Silk Road"
+      "influenced_by": "Silk Road"
     },
     {
       "has_region": "Southeast Asia"
     },
     {
-      "has_region": "Central Asia"
+      "has_country": "India"
     },
     {
-      "has_religion": "Islam"
+      "has_culture": "East Asian culture"
     },
     {
-      "has_religion": "Buddhism"
+      "affected_by": "Monsoon"
+    },
+    {
+      "has_geopolitical_region": "Middle East"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "impact_area_1": "Climate change mitigation",
     "impact_area_2": "Biodiversity conservation",
     "measurement": "Life Cycle Assessment (LCA)",
-    "related_concept": "Circular Economy"
+    "related_concept": "Circular Economy",
+    "type": "EnvironmentalIssue"
   },
   "relationship": [
     {
-      "impacts": "Climate Change"
+      "instance_of": "Sustainable_agriculture"
     },
     {
-      "supports": "Sustainable Agriculture"
+      "causes": "Climate_change"
     },
     {
-      "requires": "Food Security"
+      "impacts": "Food_security"
+    },
+    {
+      "related_to": "Circular_economy"
+    },
+    {
+      "requires": "Soil_health"
     },
     {
       "benefits": "Biodiversity"
     },
     {
-      "addresses": "Food Waste"
+      "influenced_by": "Consumer_behavior"
     },
     {
-      "linked_to": "Circular Economy"
+      "part_of": "Environmental_sustainability"
     },
     {
-      "promotes": "Fair Trade"
+      "requires": "Water_management"
     },
     {
-      "influenced_by": "Agroecology"
-    },
-    {
-      "requires": "Soil Health"
-    },
-    {
-      "connected_to": "Nutrition"
+      "promoted_by": "Sustainable_development_goals"
     }
   ]
 }

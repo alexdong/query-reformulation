@@ -10,38 +10,39 @@
     "scope": "Individual, societal",
     "comparison": "Relative, absolute",
     "historical_trend": "Generally increasing",
-    "data_source": "World Bank, UN"
+    "data_source": "World Bank, UN",
+    "type": "QuantitativeMeasure"
   },
   "relationship": [
     {
-      "influenced_by": "Gross Domestic Product"
+      "influenced_by": "Economic Growth"
     },
     {
-      "correlated_with": "Human Development Index"
+      "affected_by": "Environmental Degradation"
     },
     {
-      "impacts": "Health outcomes"
+      "measured_by": "Human Development Index"
     },
     {
-      "affects": "Education levels"
+      "related_to": "Poverty"
     },
     {
-      "related_to": "Income inequality"
+      "influenced_by": "Government Policy"
     },
     {
-      "influenced_by": "Government policy"
+      "affected_by": "Healthcare"
     },
     {
-      "impacts": "Environmental sustainability"
+      "related_to": "Education"
     },
     {
-      "compared_to": "Poverty"
+      "influenced_by": "Technological Advancement"
     },
     {
-      "measured_by": "Gini coefficient"
+      "affected_by": "Income Inequality"
     },
     {
-      "impacts": "Social mobility"
+      "related_to": "Social Welfare"
     }
   ]
 }

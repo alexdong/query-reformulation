@@ -10,38 +10,39 @@
     "economic_system": "Capitalism",
     "labor_system": "Factory System",
     "political_impact": "Rise of Liberalism",
-    "environmental_impact": "Pollution"
+    "environmental_impact": "Pollution",
+    "type": "HistoricalPeriod"
   },
   "relationship": [
+    {
+      "caused": "Urbanization"
+    },
     {
       "preceded_by": "Agricultural Revolution"
     },
     {
-      "followed_by": "Second Industrial Revolution"
+      "led_to": "Second Industrial Revolution"
     },
     {
-      "influenced": "Globalization"
+      "influenced": "Capitalism"
     },
     {
-      "caused": "Urban Sprawl"
+      "developed_in": "Great Britain"
     },
     {
-      "led_to": "Rise of the Middle Class"
+      "resulted_in": "Technological Innovation"
     },
     {
-      "involved": "James Watt"
+      "affected": "Social Classes"
     },
     {
-      "involved": "Richard Arkwright"
+      "required": "Steam Engine"
     },
     {
-      "impacted": "Textile Industry"
+      "impacted": "Global Trade"
     },
     {
-      "impacted": "Coal Mining"
-    },
-    {
-      "related_to": "Luddites"
+      "contributed_to": "Rise of the Middle Class"
     }
   ]
 }

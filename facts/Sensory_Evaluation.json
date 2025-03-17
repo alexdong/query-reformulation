@@ -10,38 +10,39 @@
     "application": "Food, cosmetics, materials",
     "bias_control": "Statistical analysis",
     "standard_body": "ASTM International",
-    "related_field": "Psychophysics"
+    "related_field": "Psychophysics",
+    "type": "Assessment"
   },
   "relationship": [
     {
-      "uses": "Statistics"
+      "has_property": "Taste"
     },
     {
-      "part_of": "Quality Control"
+      "has_property": "Smell"
     },
     {
-      "related_to": "Psychophysics"
+      "has_property": "Touch"
     },
     {
-      "employs": "Panelists"
+      "has_property": "Sight"
     },
     {
-      "measures": "Sensory Attributes"
+      "has_property": "Hearing"
     },
     {
-      "analyzes": "Product Quality"
+      "used_for": "Food Quality Assessment"
     },
     {
-      "uses_scale": "Hedonic Scale"
+      "used_for": "Product Development"
     },
     {
-      "uses_scale": "Descriptive Analysis"
+      "part_of": "Sensory Science"
     },
     {
-      "influenced_by": "Human Perception"
+      "performed_by": "Trained Panelists"
     },
     {
-      "standardized_by": "ASTM International"
+      "related_to": "Human Perception"
     }
   ]
 }

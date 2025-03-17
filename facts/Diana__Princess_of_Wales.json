@@ -1,5 +1,5 @@
 {
-  "entity": "Diana, Princess of Wales",
+  "entity": "Diana  Princess of Wales",
   "properties": {
     "birth_name": "Diana Frances Spencer",
     "birth_date": "1961-07-01",
@@ -10,38 +10,39 @@
     "title": "Princess of Wales",
     "spouse": "Charles, Prince of Wales",
     "children": "Prince William, Prince Harry",
-    "occupation": "Humanitarian"
+    "occupation": "Humanitarian",
+    "type": "Royal"
   },
   "relationship": [
+    {
+      "instance_of": "human"
+    },
+    {
+      "birthPlace": "Sandringham House"
+    },
     {
       "member_of": "British nobility"
     },
     {
-      "family_member_of": "Spencer family"
+      "spouse_of": "Charles, Prince of Wales"
     },
     {
-      "spouse_of": "Charles III"
+      "child_of": "John Spencer, Viscount Althorp"
     },
     {
-      "mother_of": "Prince William"
+      "mother_of": "Prince William, Prince of Wales"
     },
     {
-      "mother_of": "Prince Harry"
+      "mother_of": "Prince Harry, Duke of Sussex"
     },
     {
-      "attended": "Westminster School"
+      "deathPlace": "Paris"
     },
     {
-      "philanthropic_work": "HIV/AIDS awareness"
+      "involved_in": "Princess Diana funeral"
     },
     {
-      "advocate_for": "Landmine ban"
-    },
-    {
-      "public_image": "Fashion icon"
-    },
-    {
-      "funeral_held_at": "Westminster Abbey"
+      "occupation": "philanthropist"
     }
   ]
 }

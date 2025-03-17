@@ -10,38 +10,39 @@
     "habitat": "Forests, Mountains",
     "distribution": "North America",
     "color": "Black, Brown, Cinnamon",
-    "size_length": "1.2-1.9 m"
+    "size_length": "1.2-1.9 m",
+    "type": "Mammal"
   },
   "relationship": [
     {
-      "family": "Ursidae"
+      "instance_of": "Ursus americanus"
     },
     {
-      "genus": "Ursus"
+      "has_habitat": "Temperate deciduous forest"
     },
     {
-      "prey_on": "Berries"
+      "part_of": "North American fauna"
     },
     {
-      "prey_on": "Fish"
+      "interacts_with": "Salmon"
     },
     {
-      "prey_on": "Insects"
+      "eats": "Berries"
     },
     {
-      "prey_on": "Small mammals"
+      "has_predator": "Grizzly bear"
     },
     {
-      "competitor_with": "Grizzly Bear"
+      "lives_in": "North America"
     },
     {
-      "part_of_ecosystem": "Temperate Forest"
+      "has_offspring": "Black bear cub"
     },
     {
-      "threatened_by": "Habitat Loss"
+      "affected_by": "Climate change"
     },
     {
-      "related_to": "Brown Bear"
+      "has_characteristic": "Hibernation"
     }
   ]
 }

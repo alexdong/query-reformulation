@@ -10,38 +10,39 @@
     "lyrical_themes": "Social Commentary, Storytelling, Personal Experiences",
     "cultural_impact": "Significant",
     "language": "Primarily English",
-    "performance_style": "MCing"
+    "performance_style": "MCing",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Hip Hop Culture"
+      "instance_of": "music genre"
     },
     {
-      "preceded_by": "DJing"
+      "subclass_of": "hip hop music"
     },
     {
-      "related_to": "Poetry"
+      "influenced_by": "blues"
     },
     {
-      "influenced": "Popular Music"
+      "influenced_by": "jazz"
     },
     {
-      "artist_associated": "Jay-Z"
+      "created_by": "African American communities"
     },
     {
-      "artist_associated": "Kendrick Lamar"
+      "associated_with": "street culture"
     },
     {
-      "artist_associated": "Eminem"
+      "has_characteristic": "rhyming"
     },
     {
-      "subgenre_of": "African American Music"
+      "has_characteristic": "beatboxing"
     },
     {
-      "has_element": "Beat"
+      "associated_with": "record labels"
     },
     {
-      "lyrical_content_focuses_on": "Social Issues"
+      "related_to": "social commentary"
     }
   ]
 }

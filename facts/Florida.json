@@ -10,11 +10,18 @@
     "official_language": "English",
     "governor": "Ron DeSantis",
     "time_zone": "Eastern Time Zone",
-    "state_flower": "Orange Blossom"
+    "state_flower": "Orange Blossom",
+    "type": "AdministrativeRegion"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States of America"
+    },
+    {
+      "part_of": "North America"
+    },
+    {
+      "has_capital": "Tallahassee"
     },
     {
       "borders": "Georgia"
@@ -23,25 +30,19 @@
       "borders": "Alabama"
     },
     {
-      "located_in": "Southeastern United States"
+      "has_governor": "Ron DeSantis"
     },
     {
-      "has_region": "Florida Keys"
+      "has_economy": "Florida economy"
     },
     {
-      "has_region": "Everglades"
+      "has_major_city": "Miami"
     },
     {
-      "industry": "Tourism"
+      "influenced_by": "Seminole people"
     },
     {
-      "industry": "Agriculture"
-    },
-    {
-      "major_river": "St. Johns River"
-    },
-    {
-      "climate": "Subtropical"
+      "has_natural_feature": "Everglades"
     }
   ]
 }

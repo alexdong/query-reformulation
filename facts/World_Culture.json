@@ -10,38 +10,39 @@
     "change_rate": "Variable",
     "diversity": "High",
     "impact_on": "Human behavior, Social structures",
-    "synonym": "Cultural heritage"
+    "synonym": "Cultural heritage",
+    "type": "CulturalConcept"
   },
   "relationship": [
+    {
+      "instance_of": "cultural_phenomenon"
+    },
     {
       "part_of": "Humanity"
     },
     {
-      "influenced_by": "Globalization"
+      "influenced_by": "History"
     },
     {
-      "related_to": "Cultural diversity"
+      "expressed_in": "Art"
     },
     {
-      "studied_by": "UNESCO"
+      "manifests_in": "Tradition"
     },
     {
-      "impacts": "Social norms"
+      "related_to": "Social Norms"
     },
     {
-      "manifests_in": "Traditions"
+      "shaped_by": "Geography"
     },
     {
-      "includes": "World Heritage Sites"
+      "transmitted_through": "Language"
     },
     {
-      "related_to": "Cultural exchange"
+      "impacts": "Society"
     },
     {
-      "impacts": "Identity formation"
-    },
-    {
-      "overlaps_with": "Ethnocentrism"
+      "associated_with": "Religion"
     }
   ]
 }

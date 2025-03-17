@@ -10,38 +10,39 @@
     "largest_city": "São Paulo",
     "national_sport": "Football",
     "independence_date": "1822-09-07",
-    "government_type": "Federal presidential republic"
+    "government_type": "Federal presidential republic",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "South America"
+      "located_in": "South America"
+    },
+    {
+      "part_of": "United Nations"
+    },
+    {
+      "member_of": "BRICS"
+    },
+    {
+      "has_capital": "Brasília"
+    },
+    {
+      "influenced_by": "Portugal"
+    },
+    {
+      "has_currency": "Brazilian real"
+    },
+    {
+      "has_official_language": "Portuguese language"
     },
     {
       "borders": "Argentina"
     },
     {
-      "borders": "Bolivia"
+      "has_natural_resource": "Amazon rainforest"
     },
     {
-      "borders": "Colombia"
-    },
-    {
-      "borders": "French Guiana"
-    },
-    {
-      "borders": "Paraguay"
-    },
-    {
-      "borders": "Peru"
-    },
-    {
-      "borders": "Suriname"
-    },
-    {
-      "borders": "Uruguay"
-    },
-    {
-      "member_of": "United Nations"
+      "has_leader": "Luiz Inácio Lula da Silva"
     }
   ]
 }

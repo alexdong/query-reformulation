@@ -10,38 +10,39 @@
     "key_concern": "Vector-borne diseases",
     "diagnostic_challenge": "Complex presentations",
     "research_area": "Drug resistance",
-    "training_focus": "Global health"
+    "training_focus": "Global health",
+    "type": "MedicalSpecialty"
   },
   "relationship": [
     {
-      "treats": "Malaria"
+      "subclass_of": "Medicine"
     },
     {
-      "treats": "Dengue fever"
+      "instance_of": "Medical specialty"
     },
     {
-      "treats": "Yellow fever"
+      "deals_with": "Tropical diseases"
     },
     {
-      "treats": "Leishmaniasis"
+      "treats": "Infectious diseases"
     },
     {
-      "related_to": "Parasitology"
+      "focuses_on": "Tropical regions"
     },
     {
-      "related_to": "Epidemiology"
+      "related_to": "Public health"
     },
     {
-      "influenced_by": "Louis Pasteur"
+      "overlaps_with": "Parasitology"
     },
     {
-      "influenced_by": "Ronald Ross"
+      "overlaps_with": "Dermatology"
     },
     {
-      "overlaps_with": "Global health"
+      "requires_knowledge_of": "Environmental health"
     },
     {
-      "research_focus": "Neglected tropical diseases"
+      "deals_with_diseases_caused_by": "Vector-borne diseases"
     }
   ]
 }

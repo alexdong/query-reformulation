@@ -10,38 +10,39 @@
     "historical_importance": "Significant role in North American history",
     "linguistic_features": "Agglutinative morphology, verb-initial word order",
     "related_languages": "Ho-Chunk, Lakota, Crow",
-    "classification": "Subdivided into several branches"
+    "classification": "Subdivided into several branches",
+    "type": "LanguageFamily"
   },
   "relationship": [
+    {
+      "instance_of": "language_family"
+    },
     {
       "part_of": "Native American languages"
     },
     {
-      "spoken_in": "United States"
+      "geographic_region": "Southeastern United States"
     },
     {
-      "spoken_in": "Canada"
+      "related_to": "Algonquian languages"
     },
     {
-      "related_to": "Oto-Manguean languages"
+      "descended_from": "Proto-Southeastern"
     },
     {
-      "influenced": "English (place names)"
+      "has_language": "Lakota language"
     },
     {
-      "subgroup_of": "Native American language families"
+      "has_language": "Ho-Chunk language"
     },
     {
-      "includes": "Lakota language"
+      "has_language": "Osage language"
     },
     {
-      "includes": "Dakota language"
+      "influenced": "English language"
     },
     {
-      "includes": "Crow language"
-    },
-    {
-      "studied_by": "Linguistics"
+      "studied_in": "Linguistics"
     }
   ]
 }

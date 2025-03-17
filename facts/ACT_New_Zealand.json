@@ -1,7 +1,6 @@
 {
   "entity": "ACT New Zealand",
   "properties": {
-    "instance_of": "Political party",
     "country": "New Zealand",
     "ideology": "Libertarianism",
     "founded": "1996",
@@ -10,38 +9,39 @@
     "representation": "Parliament",
     "focus": "Economic freedom",
     "position_on_spectrum": "Right-wing",
-    "official_website": "act.org.nz"
+    "official_website": "act.org.nz",
+    "type": "Political party"
   },
   "relationship": [
     {
-      "member_of": "New Zealand political system"
+      "political_party_of": "New Zealand"
     },
     {
-      "leader_is": "David Seymour"
+      "member_of": "New Zealand Parliament"
     },
     {
-      "predecessor": "Association of Consumers and Taxpayers"
+      "leader_of": "David Seymour"
     },
     {
-      "ideologically_related_to": "Libertarianism"
+      "ideology": "Liberalism"
     },
     {
-      "competes_with": "National Party"
+      "founded_by": "Rodney Hide"
     },
     {
-      "competes_with": "Labour Party"
+      "successor_of": "New Zealand National Party"
     },
     {
-      "policy_focus": "Tax reform"
+      "influenced_by": "Act Party (Australia)"
     },
     {
-      "policy_focus": "Deregulation"
+      "policy_position_on": "Economic Liberalism"
     },
     {
-      "policy_focus": "Individual liberty"
+      "election_result_of": "New Zealand general election"
     },
     {
-      "election_result": "Current representation in Parliament"
+      "has_member": "Jamie Whyte"
     }
   ]
 }

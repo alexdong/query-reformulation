@@ -10,38 +10,39 @@
     "values": "Family, Hospitality, Tradition",
     "history": "Complex, influenced by empires",
     "architecture": "Byzantine, Baroque, Socialist",
-    "literature": "Rich, often politically charged"
+    "literature": "Rich, often politically charged",
+    "type": "Culture"
   },
   "relationship": [
+    {
+      "part_of": "Europe"
+    },
+    {
+      "influenced_by": "Slavic languages"
+    },
+    {
+      "has_characteristic": "Orthodox Christianity"
+    },
     {
       "influenced_by": "Byzantine Empire"
     },
     {
-      "influenced": "Slavic Languages"
+      "has_art_movement": "Socialist realism"
     },
     {
-      "part_of": "European Culture"
+      "related_to": "Eastern European Cuisine"
     },
     {
-      "shares_cuisine_with": "Central European Cuisine"
+      "has_historical_event": "Soviet occupation"
     },
     {
-      "shares_music_with": "Balkan Music"
+      "related_to": "Eastern European diaspora"
     },
     {
-      "shares_literature_with": "Russian Literature"
+      "influenced_by": "Ottoman Empire"
     },
     {
-      "shares_history_with": "Soviet Union"
-    },
-    {
-      "shares_values_with": "Collectivist Cultures"
-    },
-    {
-      "shares_art_with": "Russian Art"
-    },
-    {
-      "shares_architecture_with": "Romanesque Architecture"
+      "has_folk_tradition": "Slavic folklore"
     }
   ]
 }

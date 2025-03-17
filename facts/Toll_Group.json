@@ -10,38 +10,39 @@
     "number_of_employees": "53,000",
     "services": "Freight, Logistics, Warehousing",
     "parent_company": "Japan Post Holdings",
-    "website": "tollgroup.com"
+    "website": "tollgroup.com",
+    "type": "Company"
   },
   "relationship": [
     {
-      "subsidiary_of": "Japan Post Holdings"
+      "has_subsidiary": "Asciano"
     },
     {
-      "acquired": "Scott Free Logistics"
+      "located_in": "Australia"
     },
     {
-      "acquired": "Bidfood"
+      "industry": "Logistics"
     },
     {
-      "competitor_of": "CEVA Logistics"
+      "has_employee": "Greg Young (executive)"
     },
     {
-      "competitor_of": "DHL"
+      "has_service": "Supply Chain Management"
     },
     {
-      "operates_in": "Australia"
+      "has_service": "Freight Services"
     },
     {
-      "operates_in": "New Zealand"
+      "has_service": "Warehousing"
     },
     {
-      "operates_in": "Asia"
+      "has_service": "Global Logistics"
     },
     {
-      "provides_service_to": "Mining Industry"
+      "founded_by": "Richard Enthoven"
     },
     {
-      "provides_service_to": "Retail Sector"
+      "has_owner": "Pacific Equity Partners"
     }
   ]
 }

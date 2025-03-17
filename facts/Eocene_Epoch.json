@@ -10,12 +10,10 @@
     "climate": "Warm, Greenhouse",
     "dominant_life": "Early mammals, angiosperms",
     "significant_event": "Early mammal diversification",
-    "geological_scale_rank": "Epoch"
+    "geological_scale_rank": "Epoch",
+    "type": "GeologicalPeriod"
   },
   "relationship": [
-    {
-      "part_of": "Paleogene"
-    },
     {
       "preceded_by": "Paleocene Epoch"
     },
@@ -23,25 +21,28 @@
       "followed_by": "Oligocene Epoch"
     },
     {
-      "located_in": "Mesozoic Era"
+      "part_of": "Cenozoic Era"
     },
     {
-      "contains": "Ypresian Age"
+      "has_start_date": "33.96 million years ago"
     },
     {
-      "contains": "Lutetian Age"
+      "has_end_date": "23.03 million years ago"
     },
     {
-      "contains": "Eutropian Age"
+      "located_in": "Earth"
     },
     {
-      "influenced_by": "Greenhouse climate"
+      "characterized_by": "Eocene-Oligocene transition"
     },
     {
-      "characterized_by": "Early mammal evolution"
+      "has_event": "Paleocene-Eocene Thermal Maximum"
     },
     {
-      "geological_era": "Cenozoic Era"
+      "influenced_by": "Plate tectonics"
+    },
+    {
+      "has_flora": "Eocene flora"
     }
   ]
 }

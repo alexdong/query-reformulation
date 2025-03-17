@@ -10,38 +10,39 @@
     "key_products": "Luge, Gondola, Jet Boat",
     "employee_count": "Approximately 300",
     "revenue": "NZD $100 million (estimated)",
-    "website": "skyline.co.nz"
+    "website": "skyline.co.nz",
+    "type": "Company"
   },
   "relationship": [
     {
-      "parent_company": "Skyline Group"
+      "instance_of": "helicopter_company"
     },
     {
-      "founder_of": "Wayne Brown"
+      "parent_organization": "Heli Holdings Limited"
     },
     {
-      "location_in": "Queenstown"
+      "subsidiary_of": "Heli Holdings Limited"
     },
     {
-      "operates_in": "New Zealand"
+      "headquarters_location": "Auckland"
     },
     {
-      "operates_in": "Canada"
+      "industry": "helicopter_services"
     },
     {
-      "operates_in": "South Korea"
+      "service_area": "New Zealand"
     },
     {
-      "operates_in": "Germany"
+      "employee_count": "150"
     },
     {
-      "provides": "Luge rides"
+      "founded_by": "Harold Hansen"
     },
     {
-      "provides": "Gondola transport"
+      "has_product": "helicopter_tourism"
     },
     {
-      "owns": "Skyline Gondola"
+      "provides_service_to": "tourism_industry"
     }
   ]
 }

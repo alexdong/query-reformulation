@@ -10,38 +10,39 @@
     "key_figure_2": "Emiliano Zapata",
     "key_figure_3": "Pancho Villa",
     "outcome": "New Constitution, land reform",
-    "casualties": "1-2 million"
+    "casualties": "1-2 million",
+    "type": "PoliticalEvent"
   },
   "relationship": [
     {
-      "preceded_by": "Porfiriato"
+      "caused_by": "Porfirio Díaz regime"
     },
     {
-      "followed_by": "Mexican Restoration"
+      "preceded_by": "Mexican Independence"
     },
     {
-      "influenced": "Chicano Movement"
+      "followed_by": "Mexican Constitution of 1917"
     },
     {
-      "involved": "Victoriano Huerta"
+      "involved_in": "Agrarianism"
     },
     {
-      "involved": "Venustiano Carranza"
+      "influenced_by": "Socialism"
     },
     {
-      "battle_took_place": "Battle of Ciudad Juarez"
+      "involved_in": "Nationalism"
     },
     {
-      "battle_took_place": "Battle of Celaya"
+      "participant": "Pancho Villa"
     },
     {
-      "land_reform_resulted_in": "Ejidos"
+      "participant": "Emiliano Zapata"
     },
     {
-      "constitution_established": "1917 Mexican Constitution"
+      "participant": "Venustiano Carranza"
     },
     {
-      "inspired": "Agrarianism"
+      "resulted_in": "Mexican Constitution of 1917"
     }
   ]
 }

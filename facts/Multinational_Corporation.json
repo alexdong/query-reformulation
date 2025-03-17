@@ -10,38 +10,39 @@
     "structure": "Complex, hierarchical",
     "legal_status": "Varies by jurisdiction",
     "impact": "Significant economic & social",
-    "governance": "Board of Directors"
+    "governance": "Board of Directors",
+    "type": "Organization"
   },
   "relationship": [
+    {
+      "has_subsidiary": "Subsidiary"
+    },
     {
       "employs": "Employee"
     },
     {
-      "impacts": "Global Economy"
+      "located_in": "Country"
     },
     {
-      "regulated_by": "Government"
+      "has_product": "Product"
     },
     {
-      "competes_with": "Domestic Company"
+      "operates_in": "Market"
     },
     {
-      "invests_in": "Foreign Direct Investment"
+      "regulated_by": "GovernmentAgency"
     },
     {
-      "produces": "Goods/Services"
+      "has_shareholder": "Shareholder"
     },
     {
-      "headquartered_in": "Country"
+      "competes_with": "CompetingCorporation"
     },
     {
-      "influences": "International Trade"
+      "has_supply_chain": "SupplyChain"
     },
     {
-      "contributes_to": "GDP"
-    },
-    {
-      "example_of": "Apple Inc."
+      "reports_to": "ParentCompany"
     }
   ]
 }

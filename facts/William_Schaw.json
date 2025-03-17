@@ -10,38 +10,39 @@
     "education": "Likely apprenticed",
     "religious_affiliation": "Protestant",
     "title": "Master",
-    "era": "Scottish Reformation"
+    "era": "Scottish Reformation",
+    "type": "Jurist"
   },
   "relationship": [
     {
-      "employer": "James VI of Scotland"
+      "instance_of": "human"
     },
     {
-      "worked_on": "Holyrood Palace"
+      "occupation": "master of the King's Works"
     },
     {
-      "designed": "Holyrood House Gardens"
+      "member_of": "Schaw family"
     },
     {
-      "supervised": "Building projects"
+      "educated_at": "St Andrews University"
     },
     {
-      "collaborated_with": "John Speirs"
+      "employed_by": "James VI of Scotland"
     },
     {
-      "preceded_by": "Robert Mylne"
+      "responsible_for": "Kilchurn Castle"
     },
     {
-      "succeeded_by": "John Carmichael"
+      "responsible_for": "Linlithgow Palace"
     },
     {
-      "influenced": "Scottish architecture"
+      "responsible_for": "Holyrood Palace"
     },
     {
-      "associated_with": "Scottish Renaissance"
+      "involved_in": "Building of Stirling Castle"
     },
     {
-      "location": "Scotland"
+      "predecessor_of": "John Lindsay of Balvonie"
     }
   ]
 }

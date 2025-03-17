@@ -10,38 +10,39 @@
     "deportation_end": "1764",
     "territory": "Eastern Canada",
     "ancestral_region": "France",
-    "identity": "Ethnic group"
+    "identity": "Ethnic group",
+    "type": "Ethnic group"
   },
   "relationship": [
     {
-      "part_of": "French colonization"
+      "part_of": "French Colonial Empire"
     },
     {
-      "deported_to": "British colonies"
+      "located_in": "Acadia"
+    },
+    {
+      "ancestor_of": "Acadian people"
+    },
+    {
+      "language": "French language"
+    },
+    {
+      "influenced_by": "French culture"
     },
     {
       "related_to": "Grand Dérangement"
     },
     {
-      "influenced_by": "French language"
+      "settled_in": "Canada"
     },
     {
-      "descendant_of": "French settlers"
+      "influenced": "Louisiana culture"
     },
     {
-      "settled_in": "Acadia"
+      "religion": "Roman Catholicism"
     },
     {
-      "migration_to": "Louisiana"
-    },
-    {
-      "related_to": "Cajuns"
-    },
-    {
-      "conflict_with": "British Empire"
-    },
-    {
-      "cultural_heritage": "Acadian culture"
+      "related_to": "British Empire"
     }
   ]
 }

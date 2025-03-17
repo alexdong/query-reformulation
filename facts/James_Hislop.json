@@ -10,38 +10,39 @@
     "religious_affiliation": "Congregationalism",
     "writing_style": "Investigative journalism",
     "known_for": "The Romance of the Three Kingdoms",
-    "spouse": "Jane Paterson"
+    "spouse": "Jane Paterson",
+    "type": "Writer"
   },
   "relationship": [
     {
-      "translator_of": "The Romance of the Three Kingdoms"
+      "instance_of": "missionary"
     },
     {
-      "influenced": "Sinologist"
+      "occupation": "missionary"
     },
     {
-      "member_of": "Scottish Congregational Church"
+      "country_of_citizenship": "Scotland"
+    },
+    {
+      "place_of_birth": "Arbroath"
     },
     {
       "educated_at": "University of St Andrews"
     },
     {
-      "author_of": "Chinese Classics"
+      "member_of": "Scottish Missionary Society"
     },
     {
-      "author_of": "Confucius"
+      "works_for": "Scottish Missionary Society"
     },
     {
-      "author_of": "Mencius"
+      "area_of_work": "Assam"
     },
     {
-      "preceded_by": "Robert Morrison"
+      "language_spoken": "Assamese"
     },
     {
-      "succeeded_by": "William Muir"
-    },
-    {
-      "located_in": "Angus"
+      "publication": "The Rites and Rituals of the Burman"
     }
   ]
 }

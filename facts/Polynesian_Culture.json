@@ -1,5 +1,5 @@
 {
-  "entity": "Polynesian culture",
+  "entity": "Polynesian Culture",
   "properties": {
     "origin": "Pacific Ocean",
     "language_family": "Austronesian",
@@ -10,38 +10,39 @@
     "music_style": "Percussion, Vocal harmonies",
     "dance_style": "Hula, Ori Tahiti",
     "cuisine": "Fish, Taro, Coconut",
-    "clothing": "Tapa cloth, Lauhala mats"
+    "clothing": "Tapa cloth, Lauhala mats",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "ancestor_of": "Maori culture"
+      "part_of": "Oceania"
     },
     {
-      "ancestor_of": "Hawaiian culture"
+      "influenced": "Maori culture"
     },
     {
-      "ancestor_of": "Samoan culture"
+      "developed_in": "Austronesian peoples"
     },
     {
-      "influenced": "Tongan culture"
+      "associated_with": "Voyaging"
     },
     {
-      "related_to": "Austronesian peoples"
+      "has_artifact": "Tiki"
     },
     {
-      "practice": "Wayfinding"
+      "related_to": "Polynesian language family"
     },
     {
-      "uses": "Outrigger canoe"
+      "influenced": "Hawaiian culture"
     },
     {
-      "features": "Marae"
+      "associated_with": "Hula"
     },
     {
-      "deity": "Tane"
+      "has_tradition": "Tā moko"
     },
     {
-      "deity": "Tangaroa"
+      "located_in": "Pacific Ocean"
     }
   ]
 }

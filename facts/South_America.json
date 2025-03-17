@@ -10,38 +10,39 @@
     "climate": "Varied",
     "currency": "Varied",
     "geography": "Diverse",
-    "location": "Western Hemisphere"
+    "location": "Western Hemisphere",
+    "type": "Continent"
   },
   "relationship": [
     {
-      "part_of": "Earth"
+      "located_in": "Earth"
     },
     {
-      "located_in": "Western Hemisphere"
+      "part_of": "Americas"
     },
     {
-      "contains": "Brazil"
+      "borders": "Atlantic Ocean"
     },
     {
-      "contains": "Argentina"
+      "borders": "Pacific Ocean"
     },
     {
-      "contains": "Colombia"
+      "has_country": "Argentina"
     },
     {
-      "borders": "North America"
+      "has_country": "Brazil"
     },
     {
-      "has_mountain": "Andes"
+      "influenced_by": "Indigenous peoples"
+    },
+    {
+      "influenced_by": "European colonization"
     },
     {
       "has_river": "Amazon River"
     },
     {
-      "has_biome": "Amazon Rainforest"
-    },
-    {
-      "influenced_by": "Indigenous cultures"
+      "has_mountain_range": "Andes"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Education New Zealand",
   "properties": {
-    "instance_of": "Government agency",
     "country": "New Zealand",
     "founded": "2016",
     "purpose": "Promote NZ education",
@@ -10,38 +9,39 @@
     "website": "educationnewzealand.govt.nz",
     "focus": "International education",
     "sectors_promoted": "Vocational, Higher, Primary, Secondary",
-    "brand": "EduNZ"
+    "brand": "EduNZ",
+    "type": "Government agency"
   },
   "relationship": [
     {
-      "promotes": "New Zealand universities"
+      "instance_of": "government agency"
     },
     {
-      "promotes": "New Zealand polytechnics"
+      "country": "New Zealand"
     },
     {
-      "collaborates_with": "New Zealand Trade and Enterprise"
+      "parent_organization": "Ministry of Education (New Zealand)"
     },
     {
-      "supports": "International students"
+      "promotes": "New Zealand education"
     },
     {
-      "works_with": "Education providers"
+      "has_sector": "education"
     },
     {
-      "funded_by": "New Zealand government"
+      "has_activity": "international marketing"
     },
     {
-      "target_audience": "International educators"
+      "target_audience": "international students"
     },
     {
-      "marketing_focus": "Study in New Zealand"
+      "works_with": "New Zealand tertiary institutions"
     },
     {
-      "reports_to": "Ministry of Education (New Zealand)"
+      "has_purpose": "promoting New Zealand's education internationally"
     },
     {
-      "aims_to_increase": "International student numbers"
+      "collaborates_with": "New Zealand Qualifications Authority"
     }
   ]
 }

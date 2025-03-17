@@ -10,38 +10,39 @@
     "purpose": "Storytelling, entertainment",
     "historical_period": "Ancient - Present",
     "cultural_significance": "Cultural identity",
-    "subgenre": "Country music"
+    "subgenre": "Country music",
+    "type": "Music"
   },
   "relationship": [
     {
-      "influenced": "Popular music"
+      "instance_of": "music genre"
     },
     {
-      "related_to": "Traditional music"
+      "genre": "traditional music"
     },
     {
-      "preceded_by": "Ballads"
+      "influenced_by": "oral tradition"
     },
     {
-      "inspired": "Protest songs"
+      "has_theme": "cultural heritage"
     },
     {
-      "performed_by": "Woody Guthrie"
+      "performed_by": "folk musicians"
     },
     {
-      "performed_by": "Joan Baez"
+      "related_to": "storytelling"
     },
     {
-      "performed_by": "Bob Dylan"
+      "associated_with": "cultural identity"
     },
     {
-      "associated_with": "Folk revival"
+      "originates_from": "various cultures"
     },
     {
-      "originates_from": "European folk music"
+      "has_subgenre": "bluegrass"
     },
     {
-      "features": "Storytelling"
+      "related_to": "ballads"
     }
   ]
 }

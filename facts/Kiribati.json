@@ -10,38 +10,42 @@
     "location": "Central Pacific Ocean",
     "government_type": "Parliamentary Republic",
     "largest_island": "Tarawa",
-    "time_zone": "UTC+12"
+    "time_zone": "UTC+12",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Pacific Ocean"
+    },
     {
       "part_of": "Oceania"
     },
     {
-      "member_of": "Commonwealth of Nations"
+      "has_capital": "South Tarawa"
+    },
+    {
+      "has_official_language": "Gilbertese"
+    },
+    {
+      "has_official_language": "English"
     },
     {
       "member_of": "United Nations"
     },
     {
-      "located_in": "Pacific Ocean"
+      "member_of": "Commonwealth of Nations"
     },
     {
-      "border_with": "Federated States of Micronesia"
+      "influenced_by": "Micronesia"
     },
     {
-      "influenced_by": "New Zealand"
+      "has_currency": "Australian dollar"
     },
     {
-      "has_part": "Tarawa Atoll"
+      "has_head_of_state": "Ieremia Tabu"
     },
     {
-      "has_part": "Line Islands"
-    },
-    {
-      "has_part": "Phoenix Islands"
-    },
-    {
-      "climate": "Tropical"
+      "has_government_form": "Parliamentary republic"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "historical_context": "Post-pandemic recovery, Pre-existing trends",
     "geographic_variation": "Regional differences in adoption",
     "key_indicator": "Booking volume, Search queries",
-    "future_outlook": "Continued evolution, New technologies"
+    "future_outlook": "Continued evolution, New technologies",
+    "type": "Trend"
   },
   "relationship": [
     {
-      "influenced_by": "Pandemic"
+      "influenced_by": "Societal Trends"
     },
     {
       "impacts": "Tourism"
     },
     {
-      "driven_by": "Technology"
+      "related_to": "Demographics"
     },
     {
-      "related_to": "Sustainable Tourism"
+      "driven_by": "Technological Advancements"
     },
     {
-      "affects": "Airline Industry"
+      "affects": "Travel Destinations"
     },
     {
-      "impacts": "Hospitality"
+      "shaped_by": "Economic Conditions"
     },
     {
-      "influenced_by": "Social Media"
+      "impacts": "Hospitality Industry"
     },
     {
-      "related_to": "Digital Nomadism"
+      "influenced_by": "Geopolitical Events"
     },
     {
-      "impacts": "Local Communities"
+      "related_to": "Sustainability"
     },
     {
-      "linked_to": "Gen Z"
+      "impacts": "Transportation"
     }
   ]
 }

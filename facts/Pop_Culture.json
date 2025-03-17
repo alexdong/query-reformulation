@@ -10,38 +10,39 @@
     "impact": "Consumerism, Identity",
     "cycle": "Rapid change",
     "origin": "20th Century",
-    "subject": "Entertainment"
+    "subject": "Entertainment",
+    "type": "CreativeWork"
   },
   "relationship": [
     {
-      "influenced_by": "Mass media"
+      "instance_of": "entertainment"
     },
     {
-      "part_of": "Society"
+      "influenced_by": "Social Trends"
     },
     {
-      "related_to": "Consumerism"
+      "created_by": "Media"
     },
     {
-      "features": "Celebrity"
+      "part_of": "Human Society"
     },
     {
-      "includes": "Music"
+      "has_topic": "Celebrities"
     },
     {
-      "includes": "Film"
+      "has_topic": "Trends"
     },
     {
-      "includes": "Television"
+      "has_topic": "Music"
     },
     {
-      "impacts": "Fashion"
+      "has_topic": "Film"
     },
     {
-      "drives": "Social media"
+      "has_topic": "Television"
     },
     {
-      "reflects": "Current events"
+      "related_to": "Internet Culture"
     }
   ]
 }

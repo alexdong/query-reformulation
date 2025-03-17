@@ -1,7 +1,6 @@
 {
-  "entity": "Marine (biology)",
+  "entity": "Marine  biology ",
   "properties": {
-    "instance_of": "Biological classification",
     "kingdom": "Animalia",
     "phylum": "Chordata",
     "class": "Mammalia",
@@ -10,38 +9,39 @@
     "lifespan": "20-30 years",
     "diet": "Fish, squid, crustaceans",
     "habitat": "Coastal waters",
-    "conservation_status": "Least Concern"
+    "conservation_status": "Least Concern",
+    "type": "Biological classification"
   },
   "relationship": [
     {
-      "part_of": "Phocidae"
+      "subclass_of": "Biology"
     },
     {
-      "lives_in": "Arctic Ocean"
+      "instance_of": "Scientific discipline"
     },
     {
-      "lives_in": "Atlantic Ocean"
+      "studied_in": "Oceanography"
     },
     {
-      "lives_in": "Pacific Ocean"
+      "studies": "Marine life"
     },
     {
-      "prey_of": "Polar bear"
+      "related_to": "Ecology"
     },
     {
-      "prey_of": "Killer whale"
+      "employs": "Scientific method"
     },
     {
-      "related_to": "Seal"
+      "requires": "Marine ecosystems"
     },
     {
-      "related_to": "Walrus"
+      "overlaps_with": "Fisheries science"
     },
     {
-      "has_feature": "Blubber"
+      "contributes_to": "Conservation biology"
     },
     {
-      "has_feature": "Whiskers"
+      "investigates": "Marine biodiversity"
     }
   ]
 }

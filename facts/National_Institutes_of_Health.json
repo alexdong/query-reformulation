@@ -1,7 +1,6 @@
 {
   "entity": "National Institutes of Health",
   "properties": {
-    "instance_of": "Government agency",
     "country": "United States",
     "hq_location": "Bethesda, Maryland",
     "founded": "1887",
@@ -10,38 +9,39 @@
     "director": "Monica L. Collares",
     "parent_agency": "Department of Health and Human Services",
     "research_areas": "Biomedical",
-    "website": "www.nih.gov"
+    "website": "www.nih.gov",
+    "type": "Government agency"
   },
   "relationship": [
     {
-      "funds": "Medical research"
+      "instance_of": "government agency"
     },
     {
-      "collaborates_with": "Universities"
+      "part_of": "United States federal government"
     },
     {
-      "part_of": "US federal government"
+      "funding_agency_for": "National Cancer Institute"
     },
     {
-      "research_focus": "Cancer research"
+      "funding_agency_for": "National Heart, Lung, and Blood Institute"
     },
     {
-      "research_focus": "Alzheimer's disease"
+      "located_in": "Bethesda, Maryland"
     },
     {
-      "research_focus": "HIV/AIDS"
+      "directed_by": "Monica Nixon"
     },
     {
-      "employs": "Researchers"
+      "research_focus": "biomedical research"
     },
     {
-      "provides": "Grants"
+      "collaborates_with": "World Health Organization"
     },
     {
-      "affiliated_with": "National Library of Medicine"
+      "provides_funding_to": "Stanford University"
     },
     {
-      "influences": "Medical practice"
+      "established_by": "United States Congress"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "challenges": "Misunderstandings, stereotypes",
     "methods": "Qualitative & Quantitative research",
     "subfields": "Cross-cultural adaptation, intercultural competence",
-    "origin": "Mid-20th century"
+    "origin": "Mid-20th century",
+    "type": "Academic discipline"
   },
   "relationship": [
     {
-      "related_to": "Communication"
+      "instance_of": "Communication"
     },
     {
-      "influenced_by": "Anthropology"
+      "subclass_of": "Social Interaction"
     },
     {
-      "overlaps_with": "Cross-cultural psychology"
+      "related_to": "Culture"
     },
     {
-      "addresses": "Globalization"
+      "requires": "Language"
     },
     {
-      "requires": "Cultural awareness"
+      "influenced_by": "Globalization"
     },
     {
-      "impacts": "International relations"
+      "studied_in": "Sociology"
     },
     {
-      "mitigates": "Cultural conflict"
+      "studied_in": "Anthropology"
     },
     {
-      "promotes": "Intercultural understanding"
+      "related_to": "Cultural Relativism"
     },
     {
-      "analyzes": "Nonverbal communication"
+      "challenges": "Ethnocentrism"
     },
     {
-      "studies": "Cultural values"
+      "promotes": "Cross-cultural Understanding"
     }
   ]
 }

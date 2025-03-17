@@ -10,38 +10,39 @@
     "governing_body": "British Empire",
     "primary_crops": "Tobacco, Cotton, Maize",
     "population_growth": "Significant",
-    "legal_system": "English Common Law"
+    "legal_system": "English Common Law",
+    "type": "Colony"
   },
   "relationship": [
     {
-      "preceded_by": "Exploration of North America"
+      "part_of": "British Empire"
     },
     {
-      "followed_by": "American Revolution"
+      "located_in": "North America"
     },
     {
-      "influenced": "United States"
+      "preceded_by": "Thirteen Colonies"
     },
     {
-      "colonized": "Virginia"
+      "influenced_by": "English language"
     },
     {
-      "colonized": "Massachusetts"
+      "influenced_by": "English culture"
     },
     {
-      "colonized": "Pennsylvania"
+      "caused": "American Revolution"
     },
     {
-      "involved": "Virginia Company"
+      "led_to": "United States of America"
     },
     {
-      "involved": "Plymouth Colony"
+      "developed_into": "United States"
     },
     {
-      "involved": "Puritans"
+      "governed_by": "Great Britain"
     },
     {
-      "impacted": "Native Americans"
+      "involved": "Indigenous peoples of North America"
     }
   ]
 }

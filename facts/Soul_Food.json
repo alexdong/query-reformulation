@@ -10,38 +10,39 @@
     "health_considerations": "High in fat and sodium",
     "cultural_significance": "Community, family, heritage",
     "common_dishes": "Fried chicken, collard greens, mac and cheese",
-    "evolution": "Adaptation of West African and Southern ingredients"
+    "evolution": "Adaptation of West African and Southern ingredients",
+    "type": "Cuisine"
   },
   "relationship": [
+    {
+      "instance_of": "cuisine"
+    },
+    {
+      "originates_from": "African American cuisine"
+    },
+    {
+      "associated_with": "Southern United States"
+    },
+    {
+      "ingredient": "collard greens"
+    },
+    {
+      "ingredient": "okra"
+    },
+    {
+      "ingredient": "cornbread"
+    },
+    {
+      "ingredient": "fried chicken"
+    },
+    {
+      "associated_with": "African diaspora"
+    },
     {
       "influenced_by": "West African cuisine"
     },
     {
-      "influenced_by": "Southern cuisine"
-    },
-    {
-      "associated_with": "African American culture"
-    },
-    {
-      "associated_with": "The Great Migration"
-    },
-    {
-      "ingredient_includes": "Collard greens"
-    },
-    {
-      "ingredient_includes": "Sweet potatoes"
-    },
-    {
-      "ingredient_includes": "Cornbread"
-    },
-    {
-      "dish_type": "Comfort food"
-    },
-    {
-      "related_to": "Jubilee"
-    },
-    {
-      "associated_with": "Black churches"
+      "associated_with": "family gathering"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Management",
   "properties": {
-    "instance_of": "Process",
     "field_of_study": "Business",
     "purpose": "Organizational Efficiency",
     "focus": "Planning, Organizing, Leading, Controlling",
@@ -10,38 +9,39 @@
     "skill_set": "Leadership, Communication, Decision-making",
     "discipline": "Social Science",
     "application": "Business, Nonprofits, Government",
-    "related_to": "Organization"
+    "related_to": "Organization",
+    "type": "Process"
   },
   "relationship": [
     {
-      "uses": "Leadership"
+      "has_role": "Organization"
     },
     {
-      "requires": "Planning"
+      "manages": "Employee"
     },
     {
-      "involves": "Decision-making"
+      "reports_to": "Board of Directors"
     },
     {
-      "employs": "Strategy"
+      "responsible_for": "Strategy"
     },
     {
-      "related_to": "Human Resources"
+      "oversees": "Department"
     },
     {
-      "impacts": "Productivity"
+      "implements": "Policy"
     },
     {
-      "requires": "Organization"
+      "creates": "Project"
     },
     {
-      "overlaps_with": "Administration"
+      "evaluates": "Performance"
     },
     {
-      "influences": "Business Process"
+      "works_with": "Team"
     },
     {
-      "studied_in": "Business School"
+      "governs": "Process"
     }
   ]
 }

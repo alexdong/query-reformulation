@@ -1,7 +1,6 @@
 {
-  "entity": "Minimalism (art movement)",
+  "entity": "Minimalism  art movement ",
   "properties": {
-    "instance_of": "Art movement",
     "origin": "United States",
     "start_date": "1960s",
     "founder": "Donald Judd",
@@ -10,38 +9,39 @@
     "medium": "Industrial materials",
     "aesthetic": "Geometric, Objective",
     "reaction_against": "Abstract expressionism",
-    "focus": "Objecthood"
+    "focus": "Objecthood",
+    "type": "Art movement"
   },
   "relationship": [
     {
-      "influenced": "Conceptual art"
+      "influenced_by": "Conceptual art"
     },
     {
-      "influenced": "Land art"
+      "influenced_by": "Dada"
     },
     {
-      "preceded_by": "Abstract expressionism"
+      "influenced_by": "De Stijl"
     },
     {
-      "related_to": "Postminimalism"
+      "influenced_by": "Russian Constructivism"
     },
     {
-      "artist_works_in": "Donald Judd"
+      "part_of": "Modernism"
     },
     {
-      "artist_works_in": "Sol LeWitt"
+      "has_artist": "Donald Judd"
     },
     {
-      "artist_works_in": "Dan Flavin"
+      "has_artist": "Sol LeWitt"
     },
     {
-      "movement_associated_with": "New York School"
+      "has_artist": "Carl Andre"
     },
     {
-      "influenced": "Contemporary art"
+      "influenced": "Postminimalism"
     },
     {
-      "exhibited_at": "Museum of Modern Art"
+      "characterized_by": "Reductionism"
     }
   ]
 }

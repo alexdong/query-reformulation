@@ -10,38 +10,39 @@
     "political_system": "Parliamentary democracies, constitutional monarchies",
     "climate": "Temperate",
     "HDI": "Very High",
-    "currency": "Euro, Pound Sterling, Swiss Franc"
+    "currency": "Euro, Pound Sterling, Swiss Franc",
+    "type": "Continent"
   },
   "relationship": [
     {
-      "part_of": "Europe"
+      "located_in": "Europe"
     },
     {
-      "borders": "Eastern Europe"
+      "part_of": "World"
     },
     {
-      "includes": "Germany"
-    },
-    {
-      "includes": "France"
-    },
-    {
-      "includes": "United Kingdom"
-    },
-    {
-      "includes": "Italy"
+      "has_member_state": "France"
     },
     {
       "influenced_by": "Roman Empire"
     },
     {
-      "influenced_by": "Renaissance"
+      "has_economic_union": "European Union"
     },
     {
-      "member_of": "European Union"
+      "has_historical_region": "Roman Empire"
     },
     {
-      "economic_bloc": "OECD"
+      "has_cultural_influence_on": "North America"
+    },
+    {
+      "has_geopolitical_relation_with": "Russia"
+    },
+    {
+      "has_historical_event": "World War II"
+    },
+    {
+      "has_language": "English"
     }
   ]
 }

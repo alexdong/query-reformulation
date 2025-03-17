@@ -10,38 +10,39 @@
     "basin_area": "2,360 km²",
     "discharge": "170 m³/s",
     "region": "Southland Region",
-    "water_quality": "Variable"
+    "water_quality": "Variable",
+    "type": "River"
   },
   "relationship": [
     {
-      "flows_through": "Southland Region"
+      "flows_into": "Foveaux Strait"
     },
     {
-      "source_location": "Longwood Forest"
+      "located_in_administrative_division": "Southland Region"
     },
     {
-      "mouth_location": "Foveaux Strait"
+      "tributary_of": "Tasman Sea"
     },
     {
-      "tributary_of": "Foveaux Strait"
+      "flows_through_administrative_division": "Fiordland National Park"
     },
     {
-      "flows_into": "Tasman Sea"
+      "originates_in_geographic_feature": "Southern Alps"
     },
     {
       "part_of": "Southland District"
     },
     {
-      "adjacent_to": "Te Anau"
+      "drains_into": "Te Anau Lake"
     },
     {
-      "near": "Fiordland National Park"
+      "has_settlement_nearby": "Te Anau"
     },
     {
-      "supports": "Native fish species"
+      "used_for": "hydroelectric_power_generation"
     },
     {
-      "used_by": "Hydroelectric power generation"
+      "has_ecosystem": "temperate_rainforest"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "indigenous_status": "Mi'kmaq",
     "known_for": "Singing in Mi'kmaq and English",
     "awards": "Canadian Music Week Native American Music Award",
-    "instrument": "Guitar"
+    "instrument": "Guitar",
+    "type": "IndigenousPerson"
   },
   "relationship": [
     {
-      "member_of": "Mi'kmaq people"
+      "instance_of": "human"
     },
     {
-      "genre_influenced": "Indigenous music"
+      "birthPlace": "Cape Breton"
     },
     {
-      "recorded_by": "CBC Records"
+      "member_of": "Mi'kmaq"
     },
     {
-      "performed_at": "New Brunswick Folk Festival"
+      "depicts": "Rita Joe (activist)"
     },
     {
-      "influenced": "Loretta Lynn"
+      "influenced_by": "Indigenous rights movement"
     },
     {
-      "influenced": "Willie Nelson"
+      "award_received": "Order of Canada"
     },
     {
-      "recorded_track": "Snowflake, Winterfall"
+      "publication_appeared_in": "The Moccasin Quilt"
     },
     {
-      "recorded_track": "My Man"
+      "subject_of": "documentary film"
     },
     {
-      "recorded_track": "Indian Reservation"
+      "related_to": "Residential schools in Canada"
     },
     {
-      "lived_in": "Nova Scotia"
+      "advocates_for": "Indigenous reconciliation"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "treaties": "Historical agreements with Crown",
     "governance": "Self-governance initiatives",
     "land_rights": "Ongoing claims and negotiations",
-    "heritage": "Rich cultural heritage"
+    "heritage": "Rich cultural heritage",
+    "type": "Indigenous peoples"
   },
   "relationship": [
     {
-      "part_of": "Indigenous peoples"
+      "instance_of": "Indigenous peoples"
     },
     {
       "located_in": "Canada"
     },
     {
-      "related_to": "Métis"
+      "located_in": "United States"
     },
     {
-      "related_to": "Inuit"
+      "part_of": "North America"
     },
     {
-      "treaty_signed_with": "Crown"
+      "has_culture": "First Nations cultures"
     },
     {
-      "language_family": "Algonquian languages"
+      "has_language": "Indigenous languages"
     },
     {
-      "language_family": "Siouan languages"
+      "related_to": "Treaties"
     },
     {
-      "influenced_by": "Residential school system"
+      "affected_by": "Colonialism"
     },
     {
-      "governance_structure": "Band Council"
+      "has_governing_body": "Assembly of First Nations"
     },
     {
-      "land_claim_area": "Northwest Territories"
+      "has_historical_event": "Indian Act"
     }
   ]
 }

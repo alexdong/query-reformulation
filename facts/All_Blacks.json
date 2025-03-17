@@ -1,7 +1,6 @@
 {
   "entity": "All Blacks",
   "properties": {
-    "instance_of": "Rugby union team",
     "country": "New Zealand",
     "sport": "Rugby union",
     "founded": "1885",
@@ -10,38 +9,39 @@
     "nickname": "Blacks",
     "head_coach": "Ian Foster",
     "captain": "Sam Cane",
-    "world_ranking": "1"
+    "world_ranking": "1",
+    "type": "Rugby union team"
   },
   "relationship": [
     {
-      "member_of": "New Zealand national rugby union team"
+      "instance_of": "national rugby team"
     },
     {
-      "plays_in": "Rugby Championship"
+      "country": "New Zealand"
     },
     {
-      "plays_in": "Six Nations Championship"
+      "sport": "rugby union"
     },
     {
-      "plays_in": "Rugby World Cup"
+      "governing_body": "World Rugby"
     },
     {
-      "governed_by": "New Zealand Rugby"
+      "member_of": "SANZAAR"
     },
     {
-      "rivalry_with": "Wallabies"
+      "coach": "Ian Foster"
     },
     {
-      "influenced": "Rugby union"
+      "captain": "Sam Cane"
     },
     {
-      "location": "New Zealand"
+      "founded_by": "Thomas Ellison"
     },
     {
-      "has_player": "Richie McCaw"
+      "competition": "Rugby Championship"
     },
     {
-      "has_player": "Dan Carter"
+      "trophy": "Webb Ellis Cup"
     }
   ]
 }

@@ -10,17 +10,18 @@
     "state_tree": "Western Larch",
     "time_zone": "Mountain Time",
     "official_website": "https://www.idaho.gov/",
-    "admission_date": "1890-07-03"
+    "admission_date": "1890-07-03",
+    "type": "AdministrativeDivision"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States of America"
     },
     {
-      "located_in": "North America"
+      "part_of": "North America"
     },
     {
-      "borders": "Washington"
+      "borders": "Montana"
     },
     {
       "borders": "Oregon"
@@ -32,16 +33,16 @@
       "borders": "Utah"
     },
     {
-      "major_river": "Snake River"
+      "borders": "Wyoming"
     },
     {
-      "major_city": "Boise"
+      "has_capital": "Boise"
     },
     {
-      "industry": "Agriculture"
+      "has_state_flower": "Syringa"
     },
     {
-      "geographical_feature": "Rocky Mountains"
+      "has_state_bird": "Mountain Bluebird"
     }
   ]
 }

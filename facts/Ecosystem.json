@@ -1,7 +1,6 @@
 {
   "entity": "Ecosystem",
   "properties": {
-    "instance_of": "Ecological system",
     "definition": "Community + Environment",
     "scale": "Varies",
     "components": "Biotic & Abiotic",
@@ -10,38 +9,39 @@
     "biodiversity": "Variable",
     "stability": "Dynamic",
     "location": "Global",
-    "study_field": "Ecology"
+    "study_field": "Ecology",
+    "type": "Ecological system"
   },
   "relationship": [
+    {
+      "instance_of": "Natural environment"
+    },
     {
       "part_of": "Biosphere"
     },
     {
-      "contains": "Community"
+      "has_agent": "Species"
     },
     {
-      "contains": "Habitat"
+      "interacts_with": "Biogeochemical cycle"
     },
     {
-      "interacts_with": "Food web"
+      "has_process": "Ecological succession"
     },
     {
       "affected_by": "Climate"
     },
     {
-      "influenced_by": "Biogeochemical cycle"
+      "contains": "Habitat"
     },
     {
-      "example_of": "Rainforest"
+      "has_property": "Biodiversity"
     },
     {
-      "example_of": "Coral reef"
+      "influenced_by": "Abiotic factor"
     },
     {
-      "example_of": "Desert"
-    },
-    {
-      "studied_by": "Ecologist"
+      "has_function": "Nutrient cycling"
     }
   ]
 }

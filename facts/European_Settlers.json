@@ -10,38 +10,39 @@
     "technology": "Advanced weaponry, Shipbuilding",
     "legal_framework": "European laws, Colonial charters",
     "disease_impact": "Introduced diseases, Population decline",
-    "economic_system": "Mercantilism, Plantation economy"
+    "economic_system": "Mercantilism, Plantation economy",
+    "type": "PopulatedPlace"
   },
   "relationship": [
     {
-      "colonized": "Indigenous peoples"
+      "part_of": "Colonialism"
     },
     {
-      "influenced": "Colonialism"
+      "influenced": "Indigenous Peoples"
     },
     {
-      "led_to": "Globalization"
+      "engaged_in": "Transatlantic Slave Trade"
     },
     {
-      "involved_in": "Transatlantic slave trade"
+      "located_in": "Americas"
     },
     {
-      "established": "Colonies"
+      "located_in": "Australia"
     },
     {
-      "introduced": "European languages"
+      "located_in": "Africa"
     },
     {
-      "introduced": "European culture"
+      "part_of": "European Empires"
     },
     {
-      "impacted": "Native flora and fauna"
+      "created_by": "European Monarchies"
     },
     {
-      "engaged_in": "Inter-settler conflicts"
+      "introduced": "European Languages"
     },
     {
-      "resulted_in": "Nation-state formation"
+      "introduced": "Christianity"
     }
   ]
 }

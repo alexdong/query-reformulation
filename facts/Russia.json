@@ -10,38 +10,39 @@
     "largest_city": "Moscow",
     "continent": "Europe/Asia",
     "national_anthem": "State Anthem of the Russian Federation",
-    "GDP_nominal": "$1.8 trillion"
+    "GDP_nominal": "$1.8 trillion",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Eurasia"
+      "located_in": "Eurasia"
     },
     {
-      "borders": "China"
-    },
-    {
-      "borders": "Ukraine"
-    },
-    {
-      "member_of": "United Nations"
+      "part_of": "United Nations"
     },
     {
       "member_of": "BRICS"
     },
     {
-      "historical_event": "Russian Revolution"
+      "has_border_with": "China"
     },
     {
-      "leader": "Vladimir Putin"
+      "has_border_with": "Kazakhstan"
     },
     {
-      "major_religion": "Russian Orthodox Christianity"
+      "has_member": "Vladimir Putin"
     },
     {
-      "resource": "Oil"
+      "economic_partner_of": "Germany"
     },
     {
-      "region_contains": "Volga River"
+      "has_historical_relationship_with": "Soviet Union"
+    },
+    {
+      "involved_in_conflict_with": "Ukraine"
+    },
+    {
+      "has_natural_resource": "Oil"
     }
   ]
 }

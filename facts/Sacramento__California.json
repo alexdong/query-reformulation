@@ -1,5 +1,5 @@
 {
-  "entity": "Sacramento, California",
+  "entity": "Sacramento  California",
   "properties": {
     "capital_of": "California",
     "population_2020": "525,000",
@@ -10,38 +10,39 @@
     "time_zone": "Pacific Time",
     "elevation_ft": "95",
     "major_industry": "Government, Healthcare, Agriculture",
-    "county": "Sacramento County"
+    "county": "Sacramento County",
+    "type": "City"
   },
   "relationship": [
     {
-      "part_of": "California"
+      "located_in": "California"
     },
     {
-      "located_in": "Central Valley"
+      "part_of": "United States"
     },
     {
-      "river_flows_through": "Sacramento River"
+      "has_neighbor": "Yolo County"
     },
     {
-      "near_to": "San Francisco"
+      "has_neighbor": "El Dorado County"
     },
     {
-      "influenced_by": "Gold Rush"
+      "has_neighbor": "Placer County"
+    },
+    {
+      "has_neighbor": "Solano County"
+    },
+    {
+      "is_capital_of": "California"
+    },
+    {
+      "has_river": "Sacramento River"
     },
     {
       "has_landmark": "California State Capitol Museum"
     },
     {
-      "has_landmark": "Old Sacramento State Historic Park"
-    },
-    {
-      "has_team": "Sacramento Kings"
-    },
-    {
-      "has_university": "California State University, Sacramento"
-    },
-    {
-      "member_of": "United States"
+      "influenced_by": "Native American peoples"
     }
   ]
 }

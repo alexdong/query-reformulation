@@ -10,38 +10,39 @@
     "location": "North Atlantic Ocean",
     "largest_city": "Nassau",
     "time_zone": "UTC-5",
-    "national_sport": "Cricket"
+    "national_sport": "Cricket",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "North America"
+    },
     {
       "part_of": "Caribbean"
     },
     {
-      "near": "Florida"
+      "has_capital": "Nassau"
+    },
+    {
+      "has_official_language": "English language"
+    },
+    {
+      "has_currency": "Bahamian dollar"
     },
     {
       "member_of": "Commonwealth of Nations"
     },
     {
-      "influenced_by": "British Empire"
+      "member_of": "United Nations"
     },
     {
-      "has_dependency": "Tourism"
+      "influenced_by": "Great Britain"
     },
     {
-      "located_in": "North America"
+      "has_neighbor": "Turks and Caicos Islands"
     },
     {
-      "governed_by": "Parliament of the Bahamas"
-    },
-    {
-      "has_island": "New Providence Island"
-    },
-    {
-      "has_island": "Grand Bahama Island"
-    },
-    {
-      "border_touches": "Atlantic Ocean"
+      "has_economy_sector": "Tourism"
     }
   ]
 }

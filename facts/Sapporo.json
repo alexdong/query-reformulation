@@ -10,38 +10,39 @@
     "latitude": "43.0754° N",
     "longitude": "141.3540° E",
     "currency": "JPY",
-    "postal_code": "060-0001"
+    "postal_code": "060-0001",
+    "type": "City"
   },
   "relationship": [
+    {
+      "located_in": "Hokkaido Prefecture"
+    },
     {
       "part_of": "Japan"
     },
     {
-      "located_in": "Hokkaido"
-    },
-    {
-      "has_event": "Sapporo Snow Festival"
+      "has_neighbor": "Otaru"
     },
     {
       "has_landmark": "Odori Park"
     },
     {
-      "has_landmark": "Sapporo TV Tower"
+      "founded_by": "Mitsusaburō Watanabe"
     },
     {
-      "has_industry": "Brewing"
+      "has_industry": "Brewing industry"
     },
     {
-      "has_university": "Hokkaido University"
+      "has_event": "Sapporo Snow Festival"
     },
     {
-      "connected_to": "Hakodate"
+      "has_transportation": "New Chitose Airport"
     },
     {
-      "influenced_by": "Yokohama"
+      "is_capital_of": "Hokkaido Prefecture"
     },
     {
-      "has_cuisine": "Sapporo Ramen"
+      "has_cuisine": "Sapporo ramen"
     }
   ]
 }

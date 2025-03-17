@@ -10,38 +10,39 @@
     "governing_body": "New Zealand Rugby",
     "colours": "Maroon and White",
     "status": "Amateur",
-    "trophies": "Multiple Southland Championships"
+    "trophies": "Multiple Southland Championships",
+    "type": "SportsClub"
   },
   "relationship": [
     {
-      "part_of": "Southland Rugby Football Union"
+      "instance_of": "rugby club"
     },
     {
-      "located_in": "Invercargill City"
+      "located_in": "Invercargill"
     },
     {
-      "plays_in": "National Club Championship"
+      "region_of": "Southland"
     },
     {
-      "rivalry_with": "Eastern Rugby Football Club"
+      "country_of": "New Zealand"
     },
     {
-      "member_of": "New Zealand Rugby Football Union"
+      "participates_in": "Southland Rugby Football Union"
     },
     {
-      "coach": "Southland Rugby Coach"
+      "subclass_of": "amateur sports club"
     },
     {
-      "player_plays_for": "All Blacks"
+      "founded_by": "local community"
     },
     {
-      "sponsored_by": "Local Businesses"
+      "has_member": "Invercargill resident"
     },
     {
-      "has_team": "Premier Team"
+      "has_coach": "rugby coach"
     },
     {
-      "competition_type": "Rugby Union"
+      "has_sponsor": "local business"
     }
   ]
 }

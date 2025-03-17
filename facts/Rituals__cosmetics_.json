@@ -1,7 +1,6 @@
 {
-  "entity": "Rituals (cosmetics)",
+  "entity": "Rituals  cosmetics ",
   "properties": {
-    "instance_of": "Cosmetics brand",
     "founder": "Bas Maas & Raymond Cloosterman",
     "country_of_origin": "Netherlands",
     "year_founded": "2005",
@@ -10,38 +9,39 @@
     "business_model": "Retail, E-commerce",
     "target_audience": "Young adults",
     "brand_aesthetic": "Minimalist, Natural",
-    "parent_company": "L'Oréal"
+    "parent_company": "L'Oréal",
+    "type": "Cosmetics brand"
   },
   "relationship": [
     {
-      "owned_by": "L'Oréal"
+      "instance_of": "beauty brand"
     },
     {
-      "competitor": "The Body Shop"
+      "parent_organization": "L'Oréal"
     },
     {
-      "competitor": "Lush Cosmetics"
+      "country_of_origin": "United Kingdom"
     },
     {
-      "product_line_includes": "Rituals Home"
+      "headquarters_location": "London"
     },
     {
-      "product_line_includes": "Rituals Men"
+      "product_category": "skincare"
     },
     {
-      "product_line_includes": "Rituals Ayurveda"
+      "product_category": "cosmetics"
     },
     {
-      "ingredient_source": "Natural ingredients"
+      "founder": "Joanna Czech"
     },
     {
-      "market_presence": "Europe"
+      "advertising_campaign_participant": "Precious Lee"
     },
     {
-      "market_presence": "Asia"
+      "advertising_campaign_participant": "Adut Aweï"
     },
     {
-      "influenced_by": "Eastern traditions"
+      "has_product": "Rituals Home Fragrance"
     }
   ]
 }

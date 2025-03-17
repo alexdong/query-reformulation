@@ -10,38 +10,39 @@
     "children": "Robert Burns Jr., Elizabeth Burns, Jean Burns, William Burns, Robert Burns",
     "religion": "Church of Scotland",
     "social_class": "Working class",
-    "known_for": "Relationship with Robert Burns"
+    "known_for": "Relationship with Robert Burns",
+    "type": "Person"
   },
   "relationship": [
     {
-      "married_to": "Robert Burns"
+      "instance_of": "human"
     },
     {
-      "child_of": "John Armour"
+      "birth_place": "Paisley"
     },
     {
-      "child_of": "Frances Coffey"
+      "spouse_of": "Robert Burns"
     },
     {
-      "sibling_of": "John Armour Jr."
+      "child_of": "James Armour"
     },
     {
-      "sibling_of": "William Armour"
+      "has_child": "Robert Burns (son)"
     },
     {
-      "resided_in": "Dumfries"
+      "has_child": "Jean Burns"
     },
     {
-      "influenced_by": "Scottish culture"
+      "has_child": "William Burns"
     },
     {
-      "associated_with": "Robert Burns' poetry"
+      "has_child": "Robert Burns (grandson)"
     },
     {
-      "subject_of": "Burns' letters"
+      "resides_in": "Dumfries"
     },
     {
-      "location": "Paisley"
+      "occupation": "textile worker"
     }
   ]
 }

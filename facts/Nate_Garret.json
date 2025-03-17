@@ -10,38 +10,39 @@
     "contributor_to": "Kubernetes",
     "focus": "Distributed Systems",
     "github_handle": "natedogg",
-    "location": "Ann Arbor"
+    "location": "Ann Arbor",
+    "type": "Musician"
   },
   "relationship": [
     {
-      "works_at": "Google"
+      "instance_of": "male human"
     },
     {
-      "contributes_to": "Kubernetes"
+      "occupation": "American football player"
     },
     {
-      "studied_at": "University of Michigan"
+      "team": "New Orleans Saints"
     },
     {
-      "programming_language": "Go"
+      "plays_for": "Jacksonville Jaguars"
     },
     {
-      "involved_in": "Cloud Computing"
+      "educated_at": "University of California, Berkeley"
     },
     {
-      "influences": "Open Source Community"
+      "field_of_study": "American football"
     },
     {
-      "expert_in": "Distributed Systems"
+      "position": "Safety (American football)"
     },
     {
-      "member_of": "Software Engineering Community"
+      "birth_place": "Los Angeles"
     },
     {
-      "uses": "GitHub"
+      "family_member": "Nate Garret Sr."
     },
     {
-      "related_to": "Containerization"
+      "sport": "American football"
     }
   ]
 }

@@ -10,7 +10,8 @@
     "materials": "Stone, Brick, Marble",
     "ornamentation": "Restrained",
     "dome_usage": "Common",
-    "arches": "Rounded, Segmental"
+    "arches": "Rounded, Segmental",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
@@ -20,28 +21,28 @@
       "preceded_by": "Gothic Architecture"
     },
     {
+      "part_of": "Art History"
+    },
+    {
+      "developed_in": "Italy"
+    },
+    {
+      "characterized_by": "Classical Orders"
+    },
+    {
       "influenced": "Neoclassical Architecture"
     },
     {
-      "architect": "Filippo Brunelleschi"
+      "associated_with": "Humanism"
     },
     {
-      "architect": "Donato Bramante"
+      "exemplified_by": "Florence Cathedral"
     },
     {
-      "architect": "Leon Battista Alberti"
+      "developed_by": "Architect"
     },
     {
-      "building_example": "St. Peter's Basilica"
-    },
-    {
-      "building_example": "Florence Cathedral"
-    },
-    {
-      "building_example": "Tempietto"
-    },
-    {
-      "influenced_art_movement": "High Renaissance"
+      "related_to": "Renaissance"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Local Government",
   "properties": {
-    "instance_of": "Government",
     "level": "Subnational",
     "purpose": "Public Services",
     "scope": "Geographic Area",
@@ -10,38 +9,39 @@
     "accountability": "Citizens",
     "size": "Variable",
     "structure": "Diverse",
-    "legal_basis": "Statute"
+    "legal_basis": "Statute",
+    "type": "Government"
   },
   "relationship": [
     {
-      "part_of": "Government"
+      "hasAdministrativeRegion": "Country"
     },
     {
-      "provides": "Public Services"
+      "partOf": "State"
     },
     {
-      "governs": "Municipality"
+      "servesPopulation": "Citizen"
     },
     {
-      "funded_by": "Taxation"
+      "providesService": "PublicService"
     },
     {
-      "oversees": "Infrastructure"
+      "employs": "GovernmentEmployee"
     },
     {
-      "employs": "Local Officials"
+      "governedBy": "GovernmentAgency"
     },
     {
-      "represents": "Community"
+      "responsibleFor": "Infrastructure"
     },
     {
-      "subject_to": "National Government"
+      "collectsTaxFrom": "Taxpayer"
     },
     {
-      "impacts": "Local Economy"
+      "regulates": "Business"
     },
     {
-      "collaborates_with": "Regional Government"
+      "fundedBy": "TaxRevenue"
     }
   ]
 }

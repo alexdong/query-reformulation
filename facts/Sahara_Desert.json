@@ -10,38 +10,39 @@
     "largest_country": "Algeria",
     "sand_coverage": "10%",
     "formation_time": "Oligocene",
-    "biome": "Hot desert"
+    "biome": "Hot desert",
+    "type": "Desert"
   },
   "relationship": [
     {
-      "part_of": "Africa"
+      "located_in": "Africa"
     },
     {
-      "borders": "Mediterranean Sea"
+      "part_of": "African Plate"
     },
     {
-      "borders": "Atlantic Ocean"
+      "adjacent_to": "Algeria"
     },
     {
-      "contains": "Erg Chebbi"
+      "adjacent_to": "Chad"
     },
     {
-      "contains": "Ténéré Desert"
+      "adjacent_to": "Egypt"
     },
     {
-      "crosses": "Niger River"
+      "adjacent_to": "Libya"
     },
     {
-      "influences": "Sahel"
+      "adjacent_to": "Mali"
     },
     {
-      "has_feature": "Dune"
+      "adjacent_to": "Mauritania"
     },
     {
-      "has_feature": "Oasis"
+      "adjacent_to": "Niger"
     },
     {
-      "inhabited_by": "Tuareg people"
+      "influenced_by": "ClimateChange"
     }
   ]
 }

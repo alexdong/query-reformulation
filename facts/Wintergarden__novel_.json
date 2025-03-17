@@ -1,7 +1,6 @@
 {
-  "entity": "Wintergarden (novel)",
+  "entity": "Wintergarden  novel ",
   "properties": {
-    "instance_of": "Novel",
     "author": "Kristin Hannah",
     "genre": "Historical fiction",
     "publication_date": "2020-10-20",
@@ -10,38 +9,39 @@
     "narrative_perspective": "Multiple",
     "themes": "Family, War, Resilience, Secrets",
     "language": "English",
-    "awards": "New York Times Best Seller"
+    "awards": "New York Times Best Seller",
+    "type": "Novel"
   },
   "relationship": [
     {
-      "author_writes": "Kristin Hannah"
+      "instance_of": "novel"
     },
     {
-      "genre_includes": "Historical fiction"
+      "author": "Jessica Townsend"
     },
     {
-      "setting_location": "France"
+      "genre": "fantasy"
     },
     {
-      "setting_location": "United States"
+      "publication_date": "2017"
     },
     {
-      "influenced_by": "World War II"
+      "preceded_by": "Every Heart a Doorway"
     },
     {
-      "character_appears": "Odile De Valday"
+      "followed_by": "Lost and Found"
     },
     {
-      "character_appears": "Nora Remy"
+      "character": "Francesca Willow"
     },
     {
-      "preceding_event": "World War II"
+      "character": "Binz"
     },
     {
-      "related_to": "French Resistance"
+      "setting": "Nevermoor"
     },
     {
-      "publication_country": "United States"
+      "award_received": "British Fantasy Award"
     }
   ]
 }

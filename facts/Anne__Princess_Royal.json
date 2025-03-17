@@ -1,5 +1,5 @@
 {
-  "entity": "Anne, Princess Royal",
+  "entity": "Anne  Princess Royal",
   "properties": {
     "birth_date": "1950-08-15",
     "birth_place": "London",
@@ -10,38 +10,39 @@
     "spouse_1": "Mark Phillips",
     "spouse_2": "Timothy Laurence",
     "children": "2",
-    "order_of_precedence": "3"
+    "order_of_precedence": "3",
+    "type": "Royal"
   },
   "relationship": [
     {
-      "sibling": "Prince Charles"
+      "instance_of": "human"
     },
     {
-      "sibling": "Prince Andrew"
+      "parent_of": "Peter Phillips"
     },
     {
-      "sibling": "Prince Edward"
+      "parent_of": "Zara Tindall"
     },
     {
-      "parent": "Elizabeth II"
+      "sibling_of": "Prince Andrew, Duke of York"
     },
     {
-      "parent": "Prince Philip, Duke of Edinburgh"
+      "sibling_of": "Prince Edward, Duke of Edinburgh"
     },
     {
-      "spouse": "Mark Phillips"
+      "spouse_of": "Timothy Laurence"
     },
     {
-      "spouse": "Timothy Laurence"
+      "member_of": "British royal family"
     },
     {
-      "child": "Peter Phillips"
+      "child_of": "Prince Philip, Duke of Edinburgh"
     },
     {
-      "child": "Zara Tindall"
+      "child_of": "Elizabeth II"
     },
     {
-      "member_of": "British Royal Family"
+      "occupation": "member of the House of Commons"
     }
   ]
 }

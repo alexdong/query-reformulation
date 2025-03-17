@@ -10,38 +10,39 @@
     "currency": "AUD",
     "official_language": "English",
     "mayor": "Adrian Schrinner",
-    "established": "1824"
+    "established": "1824",
+    "type": "City"
   },
   "relationship": [
     {
-      "located_in": "Australia"
+      "located_in": "Queensland"
     },
     {
-      "is_a": "City"
+      "part_of": "Australia"
     },
     {
-      "river": "Brisbane River"
+      "has_population": "3,000,000"
     },
     {
-      "part_of": "Southeast Queensland"
+      "capital_of": "Queensland"
     },
     {
-      "near": "Gold Coast"
+      "has_river": "Brisbane River"
     },
     {
-      "near": "Sunshine Coast"
-    },
-    {
-      "has_sport_team": "Brisbane Broncos"
-    },
-    {
-      "has_sport_team": "Brisbane Roar"
+      "influenced_by": "Yugila people"
     },
     {
       "has_landmark": "Story Bridge"
     },
     {
-      "has_landmark": "South Bank Parklands"
+      "has_transport": "Brisbane Airport"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "has_economy": "Australian economy"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "writing_system": "Greek alphabet",
     "major_achievement": "Philosophy, Democracy, Art",
     "economic_system": "Agriculture, Trade",
-    "decline_reason": "Roman conquest"
+    "decline_reason": "Roman conquest",
+    "type": "Civilization"
   },
   "relationship": [
     {
-      "influenced": "Roman civilization"
+      "located_in": "Europe"
     },
     {
       "part_of": "Mediterranean world"
     },
     {
-      "located_in": "Europe"
+      "influenced": "Roman Empire"
     },
     {
-      "developed": "Democracy"
+      "influenced": "Western philosophy"
     },
     {
-      "worshipped": "Zeus"
+      "influenced": "Western art"
     },
     {
-      "wrote": "Iliad"
+      "influenced": "Western literature"
     },
     {
-      "wrote": "Odyssey"
+      "developed_by": "Ancient Greeks"
     },
     {
-      "city_state": "Athens"
+      "has_city": "Athens"
     },
     {
-      "city_state": "Sparta"
+      "has_city": "Sparta"
     },
     {
-      "war_with": "Persia"
+      "has_mythology": "Greek mythology"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "government_type": "Parliamentary republic",
     "largest_city": "Dhaka",
     "gini_index": "0.32",
-    "life_expectancy": "72.4 years"
+    "life_expectancy": "72.4 years",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Asia"
+    },
     {
       "part_of": "South Asia"
     },
     {
-      "borders": "India"
+      "has_border_with": "India"
     },
     {
-      "borders": "Myanmar"
+      "has_border_with": "Myanmar"
     },
     {
-      "located_in": "Bengal Delta"
+      "has_border_with": "West Bengal (Indian state)"
     },
     {
-      "influenced_by": "Bengali culture"
+      "influenced_by": "British Empire"
+    },
+    {
+      "created_by": "Pakistan (historical country)"
+    },
+    {
+      "has_official_language": "Bengali language"
+    },
+    {
+      "has_currency": "Bangladeshi taka"
     },
     {
       "member_of": "Commonwealth of Nations"
-    },
-    {
-      "member_of": "UN"
-    },
-    {
-      "river_flows_through": "Ganges"
-    },
-    {
-      "river_flows_through": "Brahmaputra"
-    },
-    {
-      "major_export": "Ready-made garments"
     }
   ]
 }

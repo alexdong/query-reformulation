@@ -10,38 +10,39 @@
     "coaching_style": "Strategic, Analytical",
     "height": "1.83 m",
     "retired": "2009",
-    "awards": "New Zealand Order of Merit"
+    "awards": "New Zealand Order of Merit",
+    "type": "Coach"
   },
   "relationship": [
     {
-      "coach_of": "New Zealand national rugby team"
+      "instance_of": "rugby coach"
     },
     {
-      "played_for": "Wellington"
+      "country_of_citizenship": "New Zealand"
     },
     {
-      "coached": "Canterbury"
+      "coach_of": "All Blacks"
     },
     {
-      "coached": "North Harbour"
+      "educated_at": "Victoria University of Wellington"
     },
     {
-      "influenced": "Steve Hansen"
+      "member_of": "New Zealand Order of Merit"
     },
     {
-      "influenced": "Ian Foster"
+      "award_received": "World Rugby Hall of Fame"
     },
     {
-      "member_of": "New Zealand Rugby Union"
+      "position_held": "Director of Rugby (Wales)"
     },
     {
-      "award_recipient_of": "New Zealand Order of Merit"
+      "sport_competitions": "Rugby World Cup"
     },
     {
-      "born_in": "Wellington, New Zealand"
+      "influenced_by": "Clive Woodward"
     },
     {
-      "played_in_league": "National Provincial Championship"
+      "coached": "Dan Carter"
     }
   ]
 }

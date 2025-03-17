@@ -1,7 +1,6 @@
 {
   "entity": "Ravensdown",
   "properties": {
-    "instance_of": "Cooperative",
     "industry": "Agricultural supplies",
     "location": "Palmerston North, New Zealand",
     "founded_date": "1976",
@@ -10,38 +9,39 @@
     "employee_count": "Approximately 1,300",
     "revenue": "NZD $600 million (approx. 2023)",
     "legal_form": "Co-operative Limited",
-    "headquarters_location": "New Zealand"
+    "headquarters_location": "New Zealand",
+    "type": "Cooperative"
   },
   "relationship": [
     {
-      "parent_organization": "Federated Farmers of New Zealand"
+      "instance_of": "agricultural_supply_company"
     },
     {
-      "industry_sector": "Agriculture"
+      "headquarters_location": "Christchurch"
     },
     {
-      "country": "New Zealand"
+      "industry": "agriculture"
     },
     {
-      "provides_service_to": "Farmers"
+      "parent_organization": "Fonterra"
     },
     {
-      "competitor": "Ballance Agri-Nutrients"
+      "service_area": "New Zealand"
     },
     {
-      "product": "Fertilizer"
+      "product": "fertilizer"
     },
     {
-      "product": "Animal feed"
+      "product": "animal_nutrition"
     },
     {
-      "subsidiary_of": "None"
+      "service": "agricultural_consulting"
     },
     {
-      "location_in": "Manawatu-Wanganui Region"
+      "subsidiary_of": "Co-operative Banks"
     },
     {
-      "has_employee": "Employee"
+      "regulates": "New Zealand_environment"
     }
   ]
 }

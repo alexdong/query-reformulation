@@ -10,38 +10,39 @@
     "cuisine": "Hangi, Pavlova, Fish and Chips",
     "geography": "Island nation, diverse landscapes",
     "history": "Māori settlement, British colonization",
-    "population": "5.1 million"
+    "population": "5.1 million",
+    "type": "CulturalIdentity"
   },
   "relationship": [
     {
-      "influenced_by": "Māori culture"
+      "located_in": "Oceania"
     },
     {
-      "influenced_by": "British colonialism"
+      "part_of": "Earth"
     },
     {
-      "part_of": "Oceania"
+      "has_culture": "Māori culture"
     },
     {
-      "capital": "Wellington"
+      "influenced_by": "British Empire"
     },
     {
-      "governed_by": "Parliament of New Zealand"
+      "has_language": "Te Reo Māori"
     },
     {
-      "national_anthem": "God Defend New Zealand"
+      "has_language": "New Zealand English"
     },
     {
-      "associated_with": "Lord of the Rings (film)"
+      "has_national_symbol": "Silver Fern"
     },
     {
-      "influenced": "Australian Identity"
+      "has_national_symbol": "Kākāpō"
     },
     {
-      "trade_partner": "China"
+      "created_by": "Treaty of Waitangi"
     },
     {
-      "member_of": "Commonwealth of Nations"
+      "associated_with": "ANZAC"
     }
   ]
 }

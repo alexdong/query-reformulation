@@ -10,38 +10,39 @@
     "ornamentation": "Bracketed cornices, window hoods",
     "roof_shape": "Gabled or hipped",
     "typical_height": "Two to three stories",
-    "geographic_spread": "Worldwide"
+    "geographic_spread": "Worldwide",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
-    {
-      "influenced": "Second Empire architecture"
-    },
-    {
-      "influenced_by": "Palladianism"
-    },
-    {
-      "predecessor": "Neoclassical architecture"
-    },
-    {
-      "example_location": "United States"
-    },
-    {
-      "example_location": "United Kingdom"
-    },
     {
       "architectural_style": "Renaissance architecture"
     },
     {
-      "architect": "Andrew Jackson Downing"
+      "influenced": "Neoclassical architecture"
     },
     {
-      "architect": "Calvert Vaux"
+      "example_of": "Architectural style"
     },
     {
-      "building_type": "Villa"
+      "associated_with": "Italy"
     },
     {
-      "building_type": "Townhouse"
+      "characterized_by": "Classical orders"
+    },
+    {
+      "influenced": "Baroque architecture"
+    },
+    {
+      "used_in": "Palace"
+    },
+    {
+      "used_in": "Church"
+    },
+    {
+      "associated_with_period": "Renaissance"
+    },
+    {
+      "has_feature": "Pilaster"
     }
   ]
 }

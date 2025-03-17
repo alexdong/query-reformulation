@@ -10,38 +10,39 @@
     "climate": "Mediterranean",
     "currency": "Euro",
     "historical_period": "Al-Andalus",
-    "major_river": "Guadalquivir"
+    "major_river": "Guadalquivir",
+    "type": "Region"
   },
   "relationship": [
+    {
+      "located_in": "Iberian Peninsula"
+    },
     {
       "part_of": "Spain"
     },
     {
-      "borders": "Extremadura"
+      "has_region_type": "autonomous community"
     },
     {
-      "borders": "Castile-La Mancha"
+      "borders": "Portugal"
     },
     {
       "borders": "Murcia"
     },
     {
+      "borders": "Castilla-La Mancha"
+    },
+    {
+      "borders": "Extremadura"
+    },
+    {
+      "has_capital": "Seville"
+    },
+    {
       "influenced_by": "Al-Andalus"
     },
     {
-      "contains": "Seville"
-    },
-    {
-      "contains": "Granada"
-    },
-    {
-      "contains": "Cordoba"
-    },
-    {
-      "has_landmark": "Mezquita-Cathedral"
-    },
-    {
-      "has_landmark": "Alhambra"
+      "has_historical_period": "Reconquista"
     }
   ]
 }

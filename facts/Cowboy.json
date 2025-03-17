@@ -10,38 +10,39 @@
     "time_period": "19th century",
     "iconic_tool": "Lariat",
     "social_status": "Varies",
-    "image": "Western aesthetic"
+    "image": "Western aesthetic",
+    "type": "Occupation"
   },
   "relationship": [
     {
-      "works_with": "Cattle"
+      "instance_of": "human"
     },
     {
-      "associated_with": "Frontier"
+      "occupation": "cattle herder"
     },
     {
-      "part_of": "Western genre"
+      "uses": "horse"
+    },
+    {
+      "part_of": "Western culture"
+    },
+    {
+      "associated_with": "ranch"
+    },
+    {
+      "uses": "lasso"
+    },
+    {
+      "wields": "firearm"
     },
     {
       "depicted_in": "Western film"
     },
     {
-      "influenced_by": "Vaquero"
+      "associated_with_event": "cattle drive"
     },
     {
-      "related_to": "Ranching"
-    },
-    {
-      "often_features": "Sheriff"
-    },
-    {
-      "symbolizes": "Independence"
-    },
-    {
-      "role_in": "American mythology"
-    },
-    {
-      "often_faces": "Outlaws"
+      "member_of": "cowboy band"
     }
   ]
 }

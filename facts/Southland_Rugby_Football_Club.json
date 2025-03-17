@@ -10,38 +10,39 @@
     "home_ground": "Rugby Park",
     "competition": "National Provincial Championship",
     "colours": "Maroon and White",
-    "status": "Amateur"
+    "status": "Amateur",
+    "type": "SportsClub"
   },
   "relationship": [
     {
-      "part_of": "New Zealand rugby"
+      "instance_of": "rugby club"
     },
     {
-      "located_in": "Invercargill City"
+      "located_in": "Los Angeles County"
     },
     {
-      "plays_in": "National Provincial Championship Division 1"
+      "subclass_of": "sports club"
     },
     {
-      "rivalry_with": "Otago Rugby Football Union"
+      "member_of": "USA Rugby"
     },
     {
-      "member_of": "Southland Rugby Football Union"
+      "plays_in": "Major League Rugby"
     },
     {
-      "coach": "Rob Hall"
+      "founded_by": "Southland Rugby Football Club founders"
     },
     {
-      "player_plays_for": "Mitchell Young"
+      "has_coach": "Southland Rugby Football Club coaches"
     },
     {
-      "player_plays_for": "Willo Bremner"
+      "has_player": "Southland Rugby Football Club players"
     },
     {
-      "influenced_by": "New Zealand Rugby Football Union"
+      "sponsored_by": "Southland Rugby Football Club sponsors"
     },
     {
-      "historical_event": "1885 founding"
+      "has_venue": "Southland Rugby Football Club home ground"
     }
   ]
 }

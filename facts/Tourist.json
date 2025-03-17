@@ -1,7 +1,6 @@
 {
   "entity": "Tourist",
   "properties": {
-    "instance_of": "Person",
     "motivation": "Leisure, Exploration",
     "activity": "Travel",
     "demographic": "Variable",
@@ -10,38 +9,39 @@
     "destination": "Variable",
     "duration": "Variable",
     "spending": "Variable",
-    "impact_on_culture": "Variable"
+    "impact_on_culture": "Variable",
+    "type": "Person"
   },
   "relationship": [
     {
-      "visits": "Tourist_attraction"
+      "has_destination": "Tourist_attraction"
+    },
+    {
+      "participates_in": "Event"
     },
     {
       "travels_to": "Country"
     },
     {
+      "stays_at": "Hotel"
+    },
+    {
       "uses": "Transportation"
     },
     {
-      "stays_in": "Accommodation"
+      "purchases": "Goods"
     },
     {
       "consumes": "Food"
     },
     {
-      "purchases": "Souvenir"
+      "visits": "Museum"
     },
     {
-      "influenced_by": "Travel Agency"
+      "experiences": "Cultural_activity"
     },
     {
-      "impacts": "Local Economy"
-    },
-    {
-      "experiences": "Culture"
-    },
-    {
-      "generates": "Tourism Revenue"
+      "interacts_with": "Local_resident"
     }
   ]
 }

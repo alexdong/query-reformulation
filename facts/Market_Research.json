@@ -10,38 +10,39 @@
     "cost": "Variable, depends on scope",
     "reporting": "Analysis & Recommendations",
     "timeline": "Variable, from days to months",
-    "benefit": "Informed decision-making"
+    "benefit": "Informed decision-making",
+    "type": "Research"
   },
   "relationship": [
     {
-      "uses": "Statistics"
+      "has_topic": "Consumer behavior"
     },
     {
-      "employs": "Sampling"
+      "uses": "Statistical analysis"
     },
     {
-      "related_to": "Marketing"
+      "produces": "Market report"
     },
     {
-      "informs": "Business Strategy"
+      "employs": "Market researcher"
     },
     {
-      "requires": "Data Analysis"
+      "is_a": "Business function"
     },
     {
-      "overlaps_with": "Consumer Research"
+      "analyzes": "Target market"
     },
     {
-      "utilizes": "Surveys"
+      "informs": "Marketing strategy"
     },
     {
-      "analyzes": "Customer Behavior"
+      "requires": "Data collection"
     },
     {
-      "impacts": "Product Development"
+      "uses_method": "Survey"
     },
     {
-      "supports": "Competitive Analysis"
+      "is_subfield_of": "Social science"
     }
   ]
 }

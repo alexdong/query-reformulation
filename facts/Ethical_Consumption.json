@@ -10,38 +10,39 @@
     "related_concept": "Sustainable Development",
     "impact_area": "Labor practices, environmental protection",
     "consumer_behavior": "Intentional purchasing",
-    "economic_impact": "Supports ethical businesses"
+    "economic_impact": "Supports ethical businesses",
+    "type": "Behavior"
   },
   "relationship": [
     {
-      "part_of": "Consumerism"
+      "instance_of": "Sustainable_consumption"
     },
     {
-      "related_to": "Fair Trade"
+      "related_to": "Consumerism"
     },
     {
-      "supports": "Sustainable Development Goals"
+      "motivated_by": "Ethical_values"
     },
     {
-      "impacts": "Labor Standards"
+      "promotes": "Fair_trade"
     },
     {
-      "influences": "Supply Chain Management"
+      "supports": "Environmental_protection"
     },
     {
-      "promotes": "Environmental Sustainability"
+      "impacts": "Supply_chain"
     },
     {
-      "overlaps_with": "Socially Responsible Investing"
+      "requires": "Consumer_awareness"
     },
     {
-      "requires": "Transparency"
+      "influences": "Corporate_social_responsibility"
     },
     {
-      "challenges": "Greenwashing"
+      "part_of": "Sustainable_development"
     },
     {
-      "linked_to": "Consumer Rights"
+      "associated_with": "Social_responsibility"
     }
   ]
 }

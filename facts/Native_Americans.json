@@ -10,38 +10,39 @@
     "treaties": "Numerous, often broken",
     "land_ownership": "Historically dispossessed",
     "sovereignty": "Tribal sovereignty recognized",
-    "federally_recognized_tribes": "574 (US)"
+    "federally_recognized_tribes": "574 (US)",
+    "type": "PopulatedPlace"
   },
   "relationship": [
     {
-      "ancestor": "Paleo-Indians"
-    },
-    {
-      "related_to": "Indigenous peoples"
-    },
-    {
-      "influenced": "American culture"
-    },
-    {
-      "affected_by": "Colonialism"
+      "part_of": "Indigenous peoples"
     },
     {
       "located_in": "North America"
     },
     {
-      "located_in": "Central America"
+      "has_culture": "Native American culture"
     },
     {
-      "located_in": "South America"
+      "related_to": "Tribes"
     },
     {
-      "movement": "Trail of Tears"
+      "influenced_by": "European colonization"
     },
     {
-      "event": "Wounded Knee Massacre"
+      "has_language": "Native American languages"
     },
     {
-      "organization": "National Congress of American Indians"
+      "has_religion": "Indigenous religions"
+    },
+    {
+      "has_artifact": "Native American art"
+    },
+    {
+      "affected_by": "Indian Removal Act"
+    },
+    {
+      "related_to": "Treaties"
     }
   ]
 }

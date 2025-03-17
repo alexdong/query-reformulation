@@ -10,38 +10,39 @@
     "distribution": "New Zealand",
     "plumage": "Blue-grey, black markings",
     "threats": "Introduced predators, habitat loss",
-    "average_lifespan": "12-24 years"
+    "average_lifespan": "12-24 years",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "is_a": "Falcon"
+      "instance_of": "bird"
     },
     {
-      "family": "Falconidae"
+      "taxon": "Falconidae"
     },
     {
-      "native_to": "New Zealand"
+      "has_conservation_status": "Least Concern"
     },
     {
-      "prey_on": "Grey fantail"
+      "natural_habitat": "New Zealand"
     },
     {
-      "prey_on": "Weka"
+      "prey": "Rodent"
     },
     {
-      "threatened_by": "Stoat"
+      "prey": "Bird"
     },
     {
-      "threatened_by": "Feral cat"
+      "part_of": "New Zealand ecosystem"
     },
     {
-      "conservation_effort": "Recovery Program"
+      "interacts_with": "Kererū"
     },
     {
-      "part_of_ecosystem": "New Zealand ecosystem"
+      "threatened_by": "introduced_species"
     },
     {
-      "related_to": "Kererū"
+      "has_feature": "wings"
     }
   ]
 }

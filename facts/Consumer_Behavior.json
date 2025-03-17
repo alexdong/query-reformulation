@@ -10,38 +10,39 @@
     "models": "Decision-making models",
     "data_sources": "Surveys, Experiments",
     "key_concepts": "Motivation, Perception, Learning",
-    "application": "Marketing Strategy"
+    "application": "Marketing Strategy",
+    "type": "SocialScience"
   },
   "relationship": [
     {
       "influenced_by": "Psychology"
     },
     {
-      "related_to": "Marketing"
+      "influenced_by": "Sociology"
     },
     {
-      "uses": "Decision-making models"
+      "part_of": "Marketing"
+    },
+    {
+      "affects": "Purchase Decision"
+    },
+    {
+      "affected_by": "Culture"
+    },
+    {
+      "affected_by": "Social Media"
+    },
+    {
+      "influenced_by": "Economics"
+    },
+    {
+      "related_to": "Consumer Psychology"
     },
     {
       "impacts": "Brand Loyalty"
     },
     {
-      "affects": "Purchase Intention"
-    },
-    {
-      "studies": "Consumer Psychology"
-    },
-    {
-      "analyzes": "Customer Journey"
-    },
-    {
-      "involves": "Cognitive Bias"
-    },
-    {
-      "impacts": "Sales"
-    },
-    {
-      "related_to": "Neuromarketing"
+      "affected_by": "Advertising"
     }
   ]
 }

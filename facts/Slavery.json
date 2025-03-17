@@ -10,35 +10,36 @@
     "common_commodities": "Agricultural products, minerals",
     "affected_population": "Millions",
     "peak_period": "17th-19th centuries",
-    "abolition_date": "Varies by region"
+    "abolition_date": "Varies by region",
+    "type": "SocialInstitution"
   },
   "relationship": [
     {
-      "caused_by": "Economic demand"
+      "instance_of": "Human activity"
     },
     {
-      "related_to": "Transatlantic slave trade"
+      "caused_by": "Economic inequality"
     },
     {
-      "influenced": "Abolitionism"
+      "opposed_by": "Abolitionism"
     },
     {
-      "oppressed": "Enslaved people"
+      "resulted_in": "Social unrest"
     },
     {
-      "resulted_in": "Rebellions"
+      "preceded_by": "Raiding"
     },
     {
-      "associated_with": "Plantation system"
+      "justified_by": "Ideology"
     },
     {
-      "impacted": "African diaspora"
+      "affected": "Enslaved people"
     },
     {
-      "legislation": "Missouri Compromise"
+      "perpetrated_by": "Slave traders"
     },
     {
-      "legislation": "Emancipation Proclamation"
+      "part_of": "Historical events"
     },
     {
       "related_to": "Indentured servitude"

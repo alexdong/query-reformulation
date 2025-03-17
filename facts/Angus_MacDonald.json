@@ -10,38 +10,39 @@
     "weight": "77 kg",
     "foot": "Right",
     "jersey_number": "9",
-    "playing_style": "Pace & Finishing"
+    "playing_style": "Pace & Finishing",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "club_team": "Partick Thistle"
+      "instance_of": "human"
     },
     {
-      "club_team": "St Mirren"
+      "occupation": "Scottish footballer"
     },
     {
-      "club_team": "Hull City"
+      "team": "FC Barcelona"
     },
     {
-      "club_team": "Plymouth Argyle"
+      "birthPlace": "Mossblown, South Ayrshire"
     },
     {
-      "league": "English Football League"
+      "country_of_citizenship": "Scotland"
     },
     {
-      "country": "Scotland"
+      "plays_for": "St Mirren F.C."
     },
     {
-      "country": "England"
+      "educated_at": "Queen's College, Taunton"
     },
     {
-      "plays_for_national_team": "Scotland national football team"
+      "sibling": "Ryan MacDonald"
     },
     {
-      "manager": "Paul Tisdale"
+      "member_of": "Scottish national football team"
     },
     {
-      "competed_in": "Scottish Premiership"
+      "position": "Forward (footballer)"
     }
   ]
 }

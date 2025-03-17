@@ -10,38 +10,39 @@
     "related_to": "Appellation",
     "subject_of": "Wine appreciation",
     "cultural_significance": "French culture",
-    "intangible_factor": "True"
+    "intangible_factor": "True",
+    "type": "GeographicArea"
   },
   "relationship": [
     {
-      "is_a": "Agricultural concept"
+      "instance_of": "natural_region"
     },
     {
-      "influences": "Viticulture"
+      "located_in": "geographic_area"
     },
     {
-      "related_to": "Wine"
+      "produces": "agricultural_product"
     },
     {
-      "part_of": "Wine region"
+      "influences": "wine"
     },
     {
-      "affects": "Grape variety"
+      "characterized_by": "soil"
     },
     {
-      "impacts": "Soil"
+      "characterized_by": "climate"
     },
     {
-      "impacts": "Climate"
+      "influenced_by": "geology"
     },
     {
-      "impacts": "Topography"
+      "part_of": "landscape"
     },
     {
-      "associated_with": "Appellation"
+      "has_property": "topography"
     },
     {
-      "describes": "Agricultural product"
+      "associated_with": "agricultural_practice"
     }
   ]
 }

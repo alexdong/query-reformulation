@@ -1,7 +1,6 @@
 {
   "entity": "Computer Networking",
   "properties": {
-    "instance_of": "Technology",
     "field_of_study": "Computer Science",
     "purpose": "Data Communication",
     "layer_model": "OSI Model",
@@ -10,38 +9,39 @@
     "topologies": "Bus, Star, Ring",
     "security_concern": "Cybersecurity",
     "bandwidth_unit": "Gbps",
-    "device_example": "Router"
+    "device_example": "Router",
+    "type": "Technology"
   },
   "relationship": [
     {
-      "uses": "Internet"
+      "instance_of": "Communication network"
     },
     {
-      "relies_on": "Protocols"
+      "subclass_of": "Distributed computing"
     },
     {
-      "improves": "Data Transfer"
+      "used_for": "Data transmission"
     },
     {
-      "requires": "Network Hardware"
+      "has_property": "TCP/IP"
     },
     {
-      "influenced_by": "Packet Radio"
+      "has_protocol": "Ethernet"
     },
     {
-      "part_of": "Information Technology"
+      "related_to": "Network topology"
     },
     {
-      "uses": "Ethernet"
+      "used_by": "Internet"
     },
     {
-      "uses": "Wireless Networking"
+      "has_application": "Cloud computing"
     },
     {
-      "related_to": "Cloud Computing"
+      "part_of": "Information technology"
     },
     {
-      "impacts": "Digital Communication"
+      "studied_in": "Computer science"
     }
   ]
 }

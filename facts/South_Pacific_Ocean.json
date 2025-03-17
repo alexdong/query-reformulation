@@ -10,20 +10,21 @@
     "temperature": "Varies, generally cooler",
     "major_currents": "East Australian Current, Peru Current, Humboldt Current",
     "is_part_of": "Pacific Ocean",
-    "contains": "Numerous islands"
+    "contains": "Numerous islands",
+    "type": "Ocean"
   },
   "relationship": [
     {
-      "borders": "Australia"
+      "located_in": "Earth"
     },
     {
-      "borders": "New Zealand"
+      "part_of": "Pacific Ocean"
     },
     {
-      "borders": "South America"
+      "adjacent_to": "Australia"
     },
     {
-      "borders": "Antarctica"
+      "adjacent_to": "New Zealand"
     },
     {
       "contains": "Fiji"
@@ -35,13 +36,13 @@
       "contains": "Tonga"
     },
     {
-      "part_of": "Pacific Ocean"
+      "has_feature": "Mariana Trench"
     },
     {
-      "influenced_by": "El Niño"
+      "has_feature": "Fiji Islands"
     },
     {
-      "impacts": "Climate of Oceania"
+      "influenced_by": "El Niño–Southern Oscillation"
     }
   ]
 }

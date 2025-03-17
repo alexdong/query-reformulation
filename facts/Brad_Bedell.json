@@ -10,38 +10,39 @@
     "field": "Computer Science",
     "expertise": "API Design",
     "github_username": "bradbenio",
-    "website": "bradbenio.com"
+    "website": "bradbenio.com",
+    "type": "Musician"
   },
   "relationship": [
     {
-      "developed": "GraphQL"
+      "instance_of": "musician"
     },
     {
-      "works_at": "Google"
+      "occupation": "composer"
     },
     {
-      "alumnus_of": "University of Illinois at Urbana-Champaign"
+      "member_of": "The Used"
     },
     {
-      "contributor_to": "GraphQL Foundation"
+      "sibling_of": "Matt Bedell"
     },
     {
-      "authored": "GraphQL Specification"
+      "influenced_by": "Philip Glass"
     },
     {
-      "influences": "API Design"
+      "educated_at": "University of Utah"
     },
     {
-      "speaker_at": "GraphQL Summit"
+      "genre": "experimental music"
     },
     {
-      "mentor_of": "GraphQL Community"
+      "instrument": "piano"
     },
     {
-      "collaborated_with": "Facebook"
+      "record_label": "Sub Pop"
     },
     {
-      "promoted": "API Standards"
+      "collaborator": "Tim Bernardeson"
     }
   ]
 }

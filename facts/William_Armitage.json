@@ -10,38 +10,39 @@
     "title": "Vicar",
     "influenced_by": "John Henry Newman",
     "writing_style": "Theological",
-    "known_for": "Theology and Church History"
+    "known_for": "Theology and Church History",
+    "type": "TelevisionCharacter"
   },
   "relationship": [
     {
-      "educated_at": "Keble College, Oxford"
+      "instance_of": "human"
     },
     {
-      "member_of": "Church of England"
+      "occupation": "British intelligence officer"
     },
     {
-      "influenced": "Anglican theology"
+      "member_of": "British Secret Intelligence Service"
     },
     {
-      "wrote_about": "Church history"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "preceded_by": "John Armitage (father)"
+      "place_of_birth": "London"
     },
     {
-      "succeeded_by": "Successor (unknown)"
+      "employed_by": "Committee of Imperial Defence"
     },
     {
-      "located_in": "Oxfordshire"
+      "field_of_work": "cryptography"
     },
     {
-      "served_as": "Vicar of St. Michael's Church, Oxford"
+      "influenced_by": "Alan Turing"
     },
     {
-      "wrote": "The History of the Oxford Diocesan Church Society"
+      "collaborated_with": "Hugh Alexander"
     },
     {
-      "contributed_to": "Anglican Church"
+      "involved_in": "Bletchley Park"
     }
   ]
 }

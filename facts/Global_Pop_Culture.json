@@ -10,38 +10,39 @@
     "characteristic": "Rapid Change, Viral Spread",
     "influence": "Local Cultures",
     "example": "K-Pop, TikTok",
-    "measurement": "Social Media Engagement"
+    "measurement": "Social Media Engagement",
+    "type": "CulturalPhenomenon"
   },
   "relationship": [
     {
-      "influenced_by": "Americanization"
+      "influenced_by": "Western Civilization"
     },
     {
-      "impacts": "Consumerism"
+      "part_of": "Human Culture"
     },
     {
-      "related_to": "Mass Media"
+      "created_by": "Media Industry"
     },
     {
-      "promotes": "Celebrity Culture"
+      "related_to": "Globalization"
     },
     {
-      "driven_by": "Social Media"
+      "impacts": "Social Trends"
     },
     {
-      "overlaps_with": "Youth Culture"
+      "manifests_in": "Music"
     },
     {
-      "fosters": "Fan Communities"
+      "manifests_in": "Film"
     },
     {
-      "impacts": "Language"
+      "manifests_in": "Television"
     },
     {
-      "related_to": "Cultural Exchange"
+      "manifests_in": "Fashion"
     },
     {
-      "shaped_by": "Technological Innovation"
+      "related_to": "Internet"
     }
   ]
 }

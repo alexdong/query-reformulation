@@ -1,7 +1,6 @@
 {
   "entity": "Paleontologist",
   "properties": {
-    "instance_of": "Scientist",
     "field_of_study": "Paleontology",
     "primary_focus": "Fossil study",
     "tools_used": "Excavation tools",
@@ -10,38 +9,39 @@
     "related_field": "Geology",
     "data_analyzed": "Fossil record",
     "goal": "Understand past life",
-    "work_environment": "Field/Lab"
+    "work_environment": "Field/Lab",
+    "type": "Scientist"
   },
   "relationship": [
     {
-      "studies": "Fossils"
+      "works_for": "University"
     },
     {
-      "collaborates_with": "Geologists"
+      "studies": "Fossil"
+    },
+    {
+      "researches": "Extinct species"
     },
     {
       "analyzes": "Sedimentary rock"
     },
     {
-      "contributes_to": "Scientific literature"
+      "excavates": "Fossil site"
     },
     {
-      "excavates": "Fossil sites"
+      "employs": "Field assistant"
     },
     {
-      "identifies": "Extinct species"
+      "collaborates_with": "Geologist"
     },
     {
-      "researches": "Evolution"
+      "writes": "Scientific publication"
     },
     {
-      "works_at": "University"
+      "uses_tool": "Trowel"
     },
     {
-      "related_to": "Stratigraphy"
-    },
-    {
-      "discovers": "New species"
+      "studies_subject": "Paleontology"
     }
   ]
 }

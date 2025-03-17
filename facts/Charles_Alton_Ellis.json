@@ -10,38 +10,39 @@
     "nationality": "American",
     "pseudonym": "Ross Hanes",
     "education": "University of Tennessee",
-    "known_for": "The Stormchasers"
+    "known_for": "The Stormchasers",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "influenced": "Science fiction literature"
+      "instance_of": "theologian"
     },
     {
-      "author_of": "The Stormchasers"
+      "member_of": "Christian Mysticism"
     },
     {
-      "author_of": "The Phantom City"
+      "influenced_by": "Swedenborgianism"
     },
     {
-      "author_of": "The Coming of the Space Eagles"
+      "author_of": "Outline of a New Age"
     },
     {
-      "genre_includes": "Science fiction"
+      "influenced": "Theosophical Society"
     },
     {
-      "genre_includes": "Fantasy"
+      "member_of": "Ancient Mystical Order Rosae Crucis"
     },
     {
-      "influenced_by": "Pulp magazines"
+      "founder_of": "The Builders of the New Age"
     },
     {
-      "worked_at": "Argosy Magazine"
+      "educated_at": "University of Mississippi"
     },
     {
-      "attended": "University of Tennessee"
+      "birth_place": "Pontotoc, Mississippi"
     },
     {
-      "preceded_by": "Pulp fiction era"
+      "death_place": "Los Angeles, California"
     }
   ]
 }

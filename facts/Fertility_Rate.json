@@ -10,38 +10,39 @@
     "time_period": "Annual",
     "data_source": "United Nations",
     "indicator_type": "Population Indicator",
-    "relevance": "Sustainable Development Goals"
+    "relevance": "Sustainable Development Goals",
+    "type": "Demographic"
   },
   "relationship": [
     {
-      "impacts": "Population Growth"
+      "instance_of": "Demographic_indicator"
     },
     {
-      "related_to": "Total Fertility Rate"
+      "is_a": "Population_trend"
     },
     {
-      "influenced_by": "Contraception"
+      "influenced_by": "Healthcare_system"
     },
     {
-      "correlated_with": "Life Expectancy"
+      "affected_by": "Economic_conditions"
     },
     {
-      "affects": "Ageing Population"
+      "correlated_with": "Life_expectancy"
     },
     {
-      "impacts": "Labor Force"
+      "influenced_by": "Education_level"
     },
     {
-      "related_to": "Demographic Transition"
+      "affected_by": "Government_policy"
     },
     {
-      "influenced_by": "Women's Empowerment"
+      "related_to": "Birth_rate"
     },
     {
-      "impacts": "Economic Development"
+      "related_to": "Mortality_rate"
     },
     {
-      "measured_in": "World Bank"
+      "measured_in": "Births_per_woman"
     }
   ]
 }

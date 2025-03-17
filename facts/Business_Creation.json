@@ -11,38 +11,39 @@
     "key_factors": "Innovation, Market Need, Execution",
     "legal_structures": "Sole Proprietorship, Partnership, Corporation",
     "risk_assessment": "Identifying and mitigating potential risks",
-    "business_model": "Value Proposition, Customer Segments, Revenue Streams"
+    "business_model": "Value Proposition, Customer Segments, Revenue Streams",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "requires": "Entrepreneurship"
+      "instance_of": "Business"
     },
     {
-      "leads_to": "Business Venture"
+      "has_creator": "Entrepreneur"
     },
     {
-      "influenced_by": "Economic Conditions"
+      "part_of": "Economic Activity"
     },
     {
-      "part_of": "Innovation Process"
+      "requires": "Funding"
     },
     {
-      "requires": "Market Analysis"
+      "results_in": "Job Creation"
     },
     {
-      "involves": "Financial Planning"
+      "involves": "Market"
     },
     {
-      "governed_by": "Business Law"
+      "requires": "Business Plan"
     },
     {
-      "impacts": "Job Creation"
+      "subject_to": "Legal Framework"
     },
     {
-      "supports": "Economic Growth"
+      "leads_to": "Revenue"
     },
     {
-      "related_to": "Startup"
+      "depends_on": "Resources"
     }
   ]
 }

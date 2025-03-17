@@ -1,7 +1,6 @@
 {
   "entity": "Cent",
   "properties": {
-    "instance_of": "Currency",
     "country": "Australia",
     "denomination": "1/100 Dollar",
     "metal": "Copper-Nickel",
@@ -10,38 +9,39 @@
     "obverse_image": "Queen Elizabeth II",
     "reverse_image": "Southern Antechinus",
     "introduction_year": "1964",
-    "color": "Bronze"
+    "color": "Bronze",
+    "type": "Currency"
   },
   "relationship": [
     {
-      "part_of": "Australian Dollar"
+      "instance_of": "Currency"
     },
     {
-      "currency_code": "AUD"
+      "unit_of": "Euro"
     },
     {
-      "issuer": "Reserve Bank of Australia"
+      "unit_of": "British pound"
     },
     {
-      "depicted_animal": "Southern Antechinus"
+      "unit_of": "United States dollar"
     },
     {
-      "designed_by": "Stuart Devlin"
+      "used_in": "Finance"
     },
     {
-      "preceded_by": "Australian Shilling"
+      "related_to": "Metric system"
     },
     {
-      "succeeded_by": "5 Cent Coin"
+      "related_to": "Decimal"
     },
     {
-      "value_compared_to": "10 Cents"
+      "defined_in": "International System of Units"
     },
     {
-      "minted_at": "Royal Australian Mint"
+      "symbol": "cent"
     },
     {
-      "legal_tender_in": "Australia"
+      "value": "1/100"
     }
   ]
 }

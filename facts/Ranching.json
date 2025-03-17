@@ -1,7 +1,6 @@
 {
   "entity": "Ranching",
   "properties": {
-    "instance_of": "Agricultural practice",
     "location": "Western United States, Argentina, Australia",
     "primary_product": "Beef",
     "land_area": "Large",
@@ -10,38 +9,39 @@
     "grazing_method": "Extensive",
     "animal_type": "Cattle",
     "water_source": "Wells, Rivers, Ponds",
-    "historical_origin": "Spanish Colonialism"
+    "historical_origin": "Spanish Colonialism",
+    "type": "Agricultural practice"
   },
   "relationship": [
     {
-      "part_of": "Agriculture"
+      "instance_of": "agricultural_activity"
     },
     {
-      "related_to": "Cattle ranching"
+      "located_in": "grassland"
     },
     {
-      "requires": "Pasture"
+      "part_of": "agriculture"
     },
     {
-      "produces": "Beef"
+      "uses": "cattle"
     },
     {
-      "employs": "Cowboy"
+      "produces": "beef"
     },
     {
-      "influenced_by": "Cattle drives"
+      "requires": "pasture"
     },
     {
-      "associated_with": "Western culture"
+      "employs": "ranch_hand"
     },
     {
-      "impacts": "Ecosystem"
+      "influenced_by": "cattle_industry"
     },
     {
-      "requires": "Livestock management"
+      "associated_with": "western_culture"
     },
     {
-      "related_to": "Range management"
+      "related_to": "land_management"
     }
   ]
 }

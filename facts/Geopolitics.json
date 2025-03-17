@@ -10,38 +10,39 @@
     "methodology": "Geographic analysis",
     "influences": "Geography, History, Political Economy",
     "prominent_thinker": "Rudolf Kjellén",
-    "scope": "Global scale"
+    "scope": "Global scale",
+    "type": "PoliticalScience"
   },
   "relationship": [
     {
-      "influences": "International relations"
+      "instance_of": "Political science"
     },
     {
-      "related_to": "Geography"
+      "part_of": "International relations"
     },
     {
-      "overlaps_with": "Geostrategy"
+      "influences": "Foreign policy"
     },
     {
-      "analyzes": "Nation-states"
+      "influences": "National security"
     },
     {
-      "examines": "Borders"
+      "related_to": "International law"
     },
     {
-      "impacts": "Foreign policy"
+      "related_to": "Diplomacy"
     },
     {
-      "studies": "Resource distribution"
+      "affects": "Global economy"
     },
     {
-      "considers": "Climate change"
+      "affects": "Military strategy"
     },
     {
-      "intersects_with": "Political geography"
+      "related_to": "History"
     },
     {
-      "influences": "Diplomacy"
+      "related_to": "Political geography"
     }
   ]
 }

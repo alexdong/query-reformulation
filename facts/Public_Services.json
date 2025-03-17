@@ -10,38 +10,39 @@
     "accountability": "Government & oversight bodies",
     "impact": "Social and economic development",
     "accessibility": "Universal or targeted",
-    "regulation": "Governmental laws and policies"
+    "regulation": "Governmental laws and policies",
+    "type": "Service"
   },
   "relationship": [
+    {
+      "provided_by": "Government"
+    },
     {
       "funded_by": "Taxation"
     },
     {
-      "provided_to": "Citizens"
+      "operates_in": "Jurisdiction"
     },
     {
-      "governed_by": "Government"
+      "provides": "Public_utility"
     },
     {
-      "includes": "Healthcare"
+      "regulates": "Industry"
     },
     {
-      "includes": "Education"
+      "employs": "Public_employee"
     },
     {
-      "includes": "Infrastructure"
+      "governed_by": "Government_agency"
     },
     {
-      "impacts": "Economy"
+      "subject_to": "Law"
     },
     {
-      "impacts": "Society"
+      "aims_to_improve": "Quality_of_life"
     },
     {
-      "regulated_by": "Governmental Agencies"
-    },
-    {
-      "part_of": "State"
+      "part_of": "Economy"
     }
   ]
 }

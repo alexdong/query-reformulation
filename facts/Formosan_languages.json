@@ -10,14 +10,21 @@
     "speakers": "Fewer than 500 total",
     "origin": "Austronesian migration",
     "language_family": "Austronesian",
-    "historical_significance": "Early Austronesian dispersal"
+    "historical_significance": "Early Austronesian dispersal",
+    "type": "LanguageFamily"
   },
   "relationship": [
     {
-      "part_of": "Austronesian languages"
+      "instance_of": "Austronesian languages"
     },
     {
-      "spoken_in": "Taiwan"
+      "part_of": "Taiwan"
+    },
+    {
+      "has_language_family": "Austronesian languages"
+    },
+    {
+      "related_to": "Taiwanese Hokkien"
     },
     {
       "related_to": "Amis language"
@@ -32,16 +39,10 @@
       "influenced_by": "Chinese languages"
     },
     {
-      "influenced": "Taiwanese Hokkien"
+      "has_speaker": "Taiwanese people"
     },
     {
-      "studied_by": "Linguistics"
-    },
-    {
-      "documentation_effort": "Endangered Languages Project"
-    },
-    {
-      "revitalization_effort": "Taiwanese government"
+      "has_writing_system": "Latin script"
     }
   ]
 }

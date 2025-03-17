@@ -10,38 +10,39 @@
     "form_of_government": "Federal parliamentary republic",
     "member_of": "European Union",
     "national_anthem": "Das Lied der Deutschen",
-    "largest_city": "Berlin"
+    "largest_city": "Berlin",
+    "type": "Country"
   },
   "relationship": [
     {
       "located_in": "Europe"
     },
     {
-      "borders": "France"
+      "part_of": "European_Union"
     },
     {
-      "borders": "Poland"
+      "member_of": "United_Nations"
     },
     {
-      "borders": "Czech Republic"
+      "has_capital": "Berlin"
     },
     {
-      "borders": "Austria"
+      "influenced_by": "Roman_Empire"
     },
     {
-      "borders": "Switzerland"
+      "has_leader": "Olaf_Scholz"
     },
     {
-      "borders": "Netherlands"
+      "borders_with": "France"
     },
     {
-      "borders": "Belgium"
+      "has_currency": "Euro"
     },
     {
-      "borders": "Denmark"
+      "has_historical_event": "German_Revolution_of_1848"
     },
     {
-      "influenced_by": "Roman Empire"
+      "has_language": "German_language"
     }
   ]
 }

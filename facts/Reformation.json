@@ -1,7 +1,6 @@
 {
   "entity": "Reformation",
   "properties": {
-    "instance_of": "Religious movement",
     "start_date": "1517",
     "end_date": "1648",
     "primary_region": "Europe",
@@ -10,17 +9,21 @@
     "religious_impact": "Protestantism",
     "political_impact": "Rise of nation-states",
     "social_impact": "Increased literacy, Religious conflict",
-    "related_concept": "Counter-Reformation"
+    "related_concept": "Counter-Reformation",
+    "type": "Religious movement"
   },
   "relationship": [
     {
       "preceded_by": "Late Medieval Period"
     },
     {
-      "influenced": "Protestant denominations"
+      "caused_by": "Renaissance"
     },
     {
-      "influenced": "Rise of nation-states"
+      "influenced_by": "Humanism"
+    },
+    {
+      "led_to": "Counter-Reformation"
     },
     {
       "involved": "Martin Luther"
@@ -29,19 +32,16 @@
       "involved": "John Calvin"
     },
     {
-      "involved": "Ulrich Zwingli"
-    },
-    {
-      "opposed_by": "Catholic Church"
-    },
-    {
-      "resulted_in": "Peace of Westphalia"
+      "influenced": "Protestantism"
     },
     {
       "affected": "Holy Roman Empire"
     },
     {
-      "influenced": "English Reformation"
+      "resulted_in": "Religious Wars"
+    },
+    {
+      "impacted": "Printing Press"
     }
   ]
 }

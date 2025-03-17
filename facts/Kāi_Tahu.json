@@ -10,38 +10,39 @@
     "treaty_partner": "British Crown",
     "traditional_occupation": "Fishing, Farming, Hunting",
     "governing_body": "Te Rūnanga o Ngāi Tahu",
-    "cultural_symbol": "Poutama"
+    "cultural_symbol": "Poutama",
+    "type": "Iwi"
   },
   "relationship": [
     {
-      "part_of": "Māori people"
+      "instance_of": "iwi"
     },
     {
-      "located_in": "New Zealand"
+      "part_of": "Ngāi Tahu Māori Trust Board"
     },
     {
-      "related_to": "Ngāi Tahu Treaty Settlement Act 1991"
+      "located_in": "Canterbury Region"
     },
     {
-      "ancestor_of": "Waitaha"
+      "ancestor_of": "Tūāhuriri"
     },
     {
-      "descendant_of": "Tūāhuriri"
+      "has_member": "Te Rūnanga o Ngāi Tahu"
     },
     {
-      "associated_with": "Aoraki (Mount Cook)"
+      "related_to": "Waitangi Tribunal"
     },
     {
-      "traditional_area": "Murihiku"
+      "has_claim": "Ngāi Tahu Claims Settlement Act 1991"
     },
     {
-      "traditional_area": "North Canterbury"
+      "sub_of": "Māori"
     },
     {
-      "cultural_site": "Ōnuku Marae"
+      "has_language": "Te Reo Māori"
     },
     {
-      "governed_by": "Te Rūnanga o Ngāi Tahu"
+      "has_traditional_territory": "Takapau"
     }
   ]
 }

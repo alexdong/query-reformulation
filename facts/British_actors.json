@@ -10,38 +10,39 @@
     "skill": "Acting",
     "training": "Drama school",
     "representation": "Talent agency",
-    "awards": "BAFTA"
+    "awards": "BAFTA",
+    "type": "Actor"
   },
   "relationship": [
     {
-      "works_with": "Film director"
+      "instance_of": "human"
     },
     {
-      "performs_in": "Film"
+      "citizen_of": "United Kingdom"
     },
     {
-      "performs_in": "Television"
+      "occupation": "actor"
     },
     {
-      "collaborates_with": "Writer"
+      "member_of": "British film industry"
     },
     {
-      "member_of": "Royal Shakespeare Company"
+      "award_recipient_of": "BAFTA Awards"
     },
     {
-      "trained_at": "RADA"
+      "collaborator_of": "British film directors"
     },
     {
-      "influenced_by": "Method acting"
+      "performs_in": "British television series"
     },
     {
-      "represents": "Character"
+      "performs_in": "British films"
     },
     {
-      "appears_in": "Stage play"
+      "educated_at": "British schools"
     },
     {
-      "promoted_by": "Publicist"
+      "associated_with": "British theatre"
     }
   ]
 }

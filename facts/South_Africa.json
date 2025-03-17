@@ -10,38 +10,39 @@
     "largest_city": "Johannesburg",
     "government_type": "Parliamentary republic",
     "GDP_nominal_2023": "$405.6 billion",
-    "national_animal": "Springbok"
+    "national_animal": "Springbok",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "African Union"
+      "located_in": "Africa"
     },
     {
-      "member_of": "United Nations"
+      "part_of": "Southern Africa"
     },
     {
-      "borders": "Namibia"
+      "has_capital": "Pretoria"
     },
     {
-      "borders": "Botswana"
+      "has_official_language": "Afrikaans"
     },
     {
-      "borders": "Zimbabwe"
+      "has_official_language": "English"
     },
     {
-      "borders": "Mozambique"
+      "has_official_language": "isiZulu"
     },
     {
-      "borders": "Eswatini"
+      "has_official_language": "isiXhosa"
     },
     {
-      "borders": "Lesotho"
+      "influenced_by": "United Kingdom"
     },
     {
-      "influenced_by": "Dutch Empire"
+      "member_of": "African Union"
     },
     {
-      "influenced_by": "British Empire"
+      "neighbor_of": "Namibia"
     }
   ]
 }

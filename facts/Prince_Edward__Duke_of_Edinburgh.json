@@ -1,5 +1,5 @@
 {
-  "entity": "Prince Edward, Duke of Edinburgh",
+  "entity": "Prince Edward  Duke of Edinburgh",
   "properties": {
     "birth_date": "1964-03-10",
     "birth_place": "London, England",
@@ -8,9 +8,16 @@
     "spouse": "Sophie, Countess of Wessex",
     "education": "University of Cambridge",
     "occupation": "Royal person",
-    "nationality": "British"
+    "nationality": "British",
+    "type": "Royal"
   },
   "relationship": [
+    {
+      "instance_of": "British royal family member"
+    },
+    {
+      "sibling": "Prince Andrew, Duke of York"
+    },
     {
       "parent": "Prince Philip, Duke of Edinburgh"
     },
@@ -18,28 +25,22 @@
       "parent": "Elizabeth II"
     },
     {
-      "sibling_of": "Prince Andrew"
+      "spouse": "Sophie, Countess of Wessex"
     },
     {
-      "sibling_of": "Princess Anne"
+      "child": "Lady Louise Mountbatten-Windsor"
     },
     {
-      "sibling_of": "Prince Charles"
+      "child": "James, Earl of Wessex"
     },
     {
-      "spouse_of": "Sophie, Countess of Wessex"
+      "member_of": "British nobility"
     },
     {
-      "member_of": "British Royal Family"
+      "title": "Duke of Edinburgh"
     },
     {
-      "attended": "University of Cambridge"
-    },
-    {
-      "child_of": "Queen Elizabeth II"
-    },
-    {
-      "role": "Countess of Wessex's husband"
+      "member_of": "Commonwealth realms"
     }
   ]
 }

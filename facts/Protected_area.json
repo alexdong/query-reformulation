@@ -1,7 +1,6 @@
 {
   "entity": "Protected area",
   "properties": {
-    "instance_of": "Geographic area",
     "purpose": "Conservation",
     "management": "Government/Organization",
     "designation": "Legal status",
@@ -10,38 +9,39 @@
     "size": "Variable",
     "location": "Worldwide",
     "category": "IUCN category",
-    "ecosystem": "Diverse"
+    "ecosystem": "Diverse",
+    "type": "Geographic area"
   },
   "relationship": [
     {
-      "part_of": "Biosphere reserve"
+      "instance_of": "natural_habitat"
     },
     {
-      "contains": "Species"
+      "located_in": "administrative_division"
     },
     {
-      "managed_by": "Government"
+      "part_of": "biogeographic_region"
     },
     {
-      "overlaps_with": "Indigenous territory"
+      "managed_by": "government_agency"
     },
     {
-      "protects": "Habitat"
+      "has_feature": "geographical_feature"
     },
     {
-      "impacted_by": "Climate change"
+      "protects": "species"
     },
     {
-      "type": "National park"
+      "protects": "ecosystem"
     },
     {
-      "type": "Marine protected area"
+      "created_by": "human_activity"
     },
     {
-      "governed_by": "Environmental law"
+      "designation": "protected_area_category"
     },
     {
-      "related_to": "Conservation biology"
+      "has_biodiversity": "biodiversity"
     }
   ]
 }

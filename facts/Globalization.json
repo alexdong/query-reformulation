@@ -10,38 +10,39 @@
     "criticism": "Inequality, exploitation",
     "benefit": "Economic growth, cultural exchange",
     "trend": "Increasing, but complex",
-    "related_concept": "Interdependence"
+    "related_concept": "Interdependence",
+    "type": "Process"
   },
   "relationship": [
     {
-      "causes": "International Trade"
+      "instance_of": "Economic globalization"
     },
     {
-      "facilitates": "Multinational Corporations"
+      "caused_by": "Technological innovation"
     },
     {
-      "impacts": "World Economy"
+      "part_of": "Interconnectedness"
     },
     {
-      "influences": "Cultural Exchange"
+      "results_in": "Cultural exchange"
     },
     {
-      "related_to": "World Bank"
+      "impacts": "National sovereignty"
     },
     {
-      "related_to": "International Monetary Fund"
+      "facilitated_by": "International trade"
     },
     {
-      "impacts": "Labor Markets"
+      "related_to": "World trade organization"
     },
     {
-      "impacts": "Environmental Sustainability"
+      "influences": "Migration"
     },
     {
-      "promotes": "Free Trade Agreements"
+      "results_in": "Increased interdependence"
     },
     {
-      "challenges": "National Sovereignty"
+      "related_to": "Political globalization"
     }
   ]
 }

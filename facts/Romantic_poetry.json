@@ -10,38 +10,39 @@
     "form": "Varied, often experimental",
     "reaction_to": "Neoclassicism",
     "influence_on": "Victorian poetry",
-    "key_feature": "Subjectivity"
+    "key_feature": "Subjectivity",
+    "type": "LiteraryGenre"
   },
   "relationship": [
     {
-      "influenced_by": "Enlightenment"
+      "instance_of": "literary_genre"
     },
     {
-      "reaction_against": "Neoclassicism"
+      "influenced": "Victorian poetry"
     },
     {
-      "preceded_by": "Pre-Romanticism"
+      "predecessor_of": "Modern poetry"
     },
     {
-      "followed_by": "Victorian poetry"
+      "created_by": "William Wordsworth"
     },
     {
-      "associated_with": "William Wordsworth"
+      "created_by": "Samuel Taylor Coleridge"
     },
     {
-      "associated_with": "Samuel Taylor Coleridge"
+      "created_by": "Lord Byron"
     },
     {
-      "associated_with": "Lord Byron"
+      "created_by": "Percy Bysshe Shelley"
     },
     {
-      "associated_with": "Percy Bysshe Shelley"
+      "created_by": "John Keats"
     },
     {
-      "associated_with": "John Keats"
+      "theme": "Nature"
     },
     {
-      "influenced": "Symbolism"
+      "theme": "Emotion"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Poems of Robert Burns",
   "properties": {
-    "instance_of": "Poetry collection",
     "author": "Robert Burns",
     "genre": "Romanticism",
     "language": "Scots",
@@ -10,38 +9,39 @@
     "style": "Dialect, satire, lyricism",
     "form": "Songs, poems, epigrams",
     "influence": "Scottish folk tradition",
-    "publisher": "John Wilson"
+    "publisher": "John Wilson",
+    "type": "Poetry collection"
   },
   "relationship": [
     {
-      "part_of": "Scottish literature"
+      "instance_of": "literary work"
     },
     {
-      "author_wrote": "Robert Burns"
+      "author": "Robert Burns"
     },
     {
-      "influenced": "Scottish Romanticism"
+      "subject": "Scottish literature"
     },
     {
-      "subject_of": "Scottish identity"
+      "genre": "poetry"
     },
     {
-      "genre_includes": "Lyrical poetry"
+      "language": "Scottish Gaelic"
     },
     {
-      "genre_includes": "Satirical poetry"
+      "influenced": "Scottish folk music"
     },
     {
-      "inspired": "Scottish nationalism"
+      "publication_date": "1786"
     },
     {
-      "translation_exists_in": "English"
+      "style": "Romanticism"
     },
     {
-      "theme_includes": "Love"
+      "related_to": "Scottish cultural heritage"
     },
     {
-      "theme_includes": "Social commentary"
+      "part_of": "Burns' works"
     }
   ]
 }

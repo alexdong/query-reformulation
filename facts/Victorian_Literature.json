@@ -10,38 +10,39 @@
     "origin": "United Kingdom",
     "audience": "Middle Class",
     "influence": "Romanticism, Enlightenment",
-    "legacy": "Modern Literature"
+    "legacy": "Modern Literature",
+    "type": "LiteraryWork"
   },
   "relationship": [
     {
       "influenced_by": "Romanticism"
     },
     {
+      "influenced_by": "Enlightenment"
+    },
+    {
+      "part_of": "19th Century Literature"
+    },
+    {
+      "created_by": "Victorian Era"
+    },
+    {
+      "associated_with": "Industrial Revolution"
+    },
+    {
       "influenced": "Modern Literature"
     },
     {
-      "author": "Charles Dickens"
+      "associated_with": "British Empire"
     },
     {
-      "author": "Charlotte Brontë"
+      "related_to": "Social Realism"
     },
     {
-      "author": "George Eliot"
+      "related_to": "Gothic Literature"
     },
     {
-      "author": "Alfred Lord Tennyson"
-    },
-    {
-      "work_features": "Industrial Revolution"
-    },
-    {
-      "work_features": "Social Reform"
-    },
-    {
-      "work_features": "Empire"
-    },
-    {
-      "related_to": "Victorian Era"
+      "influenced": "Postcolonial Literature"
     }
   ]
 }

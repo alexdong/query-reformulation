@@ -10,38 +10,39 @@
     "related_field": "Human Rights Law",
     "impacts": "Labor Market, Economy",
     "often_complex": "True",
-    "enforced_by": "Government Agencies"
+    "enforced_by": "Government Agencies",
+    "type": "LegalSystem"
   },
   "relationship": [
     {
-      "part_of": "Law"
+      "instance_of": "Legal system"
     },
     {
-      "related_to": "Citizenship"
+      "subclass_of": "Law"
+    },
+    {
+      "regulates": "Migration"
     },
     {
       "governs": "Visa"
     },
     {
-      "impacts": "Refugee Law"
+      "governs": "Green card"
     },
     {
-      "influenced_by": "International Law"
+      "deals_with": "Citizenship"
     },
     {
-      "related_to": "Border Control"
+      "influenced_by": "International law"
     },
     {
-      "affects": "Family Reunification"
+      "administered_by": "Government agency"
     },
     {
-      "overlaps_with": "Asylum Law"
+      "related_to": "Refugee law"
     },
     {
-      "requires": "Documentation"
-    },
-    {
-      "impacts": "Deportation"
+      "affected_by": "Political policy"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "largest_city": "Shanghai",
     "GDP_nominal": "17734065",
     "ethnic_groups": "Han Chinese",
-    "geographic_region": "East Asia"
+    "geographic_region": "East Asia",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Asia"
+      "located_in": "Asia"
     },
     {
-      "borders": "Mongolia"
+      "part_of": "United Nations"
     },
     {
-      "borders": "Russia"
+      "has_capital": "Beijing"
     },
     {
-      "borders": "India"
+      "influenced_by": "Confucianism"
     },
     {
-      "borders": "Vietnam"
+      "economic_partner": "United States"
     },
     {
-      "member_of": "United Nations"
+      "member_of": "Shanghai Cooperation Organisation"
     },
     {
-      "member_of": "World Trade Organization"
+      "has_currency": "Renminbi"
     },
     {
-      "influenced": "Silk Road"
+      "governed_by": "Communist Party of China"
     },
     {
-      "historical_dynasty": "Ming Dynasty"
+      "has_ethnic_group": "Han Chinese"
     },
     {
-      "major_river": "Yangtze River"
+      "shares_border_with": "Russia"
     }
   ]
 }

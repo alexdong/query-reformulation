@@ -1,7 +1,6 @@
 {
   "entity": "Researcher",
   "properties": {
-    "instance_of": "Occupation",
     "field_of_study": "Varies",
     "activity_sector": "Academia/Industry",
     "skill": "Analytical",
@@ -10,38 +9,39 @@
     "methodology": "Scientific method",
     "output": "Publications",
     "funding_source": "Grants/Contracts",
-    "role": "Investigator"
+    "role": "Investigator",
+    "type": "Occupation"
   },
   "relationship": [
     {
-      "works_for": "University"
+      "works_at": "Academic institution"
     },
     {
-      "collaborates_with": "Peer"
+      "member_of": "Research group"
+    },
+    {
+      "affiliated_with": "University"
+    },
+    {
+      "studies": "Research field"
+    },
+    {
+      "authored_by": "Scientific paper"
+    },
+    {
+      "funded_by": "Grant"
+    },
+    {
+      "collaborates_with": "Researcher"
     },
     {
       "mentored_by": "Professor"
     },
     {
-      "studies": "Topic"
+      "specializes_in": "Research topic"
     },
     {
-      "funded_by": "Grant Agency"
-    },
-    {
-      "publishes_in": "Journal"
-    },
-    {
-      "contributes_to": "Project"
-    },
-    {
-      "analyzes": "Data"
-    },
-    {
-      "designs": "Experiment"
-    },
-    {
-      "reports_to": "Principal Investigator"
+      "conducts_research_in": "Laboratory"
     }
   ]
 }

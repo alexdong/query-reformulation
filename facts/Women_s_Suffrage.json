@@ -1,5 +1,5 @@
 {
-  "entity": "Women's Suffrage",
+  "entity": "Women s Suffrage",
   "properties": {
     "definition": "Right to vote",
     "movement_type": "Political movement",
@@ -10,38 +10,39 @@
     "key_figure2": "Elizabeth Cady Stanton",
     "region": "Global",
     "method": "Protests, lobbying",
-    "legal_framework": "Constitutional amendments"
+    "legal_framework": "Constitutional amendments",
+    "type": "PoliticalMovement"
   },
   "relationship": [
     {
-      "preceded_by": "Abolitionism"
+      "instance_of": "political movement"
+    },
+    {
+      "preceded_by": "Women's Rights Movement"
+    },
+    {
+      "influenced_by": "Abolitionism"
+    },
+    {
+      "advocated_for": "Women's Rights"
+    },
+    {
+      "led_by": "Susan B. Anthony"
+    },
+    {
+      "led_by": "Elizabeth Cady Stanton"
+    },
+    {
+      "part_of": "Progressive Era"
+    },
+    {
+      "resulted_in": "19th Amendment (United States)"
     },
     {
       "influenced": "Feminism"
     },
     {
-      "led_to": "19th Amendment (US)"
-    },
-    {
-      "related_to": "Seneca Falls Convention"
-    },
-    {
-      "involved_in": "National Woman Suffrage Association"
-    },
-    {
-      "involved_in": "American Woman Suffrage Association"
-    },
-    {
-      "opposed_by": "Anti-suffrage movement"
-    },
-    {
-      "impacted": "Political representation"
-    },
-    {
-      "influenced": "Universal suffrage"
-    },
-    {
-      "part_of": "Progressive Era"
+      "related_to": "Universal Suffrage"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Marketing",
   "properties": {
-    "instance_of": "Business function",
     "definition": "Promoting and selling products/services",
     "primary_goal": "Increase sales & brand awareness",
     "key_elements": "Market research, advertising, PR",
@@ -10,38 +9,39 @@
     "origin": "19th century",
     "related_field": "Sales",
     "focus": "Customer needs & wants",
-    "measurement": "ROI, KPIs"
+    "measurement": "ROI, KPIs",
+    "type": "Business function"
   },
   "relationship": [
     {
-      "relates_to": "Economics"
+      "has_subclass": "Advertising"
     },
     {
-      "uses": "Market research"
+      "has_subclass": "Public Relations"
     },
     {
-      "employs": "Advertising"
+      "has_subclass": "Sales"
     },
     {
-      "involves": "Branding"
+      "part_of": "Business"
     },
     {
-      "requires": "Consumer behavior"
+      "used_by": "Product"
     },
     {
-      "overlaps_with": "Public relations"
+      "used_by": "Brand"
     },
     {
-      "drives": "Sales"
+      "creates": "Campaign"
     },
     {
-      "influenced_by": "Psychology"
+      "targets": "Customer"
     },
     {
-      "uses_platform": "Social media"
+      "uses": "Market Research"
     },
     {
-      "impacts": "Business strategy"
+      "influenced_by": "Consumer Behavior"
     }
   ]
 }

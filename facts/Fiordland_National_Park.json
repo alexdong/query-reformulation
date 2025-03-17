@@ -10,17 +10,18 @@
     "precipitation": "High",
     "elevation": "1,700 m (5,577 ft)",
     "dominant_flora": "Beech trees",
-    "fauna_includes": "Kea, Kiwi, Dolphin"
+    "fauna_includes": "Kea, Kiwi, Dolphin",
+    "type": "NationalPark"
   },
   "relationship": [
     {
-      "part_of": "South Island"
+      "located_in": "Southland Region"
     },
     {
-      "located_in": "New Zealand"
+      "part_of": "New Zealand"
     },
     {
-      "adjacent_to": "Te Wahipounamu"
+      "administered_by": "Department of Conservation"
     },
     {
       "contains": "Milford Sound"
@@ -29,19 +30,19 @@
       "contains": "Doubtful Sound"
     },
     {
-      "managed_by": "Department of Conservation"
+      "has_feature": "Lake Te Anau"
     },
     {
-      "influenced_by": "Glaciation"
+      "has_feature": "Kepler Mountains"
     },
     {
-      "biodiversity_includes": "New Zealand falcon"
+      "protected_by": "New Zealand Protected Areas Act 1980"
     },
     {
-      "tourism_attraction": "Cruise ships"
+      "biodiversity_includes": "Fiordland crested penguin"
     },
     {
-      "protected_species": "Brown kiwi"
+      "has_ecosystem": "Temperate rainforest"
     }
   ]
 }

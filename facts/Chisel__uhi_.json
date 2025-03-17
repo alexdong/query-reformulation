@@ -1,7 +1,6 @@
 {
-  "entity": "Chisel (uhi)",
+  "entity": "Chisel  uhi ",
   "properties": {
-    "instance_of": "Software",
     "developer": "University of Cambridge",
     "language": "Scala",
     "purpose": "Hardware description",
@@ -10,38 +9,39 @@
     "release_date": "2012",
     "paradigm": "Domain-specific language",
     "abstraction_level": "High",
-    "website": "https://chisel.rocks/"
+    "website": "https://chisel.rocks/",
+    "type": "Software"
   },
   "relationship": [
     {
-      "uses": "Scala"
+      "instance_of": "woodworking tool"
     },
     {
-      "developed_by": "University of Cambridge"
+      "used_for": "wood carving"
     },
     {
-      "alternative_to": "Verilog"
+      "part_of": "carpentry"
     },
     {
-      "alternative_to": "VHDL"
+      "related_to": "plane (tool)"
     },
     {
-      "influenced": "Circt"
+      "used_with": "mallet"
     },
     {
-      "part_of": "Open source"
+      "material": "steel"
     },
     {
-      "used_in": "RISC-V design"
+      "design_by": "human"
     },
     {
-      "related_to": "Hardware design"
+      "used_by": "carpenter"
     },
     {
-      "supports": "FPGA"
+      "has_property": "sharp edge"
     },
     {
-      "documentation_available_at": "https://chisel.rocks/docs/"
+      "function": "shaping wood"
     }
   ]
 }

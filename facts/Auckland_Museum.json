@@ -1,7 +1,6 @@
 {
   "entity": "Auckland Museum",
   "properties": {
-    "instance_of": "Museum",
     "location": "Auckland, New Zealand",
     "founded": "1863",
     "architectural_style": "Neoclassical",
@@ -10,38 +9,39 @@
     "collection_size": "14,000+",
     "focus": "Natural history, Māori and Pacific culture, European settlement",
     "website": "aucklandmuseum.com",
-    "designation": "Historic Place (Category 1)"
+    "designation": "Historic Place (Category 1)",
+    "type": "Museum"
   },
   "relationship": [
     {
-      "located_in": "Auckland"
+      "instance_of": "museum"
     },
     {
-      "part_of": "New Zealand"
+      "located_in": "Auckland City"
     },
     {
-      "exhibits": "Māori culture"
+      "part_of": "Auckland Council"
     },
     {
-      "exhibits": "Pacific culture"
+      "founded_by": "Sir George Grey"
     },
     {
-      "exhibits": "Natural history"
+      "has_collection": "Māori artefacts"
     },
     {
-      "operated_by": "Auckland Council"
+      "has_collection": "Pacific artefacts"
     },
     {
-      "designed_by": "Thomas Henderson"
+      "has_collection": "Natural history specimens"
     },
     {
-      "influenced": "New Zealand history"
+      "maintains_collection": "New Zealand art"
     },
     {
-      "has_part": "Volcanic Gallery"
+      "operated_by": "Auckland Museum Trust Board"
     },
     {
-      "has_part": "Māori Court"
+      "has_work": "Tāwhiao (photograph)"
     }
   ]
 }

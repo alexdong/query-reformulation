@@ -10,38 +10,39 @@
     "dome_usage": "Prominent",
     "arches_used": "Rounded & Segmental",
     "decoration": "Relief Sculpture, Frescoes",
-    "focus": "Humanism & Rationality"
+    "focus": "Humanism & Rationality",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "influenced": "Baroque Architecture"
+      "influenced": "Baroque architecture"
     },
     {
-      "preceded_by": "Gothic Architecture"
+      "preceded_by": "Late Gothic architecture"
+    },
+    {
+      "influenced": "Neoclassical architecture"
+    },
+    {
+      "developed_in": "Italian Renaissance"
+    },
+    {
+      "part_of": "Western architecture"
+    },
+    {
+      "characterized_by": "Classical orders"
+    },
+    {
+      "associated_with": "Humanism"
+    },
+    {
+      "designed_by": "Filippo Brunelleschi"
     },
     {
       "influenced": "Palladianism"
     },
     {
-      "architect_designed": "Filippo Brunelleschi"
-    },
-    {
-      "architect_designed": "Donato Bramante"
-    },
-    {
-      "architect_designed": "Michelangelo"
-    },
-    {
-      "building_example": "Florence Cathedral"
-    },
-    {
-      "building_example": "St. Peter's Basilica"
-    },
-    {
-      "building_example": "Palazzo Medici-Riccardi"
-    },
-    {
-      "part_of_movement": "Renaissance"
+      "example_of": "Architectural style"
     }
   ]
 }

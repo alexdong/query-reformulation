@@ -10,38 +10,39 @@
     "international_agreement": "CITES",
     "organization": "IUCN",
     "focus": "Endangered species",
-    "importance": "Ecosystem services"
+    "importance": "Ecosystem services",
+    "type": "Conservation"
   },
   "relationship": [
     {
-      "part_of": "Environmentalism"
+      "instance_of": "environmental_protection"
     },
     {
-      "related_to": "Conservation biology"
+      "subclass_of": "conservation"
     },
     {
-      "protects": "Endangered species"
+      "part_of": "environmentalism"
     },
     {
-      "requires": "Habitat preservation"
+      "aims_to_protect": "animal"
     },
     {
-      "impacted_by": "Climate change"
+      "aims_to_protect": "plant"
     },
     {
-      "influenced_by": "Rachel Carson"
+      "implemented_by": "government"
     },
     {
-      "supported_by": "National parks"
+      "requires": "legislation"
     },
     {
-      "overlaps_with": "Animal welfare"
+      "often_involves": "protected_area"
     },
     {
-      "addresses": "Poaching"
+      "impacts": "ecosystem"
     },
     {
-      "promotes": "Sustainable development"
+      "related_to": "biodiversity"
     }
   ]
 }

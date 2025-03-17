@@ -10,23 +10,27 @@
     "largest_city": "Karachi",
     "national_sport": "Cricket",
     "independence_date": "1947-08-14",
-    "location": "South Asia"
+    "location": "South Asia",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Asia"
+    },
     {
       "part_of": "South Asia"
     },
     {
-      "borders": "India"
+      "has_border_with": "Afghanistan"
     },
     {
-      "borders": "Afghanistan"
+      "has_border_with": "Iran"
     },
     {
-      "borders": "Iran"
+      "has_border_with": "China"
     },
     {
-      "borders": "China"
+      "has_border_with": "India"
     },
     {
       "member_of": "United Nations"
@@ -35,13 +39,10 @@
       "member_of": "Commonwealth of Nations"
     },
     {
-      "has_part": "Punjab"
+      "influenced_by": "British Empire"
     },
     {
-      "has_part": "Sindh"
-    },
-    {
-      "influenced_by": "Mughal Empire"
+      "has_capital": "Islamabad"
     }
   ]
 }

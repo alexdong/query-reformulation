@@ -10,12 +10,10 @@
     "dominant_life": "Dinosaurs",
     "climate": "Warm, humid",
     "sea_level": "High",
-    "continent": "Gondwana, Laurasia"
+    "continent": "Gondwana, Laurasia",
+    "type": "GeologicalPeriod"
   },
   "relationship": [
-    {
-      "part_of": "Mesozoic Era"
-    },
     {
       "preceded_by": "Jurassic Period"
     },
@@ -23,25 +21,28 @@
       "followed_by": "Paleogene Period"
     },
     {
-      "event": "Cretaceous–Paleogene extinction event"
+      "part_of": "Mesozoic Era"
     },
     {
-      "contains": "Maastrichtian"
+      "characterized_by": "Cretaceous–Paleogene extinction event"
     },
     {
-      "contains": "Campanian"
+      "contains_lifeform": "Tyrannosaurus rex"
     },
     {
-      "contains": "Santonian"
+      "contains_lifeform": "Ammonite"
     },
     {
-      "life_form": "Tyrannosaurus rex"
+      "located_in": "Geological Time Scale"
     },
     {
-      "life_form": "Velociraptor"
+      "has_geological_event": "Cretaceous–Paleogene boundary"
     },
     {
-      "geological_feature": "Morrison Formation"
+      "has_geological_feature": "Cretaceous rocks"
+    },
+    {
+      "related_to_concept": "Plate tectonics"
     }
   ]
 }

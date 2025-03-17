@@ -10,38 +10,39 @@
     "funding_sources": "Venture Capital, Loans, Bootstrapping",
     "legal_structure": "Sole Proprietorship, LLC, Corporation",
     "economic_impact": "Job Creation, Innovation",
-    "failure_rate": "Significant"
+    "failure_rate": "Significant",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "requires": "Business Plan"
+      "instance_of": "Business activity"
     },
     {
-      "leads_to": "Business Creation"
+      "subclass_of": "Innovation"
     },
     {
-      "influenced_by": "Market Demand"
+      "has_agent": "Entrepreneur"
     },
     {
-      "related_to": "Innovation"
+      "results_in": "Business"
     },
     {
       "requires": "Capital"
     },
     {
-      "often_involves": "Risk Taking"
+      "part_of": "Economic activity"
     },
     {
-      "benefits_from": "Networking"
+      "associated_with": "Risk"
     },
     {
-      "impacts": "Economy"
+      "requires": "Market"
     },
     {
-      "often_requires": "Management"
+      "leads_to": "Job creation"
     },
     {
-      "overlaps_with": "Small Business"
+      "related_to": "Business plan"
     }
   ]
 }

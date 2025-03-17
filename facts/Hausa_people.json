@@ -10,38 +10,39 @@
     "traditional_occupation": "Agriculture, Trade",
     "literacy_rate": "46.2%",
     "political_system": "Traditional chieftaincy, Modern state governance",
-    "cultural_heritage": "Music, Dance, Oral Tradition"
+    "cultural_heritage": "Music, Dance, Oral Tradition",
+    "type": "Ethnic group"
   },
   "relationship": [
-    {
-      "part_of": "Nigerians"
-    },
-    {
-      "part_of": "Niger"
-    },
-    {
-      "language_spoken": "Hausa language"
-    },
-    {
-      "influenced_by": "Arabic language"
-    },
-    {
-      "trade_partner_of": "Fulani people"
-    },
     {
       "located_in": "Nigeria"
     },
     {
-      "located_in": "Niger Republic"
+      "located_in": "Niger"
     },
     {
-      "influenced": "Nigerian literature"
+      "part_of": "West Africa"
     },
     {
-      "related_to": "Kanuri people"
+      "has_language": "Hausa language"
     },
     {
-      "historical_interaction": "Songhai Empire"
+      "has_religion": "Islam"
+    },
+    {
+      "influenced_by": "Fulani people"
+    },
+    {
+      "has_culture": "Hausa culture"
+    },
+    {
+      "has_trade_relationship": "Ghanaians"
+    },
+    {
+      "has_historical_relationship": "Kanem-Bornu Empire"
+    },
+    {
+      "has_ancestor": "Serer people"
     }
   ]
 }

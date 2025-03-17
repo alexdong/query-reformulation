@@ -1,7 +1,6 @@
 {
   "entity": "World Health Organization",
   "properties": {
-    "instance_of": "Specialized agency",
     "agency_of": "United Nations",
     "hq_location": "Geneva",
     "formed": "1948",
@@ -10,38 +9,39 @@
     "membership": "194",
     "budget_2023": "6.3 billion USD",
     "governing_body": "World Health Assembly",
-    "official_languages": "Arabic, Chinese, English, French, Russian, Spanish"
+    "official_languages": "Arabic, Chinese, English, French, Russian, Spanish",
+    "type": "Specialized agency"
   },
   "relationship": [
     {
-      "founded_by": "United Nations"
+      "member_of": "United Nations"
     },
     {
       "headquarters_located_in": "Geneva"
     },
     {
-      "member_of": "United Nations system"
+      "subclass_of": "International Organization"
     },
     {
-      "works_with": "World Bank"
+      "founded_by": "United Nations"
     },
     {
-      "coordinates_with": "UNICEF"
+      "has_member": "World Bank"
     },
     {
-      "deals_with": "Pandemics"
+      "coordinates": "46.2045° N, 6.1438° E"
     },
     {
-      "focuses_on": "Global health security"
+      "activity": "Public Health"
     },
     {
-      "reports_to": "World Health Assembly"
+      "instance_of": "Specialized Agency"
     },
     {
-      "collaborates_with": "National health ministries"
+      "has_director-general": "Tedros Adhanom Ghebreyesus"
     },
     {
-      "addresses": "Noncommunicable diseases"
+      "works_with": "Global Fund"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "revenue_2023": "NZD $3.7 billion",
     "business_model": "3PL, Transportation, Warehousing",
     "services_offered": "Express, Road, Rail, Air & Sea Freight",
-    "founded_year": "1973"
+    "founded_year": "1973",
+    "type": "LogisticsCompany"
   },
   "relationship": [
     {
-      "subsidiary_of": "Mainfreight Group"
+      "instance_of": "logistics company"
     },
     {
-      "competitor": "Toll Group"
+      "headquarters_location": "Auckland"
     },
     {
-      "competitor": "DHL Group"
+      "subsidiary_of": "Mainfreight Limited"
     },
     {
-      "competitor": "FedEx"
+      "has_service": "transportation"
     },
     {
-      "operates_in": "New Zealand"
+      "has_service": "warehousing"
     },
     {
-      "operates_in": "Australia"
+      "has_service": "supply chain management"
     },
     {
-      "operates_in": "Europe"
+      "customer_of": "various businesses"
     },
     {
-      "customer_of": "Various Businesses"
+      "supplier_of": "transportation equipment"
     },
     {
-      "supplier_of": "Logistics Services"
+      "employee_count": "12000"
     },
     {
-      "has_division": "Mainfreight Australia"
+      "industry": "logistics"
     }
   ]
 }

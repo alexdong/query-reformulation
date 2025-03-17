@@ -10,38 +10,39 @@
     "key_concept": "Empiricism",
     "related_to": "Scientific Revolution",
     "influenced_by": "Renaissance",
-    "opposed": "Traditional Authority"
+    "opposed": "Traditional Authority",
+    "type": "PhilosophicalConcept"
   },
   "relationship": [
+    {
+      "influenced": "Age of Reason"
+    },
+    {
+      "preceded_by": "Scientific Revolution"
+    },
     {
       "influenced": "French Revolution"
     },
     {
-      "influenced": "American Revolution"
+      "influenced": "Liberalism"
     },
     {
-      "preceded": "Romanticism"
+      "influenced": "Romanticism"
     },
     {
-      "promoted_by": "John Locke"
+      "associated_with": "Reason"
     },
     {
-      "promoted_by": "Immanuel Kant"
+      "associated_with": "Individualism"
     },
     {
-      "promoted_by": "Voltaire"
+      "associated_with": "Skepticism"
     },
     {
-      "promoted_by": "Jean-Jacques Rousseau"
+      "associated_with": "Empiricism"
     },
     {
-      "related_to": "Age of Reason"
-    },
-    {
-      "influenced": "Human Rights"
-    },
-    {
-      "challenged": "Divine Right of Kings"
+      "influenced": "Modern Philosophy"
     }
   ]
 }

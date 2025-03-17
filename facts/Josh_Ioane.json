@@ -10,48 +10,39 @@
     "current_team": "Blues",
     "jersey_number": "10",
     "debut_year": "2017",
-    "education": "Rotorua Boys' High School"
+    "education": "Rotorua Boys' High School",
+    "type": "Athlete"
   },
   "relationship": [
     {
-      "plays_for": "Blues (rugby)",
-      "type": "team"
+      "instance_of": "rugby player"
     },
     {
-      "plays_for": "New Zealand national rugby team",
-      "type": "team"
+      "birthPlace": "Tokomakuto, Tonga"
     },
     {
-      "born_in": "Rotorua",
-      "type": "city"
+      "team": "Blues (rugby)"
     },
     {
-      "attended": "Rotorua Boys' High School",
-      "type": "school"
+      "country_of_citizenship": "New Zealand"
     },
     {
-      "position": "Fly-half",
-      "type": "position"
+      "plays_for_team": "Hurricanes (rugby)"
     },
     {
-      "coach": "Leon MacDonald",
-      "type": "person"
+      "position": "Fly-half"
     },
     {
-      "league": "Super Rugby",
-      "type": "competition"
+      "educated_at": "Otago Boys' High School"
     },
     {
-      "league": "Rugby Championship",
-      "type": "competition"
+      "sibling": "Sio Mea'lolo"
     },
     {
-      "plays_in": "ITM Cup",
-      "type": "competition"
+      "sport": "rugby union"
     },
     {
-      "influenced_by": "Beauden Barrett",
-      "type": "person"
+      "award_received": "Super Rugby"
     }
   ]
 }

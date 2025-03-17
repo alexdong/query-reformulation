@@ -10,38 +10,39 @@
     "gender_ratio": "Historically female-dominated",
     "wage": "Low",
     "union_affiliation": "Historically active",
-    "geographic_location": "Globally dispersed"
+    "geographic_location": "Globally dispersed",
+    "type": "Occupation"
   },
   "relationship": [
     {
-      "labor_movement": "International Textile Workers' Federation"
+      "employed_by": "Factory"
     },
     {
-      "related_to": "Industrial Revolution"
+      "works_at": "Textile Mill"
     },
     {
-      "employs": "Textile Machinery"
+      "part_of": "Labor Force"
     },
     {
-      "produces": "Fabric"
+      "produces": "Textile"
     },
     {
-      "impacted_by": "Child Labor"
+      "uses": "Sewing Machine"
     },
     {
-      "protested": "Low Wages"
+      "affected_by": "Industrial Revolution"
     },
     {
-      "associated_with": "Strikes"
+      "member_of": "Trade Union"
     },
     {
-      "part_of": "Manufacturing"
+      "requires_skill": "Sewing"
     },
     {
-      "affected_by": "Globalization"
+      "subject_of": "Labor History"
     },
     {
-      "related_to": "Sweatshop"
+      "related_to": "Clothing"
     }
   ]
 }

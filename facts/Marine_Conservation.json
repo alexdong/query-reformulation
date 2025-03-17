@@ -10,38 +10,39 @@
     "scale": "Local to global",
     "stakeholders": "Governments, NGOs, Communities",
     "related_field": "Environmental science",
-    "economic_impact": "Tourism, Fisheries"
+    "economic_impact": "Tourism, Fisheries",
+    "type": "EnvironmentalProtection"
   },
   "relationship": [
     {
-      "part_of": "Environmentalism"
+      "instance_of": "environmental_conservation"
     },
     {
-      "related_to": "Marine biology"
+      "part_of": "biodiversity"
     },
     {
-      "addresses": "Ocean acidification"
+      "protects": "marine_ecosystem"
     },
     {
-      "protects": "Coral reefs"
+      "aims_to_reduce": "marine_pollution"
     },
     {
-      "impacts": "Fisheries management"
+      "addresses_issue": "overfishing"
     },
     {
-      "requires": "Sustainable practices"
+      "impacts": "coastal_communities"
     },
     {
-      "supports": "Marine Protected Areas"
+      "requires_funding_from": "governmental_organization"
     },
     {
-      "influenced_by": "Rachel Carson"
+      "collaborates_with": "oceanography"
     },
     {
-      "contributes_to": "Climate change mitigation"
+      "influences": "fisheries_management"
     },
     {
-      "overlaps_with": "Ocean governance"
+      "supports": "marine_protected_area"
     }
   ]
 }

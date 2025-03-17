@@ -10,14 +10,15 @@
     "largest_country": "Brazil",
     "highest_mountain": "Aconcagua",
     "climate": "Varied",
-    "political_system": "Diverse"
+    "political_system": "Diverse",
+    "type": "Continent"
   },
   "relationship": [
     {
-      "part_of": "Americas"
+      "located_in": "Earth"
     },
     {
-      "borders": "North America"
+      "part_of": "Americas"
     },
     {
       "influenced_by": "Spanish Empire"
@@ -26,22 +27,22 @@
       "influenced_by": "Portuguese Empire"
     },
     {
-      "contains": "Brazil"
+      "has_region": "Andes"
     },
     {
-      "contains": "Mexico"
+      "has_region": "Amazon Rainforest"
     },
     {
-      "contains": "Argentina"
+      "has_language": "Spanish language"
     },
     {
-      "economic_bloc": "Mercosur"
+      "has_language": "Portuguese language"
     },
     {
-      "economic_bloc": "Pacific Alliance"
+      "has_culture": "Latin American culture"
     },
     {
-      "historical_event": "Spanish Conquest"
+      "economic_relationship": "United States"
     }
   ]
 }

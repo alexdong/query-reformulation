@@ -10,38 +10,39 @@
     "children": "4",
     "alma_mater": "Harvard University",
     "nationality": "American",
-    "religion": "Protestant"
+    "religion": "Protestant",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "vice_president_under": "Bill Clinton"
+      "instance_of": "politician"
     },
     {
-      "candidate_for": "U.S. President"
+      "birthPlace": "Washington, D.C."
     },
     {
-      "award_recipient": "Nobel Peace Prize"
+      "almaMater": "Harvard University"
     },
     {
-      "founded": "The Climate Reality Project"
+      "member_of": "Democratic Party"
     },
     {
-      "authored": "An Inconvenient Truth"
+      "spouse": "Tipper Gore"
     },
     {
-      "member_of": "Harvard Crimson"
+      "child": "Albert Gore III"
     },
     {
-      "represented": "Tennessee"
+      "occupation": "environmentalist"
     },
     {
-      "father_of": "Albert Gore III"
+      "award": "Nobel Peace Prize"
     },
     {
-      "influenced": "Climate Change Awareness"
+      "publication": "An Inconvenient Truth"
     },
     {
-      "related_to": "Paul Gore"
+      "political_affiliation": "United States Senate"
     }
   ]
 }

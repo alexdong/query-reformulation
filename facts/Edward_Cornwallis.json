@@ -10,38 +10,39 @@
     "allegiance": "Great Britain",
     "rank": "Lieutenant General",
     "family": "Cornwallis family",
-    "spouse": "Anne Cowper"
+    "spouse": "Anne Cowper",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "father": "William Cornwallis, 1st Earl Cornwallis"
+      "instance_of": "human"
     },
     {
-      "mother": "Elizabeth Elwes"
+      "occupation": "Governor of Nova Scotia"
     },
     {
-      "served_in": "War of the Austrian Succession"
+      "member_of": "British Empire"
     },
     {
-      "served_in": "Seven Years' War"
+      "appointed_by": "George II of Great Britain"
     },
     {
-      "commanded": "British forces in India"
+      "married_to": "Catherine Keppel"
     },
     {
-      "governed": "Province of New York"
+      "child_of": "William Cornwallis, 1st Earl Cornwallis"
     },
     {
-      "governed": "Province of Virginia"
+      "succeeded_by": "Francis Legge"
     },
     {
-      "involved_in": "Boston Massacre"
+      "preceded_by": "Joseph Gerrish"
     },
     {
-      "involved_in": "American Revolutionary War"
+      "involved_in": "Expulsion of the Acadians"
     },
     {
-      "succeeded_by": "Charles Cornwallis, 2nd Earl Cornwallis"
+      "located_in": "Nova Scotia"
     }
   ]
 }

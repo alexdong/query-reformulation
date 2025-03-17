@@ -1,7 +1,6 @@
 {
   "entity": "Yarn",
   "properties": {
-    "instance_of": "Textile",
     "material": "Fiber",
     "use": "Knitting, Crochet",
     "origin": "Ancient",
@@ -10,38 +9,39 @@
     "texture": "Variable",
     "form": "Spun",
     "composition": "Natural or Synthetic",
-    "unit": "Skein, Ball"
+    "unit": "Skein, Ball",
+    "type": "Textile"
   },
   "relationship": [
     {
-      "made_of": "Fiber"
+      "instance_of": "textile"
     },
     {
-      "used_in": "Clothing"
+      "material": "fiber"
     },
     {
-      "related_to": "Textile Industry"
+      "used_for": "knitting"
     },
     {
-      "predecessor": "Flax"
+      "used_for": "weaving"
     },
     {
-      "alternative_to": "Thread"
+      "produced_by": "spinning"
     },
     {
-      "process": "Spinning"
+      "related_to": "wool"
     },
     {
-      "tool": "Needles"
+      "related_to": "cotton"
     },
     {
-      "craft": "Knitting"
+      "related_to": "silk"
     },
     {
-      "craft": "Crochet"
+      "used_in": "clothing"
     },
     {
-      "type": "Wool"
+      "used_in": "textile art"
     }
   ]
 }

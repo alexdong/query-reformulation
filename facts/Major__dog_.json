@@ -1,7 +1,6 @@
 {
-  "entity": "Major (dog)",
+  "entity": "Major  dog ",
   "properties": {
-    "instance_of": "Dog",
     "breed": "German Shepherd",
     "birth_date": "1916",
     "death_date": "1919",
@@ -10,38 +9,39 @@
     "award": "Dickin Medal",
     "nationality": "United States",
     "gender": "Male",
-    "role": "War dog"
+    "role": "War dog",
+    "type": "Dog"
   },
   "relationship": [
     {
-      "served_in": "World War I"
+      "instance_of": "dog"
     },
     {
-      "award_given_by": "People's Dispensary for Sick Animals"
+      "breed": "dog breed"
     },
     {
-      "unit": "38th Infantry Regiment"
+      "has_characteristic": "size"
     },
     {
-      "battle_participated_in": "Battle of Verdun"
+      "has_attribute": "temperament"
     },
     {
-      "battle_participated_in": "Battle of Saint-Mihiel"
+      "used_for": "companionship"
     },
     {
-      "battle_participated_in": "Meuse-Argonne Offensive"
+      "requires": "dog food"
     },
     {
-      "saved": "Private John R. Keane"
+      "has_care_activity": "grooming"
     },
     {
-      "breed_origin": "Germany"
+      "has_owner": "person"
     },
     {
-      "predecessor": "Streif"
+      "lives_in": "kennel"
     },
     {
-      "successor": "Bill"
+      "related_to": "dog training"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "independence_date": "2002-05-20",
     "gdp_nominal": "2.3 billion",
     "largest_city": "Dili",
-    "time_zone": "UTC+9"
+    "time_zone": "UTC+9",
+    "type": "Country"
   },
   "relationship": [
     {
-      "located_in": "Southeast Asia"
+      "located_in": "Timor-Leste"
     },
     {
-      "border_country": "Indonesia"
+      "part_of": "Southeast Asia"
     },
     {
-      "former_colony_of": "Portugal"
+      "has_neighbor": "Indonesia"
     },
     {
-      "administered_by": "United Nations"
+      "has_neighbor": "Australia"
     },
     {
-      "influenced_by": "Roman Catholicism"
+      "influenced_by": "Portugal"
     },
     {
-      "historical_event": "Timor Loro Sae Resistance"
+      "created_by": "United Nations"
     },
     {
-      "political_leader": "José Ramos-Horta"
+      "has_capital": "Dili"
     },
     {
-      "resource": "Oil"
+      "has_official_language": "Tetum"
+    },
+    {
+      "has_official_language": "Portuguese"
     },
     {
       "member_of": "United Nations"
-    },
-    {
-      "historical_event": "Santa Cruz Massacre"
     }
   ]
 }

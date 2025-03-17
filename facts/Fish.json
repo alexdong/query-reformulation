@@ -1,7 +1,6 @@
 {
   "entity": "Fish",
   "properties": {
-    "instance_of": "Vertebrate",
     "kingdom": "Animalia",
     "phylum": "Chordata",
     "class": "Actinopterygii",
@@ -10,38 +9,39 @@
     "body_covering": "Scales",
     "temperature_regulation": "Ectothermic",
     "diet": "Omnivorous",
-    "lifespan": "Variable"
+    "lifespan": "Variable",
+    "type": "Vertebrate"
   },
   "relationship": [
+    {
+      "instance_of": "Aquatic animal"
+    },
     {
       "part_of": "Ecosystem"
     },
     {
-      "prey_for": "Seabird"
+      "lives_in": "Body of water"
     },
     {
-      "predator_of": "Zooplankton"
+      "eats": "Zooplankton"
     },
     {
-      "related_to": "Aquaculture"
+      "has_diet": "Algae"
     },
     {
-      "found_in": "Ocean"
+      "prey_of": "Predator"
     },
     {
-      "found_in": "Freshwater"
+      "has_characteristic": "Fin"
     },
     {
-      "type_of": "Animal"
+      "has_attribute": "Scales"
     },
     {
-      "related_to": "Ichthyology"
+      "related_to": "Fishery"
     },
     {
-      "has_species": "Salmon"
-    },
-    {
-      "has_species": "Tuna"
+      "member_of_class": "Actinopterygii"
     }
   ]
 }

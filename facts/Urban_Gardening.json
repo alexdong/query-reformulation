@@ -10,20 +10,21 @@
     "soil_type": "Raised beds, containers, sometimes in-ground",
     "water_source": "Rainwater harvesting, municipal water",
     "challenges": "Space limitations, soil contamination, access",
-    "popularity": "Increasing"
+    "popularity": "Increasing",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "part_of": "Sustainable Agriculture"
+      "instance_of": "Horticulture"
     },
     {
-      "related_to": "Permaculture"
+      "part_of": "Sustainable_agriculture"
     },
     {
-      "impacts": "Food Security"
+      "located_in": "Urban_area"
     },
     {
-      "promotes": "Biodiversity"
+      "used_for": "Food_production"
     },
     {
       "requires": "Soil"
@@ -32,16 +33,16 @@
       "requires": "Water"
     },
     {
-      "benefits": "Community Gardens"
+      "requires": "Sunlight"
     },
     {
-      "supports": "Local Food Systems"
+      "influenced_by": "Permaculture"
     },
     {
-      "influenced_by": "Victory Gardens"
+      "promoted_by": "Community_garden"
     },
     {
-      "example_of": "Green Infrastructure"
+      "related_to": "Green_infrastructure"
     }
   ]
 }

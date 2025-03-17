@@ -10,38 +10,39 @@
     "education": "University of Manchester",
     "doctoral_advisor": "James William Hirst",
     "known_for": "Coined 'ecosystem'",
-    "awards": "Royal Medal"
+    "awards": "Royal Medal",
+    "type": "Botanist"
   },
   "relationship": [
+    {
+      "instance_of": "biologist"
+    },
+    {
+      "occupation": "ecologist"
+    },
+    {
+      "educated_at": "University of Cambridge"
+    },
+    {
+      "member_of": "British Ecological Society"
+    },
     {
       "influenced": "Rachel Carson"
     },
     {
-      "influenced": "Eugene Odum"
+      "publication": "The British Isles: Their Plant Life and Climate"
     },
     {
-      "member_of": "Linnean Society"
+      "publication": "The Treatment of Sweet Potato Rosset Disease"
     },
     {
-      "professor_of": "University of Manchester"
+      "publication": "The Ecology of the British Isles"
     },
     {
-      "studied": "Botany"
+      "award": "Royal Medal"
     },
     {
-      "contributed_to": "Journal of Ecology"
-    },
-    {
-      "worked_at": "Imperial Forestry Institute"
-    },
-    {
-      "developed": "Concept of ecosystem"
-    },
-    {
-      "studied_with": "James William Hirst"
-    },
-    {
-      "publication": "The British Isles and the Sea"
+      "country_of_citizenship": "United Kingdom"
     }
   ]
 }

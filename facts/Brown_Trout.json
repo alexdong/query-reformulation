@@ -10,38 +10,39 @@
     "diet": "Insects, crustaceans, small fish",
     "habitat": "Cool, clear rivers and streams",
     "distribution": "Europe, North America",
-    "coloration": "Brown with dark spots"
+    "coloration": "Brown with dark spots",
+    "type": "Fish"
   },
   "relationship": [
+    {
+      "instance_of": "Salmonid"
+    },
+    {
+      "taxon": "Salmo trutta"
+    },
+    {
+      "habitat": "River"
+    },
+    {
+      "part_of": "Ecosystem"
+    },
+    {
+      "feeds_on": "Aquatic insect"
+    },
     {
       "prey_of": "Kingfisher"
     },
     {
-      "part_of_ecosystem": "Freshwater ecosystem"
+      "found_in_biome": "Temperate deciduous forest"
     },
     {
-      "related_to": "Rainbow Trout"
+      "has_feature": "Caudal fin"
     },
     {
-      "spawn_in": "Gravel beds"
+      "life_stage": "Fry"
     },
     {
-      "migrate_to": "Sea (Anadromous forms)"
-    },
-    {
-      "managed_by": "Fisheries management"
-    },
-    {
-      "threatened_by": "Habitat loss"
-    },
-    {
-      "found_in_region": "Europe"
-    },
-    {
-      "found_in_region": "North America"
-    },
-    {
-      "hybridizes_with": "Atlantic Salmon"
+      "distribution": "Europe"
     }
   ]
 }

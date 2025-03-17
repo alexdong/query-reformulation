@@ -10,38 +10,39 @@
     "river_type": "Greywacke river",
     "discharge": "150 m³/s",
     "catchment_area": "2,850 km²",
-    "geology": "Greywacke bedrock"
+    "geology": "Greywacke bedrock",
+    "type": "River"
   },
   "relationship": [
     {
+      "flows_into": "Tasman Sea"
+    },
+    {
+      "tributary_of": "null"
+    },
+    {
+      "located_in": "West Coast Region"
+    },
+    {
       "flows_through": "Hokitika"
-    },
-    {
-      "tributary_of": "Tasman Sea"
-    },
-    {
-      "located_in": "Westland Tai Poutini National Park"
-    },
-    {
-      "part_of": "West Coast Region"
     },
     {
       "originates_in": "Southern Alps"
     },
     {
-      "drains_to": "Tasman Sea"
+      "has_feature": "Hokitika Gorge"
     },
     {
-      "adjacent_to": "West Coast"
+      "part_of": "Grey District"
     },
     {
-      "supports_ecosystem": "Westland Petrel"
+      "influenced_by": "Orographic precipitation"
     },
     {
-      "historical_use": "Gold mining"
+      "has_settlement_on_bank": "Hokitika"
     },
     {
-      "provides_habitat_for": "Brown trout"
+      "used_for": "Gold mining"
     }
   ]
 }

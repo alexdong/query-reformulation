@@ -1,5 +1,5 @@
 {
-  "entity": "Flightless (band)",
+  "entity": "Flightless  band ",
   "properties": {
     "genre": "Indie pop",
     "origin": "California, USA",
@@ -10,38 +10,39 @@
     "instruments": "Guitar, Bass, Drums, Vocals",
     "style": "Dream pop, Lo-fi",
     "influenced_by": "Beach House, Real Estate",
-    "album_count": "2"
+    "album_count": "2",
+    "type": "MusicGroup"
   },
   "relationship": [
     {
-      "influenced": "Lo-fi music"
+      "instance_of": "musical group"
     },
     {
-      "member_of": "Musician"
+      "country_of_origin": "United Kingdom"
     },
     {
-      "record_label": "Captured Tracks"
+      "genre": "indie rock"
     },
     {
-      "genre": "Indie pop"
+      "influenced_by": "The Velvet Underground"
     },
     {
-      "influenced_by": "Beach House"
+      "influenced_by": "Spiritualized"
     },
     {
-      "influenced_by": "Real Estate"
+      "member": "Charles Howson"
     },
     {
-      "location": "California"
+      "member": "Edward Craven"
     },
     {
-      "album": "Yes, Modernity"
+      "member": "Andrew Hung"
     },
     {
-      "album": "Self-Portrait"
+      "member": "Natalie Weiner"
     },
     {
-      "associated_artist": "Alex G"
+      "record_label": "Hyperdub"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "continent": "Africa",
     "independence_date": "1960-11-01",
     "government_type": "Presidential republic",
-    "largest_city": "Douala"
+    "largest_city": "Douala",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Africa"
+      "located_in": "Africa"
     },
     {
-      "borders": "Nigeria"
+      "part_of": "Central Africa"
     },
     {
-      "borders": "Chad"
+      "has_border_with": "Nigeria"
     },
     {
-      "borders": "Central African Republic"
+      "has_border_with": "Chad"
     },
     {
-      "borders": "Gabon"
+      "has_border_with": "Gabon"
     },
     {
-      "borders": "Equatorial Guinea"
+      "has_border_with": "Equatorial Guinea"
+    },
+    {
+      "has_border_with": "Republic of the Congo"
+    },
+    {
+      "influenced_by": "French Colonial Empire"
+    },
+    {
+      "influenced_by": "German Colonial Empire"
     },
     {
       "member_of": "African Union"
-    },
-    {
-      "member_of": "United Nations"
-    },
-    {
-      "former_colony_of": "German Empire"
-    },
-    {
-      "former_colony_of": "France"
     }
   ]
 }

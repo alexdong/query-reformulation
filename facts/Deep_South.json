@@ -10,38 +10,39 @@
     "historical_significance": "Slavery, Civil War",
     "cultural_traits": "Southern hospitality, Distinctive cuisine",
     "music_genre": "Blues, Country, Gospel",
-    "literary_setting": "Southern Gothic"
+    "literary_setting": "Southern Gothic",
+    "type": "Region"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States"
     },
     {
-      "borders": "Midwest"
+      "part_of": "Southern United States"
     },
     {
-      "influenced_by": "Antebellum South"
+      "has_culture": "Southern culture"
     },
     {
-      "contains": "Mississippi River"
+      "influenced_by": "African American culture"
     },
     {
-      "associated_with": "Civil Rights Movement"
+      "has_economy": "Agriculture"
     },
     {
-      "cuisine_influenced": "Soul Food"
+      "associated_with": "American Civil War"
     },
     {
-      "music_genre_originates": "Blues"
+      "has_geography": "Coastal Plain"
     },
     {
-      "literature_genre_setting": "Southern Gothic"
+      "has_historical_event": "Reconstruction era"
     },
     {
-      "historical_event": "American Civil War"
+      "associated_with": "Jim Crow laws"
     },
     {
-      "economic_activity": "Cotton production"
+      "has_literature": "Southern literature"
     }
   ]
 }

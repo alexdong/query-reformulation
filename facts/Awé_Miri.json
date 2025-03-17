@@ -10,38 +10,39 @@
     "religion": "Christianity",
     "gender": "Male",
     "date_of_birth": "1963",
-    "member_of": "House of Representatives"
+    "member_of": "House of Representatives",
+    "type": "Language"
   },
   "relationship": [
     {
-      "represents": "Adamawa State"
+      "instance_of": "monarch"
     },
     {
-      "member_of_party": "People's Democratic Party"
+      "subclass_of": "Amanyanbo"
     },
     {
-      "educated_at": "University of Jos"
+      "ruled_over": "Brass (Nigeria)"
     },
     {
-      "political_affiliation": "Nigerian politics"
+      "located_in": "Bayelsa State"
     },
     {
-      "constituency_located_in": "Adamawa State"
+      "part_of": "Nigeria"
     },
     {
-      "role": "Federal Representative"
+      "member_of": "Ijaw people"
     },
     {
-      "legislative_body": "House of Representatives"
+      "has_role": "traditional ruler"
     },
     {
-      "member_of": "Nigerian politicians"
+      "succeeded_by": "successor (Amanyanbo of Brass)"
     },
     {
-      "involved_in": "Nigerian elections"
+      "preceded_by": "predecessor (Amanyanbo of Brass)"
     },
     {
-      "occupation_type": "Legislator"
+      "associated_with": "Ijaw culture"
     }
   ]
 }

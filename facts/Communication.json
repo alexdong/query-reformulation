@@ -1,7 +1,6 @@
 {
   "entity": "Communication",
   "properties": {
-    "instance_of": "Process",
     "definition": "Exchange of information",
     "field_of_study": "Social sciences",
     "types": "Verbal, Nonverbal, Written",
@@ -10,38 +9,39 @@
     "importance": "Social interaction, Understanding",
     "discipline": "Linguistics, Psychology, Sociology",
     "goal": "Conveying meaning",
-    "impact": "Relationships, Society"
+    "impact": "Relationships, Society",
+    "type": "Process"
   },
   "relationship": [
     {
-      "requires": "Language"
+      "instance_of": "Information transmission"
     },
     {
-      "influences": "Culture"
+      "used_by": "Human"
+    },
+    {
+      "has_medium": "Language"
     },
     {
       "part_of": "Social interaction"
     },
     {
-      "related_to": "Information theory"
+      "enables": "Knowledge transfer"
     },
     {
-      "uses": "Nonverbal communication"
+      "facilitates": "Collaboration"
     },
     {
-      "employs": "Verbal communication"
+      "requires": "Channel"
     },
     {
-      "facilitates": "Understanding"
+      "results_in": "Understanding"
     },
     {
-      "impacts": "Relationships"
+      "type_of": "Process"
     },
     {
-      "studied_in": "Communication studies"
-    },
-    {
-      "depends_on": "Feedback"
+      "related_to": "Information"
     }
   ]
 }

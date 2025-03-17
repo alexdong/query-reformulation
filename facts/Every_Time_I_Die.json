@@ -10,42 +10,39 @@
     "website": "everytimeided.com",
     "last_album": "Radical",
     "dissolved_date": "2022",
-    "members": "Keith Buckley, Andy Herrin, Jonathan Thompson, Clayton Brashear, Daniel Henje"
+    "members": "Keith Buckley, Andy Herrin, Jonathan Thompson, Clayton Brashear, Daniel Henje",
+    "type": "MusicGroup"
   },
   "relationship": [
     {
-      "influenced_by": "Dååth"
+      "instance_of": "musical group"
     },
     {
-      "influenced": "Code Orange"
+      "genre": "alternative metal"
     },
     {
-      "associated_act": "The Sword"
+      "influenced_by": "The Stooges"
     },
     {
-      "tour_with": "Lamb of God"
+      "influenced_by": "Black Flag"
     },
     {
-      "tour_with": "Mastodon"
+      "influenced_by": "Minor Threat"
+    },
+    {
+      "member": "Keith Buckley"
+    },
+    {
+      "member": "Andy Leftlay"
+    },
+    {
+      "member": "Stephen Taylor"
+    },
+    {
+      "member": "Jason Pierce"
     },
     {
       "record_label": "Fearless Records"
-    },
-    {
-      "member_instrument": "Keith Buckley",
-      "instrument": "Vocals"
-    },
-    {
-      "member_instrument": "Andy Herrin",
-      "instrument": "Guitar"
-    },
-    {
-      "member_instrument": "Jonathan Thompson",
-      "instrument": "Bass"
-    },
-    {
-      "member_instrument": "Clayton Brashear",
-      "instrument": "Drums"
     }
   ]
 }

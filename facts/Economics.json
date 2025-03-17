@@ -1,7 +1,6 @@
 {
   "entity": "Economics",
   "properties": {
-    "instance_of": "Social science",
     "field_of_study": "Allocation of resources",
     "subfield_of": "Social sciences",
     "related_to": "Statistics, Mathematics",
@@ -10,38 +9,39 @@
     "key_concept": "Scarcity",
     "historical_origin": "Ancient Greece",
     "major_thinker": "Adam Smith",
-    "discipline_area": "Human behavior"
+    "discipline_area": "Human behavior",
+    "type": "Social science"
   },
   "relationship": [
     {
-      "studies": "Microeconomics"
+      "instance_of": "social_science"
     },
     {
-      "studies": "Macroeconomics"
+      "subclass_of": "social_science"
     },
     {
-      "influences": "Public policy"
+      "field_of": "mathematics"
     },
     {
-      "related_to": "Behavioral economics"
+      "field_of": "statistics"
     },
     {
-      "related_to": "Econometrics"
+      "studied_by": "political_economy"
     },
     {
-      "influenced_by": "Political economy"
+      "related_to": "finance"
     },
     {
-      "analyzes": "Market failure"
+      "related_to": "business"
     },
     {
-      "deals_with": "Supply and demand"
+      "related_to": "law"
     },
     {
-      "requires": "Rationality"
+      "influences": "public_policy"
     },
     {
-      "impacts": "Global trade"
+      "studied_by": "behavioral_economics"
     }
   ]
 }

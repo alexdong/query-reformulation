@@ -10,38 +10,39 @@
     "level": "Individual, School, Community",
     "measurement": "Surveys, Assessments, Data analysis",
     "importance": "Critical for success",
-    "related_concept": "Positive psychology"
+    "related_concept": "Positive psychology",
+    "type": "Service"
   },
   "relationship": [
     {
-      "supports": "Education"
+      "hasTopic": "Mental Health"
     },
     {
-      "impacts": "Academic achievement"
+      "hasTopic": "Physical Health"
     },
     {
-      "linked_to": "Mental health"
+      "hasTopic": "Emotional Wellbeing"
     },
     {
-      "influenced_by": "Family environment"
+      "influencedBy": "School Environment"
     },
     {
-      "related_to": "School climate"
+      "supportedBy": "Counseling Services"
     },
     {
-      "requires": "Early intervention"
+      "affectedBy": "Academic Performance"
     },
     {
-      "addresses": "Bullying"
+      "relatedTo": "Social Support"
     },
     {
-      "promotes": "Resilience"
+      "impactedBy": "Family Dynamics"
     },
     {
-      "connected_to": "Social support"
+      "promotedBy": "Health Education"
     },
     {
-      "impacts": "Student retention"
+      "contributesTo": "Student Success"
     }
   ]
 }

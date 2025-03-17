@@ -10,38 +10,39 @@
     "cultural_impact": "Exchange of ideas, Migration",
     "early_era": "Ancient Mesopotamia",
     "modern_era": "Steam power, Containerization",
-    "related_field": "Oceanography"
+    "related_field": "Oceanography",
+    "type": "Historical discipline"
   },
   "relationship": [
     {
-      "influenced": "Global Trade"
+      "instance_of": "historical period"
     },
     {
-      "preceded_by": "Riverine Transport"
+      "related_to": "Navigation"
     },
     {
-      "impacted": "Colonialism"
+      "influenced_by": "Shipbuilding"
     },
     {
-      "involved": "Navigation"
+      "related_to": "Trade"
     },
     {
-      "involved": "Shipbuilding"
+      "related_to": "Maritime law"
     },
     {
-      "related_to": "Maritime Law"
+      "related_to": "Oceanography"
     },
     {
-      "influenced": "Exploration"
+      "related_to": "Archaeology"
     },
     {
-      "impacted": "Piracy"
+      "related_to": "Military history"
     },
     {
-      "involved_in": "Naval Warfare"
+      "related_to": "Exploration"
     },
     {
-      "contributed_to": "Archaeology"
+      "related_to": "Port"
     }
   ]
 }

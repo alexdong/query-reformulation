@@ -1,7 +1,6 @@
 {
   "entity": "Allied Powers",
   "properties": {
-    "instance_of": "Military alliance",
     "purpose": "Defeat Axis Powers",
     "formation_date": "December 2, 1941",
     "initial_members": "United Kingdom, France, Poland, USSR",
@@ -10,23 +9,21 @@
     "leader": "Franklin D. Roosevelt, Winston Churchill, Joseph Stalin",
     "geographic_scope": "Global",
     "war": "World War II",
-    "dissolution_date": "1945"
+    "dissolution_date": "1945",
+    "type": "Military alliance"
   },
   "relationship": [
     {
-      "opposed_by": "Axis Powers"
+      "member_of": "World War II"
     },
     {
-      "member_of": "United Nations"
-    },
-    {
-      "victory_in": "World War II"
-    },
-    {
-      "includes": "United States"
+      "fought_against": "Axis Powers"
     },
     {
       "includes": "United Kingdom"
+    },
+    {
+      "includes": "United States of America"
     },
     {
       "includes": "Soviet Union"
@@ -35,13 +32,16 @@
       "includes": "China"
     },
     {
-      "includes": "France"
+      "led_by": "Franklin D. Roosevelt"
     },
     {
-      "fought_in": "European Theatre"
+      "declared_war_on": "Germany"
     },
     {
-      "fought_in": "Pacific Theatre"
+      "signed": "Treaty of Versailles"
+    },
+    {
+      "opposed_by": "Germany"
     }
   ]
 }

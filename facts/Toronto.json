@@ -10,38 +10,39 @@
     "mayor": "Olivia Chow",
     "founding_date": "1793",
     "nickname": "The 6",
-    "postal_code": "M"
+    "postal_code": "M",
+    "type": "City"
   },
   "relationship": [
-    {
-      "part_of": "Canada"
-    },
     {
       "located_in": "Ontario"
     },
     {
-      "has_neighbour": "Mississauga"
+      "part_of": "Canada"
     },
     {
-      "influenced_by": "York"
+      "has_neighbourhood": "Downtown Toronto"
     },
     {
       "has_landmark": "CN Tower"
     },
     {
-      "has_sport_team": "Toronto Maple Leafs"
+      "founded_by": "Indigenous peoples"
     },
     {
-      "has_sport_team": "Toronto Raptors"
+      "has_mayor": "Olivia Chow"
     },
     {
-      "has_university": "University of Toronto"
+      "has_province": "Ontario"
     },
     {
-      "has_museum": "Royal Ontario Museum"
+      "is_capital_of": "Toronto District School Board"
     },
     {
-      "connected_to": "Toronto Subway"
+      "has_sister_city": "Chicago"
+    },
+    {
+      "is_member_of": "Council of Canadian Cities"
     }
   ]
 }

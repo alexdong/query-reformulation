@@ -10,38 +10,39 @@
     "political_system": "Democracy, Republics, Monarchies",
     "economic_model": "Capitalism, Socialism",
     "cuisine": "Varied, regional specialties",
-    "values": "Individualism, Collectivism, Humanism"
+    "values": "Individualism, Collectivism, Humanism",
+    "type": "Culture"
   },
   "relationship": [
-    {
-      "influenced_by": "Ancient Greece"
-    },
-    {
-      "influenced_by": "Roman Empire"
-    },
     {
       "part_of": "World Culture"
     },
     {
-      "has_subculture": "Western Culture"
+      "influenced_by": "Ancient Greek Culture"
     },
     {
-      "has_subculture": "Eastern European Culture"
+      "influenced_by": "Roman Culture"
     },
     {
-      "influenced": "Renaissance"
+      "shaped_by": "Christianity"
     },
     {
-      "influenced": "Enlightenment"
+      "influenced": "Western Culture"
     },
     {
-      "has_art_movement": "Impressionism"
+      "has_art_movement": "Renaissance"
     },
     {
-      "has_art_movement": "Baroque"
+      "has_art_movement": "Romanticism"
     },
     {
       "has_literature": "Shakespeare"
+    },
+    {
+      "has_music_genre": "Classical Music"
+    },
+    {
+      "has_cuisine": "Mediterranean Cuisine"
     }
   ]
 }

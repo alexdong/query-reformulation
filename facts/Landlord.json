@@ -1,7 +1,6 @@
 {
   "entity": "Landlord",
   "properties": {
-    "instance_of": "Occupation",
     "responsibility": "Property Management",
     "legal_duty": "Tenant Rights",
     "income_source": "Rental Income",
@@ -10,23 +9,24 @@
     "legal_requirement": "Housing Laws",
     "tax_obligation": "Property Taxes",
     "potential_liability": "Eviction Lawsuits",
-    "common_task": "Rent Collection"
+    "common_task": "Rent Collection",
+    "type": "Occupation"
   },
   "relationship": [
+    {
+      "owns": "RentalProperty"
+    },
     {
       "rents_to": "Tenant"
     },
     {
-      "manages": "Property"
+      "manages": "PropertyManagementCompany"
     },
     {
-      "subject_to": "Housing Law"
+      "located_in": "Jurisdiction"
     },
     {
-      "employs": "Property Manager"
-    },
-    {
-      "deals_with": "Lease Agreement"
+      "complies_with": "HousingLaw"
     },
     {
       "responsible_for": "Maintenance"
@@ -35,13 +35,13 @@
       "collects": "Rent"
     },
     {
-      "faces": "Eviction"
+      "pays": "PropertyTax"
     },
     {
-      "requires": "Insurance"
+      "deals_with": "InsuranceCompany"
     },
     {
-      "governed_by": "Landlord-Tenant Law"
+      "subject_to": "LeaseAgreement"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "focus": "Agriculture & Land Management",
     "ethics": "Earth Care, People Care, Fair Share",
     "principles": "Observation, Interaction, Efficiency",
-    "related_concept": "Ecological Design"
+    "related_concept": "Ecological Design",
+    "type": "Design"
   },
   "relationship": [
     {
-      "influenced_by": "Masanobu Fukuoka"
+      "instance_of": "Sustainable_agriculture"
     },
     {
-      "inspired_by": "Indigenous Knowledge"
+      "subclass_of": "Holistic_design"
+    },
+    {
+      "motivated_by_goal": "Environmentalism"
+    },
+    {
+      "part_of": "Ecological_design"
+    },
+    {
+      "influenced_by": "Masanobu_Fukuoka"
+    },
+    {
+      "created_by": "Bill_Mollison"
     },
     {
       "related_to": "Agroecology"
     },
     {
-      "overlaps_with": "Organic Farming"
+      "has_application": "Food_production"
     },
     {
-      "promotes": "Biodiversity"
+      "requires": "Soil_science"
     },
     {
-      "addresses": "Climate Change"
-    },
-    {
-      "focuses_on": "Soil Health"
-    },
-    {
-      "incorporates": "Forest Gardening"
-    },
-    {
-      "utilizes": "Water Harvesting"
-    },
-    {
-      "supports": "Local Food Systems"
+      "related_to": "Regenerative_agriculture"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Murihikku",
   "properties": {
-    "instance_of": "Anime series",
     "creator": "Studio Comet",
     "genre": "Mecha, Comedy, Harem",
     "original_language": "Japanese",
@@ -10,38 +9,39 @@
     "number_of_episodes": "12",
     "theme_music": "Mirai e Jump",
     "setting": "Earth",
-    "licensing": "Funimation"
+    "licensing": "Funimation",
+    "type": "Anime series"
   },
   "relationship": [
     {
-      "adapted_from": "Muri-gu"
+      "instance_of": "visual artist"
     },
     {
-      "directed_by": "Takayuki Inagaki"
+      "country_of_citizenship": "Japan"
     },
     {
-      "produced_by": "Gainax"
+      "birth_place": "Tokyo"
     },
     {
-      "music_composed_by": "Toshihiko Sahashi"
+      "field_of_work": "photography"
     },
     {
-      "character_appears": "Kouichi Masuda"
+      "style": "contemporary art"
     },
     {
-      "character_appears": "Rin Okabe"
+      "work_medium": "photography"
     },
     {
-      "character_appears": "Miki Makishima"
+      "influenced_by": "Shinkokin"
     },
     {
-      "influenced": "Gurren Lagann"
+      "exhibits_at": "Galerie Thomas Schulte"
     },
     {
-      "similar_to": "Infinite Stratos"
+      "member_of": "Japan Art Association"
     },
     {
-      "distributed_by": "Bandai Visual"
+      "award_received": "Japan Photography Association Award"
     }
   ]
 }

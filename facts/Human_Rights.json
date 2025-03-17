@@ -10,38 +10,39 @@
     "monitoring_body": "United Nations Human Rights Office",
     "related_concept": "International law",
     "historical_context": "Enlightenment, post-WWII",
-    "key_principle": "Universality"
+    "key_principle": "Universality",
+    "type": "LegalRight"
   },
   "relationship": [
     {
-      "protected_by": "International law"
+      "instance_of": "Concept"
     },
     {
-      "promoted_by": "United Nations"
+      "part_of": "Justice"
     },
     {
-      "related_to": "Civil liberties"
+      "related_to": "International Law"
     },
     {
-      "influenced_by": "Enlightenment"
+      "defined_by": "Universal Declaration of Human Rights"
     },
     {
-      "addressed_by": "Universal Declaration of Human Rights"
+      "influenced_by": "Philosophy"
     },
     {
-      "impacts": "Individual freedom"
+      "enforced_by": "International Court of Justice"
     },
     {
-      "requires": "Rule of law"
+      "protected_by": "Constitution"
     },
     {
-      "challenges": "Political oppression"
+      "related_to": "Democracy"
     },
     {
-      "linked_to": "Humanitarian law"
+      "promoted_by": "Human Rights Organizations"
     },
     {
-      "advocated_by": "Amnesty International"
+      "requires": "Rule of Law"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "cuisine": "Haggis, Shortbread, Scotch Whisky",
     "literary_tradition": "Robert Burns, Walter Scott",
     "art_form": "Celtic knotwork, Thistle motifs",
-    "historical_period": "Medieval Scotland"
+    "historical_period": "Medieval Scotland",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "part_of": "British Culture"
+      "part_of": "United Kingdom"
     },
     {
-      "influenced_by": "Norse Culture"
+      "influenced_by": "Celtic Culture"
     },
     {
-      "shares_language_with": "Irish Culture"
+      "has_language": "Scottish Gaelic"
     },
     {
-      "produces": "Scotch Whisky"
+      "has_language": "Scots"
     },
     {
-      "features_in": "Highland Games"
+      "has_traditional_music": "Scottish folk music"
     },
     {
-      "written_by": "Robert Burns"
+      "has_traditional_dance": "Scottish country dance"
     },
     {
-      "depicts": "Clan System"
+      "has_cuisine": "Scottish cuisine"
     },
     {
-      "associated_with": "Bagpipes"
+      "associated_with": "Highlands"
     },
     {
-      "celebrates": "Burns Night"
+      "associated_with": "Lowlands"
     },
     {
-      "originates_from": "Gaelic Culture"
+      "created_by": "Scottish people"
     }
   ]
 }

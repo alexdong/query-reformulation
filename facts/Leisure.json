@@ -1,7 +1,6 @@
 {
   "entity": "Leisure",
   "properties": {
-    "instance_of": "Activity",
     "definition": "Free time",
     "purpose": "Relaxation",
     "includes": "Hobbies",
@@ -10,38 +9,39 @@
     "often_involves": "Entertainment",
     "requires": "Free time",
     "impacts": "Well-being",
-    "contrasted_with": "Work"
+    "contrasted_with": "Work",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "part_of": "Lifestyle"
+      "instance_of": "Activity"
     },
     {
-      "related_to": "Recreation"
+      "has_topic": "Entertainment"
     },
     {
-      "impacts": "Mental health"
+      "part_of": "Life"
     },
     {
-      "type_of": "Human activity"
+      "motivated_by": "Desire"
     },
     {
-      "associated_with": "Tourism"
-    },
-    {
-      "supports": "Physical activity"
-    },
-    {
-      "influences": "Culture"
+      "results_in": "Relaxation"
     },
     {
       "requires": "Time"
     },
     {
-      "promotes": "Social interaction"
+      "occurs_during": "Free time"
     },
     {
-      "linked_to": "Entertainment"
+      "associated_with": "Recreation"
+    },
+    {
+      "related_to": "Tourism"
+    },
+    {
+      "facilitated_by": "Infrastructure"
     }
   ]
 }

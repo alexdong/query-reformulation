@@ -1,7 +1,6 @@
 {
   "entity": "Built Environment",
   "properties": {
-    "instance_of": "Concept",
     "definition": "Human-made surroundings",
     "includes": "Infrastructure",
     "encompasses": "Buildings",
@@ -10,38 +9,39 @@
     "relates_to": "Urban planning",
     "considers": "Social equity",
     "involves": "Design",
-    "requires": "Construction"
+    "requires": "Construction",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "part_of": "Human Environment"
+      "has_part": "Building"
     },
     {
-      "influences": "Quality of Life"
+      "has_part": "Infrastructure"
     },
     {
-      "impacts": "Economy"
+      "located_in": "GeographicArea"
     },
     {
-      "requires": "Resource Management"
+      "created_by": "Human"
+    },
+    {
+      "influences": "Society"
+    },
+    {
+      "affects": "Environment"
+    },
+    {
+      "used_for": "Activity"
     },
     {
       "designed_by": "Architect"
     },
     {
-      "constructed_by": "Construction worker"
+      "maintains": "MaintenanceProcess"
     },
     {
-      "located_in": "Geographic location"
-    },
-    {
-      "affects": "Ecosystem"
-    },
-    {
-      "governed_by": "Building codes"
-    },
-    {
-      "studied_by": "Urban studies"
+      "impacts": "Economy"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "spouse": "Caroline of Ansbach",
     "father": "George I of Great Britain",
     "mother": "Sophia Dorothea of Celle",
-    "religion": "Anglican"
+    "religion": "Anglican",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "predecessor": "George I of Great Britain"
+      "instance_of": "monarch"
     },
     {
-      "successor": "Frederick, Prince of Wales"
+      "rdfs:parent": "George I of Great Britain"
     },
     {
-      "part_of": "House of Hanover"
+      "spouse": "Caroline of Ansbach"
     },
     {
-      "married_to": "Caroline of Ansbach"
+      "child": "Frederick, Prince of Wales"
     },
     {
-      "ruled_over": "Great Britain"
+      "rdfs:subclass_of": "House of Hanover"
     },
     {
-      "involved_in": "Jacobite rising of 1745"
+      "member_of": "Hanoverian dynasty"
     },
     {
-      "general": "George II (military)"
+      "ruled_as": "King of Great Britain"
     },
     {
-      "influenced": "Robert Walpole"
+      "ruled_as": "King of Ireland"
     },
     {
-      "location": "Buckingham Palace"
+      "appointed": "Robert Walpole"
     },
     {
-      "supported": "War of the Austrian Succession"
+      "influenced_by": "Caroline of Ansbach"
     }
   ]
 }

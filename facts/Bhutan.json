@@ -10,38 +10,39 @@
     "government": "Constitutional monarchy",
     "gdp_nominal": "$2.6 billion (2023)",
     "gini_coefficient": "0.32",
-    "happiness_rank": "95"
+    "happiness_rank": "95",
+    "type": "Country"
   },
   "relationship": [
     {
       "located_in": "Asia"
     },
     {
-      "borders": "India"
+      "part_of": "South Asia"
     },
     {
-      "borders": "China"
+      "has_neighbor": "India"
+    },
+    {
+      "has_neighbor": "China"
+    },
+    {
+      "has_official_language": "Dzongkha"
+    },
+    {
+      "has_government_type": "Parliamentary constitutional monarchy"
+    },
+    {
+      "ruled_by": "Bhutanese monarchy"
+    },
+    {
+      "has_currency": "Ngultrum"
     },
     {
       "member_of": "United Nations"
     },
     {
-      "member_of": "SAARC"
-    },
-    {
-      "head_of_state": "Jigme Khesar Namgyel Wangchuck"
-    },
-    {
-      "prime_minister": "Tshering Tobgay"
-    },
-    {
-      "religion": "Buddhism"
-    },
-    {
-      "influenced_by": "Tibetan culture"
-    },
-    {
-      "has_part": "Himalayas"
+      "has_religion": "Buddhism"
     }
   ]
 }

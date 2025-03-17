@@ -10,38 +10,39 @@
     "audience": "Niche, engaged",
     "aesthetic": "Unconventional, challenging",
     "themes": "Political, personal, existential",
-    "goal": "Provoke, question, explore"
+    "goal": "Provoke, question, explore",
+    "type": "Performance"
   },
   "relationship": [
     {
-      "influenced": "Off-Off-Broadway"
+      "instance_of": "theatre"
     },
     {
-      "preceded": "Postdramatic Theatre"
+      "genre": "performance art"
     },
     {
-      "related_to": "Performance Art"
+      "style": "experimental theatre"
     },
     {
-      "inspired": "Contact Improvisation"
+      "influenced_by": "avant-garde"
     },
     {
-      "overlaps_with": "Experimental Film"
+      "related_to": "immersive theatre"
     },
     {
-      "associated_with": "The Living Theatre"
+      "subclass_of": "theatrical performance"
     },
     {
-      "associated_with": "Robert Wilson"
+      "characterized_by": "devised theatre"
     },
     {
-      "influenced": "Site-Specific Theatre"
+      "often_features": "site-specific performance"
     },
     {
-      "challenges": "Commercial Theatre"
+      "promoted_by": "theatre collective"
     },
     {
-      "often_features": "Devised Theatre"
+      "often_funded_by": "arts council"
     }
   ]
 }

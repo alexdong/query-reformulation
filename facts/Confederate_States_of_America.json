@@ -10,38 +10,39 @@
     "population": "9,103,332 (1860)",
     "currency": "Confederate dollar",
     "flag": "Confederate battle flag",
-    "leader": "Jefferson Davis"
+    "leader": "Jefferson Davis",
+    "type": "Country"
   },
   "relationship": [
     {
-      "predecessor": "United States of America"
+      "part_of": "United States"
+    },
+    {
+      "at_war_with": "United States of America"
     },
     {
       "succeeded_by": "United States of America"
     },
     {
-      "civil_war": "American Civil War"
+      "has_leader": "Jefferson Davis"
     },
     {
-      "member_state": "South Carolina"
+      "has_capital": "Richmond, Virginia"
     },
     {
-      "member_state": "Mississippi"
+      "located_in": "North America"
     },
     {
-      "member_state": "Florida"
+      "preceded_by": "Confederate States (1861–1865)"
     },
     {
-      "member_state": "Alabama"
+      "has_member_state": "Virginia"
     },
     {
-      "fought_against": "Union"
+      "has_ideology": "Confederate ideology"
     },
     {
-      "influenced_by": "States' Rights"
-    },
-    {
-      "economic_system": "Agriculture"
+      "caused_by": "States' rights debates"
     }
   ]
 }

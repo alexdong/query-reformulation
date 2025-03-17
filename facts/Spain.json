@@ -10,38 +10,39 @@
     "form_of_government": "Parliamentary monarchy",
     "head_of_state": "Felipe VI",
     "national_dish": "Paella",
-    "member_of": "European Union"
+    "member_of": "European Union",
+    "type": "Country"
   },
   "relationship": [
     {
-      "borders": "Portugal"
+      "located_in": "European Union"
     },
     {
-      "borders": "France"
+      "part_of": "Iberian Peninsula"
     },
     {
-      "borders": "Andorra"
+      "has_capital": "Madrid"
     },
     {
-      "borders": "Morocco"
+      "influenced_by": "Roman Empire"
     },
     {
-      "part_of": "European_Union"
+      "member_of": "United Nations"
     },
     {
-      "located_in": "Europe"
+      "has_official_language": "Spanish language"
     },
     {
-      "has_region": "Andalusia"
+      "has_border_with": "France"
     },
     {
-      "has_region": "Catalonia"
+      "has_border_with": "Portugal"
     },
     {
-      "influenced": "Latin America"
+      "has_currency": "Euro"
     },
     {
-      "historical_event": "Spanish_Civil_War"
+      "has_national_symbol": "Spanish flag"
     }
   ]
 }

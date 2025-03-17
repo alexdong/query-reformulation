@@ -10,38 +10,39 @@
     "independence_date": "August 20, 1810",
     "government": "Presidential Republic",
     "largest_city": "Bogotá",
-    "national_sport": "Football"
+    "national_sport": "Football",
+    "type": "Country"
   },
   "relationship": [
     {
-      "borders": "Venezuela"
+      "located_in": "South America"
     },
     {
-      "borders": "Ecuador"
+      "part_of": "United Nations"
     },
     {
-      "borders": "Peru"
+      "has_capital": "Bogotá"
     },
     {
-      "borders": "Brazil"
+      "member_of": "Organization of American States"
     },
     {
-      "borders": "Panama"
+      "has_currency": "Colombian peso"
     },
     {
-      "member_of": "United Nations"
+      "influenced_by": "Spain"
     },
     {
-      "member_of": "OAS"
+      "has_official_language": "Spanish language"
     },
     {
-      "produces": "Coffee"
+      "borders_country": "Venezuela"
     },
     {
-      "produces": "Emeralds"
+      "has_natural_resource": "Petroleum"
     },
     {
-      "has_region": "Amazon Rainforest"
+      "has_historical_event": "Colombian conflict"
     }
   ]
 }

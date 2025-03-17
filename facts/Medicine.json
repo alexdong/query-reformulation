@@ -1,7 +1,6 @@
 {
   "entity": "Medicine",
   "properties": {
-    "instance_of": "Field of study",
     "definition": "Science of healing",
     "branch_of": "Natural sciences",
     "related_to": "Healthcare",
@@ -10,38 +9,39 @@
     "major_specialties": "Cardiology, Oncology, Neurology",
     "ethical_guidelines": "Hippocratic Oath",
     "research_focus": "Drug development, Diagnostics",
-    "interdisciplinary": "Biology, Chemistry, Physics"
+    "interdisciplinary": "Biology, Chemistry, Physics",
+    "type": "Field of study"
   },
   "relationship": [
     {
-      "treats": "Disease"
+      "instance_of": "Pharmaceutical substance"
     },
     {
-      "diagnoses": "Illness"
+      "used_for": "Disease"
     },
     {
-      "requires": "Medical knowledge"
+      "administered_to": "Patient"
     },
     {
-      "employs": "Medical technology"
+      "has_property": "Chemical compound"
     },
     {
-      "influenced_by": "Biology"
+      "treats": "Symptom"
     },
     {
-      "related_to": "Pharmacology"
+      "developed_by": "Pharmaceutical company"
     },
     {
-      "practiced_by": "Physician"
+      "has_side_effect": "Adverse effect"
     },
     {
-      "requires": "Medical ethics"
+      "requires_monitoring_for": "Laboratory test"
     },
     {
-      "develops": "Pharmaceuticals"
+      "is_a": "Drug"
     },
     {
-      "studies": "Human body"
+      "interacts_with": "Drug"
     }
   ]
 }

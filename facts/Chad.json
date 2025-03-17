@@ -10,38 +10,39 @@
     "largest_city": "N'Djamena",
     "land_border_length_km": "5,340",
     "independence_date": "1960-08-11",
-    "government_type": "Republic"
+    "government_type": "Republic",
+    "type": "Human"
   },
   "relationship": [
     {
-      "part_of": "Africa"
+      "instance_of": "human"
     },
     {
-      "borders": "Libya"
+      "occupation": "professional wrestler"
     },
     {
-      "borders": "Sudan"
+      "sibling": "Natalie Eva Marie"
     },
     {
-      "borders": "Central African Republic"
+      "country_of_citizenship": "United States of America"
     },
     {
-      "borders": "Cameroon"
+      "place_of_birth": "Mission Bay, California"
     },
     {
-      "borders": "Nigeria"
+      "educated_at": "Mission Bay High School"
     },
     {
-      "member_of": "African Union"
+      "member_of": "The Shield"
     },
     {
-      "member_of": "United Nations"
+      "performs_as_member_of": "WWE"
     },
     {
-      "located_in": "Sahel"
+      "award_recipient": "WWE Championship"
     },
     {
-      "has_region": "Tibesti Mountains"
+      "has_relation": "John Cena"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "art_movement": "Baroque",
     "influenced_by": "Giacomo Barozzi",
     "worked_in": "Rome",
-    "style": "Dynamic, complex"
+    "style": "Dynamic, complex",
+    "type": "Architect"
   },
   "relationship": [
     {
-      "influenced": "Carlo Rainaldi"
+      "instance_of": "architect"
     },
     {
-      "influenced": "Nicola Salvi"
+      "country_of_citizenship": "Holy Roman Empire"
     },
     {
-      "employer_of": "Cardinal Ippolito Aldobrandini"
+      "place_of_birth": "Isola di Mereto"
     },
     {
-      "collaborated_with": "Gian Lorenzo Bernini"
+      "place_of_death": "Rome"
     },
     {
-      "designed": "San Carlo alle Quattro Fontane"
+      "educated_at": "Jesuit College, Genoa"
     },
     {
-      "designed": "Sant'Ivo alla Sapienza"
+      "architect_of": "San Carlo alle Quattro Fontane"
     },
     {
-      "designed": "Oratorio di San Filippo Neri"
+      "architect_of": "Sant'Ivo alla Sapienza"
     },
     {
-      "worked_on": "Palazzo Spada"
+      "influenced": "Le Corbusier"
     },
     {
-      "student_of": "Giacomo Barozzi"
+      "influenced": "Gaudi"
     },
     {
-      "part_of": "Baroque architecture"
+      "member_of": "Baroque architecture"
     }
   ]
 }

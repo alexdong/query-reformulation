@@ -1,7 +1,6 @@
 {
   "entity": "Economist",
   "properties": {
-    "instance_of": "Profession",
     "field_of_study": "Economics",
     "typical_education": "PhD",
     "work_environment": "Office",
@@ -10,38 +9,39 @@
     "salary_range": "Varies",
     "related_fields": "Statistics, Mathematics",
     "governing_body": "None",
-    "ethics_focus": "Efficiency, Equity"
+    "ethics_focus": "Efficiency, Equity",
+    "type": "Profession"
   },
   "relationship": [
     {
-      "studies": "Economics"
+      "instance_of": "human"
     },
     {
-      "employs": "Econometrics"
+      "occupation": "economist"
     },
     {
-      "influenced_by": "Adam Smith"
+      "field_of_work": "economics"
     },
     {
-      "works_with": "Data"
+      "educated_at": "university"
     },
     {
-      "analyzes": "Markets"
+      "employer": "organization"
     },
     {
-      "contributes_to": "Policy"
+      "publication": "book"
     },
     {
-      "models": "Behavior"
+      "publication": "journal article"
     },
     {
-      "researches": "Growth"
+      "writes_about": "topic"
     },
     {
-      "writes": "Reports"
+      "influences": "economist"
     },
     {
-      "collaborates_with": "Statisticians"
+      "member_of": "professional_organization"
     }
   ]
 }

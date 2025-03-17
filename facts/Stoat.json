@@ -10,38 +10,39 @@
     "distribution": "North America, Eurasia",
     "habitat": "Forests, grasslands",
     "diet": "Small mammals, birds",
-    "conservation_status": "Least Concern"
+    "conservation_status": "Least Concern",
+    "type": "Mammal"
   },
   "relationship": [
     {
-      "is_a": "Mustelid"
+      "instance_of": "mustelid"
     },
     {
-      "part_of_family": "Mustelidae"
+      "taxon": "Mustela"
     },
     {
-      "prey_of": "Eagles"
+      "has_habitat": "grassland"
     },
     {
-      "prey_of": "Wolves"
+      "has_habitat": "forest"
     },
     {
-      "predator_of": "Voles"
+      "prey": "vole"
     },
     {
-      "predator_of": "Mice"
+      "prey": "mouse"
     },
     {
-      "related_to": "American Ermine"
+      "part_of": "food web"
     },
     {
-      "related_to": "Sable"
+      "controlled_by": "ferret"
     },
     {
-      "geographic_location": "Canada"
+      "has_feature": "fur"
     },
     {
-      "geographic_location": "Russia"
+      "has_attribute": "agility"
     }
   ]
 }

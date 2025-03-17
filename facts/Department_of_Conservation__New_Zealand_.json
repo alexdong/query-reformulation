@@ -1,5 +1,5 @@
 {
-  "entity": "Department of Conservation (New Zealand)",
+  "entity": "Department of Conservation  New Zealand ",
   "properties": {
     "agency_type": "Government agency",
     "country": "New Zealand",
@@ -10,38 +10,39 @@
     "budget": "NZD $750 million (2023)",
     "employees": "3,000+",
     "minister": "Eugenie Sage",
-    "website": "doc.govt.nz"
+    "website": "doc.govt.nz",
+    "type": "GovernmentAgency"
   },
   "relationship": [
     {
-      "manages": "National Park"
+      "subclass_of": "Government agency"
     },
     {
-      "protects": "Native Species"
+      "instance_of": "Government organization"
     },
     {
-      "responsible_for": "Conservation"
+      "located_in": "New Zealand"
     },
     {
-      "works_with": "Māori"
+      "has_member": "New Zealand Parliament"
     },
     {
-      "funded_by": "New Zealand Government"
+      "responsible_for": "National Park"
     },
     {
-      "oversees": "Marine Reserve"
+      "manages": "Conservation area"
     },
     {
-      "employs": "Ranger"
+      "reports_to": "Minister of Conservation"
     },
     {
-      "collaborates_with": "Local Council"
+      "employs": "Conservation officer"
     },
     {
-      "reports_to": "Parliament of New Zealand"
+      "works_with": "Department of Internal Affairs"
     },
     {
-      "location": "New Zealand"
+      "funds": "Research project"
     }
   ]
 }

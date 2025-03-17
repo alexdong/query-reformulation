@@ -10,38 +10,39 @@
     "purpose": "Public buildings, residences",
     "aesthetic": "Formal, restrained, elegant",
     "influence": "Renaissance architecture",
-    "reaction_against": "Rococo"
+    "reaction_against": "Rococo",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "influenced_by": "Ancient Greek architecture"
+      "influenced_by": "Renaissance architecture"
     },
     {
-      "influenced_by": "Ancient Roman architecture"
+      "influenced_by": "Baroque architecture"
     },
     {
-      "influenced": "Federal architecture"
+      "part_of": "Western architecture"
     },
     {
-      "influenced": "Georgian architecture"
+      "characterized_by": "Classical orders"
     },
     {
-      "architect": "Andrea Palladio"
+      "associated_with": "Enlightenment"
     },
     {
-      "architect": "Robert Adam"
+      "designed_by": "architect"
     },
     {
-      "architect": "Claude Nicolas Ledoux"
+      "example_of": "architectural style"
     },
     {
-      "example_building": "Pantheon (Paris)"
+      "used_in": "building"
     },
     {
-      "example_building": "United States Capitol"
+      "associated_with_period": "Neoclassical period"
     },
     {
-      "movement_part_of": "Architecture"
+      "influenced": "Beaux-Arts architecture"
     }
   ]
 }

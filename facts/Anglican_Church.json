@@ -1,7 +1,6 @@
 {
   "entity": "Anglican Church",
   "properties": {
-    "instance_of": "Christian denomination",
     "origin": "England",
     "founder": "Henry VIII",
     "liturgy": "Book of Common Prayer",
@@ -10,38 +9,39 @@
     "head": "Archbishop of Canterbury",
     "sacraments": "Baptism, Eucharist, Confirmation, Marriage, Reconciliation, Holy Orders, Unction",
     "worship_style": "Diverse, ranging from traditional to contemporary",
-    "governance": "Episcopal"
+    "governance": "Episcopal",
+    "type": "Christian denomination"
   },
   "relationship": [
     {
       "part_of": "Christianity"
     },
     {
-      "influenced_by": "Catholic Church"
+      "subclass_of": "Protestantism"
     },
     {
-      "influenced": "Methodism"
+      "has_member": "Church of England"
     },
     {
-      "related_to": "Oxford Movement"
+      "has_member": "Episcopal Church"
     },
     {
-      "branch_of": "Protestantism"
+      "related_to": "Catholic Church"
     },
     {
-      "leader_is": "Archbishop of Canterbury"
+      "has_leader": "Archbishop of Canterbury"
     },
     {
-      "has_province": "Church of England"
+      "has_doctrine": "Thirty-Nine Articles"
     },
     {
-      "has_province": "Anglican Church in Canada"
+      "has_liturgy": "Book of Common Prayer"
     },
     {
-      "has_province": "Anglican Church of Australia"
+      "located_in": "England"
     },
     {
-      "related_to": "Thirty-Nine Articles"
+      "has_historical_figure": "Thomas Cranmer"
     }
   ]
 }

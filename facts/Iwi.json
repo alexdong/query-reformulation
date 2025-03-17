@@ -1,7 +1,6 @@
 {
   "entity": "Iwi",
   "properties": {
-    "instance_of": "Tribal group",
     "location": "New Zealand",
     "culture": "Māori",
     "language": "Te Reo Māori",
@@ -10,38 +9,39 @@
     "economy": "Traditional and modern",
     "history": "Centuries of settlement",
     "values": "Whakapapa, Mana, Tapu",
-    "population": "Varies by Iwi"
+    "population": "Varies by Iwi",
+    "type": "Tribal group"
   },
   "relationship": [
     {
-      "part_of": "Māori people"
+      "instance_of": "tribe"
     },
     {
       "located_in": "New Zealand"
     },
     {
+      "has_member": "Rangitane o Manawatu"
+    },
+    {
+      "subclass_of": "Māori people"
+    },
+    {
+      "has_language": "Te Reo Māori"
+    },
+    {
+      "has_traditional_territory": "North Island of New Zealand"
+    },
+    {
       "related_to": "Treaty of Waitangi"
     },
     {
-      "ancestor": "Waka"
+      "has_leader": "Kiingi Tuheitia Pootana"
     },
     {
-      "governed_by": "Rangatira"
+      "has_cultural_tradition": "Kapa Haka"
     },
     {
-      "has_rohe": "Territory"
-    },
-    {
-      "connected_to": "Marae"
-    },
-    {
-      "associated_with": "Haka"
-    },
-    {
-      "claims_land": "New Zealand"
-    },
-    {
-      "has_member": "Māori individual"
+      "has_ancestor": "Tāwhirimātea"
     }
   ]
 }

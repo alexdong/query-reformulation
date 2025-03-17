@@ -10,14 +10,18 @@
     "largest_city": "Las Vegas",
     "time_zone": "Pacific Time",
     "state_flower": "Sagebrush",
-    "admission_date": "1864-10-31"
+    "admission_date": "1864-10-31",
+    "type": "AdministrativeDivision"
   },
   "relationship": [
+    {
+      "located_in": "United States of America"
+    },
     {
       "part_of": "United States"
     },
     {
-      "located_in": "United States"
+      "has_capital": "Carson City"
     },
     {
       "borders": "California"
@@ -26,22 +30,19 @@
       "borders": "Oregon"
     },
     {
+      "borders": "Idaho"
+    },
+    {
       "borders": "Utah"
     },
     {
       "borders": "Arizona"
     },
     {
-      "contains": "Lake Tahoe"
+      "has_industry": "Mining"
     },
     {
-      "contains": "Great Basin Desert"
-    },
-    {
-      "industry": "Gambling"
-    },
-    {
-      "industry": "Mining"
+      "has_industry": "Tourism"
     }
   ]
 }

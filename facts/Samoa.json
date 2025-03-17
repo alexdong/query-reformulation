@@ -10,38 +10,39 @@
     "continent": "Oceania",
     "government_type": "Parliamentary republic",
     "gdp_nominal": "650 million USD",
-    "time_zone": "UTC+14"
+    "time_zone": "UTC+14",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "part_of": "Polynesia"
-    },
     {
       "located_in": "Oceania"
     },
     {
-      "border_country": "American Samoa"
+      "part_of": "Polynesia"
+    },
+    {
+      "has_capital": "Apia"
+    },
+    {
+      "influenced_by": "Germany"
     },
     {
       "influenced_by": "New Zealand"
     },
     {
-      "historical_figure": "Malietoa Laupepa"
+      "has_official_language": "Samoan language"
     },
     {
-      "historical_event": "Mau Movement"
+      "has_official_language": "English language"
     },
     {
-      "religion": "Christianity"
+      "member_of": "United Nations"
     },
     {
-      "island_group": "Samoan Islands"
+      "member_of": "Pacific Community"
     },
     {
-      "natural_resource": "Fish"
-    },
-    {
-      "exports": "Copra, fish, handicrafts"
+      "has_neighbor": "American Samoa"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "highest_denomination": "100",
     "economic_bloc": "Asia-Pacific",
     "exchange_rate_vs_USD": "0.66",
-    "inflation_rate": "0.04"
+    "inflation_rate": "0.04",
+    "type": "Currency"
   },
   "relationship": [
     {
-      "part_of": "Australian Economy"
+      "issuance_currency_of": "Australia"
     },
     {
-      "influenced_by": "Bretton_Woods_system"
+      "has_currency_code": "AUD"
     },
     {
-      "exchange_rate_with": "United_States_dollar"
+      "part_of": "ISO 4217"
     },
     {
-      "used_in": "Australian_trade"
+      "influenced_by": "Australian economy"
     },
     {
-      "managed_by": "Reserve_Bank_of_Australia"
+      "exchange_rate_to": "United States Dollar"
     },
     {
-      "compared_to": "New_Zealand_dollar"
+      "managed_by": "Reserve Bank of Australia"
     },
     {
-      "compared_to": "Japanese_yen"
+      "used_in": "Australian financial system"
     },
     {
-      "impacts": "Australian_interest_rates"
+      "has_subunit": "Cent"
     },
     {
-      "affects": "Australian_exports"
+      "related_to": "Trade-weighted index"
     },
     {
-      "used_in": "Australian_banking"
+      "affected_by": "Interest rates"
     }
   ]
 }

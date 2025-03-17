@@ -10,38 +10,39 @@
     "major_city": "Invercargill",
     "climate": "Temperate",
     "economy_sector": "Agriculture",
-    "governing_body": "Southland Regional Council"
+    "governing_body": "Southland Regional Council",
+    "type": "AdministrativeDivision"
   },
   "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
     {
       "part_of": "New Zealand"
     },
     {
-      "located_in": "South Island"
+      "has_region_administer": "Environment Canterbury"
     },
     {
-      "borders": "Otago Region"
+      "has_region_administer": "Otago Regional Council"
     },
     {
-      "borders": "Westland District"
+      "contains_city": "Christchurch"
     },
     {
-      "contains": "Fiordland National Park"
+      "contains_city": "Dunedin"
     },
     {
-      "contains": "Invercargill City"
+      "has_region_type": "geographical region"
     },
     {
-      "contains": "Gore District"
+      "adjacent_to": "West Coast Region"
     },
     {
-      "economic_activity": "Dairy farming"
+      "adjacent_to": "Canterbury Region"
     },
     {
-      "economic_activity": "Horticulture"
-    },
-    {
-      "river_flows_through": "Mataura River"
+      "has_area_unit": "square kilometre"
     }
   ]
 }

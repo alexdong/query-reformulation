@@ -1,7 +1,6 @@
 {
   "entity": "Human",
   "properties": {
-    "instance_of": "Mammal",
     "kingdom": "Animalia",
     "phylum": "Chordata",
     "class": "Mammalia",
@@ -10,38 +9,39 @@
     "average_lifespan": "73 years",
     "binomial_name": "Homo sapiens",
     "mass": "62 kg",
-    "height": "1.75 m"
+    "height": "1.75 m",
+    "type": "Mammal"
   },
   "relationship": [
     {
-      "part_of": "Homo"
+      "instance_of": "Homo sapiens"
     },
     {
-      "related_to": "Human evolution"
+      "parent_of": "Human"
     },
     {
-      "habitat": "Worldwide"
+      "has_part": "Organ"
     },
     {
-      "diet": "Omnivore"
+      "works_for": "Organization"
     },
     {
-      "uses": "Technology"
+      "member_of": "Social group"
     },
     {
-      "communicates_through": "Language"
+      "located_in": "Country"
     },
     {
-      "social_structure": "Society"
+      "communicates_with": "Human"
     },
     {
-      "creates": "Art"
+      "created_by": "Artist"
     },
     {
-      "has_disease": "Cancer"
+      "influenced_by": "Philosopher"
     },
     {
-      "related_to": "Human rights"
+      "has_belief": "Belief"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "historical_significance": "Ancient trade routes",
     "modern_facilitator": "Internet",
     "challenges": "Cultural appropriation",
-    "outcome": "Hybrid cultures"
+    "outcome": "Hybrid cultures",
+    "type": "Event"
   },
   "relationship": [
     {
-      "promotes": "Globalization"
+      "instance_of": "cultural_activity"
     },
     {
-      "influences": "Intercultural Communication"
+      "part_of": "international_relations"
     },
     {
-      "facilitates": "Tourism"
+      "promotes": "intercultural_understanding"
     },
     {
-      "supports": "Diplomacy"
+      "facilitates": "tourism"
     },
     {
-      "impacts": "Art"
+      "results_in": "cultural_diffusion"
     },
     {
-      "impacts": "Music"
+      "involves": "artists"
     },
     {
-      "impacts": "Cuisine"
+      "involves": "diplomats"
     },
     {
-      "related_to": "UNESCO"
+      "supports": "language_learning"
     },
     {
-      "example_of": "Silk Road"
+      "fosters": "global_citizenship"
     },
     {
-      "fosters": "Empathy"
+      "influenced_by": "historical_events"
     }
   ]
 }

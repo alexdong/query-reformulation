@@ -1,7 +1,6 @@
 {
-  "entity": "Community (TV series)",
+  "entity": "Community  TV series ",
   "properties": {
-    "instance_of": "Sitcom",
     "creator": "Dan Harmon",
     "network": "NBC",
     "genre": "Comedy",
@@ -10,38 +9,39 @@
     "end_date": "2015-06-16",
     "number_of_seasons": "6",
     "setting": "Greendale, California",
-    "production_company": "HarmoniousClown Productions"
+    "production_company": "HarmoniousClown Productions",
+    "type": "Sitcom"
   },
   "relationship": [
     {
-      "prequel": "Pilot (Community episode)"
+      "instance_of": "television_series"
     },
     {
-      "sequel": "Not Enough Crosby"
+      "creator": "Dan Harmon"
     },
     {
-      "influenced": "Rick and Morty"
+      "genre": "comedy"
     },
     {
-      "cast_member": "Joel McHale"
+      "country_of_origin": "United States"
     },
     {
-      "cast_member": "Gillian Jacobs"
+      "language": "English"
     },
     {
-      "cast_member": "Danny Pudi"
+      "broadcast_start_date": "2009-01-17"
     },
     {
-      "cast_member": "Yvette Nicole Brown"
+      "network": "Adult Swim"
     },
     {
-      "cast_member": "Alison Brie"
+      "influenced_by": "The Simpsons"
     },
     {
-      "cast_member": "Donald Glover"
+      "character": "Jeff Winger"
     },
     {
-      "written_by": "Dan Harmon"
+      "character": "Britta Perry"
     }
   ]
 }

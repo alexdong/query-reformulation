@@ -10,38 +10,39 @@
     "scientific_advancement": "Astronomy, Anatomy",
     "literary_language": "Vernacular",
     "economic_driver": "Trade",
-    "geographic_spread": "Europe"
+    "geographic_spread": "Europe",
+    "type": "Historical Period"
   },
   "relationship": [
     {
       "preceded_by": "Middle Ages"
     },
     {
-      "followed_by": "Age of Discovery"
+      "followed_by": "Age of Enlightenment"
     },
     {
-      "influenced": "Scientific Revolution"
+      "influenced": "Baroque"
     },
     {
-      "influenced": "Protestant Reformation"
+      "influenced": "Neoclassicism"
     },
     {
-      "artistic_movement": "High Renaissance"
+      "associated_with_event": "Fall of Constantinople"
     },
     {
-      "artist_associated": "Leonardo da Vinci"
+      "associated_with_movement": "Humanism"
     },
     {
-      "artist_associated": "Michelangelo"
+      "associated_with_art_movement": "Early Renaissance"
     },
     {
-      "writer_associated": "William Shakespeare"
+      "associated_with_art_movement": "High Renaissance"
     },
     {
-      "city_associated": "Florence"
+      "associated_with_person": "Leonardo da Vinci"
     },
     {
-      "intellectual_figure": "Niccolò Machiavelli"
+      "associated_with_person": "Michelangelo"
     }
   ]
 }

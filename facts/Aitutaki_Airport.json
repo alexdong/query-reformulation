@@ -10,38 +10,39 @@
     "owner": "Cook Islands Government",
     "status": "Open",
     "coordinates": "18°56′33″S 166°45′30″E",
-    "time_zone": "UTC+12"
+    "time_zone": "UTC+12",
+    "type": "Airport"
   },
   "relationship": [
     {
-      "serves": "Aitutaki"
+      "located_in": "Aitutaki"
     },
     {
-      "located_in": "Cook Islands"
+      "part_of": "Cook Islands"
     },
     {
-      "operates_flight": "Air Cook Islands"
+      "operated_by": "Cook Islands Airports Authority"
     },
     {
-      "has_service": "Rarotonga International Airport"
+      "has_ICAO_code": "ATU"
     },
     {
-      "type": "Airport"
+      "has_IATA_code": "AIU"
     },
     {
-      "part_of": "Cook Islands Airports"
+      "serves_city": "Aitutaki"
     },
     {
-      "has_property": "Runway"
+      "has_type": "Airport"
     },
     {
-      "has_property": "Terminal"
+      "has_coordinate": "18°56′33″S 160°47′18″W"
     },
     {
-      "connected_to": "Pacific Ocean"
+      "connected_to_by_route": "Air Rarotonga"
     },
     {
-      "nearby_landmark": "Aitutaki Lagoon"
+      "has_elevation_above_sea_level": "20 feet"
     }
   ]
 }

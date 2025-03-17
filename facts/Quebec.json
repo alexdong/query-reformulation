@@ -1,7 +1,6 @@
 {
   "entity": "Quebec",
   "properties": {
-    "instance_of": "Province",
     "country": "Canada",
     "capital": "Quebec City",
     "official_language": "French",
@@ -10,38 +9,39 @@
     "currency": "Canadian Dollar",
     "time_zone": "Eastern Time",
     "largest_city": "Montreal",
-    "founding_date": "1608"
+    "founding_date": "1608",
+    "type": "Province"
   },
   "relationship": [
+    {
+      "located_in": "Canada"
+    },
     {
       "part_of": "Canada"
     },
     {
-      "located_in": "North America"
+      "has_capital": "Quebec City"
     },
     {
-      "borders": "Ontario"
+      "official_language": "French language"
     },
     {
-      "borders": "New Brunswick"
+      "has_province": "Quebec"
     },
     {
-      "borders": "Newfoundland and Labrador"
+      "borders_country": "United States"
     },
     {
-      "has_river": "Saint Lawrence River"
+      "has_historical_period": "New France"
     },
     {
-      "has_city": "Montreal"
+      "influenced_by": "French language"
     },
     {
-      "has_city": "Quebec City"
+      "has_culture": "Quebec culture"
     },
     {
-      "influenced_by": "French colonization"
-    },
-    {
-      "governed_by": "Premier of Quebec"
+      "has_economy": "Quebec economy"
     }
   ]
 }

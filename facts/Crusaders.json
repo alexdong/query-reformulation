@@ -1,7 +1,6 @@
 {
   "entity": "Crusaders",
   "properties": {
-    "instance_of": "Military order",
     "historical_period": "Middle Ages",
     "origin": "Europe",
     "religious_affiliation": "Christianity",
@@ -10,38 +9,39 @@
     "founder": "Godfrey of Bouillon",
     "first_crusade_date": "1096",
     "decline_date": "13th century",
-    "headquarters": "Jerusalem"
+    "headquarters": "Jerusalem",
+    "type": "Military order"
   },
   "relationship": [
     {
-      "part_of": "First Crusade"
+      "instance_of": "military_order"
+    },
+    {
+      "part_of": "Crusades"
+    },
+    {
+      "founded_by": "Godfrey of Bouillon"
+    },
+    {
+      "headquarters_location": "Jerusalem"
     },
     {
       "member_of": "Knights Templar"
     },
     {
-      "member_of": "Hospitallers"
+      "succeeded_by": "Knights Hospitaller"
     },
     {
-      "fought_against": "Muslims"
+      "involved_in": "Siege of Jerusalem"
     },
     {
-      "influenced": "European politics"
+      "religious_affiliation": "Christianity"
     },
     {
-      "influenced": "Military tactics"
+      "activity_sector": "Military"
     },
     {
-      "related_to": "Saladin"
-    },
-    {
-      "related_to": "Richard the Lionheart"
-    },
-    {
-      "location": "Jerusalem"
-    },
-    {
-      "location": "Antioch"
+      "historical_period": "Middle Ages"
     }
   ]
 }

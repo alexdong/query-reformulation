@@ -1,7 +1,6 @@
 {
   "entity": "Master of Arts",
   "properties": {
-    "instance_of": "Academic degree",
     "field_of_study": "Various",
     "level": "Postgraduate",
     "duration": "1-3 years",
@@ -10,38 +9,39 @@
     "assessment_methods": "Thesis, exams, coursework",
     "purpose": "Advanced knowledge",
     "common_disciplines": "Humanities, Social Sciences, Sciences",
-    "credential_type": "Academic credential"
+    "credential_type": "Academic credential",
+    "type": "Academic degree"
   },
   "relationship": [
     {
-      "predecessor": "Bachelor's degree"
+      "instance_of": "academic degree"
     },
     {
-      "successor": "Doctor of Philosophy"
+      "has_prerequisite": "Bachelor's degree"
     },
     {
-      "offered_by": "University"
+      "field_of_study": "Academic discipline"
     },
     {
-      "requires": "Coursework"
+      "awarded_by": "University"
     },
     {
-      "culminates_in": "Thesis"
+      "requires": "Thesis"
     },
     {
-      "related_to": "Academic discipline"
+      "has_purpose": "Academic research"
     },
     {
-      "part_of": "Postgraduate education"
+      "subclass_of": "Postgraduate degree"
     },
     {
-      "leads_to": "Career advancement"
+      "related_to": "Higher education"
     },
     {
-      "recognized_by": "Accreditation agency"
+      "can_lead_to": "Doctoral degree"
     },
     {
-      "requires": "Academic supervisor"
+      "has_specialization": "Subject"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "studio_system": "Dominant",
     "production_code": "Hays Code",
     "economic_impact": "Significant",
-    "cultural_impact": "Enormous"
+    "cultural_impact": "Enormous",
+    "type": "FilmEra"
   },
   "relationship": [
     {
-      "preceded_by": "Silent Film Era"
+      "period": "20th century"
+    },
+    {
+      "preceded_by": "Silent film era"
     },
     {
       "followed_by": "New Hollywood"
     },
     {
-      "influenced": "Modern Cinema"
+      "influenced": "Contemporary cinema"
     },
     {
-      "studio_involved": "MGM"
+      "produced_work": "Citizen Kane"
     },
     {
-      "studio_involved": "Warner Bros."
+      "associated_with": "Marilyn Monroe"
     },
     {
-      "studio_involved": "Paramount Pictures"
+      "associated_with": "Walt Disney"
     },
     {
-      "actor_appeared": "Humphrey Bogart"
+      "located_in": "United States of America"
     },
     {
-      "actor_appeared": "Marilyn Monroe"
+      "genre": "Film"
     },
     {
-      "director_involved": "Alfred Hitchcock"
-    },
-    {
-      "film_genre": "Film Noir"
+      "characterized_by": "Studio system"
     }
   ]
 }

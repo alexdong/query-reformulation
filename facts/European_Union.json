@@ -1,7 +1,6 @@
 {
   "entity": "European Union",
   "properties": {
-    "instance_of": "Political union",
     "population": "447 million",
     "area": "4,233,000 km²",
     "official_languages": "24",
@@ -10,20 +9,27 @@
     "seat_location": "Brussels",
     "member_states": "27",
     "GDP_nominal": "$17.64 trillion",
-    "predecessor": "European Economic Community"
+    "predecessor": "European Economic Community",
+    "type": "Political union"
   },
   "relationship": [
     {
-      "succeeded": "European Economic Community"
-    },
-    {
-      "member_of": "Council of Europe"
+      "instance_of": "international organization"
     },
     {
       "located_in": "Europe"
     },
     {
+      "member_of": "United Nations"
+    },
+    {
       "has_member": "France"
+    },
+    {
+      "created_by": "Treaty of Maastricht"
+    },
+    {
+      "subclass_of": "political union"
     },
     {
       "has_member": "Germany"
@@ -32,16 +38,10 @@
       "has_member": "Italy"
     },
     {
-      "has_member": "Spain"
+      "predecessor_of": "European Economic Community"
     },
     {
-      "governed_by": "European Commission"
-    },
-    {
-      "legislative_branch": "European Parliament"
-    },
-    {
-      "judicial_branch": "Court of Justice of the European Union"
+      "has_official": "Ursula von der Leyen"
     }
   ]
 }

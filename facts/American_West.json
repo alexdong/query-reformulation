@@ -10,38 +10,39 @@
     "climate": "Arid, Semi-arid",
     "geography": "Plains, Mountains",
     "settlement_pattern": "Scattered",
-    "cultural_impact": "Cowboy culture"
+    "cultural_impact": "Cowboy culture",
+    "type": "Region"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States of America"
     },
     {
-      "influenced": "Western genre"
+      "part_of": "North America"
     },
     {
-      "settled_by": "European Americans"
+      "influenced_by": "Manifest Destiny"
     },
     {
-      "conflict_with": "Native Americans"
+      "characterized_by": "Frontier Culture"
     },
     {
-      "major_event": "California Gold Rush"
+      "involved_in": "American Civil War"
     },
     {
-      "involved_in": "Oregon Trail"
+      "shaped_by": "Homestead Act"
     },
     {
-      "involved_in": "Oklahoma Land Run"
+      "impacted_by": "California Gold Rush"
     },
     {
-      "economic_impact_on": "United States"
+      "involved_in": "Indian Wars"
     },
     {
-      "associated_with": "Cowboy"
+      "developed_through": "Transcontinental Railroad"
     },
     {
-      "associated_with": "Ranching"
+      "affected_by": "Dust Bowl"
     }
   ]
 }

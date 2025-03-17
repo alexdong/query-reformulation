@@ -1,5 +1,5 @@
 {
-  "entity": "Runway 05/23",
+  "entity": "Runway 05 23",
   "properties": {
     "designator": "05/23",
     "heading": "050°/230°",
@@ -10,38 +10,39 @@
     "ILS_approach": "True",
     "precision": "CAT II",
     "width": "150 feet",
-    "usage": "Commercial Aviation"
+    "usage": "Commercial Aviation",
+    "type": "Runway"
   },
   "relationship": [
     {
-      "located_at": "Phoenix Sky Harbor International Airport"
+      "has_direction": "Runway Direction"
     },
     {
-      "part_of": "Airport Infrastructure"
+      "part_of": "Airport"
     },
     {
-      "serves": "Commercial Aircraft"
+      "located_in": "Airport Location"
     },
     {
-      "used_by": "Southwest Airlines"
+      "used_by": "Aircraft"
     },
     {
-      "used_by": "American Airlines"
+      "associated_with": "Approach Procedure"
     },
     {
-      "approach_procedure": "ILS 05"
+      "associated_with": "Departure Procedure"
     },
     {
-      "approach_procedure": "ILS 23"
+      "connected_to": "Taxiway"
     },
     {
-      "connected_to": "Taxiway Alpha"
+      "related_to": "Air Traffic Control"
     },
     {
-      "connected_to": "Taxiway Bravo"
+      "defined_by": "Airport Authority"
     },
     {
-      "regulation_by": "FAA"
+      "subject_to": "Aviation Regulations"
     }
   ]
 }

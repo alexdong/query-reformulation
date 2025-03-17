@@ -1,7 +1,6 @@
 {
   "entity": "Angiosperms",
   "properties": {
-    "instance_of": "Plant group",
     "common_name": "Flowering plants",
     "scientific_name": "Magnoliophyta",
     "reproduction": "Sexual",
@@ -10,38 +9,39 @@
     "vascular_system": "Vascular",
     "dominant_generation": "Sporophyte",
     "global_distribution": "Worldwide",
-    "number_of_species": "Approx. 391,000"
+    "number_of_species": "Approx. 391,000",
+    "type": "Plant group"
   },
   "relationship": [
     {
-      "part_of": "Plants"
+      "instance_of": "Flowering plant"
     },
     {
-      "subclass_of": "Spermatophytes"
+      "subclass_of": "Seed plant"
     },
     {
-      "related_to": "Gymnosperms"
+      "has_part": "Flower"
     },
     {
-      "pollinated_by": "Insects"
+      "has_part": "Fruit"
     },
     {
-      "pollinated_by": "Birds"
-    },
-    {
-      "provides_food_for": "Animals"
-    },
-    {
-      "produces": "Fruits"
+      "has_characteristic": "Double fertilization"
     },
     {
       "produces": "Seeds"
     },
     {
-      "contains": "Flowers"
+      "pollinated_by": "Insect"
     },
     {
-      "important_for": "Ecosystems"
+      "pollinated_by": "Wind"
+    },
+    {
+      "habitat": "Terrestrial ecosystem"
+    },
+    {
+      "related_to": "Evolution of land plants"
     }
   ]
 }

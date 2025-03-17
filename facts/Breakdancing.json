@@ -10,38 +10,39 @@
     "music_genre": "Hip-hop, Funk",
     "cultural_significance": "Expression, Community",
     "competitive_aspect": "Battles, Competitions",
-    "olympic_status": "Olympic sport (2024)"
+    "olympic_status": "Olympic sport (2024)",
+    "type": "Dance"
   },
   "relationship": [
     {
-      "part_of": "Hip-hop culture"
+      "instance_of": "dance"
     },
     {
-      "influenced": "Street dance"
+      "subclass_of": "hip-hop dance"
     },
     {
-      "related_to": "DJing"
+      "influenced_by": "funk"
     },
     {
-      "related_to": "Graffiti art"
+      "influenced_by": "jazz dance"
     },
     {
-      "related_to": "Rap music"
+      "associated_with": "hip-hop music"
     },
     {
-      "practiced_in": "United States"
+      "performed_in": "street"
     },
     {
-      "practiced_in": "Japan"
+      "associated_with_event": "breakdance battles"
     },
     {
-      "practiced_in": "France"
+      "has_participant": "b-boy"
     },
     {
-      "pioneer": "Afrika Bambaataa"
+      "related_to": "graffiti art"
     },
     {
-      "style_of": "Acrobatic dance"
+      "part_of": "hip-hop culture"
     }
   ]
 }

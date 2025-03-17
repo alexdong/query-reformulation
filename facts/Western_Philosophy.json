@@ -10,38 +10,39 @@
     "key_figure_3": "Immanuel Kant",
     "major_branch_1": "Rationalism",
     "major_branch_2": "Empiricism",
-    "influence_on": "Science, Politics, Ethics"
+    "influence_on": "Science, Politics, Ethics",
+    "type": "PhilosophicalMovement"
   },
   "relationship": [
     {
-      "predecessor": "Pre-Socratic Philosophy"
+      "influenced": "Ancient Philosophy"
     },
     {
-      "influenced": "Logic"
+      "part_of": "History of Philosophy"
     },
     {
-      "influenced": "Political Philosophy"
+      "developed_in": "Europe"
     },
     {
-      "influenced": "Moral Philosophy"
+      "has_subfield": "Metaphysics"
     },
     {
-      "subfield_of": "Philosophy"
+      "has_subfield": "Epistemology"
     },
     {
-      "related_to": "Eastern Philosophy"
+      "has_figure": "Plato"
     },
     {
-      "developed_by": "Ancient Greeks"
+      "has_figure": "Aristotle"
     },
     {
-      "includes": "Existentialism"
+      "influenced": "Modern Philosophy"
     },
     {
-      "includes": "Stoicism"
+      "related_to": "Logic"
     },
     {
-      "influenced_by": "Ancient Greek Religion"
+      "has_concept": "Rationalism"
     }
   ]
 }

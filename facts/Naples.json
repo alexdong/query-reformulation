@@ -10,38 +10,39 @@
     "language": "Italian",
     "currency": "Euro",
     "time_zone": "Central European",
-    "elevation_m": "29"
+    "elevation_m": "29",
+    "type": "City"
   },
   "relationship": [
-    {
-      "part_of": "Italy"
-    },
     {
       "located_in": "Campania"
     },
     {
-      "near": "Pompeii"
+      "part_of": "Italy"
     },
     {
-      "near": "Herculaneum"
+      "has_province": "Metropolitan City of Naples"
     },
     {
-      "influenced": "Neapolitan cuisine"
+      "has_region": "Southern Italy"
     },
     {
-      "has_landmark": "Castel Nuovo"
+      "influenced_by": "Ancient Greece"
     },
     {
-      "has_landmark": "Naples National Archaeological Museum"
+      "founded_by": "Greeks"
     },
     {
-      "has_landmark": "Duomo di Napoli"
+      "has_landmark": "Pompeii"
     },
     {
-      "university": "University of Naples Federico II"
+      "has_river": "Seveso River"
     },
     {
-      "port": "Port of Naples"
+      "has_historical_event": "Unification of Italy"
+    },
+    {
+      "has_cuisine": "Neapolitan cuisine"
     }
   ]
 }

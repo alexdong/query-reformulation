@@ -10,38 +10,39 @@
     "economy": "Fishing, Tourism, Natural Resources",
     "geography": "Coastline, Islands, Highlands",
     "political_status": "Part of Canada",
-    "largest_city": "Halifax"
+    "largest_city": "Halifax",
+    "type": "Region"
   },
   "relationship": [
     {
-      "part_of": "Canada"
+      "located_in": "Canada"
     },
     {
-      "contains": "New Brunswick"
+      "part_of": "North America"
     },
     {
-      "contains": "Nova Scotia"
+      "has_region": "Maritime Provinces"
     },
     {
-      "contains": "Prince Edward Island"
-    },
-    {
-      "contains": "Newfoundland and Labrador"
-    },
-    {
-      "borders": "Quebec"
+      "adjacent_to": "United States"
     },
     {
       "influenced_by": "Mi'kmaq people"
     },
     {
-      "influenced_by": "French colonization"
+      "has_economy": "Canadian economy"
     },
     {
-      "exports_to": "United States"
+      "has_climate": "Humid continental climate"
     },
     {
-      "tourism_attraction": "Cabot Trail"
+      "has_language": "English language"
+    },
+    {
+      "has_culture": "Canadian culture"
+    },
+    {
+      "governed_by": "Government of Canada"
     }
   ]
 }

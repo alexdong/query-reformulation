@@ -10,38 +10,39 @@
     "effectiveness": "Varies by context",
     "adaptation": "Needs adjustment",
     "research": "Ongoing study",
-    "impact": "Student achievement"
+    "impact": "Student achievement",
+    "type": "EducationalActivity"
   },
   "relationship": [
     {
-      "influenced_by": "Educational Psychology"
+      "instance_of": "Educational_method"
     },
     {
-      "related_to": "Curriculum Design"
+      "used_in": "Learning_process"
     },
     {
-      "supports": "Active Learning"
+      "influenced_by": "Educational_philosophy"
     },
     {
-      "contrasts_with": "Lecture Method"
+      "results_in": "Student_learning_outcomes"
     },
     {
-      "includes": "Project-Based Learning"
+      "requires": "Assessment_techniques"
     },
     {
-      "includes": "Inquiry-Based Learning"
+      "implemented_by": "Educator"
     },
     {
-      "includes": "Cooperative Learning"
+      "affects": "Student_engagement"
     },
     {
-      "requires": "Teacher Training"
+      "related_to": "Curriculum"
     },
     {
-      "impacts": "Student Motivation"
+      "supported_by": "Pedagogical_theory"
     },
     {
-      "part_of": "Pedagogy"
+      "categorized_as": "Instructional_strategy"
     }
   ]
 }

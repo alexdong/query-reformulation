@@ -10,38 +10,39 @@
     "government_type": "Federal Republic",
     "largest_city": "Lagos",
     "ethnic_groups": "Hausa, Igbo, Yoruba",
-    "independence_date": "1960-10-01"
+    "independence_date": "1960-10-01",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "member_of": "African Union"
-    },
     {
       "located_in": "Africa"
     },
     {
-      "borders": "Benin"
+      "part_of": "West Africa"
     },
     {
-      "borders": "Cameroon"
+      "has_capital": "Abuja"
     },
     {
-      "borders": "Chad"
+      "influenced_by": "British Empire"
+    },
+    {
+      "member_of": "African Union"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "has_currency": "Nigerian naira"
+    },
+    {
+      "has_official_language": "English language"
     },
     {
       "borders": "Niger"
     },
     {
-      "currency_code": "NGN"
-    },
-    {
-      "language_spoken": "Igbo"
-    },
-    {
-      "language_spoken": "Hausa"
-    },
-    {
-      "language_spoken": "Yoruba"
+      "has_ethnic_group": "Hausa people"
     }
   ]
 }

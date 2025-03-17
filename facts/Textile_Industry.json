@@ -10,38 +10,39 @@
     "employment": "60 million+ globally",
     "environmental_impact": "Significant (water, chemicals)",
     "historical_origin": "Ancient civilizations",
-    "modern_focus": "Sustainability, automation"
+    "modern_focus": "Sustainability, automation",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "part_of": "Manufacturing Sector"
+      "industry": "Manufacturing"
+    },
+    {
+      "part_of": "Economy"
+    },
+    {
+      "produces": "Clothing"
     },
     {
       "uses": "Cotton"
     },
     {
-      "uses": "Wool"
-    },
-    {
-      "uses": "Silk"
-    },
-    {
       "uses": "Polyester"
+    },
+    {
+      "employs": "Labor"
+    },
+    {
+      "regulated_by": "Government"
     },
     {
       "impacts": "Environment"
     },
     {
-      "employs": "Textile Workers"
+      "provides_input_to": "Fashion Industry"
     },
     {
-      "related_to": "Fashion Industry"
-    },
-    {
-      "provides_to": "Retail Sector"
-    },
-    {
-      "influenced_by": "Technological Innovation"
+      "related_to": "Supply Chain"
     }
   ]
 }

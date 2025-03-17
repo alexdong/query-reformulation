@@ -10,38 +10,39 @@
     "influenced_by": "Poverty",
     "measured_by": "Food Insecurity Experience Scale (FIES)",
     "goal": "Sustainable Development Goal 2",
-    "organization": "Food and Agriculture Organization (FAO)"
+    "organization": "Food and Agriculture Organization (FAO)",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "impacts": "Malnutrition"
+      "instance_of": "Agricultural Production"
     },
     {
-      "requires": "Agricultural Production"
+      "affected_by": "Climate Change"
     },
     {
-      "linked_to": "Sustainable Agriculture"
+      "requires": "Sustainable Agriculture"
     },
     {
-      "affected_by": "Conflict"
+      "influenced_by": "Government Policy"
     },
     {
-      "influenced_by": "Economic Growth"
+      "impacts": "Human Health"
     },
     {
-      "related_to": "Nutrition"
+      "related_to": "Poverty"
     },
     {
       "dependent_on": "Water Resources"
     },
     {
-      "contributes_to": "Public Health"
+      "part_of": "Sustainable Development Goals"
     },
     {
-      "addressed_by": "Food Aid"
+      "affected_by": "Conflict"
     },
     {
-      "part_of": "Global Food System"
+      "requires": "Food Distribution"
     }
   ]
 }

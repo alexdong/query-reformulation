@@ -1,5 +1,5 @@
 {
-  "entity": "South Island, New Zealand",
+  "entity": "South Island  New Zealand",
   "properties": {
     "area": "30,824 km²",
     "population": "1,150,000",
@@ -10,17 +10,24 @@
     "longitude": "170.5",
     "geology": "Alpine",
     "climate": "Temperate",
-    "administration": "New Zealand"
+    "administration": "New Zealand",
+    "type": "Island"
   },
   "relationship": [
+    {
+      "located_in": "New Zealand"
+    },
     {
       "part_of": "New Zealand"
     },
     {
-      "located_in": "Pacific Ocean"
+      "has_geopolitical_entity": "New Zealand"
     },
     {
-      "adjacent_to": "North Island"
+      "adjacent_to": "West Coast Region"
+    },
+    {
+      "adjacent_to": "Canterbury Region"
     },
     {
       "contains": "Aoraki / Mount Cook"
@@ -29,19 +36,13 @@
       "contains": "Fiordland National Park"
     },
     {
-      "contains": "Westland Tai Poutini National Park"
+      "has_population": "New Zealanders"
     },
     {
-      "contains": "Christchurch"
+      "influenced_by": "Māori"
     },
     {
-      "contains": "Queenstown"
-    },
-    {
-      "influenced_by": "Te Waipounamu"
-    },
-    {
-      "economy_based_on": "Tourism, Agriculture"
+      "has_economy": "New Zealand economy"
     }
   ]
 }

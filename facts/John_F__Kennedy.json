@@ -1,5 +1,5 @@
 {
-  "entity": "John F. Kennedy",
+  "entity": "John F  Kennedy",
   "properties": {
     "birth_date": "1917-05-29",
     "birth_place": "Brookline, Massachusetts",
@@ -10,38 +10,39 @@
     "spouse": "Jacqueline Kennedy",
     "education": "Harvard University",
     "religion": "Roman Catholic",
-    "military_branch": "United States Navy"
+    "military_branch": "United States Navy",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "president_of": "United States"
+      "instance_of": "politician"
     },
     {
-      "father": "Joseph P. Kennedy Sr."
+      "birthPlace": "Brookline"
     },
     {
-      "mother": "Rose Kennedy"
+      "deathPlace": "Dallas"
     },
     {
-      "sibling_of": "Robert F. Kennedy"
+      "familyMember": "Joseph P. Kennedy Sr."
     },
     {
-      "sibling_of": "Jean Kennedy Smith"
+      "spouse": "Jacqueline Kennedy"
     },
     {
-      "preceded_by": "Dwight D. Eisenhower"
+      "child": "Caroline Kennedy"
     },
     {
-      "succeeded_by": "Lyndon B. Johnson"
+      "member_of": "United States Navy"
     },
     {
-      "member_of": "United States Senate"
+      "officeHeld": "President of the United States"
     },
     {
-      "attended": "Choate Rosemary Hall"
+      "educatedAt": "Harvard University"
     },
     {
-      "award": "Purple Heart"
+      "precededBy": "Dwight D. Eisenhower"
     }
   ]
 }

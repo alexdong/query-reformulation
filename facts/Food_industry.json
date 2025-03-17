@@ -10,38 +10,39 @@
     "impact_on_health": "Mixed (nutrition, obesity)",
     "environmental_impact": "Significant (land use, emissions)",
     "technology_used": "Automation, Biotechnology",
-    "economic_importance": "High"
+    "economic_importance": "High",
+    "type": "Organization"
   },
   "relationship": [
     {
-      "part_of": "Economy"
+      "instance_of": "industry"
     },
     {
-      "impacts": "Public health"
+      "sector_of": "economy"
     },
     {
-      "relies_on": "Agriculture"
+      "produces": "food"
     },
     {
-      "supplies_to": "Retail"
+      "employs": "people"
     },
     {
-      "influenced_by": "Consumer trends"
+      "regulated_by": "government"
     },
     {
-      "affected_by": "Climate change"
+      "provides_to": "retail"
     },
     {
-      "provides": "Employment"
+      "impacts": "environment"
     },
     {
-      "impacts": "Environment"
+      "dependent_on": "agriculture"
     },
     {
-      "regulated_by": "Government"
+      "distributes_to": "consumers"
     },
     {
-      "uses": "Food science"
+      "influenced_by": "consumer trends"
     }
   ]
 }

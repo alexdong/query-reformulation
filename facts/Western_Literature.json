@@ -10,38 +10,39 @@
     "historical_context": "Western Civilization",
     "literary_movements": "Realism, Romanticism, Modernism",
     "canon_formation": "Ongoing process",
-    "influence_on": "Global Literature"
+    "influence_on": "Global Literature",
+    "type": "CreativeWork"
   },
   "relationship": [
+    {
+      "instance_of": "literary_work"
+    },
     {
       "influenced_by": "Ancient Greek Literature"
     },
     {
-      "influenced": "American Literature"
-    },
-    {
-      "influenced": "British Literature"
+      "influenced_by": "Ancient Roman Literature"
     },
     {
       "part_of": "World Literature"
     },
     {
-      "preceded_by": "Oral Tradition"
+      "developed_in": "Europe"
+    },
+    {
+      "created_by": "Western Civilization"
+    },
+    {
+      "has_genre": "Novel"
+    },
+    {
+      "has_genre": "Poetry"
+    },
+    {
+      "has_genre": "Drama"
     },
     {
       "related_to": "Philosophy"
-    },
-    {
-      "related_to": "History"
-    },
-    {
-      "includes": "Shakespeare"
-    },
-    {
-      "includes": "Homer"
-    },
-    {
-      "includes": "Dante Alighieri"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "governance": "Tribal (Iwi)",
     "religion": "Traditional Māori beliefs, Christianity",
     "art_form": "Tā moko, weaving, carving",
-    "treaty": "Treaty of Waitangi"
+    "treaty": "Treaty of Waitangi",
+    "type": "Ethnic group"
   },
   "relationship": [
     {
-      "ancestor_of": "Polynesian people"
+      "ancestor_of": "Polynesian People"
     },
     {
       "located_in": "New Zealand"
     },
     {
-      "language_related_to": "Austronesian languages"
+      "part_of": "Pacific Islander People"
     },
     {
-      "signed": "Treaty of Waitangi"
+      "has_language": "Māori language"
     },
     {
-      "influenced_by": "European colonization"
+      "has_culture": "Māori culture"
     },
     {
-      "has_part": "Iwi"
+      "has_religion": "Tapu"
     },
     {
-      "practice": "Haka"
+      "has_traditional_knowledge": "Rongoā Māori"
     },
     {
-      "practice": "Kapa Haka"
+      "governed_by": "Māori leadership"
     },
     {
-      "related_to": "New Zealand history"
+      "has_art": "Māori art"
     },
     {
-      "has_concept": "Mana"
+      "related_to": "Treaty of Waitangi"
     }
   ]
 }

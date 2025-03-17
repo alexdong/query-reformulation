@@ -10,38 +10,39 @@
     "sector_representation": "All sectors",
     "funding_sources": "Loans, investors, bootstrapping",
     "challenges": "Competition, regulation, cash flow",
-    "importance": "Economic growth"
+    "importance": "Economic growth",
+    "type": "Organization"
   },
   "relationship": [
     {
-      "part_of": "Economy"
+      "hasProduct": "Product"
     },
     {
-      "impacts": "Job Market"
+      "employs": "Person"
     },
     {
-      "supported_by": "Small Business Administration"
+      "located_in": "City"
     },
     {
-      "regulated_by": "Government"
+      "partOf": "Industry"
     },
     {
-      "provides": "Goods and Services"
+      "hasService": "Service"
     },
     {
-      "fosters": "Innovation"
+      "ownedBy": "Person"
     },
     {
-      "employs": "Workers"
+      "operatesIn": "Country"
     },
     {
-      "competes_with": "Large Corporations"
+      "providesTo": "Customer"
     },
     {
-      "benefits_from": "Entrepreneurship"
+      "regulatedBy": "GovernmentAgency"
     },
     {
-      "contributes_to": "GDP"
+      "usesTechnology": "Technology"
     }
   ]
 }

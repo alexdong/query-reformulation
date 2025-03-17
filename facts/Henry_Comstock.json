@@ -10,38 +10,39 @@
     "education": "Columbia University",
     "known_for": "New York Evening Post",
     "spouse": "Mary H. Comstock",
-    "awards": "Pulitzer Prize"
+    "awards": "Pulitzer Prize",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "employed_by": "New York Evening Post"
+      "instance_of": "human"
     },
     {
-      "award_presented_by": "Pulitzer Foundation"
+      "occupation": "theologian"
     },
     {
-      "spouse_of": "Mary H. Comstock"
+      "occupation": "author"
     },
     {
-      "educated_at": "Columbia University"
+      "sibling_of": "Elizabeth Whelchel Comstock"
     },
     {
-      "wrote_for": "New York World"
+      "parent_of": "John Comstock"
     },
     {
-      "covered_topic": "World War I"
+      "spouse_of": "Anna Comstock"
     },
     {
-      "influenced": "Walter Lippmann"
+      "member_of": "The Church of Jesus Christ of Latter-day Saints"
     },
     {
-      "preceded_by": "William Allen White"
+      "influenced_by": "Joseph Smith"
     },
     {
-      "succeeded_by": "Edward A. Bass"
+      "authored": "A Consitent Gospel"
     },
     {
-      "award_category": "Letters and Science"
+      "resided_in": "Nauvoo, Illinois"
     }
   ]
 }

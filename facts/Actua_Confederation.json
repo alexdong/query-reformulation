@@ -1,7 +1,6 @@
 {
   "entity": "Actua Confederation",
   "properties": {
-    "instance_of": "Confederation",
     "location": "Switzerland",
     "formation_date": "1803",
     "dissolution_date": "1848",
@@ -10,38 +9,39 @@
     "government_type": "Federal republic",
     "area_km2": "19,079",
     "population_peak": "397,722",
-    "predecessor": "Helvetic Republic"
+    "predecessor": "Helvetic Republic",
+    "type": "Confederation"
   },
   "relationship": [
     {
-      "part_of": "Swiss Confederacy"
+      "instance_of": "sovereign state"
     },
     {
-      "preceded_by": "Helvetic Republic"
+      "subclass_of": "Confederation"
     },
     {
-      "succeeded_by": "Federal State of Switzerland"
+      "has_member_state": "Aethelgard"
     },
     {
-      "member_state": "Bern Canton"
+      "has_member_state": "Vesryn"
     },
     {
-      "member_state": "Lucerne Canton"
+      "has_member_state": "Solara"
     },
     {
-      "member_state": "Uri Canton"
+      "located_in": "Aethelgardian Continent"
     },
     {
-      "member_state": "Schwyz Canton"
+      "has_capital": "Aethelburg"
     },
     {
-      "member_state": "Obwalden Canton"
+      "founded_by": "Aethelgardian Founding Families"
     },
     {
-      "member_state": "Nidwalden Canton"
+      "has_government_form": "Confederal Republic"
     },
     {
-      "influenced": "Federalism"
+      "has_ruler": "Confederation Council"
     }
   ]
 }

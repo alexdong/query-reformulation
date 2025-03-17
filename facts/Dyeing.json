@@ -1,7 +1,6 @@
 {
   "entity": "Dyeing",
   "properties": {
-    "instance_of": "Industrial process",
     "purpose": "Coloration",
     "material_applied": "Textiles, leather, paper",
     "chemical_process": "True",
@@ -10,38 +9,39 @@
     "modern_materials": "Synthetic dyes",
     "environmental_impact": "Significant",
     "requires": "Mordant (sometimes)",
-    "technique_type": "Various"
+    "technique_type": "Various",
+    "type": "Industrial process"
   },
   "relationship": [
     {
-      "predecessor": "Natural dyeing"
+      "instance_of": "Textile dyeing"
     },
     {
-      "successor": "Synthetic dyeing"
+      "used_for": "Textile"
     },
     {
-      "uses": "Mordant"
+      "process_of": "Fabric finishing"
     },
     {
-      "produces": "Colored material"
+      "requires": "Dye"
     },
     {
-      "related_to": "Textile industry"
+      "requires": "Water"
     },
     {
-      "related_to": "Leatherworking"
+      "uses_tool": "Dyeing machine"
     },
     {
-      "impacts": "Environment"
+      "agent": "Textile worker"
     },
     {
-      "requires_knowledge_of": "Chromophore"
+      "results_in": "Colored textile"
     },
     {
-      "influenced_by": "Chemistry"
+      "affected_by": "Colorfastness"
     },
     {
-      "example_of": "Material science"
+      "part_of": "Textile manufacturing"
     }
   ]
 }

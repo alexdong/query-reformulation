@@ -1,7 +1,6 @@
 {
-  "entity": "Predator (film series)",
+  "entity": "Predator  film series ",
   "properties": {
-    "instance_of": "Science fiction franchise",
     "creator": "John McTiernan",
     "first_appearance": "Predator (film)",
     "genre": "Science fiction, Action, Horror",
@@ -10,38 +9,39 @@
     "technology": "Plasma caster, cloaking device",
     "motivation": "Hunting, Trophy collection",
     "production_company": "MGM",
-    "first_film_date": "1987"
+    "first_film_date": "1987",
+    "type": "Science fiction franchise"
   },
   "relationship": [
     {
-      "franchise_of": "Predator (film)"
+      "instance_of": "film series"
     },
     {
-      "spawned": "Predators (film)"
+      "adapted_from": "Predator (novel)"
     },
     {
-      "spawned": "Alien vs. Predator (film)"
+      "creator": "20th Century Fox"
     },
     {
-      "influenced": "Space opera"
+      "genre": "science fiction"
     },
     {
-      "character_appears": "Dutch"
+      "genre": "action film"
     },
     {
-      "character_appears": "Nolan"
+      "starring": "Arnold Schwarzenegger"
     },
     {
-      "character_appears": "Rogue"
+      "director": "John McTiernan"
     },
     {
-      "weapon_used": "Plasma caster"
+      "production_company": "Silver Pictures"
     },
     {
-      "planet_visited": "LV-426"
+      "setting": "Jungle"
     },
     {
-      "species_is": "Yautja"
+      "theme": "survival"
     }
   ]
 }

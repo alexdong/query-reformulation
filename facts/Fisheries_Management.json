@@ -10,38 +10,39 @@
     "tool": "Stock assessment",
     "legal_framework": "International law",
     "stakeholders": "Fishermen, Governments, Scientists",
-    "impact": "Food security & Livelihoods"
+    "impact": "Food security & Livelihoods",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "related_to": "Aquaculture"
+      "regulated_by": "Government"
     },
     {
-      "impacts": "Marine Ecosystems"
+      "manages": "Fish stock"
     },
     {
-      "requires": "Stock Assessment"
+      "part_of": "Natural resource management"
     },
     {
-      "governed_by": "FAO"
+      "uses_method": "Scientific assessment"
     },
     {
-      "influenced_by": "Ecology"
+      "impacts": "Marine ecosystem"
     },
     {
-      "overlaps_with": "Conservation Biology"
+      "requires_input_from": "Fisheries scientists"
     },
     {
-      "addresses": "Overfishing"
+      "influences": "Fishing industry"
     },
     {
-      "involves": "Fishing Quotas"
+      "addresses_issue": "Overfishing"
     },
     {
-      "impacts": "Biodiversity"
+      "governed_by": "Fisheries law"
     },
     {
-      "requires": "Data Analysis"
+      "coordinates_with": "Conservation efforts"
     }
   ]
 }

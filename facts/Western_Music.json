@@ -10,38 +10,39 @@
     "rhythm": "Metered",
     "form": "Diverse",
     "vocal_style": "Varied",
-    "cultural_impact": "Global"
+    "cultural_impact": "Global",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Popular music"
+      "instance_of": "music genre"
     },
     {
-      "subgenre_of": "Music"
+      "subclass_of": "popular music"
     },
     {
-      "includes": "Classical music"
+      "influenced_by": "European classical music"
     },
     {
-      "includes": "Jazz"
+      "has_genre": "country music"
     },
     {
-      "includes": "Blues"
+      "has_genre": "blues"
     },
     {
-      "includes": "Country music"
+      "has_genre": "jazz"
     },
     {
-      "includes": "Rock music"
+      "has_genre": "rock music"
     },
     {
-      "developed_from": "European music"
+      "has_genre": "pop music"
     },
     {
-      "related_to": "Music theory"
+      "created_by": "European settlers"
     },
     {
-      "performed_by": "Orchestra"
+      "performed_by": "musician"
     }
   ]
 }

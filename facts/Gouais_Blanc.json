@@ -10,38 +10,39 @@
     "aroma": "Floral, Citrus",
     "flavor": "Crisp, Acidic",
     "usage": "Wine production",
-    "genetic_origin": "Pinot Noir x Sauvignon Blanc"
+    "genetic_origin": "Pinot Noir x Sauvignon Blanc",
+    "type": "Grape_variety"
   },
   "relationship": [
     {
-      "region_grown_in": "Burgundy"
+      "instance_of": "grape_variety"
     },
     {
-      "wine_grape_family": "Vitis vinifera"
+      "variety_of": "Vitis vinifera"
     },
     {
-      "cross_of": "Pinot Noir"
+      "origin_of": "Burgundy"
     },
     {
-      "cross_of": "Sauvignon Blanc"
+      "found_in_region": "Loire Valley"
     },
     {
-      "produces": "White wine"
+      "used_for_production_of": "wine"
     },
     {
-      "used_in": "Bourgogne Blanc"
+      "has_characteristic": "aromatic"
     },
     {
-      "related_to": "Pinot Blanc"
+      "used_in_wine_region": "Touraine"
     },
     {
-      "related_to": "Sauvignon"
+      "related_to": "Sauvignon Blanc"
     },
     {
-      "influenced_by": "Viticulture"
+      "has_synonym": "Gouais"
     },
     {
-      "characteristic_of": "French wine"
+      "contributes_to_flavor_of": "wine"
     }
   ]
 }

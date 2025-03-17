@@ -1,5 +1,5 @@
 {
-  "entity": "David Thompson (explorer)",
+  "entity": "David Thompson  explorer ",
   "properties": {
     "birth_date": "1770-02-12",
     "birth_place": "London, England",
@@ -10,38 +10,39 @@
     "known_for": "Mapping the Missouri River",
     "explorer_type": "Territorial",
     "spouse": "Bridget Clarke",
-    "height": "6 ft 2 in"
+    "height": "6 ft 2 in",
+    "type": "Explorer"
   },
   "relationship": [
+    {
+      "instance_of": "explorer"
+    },
+    {
+      "country_of_citizenship": "Great Britain"
+    },
+    {
+      "place_of_birth": "London"
+    },
+    {
+      "employer": "North West Company"
+    },
+    {
+      "member_of": "Hudson's Bay Company"
+    },
+    {
+      "explored": "Louisiana Purchase"
+    },
+    {
+      "explored": "Rocky Mountains"
+    },
     {
       "explored": "Missouri River"
     },
     {
-      "explored": "North American Southwest"
+      "died_in": "Tennessee"
     },
     {
-      "worked_for": "North West Company"
-    },
-    {
-      "worked_for": "Hudson's Bay Company"
-    },
-    {
-      "accompanied_by": "Benjamin Bonneville"
-    },
-    {
-      "mapped": "Rocky Mountains"
-    },
-    {
-      "mapped": "Arkansas River"
-    },
-    {
-      "influenced": "Western expansion"
-    },
-    {
-      "family_member": "John Thompson (fur trader)"
-    },
-    {
-      "lived_in": "York Factory"
+      "influenced_by": "Alexander Mackenzie"
     }
   ]
 }

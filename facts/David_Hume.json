@@ -10,38 +10,39 @@
     "school_thought": "Empiricism",
     "major_work": "A Treatise of Human Nature",
     "influenced_by": "John Locke",
-    "influenced": "Immanuel Kant"
+    "influenced": "Immanuel Kant",
+    "type": "Philosopher"
   },
   "relationship": [
     {
-      "educated_at": "Edinburgh University"
+      "influenced": "Immanuel Kant"
+    },
+    {
+      "educated_at": "University of Edinburgh"
     },
     {
       "member_of": "Scottish Enlightenment"
     },
     {
-      "influenced": "Logical Positivism"
-    },
-    {
-      "correspondent_of": "Adam Smith"
-    },
-    {
-      "criticized_by": "Immanuel Kant"
-    },
-    {
-      "preceded_by": "John Locke"
+      "influenced": "Adam Smith"
     },
     {
       "influenced": "John Stuart Mill"
     },
     {
-      "worked_at": "University of Edinburgh"
+      "authored": "A Treatise of Human Nature"
     },
     {
-      "member_of": "Royal Society of Edinburgh"
+      "authored": "An Enquiry Concerning Human Understanding"
     },
     {
-      "wrote_about": "Moral Philosophy"
+      "born_in": "Edinburgh"
+    },
+    {
+      "nationality": "Scottish"
+    },
+    {
+      "influenced": "Logical Positivism"
     }
   ]
 }

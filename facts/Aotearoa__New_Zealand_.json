@@ -1,5 +1,5 @@
 {
-  "entity": "Aotearoa (New Zealand)",
+  "entity": "Aotearoa  New Zealand ",
   "properties": {
     "official_name": "New Zealand",
     "capital": "Wellington",
@@ -10,38 +10,39 @@
     "area_km2": "268021",
     "government_type": "Parliamentary democracy",
     "head_of_state": "King Charles III",
-    "national_symbol": "Silver Fern"
+    "national_symbol": "Silver Fern",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Pacific Ocean"
+    },
     {
       "part_of": "Oceania"
     },
     {
-      "located_near": "Australia"
+      "has_capital": "Wellington"
     },
     {
-      "influenced_by": "Polynesian culture"
+      "has_official_language": "Māori language"
     },
     {
-      "member_of": "Commonwealth of Nations"
+      "has_official_language": "New Zealand Sign Language"
     },
     {
-      "has_territory": "Chatham Islands"
+      "has_official_language": "English language"
     },
     {
-      "has_national_park": "Fiordland National Park"
+      "influenced_by": "Māori culture"
     },
     {
-      "has_city": "Auckland"
+      "has_head_of_state": "King Charles III"
     },
     {
-      "has_mountain": "Mount Cook"
+      "member_of": "United Nations"
     },
     {
-      "has_indigenous_people": "Māori"
-    },
-    {
-      "produces": "Kiwifruit"
+      "has_national_symbol": "Silver fern"
     }
   ]
 }

@@ -10,11 +10,15 @@
     "weight": "2-3 tonnes",
     "discovery_location": "North America, Europe, Asia",
     "fossil_evidence": "Abundant",
-    "extinction_date": "Approximately 56 million years ago"
+    "extinction_date": "Approximately 56 million years ago",
+    "type": "Mammal"
   },
   "relationship": [
     {
-      "part_of": "Mammalia"
+      "instance_of": "mammal"
+    },
+    {
+      "taxon_rank": "genus"
     },
     {
       "order": "Mammalia"
@@ -23,25 +27,22 @@
       "family": "Uintatheriidae"
     },
     {
-      "predecessor": "Palaeotheriidae"
+      "period": "Paleocene"
     },
     {
-      "contemporary_with": "Eocene mammals"
+      "geological_age": "Paleocene"
     },
     {
-      "found_in": "Fort Union Formation"
+      "habitat": "floodplain"
     },
     {
-      "found_in": "Wasatch Formation"
+      "diet": "herbivore"
     },
     {
-      "related_to": "Indricotherium"
+      "fossil_found_in": "North America"
     },
     {
-      "exhibits": "Prominent horn structures"
-    },
-    {
-      "habitat": "Warm, forested environments"
+      "extinction_event": "Paleocene–Eocene extinction event"
     }
   ]
 }

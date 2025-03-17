@@ -1,7 +1,6 @@
 {
   "entity": "The Lord of the Rings",
   "properties": {
-    "instance_of": "Fantasy novel",
     "author": "J.R.R.Tolkien",
     "genre": "High fantasy",
     "publication_date": "1954",
@@ -10,38 +9,39 @@
     "country_of_origin": "United Kingdom",
     "number_of_volumes": "3",
     "main_characters": "Frodo, Aragorn, Gandalf",
-    "publisher": "George Allen & Unwin"
+    "publisher": "George Allen & Unwin",
+    "type": "Fantasy novel"
   },
   "relationship": [
     {
-      "prequel": "The Hobbit"
+      "instance_of": "literary_work"
     },
     {
-      "sequel": "The Silmarillion"
+      "part_of": "high_fantasy"
     },
     {
-      "adapted_to": "Film"
+      "author": "J. R. R. Tolkien"
     },
     {
-      "influenced": "Fantasy literature"
+      "inspired_by": "Norse mythology"
     },
     {
-      "character_appears": "Gandalf"
+      "influenced": "modern fantasy literature"
     },
     {
-      "character_appears": "Frodo"
+      "setting": "Middle-earth"
     },
     {
-      "character_appears": "Aragorn"
+      "character": "Frodo Baggins"
     },
     {
-      "location": "Rivendell"
+      "character": "Gandalf"
     },
     {
-      "location": "Mordor"
+      "theme": "good versus evil"
     },
     {
-      "event": "War of the Ring"
+      "adaptation": "The Lord of the Rings: The Fellowship of the Ring (film)"
     }
   ]
 }

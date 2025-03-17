@@ -1,7 +1,6 @@
 {
-  "entity": "The Lord of the Rings (film series)",
+  "entity": "The Lord of the Rings  film series ",
   "properties": {
-    "instance_of": "Film series",
     "director": "Peter Jackson",
     "production_company": "New Line Cinema",
     "release_date": "2001-2003",
@@ -10,38 +9,39 @@
     "based_on": "The Lord of the Rings",
     "screenwriter": "Fran Walsh",
     "cinematography": "Andrew Lesnie",
-    "runtime": "558 minutes"
+    "runtime": "558 minutes",
+    "type": "Film series"
   },
   "relationship": [
     {
-      "prequel": "The Hobbit (film series)"
+      "instance_of": "film series"
     },
     {
-      "adaptation_of": "The Lord of the Rings (book series)"
+      "adapted_from": "The Lord of the Rings (book series)"
     },
     {
-      "film_version": "The Fellowship of the Ring"
+      "directed_by": "Peter Jackson"
     },
     {
-      "film_version": "The Two Towers"
+      "produced_by": "New Line Cinema"
     },
     {
-      "film_version": "The Return of the King"
+      "distributed_by": "Warner Bros."
     },
     {
-      "actor": "Elijah Wood"
+      "has_character": "Frodo Baggins"
     },
     {
-      "actor": "Ian McKellen"
+      "has_character": "Gandalf"
     },
     {
-      "actor": "Viggo Mortensen"
+      "set_in": "Middle-earth"
     },
     {
-      "influenced": "Fantasy film"
+      "influenced_by": "J.R.R. Tolkien's mythology"
     },
     {
-      "award": "Academy Award"
+      "preceded_by": "The Hobbit (film series)"
     }
   ]
 }

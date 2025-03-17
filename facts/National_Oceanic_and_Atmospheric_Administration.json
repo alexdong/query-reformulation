@@ -10,38 +10,39 @@
     "administrator": "Richard W. Edson",
     "focus": "Oceans, Atmosphere, Climate",
     "data_source": "Publicly available",
-    "website": "www.noaa.gov"
+    "website": "www.noaa.gov",
+    "type": "GovernmentAgency"
   },
   "relationship": [
     {
-      "part_of": "United States government"
+      "partOf": "United States federal government"
     },
     {
-      "sub_agency_of": "Department of Commerce"
+      "subClassOf": "federal agency"
     },
     {
-      "provides_data_to": "National Weather Service"
+      "hasMember": "National Weather Service"
     },
     {
-      "collaborates_with": "NASA"
+      "hasMember": "National Marine Fisheries Service"
     },
     {
-      "manages": "National Marine Sanctuaries"
+      "hasMember": "National Ocean Service"
     },
     {
-      "studies": "Climate change"
+      "hasMember": "National Centers for Environmental Information"
     },
     {
-      "monitors": "Ocean conditions"
+      "fundedBy": "United States Congress"
     },
     {
-      "research_area": "Meteorology"
+      "headquartersLocation": "Silver Spring, Maryland"
     },
     {
-      "responsible_for": "Hurricane forecasting"
+      "employs": "United States Department of Commerce"
     },
     {
-      "provides_information_to": "Fisheries management"
+      "responsibleFor": "climate monitoring"
     }
   ]
 }

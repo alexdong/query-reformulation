@@ -10,9 +10,13 @@
     "official_language": "Yes (New Zealand)",
     "revitalization_efforts": "Ongoing",
     "dialects": "Multiple",
-    "influenced_by": "European languages"
+    "influenced_by": "European languages",
+    "type": "Language"
   },
   "relationship": [
+    {
+      "instance_of": "language"
+    },
     {
       "part_of": "Austronesian languages"
     },
@@ -20,28 +24,25 @@
       "spoken_in": "New Zealand"
     },
     {
-      "related_to": "Polynesian languages"
+      "has_culture": "Māori culture"
     },
     {
-      "influenced": "New Zealand English"
+      "related_to": "Te Reo Māori"
     },
     {
-      "has_dialect": "Te Reo Pōwhiri"
+      "influenced_by": "Proto-Polynesian"
     },
     {
-      "has_dialect": "Taranaki dialect"
+      "has_literature": "Māori literature"
     },
     {
-      "has_dialect": "Raukawa dialect"
+      "has_speaker": "Māori people"
     },
     {
       "revived_by": "Kōhanga Reo"
     },
     {
-      "taught_at": "University of Auckland"
-    },
-    {
-      "recognized_by": "UNESCO"
+      "has_variant": "Te Reo Kaimoana"
     }
   ]
 }

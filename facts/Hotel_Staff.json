@@ -1,7 +1,6 @@
 {
   "entity": "Hotel Staff",
   "properties": {
-    "instance_of": "Occupation",
     "industry": "Hospitality",
     "skill": "Customer Service",
     "responsibility": "Guest Satisfaction",
@@ -10,38 +9,39 @@
     "required_skills": "Communication, Problem-solving",
     "education_level": "Varies",
     "salary_range": "Varies",
-    "union_membership": "Possible"
+    "union_membership": "Possible",
+    "type": "Occupation"
   },
   "relationship": [
     {
-      "employs": "Hotel Management"
+      "employs": "Hotel"
     },
     {
       "reports_to": "Hotel Manager"
     },
     {
-      "interacts_with": "Guests"
+      "works_at": "Hotel Department"
     },
     {
-      "collaborates_with": "Housekeeping Staff"
+      "interacts_with": "Guest"
     },
     {
-      "supports": "Hotel Operations"
+      "provides_service_to": "Guest"
     },
     {
-      "provides": "Room Service"
+      "trained_by": "Training Program"
     },
     {
-      "maintains": "Hotel Cleanliness"
+      "uses": "Hotel Equipment"
     },
     {
-      "handles": "Guest Complaints"
+      "communicates_with": "Other Hotel Staff"
     },
     {
-      "follows": "Hotel Policies"
+      "follows_policy_of": "Hotel Policy"
     },
     {
-      "trains": "New Employees"
+      "receives_salary_from": "Hotel Payroll"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Passport",
   "properties": {
-    "instance_of": "Document",
     "purpose": "International Travel",
     "issuing_authority": "Government",
     "contains": "Photograph",
@@ -10,38 +9,39 @@
     "security_features": "Holograms, Watermarks",
     "biometric_data": "Increasingly included",
     "color": "Navy Blue (varies by country)",
-    "required_for": "Visa-free travel"
+    "required_for": "Visa-free travel",
+    "type": "Document"
   },
   "relationship": [
     {
-      "issued_by": "Country"
+      "instance_of": "Document"
     },
     {
-      "required_for": "International Travel"
+      "issued_by": "Government Agency"
     },
     {
-      "related_to": "Visa"
+      "has_attribute": "Passport Number"
     },
     {
-      "used_in": "Border Control"
+      "has_attribute": "Date of Issue"
     },
     {
-      "contains": "Personal Information"
+      "has_attribute": "Date of Expiration"
     },
     {
-      "associated_with": "Nationality"
+      "holder_of": "Person"
     },
     {
-      "linked_to": "Passport Number"
+      "valid_for": "Country"
+    },
+    {
+      "used_for": "International Travel"
+    },
+    {
+      "required_for": "Visa"
     },
     {
       "part_of": "Travel Documents"
-    },
-    {
-      "governed_by": "International Agreements"
-    },
-    {
-      "preceded_by": "Travel Permit"
     }
   ]
 }

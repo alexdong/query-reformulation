@@ -10,38 +10,39 @@
     "former_owner": "Sumitomo Corporation",
     "services": "Agrichemicals, seeds, livestock",
     "business_model": "Merchandise and services",
-    "employee_count": "Approximately 800"
+    "employee_count": "Approximately 800",
+    "type": "Company"
   },
   "relationship": [
     {
-      "parent_company": "Sumitomo Corporation"
+      "instance_of": "agricultural_company"
     },
     {
-      "subsidiary_of": "Sumitomo Corporation"
+      "parent_organization": "Sumitomo Corporation"
     },
     {
-      "located_in": "Christchurch"
+      "headquarters_location": "Wellington"
     },
     {
-      "industry_sector": "Agriculture"
+      "industry": "agriculture"
     },
     {
-      "competitor": "Fonterra"
+      "country_of_origin": "New Zealand"
     },
     {
-      "competitor": "Ravensdown"
+      "service_offered": "agribusiness"
     },
     {
-      "provides_to": "Farmers"
+      "product_offered": "fertilizers"
     },
     {
-      "deals_in": "Agrichemicals"
+      "service_offered": "livestock_supplies"
     },
     {
-      "deals_in": "Livestock"
+      "subsidiary_of": "Sumitomo Corporation New Zealand"
     },
     {
-      "part_of": "New Zealand economy"
+      "employee_count": "1600"
     }
   ]
 }

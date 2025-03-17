@@ -10,38 +10,39 @@
     "impact_on_indigenous_pop": "Significant Disruption",
     "trade_system": "Mercantilism",
     "dominant_religion": "Christianity",
-    "legacy": "Complex & Contested"
+    "legacy": "Complex & Contested",
+    "type": "Empire"
   },
   "relationship": [
     {
-      "influenced": "Industrial Revolution"
+      "instance_of": "Imperialism"
     },
     {
-      "involved_in": "Transatlantic Slave Trade"
+      "caused": "Decolonization"
     },
     {
-      "colonized": "India"
+      "influenced": "Globalization"
     },
     {
-      "colonized": "Australia"
+      "part_of": "European Colonialism"
     },
     {
-      "colonized": "Canada"
+      "led_to_creation_of": "Commonwealth of Nations"
     },
     {
-      "colonized": "Nigeria"
+      "affected": "India"
     },
     {
-      "involved_in": "Opium Wars"
+      "affected": "Nigeria"
     },
     {
-      "led_to": "Decolonization"
+      "influenced": "British Empire"
     },
     {
-      "impacted": "Globalization"
+      "resulted_in": "Post-colonialism"
     },
     {
-      "caused": "Cultural Exchange"
+      "involved": "East India Company"
     }
   ]
 }

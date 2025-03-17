@@ -1,7 +1,6 @@
 {
   "entity": "Polymer",
   "properties": {
-    "instance_of": "Macromolecule",
     "chemical_formula": "Variable",
     "molecular_weight": "High",
     "monomer": "Repeating units",
@@ -10,38 +9,39 @@
     "discovery_date": "1839",
     "discoverer": "Friedrich Alexander Kekulé",
     "application": "Wide range",
-    "property": "Variable"
+    "property": "Variable",
+    "type": "Macromolecule"
   },
   "relationship": [
+    {
+      "instance_of": "Macromolecule"
+    },
+    {
+      "used_for": "Plastic"
+    },
+    {
+      "has_property": "Viscosity"
+    },
     {
       "composed_of": "Monomer"
     },
     {
-      "type_of": "Macromolecule"
+      "created_by": "Polymerization"
     },
     {
-      "related_to": "Polymer chemistry"
+      "has_application": "Packaging"
     },
     {
-      "used_in": "Plastic"
+      "related_to": "Material"
     },
     {
-      "used_in": "Rubber"
+      "has_property": "Tensile strength"
     },
     {
-      "used_in": "Fiber"
+      "used_in": "Composite material"
     },
     {
-      "related_to": "Condensation polymerization"
-    },
-    {
-      "related_to": "Addition polymerization"
-    },
-    {
-      "example_of": "Polyethylene"
-    },
-    {
-      "example_of": "Polypropylene"
+      "has_property": "Glass transition temperature"
     }
   ]
 }

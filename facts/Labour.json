@@ -1,7 +1,6 @@
 {
   "entity": "Labour",
   "properties": {
-    "instance_of": "Political party",
     "country": "United Kingdom",
     "ideology": "Social democracy",
     "founded_date": "1899",
@@ -10,38 +9,39 @@
     "color": "Red",
     "membership": "500,000",
     "electoral_system": "First past the post",
-    "political_position": "Centre-left"
+    "political_position": "Centre-left",
+    "type": "Political party"
   },
   "relationship": [
     {
-      "member_of": "Parliament of the United Kingdom"
+      "instance_of": "Labour movement"
     },
     {
-      "leader_predecessor": "Jeremy Corbyn"
+      "part_of": "Society"
     },
     {
-      "founded_by": "Ramsey MacDonald"
+      "related_to": "Economics"
     },
     {
-      "affiliated_with": "Labour Party (Australia)"
+      "related_to": "Politics"
     },
     {
-      "influenced_by": "Fabian Society"
+      "has_topic": "Employment"
     },
     {
-      "policy_focus": "NHS"
+      "has_topic": "Trade unions"
     },
     {
-      "policy_focus": "Education"
+      "related_to": "Social class"
     },
     {
-      "policy_focus": "Climate change"
+      "related_to": "Workplace"
     },
     {
-      "opposed_by": "Conservative Party"
+      "influenced_by": "Marxism"
     },
     {
-      "historical_event": "Atlee government"
+      "related_to": "Industrial relations"
     }
   ]
 }

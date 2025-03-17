@@ -10,38 +10,39 @@
     "order": "Augustinian",
     "material": "Sandstone",
     "status": "Ruins",
-    "adjacent_to": "Palace of Holyroodhouse"
+    "adjacent_to": "Palace of Holyroodhouse",
+    "type": "Religious building"
   },
   "relationship": [
     {
-      "part_of": "Palace of Holyroodhouse"
+      "located_in": "Edinburgh"
     },
     {
-      "located_in": "Edinburgh"
+      "part_of": "City of Edinburgh Council"
+    },
+    {
+      "architectural_style": "Gothic architecture"
     },
     {
       "founded_by": "David I of Scotland"
     },
     {
-      "influenced": "Scottish architecture"
+      "dissolved_by": "Scottish Reformation"
     },
     {
-      "order_affiliation": "Augustinian Order"
+      "religious_affiliation": "Catholicism"
     },
     {
-      "adjacent_to": "Canongate"
+      "influenced_by": "Cluny Abbey"
     },
     {
-      "architect": "John French (architect)"
+      "has_part": "Holyrood Palace"
     },
     {
-      "historical_event": "Wars of Scottish Independence"
+      "historical_period": "Medieval period"
     },
     {
-      "destroyed_by": "Scottish Reformation"
-    },
-    {
-      "monastery_type": "Augustinian monastery"
+      "associated_with": "Saint Margaret of Scotland"
     }
   ]
 }

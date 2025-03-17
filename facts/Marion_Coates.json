@@ -10,38 +10,39 @@
     "children": "2",
     "honour": "British Empire Medal",
     "service_role": "WWII Nurse",
-    "age_at_death": "100"
+    "age_at_death": "100",
+    "type": "Writer"
   },
   "relationship": [
     {
-      "married_to": "John Coates"
+      "instance_of": "human"
     },
     {
-      "served_in": "World War II"
+      "occupation": "actress"
     },
     {
-      "recipient_of": "British Empire Medal"
+      "birthPlace": "London"
     },
     {
-      "born_in": "Wolverhampton"
+      "educatedAt": "Royal Academy of Dramatic Art"
     },
     {
-      "died_in": "Wolverhampton"
+      "memberOf": "Actors Touring Company"
     },
     {
-      "role": "Nurse"
+      "spouse": "David Coates"
     },
     {
-      "family_member_of": "Coates family"
+      "child": "Alice Coates"
     },
     {
-      "contributor_to": "NHS"
+      "filmography": "The Deep Blue Sea (film)"
     },
     {
-      "influenced_by": "Florence Nightingale"
+      "awardReceived": "Laurence Olivier Award"
     },
     {
-      "part_of": "British Nursing"
+      "countryOfCitizenship": "United Kingdom"
     }
   ]
 }

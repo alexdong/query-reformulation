@@ -10,38 +10,39 @@
     "mortality_rate": "High",
     "legal_status": "Often indentured",
     "discrimination": "Significant",
-    "cultural_impact": "Diaspora, Cultural Exchange"
+    "cultural_impact": "Diaspora, Cultural Exchange",
+    "type": "Worker"
   },
   "relationship": [
     {
-      "indentured_servitude": "Indentured servitude"
+      "employed_by": "railroad companies"
     },
     {
-      "worked_for": "British Empire"
+      "subject_of": "Coolie trade"
     },
     {
-      "worked_in": "Transcontinental Railroad"
+      "part_of": "Chinese diaspora"
     },
     {
-      "migration_pattern": "Chinese diaspora"
+      "migrated_from": "Qing dynasty"
     },
     {
-      "influenced": "Anti-Chinese sentiment"
+      "worked_in": "United States"
     },
     {
-      "labor_source": "Coolie trade"
+      "subject_of": "Chinese Exclusion Act"
     },
     {
-      "impacted_by": "Opium Wars"
+      "influenced_by": "Treaty of Tianjin"
     },
     {
-      "worked_in": "Gold Rush"
+      "recruited_by": "labor recruiters"
     },
     {
-      "related_to": "Chinese Exclusion Act"
+      "paid_to": "labor contractors"
     },
     {
-      "contributed_to": "Global infrastructure"
+      "faced_discrimination_by": "American workers"
     }
   ]
 }

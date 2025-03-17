@@ -10,38 +10,39 @@
     "materials": "Oamaru stone",
     "current_use": "Law Courts & Ministry of Justice",
     "heritage_status": "Historic Place (Category I)",
-    "address": "127 Princes Street, Dunedin"
+    "address": "127 Princes Street, Dunedin",
+    "type": "Building"
   },
   "relationship": [
     {
-      "located_in": "Dunedin City Council"
+      "located_in": "Otago Region"
     },
     {
-      "architectural_influence": "Italian Renaissance architecture"
+      "part_of": "New Zealand"
     },
     {
-      "part_of": "Dunedin Heritage"
+      "architect": "William Armson"
     },
     {
-      "built_by": "Provincial Government of Otago"
+      "style": "Victorian architecture"
     },
     {
-      "design_influenced": "Other Dunedin buildings"
+      "built_during": "Otago Province"
     },
     {
-      "historical_period": "19th century"
+      "function": "Government building"
     },
     {
-      "function": "Administration"
+      "owner": "New Zealand Government"
     },
     {
-      "style_example": "Italianate architecture"
+      "heritage_designation": "New Zealand Historic Places Trust"
     },
     {
-      "heritage_register": "New Zealand Heritage List"
+      "influenced_by": "Neoclassical architecture"
     },
     {
-      "contains": "Supreme Court of New Zealand"
+      "used_by": "Otago Provincial Council"
     }
   ]
 }

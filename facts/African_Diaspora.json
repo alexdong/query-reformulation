@@ -10,38 +10,39 @@
     "cultural_impact": "Significant, diverse",
     "religious_influence": "Mix of African & adopted religions",
     "economic_role": "Varied, often marginalized",
-    "political_influence": "Growing, advocating for rights"
+    "political_influence": "Growing, advocating for rights",
+    "type": "Population"
   },
   "relationship": [
     {
-      "part_of": "Human migration"
+      "part_of": "Humanity"
     },
     {
-      "caused_by": "Transatlantic Slave Trade"
+      "influenced_by": "Transatlantic Slave Trade"
     },
     {
-      "influenced": "African American Culture"
+      "related_to": "African countries"
     },
     {
-      "influenced": "Brazilian Culture"
+      "has_member": "African American"
     },
     {
-      "influenced": "Caribbean Culture"
+      "has_member": "Caribbean people"
     },
     {
-      "related_to": "Pan-Africanism"
+      "has_member": "Afro-European"
     },
     {
-      "impacts": "Racial Identity"
+      "affected_by": "Colonialism"
     },
     {
-      "connected_to": "Colonialism"
+      "influenced": "Black culture"
     },
     {
-      "contributes_to": "Cultural Hybridity"
+      "contributes_to": "Pan-Africanism"
     },
     {
-      "associated_with": "Reparations movement"
+      "has_historical_connection_to": "Africa"
     }
   ]
 }

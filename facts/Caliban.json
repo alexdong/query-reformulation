@@ -1,7 +1,6 @@
 {
   "entity": "Caliban",
   "properties": {
-    "instance_of": "Character",
     "work_of_fiction": "The Tempest",
     "species": "Unknown (possibly humanoid)",
     "description": "Servant, enslaved",
@@ -10,38 +9,39 @@
     "language": "Calibanian",
     "role": "Slave",
     "status": "Rebellious",
-    "literary_device": "Symbol"
+    "literary_device": "Symbol",
+    "type": "Character"
   },
   "relationship": [
     {
-      "creator": "Prospero"
+      "instance_of": "monster"
     },
     {
-      "serves": "Prospero"
+      "depicted_in": "The Tempest"
     },
     {
-      "appears_in": "The Tempest"
+      "character_of": "William Shakespeare"
     },
     {
-      "related_to": "Ariel"
+      "serves_as": "slave"
     },
     {
-      "related_to": "Miranda"
+      "subject_of": "Prospero"
     },
     {
-      "influenced": "Postcolonial literature"
+      "resides_in": "The Tempest (setting)"
     },
     {
-      "symbolizes": "Colonized people"
+      "related_to": "Sycorax"
     },
     {
-      "speaks": "Calibanian"
+      "has_attribute": "ferocity"
     },
     {
-      "location": "Island"
+      "associated_with": "magic"
     },
     {
-      "theme": "Oppression"
+      "opposed_by": "Prospero"
     }
   ]
 }

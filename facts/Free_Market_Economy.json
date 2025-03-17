@@ -10,38 +10,39 @@
     "resource_allocation": "Decentralized",
     "consumer_sovereignty": "Consumer preferences guide production",
     "innovation": "Driven by competition",
-    "risk_bearing": "Assumed by private actors"
+    "risk_bearing": "Assumed by private actors",
+    "type": "EconomicSystem"
   },
   "relationship": [
     {
-      "contrasted_with": "Planned Economy"
+      "instance_of": "Capitalism"
     },
     {
-      "influenced_by": "Adam Smith"
+      "has_characteristic": "Economic Freedom"
     },
     {
-      "related_to": "Capitalism"
+      "requires": "Private Property"
     },
     {
-      "supports": "Entrepreneurship"
+      "results_in": "Economic Growth"
     },
     {
-      "promotes": "Economic Growth"
+      "governed_by": "Rule of Law"
     },
     {
-      "requires": "Property Rights"
+      "promotes": "Competition"
     },
     {
-      "impacts": "Income Distribution"
+      "relies_on": "Supply and Demand"
     },
     {
-      "linked_to": "Laissez-faire"
+      "often_associated_with": "Limited Government"
     },
     {
-      "example_country": "United States"
+      "impacts": "Consumer Welfare"
     },
     {
-      "theory_basis": "Classical Economics"
+      "fosters": "Innovation"
     }
   ]
 }

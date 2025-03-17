@@ -10,38 +10,39 @@
     "endangered": "Many are endangered",
     "historical_importance": "Significant role in early European contact",
     "linguistic_features": "Agglutinative morphology, verb-initial word order",
-    "related_to": "Uto-Aztecan"
+    "related_to": "Uto-Aztecan",
+    "type": "LanguageFamily"
   },
   "relationship": [
     {
-      "part_of": "Native American languages"
+      "instance_of": "language_family"
+    },
+    {
+      "part_of": "Indigenous_languages_of_North_America"
+    },
+    {
+      "related_to": "Proto-Algonquian"
     },
     {
       "spoken_in": "Canada"
     },
     {
-      "spoken_in": "United States"
+      "spoken_in": "United_States"
     },
     {
-      "spoken_in": "Mexico"
+      "has_member": "Ojibwe_languages"
     },
     {
-      "influenced": "Michif"
+      "has_member": "Cree_languages"
     },
     {
-      "related_to": "Cree language"
+      "has_member": "Blackfoot_language"
     },
     {
-      "related_to": "Ojibwe language"
+      "influenced": "French_language"
     },
     {
-      "related_to": "Blackfoot language"
-    },
-    {
-      "related_to": "Shawnee language"
-    },
-    {
-      "studied_by": "Linguistics"
+      "descended_from": "Proto-Algonquian_language"
     }
   ]
 }

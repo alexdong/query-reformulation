@@ -10,38 +10,39 @@
     "home_ground": "Logans Park",
     "status": "Amateur",
     "trophies": "Multiple Otago Championships",
-    "union": "Otago Rugby Football Union"
+    "union": "Otago Rugby Football Union",
+    "type": "SportsClub"
   },
   "relationship": [
     {
-      "part_of": "Otago Rugby Football Union"
+      "instance_of": "rugby club"
     },
     {
-      "located_in": "Dunedin"
+      "located_in": "Otago Region"
     },
     {
-      "plays_in": "National Provincial Championship"
+      "subclass_of": "New Zealand rugby team"
     },
     {
-      "member_of": "New Zealand Rugby"
+      "member_of": "New Zealand Rugby Football Union"
     },
     {
-      "rivalry_with": "Taieri Rugby Football Club"
+      "plays_in": "National Provincial Championship Division 1"
     },
     {
-      "coach": "Todd Woodward"
+      "founded_by": "local rugby enthusiasts"
     },
     {
-      "player_plays_for": "Josh Morell"
+      "has_coach": "current coaching staff"
     },
     {
-      "player_plays_for": "Sam McLachlan"
+      "has_player": "current playing squad"
     },
     {
-      "influenced_by": "New Zealand Rugby culture"
+      "sponsored_by": "local businesses"
     },
     {
-      "historical_event": "1882 founding"
+      "has_home_stadium": "Logans Park"
     }
   ]
 }

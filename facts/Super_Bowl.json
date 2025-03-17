@@ -1,7 +1,6 @@
 {
   "entity": "Super Bowl",
   "properties": {
-    "instance_of": "American football championship",
     "league": "National Football League (NFL)",
     "first_held": "1967",
     "frequency": "Annual",
@@ -10,38 +9,39 @@
     "attendance_capacity": "60,000-80,000",
     "broadcast_audience": "Over 100 million",
     "revenue": "Over $500 million",
-    "location_type": "Stadium"
+    "location_type": "Stadium",
+    "type": "American football championship"
   },
   "relationship": [
     {
-      "preceded_by": "NFL Championship Game"
+      "instance_of": "sporting_event"
     },
     {
-      "followed_by": "Next Super Bowl"
+      "part_of": "National Football League"
     },
     {
-      "features": "NFL team"
+      "has_participant": "National Football Conference"
     },
     {
-      "features": "AFC champion"
+      "has_participant": "American Football Conference"
     },
     {
-      "features": "NFC champion"
+      "preceded_by": "Super Bowl previous"
     },
     {
-      "sponsored_by": "Various sponsors"
+      "followed_by": "Super Bowl subsequent"
     },
     {
-      "halftime_show": "Super Bowl Halftime Show"
+      "broadcast_on": "television network"
     },
     {
-      "awards": "Vince Lombardi Trophy"
+      "sponsored_by": "corporate sponsor"
     },
     {
-      "broadcast_on": "CBS"
+      "held_in": "city"
     },
     {
-      "broadcast_on": "NBC"
+      "has_award": "Lombardi Trophy"
     }
   ]
 }

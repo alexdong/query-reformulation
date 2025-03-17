@@ -1,7 +1,6 @@
 {
   "entity": "Apteryx",
   "properties": {
-    "instance_of": "Genus",
     "family": "Struthionidae",
     "common_name": "Kiwi",
     "conservation_status": "Vulnerable",
@@ -10,38 +9,39 @@
     "size": "45–62 cm",
     "weight": "1.3–4.5 kg",
     "lifespan": "10–25 years",
-    "nocturnal": "True"
+    "nocturnal": "True",
+    "type": "Genus"
   },
   "relationship": [
     {
-      "part_of": "Struthionidae"
+      "instance_of": "extinct bird"
+    },
+    {
+      "taxon_rank": "species"
+    },
+    {
+      "subclass_of": "Apterygidae"
     },
     {
       "habitat": "New Zealand"
     },
     {
-      "prey": "Insects"
+      "found_in_location": "South Island, New Zealand"
     },
     {
-      "threat": "Predation"
+      "extinction_date": "1850s"
     },
     {
-      "related_to": "Apteryx australis"
+      "causes_extinction": "human activity"
     },
     {
-      "related_to": "Apteryx mantelli"
+      "has_feature": "flightless"
     },
     {
-      "related_to": "Apteryx rowi"
+      "described_by": "Richard Owen"
     },
     {
-      "related_to": "Apteryx haastii"
-    },
-    {
-      "conservation_effort": "Department of Conservation"
-    },
-    {
-      "taxonomic_rank": "Genus"
+      "scientific_name": "Apteryx owenii"
     }
   ]
 }

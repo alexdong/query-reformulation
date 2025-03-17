@@ -1,5 +1,5 @@
 {
-  "entity": "John A. Macdonald",
+  "entity": "John A  Macdonald",
   "properties": {
     "birth_date": "1815-01-10",
     "birth_place": "Glasgow, Scotland",
@@ -10,38 +10,39 @@
     "political_party": "Conservative",
     "spouse": "Isobel Cosmo",
     "education": "King's College, Windsor",
-    "cause_of_death": "Uremia"
+    "cause_of_death": "Uremia",
+    "type": "Politician"
   },
   "relationship": [
     {
+      "instance_of": "politician"
+    },
+    {
+      "country_of_citizenship": "Canada"
+    },
+    {
       "prime_minister_of": "Canada"
+    },
+    {
+      "member_of": "Conservative Party of Canada"
+    },
+    {
+      "educated_at": "King's College (University of Toronto)"
+    },
+    {
+      "member_of_parliament_for": "Algoma—Sudbury"
     },
     {
       "preceded_by": "Louis-Joseph Papineau"
     },
     {
-      "succeeded_by": "John Abbott"
+      "succeeded_by": "Wilfrid Laurier"
     },
     {
-      "founded": "Canadian Pacific Railway"
+      "influenced_by": "Edward Blake"
     },
     {
-      "member_of": "House of Commons of Canada"
-    },
-    {
-      "influenced": "Canadian Confederation"
-    },
-    {
-      "lawyer_at": "Law Society of Upper Canada"
-    },
-    {
-      "born_in": "Scotland"
-    },
-    {
-      "served_in": "British America"
-    },
-    {
-      "associated_with": "National Policy"
+      "birth_place": "Glasgow"
     }
   ]
 }

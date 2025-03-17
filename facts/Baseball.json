@@ -1,7 +1,6 @@
 {
   "entity": "Baseball",
   "properties": {
-    "instance_of": "Sport",
     "origin": "United States",
     "governing_body": "MLB",
     "equipment": "Bat, Ball, Glove",
@@ -10,38 +9,39 @@
     "field_type": "Diamond",
     "sport_category": "Bat-and-ball",
     "popularity": "High",
-    "olympic_status": "Exhibition (past)"
+    "olympic_status": "Exhibition (past)",
+    "type": "Sport"
   },
   "relationship": [
     {
-      "played_in": "Major League Baseball"
+      "instance_of": "sport"
     },
     {
-      "related_to": "Cricket"
+      "part_of": "team sport"
     },
     {
-      "player": "Jackie Robinson"
+      "has_equipment": "baseball bat"
     },
     {
-      "player": "Babe Ruth"
+      "has_equipment": "baseball"
     },
     {
-      "player": "Shohei Ohtani"
+      "played_on": "baseball field"
     },
     {
-      "league": "American League"
+      "governed_by": "Major League Baseball"
     },
     {
-      "league": "National League"
+      "related_to": "baseball card"
     },
     {
-      "hall_of_fame": "Baseball Hall of Fame"
+      "related_to": "baseball scorekeeping"
     },
     {
-      "governed_by": "MLB"
+      "related_to": "baseball statistics"
     },
     {
-      "influenced": "Softball"
+      "related_to": "baseball game"
     }
   ]
 }

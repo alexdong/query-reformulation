@@ -1,7 +1,6 @@
 {
   "entity": "Finance",
   "properties": {
-    "instance_of": "Social science",
     "field_of_study": "Economics",
     "subfield_of": "Economics",
     "related_to": "Investment",
@@ -10,38 +9,39 @@
     "requires": "Accounting",
     "uses": "Financial modeling",
     "governed_by": "Regulations",
-    "impacts": "Global economy"
+    "impacts": "Global economy",
+    "type": "Social science"
   },
   "relationship": [
     {
-      "is_branch_of": "Economics"
+      "instance_of": "financial activity"
     },
     {
-      "related_to": "Banking"
+      "part_of": "economy"
     },
     {
-      "requires": "Accounting"
+      "has_sector": "business"
     },
     {
-      "involves": "Investment"
+      "regulated_by": "government"
     },
     {
-      "impacts": "Stock market"
+      "has_product": "financial product"
     },
     {
-      "governed_by": "Securities and Exchange Commission"
+      "has_agent": "financial institution"
     },
     {
-      "uses": "Financial ratios"
+      "has_process": "financial transaction"
     },
     {
-      "analyzes": "Financial statements"
+      "has_metric": "financial ratio"
     },
     {
-      "requires": "Mathematics"
+      "has_role": "investor"
     },
     {
-      "influences": "Corporate finance"
+      "has_outcome": "profit"
     }
   ]
 }

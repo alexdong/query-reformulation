@@ -10,38 +10,39 @@
     "climate": "Tropical",
     "area": "702 sq km",
     "ethnic_groups": "Micronesian, Filipino, Chinese",
-    "religion": "Christianity"
+    "religion": "Christianity",
+    "type": "IslandNation"
   },
   "relationship": [
     {
-      "part_of": "Oceania"
+      "located_in": "Pacific Ocean"
     },
     {
-      "influenced_by": "Spanish Colonialism"
+      "part_of": "Federated States of Micronesia"
     },
     {
-      "influenced_by": "German Colonialism"
+      "has_capital": "Palikir"
     },
     {
-      "influenced_by": "Japanese Colonialism"
+      "has_official_language": "English"
     },
     {
-      "influenced_by": "United States Colonialism"
+      "member_of": "United Nations"
     },
     {
-      "contains": "Yap"
+      "member_of": "Pacific Community"
     },
     {
-      "contains": "Pohnpei"
+      "has_currency": "United States dollar"
     },
     {
-      "contains": "Chuuk"
+      "influenced_by": "Spanish Empire"
     },
     {
-      "contains": "Kosrae"
+      "influenced_by": "German Empire"
     },
     {
-      "traditional_art": "Lap Lap"
+      "influenced_by": "Japanese Empire"
     }
   ]
 }

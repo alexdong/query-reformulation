@@ -10,38 +10,39 @@
     "dialect": "Southern American English",
     "religion": "Protestant Christianity",
     "social_structure": "Historically agrarian, hierarchical",
-    "art_style": "Folk Art, Outsider Art"
+    "art_style": "Folk Art, Outsider Art",
+    "type": "CulturalTradition"
   },
   "relationship": [
+    {
+      "part_of": "United States of America"
+    },
     {
       "influenced_by": "African American Culture"
     },
     {
-      "influenced": "American Literature"
+      "associated_with": "Southern Cuisine"
     },
     {
-      "part_of": "American Culture"
+      "characterized_by": "Southern Hospitality"
     },
     {
-      "associated_with": "Civil Rights Movement"
+      "associated_with": "Southern Literature"
     },
     {
-      "location": "Appalachia"
+      "influenced_by": "Appalachian Culture"
     },
     {
-      "location": "Deep South"
+      "associated_with": "Southern Music"
     },
     {
-      "associated_with": "Sweet Tea"
+      "shaped_by": "History of the American South"
     },
     {
-      "associated_with": "Porch"
+      "related_to": "Southern Gothic"
     },
     {
-      "influenced_by": "European Colonialism"
-    },
-    {
-      "associated_with": "Confederacy"
+      "influenced_by": "Slavery in the United States"
     }
   ]
 }

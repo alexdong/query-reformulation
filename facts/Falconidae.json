@@ -1,7 +1,6 @@
 {
   "entity": "Falconidae",
   "properties": {
-    "instance_of": "Bird family",
     "order": "Accipitriformes",
     "common_name": "Falcons",
     "distribution": "Worldwide",
@@ -10,38 +9,39 @@
     "wingspan": "1.5-2.5 m",
     "conservation_status": "Least Concern",
     "habitat": "Varied",
-    "taxonomy_id": "337"
+    "taxonomy_id": "337",
+    "type": "Bird family"
   },
   "relationship": [
     {
-      "parent_taxon": "Accipitriformes"
+      "instance_of": "bird"
     },
     {
-      "includes_genus": "Falco"
+      "taxon": "Aves"
     },
     {
-      "includes_genus": "Polyboroides"
+      "subclass_of": "Accipitriformes"
     },
     {
-      "includes_genus": "Microfalcon"
+      "has_member": "Peregrine falcon"
     },
     {
-      "prey_on": "Birds"
+      "part_of": "Animal kingdom"
     },
     {
-      "prey_on": "Small mammals"
+      "habitat": "Ecosystem"
     },
     {
-      "prey_on": "Reptiles"
+      "distribution": "Geographic area"
     },
     {
-      "hunting_method": "Aerial pursuit"
+      "prey": "Mammal"
     },
     {
-      "migration": "Some species"
+      "threatens": "Small mammal"
     },
     {
-      "related_to": "Accipitridae"
+      "conservation_status": "Conservation status"
     }
   ]
 }

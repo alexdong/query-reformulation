@@ -10,38 +10,39 @@
     "weight": "220-360 g",
     "intelligence": "High",
     "color": "Olive-green",
-    "habitat": "Mountain forests"
+    "habitat": "Mountain forests",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "part_of": "Parrots"
+      "instance_of": "parrot"
     },
     {
-      "lives_in": "New Zealand"
+      "taxon": "Kea (bird)"
     },
     {
-      "prey_on": "Insects"
+      "natural_habitat": "New Zealand"
     },
     {
-      "eats": "Fruits"
+      "has_part": "beak"
     },
     {
-      "threatened_by": "Predation"
+      "has_part": "wing"
     },
     {
-      "related_to": "Kakapo"
+      "has_feature": "crest"
     },
     {
-      "related_to": "Kākā"
+      "interacts_with": "brown kiwi"
     },
     {
-      "studied_by": "Ornithology"
+      "feeds_on": "insects"
     },
     {
-      "found_in": "Southern Alps"
+      "threatened_by": "introduced_predators"
     },
     {
-      "behavior": "Playful"
+      "subclass_of": "Strigopidae"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "mediums": "Painting, Sculpture, Photography",
     "influence": "Industrial Revolution, Social Change",
     "key_concept": "Breaking Conventions",
-    "legacy": "Contemporary Art"
+    "legacy": "Contemporary Art",
+    "type": "ArtisticMovement"
   },
   "relationship": [
     {
-      "preceded_by": "Realism"
+      "instance_of": "art_movement"
     },
     {
-      "followed_by": "Contemporary Art"
+      "influenced_by": "Impressionism"
     },
     {
-      "influenced": "Pop Art"
+      "influenced": "Contemporary Art"
     },
     {
-      "influenced": "Conceptual Art"
+      "has_characteristic": "Abstraction"
     },
     {
-      "artist_associated": "Pablo Picasso"
+      "created_by": "Avant-garde"
     },
     {
-      "artist_associated": "Henri Matisse"
+      "associated_with": "Art Galleries"
     },
     {
-      "artist_associated": "Wassily Kandinsky"
+      "related_to": "Art Criticism"
     },
     {
-      "movement_includes": "Impressionism"
+      "part_of": "Art History"
     },
     {
-      "movement_includes": "Cubism"
+      "has_genre": "Conceptual Art"
     },
     {
-      "movement_includes": "Surrealism"
+      "represented_in": "Museum of Modern Art"
     }
   ]
 }

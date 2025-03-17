@@ -1,7 +1,6 @@
 {
   "entity": "Southland Rugby Football Union",
   "properties": {
-    "instance_of": "Rugby union governing body",
     "region": "Southland, New Zealand",
     "founded": "1885",
     "nickname": "The Stags",
@@ -10,38 +9,39 @@
     "member_of": "New Zealand Rugby",
     "competition": "National Provincial Championship",
     "colours": "Navy Blue & White",
-    "website": "southlandrugby.co.nz"
+    "website": "southlandrugby.co.nz",
+    "type": "Rugby union governing body"
   },
   "relationship": [
     {
-      "governed_by": "New Zealand Rugby"
+      "instance_of": "rugby union"
     },
     {
-      "located_in": "Southland District"
+      "located_in": "New Zealand"
     },
     {
-      "plays_in": "National Provincial Championship"
+      "subdivision_of": "Wellington Region"
     },
     {
-      "team_represents": "Southland"
+      "governs": "Southland Ranfurly Shield team"
     },
     {
-      "has_team": "Southland Stags"
+      "member_of": "New Zealand Rugby"
     },
     {
-      "coach": "Rob Hall"
+      "has_affiliation": "Southland Boys' High School First XV"
     },
     {
-      "player": "Willo Bremner"
+      "has_sponsor": "Mitre 10"
     },
     {
-      "player": "Josh Bekhuis"
+      "represents": "Southland"
     },
     {
-      "rivalry": "Otago Rugby Football Union"
+      "founded_by": "Southland Rugby Football Association"
     },
     {
-      "influenced_by": "New Zealand Rugby Football Union"
+      "has_competition": "National Provincial Championship Division 1"
     }
   ]
 }

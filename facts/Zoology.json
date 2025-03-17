@@ -1,7 +1,6 @@
 {
   "entity": "Zoology",
   "properties": {
-    "instance_of": "Scientific discipline",
     "field_of": "Biology",
     "study_focus": "Animals",
     "sub_discipline": "Animal behavior, Physiology, Ecology",
@@ -10,38 +9,39 @@
     "historical_origin": "Ancient Greece",
     "key_figure": "Aristotle",
     "application": "Conservation, Veterinary Medicine",
-    "scope": "Animal Kingdom"
+    "scope": "Animal Kingdom",
+    "type": "Scientific discipline"
   },
   "relationship": [
     {
-      "subclass_of": "Biology"
+      "instance_of": "field_of_study"
     },
     {
-      "studies": "Animal"
+      "subclass_of": "biology"
     },
     {
-      "related_to": "Ecology"
+      "study": "animals"
     },
     {
-      "related_to": "Taxonomy"
+      "related_to": "ecology"
     },
     {
-      "influenced_by": "Natural History"
+      "related_to": "evolution"
     },
     {
-      "overlaps_with": "Veterinary Medicine"
+      "related_to": "taxonomy"
     },
     {
-      "overlaps_with": "Wildlife Management"
+      "related_to": "conservation"
     },
     {
-      "employs": "Scientific method"
+      "related_to": "physiology"
     },
     {
-      "contributes_to": "Conservation Biology"
+      "related_to": "anatomy"
     },
     {
-      "studies_phenomena": "Animal behavior"
+      "related_to": "ethology"
     }
   ]
 }

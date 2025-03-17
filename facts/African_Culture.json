@@ -10,38 +10,39 @@
     "religion_influence": "Traditional religions, Christianity, Islam",
     "family_structure": "Extended family common",
     "cuisine_staples": "Yams, Rice, Maize, Plantains",
-    "dance_styles": "Various, often ritualistic"
+    "dance_styles": "Various, often ritualistic",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "part_of": "Human Culture"
+      "part_of": "Human culture"
     },
     {
-      "influenced": "African American Culture"
+      "located_in": "Africa"
     },
     {
-      "influenced": "Latin American Culture"
+      "influenced": "African diaspora"
     },
     {
-      "related_to": "African Diaspora"
+      "has_art_form": "African art"
     },
     {
-      "contains": "Yoruba Religion"
+      "has_music_genre": "African music"
     },
     {
-      "contains": "Masai Culture"
+      "has_cuisine": "African cuisine"
     },
     {
-      "contains": "Egyptian Mythology"
+      "has_language": "African languages"
     },
     {
-      "influenced": "World Music"
+      "created_by": "African peoples"
     },
     {
-      "related_to": "UNESCO Intangible Cultural Heritage"
+      "related_to": "African history"
     },
     {
-      "impacted_by": "Colonialism"
+      "influenced": "Global culture"
     }
   ]
 }

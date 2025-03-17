@@ -10,38 +10,39 @@
     "estimated_species": "2.2 million (estimated)",
     "conservation_status": "Declining",
     "economic_value": "Trillions of dollars",
-    "scientific_study": "Marine biology"
+    "scientific_study": "Marine biology",
+    "type": "LivingThing"
   },
   "relationship": [
     {
-      "part_of": "Biodiversity"
+      "instance_of": "Ecosystem"
     },
     {
-      "impacted_by": "Climate Change"
+      "part_of": "Biosphere"
     },
     {
-      "threatens": "Food Security"
+      "affected_by": "ClimateChange"
     },
     {
-      "supports": "Coral Reefs"
+      "interacts_with": "Marine Protected Areas"
     },
     {
-      "includes": "Marine Mammals"
+      "supports": "Fisheries"
     },
     {
-      "includes": "Fish Species"
+      "provides": "EcosystemServices"
     },
     {
-      "includes": "Phytoplankton"
+      "dependent_on": "Ocean Currents"
     },
     {
-      "affected_by": "Ocean Acidification"
+      "influenced_by": "HumanActivities"
     },
     {
-      "studied_by": "Marine Biology"
+      "threatened_by": "Pollution"
     },
     {
-      "impacts": "Human Health"
+      "contributes_to": "GlobalCarbonCycle"
     }
   ]
 }

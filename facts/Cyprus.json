@@ -1,7 +1,6 @@
 {
   "entity": "Cyprus",
   "properties": {
-    "instance_of": "Country",
     "capital": "Nicosia",
     "official_languages": "Greek, Turkish",
     "currency": "Euro (EUR)",
@@ -10,38 +9,39 @@
     "continent": "Asia",
     "geography": "Island",
     "sovereignty": "Divided",
-    "time_zone": "EET/UTC+2"
+    "time_zone": "EET/UTC+2",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Asia"
+    },
     {
       "part_of": "European Union"
     },
     {
-      "located_in": "Mediterranean Sea"
+      "has_capital": "Nicosia"
     },
     {
-      "border_country": "None"
+      "influenced_by": "Roman Empire"
     },
     {
-      "historical_part_of": "Roman Empire"
+      "member_of": "United Nations"
     },
     {
-      "influenced_by": "Greek culture"
+      "has_official_language": "Greek"
     },
     {
-      "influenced_by": "Turkish culture"
+      "has_official_language": "Turkish"
     },
     {
-      "has_city": "Limassol"
+      "has_border_with": "Greece"
     },
     {
-      "has_city": "Paphos"
+      "has_border_with": "Syria"
     },
     {
-      "has_mountain_range": "Troodos Mountains"
-    },
-    {
-      "related_to": "Aphrodite"
+      "has_historical_event": "Byzantine Empire"
     }
   ]
 }

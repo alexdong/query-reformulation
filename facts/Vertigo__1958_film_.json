@@ -1,7 +1,6 @@
 {
-  "entity": "Vertigo (1958 film)",
+  "entity": "Vertigo  1958 film ",
   "properties": {
-    "instance_of": "Mystery thriller film",
     "director": "Alfred Hitchcock",
     "starring": "James Stewart, Kim Novak",
     "release_date": "1958-05-17",
@@ -10,38 +9,39 @@
     "genre": "Psychological thriller, Mystery",
     "production_company": "Paramount Pictures",
     "cinematography": "Robert Burks",
-    "score_by": "Bernard Herrmann"
+    "score_by": "Bernard Herrmann",
+    "type": "Mystery thriller film"
   },
   "relationship": [
     {
-      "part_of_series": "Alfred Hitchcock Presents"
+      "instance_of": "film"
     },
     {
-      "influenced": "Rear Window"
+      "directed_by": "Alfred Hitchcock"
     },
     {
-      "influenced_by": "The Outcast"
+      "starring": "James Stewart"
     },
     {
-      "inspired": "Psycho (1960 film)"
+      "starring": "Kim Novak"
     },
     {
-      "character_appears": "John 'Scottie' Ferguson"
+      "adapted_from": "The Trust Betrayed"
     },
     {
-      "character_appears": "Madeleine Elster"
+      "production_company": "Paramount Pictures"
     },
     {
-      "setting": "San Francisco"
+      "country_of_origin": "United States of America"
     },
     {
-      "theme": "Obsession"
+      "genre": "psychological thriller"
     },
     {
-      "theme": "Identity"
+      "language": "English language"
     },
     {
-      "theme": "Guilt"
+      "preceded_by": "Rear Window"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Aves",
   "properties": {
-    "instance_of": "Class",
     "scientific_name": "Aves",
     "common_name": "Birds",
     "kingdom": "Animalia",
@@ -10,38 +9,39 @@
     "mode_of_reproduction": "Oviparous",
     "average_lifespan": "Variable",
     "distribution": "Worldwide",
-    "metabolism": "Endothermic"
+    "metabolism": "Endothermic",
+    "type": "Class"
   },
   "relationship": [
     {
-      "superclass": "Dinosauria"
+      "instance_of": "Bird"
     },
     {
-      "subclass": "Archosaurs"
-    },
-    {
-      "order": "Passeriformes"
-    },
-    {
-      "order": "Strigiformes"
-    },
-    {
-      "order": "Apodiformes"
-    },
-    {
-      "member_of": "Animal"
+      "taxon": "Animal"
     },
     {
       "has_part": "Wing"
     },
     {
+      "has_part": "Feather"
+    },
+    {
       "has_part": "Beak"
     },
     {
-      "prey_on": "Insects"
+      "in_taxonomic_class": "Aves"
     },
     {
-      "habitat": "Forest"
+      "subclass_of": "Vertebrata"
+    },
+    {
+      "has_characteristic": "Flight"
+    },
+    {
+      "feeds_on": "Insects"
+    },
+    {
+      "lives_in": "Habitat"
     }
   ]
 }

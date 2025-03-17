@@ -1,5 +1,5 @@
 {
-  "entity": "Joey D'Auria",
+  "entity": "Joey D Auria",
   "properties": {
     "birth_date": "1973-08-16",
     "birth_place": "New York City, New York, USA",
@@ -10,38 +10,39 @@
     "podcast_network": "Cumulus Podcast Network",
     "genre": "Sports, Comedy",
     "education": "University of Maryland",
-    "height": "6 ft 2 in"
+    "height": "6 ft 2 in",
+    "type": "Filmmaker"
   },
   "relationship": [
     {
-      "co_host": "Mike O'Malley"
+      "instance_of": "podcast"
     },
     {
-      "works_at": "Cumulus Media"
+      "creator": "The Ringer"
     },
     {
-      "covers_sport": "NFL"
+      "host": "Bill Simmons"
     },
     {
-      "discusses": "Sports News"
+      "co_host": "Kirk Minihane"
     },
     {
-      "interviewed": "Various Athletes"
+      "subject": "sports"
     },
     {
-      "married_to": "Stephanie D'Auria"
+      "topic": "National Football League"
     },
     {
-      "attended": "University of Maryland"
+      "topic": "Major League Baseball"
     },
     {
-      "podcast_guest": "Various Personalities"
+      "topic": "basketball"
     },
     {
-      "influences": "Sports Fans"
+      "genre": "sports podcast"
     },
     {
-      "part_of": "Sports Broadcasting"
+      "publication_date": "2018"
     }
   ]
 }

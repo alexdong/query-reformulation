@@ -10,38 +10,39 @@
     "related_concept": "Cultural imperialism",
     "example_industry": "Fast food",
     "often_associated_with": "Globalization",
-    "historical_context": "Post-World War II"
+    "historical_context": "Post-World War II",
+    "type": "Process"
   },
   "relationship": [
     {
-      "influenced_by": "Manifest Destiny"
+      "instance_of": "Cultural assimilation"
+    },
+    {
+      "process_of": "Globalization"
+    },
+    {
+      "influenced_by": "Cultural exchange"
+    },
+    {
+      "result_of": "Immigration"
+    },
+    {
+      "associated_with": "Manifest Destiny"
     },
     {
       "related_to": "Cultural imperialism"
     },
     {
-      "impacts": "Local traditions"
+      "impacts": "National identity"
     },
     {
-      "promoted_by": "US media"
+      "manifestation_of": "Cultural diffusion"
     },
     {
-      "example_of": "Globalization"
+      "causes": "Linguistic change"
     },
     {
-      "associated_with": "McDonald's"
-    },
-    {
-      "impacts": "Language"
-    },
-    {
-      "criticized_by": "Cultural preservationists"
-    },
-    {
-      "related_to": "Colonialism"
-    },
-    {
-      "manifests_in": "Fashion"
+      "related_to": "American culture"
     }
   ]
 }

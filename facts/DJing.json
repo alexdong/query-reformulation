@@ -10,38 +10,39 @@
     "technique": "Scratching, Beat juggling",
     "software": "Serato, Traktor, VirtualDJ",
     "related_art": "Sound engineering, Music production",
-    "cultural_impact": "Popularized remix culture"
+    "cultural_impact": "Popularized remix culture",
+    "type": "MusicActivity"
   },
   "relationship": [
     {
-      "influenced": "Hip Hop music"
+      "instance_of": "music_genre"
     },
     {
-      "influenced": "Electronic Dance Music"
+      "used_by": "Nightclub"
     },
     {
-      "related_to": "Turntablism"
+      "skill_required": "Music Production"
     },
     {
-      "preceded_by": "Radio DJing"
+      "part_of": "Live Music"
     },
     {
-      "uses": "Mixer"
+      "related_to": "Electronic Dance Music"
     },
     {
-      "uses": "Turntable"
+      "influenced_by": "Hip Hop Music"
     },
     {
-      "requires": "Music"
+      "requires": "Audio Equipment"
     },
     {
-      "performed_at": "Nightclub"
+      "performed_at": "Concert"
     },
     {
-      "related_to": "Scratching"
+      "skill_required": "Mixing"
     },
     {
-      "associated_with": "Grandmaster Flash"
+      "related_to": "Remixing"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Auckland Blues",
   "properties": {
-    "instance_of": "Rugby team",
     "country": "New Zealand",
     "city": "Auckland",
     "league": "Super Rugby",
@@ -10,38 +9,39 @@
     "home_ground": "Eden Park",
     "team_color": "Navy Blue & White",
     "competition_record": "5 Championships",
-    "captain": "Anton Lienert-Brown"
+    "captain": "Anton Lienert-Brown",
+    "type": "Rugby team"
   },
   "relationship": [
     {
-      "part_of": "New Zealand national rugby team"
+      "instance_of": "rugby union team"
     },
     {
-      "located_in": "Auckland Region"
+      "country": "New Zealand"
     },
     {
-      "plays_in": "Super Rugby"
+      "region": "Auckland Region"
     },
     {
-      "rivalry": "Crusaders"
+      "competition": "Super Rugby"
     },
     {
-      "member_of": "New Zealand rugby union"
+      "subclass_of": "New Zealand national rugby team"
     },
     {
-      "coach": "Sir Graham Henry"
+      "franchise_of": "New Zealand Rugby Union"
     },
     {
-      "player": "Beauden Barrett"
+      "head_coach": "Leon MacDonald"
     },
     {
-      "player": "Ofa Tu'ungafasi"
+      "captain": "Anton Lienert-Brown"
     },
     {
-      "competition": "Blues vs. Chiefs"
+      "home_stadium": "Eden Park"
     },
     {
-      "sponsored_by": "Auckland Council"
+      "founded_by": "New Zealand Rugby Football Union"
     }
   ]
 }

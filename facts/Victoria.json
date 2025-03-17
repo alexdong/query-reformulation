@@ -1,7 +1,6 @@
 {
   "entity": "Victoria",
   "properties": {
-    "instance_of": "Monarch",
     "birth_date": "1819-05-24",
     "death_date": "1901-01-22",
     "birth_place": "Kensington Palace",
@@ -10,38 +9,39 @@
     "reign_end": "1901-01-22",
     "title": "Queen of the United Kingdom",
     "spouse": "Prince Albert",
-    "era": "Victorian era"
+    "era": "Victorian era",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "predecessor": "William IV (monarch)"
+      "instance_of": "human"
     },
     {
-      "successor": "Edward VII (monarch)"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "father": "Edward, Duke of Kent and Strathearn"
+      "occupation": "monarch"
     },
     {
-      "mother": "Victoria of Saxe-Coburg-Saalfeld"
+      "reign_start_date": "1837-06-20"
     },
     {
-      "married_to": "Prince Albert"
+      "spouse": "Prince Albert"
     },
     {
-      "child_of": "Edward, Duke of Kent and Strathearn"
+      "child": "Victoria, Princess Royal"
     },
     {
-      "ruled_over": "British Empire"
+      "predecessor": "William IV"
     },
     {
-      "influenced": "Victorian literature"
+      "successor": "Edward VII"
     },
     {
-      "era_of": "Victorian era"
+      "member_of": "House of Hanover"
     },
     {
-      "located_in": "United Kingdom"
+      "birth_place": "Kensington Palace"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "member_of": "European Union",
     "national_dish": "Moules-frites",
     "GDP_USD": "580 billion",
-    "geographic_location": "Western Europe"
+    "geographic_location": "Western Europe",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "European Union"
+      "located_in": "Europe"
     },
     {
-      "borders": "France"
+      "part_of": "European_Union"
     },
     {
-      "borders": "Germany"
+      "has_capital": "Brussels"
     },
     {
-      "borders": "Netherlands"
+      "member_of": "NATO"
     },
     {
-      "borders": "Luxembourg"
+      "has_official_language": "Dutch"
     },
     {
-      "has_region": "Flanders"
+      "has_official_language": "French"
     },
     {
-      "has_region": "Wallonia"
+      "has_official_language": "German"
     },
     {
-      "has_region": "Brussels-Capital Region"
+      "influenced_by": "Roman_Empire"
     },
     {
-      "influenced": "Surrealism"
+      "influenced_by": "Holy_Roman_Empire"
     },
     {
-      "major_city": "Antwerp"
+      "has_border_with": "France"
     }
   ]
 }

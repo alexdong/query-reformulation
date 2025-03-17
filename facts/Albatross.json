@@ -10,38 +10,39 @@
     "diet": "Fish, squid, krill",
     "habitat": "Ocean, islands",
     "lifespan": "30-50 years",
-    "distribution": "Worldwide oceans"
+    "distribution": "Worldwide oceans",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "part_of_family": "Diomedeidae"
+      "instance_of": "seabird"
     },
     {
-      "order_includes": "Procellariiformes"
+      "taxon": "Procellariidae"
     },
     {
-      "preys_on": "Fish"
+      "has_habitat": "ocean"
     },
     {
-      "lives_in": "Ocean"
+      "roams": "Southern Ocean"
     },
     {
-      "threatened_by": "Plastic pollution"
+      "prey": "fish"
     },
     {
-      "related_to": "Petrels"
+      "feeds_on": "squid"
     },
     {
-      "found_in_region": "Antarctica"
+      "threatened_by": "plastic pollution"
     },
     {
-      "found_in_region": "Pacific Ocean"
+      "part_of_ecosystem": "marine ecosystem"
     },
     {
-      "found_in_region": "Arctic"
+      "has_characteristic": "long wingspan"
     },
     {
-      "migration_route": "Global"
+      "related_to": "Wandering Albatross"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "entity": "NGN (telecommunications)",
+  "entity": "NGN  telecommunications ",
   "properties": {
     "industry": "Telecommunications",
     "hq_location": "Belfast",
@@ -10,38 +10,39 @@
     "stock_ticker": "NGN",
     "business_model": "Wholesale",
     "coverage_area": "UK",
-    "employees": "Approximately 300"
+    "employees": "Approximately 300",
+    "type": "Network"
   },
   "relationship": [
     {
-      "parent_company": "Connexions"
+      "instance_of": "telecommunications company"
     },
     {
-      "competitor": "BT Group"
+      "parent_organization": "China Telecommunications Corporation"
     },
     {
-      "competitor": "Virgin Media"
+      "headquarters_location": "Beijing"
     },
     {
-      "provides_service_to": "Retail Service Providers"
+      "service_area": "China"
     },
     {
-      "technology_used": "Ethernet"
+      "subsidiary_of": "China Mobile Limited"
     },
     {
-      "technology_used": "IP networking"
+      "provides_service": "internet access"
     },
     {
-      "network_type": "Fiber optic"
+      "provides_service": "mobile network"
     },
     {
-      "geographic_scope": "United Kingdom"
+      "provides_service": "fixed-line telephone service"
     },
     {
-      "regulatory_body": "Ofcom"
+      "industry": "telecommunications"
     },
     {
-      "service_area": "Rural UK"
+      "founded_by": "Ministry of Information Industry"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "implies": "Exclusive jurisdiction",
     "often_challenged_by": "Globalization",
     "linked_to": "Statehood",
-    "basis_for": "Diplomacy"
+    "basis_for": "Diplomacy",
+    "type": "Jurisdiction"
   },
   "relationship": [
     {
-      "is_a": "Political principle"
+      "has_territory": "Territory"
     },
     {
-      "part_of": "Statehood"
+      "governed_by": "Government"
     },
     {
-      "related_to": "Westphalian sovereignty"
+      "recognized_by": "International law"
     },
     {
-      "influences": "International relations"
+      "exercises_jurisdiction_over": "Citizen"
     },
     {
-      "requires": "Defined territory"
+      "defined_by": "Constitution"
     },
     {
-      "impacts": "Diplomacy"
+      "protected_by": "Military"
     },
     {
-      "challenged_by": "Supranational organizations"
+      "asserted_by": "State"
     },
     {
-      "linked_to": "Popular sovereignty"
+      "recognized_by": "United Nations"
     },
     {
-      "related_to": "Recognition (international law)"
+      "defined_by": "International relations"
     },
     {
-      "impacts": "Treaty making"
+      "related_to": "Political geography"
     }
   ]
 }

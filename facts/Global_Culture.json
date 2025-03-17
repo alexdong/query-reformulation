@@ -10,38 +10,39 @@
     "dominant_languages": "English, Mandarin Chinese, Spanish",
     "art_forms": "Music, Film, Literature, Visual Arts",
     "food_trends": "Fusion cuisine, Plant-based diets",
-    "fashion_trends": "Streetwear, Athleisure"
+    "fashion_trends": "Streetwear, Athleisure",
+    "type": "CulturalPhenomenon"
   },
   "relationship": [
     {
-      "influenced_by": "Cultural Diffusion"
+      "instance_of": "cultural_phenomenon"
     },
     {
-      "part_of": "Human Culture"
+      "influenced_by": "History"
+    },
+    {
+      "has_topic": "Art"
+    },
+    {
+      "has_topic": "Music"
+    },
+    {
+      "has_topic": "Cuisine"
+    },
+    {
+      "has_topic": "Literature"
+    },
+    {
+      "has_topic": "Philosophy"
+    },
+    {
+      "part_of": "Humanity"
     },
     {
       "related_to": "Globalization"
     },
     {
-      "impacts": "Local Cultures"
-    },
-    {
-      "promoted_by": "Internet"
-    },
-    {
-      "affected_by": "Migration"
-    },
-    {
-      "example_of": "K-Pop"
-    },
-    {
-      "example_of": "Bollywood"
-    },
-    {
-      "influenced": "World Music"
-    },
-    {
-      "impacts": "Consumerism"
+      "expressed_in": "Language"
     }
   ]
 }

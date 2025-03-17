@@ -10,38 +10,39 @@
     "discipline": "Interdisciplinary",
     "goal": "Understanding, Prediction",
     "impact": "Technological Advancement, Societal Change",
-    "paradigm": "Positivism"
+    "paradigm": "Positivism",
+    "type": "Academic discipline"
   },
   "relationship": [
     {
-      "preceded_by": "Classical Science"
+      "has_field": "Physics"
     },
     {
-      "influenced": "Technology"
+      "has_field": "Chemistry"
     },
     {
-      "developed_by": "Scientists"
+      "has_field": "Biology"
     },
     {
-      "relies_on": "Mathematics"
+      "has_field": "Mathematics"
     },
     {
-      "overlaps_with": "Philosophy of Science"
+      "has_field": "Computer Science"
     },
     {
-      "impacts": "Medicine"
+      "developed_by": "Scientific Method"
     },
     {
-      "impacts": "Engineering"
+      "influenced_by": "Enlightenment"
     },
     {
-      "related_to": "Scientific Revolution"
+      "produces": "Scientific Knowledge"
     },
     {
-      "uses": "Observation"
+      "utilizes": "Observation"
     },
     {
-      "requires": "Experimentation"
+      "supports": "Technological Innovation"
     }
   ]
 }

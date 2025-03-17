@@ -10,38 +10,39 @@
     "settlement_amount": "$170 million",
     "traditional_occupation": "Fisheries, agriculture",
     "cultural_symbol": "Poutama",
-    "governing_body": "Ngāi Tahu Runanga o Ōtautahi"
+    "governing_body": "Ngāi Tahu Runanga o Ōtautahi",
+    "type": "Iwi"
   },
   "relationship": [
     {
-      "descendant_of": "Hotuapa"
+      "instance_of": "Māori iwi"
     },
     {
-      "located_in": "Te Waipounamu"
+      "located_in": "New Zealand"
     },
     {
-      "treaty_signed_with": "Treaty of Waitangi"
+      "part_of": "Ngāi Tahu Māori Trust Board"
     },
     {
-      "has_rohe": "Waitaki"
+      "ancestor_of": "Tūāhuriri"
     },
     {
-      "has_rohe": "Aoraki"
+      "has_member": "Hera Ponsonby-Wells"
     },
     {
-      "has_rohe": "Murihiku"
+      "related_to": "Waitangi Tribunal"
     },
     {
-      "related_to": "Kāi Tahu"
+      "has_claim_over": "Te Waipounamu (South Island)"
     },
     {
-      "related_to": "Ngāti Māmoe"
+      "subclass_of": "South Island iwi"
     },
     {
-      "related_to": "Ngāti Huirangi"
+      "has_language": "Te Reo Māori"
     },
     {
-      "cultural_site": "Ōnuku Marae"
+      "has_traditional_territory": "Aotearoa (New Zealand)"
     }
   ]
 }

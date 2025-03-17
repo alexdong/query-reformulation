@@ -10,38 +10,39 @@
     "constituency": "Oregon",
     "office": "United States Senator",
     "religion": "Unitarian Universalism",
-    "spouse": "Denise Hjort Merkley"
+    "spouse": "Denise Hjort Merkley",
+    "type": "Politician"
   },
   "relationship": [
+    {
+      "instance_of": "human"
+    },
     {
       "member_of": "United States Senate"
     },
     {
-      "preceded_by": "Gordon Smith"
+      "represents": "Oregon"
     },
     {
-      "succeeded_by": "N/A"
+      "member_of_political_party": "Democratic Party"
     },
     {
-      "state": "Oregon"
+      "educated_at": "Reed College"
     },
     {
-      "committee_member": "United States Senate Committee on Appropriations"
+      "birth_place": "Portland, Oregon"
     },
     {
-      "committee_member": "United States Senate Committee on Banking, Housing, and Urban Affairs"
+      "family_member": "Tom Merkley"
     },
     {
-      "committee_member": "United States Senate Committee on Environment and Public Works"
+      "spouse": "Mary Wilkerson"
     },
     {
-      "attended": "Reed College"
+      "citizen_of": "United States of America"
     },
     {
-      "attended": "Stanford Law School"
-    },
-    {
-      "signature_issue": "Climate Change"
+      "occupation": "politician"
     }
   ]
 }

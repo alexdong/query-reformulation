@@ -10,11 +10,15 @@
     "dominant_religion": "Islam",
     "highest_point": "Peak Ismoil Somoni",
     "largest_city": "Almaty",
-    "historical_name": "Turkestan"
+    "historical_name": "Turkestan",
+    "type": "Continent"
   },
   "relationship": [
     {
-      "part_of": "Asia"
+      "located_in": "Asia"
+    },
+    {
+      "part_of": "Eurasia"
     },
     {
       "borders": "Russia"
@@ -26,22 +30,19 @@
       "borders": "China"
     },
     {
-      "borders": "Kazakhstan"
+      "influenced_by": "Soviet Union"
     },
     {
-      "borders": "Uzbekistan"
+      "has_member_state": "Kazakhstan"
     },
     {
-      "influenced_by": "Silk Road"
+      "has_member_state": "Uzbekistan"
     },
     {
-      "historical_empire": "Turkic Khaganate"
+      "has_member_state": "Kyrgyzstan"
     },
     {
-      "historical_empire": "Mongol Empire"
-    },
-    {
-      "modern_states": "Kazakhstan"
+      "has_member_state": "Turkmenistan"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "constituency": "Taranaki-King Country",
     "ministerial_portfolio": "Economic Development",
     "spouse": "Joanna Joyce",
-    "children": "3"
+    "children": "3",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "member_of": "New Zealand Parliament"
+      "instance_of": "politician"
     },
     {
-      "prime_minister_appointed_by": "John Key"
+      "country_of_citizenship": "New Zealand"
     },
     {
-      "prime_minister_appointed_by": "Bill English"
+      "member_of": "National Party (New Zealand)"
+    },
+    {
+      "position_held": "Minister of Finance (New Zealand)"
+    },
+    {
+      "position_held": "Minister of Communications (New Zealand)"
+    },
+    {
+      "position_held": "Minister of Consumer Affairs (New Zealand)"
+    },
+    {
+      "member_of_assembly": "New Zealand House of Representatives"
     },
     {
       "educated_at": "University of Canterbury"
     },
     {
-      "constituency_represents": "Taranaki-King Country"
+      "place_of_birth": "Christchurch"
     },
     {
-      "political_affiliation": "National Party (New Zealand)"
-    },
-    {
-      "predecessor_in_office": "Nathan Guy"
-    },
-    {
-      "successor_in_office": "Simon Bridges"
-    },
-    {
-      "member_of_committee": "Finance and Expenditure Committee"
-    },
-    {
-      "resigned_from_office": "2018"
+      "family_member": "Brenda Joyce"
     }
   ]
 }

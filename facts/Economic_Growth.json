@@ -10,38 +10,39 @@
     "related_concept": "Economic Development",
     "impact_positive": "Higher living standards",
     "impact_negative": "Environmental degradation",
-    "affected_by": "Government Policy"
+    "affected_by": "Government Policy",
+    "type": "Process"
   },
   "relationship": [
     {
-      "causes": "Increased Standard of Living"
+      "instance_of": "Economic process"
     },
     {
-      "requires": "Investment"
+      "caused_by": "Technological innovation"
     },
     {
-      "influenced_by": "Technological Innovation"
+      "influenced_by": "Government policy"
     },
     {
-      "impacts": "Employment Rate"
+      "affected_by": "Labor productivity"
     },
     {
-      "related_to": "Gross Domestic Product"
+      "correlated_with": "Unemployment rate"
     },
     {
-      "measured_by": "Real GDP Growth Rate"
+      "impacts": "Standard of living"
     },
     {
-      "affected_by": "Inflation"
+      "requires": "Capital investment"
     },
     {
-      "impacts": "Poverty Reduction"
+      "dependent_on": "Natural resources"
     },
     {
-      "requires": "Productivity Gains"
+      "measured_by": "Gross Domestic Product"
     },
     {
-      "impacts": "Income Distribution"
+      "contributes_to": "Human development"
     }
   ]
 }

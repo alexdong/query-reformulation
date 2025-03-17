@@ -1,7 +1,6 @@
 {
   "entity": "KiwiRail",
   "properties": {
-    "instance_of": "Rail company",
     "country": "New Zealand",
     "owner": "New Zealand Government",
     "industry": "Transportation",
@@ -10,41 +9,39 @@
     "employee_count": "Approximately 900",
     "network_length": "Approximately 4,200 km",
     "gauge": "1067 mm",
-    "services": "Freight & Passenger"
+    "services": "Freight & Passenger",
+    "type": "Rail company"
   },
   "relationship": [
     {
-      "parent_company": "New Zealand Government"
+      "instance_of": "rail transport company"
     },
     {
-      "operates_on": "New Zealand rail network"
+      "parent_organisation": "New Zealand Government"
+    },
+    {
+      "located_in": "New Zealand"
     },
     {
       "subsidiary_of": "New Zealand State Owned Enterprises"
     },
     {
-      "serves": "New Zealand"
+      "has_service": "freight transport"
     },
     {
-      "competitor_of": "Mainfreight"
+      "has_service": "passenger transport"
     },
     {
-      "competitor_of": "Toll Group"
+      "operates_on": "New Zealand rail network"
     },
     {
-      "uses_technology": "Diesel locomotives"
+      "has_employee": "New Zealander"
     },
     {
-      "provides_service_to": "New Zealand economy"
+      "owns": "rail infrastructure"
     },
     {
-      "connected_to": "Port of Tauranga"
-    },
-    {
-      "connected_to": "Picton"
-    },
-    {
-      "connected_to": "Christchurch"
+      "regulates": "New Zealand rail safety"
     }
   ]
 }

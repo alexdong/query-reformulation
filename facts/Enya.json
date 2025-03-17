@@ -10,38 +10,39 @@
     "instrument": "Piano, keyboard, vocals, guitar, flute, bouzouki",
     "net_worth": "€60 million",
     "record_label": "Reprise Records",
-    "family_member": "Clannad"
+    "family_member": "Clannad",
+    "type": "MusicalGroup"
   },
   "relationship": [
+    {
+      "instance_of": "musician"
+    },
+    {
+      "country_of_citizenship": "Ireland"
+    },
     {
       "member_of": "Clannad"
     },
     {
-      "sibling_of": "Máire Ní Bhraonáin"
+      "influenced_by": "Celtic music"
     },
     {
-      "influenced_by": "Celtic mythology"
+      "genre": "New Age music"
     },
     {
-      "influenced": "Lisa Gerrard"
+      "genre": "Celtic music"
     },
     {
-      "collaborated_with": "Nick Ryan"
+      "award_received": "Brit Award"
     },
     {
-      "produced_by": "Frank Peterson"
+      "influenced": "Loreena McKennitt"
     },
     {
-      "associated_with": "Reprise Records"
+      "recorded_for": "Warner Music Group"
     },
     {
-      "genre_similar_to": "Loreena McKennitt"
-    },
-    {
-      "album_includes": "Watermark"
-    },
-    {
-      "album_includes": "Shepherd Moons"
+      "associated_with_place": "Gort"
     }
   ]
 }

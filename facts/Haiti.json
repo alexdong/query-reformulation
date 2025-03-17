@@ -10,35 +10,36 @@
     "government_type": "Semi-presidential republic",
     "continent": "North America",
     "largest_city": "Port-au-Prince",
-    "gini_index": "54.9 (2010)"
+    "gini_index": "54.9 (2010)",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Caribbean"
+      "located_in": "Caribbean"
     },
     {
-      "located_in": "Western Hemisphere"
+      "part_of": "North America"
     },
     {
-      "border_country": "Dominican Republic"
+      "has_official_language": "French"
     },
     {
-      "former_colony_of": "France"
+      "has_official_language": "Haitian Creole"
     },
     {
-      "influenced_by": "Vodou"
+      "influenced_by": "French colonial empire"
     },
     {
-      "historical_event": "Haitian Revolution"
+      "influenced_by": "Spanish colonial empire"
     },
     {
-      "natural_disaster": "2010 Haiti earthquake"
+      "has_capital": "Port-au-Prince"
     },
     {
-      "major_export": "Cocoa"
+      "has_neighbor": "Dominican Republic"
     },
     {
-      "related_to": "Toussaint Louverture"
+      "has_historical_event": "Haitian Revolution"
     },
     {
       "member_of": "United Nations"

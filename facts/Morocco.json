@@ -10,11 +10,18 @@
     "government": "Constitutional monarchy",
     "largest_city": "Casablanca",
     "national_dish": "Tagine",
-    "independence_date": "1956-03-2"
+    "independence_date": "1956-03-2",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Africa"
+      "located_in": "Africa"
+    },
+    {
+      "part_of": "Maghreb"
+    },
+    {
+      "has_capital": "Rabat"
     },
     {
       "borders": "Algeria"
@@ -23,25 +30,19 @@
       "borders": "Western Sahara"
     },
     {
+      "borders": "Spain"
+    },
+    {
+      "has_official_language": "Darija"
+    },
+    {
+      "has_official_language": "Taqiyya"
+    },
+    {
       "member_of": "Arab League"
     },
     {
       "member_of": "United Nations"
-    },
-    {
-      "located_in": "Maghreb"
-    },
-    {
-      "influenced": "Andalusian culture"
-    },
-    {
-      "has_city": "Marrakesh"
-    },
-    {
-      "has_city": "Fes"
-    },
-    {
-      "has_region": "Sahara"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Melbourne Demons",
   "properties": {
-    "instance_of": "Australian rules football club",
     "founded": "1858",
     "location": "Melbourne, Victoria",
     "league": "Australian Football League (AFL)",
@@ -10,38 +9,39 @@
     "home_ground": "Melbourne Cricket Ground (MCG)",
     "competition_wins": "9",
     "most_recent_win": "2021",
-    "governing_body": "Melbourne Football Club"
+    "governing_body": "Melbourne Football Club",
+    "type": "Australian rules football club"
   },
   "relationship": [
     {
-      "member_of": "AFL"
+      "instance_of": "AustralianFootballLeagueClub"
     },
     {
       "located_in": "Melbourne"
     },
     {
-      "plays_at": "Melbourne Cricket Ground (MCG)"
+      "part_of": "VictorianFootballLeague"
+    },
+    {
+      "subsumes": "AustralianRulesFootballTeam"
+    },
+    {
+      "has_coach": "Simon Goodwin"
+    },
+    {
+      "has_captain": "Max Gawn"
+    },
+    {
+      "plays_in": "Melbourne Cricket Ground"
     },
     {
       "founded_by": "Melbourne Football Club"
     },
     {
-      "rivalry": "Collingwood Football Club"
+      "has_member": "Melbourne Football Club Supporters"
     },
     {
-      "player_plays_for": "Clayton Oliver"
-    },
-    {
-      "player_plays_for": "Christian Petracca"
-    },
-    {
-      "coach": "Simon Goodwin"
-    },
-    {
-      "competition": "AFL Finals Series"
-    },
-    {
-      "trophy": "Deacon Little Memorial Trophy"
+      "related_to": "AustralianFootballLeague"
     }
   ]
 }

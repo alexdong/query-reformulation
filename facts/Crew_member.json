@@ -1,7 +1,6 @@
 {
   "entity": "Crew member",
   "properties": {
-    "instance_of": "Occupation",
     "works_in": "Film industry",
     "skill": "Technical skills",
     "responsibility": "Film production",
@@ -10,38 +9,39 @@
     "salary": "Varies",
     "union": "IATSE",
     "training": "On-the-job",
-    "location": "Film set"
+    "location": "Film set",
+    "type": "Occupation"
   },
   "relationship": [
     {
-      "works_with": "Director"
+      "instance_of": "human"
     },
     {
-      "works_with": "Actor"
+      "employed_by": "Spacecraft"
     },
     {
-      "reports_to": "Production manager"
+      "member_of": "Spaceflight crew"
     },
     {
-      "collaborates_with": "Camera operator"
+      "works_at": "Space station"
     },
     {
-      "collaborates_with": "Sound mixer"
+      "has_role": "Astronaut"
     },
     {
-      "works_for": "Production company"
+      "trained_by": "Space agency"
     },
     {
-      "part_of": "Film crew"
+      "participates_in": "Space mission"
     },
     {
-      "contributes_to": "Film"
+      "reports_to": "Mission commander"
     },
     {
-      "role_in": "Television production"
+      "operates": "Spacecraft system"
     },
     {
-      "related_to": "Stage crew"
+      "has_skill": "Spacecraft maintenance"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "entity": "Kiwi (fruit)",
+  "entity": "Kiwi  fruit ",
   "properties": {
     "scientific_name": "Actinidia deliciosa",
     "common_name": "Kiwi",
@@ -10,38 +10,39 @@
     "shape": "Oval",
     "vitamins": "C, K, E",
     "texture": "Fuzzy, Juicy",
-    "family": "Actinidiaceae"
+    "family": "Actinidiaceae",
+    "type": "Fruit"
   },
   "relationship": [
     {
-      "is_a": "Berry"
+      "taxon": "Actinidia deliciosa"
     },
     {
-      "grown_in": "New Zealand"
+      "has_color": "Green"
     },
     {
-      "cultivated_in": "Italy"
+      "has_flavor": "Sweet"
     },
     {
-      "related_to": "Gooseberry"
+      "grows_in": "New Zealand"
     },
     {
-      "used_in": "Fruit salad"
+      "is_a": "Fruit"
     },
     {
-      "contains": "Vitamin C"
+      "has_nutrient": "Vitamin C"
+    },
+    {
+      "has_cultivar": "Hayward"
     },
     {
       "part_of": "Diet"
     },
     {
-      "export_to": "Japan"
+      "used_for": "Dessert"
     },
     {
-      "variety_of": "Fruit"
-    },
-    {
-      "processed_into": "Kiwi jam"
+      "has_producer": "Zespri Group"
     }
   ]
 }

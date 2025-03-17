@@ -1,7 +1,6 @@
 {
   "entity": "Tertiary Sector",
   "properties": {
-    "instance_of": "Economic sector",
     "description": "Service-based economy",
     "synonym": "Service sector",
     "includes": "Retail, Healthcare, Education",
@@ -10,38 +9,39 @@
     "growth_rate": "Generally high",
     "dependence": "Dependent on primary & secondary sectors",
     "examples": "Banking, Tourism, IT",
-    "location": "Global"
+    "location": "Global",
+    "type": "Economic sector"
   },
   "relationship": [
     {
-      "part_of": "Economy"
-    },
-    {
-      "depends_on": "Primary sector"
-    },
-    {
-      "depends_on": "Secondary sector"
+      "partOf": "Economy"
     },
     {
       "employs": "Labor"
     },
     {
-      "provides": "Services"
+      "provides": "Public Services"
     },
     {
-      "impacts": "GDP"
+      "fundedBy": "Government"
     },
     {
-      "includes": "Quaternary sector"
+      "serves": "Citizens"
     },
     {
-      "related_to": "Economic growth"
+      "includes": "Non-profit Organizations"
     },
     {
-      "supports": "Public sector"
+      "includes": "Social Enterprises"
     },
     {
-      "influences": "Consumer spending"
+      "impacts": "Society"
+    },
+    {
+      "regulatedBy": "Government Agency"
+    },
+    {
+      "contributesTo": "Gross Domestic Product"
     }
   ]
 }

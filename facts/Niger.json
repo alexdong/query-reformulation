@@ -10,11 +10,18 @@
     "largest_city": "Niamey",
     "land_border_length_km": "4677",
     "independence_date": "1960-08-03",
-    "government_type": "Semi-presidential republic"
+    "government_type": "Semi-presidential republic",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Africa"
+      "located_in": "Africa"
+    },
+    {
+      "part_of": "West Africa"
+    },
+    {
+      "has_capital": "Niamey"
     },
     {
       "borders": "Algeria"
@@ -35,13 +42,7 @@
       "borders": "Mali"
     },
     {
-      "borders": "Nigeria"
-    },
-    {
-      "member_of": "African Union"
-    },
-    {
-      "member_of": "United Nations"
+      "has_official_language": "French"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "entity": "N. T. Rama Rao Family",
+  "entity": "N  T  Rama Rao Family",
   "properties": {
     "founder": "N. T. Rama Rao",
     "industry": "Telugu Cinema, Politics",
@@ -10,38 +10,39 @@
     "religion": "Hinduism",
     "net_worth": "Significant",
     "family_name": "Rama Rao",
-    "legacy": "Significant cultural and political impact"
+    "legacy": "Significant cultural and political impact",
+    "type": "Family"
   },
   "relationship": [
     {
-      "member_of": "Rama Rao Family"
+      "instance_of": "family"
     },
     {
-      "founded_by": "N. T. Rama Rao"
+      "member_of": "Telugu people"
     },
     {
-      "spouse_of": "Basavatarakam Nandamuri"
+      "located_in": "Andhra Pradesh"
     },
     {
-      "child_of": "Rama Rao Sr."
+      "related_to": "Telugu cinema"
     },
     {
-      "father_of": "Nandamuri Balakrishna"
+      "influenced_by": "Hinduism"
     },
     {
-      "father_of": "Nandamuri Kalyan Ram"
+      "has_member": "Nandamuri Balakrishna"
     },
     {
-      "father_of": "Nandamuri Harikrishna"
+      "has_member": "Nandamuri Kalyan Ram"
     },
     {
-      "grandchild_of": "Nandamuri Harikrishna"
+      "has_member": "Nandamuri Taraka Ratna"
     },
     {
-      "influenced": "Telugu Cinema"
+      "ancestor_of": "Nandamuri Mokshagna"
     },
     {
-      "political_affiliation": "Telugu Desam Party"
+      "associated_with": "Indian National Congress"
     }
   ]
 }

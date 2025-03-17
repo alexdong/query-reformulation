@@ -1,7 +1,6 @@
 {
   "entity": "Wales",
   "properties": {
-    "instance_of": "Country",
     "capital": "Cardiff",
     "official_language": "Welsh",
     "population_2021": "3,100,000",
@@ -10,38 +9,39 @@
     "part_of": "United Kingdom",
     "national_anthem": "Hen Wlad Fy Nhadau",
     "highest_point": "Snowdon",
-    "national_flower": "Daffodil"
+    "national_flower": "Daffodil",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "United Kingdom"
+      "located_in": "United Kingdom"
     },
     {
-      "borders": "England"
+      "part_of": "Great Britain"
     },
     {
-      "language_spoken_in": "Cardiff"
+      "has_capital": "Cardiff"
     },
     {
-      "language_spoken_in": "Swansea"
+      "has_official_language": "Welsh language"
     },
     {
-      "language_spoken_in": "Bangor"
+      "borders_country": "England"
     },
     {
-      "has_national_symbol": "Welsh Dragon"
+      "has_ruler": "Prince of Wales"
     },
     {
-      "has_sport": "Rugby union"
+      "has_national_symbol": "Welsh dragon"
     },
     {
-      "located_in": "Great Britain"
+      "influenced_by": "Celtic culture"
     },
     {
-      "influenced": "Celtic culture"
+      "has_historical_region": "North Wales"
     },
     {
-      "historical_region": "Cambria"
+      "member_of": "European Union"
     }
   ]
 }

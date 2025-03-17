@@ -10,38 +10,39 @@
     "independence_date": "1944",
     "government_type": "Parliamentary republic",
     "highest_point": "Hvannadalshnúkur",
-    "member_of": "NATO"
+    "member_of": "NATO",
+    "type": "Country"
   },
   "relationship": [
     {
       "located_in": "Europe"
     },
     {
-      "borders": "Greenland"
+      "part_of": "North Atlantic Ocean"
     },
     {
-      "part_of": "Nordic countries"
+      "has_capital": "Reykjavík"
     },
     {
       "influenced_by": "Norse mythology"
     },
     {
-      "has_volcano": "Eyjafjallajökull"
+      "member_of": "Arctic Council"
     },
     {
-      "has_glacier": "Vatnajökull"
+      "has_currency": "Icelandic króna"
     },
     {
-      "has_river": "Þjórsá"
+      "has_official_language": "Icelandic language"
     },
     {
-      "has_national_park": "Thingvellir National Park"
+      "influenced_by": "Viking colonization"
     },
     {
-      "cuisine_includes": "Skyr"
+      "has_geopolitical_relation": "European Union"
     },
     {
-      "famous_for": "Northern Lights"
+      "has_natural_feature": "Vatnajökull"
     }
   ]
 }

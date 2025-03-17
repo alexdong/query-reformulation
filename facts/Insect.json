@@ -1,7 +1,6 @@
 {
   "entity": "Insect",
   "properties": {
-    "instance_of": "Class",
     "kingdom": "Animalia",
     "phylum": "Arthropoda",
     "body_segments": "3 (head, thorax, abdomen)",
@@ -10,38 +9,39 @@
     "development": "Metamorphosis",
     "eyes": "Compound",
     "size": "Tiny to large",
-    "distribution": "Worldwide"
+    "distribution": "Worldwide",
+    "type": "Class"
   },
   "relationship": [
     {
-      "part_of": "Arthropoda"
+      "instance_of": "Animal"
     },
     {
-      "has_order": "Coleoptera"
+      "taxon": "Arthropoda"
     },
     {
-      "has_order": "Lepidoptera"
+      "has_part": "Exoskeleton"
     },
     {
-      "has_order": "Hymenoptera"
+      "has_part": "Antenna"
     },
     {
-      "has_order": "Diptera"
+      "feeds_on": "Plant"
     },
     {
-      "has_order": "Hemiptera"
+      "feeds_on": "Other insect"
     },
     {
-      "prey_for": "Bird"
+      "has_disease": "Insect disease"
     },
     {
-      "pollinates": "Flower"
+      "controlled_by": "Human"
     },
     {
-      "contributes_to": "Ecosystem"
+      "part_of": "Ecosystem"
     },
     {
-      "studied_in": "Entomology"
+      "has_role": "Pollinator"
     }
   ]
 }

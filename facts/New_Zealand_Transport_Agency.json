@@ -10,38 +10,39 @@
     "budget_2023": "6.1 billion NZD",
     "abbreviation": "NZTA",
     "website": "nzta.govt.nz",
-    "chief_executive": "Nicole Rosie"
+    "chief_executive": "Nicole Rosie",
+    "type": "GovernmentAgency"
   },
   "relationship": [
     {
-      "regulates": "Road safety"
+      "instance_of": "government agency"
     },
     {
-      "manages": "State Highway Network"
+      "subclass_of": "Department of Conservation"
+    },
+    {
+      "parent_organisation": "Ministry of Transport"
+    },
+    {
+      "responsible_for": "New Zealand road network"
+    },
+    {
+      "regulates": "Driver licensing"
     },
     {
       "funds": "Public transport"
     },
     {
-      "collaborates_with": "Local councils"
+      "works_with": "Local councils"
     },
     {
-      "reports_to": "Ministry of Transport"
+      "collaborates_with": "New Zealand Police"
     },
     {
-      "employs": "4,700"
+      "reports_to": "New Zealand Parliament"
     },
     {
-      "oversees": "Road policing"
-    },
-    {
-      "responsible_for": "Land Transport Rule"
-    },
-    {
-      "provides": "Driver licensing"
-    },
-    {
-      "impacts": "New Zealand economy"
+      "has_member": "Waka Kotahi Board"
     }
   ]
 }

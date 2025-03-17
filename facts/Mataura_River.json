@@ -10,38 +10,39 @@
     "catchment_area": "4,235 km²",
     "average_flow": "150 m³/s",
     "water_quality": "Variable",
-    "usage": "Irrigation, Hydroelectric power"
+    "usage": "Irrigation, Hydroelectric power",
+    "type": "River"
   },
   "relationship": [
     {
       "flows_into": "Clutha River"
     },
     {
-      "source_location": "Southern Alps"
+      "located_in_administrative_division": "Southland Region"
+    },
+    {
+      "flows_through_administrative_division": "Gore District"
     },
     {
       "tributary_of": "Clutha River"
     },
     {
-      "region": "Southland"
+      "originates_in": "Southern Alps"
     },
     {
-      "country": "New Zealand"
+      "part_of_river_system": "Clutha-Mataura River System"
     },
     {
-      "flows_through": "Gore"
+      "has_settlement_nearby": "Mossburn"
     },
     {
-      "flows_through": "Wyndham"
+      "has_settlement_nearby": "Wyndham"
     },
     {
-      "used_for": "Irrigation"
+      "has_ecosystem": "Mataura River ecosystem"
     },
     {
-      "used_for": "Hydroelectric power"
-    },
-    {
-      "part_of": "Southland Region"
+      "influenced_by_geological_feature": "Catlins Volcanic Uplift"
     }
   ]
 }

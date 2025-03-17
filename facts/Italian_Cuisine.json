@@ -10,38 +10,39 @@
     "dairy_product": "Parmesan Cheese",
     "meat_preference": "Pork, Beef, Chicken",
     "dessert_focus": "Pastries, Gelato",
-    "wine_pairing": "Wine"
+    "wine_pairing": "Wine",
+    "type": "Cuisine"
   },
   "relationship": [
     {
-      "influenced": "American Cuisine"
+      "instance_of": "cuisine"
     },
     {
-      "part_of": "Mediterranean Diet"
+      "origin_country": "Italy"
     },
     {
-      "regional_variation": "Sicilian Cuisine"
+      "influenced_by": "Ancient Roman cuisine"
     },
     {
-      "regional_variation": "Tuscan Cuisine"
+      "has_characteristic": "pasta"
     },
     {
-      "ingredient_used_in": "Pizza"
+      "has_characteristic": "pizza"
     },
     {
-      "ingredient_used_in": "Pasta"
+      "has_characteristic": "risotto"
     },
     {
-      "dish_type": "Risotto"
+      "associated_with_region": "Campania"
     },
     {
-      "dish_type": "Polenta"
+      "associated_with_region": "Tuscany"
     },
     {
-      "associated_with": "Italian Culture"
+      "influenced": "Italian American cuisine"
     },
     {
-      "influenced_by": "Ancient Roman Cuisine"
+      "associated_with_event": "Renaissance"
     }
   ]
 }

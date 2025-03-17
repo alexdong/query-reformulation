@@ -10,38 +10,39 @@
     "main_European_powers": "Portugal, Britain, France, Spain, Netherlands",
     "primary_African_regions": "West Africa, Central Africa",
     "legal_status": "Illegal (eventually)",
-    "economic_impact": "Significant"
+    "economic_impact": "Significant",
+    "type": "HistoricalEvent"
   },
   "relationship": [
     {
-      "part_of": "Atlantic Triangular Trade"
+      "part_of": "Early Modern Period"
     },
     {
-      "caused": "Abolitionism"
+      "caused": "Colonialism"
     },
     {
-      "influenced": "Colonialism"
+      "resulted_in": "Abolitionism"
     },
     {
-      "involved": "Kingdom of Dahomey"
+      "involved": "European Colonial Powers"
     },
     {
-      "involved": "Asante Empire"
+      "involved": "African Kingdoms"
     },
     {
-      "involved": "British Empire"
+      "affected": "Caribbean"
     },
     {
-      "involved": "French Empire"
+      "affected": "Americas"
     },
     {
-      "resulted_in": "Racial inequality"
+      "resulted_in": "Racial Inequality"
     },
     {
-      "impacted": "African diaspora"
+      "influenced": "Development of Plantation Economies"
     },
     {
-      "preceded_by": "Arab Slave Trade"
+      "preceded_by": "Atlantic Triangular Trade"
     }
   ]
 }

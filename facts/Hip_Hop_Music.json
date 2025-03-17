@@ -10,38 +10,39 @@
     "cultural_impact": "Significant",
     "themes": "Social commentary, storytelling, personal experiences",
     "instrumentation": "Sampling, Drum machines, Synthesizers",
-    "popularity": "Global"
+    "popularity": "Global",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Rap Music"
+      "instance_of": "music genre"
     },
     {
-      "influenced": "Contemporary R&B"
+      "subclass_of": "African American music"
     },
     {
-      "preceded_by": "Funk"
+      "influenced_by": "Funk"
     },
     {
-      "related_to": "DJing"
+      "influenced_by": "Soul music"
     },
     {
-      "related_to": "MCing"
+      "influenced_by": "Disco"
+    },
+    {
+      "created_by": "DJ Kool Herc"
     },
     {
       "associated_with": "Breakdancing"
     },
     {
-      "associated_with": "Graffiti Art"
+      "associated_with": "Graffiti art"
     },
     {
-      "artist": "Grandmaster Flash"
+      "associated_with": "MCing"
     },
     {
-      "artist": "Run-DMC"
-    },
-    {
-      "artist": "Public Enemy"
+      "associated_with": "Sampling"
     }
   ]
 }

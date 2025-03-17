@@ -10,38 +10,39 @@
     "governance": "Tribal government",
     "religion": "Traditional Navajo religion",
     "culture": "Matrilineal society",
-    "writing_system": "Developed in 1968"
+    "writing_system": "Developed in 1968",
+    "type": "Indigenous-people"
   },
   "relationship": [
     {
-      "part_of": "Athabaskan languages"
+      "instance_of": "Indigenous peoples"
     },
     {
       "located_in": "United States"
     },
     {
-      "located_in": "Arizona"
+      "part_of": "Southwestern United States"
     },
     {
-      "located_in": "New Mexico"
+      "has_language": "Navajo language"
     },
     {
-      "located_in": "Utah"
+      "has_religion": "Navajo traditional beliefs"
     },
     {
-      "related_to": "Hopi"
+      "has_culture": "Navajo culture"
     },
     {
-      "related_to": "Zuni"
+      "has_government": "Navajo Nation"
     },
     {
-      "influenced": "Navajo Code Talkers"
+      "has_territory": "Navajo Nation territory"
     },
     {
-      "governed_by": "Navajo Nation"
+      "related_to": "Diné College"
     },
     {
-      "language_of": "Navajo people"
+      "has_historical_event": "Bosque Redondo"
     }
   ]
 }

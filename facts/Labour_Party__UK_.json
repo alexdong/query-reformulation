@@ -1,7 +1,6 @@
 {
-  "entity": "Labour Party (UK)",
+  "entity": "Labour Party  UK ",
   "properties": {
-    "instance_of": "Political party",
     "country": "United Kingdom",
     "ideology": "Social democracy",
     "founded_date": "1900",
@@ -10,38 +9,39 @@
     "colour": "Red",
     "membership": "~500,000",
     "electoral_status": "Opposition",
-    "manifesto_focus": "Social justice, economic equality"
+    "manifesto_focus": "Social justice, economic equality",
+    "type": "Political party"
   },
   "relationship": [
     {
-      "predecessor_party": "Fabian Society"
+      "instance_of": "political party"
+    },
+    {
+      "country": "United Kingdom"
+    },
+    {
+      "ideology": "social democracy"
+    },
+    {
+      "leader": "Keir Starmer"
+    },
+    {
+      "member_of": "Parliament of the United Kingdom"
     },
     {
       "founded_by": "Ramsey MacDonald"
     },
     {
-      "member_of": "Parliament"
+      "subclass_of": "socialist political party"
     },
     {
-      "influenced_by": "Marxism"
+      "has_member": "Angela Rayner"
     },
     {
-      "policy_stance": "National Health Service"
+      "election_result": "United Kingdom general election"
     },
     {
-      "policy_stance": "Trade unions"
-    },
-    {
-      "opposed_by": "Conservative Party"
-    },
-    {
-      "historical_figure": "Clement Attlee"
-    },
-    {
-      "historical_figure": "Tony Blair"
-    },
-    {
-      "affiliated_with": "Cooperative Party"
+      "affiliation": "Trades Union Congress"
     }
   ]
 }

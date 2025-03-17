@@ -10,38 +10,39 @@
     "gestation_period": "150 days",
     "weight": "30-100 kg",
     "height": "0.9-1.2 m",
-    "conservation_status": "Least Concern"
+    "conservation_status": "Least Concern",
+    "type": "Animal"
   },
   "relationship": [
     {
-      "domesticated": "Domestic goat"
+      "instance_of": "Mammal"
     },
     {
-      "related_to": "Sheep"
+      "has_color": "White"
     },
     {
-      "prey_for": "Wolf"
+      "part_of": "Farm"
     },
     {
       "eats": "Grass"
     },
     {
-      "provides": "Milk"
+      "has_disease": "Caprine arthritis encephalitis"
     },
     {
-      "provides": "Meat"
+      "produces": "Milk"
     },
     {
-      "used_in": "Goat farming"
+      "has_offspring": "Kid"
     },
     {
-      "part_of_diet": "Lion"
+      "lives_in": "Pasture"
     },
     {
-      "related_to": "Capra aegagrus"
+      "related_to": "Shepherd"
     },
     {
-      "symbolizes": "Capricorn"
+      "used_for": "Goat meat"
     }
   ]
 }

@@ -10,7 +10,8 @@
     "economic_system": "Capitalism",
     "values": "Individualism, Freedom, Equality",
     "philosophical_basis": "Rationalism, Humanism",
-    "timeline": "Ancient times - Present"
+    "timeline": "Ancient times - Present",
+    "type": "Culture"
   },
   "relationship": [
     {
@@ -20,28 +21,28 @@
       "influenced_by": "Ancient Rome"
     },
     {
-      "influenced": "Modern Art"
+      "part_of": "World Culture"
     },
     {
-      "influenced": "Western Philosophy"
+      "developed_in": "Europe"
     },
     {
-      "influenced": "Western Music"
+      "shaped_by": "Christianity"
     },
     {
-      "influenced": "Western Literature"
+      "influenced_by": "Judeo-Christian Tradition"
     },
     {
-      "part_of": "Global Culture"
+      "created_by": "European Colonization"
     },
     {
-      "related_to": "European Culture"
+      "has_concept": "Individualism"
     },
     {
-      "related_to": "North American Culture"
+      "has_concept": "Democracy"
     },
     {
-      "has_subculture": "Pop Culture"
+      "influenced": "Global Culture"
     }
   ]
 }

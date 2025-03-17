@@ -10,38 +10,39 @@
     "material_culture": "Copper, gold, pottery",
     "social_structure": "Hierarchical",
     "trade_network": "Black Sea region",
-    "significance": "Early evidence of social stratification"
+    "significance": "Early evidence of social stratification",
+    "type": "Archaeological culture"
   },
   "relationship": [
     {
-      "part_of": "Chalcolithic"
+      "preceded_by": "Cucuteni-Trypillian culture"
     },
     {
-      "located_in": "Bulgaria"
+      "succeeded_by": "Proto-Thracian culture"
     },
     {
-      "influenced": "Eneolithic cultures"
+      "located_in": "Thrace"
     },
     {
-      "contemporary_with": "Cucuteni-Trypillian culture"
+      "influenced": "Proto-Thracian culture"
     },
     {
-      "preceded_by": "Late Neolithic"
+      "part_of": "Bronze Age"
     },
     {
-      "followed_by": "Eneolithic cultures"
+      "associated_with": "Thracian people"
     },
     {
-      "excavated_by": "Georgi Stoykov"
+      "has_artifact": "Varna gold treasures"
     },
     {
-      "found_in": "Varna Necropolis"
+      "related_to": "Chalcolithic"
     },
     {
-      "artifact_type": "Gold artifacts"
+      "characterized_by": "burial rituals"
     },
     {
-      "associated_with": "Early Copper Age"
+      "influenced_by": "Neolithic culture"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "religion": "Animism, Hinduism, Buddhism, Christianity",
     "social_structure": "Segmentary lineages, hierarchical systems",
     "economic_activity": "Agriculture, fishing, trade",
-    "art_forms": "Wood carving, weaving, music, dance"
+    "art_forms": "Wood carving, weaving, music, dance",
+    "type": "Ethnic group"
   },
   "relationship": [
     {
-      "ancestral_group": "Austronesian peoples"
+      "part_of": "Austronesian peoples"
     },
     {
-      "migration_route": "Austronesian Migration"
+      "located_in": "Maritime Southeast Asia"
     },
     {
-      "influenced_by": "Hinduism"
+      "located_in": "Oceania"
     },
     {
-      "influenced_by": "Buddhism"
+      "language_family": "Malayo-Polynesian languages"
     },
     {
-      "includes": "Malay people"
+      "influenced_by": "Austronesian migration"
     },
     {
-      "includes": "Javanese people"
+      "ancestor_of": "Various ethnic groups (e.g., Javanese, Maori, Tagalog)"
     },
     {
-      "includes": "Filipino people"
+      "related_to": "Austronesian culture"
     },
     {
-      "includes": "Maori people"
+      "has_artifact": "Traditional Oceanic art"
     },
     {
-      "includes": "Samoan people"
+      "influenced": "Southeast Asian history"
     },
     {
-      "related_to": "Oceanic peoples"
+      "has_religion": "Animism (historically), various syncretic religions"
     }
   ]
 }

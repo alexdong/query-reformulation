@@ -10,38 +10,39 @@
     "habitat": "Forest floor",
     "nocturnal": true,
     "endemic_to": "New Zealand",
-    "egg_size": "138 x 98 mm"
+    "egg_size": "138 x 98 mm",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "part_of": "Apteryx"
+      "instance_of": "Apteryx mantelli"
     },
     {
-      "lives_in": "New Zealand"
+      "taxon_rank": "Species"
     },
     {
-      "threatened_by": "Predators"
+      "has_habitat": "New Zealand"
     },
     {
-      "prey": "Insects"
+      "part_of": "New Zealand ecosystem"
     },
     {
-      "related_to": "Kiwi"
+      "feeds_on": "Invertebrates"
     },
     {
-      "conservation_effort": "Operation Nest Egg"
+      "threatened_by": "Introduced predators"
     },
     {
-      "has_feature": "Long beak"
+      "has_conservation_status": "Endangered"
     },
     {
-      "has_feature": "Flightless"
+      "parent_taxon": "Apteryx genus"
     },
     {
-      "is_a": "Bird"
+      "has_feature": "Nocturnal behavior"
     },
     {
-      "taxonomic_class": "Aves"
+      "has_attribute": "Flightless"
     }
   ]
 }

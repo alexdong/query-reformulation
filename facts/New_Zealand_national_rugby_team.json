@@ -10,38 +10,39 @@
     "head_coach": "Ian Foster",
     "captain": "Sam Cane",
     "home_ground": "Eden Park",
-    "trophy": "Rugby World Cup"
+    "trophy": "Rugby World Cup",
+    "type": "SportsTeam"
   },
   "relationship": [
     {
-      "member_of": "Oceania Rugby"
+      "instance_of": "national rugby team"
     },
     {
-      "governed_by": "New Zealand Rugby"
+      "country": "New Zealand"
     },
     {
-      "competes_in": "Rugby Championship"
+      "sport": "rugby union"
     },
     {
-      "competes_in": "Six Nations"
+      "governing_body": "New Zealand Rugby"
     },
     {
-      "won": "Rugby World Cup"
+      "coach": "Ian Foster"
     },
     {
-      "rivalry_with": "Australia national rugby team"
+      "captain": "Sam Cane"
     },
     {
-      "influenced": "Rugby union"
+      "member_of": "Rugby Championship"
     },
     {
-      "player": "Richie McCaw"
+      "participates_in": "Rugby World Cup"
     },
     {
-      "player": "Dan Carter"
+      "has_member": "Beauden Barrett"
     },
     {
-      "haka": "Ka Mate"
+      "predecessor": "New Zealand rugby team (1870–1882)"
     }
   ]
 }

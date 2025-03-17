@@ -10,38 +10,39 @@
     "father": "James III of Scotland",
     "mother": "Margaret Tudor",
     "spouse": "Margaret Tudor",
-    "religion": "Catholicism"
+    "religion": "Catholicism",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "predecessor": "James III of Scotland"
+      "instance_of": "monarch"
     },
     {
-      "successor": "James V of Scotland"
+      "ruled_as": "King of Scotland"
     },
     {
-      "married_to": "Margaret Tudor"
+      "spouse_of": "Margaret Tudor"
     },
     {
       "father_of": "James V of Scotland"
     },
     {
-      "father_of": "Alexander Stewart, Earl of Buchan"
-    },
-    {
-      "involved_in": "Battle of Flodden"
-    },
-    {
-      "involved_in": "Smoot Treaty"
-    },
-    {
-      "diplomatic_relations": "France"
-    },
-    {
-      "influenced": "Scottish Renaissance"
+      "sibling_of": "Alexander Stewart, Earl of Buchan"
     },
     {
       "member_of": "House of Stuart"
+    },
+    {
+      "preceded_by": "James III of Scotland"
+    },
+    {
+      "succeeded_by": "James V of Scotland"
+    },
+    {
+      "had_issure_with": "Margaret Tudor"
+    },
+    {
+      "located_in": "Scotland"
     }
   ]
 }

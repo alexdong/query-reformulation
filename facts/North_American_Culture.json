@@ -10,38 +10,39 @@
     "music_genres": "Rock, Pop, Country, Jazz, Blues",
     "art_movements": "Abstract Expressionism, Pop Art, Impressionism",
     "entertainment": "Hollywood film industry, Music, Sports",
-    "literary_traditions": "Modernism, Postmodernism, Indigenous storytelling"
+    "literary_traditions": "Modernism, Postmodernism, Indigenous storytelling",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "influenced_by": "European Colonization"
+      "influenced_by": "European culture"
     },
     {
-      "impacts": "Global Culture"
+      "part_of": "World culture"
     },
     {
-      "shares_border_with": "Mexico"
+      "has_subculture": "Hip Hop culture"
     },
     {
-      "shares_border_with": "Canada"
+      "created_by": "Indigenous peoples of North America"
     },
     {
-      "includes": "United States"
+      "influenced_by": "African culture"
     },
     {
-      "includes": "Canada"
+      "has_cuisine": "American cuisine"
     },
     {
-      "includes": "Mexico"
+      "has_art_movement": "Pop Art"
     },
     {
-      "influenced": "Latin American Culture"
+      "has_literature": "American literature"
     },
     {
-      "impacts": "Indigenous Cultures"
+      "has_music_genre": "Country music"
     },
     {
-      "part_of": "Western Culture"
+      "associated_with": "North America"
     }
   ]
 }

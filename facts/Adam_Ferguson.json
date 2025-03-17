@@ -10,38 +10,39 @@
     "academic_title": "Professor",
     "field": "Moral Philosophy",
     "influenced_by": "David Hume",
-    "known_for": "Philosophy of Progress"
+    "known_for": "Philosophy of Progress",
+    "type": "Philosopher"
   },
   "relationship": [
     {
-      "educated_at": "St Andrews University"
+      "instance_of": "human"
     },
     {
-      "influenced": "John Stewart"
+      "Q1357775": "Scottish Enlightenment"
     },
     {
-      "influenced_by": "Adam Smith"
+      "Q1608408": "University of St Andrews"
     },
     {
-      "taught_at": "University of Edinburgh"
+      "Q107478": "Adam Smith"
     },
     {
-      "contemporary_of": "Adam Smith"
+      "Q33997": "David Hume"
     },
     {
-      "contemporary_of": "James Hutton"
+      "Q1357775": "Scottish Enlightenment"
     },
     {
-      "member_of": "Scottish Enlightenment"
+      "Q107478": "Adam Smith"
     },
     {
-      "work_published": "An Essay on the History of Civil Society"
+      "Q215623": "John Millar"
     },
     {
-      "work_published": "Lectures on Select Subjects in the Law"
+      "Q33997": "David Hume"
     },
     {
-      "preceded_by": "George Jardine (professor)"
+      "Q103874": "Glasgow"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "landforms": "Fiords, cliffs, beaches",
     "economic_activity": "Tourism, fishing, agriculture",
     "protected_areas": "Numerous",
-    "water_temperature": "Cool"
+    "water_temperature": "Cool",
+    "type": "Coastline"
   },
   "relationship": [
     {
-      "part_of": "New Zealand Coastline"
+      "located_in": "South Island (island)"
     },
     {
-      "adjacent_to": "Southland Region"
+      "part_of": "New Zealand"
     },
     {
-      "contains": "Fiordland National Park"
-    },
-    {
-      "contains": "Catlins"
-    },
-    {
-      "influenced_by": "Southern Ocean"
+      "adjacent_to": "Fiordland National Park"
     },
     {
       "contains": "Moeraki Boulders"
     },
     {
-      "contains": "Taiaroa Head"
+      "influenced_by": "Pacific Ocean"
     },
     {
-      "supports": "Yellow-eyed Penguin"
+      "affected_by": "Climate Change"
     },
     {
-      "supports": "New Zealand fur seal"
+      "has_feature": "Taiaroa Head"
     },
     {
-      "impacted_by": "Coastal erosion"
+      "borders": "Catlins"
+    },
+    {
+      "supports_ecosystem": "Otago Peninsula"
+    },
+    {
+      "provides_habitat_for": "Yellow-eyed Penguin"
     }
   ]
 }

@@ -10,7 +10,8 @@
     "population_growth": "Rapid",
     "scientific_advancements": "Significant",
     "artistic_movement": "Romanticism, Realism",
-    "political_ideology": "Liberalism, Nationalism"
+    "political_ideology": "Liberalism, Nationalism",
+    "type": "HistoricalPeriod"
   },
   "relationship": [
     {
@@ -20,28 +21,28 @@
       "followed_by": "20th Century"
     },
     {
-      "influenced": "20th Century"
+      "part_of": "History"
     },
     {
-      "witnessed": "Napoleonic Wars"
+      "overlaps_with": "Industrial Revolution"
     },
     {
-      "witnessed": "American Civil War"
+      "witnessed": "Age of Enlightenment"
     },
     {
-      "witnessed": "Scramble for Africa"
+      "influenced_by": "French Revolution"
     },
     {
-      "witnessed": "World War I"
+      "produced": "Victorian Era"
     },
     {
-      "involved": "Queen Victoria"
+      "related_to": "Romanticism"
     },
     {
-      "involved": "Abraham Lincoln"
+      "involved": "British Empire"
     },
     {
-      "involved": "Karl Marx"
+      "characterized_by": "Imperialism"
     }
   ]
 }

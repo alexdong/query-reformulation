@@ -1,7 +1,6 @@
 {
   "entity": "Entomology",
   "properties": {
-    "instance_of": "Scientific discipline",
     "field_of": "Biology",
     "study_subject": "Insects",
     "subfield_of": "Zoology",
@@ -10,38 +9,39 @@
     "historical_origin": "16th century",
     "key_figure": "Maria Sibylla Merian",
     "methodology": "Observation, Classification",
-    "importance": "Ecosystem health"
+    "importance": "Ecosystem health",
+    "type": "Scientific discipline"
   },
   "relationship": [
     {
-      "studies": "Insecta"
+      "instance_of": "field_of_study"
     },
     {
-      "related_to": "Taxonomy"
+      "subclass_of": "biology"
     },
     {
-      "overlaps_with": "Pest Control"
+      "study": "insects"
     },
     {
-      "contributes_to": "Biodiversity Research"
+      "related_to": "taxonomy"
     },
     {
-      "uses": "Microscopy"
+      "related_to": "ecology"
     },
     {
-      "employs": "Morphology"
+      "related_to": "zoology"
     },
     {
-      "influenced_by": "Carl Linnaeus"
+      "applied_to": "agriculture"
     },
     {
-      "overlaps_with": "Ecology"
+      "related_to": "conservation"
     },
     {
-      "impacts": "Agriculture"
+      "related_to": "pesticide"
     },
     {
-      "related_to": "Systematics"
+      "related_to": "entomology_museum"
     }
   ]
 }

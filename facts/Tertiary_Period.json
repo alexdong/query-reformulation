@@ -10,38 +10,39 @@
     "climate": "Generally warmer than previous eras, with fluctuating temperatures",
     "dominant_life": "Mammals, birds, flowering plants",
     "subdivisions": "Paleogene, Neogene",
-    "geological_scale_level": "Period"
+    "geological_scale_level": "Period",
+    "type": "GeologicalPeriod"
   },
   "relationship": [
     {
-      "part_of": "Mesozoic Era"
-    },
-    {
-      "preceded_by": "Cretaceous Period"
+      "preceded_by": "Mesozoic Era"
     },
     {
       "followed_by": "Quaternary Period"
     },
     {
-      "contains": "Paleogene"
+      "part_of": "Geologic Time Scale"
     },
     {
-      "contains": "Neogene"
+      "has_event": "Paleogene Extinction Event"
     },
     {
-      "life_forms_evolved": "Mammals"
+      "has_epoch": "Paleocene"
     },
     {
-      "life_forms_evolved": "Birds"
+      "has_epoch": "Eocene"
     },
     {
-      "life_forms_evolved": "Flowering Plants"
+      "has_epoch": "Oligocene"
     },
     {
-      "continental_drift_affected": "Laurasia"
+      "has_epoch": "Miocene"
     },
     {
-      "continental_drift_affected": "Gondwana"
+      "has_epoch": "Pliocene"
+    },
+    {
+      "has_lifeform": "Mammalia"
     }
   ]
 }

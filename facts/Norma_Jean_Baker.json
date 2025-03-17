@@ -10,38 +10,39 @@
     "children": "Christopher, Maria",
     "death_date": "1962-08-04",
     "death_place": "Los Angeles, California",
-    "cause_of_death": "Drug overdose"
+    "cause_of_death": "Drug overdose",
+    "type": "Person"
   },
   "relationship": [
     {
-      "starred_in": "Gentlemen Prefer Blondes"
+      "instance_of": "human"
     },
     {
-      "starred_in": "The Seven Year Itch"
+      "birth_place": "Rowan County, North Carolina"
     },
     {
-      "starred_in": "Some Like It Hot"
+      "parent_of": "Margaret Baker"
     },
     {
-      "directed_by": "Billy Wilder"
+      "spouse_of": "Joseph Bruce Skelly"
     },
     {
-      "influenced": "Elizabeth Taylor"
+      "child_of": "Paul Baker"
     },
     {
-      "influenced": "Audrey Hepburn"
+      "sibling_of": "John William Baker"
     },
     {
-      "married_to": "Mickey Rooney"
+      "occupation": "actress"
     },
     {
-      "married_to": "Joe DiMaggio"
+      "member_of": "Hollywood Canteen"
     },
     {
-      "married_to": "Arthur Miller"
+      "influenced_by": "D.W. Griffith"
     },
     {
-      "genre": "Comedy"
+      "death_place": "Carmel-by-the-Sea, California"
     }
   ]
 }

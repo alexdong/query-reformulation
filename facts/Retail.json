@@ -1,7 +1,6 @@
 {
   "entity": "Retail",
   "properties": {
-    "instance_of": "Industry",
     "description": "Sale of goods to consumers",
     "sector": "Consumer Discretionary",
     "revenue_model": "Sales & Services",
@@ -10,38 +9,39 @@
     "geographic_scope": "Global",
     "major_trend": "E-commerce",
     "sub_industry": "E-commerce, Brick and Mortar",
-    "economic_indicator": "Consumer Spending"
+    "economic_indicator": "Consumer Spending",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "part_of": "Economy"
+      "instance_of": "retail"
     },
     {
-      "impacts": "Consumer"
+      "part_of": "economy"
     },
     {
-      "relates_to": "Supply Chain"
+      "located_in": "geographic_location"
     },
     {
-      "requires": "Logistics"
+      "has_product": "product"
     },
     {
-      "employs": "Retail Worker"
+      "employs": "person"
     },
     {
-      "influenced_by": "Marketing"
+      "offers": "service"
     },
     {
-      "uses": "Point of Sale System"
+      "has_customer": "consumer"
     },
     {
-      "affected_by": "Inflation"
+      "uses": "payment_method"
     },
     {
-      "competes_with": "E-commerce"
+      "operates_in": "industry"
     },
     {
-      "provides": "Goods and Services"
+      "has_branch": "store"
     }
   ]
 }

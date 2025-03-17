@@ -10,38 +10,39 @@
     "benefits": "Enriched perspectives, creativity",
     "measurement": "Indices, surveys",
     "related_concept": "Intercultural communication",
-    "impact_on": "Globalization"
+    "impact_on": "Globalization",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "promotes": "Tolerance"
+      "instance_of": "Social_concept"
     },
     {
-      "requires": "Respect"
+      "related_to": "Globalization"
     },
     {
-      "impacts": "Social Justice"
+      "causes": "Intercultural_communication"
     },
     {
-      "influenced_by": "Migration"
+      "results_in": "Cultural_exchange"
     },
     {
-      "related_to": "Anthropology"
+      "influences": "Identity_formation"
     },
     {
-      "studied_in": "Sociology"
+      "impacts": "Social_justice"
+    },
+    {
+      "requires": "Tolerance"
+    },
+    {
+      "promotes": "Empathy"
     },
     {
       "challenges": "Ethnocentrism"
     },
     {
-      "fosters": "Empathy"
-    },
-    {
-      "impacts": "Human Rights"
-    },
-    {
-      "linked_to": "UNESCO"
+      "manifests_in": "Multiculturalism"
     }
   ]
 }

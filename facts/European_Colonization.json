@@ -10,38 +10,39 @@
     "economic_system": "Mercantilism",
     "colonial_administration": "Varies by power",
     "technology_advantage": "Naval, Military",
-    "legacy": "Political boundaries, Cultural exchange, Economic disparities"
+    "legacy": "Political boundaries, Cultural exchange, Economic disparities",
+    "type": "HistoricalEvent"
   },
   "relationship": [
     {
-      "caused_by": "Age of Discovery"
-    },
-    {
-      "influenced": "Transatlantic Slave Trade"
+      "caused": "Transatlantic Slave Trade"
     },
     {
       "resulted_in": "Colonialism"
     },
     {
-      "impacted": "Indigenous Peoples"
+      "influenced": "Globalization"
+    },
+    {
+      "part_of": "European Exploration"
     },
     {
       "led_to": "Decolonization"
     },
     {
-      "involved": "British Empire"
+      "affected": "Indigenous Peoples"
     },
     {
-      "involved": "French Colonial Empire"
+      "facilitated_by": "Age of Discovery"
     },
     {
-      "involved": "Spanish Empire"
+      "resulted_in": "Nation-State System"
     },
     {
-      "influenced": "Globalization"
+      "involved": "European Empires"
     },
     {
-      "related_to": "Imperialism"
+      "impacted": "Cultural Exchange"
     }
   ]
 }

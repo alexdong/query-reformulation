@@ -1,7 +1,6 @@
 {
   "entity": "Council of Trent",
   "properties": {
-    "instance_of": "Ecumenical Council",
     "start_date": "1545-12-13",
     "end_date": "1563-12-03",
     "location": "Trento, Italy",
@@ -10,38 +9,39 @@
     "attendance": "Approximately 300",
     "language": "Latin",
     "subject": "Doctrinal disputes",
-    "outcome": "Clarification of Catholic doctrine"
+    "outcome": "Clarification of Catholic doctrine",
+    "type": "Ecumenical Council"
   },
   "relationship": [
     {
-      "preceded_by": "Peace of Cateau-Cambrésis"
+      "influenced": "Roman Catholicism"
     },
     {
-      "succeeded_by": "Union of Brest"
+      "preceded_by": "Council of Basel"
     },
     {
-      "influenced": "Catholic Church"
+      "succeeded_by": "First Vatican Council"
     },
     {
-      "response_to": "Protestant Reformation"
+      "held_in": "Trent (city)"
     },
     {
-      "involved_in": "Counter-Reformation"
+      "commissioned_by": "Pope Paul III"
     },
     {
-      "decree_issued": "Tridentine Decrees"
+      "attended_by": "Catholic Church"
     },
     {
-      "attended_by": "Charles Borromeo"
+      "resulted_in": "Counter-Reformation"
     },
     {
-      "attended_by": "Cardinal Cajetan"
+      "addressed_topic": "Doctrinal disputes"
     },
     {
-      "impacted": "Jesuits"
+      "involved_person": "Charles Borromeo"
     },
     {
-      "related_to": "Council of Basel"
+      "influenced_topic": "Sacraments"
     }
   ]
 }

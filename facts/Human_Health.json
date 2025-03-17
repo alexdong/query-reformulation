@@ -9,38 +9,39 @@
     "measured_by": "Vital signs",
     "impacted_by": "Disease",
     "promoted_by": "Exercise",
-    "goal": "Longevity"
+    "goal": "Longevity",
+    "type": "LivingOrganism"
   },
   "relationship": [
     {
-      "part_of": "Human Biology"
+      "instance_of": "Biological organism"
     },
     {
-      "related_to": "Public Health"
+      "affected_by": "Disease"
     },
     {
-      "impacts": "Quality of Life"
+      "influenced_by": "Lifestyle"
     },
     {
-      "requires": "Medical Care"
+      "maintained_by": "Healthcare"
     },
     {
-      "influenced_by": "Healthcare"
+      "part_of": "Human body"
     },
     {
-      "affected_by": "Mental Health"
+      "affected_by": "Environmental factor"
     },
     {
-      "impacts": "Productivity"
+      "influenced_by": "Genetics"
     },
     {
-      "related_to": "Disease Prevention"
+      "requires": "Nutrition"
     },
     {
-      "requires": "Sleep"
+      "impacted_by": "Mental health"
     },
     {
-      "influenced_by": "Social Determinants of Health"
+      "related_to": "Well-being"
     }
   ]
 }

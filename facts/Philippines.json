@@ -10,17 +10,18 @@
     "national_sport": "Basketball",
     "government_type": "Unitary presidential republic",
     "national_dish": "Adobo",
-    "geographic_region": "Southeast Asia"
+    "geographic_region": "Southeast Asia",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Southeast Asia"
+      "located_in": "Asia"
     },
     {
-      "borders": "South China Sea"
+      "part_of": "Malay Archipelago"
     },
     {
-      "member_of": "ASEAN"
+      "has_capital": "Manila"
     },
     {
       "influenced_by": "Spain"
@@ -29,19 +30,19 @@
       "influenced_by": "United States"
     },
     {
-      "has_province": "Quezon"
+      "has_official_language": "Filipino language"
     },
     {
-      "has_province": "Cebu"
+      "has_official_language": "English language"
     },
     {
-      "has_island": "Luzon"
+      "member_of": "Association of Southeast Asian Nations"
     },
     {
-      "has_island": "Mindanao"
+      "has_border_with": "Taiwan"
     },
     {
-      "religion": "Christianity"
+      "has_currency": "Philippine peso"
     }
   ]
 }

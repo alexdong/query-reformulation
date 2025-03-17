@@ -10,38 +10,39 @@
     "size": "Microscopic to gigantic",
     "habitat": "Ubiquitous",
     "life_cycle": "Sexual or Asexual",
-    "mobility": "Mostly motile"
+    "mobility": "Mostly motile",
+    "type": "Living organism"
   },
   "relationship": [
     {
-      "part_of": "Life"
+      "instance_of": "Living_organism"
     },
     {
-      "includes": "Chordata"
+      "subclass_of": "Organism"
     },
     {
-      "includes": "Arthropoda"
+      "has_part": "Organ"
     },
     {
-      "includes": "Mollusca"
+      "member_of": "Life"
     },
     {
-      "includes": "Echinodermata"
+      "taxon_rank": "Kingdom"
     },
     {
-      "related_to": "Plants"
+      "has_member": "Mammal"
     },
     {
-      "related_to": "Fungi"
+      "has_member": "Bird"
     },
     {
-      "related_to": "Protista"
+      "has_member": "Insect"
     },
     {
-      "study_field": "Zoology"
+      "has_characteristic": "Cell"
     },
     {
-      "evolutionary_ancestor": "Protists"
+      "related_to": "Ecology"
     }
   ]
 }

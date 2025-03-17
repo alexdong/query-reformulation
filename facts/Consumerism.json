@@ -10,38 +10,39 @@
     "historical_context": "Post-WWII era",
     "scale": "Global",
     "measurement": "Consumer spending",
-    "opposite_of": "Minimalism"
+    "opposite_of": "Minimalism",
+    "type": "EconomicActivity"
   },
   "relationship": [
     {
-      "causes": "Economic growth"
+      "causes": "Materialism"
     },
     {
-      "impacts": "Environment"
+      "promotes": "Advertising"
     },
     {
-      "related_to": "Marketing"
+      "drives": "Economic Growth"
     },
     {
-      "influenced_by": "Advertising"
+      "impacts": "Environmental Degradation"
     },
     {
-      "promotes": "Materialism"
+      "influences": "Social Status"
     },
     {
-      "linked_to": "Globalization"
+      "requires": "Production"
     },
     {
-      "impacts": "Social values"
+      "fosters": "Planned Obsolescence"
     },
     {
-      "drives": "Production"
+      "relates_to": "Globalization"
     },
     {
-      "associated_with": "Planned obsolescence"
+      "shapes": "Cultural Values"
     },
     {
-      "countered_by": "Minimalism"
+      "is_a": "Economic System"
     }
   ]
 }

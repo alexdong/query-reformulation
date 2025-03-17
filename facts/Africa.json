@@ -10,38 +10,39 @@
     "climate": "Varied",
     "land_area": "23.5 million km²",
     "geography": "Diverse",
-    "GDP_nominal": "$2.7 trillion"
+    "GDP_nominal": "$2.7 trillion",
+    "type": "Continent"
   },
   "relationship": [
     {
-      "part_of": "Earth"
+      "located_in": "Earth"
     },
     {
-      "located_in": "Eastern Hemisphere"
+      "part_of": "World"
     },
     {
-      "contains": "Nigeria"
+      "has_geographic_feature": "Sahara Desert"
     },
     {
-      "contains": "Egypt"
+      "influenced_by": "Colonialism"
     },
     {
-      "borders": "Asia"
+      "has_economy": "African Union"
     },
     {
-      "influenced_by": "Arabian Peninsula"
+      "has_culture": "African culture"
     },
     {
-      "has_region": "Sahara Desert"
+      "has_language": "African languages"
     },
     {
-      "has_region": "Sahel"
+      "has_historical_event": "Scramble for Africa"
     },
     {
-      "has_country": "South Africa"
+      "has_political_entity": "African Union"
     },
     {
-      "has_resource": "Oil"
+      "has_natural_resource": "Oil"
     }
   ]
 }

@@ -10,11 +10,18 @@
     "economy_sector": "Tourism, Agriculture, Services",
     "governance": "Queensland Government",
     "geography": "Coastal plains, mountains",
-    "time_zone": "UTC+10"
+    "time_zone": "UTC+10",
+    "type": "Region"
   },
   "relationship": [
     {
-      "part_of": "Queensland"
+      "located_in": "Queensland"
+    },
+    {
+      "part_of": "Australia"
+    },
+    {
+      "has_region_type": "metropolitan area"
     },
     {
       "contains": "Brisbane"
@@ -26,22 +33,16 @@
       "contains": "Sunshine Coast"
     },
     {
-      "contains": "Moreton Bay Region"
-    },
-    {
       "adjacent_to": "New South Wales"
     },
     {
-      "influenced_by": "Brisbane River"
+      "economic_activity": "tourism"
     },
     {
-      "economy_supports": "Tourism"
+      "governed_by": "Queensland Government"
     },
     {
-      "attraction": "Great Barrier Reef"
-    },
-    {
-      "biodiversity_includes": "D'Aguilar Range"
+      "has_population": "3.3 million"
     }
   ]
 }

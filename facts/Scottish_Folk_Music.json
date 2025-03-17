@@ -10,38 +10,39 @@
     "language": "Scots, Gaelic, English",
     "influence": "Celtic music",
     "legacy": "Cultural identity",
-    "popularity": "Global"
+    "popularity": "Global",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Irish Folk Music"
+      "instance_of": "music genre"
     },
     {
-      "influenced_by": "Medieval Scottish Music"
+      "originates_from": "Scotland"
     },
     {
-      "performer": "The Corries"
+      "influenced_by": "Celtic music"
     },
     {
-      "performer": "Loreena McKennitt"
+      "has_genre": "ballad"
     },
     {
-      "performer": "Capercaillie"
+      "has_genre": "dance music"
     },
     {
-      "related_to": "Scottish Dance"
+      "performed_by": "Scottish musicians"
     },
     {
-      "associated_with": "Highland Games"
+      "associated_with": "Scottish culture"
     },
     {
-      "features_in": "Scottish Culture"
+      "related_to": "Highland Games"
     },
     {
-      "subgenre_of": "Celtic Music"
+      "used_instrument": "fiddle"
     },
     {
-      "instrument_used": "Great Highland Bagpipe"
+      "used_instrument": "bagpipes"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "criticism": "Superficiality, unrealistic expectations",
     "historical_evolution": "Shift from aristocracy to popular figures",
     "economic_impact": "Entertainment industry, marketing",
-    "contemporary_form": "Social media, paparazzi"
+    "contemporary_form": "Social media, paparazzi",
+    "type": "SocialPhenomenon"
   },
   "relationship": [
     {
-      "influenced_by": "Roman Imperial Cult"
+      "influenced_by": "Media"
     },
     {
-      "related_to": "Fame"
+      "part_of": "Popular Culture"
     },
     {
-      "promotes": "Consumerism"
+      "related_to": "Social Media"
     },
     {
-      "fueled_by": "Media"
+      "causes": "Consumerism"
     },
     {
-      "impacts": "Social Media"
+      "shaped_by": "Fashion"
     },
     {
-      "associated_with": "Paparazzi"
+      "impacts": "Public Opinion"
     },
     {
-      "creates": "Fan culture"
+      "related_to": "Entertainment Industry"
     },
     {
-      "contributes_to": "Idolization"
+      "reflects": "Societal Trends"
     },
     {
-      "shapes": "Fashion trends"
+      "promotes": "Brand Endorsement"
     },
     {
-      "linked_to": "Public Relations"
+      "studied_in": "Sociology"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "established": "7th century (as Shinano Province)",
     "major_industry": "Agriculture, Manufacturing",
     "famous_product": "Miso",
-    "governor": "Hajime Furuta"
+    "governor": "Hajime Furuta",
+    "type": "Prefecture"
   },
   "relationship": [
     {
-      "part_of": "Chubu region"
+      "located_in": "Japan"
     },
     {
-      "borders": "Nagano Prefecture"
+      "part_of": "Chūbu region"
     },
     {
-      "borders": "Toyama Prefecture"
+      "borders_with": "Shizuoka Prefecture"
     },
     {
-      "borders": "Fukui Prefecture"
+      "borders_with": "Aichi Prefecture"
     },
     {
-      "borders": "Shiga Prefecture"
+      "borders_with": "Yamanashi Prefecture"
     },
     {
-      "borders": "Mie Prefecture"
+      "has_administrative_center": "Gifu City"
     },
     {
-      "contains": "Shirakawa-go"
+      "has_river": "Nagoya River"
     },
     {
-      "contains": "Gifu City"
+      "has_mountain": "Mount Ontake"
     },
     {
-      "contains": "Takayama"
+      "has_historical_event": "Battle of Sekigahara"
     },
     {
-      "historical_part_of": "Shinano Province"
+      "has_traditional_craft": "Gifu ware"
     }
   ]
 }

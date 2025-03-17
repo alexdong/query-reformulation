@@ -1,7 +1,6 @@
 {
   "entity": "Esperanto",
   "properties": {
-    "instance_of": "Constructed language",
     "creator": "Ludwik Lejzer Zamenhof",
     "creation_date": "1887",
     "purpose": "International auxiliary language",
@@ -10,38 +9,39 @@
     "speakers": "100,000 - 2,000,000",
     "language_family": "Constructed",
     "influenced_by": "European languages",
-    "name_meaning": "One who hopes"
+    "name_meaning": "One who hopes",
+    "type": "Constructed language"
   },
   "relationship": [
     {
-      "creator_is": "Ludwik Lejzer Zamenhof"
+      "instance_of": "constructed_language"
     },
     {
-      "influenced": "International communication"
+      "creator": "Ludwik Lejzer Zamenhof"
     },
     {
-      "inspired_by": "European languages"
+      "influenced_by": "Volapük"
     },
     {
-      "promoted_by": "Esperanto movement"
+      "publication_date": "1887"
     },
     {
-      "used_in": "Literature"
+      "language_code": "eo"
     },
     {
-      "used_in": "Music"
+      "used_in": "international_communication"
     },
     {
-      "used_in": "Translation"
+      "has_community": "Esperanto_movement"
     },
     {
-      "related_to": "Language construction"
+      "related_to": "linguistics"
     },
     {
-      "alternative_to": "English"
+      "has_genre": "planned_language"
     },
     {
-      "has_community": "Esperanto speakers"
+      "used_by": "Universal_Esperanto_Association"
     }
   ]
 }

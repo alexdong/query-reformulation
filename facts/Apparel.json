@@ -1,7 +1,6 @@
 {
   "entity": "Apparel",
   "properties": {
-    "instance_of": "Product",
     "material": "Textile",
     "purpose": "Clothing",
     "category": "Fashion",
@@ -10,38 +9,39 @@
     "color": "Variable",
     "size": "Variable",
     "season": "Variable",
-    "target_audience": "Variable"
+    "target_audience": "Variable",
+    "type": "Product"
   },
   "relationship": [
     {
-      "made_of": "Textile"
+      "instance_of": "Clothing"
     },
     {
-      "used_for": "Body covering"
+      "used_for": "Fashion"
     },
     {
-      "related_to": "Fashion design"
-    },
-    {
-      "industry": "Fashion industry"
-    },
-    {
-      "marketed_to": "Consumer"
-    },
-    {
-      "sold_at": "Retail store"
-    },
-    {
-      "influenced_by": "Fashion trends"
+      "material": "Textile"
     },
     {
       "design_by": "Fashion designer"
     },
     {
-      "manufactured_by": "Clothing manufacturer"
+      "made_from": "Fabric"
     },
     {
-      "part_of": "Wardrobe"
+      "worn_by": "Person"
+    },
+    {
+      "style": "Clothing style"
+    },
+    {
+      "produced_by": "Clothing manufacturer"
+    },
+    {
+      "related_to": "Retail"
+    },
+    {
+      "category": "Consumer product"
     }
   ]
 }

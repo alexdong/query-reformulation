@@ -10,38 +10,39 @@
     "nickname": "Emerald City",
     "location": "Pacific Northwest",
     "time_zone": "Pacific Time",
-    "elevation_ft": "274"
+    "elevation_ft": "274",
+    "type": "City"
   },
   "relationship": [
     {
-      "part_of": "Washington State"
+      "located_in": "Washington State"
     },
     {
-      "located_in": "United States"
+      "part_of": "United States"
     },
     {
-      "neighbor_of": "Bellevue"
-    },
-    {
-      "influenced_by": "Pioneer Square"
+      "has_neighbor": "King County"
     },
     {
       "has_landmark": "Space Needle"
     },
     {
+      "founded_by": "Arthur Denny"
+    },
+    {
+      "has_industry": "Aerospace Industry"
+    },
+    {
+      "has_river": "Puget Sound"
+    },
+    {
       "has_sport_team": "Seattle Seahawks"
     },
     {
-      "has_sport_team": "Seattle Mariners"
+      "has_climate": "Temperate Marine Climate"
     },
     {
-      "has_sport_team": "Seattle Kraken"
-    },
-    {
-      "has_sport_team": "Seattle Sounders FC"
-    },
-    {
-      "founded_by": "Arthur Denny"
+      "is_capital_of": "Seattle–Tacoma–Bellevue Metropolitan Area"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "threats": "Habitat loss, Poaching",
     "funding": "Government, NGOs",
     "related_field": "Environmental science",
-    "legal_framework": "CITES, CBD"
+    "legal_framework": "CITES, CBD",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "part_of": "Environmentalism"
+      "instance_of": "environmental_conservation"
     },
     {
-      "related_to": "Biodiversity"
+      "subclass_of": "biodiversity_conservation"
     },
     {
-      "protects": "Endangered species"
+      "aims_to_protect": "endangered_species"
     },
     {
-      "requires": "Habitat restoration"
+      "part_of": "environmental_protection"
     },
     {
-      "addresses": "Climate change"
+      "works_with": "protected_area"
     },
     {
-      "involves": "Protected areas"
+      "funded_by": "governmental_organization"
     },
     {
-      "supported_by": "IUCN"
+      "collaborates_with": "non-governmental_organization"
     },
     {
-      "influenced_by": "Rachel Carson"
+      "requires": "habitat"
     },
     {
-      "overlaps_with": "Zoology"
+      "impacts": "ecosystem"
     },
     {
-      "impacts": "Ecosystems"
+      "addresses_issue": "species_extinction"
     }
   ]
 }

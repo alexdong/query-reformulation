@@ -10,38 +10,39 @@
     "economy": "Historically mining, now diversified",
     "culture": "Distinctive folk traditions",
     "biodiversity": "High",
-    "historical_name": "Ancient Appalachia"
+    "historical_name": "Ancient Appalachia",
+    "type": "CulturalRegion"
   },
   "relationship": [
+    {
+      "located_in": "United States of America"
+    },
     {
       "part_of": "Eastern United States"
     },
     {
-      "contains": "Great Smoky Mountains"
+      "has_geographic_feature": "Appalachian Mountains"
     },
     {
-      "contains": "Blue Ridge Mountains"
+      "influenced_by": "Indigenous peoples of North America"
     },
     {
-      "borders": "Ohio River Valley"
+      "has_cultural_identity": "Appalachian culture"
     },
     {
-      "influenced_by": "Native American cultures"
+      "associated_with": "Coal mining"
     },
     {
-      "affected_by": "Coal mining"
+      "affected_by": "Great Depression"
     },
     {
-      "associated_with": "Appalachian Trail"
+      "has_historical_event": "Battle of Blair Mountain"
     },
     {
-      "genre_appears_in": "American literature"
+      "related_to": "Scot-Irish immigration"
     },
     {
-      "music_genre": "Appalachian folk music"
-    },
-    {
-      "economic_impact_on": "Coal industry"
+      "characterized_by": "Appalachian English"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Melbourne Storm",
   "properties": {
-    "instance_of": "Rugby league team",
     "founded": "1987",
     "location": "Melbourne, Australia",
     "league": "National Rugby League (NRL)",
@@ -10,38 +9,39 @@
     "competition_wins": "5",
     "minor_premierships": "3",
     "captain": "Cameron Munster",
-    "owner": "Melbourne Storm Limited"
+    "owner": "Melbourne Storm Limited",
+    "type": "Rugby league team"
   },
   "relationship": [
     {
-      "part_of": "National Rugby League"
+      "instance_of": "rugby league team"
     },
     {
-      "located_in": "Victoria"
+      "located_in": "Melbourne"
     },
     {
-      "plays_at": "AAMI Park"
+      "country_of_origin": "Australia"
     },
     {
-      "rivalry_with": "Sydney Roosters"
+      "member_of": "National Rugby League"
     },
     {
-      "coach": "Craig Bellamy (former)"
+      "founded_by": "News Limited"
     },
     {
-      "player": "Cameron Smith (former)"
+      "coach": "Craig Bellamy"
     },
     {
-      "player": "Billy Slater (former)"
+      "plays_in": "AAMI Park"
     },
     {
-      "member_of": "Australian Rugby League"
+      "has_sponsor": "Origin Energy"
     },
     {
-      "won": "2020 NRL Grand Final"
+      "has_player": "Cameron Munster"
     },
     {
-      "sponsored_by": "MG Motors"
+      "competition": " NRL Grand Final"
     }
   ]
 }

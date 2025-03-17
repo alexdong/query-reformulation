@@ -1,7 +1,6 @@
 {
   "entity": "Carnival Cruise Line",
   "properties": {
-    "instance_of": "Cruise line",
     "founder": "Ted Arison",
     "industry": "Tourism",
     "hq_location": "Miami, Florida",
@@ -10,38 +9,39 @@
     "fleet_size": "28",
     "passenger_capacity": "5.8 million",
     "revenue": "$16.3 billion",
-    "employee_count": "40,000+"
+    "employee_count": "40,000+",
+    "type": "Cruise line"
   },
   "relationship": [
     {
-      "subsidiary_of": "Carnival Corporation"
+      "instance_of": "cruise line"
     },
     {
-      "competes_with": "Royal Caribbean International"
+      "subsidiary_of": "Carnival Corporation & plc"
     },
     {
-      "competes_with": "Norwegian Cruise Line"
+      "headquarters_location": "Doral, Florida"
     },
     {
-      "destination": "Bahamas"
+      "operates_in": "Caribbean"
     },
     {
-      "destination": "Caribbean"
+      "operates_in": "Alaska"
     },
     {
-      "destination": "Alaska"
+      "operates_in": "Europe"
     },
     {
-      "destination": "Europe"
+      "employs": "crew members"
     },
     {
-      "ship_class": "Spirit Class"
+      "provides_service": "cruise tourism"
     },
     {
-      "ship_class": "Dream Class"
+      "ships": "Carnival Magic"
     },
     {
-      "ship_class": "Excel Class"
+      "ships": "Carnival Breeze"
     }
   ]
 }

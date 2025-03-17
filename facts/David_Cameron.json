@@ -10,38 +10,39 @@
     "children": "3",
     "height": "1.83 m",
     "net_worth": "Approximately £3.8 million",
-    "alma_mater": "Oxford University"
+    "alma_mater": "Oxford University",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "predecessor": "Gordon Brown"
+      "instance_of": "politician"
     },
     {
-      "successor": "Theresa May"
+      "member_of": "Conservative Party (UK)"
     },
     {
-      "member_of": "House of Commons"
+      "prime_minister_of": "United Kingdom"
     },
     {
-      "served_as": "Prime Minister of the United Kingdom"
+      "educated_at": "Oxford University"
     },
     {
-      "member_of": "European Parliament"
+      "spouse_of": "Samantha Cameron"
     },
     {
-      "attended": "Harrow School"
+      "child_of": "Ian Cameron"
     },
     {
-      "appointed": "Father of the House"
+      "member_of_parliament_for": "Witney (UK Parliament constituency)"
     },
     {
-      "role": "MP for Witney"
+      "preceded_by": "Gordon Brown"
     },
     {
-      "involved_in": "Brexit referendum"
+      "succeeded_by": "Theresa May"
     },
     {
-      "position": "President of the International Alliance of Conservation"
+      "citizen_of": "United Kingdom"
     }
   ]
 }

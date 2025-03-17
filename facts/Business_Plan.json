@@ -1,7 +1,6 @@
 {
   "entity": "Business Plan",
   "properties": {
-    "instance_of": "Document",
     "purpose": "Roadmap",
     "scope": "Business",
     "sections": "Executive Summary, Market Analysis, Financial Projections",
@@ -10,38 +9,39 @@
     "length": "Variable",
     "revision_frequency": "Periodic",
     "key_element": "Financial Model",
-    "legal_status": "Not legally binding"
+    "legal_status": "Not legally binding",
+    "type": "Document"
   },
   "relationship": [
     {
-      "requires": "Market Research"
+      "hasTopic": "Business"
     },
     {
-      "leads_to": "Funding"
+      "isDocumentType": "Document"
     },
     {
-      "includes": "Financial Projections"
+      "authoredBy": "Person"
     },
     {
-      "uses": "SWOT Analysis"
+      "describes": "Business"
     },
     {
-      "addresses": "Business Goals"
+      "requires": "Market Analysis"
     },
     {
-      "involves": "Management Team"
+      "includesSection": "Executive Summary"
     },
     {
-      "supports": "Strategic Planning"
+      "contains": "Financial Projection"
     },
     {
-      "analyzes": "Competitive Landscape"
+      "references": "Industry"
     },
     {
-      "outlines": "Operational Plan"
+      "usedFor": "Funding Request"
     },
     {
-      "results_in": "Business Launch"
+      "evaluatedBy": "Investor"
     }
   ]
 }

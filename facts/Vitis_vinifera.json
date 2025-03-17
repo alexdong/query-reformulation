@@ -10,38 +10,39 @@
     "fruit_type": "Berry",
     "cultivation_area": "Worldwide",
     "economic_importance": "Wine, table grapes",
-    "lifespan": "30-100 years"
+    "lifespan": "30-100 years",
+    "type": "Plant"
   },
   "relationship": [
+    {
+      "taxon": "Rosaceae"
+    },
+    {
+      "has_variety": "Cabernet Sauvignon"
+    },
+    {
+      "has_variety": "Chardonnay"
+    },
+    {
+      "has_variety": "Merlot"
+    },
+    {
+      "has_variety": "Sauvignon Blanc"
+    },
     {
       "produces": "Wine"
     },
     {
-      "produces": "Table grape"
+      "used_for": "Table grape"
     },
     {
-      "part_of": "Vitaceae"
+      "part_of": "Viticulture"
     },
     {
-      "cultivated_in": "Italy"
+      "located_in": "Mediterranean"
     },
     {
-      "cultivated_in": "France"
-    },
-    {
-      "cultivated_in": "Spain"
-    },
-    {
-      "related_to": "Vitis"
-    },
-    {
-      "used_for": "Raisins"
-    },
-    {
-      "hybridizes_with": "Vitis labrusca"
-    },
-    {
-      "contains": "Resveratrol"
+      "cultivated_by": "Human"
     }
   ]
 }

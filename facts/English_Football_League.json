@@ -1,7 +1,6 @@
 {
   "entity": "English Football League",
   "properties": {
-    "instance_of": "Professional sports league",
     "country": "England",
     "founded": "1888",
     "governing_body": "Football Association",
@@ -10,38 +9,39 @@
     "name_of_divisions": "Championship, League One, League Two",
     "promotion_relegation": "Yes",
     "broadcast_rights_holder": "Sky Sports",
-    "headquarters": "London"
+    "headquarters": "London",
+    "type": "Professional sports league"
   },
   "relationship": [
     {
-      "member_of": "English football system"
+      "instance_of": "sports league"
+    },
+    {
+      "country": "England"
+    },
+    {
+      "subclass_of": "professional sports league"
+    },
+    {
+      "has_member": "Arsenal F.C."
+    },
+    {
+      "has_member": "Manchester United F.C."
     },
     {
       "governed_by": "Football Association"
     },
     {
-      "includes_league": "Championship"
+      "predecessor_of": "Premier League"
     },
     {
-      "includes_league": "League One"
+      "successor_of": "Football League First Division"
     },
     {
-      "includes_league": "League Two"
+      "has_competition": "Championship"
     },
     {
-      "competes_with": "Premier League"
-    },
-    {
-      "teams_play_in": "England"
-    },
-    {
-      "sponsors": "Sky Bet"
-    },
-    {
-      "influenced": "National League"
-    },
-    {
-      "has_trophy": "EFL Trophy"
+      "has_competition": "League One"
     }
   ]
 }

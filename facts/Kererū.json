@@ -10,38 +10,39 @@
     "diet": "Fruit, seeds",
     "habitat": "Native forests",
     "distribution": "New Zealand",
-    "plumage": "Iridescent green"
+    "plumage": "Iridescent green",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "is_a": "Bird"
+      "instance_of": "bird"
     },
     {
-      "family": "Columbidae"
+      "taxon": "Aves"
     },
     {
-      "native_to": "New Zealand"
+      "has_habitat": "New Zealand"
+    },
+    {
+      "part_of": "New Zealand ecosystem"
+    },
+    {
+      "feeds_on": "Nothofagus"
     },
     {
       "prey_of": "Morepork"
     },
     {
-      "prey_of": "Little Spotted Kiwi"
+      "interacts_with": "Rimu"
     },
     {
-      "threatened_by": "Possum"
+      "controlled_by": "Department of Conservation"
     },
     {
-      "threatened_by": "Stoat"
+      "has_conservation_status": "Endangered"
     },
     {
-      "part_of_ecosystem": "New Zealand temperate forests"
-    },
-    {
-      "feeds_on": "Rimu fruit"
-    },
-    {
-      "related_to": "Wood pigeon"
+      "related_to": "Tui"
     }
   ]
 }

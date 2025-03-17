@@ -10,38 +10,39 @@
     "style": "Lancashire Style",
     "apprenticeship": "John Smith",
     "business_location": "Haslingden, Lancashire",
-    "period": "Victorian era"
+    "period": "Victorian era",
+    "type": "Academic"
   },
   "relationship": [
     {
-      "employer": "John Smith"
+      "instance_of": "human"
     },
     {
-      "located_in": "Lancashire"
+      "occupation": "statistician"
     },
     {
-      "influenced": "Clockmaking"
+      "member_of": "Royal Statistical Society"
     },
     {
-      "product": "Lancashire Clocks"
+      "educated_at": "University of Cambridge"
     },
     {
-      "style_of": "Lancashire Style"
+      "researchArea": "Bayesian statistics"
     },
     {
-      "period_of": "Victorian era"
+      "works_at": "University of Oxford"
     },
     {
-      "region": "Rossendale"
+      "field_of_study": "statistics"
     },
     {
-      "industry": "Clockmaking Industry"
+      "contributor_to": "Bayesian methods"
     },
     {
-      "predecessor": "Early Lancashire Clockmakers"
+      "influenced_by": "Harold Jeffreys"
     },
     {
-      "successor": "Later Clockmakers"
+      "award received": "Guy Medal in Statistics"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "spiritual_beliefs": "Polynesian religion",
     "art_form": "Whakairo (carving), Rapa (weaving)",
     "historical_treaty": "Treaty of Waitangi",
-    "contemporary_issues": "Land rights, Sovereignty"
+    "contemporary_issues": "Land rights, Sovereignty",
+    "type": "Indigenous people"
   },
   "relationship": [
     {
-      "is_a": "Indigenous peoples"
+      "has_ancestor": "Polynesian people"
     },
     {
-      "located_in": "New Zealand"
+      "is_descendant_of": "Hawaiki"
     },
     {
-      "speaks": "Māori language"
+      "has_culture": "Māori culture"
     },
     {
-      "practices": "Māori culture"
+      "has_language": "Te Reo Māori"
     },
     {
-      "signed": "Treaty of Waitangi"
+      "has_traditional_knowledge": "Mātauranga Māori"
     },
     {
-      "related_to": "Iwi"
+      "has_relationship_with": "Whenua"
     },
     {
-      "influenced_by": "Polynesian culture"
+      "has_relationship_with": "Taonga"
     },
     {
-      "has_art": "Whakairo"
+      "has_relationship_with": "Whakapapa"
     },
     {
-      "has_art": "Rapa"
+      "is_associated_with": "Treaty of Waitangi"
     },
     {
-      "advocates_for": "Māori sovereignty"
+      "has_claim_on": "Aotearoa"
     }
   ]
 }

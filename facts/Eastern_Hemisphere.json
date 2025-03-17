@@ -8,9 +8,13 @@
     "longitude": "Varies",
     "geopolitical_region": "Global",
     "climate": "Diverse",
-    "landmass": "Large"
+    "landmass": "Large",
+    "type": "Continent"
   },
   "relationship": [
+    {
+      "part_of": "Earth"
+    },
     {
       "contains": "Asia"
     },
@@ -21,25 +25,22 @@
       "contains": "Europe"
     },
     {
-      "intersects": "Prime Meridian"
+      "borders": "Arctic Ocean"
     },
     {
-      "part_of": "Earth"
+      "borders": "Indian Ocean"
     },
     {
-      "adjacent_to": "Western Hemisphere"
+      "borders": "Atlantic Ocean"
     },
     {
-      "includes": "Indian Ocean"
+      "borders": "Pacific Ocean"
     },
     {
-      "includes": "Pacific Ocean"
+      "influenced_by": "Ancient Civilizations"
     },
     {
-      "historical_civilizations": "Ancient Egypt"
-    },
-    {
-      "historical_civilizations": "Roman Empire"
+      "geographically_adjacent_to": "Western Hemisphere"
     }
   ]
 }

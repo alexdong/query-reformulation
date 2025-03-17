@@ -10,12 +10,10 @@
     "succeeding_period": "Neogene Period",
     "dominant_life": "Early mammals, birds, flowering plants",
     "major_event_1": "K-Pg extinction event",
-    "geologic_scale": "Major division"
+    "geologic_scale": "Major division",
+    "type": "GeologicalPeriod"
   },
   "relationship": [
-    {
-      "part_of": "Cenozoic Era"
-    },
     {
       "preceded_by": "Cretaceous Period"
     },
@@ -23,25 +21,28 @@
       "followed_by": "Neogene Period"
     },
     {
-      "contains": "Paleocene Epoch"
+      "part_of": "Geologic Time Scale"
     },
     {
-      "contains": "Eocene Epoch"
+      "overlaps_with": "Tertiary Period"
     },
     {
-      "contains": "Oligocene Epoch"
+      "characterized_by": "Paleogene Extinction Event"
     },
     {
-      "characterized_by": "Paleogene mammal evolution"
+      "contains_epoch": "Paleocene Epoch"
     },
     {
-      "influenced_by": "Plate tectonics"
+      "contains_epoch": "Eocene Epoch"
     },
     {
-      "climate_change": "Early Paleogene warming"
+      "contains_epoch": "Oligocene Epoch"
     },
     {
-      "fossil_record": "Paleogene fossils"
+      "contains_epoch": "Miocene Epoch"
+    },
+    {
+      "contains_epoch": "Pliocene Epoch"
     }
   ]
 }

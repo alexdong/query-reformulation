@@ -10,38 +10,39 @@
     "largest_city": "Jakarta",
     "continent": "Asia",
     "national_anthem": "Indonesia Raya",
-    "independence_date": "1949"
+    "independence_date": "1949",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Southeast Asia"
+      "located_in": "Asia"
     },
     {
-      "borders": "Timor-Leste"
+      "part_of": "Malay Archipelago"
     },
     {
-      "borders": "Papua New Guinea"
+      "has_capital": "Jakarta"
     },
     {
-      "member_of": "ASEAN"
-    },
-    {
-      "member_of": "United Nations"
-    },
-    {
-      "has_part": "Sumatra"
-    },
-    {
-      "has_part": "Java"
-    },
-    {
-      "has_part": "Kalimantan"
-    },
-    {
-      "has_part": "Sulawesi"
+      "member_of": "Association of Southeast Asian Nations"
     },
     {
       "influenced_by": "Hinduism"
+    },
+    {
+      "influenced_by": "Buddhism"
+    },
+    {
+      "influenced_by": "Islam"
+    },
+    {
+      "has_official_language": "Indonesian language"
+    },
+    {
+      "has_currency": "Indonesian rupiah"
+    },
+    {
+      "former_colony_of": "Netherlands"
     }
   ]
 }

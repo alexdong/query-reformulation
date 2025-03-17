@@ -10,38 +10,39 @@
     "major_theatre": "Central Europe, Italy, North America",
     "involved_dynasties": "Habsburg, Hohenzollern, Bourbon, Savoy",
     "strategic_importance": "Shift in European power dynamics",
-    "related_treaty": "Treaty of Aix-la-Chapelle"
+    "related_treaty": "Treaty of Aix-la-Chapelle",
+    "type": "War"
   },
   "relationship": [
     {
-      "preceded_by": "Great Northern War"
+      "instance_of": "war"
     },
     {
-      "followed_by": "Seven Years' War"
+      "part_of": "Eighteenth-century warfare"
     },
     {
-      "involved_entity": "Maria Theresa"
+      "preceded_by": "War of the Spanish Succession"
     },
     {
-      "involved_entity": "Frederick II of Prussia"
+      "succeeded_by": "Seven Years' War"
     },
     {
-      "involved_entity": "Charles VII, Holy Roman Emperor"
+      "involved_in": "Diplomacy of the War of the Austrian Succession"
     },
     {
-      "involved_entity": "Louis XV of France"
+      "caused_by": "Pragmatic Sanction"
     },
     {
-      "involved_entity": "George II of Great Britain"
+      "participant": "Austria"
     },
     {
-      "territory_disputed": "Silesia"
+      "participant": "Great Britain"
     },
     {
-      "treaty_signed": "Treaty of Aix-la-Chapelle"
+      "participant": "France"
     },
     {
-      "influenced": "Rise of Prussia"
+      "participant": "Prussia"
     }
   ]
 }

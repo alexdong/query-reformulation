@@ -1,7 +1,6 @@
 {
-  "entity": "Ranger (Dungeons & Dragons)",
+  "entity": "Ranger  Dungeons   Dragons ",
   "properties": {
-    "instance_of": "Character class",
     "game": "Dungeons & Dragons",
     "alignment": "Neutral Good",
     "primary_ability": "Wisdom",
@@ -10,38 +9,39 @@
     "hit_dice": "d8",
     "level_range": "1-20",
     "role": "Scout, Tracker",
-    "source": "Player's Handbook"
+    "source": "Player's Handbook",
+    "type": "Character class"
   },
   "relationship": [
     {
-      "subclass_of": "Adventurer"
+      "instance_of": "role"
     },
     {
-      "related_to": "Druid"
+      "part_of": "Dungeons & Dragons"
     },
     {
-      "related_to": "Rogue"
+      "has_characteristic": "combat"
     },
     {
-      "uses_skill": "Survival"
+      "uses_weapon": "longsword"
     },
     {
-      "uses_skill": "Stealth"
+      "skill_proficiencies_include": "stealth"
     },
     {
-      "uses_skill": "Perception"
+      "associated_with_alignment": "lawful good"
     },
     {
-      "uses_ability": "Favored Enemy"
+      "often_found_in": "forest"
     },
     {
-      "uses_ability": "Track"
+      "typically_interacts_with": "Druid"
     },
     {
-      "appears_in_edition": "Advanced Dungeons & Dragons"
+      "subclass_of": "Character class"
     },
     {
-      "appears_in_edition": "Dungeons & Dragons (5th edition)"
+      "defined_in_publication": "Player's Handbook"
     }
   ]
 }

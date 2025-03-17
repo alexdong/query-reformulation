@@ -1,7 +1,6 @@
 {
   "entity": "Conservation",
   "properties": {
-    "instance_of": "Practice",
     "field_of_study": "Environmental science",
     "goal": "Resource protection",
     "focus": "Biodiversity, Ecosystems",
@@ -10,38 +9,39 @@
     "method": "Management, Preservation",
     "origin": "18th Century",
     "key_figure": "John Muir",
-    "discipline": "Ecology"
+    "discipline": "Ecology",
+    "type": "Practice"
   },
   "relationship": [
     {
-      "part_of": "Environmentalism"
+      "instance_of": "environmental_protection"
     },
     {
-      "related_to": "Biodiversity"
+      "part_of": "sustainability"
     },
     {
-      "requires": "Ecosystem management"
+      "has_agent": "environmental_movement"
     },
     {
-      "impacts": "Climate change"
+      "related_to": "biodiversity"
     },
     {
-      "overlaps_with": "Restoration ecology"
+      "aims_to_protect": "ecosystem"
     },
     {
-      "promotes": "Protected areas"
+      "requires": "environmental_policy"
     },
     {
-      "benefits": "Human well-being"
+      "impacts": "natural_resource"
     },
     {
-      "addresses": "Habitat loss"
+      "benefits": "human_wellbeing"
     },
     {
-      "involves": "Resource management"
+      "involves": "protected_area"
     },
     {
-      "supports": "Sustainable development"
+      "supported_by": "conservation_organization"
     }
   ]
 }

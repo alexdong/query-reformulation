@@ -10,38 +10,39 @@
     "area_km2": "1567",
     "nickname": "Melbourne",
     "established": "1835",
-    "currency": "AUD"
+    "currency": "AUD",
+    "type": "City"
   },
   "relationship": [
+    {
+      "located_in": "Victoria (Australian state)"
+    },
     {
       "part_of": "Australia"
     },
     {
-      "located_in": "Port Phillip"
+      "has_population": "Melbourne (population)"
     },
     {
-      "influenced_by": "Gold Rush"
-    },
-    {
-      "has_sport_team": "Melbourne Demons"
-    },
-    {
-      "has_sport_team": "Melbourne City FC"
-    },
-    {
-      "has_sport_team": "Melbourne Storm"
+      "has_mayor": "Sally Capp"
     },
     {
       "has_landmark": "Federation Square"
     },
     {
-      "has_landmark": "Royal Botanic Gardens"
+      "influenced_by": "John Batman"
     },
     {
-      "near_city": "Geelong"
+      "has_economy": "Melbourne (economy)"
     },
     {
-      "has_river": "Yarra River"
+      "has_transportation_system": "Melbourne (transport)"
+    },
+    {
+      "has_sporting_event": "Melbourne Cup"
+    },
+    {
+      "is_capital_of": "Port Phillip (Australian state)"
     }
   ]
 }

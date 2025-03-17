@@ -10,38 +10,39 @@
     "official_languages": "Sinhala, Tamil",
     "independence_date": "1948",
     "government_type": "Parliamentary Republic",
-    "major_religion": "Buddhism"
+    "major_religion": "Buddhism",
+    "type": "Country"
   },
   "relationship": [
     {
-      "located_in": "South Asia"
+      "located_in": "Asia"
     },
     {
-      "borders": "India"
+      "part_of": "Indian Ocean"
     },
     {
-      "island_group": "Indian Ocean"
+      "has_capital": "Sri Jayawardenepura Kotte"
     },
     {
-      "historical_name": "Ceylon"
+      "has_official_language": "Sinhala"
     },
     {
-      "influenced_by": "India"
+      "has_official_language": "Tamil"
     },
     {
-      "colonial_power": "United Kingdom"
+      "influenced_by": "British Empire"
     },
     {
-      "civil_war_with": "Tamil people"
+      "has_currency": "Sri Lankan Rupee"
     },
     {
-      "exports": "Tea"
+      "member_of": "Commonwealth of Nations"
     },
     {
-      "produces": "Rubber"
+      "has_neighbor": "India"
     },
     {
-      "has_landmark": "Sigiriya"
+      "has_historical_event": "Sri Lankan Civil War"
     }
   ]
 }

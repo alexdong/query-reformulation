@@ -10,38 +10,39 @@
     "official_language": "English",
     "mayor": "Lee Atkinson",
     "location": "Australian Capital Territory",
-    "postal_code": "2600"
+    "postal_code": "2600",
+    "type": "City"
   },
   "relationship": [
     {
-      "part_of": "Australian Capital Territory"
+      "located_in": "Australian Capital Territory"
     },
     {
-      "located_in": "Australia"
+      "part_of": "Australia"
     },
     {
-      "planned_by": "Walter Burley Griffin"
+      "capital_of": "Australia"
     },
     {
-      "contains": "Lake Burley Griffin"
+      "designed_by": "Walter Burley Griffin"
     },
     {
-      "has_landmark": "Parliament House"
+      "influenced_by": "Garden City movement"
+    },
+    {
+      "has_part": "Parliament House"
     },
     {
       "has_landmark": "Australian War Memorial"
     },
     {
-      "has_transport": "Canberra Airport"
+      "population_of": "Australian Capital Territory"
     },
     {
-      "neighbor_of": "New South Wales"
+      "governed_by": "Australian Capital Territory"
     },
     {
-      "neighbor_of": "Victoria"
-    },
-    {
-      "influenced_by": "Garden city movement"
+      "near": "Queanbeyan"
     }
   ]
 }

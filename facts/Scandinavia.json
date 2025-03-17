@@ -10,38 +10,39 @@
     "currency": "Various (NOK, SEK, DKK)",
     "culture": "Nordic",
     "geography": "Mountains, forests, coastline",
-    "political_status": "Part of Europe"
+    "political_status": "Part of Europe",
+    "type": "Region"
   },
   "relationship": [
+    {
+      "located_in": "Europe"
+    },
     {
       "part_of": "Northern Europe"
     },
     {
-      "includes": "Norway"
+      "has_country": "Denmark"
     },
     {
-      "includes": "Sweden"
+      "has_country": "Norway"
     },
     {
-      "includes": "Denmark"
+      "has_country": "Sweden"
     },
     {
-      "sometimes_includes": "Finland"
+      "influenced_by": "Germanic peoples"
     },
     {
-      "sometimes_includes": "Iceland"
+      "has_culture": "Scandinavian culture"
     },
     {
-      "influenced": "Nordic Noir"
+      "has_language": "Scandinavian languages"
     },
     {
-      "shares_history_with": "Viking Age"
+      "has_historical_period": "Viking Age"
     },
     {
-      "borders": "Russia, Finland"
-    },
-    {
-      "has_member": "Nordic Council"
+      "borders_country": "Finland"
     }
   ]
 }

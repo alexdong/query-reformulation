@@ -10,38 +10,39 @@
     "typology": "Analytic",
     "status": "Global",
     "influenced_by": "Latin, Germanic",
-    "related_to": "Germanic languages"
+    "related_to": "Germanic languages",
+    "type": "Language"
   },
   "relationship": [
     {
-      "part_of": "Indo-European languages"
+      "partOf": "Indo-European languages"
+    },
+    {
+      "hasVariant": "Old English"
     },
     {
       "influenced": "Shakespeare"
     },
     {
-      "influenced_by": "Old English"
+      "writtenIn": "Latin script"
     },
     {
-      "related_to": "German language"
+      "spokenIn": "United Kingdom"
     },
     {
-      "related_to": "French language"
+      "hasStandard": "Oxford English Dictionary"
     },
     {
-      "written_in": "Literature"
+      "developedFrom": "Proto-Germanic"
     },
     {
-      "spoken_in": "United States"
+      "relatedTo": "French language"
     },
     {
-      "spoken_in": "United Kingdom"
+      "usedIn": "Wikipedia"
     },
     {
-      "has_dialect": "Cockney"
-    },
-    {
-      "has_dialect": "African American Vernacular English"
+      "hasGenre": "English literature"
     }
   ]
 }

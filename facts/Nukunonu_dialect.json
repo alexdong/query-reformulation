@@ -10,38 +10,39 @@
     "writing_system": "Latin script",
     "dialect_of": "Gilbertese",
     "typology": "Agglutinative",
-    "mutual_intelligibility": "Limited with other Gilbertese dialects"
+    "mutual_intelligibility": "Limited with other Gilbertese dialects",
+    "type": "Language"
   },
   "relationship": [
     {
-      "part_of": "Gilbertese language"
+      "part_of": "Nukunonu language"
     },
     {
       "spoken_in": "Nukunonu Atoll"
     },
     {
-      "located_in": "Kiribati"
+      "has_variant": "Nukunonian language"
     },
     {
-      "influenced_by": "Gilbertese language"
+      "related_to": "Tuvaluan language"
     },
     {
-      "related_to": "Gilbertese dialects"
+      "influenced_by": "Proto-Polynesian language"
     },
     {
-      "part_of_family": "Austronesian languages"
+      "has_feature": "phonology"
     },
     {
-      "subgroup_of": "Nuclear Micronesian languages"
+      "has_feature": "grammar"
     },
     {
-      "written_in": "Latin alphabet"
+      "has_feature": "vocabulary"
     },
     {
-      "has_variant": "Local vocabulary"
+      "documented_by": "Linguistic documentation"
     },
     {
-      "studied_by": "Linguists"
+      "studied_in": "Linguistics"
     }
   ]
 }

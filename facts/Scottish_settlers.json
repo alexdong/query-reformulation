@@ -10,17 +10,18 @@
     "religion": "Presbyterianism, Catholicism",
     "economic_activity": "Agriculture, fishing, mining",
     "social_structure": "Clan system influence",
-    "diet": "Oats, potatoes, fish"
+    "diet": "Oats, potatoes, fish",
+    "type": "PopulatedPlace"
   },
   "relationship": [
     {
-      "migration_route": "Atlantic Ocean"
+      "influenced_by": "Scottish Enlightenment"
     },
     {
-      "influenced_culture": "American culture"
+      "migrated_from": "Scotland"
     },
     {
-      "settled_in": "Nova Scotia"
+      "settled_in": "North America"
     },
     {
       "settled_in": "Australia"
@@ -29,19 +30,19 @@
       "settled_in": "New Zealand"
     },
     {
-      "related_to": "Highland Clearances"
+      "part_of": "Diaspora"
     },
     {
-      "influenced": "Celtic music"
+      "influenced": "North American culture"
     },
     {
-      "interacted_with": "Indigenous peoples"
+      "influenced": "Australian culture"
     },
     {
-      "contributed_to": "Canadian Confederation"
+      "influenced": "New Zealand culture"
     },
     {
-      "part_of": "Scottish diaspora"
+      "economic_activity": "Agriculture"
     }
   ]
 }

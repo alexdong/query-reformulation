@@ -10,38 +10,8 @@
     "governed_by": "United States National Park Service",
     "neighboring_park": "Sequoia National Park",
     "climate": "Mediterranean",
-    "designation": "National Park"
+    "designation": "National Park",
+    "type": "NationalPark"
   },
-  "relationship": [
-    {
-      "part_of": "Sierra Nevada"
-    },
-    {
-      "contains": "Kings Canyon"
-    },
-    {
-      "contains": "Cedar Grove"
-    },
-    {
-      "adjacent_to": "Sequoia National Park"
-    },
-    {
-      "managed_by": "National Park Service"
-    },
-    {
-      "located_in": "California"
-    },
-    {
-      "has_feature": "General Grant Tree"
-    },
-    {
-      "has_feature": "Mist Falls"
-    },
-    {
-      "has_species": "Black Bear"
-    },
-    {
-      "has_species": "California Condor"
-    }
-  ]
+  "relationship": []
 }

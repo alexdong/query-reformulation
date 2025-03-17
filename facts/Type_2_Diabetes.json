@@ -1,7 +1,6 @@
 {
   "entity": "Type 2 Diabetes",
   "properties": {
-    "instance_of": "Disease",
     "icd10_code": "E11",
     "affected_system": "Endocrine System",
     "cause": "Insulin Resistance",
@@ -10,38 +9,39 @@
     "complications": "Cardiovascular Disease, Neuropathy",
     "diagnosis_method": "Blood Glucose Tests",
     "treatment": "Lifestyle Changes, Medication",
-    "mortality_rate": "Elevated"
+    "mortality_rate": "Elevated",
+    "type": "Disease"
   },
   "relationship": [
     {
-      "prevents": "Cardiovascular Disease"
+      "has_cause": "Obesity"
     },
     {
-      "causes": "Hyperglycemia"
+      "has_symptom": "Hyperglycemia"
     },
     {
-      "treated_with": "Metformin"
+      "treated_by": "Metformin"
     },
     {
-      "associated_with": "Obesity"
+      "associated_with_disease": "Cardiovascular disease"
     },
     {
-      "managed_by": "Diet"
+      "risk_factor": "Sedentary lifestyle"
     },
     {
-      "managed_by": "Exercise"
-    },
-    {
-      "complicates": "Neuropathy"
+      "managed_by": "Diabetes management"
     },
     {
       "affects": "Pancreas"
     },
     {
-      "related_to": "Insulin"
+      "associated_with_condition": "Insulin resistance"
     },
     {
-      "part_of": "Diabetes Mellitus"
+      "prevented_by": "Healthy diet"
+    },
+    {
+      "classified_as": "Metabolic disorder"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "drainage_area": "4,065 km² (1,570 sq mi)",
     "average_flow": "350 m³/s (12,000 cu ft/s)",
     "name_origin": "Māori language",
-    "geological_era": "Quaternary"
+    "geological_era": "Quaternary",
+    "type": "River"
   },
   "relationship": [
     {
-      "flows_into": "Tasman Sea"
+      "flows_into": "Pacific Ocean"
     },
     {
-      "source_location": "Southern Alps"
+      "located_in_administrative_division": "North Island"
     },
     {
-      "tributary_of": "West Coast Region"
+      "flows_through_administrative_division": "Taupō District"
     },
     {
-      "passes_through": "Westland Tai Poutini National Park"
+      "tributary_of": "Waikato River"
     },
     {
-      "region": "West Coast Region"
+      "source_of": "Waiōtaupō Lake"
     },
     {
-      "country": "New Zealand"
+      "has_associated_settlement": "Waiōhau"
     },
     {
-      "part_of": "Grey District"
+      "has_associated_region": "Bay of Plenty Region"
     },
     {
-      "flows_past": "Hokitika"
+      "part_of_river_system": "Waikato River catchment"
     },
     {
-      "has_tributary": "Waiho River"
+      "has_associated_ecosystem": "Freshwater ecosystem"
     },
     {
-      "has_tributary": "Taramakau River"
+      "has_associated_geological_feature": "Volcanic plateau"
     }
   ]
 }

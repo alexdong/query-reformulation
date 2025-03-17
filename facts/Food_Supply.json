@@ -10,38 +10,39 @@
     "component": "Production, Distribution, Consumption",
     "risk": "Famine, Malnutrition, Food Waste",
     "trend": "Increasing demand, Variable availability",
-    "importance": "Human survival, Wellbeing"
+    "importance": "Human survival, Wellbeing",
+    "type": "Commodity"
   },
   "relationship": [
     {
-      "affected_by": "Climate Change"
+      "instance_of": "agricultural_production"
     },
     {
-      "supports": "Agriculture"
+      "part_of": "economy"
     },
     {
-      "impacts": "Food Security"
+      "affected_by": "climate"
     },
     {
-      "influenced_by": "Population Growth"
+      "influenced_by": "agricultural_policy"
     },
     {
-      "requires": "Transportation"
+      "requires": "farmland"
     },
     {
-      "linked_to": "Nutrition"
+      "depends_on": "transportation"
     },
     {
-      "affected_by": "Economic Recession"
+      "impacts": "human_nutrition"
     },
     {
-      "supports": "Livestock Farming"
+      "related_to": "food_security"
     },
     {
-      "impacts": "Malnutrition"
+      "affected_by": "natural_disaster"
     },
     {
-      "related_to": "Sustainable Development"
+      "supports": "population"
     }
   ]
 }

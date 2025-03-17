@@ -10,38 +10,39 @@
     "population_growth": "Rapid",
     "economic_system": "Industrial Capitalism",
     "political_climate": "Rise of Nation-States",
-    "artistic_movement": "Impressionism, Art Nouveau"
+    "artistic_movement": "Impressionism, Art Nouveau",
+    "type": "TimePeriod"
   },
   "relationship": [
+    {
+      "preceded_by": "Early 19th Century"
+    },
+    {
+      "followed_by": "Early 20th Century"
+    },
     {
       "part_of": "19th Century"
     },
     {
-      "influenced": "Early 20th Century"
+      "overlaps_with": "Victorian Era"
     },
     {
       "witnessed": "Second Industrial Revolution"
     },
     {
-      "involved": "Scramble for Africa"
-    },
-    {
-      "involved": "Berlin Conference"
-    },
-    {
-      "involved": "Meiji Restoration"
-    },
-    {
-      "involved": "Franco-Prussian War"
-    },
-    {
-      "involved": "American Civil War"
+      "influenced_by": "Romanticism"
     },
     {
       "influenced": "Modernism"
     },
     {
-      "involved": "Rise of Socialism"
+      "associated_with": "Imperialism"
+    },
+    {
+      "characterized_by": "Scientific Revolution"
+    },
+    {
+      "affected_by": "Rise of Nationalism"
     }
   ]
 }

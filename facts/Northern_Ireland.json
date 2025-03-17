@@ -1,7 +1,6 @@
 {
   "entity": "Northern Ireland",
   "properties": {
-    "instance_of": "Country",
     "capital": "Belfast",
     "official_language": "English",
     "population_2021": "1,903,166",
@@ -10,38 +9,39 @@
     "part_of": "United Kingdom",
     "time_zone": "GMT+1",
     "major_religion": "Protestantism",
-    "geography": "Coastal, hilly"
+    "geography": "Coastal, hilly",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "United Kingdom"
+      "located_in": "United Kingdom"
     },
     {
-      "borders": "Republic of Ireland"
+      "part_of": "British Isles"
     },
     {
-      "capital_city": "Belfast"
+      "has_capital": "Belfast"
     },
     {
-      "historical_conflict": "The Troubles"
+      "bordered_by": "Republic of Ireland"
     },
     {
-      "influenced_by": "Celtic culture"
+      "historical_conflict_with": "Republic of Ireland"
     },
     {
-      "member_of": "Council of Europe"
+      "influenced_by": "Irish culture"
     },
     {
-      "has_region": "County Antrim"
+      "influenced_by": "Scottish culture"
     },
     {
-      "has_region": "County Down"
+      "created_by": "Kingdom of Ireland"
     },
     {
-      "has_region": "County Londonderry"
+      "historical_part_of": "Pale (Ireland)"
     },
     {
-      "has_region": "County Tyrone"
+      "has_government": "Northern Ireland Executive"
     }
   ]
 }

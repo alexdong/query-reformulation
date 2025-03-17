@@ -1,7 +1,6 @@
 {
   "entity": "New Zealand Land Wars",
   "properties": {
-    "instance_of": "Conflict",
     "location": "New Zealand",
     "time_period": "1845-1872",
     "cause": "Land disputes",
@@ -10,38 +9,39 @@
     "legal_basis": "Treaty of Waitangi",
     "primary_language": "Māori, English",
     "total_casualties": "Thousands",
-    "historical_significance": "Impacted Māori sovereignty"
+    "historical_significance": "Impacted Māori sovereignty",
+    "type": "Conflict"
   },
   "relationship": [
     {
+      "part_of": "New Zealand History"
+    },
+    {
+      "caused_by": "British Colonialism"
+    },
+    {
+      "opposed_by": "Māori People"
+    },
+    {
+      "involved_in": "Treaty of Waitangi"
+    },
+    {
+      "resulted_in": "Confiscation of Māori Land"
+    },
+    {
+      "influenced_by": "British Imperialism"
+    },
+    {
+      "affected_by": "Ngāi Tahu"
+    },
+    {
+      "affected_by": "Tūhoe"
+    },
+    {
+      "involved_in": "New Zealand Government"
+    },
+    {
       "preceded_by": "Musket Wars"
-    },
-    {
-      "caused_by": "Treaty of Waitangi"
-    },
-    {
-      "involved": "Hongi Hika"
-    },
-    {
-      "involved": "William Hobson"
-    },
-    {
-      "involved": "Te Rangihiātoa"
-    },
-    {
-      "involved": "Pākehā"
-    },
-    {
-      "resulted_in": "Waitangi Tribunal"
-    },
-    {
-      "influenced": "Māori Renaissance"
-    },
-    {
-      "part_of": "New Zealand history"
-    },
-    {
-      "related_to": "Treaty of Waitangi claims"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "historical_influence": "Roman, Byzantine, Ottoman, Soviet",
     "economic_status": "Transitioning, varying levels of development",
     "political_system": "Varied: democracies, republics, autocracies",
-    "cultural_heritage": "Rich, diverse traditions"
+    "cultural_heritage": "Rich, diverse traditions",
+    "type": "Continent"
   },
   "relationship": [
+    {
+      "located_in": "Eurasia"
+    },
     {
       "part_of": "Europe"
     },
     {
-      "borders": "Western Europe"
+      "influenced_by": "Soviet Union"
     },
     {
-      "influenced_by": "Byzantine Empire"
+      "has_culture": "Slavic culture"
     },
     {
-      "influenced": "Soviet Union"
+      "borders": "Russia"
     },
     {
-      "contains": "Poland"
+      "has_historical_event": "Cold War"
     },
     {
-      "contains": "Romania"
+      "has_language": "Slavic languages"
     },
     {
-      "contains": "Ukraine"
+      "member_of": "Council of Europe"
     },
     {
-      "shares_border_with": "Russia"
+      "has_geopolitical_issue": "Russian influence"
     },
     {
-      "historical_event": "Cold War"
-    },
-    {
-      "economic_partner": "European Union"
+      "has_economic_relationship": "European Union"
     }
   ]
 }

@@ -10,11 +10,18 @@
     "nickname": "The Golden State",
     "official_language": "English",
     "time_zone": "Pacific Time",
-    "governor": "Gavin Newsom"
+    "governor": "Gavin Newsom",
+    "type": "AdministrativeRegion"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States of America"
+    },
+    {
+      "part_of": "North America"
+    },
+    {
+      "has_capital": "Sacramento"
     },
     {
       "borders": "Oregon"
@@ -29,19 +36,13 @@
       "borders": "Mexico"
     },
     {
-      "contains": "Sierra Nevada"
+      "has_governor": "Gavin Newsom"
     },
     {
-      "contains": "Death Valley"
+      "has_economy": "California economy"
     },
     {
-      "contains": "San Francisco"
-    },
-    {
-      "industry": "Agriculture"
-    },
-    {
-      "industry": "Technology"
+      "has_major_river": "Colorado River"
     }
   ]
 }

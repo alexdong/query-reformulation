@@ -10,38 +10,39 @@
     "lasting_legacy": "Modern Thought",
     "intellectual_climate": "Optimism & Progress",
     "decline": "Early 19th Century",
-    "related_movement": "Age of Reason"
+    "related_movement": "Age of Reason",
+    "type": "IntellectualMovement"
   },
   "relationship": [
     {
-      "influenced": "American Revolution"
+      "influenced": "Age of Reason"
+    },
+    {
+      "part_of": "Scottish history"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "preceded_by": "Early Scottish Enlightenment"
     },
     {
       "influenced": "French Revolution"
     },
     {
-      "member_of": "David Hume"
+      "influenced": "American Revolution"
     },
     {
-      "member_of": "Adam Smith"
+      "associated_with": "David Hume"
     },
     {
-      "member_of": "Adam Ferguson"
+      "associated_with": "Adam Smith"
     },
     {
-      "member_of": "Francis Hutcheson"
+      "associated_with": "Adam Ferguson"
     },
     {
-      "member_of": "Joseph Black"
-    },
-    {
-      "influenced": "Political Economy"
-    },
-    {
-      "influenced": "Modern Science"
-    },
-    {
-      "related_to": "University of Edinburgh"
+      "influenced": "Utilitarianism"
     }
   ]
 }

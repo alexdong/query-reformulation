@@ -10,38 +10,39 @@
     "ceo": "Ryan Both",
     "business_model": "Charter",
     "status": "Operating",
-    "country_of_origin": "Australia"
+    "country_of_origin": "Australia",
+    "type": "Airline"
   },
   "relationship": [
     {
-      "parent_company": "Lex Air"
+      "instance_of": "airline"
     },
     {
-      "aircraft_manufacturer": "Boeing"
+      "parent_organization": "Originator Group"
     },
     {
-      "hub_airport": "Melbourne Airport"
+      "headquarters_location": "New Zealand"
     },
     {
-      "service_area": "Australia"
+      "operates_in": "New Zealand"
     },
     {
-      "service_type": "Charter flights"
+      "subsidiary_of": "Originator Group"
     },
     {
-      "regulatory_body": "Civil Aviation Safety Authority"
+      "fleet_includes": "Bombardier Dash 8"
     },
     {
-      "competitor": "Jetstar"
+      "service_area": "New Zealand"
     },
     {
-      "competitor": "Qantas"
+      "has_route": "Auckland"
     },
     {
-      "aircraft_model": "Boeing 737-800"
+      "has_route": "Queenstown"
     },
     {
-      "employee_count": "Approximately 100"
+      "employee_count": "150"
     }
   ]
 }

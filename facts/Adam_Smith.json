@@ -10,38 +10,39 @@
     "academic_advisor": "David Hume",
     "field": "Economics",
     "philosophical_stance": "Classical Liberalism",
-    "known_for": "The Wealth of Nations"
+    "known_for": "The Wealth of Nations",
+    "type": "Philosopher"
   },
   "relationship": [
     {
       "influenced": "Classical economics"
     },
     {
-      "influenced": "Free market"
+      "educated_at": "University of Glasgow"
     },
     {
-      "educated_at": "Glasgow University"
+      "member_of": "Scottish Enlightenment"
     },
     {
-      "taught_at": "Glasgow University"
+      "authored": "The Wealth of Nations"
     },
     {
-      "correspondent_of": "David Hume"
+      "influenced": "David Ricardo"
     },
     {
       "influenced": "John Stuart Mill"
     },
     {
-      "influenced": "Karl Marx"
+      "born_in": "Kirkcaldy"
     },
     {
-      "work_published": "The Wealth of Nations"
+      "nationality": "Scottish"
     },
     {
-      "work_published": "The Theory of Moral Sentiments"
+      "occupation": "Moral philosopher"
     },
     {
-      "member_of": "Scottish Enlightenment"
+      "influenced": "Free market"
     }
   ]
 }

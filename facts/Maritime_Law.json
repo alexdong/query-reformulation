@@ -10,38 +10,39 @@
     "jurisdiction": "Varies by flag state & location",
     "key_concepts": "Collision, Salvage, Maritime Liens",
     "application": "Shipping contracts, cargo claims, ship arrests",
-    "development": "Evolved through custom and treaties"
+    "development": "Evolved through custom and treaties",
+    "type": "LegalSystem"
   },
   "relationship": [
     {
-      "part_of": "Law"
+      "instance_of": "Legal system"
     },
     {
-      "related_to": "Admiralty Law"
+      "subclass_of": "Law"
     },
     {
-      "governed_by": "United Nations Convention on the Law of the Sea"
+      "related_to": "Shipping"
     },
     {
-      "influences": "International Trade"
+      "related_to": "International trade"
     },
     {
-      "deals_with": "Ship"
+      "governs": "Seafaring"
     },
     {
-      "deals_with": "Cargo"
+      "deals_with": "Marine insurance"
     },
     {
-      "regulates": "Maritime Claims"
+      "regulates": "Maritime transport"
     },
     {
-      "impacts": "Shipping Industry"
+      "deals_with": "Salvage"
     },
     {
-      "related_to": "Salvage"
+      "deals_with": "Maritime liens"
     },
     {
-      "related_to": "Marine Insurance"
+      "influenced_by": "International conventions"
     }
   ]
 }

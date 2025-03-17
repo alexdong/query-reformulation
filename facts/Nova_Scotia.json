@@ -1,7 +1,6 @@
 {
   "entity": "Nova Scotia",
   "properties": {
-    "instance_of": "Province",
     "country": "Canada",
     "capital": "Halifax",
     "population_2021": "1000000",
@@ -10,38 +9,39 @@
     "time_zone": "AST",
     "currency": "CAD",
     "established": "1784",
-    "largest_city": "Halifax"
+    "largest_city": "Halifax",
+    "type": "Province"
   },
   "relationship": [
     {
-      "part_of": "Canada"
+      "located_in": "Canada"
     },
     {
-      "located_in": "Atlantic Canada"
+      "part_of": "Atlantic Canada"
     },
     {
-      "border_country": "United States"
+      "has_province_capital": "Halifax"
     },
     {
-      "has_capital": "Halifax"
+      "borders_on": "New Brunswick"
     },
     {
-      "contains": "Halifax Regional Municipality"
+      "has_official_language": "English language"
     },
     {
-      "contains": "Cape Breton Island"
+      "has_official_language": "French language"
     },
     {
-      "has_industry": "Fishing"
+      "has_historical_relationship": "Mi'kmaq people"
     },
     {
-      "has_industry": "Tourism"
+      "has_historical_relationship": "Acadian people"
     },
     {
-      "has_landmark": "Peggy's Cove"
+      "has_industry": "Fishing industry"
     },
     {
-      "influenced_by": "Mi'kmaq people"
+      "has_geographical_feature": "Atlantic Ocean"
     }
   ]
 }

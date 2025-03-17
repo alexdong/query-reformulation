@@ -10,38 +10,39 @@
     "biodiversity": "Low, specialized organisms",
     "oxygen_levels": "Variable, often low",
     "discovery_date": "20th century",
-    "exploration_challenges": "Extreme pressure, darkness"
+    "exploration_challenges": "Extreme pressure, darkness",
+    "type": "Ocean"
   },
   "relationship": [
     {
       "part_of": "Ocean"
     },
     {
-      "located_in": "Pacific Ocean"
-    },
-    {
-      "located_in": "Atlantic Ocean"
-    },
-    {
-      "located_in": "Indian Ocean"
+      "located_in": "Deep Sea"
     },
     {
       "adjacent_to": "Abyssal Zone"
     },
     {
-      "contains": "Hadal Trench"
+      "contains": "Hydrothermal Vents"
     },
     {
-      "inhabited_by": "Amphipoda"
+      "inhabited_by": "Hadalpelagic Zone Fauna"
     },
     {
-      "inhabited_by": "Snailfish"
+      "characterized_by": "Extreme Pressure"
     },
     {
-      "studied_by": "Oceanography"
+      "characterized_by": "Low Temperature"
     },
     {
-      "research_method": "Remotely Operated Vehicle"
+      "influenced_by": "Ocean Currents"
+    },
+    {
+      "studied_by": "Marine Biology"
+    },
+    {
+      "related_to": "Deep-Sea Exploration"
     }
   ]
 }

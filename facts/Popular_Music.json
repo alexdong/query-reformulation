@@ -1,7 +1,6 @@
 {
   "entity": "Popular Music",
   "properties": {
-    "instance_of": "Music genre",
     "definition": "Music enjoyed by a large audience",
     "origin": "20th Century",
     "characteristics": "Catchy melodies, simple structures",
@@ -10,38 +9,39 @@
     "style": "Diverse, evolving",
     "influence": "Social trends, technology",
     "format": "Various (recordings, live performance)",
-    "audience": "Broad demographic"
+    "audience": "Broad demographic",
+    "type": "Music genre"
   },
   "relationship": [
     {
-      "subgenre_of": "Music"
+      "instance_of": "music genre"
     },
     {
-      "influenced_by": "Tin Pan Alley"
+      "subclass_of": "music"
     },
     {
-      "influenced": "Hip Hop"
+      "influenced_by": "Blues"
     },
     {
-      "related_to": "Billboard Charts"
+      "influenced_by": "Jazz"
     },
     {
-      "performed_by": "Pop Stars"
+      "has_genre": "Pop music"
     },
     {
-      "promoted_by": "Record Labels"
+      "has_genre": "Rock music"
     },
     {
-      "associated_with": "Radio"
+      "created_by": "Musicians"
     },
     {
-      "impacts": "Culture"
+      "has_characteristic": "Rhythm"
     },
     {
-      "includes": "Pop Music"
+      "has_characteristic": "Melody"
     },
     {
-      "includes": "Rock Music"
+      "related_to": "Record industry"
     }
   ]
 }

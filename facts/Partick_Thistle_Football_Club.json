@@ -1,7 +1,6 @@
 {
   "entity": "Partick Thistle Football Club",
   "properties": {
-    "instance_of": "Football club",
     "founded": "1882",
     "location": "Glasgow",
     "country": "Scotland",
@@ -10,38 +9,39 @@
     "home_stadium": "Firhill Stadium",
     "colours": "Red and White",
     "owner": "David Dobbins",
-    "manager": "Kris Doolan"
+    "manager": "Kris Doolan",
+    "type": "Football club"
   },
   "relationship": [
     {
-      "plays_in": "Scottish football"
+      "instance_of": "football club"
     },
     {
-      "located_in": "Glasgow City"
+      "located_in": "Glasgow"
+    },
+    {
+      "country_of_origin": "Scotland"
     },
     {
       "member_of": "Scottish Professional Football League"
     },
     {
-      "rival": "Queen's Park"
+      "plays_in": "Scottish Premiership"
     },
     {
-      "plays_at": "Firhill Stadium"
+      "founded_by": "local residents"
     },
     {
-      "competed_in": "Scottish Cup"
+      "has_stadium": "Firhill Stadium"
     },
     {
-      "competed_in": "Scottish League Cup"
+      "has_team_member": "Scott Robertson (footballer)"
     },
     {
-      "former_player": "Allan McGregor"
+      "has_sponsor": "William Hill"
     },
     {
-      "former_player": "Chris Erskine"
-    },
-    {
-      "successor_of": "Vale of Leven"
+      "rival_of": "Celtic FC"
     }
   ]
 }

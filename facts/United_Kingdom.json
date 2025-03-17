@@ -10,38 +10,39 @@
     "prime_minister": "Rishi Sunak",
     "largest_city": "London",
     "GDP_nominal": "$3.33 trillion",
-    "member_of": "Commonwealth"
+    "member_of": "Commonwealth",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Europe"
+      "located_in": "Europe"
+    },
+    {
+      "part_of": "British Isles"
+    },
+    {
+      "has_capital": "London"
+    },
+    {
+      "member_of": "Commonwealth of Nations"
+    },
+    {
+      "member_of": "United Nations"
+    },
+    {
+      "influenced_by": "Roman Empire"
+    },
+    {
+      "has_monarch": "Charles III"
+    },
+    {
+      "has_government": "Parliament of the United Kingdom"
     },
     {
       "borders": "Ireland"
     },
     {
-      "influenced": "United States"
-    },
-    {
-      "member_of": "G7"
-    },
-    {
-      "has_part": "England"
-    },
-    {
-      "has_part": "Scotland"
-    },
-    {
-      "has_part": "Wales"
-    },
-    {
-      "has_part": "Northern Ireland"
-    },
-    {
-      "historical_event": "Industrial Revolution"
-    },
-    {
-      "monarch": "Elizabeth II"
+      "historical_part_of": "United Kingdom of Great Britain"
     }
   ]
 }

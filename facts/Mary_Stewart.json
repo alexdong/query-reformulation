@@ -10,38 +10,39 @@
     "literary_movement": "Romanticism",
     "pen_name": "Camille Jackson",
     "awards": "British Fantasy Award",
-    "spouse": "Henry Stewart"
+    "spouse": "Henry Stewart",
+    "type": "Author"
   },
   "relationship": [
     {
-      "influenced": "Romantic suspense genre"
+      "instance_of": "writer"
     },
     {
-      "author_of": "Nine Lives"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "author_of": "My Brother Michael"
+      "publication_subject": "historical fiction"
     },
     {
-      "author_of": "The Crystal Cave"
+      "work_written_by": "Nine Healthy Ghosts"
     },
     {
-      "author_of": "The Merlin Trilogy"
+      "work_written_by": "Merry Go Round in Vienna"
     },
     {
-      "influenced": "Diana Gabaldon"
+      "award_received": "Whitbread Novel Award"
     },
     {
-      "influenced": "Elizabeth Chadwick"
+      "influenced_by": "Agatha Christie"
     },
     {
-      "genre_includes": "Arthurian romance"
+      "genre": "romantic suspense"
     },
     {
-      "genre_includes": "Spy novel"
+      "literary_movement": "British New Wave"
     },
     {
-      "member_of": "Romantic Novelists' Association"
+      "family_member": "Charles Stewart (father)"
     }
   ]
 }

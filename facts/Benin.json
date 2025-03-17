@@ -10,23 +10,21 @@
     "government_type": "Presidential republic",
     "independence_date": "August 1, 1960",
     "largest_city": "Cotonou",
-    "national_dish": "Akassa"
+    "national_dish": "Akassa",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Africa"
+      "located_in": "Africa"
     },
     {
-      "borders": "Nigeria"
+      "part_of": "West Africa"
     },
     {
-      "borders": "Togo"
+      "has_capital": "Porto-Novo"
     },
     {
-      "borders": "Burkina Faso"
-    },
-    {
-      "borders": "Niger"
+      "has_official_language": "French"
     },
     {
       "member_of": "African Union"
@@ -35,13 +33,16 @@
       "member_of": "United Nations"
     },
     {
-      "former_name": "Dahomey"
+      "has_neighbor": "Nigeria"
     },
     {
-      "influenced_by": "French colonial empire"
+      "has_neighbor": "Togo"
     },
     {
-      "located_near": "Gulf of Guinea"
+      "ruled_by": "Alphonse Dinh-Barnabé"
+    },
+    {
+      "historical_part_of": "Dahomey"
     }
   ]
 }

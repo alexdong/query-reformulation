@@ -1,7 +1,6 @@
 {
   "entity": "Statistics",
   "properties": {
-    "instance_of": "Mathematical discipline",
     "field_of_study": "Data Science",
     "related_to": "Probability theory",
     "application": "Data analysis",
@@ -10,38 +9,39 @@
     "key_concept": "Statistical inference",
     "methodology": "Hypothesis testing",
     "tool": "Statistical software",
-    "historical_origin": "18th century"
+    "historical_origin": "18th century",
+    "type": "Mathematical discipline"
   },
   "relationship": [
     {
-      "subfield_of": "Mathematics"
+      "instance_of": "mathematical_science"
     },
     {
-      "related_to": "Probability theory"
+      "subclass_of": "mathematics"
     },
     {
-      "uses": "Regression analysis"
+      "used_in": "data_analysis"
     },
     {
-      "employs": "Descriptive statistics"
+      "used_in": "machine_learning"
     },
     {
-      "requires": "Data collection"
+      "used_in": "scientific_research"
     },
     {
-      "influences": "Machine learning"
+      "has_property": "probability_distribution"
     },
     {
-      "application_in": "Social sciences"
+      "has_property": "statistical_inference"
     },
     {
-      "application_in": "Natural sciences"
+      "developed_by": "Karl_Pearson"
     },
     {
-      "pioneered_by": "Karl Pearson"
+      "related_to": "hypothesis_testing"
     },
     {
-      "related_concept": "Statistical significance"
+      "used_for": "data_visualization"
     }
   ]
 }

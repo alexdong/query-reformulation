@@ -10,38 +10,39 @@
     "aircraft_types": "Helicopters, Fixed-wing aircraft",
     "specialization": "Southern Alps, Aoraki/Mount Cook",
     "safety_rating": "High",
-    "website": "www.mtcooktourism.co.nz"
+    "website": "www.mtcooktourism.co.nz",
+    "type": "TourismCompany"
   },
   "relationship": [
     {
-      "parent_company": "Air New Zealand"
+      "instance_of": "tourism company"
     },
     {
-      "operates_in": "Aoraki/Mount Cook National Park"
+      "located_in": "South Island (island)"
     },
     {
-      "provides_service_to": "Tourists"
+      "operates_in": "New Zealand"
     },
     {
-      "flies_over": "Southern Alps"
+      "provides_service": "guided tour"
     },
     {
-      "lands_on": "Tasman Glacier"
+      "employs": "Mount Cook Guiding Company"
     },
     {
-      "employs": "Pilots"
+      "offers": "helicopter tour"
     },
     {
-      "uses_aircraft": "Helicopter"
+      "provides_transport": "coach tour"
     },
     {
-      "provides_view_of": "Aoraki/Mount Cook"
+      "serves": "tourist"
     },
     {
-      "competitor_of": "Over The Top Helicopters"
+      "has_product": "ski tour"
     },
     {
-      "related_to": "New Zealand tourism"
+      "related_to": "Aoraki/Mount Cook (mountain)"
     }
   ]
 }

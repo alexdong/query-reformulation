@@ -10,38 +10,39 @@
     "longest_river": "Volga",
     "currency": "Euro (and others)",
     "geopolitical_status": "Multiple countries",
-    "climate": "Varied"
+    "climate": "Varied",
+    "type": "Continent"
   },
   "relationship": [
     {
-      "part_of": "Eurasia"
+      "part_of": "World"
     },
     {
-      "borders": "Asia"
+      "located_in": "Eurasia"
     },
     {
-      "located_in": "Northern Hemisphere"
-    },
-    {
-      "contains": "Germany"
-    },
-    {
-      "contains": "France"
-    },
-    {
-      "contains": "Russia"
+      "has_member_state": "France"
     },
     {
       "influenced_by": "Roman Empire"
     },
     {
-      "influenced_by": "Greek Civilization"
+      "has_geographic_feature": "Mount Everest"
     },
     {
-      "member_of": "Council of Europe"
+      "has_economic_union": "European Union"
     },
     {
-      "has_region": "Scandinavia"
+      "has_historical_event": "World War II"
+    },
+    {
+      "borders": "Asia"
+    },
+    {
+      "has_cultural_region": "Mediterranean"
+    },
+    {
+      "has_river": "Danube"
     }
   ]
 }

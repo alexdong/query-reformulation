@@ -10,38 +10,39 @@
     "benefit_to_community": "Empowerment, resource access",
     "key_element": "Trust",
     "stakeholders": "Residents, organizations, government",
-    "outcome": "Positive social impact"
+    "outcome": "Positive social impact",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "part_of": "Public Relations"
+      "hasTopic": "Social Impact"
     },
     {
-      "related_to": "Social Impact"
+      "isA": "Stakeholder Engagement"
+    },
+    {
+      "partOf": "Organizational Strategy"
+    },
+    {
+      "resultsIn": "Community Development"
     },
     {
       "requires": "Communication"
     },
     {
-      "supports": "Citizen Participation"
+      "involves": "Volunteers"
     },
     {
-      "overlaps_with": "Community Development"
+      "benefits": "Community"
     },
     {
-      "involves": "Stakeholder Management"
+      "facilitatedBy": "Non-governmental Organization"
     },
     {
-      "promotes": "Social Justice"
+      "measuredBy": "Community Satisfaction"
     },
     {
-      "linked_to": "Volunteerism"
-    },
-    {
-      "facilitated_by": "Non-governmental organizations"
-    },
-    {
-      "impacts": "Quality of Life"
+      "supports": "Public Relations"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "religion": "Roman Catholicism",
     "height": "1.83 m",
     "vice_president": "Kamala Harris",
-    "term_start": "2021-01-20"
+    "term_start": "2021-01-20",
+    "type": "PoliticalPerson"
   },
   "relationship": [
     {
-      "predecessor": "Donald Trump"
+      "instance_of": "politician"
+    },
+    {
+      "country_of_citizenship": "United States of America"
     },
     {
       "member_of": "Democratic Party"
     },
     {
-      "attended": "University of Delaware"
+      "office": "President of the United States"
     },
     {
-      "attended": "Syracuse University"
+      "vice_president": "Kamala Harris"
     },
     {
-      "married_to": "Jill Biden"
+      "spouse": "Jill Biden"
     },
     {
-      "senator_for": "Delaware"
+      "child": "Hunter Biden"
     },
     {
-      "signature_legislation": "American Rescue Plan Act"
+      "alma_mater": "University of Delaware"
     },
     {
-      "foreign_policy_focus": "Ukraine"
+      "predecessor": "Donald Trump"
     },
     {
-      "appointed": "Pete Buttigieg"
-    },
-    {
-      "member_of": "Biden family"
+      "member_of_assembly": "Delaware General Assembly"
     }
   ]
 }

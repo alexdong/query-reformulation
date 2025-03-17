@@ -1,7 +1,6 @@
 {
   "entity": "Derek Caygill",
   "properties": {
-    "instance_of": "British sculptor",
     "birth_date": "1935-08-18",
     "place_of_birth": "Bradford",
     "nationality": "British",
@@ -10,38 +9,39 @@
     "style": "Figurative",
     "known_for": "Public sculptures",
     "influenced_by": "Henry Moore",
-    "death_date": "2023-03-18"
+    "death_date": "2023-03-18",
+    "type": "British sculptor"
   },
   "relationship": [
     {
-      "influenced": "Contemporary sculpture"
+      "instance_of": "human"
     },
     {
-      "student_at": "Leeds College of Art"
+      "occupation": "architect"
     },
     {
-      "work_located_in": "Bradford"
+      "employed_by": "Foster + Partners"
     },
     {
-      "work_located_in": "London"
+      "educated_at": "University of Cape Town"
     },
     {
-      "influenced_by": "Henry Moore"
+      "country_of_citizenship": "South Africa"
     },
     {
-      "style_influenced": "Modernism"
+      "designed": "Commerzbank Tower"
     },
     {
-      "member_of": "Royal Academy"
+      "designed": "Reichstag Building (modernization)"
     },
     {
-      "exhibited_at": "Tate Britain"
+      "contributor_to": "Foster + Partners projects"
     },
     {
-      "award_received": "Royal Society of British Sculptors"
+      "member_of": "Royal Institute of British Architects"
     },
     {
-      "work_depicts": "Human figure"
+      "award_received": "RIBA Award"
     }
   ]
 }

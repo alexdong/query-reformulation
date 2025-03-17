@@ -10,38 +10,39 @@
     "major_city": "Christchurch",
     "geological_era": "Tertiary Period",
     "climate": "Temperate",
-    "indigenous_name": "Te Waipounamu"
+    "indigenous_name": "Te Waipounamu",
+    "type": "Island"
   },
   "relationship": [
     {
-      "part_of": "New Zealand"
+      "located_in": "New Zealand"
     },
     {
-      "located_in": "Pacific Ocean"
+      "part_of": "Pacific Ocean"
     },
     {
-      "adjacent_to": "Rakiura"
+      "has_traditional_owner": "Ngāi Tahu"
     },
     {
-      "contains": "Aoraki / Mount Cook"
+      "named_after": "Te-Wai-Pounamu"
     },
     {
-      "contains": "Fiordland National Park"
+      "geopolitical_entity": "Southland Region"
     },
     {
-      "contains": "Westland Tai Poutini National Park"
+      "geopolitical_entity": "West Coast Region"
     },
     {
-      "has_settlement": "Christchurch"
+      "geopolitical_entity": "Canterbury Region"
     },
     {
-      "has_settlement": "Dunedin"
+      "geopolitical_entity": "Otago Region"
     },
     {
-      "influenced_by": "Māori culture"
+      "contains_river": "Hokitika River"
     },
     {
-      "resource": "Jade/Pounamu"
+      "contains_mountain": "Aoraki / Mount Cook"
     }
   ]
 }

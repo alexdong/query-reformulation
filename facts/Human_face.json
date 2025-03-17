@@ -1,7 +1,6 @@
 {
   "entity": "Human face",
   "properties": {
-    "instance_of": "Anatomical structure",
     "part_of": "Head",
     "function": "Expression, Identification",
     "symmetry": "Generally bilateral",
@@ -10,38 +9,39 @@
     "muscles": "Facial muscles",
     "nerve_supply": "Trigeminal nerve",
     "average_width": "15 cm",
-    "ageing_changes": "Wrinkles, Sagging"
+    "ageing_changes": "Wrinkles, Sagging",
+    "type": "Anatomical structure"
   },
   "relationship": [
     {
-      "located_on": "Human"
+      "instance_of": "human"
     },
     {
-      "part_of": "Head"
+      "part_of": "head"
     },
     {
-      "expresses": "Emotion"
+      "has_feature": "eye"
     },
     {
-      "involved_in": "Communication"
+      "has_feature": "nose"
     },
     {
-      "studied_in": "Facial recognition"
+      "has_feature": "mouth"
     },
     {
-      "affected_by": "Aging"
+      "located_on": "human body"
     },
     {
-      "contains": "Eye"
+      "expresses": "emotion"
     },
     {
-      "contains": "Nose"
+      "depicts": "person"
     },
     {
-      "contains": "Mouth"
+      "used_in": "portrait painting"
     },
     {
-      "related_to": "Facial expression"
+      "identified_by": "facial recognition"
     }
   ]
 }

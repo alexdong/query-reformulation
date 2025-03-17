@@ -10,38 +10,39 @@
     "river_type": "Greywater river",
     "discharge": "140 m³/s",
     "named_after": "Hakatere (Māori)",
-    "basin_area": "4,370 km²"
+    "basin_area": "4,370 km²",
+    "type": "River"
   },
   "relationship": [
     {
-      "flows_through": "Canterbury Region"
+      "flows_into": "Pacific Ocean"
     },
     {
-      "part_of": "Aoraki/Mount Cook National Park"
+      "located_in": "Canterbury Region"
     },
     {
-      "tributary_of": "Pacific Ocean"
+      "part_of": "Mackenzie Basin"
     },
     {
-      "located_in": "New Zealand"
+      "tributary_of": "Waitaki River"
     },
     {
-      "flows_past": "Lake Pukaki"
+      "flows_through": "Aoraki/Mount Cook National Park"
     },
     {
-      "flows_past": "Lake Tekapo"
+      "has_settlement_nearby": "Fairlie"
     },
     {
-      "named_after": "Hakatere (Māori)"
+      "has_landmark": "Mount Sunday"
     },
     {
-      "has_tributary": "Godley River"
+      "sourced_from": "Southern Alps"
     },
     {
-      "has_tributary": "Clifden Stream"
+      "has_species": "Brown trout"
     },
     {
-      "adjacent_to": "Southern Alps"
+      "influenced_by": "glacial activity"
     }
   ]
 }

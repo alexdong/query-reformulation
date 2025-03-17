@@ -1,5 +1,5 @@
 {
-  "entity": "John C. Frémont",
+  "entity": "John C  Frémont",
   "properties": {
     "birth_date": "1813-11-21",
     "birth_place": "Savannah, Georgia",
@@ -10,38 +10,39 @@
     "spouse": "Jesse Bennett Fremont",
     "children": "6",
     "military_rank": "Major General",
-    "political_party": "Republican"
+    "political_party": "Republican",
+    "type": "MilitaryPerson"
   },
   "relationship": [
     {
-      "explorer_of": "California"
+      "instance_of": "human"
     },
     {
-      "military_service_in": "Mexican-American War"
+      "occupation": "military officer"
     },
     {
-      "governor_of": "California"
+      "occupation": "explorer"
     },
     {
-      "candidate_for": "U.S. President"
+      "occupation": "politician"
     },
     {
-      "member_of": "Pathfinders Expedition"
+      "child_of": "Allen Thornton Fremont"
     },
     {
-      "led_expedition": "Frémont Expedition"
+      "spouse_of": "Jessie Benton Fremont"
     },
     {
-      "influenced": "American West Expansion"
+      "member_of": "Republican Party"
     },
     {
-      "father_of": "David Winfield Fremont"
+      "governed": "California"
     },
     {
-      "served_with": "Kit Carson"
+      "military_unit_member_of": "United States Army"
     },
     {
-      "involved_in": "Bear Flag Revolt"
+      "award_recipient_of": "Congressional Gold Medal"
     }
   ]
 }

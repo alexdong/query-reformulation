@@ -10,38 +10,39 @@
     "belligerents": "Mexico vs. United States",
     "primary_cause": "Manifest Destiny",
     "casualties_us": "13,000",
-    "casualties_mexico": "25,000"
+    "casualties_mexico": "25,000",
+    "type": "War"
   },
   "relationship": [
     {
-      "preceded_by": "Texas Revolution"
+      "caused_by": "Texas Revolution"
     },
     {
-      "followed_by": "Gadsden Purchase"
+      "preceded_by": "Annexation of Texas"
     },
     {
-      "involved": "Zachary Taylor"
+      "opposed_by": "Mexico"
     },
     {
-      "involved": "Antonio López de Santa Anna"
-    },
-    {
-      "involved": "James K. Polk"
-    },
-    {
-      "territory_ceded_to": "United States"
-    },
-    {
-      "influenced": "Compromise of 1850"
-    },
-    {
-      "influenced": "American Civil War"
-    },
-    {
-      "location": "Mexico, Texas, California, New Mexico, Arizona, Nevada, Utah, Colorado, Wyoming"
+      "involved": "United States"
     },
     {
       "resulted_in": "Mexican Cession"
+    },
+    {
+      "led_to": "Treaty of Guadalupe Hidalgo"
+    },
+    {
+      "influenced": "Manifest Destiny"
+    },
+    {
+      "involved_in": "Territorial Disputes"
+    },
+    {
+      "commander_of": "Zachary Taylor"
+    },
+    {
+      "commander_of": "Antonio López de Santa Anna"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Climate Model",
   "properties": {
-    "instance_of": "Computational Model",
     "purpose": "Climate Prediction",
     "uses": "Numerical Simulation",
     "data_input": "Historical Climate Data",
@@ -10,38 +9,39 @@
     "framework": "General Circulation Model (GCM)",
     "development_language": "Fortran, Python",
     "validation_method": "Historical Data Comparison",
-    "uncertainty_source": "Parameterization"
+    "uncertainty_source": "Parameterization",
+    "type": "Computational Model"
   },
   "relationship": [
     {
-      "uses": "Hadley Cell"
+      "instance_of": "Numerical model"
     },
     {
-      "uses": "Rossby Wave"
+      "used_for": "Climate change prediction"
     },
     {
-      "influenced_by": "Paleoclimate"
+      "developed_by": "Climate scientist"
     },
     {
-      "predicts": "Global Temperature"
+      "input_has": "Atmospheric data"
     },
     {
-      "predicts": "Sea Level Rise"
+      "input_has": "Oceanographic data"
     },
     {
-      "developed_by": "IPCC"
+      "output_has": "Temperature projection"
     },
     {
-      "uses": "Earth System Model"
+      "output_has": "Precipitation projection"
     },
     {
-      "requires": "Supercomputer"
+      "evaluated_by": "Climate model evaluation"
     },
     {
-      "part_of": "Climate Science"
+      "uses": "Parameterization"
     },
     {
-      "validates_against": "Observed Climate"
+      "part_of": "Earth system model"
     }
   ]
 }

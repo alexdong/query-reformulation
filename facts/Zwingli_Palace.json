@@ -10,38 +10,39 @@
     "purpose": "Residential palace",
     "material": "Sandstone",
     "area": "10,000 m²",
-    "current_use": "Museum"
+    "current_use": "Museum",
+    "type": "Building"
   },
   "relationship": [
     {
-      "part_of": "Dresden's Old Town"
+      "located_in": "Zürich"
     },
     {
-      "located_in": "Saxony"
+      "part_of": "Zürich Altstadt"
     },
     {
-      "architect_worked_on": "Dresden Frauenkirche"
+      "instance_of": "museum"
     },
     {
-      "influenced_by": "Italian Renaissance architecture"
+      "architect": "Mathias Pfister"
     },
     {
-      "contains": "Old Masters Picture Gallery"
+      "historical_period": "Swiss Reformation"
     },
     {
-      "contains": "Cabinet of Mathematical and Physical Instruments"
+      "associated_with": "Huldrych Zwingli"
     },
     {
-      "adjacent_to": "Semper Opera House"
+      "serves_as": "museum"
     },
     {
-      "destroyed_in": "Bombing of Dresden"
+      "building_style": "Renaissance architecture"
     },
     {
-      "rebuilt_after": "World War II"
+      "former_owner": "City of Zürich"
     },
     {
-      "museum_collection_includes": "Raphael paintings"
+      "has_property": "cultural heritage monument"
     }
   ]
 }

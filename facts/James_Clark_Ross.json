@@ -10,38 +10,39 @@
     "spouse": "Mary Henrietta Innell",
     "known_for": "Ross Expedition",
     "awards": "Royal Geographical Society's Gold Medal",
-    "family": "John Ross (uncle)"
+    "family": "John Ross (uncle)",
+    "type": "Explorer"
   },
   "relationship": [
     {
-      "expedition_leader_of": "Ross Expedition"
+      "instance_of": "human"
     },
     {
-      "member_of": "Royal Navy"
+      "country_of_birth": "United Kingdom"
     },
     {
-      "discovered": "Ross Sea"
+      "member_of": "Royal Society"
     },
     {
-      "discovered": "Victoria Land"
+      "field_of_work": "Oceanography"
     },
     {
-      "discovered": "Mount Erebus"
+      "research_area": "Antarctica"
     },
     {
-      "discovered": "Mount Terror"
+      "ship_captain_of": "HMS Erebus"
     },
     {
-      "charted": "Antarctica"
+      "ship_captain_of": "HMS Terror"
     },
     {
-      "studied": "geomagnetism"
+      "discovery_location": "Ross Sea"
     },
     {
-      "named_after": "Ross Ice Shelf"
+      "discovery_location": "Victoria Land"
     },
     {
-      "influenced": "Antarctic exploration"
+      "named_after": "James Clark Ross (senior)"
     }
   ]
 }

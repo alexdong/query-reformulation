@@ -10,38 +10,39 @@
     "part_of": "United Kingdom",
     "largest_city": "London",
     "time_zone": "GMT/BST",
-    "national_sport": "Football"
+    "national_sport": "Football",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "United Kingdom"
+      "located_in": "United Kingdom"
     },
     {
-      "borders": "Wales"
+      "part_of": "Great Britain"
     },
     {
-      "borders": "Scotland"
+      "has_capital": "London"
     },
     {
-      "located_in": "Europe"
+      "ruled_by": "Monarch of the United Kingdom"
     },
     {
-      "influenced": "Shakespeare"
+      "member_of": "European Union (former)"
     },
     {
-      "influenced": "Beatles"
+      "influenced_by": "Roman Empire"
     },
     {
-      "member_of": "European Space Agency"
+      "has_historical_event": "Battle of Hastings"
     },
     {
-      "historical_part_of": "Roman Empire"
+      "borders_with": "Wales"
     },
     {
-      "historical_part_of": "Anglo-Saxon Kingdom"
+      "has_language": "English language"
     },
     {
-      "major_river": "River Thames"
+      "has_national_symbol": "Royal Coat of Arms"
     }
   ]
 }

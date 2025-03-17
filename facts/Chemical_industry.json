@@ -10,38 +10,39 @@
     "raw_materials": "Crude oil, Natural gas, Minerals",
     "research_focus": "Sustainability, Green chemistry",
     "geographic_concentration": "Asia-Pacific, North America, Europe",
-    "impact_on_economy": "Significant"
+    "impact_on_economy": "Significant",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "produces": "Plastics"
+      "industry_sector": "Manufacturing"
     },
     {
-      "produces": "Fertilizers"
+      "produces": "Chemical product"
     },
     {
-      "produces": "Pharmaceuticals"
+      "regulates": "Government agency"
     },
     {
-      "uses": "Crude oil"
+      "employs": "Worker"
     },
     {
-      "uses": "Natural gas"
+      "uses": "Raw material"
     },
     {
-      "regulated_by": "Environmental Protection Agency"
+      "impacts": "Environment"
     },
     {
-      "regulated_by": "REACH"
+      "supplies_to": "Consumer goods industry"
     },
     {
-      "impacts": "Agriculture"
+      "research_conducted_by": "Research institution"
     },
     {
-      "impacts": "Healthcare"
+      "part_of": "Economy"
     },
     {
-      "related_to": "Petrochemical industry"
+      "innovation_driven_by": "Chemical engineering"
     }
   ]
 }

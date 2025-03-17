@@ -10,38 +10,39 @@
     "time_period": "c. 3100 BC – 30 BC",
     "deity_pantheon": "Ra, Osiris, Isis",
     "economic_base": "Agriculture",
-    "famous_structure": "Pyramids of Giza"
+    "famous_structure": "Pyramids of Giza",
+    "type": "Civilization"
   },
   "relationship": [
     {
-      "part_of": "Africa"
+      "located_in": "Northeast Africa"
+    },
+    {
+      "part_of": "Ancient Near East"
+    },
+    {
+      "ruled_by": "Pharaoh"
+    },
+    {
+      "worshipped": "Egyptian Mythology"
     },
     {
       "influenced": "Greco-Roman culture"
     },
     {
-      "ruled_by": "Pharaohs"
-    },
-    {
-      "built": "Pyramids of Giza"
-    },
-    {
-      "worshipped": "Ra"
-    },
-    {
       "developed": "Hieroglyphs"
     },
     {
-      "located_in": "Nile River Valley"
+      "built": "Pyramids"
     },
     {
-      "conquered_by": "Roman Empire"
+      "had_civilization_period": "Bronze Age"
     },
     {
-      "religion_influenced": "Coptic Christianity"
+      "influenced_by": "Nubia"
     },
     {
-      "art_style": "Ancient Egyptian art"
+      "successive_to": "Predynastic Egypt"
     }
   ]
 }

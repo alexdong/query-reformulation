@@ -10,38 +10,39 @@
     "purpose": "Domestic, estate buildings",
     "ornamentation": "Heraldic motifs, gargoyles",
     "example_building": "Balmoral Castle",
-    "design_philosophy": "Expression of power, identity"
+    "design_philosophy": "Expression of power, identity",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "influenced": "Neo-Gothic architecture"
+      "influenced_by": "Gothic architecture"
     },
     {
-      "influenced_by": "Scottish Gothic"
+      "influenced_by": "Renaissance architecture"
+    },
+    {
+      "located_in": "Scotland"
+    },
+    {
+      "part_of": "Scottish history"
+    },
+    {
+      "created_by": "Scottish architects"
     },
     {
       "example_of": "Architectural style"
     },
     {
-      "associated_with": "Scottish Renaissance"
+      "associated_with": "Scottish clans"
     },
     {
-      "location": "Scotland"
+      "characterized_by": "Towers"
     },
     {
-      "architect": "William Burn"
+      "influenced": "Victorian architecture"
     },
     {
-      "architect": "David Bryce"
-    },
-    {
-      "architect": "Robert Rowand Anderson"
-    },
-    {
-      "design_element": "Crenellations"
-    },
-    {
-      "design_element": "Machicolations"
+      "related_to": "Castle architecture"
     }
   ]
 }

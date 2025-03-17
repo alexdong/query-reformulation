@@ -10,38 +10,39 @@
     "largest_city": "Mexico City",
     "independence_date": "1821",
     "government_type": "Federal Presidential Republic",
-    "land_border": "United States"
+    "land_border": "United States",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "North America"
+      "located_in": "North America"
     },
     {
-      "borders": "United States"
+      "part_of": "United Nations"
     },
     {
-      "borders": "Guatemala"
+      "has_border_with": "United States"
     },
     {
-      "borders": "Belize"
+      "has_border_with": "Guatemala"
     },
     {
-      "member_of": "UN"
+      "has_border_with": "Belize"
     },
     {
-      "member_of": "NAFTA"
+      "member_of": "Organization of American States"
     },
     {
-      "located_in": "Americas"
+      "has_currency": "Mexican peso"
     },
     {
-      "influenced_by": "Spanish Empire"
+      "has_official_language": "Spanish language"
     },
     {
-      "has_cuisine": "Mexican cuisine"
+      "influenced_by": "Aztec"
     },
     {
-      "has_landmark": "Chichen Itza"
+      "has_capital": "Mexico City"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "technique": "Integrated pest management",
     "outcome": "Improved soil health",
     "economic_impact": "Increased farm resilience",
-    "social_impact": "Community well-being"
+    "social_impact": "Community well-being",
+    "type": "AgriculturalPractice"
   },
   "relationship": [
     {
-      "part_of": "Agriculture"
+      "instance_of": "Agricultural practice"
     },
     {
-      "related_to": "Organic Farming"
+      "subclass_of": "Farming"
+    },
+    {
+      "has_goal": "Environmental sustainability"
     },
     {
       "promotes": "Biodiversity"
     },
     {
-      "reduces": "Soil erosion"
-    },
-    {
-      "supports": "Local food systems"
-    },
-    {
-      "addresses": "Climate change"
-    },
-    {
-      "requires": "Agroecology"
+      "requires": "Soil health"
     },
     {
       "impacts": "Food security"
     },
     {
-      "influenced_by": "Permaculture"
+      "related_to": "Organic farming"
     },
     {
-      "contrasts_with": "Industrial Agriculture"
+      "influenced_by": "Agroecology"
+    },
+    {
+      "benefits": "Rural communities"
+    },
+    {
+      "addresses_problem": "Climate change"
     }
   ]
 }

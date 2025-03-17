@@ -1,7 +1,6 @@
 {
   "entity": "New South Wales",
   "properties": {
-    "instance_of": "State",
     "capital": "Sydney",
     "country": "Australia",
     "area_km2": "252,320",
@@ -10,11 +9,18 @@
     "sovereign": "Elizabeth II",
     "governor": "Margaret Beazley",
     "premier": "Chris Minns",
-    "established": "1788"
+    "established": "1788",
+    "type": "State"
   },
   "relationship": [
     {
+      "located_in": "Australia"
+    },
+    {
       "part_of": "Australia"
+    },
+    {
+      "has_capital": "Sydney"
     },
     {
       "borders": "Queensland"
@@ -26,22 +32,16 @@
       "borders": "South Australia"
     },
     {
-      "contains": "Sydney"
+      "has_governing_body": "Parliament of New South Wales"
     },
     {
-      "contains": "Canberra"
+      "has_official_language": "English"
     },
     {
-      "contains": "Newcastle"
+      "has_population": "New South Wales population"
     },
     {
-      "river_flows_through": "Murrumbidgee River"
-    },
-    {
-      "river_flows_through": "Hawkesbury River"
-    },
-    {
-      "influenced_by": "First peoples of Australia"
+      "has_area": "New South Wales area"
     }
   ]
 }

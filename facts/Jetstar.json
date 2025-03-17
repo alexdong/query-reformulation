@@ -1,7 +1,6 @@
 {
   "entity": "Jetstar",
   "properties": {
-    "instance_of": "Airline",
     "hq_location": "Melbourne",
     "country": "Australia",
     "iata_code": "JQ",
@@ -10,38 +9,39 @@
     "parent_company": "Qantas",
     "fleet_size": "133",
     "hub_airport": "Melbourne Airport",
-    "service_model": "Low-cost carrier"
+    "service_model": "Low-cost carrier",
+    "type": "Airline"
   },
   "relationship": [
     {
-      "subsidiary_of": "Qantas Group"
+      "instance_of": "airline"
     },
     {
-      "operates_in": "Australia"
+      "parent_organization": "Qantas Airways"
     },
     {
-      "operates_in": "New Zealand"
+      "headquarters_location": "Melbourne"
     },
     {
-      "operates_in": "Vietnam"
+      "subsidiary_of": "Qantas Airways"
     },
     {
-      "operates_in": "Japan"
+      "service_area": "Asia-Pacific"
     },
     {
-      "operates_in": "Singapore"
+      "country_of_origin": "Australia"
     },
     {
-      "aircraft_manufacturer": "Boeing"
+      "industry": "aviation"
     },
     {
-      "aircraft_manufacturer": "Airbus"
+      "has_product": "passenger transport"
     },
     {
-      "competitor": "Virgin Australia"
+      "employee_count": "3900"
     },
     {
-      "destination": "Gold Coast Airport"
+      "founded_by": "Qantas Airways"
     }
   ]
 }

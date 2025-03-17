@@ -10,20 +10,24 @@
     "longitude": "-122.4194",
     "time_zone": "Pacific Time",
     "official_language": "English",
-    "nickname": "Golden Gate City"
+    "nickname": "Golden Gate City",
+    "type": "City"
   },
   "relationship": [
     {
-      "part_of": "California"
+      "located_in": "California"
     },
     {
-      "located_in": "United States"
+      "part_of": "United States"
     },
     {
-      "neighbor_of": "Oakland"
+      "has_region": "Bay Area"
     },
     {
-      "neighbor_of": "Berkeley"
+      "capital_of": "California"
+    },
+    {
+      "founded_by": "Spanish"
     },
     {
       "has_landmark": "Golden Gate Bridge"
@@ -32,16 +36,13 @@
       "has_landmark": "Alcatraz Island"
     },
     {
-      "has_landmark": "Lombard Street"
+      "influenced_by": "Mission Dolores"
     },
     {
-      "influenced_cuisine": "California cuisine"
+      "has_population": "903000"
     },
     {
-      "major_industry": "Tourism"
-    },
-    {
-      "founded_by": "Spanish"
+      "member_of": "League of California Cities"
     }
   ]
 }

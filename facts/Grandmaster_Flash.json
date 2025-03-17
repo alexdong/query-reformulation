@@ -10,38 +10,39 @@
     "active_years": "1976–present",
     "nationality": "American",
     "associated_acts": "The Furious Five",
-    "award": "Grammy Hall of Fame Award"
+    "award": "Grammy Hall of Fame Award",
+    "type": "MusicalArtist"
   },
   "relationship": [
     {
+      "instance_of": "rapper"
+    },
+    {
       "member_of": "The Furious Five"
+    },
+    {
+      "influenced_by": "Afrika Bambaataa"
     },
     {
       "influenced": "Run-DMC"
     },
     {
-      "influenced": "Public Enemy"
+      "birth_place": "The Bronx"
     },
     {
-      "influenced": "Beastie Boys"
+      "genre": "hip hop"
     },
     {
-      "genre_of": "Hip hop music"
+      "occupation": "record producer"
     },
     {
-      "associated_with": "Afrika Bambaataa"
+      "award_received": "Grammy Award"
     },
     {
-      "pioneered": "Scratching"
+      "associated_with": "DJ Kool Herc"
     },
     {
       "performed_at": "Live Aid"
-    },
-    {
-      "song_featured_in": "The Message"
-    },
-    {
-      "record_label": "Elektra Records"
     }
   ]
 }

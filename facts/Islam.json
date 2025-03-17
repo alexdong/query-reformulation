@@ -10,38 +10,39 @@
     "major_branch": "Sunni Islam, Shia Islam",
     "theology": "Monotheism",
     "holy_day": "Eid al-Fitr",
-    "legal_system": "Sharia"
+    "legal_system": "Sharia",
+    "type": "Religion"
   },
   "relationship": [
     {
+      "instance_of": "Abrahamic religion"
+    },
+    {
+      "religious_founder": "Prophet Muhammad"
+    },
+    {
+      "has_belief": "Tawhid"
+    },
+    {
+      "has_sacred_text": "Quran"
+    },
+    {
+      "has_practice": "Salat"
+    },
+    {
+      "has_branch": "Sunni Islam"
+    },
+    {
+      "has_branch": "Shia Islam"
+    },
+    {
+      "located_in": "Middle East"
+    },
+    {
+      "has_follower": "Muslim"
+    },
+    {
       "part_of": "Abrahamic religions"
-    },
-    {
-      "influenced": "Islamic art"
-    },
-    {
-      "influenced": "Islamic philosophy"
-    },
-    {
-      "influenced": "Islamic law"
-    },
-    {
-      "related_to": "Judaism"
-    },
-    {
-      "related_to": "Christianity"
-    },
-    {
-      "has_prophet": "Muhammad"
-    },
-    {
-      "has_prophet": "Abraham"
-    },
-    {
-      "has_holy_site": "Mecca"
-    },
-    {
-      "has_holy_site": "Jerusalem"
     }
   ]
 }

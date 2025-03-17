@@ -10,38 +10,39 @@
     "net_profit_2023": "138.4 million NZD",
     "major_asset": "SkyCity Auckland",
     "business_segments": "Casino, Hotel, Entertainment, Retail",
-    "company_formation": "1994"
+    "company_formation": "1994",
+    "type": "Company"
   },
   "relationship": [
     {
-      "owns": "SkyCity Auckland Casino"
+      "instance_of": "entertainment_company"
     },
     {
-      "owns": "SkyCity Darwin Casino"
+      "parent_organization": "Far East Consortium"
     },
     {
-      "owns": "SkyCity Adelaide Casino"
+      "headquarters_location": "Hong Kong"
     },
     {
-      "located_in": "New Zealand"
+      "subsidiary_of": "Far East Consortium International Limited"
     },
     {
-      "located_in": "Australia"
+      "owns": "SkyCity One"
     },
     {
-      "subsidiary_of": "None"
+      "operates_in": "Hong Kong"
     },
     {
-      "competitor": "Crown Resorts"
+      "has_product": "SkyCity Entertainment Park"
     },
     {
-      "competitor": "The Star Entertainment Group"
+      "employs": "employees"
     },
     {
-      "provides": "Gaming services"
+      "industry": "entertainment"
     },
     {
-      "provides": "Hotel accommodation"
+      "founded_by": "Far East Consortium"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Seattle Seahawks",
   "properties": {
-    "instance_of": "American football team",
     "league": "NFL",
     "founded": "1976",
     "city": "Seattle",
@@ -10,38 +9,39 @@
     "head_coach": "Mike Macdonald",
     "team_owner": "Paul Allen (deceased)",
     "team_colors": "Action Green, College Navy, Wolf Grey",
-    "stadium": "Lumen Field"
+    "stadium": "Lumen Field",
+    "type": "American football team"
   },
   "relationship": [
     {
-      "plays_in": "NFL"
+      "instance_of": "American football team"
     },
     {
       "located_in": "Seattle"
     },
     {
-      "division_rival": "San Francisco 49ers"
+      "part_of": "National Football League"
     },
     {
-      "division_rival": "Los Angeles Rams"
+      "country_of_origin": "United States"
     },
     {
-      "division_rival": "Arizona Cardinals"
+      "head_coach": "Mike Macdonald"
     },
     {
-      "head_coach_is": "Mike Macdonald"
+      "owner": "Paul Allen Trust"
     },
     {
-      "plays_at": "Lumen Field"
+      "plays_in": "Lumen Field"
     },
     {
-      "won_championship": "Super Bowl XLVIII"
+      "founded_by": "Karl Racine"
     },
     {
-      "former_player": "Marshawn Lynch"
+      "has_member": "Russell Wilson"
     },
     {
-      "former_player": "Russell Wilson"
+      "slogan": "12"
     }
   ]
 }

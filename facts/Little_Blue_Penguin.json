@@ -10,38 +10,39 @@
     "lifespan": "6-20 years",
     "nesting_location": "Burrows",
     "swim_speed": "Up to 12 km/h",
-    "predators": "Sharks, seals, cats"
+    "predators": "Sharks, seals, cats",
+    "type": "Animal"
   },
   "relationship": [
     {
-      "part_of": "Sphenisciformes"
+      "instance_of": "Spheniscus minor"
     },
     {
-      "lives_in": "Australia"
+      "has_taxon_rank": "Species"
     },
     {
-      "lives_in": "New Zealand"
+      "in_taxon": "Penguins"
     },
     {
-      "lives_in": "Tasmania"
+      "natural_habitat": "Coastal Southern Hemisphere"
     },
     {
-      "prey_of": "Sharks"
+      "found_in_biome": "Temperate"
     },
     {
-      "prey_of": "Seals"
+      "prey_of": "Sea lions"
     },
     {
-      "threatened_by": "Feral cats"
+      "feeds_on": "Crustaceans"
     },
     {
-      "related_to": "Fiordland Penguin"
+      "has_conservation_status": "Least Concern"
     },
     {
-      "migration": "Limited"
+      "part_of_ecosystem": "Marine ecosystem"
     },
     {
-      "conservation_organization": "IUCN"
+      "lives_in_region": "New Zealand"
     }
   ]
 }

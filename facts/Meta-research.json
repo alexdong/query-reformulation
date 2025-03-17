@@ -1,7 +1,6 @@
 {
   "entity": "Meta-research",
   "properties": {
-    "instance_of": "Academic field",
     "alternative_name": "Research on research",
     "focus": "Research methods & practices",
     "goal": "Improve research quality",
@@ -10,38 +9,39 @@
     "methodology": "Systematic review, meta-analysis",
     "publication_type": "Journal articles, reports",
     "scope": "All research domains",
-    "origin": "1970s"
+    "origin": "1970s",
+    "type": "Academic field"
   },
   "relationship": [
     {
-      "studies": "Research"
+      "hasTopic": "Research"
     },
     {
-      "overlaps_with": "Bibliometrics"
+      "partOf": "Science"
     },
     {
-      "related_to": "Systematic review"
+      "methodUsed": "Systematic Review"
     },
     {
-      "uses": "Meta-analysis"
+      "investigates": "Research Methods"
     },
     {
-      "addresses": "Research bias"
+      "addresses": "Bias"
     },
     {
-      "improves": "Research reproducibility"
+      "concernedWith": "Reproducibility"
     },
     {
-      "analyzes": "Publication bias"
+      "promotes": "Research Integrity"
     },
     {
-      "contributes_to": "Evidence-based practice"
+      "overlapsWith": "Scientometrics"
     },
     {
-      "influenced_by": "Philosophy of science"
+      "analyzes": "Research Funding"
     },
     {
-      "examines": "Research impact"
+      "aimsToImprove": "Scientific Process"
     }
   ]
 }

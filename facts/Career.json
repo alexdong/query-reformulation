@@ -1,7 +1,6 @@
 {
   "entity": "Career",
   "properties": {
-    "instance_of": "Occupation",
     "definition": "Pursuit of work",
     "requires": "Skills",
     "involves": "Responsibilities",
@@ -9,38 +8,39 @@
     "can_be": "Voluntary",
     "influenced_by": "Education",
     "often_includes": "Job",
-    "may_require": "Training"
+    "may_require": "Training",
+    "type": "Occupation"
   },
   "relationship": [
     {
-      "part_of": "Employment"
+      "has_topic": "Occupation"
     },
     {
-      "requires": "Job market"
+      "part_of": "Life"
     },
     {
-      "leads_to": "Financial stability"
+      "requires": "Education"
     },
     {
-      "related_to": "Profession"
+      "leads_to": "Income"
     },
     {
-      "influenced_by": "Networking"
+      "influenced_by": "Job market"
     },
     {
-      "requires": "Work ethic"
+      "has_field": "Industry"
     },
     {
-      "often_involves": "Promotion"
+      "requires": "Skills"
     },
     {
-      "can_be": "Long-term"
+      "results_in": "Experience"
     },
     {
-      "can_be": "Short-term"
+      "related_to": "Employment"
     },
     {
-      "impacts": "Personal development"
+      "has_stage": "Career stage"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Zooplankton",
   "properties": {
-    "instance_of": "Plankton",
     "trophic_level": "Secondary Consumer",
     "size_range": "0.2-2000 μm",
     "habitat": "Aquatic",
@@ -10,38 +9,39 @@
     "mobility": "Limited, some swimming",
     "importance": "Food web base",
     "distribution": "Worldwide",
-    "classification": "Diverse, many phyla"
+    "classification": "Diverse, many phyla",
+    "type": "Plankton"
   },
   "relationship": [
     {
-      "prey_of": "Fish"
+      "instance_of": "fictional_character"
     },
     {
-      "eaten_by": "Marine mammals"
+      "genre": "comedy"
     },
     {
-      "feeds_on": "Phytoplankton"
+      "appears_in": "SpongeBob SquarePants"
     },
     {
-      "part_of": "Food web"
+      "creator": "Stephen Hillenburg"
     },
     {
-      "found_in": "Ocean"
+      "species": "plankton"
     },
     {
-      "found_in": "Freshwater"
+      "has_role": "antagonist"
     },
     {
-      "includes": "Copepods"
+      "located_in": "Bikini Bottom"
     },
     {
-      "includes": "Krill"
+      "competitor_of": "SpongeBob SquarePants"
     },
     {
-      "includes": "Rotifers"
+      "owns": "Chum Bucket"
     },
     {
-      "impacts": "Carbon cycle"
+      "has_characteristic": "small size"
     }
   ]
 }

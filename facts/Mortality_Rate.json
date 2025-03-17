@@ -10,38 +10,39 @@
     "calculation_method": "Deaths / Population * 1000",
     "reporting_frequency": "Annual",
     "related_concept": "Life Expectancy",
-    "category": "Demographics"
+    "category": "Demographics",
+    "type": "Demographic"
   },
   "relationship": [
     {
-      "is_a": "Demographic Indicator"
+      "causes": "Disease"
     },
     {
-      "related_to": "Infant Mortality Rate"
+      "affected_by": "Age"
     },
     {
-      "influenced_by": "Healthcare Access"
+      "influenced_by": "Socioeconomic Status"
     },
     {
-      "affected_by": "Disease"
+      "measured_in": "Demographics"
     },
     {
-      "compared_to": "Morbidity Rate"
+      "related_to": "Life Expectancy"
     },
     {
-      "used_in": "Population Projections"
+      "affected_by": "Healthcare System"
     },
     {
-      "analyzed_by": "Demographers"
+      "influenced_by": "Environmental Factors"
     },
     {
-      "reported_by": "World Bank"
+      "part_of": "Public Health"
     },
     {
-      "impacts": "Population Growth"
+      "related_to": "Birth Rate"
     },
     {
-      "compared_to": "Crude Birth Rate"
+      "affected_by": "Conflict"
     }
   ]
 }

@@ -10,35 +10,36 @@
     "marine_area": "Tasman Sea",
     "management_agency": "Department of Conservation",
     "primary_terrain": "Coastal",
-    "biodiversity": "High"
+    "biodiversity": "High",
+    "type": "Park"
   },
   "relationship": [
     {
-      "part_of": "New Zealand national parks"
+      "located_in": "South Island (island)"
     },
     {
-      "located_in": "Tasman-Nelson region"
+      "part_of": "New Zealand"
     },
     {
-      "named_after": "Abel Tasman"
+      "managed_by": "Department of Conservation"
     },
     {
-      "contains": "Golden Bay"
+      "contains": "Awaroa Inlet"
     },
     {
-      "contains": "Tasman Bay"
+      "contains": "Tonga Bay"
     },
     {
-      "flora_includes": "Rimu"
+      "has_feature": "Mount Tasman"
     },
     {
-      "fauna_includes": "Kākā"
+      "has_flora": "Podocarpus hallii"
     },
     {
-      "activity": "Kayaking"
+      "has_fauna": "New Zealand sea lion"
     },
     {
-      "activity": "Hiking"
+      "created_by": "New Zealand Government"
     },
     {
       "adjacent_to": "Kahurangi National Park"

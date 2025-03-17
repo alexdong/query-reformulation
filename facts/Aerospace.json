@@ -1,7 +1,6 @@
 {
   "entity": "Aerospace",
   "properties": {
-    "instance_of": "Industry",
     "description": "Design, manufacture, and operation of aircraft and spacecraft",
     "sector": "Engineering",
     "subfields": "Aeronautics, Astronautics",
@@ -10,38 +9,39 @@
     "materials_used": "Aluminum, Titanium, Composites",
     "regulation": "FAA, ESA, NASA",
     "application": "Transportation, Defense, Research",
-    "economic_impact": "Trillions of USD"
+    "economic_impact": "Trillions of USD",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "employs": "Aerospace Engineer"
+      "instance_of": "aerospace_industry"
     },
     {
-      "develops": "Aircraft"
+      "subclass_of": "engineering"
     },
     {
-      "develops": "Spacecraft"
+      "industry": "manufacturing"
     },
     {
-      "related_to": "Aviation"
+      "sector": "technology"
     },
     {
-      "related_to": "Space Exploration"
+      "related_to": "space exploration"
     },
     {
-      "uses": "Rocket Propulsion"
+      "produces": "aircraft"
     },
     {
-      "requires": "Aerodynamics"
+      "produces": "spacecraft"
     },
     {
-      "influenced_by": "Wright Brothers"
+      "research_area": "aerodynamics"
     },
     {
-      "contributes_to": "Satellite Technology"
+      "employs": "aerospace engineer"
     },
     {
-      "supports": "Global Transportation"
+      "regulated_by": "Federal Aviation Administration"
     }
   ]
 }

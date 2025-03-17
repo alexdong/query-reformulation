@@ -1,7 +1,6 @@
 {
   "entity": "Merino",
   "properties": {
-    "instance_of": "Sheep breed",
     "origin": "Spain",
     "wool_type": "Fine",
     "fiber_diameter": "11.5-19.5 microns",
@@ -10,38 +9,39 @@
     "meat_quality": "Good",
     "adaptability": "High",
     "average_weight": "45-100 kg",
-    "lifespan": "8-12 years"
+    "lifespan": "8-12 years",
+    "type": "Sheep breed"
   },
   "relationship": [
     {
-      "breed_origin": "Spain"
+      "instance_of": "sheep"
     },
     {
-      "related_to": "Rambouillet"
+      "breed_of": "sheep"
     },
     {
-      "related_to": "Dorset sheep"
+      "has_characteristic": "wool"
     },
     {
-      "produces": "Merino wool"
+      "produces": "merino wool"
     },
     {
-      "used_in": "Clothing"
+      "originates_from": "Spain"
     },
     {
-      "used_in": "Blankets"
+      "used_for": "textile"
     },
     {
-      "used_in": "Carpets"
+      "related_to": "agriculture"
     },
     {
-      "raised_by": "Shepherds"
+      "has_attribute": "domesticated"
     },
     {
-      "part_of": "Agriculture"
+      "is_a": "domestic animal"
     },
     {
-      "contributes_to": "Textile industry"
+      "used_in": "clothing"
     }
   ]
 }

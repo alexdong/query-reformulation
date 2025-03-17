@@ -10,38 +10,39 @@
     "casualties": "185",
     "damage": "Severe",
     "tsunami": "None",
-    "aftershock_count": "Significant"
+    "aftershock_count": "Significant",
+    "type": "Earthquake"
   },
   "relationship": [
     {
-      "preceded_by": "2010 Christchurch earthquake"
+      "instance_of": "natural_disaster"
     },
     {
-      "part_of": "Canterbury earthquake sequence"
+      "caused": "2011 Christchurch earthquake sequence"
     },
     {
-      "affected": "Christchurch"
+      "affected_area": "Canterbury Region"
     },
     {
-      "affected": "New Zealand"
+      "location": "Christchurch, New Zealand"
     },
     {
-      "caused": "Building collapse"
+      "date": "2011-02-22T12:51:56Z"
     },
     {
-      "caused": "Land liquefaction"
+      "magnitude": "7.1"
     },
     {
-      "influenced": "Christchurch recovery"
+      "caused_by": "tectonic activity"
     },
     {
-      "investigated_by": "Geological and Nuclear Sciences"
+      "resulted_in": "2011 Christchurch recovery"
     },
     {
-      "response_led_by": "New Zealand Government"
+      "caused_damage_to": "Christchurch Central Business District"
     },
     {
-      "related_to": "Insurance claims"
+      "influenced_by": "Alpine Fault"
     }
   ]
 }

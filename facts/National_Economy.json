@@ -10,38 +10,39 @@
     "trade": "International Exchange",
     "growth": "Economic Expansion",
     "stability": "Financial Security",
-    "resource": "Natural Resources"
+    "resource": "Natural Resources",
+    "type": "Economy"
   },
   "relationship": [
     {
-      "part_of": "Global Economy"
+      "partOf": "World Economy"
     },
     {
-      "influenced_by": "Political System"
+      "influencedBy": "Government Policy"
     },
     {
-      "impacts": "Standard of Living"
+      "produces": "Goods and Services"
     },
     {
-      "affected_by": "Interest Rates"
+      "employs": "Labor Force"
     },
     {
-      "dependent_on": "Labor Force"
+      "requires": "Natural Resources"
     },
     {
-      "requires": "Infrastructure"
+      "dependsOn": "Financial Markets"
     },
     {
-      "impacts": "Unemployment Rate"
+      "impacts": "Consumer Spending"
     },
     {
-      "affected_by": "Inflation"
+      "affectedBy": "Technological Innovation"
     },
     {
-      "related_to": "Fiscal Policy"
+      "measuredBy": "Gross Domestic Product"
     },
     {
-      "impacts": "Balance of Payments"
+      "interactsWith": "International Trade"
     }
   ]
 }

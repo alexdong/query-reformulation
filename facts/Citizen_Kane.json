@@ -1,7 +1,6 @@
 {
   "entity": "Citizen Kane",
   "properties": {
-    "instance_of": "Film",
     "director": "Orson Welles",
     "release_date": "1941",
     "genre": "Drama",
@@ -10,38 +9,39 @@
     "production_company": "RKO Pictures",
     "screenplay_by": "Orson Welles, Herman J. Mankiewicz",
     "cinematography_by": "Gregg Toland",
-    "score_by": "Bernard Herrmann"
+    "score_by": "Bernard Herrmann",
+    "type": "Film"
   },
   "relationship": [
     {
-      "influenced": "Film Noir"
+      "instance_of": "film"
     },
     {
-      "influenced": "Long Take"
+      "directed_by": "Orson Welles"
     },
     {
-      "influenced": "Nonlinear Narrative"
+      "written_by": "Orson Welles"
+    },
+    {
+      "produced_by": "RKO Pictures"
     },
     {
       "starring": "Orson Welles"
     },
     {
-      "starring": "Joseph Cotten"
+      "character_portrayed": "Charles Foster Kane"
     },
     {
-      "starring": "Dorothy Comingore"
+      "influenced_by": "Citizen journalism"
     },
     {
-      "adaptation_of": "Newspaper Tycoon"
+      "inspired_work": "The Godfather"
     },
     {
-      "genre_includes": "Mystery"
+      "subject_of": "film criticism"
     },
     {
-      "genre_includes": "Psychological Drama"
-    },
-    {
-      "award": "Academy Award for Best Original Screenplay"
+      "depicts_location": "Rosebud (fictional)"
     }
   ]
 }

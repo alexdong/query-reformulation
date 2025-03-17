@@ -1,5 +1,5 @@
 {
-  "entity": "Robert F. Kennedy",
+  "entity": "Robert F  Kennedy",
   "properties": {
     "birth_date": "1925-09-20",
     "birth_place": "Brookline, Massachusetts",
@@ -10,38 +10,39 @@
     "spouse": "Ethel Skakel",
     "political_party": "Democratic Party",
     "nationality": "American",
-    "cause_of_death": "Assassination"
+    "cause_of_death": "Assassination",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "father": "Joseph P. Kennedy Sr."
+      "instance_of": "politician"
     },
     {
-      "mother": "Rose Fitzgerald Kennedy"
+      "birthPlace": "Brookline, Massachusetts"
     },
     {
-      "sibling": "John F. Kennedy"
+      "familyMember": "Joseph P. Kennedy Sr."
     },
     {
-      "sibling": "Edward Kennedy"
+      "familyMember": "Rose Kennedy"
     },
     {
-      "spouse_of": "Ethel Skakel"
+      "spouse": "Ethel Skakel"
     },
     {
-      "attorney_for": "Teamsters Union"
+      "child": "Robert F. Kennedy Jr."
     },
     {
-      "U.S. Senator_for": "New York"
+      "member_of": "United States Senate"
     },
     {
-      "U.S. Attorney_General_under": "John F. Kennedy"
+      "member_of": "United States House of Representatives"
     },
     {
-      "candidate_for": "President of the United States"
+      "office": "Attorney General of the United States"
     },
     {
-      "assassinated_by": "Sirhan Sirhan"
+      "deathPlace": "Los Angeles, California"
     }
   ]
 }

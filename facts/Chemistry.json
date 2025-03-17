@@ -1,7 +1,6 @@
 {
   "entity": "Chemistry",
   "properties": {
-    "instance_of": "Science",
     "field_of_study": "Natural Science",
     "description": "Study of matter and its properties",
     "related_to": "Physics, Mathematics",
@@ -10,38 +9,39 @@
     "methodology": "Scientific method",
     "application": "Materials science, medicine",
     "key_concept": "Chemical reactions, atoms, molecules",
-    "notation": "Chemical formulas"
+    "notation": "Chemical formulas",
+    "type": "Science"
   },
   "relationship": [
     {
-      "studies": "Matter"
+      "instance_of": "science"
     },
     {
-      "related_to": "Physics"
+      "subclass_of": "natural_science"
     },
     {
-      "related_to": "Biology"
+      "field_of": "physics"
     },
     {
-      "uses": "Periodic table"
+      "field_of": "materials_science"
     },
     {
-      "employs": "Laboratory techniques"
+      "studied_by": "Antoine Lavoisier"
     },
     {
-      "deals_with": "Chemical reactions"
+      "studied_by": "Marie Curie"
     },
     {
-      "studies": "Atoms"
+      "deals_with": "matter"
     },
     {
-      "studies": "Molecules"
+      "deals_with": "energy"
     },
     {
-      "develops": "Materials"
+      "application_area": "pharmaceuticals"
     },
     {
-      "contributes_to": "Medicine"
+      "application_area": "chemical_engineering"
     }
   ]
 }

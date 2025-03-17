@@ -10,38 +10,39 @@
     "war": "Jacobite rising of 1745",
     "commander_jacobite": "Charles Edward Stuart",
     "commander_british": "William, Duke of Cumberland",
-    "significance": "End of Jacobite rising"
+    "significance": "End of Jacobite rising",
+    "type": "Battle"
   },
   "relationship": [
     {
-      "part_of": "Jacobite rising of 1745"
+      "part_of": "Jacobite Rising of 1745"
     },
     {
-      "involved_in": "War of the Quadruple Alliance"
+      "preceded_by": "Battle of Prestonpans"
     },
     {
-      "location_is_in": "Scotland"
+      "followed_by": "Suppression of the Jacobite rising"
     },
     {
-      "fought_against": "British Army"
+      "involved_in": "Jacobite cause"
     },
     {
-      "led_by": "Charles Edward Stuart"
+      "involved_in": "British government"
     },
     {
-      "led_by": "William, Duke of Cumberland"
+      "located_in": "Scotland"
     },
     {
-      "resulted_in": "Suppression of Highland culture"
+      "took_place_in": "Culloden Moor"
     },
     {
-      "preceded_by": "Battle of Falkirk Muir"
+      "commander_of": "Charles Edward Stuart"
     },
     {
-      "followed_by": "Flight of the Jacobites"
+      "commander_of": "William, Duke of Cumberland"
     },
     {
-      "influenced": "Highland Clearances"
+      "result_of": "Jacobite defeat"
     }
   ]
 }

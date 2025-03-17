@@ -10,38 +10,39 @@
     "years_coaching": "Multiple",
     "coaching_style": "Developmental",
     "focus": "Player Growth",
-    "reputation": "Respected"
+    "reputation": "Respected",
+    "type": "Coach"
   },
   "relationship": [
     {
-      "coached_team": "Southland Rugby"
+      "instance_of": "rugby coach"
     },
     {
-      "influenced": "Southland Players"
+      "employed_by": "Southland Rugby Club"
     },
     {
-      "works_for": "New Zealand Rugby"
+      "coaches": "Rugby Player"
     },
     {
-      "mentor_of": "Young Players"
+      "develops": "Rugby Team"
     },
     {
-      "contributes_to": "Regional Rugby"
+      "reports_to": "Rugby Club Manager"
     },
     {
-      "impacts": "Player Performance"
+      "trains": "Athlete"
     },
     {
-      "collaborates_with": "Assistant Coaches"
+      "located_in": "Southland District"
     },
     {
-      "develops": "Team Strategy"
+      "member_of": "New Zealand Rugby Coaches Association"
     },
     {
-      "promotes": "Sportsmanship"
+      "specializes_in": "Rugby Union"
     },
     {
-      "represents": "Southland Region"
+      "plans": "Training Schedule"
     }
   ]
 }

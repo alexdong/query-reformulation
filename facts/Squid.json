@@ -10,38 +10,39 @@
     "diet": "Carnivorous",
     "color": "Variable, camouflage",
     "intelligence": "High",
-    "respiration": "Gills"
+    "respiration": "Gills",
+    "type": "Mollusk"
   },
   "relationship": [
     {
-      "part_of": "Cephalopoda"
+      "instance_of": "Cephalopod"
     },
     {
-      "prey_of": "Seals"
+      "has_taxon": "Mollusca"
     },
     {
-      "prey_of": "Sharks"
+      "part_of": "Ocean"
     },
     {
-      "related_to": "Octopus"
+      "eats": "Crustacean"
     },
     {
-      "has_feature": "Ink sac"
+      "is_prey_for": "Seal"
     },
     {
-      "has_feature": "Tentacles"
+      "has_habitat": "Benthic zone"
     },
     {
-      "has_feature": "Beak"
+      "has_characteristic": "Ink sac"
     },
     {
-      "found_in": "Pacific Ocean"
+      "has_feature": "Tentacle"
     },
     {
-      "found_in": "Atlantic Ocean"
+      "affected_by": "Overfishing"
     },
     {
-      "threatened_by": "Overfishing"
+      "found_in_region": "Pacific Ocean"
     }
   ]
 }

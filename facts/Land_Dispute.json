@@ -10,38 +10,39 @@
     "scale": "Local to national",
     "duration": "Short-term to multi-generational",
     "common_parties": "Individuals, communities, governments",
-    "related_concept": "Property rights"
+    "related_concept": "Property rights",
+    "type": "LegalConflict"
   },
   "relationship": [
     {
-      "causes": "Historical Injustice"
+      "has_subject": "Property"
     },
     {
-      "impacts": "Forced Displacement"
+      "involves": "Person"
     },
     {
-      "resolved_by": "Legal System"
+      "concerns": "Land Parcel"
     },
     {
-      "related_to": "Property Law"
+      "is_caused_by": "Legal Dispute"
     },
     {
-      "impacts": "Poverty"
+      "results_in": "Court Case"
     },
     {
-      "involves": "Indigenous Peoples"
+      "is_related_to": "Boundary"
     },
     {
-      "exacerbated_by": "Corruption"
+      "affects": "Community"
     },
     {
-      "linked_to": "Resource Conflict"
+      "requires_resolution_by": "Government Agency"
     },
     {
-      "addressed_by": "Land Reform"
+      "is_a_type_of": "Conflict"
     },
     {
-      "impacts": "Environmental Degradation"
+      "is_associated_with": "Historical Claim"
     }
   ]
 }

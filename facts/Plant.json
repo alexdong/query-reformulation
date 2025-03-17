@@ -1,7 +1,6 @@
 {
   "entity": "Plant",
   "properties": {
-    "instance_of": "Living organism",
     "kingdom": "Plantae",
     "cell_type": "Eukaryotic",
     "mode_of_nutrition": "Autotrophic",
@@ -10,38 +9,39 @@
     "primary_metabolite": "Carbohydrates",
     "major_groups": "Mosses, Ferns, Conifers, Flowering plants",
     "oxygen_production": "Yes",
-    "habitat": "Diverse"
+    "habitat": "Diverse",
+    "type": "Living organism"
   },
   "relationship": [
+    {
+      "instance_of": "Organism"
+    },
     {
       "part_of": "Ecosystem"
     },
     {
-      "provides": "Oxygen"
+      "has_part": "Leaf"
     },
     {
-      "provides": "Food"
+      "has_part": "Root"
     },
     {
-      "supports": "Herbivore"
+      "grows_in": "Habitat"
     },
     {
-      "is_source_of": "Medicine"
+      "interacts_with": "Animal"
     },
     {
-      "is_used_in": "Agriculture"
+      "produces": "Fruit"
     },
     {
-      "related_to": "Botany"
+      "requires": "Sunlight"
     },
     {
-      "related_to": "Photosynthesis"
+      "requires": "Water"
     },
     {
-      "related_to": "Cell"
-    },
-    {
-      "related_to": "Biodiversity"
+      "is_a": "Living_thing"
     }
   ]
 }

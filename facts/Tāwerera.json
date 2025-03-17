@@ -1,7 +1,6 @@
 {
   "entity": "Tāwerera",
   "properties": {
-    "instance_of": "Māori figure",
     "origin": "New Zealand",
     "culture": "Māori",
     "mythology": "Māori mythology",
@@ -10,38 +9,39 @@
     "domain": "Sky",
     "appearance": "Bird-like",
     "behaviour": "Mischievous",
-    "power": "Shape-shifting"
+    "power": "Shape-shifting",
+    "type": "Māori figure"
   },
   "relationship": [
     {
-      "father": "Rangi"
+      "located_in": "New Zealand"
     },
     {
-      "mother": "Hine-āhu-roa"
+      "part_of": "Southland Region"
     },
     {
-      "sibling_of": "Tāne"
+      "has_region_type": "geographical_region"
     },
     {
-      "related_to": "Māui"
+      "is_located_near": "Te Anau"
     },
     {
-      "opposed_to": "Tāwhirimātea"
+      "has_settlement_type": "town"
     },
     {
-      "associated_with_place": "Rotorua"
+      "is_in_country": "New Zealand"
     },
     {
-      "part_of_cycle": "Creation myth"
+      "has_population": "Unknown"
     },
     {
-      "depicted_in": "Māori art"
+      "has_coordinate": "44.8667° S, 167.5167° E"
     },
     {
-      "story_features": "Transformation"
+      "is_associated_with": "Ngāi Tahu"
     },
     {
-      "symbolizes": "Playfulness"
+      "has_local_government_type": "Fiordland District"
     }
   ]
 }

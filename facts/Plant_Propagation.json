@@ -10,38 +10,39 @@
     "application": "Horticulture, agriculture, conservation",
     "requires": "Knowledge, tools, suitable environment",
     "outcome": "New plant individuals",
-    "related_field": "Botany"
+    "related_field": "Botany",
+    "type": "Process"
   },
   "relationship": [
     {
-      "method_of": "Horticulture"
+      "instance_of": "horticulture"
     },
     {
-      "type_of": "Plant Reproduction"
+      "used_for": "vegetative_propagation"
     },
     {
-      "requires": "Seed"
+      "requires": "growing_medium"
     },
     {
-      "involves": "Cuttings"
+      "produces": "new_plant"
     },
     {
-      "involves": "Grafting"
+      "involves": "cuttings"
     },
     {
-      "involves": "Layering"
+      "involves": "seeds"
     },
     {
-      "related_to": "Genetic Engineering"
+      "requires": "water"
     },
     {
-      "impacts": "Biodiversity"
+      "requires": "light"
     },
     {
-      "used_in": "Agriculture"
+      "part_of": "agriculture"
     },
     {
-      "studied_in": "Botany"
+      "related_to": "plant_physiology"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Bible",
   "properties": {
-    "instance_of": "Religious text",
     "genre": "Religious literature",
     "original_language": "Hebrew, Aramaic, Greek",
     "religious_tradition": "Abrahamic religions",
@@ -10,17 +9,18 @@
     "primary_language": "English",
     "subject": "Theology, History, Morality",
     "format": "Scripture",
-    "influence": "Western culture"
+    "influence": "Western culture",
+    "type": "Religious text"
   },
   "relationship": [
     {
-      "preceding_text": "Old Testament"
+      "instance_of": "religious_text"
     },
     {
-      "followed_by": "New Testament"
+      "publication_medium": "manuscript"
     },
     {
-      "author": "Various (attributed to divine inspiration)"
+      "author": "God"
     },
     {
       "influenced": "Christianity"
@@ -29,19 +29,19 @@
       "influenced": "Judaism"
     },
     {
-      "influenced": "Islam"
+      "translation_language": "Hebrew"
     },
     {
-      "translation": "King James Bible"
+      "translation_language": "Koine Greek"
     },
     {
-      "translation": "Septuagint"
+      "subject_category": "theology"
     },
     {
-      "contains_story": "Genesis"
+      "inspired_work": "Christian art"
     },
     {
-      "contains_story": "Exodus"
+      "influenced": "Western culture"
     }
   ]
 }

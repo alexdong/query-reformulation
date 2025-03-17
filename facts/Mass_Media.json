@@ -10,38 +10,39 @@
     "types": "Television, Radio, Print, Internet",
     "function": "Information dissemination",
     "historical_origin": "19th century",
-    "economic_model": "Advertising-supported"
+    "economic_model": "Advertising-supported",
+    "type": "Communication"
   },
   "relationship": [
     {
-      "influences": "Public Opinion"
+      "produces": "News"
     },
     {
-      "part_of": "Communication"
+      "distributes": "Information"
     },
     {
-      "employs": "Journalists"
+      "employs": "Journalist"
     },
     {
-      "uses": "Advertising"
+      "operates_in": "Country"
     },
     {
-      "related_to": "Media Literacy"
+      "influenced_by": "Public Opinion"
     },
     {
-      "impacts": "Culture"
+      "controls": "Media Outlet"
     },
     {
-      "includes": "Newspapers"
+      "regulated_by": "Government"
     },
     {
-      "includes": "Television"
+      "advertised_by": "Advertiser"
     },
     {
-      "includes": "Radio"
+      "targets": "Audience"
     },
     {
-      "related_to": "Propaganda"
+      "uses": "Technology"
     }
   ]
 }

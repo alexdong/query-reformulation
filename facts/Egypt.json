@@ -10,38 +10,39 @@
     "government": "Semi-presidential republic",
     "largest_city": "Cairo",
     "major_religion": "Islam",
-    "geography": "Desert, Nile River"
+    "geography": "Desert, Nile River",
+    "type": "Country"
   },
   "relationship": [
     {
       "located_in": "Africa"
     },
     {
-      "borders": "Libya"
+      "part_of": "Middle East"
     },
     {
-      "borders": "Sudan"
+      "has_capital": "Cairo"
     },
     {
-      "borders": "Israel"
+      "ruled_by": "Pharaoh"
     },
     {
-      "borders": "Gaza Strip"
+      "influenced_by": "Ancient Egypt"
     },
     {
-      "has_part": "Sinai Peninsula"
+      "bordered_by": "Libya"
     },
     {
-      "river_flows_through": "Nile"
+      "bordered_by": "Sudan"
     },
     {
-      "historical_civilization": "Ancient Egypt"
-    },
-    {
-      "influenced": "Islamic architecture"
+      "has_river": "Nile"
     },
     {
       "member_of": "Arab League"
+    },
+    {
+      "has_historical_period": "New Kingdom"
     }
   ]
 }

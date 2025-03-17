@@ -10,38 +10,39 @@
     "cultural_impact": "High",
     "technology_used": "Digital Cinema, Analog Film",
     "funding_sources": "Private, Government",
-    "audience_size": "Billions"
+    "audience_size": "Billions",
+    "type": "Film"
   },
   "relationship": [
     {
-      "influenced_by": "Silent Film"
+      "instance_of": "film industry"
     },
     {
-      "influenced": "Bollywood"
+      "subclass_of": "entertainment industry"
     },
     {
-      "influenced": "Korean Cinema"
+      "produces": "motion picture"
     },
     {
-      "part_of": "Entertainment Industry"
+      "distributes": "film"
     },
     {
-      "related_to": "Film Festivals"
+      "employs": "film director"
     },
     {
-      "employs": "Film Directors"
+      "employs": "actor"
     },
     {
-      "employs": "Actors"
+      "influenced_by": "national cinema"
     },
     {
-      "produces": "Feature Films"
+      "has_genre": "drama"
     },
     {
-      "distributes_to": "Movie Theaters"
+      "has_genre": "comedy"
     },
     {
-      "impacts": "Cultural Exchange"
+      "related_to": "film festival"
     }
   ]
 }

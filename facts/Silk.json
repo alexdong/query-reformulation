@@ -10,38 +10,39 @@
     "use": "Clothing, textiles, surgery",
     "color": "White (before dyeing)",
     "process": "Reeling, weaving",
-    "cost": "Expensive"
+    "cost": "Expensive",
+    "type": "Textile"
   },
   "relationship": [
     {
-      "produced_by": "Silkworm"
+      "instance_of": "textile"
     },
     {
-      "type_of": "Textile"
+      "material": "silkworm"
     },
     {
-      "used_in": "Sari"
+      "produced_in": "China"
     },
     {
-      "related_to": "Sericulture"
+      "used_for": "clothing"
     },
     {
-      "originates_from": "China"
+      "related_to": "sericulture"
     },
     {
-      "used_for": "Surgical sutures"
+      "has_property": "luster"
     },
     {
-      "processed_into": "Chiffon"
+      "used_in": "painting"
     },
     {
-      "related_to": "Mulberry tree"
+      "associated_with": "Silk Road"
     },
     {
-      "dyes_with": "Natural dyes"
+      "type_of": "natural fiber"
     },
     {
-      "alternative_to": "Cotton"
+      "used_to_make": "silk fabric"
     }
   ]
 }

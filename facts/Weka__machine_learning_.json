@@ -1,7 +1,6 @@
 {
-  "entity": "Weka (machine learning)",
+  "entity": "Weka  machine learning ",
   "properties": {
-    "instance_of": "Machine learning software",
     "developer": "University of Waikato",
     "language": "Java",
     "license": "GNU GPL v2",
@@ -10,38 +9,39 @@
     "purpose": "Data mining",
     "version": "4.0",
     "website": "waikato.ac.nz/ml/",
-    "cost": "Free"
+    "cost": "Free",
+    "type": "Machine learning software"
   },
   "relationship": [
     {
-      "uses": "Java"
+      "instance_of": "machine learning software"
     },
     {
       "developed_by": "University of Waikato"
     },
     {
-      "is_a": "Data mining software"
+      "used_for": "data mining"
     },
     {
-      "includes": "Decision Tree"
+      "language": "Java"
     },
     {
-      "includes": "Naive Bayes"
+      "operates_on": "datasets"
     },
     {
-      "includes": "Support Vector Machine"
+      "provides": "machine learning algorithms"
     },
     {
-      "includes": "Clustering"
+      "supports": "data visualization"
     },
     {
-      "used_in": "Machine learning research"
+      "used_in": "bioinformatics"
     },
     {
-      "related_to": "RapidMiner"
+      "related_to": "statistical modeling"
     },
     {
-      "alternative_to": "scikit-learn"
+      "has_version": "Weka 3.9.5"
     }
   ]
 }

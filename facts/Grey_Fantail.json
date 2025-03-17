@@ -10,38 +10,39 @@
     "habitat": "Forests, gardens",
     "distribution": "New Zealand, Australia",
     "plumage": "Grey, white, black",
-    "vocalization": "Chirps, trills"
+    "vocalization": "Chirps, trills",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "part_of": "Rhipiduridae"
+      "instance_of": "Bird"
     },
     {
-      "found_in": "New Zealand"
+      "has_taxon": "Fantail"
     },
     {
-      "found_in": "Australia"
+      "in_taxon": "Passeriformes"
     },
     {
-      "preys_on": "Insects"
+      "part_of": "Australian ecosystem"
     },
     {
-      "lives_in": "Forest"
+      "lives_in": "Australia"
     },
     {
-      "lives_in": "Garden"
+      "feeds_on": "Insects"
     },
     {
-      "related_to": "Other fantails"
+      "has_habitat": "Forest"
     },
     {
-      "migration": "Nomadic"
+      "interacts_with": "Native plants"
     },
     {
-      "nesting_material": "Moss, lichen"
+      "prey_for": "Emu"
     },
     {
-      "threat": "Habitat loss"
+      "has_conservation_status": "Least Concern"
     }
   ]
 }

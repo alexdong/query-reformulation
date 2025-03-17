@@ -10,38 +10,39 @@
     "instrumentation": "Electric guitars, bass, drums, vocals",
     "style": "Varies widely, from melodic to extreme",
     "influence": "Christian beliefs, metal music",
-    "distribution": "Independent labels, online platforms"
+    "distribution": "Independent labels, online platforms",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced_by": "Metal music"
+      "instance_of": "music genre"
     },
     {
-      "subgenre_of": "Heavy metal"
+      "subclass_of": "metal music"
     },
     {
-      "related_to": "Christian music"
+      "influenced_by": "Christian music"
     },
     {
-      "artist_performs": "Bride"
+      "genre_of": "Christian rock"
     },
     {
-      "artist_performs": "Stryper"
+      "associated_with": "Christian subculture"
     },
     {
-      "artist_performs": "Deliverance"
+      "has_characteristic": "religious lyrics"
     },
     {
-      "influenced": "Contemporary Christian music"
+      "often_features": "heavy guitar riffs"
     },
     {
-      "overlaps_with": "Progressive Christian metal"
+      "related_to": "evangelicalism"
     },
     {
-      "shares_themes_with": "Christian rock"
+      "prominent_artist": "Bride"
     },
     {
-      "often_features": "Biblical narratives"
+      "prominent_artist": "Stryper"
     }
   ]
 }

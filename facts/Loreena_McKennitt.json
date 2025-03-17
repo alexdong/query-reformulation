@@ -10,38 +10,39 @@
     "record_label": "Warner Music Canada",
     "website": "loreenamckennitt.com",
     "awards": "Juno Awards",
-    "education": "University of Toronto"
+    "education": "University of Toronto",
+    "type": "MusicalArtist"
   },
   "relationship": [
     {
-      "influenced_by": "Celtic mythology"
+      "instance_of": "musician"
     },
     {
-      "influenced": "Contemporary folk music"
+      "country_of_citizenship": "Canada"
     },
     {
-      "collaborated_with": "Rush (band)"
+      "birthPlace": "Winnipeg"
     },
     {
-      "performed_at": "Islington Festival"
+      "genre": "Celtic music"
     },
     {
-      "member_of": "Canadian Music Hall of Fame"
+      "influenced_by": "J.R.R. Tolkien"
     },
     {
-      "album_released": "Parallel Worlds"
+      "member_of": "Order of Canada"
     },
     {
-      "album_released": "The Mask and Mirror"
+      "award_received": "Governor General's Performing Arts Awards"
     },
     {
-      "touring_region": "North America"
+      "performs_genre": "folk music"
     },
     {
-      "touring_region": "Europe"
+      "instrument": "harp"
     },
     {
-      "studied": "Music theory"
+      "associated_with": "Carlos Núñez"
     }
   ]
 }

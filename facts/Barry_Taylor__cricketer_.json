@@ -1,5 +1,5 @@
 {
-  "entity": "Barry Taylor (cricketer)",
+  "entity": "Barry Taylor  cricketer ",
   "properties": {
     "birth_date": "1973-03-27",
     "birth_place": "Wellington, New Zealand",
@@ -10,38 +10,39 @@
     "domestic_team": "Wellington",
     "international_debut": "2001",
     "playing_career_end": "2013",
-    "ODI_caps": "24"
+    "ODI_caps": "24",
+    "type": "Athlete"
   },
   "relationship": [
     {
-      "team": "New Zealand national cricket team"
+      "instance_of": "cricketer"
+    },
+    {
+      "birthPlace": "Wellington"
+    },
+    {
+      "country_of_citizenship": "New Zealand"
     },
     {
       "plays_for": "Wellington cricket team"
     },
     {
-      "coach": "Mike Hesson"
+      "team_member_of": "New Zealand national cricket team"
     },
     {
-      "captain_of": "Wellington cricket team"
+      "educated_at": "Victoria University of Wellington"
     },
     {
-      "influenced_by": "Shane Bond"
+      "sibling": "David Taylor (cricketer)"
     },
     {
-      "played_with": "Daniel Flynn"
+      "coach": "New Zealand national cricket team coaching staff"
     },
     {
-      "played_with": "Jacob Oram"
+      "participated_in": "ICC Cricket World Cup"
     },
     {
-      "participated_in": "2007 Cricket World Cup"
-    },
-    {
-      "influenced": "Mitchell McClenaghan"
-    },
-    {
-      "award": "New Zealand Cricket Awards"
+      "award_recipient_of": "New Zealand Cricket Awards"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "common_features": "Asymmetry, Curves, Shell Motifs",
     "function": "Palaces, Churches, Private Residences",
     "influenced_by": "Louis XV Style",
-    "decline": "Neoclassicism"
+    "decline": "Neoclassicism",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "preceded_by": "Baroque Architecture"
+      "style_of": "Baroque Architecture"
     },
     {
-      "followed_by": "Neoclassicism"
+      "influenced_by": "Italian Baroque"
     },
     {
-      "influenced": "French Rococo"
+      "influenced": "Neoclassical Architecture"
     },
     {
-      "influenced": "German Rococo"
+      "associated_with_period": "Rococo Period"
     },
     {
-      "influenced": "English Rococo"
+      "associated_with_art_movement": "Rococo"
     },
     {
-      "example_of": "Palace of Versailles"
+      "exemplified_in": "Würzburg Residence"
     },
     {
-      "example_of": "Würzburg Residence"
+      "exemplified_in": "Sanssouci Palace"
     },
     {
-      "example_of": "Sanssouci Palace"
+      "associated_with_artist": "Giovanni Battista Tiepolo"
     },
     {
-      "artist_associated": "François Cuvilliés"
+      "associated_with_architect": "Balthasar Neumann"
     },
     {
-      "artist_associated": "Germain Boffrand"
+      "characterized_by": "Ornamentation"
     }
   ]
 }

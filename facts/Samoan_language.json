@@ -10,9 +10,13 @@
     "official_language": "Samoa",
     "writing_system_origin": "Missionary",
     "influenced_by": "Tongan",
-    "typology": "Polysynthetic"
+    "typology": "Polysynthetic",
+    "type": "Language"
   },
   "relationship": [
+    {
+      "instance_of": "Austronesian language"
+    },
     {
       "part_of": "Austronesian languages"
     },
@@ -23,25 +27,22 @@
       "spoken_in": "American Samoa"
     },
     {
+      "has_variant": "Samoan dialects"
+    },
+    {
       "related_to": "Tongan language"
     },
     {
-      "influenced": "Tok Pisin"
+      "related_to": "Hawaiian language"
     },
     {
-      "written_in": "Latin script"
+      "script": "Latin script"
     },
     {
-      "has_dialect": "Eastern Samoan"
+      "influenced_by": "European languages"
     },
     {
-      "has_dialect": "Western Samoan"
-    },
-    {
-      "recognized_by": "UNESCO"
-    },
-    {
-      "language_code": "sm"
+      "has_literature": "Samoan literature"
     }
   ]
 }

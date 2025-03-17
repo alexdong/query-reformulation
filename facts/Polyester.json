@@ -10,38 +10,39 @@
     "strength": "High",
     "durability": "Excellent",
     "water_absorption": "Low",
-    "recyclability": "Recyclable"
+    "recyclability": "Recyclable",
+    "type": "Textile"
   },
   "relationship": [
     {
-      "part_of": "Polymer Chemistry"
+      "instance_of": "Polymer"
     },
     {
-      "invented_by": "DuPont"
+      "material": "Textile"
     },
     {
-      "used_in": "Clothing"
+      "used_for": "Clothing"
     },
     {
-      "used_in": "Packaging"
-    },
-    {
-      "related_to": "Nylon"
-    },
-    {
-      "alternative_name": "PET"
+      "produced_by": "Petrochemical industry"
     },
     {
       "derived_from": "Petroleum"
     },
     {
-      "impacts": "Textile Industry"
+      "has_property": "Durability"
     },
     {
-      "contributes_to": "Microplastic Pollution"
+      "used_in": "Fibers"
     },
     {
-      "process": "Polycondensation"
+      "related_to": "Nylon"
+    },
+    {
+      "used_for": "Packaging"
+    },
+    {
+      "has_application": "Upholstery"
     }
   ]
 }

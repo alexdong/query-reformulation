@@ -10,38 +10,39 @@
     "key_themes": "Community, Identity, Resistance",
     "influence": "Global",
     "subgenres": "Rap, Trap, Conscious Hip Hop",
-    "fashion": "Streetwear, Athletic wear"
+    "fashion": "Streetwear, Athletic wear",
+    "type": "CulturalMovement"
   },
   "relationship": [
     {
-      "influenced": "Rap Music"
+      "instance_of": "subculture"
     },
     {
-      "influenced": "Breakdancing"
+      "part_of": "African American Culture"
     },
     {
-      "influenced": "Graffiti Art"
+      "influenced_by": "Jazz Music"
     },
     {
-      "related_to": "DJing"
+      "created_by": "DJ Kool Herc"
     },
     {
-      "related_to": "MCing"
+      "has_genre": "Rap Music"
     },
     {
-      "preceded_by": "Funk Music"
+      "associated_with": "Breakdancing"
     },
     {
-      "influenced": "Streetwear Fashion"
+      "associated_with": "Graffiti Art"
     },
     {
-      "associated_with": "The Bronx"
+      "associated_with": "Beatboxing"
     },
     {
-      "artist": "Grandmaster Flash"
+      "has_element": "Sampling"
     },
     {
-      "artist": "Afrika Bambaataa"
+      "influenced": "Popular Culture"
     }
   ]
 }

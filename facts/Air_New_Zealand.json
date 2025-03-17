@@ -10,38 +10,39 @@
     "hub_airport": "Auckland Airport",
     "country": "New Zealand",
     "industry": "Airlines",
-    "ceo": "Brooke Foster"
+    "ceo": "Brooke Foster",
+    "type": "Airline"
   },
   "relationship": [
     {
-      "parent_company": "Air New Zealand Limited"
+      "instance_of": "airline"
     },
     {
-      "subsidiary_of": "Tourism Holdings Group"
+      "headquarters_location": "Wellington"
     },
     {
-      "alliance": "Star Alliance"
+      "parent_organization": "Air New Zealand Limited"
     },
     {
-      "serves": "Auckland Airport"
+      "subsidiary_of": "Tourism Holdings Limited"
     },
     {
-      "destinations": "Los Angeles"
+      "fleet_includes": "Boeing 787"
     },
     {
-      "aircraft_manufacturer": "Boeing"
+      "serves_destination": "Auckland"
     },
     {
-      "aircraft_manufacturer": "Airbus"
+      "has_employee": "Christopher Luxon"
     },
     {
-      "routes": "Pacific Islands"
+      "member_of": "Star Alliance"
     },
     {
-      "routes": "Australia"
+      "country_of_origin": "New Zealand"
     },
     {
-      "routes": "Asia"
+      "industry": "aviation"
     }
   ]
 }

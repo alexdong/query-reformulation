@@ -10,38 +10,39 @@
     "supply_chain": "Complex, Global",
     "sustainability_concerns": "High",
     "economic_impact": "Significant",
-    "trend_cycle": "Fast"
+    "trend_cycle": "Fast",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "influenced_by": "Art"
+      "partOf": "Economy"
     },
     {
-      "impacts": "Economy"
+      "employs": "Labor"
     },
     {
-      "relies_on": "Textile Industry"
+      "influencedBy": "Culture"
     },
     {
-      "employs": "Designers"
+      "designsFor": "Human"
     },
     {
-      "markets_to": "Consumers"
+      "produces": "Clothing"
     },
     {
-      "promotes_through": "Fashion Shows"
+      "reliesOn": "Textile Industry"
     },
     {
-      "affected_by": "Social Media"
+      "promotedBy": "Marketing"
     },
     {
-      "drives_demand_for": "Manufacturing"
+      "affectedBy": "Economic Trends"
     },
     {
-      "impacts": "Labor Practices"
+      "shapedBy": "Social Media"
     },
     {
-      "related_to": "Luxury Goods"
+      "distributesThrough": "Retail"
     }
   ]
 }

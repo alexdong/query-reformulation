@@ -39,7 +39,7 @@ def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
     
     console.print(f"[bold blue]Querying LLM for entity relationships:[/] {entity}")
     
-    max_retries = 3
+    max_retries = 10
     for attempt in range(max_retries):
         try:
             # Query the LLM

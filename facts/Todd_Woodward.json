@@ -10,38 +10,39 @@
     "linkedin_profile": "linkedin.com/in/toddwoodward/",
     "website": "toddwoodward.com",
     "role": "Chief Strategy Officer",
-    "company": "Salesforce"
+    "company": "Salesforce",
+    "type": "Musician"
   },
   "relationship": [
     {
-      "founder_of": "Bluecore"
+      "instance_of": "journalist"
     },
     {
-      "employee_of": "Salesforce"
+      "occupation": "journalist"
     },
     {
-      "alumnus_of": "University of Michigan"
+      "member_of": "The Heartland Institute"
     },
     {
-      "advisor_of": "Various startups"
+      "works_for": "The Heartland Institute"
     },
     {
-      "investor_in": "Various companies"
+      "country_of_citizenship": "United States of America"
     },
     {
-      "speaker_at": "Marketing conferences"
+      "educated_at": "University of Missouri–Columbia"
     },
     {
-      "contributor_to": "Marketing publications"
+      "field_of_study": "Journalism"
     },
     {
-      "mentors": "Marketing professionals"
+      "publication": "Environment & Climate News"
     },
     {
-      "board_member_of": "Various organizations"
+      "author_of": "Climate Change: The Facts"
     },
     {
-      "expert_in": "Customer Data Platforms"
+      "influenced_by": "Fred Singer"
     }
   ]
 }

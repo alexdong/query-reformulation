@@ -10,38 +10,39 @@
     "measurement": "Species extinction rates, habitat loss",
     "related_concept": "Sixth mass extinction",
     "affected_taxa": "Plants, animals, microorganisms",
-    "severity": "Critical"
+    "severity": "Critical",
+    "type": "EnvironmentalIssue"
   },
   "relationship": [
     {
-      "caused_by": "Habitat Destruction"
+      "causes": "Climate Change"
     },
     {
-      "caused_by": "Climate Change"
+      "impacts": "Human Well-being"
     },
     {
-      "caused_by": "Pollution"
+      "results_in": "Species Extinction"
     },
     {
-      "caused_by": "Overexploitation"
+      "linked_to": "Habitat Destruction"
     },
     {
-      "impacts": "Ecosystem Services"
+      "exacerbated_by": "Pollution"
     },
     {
-      "impacts": "Human Health"
+      "contributes_to": "Ecosystem Instability"
     },
     {
-      "linked_to": "Deforestation"
+      "affects": "Food Security"
     },
     {
-      "linked_to": "Invasive Species"
+      "related_to": "Deforestation"
     },
     {
-      "mitigated_by": "Conservation Efforts"
+      "impacts": "Genetic Diversity"
     },
     {
-      "related_to": "Sustainable Development"
+      "driven_by": "Anthropogenic Activities"
     }
   ]
 }

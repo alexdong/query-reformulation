@@ -10,38 +10,39 @@
     "title": "Governor of Oregon",
     "state": "Oregon",
     "gender": "Female",
-    "religion": "Unknown"
+    "religion": "Unknown",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "predecessor": "Kate Brown"
+      "instance_of": "politician"
     },
     {
-      "member_of": "Oregon State Legislature"
+      "occupation": "politician"
     },
     {
       "member_of": "Democratic Party"
     },
     {
-      "represents": "Oregon"
+      "elected_position": "Governor of Wisconsin"
     },
     {
-      "attended": "University of Oregon"
+      "place_of_birth": "Kenosha, Wisconsin"
     },
     {
-      "degree_earned": "Bachelor of Arts"
+      "educated_at": "University of Wisconsin–Madison"
     },
     {
-      "chair": "House Committee on Education"
+      "office": "Wisconsin State Capitol"
     },
     {
-      "house_district": "44"
+      "subclass_of": "American politician"
     },
     {
-      "governor_since": "2023"
+      "executive_branch_member_of": "Government of Wisconsin"
     },
     {
-      "residence": "Portland, Oregon"
+      "succeeded_by": null
     }
   ]
 }

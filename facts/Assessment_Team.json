@@ -10,38 +10,39 @@
     "scope": "Specific criteria",
     "reporting": "Formal documentation",
     "bias_mitigation": "Standardized procedures",
-    "training": "Assessment techniques"
+    "training": "Assessment techniques",
+    "type": "Organization"
   },
   "relationship": [
     {
-      "part_of": "Performance Management"
+      "has_member": "Employee"
     },
     {
-      "uses": "Rubric"
+      "works_for": "Organization"
     },
     {
-      "evaluates": "Employee"
+      "assesses": "Project"
     },
     {
       "reports_to": "Management"
     },
     {
-      "collaborates_with": "Human Resources"
+      "uses_tool": "SoftwareApplication"
     },
     {
-      "requires": "Assessment Criteria"
+      "follows_standard": "Standard"
     },
     {
-      "provides": "Feedback"
+      "provides_input_to": "Decision"
     },
     {
-      "follows": "Assessment Guidelines"
+      "defined_by": "Policy"
     },
     {
-      "uses_tool": "Performance Review Software"
+      "coordinates_with": "OtherAssessmentTeam"
     },
     {
-      "impacts": "Career Development"
+      "responsible_for": "Evaluation"
     }
   ]
 }

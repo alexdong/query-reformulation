@@ -10,9 +10,13 @@
     "writing_system_change_date": "1970s",
     "influenced_by": "Samoan, Gilbertese",
     "official_status": "Official language of Tuvalu",
-    "typology": "Polysynthetic"
+    "typology": "Polysynthetic",
+    "type": "Language"
   },
   "relationship": [
+    {
+      "instance_of": "language"
+    },
     {
       "part_of": "Austronesian languages"
     },
@@ -20,28 +24,25 @@
       "spoken_in": "Tuvalu"
     },
     {
-      "influenced": "Tuvaluan literature"
+      "has_variant": "Tuvaluan dialects"
     },
     {
-      "related_to": "Samoan language"
+      "script": "Latin script"
     },
     {
-      "related_to": "Gilbertese language"
+      "influenced_by": "Samoan language"
     },
     {
-      "has_dialect": "Nanumaga dialect"
+      "influenced_by": "Gilbertese language"
     },
     {
-      "has_dialect": "Niutao dialect"
+      "has_feature": "Subject–verb–object word order"
     },
     {
-      "has_dialect": "Funafuti dialect"
+      "has_feature": "Agglutinative language"
     },
     {
-      "used_in": "Tuvaluan music"
-    },
-    {
-      "translation_of": "Bible"
+      "related_to": "Polynesian languages"
     }
   ]
 }

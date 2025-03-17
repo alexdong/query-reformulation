@@ -10,38 +10,39 @@
     "skills_needed": "Analytical, Problem-solving, Critical thinking",
     "interdisciplinary": "Increasingly so",
     "impact": "Global",
-    "related_to": "STEAM education"
+    "related_to": "STEAM education",
+    "type": "AcademicDiscipline"
   },
   "relationship": [
     {
-      "includes": "Science"
+      "part_of": "Science"
     },
     {
-      "includes": "Technology"
+      "part_of": "Technology"
     },
     {
-      "includes": "Engineering"
+      "part_of": "Engineering"
     },
     {
-      "includes": "Mathematics"
+      "part_of": "Mathematics"
     },
     {
-      "overlaps_with": "STEAM education"
+      "employs": "Scientific method"
     },
     {
-      "employs": "Scientists"
+      "requires": "Quantitative analysis"
     },
     {
-      "employs": "Engineers"
+      "produces": "Innovation"
     },
     {
-      "requires": "Mathematics"
+      "contributes_to": "Economic growth"
     },
     {
-      "contributes_to": "Technological advancement"
+      "educated_in": "University"
     },
     {
-      "related_to": "Research and Development"
+      "related_to": "Research"
     }
   ]
 }

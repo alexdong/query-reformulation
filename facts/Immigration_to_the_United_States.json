@@ -10,38 +10,39 @@
     "demographic_effect": "Population increase",
     "cultural_impact": "Diversity of culture",
     "policy_governance": "USCIS",
-    "historical_periods": "Colonial, Mass, New"
+    "historical_periods": "Colonial, Mass, New",
+    "type": "Process"
   },
   "relationship": [
     {
-      "causes": "Economic opportunity"
+      "instance_of": "Legal process"
     },
     {
-      "causes": "Political persecution"
+      "part_of": "United States"
     },
     {
-      "causes": "Family reunification"
+      "governed_by": "United States federal law"
     },
     {
-      "impacts": "US economy"
+      "regulated_by": "United States Citizenship and Immigration Services (USCIS)"
     },
     {
-      "impacts": "US culture"
+      "causes": "Demographic change"
     },
     {
-      "impacts": "US demographics"
+      "results_in": "Permanent residency"
     },
     {
-      "governed_by": "United States Congress"
+      "requires": "Visa"
     },
     {
-      "administered_by": "United States Citizenship and Immigration Services"
+      "related_to": "Refugee status"
     },
     {
-      "influenced_by": "Ellis Island"
+      "impacts": "Labor market"
     },
     {
-      "related_to": "American Dream"
+      "influenced_by": "Immigration policy"
     }
   ]
 }

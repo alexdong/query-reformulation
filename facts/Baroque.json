@@ -10,38 +10,39 @@
     "influenced_by": "Counter-Reformation",
     "prominent_mediums": "Painting, Sculpture, Architecture, Music",
     "key_composers": "Bach, Handel, Vivaldi",
-    "geographic_spread": "Europe, Latin America"
+    "geographic_spread": "Europe, Latin America",
+    "type": "ArtisticMovement"
   },
   "relationship": [
     {
-      "influenced": "Rococo"
+      "instance_of": "art_movement"
     },
     {
       "preceded_by": "Renaissance"
     },
     {
-      "part_of": "Art History"
+      "followed_by": "Rococo"
     },
     {
-      "associated_with": "Counter-Reformation"
+      "influenced": "Rococo"
     },
     {
-      "artist": "Gian Lorenzo Bernini"
+      "associated_with_event": "Counter-Reformation"
     },
     {
-      "artist": "Caravaggio"
+      "associated_with_time_period": "17th century"
     },
     {
-      "architect": "Christopher Wren"
+      "associated_with_place": "Italy"
     },
     {
-      "composer": "Johann Sebastian Bach"
+      "created_work": "St. Peter's Basilica"
     },
     {
       "influenced": "Neoclassical"
     },
     {
-      "example_of": "Palace of Versailles"
+      "associated_with_person": "Gian Lorenzo Bernini"
     }
   ]
 }

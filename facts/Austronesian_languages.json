@@ -10,38 +10,39 @@
     "oldest_language": "Proto-Austronesian",
     "writing_system": "Various, often adopted from other languages",
     "linguistic_diversity": "High",
-    "classification_method": "Comparative method"
+    "classification_method": "Comparative method",
+    "type": "LanguageFamily"
   },
   "relationship": [
     {
-      "part_of": "Language families"
+      "instance_of": "language_family"
     },
     {
-      "originates_from": "Taiwan (island)"
+      "part_of": "Austronesian_migration"
     },
     {
-      "related_to": "Austronesian peoples"
+      "geographic_location": "Maritime_Southeast_Asia"
     },
     {
-      "includes": "Malay language"
+      "related_to": "Proto-Austronesian_language"
     },
     {
-      "includes": "Javanese language"
+      "influenced": "Malay_languages"
     },
     {
-      "includes": "Tagalog language"
+      "influenced": "Polynesian_languages"
     },
     {
-      "includes": "Malagasy language"
+      "influenced": "Taiwanese_languages"
     },
     {
-      "influenced": "Maritime culture"
+      "has_subclass": "Malayo-Polynesian_languages"
     },
     {
-      "studied_by": "Linguistics"
+      "has_subclass": "Formosan_languages"
     },
     {
-      "descended_from": "Proto-Austronesian language"
+      "studied_in": "Historical_linguistics"
     }
   ]
 }

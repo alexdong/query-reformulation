@@ -10,38 +10,39 @@
     "music_genre": "Traditional Samoan music, contemporary music",
     "cuisine": "Coconut-based dishes, seafood, taro",
     "traditional_dance": "Siva, Taualuga",
-    "clothing": "Traditional lavalava, modern Western clothing"
+    "clothing": "Traditional lavalava, modern Western clothing",
+    "type": "Culture"
   },
   "relationship": [
     {
       "part_of": "Polynesian culture"
     },
     {
-      "influenced_by": "Austronesian culture"
+      "located_in": "Samoa"
     },
     {
-      "related_to": "Fa'a Samoa"
+      "influenced_by": "Austronesian migrations"
     },
     {
-      "shares_language_with": "Tongan culture"
+      "has_language": "Samoan language"
     },
     {
-      "shares_cuisine_with": "Hawaiian cuisine"
+      "has_religion": "Christianity"
     },
     {
-      "shares_dance_with": "Maori haka"
+      "has_art_form": "Tatau (Samoan tattoo)"
     },
     {
-      "shares_art_with": "Hawaiian tattooing"
+      "has_cuisine": "Samoan cuisine"
     },
     {
-      "located_in": "Oceania"
+      "has_social_structure": "Fa'a Samoa"
     },
     {
-      "governed_by": "Government of Samoa"
+      "related_to": "Māori culture"
     },
     {
-      "influenced": "Pacific Islander identity"
+      "has_tradition": "Ava ceremony"
     }
   ]
 }

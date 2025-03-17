@@ -10,38 +10,39 @@
     "focus": "Christian music",
     "label_type": "Record label",
     "website": "solidstate.tv",
-    "status": "Active"
+    "status": "Active",
+    "type": "Recording"
   },
   "relationship": [
     {
-      "subgenre_of": "Metal"
+      "instance_of": "record label"
     },
     {
-      "genre": "Christian music"
+      "parent_organization": "BMG Rights Management"
     },
     {
-      "artist_roster": "August Burns Red"
+      "founded_by": "Steve Kurtz"
     },
     {
-      "artist_roster": "The Devil Wears Prada"
+      "genre": "Metal"
     },
     {
-      "artist_roster": "Underoath"
+      "genre": "Hardcore Punk"
     },
     {
-      "artist_roster": "Norma Jean"
+      "genre": "Electronic Music"
     },
     {
-      "distributed_by": "EMI Christian Music Group"
+      "distributes_music_for": "The Devil Wears Prada"
     },
     {
-      "influenced": "Christian metal scene"
+      "distributes_music_for": "August Burns Red"
     },
     {
-      "headquarters_location": "Colorado Springs"
+      "distributes_music_for": "Fit For A King"
     },
     {
-      "industry": "Music industry"
+      "location": "Trenton, New Jersey"
     }
   ]
 }

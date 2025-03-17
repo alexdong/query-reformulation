@@ -10,38 +10,39 @@
     "classification": "Accretionary, Erosionary, Mixed",
     "dynamic_system": "Constantly evolving",
     "data_methods": "Surveys, remote sensing, modeling",
-    "impact_assessment": "Coastal management, hazard mitigation"
+    "impact_assessment": "Coastal management, hazard mitigation",
+    "type": "GeologicalProcess"
   },
   "relationship": [
     {
-      "influenced_by": "Wave action"
+      "influenced_by": "Wave Climate"
     },
     {
-      "influenced_by": "Tidal currents"
+      "affected_by": "Sea Level"
     },
     {
-      "part_of": "Coastal geomorphology"
+      "part_of": "Coastal System"
     },
     {
-      "related_to": "Sediment transport"
+      "controlled_by": "Sediment Supply"
     },
     {
-      "affects": "Coastal ecosystems"
+      "influenced_by": "Tidal Regime"
     },
     {
-      "impacts": "Human infrastructure"
+      "affected_by": "Storm Events"
     },
     {
-      "studied_using": "LiDAR"
+      "interacts_with": "Coastal Vegetation"
     },
     {
-      "analyzed_with": "Numerical models"
+      "impacts": "Coastal Ecosystems"
     },
     {
-      "related_to": "Beach erosion"
+      "affected_by": "Geological Processes"
     },
     {
-      "part_of": "Geological processes"
+      "related_to": "Beach Sediment"
     }
   ]
 }

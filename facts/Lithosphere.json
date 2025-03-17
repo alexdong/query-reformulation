@@ -1,7 +1,6 @@
 {
   "entity": "Lithosphere",
   "properties": {
-    "instance_of": "Geosphere",
     "composition": "Crust and uppermost mantle",
     "thickness": "5-100 km",
     "density": "2.7-3.3 g/cm³",
@@ -10,7 +9,8 @@
     "tectonic_activity": "Yes",
     "formation": "Early Earth",
     "layer_type": "Outer layer",
-    "study_field": "Geophysics"
+    "study_field": "Geophysics",
+    "type": "Geosphere"
   },
   "relationship": [
     {
@@ -23,25 +23,25 @@
       "comprises": "Mantle"
     },
     {
+      "comprises": "Core"
+    },
+    {
       "interacts_with": "Hydrosphere"
     },
     {
       "interacts_with": "Atmosphere"
     },
     {
-      "influences": "Plate tectonics"
+      "influences": "Biosphere"
     },
     {
-      "affects": "Geological processes"
+      "affected_by": "Plate tectonics"
     },
     {
-      "contains": "Minerals"
+      "composed_of": "Mineral"
     },
     {
-      "location": "Earth's surface"
-    },
-    {
-      "study_by": "Geologists"
+      "forms_part_of": "Geological structure"
     }
   ]
 }

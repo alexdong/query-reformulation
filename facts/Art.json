@@ -1,7 +1,6 @@
 {
   "entity": "Art",
   "properties": {
-    "instance_of": "Creative activity",
     "definition": "Expression of human creativity",
     "purpose": "Aesthetic or communicative",
     "mediums": "Painting, Sculpture, Music, Literature",
@@ -10,38 +9,39 @@
     "category": "Human endeavor",
     "style": "Varies widely",
     "value": "Cultural, historical, aesthetic",
-    "classification": "Fine Arts, Decorative Arts"
+    "classification": "Fine Arts, Decorative Arts",
+    "type": "Creative activity"
   },
   "relationship": [
     {
-      "influenced_by": "Human experience"
+      "instance_of": "creative work"
     },
     {
-      "related_to": "Aesthetics"
+      "depicts": "subject"
     },
     {
-      "part_of": "Culture"
+      "created_by": "artist"
     },
     {
-      "genre_includes": "Painting"
+      "used_by": "culture"
     },
     {
-      "genre_includes": "Sculpture"
+      "has_style": "artistic style"
     },
     {
-      "genre_includes": "Music"
+      "influenced": "artwork"
     },
     {
-      "genre_includes": "Literature"
+      "part_of": "art movement"
     },
     {
-      "movement_includes": "Renaissance"
+      "located_in": "museum"
     },
     {
-      "movement_includes": "Impressionism"
+      "has_genre": "genre"
     },
     {
-      "artist_creates": "Artwork"
+      "represents": "concept"
     }
   ]
 }

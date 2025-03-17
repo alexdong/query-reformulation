@@ -1,7 +1,6 @@
 {
   "entity": "Jason Project",
   "properties": {
-    "instance_of": "Science education program",
     "founded_by": "National Geographic Society",
     "target_audience": "Elementary and middle school students",
     "focus": "STEM education",
@@ -10,38 +9,39 @@
     "location": "United States",
     "program_type": "Hands-on learning",
     "curriculum_focus": "Oceanography, environmental science",
-    "founder": "Robert R. Ballard"
+    "founder": "Robert R. Ballard",
+    "type": "Science education program"
   },
   "relationship": [
     {
-      "founded_by": "National Geographic Society"
+      "instance_of": "educational program"
     },
     {
-      "creator": "Robert R. Ballard"
+      "creator": "National Geographic Society"
     },
     {
-      "subject": "Oceanography"
+      "subject": "science"
     },
     {
-      "subject": "Environmental science"
+      "target_audience": "students"
     },
     {
-      "target_age_group": "Elementary school"
+      "activity_type": "educational activity"
     },
     {
-      "target_age_group": "Middle school"
+      "location": "worldwide"
     },
     {
-      "promotes": "STEM"
+      "purpose": "science education"
     },
     {
-      "activity_type": "Field research"
+      "related_to": "ocean exploration"
     },
     {
-      "educational_resource": "Curriculum materials"
+      "focus": "marine science"
     },
     {
-      "partnered_with": "NASA"
+      "supported_by": "various sponsors"
     }
   ]
 }

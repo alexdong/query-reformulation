@@ -10,38 +10,39 @@
     "managerial_style": "Possession-based",
     "playing_career_end": "2009",
     "managerial_start": "2009",
-    "honours": "Football League Two Manager of the Year"
+    "honours": "Football League Two Manager of the Year",
+    "type": "Footballer"
   },
   "relationship": [
     {
-      "club_managed": "Exeter City"
+      "instance_of": "footballer"
     },
     {
-      "club_managed": "Bristol Rovers"
+      "coach_of": "Exeter City F.C."
     },
     {
-      "club_managed": "MK Dons"
+      "educated_at": "University of Plymouth"
     },
     {
-      "club_managed": "Cambridge United"
+      "place_of_birth": "Truro"
     },
     {
-      "played_for": "Exeter City"
+      "country_of_citizenship": "England"
     },
     {
-      "influenced_by": "Kevin Keegan"
+      "plays_for": "Bristol Rovers F.C."
     },
     {
-      "coach_of": "Exeter City youth team"
+      "member_of": "The Football League"
     },
     {
-      "educated_at": "University of Exeter"
+      "occupation": "Football manager"
     },
     {
-      "award_recipient": "League Managers' Association"
+      "sport": "Association football"
     },
     {
-      "predecessor": "Steve Perryman"
+      "award_received": "Exeter City F.C. Manager of the Year"
     }
   ]
 }

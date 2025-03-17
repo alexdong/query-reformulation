@@ -1,5 +1,5 @@
 {
-  "entity": "Scottish Diaspora",
+  "entity": "Scottish diaspora",
   "properties": {
     "definition": "People of Scottish descent living abroad",
     "origin": "Scotland",
@@ -10,38 +10,39 @@
     "economic_impact": "Remittances, trade, investment",
     "identity_markers": "Scottish heritage, Gaelic language, tartan",
     "historical_periods": "Plantations, Highland Clearances, Post-WWII",
-    "current_estimate": "Millions worldwide"
+    "current_estimate": "Millions worldwide",
+    "type": "Population"
   },
   "relationship": [
     {
-      "part_of": "Human migration"
+      "part_of": "Scottish people"
     },
     {
-      "influenced": "Celtic culture"
+      "located_in": "Worldwide"
     },
     {
-      "located_in": "Scotland"
+      "influenced_by": "Scottish culture"
     },
     {
-      "related_to": "Highland Clearances"
+      "caused_by": "Economic factors"
     },
     {
-      "impacts": "Scottish economy"
+      "caused_by": "Political factors"
     },
     {
-      "contributes_to": "Cultural preservation"
+      "related_to": "Scottish emigration"
     },
     {
-      "settled_in": "United States"
+      "contributes_to": "Cultural exchange"
     },
     {
-      "settled_in": "Canada"
+      "impacts": "Host countries"
     },
     {
-      "settled_in": "Australia"
+      "maintains_connection_with": "Scotland"
     },
     {
-      "settled_in": "New Zealand"
+      "supports": "Scottish identity"
     }
   ]
 }

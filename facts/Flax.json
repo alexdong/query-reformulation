@@ -10,38 +10,39 @@
     "oil_content": "30-40%",
     "uses": "Fiber, Oil, Food",
     "cultivation_area": "Global",
-    "harvest_time": "Summer"
+    "harvest_time": "Summer",
+    "type": "Seed"
   },
   "relationship": [
     {
-      "part_of": "Linaceae"
+      "instance_of": "linen"
     },
     {
-      "produces": "Flaxseed oil"
+      "derived_from": "flax plant"
     },
     {
-      "provides": "Linen fabric"
+      "used_for": "textile"
     },
     {
-      "used_in": "Canvas"
+      "used_for": "rope"
     },
     {
-      "cultivated_in": "Canada"
+      "used_for": "canvas"
     },
     {
-      "cultivated_in": "China"
+      "produced_in": "Belgium"
     },
     {
-      "cultivated_in": "India"
+      "produced_in": "France"
     },
     {
-      "related_to": "Hemp"
+      "used_by": "ancient Egypt"
     },
     {
-      "nutrient_source": "Omega-3 fatty acids"
+      "used_by": "ancient Greece"
     },
     {
-      "used_by": "Ancient Egyptians"
+      "related_to": "hemp"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "state": "Solid",
     "group": "11",
     "period": "5",
-    "appearance": "Silvery-white"
+    "appearance": "Silvery-white",
+    "type": "ChemicalElement"
   },
   "relationship": [
     {
-      "part_of": "Periodic table"
+      "instance_of": "metal"
     },
     {
-      "used_in": "Jewelry"
+      "chemical_formula": "Ag"
     },
     {
-      "used_in": "Photography"
+      "atomic_number": "61"
     },
     {
-      "used_in": "Electronics"
+      "used_in": "jewelry"
     },
     {
-      "occurs_in": "Argentite"
+      "used_in": "photography"
     },
     {
-      "occurs_in": "Silver nitrate"
+      "found_in": "Earth"
     },
     {
-      "alloy_with": "Gold"
+      "extracted_from": "ores"
     },
     {
-      "discovered_by": "Ancient civilizations"
+      "alloy_of": "sterling_silver"
     },
     {
-      "mined_in": "Mexico"
+      "used_by": "Ancient_Egypt"
     },
     {
-      "reacts_with": "Nitric acid"
+      "has_property": "luster"
     }
   ]
 }

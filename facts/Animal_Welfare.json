@@ -10,38 +10,39 @@
     "related_field": "Animal rights",
     "scientific_discipline": "Ethology",
     "historical_movement": "19th century",
-    "global_concern": "True"
+    "global_concern": "True",
+    "type": "SocialIssue"
   },
   "relationship": [
     {
-      "part_of": "Animal Ethics"
+      "instance_of": "AnimalRights"
     },
     {
-      "related_to": "Animal Rights"
+      "subclass_of": "SocialIssue"
     },
     {
-      "influenced_by": "Utilitarianism"
+      "related_to": "AnimalCruelty"
     },
     {
-      "promoted_by": "Royal Society for the Prevention of Cruelty to Animals"
+      "promoted_by": "AnimalRightsMovement"
     },
     {
-      "overlaps_with": "Veterinary Medicine"
+      "concerned_with": "Animal"
     },
     {
-      "addresses": "Animal Cruelty"
+      "influenced_by": "Ethics"
     },
     {
-      "impacts": "Farm Animals"
+      "supported_by": "CharityOrganization"
     },
     {
-      "impacts": "Companion Animals"
+      "regulated_by": "GovernmentAgency"
     },
     {
-      "supports": "Five Freedoms"
+      "impacts": "AnimalWelfareAct"
     },
     {
-      "challenges": "Factory Farming"
+      "requires": "AnimalShelter"
     }
   ]
 }

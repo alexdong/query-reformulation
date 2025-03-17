@@ -10,38 +10,39 @@
     "known_for": "Parthenon sculptures",
     "influenced": "Later Greek sculptors",
     "status": "Citizen",
-    "student_of": "Hegias"
+    "student_of": "Hegias",
+    "type": "Sculptor"
   },
   "relationship": [
+    {
+      "influenced": "Classical Greek art"
+    },
     {
       "worked_for": "Pericles"
     },
     {
-      "collaborated_with": "Alcamenes"
+      "created_work": "Statue of Athena Parthenos"
     },
     {
-      "sculpted": "Athena Parthenos"
+      "created_work": "West Pediment of the Parthenon"
     },
     {
-      "sculpted": "Zeus at Olympia"
+      "created_work": "East Pediment of the Parthenon"
     },
     {
-      "designed": "Parthenon"
+      "member_of": "Athenian sculptor family"
     },
     {
-      "supervised": "Workshop"
+      "employed_by": "Athenian treasury"
     },
     {
-      "student_of": "Hegias"
-    },
-    {
-      "influenced": "Lysippos"
+      "influenced": "Praxiteles"
     },
     {
       "located_in": "Athens"
     },
     {
-      "member_of": "Athenian citizen body"
+      "created_work": "Statues of the Caryatids (Erechtheion)"
     }
   ]
 }

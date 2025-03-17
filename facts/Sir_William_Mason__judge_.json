@@ -1,5 +1,5 @@
 {
-  "entity": "Sir William Mason (judge)",
+  "entity": "Sir William Mason  judge ",
   "properties": {
     "birth_date": "1773-05-08",
     "death_date": "1833-07-07",
@@ -10,38 +10,39 @@
     "judge_of": "King's Bench",
     "knighthood": "1818",
     "family": "English gentry",
-    "cause_of_death": "illness"
+    "cause_of_death": "illness",
+    "type": "Judge"
   },
   "relationship": [
     {
-      "educated_at": "Cambridge University"
+      "instance_of": "judge"
     },
     {
-      "preceded_by": "Sir John Heathfield (judge)"
+      "occupation": "judge"
     },
     {
-      "succeeded_by": "Sir Thomas Wilde (judge)"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "appointed_as": "Serjeant-at-Law"
+      "member_of": "House of Lords"
     },
     {
-      "member_of": "English legal system"
+      "educated_at": "University of Oxford"
     },
     {
-      "influenced": "English jurisprudence"
+      "judicial_role": "Lord Chief Justice of England and Wales"
     },
     {
-      "served_in": "King's Bench"
+      "appointed_by": "Queen Victoria"
     },
     {
-      "legal_profession": "Barrister"
+      "predecessor": "David Irving"
     },
     {
-      "family_member_of": "Mason family"
+      "successor": "Lord Hewart"
     },
     {
-      "location": "Willington, Bedfordshire"
+      "field_of_study": "Law"
     }
   ]
 }

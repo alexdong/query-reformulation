@@ -10,38 +10,39 @@
     "elevation": "0-3000m",
     "dominant_biome": "Tropical Rainforest",
     "river_system": "Amazon River",
-    "carbon_storage": "Significant"
+    "carbon_storage": "Significant",
+    "type": "Biotope"
   },
   "relationship": [
     {
-      "part_of": "South America"
+      "located_in": "South America"
+    },
+    {
+      "part_of": "Earth"
     },
     {
       "contains": "Amazon River"
     },
     {
-      "influences": "Global Climate"
+      "biome": "Tropical rainforest"
     },
     {
-      "supports": "Indigenous Peoples"
+      "biodiversity_index": "High"
     },
     {
-      "threatened_by": "Deforestation"
+      "influenced_by": "Climate change"
     },
     {
-      "contains": "Jaguar"
+      "contains": "Indigenous peoples"
     },
     {
-      "contains": "Macaw"
+      "affected_by": "Deforestation"
     },
     {
-      "contains": "Kapok Tree"
+      "supports": "Numerous species"
     },
     {
-      "adjacent_to": "Andes Mountains"
-    },
-    {
-      "studied_by": "Scientists"
+      "part_of": "Neotropics"
     }
   ]
 }

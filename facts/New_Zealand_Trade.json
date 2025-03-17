@@ -10,38 +10,39 @@
     "import_value_USD": "55 Billion (2022)",
     "trade_regime": "Free trade",
     "currency": "New Zealand Dollar",
-    "trade_organisation": "World Trade Organization"
+    "trade_organisation": "World Trade Organization",
+    "type": "Organization"
   },
   "relationship": [
     {
-      "exports_to": "China"
+      "member_of": "World Trade Organization"
     },
     {
-      "imports_from": "Australia"
+      "part_of": "Government of New Zealand"
     },
     {
-      "trade_agreement_with": "Singapore"
+      "has_member": "New Zealand"
     },
     {
-      "member_of": "WTO"
+      "regulates": "International Trade"
     },
     {
-      "influenced_by": "Trans-Tasman Agreement"
+      "promotes": "New Zealand Exports"
     },
     {
-      "exports_product": "Milk powder"
+      "supports": "New Zealand Businesses"
     },
     {
-      "imports_product": "Machinery"
+      "negotiates_with": "Foreign Governments"
     },
     {
-      "trade_negotiation_with": "United Kingdom"
+      "facilitates": "Foreign Direct Investment"
     },
     {
-      "impacted_by": "COVID-19 pandemic"
+      "implements": "Free Trade Agreements"
     },
     {
-      "supports": "New Zealand Inc."
+      "reports_to": "Ministry of Foreign Affairs and Trade"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "appointment": "Royal Appointment",
     "salary": "£182,000 (approx.)",
     "reporting_to": "Prime Minister",
-    "established": "1674"
+    "established": "1674",
+    "type": "GovernmentOfficial"
   },
   "relationship": [
     {
-      "reports_to": "Prime Minister"
+      "instance_of": "GovernmentMinister"
     },
     {
-      "advises": "Government"
+      "part_of": "Government of the United Kingdom"
     },
     {
-      "leads": "Crown Prosecution Service"
+      "subclass_of": "LawOfficer"
     },
     {
-      "oversees": "Serious Fraud Office"
+      "responsible_for": "Crown Prosecution Service"
     },
     {
-      "represents": "Crown"
+      "responsible_for": "Serious Fraud Office"
     },
     {
-      "appointed_by": "Monarch"
+      "reports_to": "Prime Minister of the United Kingdom"
     },
     {
-      "succession": "Previous Attorney General"
+      "exercises_power_over": "England and Wales"
     },
     {
-      "predecessor": "Previous Attorney General"
+      "appointed_by": "Monarch of the United Kingdom"
+    },
+    {
+      "has_role": "Chief Legal Advisor to the Crown"
     },
     {
       "member_of": "Cabinet"
-    },
-    {
-      "legal_basis": "Common Law"
     }
   ]
 }

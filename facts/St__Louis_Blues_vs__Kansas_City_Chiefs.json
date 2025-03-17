@@ -1,5 +1,5 @@
 {
-  "entity": "St. Louis Blues vs. Kansas City Chiefs",
+  "entity": "St  Louis Blues vs  Kansas City Chiefs",
   "properties": {
     "sport": "American Football & Ice Hockey",
     "location": "Missouri, USA",
@@ -10,38 +10,39 @@
     "blues_colors": "Blue & Yellow",
     "chiefs_colors": "Red & Gold",
     "blues_arena": "Enterprise Center",
-    "chiefs_arena": "Arrowhead Stadium"
+    "chiefs_arena": "Arrowhead Stadium",
+    "type": "SportsEvent"
   },
   "relationship": [
     {
-      "rivalry": "Missouri Rivalry"
+      "instance_of": "sports_rivalry"
     },
     {
-      "team_plays_in": "Missouri"
+      "located_in": "Missouri"
     },
     {
-      "blues_coach": "Craig Berube"
+      "participates_in": "National Hockey League"
     },
     {
-      "chiefs_coach": "Andy Reid"
+      "participates_in": "National Football League"
     },
     {
-      "blues_player": "Brayden Schenn"
+      "competes_with": "St. Louis Cardinals"
     },
     {
-      "chiefs_player": "Patrick Mahomes"
+      "competes_with": "Kansas City Royals"
     },
     {
-      "blues_division": "Central Division"
+      "related_to": "Gateway Arch"
     },
     {
-      "chiefs_division": "AFC West"
+      "related_to": "Arrowhead Stadium"
     },
     {
-      "blues_owner": "Enterprise Holdings"
+      "sponsored_by": "Enterprise Holdings"
     },
     {
-      "chiefs_owner": "Clark Hunt"
+      "influenced_by": "Midwestern culture"
     }
   ]
 }

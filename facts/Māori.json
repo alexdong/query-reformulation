@@ -10,38 +10,39 @@
     "art_form": "Tā moko, Rapa Nui",
     "traditional_clothing": "Piupiu, Korowai",
     "treaty": "Treaty of Waitangi",
-    "contemporary_issues": "Land rights, Language revitalization"
+    "contemporary_issues": "Land rights, Language revitalization",
+    "type": "Ethnic group"
   },
   "relationship": [
     {
-      "ancestor": "Polynesians"
-    },
-    {
-      "language_related_to": "Austronesian languages"
-    },
-    {
-      "treaty_signed_with": "British Empire"
-    },
-    {
-      "located_in": "Aotearoa (New Zealand)"
-    },
-    {
-      "influenced_by": "European colonization"
-    },
-    {
-      "has_art_form": "Tā moko"
-    },
-    {
-      "has_belief_system": "Tapu"
-    },
-    {
-      "has_social_structure": "Whānau"
-    },
-    {
-      "leader_of": "Rangitāne"
+      "instance_of": "ethnic group"
     },
     {
       "part_of": "New Zealand"
+    },
+    {
+      "has_language": "Māori language"
+    },
+    {
+      "has_culture": "Māori culture"
+    },
+    {
+      "related_to": "Polynesia"
+    },
+    {
+      "ancestor_of": "Hawaiki"
+    },
+    {
+      "has_religion": "Tāwhirimātea"
+    },
+    {
+      "has_art": "Māori art"
+    },
+    {
+      "has_leader": "Tūpāke"
+    },
+    {
+      "has_tradition": "Haka"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
-  "entity": "Burns family (The Simpsons)",
+  "entity": "Burns family  The Simpsons ",
   "properties": {
-    "instance_of": "Fictional family",
     "show": "The Simpsons",
     "wealth": "Extremely wealthy",
     "occupation": "Businessmen",
@@ -10,38 +9,39 @@
     "family_head": "Montgomery Burns",
     "known_for": "Greed, exploitation",
     "first_appearance": "Simpsons Roasting on an Open Fire",
-    "animation_style": "Animated"
+    "animation_style": "Animated",
+    "type": "Fictional family"
   },
   "relationship": [
     {
-      "father": "Montgomery Burns"
+      "instance_of": "family"
     },
     {
-      "mother": "Lillian Burns"
+      "parent_of": "Homer Simpson"
     },
     {
-      "son": "Waylon Smithers"
+      "parent_of": "Marge Simpson"
     },
     {
-      "grandson": "Monty Burns Jr."
+      "parent_of": "Bart Simpson"
     },
     {
-      "employee_of": "Smithers"
+      "parent_of": "Lisa Simpson"
     },
     {
-      "owns": "Nuclear Power Plant"
+      "parent_of": "Maggie Simpson"
     },
     {
-      "rival_of": "Ned Flanders"
+      "member_of": "Springfield (fictional city)"
     },
     {
-      "resides_in": "Springfield"
+      "resides_in": "Simpson House"
     },
     {
-      "family_member": "Seymour Burns"
+      "owns": "Springfield Nuclear Power Plant (partial ownership)"
     },
     {
-      "family_member": "Brandine Burns"
+      "depicted_in": "The Simpsons"
     }
   ]
 }

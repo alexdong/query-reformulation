@@ -10,38 +10,39 @@
     "aesthetic": "Harmony, Proportion, Balance",
     "influence": "Renaissance, Neoclassical",
     "key_feature": "Emphasis on human scale",
-    "geometric_shapes": "Circles, Squares, Rectangles"
+    "geometric_shapes": "Circles, Squares, Rectangles",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "influenced": "Renaissance architecture"
+      "influenced": "Neoclassical Architecture"
     },
     {
-      "influenced": "Neoclassical architecture"
+      "preceded_by": "Roman Architecture"
     },
     {
-      "preceded_by": "Ancient Egyptian architecture"
+      "influenced": "Renaissance Architecture"
     },
     {
-      "succeeded_by": "Romanesque architecture"
+      "exemplified_by": "Pantheon (Rome)"
     },
     {
-      "example_building": "Parthenon"
+      "developed_in": "Ancient Greece"
     },
     {
-      "example_building": "Colosseum"
+      "developed_in": "Roman Empire"
     },
     {
-      "architect": "Ictinus"
+      "characterized_by": "Orders (architecture)"
     },
     {
-      "architect": "Phidias"
+      "associated_with": "Vitruvius"
     },
     {
-      "order_type_includes": "Doric order"
+      "influenced": "Baroque Architecture"
     },
     {
-      "order_type_includes": "Corinthian order"
+      "part_of": "Architectural Styles"
     }
   ]
 }

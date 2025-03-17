@@ -10,38 +10,39 @@
     "religion": "Christianity (primarily)",
     "ancestry": "Various European nations",
     "cultural_influence": "Significant on US culture",
-    "average_income": "$78,000 (2022)"
+    "average_income": "$78,000 (2022)",
+    "type": "Ethnic group"
   },
   "relationship": [
     {
-      "part_of": "American people"
+      "instance_of": "human_group"
     },
     {
-      "descended_from": "European people"
+      "part_of": "humanity"
     },
     {
-      "influenced": "American culture"
+      "originates_from": "Europe"
     },
     {
-      "migration_pattern": "European migration"
+      "located_in": "United States"
     },
     {
-      "related_to": "White Americans"
+      "related_to": "Colonialism"
     },
     {
-      "contributor_to": "American history"
+      "influenced_by": "Western culture"
     },
     {
-      "settled_in": "North America"
+      "has_subgroup": "Irish Americans"
     },
     {
-      "subgroup_of": "White ethnicity"
+      "has_subgroup": "German Americans"
     },
     {
-      "impact_on": "United States demographics"
+      "related_to": "American history"
     },
     {
-      "associated_with": "Colonialism"
+      "has_cultural_trait": "American culture"
     }
   ]
 }

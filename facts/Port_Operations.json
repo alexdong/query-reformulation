@@ -10,38 +10,39 @@
     "regulation_body": "International Maritime Organization (IMO)",
     "economic_impact": "Trade facilitation, Job creation",
     "security_concerns": "Cargo theft, Terrorism",
-    "environmental_impact": "Air/Water pollution, Noise"
+    "environmental_impact": "Air/Water pollution, Noise",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "part_of": "Supply Chain"
+      "has_location": "Port"
     },
     {
-      "supports": "International Trade"
+      "part_of": "SupplyChain"
     },
     {
-      "uses": "Container Ships"
+      "uses": "CargoShip"
     },
     {
-      "requires": "Dockworkers"
+      "employs": "Dockworker"
     },
     {
-      "managed_by": "Port Authority"
+      "regulated_by": "GovernmentAgency"
     },
     {
-      "impacts": "Maritime Economy"
+      "facilitates": "InternationalTrade"
     },
     {
-      "relies_on": "Infrastructure"
+      "requires": "MaritimeEquipment"
     },
     {
-      "affected_by": "Weather"
+      "connected_to": "TransportationNetwork"
     },
     {
-      "influenced_by": "Automation"
+      "generates": "EconomicActivity"
     },
     {
-      "connected_to": "Logistics"
+      "impacts": "MarineEnvironment"
     }
   ]
 }

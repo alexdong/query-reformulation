@@ -10,38 +10,39 @@
     "employee_count": "Approximately 100",
     "area_served": "Otago, Southland",
     "website": "https://www.taieri.co.nz/",
-    "legal_form": "Limited Liability Company"
+    "legal_form": "Limited Liability Company",
+    "type": "Company"
   },
   "relationship": [
     {
-      "subsidiary_of": "PGG Wrightson"
+      "instance_of": "business_entity"
     },
     {
-      "located_in": "Milton"
+      "located_in": "Otago Region"
+    },
+    {
+      "parent_organization": "Fletcher Building"
+    },
+    {
+      "industry": "Construction"
+    },
+    {
+      "subsidiary_of": "Fletcher Building"
+    },
+    {
+      "has_employee": "employee"
+    },
+    {
+      "produces_product": "construction_materials"
+    },
+    {
+      "has_supply_chain": "supplier"
+    },
+    {
+      "has_customer": "customer"
     },
     {
       "operates_in": "New Zealand"
-    },
-    {
-      "provides": "Fertilizer"
-    },
-    {
-      "provides": "Seeds"
-    },
-    {
-      "serves": "Farmers"
-    },
-    {
-      "part_of": "New Zealand economy"
-    },
-    {
-      "competitor": "Ravensdown"
-    },
-    {
-      "supplier_of": "Agricultural products"
-    },
-    {
-      "member_of": "Co-operative movement"
     }
   ]
 }

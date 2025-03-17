@@ -1,7 +1,6 @@
 {
-  "entity": "Southland (TV series)",
+  "entity": "Southland  TV series ",
   "properties": {
-    "instance_of": "Television series",
     "creator": "Jonathan Banks",
     "genre": "Crime drama",
     "country_of_origin": "United States",
@@ -10,38 +9,39 @@
     "network": "TNT",
     "number_of_seasons": "5",
     "setting": "Los Angeles",
-    "language": "English"
+    "language": "English",
+    "type": "Television series"
   },
   "relationship": [
     {
-      "created_by": "Jonathan Banks"
+      "instance_of": "television_series"
     },
     {
-      "genre_similar_to": "The Shield"
+      "creator": "Paul Haggis"
     },
     {
-      "genre_similar_to": "Miami Vice"
+      "country_of_origin": "United States"
     },
     {
-      "starring": "Benjamin Bratt"
+      "genre": "crime_drama"
     },
     {
-      "starring": "Michael Cudlitz"
+      "language": "English language"
     },
     {
-      "starring": "Regina King"
+      "production_company": "Vancouver Media Productions"
     },
     {
-      "starring": "Kevin Williamson"
+      "network": "FX"
     },
     {
-      "setting_location": "Los Angeles County"
+      "depicts": "Los Angeles"
     },
     {
-      "executive_producer": "John Wells"
+      "has_part": "episode"
     },
     {
-      "influenced": "Justified"
+      "character": "Benny Snell"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "art_forms": "Jazz, Blues, Hollywood Cinema",
     "food_staple": "Fast Food, BBQ",
     "values": "Individualism, Freedom, Equality",
-    "historical_period": "Post-Colonial Era"
+    "historical_period": "Post-Colonial Era",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "influenced_by": "European Culture"
+      "influenced_by": "European culture"
     },
     {
-      "influenced_by": "African Culture"
+      "shaped_by": "Indigenous peoples of the Americas"
     },
     {
-      "influenced_by": "Indigenous Cultures"
+      "part_of": "World culture"
     },
     {
-      "impacts": "Global Culture"
-    },
-    {
-      "associated_with": "Hollywood"
+      "has_characteristic": "Individualism"
     },
     {
       "associated_with": "American Dream"
     },
     {
-      "associated_with": "Baseball"
+      "created_by": "Immigration"
     },
     {
-      "influenced": "Popular Music"
+      "manifests_in": "Popular music"
     },
     {
-      "shaped_by": "Immigration"
+      "influenced_by": "Slavery"
     },
     {
-      "part_of": "Western Culture"
+      "associated_with": "Consumerism"
+    },
+    {
+      "shaped_by": "American Revolution"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Premier Team",
   "properties": {
-    "instance_of": "Sports team",
     "sport": "Basketball",
     "country": "Philippines",
     "league": "Philippine Basketball Association (PBA)",
@@ -10,38 +9,39 @@
     "team_color": "Red and White",
     "owner": "San Miguel Corporation",
     "arena": "Mall of Asia Arena",
-    "dissolved": "2012"
+    "dissolved": "2012",
+    "type": "Sports team"
   },
   "relationship": [
     {
-      "part_of": "San Miguel Corporation"
+      "instance_of": "sports team"
     },
     {
-      "competes_in": "Philippine Basketball Association (PBA)"
+      "team_sport": "basketball"
     },
     {
-      "coach": "Tim Cone"
+      "country": "United States"
     },
     {
-      "player": "Smokey Si"
+      "league": "National Basketball Association"
     },
     {
-      "player": "Eric Castro"
+      "headquarters_location": "Charlotte, North Carolina"
     },
     {
-      "player": "Johnny Abarzua"
+      "owner": "Michael Jordan"
     },
     {
-      "rival": "Talk 'n Text"
+      "coach": "Steve Clifford"
     },
     {
-      "predecessor": "San Miguel Beermen"
+      "player": "LaMelo Ball"
     },
     {
-      "successor": "San Miguel Beermen"
+      "sponsored_by": "Lowe's"
     },
     {
-      "won_award": "Philippine Basketball Association Finals"
+      "arena": "Spectrum Center"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "awards": "NZ Listener Food Writer of the Year",
     "restaurant_owner": "True",
     "influential_in": "New Zealand cuisine",
-    "residence": "Auckland"
+    "residence": "Auckland",
+    "type": "Chef"
   },
   "relationship": [
     {
-      "founder_of": "The Seeto Group"
+      "instance_of": "human"
     },
     {
-      "cuisine_style": "Cantonese cuisine"
+      "occupation": "chef"
     },
     {
-      "cuisine_style": "Japanese cuisine"
+      "employed_by": "The Fat Duck"
     },
     {
-      "cuisine_style": "Thai cuisine"
+      "educated_at": "University of Otago"
     },
     {
-      "cuisine_style": "Vietnamese cuisine"
+      "nationality": "New Zealander"
     },
     {
-      "located_in": "Auckland"
+      "member_of": "Culinary Institute of America"
     },
     {
-      "alumni_of": "University of Otago"
+      "award_recipient_for": "Restaurant of the Year"
     },
     {
-      "influenced": "New Zealand restaurants"
+      "influenced_by": "Heston Blumenthal"
     },
     {
-      "award_recipient_of": "NZ Listener Food Writer of the Year"
+      "sibling_of": "David Seeto"
     },
     {
-      "business_partner": "Various"
+      "child_of": "Seeto family"
     }
   ]
 }

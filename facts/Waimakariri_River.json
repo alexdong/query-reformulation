@@ -10,38 +10,39 @@
     "average_flow": "150 m³/s",
     "name_origin": "Māori (Waimakariri)",
     "river_type": "Alluvial",
-    "ecological_importance": "Habitat for native fish"
+    "ecological_importance": "Habitat for native fish",
+    "type": "River"
   },
   "relationship": [
     {
-      "flows_through": "Canterbury Region"
+      "flows_into": "Pūrua River"
+    },
+    {
+      "flows_into": "Waipara River"
+    },
+    {
+      "flows_into": "Kaiapoi River"
+    },
+    {
+      "located_in_administrative_division": "Canterbury Region"
+    },
+    {
+      "flows_through_administrative_division": "Selwyn District"
     },
     {
       "tributary_of": "Pacific Ocean"
     },
     {
-      "source_location": "Southern Alps"
+      "source_of": "Waimakariri-Waitaha Regional Council"
     },
     {
-      "passes_near": "Christchurch"
+      "has_feature": "Waimakariri Bridge"
     },
     {
-      "discharges_into": "Kaiapoi Harbour"
+      "has_feature": "Lake Ellesmere (Te Roto o Wairewa)"
     },
     {
-      "part_of": "Canterbury Plains"
-    },
-    {
-      "influenced_by": "glacial activity"
-    },
-    {
-      "used_by": "Ngāi Tahu"
-    },
-    {
-      "supports": "brown trout"
-    },
-    {
-      "has_settlement": "Kaiapoi"
+      "part_of": "Christchurch-Lyttelton Transport Route"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "economic_impact": "Major",
     "governing_body": "United States",
     "mining_techniques": "Panning, sluicing, hydraulic mining",
-    "environmental_impact": "Severe"
+    "environmental_impact": "Severe",
+    "type": "HistoricalEvent"
   },
   "relationship": [
     {
       "part_of": "American West"
     },
     {
-      "preceded_by": "Mexican-American War"
+      "caused": "California Statehood"
     },
     {
-      "caused": "Population Boom"
+      "influenced": "American Migration"
     },
     {
-      "influenced": "Transcontinental Railroad"
+      "preceded_by": "Mexican California"
     },
     {
-      "impacted": "Native Americans"
+      "resulted_in": "Boomtowns"
     },
     {
-      "led_to": "San Francisco's Growth"
+      "involved": "Forty-Niners"
     },
     {
-      "involved": "Forty-niners"
+      "facilitated_by": "Gold Mining"
     },
     {
-      "related_to": "Sutter's Mill"
+      "impacted": "Native American populations"
     },
     {
-      "affected": "Agriculture"
+      "stimulated": "San Francisco (city)"
     },
     {
-      "contributed_to": "California Statehood"
+      "related_to": "Transcontinental Railroad"
     }
   ]
 }

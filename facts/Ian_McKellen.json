@@ -10,38 +10,39 @@
     "education": "University of Cambridge",
     "height": "1.78 m",
     "known_for": "Gandalf, Magneto",
-    "genre": "Drama, Fantasy"
+    "genre": "Drama, Fantasy",
+    "type": "Actor"
   },
   "relationship": [
+    {
+      "instance_of": "human"
+    },
+    {
+      "birthPlace": "Burlington, Vermont"
+    },
+    {
+      "occupation": "actor"
+    },
+    {
+      "educated_at": "Juilliard School"
+    },
+    {
+      "spouse": "Rebecca Broussard"
+    },
+    {
+      "child": "Claire McKellen"
+    },
     {
       "member_of": "Royal Shakespeare Company"
     },
     {
-      "starred_in": "Hamlet"
+      "award_received": "Academy Award"
     },
     {
-      "starred_in": "X-Men"
+      "film_appearance": "The Lord of the Rings: The Fellowship of the Ring"
     },
     {
-      "starred_in": "The Lord of the Rings"
-    },
-    {
-      "starred_in": "Gods and Monsters"
-    },
-    {
-      "directed": "Richard III (1995 film)"
-    },
-    {
-      "collaborated_with": "Judi Dench"
-    },
-    {
-      "influenced": "Benedict Cumberbatch"
-    },
-    {
-      "portrayed": "Magneto"
-    },
-    {
-      "portrayed": "Gandalf"
+      "country_of_citizenship": "United Kingdom"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Pedagogy",
   "properties": {
-    "instance_of": "Educational theory",
     "field_of_study": "Education",
     "focus": "Teaching methods",
     "origin": "Ancient Greece",
@@ -10,38 +9,39 @@
     "scope": "Learning process",
     "includes": "Curriculum design",
     "aspect": "Student-teacher interaction",
-    "goal": "Effective learning"
+    "goal": "Effective learning",
+    "type": "Educational theory"
   },
   "relationship": [
     {
-      "influenced_by": "Socrates"
+      "is_subfield_of": "Education"
     },
     {
-      "related_to": "Educational psychology"
+      "has_application_in": "Teaching"
     },
     {
-      "contrasts_with": "Andragogy"
+      "influenced_by": "Philosophy"
     },
     {
-      "developed_by": "Johann Heinrich Pestalozzi"
+      "related_to": "Psychology"
     },
     {
-      "related_to": "Constructivism"
+      "related_to": "Sociology"
     },
     {
-      "related_to": "Bloom's Taxonomy"
+      "has_historical_figure": "Johann Heinrich Pestalozzi"
     },
     {
-      "overlaps_with": "Curriculum"
+      "has_historical_figure": "Maria Montessori"
     },
     {
-      "part_of": "Teaching"
+      "has_historical_figure": "John Dewey"
+    },
+    {
+      "part_of": "Curriculum"
     },
     {
       "related_to": "Learning"
-    },
-    {
-      "influenced": "Teacher training"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Canada",
   "properties": {
-    "instance_of": "Country",
     "capital": "Ottawa",
     "official_languages": "English, French",
     "population": "38,250,000 (2023)",
@@ -10,38 +9,39 @@
     "continent": "North America",
     "government_type": "Parliamentary democracy",
     "national_symbol": "Maple Leaf",
-    "founding_date": "1867"
+    "founding_date": "1867",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "North America"
+      "located_in": "North America"
+    },
+    {
+      "part_of": "United Nations"
+    },
+    {
+      "member_of": "G7"
+    },
+    {
+      "has_capital": "Ottawa"
     },
     {
       "borders": "United States"
     },
     {
-      "influenced_by": "French colonization"
+      "has_official_language": "English language"
     },
     {
-      "influenced_by": "British colonization"
+      "has_official_language": "French language"
     },
     {
-      "historical_event": "Battle of Vimy Ridge"
+      "influenced_by": "British Empire"
     },
     {
-      "historical_event": "Confederation"
+      "has_national_symbol": "Maple leaf"
     },
     {
-      "historical_figure": "Sir John A. Macdonald"
-    },
-    {
-      "historical_figure": "Louis Riel"
-    },
-    {
-      "major_industry": "Natural Resources"
-    },
-    {
-      "member_of": "Commonwealth of Nations"
+      "has_head_of_state": "Monarch of Canada"
     }
   ]
 }

@@ -10,9 +10,13 @@
     "key_actor": "Farmers, consumers, retailers",
     "vulnerability": "Climate change, conflict",
     "goal": "Food security, sustainability",
-    "data_source": "FAO"
+    "data_source": "FAO",
+    "type": "System"
   },
   "relationship": [
+    {
+      "part_of": "Human Society"
+    },
     {
       "produces": "Food"
     },
@@ -20,28 +24,25 @@
       "impacts": "Environment"
     },
     {
-      "supports": "Agriculture"
-    },
-    {
-      "relies_on": "Labor"
-    },
-    {
-      "distributes_to": "Retail"
-    },
-    {
-      "consumes": "Consumer"
-    },
-    {
-      "influenced_by": "Technology"
-    },
-    {
-      "affects": "Public Health"
-    },
-    {
-      "linked_to": "Economy"
+      "requires": "Agriculture"
     },
     {
       "governed_by": "Government"
+    },
+    {
+      "supported_by": "Economy"
+    },
+    {
+      "influenced_by": "Culture"
+    },
+    {
+      "depends_on": "Labor"
+    },
+    {
+      "transforms": "Raw Materials"
+    },
+    {
+      "distributes_to": "Consumers"
     }
   ]
 }

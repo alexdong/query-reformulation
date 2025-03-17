@@ -1,45 +1,45 @@
 {
   "entity": "Immunology",
   "properties": {
-    "instance_of": "Scientific field",
     "subfield_of": "Biology",
     "focus": "Immune system",
     "related_to": "Medicine",
     "study_area": "Host defense",
     "key_concept": "Immune cells",
     "historical_figure": "Edward Jenner",
-    "application": "Vaccine development"
+    "application": "Vaccine development",
+    "type": "Scientific field"
   },
   "relationship": [
     {
-      "studies": "Immune system"
+      "subclass_of": "Biology"
+    },
+    {
+      "instance_of": "Medical specialty"
+    },
+    {
+      "study": "Immune system"
+    },
+    {
+      "deals_with": "Disease"
+    },
+    {
+      "related_to": "Genetics"
+    },
+    {
+      "related_to": "Cell biology"
     },
     {
       "related_to": "Pathology"
     },
     {
-      "overlaps_with": "Microbiology"
+      "application": "Vaccine development"
     },
     {
-      "influences": "Vaccine development"
+      "application": "Immunotherapy"
     },
     {
-      "investigates": "Autoimmune diseases"
-    },
-    {
-      "deals_with": "Infectious diseases"
-    },
-    {
-      "uses_technique": "Flow cytometry"
-    },
-    {
-      "studies_process": "Inflammation"
-    },
-    {
-      "analyzes": "Antigen presentation"
-    },
-    {
-      "impacts": "Transplantation"
+      "related_to": "Microbiology"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "impact_4": "Poverty",
     "affected_region_1": "Sub-Saharan Africa",
     "affected_region_2": "South Asia",
-    "measurement": "Population density"
+    "measurement": "Population density",
+    "type": "PopulationProblem"
   },
   "relationship": [
     {
-      "causes": "Resource scarcity"
+      "causes": "Resource depletion"
     },
     {
-      "impacts": "Climate change"
+      "exacerbates": "Environmental degradation"
     },
     {
-      "related_to": "Demographics"
-    },
-    {
-      "solution_approach": "Family planning"
+      "contributes_to": "Famine"
     },
     {
       "impacts": "Biodiversity loss"
     },
     {
+      "related_to": "Demographic transition"
+    },
+    {
       "linked_to": "Carrying capacity"
     },
     {
-      "impacts": "Urbanization"
+      "mitigated_by": "Family planning"
     },
     {
-      "related_to": "Malthusianism"
+      "associated_with": "Urbanization"
     },
     {
-      "impacts": "Water scarcity"
+      "influences": "Economic inequality"
     },
     {
-      "impacts": "Food security"
+      "studied_in": "Demography"
     }
   ]
 }

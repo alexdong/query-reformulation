@@ -10,38 +10,39 @@
     "nationality": "Italian",
     "father": "Pietro Bernini",
     "influenced_by": "Annibale Carracci",
-    "known_for": "Sculptures, Architecture"
+    "known_for": "Sculptures, Architecture",
+    "type": "Sculptor"
   },
   "relationship": [
+    {
+      "influenced": "Francesco Borromini"
+    },
     {
       "influenced": "Alessandro Algardi"
     },
     {
-      "collaborated_with": "Francesco Borromini"
+      "influenced": "Pietro da Cortona"
     },
     {
-      "student_of": "Pietro Bernini"
+      "member_of": "Baroque"
     },
     {
-      "worked_for": "Popes"
+      "employed_by": "Papal States"
     },
     {
-      "created": "Apollo and Daphne"
+      "created_work": "Apollo and Daphne"
     },
     {
-      "created": "Ecstasy of Saint Teresa"
+      "created_work": "Ecstasy of Saint Teresa"
     },
     {
-      "designed": "St. Peter's Basilica"
+      "located_in": "Rome"
     },
     {
-      "designed": "Piazza San Pietro"
+      "father_of": "Domenico Bernini"
     },
     {
-      "member_of": "Accademia dei Lincei"
-    },
-    {
-      "style_of": "Baroque art"
+      "influenced": "Michelangelo"
     }
   ]
 }

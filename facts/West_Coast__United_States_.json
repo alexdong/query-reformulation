@@ -1,5 +1,5 @@
 {
-  "entity": "West Coast (United States)",
+  "entity": "West Coast  United States ",
   "properties": {
     "region_type": "Geographic region",
     "location": "Western United States",
@@ -10,14 +10,18 @@
     "economy_type": "Diverse, Tech, Agriculture",
     "major_cities": "Los Angeles, Seattle, Portland",
     "terrain": "Coastline, Mountains, Forests",
-    "cultural_influence": "Hollywood, Music, Innovation"
+    "cultural_influence": "Hollywood, Music, Innovation",
+    "type": "Geopolitical region"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States"
     },
     {
-      "borders": "Pacific Ocean"
+      "part_of": "North America"
+    },
+    {
+      "borders": "Canada"
     },
     {
       "contains": "California"
@@ -29,19 +33,16 @@
       "contains": "Washington"
     },
     {
-      "economic_influence_on": "Global Economy"
+      "has_climate": "Mediterranean climate"
     },
     {
-      "cultural_influence_on": "American Culture"
+      "has_economy": "United States economy"
     },
     {
-      "major_industry": "Technology"
+      "influenced_by": "Pacific Ocean"
     },
     {
-      "landmark": "Golden Gate Bridge"
-    },
-    {
-      "natural_feature": "Sierra Nevada"
+      "has_population": "United States population"
     }
   ]
 }

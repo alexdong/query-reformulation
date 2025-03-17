@@ -10,38 +10,39 @@
     "ownership_type": "Privately held",
     "brand_portfolio": "Multiple",
     "retail_format": "Specialty stores",
-    "geographic_scope": "New Zealand"
+    "geographic_scope": "New Zealand",
+    "type": "Company"
   },
   "relationship": [
     {
-      "founded_by": "John Prebble"
+      "parentOrganization": "Prebble Group Limited"
     },
     {
-      "industry_sector": "Retail"
+      "industry": "Construction"
     },
     {
-      "location_is_in": "New Zealand"
+      "headquartersLocation": "Auckland"
     },
     {
-      "has_subsidiary": "The Warehouse"
+      "countryOfOrigin": "New Zealand"
     },
     {
-      "competitor_of": "Farmers"
+      "serviceArea": "New Zealand"
     },
     {
-      "has_brand": "Whitcoulls"
+      "subsidiaryOf": "Private Equity Firm"
     },
     {
-      "has_brand": "Mighty Ape"
+      "employeeCount": "100-499"
     },
     {
-      "has_brand": "The Crossing"
+      "foundedBy": "David Prebble"
     },
     {
-      "employs": "Retail employees"
+      "businessModel": "Contracting"
     },
     {
-      "operates_in": "Christchurch"
+      "clientOf": "Various Construction Projects"
     }
   ]
 }

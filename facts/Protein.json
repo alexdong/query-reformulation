@@ -1,7 +1,6 @@
 {
   "entity": "Protein",
   "properties": {
-    "instance_of": "Biomolecule",
     "chemical_formula": "C, H, O, N, S",
     "molecular_weight": "Variable",
     "building_block": "Amino acid",
@@ -10,38 +9,39 @@
     "found_in": "All living organisms",
     "dietary_source": "Meat, eggs, legumes",
     "essential": "Some amino acids",
-    "degradation": "Proteolysis"
+    "degradation": "Proteolysis",
+    "type": "Biomolecule"
   },
   "relationship": [
+    {
+      "instance_of": "Biological molecule"
+    },
+    {
+      "encoded_by": "Gene"
+    },
+    {
+      "interacts_with": "Protein"
+    },
     {
       "part_of": "Cell"
     },
     {
-      "involved_in": "Metabolism"
+      "located_in": "Organism"
     },
     {
-      "interacts_with": "DNA"
+      "has_function": "Biological process"
     },
     {
-      "synthesized_by": "Ribosome"
+      "regulated_by": "Transcription factor"
     },
     {
-      "composed_of": "Amino acid"
+      "participates_in": "Pathway"
     },
     {
-      "regulated_by": "Gene expression"
+      "is_a": "Macromolecule"
     },
     {
-      "affected_by": "pH"
-    },
-    {
-      "affected_by": "Temperature"
-    },
-    {
-      "studied_in": "Biochemistry"
-    },
-    {
-      "related_to": "Enzyme"
+      "modified_by": "Enzyme"
     }
   ]
 }

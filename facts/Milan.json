@@ -10,38 +10,39 @@
     "founded_by": "Cisalpine Republic",
     "time_zone": "CET",
     "postal_code": "20100",
-    "elevation": "122 m"
+    "elevation": "122 m",
+    "type": "City"
   },
   "relationship": [
+    {
+      "located_in": "Lombardy"
+    },
     {
       "part_of": "Italy"
     },
     {
-      "located_in": "Lombardy"
+      "has_population": "2390000"
+    },
+    {
+      "capital_of": "Lombardy"
+    },
+    {
+      "influenced_by": "Roman Empire"
     },
     {
       "has_landmark": "Duomo di Milano"
     },
     {
-      "has_landmark": "Teatro alla Scala"
+      "member_of": "European_Union"
     },
     {
-      "has_landmark": "Sforza Castle"
+      "has_sport_team": "AC Milan"
     },
     {
-      "is_a": "City"
+      "has_sport_team": "Inter Milan"
     },
     {
-      "influenced": "Italian fashion"
-    },
-    {
-      "connected_to": "Navigli"
-    },
-    {
-      "has_team": "AC Milan"
-    },
-    {
-      "has_team": "Inter Milan"
+      "founded_by": "Celtic tribes"
     }
   ]
 }

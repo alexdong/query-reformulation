@@ -10,38 +10,39 @@
     "deity": "None (non-theistic)",
     "ethical_system": "Eightfold Path",
     "goal": "Nirvana",
-    "philosophical_stance": "Anatta (no-self)"
+    "philosophical_stance": "Anatta (no-self)",
+    "type": "Religion"
   },
   "relationship": [
     {
-      "influenced": "Hinduism"
+      "instance_of": "religious_movement"
     },
     {
-      "influenced": "Taoism"
+      "part_of": "Indian religions"
     },
     {
-      "influenced": "Zen"
+      "founder": "Siddhartha Gautama"
     },
     {
-      "related_to": "Four Noble Truths"
+      "influenced": "Zen Buddhism"
     },
     {
-      "related_to": "Eightfold Path"
+      "influenced": "Tibetan Buddhism"
     },
     {
-      "related_to": "Karma"
+      "has_practice": "Meditation"
     },
     {
-      "related_to": "Reincarnation"
+      "has_belief": "Karma"
     },
     {
-      "practiced_in": "China"
+      "has_belief": "Rebirth"
     },
     {
-      "practiced_in": "Japan"
+      "influenced": "Mahayana Buddhism"
     },
     {
-      "practiced_in": "Thailand"
+      "has_text": "Tripitaka"
     }
   ]
 }

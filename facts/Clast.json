@@ -1,7 +1,6 @@
 {
   "entity": "Clast",
   "properties": {
-    "instance_of": "Software library",
     "developer": "Facebook",
     "language": "C++",
     "purpose": "Graph processing",
@@ -10,38 +9,39 @@
     "operating_system": "Cross-platform",
     "data_format": "Graph data",
     "architecture": "Distributed",
-    "primary_use": "Machine learning"
+    "primary_use": "Machine learning",
+    "type": "Software library"
   },
   "relationship": [
     {
-      "uses": "C++"
+      "instance_of": "Mineral"
     },
     {
-      "developed_by": "Facebook"
+      "part_of": "Rock"
     },
     {
-      "purpose_for": "Graph databases"
+      "formed_in": "Sedimentary rock"
     },
     {
-      "related_to": "Graph algorithms"
+      "composed_of": "Mineral grain"
     },
     {
-      "used_in": "Machine learning"
+      "has_property": "Hardness"
     },
     {
-      "alternative_to": "GraphLab"
+      "has_property": "Density"
     },
     {
-      "supports": "Distributed computing"
+      "has_property": "Cleavage"
     },
     {
-      "part_of": "Facebook infrastructure"
+      "found_in": "Sedimentary basin"
     },
     {
-      "influenced": "DGL (Deep Graph Library)"
+      "studied_by": "Geologist"
     },
     {
-      "used_for": "Recommendation systems"
+      "related_to": "Detrital sediment"
     }
   ]
 }

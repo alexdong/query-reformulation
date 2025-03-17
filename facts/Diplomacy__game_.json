@@ -1,7 +1,6 @@
 {
-  "entity": "Diplomacy (game)",
+  "entity": "Diplomacy  game ",
   "properties": {
-    "instance_of": "Board game",
     "designer": "Allan B. Calhamer",
     "genre": "Strategy",
     "number_of_players": "2-6",
@@ -10,38 +9,39 @@
     "theme": "World War I",
     "origin": "United States",
     "publication_date": "1971",
-    "language": "English"
+    "language": "English",
+    "type": "Board game"
   },
   "relationship": [
     {
-      "influenced": "Risk (game)"
+      "instance_of": "board game"
     },
     {
-      "influenced": "Axis & Allies"
+      "genre": "strategy game"
     },
     {
-      "requires": "Negotiation"
+      "theme": "international relations"
     },
     {
-      "requires": "Bluffing"
+      "developer": "Avalon Hill"
     },
     {
-      "requires": "Strategic planning"
+      "publication_date": "1982"
     },
     {
-      "game_type": "Geopolitical"
+      "influenced_by": "realpolitik"
     },
     {
-      "setting": "Europe"
+      "requires": "dice"
     },
     {
-      "setting": "Middle East"
+      "requires": "game board"
     },
     {
-      "country_represented": "Great Britain"
+      "requires": "playing pieces"
     },
     {
-      "country_represented": "Germany"
+      "has_variant": "Diplomacy: Renaissance"
     }
   ]
 }

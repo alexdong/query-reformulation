@@ -1,7 +1,6 @@
 {
   "entity": "South Australia",
   "properties": {
-    "instance_of": "State",
     "capital": "Adelaide",
     "country": "Australia",
     "area_km2": "412,400",
@@ -10,38 +9,39 @@
     "official_language": "English",
     "time_zone": "ACST",
     "established": "1836",
-    "state_flower": "Golden Wattle"
+    "state_flower": "Golden Wattle",
+    "type": "State"
   },
   "relationship": [
     {
+      "located_in": "Australia"
+    },
+    {
       "part_of": "Australia"
-    },
-    {
-      "borders": "Victoria"
-    },
-    {
-      "borders": "New South Wales"
-    },
-    {
-      "borders": "Northern Territory"
     },
     {
       "has_capital": "Adelaide"
     },
     {
-      "contains": "Barossa Valley"
+      "borders_on": "Victoria"
     },
     {
-      "contains": "Kangaroo Island"
+      "borders_on": "New South Wales"
     },
     {
-      "contains": "Flinders Ranges"
+      "borders_on": "Northern Territory"
     },
     {
-      "governed_by": "Steven Marshall"
+      "has_governing_body": "Government of South Australia"
     },
     {
-      "member_of": "Commonwealth of Australia"
+      "has_economy": "Economy of South Australia"
+    },
+    {
+      "has_population": "Population of South Australia"
+    },
+    {
+      "has_geographical_feature": "Flinders Ranges"
     }
   ]
 }

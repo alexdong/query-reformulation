@@ -10,38 +10,39 @@
     "style": "Modernism, Blues, Jazz",
     "impact": "Cultural Revival, Civil Rights Movement",
     "decline_reason": "Great Depression",
-    "legacy": "Foundation for Black Arts"
+    "legacy": "Foundation for Black Arts",
+    "type": "ArtisticMovement"
   },
   "relationship": [
     {
-      "influenced": "Civil Rights Movement"
+      "part_of": "African American culture"
     },
     {
-      "preceded_by": "New Negro Movement"
+      "influenced": "Jazz music"
     },
     {
-      "contemporary_with": "Jazz Age"
+      "influenced": "Black Arts Movement"
     },
     {
-      "involved_artist": "Langston Hughes"
+      "located_in": "Harlem"
     },
     {
-      "involved_artist": "Zora Neale Hurston"
+      "time_period": "1920s"
     },
     {
-      "involved_artist": "Duke Ellington"
+      "preceded_by": "Great Migration"
     },
     {
-      "involved_artist": "Aaron Douglas"
+      "influenced": "Literature"
     },
     {
-      "location_is_in": "New York City"
+      "influenced": "Visual arts"
     },
     {
-      "part_of": "African American Culture"
+      "associated_with": "Langston Hughes"
     },
     {
-      "related_to": "Great Migration"
+      "associated_with": "Zora Neale Hurston"
     }
   ]
 }

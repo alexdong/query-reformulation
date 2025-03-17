@@ -1,5 +1,5 @@
 {
-  "entity": "Mi'kmaq",
+  "entity": "Mi kmaq",
   "properties": {
     "native_name": "Mi'kmaq",
     "location": "Atlantic Canada",
@@ -10,38 +10,39 @@
     "traditions": "Oral history, storytelling",
     "economy": "Historically hunting/fishing, now diverse",
     "governance": "Chiefs and Councils",
-    "territory": "Gesgapegiag"
+    "territory": "Gesgapegiag",
+    "type": "Indigenous people"
   },
   "relationship": [
     {
-      "part_of": "Indigenous peoples"
+      "instance_of": "Indigenous peoples"
     },
     {
-      "related_to": "Wabanaki Confederacy"
-    },
-    {
-      "language_family": "Algonquian languages"
+      "part_of": "Mi'kmaq Confederacy"
     },
     {
       "located_in": "Canada"
     },
     {
-      "influenced_by": "French colonization"
+      "located_in": "United States"
     },
     {
-      "treaty_with": "British Empire"
+      "has_language": "Miꞌkmaq language"
     },
     {
-      "ancestor_of": "Gesgapegiag"
+      "has_culture": "Mi'kmaq culture"
     },
     {
-      "has_member": "Rita Joe"
+      "has_traditional_territory": "Mi'kmaq territory"
     },
     {
-      "has_member": "Pauline Metallic"
+      "related_to": "Treaty of Paris (1763)"
     },
     {
-      "shares_territory_with": "Acadians"
+      "interacts_with": "European settlers"
+    },
+    {
+      "has_ancestor": "Beothuk"
     }
   ]
 }

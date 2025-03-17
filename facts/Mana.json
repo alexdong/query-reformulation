@@ -1,7 +1,6 @@
 {
   "entity": "Mana",
   "properties": {
-    "instance_of": "Concept",
     "origin": "Polynesian culture",
     "meaning": "Spiritual power",
     "associated_with": "Life force",
@@ -10,38 +9,39 @@
     "related_to": "Tapu",
     "found_in": "Oceania",
     "synonym": "Wairua",
-    "concept_type": "Energy"
+    "concept_type": "Energy",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "part_of": "Polynesian mythology"
+      "instance_of": "magical_power"
     },
     {
-      "related_to": "Tapu"
+      "controlled_by": "Mage"
     },
     {
-      "associated_with": "Wairua"
+      "used_for": "spellcasting"
     },
     {
-      "used_in": "Hawaiian religion"
+      "source_of": "magical_effect"
     },
     {
-      "used_in": "Maori culture"
+      "manifestation_of": "spiritual_energy"
     },
     {
-      "concept_related": "Ki"
+      "related_to": "mana_system"
     },
     {
-      "concept_related": "Prana"
+      "associated_with": "elemental_magic"
     },
     {
-      "influences": "Fantasy literature"
+      "influences": "magical_ability"
     },
     {
-      "appears_in": "Final Fantasy"
+      "depleted_by": "spell_casting"
     },
     {
-      "concept_related": "Animism"
+      "regenerates_through": "meditation"
     }
   ]
 }

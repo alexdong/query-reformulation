@@ -1,5 +1,5 @@
 {
-  "entity": "Māori culture",
+  "entity": "Māori Culture",
   "properties": {
     "origin": "New Zealand",
     "ancestral_language": "Te Reo Māori",
@@ -10,38 +10,39 @@
     "traditional_weapon": "Māori weaponry",
     "traditional_clothing": "Piupiu (flax skirt), Korowai (cloak)",
     "oral_tradition": "Pūrākau (myth/legend), Whakataukī (proverb)",
-    "contemporary_status": "Revitalization efforts"
+    "contemporary_status": "Revitalization efforts",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "part_of": "Polynesian culture"
+      "instance_of": "intangible_cultural_heritage"
     },
     {
-      "related_to": "Treaty of Waitangi"
+      "part_of": "Polynesian_culture"
     },
     {
-      "language_of": "Aotearoa (New Zealand)"
+      "located_in": "New_Zealand"
     },
     {
-      "influenced_by": "Pacific Islander mythology"
+      "has_language": "Māori_language"
     },
     {
-      "practiced_by": "Māori people"
+      "created_by": "Māori_people"
     },
     {
-      "has_artform": "Tā moko (tattoo)"
+      "influenced_by": "Pacific_Ocean_cultures"
     },
     {
-      "has_ceremony": "Tangihanga (funeral)"
+      "has_art_form": "Māori_art"
     },
     {
-      "has_custom": "Koha (gift-giving)"
+      "has_tradition": "Kapa_Haka"
     },
     {
-      "location": "Aotearoa (New Zealand)"
+      "associated_with": "Treaty_of_Waitangi"
     },
     {
-      "influenced": "New Zealand identity"
+      "has_concept": "Mana"
     }
   ]
 }

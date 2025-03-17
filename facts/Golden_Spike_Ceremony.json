@@ -10,38 +10,39 @@
     "ceremonial_act": "Driving of the Golden Spike",
     "spike_material": "Gold",
     "railroad_gauge": "Standard gauge",
-    "historical_significance": "National symbol of progress"
+    "historical_significance": "National symbol of progress",
+    "type": "Event"
   },
   "relationship": [
+    {
+      "instance_of": "ceremony"
+    },
     {
       "part_of": "Transcontinental Railroad"
     },
     {
-      "involved_company": "Central Pacific Railroad"
+      "occurred_at": "Promontory Summit"
     },
     {
-      "involved_company": "Union Pacific Railroad"
+      "involved_event": "completion of a railway"
     },
     {
-      "attended_by": "Ulysses S. Grant"
+      "participant": "Leland Stanford"
     },
     {
-      "attended_by": "William H. Seward"
+      "participant": "Collis Huntington"
     },
     {
-      "attended_by": "Virgil E. Dickson"
+      "participant": "Thomas Durant"
     },
     {
-      "location_is_in": "Utah"
+      "participant": "William H. Miller"
     },
     {
-      "influenced": "American westward expansion"
+      "date": "1869-05-10"
     },
     {
-      "preceded_by": "Pacific Railroad Act"
-    },
-    {
-      "followed_by": "Railroad expansion"
+      "influenced_by": "railroad construction"
     }
   ]
 }

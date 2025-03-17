@@ -10,38 +10,39 @@
     "harmonic_structure": "Complex chords",
     "rhythm": "Syncopation",
     "influence": "Blues, Ragtime, European harmony",
-    "legacy": "Significant cultural impact"
+    "legacy": "Significant cultural impact",
+    "type": "MusicGenre"
   },
   "relationship": [
     {
-      "influenced": "Blues"
+      "instance_of": "music genre"
     },
     {
-      "influenced": "Ragtime"
+      "subclass_of": "American music"
     },
     {
-      "influenced": "Swing Music"
+      "influenced_by": "Blues"
     },
     {
-      "influenced": "Bebop"
+      "influenced_by": "Ragtime"
     },
     {
-      "subgenre_of": "American Music"
+      "influenced_by": "European classical music"
     },
     {
-      "associated_with": "Louis Armstrong"
+      "has_theme": "Improvisation"
     },
     {
-      "associated_with": "Duke Ellington"
+      "associated_with_event": "Harlem Renaissance"
     },
     {
-      "associated_with": "Charlie Parker"
+      "created_by": "African American musicians"
     },
     {
-      "associated_with": "Miles Davis"
+      "has_instrument": "Saxophone"
     },
     {
-      "has_style": "Improvisation"
+      "has_instrument": "Trumpet"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "building_materials": "Stone",
     "common_building_types": "Churches, Castles, Monasteries",
     "decoration": "Sculptural Ornamentation",
-    "geographic_spread": "Western, Central, Eastern Europe"
+    "geographic_spread": "Western, Central, Eastern Europe",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "influenced": "Gothic Architecture"
+      "influenced": "Byzantine Architecture"
     },
     {
-      "preceded_by": "Carolingian Architecture"
-    },
-    {
-      "part_of": "Medieval Architecture"
+      "influenced_by": "Carolingian Architecture"
     },
     {
       "located_in": "Europe"
     },
     {
-      "example_of": "Architectural Style"
+      "part_of": "Medieval Architecture"
     },
     {
-      "building_material": "Stone"
+      "created_by": "Romanesque Builders"
     },
     {
-      "architect": "Unknown"
+      "has_style": "Romanesque Sculpture"
     },
     {
-      "feature": "Round Arch"
+      "has_feature": "Round Arch"
     },
     {
-      "building_type": "Church"
+      "has_feature": "Barrel Vault"
     },
     {
-      "building_type": "Castle"
+      "used_for": "Religious Buildings"
+    },
+    {
+      "influenced": "Gothic Architecture"
     }
   ]
 }

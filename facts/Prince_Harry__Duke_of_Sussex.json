@@ -1,5 +1,5 @@
 {
-  "entity": "Prince Harry, Duke of Sussex",
+  "entity": "Prince Harry  Duke of Sussex",
   "properties": {
     "birth_name": "Henry Charles Albert David",
     "birth_date": "1984-09-15",
@@ -10,38 +10,39 @@
     "spouse": "Meghan Markle",
     "children": "2",
     "education": "Eton College, Royal Military Academy Sandhurst",
-    "military_rank": "Captain"
+    "military_rank": "Captain",
+    "type": "Royal"
   },
   "relationship": [
     {
-      "parent": "Charles III"
+      "instance_of": "British royal family member"
     },
     {
-      "parent": "Diana, Princess of Wales"
+      "parent_of": "Archie Mountbatten-Windsor"
     },
     {
-      "sibling": "Prince William"
+      "parent_of": "Lilibet Mountbatten-Windsor"
     },
     {
-      "member_of": "British Royal Family"
+      "spouse_of": "Meghan, Duchess of Sussex"
+    },
+    {
+      "sibling_of": "Prince William, Duke of Cambridge"
+    },
+    {
+      "member_of": "British Armed Forces"
+    },
+    {
+      "child_of": "Charles III"
+    },
+    {
+      "child_of": "Diana, Princess of Wales"
     },
     {
       "member_of": "House of Windsor"
     },
     {
-      "attended": "Eton College"
-    },
-    {
-      "served_in": "British Army"
-    },
-    {
-      "married_to": "Meghan Markle"
-    },
-    {
-      "child_of": "Charles, Prince of Wales"
-    },
-    {
-      "grandparent": "Queen Elizabeth II"
+      "award_recipient_for": "Military Cross"
     }
   ]
 }

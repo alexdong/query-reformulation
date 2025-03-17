@@ -10,38 +10,39 @@
     "period": "English Renaissance, Early Modern",
     "literary_genre": "Epic poetry, verse",
     "religious_affiliation": "Puritan",
-    "blindness_start": "1651"
+    "blindness_start": "1651",
+    "type": "LiteraryWork"
   },
   "relationship": [
     {
-      "influenced": "Romanticism"
+      "instance_of": "human"
     },
     {
-      "influenced": "English literature"
+      "birthPlace": "Cheapside, London"
+    },
+    {
+      "deathPlace": "Bunhill Row, London"
     },
     {
       "educated_at": "Christ's College, Cambridge"
     },
     {
-      "preceded_by": "Edmund Spenser"
+      "member_of": "Parliament of England"
     },
     {
-      "followed_by": "Alexander Pope"
+      "influenced_by": "William Shakespeare"
     },
     {
-      "wrote": "Paradise Lost"
+      "influenced": "William Blake"
     },
     {
-      "wrote": "Paradise Regained"
+      "work_of": "Paradise Lost"
     },
     {
-      "wrote": "Samson Agonistes"
+      "work_of": "Paradise Regained"
     },
     {
-      "married_to": "Mary Powell"
-    },
-    {
-      "father_of": "Anne Milton"
+      "work_of": "Samson Agonistes"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Investment",
   "properties": {
-    "instance_of": "Financial activity",
     "purpose": "Asset growth",
     "risk_level": "Variable",
     "return_type": "Potential profit",
@@ -10,38 +9,39 @@
     "legal_form": "Various",
     "tax_implications": "Complex",
     "liquidity": "Variable",
-    "goal": "Financial objectives"
+    "goal": "Financial objectives",
+    "type": "Financial activity"
   },
   "relationship": [
     {
-      "requires": "Capital"
+      "has_financial_instrument": "Security"
     },
     {
-      "involves": "Risk"
+      "part_of": "Portfolio"
     },
     {
-      "generates": "Return"
+      "has_risk": "Risk"
     },
     {
-      "type_of": "Financial planning"
+      "has_return": "FinancialReturn"
     },
     {
-      "related_to": "Portfolio"
+      "managed_by": "InvestmentManager"
     },
     {
-      "impacts": "Economy"
+      "has_asset": "Asset"
     },
     {
-      "requires": "Due diligence"
+      "has_strategy": "InvestmentStrategy"
     },
     {
-      "type_of": "Asset allocation"
+      "has_objective": "InvestmentObjective"
     },
     {
-      "governed_by": "Securities law"
+      "has_performance": "FinancialPerformance"
     },
     {
-      "influences": "Market"
+      "has_sector": "Industry"
     }
   ]
 }

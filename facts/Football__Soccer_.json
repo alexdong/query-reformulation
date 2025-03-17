@@ -1,7 +1,6 @@
 {
-  "entity": "Football (Soccer)",
+  "entity": "Football  Soccer ",
   "properties": {
-    "instance_of": "Team sport",
     "sport_type": "Ball sport",
     "origin": "England",
     "governing_body": "FIFA",
@@ -10,38 +9,39 @@
     "objective": "Score goals",
     "field_surface": "Grass/Artificial turf",
     "scoring_method": "Goal",
-    "popularity": "Global"
+    "popularity": "Global",
+    "type": "Team sport"
   },
   "relationship": [
     {
-      "played_in": "FIFA World Cup"
+      "instance_of": "sport"
+    },
+    {
+      "has_variant": "American football"
+    },
+    {
+      "played_in": "stadium"
     },
     {
       "governed_by": "FIFA"
     },
     {
-      "played_on": "Football pitch"
+      "has_participant": "footballer"
     },
     {
-      "equipment_used": "Football (ball)"
+      "used_in": "football match"
     },
     {
-      "rule_defined_by": "Laws of the Game"
+      "part_of": "team sport"
     },
     {
-      "player_position": "Goalkeeper"
+      "has_rule": "Laws of the Game"
     },
     {
-      "player_position": "Defender"
+      "related_to": "ball sport"
     },
     {
-      "player_position": "Midfielder"
-    },
-    {
-      "player_position": "Forward"
-    },
-    {
-      "influenced": "Futsal"
+      "has_equipment": "football (ball)"
     }
   ]
 }

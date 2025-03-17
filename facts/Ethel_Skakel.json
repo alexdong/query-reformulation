@@ -10,38 +10,39 @@
     "spouse": "Hubert Skakel",
     "family_member_of": "Kennedy family",
     "education": "Hollywood High School",
-    "known_for": "Michael Skakel case"
+    "known_for": "Michael Skakel case",
+    "type": "Artist"
   },
   "relationship": [
     {
-      "spouse_of": "Hubert Skakel"
+      "instance_of": "human"
     },
     {
-      "parent_of": "Catherine Skakel"
+      "occupation": "actress"
     },
     {
-      "parent_of": "John Skakel"
+      "birth_place": "New York City"
     },
     {
-      "parent_of": "Robert Skakel"
+      "death_place": "Los Angeles"
     },
     {
-      "parent_of": "Marina Skakel"
+      "spouse": "Joseph Antony Szekely"
     },
     {
-      "related_to": "John F. Kennedy"
+      "child": "Alexander Szekely"
     },
     {
-      "related_to": "Rose Kennedy"
-    },
-    {
-      "involved_in": "Michael Skakel case"
+      "sibling": "Maria Skakel"
     },
     {
       "member_of": "Kennedy family"
     },
     {
-      "attended": "Hollywood High School"
+      "educated_at": "Chapman University"
+    },
+    {
+      "associated_with": "Theodore von Karmen"
     }
   ]
 }

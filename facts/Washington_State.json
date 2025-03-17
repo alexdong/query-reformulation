@@ -10,11 +10,21 @@
     "official_language": "English",
     "state_flower": "Coast Rhododendron",
     "state_bird": "American Robin",
-    "nicknames": "Evergreen State, Apple State"
+    "nicknames": "Evergreen State, Apple State",
+    "type": "AdministrativeDivision"
   },
   "relationship": [
     {
-      "part_of": "United States"
+      "located_in": "United States of America"
+    },
+    {
+      "part_of": "North America"
+    },
+    {
+      "has_capital": "Olympia"
+    },
+    {
+      "borders": "Canada"
     },
     {
       "borders": "Oregon"
@@ -23,25 +33,16 @@
       "borders": "Idaho"
     },
     {
-      "borders": "British Columbia"
+      "governed_by": "Government of Washington"
     },
     {
-      "located_in": "Pacific Northwest"
+      "has_industry": "Aerospace industry"
     },
     {
-      "contains": "Mount Rainier"
+      "has_landmark": "Mount Rainier"
     },
     {
-      "contains": "Puget Sound"
-    },
-    {
-      "industry": "Aerospace"
-    },
-    {
-      "industry": "Agriculture"
-    },
-    {
-      "governor": "Jay Inslee"
+      "has_river": "Columbia River"
     }
   ]
 }

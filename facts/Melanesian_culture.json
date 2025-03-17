@@ -10,38 +10,39 @@
     "economy": "Subsistence agriculture, Fishing",
     "music_genre": "Traditional Melanesian music",
     "dance_style": "Ceremonial dances",
-    "clothing": "Traditional barkcloth, woven fabrics"
+    "clothing": "Traditional barkcloth, woven fabrics",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "part_of": "Oceanic culture"
+      "part_of": "Austronesian peoples"
     },
     {
-      "located_in": "Pacific Ocean"
+      "located_in": "Melanesia"
     },
     {
-      "influenced_by": "Austronesian expansion"
+      "influenced_by": "Austronesian migration"
     },
     {
-      "shares_language_with": "Austronesian languages"
+      "has_art_form": "Melanesian art"
     },
     {
-      "shares_customs_with": "Polynesian culture"
+      "has_language": "Melanesian languages"
     },
     {
-      "includes_countries": "Fiji"
+      "has_religion": "Melanesian religions"
     },
     {
-      "includes_countries": "Solomon Islands"
+      "has_social_structure": "Big man system"
     },
     {
-      "includes_countries": "Vanuatu"
+      "influenced": "Pacific Islander culture"
     },
     {
-      "includes_countries": "New Caledonia"
+      "has_cuisine": "Melanesian cuisine"
     },
     {
-      "includes_countries": "Papua New Guinea"
+      "related_to": "Papua New Guinea"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "GDP_nominal": "$25.44 trillion (2022)",
     "sovereignty": "1776",
     "largest_city": "New York City",
-    "national_anthem": "The Star-Spangled Banner"
+    "national_anthem": "The Star-Spangled Banner",
+    "type": "Country"
   },
   "relationship": [
     {
       "part_of": "North America"
     },
     {
-      "borders": "Canada"
+      "located_in": "Earth"
     },
     {
-      "borders": "Mexico"
+      "has_capital": "Washington, D.C."
+    },
+    {
+      "has_government": "Federal government of the United States"
     },
     {
       "member_of": "United Nations"
     },
     {
-      "influenced": "Hollywood"
+      "influenced_by": "American Revolution"
     },
     {
-      "has_state": "California"
+      "has_currency": "United States dollar"
     },
     {
-      "has_state": "Texas"
+      "has_population": "United States Census Bureau"
     },
     {
-      "has_state": "Florida"
+      "has_leader": "President of the United States"
     },
     {
-      "leader": "Joe Biden"
-    },
-    {
-      "major_industry": "Technology"
+      "related_to": "Cold War"
     }
   ]
 }

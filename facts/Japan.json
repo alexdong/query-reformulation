@@ -10,38 +10,39 @@
     "national_dish": "Sushi",
     "national_sport": "Sumo wrestling",
     "GDP_nominal": "$4.23 trillion",
-    "geographic_location": "East Asia"
+    "geographic_location": "East Asia",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Asia"
+      "located_in": "Asia"
     },
     {
-      "borders": "North Korea"
+      "part_of": "East Asia"
     },
     {
-      "member_of": "G7"
+      "has_capital": "Tokyo"
     },
     {
-      "influenced": "Anime"
+      "influenced_by": "China"
     },
     {
-      "influenced": "Manga"
+      "has_neighbor": "South Korea"
     },
     {
-      "has_city": "Kyoto"
+      "has_neighbor": "Russia"
     },
     {
-      "has_city": "Osaka"
+      "member_of": "United Nations"
     },
     {
-      "has_mountain": "Mount Fuji"
+      "has_currency": "Japanese yen"
     },
     {
-      "historical_period": "Meiji era"
+      "has_government_form": "Unitary parliamentary constitutional monarchy"
     },
     {
-      "trade_partner": "United States"
+      "has_historical_event": "Meiji Restoration"
     }
   ]
 }

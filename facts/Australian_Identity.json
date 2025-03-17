@@ -10,38 +10,39 @@
     "national_symbol": "Southern Cross, Kangaroo",
     "sporting_culture": "Rugby, Cricket, Australian Rules Football",
     "artistic_expression": "Aboriginal art, bush poetry",
-    "contemporary_challenges": "Reconciliation, multiculturalism"
+    "contemporary_challenges": "Reconciliation, multiculturalism",
+    "type": "CulturalIdentity"
   },
   "relationship": [
     {
-      "influenced_by": "British Colonialism"
+      "instance_of": "national identity"
     },
     {
-      "impacted_by": "Indigenous Australians"
+      "located_in": "Australia"
     },
     {
-      "shaped_by": "Migration"
+      "influenced_by": "Indigenous Australians"
     },
     {
-      "connected_to": "Australian Culture"
+      "shaped_by": "British colonization"
     },
     {
-      "related_to": "Australian History"
+      "associated_with": "Australian English"
     },
     {
-      "manifests_in": "Australian Literature"
+      "associated_with": "Australian cuisine"
     },
     {
-      "reflected_in": "Australian Film"
+      "associated_with": "Australian art"
     },
     {
-      "associated_with": "Australian Politics"
+      "associated_with": "Australian sports"
     },
     {
-      "impacts": "Australian Economy"
+      "influenced_by": "multiculturalism"
     },
     {
-      "part_of": "Australian National Identity"
+      "related_to": "Australian values"
     }
   ]
 }

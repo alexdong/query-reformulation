@@ -10,38 +10,39 @@
     "major_periods": "Colonial, Romantic, Realist, Modern, Postmodern",
     "canon_status": "Established",
     "language": "English",
-    "critical_study": "Extensive"
+    "critical_study": "Extensive",
+    "type": "CreativeWork"
   },
   "relationship": [
     {
-      "influenced_by": "European Literature"
+      "instance_of": "literature"
     },
     {
-      "influenced": "World Literature"
+      "influenced_by": "English Literature"
     },
     {
-      "part_of": "Literature"
+      "influenced_by": "African Literature"
     },
     {
-      "related_to": "American History"
+      "influenced_by": "Native American Literature"
     },
     {
-      "includes_genre": "Novel"
+      "created_by": "American Authors"
     },
     {
-      "includes_genre": "Poetry"
+      "part_of": "World Literature"
     },
     {
-      "includes_genre": "Drama"
+      "historical_period": "American History"
     },
     {
-      "author_associated": "Mark Twain"
+      "genre": "Novel"
     },
     {
-      "author_associated": "Emily Dickinson"
+      "genre": "Poetry"
     },
     {
-      "author_associated": "F. Scott Fitzgerald"
+      "genre": "Short Story"
     }
   ]
 }

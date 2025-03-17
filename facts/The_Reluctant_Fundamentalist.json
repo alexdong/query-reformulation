@@ -1,7 +1,6 @@
 {
   "entity": "The Reluctant Fundamentalist",
   "properties": {
-    "instance_of": "Novel",
     "author": "Mohsin Hamid",
     "genre": "Satirical fiction",
     "publication_date": "2007",
@@ -10,38 +9,39 @@
     "themes": "Identity, alienation, post-9/11 world",
     "language": "English",
     "publisher": "Riverhead Books",
-    "awards": "Commonwealth Writers' Prize"
+    "awards": "Commonwealth Writers' Prize",
+    "type": "Novel"
   },
   "relationship": [
     {
-      "influenced": "Postcolonial literature"
+      "instance_of": "novel"
     },
     {
-      "author_nationality": "Pakistani-American"
+      "author": "Mohsin Hamid"
     },
     {
-      "setting_country": "Pakistan"
+      "publication_date": "2007"
     },
     {
-      "setting_country": "United States of America"
+      "genre": "literary fiction"
     },
     {
-      "deals_with": "Islam"
+      "subject": "Islam"
     },
     {
-      "deals_with": "Terrorism"
+      "subject": "immigration"
     },
     {
-      "deals_with": "Globalization"
+      "subject": "post-9/11 America"
     },
     {
-      "character_appears": "Changez"
+      "setting": "Pakistan"
     },
     {
-      "inspired_by": "9/11 attacks"
+      "setting": "United States of America"
     },
     {
-      "adaptation": "The Reluctant Fundamentalist (film)"
+      "theme": "identity"
     }
   ]
 }

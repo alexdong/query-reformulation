@@ -10,38 +10,39 @@
     "decoration": "Hieroglyphs, Reliefs, Paintings",
     "scale": "Massive, Grand",
     "influence": "Nubian, Mesopotamian",
-    "legacy": "Enduring, Iconic"
+    "legacy": "Enduring, Iconic",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "influenced": "Greek Architecture"
+      "influenced": "Greek architecture"
     },
     {
-      "built_by": "Ancient Egyptians"
+      "part_of": "Ancient Egyptian civilization"
     },
     {
-      "example_of": "Monumental Architecture"
+      "used_material": "Limestone"
     },
     {
-      "located_in": "Nile River Valley"
+      "created_by": "Ancient Egyptians"
     },
     {
-      "includes": "Pyramids"
+      "located_in": "Egypt"
     },
     {
-      "includes": "Temples"
+      "has_style": "Monumental architecture"
     },
     {
-      "includes": "Mastabas"
+      "has_feature": "Pylon"
     },
     {
-      "associated_with": "Egyptian Mythology"
+      "has_feature": "Hypostyle hall"
     },
     {
-      "design_feature": "Obelisks"
+      "influenced": "Roman architecture"
     },
     {
-      "example_structure": "Karnak Temple"
+      "related_to": "Egyptian mythology"
     }
   ]
 }

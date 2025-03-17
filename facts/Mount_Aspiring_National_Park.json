@@ -10,38 +10,39 @@
     "ecosystem": "Temperate rainforest, alpine",
     "climate": "Oceanic, cool",
     "geology": "Schist, granite",
-    "biodiversity": "High"
+    "biodiversity": "High",
+    "type": "ProtectedArea"
   },
   "relationship": [
     {
-      "part_of": "Fiordland World Heritage Site"
+      "located_in": "South Island (island)"
     },
     {
-      "adjacent_to": "Westland Tai Poutini National Park"
+      "part_of": "New Zealand"
     },
     {
-      "contains": "Dart River"
+      "administered_by": "Department of Conservation"
     },
     {
-      "contains": "Wilkin River"
+      "has_feature": "Mount Aspiring (mountain)"
     },
     {
-      "contains": "Lake Matheson"
+      "contains_biota": "New Zealand alpine ecosystem"
     },
     {
-      "flora_includes": "Beech forest"
+      "has_land_use": "Protected area"
     },
     {
-      "fauna_includes": "Kea"
+      "established_in": "1990"
     },
     {
-      "fauna_includes": "Brown trout"
+      "has_area": "212,000 hectares"
     },
     {
-      "activity_supported": "Tramping"
+      "adjacent_to": "Fiordland National Park"
     },
     {
-      "activity_supported": "Mountaineering"
+      "has_tourism_activity": "Hiking"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "historical_kingdoms": "Nri, Aro, Bonny",
     "economic_activity": "Agriculture, trade, entrepreneurship",
     "literacy_rate": "Approximately 65%",
-    "political_system": "Traditional chieftaincy, modern democracy"
+    "political_system": "Traditional chieftaincy, modern democracy",
+    "type": "Ethnic group"
   },
   "relationship": [
     {
       "part_of": "Nigeria"
     },
     {
-      "speaks": "Igbo language"
+      "has_language": "Igbo language"
     },
     {
-      "related_to": "Yoruba people"
+      "has_culture": "Igbo culture"
     },
     {
-      "related_to": "Hausa people"
+      "has_religion": "Christianity"
     },
     {
-      "influenced_by": "Christianity"
+      "has_religion": "Traditional Igbo religion"
     },
     {
-      "practice": "Traditional Igbo religion"
+      "has_historical_period": "Igbo Kingdom"
     },
     {
-      "located_in": "Igboland"
+      "related_to": "Igbo diaspora"
     },
     {
-      "historical_figure": "Nnamdi Azikiwe"
+      "has_cuisine": "Igbo cuisine"
     },
     {
-      "historical_event": "Igbo genocide"
+      "has_art": "Igbo art"
     },
     {
-      "associated_with": "Biafra"
+      "influenced_by": "Nri Kingdom"
     }
   ]
 }

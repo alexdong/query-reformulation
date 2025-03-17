@@ -1,7 +1,6 @@
 {
   "entity": "Geography",
   "properties": {
-    "instance_of": "Academic discipline",
     "field_of_study": "Earth sciences",
     "subfield": "Physical geography, Human geography",
     "focus": "Earth's surface, human populations",
@@ -10,38 +9,39 @@
     "origin": "Ancient Greece",
     "key_concept": "Location, place, region, movement, interaction",
     "scale": "Global, regional, local",
-    "application": "Urban planning, environmental management"
+    "application": "Urban planning, environmental management",
+    "type": "Academic discipline"
   },
   "relationship": [
     {
-      "studies": "Physical geography"
+      "instance_of": "Spatial entity"
     },
     {
-      "studies": "Human geography"
+      "part_of": "Earth"
     },
     {
-      "related_to": "Cartography"
+      "located_in": "Space"
     },
     {
-      "related_to": "Geology"
+      "has_feature": "Landform"
     },
     {
-      "related_to": "Climatology"
+      "has_feature": "Body of water"
     },
     {
-      "influenced_by": "Eratosthenes"
+      "has_feature": "Settlement"
     },
     {
-      "influenced_by": "Alexander von Humboldt"
+      "related_to": "Climate"
     },
     {
-      "uses": "GIS"
+      "related_to": "Ecology"
     },
     {
-      "studies_phenomena_in": "Biogeography"
+      "influenced_by": "Geology"
     },
     {
-      "studies_phenomena_in": "Political geography"
+      "has_attribute": "Elevation"
     }
   ]
 }

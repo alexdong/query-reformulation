@@ -10,9 +10,13 @@
     "writing_system": "Latin alphabet",
     "status": "Official in Tokelau",
     "influenced_by": "Tuvaluan, Samoan",
-    "typology": "Polysynthetic"
+    "typology": "Polysynthetic",
+    "type": "Language"
   },
   "relationship": [
+    {
+      "instance_of": "language"
+    },
     {
       "part_of": "Austronesian languages"
     },
@@ -20,28 +24,25 @@
       "spoken_in": "Tokelau"
     },
     {
-      "spoken_in": "New Zealand"
+      "has_variant": "Tokelauan dialects"
     },
     {
-      "spoken_in": "Samoa"
+      "related_to": "Polynesian language family"
     },
     {
-      "spoken_in": "Tuvalu"
+      "influenced_by": "Samoan language"
     },
     {
-      "related_to": "Tuvaluan language"
+      "influenced_by": "Tuvaluan language"
     },
     {
-      "related_to": "Samoan language"
+      "has_script": "Latin script"
     },
     {
-      "influenced": "New Zealand Sign Language"
+      "has_literature": "Tokelauan literature"
     },
     {
-      "has_dialect": "Fakaofo dialect"
-    },
-    {
-      "has_dialect": "Nukunonu dialect"
+      "documented_in": "Ethnologue"
     }
   ]
 }

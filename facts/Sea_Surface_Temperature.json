@@ -10,38 +10,39 @@
     "typical_range": "-2 to 32 °C",
     "data_source": "NOAA, NASA",
     "impact_on": "Weather patterns",
-    "influence_on": "Ocean currents"
+    "influence_on": "Ocean currents",
+    "type": "Quantity"
   },
   "relationship": [
     {
-      "affected_by": "Solar radiation"
+      "hasProperty": "Ocean"
     },
     {
-      "influences": "Hurricane intensity"
+      "isMeasuredBy": "Buoy"
     },
     {
-      "correlated_with": "El Niño"
+      "influences": "Ocean Currents"
     },
     {
-      "impacts": "Coral bleaching"
+      "affects": "Marine Ecosystems"
     },
     {
-      "measured_by": "Buoy"
+      "impacts": "Weather Patterns"
     },
     {
-      "observed_by": "Satellite"
+      "isAffectedBy": "Solar Radiation"
     },
     {
-      "part_of": "Climate system"
+      "isAffectedBy": "Atmospheric Pressure"
     },
     {
-      "affects": "Marine ecosystems"
+      "isInfluencedBy": "Wind"
     },
     {
-      "data_provided_by": "NOAA"
+      "isComponentOf": "Climate"
     },
     {
-      "related_to": "Ocean heat content"
+      "isRelatedTo": "Sea Ice"
     }
   ]
 }

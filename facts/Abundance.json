@@ -1,7 +1,6 @@
 {
   "entity": "Abundance",
   "properties": {
-    "instance_of": "Concept",
     "field": "Economics, Philosophy, Spirituality",
     "definition": "Plentiful supply",
     "opposite_of": "Scarcity",
@@ -10,38 +9,39 @@
     "focus": "Resource availability",
     "measurement": "Quantity, Value",
     "perception": "Subjective, Relative",
-    "impact": "Well-being, Sustainability"
+    "impact": "Well-being, Sustainability",
+    "type": "Concept"
   },
   "relationship": [
     {
-      "causes": "Prosperity"
+      "instance_of": "Prosperity"
     },
     {
-      "contrasted_with": "Scarcity"
+      "causes": "Growth"
     },
     {
-      "related_to": "Resource"
+      "results_in": "Well-being"
     },
     {
-      "influences": "Economics"
+      "is_a": "Virtue"
     },
     {
-      "studied_in": "Positive psychology"
+      "associated_with": "Gratitude"
     },
     {
-      "impacts": "Sustainability"
+      "manifests_as": "Opportunity"
     },
     {
-      "linked_to": "Law of Attraction"
+      "requires": "Mindfulness"
     },
     {
-      "associated_with": "Gaia hypothesis"
+      "supports": "Sustainability"
     },
     {
-      "concept_in": "Philosophy"
+      "related_to": "Wealth"
     },
     {
-      "part_of": "Ecological economics"
+      "promotes": "Flourishing"
     }
   ]
 }

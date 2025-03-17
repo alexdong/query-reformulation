@@ -10,38 +10,39 @@
     "father": "George VI",
     "mother": "Elizabeth Bowes-Lyon",
     "religion": "Anglican",
-    "education": "Private"
+    "education": "Private",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "reigned_over": "United Kingdom"
+      "instance_of": "monarch"
     },
     {
-      "predecessor": "George VI"
+      "country": "United Kingdom"
     },
     {
-      "successor": "Charles III"
-    },
-    {
-      "member_of": "British royal family"
+      "family_member": "Prince Philip, Duke of Edinburgh"
     },
     {
       "child_of": "George VI"
     },
     {
-      "spouse_of": "Philip, Duke of Edinburgh"
+      "spouse_of": "Prince Philip, Duke of Edinburgh"
     },
     {
-      "attended": "Buckingham Palace"
+      "has_role": "Supreme Governor of the Church of England"
     },
     {
-      "influenced": "Commonwealth of Nations"
+      "member_of": "Commonwealth of Nations"
     },
     {
-      "signed_into_law": "Statute"
+      "predecessor_of": "Charles III"
     },
     {
-      "visited": "United States"
+      "located_in": "Buckingham Palace"
+    },
+    {
+      "educated_at": "Eaglebrook School"
     }
   ]
 }

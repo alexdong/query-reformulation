@@ -10,38 +10,39 @@
     "known_for": "Emoji",
     "github_username": "mitchland",
     "contributor_to": "Unicode",
-    "award": "Webby Award"
+    "award": "Webby Award",
+    "type": "Artist"
   },
   "relationship": [
     {
-      "works_at": "GitHub"
+      "instance_of": "human"
     },
     {
-      "contributes_to": "Unicode Consortium"
+      "occupation": "musician"
     },
     {
-      "educated_at": "University of Melbourne"
+      "member_of": "The Devil Makes Three"
     },
     {
-      "involved_in": "Emoji standardization"
+      "plays_instrument": "banjo"
     },
     {
-      "member_of": "Unicode Technical Committee"
+      "plays_instrument": "guitar"
     },
     {
-      "influences": "Emoji design"
+      "influenced_by": "Bob Dylan"
     },
     {
-      "collaborates_with": "Jennifer Lee"
+      "influenced_by": "Tom Waits"
     },
     {
-      "design_role": "Emoji designer"
+      "collaborates_with": "Sean Watkins"
     },
     {
-      "award_received_from": "The Webby Awards"
+      "collaborates_with": "Grant Goodge"
     },
     {
-      "related_to": "Unicode character"
+      "record_label": "Rounder Records"
     }
   ]
 }

@@ -10,11 +10,24 @@
     "climate": "Varied",
     "geology": "Tectonic plates",
     "biome": "Diverse",
-    "economic_indicator": "Developed"
+    "economic_indicator": "Developed",
+    "type": "Continent"
   },
   "relationship": [
     {
       "part_of": "Earth"
+    },
+    {
+      "located_in": "Western Hemisphere"
+    },
+    {
+      "contains": "United States"
+    },
+    {
+      "contains": "Canada"
+    },
+    {
+      "contains": "Mexico"
     },
     {
       "borders": "Arctic Ocean"
@@ -26,22 +39,10 @@
       "borders": "Pacific Ocean"
     },
     {
-      "contains": "Canada"
-    },
-    {
-      "contains": "United States"
-    },
-    {
-      "contains": "Mexico"
-    },
-    {
-      "adjacent_to": "South America"
-    },
-    {
       "influenced_by": "Indigenous peoples"
     },
     {
-      "has_feature": "Rocky Mountains"
+      "has_geopolitical_region": "North American Free Trade Agreement"
     }
   ]
 }

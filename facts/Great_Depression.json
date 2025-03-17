@@ -10,20 +10,15 @@
     "inflation_rate": "-2.3%",
     "deflationary": "True",
     "recovery_method": "New Deal",
-    "severity": "Severe"
+    "severity": "Severe",
+    "type": "EconomicCrisis"
   },
   "relationship": [
     {
-      "preceded_by": "Roaring Twenties"
+      "caused_by": "Stock Market Crash of 1929"
     },
     {
-      "followed_by": "World War II"
-    },
-    {
-      "caused": "Dust Bowl"
-    },
-    {
-      "influenced": "Keynesian economics"
+      "contributed_to": "World War II"
     },
     {
       "affected": "United States"
@@ -32,16 +27,22 @@
       "affected": "Germany"
     },
     {
-      "affected": "Japan"
+      "influenced": "New Deal"
     },
     {
-      "response": "Social Security Act"
+      "preceded_by": "Roaring Twenties"
     },
     {
-      "response": "Agricultural Adjustment Act"
+      "resulted_in": "Dust Bowl"
     },
     {
-      "contributed_to": "Rise of Fascism"
+      "caused": "Bank Failures"
+    },
+    {
+      "impacted": "Unemployment"
+    },
+    {
+      "related_to": "Keynesian Economics"
     }
   ]
 }

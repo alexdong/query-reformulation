@@ -10,38 +10,39 @@
     "breeding_season": "October - March",
     "incubation_period": "70-80 days",
     "lifespan": "20-30 years",
-    "distribution": "Southern Ocean, New Zealand"
+    "distribution": "Southern Ocean, New Zealand",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "family": "Albatross"
+      "instance_of": "Albatross"
     },
     {
-      "order": "Procellariiformes"
+      "has_taxon_rank": "Species"
     },
     {
-      "class": "Aves"
+      "subclass_of": "Diomedeidae"
     },
     {
-      "kingdom": "Animalia"
+      "in_taxon": "Animal"
     },
     {
-      "preys_on": "Fish"
+      "found_in_biome": "Temperate oceanic"
     },
     {
-      "preys_on": "Squid"
+      "has_conservation_status": "Near Threatened"
     },
     {
-      "habitat_in": "New Zealand"
+      "interacts_with": "Southern Ocean"
     },
     {
-      "habitat_in": "Subantarctic Islands"
+      "feeds_on": "Fish"
     },
     {
-      "migration_route": "Southern Ocean"
+      "has_habitat": "Subantarctic islands"
     },
     {
-      "threat": "Climate Change"
+      "part_of": "New Zealand ecosystem"
     }
   ]
 }

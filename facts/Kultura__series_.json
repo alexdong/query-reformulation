@@ -1,7 +1,6 @@
 {
-  "entity": "Kultura (series)",
+  "entity": "Kultura  series ",
   "properties": {
-    "instance_of": "Science fiction series",
     "author": "Ilya Vashevskiy",
     "genre": "Science fiction",
     "publication_start_date": "1991",
@@ -10,38 +9,39 @@
     "number_of_books": "13",
     "themes": "Artificial intelligence, transhumanism, society",
     "narrative_perspective": "First-person",
-    "publisher": "AST"
+    "publisher": "AST",
+    "type": "Science fiction series"
   },
   "relationship": [
     {
-      "influenced": "Cyberpunk"
+      "instance_of": "book_series"
     },
     {
-      "author_writes": "Ilya Vashevskiy"
+      "publication_date": "1984"
     },
     {
-      "setting_takes_place_in": "Future"
+      "author": "Andrzej Sapkowski"
     },
     {
-      "genre_includes": "Science fiction"
+      "genre": "fantasy"
     },
     {
-      "character_appears": "Dmitry Shulga"
+      "subject": "Slavic mythology"
     },
     {
-      "character_appears": "Anna Polonskaya"
+      "character": "Geralt of Rivia"
     },
     {
-      "character_appears": "Gavril Zorin"
+      "character": "Yennefer of Vengerberg"
     },
     {
-      "setting_location": "Orbit"
+      "character": "Ciri"
     },
     {
-      "influenced_by": "Soviet science fiction"
+      "adapted_to": "The Witcher (video game series)"
     },
     {
-      "publication_language": "Russian language"
+      "inspired_by": "Slavic folklore"
     }
   ]
 }

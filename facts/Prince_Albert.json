@@ -10,38 +10,39 @@
     "father": "Duke Leopold I",
     "mother": "Princess Victoria of Saxe-Coburg-Saalfeld",
     "nationality": "British",
-    "education": "University of Bonn"
+    "education": "University of Bonn",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "spouse_of": "Victoria"
+      "instance_of": "monarch"
     },
     {
-      "father_of": "Victoria, Princess Royal"
+      "country": "Monaco"
     },
     {
-      "father_of": "Albert Medny"
+      "sibling": "Princess Caroline of Hanover"
     },
     {
-      "father_of": "Prince Leopold"
+      "spouse": "Grace Kelly"
     },
     {
-      "father_of": "Princess Alice"
+      "child": "Princess Alexandra of Hanover"
     },
     {
-      "member_of": "House of Saxe-Coburg and Gotha"
+      "member_of": "Grimaldi dynasty"
     },
     {
-      "influenced": "Public Works"
+      "educated_at": "University of Oxford"
     },
     {
-      "promoted": "Science"
+      "award": "Order of Merit"
     },
     {
-      "involved_in": "Great Exhibition"
+      "citizen_of": "Monaco"
     },
     {
-      "educated_at": "University of Bonn"
+      "occupation": "philanthropist"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "risk": "High degree of uncertainty",
     "data_used": "Geological data, seismic data, geochemical data",
     "regulation": "Subject to environmental regulations",
-    "outcome": "Resource assessment report"
+    "outcome": "Resource assessment report",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "part_of": "Mining industry"
+      "instance_of": "Exploration"
     },
     {
-      "uses": "Geophysics"
+      "part_of": "Geophysical Survey"
     },
     {
-      "uses": "Geology"
+      "used_by": "Mining"
     },
     {
-      "requires": "Geological survey"
+      "used_by": "Oil and Gas Industry"
     },
     {
-      "employs": "Seismic reflection"
+      "requires": "Geological Data"
     },
     {
-      "involves": "Drilling"
+      "requires": "Remote Sensing Data"
     },
     {
-      "results_in": "Resource assessment"
+      "produces": "Resource Assessment"
     },
     {
-      "impacts": "Environment"
+      "performed_by": "Geologist"
     },
     {
-      "governed_by": "Environmental regulations"
+      "performed_by": "Petroleum Engineer"
     },
     {
-      "related_to": "Mineral exploration"
+      "results_in": "Resource Discovery"
     }
   ]
 }

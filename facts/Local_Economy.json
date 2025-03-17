@@ -10,38 +10,39 @@
     "benefits": "Community wealth, job creation",
     "impacted_by": "Government policies, global trends",
     "data_source": "Local government agencies, Chambers of Commerce",
-    "measurement": "Gross Regional Product (GRP)"
+    "measurement": "Gross Regional Product (GRP)",
+    "type": "EconomicArea"
   },
   "relationship": [
     {
-      "part_of": "National Economy"
+      "partOf": "Region"
     },
     {
-      "influenced_by": "Consumer Confidence"
+      "locatedIn": "GeographicArea"
     },
     {
-      "supports": "Small Business"
+      "employs": "Person"
     },
     {
-      "creates": "Local Jobs"
+      "produces": "Goods"
     },
     {
-      "impacted_by": "Tourism"
+      "providesServiceTo": "Person"
     },
     {
-      "affected_by": "Supply Chain"
+      "influencedBy": "Government"
     },
     {
-      "dependent_on": "Local Government"
+      "dependsOn": "Tourism"
     },
     {
-      "contributes_to": "Community Development"
+      "supports": "Business"
     },
     {
-      "measured_by": "Economic Indicators"
+      "affectedBy": "EconomicTrend"
     },
     {
-      "related_to": "Regional Planning"
+      "contributesTo": "GrossDomesticProduct"
     }
   ]
 }

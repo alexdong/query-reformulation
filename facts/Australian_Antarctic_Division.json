@@ -10,38 +10,39 @@
     "budget_2023_24": "1.4 billion AUD",
     "staff_number": "700+",
     "mandate": "Antarctic management",
-    "website": "https://www.antarctica.gov.au/"
+    "website": "https://www.antarctica.gov.au/",
+    "type": "GovernmentAgency"
   },
   "relationship": [
     {
       "part_of": "Australian Government"
     },
     {
-      "located_in": "Antarctica"
+      "located_in": "Australia"
     },
     {
-      "operates": "Casey Station"
+      "responsible_for": "Australian Antarctic Territory"
     },
     {
-      "operates": "Davis Station"
+      "operates_in": "Antarctica"
     },
     {
-      "operates": "Mawson Station"
+      "collaborates_with": "National Science Foundation (United States)"
     },
     {
-      "operates": "Macquarie Island Station"
+      "collaborates_with": "British Antarctic Survey"
     },
     {
-      "collaborates_with": "Antarctic Treaty System"
+      "funded_by": "Australian Treasury"
     },
     {
-      "research_focus": "Climate change"
+      "reports_to": "Department of Climate Change, Energy, Environment and Water"
     },
     {
-      "research_focus": "Marine science"
+      "employs": "Australian Public Service"
     },
     {
-      "research_focus": "Ecosystems"
+      "research_focus": "Antarctic Science"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "scale": "Neighborhood to regional",
     "funding": "Government, philanthropy",
     "outcome": "Empowerment, resilience",
-    "related_concept": "Place-based initiatives"
+    "related_concept": "Place-based initiatives",
+    "type": "SocialActivity"
   },
   "relationship": [
     {
-      "part_of": "Social Impact"
+      "partOf": "Government"
     },
     {
-      "related_to": "Urban Renewal"
+      "hasPurpose": "Social Welfare"
     },
     {
-      "influenced_by": "Participatory Action Research"
+      "implementedBy": "Local Government"
     },
     {
-      "overlaps_with": "Grassroots Movements"
+      "worksWith": "Non-profit Organization"
     },
     {
-      "requires": "Community Organizing"
+      "supports": "Economic Development"
     },
     {
-      "benefits": "Local Economy"
+      "addresses": "Social Issues"
     },
     {
-      "addresses": "Social Inequality"
+      "involves": "Citizen Participation"
     },
     {
-      "supports": "Civic Engagement"
+      "requires": "Community Engagement"
     },
     {
-      "impacts": "Public Health"
+      "impacts": "Quality of Life"
     },
     {
-      "linked_to": "Sustainable Development"
+      "utilizes": "Urban Planning"
     }
   ]
 }

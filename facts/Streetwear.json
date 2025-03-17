@@ -10,38 +10,39 @@
     "target_audience": "Youth culture, fashion enthusiasts",
     "materials": "Cotton, nylon, polyester",
     "branding": "Logos, limited editions, collaborations",
-    "cultural_influence": "Hip-hop, skateboarding, art"
+    "cultural_influence": "Hip-hop, skateboarding, art",
+    "type": "Fashion"
   },
   "relationship": [
     {
-      "influenced_by": "Hip Hop Culture"
+      "instance_of": "fashion"
     },
     {
-      "influenced": "High Fashion"
+      "subclass_of": "casual wear"
     },
     {
-      "associated_with": "Sneaker Culture"
+      "influenced_by": "skateboarding"
     },
     {
-      "collaborates_with": "Athletic Brands"
+      "associated_with": "hip hop culture"
     },
     {
-      "design_inspiration": "Skateboarding"
+      "designed_by": "fashion designer"
     },
     {
-      "prominent_brand": "Supreme"
+      "marketed_to": "youth culture"
     },
     {
-      "prominent_brand": "Stüssy"
+      "often_features": "graphic design"
     },
     {
-      "prominent_brand": "A Bathing Ape"
+      "related_to": "sneaker culture"
     },
     {
-      "related_concept": "Athleisure"
+      "promoted_by": "influencer"
     },
     {
-      "design_inspiration": "Graffiti Art"
+      "sold_at": "retail store"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Cook Islands",
   "properties": {
-    "instance_of": "Country",
     "capital": "Avarua",
     "official_language": "Cook Islands Māori, English",
     "currency": "Cook Islands dollar",
@@ -10,38 +9,39 @@
     "sovereignty": "Associated state of New Zealand",
     "location": "South Pacific Ocean",
     "formation": "1872",
-    "time_zone": "UTC+12"
+    "time_zone": "UTC+12",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "part_of": "Polynesia"
-    },
     {
       "located_in": "Pacific Ocean"
     },
     {
-      "associated_with": "New Zealand"
+      "part_of": "Polynesia"
     },
     {
-      "currency_name": "Cook Islands dollar"
+      "has_capital": "Avarua"
     },
     {
-      "has_island": "Rarotonga"
+      "has_official_language": "Cook Islands Māori"
     },
     {
-      "has_island": "Aitutaki"
+      "has_official_language": "English"
     },
     {
-      "has_island": "Mauke"
+      "has_head_of_state": "Elizabeth II"
     },
     {
-      "influenced_by": "Māori culture"
+      "has_head_of_government": "Mark Brown"
     },
     {
-      "member_of": "Commonwealth"
+      "member_of": "Commonwealth of Nations"
     },
     {
-      "governed_by": "Prime Minister"
+      "member_of": "United Nations"
+    },
+    {
+      "influenced_by": "New Zealand"
     }
   ]
 }

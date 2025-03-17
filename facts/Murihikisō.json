@@ -10,38 +10,39 @@
     "flower_color": "Yellow",
     "height": "Up to 30 cm",
     "leaf_shape": "Round",
-    "uses": "Ornamental, erosion control"
+    "uses": "Ornamental, erosion control",
+    "type": "Artwork"
   },
   "relationship": [
     {
-      "synonym": "Moneywort"
+      "taxon_rank": "Impatiens"
     },
     {
-      "genus": "Lysimachia"
+      "instance_of": "flowering_plant"
     },
     {
-      "family": "Primulaceae"
+      "has_part": "flower"
     },
     {
-      "natural_habitat": "Wetlands"
+      "has_part": "leaf"
     },
     {
-      "cultivated_by": "Gardeners"
+      "natural_habitat": "Japan"
     },
     {
-      "used_for": "Ground cover"
+      "found_in_biogeographic_region": "East_Asia"
     },
     {
-      "part_of": "Flora"
+      "is_a": "herbaceous_plant"
     },
     {
-      "related_to": "Buttercups"
+      "used_for": "traditional_medicine"
     },
     {
-      "contains": "Flavonoids"
+      "described_in_source": "Flora_of_Japan"
     },
     {
-      "used_in": "Hanging baskets"
+      "photographed_by": "Wikimedia_Commons"
     }
   ]
 }

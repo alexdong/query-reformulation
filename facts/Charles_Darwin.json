@@ -10,38 +10,39 @@
     "education": "Christ's College, Cambridge",
     "scientific_field": "Biology",
     "spouse": "Emma Wedgwood",
-    "known_for": "Theory of Evolution"
+    "known_for": "Theory of Evolution",
+    "type": "Scientist"
   },
   "relationship": [
+    {
+      "instance_of": "scientist"
+    },
+    {
+      "birthPlace": "Shrewsbury"
+    },
+    {
+      "deathPlace": "Down House"
+    },
+    {
+      "educated_at": "Christ's College, Cambridge"
+    },
+    {
+      "field_of_study": "biology"
+    },
     {
       "influenced": "Alfred Russel Wallace"
     },
     {
-      "studied_at": "Cambridge University"
+      "publication": "On the Origin of Species"
     },
     {
-      "ship_voyage": "HMS Beagle"
+      "member_of": "Linnean Society of London"
     },
     {
-      "wrote": "On the Origin of Species"
+      "family_member": "Susannah Darwin"
     },
     {
-      "influenced": "Gregor Mendel"
-    },
-    {
-      "collaborated_with": "Joseph Dalton Hooker"
-    },
-    {
-      "father_of": "George Darwin"
-    },
-    {
-      "member_of": "Royal Society"
-    },
-    {
-      "theory_supports": "Natural Selection"
-    },
-    {
-      "studied": "Galapagos finches"
+      "award received": "Royal Medal"
     }
   ]
 }

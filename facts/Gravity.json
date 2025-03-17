@@ -1,7 +1,6 @@
 {
   "entity": "Gravity",
   "properties": {
-    "instance_of": "Fundamental force",
     "unit": "Newton (N)",
     "discovery_date": "Ancient (observed)",
     "description": "Attraction between masses",
@@ -10,38 +9,39 @@
     "mediated_by": "Graviton (hypothetical)",
     "governs": "Celestial motion",
     "related_to": "Spacetime",
-    "formula": "F = Gm1m2/r^2"
+    "formula": "F = Gm1m2/r^2",
+    "type": "Fundamental force"
   },
   "relationship": [
     {
-      "acts_on": "Mass"
+      "instance_of": "Physical force"
+    },
+    {
+      "causes": "Orbital motion"
+    },
+    {
+      "affects": "Mass"
+    },
+    {
+      "related_to": "Space-time"
+    },
+    {
+      "governed_by": "General relativity"
+    },
+    {
+      "influences": "Tidal forces"
+    },
+    {
+      "manifestation_of": "Fundamental interaction"
     },
     {
       "related_to": "Newtonian mechanics"
     },
     {
-      "related_to": "General relativity"
+      "acts_on": "Celestial body"
     },
     {
-      "influences": "Tides"
-    },
-    {
-      "influences": "Orbital mechanics"
-    },
-    {
-      "related_to": "Black hole"
-    },
-    {
-      "related_to": "Gravitational lensing"
-    },
-    {
-      "related_to": "Gravitational waves"
-    },
-    {
-      "related_to": "Cosmology"
-    },
-    {
-      "related_to": "Einstein field equations"
+      "causes": "Weight"
     }
   ]
 }

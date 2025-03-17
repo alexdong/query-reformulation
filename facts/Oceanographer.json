@@ -1,7 +1,6 @@
 {
   "entity": "Oceanographer",
   "properties": {
-    "instance_of": "Scientist",
     "field_of_study": "Ocean Science",
     "specialization": "Varies (e.g., physical, chemical, biological, geological)",
     "tools_used": "Sonar, ROVs, Satellites, Research Vessels",
@@ -10,38 +9,39 @@
     "data_analyzed": "Ocean currents, marine life, water chemistry",
     "related_fields": "Marine Biology, Geology, Meteorology",
     "career_path": "Research, Consulting, Education",
-    "professional_organization": "The Oceanography Society"
+    "professional_organization": "The Oceanography Society",
+    "type": "Scientist"
   },
   "relationship": [
     {
-      "studies": "Ocean"
+      "works_at": "Research institution"
     },
     {
-      "employs": "Research Vessel"
+      "studies": "Marine science"
     },
     {
-      "analyzes": "Seawater"
+      "employs": "Research assistant"
     },
     {
-      "observes": "Marine Life"
+      "analyzes": "Ocean data"
     },
     {
-      "collaborates_with": "Marine Biologist"
+      "uses": "Oceanographic research vessel"
     },
     {
-      "uses": "Sonar"
+      "studies_subject": "Ocean"
     },
     {
-      "studies": "Ocean Currents"
+      "collaborates_with": "Marine biologist"
     },
     {
-      "researches": "Tsunamis"
+      "develops": "Ocean model"
     },
     {
-      "contributes_to": "Climate Change Research"
+      "reports_to": "Principal investigator"
     },
     {
-      "publishes_in": "Journal of Oceanography"
+      "studies_phenomenon": "Ocean current"
     }
   ]
 }

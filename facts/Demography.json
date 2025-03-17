@@ -10,38 +10,39 @@
     "key_metrics": "Birth rate, death rate, migration",
     "historical_roots": "Ancient censuses",
     "application": "Policy making, resource allocation",
-    "related_concept": "Population studies"
+    "related_concept": "Population studies",
+    "type": "Social science"
   },
   "relationship": [
     {
-      "studies": "Population"
+      "instance_of": "Population"
     },
     {
-      "uses": "Statistics"
+      "part_of": "Society"
     },
     {
-      "related_to": "Census"
+      "has_attribute": "Age"
     },
     {
-      "analyzes": "Mortality"
+      "has_attribute": "Gender"
     },
     {
-      "analyzes": "Fertility"
+      "has_attribute": "Ethnicity"
     },
     {
-      "influences": "Public policy"
+      "has_attribute": "Education"
     },
     {
-      "intersects_with": "Geography"
+      "has_attribute": "Income"
     },
     {
-      "requires": "Data collection"
+      "related_to": "Geography"
     },
     {
-      "predicts": "Population trends"
+      "related_to": "Economics"
     },
     {
-      "impacts": "Resource management"
+      "related_to": "Social_Statistics"
     }
   ]
 }

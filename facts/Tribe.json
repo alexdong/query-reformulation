@@ -1,45 +1,45 @@
 {
   "entity": "Tribe",
   "properties": {
-    "instance_of": "Social group",
     "definition": "Community of people",
     "characteristic": "Shared culture",
     "often_related_to": "Kinship",
     "may_have": "Territory",
     "can_be": "Sedentary",
     "often_includes": "Rituals",
-    "often_associated_with": "Identity"
+    "often_associated_with": "Identity",
+    "type": "Social group"
   },
   "relationship": [
     {
-      "part_of": "Society"
-    },
-    {
-      "related_to": "Ethnicity"
-    },
-    {
-      "member_of": "Family"
-    },
-    {
-      "governed_by": "Chiefdom"
-    },
-    {
-      "shares": "Culture"
+      "instance_of": "social group"
     },
     {
       "located_in": "Region"
     },
     {
+      "part_of": "Culture"
+    },
+    {
       "has_member": "Person"
     },
     {
-      "practice": "Ritual"
+      "led_by": "Chief"
     },
     {
-      "related_to": "Anthropology"
+      "has_artifact": "Artifact"
     },
     {
-      "example_of": "Indigenous peoples"
+      "has_ritual": "Ritual"
+    },
+    {
+      "related_to": "Mythology"
+    },
+    {
+      "has_language": "Language"
+    },
+    {
+      "influenced_by": "Historical event"
     }
   ]
 }

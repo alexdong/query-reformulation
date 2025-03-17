@@ -1,5 +1,5 @@
 {
-  "entity": "Alexander Hall & Co.",
+  "entity": "Alexander Hall   Co ",
   "properties": {
     "entity_type": "Publishing company",
     "industry": "Publishing",
@@ -10,38 +10,39 @@
     "status": "Defunct",
     "successor": "Alexander & Co.",
     "significant_publication": "The Book of Common Prayer",
-    "historical_period": "19th Century"
+    "historical_period": "19th Century",
+    "type": "Company"
   },
   "relationship": [
     {
-      "publisher_of": "Book of Common Prayer"
+      "instance_of": "architectural_firm"
     },
     {
-      "founded_by": "Alexander Hall"
+      "founded_by": "Alexander Hall (architect)"
     },
     {
-      "located_in": "London"
+      "located_in": "New York City"
     },
     {
-      "preceded_by": "None"
+      "works_with": "Richard Upjohn"
     },
     {
-      "succeeded_by": "Alexander & Co."
+      "designed": "St Paul's Chapel"
     },
     {
-      "industry_sector": "Printing"
+      "designed": "Trinity Church (Wall Street)"
     },
     {
-      "publication_genre": "Religious"
+      "designed": "Broadway Tabernacle"
     },
     {
-      "competitor_of": "Longman"
+      "contributor_to": "Gothic Revival architecture"
     },
     {
-      "competitor_of": "Rivingtons"
+      "employee_of": "Trinity Church (Wall Street)"
     },
     {
-      "influenced": "Religious publishing"
+      "influenced": "McKim, Mead & White"
     }
   ]
 }

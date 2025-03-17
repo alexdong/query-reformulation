@@ -10,38 +10,39 @@
     "customer_focus": "Experience",
     "geographic_scope": "Global",
     "impact_on_GDP": "Significant",
-    "technology_adoption": "Increasing"
+    "technology_adoption": "Increasing",
+    "type": "Service"
   },
   "relationship": [
+    {
+      "partOf": "Economy"
+    },
+    {
+      "employs": "Labor"
+    },
     {
       "provides": "Tourism"
     },
     {
-      "employs": "Hotel Staff"
+      "regulatedBy": "Government"
     },
     {
-      "includes": "Restaurants"
+      "requires": "Food Industry"
     },
     {
-      "supports": "Local Economy"
+      "consumes": "Energy"
     },
     {
-      "affected_by": "Economic Cycles"
+      "providesServiceTo": "Customer"
     },
     {
-      "influenced_by": "Travel Trends"
+      "locatedIn": "City"
     },
     {
-      "requires": "Customer Service"
+      "dependentOn": "Transportation"
     },
     {
-      "impacts": "Community Development"
-    },
-    {
-      "overlaps_with": "Event Management"
-    },
-    {
-      "regulated_by": "Government"
+      "influencedBy": "Technology"
     }
   ]
 }

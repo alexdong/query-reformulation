@@ -10,38 +10,39 @@
     "capacity": "1500",
     "founding_date": "1115",
     "materials": "Sandstone",
-    "listed_building_grade": "Category A"
+    "listed_building_grade": "Category A",
+    "type": "Cathedral"
   },
   "relationship": [
     {
-      "part_of": "Glasgow"
+      "located_in": "Glasgow"
     },
     {
-      "architect": "John Keppoch"
+      "part_of": "City of Glasgow"
     },
     {
-      "influenced": "Scottish Gothic architecture"
+      "architectural_style": "Gothic architecture"
     },
     {
-      "located_in": "Scotland"
+      "religious_affiliation": "Scottish Episcopal Church"
     },
     {
-      "has_part": "Saint Mungo"
+      "built_by": "Clan William Wallace"
     },
     {
-      "has_part": "Necropolis"
+      "dedicated_to": "Saint Mungo"
     },
     {
-      "related_to": "Scottish Reformation"
+      "has_part": "High Altar"
     },
     {
-      "style_of": "Gothic Revival"
+      "influenced_by": "Medieval architecture"
     },
     {
-      "diocese_of": "Glasgow and the Clyde"
+      "historical_period": "Scottish Reformation"
     },
     {
-      "preceded_by": "Earlier church"
+      "has_landmark": "Nelson's Monument"
     }
   ]
 }

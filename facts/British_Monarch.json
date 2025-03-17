@@ -1,7 +1,6 @@
 {
   "entity": "British Monarch",
   "properties": {
-    "instance_of": "Monarchy",
     "country": "United Kingdom",
     "head_of_state": "True",
     "succession_type": "Hereditary",
@@ -10,38 +9,39 @@
     "longest_reign": "Elizabeth II",
     "historical_period": "Medieval to Modern",
     "role": "Symbol of national unity",
-    "title": "King/Queen"
+    "title": "King/Queen",
+    "type": "Monarchy"
   },
   "relationship": [
     {
-      "predecessor": "Kingdom of England"
+      "instance_of": "monarch"
     },
     {
-      "succeeded_by": "Commonwealth realm"
+      "subclass_of": "head_of_state"
     },
     {
-      "member_of": "Commonwealth of Nations"
+      "member_of": "British_royal_family"
     },
     {
-      "related_to": "Prime Minister"
+      "reigns_over": "United_Kingdom"
     },
     {
-      "ceremony": "Coronation"
+      "succeeded_by": "British_Monarch"
     },
     {
-      "symbolizes": "British identity"
+      "preceded_by": "British_Monarch"
     },
     {
-      "influenced": "British law"
+      "has_spouse": "Consort_of_the_British_Monarch"
     },
     {
-      "related_to": "House of Windsor"
+      "has_child": "British_royal_family_member"
     },
     {
-      "historical_figure": "William the Conqueror"
+      "performs_role": "Head_of_the_Commonwealth"
     },
     {
-      "historical_figure": "Henry VIII"
+      "located_in": "United_Kingdom"
     }
   ]
 }

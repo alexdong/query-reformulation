@@ -10,38 +10,39 @@
     "first_publication_date": "1984",
     "online_access": "Yes",
     "scope": "Research, Reviews, Case Reports",
-    "country_of_origin": "Sri Lanka"
+    "country_of_origin": "Sri Lanka",
+    "type": "AcademicJournal"
   },
   "relationship": [
     {
-      "publisher_of": "College of Community Physicians Sri Lanka"
+      "publication_location": "Sri Lanka"
+    },
+    {
+      "publisher": "College of Community Physicians of Sri Lanka"
+    },
+    {
+      "issn": "1396-5611"
     },
     {
       "subject": "Tropical Medicine"
     },
     {
-      "issn_identified_by": "1396-5520"
+      "genre": "Academic Journal"
     },
     {
-      "publication_format": "Academic journal"
+      "publication_format": "Peer-reviewed"
     },
     {
-      "located_in": "Sri Lanka"
+      "language": "English"
     },
     {
       "indexed_in": "PubMed"
     },
     {
-      "indexed_in": "Scopus"
+      "part_of_field": "Medicine"
     },
     {
-      "covers": "Malaria"
-    },
-    {
-      "covers": "Dengue"
-    },
-    {
-      "covers": "Leishmaniasis"
+      "aims_to_cover": "Tropical Diseases"
     }
   ]
 }

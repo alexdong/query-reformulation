@@ -10,38 +10,39 @@
     "mother": "Prince Albert of Saxe-Coburg and Gotha",
     "spouse": "Alexandra of Denmark",
     "reign_start": "1901-01-22",
-    "reign_end": "1910-05-06"
+    "reign_end": "1910-05-06",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "predecessor": "Victoria, Queen of the United Kingdom"
+      "instance_of": "monarch"
     },
     {
-      "successor": "George V"
+      "rdfs:parent": "Victoria of Saxe-Coburg and Gotha"
     },
     {
-      "member_of": "British royal family"
+      "rdfs:parent": "Prince Albert of Saxe-Coburg and Gotha"
+    },
+    {
+      "spouse": "Alexandra of Denmark"
+    },
+    {
+      "child": "Edward VIII"
+    },
+    {
+      "child": "Mary of Teck"
+    },
+    {
+      "reign_start_date": "1901-01-22"
+    },
+    {
+      "reign_end_date": "1910-05-06"
     },
     {
       "located_in": "United Kingdom"
     },
     {
-      "influenced": "Edwardian era"
-    },
-    {
-      "attended": "Oxford University"
-    },
-    {
-      "child_of": "Victoria, Queen of the United Kingdom"
-    },
-    {
-      "married_to": "Alexandra of Denmark"
-    },
-    {
-      "has_child": "Edward, Prince of Wales (1902)"
-    },
-    {
-      "involved_in": "Anglo-German naval arms race"
+      "member_of": "House of Saxe-Coburg and Gotha"
     }
   ]
 }

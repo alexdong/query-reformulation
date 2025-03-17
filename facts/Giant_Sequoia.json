@@ -10,38 +10,39 @@
     "lifespan": "2000-3000+ years",
     "native_region": "Sierra Nevada, California",
     "conservation_status": "Endangered",
-    "bark_thickness": "30-100cm"
+    "bark_thickness": "30-100cm",
+    "type": "Tree"
   },
   "relationship": [
     {
-      "part_of": "Sierra Nevada"
+      "instance_of": "tree"
     },
     {
-      "genus": "Sequoiadendron"
+      "taxon": "Sequoiadendron giganteum"
     },
     {
-      "family": "Cupressaceae"
+      "located_in": "Sierra Nevada"
     },
     {
-      "habitat": "Montane forests"
+      "part_of": "California"
     },
     {
-      "related_to": "Redwood"
+      "habitat": "temperate coniferous forest"
     },
     {
-      "threatened_by": "Climate change"
+      "biotope": "montane"
     },
     {
-      "contains": "National Park"
+      "interacts_with": "California spotted owl"
     },
     {
-      "located_in": "California"
+      "threatened_by": "climate change"
     },
     {
-      "provides_habitat_for": "Black bear"
+      "has_property": "bark"
     },
     {
-      "studied_by": "Botany"
+      "produces": "cone"
     }
   ]
 }

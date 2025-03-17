@@ -10,38 +10,39 @@
     "longitude": "-159.7917",
     "runway_length": "2743 m",
     "operator": "Cook Islands Airport Authority",
-    "year_opened": "1972"
+    "year_opened": "1972",
+    "type": "Airport"
   },
   "relationship": [
-    {
-      "serves": "Rarotonga"
-    },
     {
       "located_in": "Cook Islands"
     },
     {
-      "has_airline": "Air New Zealand"
+      "serves": "Rarotonga"
     },
     {
-      "has_airline": "Jetstar"
+      "operated_by": "Cook Islands Airports Authority"
     },
     {
-      "has_airline": "Virgin Australia"
+      "has_ICAO_code": "URU"
     },
     {
-      "connects_to": "Auckland International Airport"
+      "has_IATA_code": "RAR"
     },
     {
-      "connects_to": "Sydney Airport"
+      "part_of": "transportation_network"
     },
     {
-      "part_of": "Cook Islands Infrastructure"
+      "connected_to": "Air New Zealand"
     },
     {
-      "nearby_city": "Avarua"
+      "connected_to": "Virgin Australia"
     },
     {
-      "serves_region": "Southern Pacific"
+      "has_property": "airport_runway"
+    },
+    {
+      "has_service": "aviation_security"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "tributary_of": "Pacific Ocean",
     "discharge": "370 m³/s",
     "basin_area": "23,290 km²",
-    "maori_name": "Mata-Au"
+    "maori_name": "Mata-Au",
+    "type": "River"
   },
   "relationship": [
     {
-      "flows_through": "Otago Region"
+      "flows_into": "Firth of Clutha"
     },
     {
-      "tributary_of": "Pacific Ocean"
+      "tributary_of": "Firth of Clutha"
     },
     {
-      "source_location": "Southern Alps"
+      "located_in_administrative_division": "Otago Region"
     },
     {
-      "flows_past": "Dunedin"
+      "flows_through_administrative_division": "Southland Region"
     },
     {
-      "part_of": "Fiordland National Park"
+      "part_of": "New Zealand"
     },
     {
-      "discharges_into": "Tomahawk Lagoon"
+      "has_tributary": "Earnslaw Burn"
     },
     {
-      "provides_water_to": "Irrigation"
+      "has_tributary": "Lake Wakatipu"
     },
     {
-      "supports": "Brown trout"
+      "originates_in": "Southern Alps"
     },
     {
-      "supports": "Ngāi Tahu"
+      "adjacent_to_administrative_division": "Central Otago District"
     },
     {
-      "historical_use": "Māori transport"
+      "has_settlement_on_bank": "Balclutha"
     }
   ]
 }

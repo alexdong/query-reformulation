@@ -10,38 +10,39 @@
     "capital_intensity": "High",
     "global_impact": "Significant",
     "trade_relation": "Export-Oriented",
-    "innovation_driver": "Technological Advancement"
+    "innovation_driver": "Technological Advancement",
+    "type": "Industry"
   },
   "relationship": [
     {
-      "part_of": "Economy"
+      "partOf": "Economy"
     },
     {
-      "impacts": "Employment"
+      "employs": "Workforce"
     },
     {
-      "relies_on": "Raw Materials"
+      "produces": "Goods"
+    },
+    {
+      "requires": "RawMaterials"
+    },
+    {
+      "regulatedBy": "Government"
+    },
+    {
+      "impacts": "Environment"
+    },
+    {
+      "providesFor": "Consumer"
     },
     {
       "uses": "Technology"
     },
     {
-      "contributes_to": "Supply Chain"
+      "contributesTo": "GrossDomesticProduct"
     },
     {
-      "affected_by": "Economic Cycles"
-    },
-    {
-      "employs": "Workers"
-    },
-    {
-      "produces": "Products"
-    },
-    {
-      "requires": "Capital Investment"
-    },
-    {
-      "impacts": "Trade Balance"
+      "dependentOn": "SupplyChain"
     }
   ]
 }

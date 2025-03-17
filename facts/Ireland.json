@@ -10,38 +10,39 @@
     "member_of": "EU, UN",
     "land_border": "United Kingdom",
     "highest_point": "Carrauntoohil",
-    "national_symbol": "Shamrock"
+    "national_symbol": "Shamrock",
+    "type": "Country"
   },
   "relationship": [
-    {
-      "part_of": "European Union"
-    },
     {
       "located_in": "Europe"
     },
     {
-      "border_country": "United Kingdom"
+      "part_of": "European_Union"
     },
     {
-      "influenced": "Irish literature"
+      "has_capital": "Dublin"
     },
     {
-      "historical_event": "Irish War of Independence"
+      "influenced_by": "Celtic_culture"
     },
     {
-      "historical_figure": "Saint Patrick"
+      "member_of": "Council_of_Europe"
     },
     {
-      "musical_genre": "Traditional Irish music"
+      "has_official_language": "Irish_language"
     },
     {
-      "geographical_feature": "River Shannon"
+      "has_official_language": "English_language"
     },
     {
-      "island_group": "British Isles"
+      "influenced_by": "Roman_Empire"
     },
     {
-      "exports_to": "United States"
+      "has_border_with": "United_Kingdom"
+    },
+    {
+      "has_historical_event": "Easter_Rising"
     }
   ]
 }

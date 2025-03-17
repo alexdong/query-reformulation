@@ -1,7 +1,6 @@
 {
   "entity": "Russell Group",
   "properties": {
-    "instance_of": "Higher education association",
     "country": "United Kingdom",
     "formed_date": "1996",
     "purpose": "Research excellence",
@@ -10,38 +9,39 @@
     "funding": "Government, philanthropy",
     "focus": "Research-intensive",
     "website": "russellgroup.ac.uk",
-    "predecessor": "Committee of Vice-Chancellors and Principals (CVCP)"
+    "predecessor": "Committee of Vice-Chancellors and Principals (CVCP)",
+    "type": "Higher education association"
   },
   "relationship": [
     {
-      "member_university": "University of Oxford"
+      "memberOf": "United Kingdom"
     },
     {
-      "member_university": "University of Cambridge"
+      "hasMember": "University of Oxford"
     },
     {
-      "member_university": "University College London"
+      "hasMember": "University of Cambridge"
     },
     {
-      "member_university": "Imperial College London"
+      "fundedBy": "UKRI"
     },
     {
-      "member_university": "University of Manchester"
+      "influences": "Higher Education"
     },
     {
-      "member_university": "University of Bristol"
+      "regulates": "University Admissions"
     },
     {
-      "member_university": "University of Warwick"
+      "collaboratesWith": "Research Councils UK"
     },
     {
-      "member_university": "University of Sheffield"
+      "providesFundingFor": "Universities"
     },
     {
-      "member_university": "University of Glasgow"
+      "definedBy": "Education Act 1997"
     },
     {
-      "member_university": "King's College London"
+      "impacts": "Research and Innovation"
     }
   ]
 }

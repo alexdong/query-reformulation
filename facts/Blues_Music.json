@@ -10,38 +10,39 @@
     "themes": "Hardship, love, loss",
     "style": "Call and response",
     "influence": "African spirituals, work songs",
-    "legacy": "Foundation of rock and roll"
+    "legacy": "Foundation of rock and roll",
+    "type": "MusicGenre"
   },
   "relationship": [
+    {
+      "genre": "African American Music"
+    },
     {
       "influenced": "Rock and Roll"
     },
     {
-      "influenced": "Jazz"
+      "developed_in": "Mississippi Delta"
     },
     {
-      "influenced": "Rhythm and Blues"
+      "has_instrument": "Guitar"
     },
     {
-      "preceded_by": "African Spirituals"
+      "has_instrument": "Harmonica"
     },
     {
-      "related_to": "Delta Blues"
+      "performed_by": "Robert Johnson"
     },
     {
-      "related_to": "Chicago Blues"
+      "characterized_by": "12-bar blues"
     },
     {
-      "artist_performs": "Robert Johnson"
+      "subgenre_of": "American Music"
     },
     {
-      "artist_performs": "Muddy Waters"
+      "related_to": "Jazz"
     },
     {
-      "artist_performs": "B.B. King"
-    },
-    {
-      "subgenre_of": "African American Music"
+      "has_theme": "Suffering"
     }
   ]
 }

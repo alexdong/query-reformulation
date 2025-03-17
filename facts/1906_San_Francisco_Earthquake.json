@@ -10,38 +10,39 @@
     "duration": "45-60 seconds",
     "epicenter": "Near Daly City, California",
     "caused": "Fire",
-    "affected_area": "Approximately 450 square miles"
+    "affected_area": "Approximately 450 square miles",
+    "type": "Earthquake"
   },
   "relationship": [
     {
-      "preceded_by": "1857 Fort Tejon Earthquake"
+      "caused": "San Francisco Fire of 1906"
     },
     {
-      "followed_by": "1989 Loma Prieta Earthquake"
+      "occurred_in": "San Francisco"
     },
     {
-      "caused": "San Francisco Fire"
+      "part_of": "1906 California Earthquake"
     },
     {
-      "located_on": "San Andreas Fault"
+      "affected": "California"
     },
     {
-      "affected": "San Francisco"
+      "has_consequence": "Massive property damage"
     },
     {
-      "affected": "Santa Rosa"
+      "has_cause": "San Andreas Fault"
     },
     {
-      "influenced": "Earthquake engineering"
+      "has_effect": "Significant loss of life"
     },
     {
-      "part_of": "California Earthquake Authority"
+      "preceded_by": "Tectonic plate movement"
     },
     {
-      "studied_by": "Seismology"
+      "influenced": "Urban planning"
     },
     {
-      "related_to": "USGS"
+      "related_to": "Reconstruction of San Francisco"
     }
   ]
 }

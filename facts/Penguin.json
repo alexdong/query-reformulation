@@ -10,38 +10,39 @@
     "lifespan": "15-20 years",
     "size": "45-120 cm",
     "conservation_status": "Varies by species",
-    "adaptation": "Flightless, excellent swimmers"
+    "adaptation": "Flightless, excellent swimmers",
+    "type": "Bird"
   },
   "relationship": [
     {
-      "part_of": "Sphenisciformes"
+      "instance_of": "bird"
     },
     {
-      "lives_in": "Antarctica"
+      "taxon": "Aves"
     },
     {
-      "preys_on": "Krill"
+      "habitat": "Antarctica"
     },
     {
-      "preys_on": "Fish"
+      "part_of": "penguin_family"
     },
     {
-      "related_to": "Aptenodytes"
+      "has_diet": "krill"
     },
     {
-      "related_to": "Pygoscelis"
+      "prey_of": "leopard_seal"
     },
     {
-      "related_to": "Eudyptes"
+      "lives_in": "ice"
     },
     {
-      "threatened_by": "Climate change"
+      "has_characteristic": "black_and_white_plumage"
     },
     {
-      "migration": "Seasonal"
+      "related_to": "antarctic_ecosystem"
     },
     {
-      "behavior": "Social"
+      "subclass_of": "flightless_bird"
     }
   ]
 }

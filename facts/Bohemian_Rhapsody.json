@@ -1,7 +1,6 @@
 {
   "entity": "Bohemian Rhapsody",
   "properties": {
-    "instance_of": "Song",
     "artist": "Queen",
     "genre": "Rock",
     "release_date": "1975",
@@ -10,38 +9,39 @@
     "composer": "Freddie Mercury",
     "producer": "Roy Thomas Baker",
     "label": "EMI",
-    "chart_peak": "1"
+    "chart_peak": "1",
+    "type": "Song"
   },
   "relationship": [
     {
-      "performed_by": "Queen"
+      "instance_of": "musical work"
     },
     {
-      "written_by": "Freddie Mercury"
+      "composed_by": "Queen (band)"
     },
     {
-      "appears_on_album": "A Night at the Opera"
+      "performed_by": "Queen (band)"
     },
     {
-      "influenced": "Pop music"
+      "genre": "progressive rock"
     },
     {
-      "genre_is": "Progressive rock"
+      "influenced_by": "opera"
     },
     {
-      "featured_in_film": "Wayne's World"
+      "has_part": "Freddie Mercury"
     },
     {
-      "style_is": "Opera"
+      "has_part": "Brian May"
     },
     {
-      "recording_location": "Rockfield Studios"
+      "has_part": "John Deacon"
     },
     {
-      "producer_is": "Roy Thomas Baker"
+      "has_part": "Roger Taylor"
     },
     {
-      "member_is": "Brian May"
+      "publication_date": "1975"
     }
   ]
 }

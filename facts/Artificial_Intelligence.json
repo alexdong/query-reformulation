@@ -1,7 +1,6 @@
 {
   "entity": "Artificial Intelligence",
   "properties": {
-    "instance_of": "Field of study",
     "subfield_of": "Computer Science",
     "goal": "Machine Intelligence",
     "origin": "1950s",
@@ -10,38 +9,39 @@
     "related_concept": "Robotics",
     "approach": "Algorithms",
     "data_dependency": "Large Datasets",
-    "ethical_consideration": "Bias"
+    "ethical_consideration": "Bias",
+    "type": "Field of study"
   },
   "relationship": [
     {
-      "developed_by": "Alan Turing"
+      "instance_of": "Machine Learning"
     },
     {
-      "influenced_by": "Cybernetics"
+      "subclass_of": "Computational Intelligence"
     },
     {
-      "related_to": "Deep Learning"
+      "developed_by": "Human"
     },
     {
-      "used_in": "Self-driving cars"
+      "used_for": "Automation"
     },
     {
-      "used_in": "Natural Language Processing"
+      "applied_to": "Data Analysis"
     },
     {
-      "impacts": "Job Market"
+      "related_to": "Robotics"
     },
     {
-      "requires": "Computational Power"
+      "influences": "Computer Science"
     },
     {
-      "challenges": "Explainability"
+      "requires": "Data"
     },
     {
-      "research_area": "Neural Networks"
+      "impacts": "Society"
     },
     {
-      "related_to": "Data Science"
+      "studied_in": "Artificial Intelligence Research"
     }
   ]
 }

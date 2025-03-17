@@ -10,38 +10,39 @@
     "religion": "Hinduism",
     "spouse": "Lakshmi Devi",
     "net_worth": "₹1,376 crore (2023)",
-    "languages": "Telugu, Hindi, English"
+    "languages": "Telugu, Hindi, English",
+    "type": "Philosopher"
   },
   "relationship": [
     {
-      "member_of": "Bharatiya Janata Party"
+      "instance_of": "architect"
     },
     {
-      "constituency_represents": "Rajamahendravaram (Lok Sabha constituency)"
+      "employed_by": "Mantri Productions"
     },
     {
-      "education_at": "Sri Venkateswara Arts College"
+      "educated_at": "JNTUH"
     },
     {
-      "spouse_of": "Lakshmi Devi"
+      "works_at": "Padmalaya Studios"
     },
     {
-      "member_of_parliament": "17th Lok Sabha"
+      "influenced_by": "K. V. Reddy"
     },
     {
-      "minister_of_state_for": "Ministry of Education (India)"
+      "designed_for": "Telugu film industry"
     },
     {
-      "political_affiliation": "Hindu nationalism"
+      "member_of": "Indian film fraternity"
     },
     {
-      "family_member_of": "Raju family"
+      "known_for": "Telugu film sets"
     },
     {
-      "business_interest": "Raju Group"
+      "collaborated_with": "B. Gopal Reddy"
     },
     {
-      "predecessor_in_office": "Dhananjay Singh"
+      "family_member_of": "Subrahmanyam"
     }
   ]
 }

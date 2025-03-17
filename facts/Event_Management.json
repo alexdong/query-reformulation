@@ -10,38 +10,39 @@
     "revenue_model": "Service fees, Sponsorships",
     "key_stakeholders": "Clients, Vendors, Attendees",
     "risk_management": "Safety, Security, Contingency planning",
-    "career_path": "Event Planner, Coordinator, Manager"
+    "career_path": "Event Planner, Coordinator, Manager",
+    "type": "Service"
   },
   "relationship": [
     {
-      "part_of": "Hospitality Industry"
+      "manages": "Event"
     },
     {
-      "uses": "Project Management"
-    },
-    {
-      "requires": "Marketing"
-    },
-    {
-      "involves": "Logistics"
+      "uses_technology": "Event Management Software"
     },
     {
       "employs": "Event Planner"
     },
     {
-      "overlaps_with": "Public Relations"
+      "provides_service_to": "Client"
     },
     {
-      "related_to": "Meeting Planning"
+      "operates_in": "Location"
     },
     {
-      "uses_technology": "Eventbrite"
+      "requires_resource": "Venue"
     },
     {
-      "impacts": "Tourism"
+      "deals_with": "Catering Service"
     },
     {
-      "influenced_by": "Hospitality Management"
+      "coordinates_with": "Entertainment Provider"
+    },
+    {
+      "handles_logistics_for": "Conference"
+    },
+    {
+      "reports_to": "Business"
     }
   ]
 }

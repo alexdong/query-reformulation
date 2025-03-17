@@ -10,38 +10,39 @@
     "common_features": "Curved lines, Grand scale, Theatrics",
     "purpose": "Express power, religious fervor",
     "geographic_spread": "Europe, Latin America",
-    "decline": "Rococo"
+    "decline": "Rococo",
+    "type": "ArchitecturalStyle"
   },
   "relationship": [
     {
-      "influenced": "Rococo Architecture"
+      "influenced": "Renaissance architecture"
     },
     {
-      "preceded_by": "Renaissance Architecture"
+      "influenced_by": "Mannerism"
     },
     {
-      "influenced": "Neoclassical Architecture"
+      "part_of": "European art"
     },
     {
-      "architect": "Gian Lorenzo Bernini"
+      "located_in": "Italy"
     },
     {
-      "architect": "Francesco Borromini"
+      "created_by": "Gian Lorenzo Bernini"
     },
     {
-      "architect": "Christopher Wren"
+      "created_by": "Francesco Borromini"
     },
     {
-      "example_building": "St. Peter's Basilica"
+      "style_of": "Baroque painting"
     },
     {
-      "example_building": "Palace of Versailles"
+      "style_of": "Baroque sculpture"
     },
     {
-      "example_building": "Zwinger Palace"
+      "influenced": "Rococo architecture"
     },
     {
-      "part_of_movement": "Baroque"
+      "has_example": "Palace of Versailles"
     }
   ]
 }

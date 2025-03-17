@@ -10,38 +10,39 @@
     "solar_insolation": "Varies seasonally",
     "average_temperature": "10°C (50°F)",
     "land_percentage": "42%",
-    "highest_point": "Mount Everest"
+    "highest_point": "Mount Everest",
+    "type": "Hemisphere"
   },
   "relationship": [
     {
       "part_of": "Earth"
     },
     {
-      "opposite_of": "Southern Hemisphere"
+      "has_coordinate_system": "Geographic coordinate system"
     },
     {
-      "contains": "Arctic"
+      "experiences_season": "Summer"
     },
     {
-      "contains": "Europe"
+      "experiences_season": "Winter"
     },
     {
-      "contains": "North America"
+      "has_climate": "Temperate climate"
     },
     {
-      "contains": "Asia"
+      "has_phenomenon": "Aurora borealis"
     },
     {
-      "contains": "Africa"
+      "contains_region": "Europe"
     },
     {
-      "experiences": "Summer Solstice"
+      "contains_region": "Asia"
     },
     {
-      "experiences": "Winter Solstice"
+      "has_daylight_pattern": "Summer solstice"
     },
     {
-      "border_with": "Arctic Circle"
+      "has_daylight_pattern": "Winter solstice"
     }
   ]
 }

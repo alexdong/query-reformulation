@@ -10,38 +10,39 @@
     "assets_2022": "NZD 1.1 billion",
     "services": "Retail, Commercial, Investment",
     "regulatory_body": "Cook Islands Financial Commission",
-    "website": "www.cinb.co.ck"
+    "website": "www.cinb.co.ck",
+    "type": "Bank"
   },
   "relationship": [
     {
-      "parent_company": "Cook Islands Investment Corporation"
+      "headquarters_location": "Cook Islands"
     },
     {
-      "located_in": "Rarotonga"
+      "subsidiary_of": "Cook Islands Investment Corporation"
     },
     {
       "regulates": "Cook Islands Financial Commission"
     },
     {
-      "currency_used": "Cook Islands Dollar"
+      "provides_service_to": "Cook Islands Government"
     },
     {
-      "provides_service_to": "Cook Islands"
+      "has_customer": "Cook Islands Tourism Corporation"
     },
     {
-      "industry": "Banking"
+      "provides_service_to": "Cook Islands Chamber of Commerce"
     },
     {
-      "competitor": "Westpac"
+      "has_employee": "Cook Islander"
     },
     {
-      "competitor": "ANZ"
+      "has_branch": "Rarotonga"
     },
     {
-      "offers": "Mortgages"
+      "provides_service_to": "Private individual"
     },
     {
-      "offers": "Savings Accounts"
+      "has_product": "Savings account"
     }
   ]
 }

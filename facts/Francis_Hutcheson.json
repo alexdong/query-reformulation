@@ -10,14 +10,21 @@
     "academic_title": "Professor of Moral Philosophy",
     "philosophical_school": "Moral Sense Theory",
     "influenced_by": "Franciscus Gomarus",
-    "known_for": "An Inquiry into the Principles of Beauty and Morality"
+    "known_for": "An Inquiry into the Principles of Beauty and Morality",
+    "type": "Philosopher"
   },
   "relationship": [
+    {
+      "instance_of": "human"
+    },
+    {
+      "country_of_birth": "Scotland"
+    },
     {
       "educated_at": "University of Glasgow"
     },
     {
-      "taught_by": "William Cameron (philosopher)"
+      "member_of": "Royal Society"
     },
     {
       "influenced": "Adam Smith"
@@ -26,22 +33,16 @@
       "influenced": "David Hume"
     },
     {
-      "influenced": "Joseph Butler"
+      "influenced": "Erasmus Darwin"
     },
     {
-      "student_of": "John Simson"
+      "authored": "An Inquiry into the Principles of Morals"
     },
     {
-      "professor_of": "University of Glasgow"
+      "authored": "An Essay on the Nature and Conduct of Human MInd"
     },
     {
-      "work_published": "An Inquiry into the Principles of Beauty and Morality"
-    },
-    {
-      "work_published": "System of Moral Philosophy"
-    },
-    {
-      "member_of": "Royal Society"
+      "preceded_by": "John Locke"
     }
   ]
 }

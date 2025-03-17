@@ -1,5 +1,5 @@
 {
-  "entity": "Prince Edward, Duke of Kent and Strathearn",
+  "entity": "Prince Edward  Duke of Kent and Strathearn",
   "properties": {
     "birth_date": "1935-10-01",
     "birth_place": "Marlborough House, London",
@@ -10,38 +10,39 @@
     "nationality": "British",
     "father": "Prince George, Duke of Kent",
     "mother": "Princess Marina of Greece and Denmark",
-    "sibling": "Princess Alexandra, The Honourable Lady Ogilvie"
+    "sibling": "Princess Alexandra, The Honourable Lady Ogilvie",
+    "type": "Royal"
   },
   "relationship": [
     {
-      "member_of": "British Royal Family"
+      "instance_of": "British nobleman"
     },
     {
-      "child_of": "Prince George, Duke of Kent"
+      "sibling": "Prince Michael of Kent"
     },
     {
-      "child_of": "Princess Marina of Greece and Denmark"
+      "parent": "Prince George, Duke of Kent"
     },
     {
-      "spouse_of": "Katharine Worsley"
+      "parent": "Princess Marina of Greece and Denmark"
     },
     {
-      "parent_of": "Lady Amelia Windsor"
+      "spouse": "Katharine Worsley"
     },
     {
-      "parent_of": "Lord Frederick Windsor"
+      "child": "Lady Amelia Windsor"
     },
     {
-      "parent_of": "Lady Alice Windsor"
+      "child": "Lord Frederick Windsor"
     },
     {
-      "served_in": "British Army"
+      "member_of": "British royal family"
     },
     {
-      "attended": "Gordonstoun School"
+      "title": "Duke of Kent"
     },
     {
-      "educated_at": "University of Toronto"
+      "member_of": "House of Windsor"
     }
   ]
 }

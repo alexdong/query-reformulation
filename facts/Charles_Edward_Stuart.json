@@ -10,38 +10,39 @@
     "claimed_title": "King of Great Britain",
     "death_date": "1788-01-31",
     "death_place": "Rome, Italy",
-    "nickname": "The Young Pretender"
+    "nickname": "The Young Pretender",
+    "type": "Royal"
   },
   "relationship": [
     {
-      "part_of": "Jacobite rising of 1745"
+      "instance_of": "Jacobite"
     },
     {
-      "father": "James Francis Edward Stuart"
+      "parent_of": "Charles Edward Louis John Casimir Savage"
     },
     {
-      "mother": "Maria Clementina Sobieska"
+      "sibling_of": "Anne Marie d'Orléans"
     },
     {
-      "supported_by": "Jacobites"
+      "spouse_of": "Maria Luisa of Parma"
     },
     {
-      "fought_against": "Great Britain"
+      "child_of": "James Francis Edward Stuart"
     },
     {
-      "involved_in": "Battle of Culloden"
+      "member_of": "House of Stuart"
     },
     {
-      "escaped_with_help_of": "Flora MacDonald"
+      "located_in": "Rome (city)"
     },
     {
-      "exiled_to": "France"
+      "involved_in": "Jacobite rising of 1745"
     },
     {
-      "lived_in": "Castel Fusaro"
+      "influenced_by": "Jacobitism"
     },
     {
-      "influenced": "Romanticism"
+      "predecessor_of": "Charles III (Duke of Parma)"
     }
   ]
 }

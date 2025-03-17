@@ -10,38 +10,39 @@
     "political_status": "Diverse (independent nations)",
     "geography": "Archipelago, mainland",
     "major_religion": "Buddhism, Islam, Christianity, Hinduism",
-    "coordinates": "10°N 110°E"
+    "coordinates": "10°N 110°E",
+    "type": "Continent"
   },
   "relationship": [
     {
-      "part_of": "Asia"
+      "located_in": "Asia"
     },
     {
-      "borders": "South Asia"
+      "part_of": "Asia-Pacific"
     },
     {
-      "contains": "Indonesia"
+      "borders": "Indian Ocean"
     },
     {
-      "contains": "Thailand"
+      "borders": "South China Sea"
     },
     {
-      "contains": "Vietnam"
+      "influenced_by": "Indian subcontinent"
     },
     {
-      "contains": "Philippines"
+      "influenced_by": "China"
     },
     {
-      "contains": "Malaysia"
+      "has_member_state": "ASEAN"
     },
     {
-      "influenced_by": "Indian culture"
+      "economic_relationship": "China"
     },
     {
-      "influenced_by": "Chinese culture"
+      "historical_relationship": "British Empire"
     },
     {
-      "member_of": "ASEAN"
+      "cultural_relationship": "Buddhism"
     }
   ]
 }

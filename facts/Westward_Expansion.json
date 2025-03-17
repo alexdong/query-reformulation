@@ -10,38 +10,39 @@
     "impact_on_native_americans": "Displacement, Conflict",
     "political_impact": "Territorial growth, Statehood",
     "social_impact": "Population shift, Cultural exchange",
-    "legal_framework": "Homestead Act"
+    "legal_framework": "Homestead Act",
+    "type": "HistoricalEvent"
   },
   "relationship": [
     {
-      "preceded_by": "Louisiana Purchase"
+      "caused_by": "Manifest Destiny"
     },
     {
-      "followed_by": "Industrial Revolution"
+      "resulted_in": "Louisiana Purchase"
     },
     {
-      "influenced": "American identity"
+      "influenced_by": "Indian Removal Act"
     },
     {
-      "involved": "Pioneers"
+      "facilitated_by": "Oregon Trail"
     },
     {
-      "involved": "Native Americans"
+      "resulted_in": "Mexican-American War"
     },
     {
-      "involved": "U.S. Government"
+      "impacted": "Native American Tribes"
     },
     {
-      "led_to": "Oklahoma Land Rush"
+      "resulted_in": "Transcontinental Railroad"
     },
     {
-      "impacted": "Oregon Trail"
+      "part_of": "American History"
     },
     {
-      "impacted": "California Gold Rush"
+      "influenced_by": "Agricultural Revolution"
     },
     {
-      "related_to": "Transcontinental Railroad"
+      "resulted_in": "Homestead Act"
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "entity": "Sediment",
   "properties": {
-    "instance_of": "Geological material",
     "composition": "Rock fragments, minerals, organic matter",
     "formation_process": "Weathering, erosion, deposition",
     "particle_size": "Varies (clay, silt, sand, gravel)",
@@ -10,38 +9,39 @@
     "color": "Variable",
     "origin": "Pre-existing rocks",
     "classification": "Based on size and composition",
-    "importance": "Records past environments"
+    "importance": "Records past environments",
+    "type": "Geological material"
   },
   "relationship": [
+    {
+      "contained_in": "GeologicalFormation"
+    },
     {
       "part_of": "Stratum"
     },
     {
-      "process": "Weathering"
+      "deposited_by": "WaterBody"
     },
     {
-      "process": "Erosion"
+      "composed_of": "Mineral"
     },
     {
-      "process": "Deposition"
+      "transported_by": "Wind"
+    },
+    {
+      "weathered_from": "Rock"
+    },
+    {
+      "affects": "Soil"
+    },
+    {
+      "influences": "SedimentaryRock"
     },
     {
       "found_in": "Lake"
     },
     {
-      "found_in": "River"
-    },
-    {
-      "found_in": "Ocean"
-    },
-    {
-      "forms": "Sedimentary rock"
-    },
-    {
-      "study_field": "Sedimentology"
-    },
-    {
-      "contains": "Fossil"
+      "contributes_to": "Fossil"
     }
   ]
 }

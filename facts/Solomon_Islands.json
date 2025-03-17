@@ -1,7 +1,6 @@
 {
   "entity": "Solomon Islands",
   "properties": {
-    "instance_of": "Country",
     "capital": "Honiara",
     "official_language": "English",
     "currency": "SI$",
@@ -10,17 +9,18 @@
     "continent": "Oceania",
     "government": "Parliamentary republic",
     "independence_date": "1978-07-07",
-    "location": "South Pacific Ocean"
+    "location": "South Pacific Ocean",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Pacific Ocean"
+    },
     {
       "part_of": "Oceania"
     },
     {
-      "borders": "Papua New Guinea"
-    },
-    {
-      "borders": "Vanuatu"
+      "has_capital": "Honiara"
     },
     {
       "member_of": "Commonwealth of Nations"
@@ -29,19 +29,19 @@
       "member_of": "United Nations"
     },
     {
+      "has_neighbor": "Papua New Guinea"
+    },
+    {
+      "has_neighbor": "Vanuatu"
+    },
+    {
       "influenced_by": "Australia"
     },
     {
-      "has_part": "Guadalcanal"
+      "has_official_language": "English language"
     },
     {
-      "has_part": "Malaita"
-    },
-    {
-      "has_part": "Choiseul"
-    },
-    {
-      "major_event": "Battle of Guadalcanal"
+      "has_currency": "Solomon Islands dollar"
     }
   ]
 }

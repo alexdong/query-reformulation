@@ -1,5 +1,5 @@
 {
-  "entity": "Gaelic languages",
+  "entity": "Gaelic Languages",
   "properties": {
     "language_family": "Indo-European",
     "origin": "Gaeltacht",
@@ -10,38 +10,39 @@
     "official_status": "Regional",
     "related_language": "Old Irish",
     "writing_system": "Gaelic script",
-    "typology": "Synthetic"
+    "typology": "Synthetic",
+    "type": "Language"
   },
   "relationship": [
     {
-      "part_of": "Celtic languages"
+      "instance_of": "language"
     },
     {
-      "related_to": "Old Irish"
+      "part_of": "Celtic_languages"
     },
     {
-      "spoken_in": "Ireland"
+      "related_to": "Ireland"
     },
     {
-      "spoken_in": "Scotland"
+      "related_to": "Scotland"
     },
     {
-      "influenced": "Irish literature"
+      "related_to": "Isle_of_Man"
     },
     {
-      "influenced": "Scottish literature"
+      "spoken_in": "Gaeltacht"
     },
     {
-      "dialect_of": "Irish language"
+      "influenced_by": "Old_Irish"
     },
     {
-      "dialect_of": "Scottish Gaelic"
+      "influenced_by": "Middle_Irish"
     },
     {
-      "revival_movement": "Foras na Gaeilge"
+      "has_variant": "Scottish_Gaelic"
     },
     {
-      "related_to": "Bardic tradition"
+      "has_variant": "Irish_language"
     }
   ]
 }

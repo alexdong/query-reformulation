@@ -1,5 +1,5 @@
 {
-  "entity": "Blockbuster, Inc.",
+  "entity": "Blockbuster  Inc ",
   "properties": {
     "industry": "Video Rental",
     "founder": "David Cook",
@@ -10,9 +10,22 @@
     "business_model": "Rental & Sales",
     "former_ceo": "Jim Keyes",
     "reason_for_decline": "Streaming",
-    "stock_exchange": "NYSE"
+    "stock_exchange": "NYSE",
+    "type": "Company"
   },
   "relationship": [
+    {
+      "instance_of": "video rental store"
+    },
+    {
+      "subsidiary_of": "Viacom"
+    },
+    {
+      "founded_by": "David Cook"
+    },
+    {
+      "headquarters_location": "Plano, Texas"
+    },
     {
       "competitor": "Netflix"
     },
@@ -20,28 +33,16 @@
       "competitor": "Redbox"
     },
     {
-      "acquired_by": "Viacom"
-    },
-    {
-      "parent_company": "Viacom"
-    },
-    {
-      "replaced_by": "Streaming Services"
+      "industry": "film industry"
     },
     {
       "product": "DVD"
     },
     {
-      "product": "VHS"
+      "product": "Blu-ray disc"
     },
     {
-      "service_provided": "Movie Rental"
-    },
-    {
-      "service_provided": "Video Game Rental"
-    },
-    {
-      "influenced": "Home Entertainment"
+      "employee": "Wayne Huizenga"
     }
   ]
 }

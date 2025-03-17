@@ -1,7 +1,6 @@
 {
   "entity": "Copra",
   "properties": {
-    "instance_of": "Agricultural product",
     "derived_from": "Coconut",
     "use": "Oil extraction",
     "form": "Dried coconut kernel",
@@ -10,38 +9,39 @@
     "unit": "Metric ton",
     "production_region": "Southeast Asia, Pacific Islands",
     "primary_use": "Coconut oil production",
-    "economic_importance": "Significant in developing countries"
+    "economic_importance": "Significant in developing countries",
+    "type": "Agricultural product"
   },
   "relationship": [
     {
-      "derived_from": "Coconut"
+      "instance_of": "coconut"
     },
     {
-      "produced_in": "Indonesia"
+      "derived_from": "coconut"
     },
     {
-      "produced_in": "Philippines"
+      "used_for": "coconut oil production"
     },
     {
-      "produced_in": "Papua New Guinea"
+      "produced_in": "Pacific Islands"
     },
     {
-      "processed_into": "Coconut oil"
+      "used_in": "animal feed"
     },
     {
-      "used_for": "Animal feed"
+      "used_in": "fertilizer"
     },
     {
-      "trade_partner": "China"
+      "traded_in": "international trade"
     },
     {
-      "trade_partner": "India"
+      "commodity_of": "agricultural commodity"
     },
     {
-      "impacts": "Coconut farmers"
+      "related_to": "coconut tree"
     },
     {
-      "related_to": "Coconut tree"
+      "part_of": "coconut processing"
     }
   ]
 }

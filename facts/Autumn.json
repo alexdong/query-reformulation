@@ -10,9 +10,13 @@
     "daylight": "Decreasing",
     "harvest": "Yes",
     "associated_holidays": "Thanksgiving, Halloween",
-    "symbolism": "Decline, transition, maturity"
+    "symbolism": "Decline, transition, maturity",
+    "type": "Season"
   },
   "relationship": [
+    {
+      "instance_of": "season"
+    },
     {
       "precedes": "Winter"
     },
@@ -20,28 +24,25 @@
       "follows": "Summer"
     },
     {
-      "part_of": "Year"
+      "associated_with": "Harvest"
     },
     {
-      "related_to": "Meteorology"
+      "related_to": "Fall foliage"
     },
     {
-      "associated_with": "Fall foliage"
+      "occurs_in": "Northern Hemisphere"
     },
     {
-      "occurs_in": "Temperate zones"
+      "associated_with_event": "Thanksgiving"
     },
     {
-      "influences": "Agriculture"
+      "related_to_time_period": "Meteorological autumn"
     },
     {
-      "related_to": "Harvest festivals"
+      "characterized_by": "Falling leaves"
     },
     {
-      "associated_with": "Halloween"
-    },
-    {
-      "related_to": "Thanksgiving"
+      "related_to_phenomenon": "Equinox"
     }
   ]
 }

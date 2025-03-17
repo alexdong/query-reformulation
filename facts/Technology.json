@@ -1,7 +1,6 @@
 {
   "entity": "Technology",
   "properties": {
-    "instance_of": "Field of study",
     "definition": "Application of scientific knowledge",
     "scope": "Tools, techniques, systems",
     "origin": "Ancient times",
@@ -10,38 +9,39 @@
     "category": "Engineering",
     "related_to": "Science",
     "subfield": "Information Technology",
-    "focus": "Innovation"
+    "focus": "Innovation",
+    "type": "Field of study"
   },
   "relationship": [
     {
-      "depends_on": "Science"
+      "instance_of": "artifact"
     },
     {
-      "influences": "Society"
+      "used_by": "Human"
     },
     {
-      "related_to": "Engineering"
+      "developed_by": "Science"
+    },
+    {
+      "part_of": "Society"
+    },
+    {
+      "has_property": "Innovation"
+    },
+    {
+      "causes": "Automation"
     },
     {
       "impacts": "Economy"
     },
     {
-      "drives": "Innovation"
+      "related_to": "Engineering"
     },
     {
-      "requires": "Mathematics"
+      "used_for": "Communication"
     },
     {
-      "overlaps_with": "Automation"
-    },
-    {
-      "includes": "Artificial Intelligence"
-    },
-    {
-      "supports": "Communication"
-    },
-    {
-      "advances": "Medicine"
+      "influences": "Culture"
     }
   ]
 }

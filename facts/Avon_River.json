@@ -10,38 +10,39 @@
     "river_type": "Greywacke river",
     "region": "West Coast Region",
     "discharge": "10.5 m³/s",
-    "basin_area": "1,130 km²"
+    "basin_area": "1,130 km²",
+    "type": "River"
   },
   "relationship": [
     {
-      "flows_through": "Westland Tai Poutini National Park"
+      "flows_into": "Solent"
     },
     {
-      "part_of": "Tasman Sea"
+      "flows_through": "Wiltshire"
     },
     {
-      "tributary_of": "Tasman Sea"
+      "flows_through": "Hampshire"
     },
     {
-      "near": "Arthur's Pass"
+      "tributary_of": "English Channel"
     },
     {
-      "near": "Fox Glacier"
+      "located_in": "England"
     },
     {
-      "near": "Franz Josef Glacier"
+      "part_of": "River Avon system"
     },
     {
-      "flows_past": "Mount Cook"
+      "has_landmark": "Salisbury Cathedral"
     },
     {
-      "influenced_by": "glacial_erosion"
+      "source_of": "Salisbury Plain"
     },
     {
-      "has_tributary": "Mitchell River"
+      "influenced_by": "Roman Empire"
     },
     {
-      "has_tributary": "Maxwell River"
+      "has_settlement": "Salisbury"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "entity": "St. Peter's Basilica",
+  "entity": "St  Peter s Basilica",
   "properties": {
     "architectural_style": "Renaissance architecture",
     "location": "Vatican City",
@@ -10,38 +10,39 @@
     "construction_end": "1626",
     "architects": "Multiple",
     "patron": "Popes",
-    "denomination": "Catholic"
+    "denomination": "Catholic",
+    "type": "Religious building"
   },
   "relationship": [
     {
-      "part_of": "Vatican City"
+      "located_in": "Vatican City"
+    },
+    {
+      "part_of": "Vatican_State"
+    },
+    {
+      "architectural_style": "Italian Renaissance architecture"
+    },
+    {
+      "commissioned_by": "Pope Julius II"
     },
     {
       "designed_by": "Donato Bramante"
     },
     {
-      "designed_by": "Michelangelo"
+      "influenced": "St_Paul's_Cathedral"
     },
     {
-      "designed_by": "Gian Lorenzo Bernini"
+      "has_part": "Michelangelo's Pietà"
     },
     {
-      "contains": "Michelangelo's Pietà"
+      "religious_affiliation": "Roman Catholic Church"
     },
     {
-      "contains": "Bernini's Baldachin"
+      "built_during": "Italian Renaissance"
     },
     {
-      "adjacent_to": "St. Peter's Square"
-    },
-    {
-      "influenced": "Baroque architecture"
-    },
-    {
-      "religious_significance": "Papal"
-    },
-    {
-      "burial_site": "St. Peter"
+      "has_property": "Vatican_Museums"
     }
   ]
 }

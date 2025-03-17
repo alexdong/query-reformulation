@@ -10,38 +10,39 @@
     "social_mobility": "Intergenerational advancement",
     "criticisms": "Inequality, unrealistic expectations",
     "geographic_association": "United States",
-    "contemporary_relevance": "Ongoing debate"
+    "contemporary_relevance": "Ongoing debate",
+    "type": "Ideology"
   },
   "relationship": [
     {
-      "influenced_by": "Declaration of Independence"
+      "instance_of": "social_concept"
     },
     {
-      "related_to": "Social mobility"
+      "related_to": "Capitalism"
     },
     {
-      "contradicts": "Class stratification"
+      "influenced_by": "Frontierism"
     },
     {
-      "impacts": "Consumerism"
+      "associated_with": "Immigration"
     },
     {
-      "tied_to": "Capitalism"
+      "manifestation_of": "Individualism"
     },
     {
-      "challenges": "Income inequality"
+      "requires": "Economic Opportunity"
     },
     {
-      "promoted_by": "Frontier mentality"
+      "promoted_by": "Horatio Alger Jr."
+    },
+    {
+      "often_associated_with": "Homeownership"
+    },
+    {
+      "challenges": "Income Inequality"
     },
     {
       "criticized_by": "Karl Marx"
-    },
-    {
-      "manifests_in": "Suburbanization"
-    },
-    {
-      "linked_to": "Immigration"
     }
   ]
 }

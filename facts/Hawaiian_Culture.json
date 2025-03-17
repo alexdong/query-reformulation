@@ -10,38 +10,39 @@
     "social_structure": "Aliʻi Nui",
     "traditional_food": "Poi",
     "values": "Aloha, Ohana, Malama",
-    "art_form": "Lei making"
+    "art_form": "Lei making",
+    "type": "Culture"
   },
   "relationship": [
     {
-      "influenced_by": "Polynesian culture"
+      "part_of": "Polynesia"
     },
     {
-      "part_of": "Pacific Islander culture"
+      "located_in": "United States"
     },
     {
-      "has_language": "Hawaiian Language"
+      "has_language": "Hawaiian language"
     },
     {
-      "has_art": "Hula"
+      "influenced_by": "Ancient Egypt"
+    },
+    {
+      "has_religion": "Hawaiian religion"
+    },
+    {
+      "created_by": "Polynesian settlers"
+    },
+    {
+      "has_art_form": "Hula"
     },
     {
       "has_cuisine": "Hawaiian cuisine"
     },
     {
-      "has_value": "Aloha"
+      "associated_with": "Aloha"
     },
     {
-      "has_social_system": "Aliʻi Nui"
-    },
-    {
-      "associated_with": "Lei"
-    },
-    {
-      "influenced": "American culture"
-    },
-    {
-      "related_to": "Kingdom of Hawaii"
+      "has_tradition": "Lei making"
     }
   ]
 }

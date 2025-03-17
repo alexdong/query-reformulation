@@ -10,38 +10,39 @@
     "first_match": "1872-03-05",
     "manager": "Steve Clarke",
     "world_cup_appearances": "3",
-    "european_championship_appearances": "1"
+    "european_championship_appearances": "1",
+    "type": "SportsTeam"
   },
   "relationship": [
+    {
+      "instance_of": "national football team"
+    },
+    {
+      "country": "Scotland"
+    },
+    {
+      "governed_by": "Scottish Football Association"
+    },
+    {
+      "member_of": "FIFA"
+    },
     {
       "member_of": "UEFA"
     },
     {
-      "plays_in": "FIFA World Cup"
+      "plays_in": "Scottish Premiership"
     },
     {
-      "plays_in": "UEFA European Championship"
+      "coach": "Steve Clarke"
     },
     {
-      "located_in": "Scotland"
+      "has_captain": "Andrew Robertson"
     },
     {
-      "rivalry_with": "England national football team"
+      "competes_in": "UEFA European Championship"
     },
     {
-      "influenced_by": "Scottish football"
-    },
-    {
-      "coach": "Alex McLeish"
-    },
-    {
-      "coach": "Craig Brown"
-    },
-    {
-      "player_plays_for": "Celtic F.C."
-    },
-    {
-      "player_plays_for": "Rangers F.C."
+      "competes_in": "FIFA World Cup"
     }
   ]
 }

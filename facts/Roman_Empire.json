@@ -10,38 +10,39 @@
     "religion": "Roman polytheism, Christianity",
     "government": "Empire",
     "system_of_law": "Roman law",
-    "decline_date": "476"
+    "decline_date": "476",
+    "type": "Empire"
   },
   "relationship": [
     {
-      "predecessor": "Roman Republic"
+      "part_of": "Mediterranean world"
     },
     {
-      "successors": "Byzantine Empire, Holy Roman Empire"
+      "located_in": "Europe"
     },
     {
-      "influenced": "Western Civilization"
+      "located_in": "Africa"
     },
     {
-      "located_in": "Europe, Africa, Asia"
+      "located_in": "Asia"
     },
     {
-      "military_conflict": "Punic Wars"
+      "predecessor_of": "Byzantine Empire"
     },
     {
-      "military_conflict": "Roman-Persian Wars"
+      "succeeded": "Roman Republic"
     },
     {
-      "ruled_by": "Julius Caesar"
+      "influenced": "Western culture"
     },
     {
-      "ruled_by": "Augustus"
+      "influenced": "Roman law"
     },
     {
-      "architectural_style": "Roman architecture"
+      "had_ruler": "Augustus"
     },
     {
-      "invention": "Concrete"
+      "influenced": "Latin language"
     }
   ]
 }

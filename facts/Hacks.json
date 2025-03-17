@@ -1,7 +1,6 @@
 {
   "entity": "Hacks",
   "properties": {
-    "instance_of": "American television series",
     "creator": "Lucia Aniello",
     "genre": "Comedy-drama",
     "network": "HBO",
@@ -10,38 +9,39 @@
     "setting": "Los Angeles, California",
     "production_company": "Warner Bros. Television",
     "language": "English",
-    "format": "Television show"
+    "format": "Television show",
+    "type": "American television series"
   },
   "relationship": [
     {
-      "creator_of": "Lucia Aniello"
+      "instance_of": "television_series"
     },
     {
-      "genre_is": "Comedy"
+      "creator": "Jean-Pierre Beaumont"
     },
     {
-      "genre_is": "Drama"
+      "creator": "Paul W. Downs"
     },
     {
-      "network_is": "HBO"
+      "creator": "Andrew Rannells"
     },
     {
-      "production_company_is": "Warner Bros. Television"
+      "genre": "comedy"
     },
     {
-      "starring": "Jean Smart"
+      "country_of_origin": "United States"
     },
     {
-      "starring": "Hannah Einbinder"
+      "language": "English language"
     },
     {
-      "influenced_by": "Stand-up comedy"
+      "publication_date": "2021"
     },
     {
-      "theme_explores": "Generational differences"
+      "depicts": "corporate culture"
     },
     {
-      "theme_explores": "Female empowerment"
+      "theme": "satire"
     }
   ]
 }

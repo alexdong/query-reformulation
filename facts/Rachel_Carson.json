@@ -10,38 +10,39 @@
     "education": "Johns Hopkins University",
     "field": "Ecology",
     "genre": "Non-fiction",
-    "awards": "National Medal"
+    "awards": "National Medal",
+    "type": "Scientist"
   },
   "relationship": [
     {
-      "author_of": "Silent Spring"
+      "instance_of": "writer"
     },
     {
-      "influenced": "Environmental movement"
+      "occupation": "marine biologist"
     },
     {
-      "studied_at": "Johns Hopkins University"
+      "educated_at": "Johns Hopkins University"
     },
     {
-      "preceded_by": "Henry David Thoreau"
+      "birth_place": "Springdale, Pennsylvania"
     },
     {
-      "influenced": "Gaylord Nelson"
+      "death_place": "Maine"
     },
     {
-      "worked_at": "U.S. Bureau of Fisheries"
+      "publication": "Silent Spring"
     },
     {
-      "wrote_about": "Pesticides"
+      "award_received": "National Medal of Science"
     },
     {
-      "subject_of": "Rachel Carson's Legacy"
+      "influenced": "environmental movement"
     },
     {
-      "award_given_by": "United States Government"
+      "member_of": "American Association for the Advancement of Science"
     },
     {
-      "related_to": "Marine biology"
+      "field_of_study": "ecology"
     }
   ]
 }

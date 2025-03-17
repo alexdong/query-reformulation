@@ -10,38 +10,39 @@
     "active_years": "1979–present",
     "instrument": "Turntables",
     "label": "Beat Box Records",
-    "award": "Grammy Hall of Fame Award"
+    "award": "Grammy Hall of Fame Award",
+    "type": "MusicalArtist"
   },
   "relationship": [
     {
-      "founder_of": "Zulu Nation"
+      "instance_of": "hip hop artist"
     },
     {
-      "influenced": "Afrika Islam"
+      "member_of": "Zulu Nation"
     },
     {
-      "influenced": "Grandmaster Flash"
+      "influenced_by": "James Brown"
     },
     {
-      "influenced": "Kool Herc"
+      "influenced": "Public Enemy"
     },
     {
-      "member_of": "Universal Zulu Nation"
+      "genre": "electro"
     },
     {
-      "collaborated_with": "James Brown"
+      "birth_place": "The Bronx"
     },
     {
-      "produced_for": "Hashim"
+      "occupation": "DJ"
     },
     {
-      "genre_influenced": "Electro-funk"
+      "associated_with": "Grandmaster Flash"
     },
     {
-      "performed_at": "Electric Lady Studios"
+      "award_received": "Grammy Award"
     },
     {
-      "associated_with": "Hip Hop Culture"
+      "member_of_movement": "Universal Zulu Nation"
     }
   ]
 }

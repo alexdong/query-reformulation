@@ -10,38 +10,39 @@
     "cause": "Assassination of Archduke Franz Ferdinand",
     "outcome": "Allied victory",
     "treaties": "Treaty of Versailles",
-    "preceding_event": "July Crisis"
+    "preceding_event": "July Crisis",
+    "type": "War"
   },
   "relationship": [
     {
-      "part_of": "20th century"
+      "caused_by": "Franz Ferdinand assassination"
     },
     {
-      "preceded_by": "Franco-Prussian War"
+      "preceded_by": "Scramble for Africa"
     },
     {
       "followed_by": "World War II"
     },
     {
-      "involved": "Germany"
+      "involved": "Central Powers"
     },
     {
-      "involved": "Austria-Hungary"
+      "involved": "Allied Powers"
     },
     {
-      "involved": "United Kingdom"
+      "resulted_in": "Treaty of Versailles"
     },
     {
-      "involved": "France"
+      "influenced": "League of Nations"
     },
     {
-      "involved": "Russia"
+      "took_place_in": "Europe"
     },
     {
-      "involved": "United States"
+      "affected": "Russian Revolution"
     },
     {
-      "led_to": "League of Nations"
+      "caused": "Spanish Flu"
     }
   ]
 }

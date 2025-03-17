@@ -1,5 +1,5 @@
 {
-  "entity": "William Burns (poet)",
+  "entity": "William Burns  poet ",
   "properties": {
     "birth_date": "1789-03-27",
     "birth_place": "Dalmarnock, Glasgow",
@@ -10,38 +10,39 @@
     "literary_movement": "Romanticism",
     "known_for": "Scottish dialect poetry",
     "genre": "Lyric poetry",
-    "language": "Scottish Gaelic, English"
+    "language": "Scottish Gaelic, English",
+    "type": "Poet"
   },
   "relationship": [
     {
-      "influenced_by": "Robert Burns"
+      "instance_of": "poet"
     },
     {
-      "contemporary_of": "Lord Byron"
+      "birthPlace": "St. Louis, Missouri"
     },
     {
-      "contemporary_of": "Walter Scott"
+      "deathPlace": "Florida"
     },
     {
-      "wrote_for": "The Glasgow Chronicle"
+      "influenced_by": "Robert Frost"
     },
     {
-      "wrote_for": "The Caledonian Mercury"
+      "influenced_by": "T.S. Eliot"
     },
     {
-      "member_of": "Glasgow Poet's Club"
+      "award_received": "National Medal for the Arts"
     },
     {
-      "style_influenced": "Scottish literature"
+      "award_received": "Pulitzer Prize for Poetry"
     },
     {
-      "subject_of": "Burns's poems"
+      "publication": "The Sports Page"
     },
     {
-      "themes_explored": "Rural life, Nature, Patriotism"
+      "publication": "Writing and Selling Poetry"
     },
     {
-      "collected_works": "The Works of William Burns"
+      "member_of": "Academy of American Poets"
     }
   ]
 }

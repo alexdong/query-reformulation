@@ -10,35 +10,36 @@
     "occupation": "Socialite",
     "religion": "Roman Catholic",
     "family": "Kennedy family",
-    "education": "Wellesley College"
+    "education": "Wellesley College",
+    "type": "Politician"
   },
   "relationship": [
     {
-      "parent_of": "Joseph Kennedy Jr."
+      "instance_of": "human"
     },
     {
-      "parent_of": "John F. Kennedy"
+      "parent_of": "Joseph P. Kennedy Sr."
     },
     {
-      "parent_of": "Rose Kennedy"
+      "spouse_of": "Joseph P. Kennedy Jr."
     },
     {
-      "parent_of": "Kathleen Kennedy"
+      "child_of": "Rose Fiona Fitzgerald"
     },
     {
-      "parent_of": "Eunice Kennedy Shriver"
+      "sibling_of": "John Fitzgerald Kennedy"
     },
     {
-      "parent_of": "Patricia Kennedy Lawford"
+      "mother_of": "John F. Kennedy"
     },
     {
-      "parent_of": "Robert F. Kennedy"
+      "mother_of": "Robert F. Kennedy"
     },
     {
-      "parent_of": "Jean Kennedy Smith"
+      "mother_of": "Jean Kennedy Smith"
     },
     {
-      "spouse_of": "Joseph P. Kennedy Sr."
+      "mother_of": "Edward M. Kennedy"
     },
     {
       "member_of": "Kennedy family"

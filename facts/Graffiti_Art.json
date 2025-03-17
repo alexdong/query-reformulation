@@ -10,38 +10,39 @@
     "often_associated_with": "Hip Hop culture",
     "legal_status": "Generally illegal",
     "purpose": "Expression, protest, communication",
-    "subgenres": "Street art, Muralism"
+    "subgenres": "Street art, Muralism",
+    "type": "Artwork"
   },
   "relationship": [
     {
-      "influenced": "Street art"
+      "instance_of": "visual_art"
     },
     {
-      "predecessor_of": "Modern art"
+      "subclass_of": "street_art"
     },
     {
-      "related_to": "Vandalism"
+      "created_by": "graffiti_artist"
     },
     {
-      "artist_uses": "Spray paint"
+      "depicts": "urban_landscape"
     },
     {
-      "often_found_in": "Urban areas"
+      "located_in": "urban_area"
     },
     {
-      "artist_associated": "Banksy"
+      "used_for": "social_commentary"
     },
     {
-      "artist_associated": "Keith Haring"
+      "expressed_in": "visual_language"
     },
     {
-      "influenced": "Graphic design"
+      "influenced_by": "subculture"
     },
     {
-      "part_of": "Youth culture"
+      "associated_with": "youth_culture"
     },
     {
-      "legal_counterpart": "Mural"
+      "part_of": "public_space"
     }
   ]
 }

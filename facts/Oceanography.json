@@ -1,7 +1,6 @@
 {
   "entity": "Oceanography",
   "properties": {
-    "instance_of": "Scientific discipline",
     "field_of_study": "Marine science",
     "sub_discipline_of": "Earth science",
     "related_to": "Geology, Biology, Chemistry, Physics",
@@ -10,38 +9,39 @@
     "historical_beginnings": "19th century",
     "key_technologies": "Sonar, Satellites, ROVs",
     "data_collected": "Temperature, Salinity, Currents, Marine life",
-    "importance": "Understanding climate, resources, ecosystems"
+    "importance": "Understanding climate, resources, ecosystems",
+    "type": "Scientific discipline"
   },
   "relationship": [
     {
-      "studies": "Ocean currents"
+      "subclass_of": "Natural science"
     },
     {
-      "studies": "Marine ecosystems"
+      "instance_of": "Scientific discipline"
     },
     {
-      "studies": "Tsunamis"
+      "studied_by": "Marine biology"
     },
     {
-      "studies": "Seafloor"
+      "studied_by": "Geology"
     },
     {
-      "related_to": "Meteorology"
+      "studied_by": "Meteorology"
     },
     {
-      "related_to": "Marine biology"
+      "studied_by": "Physical oceanography"
     },
     {
-      "related_to": "Geophysics"
+      "studied_by": "Chemical oceanography"
     },
     {
-      "uses": "Bathymetry"
+      "studied_by": "Biological oceanography"
     },
     {
-      "employs": "Remote sensing"
+      "used_in": "Climate modeling"
     },
     {
-      "contributes_to": "Climate modeling"
+      "related_to": "Marine ecosystems"
     }
   ]
 }

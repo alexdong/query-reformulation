@@ -10,38 +10,39 @@
     "traditional_occupation": "Fisheries, agriculture",
     "significant_figure": "Hone Heke",
     "treaty_signatory": "Numerous",
-    "economic_activity": "Tourism, agriculture, forestry"
+    "economic_activity": "Tourism, agriculture, forestry",
+    "type": "Iwi"
   },
   "relationship": [
     {
-      "part_of": "Māori people"
+      "instance_of": "ethnic_group"
     },
     {
-      "located_in": "Northland Region"
+      "located_in": "New Zealand"
     },
     {
-      "ancestor_of": "Kurahaupo"
+      "part_of": "Māori_people"
     },
     {
-      "treaty_relationship": "Treaty of Waitangi"
+      "has_traditional_territory": "Northland_Region"
     },
     {
-      "influenced_by": "European colonization"
+      "ancestor_of": "Tāwhiao"
     },
     {
-      "has_sub_iwi": "Te Roroa"
+      "related_to": "Treaty_of_Waitangi"
     },
     {
-      "has_sub_iwi": "Ngāti Hine"
+      "has_leader": "Hone_Heke"
     },
     {
-      "has_sub_iwi": "Ngāti Rehia"
+      "has_language": "Te_Reo_Māori"
     },
     {
-      "involved_in": "Land claims"
+      "has_cultural_artifact": "Pātaka"
     },
     {
-      "associated_with": "Waitangi Treaty Grounds"
+      "subclass_of": "Māori_iwi"
     }
   ]
 }

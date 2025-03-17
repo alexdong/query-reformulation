@@ -10,38 +10,39 @@
     "biome": "Boreal",
     "climate": "Subarctic",
     "features": "Coastal cliffs, mountains, forests",
-    "designated_as": "National Park"
+    "designated_as": "National Park",
+    "type": "Park"
   },
   "relationship": [
     {
-      "part_of": "National Parks of Canada"
+      "located_in": "Nova Scotia"
     },
     {
-      "located_in": "Cape Breton Island"
+      "part_of": "Canada"
     },
     {
-      "adjacent_to": "Gulf of Saint Lawrence"
+      "managed_by": "Parks Canada"
+    },
+    {
+      "has_feature": "Cape Breton Island"
     },
     {
       "contains": "Skyline Trail"
     },
     {
-      "contains": "Ingonish"
+      "adjacent_to": "Gulf of Saint Lawrence"
     },
     {
-      "contains": "MacIntyre Falls"
+      "has_ecosystem": "Temperate Rainforest"
     },
     {
-      "flora_includes": "Balsam fir"
+      "protects_species": "Moose"
     },
     {
-      "fauna_includes": "Moose"
+      "established_in": "1932"
     },
     {
-      "influenced_by": "Canadian government"
-    },
-    {
-      "protects": "Atlantic salmon"
+      "has_geographical_coordinate": "46°08′N 60°05′W"
     }
   ]
 }

@@ -10,7 +10,8 @@
     "max_width": "48 km (30 mi)",
     "average_depth": "100 m (330 ft)",
     "ph_level": "6.0 - 7.3",
-    "tributaries_count": "1,000+"
+    "tributaries_count": "1,000+",
+    "type": "River"
   },
   "relationship": [
     {
@@ -18,9 +19,6 @@
     },
     {
       "located_in": "South America"
-    },
-    {
-      "tributary_of": "Andes Mountains"
     },
     {
       "flows_through": "Brazil"
@@ -32,16 +30,19 @@
       "flows_through": "Colombia"
     },
     {
-      "biodiversity_hotspot": "Amazon Rainforest"
+      "tributary_of": "South American Plate"
     },
     {
-      "supports": "Amazon Basin"
+      "has_species": "Amazon River Dolphin"
     },
     {
-      "species_found": "Piranha"
+      "has_species": "Piranha"
     },
     {
-      "species_found": "Amazon River Dolphin"
+      "part_of": "Amazon Basin"
+    },
+    {
+      "influenced_by": "Andes Mountains"
     }
   ]
 }

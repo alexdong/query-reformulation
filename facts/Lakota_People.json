@@ -10,38 +10,39 @@
     "culture": "Indigenous",
     "historical_territory": "Great Plains",
     "treaties_signed": "Numerous",
-    "reservation": "Pine Ridge Reservation"
+    "reservation": "Pine Ridge Reservation",
+    "type": "Indigenous-group"
   },
   "relationship": [
     {
-      "part_of": "Sioux"
+      "part_of": "United States"
     },
     {
-      "related_to": "Dakota People"
+      "located_in": "North America"
     },
     {
-      "related_to": "Nakota People"
+      "has_language": "Lakȟota language"
     },
     {
-      "located_in": "United States"
+      "has_religion": "Lakota spirituality"
     },
     {
-      "treaty_with": "United States Government"
+      "related_to": "Sioux people"
     },
     {
-      "influenced_by": "French"
+      "has_ancestor": "Paleo-Indian period"
     },
     {
-      "influenced_by": "English"
+      "has_culture": "Lakota culture"
     },
     {
-      "has_language": "Lakota language"
+      "has_territory": "Great Plains"
     },
     {
-      "has_religion": "Traditional Lakota spirituality"
+      "influenced_by": "French and Indian War"
     },
     {
-      "leader_of": "Sitting Bull"
+      "has_treaty": "Treaty of Fort Laramie (1868)"
     }
   ]
 }

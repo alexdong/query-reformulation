@@ -10,38 +10,39 @@
     "capacity": "6000",
     "material": "Whitestone",
     "earthquake_damage": "Severe",
-    "designation": "Historic Place (Category 1)"
+    "designation": "Historic Place (Category 1)",
+    "type": "Religious building"
   },
   "relationship": [
     {
-      "part_of": "Christchurch City Centre"
+      "located_in": "Christchurch City Council"
     },
     {
-      "located_in": "Canterbury Region"
+      "architectural_style": "English Gothic Revival architecture"
     },
     {
-      "designed_by": "Benjamin Mountfort"
+      "part_of": "Christchurch City"
     },
     {
-      "built_in": "1864"
+      "built_by": "Deans Brothers"
     },
     {
-      "earthquake": "2011 Christchurch earthquake"
+      "designed_by": "Frederick William Laws"
     },
     {
-      "influenced_by": "English Gothic Cathedrals"
+      "historical_event": "Christchurch earthquake"
     },
     {
-      "diocese": "Christchurch Diocese"
+      "religious_affiliation": "Anglican Church"
     },
     {
-      "destroyed_in": "2011 Christchurch earthquake"
+      "has_part": "Christchurch Cathedral bells"
     },
     {
-      "reconstruction_plan": "Christchurch Cathedral Reinstatement"
+      "predecessor_of": "Cardboard Cathedral"
     },
     {
-      "historical_event": "Christchurch earthquakes"
+      "influenced_by": "Westminster Abbey"
     }
   ]
 }

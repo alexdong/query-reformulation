@@ -1,7 +1,6 @@
 {
   "entity": "Green Bay Packers",
   "properties": {
-    "instance_of": "American football team",
     "league": "NFL",
     "founded": "1919",
     "city": "Green Bay, Wisconsin",
@@ -10,38 +9,39 @@
     "owner": "Green Bay Packers, Inc.",
     "stadium": "Lambeau Field",
     "team_colors": "Green and Gold",
-    "championships": "13"
+    "championships": "13",
+    "type": "American football team"
   },
   "relationship": [
     {
-      "plays_in": "NFL"
+      "instance_of": "American football team"
     },
     {
       "located_in": "Green Bay, Wisconsin"
     },
     {
-      "plays_at": "Lambeau Field"
+      "part_of": "National Football League"
     },
     {
-      "coach": "Vince Lombardi"
+      "country_of_origin": "United States"
     },
     {
-      "player": "Aaron Rodgers"
+      "owner": "Green Bay Packers, Inc."
     },
     {
-      "player": "Brett Favre"
+      "head_coach": "Matt LaFleur"
     },
     {
-      "rival": "Chicago Bears"
+      "plays_in": "Lambeau Field"
     },
     {
-      "division_rival": "Minnesota Vikings"
+      "founded_by": "Curly Lambeau"
     },
     {
-      "member_of": "NFL franchises"
+      "has_member": "Aaron Rodgers"
     },
     {
-      "won": "Super Bowl"
+      "slogan": "Wisconsin's Team"
     }
   ]
 }

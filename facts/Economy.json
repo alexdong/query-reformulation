@@ -1,7 +1,6 @@
 {
   "entity": "Economy",
   "properties": {
-    "instance_of": "Social science",
     "field_of_study": "Economics",
     "focus": "Production, distribution, consumption",
     "system_type": "Complex adaptive system",
@@ -10,38 +9,39 @@
     "measurement": "GDP, Inflation, Unemployment",
     "subfield": "Microeconomics, Macroeconomics",
     "related_discipline": "Political science, Sociology",
-    "historical_development": "Mercantilism, Capitalism, Socialism"
+    "historical_development": "Mercantilism, Capitalism, Socialism",
+    "type": "Social science"
   },
   "relationship": [
     {
-      "impacts": "Standard of living"
+      "partOf": "World"
     },
     {
-      "influences": "Government policy"
+      "hasCharacteristic": "Gross Domestic Product"
     },
     {
-      "requires": "Resources"
+      "influencedBy": "Government"
     },
     {
-      "drives": "Innovation"
+      "hasEffectOn": "Employment"
     },
     {
-      "affects": "Employment"
+      "hasEffectOn": "Inflation"
     },
     {
-      "interacts_with": "Financial markets"
+      "relatedTo": "Market"
     },
     {
-      "depends_on": "Labor"
+      "hasEffectOn": "Standard of Living"
     },
     {
-      "related_to": "Trade"
+      "influencedBy": "Technology"
     },
     {
-      "impacts": "Investment"
+      "hasEffectOn": "Trade"
     },
     {
-      "analyzed_by": "Economists"
+      "relatedTo": "Finance"
     }
   ]
 }

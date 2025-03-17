@@ -1,7 +1,6 @@
 {
   "entity": "NFC West",
   "properties": {
-    "instance_of": "Division",
     "league": "National Football League",
     "region": "Western United States",
     "founded": "1960",
@@ -10,38 +9,39 @@
     "championships": "10",
     "affiliation": "National Football Conference",
     "playoff_appearances": "35",
-    "win_percentage": "0.45"
+    "win_percentage": "0.45",
+    "type": "Division"
   },
   "relationship": [
     {
-      "member_of": "National Football Conference"
+      "instance_of": "sports league"
     },
     {
-      "teams": "Arizona Cardinals"
+      "subdivision_of": "National Football League"
     },
     {
-      "teams": "Los Angeles Rams"
+      "has_member": "Arizona Cardinals"
     },
     {
-      "teams": "San Francisco 49ers"
+      "has_member": "Los Angeles Rams"
     },
     {
-      "teams": "Seattle Seahawks"
+      "has_member": "San Francisco 49ers"
     },
     {
-      "located_in": "Arizona"
+      "has_member": "Seattle Seahawks"
     },
     {
-      "located_in": "California"
+      "located_in": "United States"
     },
     {
-      "located_in": "Washington"
+      "region_contains": "Arizona"
     },
     {
-      "rivalry": "Arizona Cardinals vs. Seattle Seahawks"
+      "region_contains": "California"
     },
     {
-      "rivalry": "San Francisco 49ers vs. Los Angeles Rams"
+      "region_contains": "Washington"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "participants": "Hobbyists, prospectors, small-scale miners",
     "environmental_impact": "Potential for habitat disruption",
     "legal_framework": "Varies by jurisdiction",
-    "economic_impact": "Localized economic activity"
+    "economic_impact": "Localized economic activity",
+    "type": "Event"
   },
   "relationship": [
     {
-      "predecessor": "California Gold Rush"
+      "instance_of": "economic_boom"
     },
     {
-      "influenced_by": "High gold prices"
+      "preceded_by": "California Gold Rush"
     },
     {
-      "uses_technology": "Metal detector"
+      "caused_by": "geological_activity"
     },
     {
-      "location_is_in": "Alaska"
+      "influenced_by": "technological_innovation"
     },
     {
-      "location_is_in": "Yukon"
+      "related_to": "mining"
     },
     {
-      "location_is_in": "Australia"
+      "impacts": "environmental_impact"
     },
     {
-      "impacts": "Environment"
+      "results_in": "population_migration"
     },
     {
-      "regulated_by": "Government"
+      "associated_with": "economic_development"
     },
     {
-      "employs": "GPS"
+      "occurs_in": "geographic_location"
     },
     {
-      "uses_tool": "Drone"
+      "studied_in": "history"
     }
   ]
 }

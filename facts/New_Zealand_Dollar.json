@@ -10,38 +10,39 @@
     "subunit": "Cent",
     "ISO_4217_numeric_code": "554",
     "legal_tender_in": "New Zealand",
-    "exchange_rate_vs_USD": "0.61"
+    "exchange_rate_vs_USD": "0.61",
+    "type": "Currency"
   },
   "relationship": [
     {
-      "part_of": "Oceania"
+      "issuance_currency_of": "New Zealand"
     },
     {
-      "currency_union_with": "None"
+      "has_unit": "dollar"
     },
     {
-      "influenced_by": "New Zealand Pound"
+      "exchange_rate_to": "United States dollar"
     },
     {
-      "exchange_rate_tracked_by": "Bloomberg"
+      "part_of": "ISO 4217 currency codes"
+    },
+    {
+      "influenced_by": "British pound"
     },
     {
       "managed_by": "Reserve Bank of New Zealand"
     },
     {
-      "used_in_trade_with": "Australia"
+      "symbol": "NZD"
     },
     {
-      "denomination_of": "New Zealand Cent"
+      "has_subunit": "New Zealand cent"
     },
     {
-      "economic_indicator_of": "New Zealand Economy"
+      "used_in": "New Zealand economy"
     },
     {
-      "compared_to": "United States Dollar"
-    },
-    {
-      "historical_value_affected_by": "Global Financial Crisis"
+      "has_denomination": "100 New Zealand cents"
     }
   ]
 }

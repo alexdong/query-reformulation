@@ -10,35 +10,36 @@
     "visa_requirements": "Vary by nationality",
     "tourism_type": "Adventure, Nature, Cultural",
     "governing_body": "Tourism New Zealand",
-    "impact_on_environment": "Growing concern"
+    "impact_on_environment": "Growing concern",
+    "type": "Activity"
   },
   "relationship": [
     {
-      "part_of": "New Zealand economy"
+      "instance_of": "tourism"
     },
     {
-      "influenced_by": "Lord of the Rings films"
+      "located_in": "New Zealand"
     },
     {
-      "attracts": "International tourists"
+      "economic_activity_in": "New Zealand economy"
     },
     {
-      "supports": "Local businesses"
+      "attracts": "tourists"
     },
     {
-      "impacts": "Maori culture"
+      "supported_by": "New Zealand government"
+    },
+    {
+      "provides_service_to": "visitors"
+    },
+    {
+      "impacts": "New Zealand environment"
     },
     {
       "promoted_by": "Tourism New Zealand"
     },
     {
-      "located_in": "Oceania"
-    },
-    {
-      "provides_jobs_to": "New Zealanders"
-    },
-    {
-      "faces_challenges_from": "COVID-19 pandemic"
+      "related_to": "New Zealand culture"
     },
     {
       "contributes_to": "New Zealand GDP"

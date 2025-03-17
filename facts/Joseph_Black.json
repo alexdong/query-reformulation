@@ -10,38 +10,39 @@
     "field": "Chemistry",
     "education": "University of Aberdeen",
     "known_for": "Carbon dioxide discovery",
-    "scientific_society": "Royal Society"
+    "scientific_society": "Royal Society",
+    "type": "Scientist"
   },
   "relationship": [
     {
-      "educated_at": "University of Aberdeen"
+      "instance_of": "physicist"
+    },
+    {
+      "educated_at": "University of Cambridge"
     },
     {
       "member_of": "Royal Society"
     },
     {
-      "influenced": "Henry Cavendish"
+      "doctoral_advisor": "Paul Dirac"
     },
     {
-      "influenced": "James Watt"
+      "works_at": "Imperial College London"
     },
     {
-      "discovered": "Carbon dioxide"
+      "field_of_work": "quantum mechanics"
     },
     {
-      "discovered": "Magnesia"
+      "contributor_to": "Black–Hawkins model"
     },
     {
-      "discovered": "Latent heat"
+      "research_area": "nuclear physics"
     },
     {
-      "worked_with": "Daniel Rutherford"
+      "influenced": "David Bohm"
     },
     {
-      "preceded_by": "William Cullen"
-    },
-    {
-      "succeeded_by": "Humphry Davy"
+      "award_received": "Max Planck Medal"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "sovereignty": "1947",
     "land_type": "Island nation",
     "national_symbol": "Silver Fern",
-    "government_type": "Parliamentary democracy"
+    "government_type": "Parliamentary democracy",
+    "type": "Country"
   },
   "relationship": [
     {
-      "part_of": "Pacific Ocean"
+      "located_in": "Oceania"
     },
     {
-      "neighbor": "Australia"
+      "part_of": "Earth"
     },
     {
-      "influenced_by": "Polynesian culture"
+      "has_capital": "Wellington"
     },
     {
-      "colonized_by": "United Kingdom"
+      "has_official_language": "English"
     },
     {
-      "treaty_signed_with": "Treaty of Waitangi"
+      "has_currency": "New Zealand dollar"
     },
     {
-      "leader": "Chris Hipkins"
+      "member_of": "United Nations"
     },
     {
-      "discovery_by": "Abel Tasman"
+      "has_neighbour": "Australia"
     },
     {
-      "war_involved_in": "World War I"
+      "has_government_type": "Parliamentary democracy"
     },
     {
-      "resource": "Kauri wood"
+      "has_head_of_state": "King Charles III"
     },
     {
-      "flora_includes": "Kākāpō"
+      "has_national_symbol": "Silver fern"
     }
   ]
 }

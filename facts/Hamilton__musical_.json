@@ -1,7 +1,6 @@
 {
-  "entity": "Hamilton (musical)",
+  "entity": "Hamilton  musical ",
   "properties": {
-    "instance_of": "Musical",
     "composer": "Lin-Manuel Miranda",
     "lyricist": "Lin-Manuel Miranda",
     "book_by": "Lin-Manuel Miranda",
@@ -10,38 +9,39 @@
     "premiered": "2015",
     "style": "Hip hop, R&B, Pop",
     "awards": "11 Tony Awards",
-    "language": "English"
+    "language": "English",
+    "type": "Musical"
   },
   "relationship": [
     {
-      "based_on": "Alexander Hamilton (biography)"
+      "instance_of": "musical_theater_production"
     },
     {
-      "written_by": "Lin-Manuel Miranda"
+      "adapted_from": "The_Revolutionary_Tales"
     },
     {
-      "performed_by": "Original Broadway Cast"
+      "creator": "Lin-Manuel_Miranda"
     },
     {
-      "influenced": "Musical theater"
+      "genre": "historical_musical"
     },
     {
-      "character_appears": "Alexander Hamilton"
+      "subject": "American_Revolution"
     },
     {
-      "character_appears": "Aaron Burr"
+      "depicts": "Alexander_Hamilton"
     },
     {
-      "character_appears": "Eliza Schuyler Hamilton"
+      "premiered_in": "Public_Theater"
     },
     {
-      "location_set_in": "United States"
+      "performed_at": "Richard_Rogers_Theatre"
     },
     {
-      "time_period": "Late 18th Century"
+      "award_received": "Tony_Award_for_Best_Musical"
     },
     {
-      "adaptation_of": "Hamilton (biography)"
+      "influenced_by": "hip_hop_music"
     }
   ]
 }

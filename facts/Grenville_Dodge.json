@@ -10,38 +10,39 @@
     "education": "Iowa Wesleyan College",
     "spouse": "Belle Crawford",
     "political_party": "Republican",
-    "known_for": "Union Pacific Railroad"
+    "known_for": "Union Pacific Railroad",
+    "type": "Engineer"
   },
   "relationship": [
     {
-      "employer": "Union Pacific Railroad"
+      "instance_of": "railroad executive"
     },
     {
-      "worked_with": "James J. Hill"
+      "employed_by": "Union Pacific Railroad"
     },
     {
-      "worked_with": "Collis P. Huntington"
+      "member_of": "Dodge family"
     },
     {
-      "influenced": "Railroad development"
+      "child_of": "William Dodge (merchant)"
     },
     {
-      "member_of": "Republican Party"
+      "sibling_of": "Augustus Peabody Dodge"
     },
     {
-      "located_in": "Burlington, Iowa"
+      "spouse_of": "Martha Maria Parsons"
     },
     {
-      "located_in": "Clinton, Iowa"
+      "influenced_by": "John Stevens"
     },
     {
-      "attended": "Iowa Wesleyan College"
+      "worked_at": "Council Bluffs, Iowa"
     },
     {
-      "married_to": "Belle Crawford"
+      "involved_in": "Pacific Railroad Act"
     },
     {
-      "built": "Transcontinental Railroad"
+      "designed_by": "James B. Pond"
     }
   ]
 }

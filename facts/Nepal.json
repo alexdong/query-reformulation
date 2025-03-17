@@ -10,38 +10,39 @@
     "land_border_countries": "China, India",
     "highest_point": "Mount Everest",
     "gini_index": "0.397",
-    "time_zone": "Nepal Time (NPT)"
+    "time_zone": "Nepal Time (NPT)",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Asia"
+    },
     {
       "part_of": "South Asia"
     },
     {
-      "borders": "China"
+      "has_neighbor": "China"
     },
     {
-      "borders": "India"
+      "has_neighbor": "India"
     },
     {
-      "contains": "Mount Everest"
+      "has_official_language": "Nepali language"
     },
     {
-      "member_of": "SAARC"
+      "has_capital": "Kathmandu"
     },
     {
-      "located_in": "Himalayan Region"
+      "has_government_form": "Parliamentary republic"
     },
     {
-      "religion_major": "Hinduism"
-    },
-    {
-      "religion_minor": "Buddhism"
-    },
-    {
-      "language_spoken": "Nepali"
+      "has_monarch": "Shah dynasty"
     },
     {
       "influenced_by": "Tibetan culture"
+    },
+    {
+      "member_of": "United Nations"
     }
   ]
 }

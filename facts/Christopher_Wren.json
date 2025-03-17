@@ -10,14 +10,24 @@
     "education": "Pembroke College, Oxford",
     "style": "English Baroque",
     "known_for": "St Paul's Cathedral",
-    "influenced_by": "Inigo Jones"
+    "influenced_by": "Inigo Jones",
+    "type": "Architect"
   },
   "relationship": [
     {
-      "designed": "St Paul's Cathedral"
+      "instance_of": "architect"
     },
     {
-      "designed": "Royal Observatory, Greenwich"
+      "educated_at": "Christ Church, Oxford"
+    },
+    {
+      "employed_by": "Charles II of England"
+    },
+    {
+      "member_of": "Royal Society"
+    },
+    {
+      "designed": "St Paul's Cathedral"
     },
     {
       "designed": "Sheldonian Theatre"
@@ -26,22 +36,13 @@
       "designed": "Hampton Court Palace"
     },
     {
-      "designed": "Banister House"
-    },
-    {
       "influenced": "Nicholas Hawksmoor"
     },
     {
-      "student_of": "John Evelyn"
+      "citizen_of": "England"
     },
     {
-      "member_of": "Royal Society"
-    },
-    {
-      "father_of": "William Wren"
-    },
-    {
-      "worked_in": "London"
+      "family_member_of": "Cromwell family"
     }
   ]
 }

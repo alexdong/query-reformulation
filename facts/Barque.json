@@ -1,7 +1,6 @@
 {
   "entity": "Barque",
   "properties": {
-    "instance_of": "Ship type",
     "rig_type": "Square-rigged",
     "mast_count": "Multiple",
     "sail_arrangement": "Fore-and-aft sails",
@@ -10,38 +9,39 @@
     "origin": "Europe",
     "characteristic": "Tall masts",
     "use": "Trade, Exploration",
-    "obsolescence": "Steamships"
+    "obsolescence": "Steamships",
+    "type": "Ship type"
   },
   "relationship": [
     {
-      "predecessor": "Carrack"
+      "instance_of": "ship"
     },
     {
-      "successor": "Schooner"
+      "used_for": "transportation"
     },
     {
-      "related_to": "Ship"
+      "part_of": "fleet"
     },
     {
-      "used_in": "Age of Exploration"
+      "crew_member": "sailor"
     },
     {
-      "associated_with": "Maritime history"
+      "captain_of": "ship's captain"
     },
     {
-      "example_of": "Tall ship"
+      "cargo_of": "cargo"
     },
     {
-      "design_influenced": "Sailing vessel"
+      "built_by": "shipbuilder"
     },
     {
-      "part_of": "Naval architecture"
+      "located_in": "sea"
     },
     {
-      "used_for": "Cargo transport"
+      "navigation_by": "navigator"
     },
     {
-      "related_to": "Sailing"
+      "depicts": "historical event"
     }
   ]
 }

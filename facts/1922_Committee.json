@@ -10,38 +10,39 @@
     "reporting_to": "Committee of Imperial Defence",
     "staff_size": "Small",
     "budget": "Limited",
-    "predecessor": "MI1(b)"
+    "predecessor": "MI1(b)",
+    "type": "GovernmentAgency"
   },
   "relationship": [
     {
-      "predecessor_of": "MI6"
+      "member_of": "Parliament of the United Kingdom"
     },
     {
-      "founded_by": "Ralph Assheton"
+      "purpose": "Government of the United Kingdom"
     },
     {
-      "reports_to": "Committee of Imperial Defence"
+      "chair": "Speaker of the House of Commons"
     },
     {
-      "focuses_on": "Soviet Union"
+      "responsible_for": "House of Commons business"
     },
     {
-      "involved_in": "Espionage"
+      "subclass_of": "Select Committee"
     },
     {
-      "member_of": "British intelligence agencies"
+      "formed_by": "House of Commons"
     },
     {
-      "successor_to": "MI1(b)"
+      "activity_sector": "Government"
     },
     {
-      "location_in": "London"
+      "location": "United Kingdom"
     },
     {
-      "influenced": "British foreign policy"
+      "function": "Scrutinising government policy"
     },
     {
-      "operated_during": "Interwar period"
+      "established_by": "House of Commons"
     }
   ]
 }

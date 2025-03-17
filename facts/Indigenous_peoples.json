@@ -10,38 +10,39 @@
     "land_rights": "Often contested",
     "historical_context": "Colonization impact",
     "spiritual_beliefs": "Animistic often",
-    "art_forms": "Diverse & symbolic"
+    "art_forms": "Diverse & symbolic",
+    "type": "Q4322"
   },
   "relationship": [
     {
-      "related_to": "First Nations (Canada)"
+      "has_ancestor": "Paleolithic"
     },
     {
-      "related_to": "Aboriginal Australians"
+      "located_in": "Continent"
     },
     {
-      "related_to": "Maori (New Zealand)"
+      "part_of": "Nation"
     },
     {
-      "related_to": "Native Americans"
+      "has_culture": "Culture"
     },
     {
-      "related_to": "Indigenous Amazonians"
+      "has_language": "Language"
     },
     {
-      "impacted_by": "Colonialism"
+      "has_religion": "Religion"
     },
     {
-      "practice": "Traditional ecological knowledge"
+      "affected_by": "Colonialism"
     },
     {
-      "preserve": "Oral traditions"
+      "has_traditional_knowledge": "Traditional knowledge"
     },
     {
-      "create": "Indigenous art"
+      "related_to": "Indigenous territory"
     },
     {
-      "advocate_for": "Land rights"
+      "has_right": "Human rights"
     }
   ]
 }

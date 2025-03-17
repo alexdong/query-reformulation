@@ -10,38 +10,39 @@
     "focus": "State-market interaction",
     "related_fields": "Public Choice, International Relations",
     "prominent_thinker": "Adam Smith, Karl Marx",
-    "contemporary_issue": "Inequality, Globalization"
+    "contemporary_issue": "Inequality, Globalization",
+    "type": "Academic discipline"
   },
   "relationship": [
+    {
+      "instance_of": "Social science"
+    },
+    {
+      "subclass_of": "Economics"
+    },
+    {
+      "subclass_of": "Political science"
+    },
+    {
+      "studied_by": "Adam Smith"
+    },
+    {
+      "studied_by": "Karl Marx"
+    },
     {
       "influenced_by": "Mercantilism"
     },
     {
-      "influenced_by": "Classical Economics"
+      "related_to": "Globalization"
     },
     {
-      "influenced_by": "Marxism"
+      "related_to": "Development economics"
     },
     {
-      "overlaps_with": "Public Choice Theory"
+      "analyzes": "Market failure"
     },
     {
-      "related_to": "Development Economics"
-    },
-    {
-      "analyzes": "Market Failures"
-    },
-    {
-      "examines": "Regulation"
-    },
-    {
-      "studies": "Trade Policy"
-    },
-    {
-      "addresses": "Income Distribution"
-    },
-    {
-      "intersects_with": "Behavioral Economics"
+      "concerned_with": "Income inequality"
     }
   ]
 }

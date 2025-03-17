@@ -1,7 +1,6 @@
 {
-  "entity": "Scientific research",
+  "entity": "Scientific Research",
   "properties": {
-    "instance_of": "Process",
     "purpose": "Knowledge creation",
     "methodology": "Systematic investigation",
     "funding_source": "Grants, Private",
@@ -10,38 +9,39 @@
     "data_handling": "Rigorous",
     "ethics_consideration": "Crucial",
     "output_format": "Data, Theories",
-    "subject_area": "Diverse"
+    "subject_area": "Diverse",
+    "type": "Process"
   },
   "relationship": [
     {
-      "relies_on": "Scientific method"
+      "hasTopic": "Science"
     },
     {
-      "produces": "Scientific knowledge"
+      "partOf": "Knowledge"
     },
     {
-      "funded_by": "Research funding"
+      "conductedBy": "Researcher"
     },
     {
-      "reviewed_by": "Peer review"
+      "fundedBy": "Grant"
     },
     {
-      "contributes_to": "Innovation"
+      "produces": "Scientific Publication"
     },
     {
-      "uses": "Data analysis"
+      "usesInstrument": "Laboratory Equipment"
     },
     {
-      "involves": "Scientists"
+      "requires": "Data"
     },
     {
-      "requires": "Hypothesis"
+      "aimsAt": "Scientific Question"
     },
     {
-      "leads_to": "Publication"
+      "contributesTo": "Scientific Field"
     },
     {
-      "impacts": "Society"
+      "validatesWith": "Experiment"
     }
   ]
 }

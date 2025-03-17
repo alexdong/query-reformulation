@@ -1,43 +1,43 @@
 {
   "entity": "Life",
   "properties": {
-    "instance_of": "Biological process",
     "domain": "Biology",
     "characteristic": "Response to stimuli",
     "origin": "Abiogenesis",
     "level_of_organization": "Cellular",
-    "requires": "Energy"
+    "requires": "Energy",
+    "type": "Biological process"
   },
   "relationship": [
     {
-      "part_of": "Universe"
+      "instance_of": "living_being"
     },
     {
-      "requires": "Water"
+      "part_of": "universe"
     },
     {
-      "requires": "Carbon"
+      "has_agent": "nature"
     },
     {
-      "related_to": "Evolution"
+      "causes": "death"
     },
     {
-      "studied_in": "Biology"
+      "requires": "energy"
     },
     {
-      "dependent_on": "Ecosystem"
+      "occurs_in": "time"
     },
     {
-      "produces": "Biodiversity"
+      "has_stage": "birth"
     },
     {
-      "threatened_by": "Climate change"
+      "has_stage": "aging"
     },
     {
-      "cycle_includes": "Carbon cycle"
+      "is_a": "process"
     },
     {
-      "related_to": "Death"
+      "results_in": "legacy"
     }
   ]
 }

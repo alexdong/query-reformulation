@@ -1,7 +1,6 @@
 {
   "entity": "Climate",
   "properties": {
-    "instance_of": "Weather phenomenon",
     "definition": "Average weather conditions",
     "time_scale": "Long-term",
     "measurement_unit": "Degrees Celsius/Fahrenheit",
@@ -10,38 +9,39 @@
     "affected_by": "Greenhouse effect",
     "data_source": "Meteorological stations",
     "classification": "Köppen climate classification",
-    "impacts": "Ecosystems, human societies"
+    "impacts": "Ecosystems, human societies",
+    "type": "Weather phenomenon"
   },
   "relationship": [
     {
-      "part_of": "Weather"
+      "instance_of": "Weather"
     },
     {
-      "causes": "Climate change"
+      "causes": "Global Warming"
     },
     {
-      "affects": "Ecosystems"
+      "affects": "Ecosystem"
     },
     {
-      "influences": "Agriculture"
+      "influences": "Sea Level"
     },
     {
-      "impacts": "Sea level"
+      "impacts": "Agriculture"
     },
     {
-      "related_to": "Meteorology"
+      "related_to": "Carbon Dioxide"
     },
     {
-      "studied_by": "Climatology"
+      "part_of": "Earth"
     },
     {
-      "type_of": "Global climate"
+      "influences": "Biodiversity"
     },
     {
-      "example_of": "Tropical climate"
+      "related_to": "Climate Change"
     },
     {
-      "measured_by": "Climate model"
+      "impacts": "Human Health"
     }
   ]
 }

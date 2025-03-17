@@ -10,38 +10,39 @@
     "period": "Scottish Enlightenment",
     "language": "Scots",
     "genre": "Romanticism",
-    "spouse": "Jean Armour"
+    "spouse": "Jean Armour",
+    "type": "Poet"
   },
   "relationship": [
+    {
+      "instance_of": "human"
+    },
+    {
+      "country_of_birth": "Scotland"
+    },
+    {
+      "place_of_birth": "Alloway"
+    },
+    {
+      "occupation": "poet"
+    },
+    {
+      "occupation": "lyricist"
+    },
+    {
+      "occupation": "songwriter"
+    },
     {
       "influenced": "Romanticism"
     },
     {
-      "preceded_by": "Allan Ramsay"
+      "publication": "The Scotsman"
     },
     {
-      "followed_by": "James Hogg"
+      "spouse": "Jean Armour"
     },
     {
-      "wrote_for": "The Scots Musical Museum"
-    },
-    {
-      "father_of": "Elizabeth Burns"
-    },
-    {
-      "father_of": "Robert Burns (Jr)"
-    },
-    {
-      "associated_with": "Scottish Enlightenment"
-    },
-    {
-      "lived_in": "Dumfries"
-    },
-    {
-      "born_in": "Alloway"
-    },
-    {
-      "poem_title": "Auld Lang Syne"
+      "child_of": "William Burnes"
     }
   ]
 }

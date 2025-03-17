@@ -10,38 +10,39 @@
     "average_lifespan": "10-12 years",
     "diet": "Herbivore",
     "wool_type": "Various",
-    "domesticated": "Yes"
+    "domesticated": "Yes",
+    "type": "Mammal"
   },
   "relationship": [
     {
-      "part_of": "Farm"
+      "instance_of": "domestic_sheep"
     },
     {
-      "prey_for": "Wolf"
+      "has_color": "white"
     },
     {
-      "grazes_on": "Grass"
+      "part_of": "flock"
     },
     {
-      "provides": "Wool"
+      "eats": "grass"
     },
     {
-      "provides": "Meat"
+      "lives_in": "pasture"
     },
     {
-      "related_to": "Goat"
+      "has_product": "wool"
     },
     {
-      "related_to": "Cattle"
+      "raised_by": "farmer"
     },
     {
-      "breed_example": "Merino"
+      "prey_of": "wolf"
     },
     {
-      "breed_example": "Suffolk"
+      "related_to": "shepherd"
     },
     {
-      "disease": "Scrapie"
+      "has_disease": "scrapie"
     }
   ]
 }

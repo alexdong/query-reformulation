@@ -10,23 +10,24 @@
     "continent": "Africa",
     "government_type": "Presidential republic",
     "national_dish": "Ugali",
-    "GDP_nominal": "74.7 billion USD"
+    "GDP_nominal": "74.7 billion USD",
+    "type": "Country"
   },
   "relationship": [
     {
+      "located_in": "Africa"
+    },
+    {
       "part_of": "East Africa"
+    },
+    {
+      "has_capital": "Dodoma"
     },
     {
       "borders": "Kenya"
     },
     {
       "borders": "Uganda"
-    },
-    {
-      "borders": "Rwanda"
-    },
-    {
-      "borders": "Burundi"
     },
     {
       "borders": "Malawi"
@@ -38,10 +39,10 @@
       "borders": "Zambia"
     },
     {
-      "member_of": "African Union"
+      "has_official_language": "Swahili"
     },
     {
-      "contains": "Mount Kilimanjaro"
+      "has_official_language": "English"
     }
   ]
 }

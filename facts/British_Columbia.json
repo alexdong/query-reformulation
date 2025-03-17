@@ -10,38 +10,39 @@
     "time_zone": "UTC-7 to UTC-10",
     "currency": "Canadian Dollar",
     "province_type": "Province of Canada",
-    "postal_code_format": "A1A 1A1"
+    "postal_code_format": "A1A 1A1",
+    "type": "Province"
   },
   "relationship": [
     {
-      "part_of": "Canada"
+      "located_in": "Canada"
     },
     {
-      "borders": "Alberta"
+      "part_of": "North America"
     },
     {
-      "borders": "Yukon"
+      "has_capital": "Victoria"
     },
     {
-      "borders": "Washington"
+      "adjacent_to": "Alberta"
     },
     {
-      "located_in": "North America"
+      "adjacent_to": "Yukon"
     },
     {
-      "has_region": "Rocky Mountains"
+      "adjacent_to": "Northwest Territories"
     },
     {
-      "has_region": "Pacific Coast"
+      "has_province_governor": "David Eby"
     },
     {
-      "industry": "Forestry"
+      "has_official_language": "English"
     },
     {
-      "industry": "Tourism"
+      "has_aboriginal_people": "First Nations"
     },
     {
-      "major_city": "Vancouver"
+      "member_of": "Commonwealth"
     }
   ]
 }

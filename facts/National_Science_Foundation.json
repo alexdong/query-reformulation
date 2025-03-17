@@ -10,38 +10,39 @@
     "jurisdiction": "United States",
     "funding_source": "U.S. Congress",
     "website": "nsf.gov",
-    "parent_agency": "Department of Commerce"
+    "parent_agency": "Department of Commerce",
+    "type": "GovernmentAgency"
   },
   "relationship": [
     {
-      "funds": "Research"
+      "funding_agency_for": "University of California, Berkeley"
     },
     {
-      "supports": "STEM education"
+      "part_of": "United States Federal Government"
     },
     {
-      "collaborates_with": "Universities"
+      "headquarters_location": "Arlington, Virginia"
     },
     {
-      "oversees": "Research grants"
+      "awards_grant_to": "Massachusetts Institute of Technology"
     },
     {
-      "awards": "NSF Fellowships"
+      "established_by": "National Science Foundation Act"
+    },
+    {
+      "oversees": "National Science Board"
+    },
+    {
+      "supports_field": "Computer Science"
+    },
+    {
+      "funds_research_in": "Physics"
+    },
+    {
+      "collaborates_with": "Department of Energy"
     },
     {
       "reports_to": "President of the United States"
-    },
-    {
-      "part_of": "United States government"
-    },
-    {
-      "related_to": "Science"
-    },
-    {
-      "related_to": "Engineering"
-    },
-    {
-      "member_of": "Federal Research and Development Agencies"
     }
   ]
 }

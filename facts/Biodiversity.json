@@ -10,38 +10,39 @@
     "value": "Intrinsic, Economic, Cultural",
     "conservation_status": "Declining",
     "related_concept": "Ecology",
-    "study_field": "Biology"
+    "study_field": "Biology",
+    "type": "LivingThing"
   },
   "relationship": [
     {
-      "part_of": "Life"
+      "instance_of": "Life"
     },
     {
-      "impacts": "Ecosystem services"
+      "part_of": "Biosphere"
     },
     {
-      "affected_by": "Climate change"
+      "affected_by": "ClimateChange"
     },
     {
-      "related_to": "Ecology"
+      "supports": "EcosystemServices"
     },
     {
-      "requires": "Habitat"
+      "dependent_on": "Habitat"
     },
     {
-      "supports": "Genetic diversity"
+      "influenced_by": "Evolution"
     },
     {
-      "influences": "Evolution"
+      "threatened_by": "HabitatLoss"
     },
     {
-      "studied_by": "Biologists"
+      "contributes_to": "GeneticDiversity"
     },
     {
-      "linked_to": "Conservation"
+      "measured_by": "BiodiversityIndex"
     },
     {
-      "dependent_on": "Photosynthesis"
+      "maintained_by": "ConservationEfforts"
     }
   ]
 }

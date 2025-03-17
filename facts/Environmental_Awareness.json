@@ -10,38 +10,39 @@
     "measurement": "Ecological footprint",
     "related_concept": "Environmentalism",
     "historical_origin": "1960s",
-    "key_issue": "Climate Change"
+    "key_issue": "Climate Change",
+    "type": "Concept"
   },
   "relationship": [
     {
+      "instance_of": "Environmentalism"
+    },
+    {
+      "causes": "Climate Change"
+    },
+    {
       "promotes": "Sustainability"
+    },
+    {
+      "influences": "Public Opinion"
     },
     {
       "impacts": "Biodiversity"
     },
     {
-      "linked_to": "Climate Change"
-    },
-    {
-      "influenced_by": "Rachel Carson"
+      "requires": "Education"
     },
     {
       "supports": "Conservation"
     },
     {
-      "requires": "Education"
+      "related_to": "Environmental Policy"
     },
     {
-      "drives": "Green Movement"
+      "fosters": "Ecological Responsibility"
     },
     {
-      "related_to": "Environmentalism"
-    },
-    {
-      "impacts": "Pollution"
-    },
-    {
-      "connected_to": "Resource Depletion"
+      "addressed_by": "Environmental Movement"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "mother": "Elizabeth II",
     "education": "Cambridge University",
     "religion": "Anglican",
-    "succession": "Elizabeth II"
+    "succession": "Elizabeth II",
+    "type": "Monarch"
   },
   "relationship": [
     {
-      "child_of": "Elizabeth II"
+      "instance_of": "monarch"
     },
     {
-      "spouse_of": "Diana, Princess of Wales"
+      "child_of": "Philip, Duke of Edinburgh"
     },
     {
-      "father_of": "Prince William"
+      "spouse_of": "Camilla, Queen Consort"
     },
     {
-      "father_of": "Prince Harry"
-    },
-    {
-      "sibling_of": "Anne, Princess Royal"
-    },
-    {
-      "sibling_of": "Prince Andrew"
-    },
-    {
-      "sibling_of": "Prince Edward"
-    },
-    {
-      "attended": "Gordonstoun"
+      "sibling_of": "Princess Anne"
     },
     {
       "member_of": "British royal family"
     },
     {
-      "predecessor": "Elizabeth II"
+      "head_of": "Church of England"
+    },
+    {
+      "ruler_of": "United Kingdom"
+    },
+    {
+      "educated_at": "Gordonstoun"
+    },
+    {
+      "predecessor_of": "Elizabeth II"
+    },
+    {
+      "citizen_of": "United Kingdom"
     }
   ]
 }

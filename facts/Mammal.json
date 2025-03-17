@@ -1,43 +1,43 @@
 {
   "entity": "Mammal",
   "properties": {
-    "instance_of": "Class (biology)",
     "kingdom": "Animalia",
     "phylum": "Chordata",
     "characteristic": "Diaphragm",
     "typical_gestation": "Variable",
-    "lifespan": "Variable"
+    "lifespan": "Variable",
+    "type": "Class (biology)"
   },
   "relationship": [
     {
-      "ancestor": "Synapsids"
+      "instance_of": "Animal"
     },
     {
-      "descendant_of": "Therapsids"
+      "subclass_of": "Vertebrate"
     },
     {
-      "evolved_from": "Reptiles"
+      "has_characteristic": "Hair"
     },
     {
-      "diverged_with": "Birds"
+      "gives_birth_to": "Offspring"
     },
     {
-      "order": "Primates"
+      "feeds_on": "Food"
     },
     {
-      "order": "Cetacea"
+      "has_part": "Heart"
     },
     {
-      "order": "Rodentia"
+      "has_feature": "Lungs"
     },
     {
-      "order": "Carnivora"
+      "lives_in": "Habitat"
     },
     {
-      "period": "Triassic Period"
+      "related_to": "Ecosystem"
     },
     {
-      "event": "K-Pg extinction event"
+      "has_disease": "Disease"
     }
   ]
 }

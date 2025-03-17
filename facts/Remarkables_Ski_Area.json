@@ -10,38 +10,39 @@
     "season_start": "Mid-June",
     "season_end": "Early October",
     "terrain_difficulty": "Varied",
-    "owner": "Ngai Tahu Tourism"
+    "owner": "Ngai Tahu Tourism",
+    "type": "SkiArea"
   },
   "relationship": [
     {
-      "part_of": "Southern Alps"
+      "located_in": "South Island (island)"
     },
     {
-      "located_in": "Queenstown-Lakes District"
+      "part_of": "New Zealand"
     },
     {
-      "near": "Lake Wakatipu"
+      "has_ski_lift": "Skyline Gondola (Queenstown)"
     },
     {
-      "operated_by": "Ngai Tahu Tourism"
+      "operated_by": "Remarkables Limited"
     },
     {
-      "offers": "Skiing"
+      "has_ski_slope": "Highfield (ski slope)"
     },
     {
-      "offers": "Snowboarding"
+      "has_ski_slope": "Shadow Basin (ski slope)"
     },
     {
-      "provides": "Mountain views"
+      "has_ski_slope": "Upper Riffel (ski slope)"
     },
     {
-      "serves": "Queenstown"
+      "has_nearby_landmark": "Lake Wakatipu"
     },
     {
-      "has_lift": "Summit Express"
+      "has_type": "ski area"
     },
     {
-      "has_lift": "Highmark 6"
+      "has_elevation": "1,941 metres"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "incubation_period": "39–43 days",
     "fledging_age": "90–110 days",
     "distinctive_feature": "Pale yellow iris",
-    "habitat": "Coastal forests, scrubland"
+    "habitat": "Coastal forests, scrubland",
+    "type": "Penguin"
   },
   "relationship": [
     {
-      "part_of": "Sphenisciformes"
+      "instance_of": "penguin"
     },
     {
-      "lives_in": "New Zealand"
+      "taxon": "Hoiho"
     },
     {
-      "threatened_by": "Predation"
+      "has_habitat": "New Zealand"
     },
     {
-      "prey_of": "Sharks"
+      "part_of": "Taonga"
     },
     {
-      "related_to": "Little Penguin"
+      "feeds_on": "fish"
     },
     {
-      "migration": "Seasonal"
+      "prey_for": "sea lion"
     },
     {
-      "nests_in": "Forest"
+      "threatened_by": "climate change"
     },
     {
-      "feeds_on": "Antarctic Silverfish"
+      "has_conservation_status": "Endangered"
     },
     {
-      "conservation_effort": "Department of Conservation"
+      "lives_in": "coastal ecosystem"
     },
     {
-      "is_a": "Bird"
+      "has_feature": "yellow eye"
     }
   ]
 }

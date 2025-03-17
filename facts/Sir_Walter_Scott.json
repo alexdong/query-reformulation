@@ -10,38 +10,39 @@
     "literary_genre": "Historical novel",
     "title": "Sir",
     "known_for": "Waverley, Ivanhoe",
-    "period": "Romanticism"
+    "period": "Romanticism",
+    "type": "Writer"
   },
   "relationship": [
     {
-      "influenced": "Charles Dickens"
+      "instance_of": "human"
     },
     {
-      "influenced": "James Fenimore Cooper"
+      "country_of_citizenship": "United Kingdom"
     },
     {
-      "preceded_by": "James Macpherson"
+      "birth_place": "Edinburgh"
     },
     {
-      "contemporary_of": "Lord Byron"
+      "death_place": "Abbotsford"
     },
     {
-      "contemporary_of": "Mary Shelley"
+      "occupation": "writer"
+    },
+    {
+      "field_of_work": "literature"
+    },
+    {
+      "publication": "Ivanhoe"
+    },
+    {
+      "publication": "Waverley"
+    },
+    {
+      "influenced": "J.R.R. Tolkien"
     },
     {
       "member_of": "Royal Society of Edinburgh"
-    },
-    {
-      "authored": "Waverley"
-    },
-    {
-      "authored": "Ivanhoe"
-    },
-    {
-      "authored": "Rob Roy"
-    },
-    {
-      "lived_in": "Abbotsford"
     }
   ]
 }

@@ -10,38 +10,39 @@
     "national_animal": "Unicorn",
     "national_flower": "Thistle",
     "major_religion": "Christianity",
-    "geography": "Mountains, Highlands, Islands"
+    "geography": "Mountains, Highlands, Islands",
+    "type": "Country"
   },
   "relationship": [
+    {
+      "located_in": "Europe"
+    },
     {
       "part_of": "United Kingdom"
     },
     {
-      "borders": "England"
+      "has_capital": "Edinburgh"
     },
     {
-      "influenced": "Scottish Enlightenment"
+      "borders_country": "England"
     },
     {
-      "historical_event": "Battle of Culloden"
+      "has_language": "Scottish Gaelic"
     },
     {
-      "historical_figure": "William Wallace"
+      "has_language": "Scots"
     },
     {
-      "historical_figure": "Mary, Queen of Scots"
+      "has_monarch": "Charles III"
     },
     {
-      "historical_event": "Jacobite risings"
+      "has_national_symbol": "Thistle (plant)"
     },
     {
-      "culture_influenced": "Celtic culture"
+      "influenced_by": "Celtic culture"
     },
     {
-      "product_of": "Picts"
-    },
-    {
-      "member_of": "European Union (formerly)"
+      "has_historical_event": "Jacobite uprisings"
     }
   ]
 }

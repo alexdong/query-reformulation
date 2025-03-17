@@ -10,38 +10,39 @@
     "spouse": "Kayla Shanahan",
     "father": "Mike Shanahan",
     "education": "University of California, Davis",
-    "playing_role": "Offensive Coordinator"
+    "playing_role": "Offensive Coordinator",
+    "type": "Athlete"
   },
   "relationship": [
     {
-      "coach_of": "Brock Purdy"
+      "instance_of": "athlete"
     },
     {
-      "father_of": "Mike Shanahan"
+      "birthPlace": "Rochester, New York"
     },
     {
-      "team_owner": "Jed York"
+      "educatedAt": "University of Wisconsin–Madison"
     },
     {
-      "plays_in": "NFL"
+      "sport": "American football"
     },
     {
-      "league": "National Football League"
+      "position": "tight end"
     },
     {
-      "plays_for": "San Francisco 49ers"
+      "team": "Denver Broncos"
     },
     {
-      "influenced_by": "Bill Walsh"
+      "playsForTeam": "New York Giants"
     },
     {
-      "previous_role": "Offensive Coordinator"
+      "memberOf": "Wisconsin Badgers football"
     },
     {
-      "previous_team": "Atlanta Falcons"
+      "coach": "Vic Fangio"
     },
     {
-      "previous_team": "Denver Broncos"
+      "sibling": "Jake Shahanan"
     }
   ]
 }

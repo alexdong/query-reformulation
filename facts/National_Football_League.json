@@ -1,7 +1,6 @@
 {
   "entity": "National Football League",
   "properties": {
-    "instance_of": "Professional sports league",
     "founder": "Jim Thorpe",
     "established": "1920",
     "headquarters": "New York City",
@@ -10,38 +9,39 @@
     "revenue": "17.7 billion USD (2022)",
     "teams": "32",
     "league_type": "Men's",
-    "commissioner": "Roger Goodell"
+    "commissioner": "Roger Goodell",
+    "type": "Professional sports league"
   },
   "relationship": [
     {
-      "part_of": "American sports"
+      "instance_of": "sports league"
     },
     {
-      "plays": "American football"
+      "part_of": "North American sports leagues"
     },
     {
-      "league_member": "Arizona Cardinals"
+      "country_of_origin": "United States of America"
     },
     {
-      "league_member": "Baltimore Ravens"
+      "headquarters_location": "New York City"
     },
     {
-      "league_member": "Buffalo Bills"
+      "governed_by": "NFL Properties, LLC"
+    },
+    {
+      "has_member": "Arizona Cardinals"
     },
     {
       "broadcast_by": "CBS"
     },
     {
-      "broadcast_by": "NBC"
+      "sponsored_by": "Anheuser-Busch InBev"
     },
     {
-      "broadcast_by": "ESPN"
+      "predecessor_of": "American Professional Football Association"
     },
     {
-      "influenced": "XFL"
-    },
-    {
-      "preceded_by": "American Professional Football Association"
+      "related_to_event": "Super Bowl"
     }
   ]
 }

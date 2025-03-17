@@ -10,9 +10,13 @@
     "technology_advancement": "Significant",
     "political_landscape": "Dynamic",
     "globalization": "Increased",
-    "average_life_expectancy": "Increased"
+    "average_life_expectancy": "Increased",
+    "type": "TimePeriod"
   },
   "relationship": [
+    {
+      "has_period": "History"
+    },
     {
       "preceded_by": "19th Century"
     },
@@ -20,28 +24,25 @@
       "followed_by": "21st Century"
     },
     {
-      "includes": "World War I"
+      "occurred_in": "Common Era"
     },
     {
-      "includes": "World War II"
+      "characterized_by": "Globalization"
     },
     {
-      "includes": "Cold War"
+      "influenced_by": "Industrial Revolution"
     },
     {
-      "includes": "Space Race"
+      "produced_work": "Modern Art"
     },
     {
-      "includes": "Digital Revolution"
+      "witnessed_event": "World War I"
     },
     {
-      "influenced": "Globalization"
+      "witnessed_event": "World War II"
     },
     {
-      "affected": "United Nations"
-    },
-    {
-      "witnessed": "Decolonization"
+      "influenced_by": "Scientific Revolution"
     }
   ]
 }

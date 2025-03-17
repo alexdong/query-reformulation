@@ -1,7 +1,6 @@
 {
-  "entity": "Falcon (Marvel Comics)",
+  "entity": "Falcon  Marvel Comics ",
   "properties": {
-    "instance_of": "Superhero",
     "publisher": "Marvel Comics",
     "first_appearance": "Captain America #117",
     "creator": "Steve Englehart & Steve Ditko",
@@ -10,38 +9,39 @@
     "powers": "Flight, Enhanced Strength, Combat Skills",
     "base_of_operations": "New York City",
     "affiliation": "Avengers",
-    "species": "Human"
+    "species": "Human",
+    "type": "Superhero"
   },
   "relationship": [
     {
-      "predecessor": "Redwing"
+      "instance_of": "fictional_character"
     },
     {
-      "successor_of": "Captain America"
+      "publisher": "Marvel Comics"
     },
     {
-      "member_of": "Avengers"
+      "creator": "Stan Lee"
     },
     {
-      "fought_against": "Red Skull"
+      "artist": "Gene Colan"
     },
     {
-      "ally_of": "Captain America"
+      "member_of": "Guardians of the Galaxy"
     },
     {
-      "appears_in": "Marvel Cinematic Universe"
+      "appears_in": "Captain Marvel (2006 series)"
     },
     {
-      "inspired_by": "Hal Jordan"
+      "affiliation": "Avengers"
     },
     {
-      "character_appears": "Sharon Carter"
+      "has_power": "flight"
     },
     {
-      "character_appears": "Winter Soldier"
+      "has_ability": "energy projection"
     },
     {
-      "universe": "Marvel Universe"
+      "depicted_in": "Captain Marvel (film)"
     }
   ]
 }

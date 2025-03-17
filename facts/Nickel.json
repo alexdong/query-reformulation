@@ -10,38 +10,39 @@
     "boiling_point": "2913 °C",
     "electronegativity": "1.91 (Pauling scale)",
     "oxidation_states": "-1, 0, +1, +2, +3",
-    "abundance_crust": "0.0065%"
+    "abundance_crust": "0.0065%",
+    "type": "Chemical element"
   },
   "relationship": [
     {
+      "instance_of": "element"
+    },
+    {
       "part_of": "Periodic table"
+    },
+    {
+      "chemical_formula": "Ni"
     },
     {
       "used_in": "Stainless steel"
     },
     {
-      "used_in": "Batteries"
+      "found_in": "Earth"
     },
     {
-      "occurs_with": "Iron"
+      "used_for": "Batteries"
     },
     {
-      "occurs_with": "Copper"
+      "extracted_from": "Pentlandite"
     },
     {
-      "discovered_by": "Axel Fredrik Cronstedt"
+      "alloy_of": "Nickel alloys"
     },
     {
-      "named_after": "Old German: Kupfernickel"
+      "related_to": "Iron"
     },
     {
-      "alloy_with": "Cobalt"
-    },
-    {
-      "mineral_found_in": "Pentlandite"
-    },
-    {
-      "isotope_of": "Nickel-60"
+      "used_in": "Coins"
     }
   ]
 }
