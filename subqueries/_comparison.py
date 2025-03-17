@@ -79,7 +79,62 @@ def get_common_properties(entities: List[str]) -> List[str]:
     print(f"Found {len(filtered_props)} common properties")
     return filtered_props
 
-# extract a new function called `generate` and call it from `generate_comparison_subqueries`, ai!
+def generate(entity_types: List[str], count: int) -> List[str]:
+    """Generate comparison subqueries.
+    
+    Args:
+        entity_types: List of entity types to choose from
+        count: Number of subqueries to generate
+        
+    Returns:
+        List of generated subqueries
+    """
+    subqueries_list = []
+    attempts = 0
+    max_attempts = count * 10  # Limit attempts to avoid infinite loops
+
+    while len(subqueries_list) < count and attempts < max_attempts:
+        attempts += 1
+
+        # Print progress more frequently
+        if attempts % 100 == 0:
+            print(
+                f"Attempt {attempts}/{max_attempts}, "
+                f"generated {len(subqueries_list)}/{count} subqueries"
+            )
+
+        # Pick a random entity type
+        entity_type = random.choice(entity_types)
+
+        # Get random entities of this type
+        entities = get_entities_by_type(entity_type, 2, 5)
+
+        if len(entities) < 2:
+            continue  # Need at least 2 entities for comparison
+
+        # Find common properties
+        common_props = get_common_properties(entities)
+
+        if not common_props:
+            continue
+
+        # Pick a random common property
+        prop = random.choice(common_props)
+
+        # Generate subqueries - join with \n to keep on one line
+        subqueries = [f"{entity} {prop}" for entity in entities]
+        subquery_text = "\\n".join(subqueries)
+
+        # Avoid duplicates
+        if subquery_text not in subqueries_list:
+            subqueries_list.append(subquery_text)
+
+            # Print progress
+            if len(subqueries_list) % 50 == 0:
+                print(f"Generated {len(subqueries_list)}/{count} comparison subqueries")
+                
+    return subqueries_list
+
 def generate_comparison_subqueries(count: int = 1333) -> None:
     """Generate comparison subqueries and write to output file."""
     print(f"Generating {count} comparison subqueries...")
@@ -95,51 +150,12 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
     print(f"Found {len(entity_types)} entity types")
 
     # Generate subqueries
-    subqueries_list = []
-    attempts = 0
-    max_attempts = count * 10  # Limit attempts to avoid infinite loops
+    subqueries_list = generate(entity_types, count)
 
+    # Write to file
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        while len(subqueries_list) < count and attempts < max_attempts:
-            attempts += 1
-
-            # Print progress more frequently
-            if attempts % 100 == 0:
-                print(
-                    f"Attempt {attempts}/{max_attempts}, "
-                    f"generated {len(subqueries_list)}/{count} subqueries"
-                )
-
-            # Pick a random entity type
-            entity_type = random.choice(entity_types)
-
-            # Get random entities of this type
-            entities = get_entities_by_type(entity_type, 2, 5)
-
-            if len(entities) < 2:
-                continue  # Need at least 2 entities for comparison
-
-            # Find common properties
-            common_props = get_common_properties(entities)
-
-            if not common_props:
-                continue
-
-            # Pick a random common property
-            prop = random.choice(common_props)
-
-            # Generate subqueries - join with \n to keep on one line
-            subqueries = [f"{entity} {prop}" for entity in entities]
-            subquery_text = "\\n".join(subqueries)
-
-            # Avoid duplicates
-            if subquery_text not in subqueries_list:
-                subqueries_list.append(subquery_text)
-                f.write(f"{subquery_text}\n")
-
-                # Print progress
-                if len(subqueries_list) % 50 == 0:
-                    print(f"Generated {len(subqueries_list)}/{count} comparison subqueries")
+        for subquery in subqueries_list:
+            f.write(f"{subquery}\n")
 
     print(f"Completed generating {len(subqueries_list)} comparison subqueries")
 
