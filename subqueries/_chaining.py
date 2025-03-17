@@ -45,7 +45,7 @@ def traverse_relationship_chain(
         target_entity = relationship[rel_type]
 
         # Check if target entity exists
-        if not load_entity_data(target_entity):
+        if not target_entity or not load_entity_data(target_entity):
             break
 
         # Add to chain
