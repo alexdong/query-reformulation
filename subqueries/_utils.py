@@ -1,8 +1,7 @@
 import json
 import os
 from pathlib import Path
-from typing import List, Dict, Any, Set, Optional, Tuple
-import random
+from typing import Any, Dict, List, Optional
 
 # Constants
 FACTS_DIR = Path("facts")
@@ -18,7 +17,7 @@ def load_entity_data(entity: str) -> Optional[Dict[str, Any]]:
     entity_file = FACTS_DIR / f"{entity.replace(' ', '_')}.json"
     if not entity_file.exists():
         return None
-        
+
     try:
         with open(entity_file, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -40,7 +39,7 @@ def get_all_entity_types() -> List[str]:
                         entity_types.add(data["properties"]["instance_of"])
         except Exception:
             continue
-    
+
     return list(filter(None, entity_types))
 
 def get_entity_properties(entity: str) -> Dict[str, str]:
