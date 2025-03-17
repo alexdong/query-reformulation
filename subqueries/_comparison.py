@@ -2,14 +2,14 @@ import json
 import random
 from typing import List
 
-from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn
-
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
     ensure_output_directory,
     get_all_entity_types,
     get_entity_properties,
+    generate_subqueries_with_progress,
+    random_entity_type_selector,
 )
 
 OUTPUT_FILE = SUBQUERIES_DIR / "comparison.txt"
@@ -131,44 +131,22 @@ def generate(entity_type: str) -> str:
 
 def generate_comparison_subqueries(count: int = 1333) -> None:
     """Generate comparison subqueries and write to output file."""
-    ensure_output_directory(OUTPUT_FILE)
-
     # Get all unique entity types
     entity_types = get_all_entity_types()
     assert entity_types, "No entity types found"
     print(f"Found {len(entity_types)} entity types")
-
-    subqueries_list = []
-    max_attempts = count * 10  # Limit attempts to avoid infinite loops
     
-    with Progress(
-        TextColumn("[bold blue]{task.description}"),
-        BarColumn(),
-        TaskProgressColumn(),
-        TimeRemainingColumn(),
-    ) as progress:
-        task = progress.add_task(f"Generating {count} comparison subqueries", total=count)
-        
-        attempts = 0
-        while len(subqueries_list) < count and attempts < max_attempts:
-            attempts += 1
-
-            # Pick a random entity type and generate a subquery
-            entity_type = random.choice(entity_types)
-            subquery = generate(entity_type)
-            if not subquery or \
-                    len(subquery.strip()) == 1000 or \
-                    subquery in subqueries_list:
-                continue
-            
-            subqueries_list.append(subquery)
-            progress.update(task, completed=len(subqueries_list))
-
-    # Write the subqueries to the output file
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(subqueries_list))
+    # Create a selector function that returns a random entity type
+    def entity_type_selector():
+        return random_entity_type_selector(entity_types)
     
-    print(f"Completed generating {len(subqueries_list)} comparison subqueries")
+    generate_subqueries_with_progress(
+        count=count,
+        generator_func=generate,
+        output_file=OUTPUT_FILE,
+        description="comparison subqueries",
+        entity_selector=entity_type_selector,
+    )
 
 if __name__ == "__main__":
     # print(generate("City"))

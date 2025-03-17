@@ -1,8 +1,6 @@
 import random
 from typing import List, Tuple, Optional
 
-from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn
-
 from _utils import (
     FACTS_DIR,
     SUBQUERIES_DIR,
@@ -10,6 +8,8 @@ from _utils import (
     get_entity_properties,
     get_entity_relationships,
     load_entity_data,
+    generate_subqueries_with_progress,
+    random_entity_selector,
 )
 
 OUTPUT_FILE = SUBQUERIES_DIR / "chaining.txt"
@@ -122,46 +122,18 @@ def generate(start_entity: str) -> str:
 
 def generate_chaining_subqueries(count: int = 1333) -> None:
     """Generate chaining subqueries and write to output file."""
-    ensure_output_directory(OUTPUT_FILE)
-
     # Get all entity files
     entity_files = list(FACTS_DIR.glob("*.json"))
     assert entity_files, "No entity files found"
     print(f"Found {len(entity_files)} entity files")
-
-    subqueries_list = []
-    max_attempts = count * 10  # Limit attempts to avoid infinite loops
     
-    with Progress(
-        TextColumn("[bold blue]{task.description}"),
-        BarColumn(),
-        TaskProgressColumn(),
-        TimeRemainingColumn(),
-    ) as progress:
-        task = progress.add_task(f"Generating {count} chaining subqueries", total=count)
-        
-        attempts = 0
-        while len(subqueries_list) < count and attempts < max_attempts:
-            attempts += 1
-            
-            # Pick a random entity to start with
-            random_file = random.choice(entity_files)
-            start_entity = random_file.stem.replace("_", " ")
-            
-            # Generate a subquery
-            subquery = generate(start_entity)
-            
-            if not subquery or subquery in subqueries_list:
-                continue
-            
-            subqueries_list.append(subquery)
-            progress.update(task, completed=len(subqueries_list))
-
-    # Write the subqueries to the output file
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(subqueries_list))
-    
-    print(f"Completed generating {len(subqueries_list)} chaining subqueries")
+    generate_subqueries_with_progress(
+        count=count,
+        generator_func=generate,
+        output_file=OUTPUT_FILE,
+        description="chaining subqueries",
+        entity_selector=random_entity_selector,
+    )
 
 if __name__ == "__main__":
     generate_chaining_subqueries()
