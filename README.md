@@ -199,33 +199,5 @@ Generate Queries from Subqueries
 ----------------------------------
 
 [[`queries/_README.md`]] has the plan to generate the queries from the subqueries.
-
-
-SFT
-===============
-
-Twitter has proven that BERT-base can be scaled to handle 100ms latency on a
-CPU. So we can safely assume that a similar parameter count model can be used
-for fine-tuning. In terms of choosing a pre-trained model for fine-tuning, here
-are the options:
-
-- BERT-base: 100M parameters
-- Flan-5T-small: 60M parameters
-- Flan-5T-base: 220M parameters
-- Flan-5T-large: 770M parameters
-
-Flan-5T feels like a better choice because it's a text-to-text transfer
-transformer. It's a better fit for the task because it has both encoder and
-decoder, unlike BERT that has only an encoder.
-
-Further, in terms of the environment to run the fine-tuning, it looks like
-running it on Google Colab is the best option. Here is the comparison to
-running it locally on M2.
-
-Metric	        | M2 Pro (MPS)	| T4 (CUDA)
-----------------------------------------------
-Batch Size      |	4	        |   16
-Steps/Second	|  ~0.8	        |   ~2.1
-Epoch Time	    |  ~4.5 hours	|   ~1.75 hours
-Memory Pressure	|  High         |   Moderate
+[[`datasets/braid.py`]] is the code to generate the dataset from the subqueries and queries batch input/outputs. [[`datasets/split.py`]] splits the dataset into training, validation and test sets.
 
