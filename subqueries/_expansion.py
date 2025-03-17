@@ -65,6 +65,7 @@ def clean_csv_values(csv_string: str) -> List[str]:
 
     return values
 
+# generate should take in an entity and return "" if it has no CSV properties. ai!
 def generate(csv_property: Tuple[str, str, str]) -> str:
     """Generate an expansion subquery for a given entity with CSV property.
     
@@ -145,4 +146,5 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
     print(f"Completed generating {len(subqueries_list)} expansion subqueries")
 
 if __name__ == "__main__":
-    generate_expansion_subqueries()
+    generate("Dunedin")
+    #generate_expansion_subqueries()
