@@ -14,7 +14,7 @@ from _utils import (
     get_entity_relationships
 )
 
-OUTPUT_FILE = DATASET_DIR / "subqueries-chaining.txt"
+OUTPUT_FILE = DATASET_DIR / "chaining.txt"
 
 def traverse_relationship_chain(
     start_entity: str, 
