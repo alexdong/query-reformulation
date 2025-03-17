@@ -162,12 +162,10 @@ def create_batch_request_file(reformulation_type: str) -> None:
     with open(batch_file, "w") as f:
         for i, subqueries in enumerate(subqueries_list):
             # Create a unique custom_id for each request
-            custom_id = f"{reformulation_type}_line_{i+1}"
+            custom_id = f"{reformulation_type}_{i+1}"
             
             # Get the request body
             request_body, _ = create_request_body(reformulation_type, subqueries)
-            
-            # Remove metadata from the request body (it should be in the top-level structure)
             metadata = request_body.pop("metadata", {})
             
             # Create the batch request structure
@@ -176,8 +174,6 @@ def create_batch_request_file(reformulation_type: str) -> None:
                 "method": "POST",
                 "url": "/v1/chat/completions",
                 "body": request_body,
-                # Include metadata at the top level
-                "metadata": metadata
             }
             
             # Write the batch request to the file

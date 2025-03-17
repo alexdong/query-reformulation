@@ -1,0 +1,1333 @@
+Market Demand Linked To Transaction\nTransaction Requires Business function\nBusiness function Uses Research\nResearch Cost
+Cabernet Sauvignon Is A Plant\nPlant Cultivated By Mammal\nMammal Average Lifespan
+Malgahan Institute of Medical Research Conducts Research On Disease\nDisease Affects Mammal\nMammal Communicates With Mammal\nMammal Kingdom
+Levi s Stadium Has Owner American football team\nAmerican football team Part Of Professional sports league\nProfessional sports league Founder
+Northland Region Contains Town\nTown Located In Region\nRegion Main Industry
+New Zealand climate Region Has Climate Island\nIsland Has River River\nRiver Used For Artificial watering\nArtificial watering Type
+The Bronx Part Of City\nCity Haspart Borough\nBorough Official Website
+Sea Level Fall Impacts Geological Process\nGeological Process Related To Geophysical process\nGeophysical process Governing Equation
+American West Part Of Continent\nContinent Borders Ocean\nOcean Flows Into Ocean\nOcean Max Depth
+Yellowstone National Park Located In Country\nCountry Influenced By Revolution\nRevolution Belligerents
+Fish Part Of Ecological system\nEcological system Part Of Closed ecological system\nClosed ecological system Creator
+Environmental Sustainability Causes Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Contributes To Environmental Issue\nEnvironmental Issue Cause
+Aoraki   Mount Cook Part Of Mountain range\nMountain range Provides Water To River\nRiver Basin Area
+Fertilizer Related To AgriculturalPractice\nAgriculturalPractice Promotes LivingThing\nLivingThing Value
+Hokitika Gorge Formed By Geological Process\nGeological Process Causes Mechanical & Chemical\nMechanical & Chemical Influenced By Weather phenomenon\nWeather phenomenon Affected By
+South Bank Parklands Adjacent To River\nRiver Used For Infrastructure\nInfrastructure Affects Discipline\nDiscipline Goal
+Hacks Genre Performing art\nPerforming art Type
+Roman Catholicism Has Sacred Text Religious text\nReligious text Influenced Culture\nCulture Origin
+Kapa Haka Features Song\nSong Performed By Performance art\nPerformance art Instruments
+Caliban Character Of Writer\nWriter Influenced LiteraryWork\nLiteraryWork Influenced By Writer\nWriter Type
+New Zealand Transport System Impacts Market economy\nMarket economy Dependent On Industry\nIndustry Instance Of Activity\nActivity Impact
+Canadian Confederation Involved Province\nProvince Located In Country\nCountry Member Of Intergovernmental forum\nIntergovernmental forum Chairmanship
+Naples Part Of Country\nCountry Located In Continent\nContinent Has Member State Country\nCountry Continent
+Cowboy Part Of Culture\nCulture Influenced By Civilization\nCivilization Influenced PhilosophicalMovement\nPhilosophicalMovement Key Figure 1
+Aberdeen Part Of Country\nCountry Part Of Country\nCountry GDP Nominal
+Pacific Plate Subduction Affects Country\nCountry Has Neighbor Country\nCountry Largest City
+Polynesian Culture Influenced Culture\nCulture Has Religion Polytheistic religion\nPolytheistic religion Origin
+Ian McKellen Instance Of Mammal\nMammal Communicates With Mammal\nMammal Mass
+Murrumbidgee River Located In State\nState Located In Country\nCountry Area km²
+Alberta Borders Province\nProvince Adjacent To Province\nProvince Premier
+Rita Joe Instance Of Mammal\nMammal Parent Of Mammal\nMammal Communicates With Mammal\nMammal Family
+Tāwerera Located In Country\nCountry Has Capital City\nCity Population 2023
+Thomas Burns  poet  Associated With Council Area\nCouncil Area Part Of Country\nCountry National Animal
+Skyline Queenstown Overlooks Lake\nLake Influenced By Climate event\nClimate event Cause
+Continent Borders Saltwater\nSaltwater Influences Weather phenomenon\nWeather phenomenon Measurement Unit
+Fish fossils Found In Rock type\nRock type Weathered Into Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Supports Ecological system\nEcological system Type
+World Health Organization Has Member Development Bank\nDevelopment Bank Member Of Intergovernmental\nIntergovernmental Official Language
+Environmental Science Related To Concept\nConcept Supports LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Purpose
+Cheese Produced In Country\nCountry Member Of Political\nPolitical Formed
+Sediment Transport Part Of Scientific discipline\nScientific discipline Influences Atmospheric phenomenon\nAtmospheric phenomenon Part Of Planet\nPlanet Atmosphere
+2011 Christchurch earthquake Caused By Geological Process\nGeological Process Related To Scientific discipline\nScientific discipline Key Technique
+Heritage New Zealand Pouhere Taonga Collaborates With Tribal group\nTribal group Subclass Of Ethnic group\nEthnic group Has Art Visual Art\nVisual Art Themes
+Pacific Belt Adjacent To Tectonic Plate\nTectonic Plate Collision With Tectonic Plate\nTectonic Plate Borders Tectonic Plate\nTectonic Plate Includes Continents
+Samoan culture Part Of Culture\nCulture Has Tradition Body modification\nBody modification Influenced By Spiritual beings\nSpiritual beings Type
+Sequoia National Park Neighbor Of NationalPark\nNationalPark Neighboring Park National Park\nNational Park Governed By
+Darwin Glacier Near Glacier\nGlacier Located In Continent\nContinent Located Near Ocean\nOcean Max Depth
+Textile Industry Part Of Social science\nSocial science Haseffecton Contractual relationship\nContractual relationship Tax Implications
+UNICEF Founded By Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Has Member Development Bank\nDevelopment Bank Hq Location
+Barque Located In Saltwater\nSaltwater Contains Water movement\nWater movement Direction
+Ron Seeto Educated At Public University\nPublic University Affiliated With Rugby union club\nRugby union club Nickname
+Tonga Part Of Region\nRegion Ancestor Of IslandNation\nIslandNation Capital
+All Blacks Sport Team sport\nTeam sport Equipment
+Reserve Bank of New Zealand Located In Country\nCountry Has Capital City\nCity Latitude
+Auckland Region Contains City\nCity Contains Park\nPark Original Purpose
+American Dream Associated With Social process\nSocial process Related To Legal status\nLegal status Vulnerable Group
+Rotorua Lakes Part Of Volcanic Zone\nVolcanic Zone Located In Country\nCountry Sovereignty
+Dairy cattle Produces Food\nFood Nutrient Source For Mammal\nMammal Communicates With Mammal\nMammal Height
+Kinship System Studied By Academic discipline\nAcademic discipline Subfield
+California Current Part Of Ocean current\nOcean current Adjacent To Island chain\nIsland chain Part Of Region Continent\nContinent Area
+Production Related To Industry\nIndustry Produces Substance\nSubstance Includes
+Glacier National Park Adjacent To Country\nCountry Member Of Intergovernmental forum\nIntergovernmental forum Member Of Country\nCountry Population
+Marlborough Sounds Influenced By Climate event\nClimate event Part Of Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Global Scale
+Robert Burns Country Of Birth Country\nCountry Has Capital City\nCity Influenced IntellectualMovement\nIntellectualMovement Key Areas
+Ocean Acidification Contributes To Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Time Scale
+Romanticism Preceded HistoricalPeriod\nHistoricalPeriod Located In Country\nCountry GDP Nominal
+Adam Ferguson Q103874 City\nCity Influenced By Art school\nArt school Style
+North American Plate Includes Country\nCountry Member Of Intergovernmental forum\nIntergovernmental forum Member Of Country\nCountry Population
+Angus MacDonald Country Of Citizenship Country\nCountry Has Capital City\nCity University Public research university\nPublic research university Students
+Sequoia National Park Neighbor Of NationalPark\nNationalPark Neighboring Park National Park\nNational Park Biomes
+Balclutha Preservation Society Supports PopulatedPlace\nPopulatedPlace Type
+Heritage New Zealand Pouhere Taonga Collaborates With Tribal group\nTribal group Located In Country\nCountry Government Type
+Dengue fever Affects Mammal\nMammal Communicates With Mammal\nMammal Binomial Name
+Livestock Part Of Industry\nIndustry Affected By Weather phenomenon\nWeather phenomenon Impacts LivingOrganism\nLivingOrganism Requires
+Carrying Capacity Influenced By Tangible/Intangible\nTangible/Intangible Requires Field of study\nField of study Impacts Social science\nSocial science Focus
+Western Philosophy Developed In Continent\nContinent Located In Continent\nContinent Influenced By Trade route\nTrade route Cultural Exchange
+Science Used In Field of study\nField of study Has Property Process\nProcess Field
+Zwingli Palace Building Style ArchitecturalStyle\nArchitecturalStyle Influenced ArchitecturalStyle\nArchitecturalStyle Type
+Taieri railway line Part Of Railway network\nRailway network Impacts Market economy\nMarket economy Dependent On Industry\nIndustry Global Contribution GDP
+Washington State Has Landmark Stratovolcano\nStratovolcano Threatens City\nCity Located In AdministrativeDivision\nAdministrativeDivision Time Zone
+Origin Air Has Route City\nCity Influenced By Culture\nCulture Part Of Culture\nCulture Dance Style
+Supply Chain Relies On Infrastructure\nInfrastructure Impacts Social science\nSocial science Haseffecton Voluntary exchange\nVoluntary exchange Definition
+Cook Islands National Bank Has Branch Island\nIsland Has Settlement Atoll\nAtoll Type
+Natural Fiber Component Of Textile\nTextile Used For Textile\nTextile Style
+Prevailing Winds Impacts Weather phenomenon\nWeather phenomenon Affects Ecological system\nEcological system Has Property LivingThing\nLivingThing Type
+Quebec Borders Country Country\nCountry Located In Planet\nPlanet Tectonic Plates Geosphere\nGeosphere Type
+Southern Europe Influenced By Empire\nEmpire Located In Continent\nContinent Has Country Country\nCountry Official Languages
+Drygalski Glacier Located In Continent\nContinent Part Of Planet\nPlanet Density
+Quebec Has Province Province\nProvince Capital
+John Milton Influenced By Writer\nWriter Instance Of Mammal\nMammal Parent Of Mammal\nMammal Class
+Lyon Part Of Country\nCountry Located In Continent\nContinent Has Economic Union Political union\nPolitical union Currency
+Germany Located In Continent\nContinent Located In Continent\nContinent Part Of Planet\nPlanet Diameter
+Botany Related To Industry\nIndustry Part Of Social science\nSocial science Historical Development
+Capital Contributes To Process\nProcess Influenced By Regulation\nRegulation Evaluation Method
+Bangladesh Located In Continent\nContinent Borders Continent\nContinent Continent
+Marlborough Sounds Adjacent To Sea\nSea Part Of Ocean\nOcean Type
+Bob s Peak Located In Country\nCountry Part Of Planet\nPlanet Mass
+Peebles River Flows Through River\nRiver Supports Fish\nFish Part Of Ecological system\nEcological system Scale
+Crew member Instance Of Mammal\nMammal Parent Of Mammal\nMammal Parent Of Mammal\nMammal Phylum
+Tāwerera Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Membership
+New Zealand road network Supports Industry\nIndustry Has Participant Person\nPerson Origin
+Economic Disparity Impacts Formal, Informal, Non-formal\nFormal, Informal, Non-formal Related To Educational theory\nEducational theory Type
+Micronesian Presidents  Summit Related To Intergovernmental Organization\nIntergovernmental Organization Promotes Activity\nActivity Regulated By Organization\nOrganization Size
+Clast Instance Of Solid\nSolid Has Application Field of study\nField of study Type
+Mount Aspiring Located In NationalPark\nNationalPark Located In AdministrativeDivision\nAdministrativeDivision Part Of Country\nCountry Capital
+Taupō District Part Of Region\nRegion Contains Cave system\nCave system Type
+North Beach  San Francisco Part Of City\nCity Has Landmark Suspension bridge\nSuspension bridge Location
+Mataura Local Government Local government area\nLocal government area Adjacent To Local government area\nLocal government area Economic Activity Industry\nIndustry Related Concept
+Scottish Enlightenment Located In Country\nCountry Borders Country Country\nCountry Influenced By Empire\nEmpire Language
+Te Wahipounamu Contains Lake\nLake Attraction For Industry\nIndustry Has Impact On Place\nPlace Type
+Canterbury Region Contains Town\nTown Founded By PopulatedPlace\nPopulatedPlace Type
+Central Asia Borders Country\nCountry Has Border With Country\nCountry Type
+Mi kmaq Interacts With PopulatedPlace\nPopulatedPlace Located In Continent\nContinent Has Political Entity Intergovernmental organization\nIntergovernmental organization Type
+Edinburghshire Contains Town\nTown River Flows Through River\nRiver Flows Through Council Area\nCouncil Area Area km²
+Modern Gold Rushes Influenced By Process\nProcess Requires Financial activity\nFinancial activity Time Horizon
+River Bannoch Located In Country\nCountry Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Headquarters Location
+Silver Used In Visual art\nVisual art Instance Of
+Nate Garret Birth Place City\nCity Established
+Al Gore Almamater Private research university\nPrivate research university Type
+Russell Group Influences Tertiary Education\nTertiary Education Leads To Systematic investigation\nSystematic investigation Type
+Haka Associated With Language\nLanguage Spoken In Country\nCountry Population
+Equatorial Current Influences Climate pattern\nClimate pattern Related To ENSO\nENSO Discovery Date
+PGG Wrightson Country Of Origin Country\nCountry Has Neighbour Country\nCountry Government
+British actors Citizen Of Country\nCountry Has Monarch Monarch\nMonarch Birth Date
+Quebec Part Of Country\nCountry Part Of Intergovernmental\nIntergovernmental Member State Country\nCountry Type
+Murrumbidgee River Located In State\nState Borders Monarch\nMonarch Reign Start
+French Cuisine Uses Ingredient Dairy product\nDairy product Produced In Country\nCountry Has Border With Country\nCountry Largest City
+Mount Rainier Threatens City\nCity Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Type
+Clothing Worn By Mammal\nMammal Parent Of Mammal\nMammal Height
+Baroque Architecture Located In Country\nCountry Influenced By Empire\nEmpire Located In Continent\nContinent Highest Point
+New Zealand Abroad Influenced By Former empire\nFormer empire Colonized Country\nCountry Located In Planet\nPlanet Rotation Period
+Continent Part Of Planet\nPlanet Orbits Star\nStar Related To Star System\nStar System Star
+Capital Used In Manufacturing, Agriculture, Services\nManufacturing, Agriculture, Services Related To Industry\nIndustry Affected By Weather phenomenon\nWeather phenomenon Classification
+Oceanic art Originates From Continent\nContinent Has Region Region\nRegion Has Flora Biome\nBiome Location
+Harlem Renaissance Influenced MusicGenre\nMusicGenre Associated With Event ArtisticMovement\nArtisticMovement Type
+Alcatraz Island Connected To City\nCity Has Landmark Suspension bridge\nSuspension bridge Connects City\nCity Nickname
+Lake Heron  New Zealand  Tributary To River\nRiver Tributary Of Strait\nStrait Adjacent To Sea\nSea Type
+Funafuti Located In Ocean\nOcean Currents Ocean Current\nOcean Current Type
+Angling Requires Tool\nTool Related To Leisure activity\nLeisure activity Related Activity
+Invercargill Has Sport Team SportsClub\nSportsClub Country Of Country\nCountry Type
+Dyeing Used For Material\nMaterial Used For Textile\nTextile Origin
+Indo-European languages Includes LanguageFamily\nLanguageFamily Has Language Language\nLanguage Hasvariant Language\nLanguage Influenced By
+William IV Successor Monarch\nMonarch Instance Of Mammal\nMammal Mass
+William Armitage Country Of Citizenship Country\nCountry Member Of Intergovernmental\nIntergovernmental Member State Country\nCountry Official Language
+Austronesian Expansion Spread To Island nation\nIsland nation Influenced By Country\nCountry GDP Nominal
+Cheese Produced In Country\nCountry Member Of Intergovernmental\nIntergovernmental Member State Country\nCountry Area
+Tropical Climate Affects LivingThing\nLivingThing Instance Of Biological process\nBiological process Origin
+North Beach  San Francisco Part Of City\nCity Capital Of AdministrativeRegion\nAdministrativeRegion Borders AdministrativeDivision\nAdministrativeDivision State Flower
+Scottish Literature Country Country\nCountry Located In Continent\nContinent Has Economic Union Political union\nPolitical union Population
+Hakatere River Has Landmark Mountain\nMountain Located In Country\nCountry Government Type
+Tā moko Associated With Mountain\nMountain Located In Country\nCountry Area km²
+Forth Bridge Built In Country\nCountry Located In Continent\nContinent Influenced By Empire\nEmpire Decline Date
+New Zealand House of Representatives Part Of Parliamentary system\nParliamentary system Legislates For Country\nCountry Official Languages
+Ngāti Huarangi Involved In Treaty\nTreaty Impacts Indigenous people\nIndigenous people Art Form
+Māori language Has Speaker Ethnic group\nEthnic group Has Culture Culture\nCulture Associated With Treaty\nTreaty Purpose
+Niger Located In Continent\nContinent Located In Planet\nPlanet Atmosphere
+Liz Truss Successor Politician\nPolitician Nationality
+Ron Seeto Instance Of Mammal\nMammal Parent Of Mammal\nMammal Mass
+Clothing Designed By Occupation\nOccupation Occupation Occupation\nOccupation Focus
+Government of New Zealand Part Of Country\nCountry Has Currency Currency\nCurrency Used In Market economy\nMarket economy GDP Per Capita
+Juan de Fuca Plate Part Of Tectonic Plate\nTectonic Plate Subducts Under Tectonic Plate\nTectonic Plate Includes Country\nCountry GDP Nominal
+England Borders With Country\nCountry Member Of Political union\nPolitical union Member Of Intergovernmental\nIntergovernmental Predecessor
+Christchurch Cathedral Part Of City\nCity Economic Sector Industry\nIndustry Economic Impact
+Youth Culture Influenced By Field of study\nField of study Impacts Social science\nSocial science Historical Development
+Horticulture Requires Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Supports Ecological system\nEcological system Has Property LivingThing\nLivingThing Measurement
+Lake Matheson Part Of Island\nIsland Has River River\nRiver Source
+Bob s Peak View Of City\nCity Contains Park\nPark Geological Type Volcanic Feature\nVolcanic Feature Location
+Apparel Instance Of Textile\nTextile Associated With Concept\nConcept Time Frame
+Ireland Has Border With Country\nCountry Influenced By Empire\nEmpire Influenced Culture\nCulture Economic System
+Textile Industry Related To Business Process\nBusiness Process Relies On Infrastructure\nInfrastructure Supports Voluntary exchange\nVoluntary exchange Risk
+European Union Has Member Country\nCountry Part Of Political union\nPolitical union Member States
+Cent Symbol Currency\nCurrency Symbol Currency\nCurrency Denomination
+Clevedon Located In Country\nCountry Has Language Language\nLanguage Iso Code
+New Zealand Parliament Legislates For Country\nCountry Located In Continent\nContinent Contains Country\nCountry Capital
+Edwardian Era Preceded By HistoricalPeriod\nHistoricalPeriod Located In Country\nCountry Member Of
+Doubtful Sound Track Located In Island\nIsland Contains National Park\nNational Park Adjacent To ProtectedArea\nProtectedArea Highest Point
+Little Blue Penguin Part Of Ecosystem Biome\nBiome Affected By EnvironmentalIssue\nEnvironmentalIssue Studied By Scientific discipline\nScientific discipline Related To
+Government Foreign Affairs Advises On Legal System\nLegal System Related To Academic discipline\nAcademic discipline Related To Legal System\nLegal System Related Concept
+Queenstown Marathon Part Of Country\nCountry Has Capital City\nCity Type
+Southland Region Located In Country\nCountry Located In Continent\nContinent Borders Continent\nContinent Climate
+Fishing Regulations Overlaps With Practice\nPractice Involves Geographic area\nGeographic area Protects Ecological system\nEcological system Components
+Kakamigahara Located In Country\nCountry Influenced By Country\nCountry Located In Continent\nContinent Type
+Celebrity Culture Related To Online platform\nOnline platform Influences Business function\nBusiness function Has Subclass Transaction\nTransaction Requires
+Botany Related To Industry\nIndustry Produces Substance\nSubstance Requires
+Tamara Smart Educatedat Drama school\nDrama school Building Style
+North American Plate Part Of Geosphere\nGeosphere Influences Closed ecological system\nClosed ecological system Creator
+Aboriginal Australians Part Of Country\nCountry Part Of Continent\nContinent Has Region IslandNation\nIslandNation Official Language
+Sea Level Related To Scientific discipline\nScientific discipline Studied By Science\nScience Focuses On
+Social Structure Part Of Collective\nCollective Governed By Organization\nOrganization Function
+Council of Europe Works With Intergovernmental\nIntergovernmental Member State Country\nCountry National Anthem
+Port Chalmers Part Of City\nCity Has University Public University\nPublic University Offers Degree Academic degree\nAcademic degree Focus
+JR Hida Line Serves Location Prefecture\nPrefecture Located In Country\nCountry Has Neighbor Country\nCountry Government Type
+Oceanic art Originates From Continent\nContinent Has Region IslandNation\nIslandNation Ethnic Groups
+Sensory Evaluation Part Of Academic discipline\nAcademic discipline Related To Social science\nSocial science Field Of Academic discipline\nAcademic discipline Field Of Study
+Picton  New Zealand Influenced By Culture\nCulture Has Concept Concept\nConcept Synonym
+Southland Coast Contains City\nCity River Flows Through River\nRiver Used By Ethnic group\nEthnic group Contemporary Issues
+Conservation movement Opposes Process\nProcess Mitigated By Practice\nPractice Involves Geographic area\nGeographic area Management
+Wardrobe Associated With Textile\nTextile Designed By Occupation\nOccupation Occupation Occupation\nOccupation Skill
+Heiau Associated With Deity Hawaiian god\nHawaiian god Worshiped In Polytheistic religion\nPolytheistic religion Origin
+Christchurch Airport Country Country\nCountry Member Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Acronym
+Nelson  New Zealand Founded By PopulatedPlace\nPopulatedPlace Engaged In HistoricalEvent\nHistoricalEvent Caused Imperialism\nImperialism Criticism
+Polynesian Culture Part Of Continent\nContinent Contains Country\nCountry Has Neighbor Country\nCountry Official Language
+Sales Supports Business Process\nBusiness Process Relies On Infrastructure\nInfrastructure Regulation
+Romanticism Preceded HistoricalPeriod\nHistoricalPeriod Followed By HistoricalPeriod\nHistoricalPeriod Followed By War\nWar Belligerents
+North Island Contains City\nCity Part Of Island\nIsland Highest Point
+Rachel Carson Field Of Study Scientific discipline\nScientific discipline Related To Concept\nConcept Goal
+Christopher Wren Citizen Of Country\nCountry Has Language Language\nLanguage Hasvariant Language\nLanguage Influenced
+Built Environment Created By Mammal\nMammal Parent Of Mammal\nMammal Order
+Aitutaki Airport Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Founded By Military alliance\nMilitary alliance Initial Members
+Scottish Literature Author Poet\nPoet Instance Of Mammal\nMammal Communicates With Mammal\nMammal Mass
+Sedimentary Rock Contains Geological material\nGeological material Weathered From Mineral Aggregate\nMineral Aggregate Color
+Polynesian Culture Located In Ocean\nOcean Borders Continent\nContinent Trade Partner Continent\nContinent Area
+Immigration to Canada Source Countries Country\nCountry Has Neighbor Country\nCountry Official Language
+Mary Stewart Country Of Citizenship Country\nCountry Has Monarch Monarch\nMonarch Educated At Boarding school\nBoarding school Age Range
+New South Wales Borders Monarch\nMonarch Country Of Citizenship Country\nCountry Member Of Intergovernmental\nIntergovernmental Instance Of
+Picton  New Zealand Port For City\nCity Influenced By Culture\nCulture Part Of Culture\nCulture Cuisine
+Breakdancing Instance Of Performing art\nPerforming art Related To Auditory art\nAuditory art Is A Creative activity\nCreative activity Classification
+South American Plate Subducts Under Tectonic Plate\nTectonic Plate Part Of Geosphere\nGeosphere Composed Of Solid\nSolid Type
+Global Pop Culture Manifests In Auditory art\nAuditory art Influenced By Academic discipline\nAcademic discipline Branch Of
+Otago Harbour Contains City\nCity Near Town\nTown Influenced By Migration\nMigration Primary Destination
+Papua New Guinea Has Neighbor Country\nCountry Located In Planet\nPlanet Supports Biological process\nBiological process Characteristic
+Universities Scotland Promotes Service\nService Importance
+Dyeing Used For Material\nMaterial Produced By Industry\nIndustry Industry Type
+Main Trunk Line Connects City\nCity Part Of Island\nIsland Highest Point
+Recreation Related To Industry\nIndustry Has Sector Service\nService Partof Social science\nSocial science Measurement
+Mexican-American War Opposed By Country\nCountry Part Of Intergovernmental\nIntergovernmental Headquarters Location
+Clothing Used In Garment\nGarment Made Of Textile\nTextile Used For Textile\nTextile Purpose
+Trade Part Of Social science\nSocial science Related To Social science\nSocial science Field Of Study
+Rarotonga Lagoon Part Of Ocean\nOcean Borders Continent\nContinent Climate
+California State Route 1 Influenced Tourism In AdministrativeRegion\nAdministrativeRegion Borders AdministrativeDivision\nAdministrativeDivision Borders AdministrativeRegion\nAdministrativeRegion Capital
+Buller District Located In Country\nCountry Located In Continent\nContinent Affected By Climate pattern\nClimate pattern Frequency
+Community Engagement Resultsin SocialActivity\nSocialActivity Requires Activity\nActivity Benefit To Community
+Africa Influenced By Imperialism\nImperialism Affected Continent\nContinent Part Of Planet\nPlanet Distance From Sun
+Utility Impacts Social science\nSocial science Haseffecton QuantitativeMeasure\nQuantitativeMeasure Influenced By Process\nProcess Risk
+Fertility Rate Affected By Regulation\nRegulation Supports Service\nService Part Of Social science\nSocial science System Type
+New Zealand Trade Regulates Economic Activity\nEconomic Activity Facilitates Process\nProcess Definition
+Davis Station Part Of Territory\nTerritory Adjacent To Territory\nTerritory Geology
+Ranching Associated With Culture\nCulture Part Of CulturalConcept\nCulturalConcept Scope
+Tiwai River Flows Through NationalPark\nNationalPark Located In AdministrativeDivision\nAdministrativeDivision Population 2023
+Mojave Desert Located In Country\nCountry Part Of Continent\nContinent Part Of Planet\nPlanet Mass
+Vegetable Instance Of Living organism\nLiving organism Part Of Ecological system\nEcological system Has Property LivingThing\nLivingThing Measurement
+Academia Offers Instructional Offering\nInstructional Offering Uses EducationalActivity\nEducationalActivity Purpose
+North Island Located In Ocean\nOcean Contains Geological Feature\nGeological Feature Contains Mountain range\nMountain range Formation Type
+Christopher Luxon Prime Minister Of Country\nCountry Located In Continent\nContinent Has Region Region\nRegion Languages
+Benin Located In Continent\nContinent Has Geographic Feature Desert\nDesert Biome
+Scientific Knowledge Based On Process\nProcess Used In Process\nProcess Ethics Consideration
+Hollywood Walk of Fame Located In City\nCity Population 2020
+Kaitai  New Zealand Influenced By Culture\nCulture Part Of Culture\nCulture Navigation
+Fashion Related To Textile\nTextile Category Product\nProduct Category
+Zoology Related To Scientific discipline\nScientific discipline Related To Concept\nConcept Supports LivingThing\nLivingThing Measurement
+San Francisco Maritime National Historical Park Located In City\nCity Has Landmark Suspension bridge\nSuspension bridge Construction End
+El Niño Affects System\nSystem Impacts LivingOrganism\nLivingOrganism Dependent On
+Aitutaki Lagoon Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Seal Design
+Richard Reid Birth Place Country\nCountry Part Of Continent\nContinent Borders Ocean\nOcean Ice Coverage
+Teamsters Union Influenced Social Movement\nSocial Movement Ideology
+Catlins Forest Park Adjacent To Region\nRegion Has Mountain Mountain\nMountain Near Fjord\nFjord Discovery Year
+Roxburghshire Part Of Council Area\nCouncil Area Borders County\nCounty Area km²
+Crete Located In Sea\nSea Contains Island\nIsland Part Of Country\nCountry National Holiday
+Lono Represents Concept\nConcept Supports Concept\nConcept Supports LivingThing\nLivingThing Importance
+Ocean Contains Geological feature\nGeological feature Supports Geological feature\nGeological feature Ecosystem Support
+Technological Advancement Enables Technology\nTechnology Uses Field of study\nField of study Ethical Consideration
+East Antarctic Territory Claimed By Country\nCountry Has Border With Country\nCountry Continent
+Natural Disaster Causes Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Contributes To Environmental Issue\nEnvironmental Issue Time Scale
+Polynesian People Language Family LanguageFamily\nLanguageFamily Part Of Migration\nMigration Influenced Culture\nCulture Religion
+Youth Culture Expresses Through Auditory art\nAuditory art Is A Creative activity\nCreative activity Definition
+Council of Europe Promotes LegalRight\nLegalRight Related To Government\nGovernment Requirement
+Amazon River Flows Through Country\nCountry Has Natural Resource Biotope\nBiotope Type
+Cattle Part Of Animal\nAnimal Part Of Industry\nIndustry Primary Goal
+Kerikeri Part Of Country\nCountry Has Neighbour Country\nCountry Currency
+Teamsters Union Influenced Social Movement\nSocial Movement Leader
+Mataura River Flows Through Local government area\nLocal government area Adjacent To Local government area\nLocal government area Country
+Regional Cuisine Instance Of Substance\nSubstance Provides To Mammal\nMammal Order
+New Zealand Abroad Part Of Planet\nPlanet Supports Biological process\nBiological process Requires
+World War I Took Place In Continent\nContinent Located In Continent\nContinent Lowest Point
+Mount Aspiring National Park Adjacent To NationalPark\nNationalPark Contains Fjord\nFjord Location
+Ngāti Whātua Located In Country\nCountry Part Of Planet\nPlanet Type
+Coates Cup Location State\nState Part Of Country\nCountry National Animal
+Franz Josef  glacier  Attraction For Industry\nIndustry Related To Infrastructure\nInfrastructure Impacts Place\nPlace Component
+Pinot Grigio Related To Grape variety\nGrape variety Region Produced AdministrativeRegion\nAdministrativeRegion Area km²
+Austronesian Migration Language Family LanguageFamily\nLanguageFamily Has Subclass LanguageFamily\nLanguageFamily Historical Significance
+Community  TV series  Genre Performing art\nPerforming art Audience
+Global Economy Regulated By Specialized agency\nSpecialized agency Member Of Intergovernmental\nIntergovernmental Seal Design
+Asia Contains Country\nCountry Part Of Intergovernmental\nIntergovernmental Purpose
+Battle of Culloden Located In Country\nCountry Borders Country Country\nCountry Currency
+Ecology Includes Ecological system\nEcological system Affected By Weather phenomenon\nWeather phenomenon Definition
+New Zealand Dollar Used In Market economy\nMarket economy Part Of Continent\nContinent Climate
+Tangaroa Worshipped By Ethnic group\nEthnic group Has Language Language\nLanguage Language Family
+Chollar Mine Located In AdministrativeRegion\nAdministrativeRegion Borders AdministrativeDivision\nAdministrativeDivision Borders AdministrativeRegion\nAdministrativeRegion Type
+Immigration Law Influenced By Legal System\nLegal System Deals With LegalRight\nLegalRight Related Concept
+Landlord Rents To Legal person\nLegal person Has Relationship Occupation\nOccupation Type
+Environmental Science Related To Concept\nConcept Instance Of Social movement\nSocial movement Opposes Process\nProcess Impact
+Sedimentary Cycle Influenced By Geological process\nGeological process Influenced By Fluid\nFluid Surface Tension
+Franz Josef  glacier  Influenced By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Instance Of Biological process\nBiological process Characteristic
+Agronomy Subclass Of Industry\nIndustry Produces Substance\nSubstance Part Of Nutritional Plan\nNutritional Plan Impact
+Hamilton  city  Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Budget 2023
+Oceanic trench Example Of Oceanic Trench\nOceanic Trench Influenced By Scientific Theory\nScientific Theory Field
+Mary  Queen of Scots Rdfs:label Country\nCountry Located In Country\nCountry Has Monarch Monarch\nMonarch Full Name
+Alberta Landmark National Park\nNational Park Tourism Attraction For Country\nCountry Located In Continent\nContinent Area
+South Australia Borders On Monarch\nMonarch Successor Monarch\nMonarch Located In Country\nCountry Area km²
+William IV Successor Monarch\nMonarch Successor Monarch\nMonarch Reign End
+ACT New Zealand Political Party Of Country\nCountry Has Currency Currency\nCurrency Used In Market economy\nMarket economy Tax System
+Climate Change Contributes To EnvironmentalIssue\nEnvironmentalIssue Studied By Scientific discipline\nScientific discipline Studied By Science\nScience Related To
+Sacramento River Used For Renewable energy\nRenewable energy Influenced By Fundamental force\nFundamental force Related To
+Burgundy Influenced Cuisine\nCuisine Uses Ingredient Dairy product\nDairy product Related To Agricultural practice\nAgricultural practice Product
+Royal Albatross Centre Supports Charity\nCharity Located In Country\nCountry Type
+Oceanographer Studies Phenomenon Water movement\nWater movement Affects Biodiversity\nBiodiversity Part Of Closed ecological system\nClosed ecological system Research Area
+Community  TV series  Country Of Origin Country\nCountry Influenced By Revolution\nRevolution Influenced Revolution\nRevolution Type
+Sensory Science Used In Field of study\nField of study Developed By Mammal\nMammal Parent Of Mammal\nMammal Class
+Franz Josef  glacier  Located In Island\nIsland Located In Ocean\nOcean Location
+West Coast  United States  Located In Country\nCountry Influenced By Revolution\nRevolution Location
+Fishing rod Related To Leisure activity\nLeisure activity Requires Tool\nTool Weight
+Lake Wānaka Influenced By Geological Process\nGeological Process Affects Physical Quantity\nPhysical Quantity Reference Datum
+River Bannoch Located In Country\nCountry Has Capital City\nCity Population
+Formosan languages Has Language Family LanguageFamily\nLanguageFamily Has Subclass LanguageFamily\nLanguageFamily Has Language Family LanguageFamily\nLanguageFamily Typology
+Takitimu Mountains Located In Country\nCountry Has Neighbour Country\nCountry Type
+Melbourne Part Of Country\nCountry Located In Planet\nPlanet Orbits Star\nStar Luminosity
+Kiapoi Harbour Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Formed
+Pauline Metallic Instance Of Mammal\nMammal Parent Of Mammal\nMammal Communicates With Mammal\nMammal Height
+Mediterranean Sea Connected To Sea\nSea Part Of Ocean\nOcean Flows Into Sea\nSea Area
+Proto-Austronesian Geographic Distribution Migration\nMigration Influenced Culture\nCulture Origin
+Seed  plant  Part Of Living organism\nLiving organism Interacts With Living organism\nLiving organism Feeds On Living organism\nLiving organism Mode Of Nutrition
+European Americans Related To Imperialism\nImperialism Affected Continent\nContinent Area
+South American Plate Subducts Under Tectonic Plate\nTectonic Plate Borders Tectonic Plate\nTectonic Plate Movement
+Resource Used In Manufacturing, Agriculture, Services\nManufacturing, Agriculture, Services Related To Industry\nIndustry Scale
+Genealogy Related To Social science\nSocial science Part Of Collective\nCollective Study Field
+TCL Chinese Theatre Located In Neighborhood\nNeighborhood Part Of City\nCity Latitude
+Aleutian Islands Part Of Country\nCountry Located In Planet\nPlanet Supports Biological process\nBiological process Level Of Organization
+Communication Has Medium Formal system\nFormal system Used By Mammal\nMammal Parent Of Mammal\nMammal Family
+Murihikisō Natural Habitat Country\nCountry Has Neighbor Country\nCountry Economic Partner Of Country\nCountry Largest City
+N  T  Rama Rao Family Influenced By Dharma\nDharma Influenced Religion\nReligion Deity
+Fertility Rate Related To Demographic\nDemographic Measurement Type
+All Blacks Sport Team sport\nTeam sport Number Of Players
+Lake Wakatipu Near Mountain\nMountain Adjacent To Lake\nLake Area
+Hawaiian Pantheon Influenced Polytheistic religion\nPolytheistic religion Influenced Culture\nCulture Traditional Food
+Wilkes Land Part Of International treaty\nInternational treaty Signed By Country\nCountry Official Languages
+Tokomairiro Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Founded By Military alliance\nMilitary alliance Major Members
+Highland Clearances Influenced Population\nPopulation Influenced By Culture\nCulture Has Traditional Music MusicGenre\nMusicGenre Instruments
+Timber Impacts Place\nPlace Impacts LivingOrganism\nLivingOrganism Promoted By
+Battle of Prestonpans Followed By Battle\nBattle Commander Of Royal\nRoyal Birth Date
+Soil Science Field Of Applied science\nApplied science Subclass Of Industry\nIndustry Part Of Social science\nSocial science Historical Development
+Marine Biodiversity Supports Primary sector\nPrimary sector Threatens LivingThing\nLivingThing Definition
+Philippines Located In Continent\nContinent Part Of Planet\nPlanet Distance From Sun
+Bedford Located In Country\nCountry Has Language Language\nLanguage Type
+Edinburgh Napier University Located In City\nCity Influenced IntellectualMovement\nIntellectualMovement Associated With Philosopher\nPhilosopher Birth Place
+Wave action Related To Physical phenomenon\nPhysical phenomenon Wavelength
+Newcastle upon Tyne Located In Country\nCountry Borders With Country\nCountry Located In Country\nCountry Sovereign
+Scotland Has Monarch Monarch\nMonarch Predecessor Of Monarch\nMonarch Type
+Pacific Ocean Contains Oceanic Trench\nOceanic Trench Part Of Ocean\nOcean Temperature
+English settlement of North America Influenced By Language\nLanguage Hasvariant Language\nLanguage Family
+Otorohanga District Tourism Attraction Cave system\nCave system Part Of Region\nRegion Region Established
+Newcastle upon Tyne Located In Country\nCountry Borders With Country\nCountry Official Language
+Scottish Premiership Located In Country\nCountry Member Of Political association\nPolitical association Head
+Te Ataarōra Visible From Planet\nPlanet Orbits Star\nStar Luminosity
+Stabilizer  chemical  Used For Macromolecule\nMacromolecule Classification
+Mathematics Used In Discipline\nDiscipline Has Part Systematic investigation\nSystematic investigation Purpose
+Berwickshire Influenced By Empire\nEmpire Located In Continent\nContinent Influenced By Trade route\nTrade route Decline Reason
+Nepal Has Neighbor Country\nCountry Has Neighbor Country\nCountry Geographic Region
+State Highway 1  New Zealand  Crosses Island\nIsland Influenced By Culture\nCulture Traditional Performance
+War of the Austrian Succession Participant Country\nCountry Has Border With Country\nCountry Influenced By Empire\nEmpire Government
+Pinot Grigio Food Pairing Aquatic animals\nAquatic animals Found In Saltwater\nSaltwater Part Of Planet\nPlanet Distance From Sun
+Marine Conservation Part Of LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Status
+Pacific Mythology Includes Oral tradition\nOral tradition Features God\nGod Worshipped By Ethnic group\nEthnic group Governance
+Port  maritime  Related To Industry\nIndustry Facilitates Economic Activity\nEconomic Activity Driver
+Psychology Field Of Academic discipline\nAcademic discipline Has Field Academic discipline\nAcademic discipline Focus
+Mount Cook Instance Of Geological Feature\nGeological Feature Supports Ecological system\nEcological system Components
+Canadian Forces Base Halifax Located In Municipal Government\nMunicipal Government Governed By Municipal Council\nMunicipal Council Elected By Municipal Government\nMunicipal Government Official Language
+Edinburgh Has Neighbour City\nCity Is Capital Of Local authority\nLocal authority Responsible For
+Sacramento River Provides Water To Industry\nIndustry Uses Chemical Compound\nChemical Compound Used In Industry\nIndustry Primary Goal
+Treaty Governed By Legal System\nLegal System Governed By Intergovernmental\nIntergovernmental Headquarters Location
+Environmentalism Motivated By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Related Concept
+International Monetary Fund Influences System\nSystem Regulated By Specialized agency\nSpecialized agency Membership
+Federation of Australia Involved In War\nWar Took Place In Continent\nContinent Borders Continent\nContinent Geography
+Aberdeen Part Of Country\nCountry Has Capital City\nCity Festival Festival\nFestival Year Founded
+Main Trunk Line Connects City\nCity Part Of Island\nIsland Has River River\nRiver Discharge
+Wine Aroma Wheel Used In Sensory Evaluation\nSensory Evaluation Training Institution Educational organization\nEducational organization Type
+National Science Foundation Part Of Federal Government\nFederal Government Member Of Organization\nOrganization Power
+Otago Provincial Buildings Influenced By ArchitecturalStyle\nArchitecturalStyle Influenced By ArchitecturalStyle\nArchitecturalStyle Style Of
+Tannin Affects Biomolecule\nBiomolecule Interacts With Biomolecule\nBiomolecule Building Block
+Subduction Forms Geological feature\nGeological feature Example Of Oceanic Trench\nOceanic Trench Shape
+OECD Member Country Country\nCountry Borders With Country\nCountry Influenced By Empire\nEmpire System Of Law
+African Culture Located In Continent\nContinent Influenced By Imperialism\nImperialism Scale
+Levi s Stadium Has Owner American football team\nAmerican football team Championship American football championship\nAmerican football championship Part Of Professional sports league\nProfessional sports league Established
+Wales Member Of Political union\nPolitical union Has Member Country\nCountry National Anthem
+Seed Results In Living organism\nLiving organism Interacts With Living organism\nLiving organism Feeds On Living organism\nLiving organism Cell Type
+State Highway 1  New Zealand  Connects City\nCity Economic Sector Industry\nIndustry Part Of Social science\nSocial science System Type
+Native Americans Part Of Q4322\nQ4322 Has Right LegalRight\nLegalRight Monitoring Body
+Bordeaux Produces Wine region\nWine region Influenced By Empire\nEmpire Located In Continent\nContinent Continent
+Indonesia Influenced By Religion\nReligion Sacred Text
+Marae Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Official Language
+19th Century Involved Former empire\nFormer empire Preceded Empire\nEmpire Located In Continent\nContinent Longest River
+Stabilizer  chemical  Used For Macromolecule\nMacromolecule Discovery Date
+Financial Market Influenced By Regulation\nRegulation Supports Service\nService Accountability
+Botany Related To Scientific discipline\nScientific discipline Affects Environmental Issue\nEnvironmental Issue Primary Driver
+James Hislop Country Of Citizenship Country\nCountry Borders Country Country\nCountry Influenced By Empire\nEmpire Area km²
+Sediment Composed Of Solid\nSolid Found In Mineral Aggregate\nMineral Aggregate Texture
+Matara Part Of Country\nCountry Member Of Political association\nPolitical association Instance Of
+Globalization Caused By Process\nProcess Drives Process\nProcess Impacts QuantitativeMeasure\nQuantitativeMeasure Affected By
+Free Market Economy Fosters Process\nProcess Linked To Activity\nActivity Subclass Of Process\nProcess Risk
+Santa Clara  California Industry Field of study\nField of study Developed By Academic discipline\nAcademic discipline Used In Field of study\nField of study Subfield
+Education in New Zealand Part Of Country\nCountry Located In Continent\nContinent Contains Country\nCountry Official Languages
+Territory Governed By Organization\nOrganization Regulates Social science\nSocial science Scale
+Joseph P  Kennedy Sr  Spouse Of Politician\nPolitician Instance Of Mammal\nMammal Communicates With Mammal\nMammal Type
+Food Security Affected By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Threats
+Innovation Influenced By Field of study\nField of study Has Property Process\nProcess Stage
+Subduction Forms Geological feature\nGeological feature Studied By Scientific discipline\nScientific discipline Studied By Science\nScience Uses Method
+British Royal Family Located In Country\nCountry Influenced By Empire\nEmpire System Of Law
+Super Rugby Country Of Origin Country\nCountry Has Official Language Language\nLanguage Type
+Alexander McArthur Occupation Occupation\nOccupation Occupation Occupation\nOccupation Occupation Occupation\nOccupation Education
+Ian McKellen Instance Of Mammal\nMammal Parent Of Mammal\nMammal Parent Of Mammal\nMammal Class
+Sri Lanka Journal of Tropical Medicine Publication Location Country\nCountry Member Of Political association\nPolitical association Influenced Historical process\nHistorical process Resistance Methods
+English settlement of North America Caused Revolution\nRevolution Influenced Revolution\nRevolution Location
+Kumburupone Economy Based On Industry\nIndustry Part Of Social science\nSocial science Influencedby Organization\nOrganization Accountability
+Barry Taylor  cricketer  Country Of Citizenship Country\nCountry Has Capital City\nCity Area km²
+National Football League Related To Event American football championship\nAmerican football championship Part Of Professional sports league\nProfessional sports league Governing Body
+Franklin District Council Part Of Local Government\nLocal Government Reports To Parliamentary system\nParliamentary system Governs Country\nCountry Continent
+Federated States of Micronesia Member Of Intergovernmental Organization\nIntergovernmental Organization Member Country Country\nCountry Currency
+Endangered species Affected By Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Cause
+Animal Husbandry Instance Of Industry\nIndustry Produces Substance\nSubstance Origin
+Tourist Uses Infrastructure\nInfrastructure Supports Voluntary exchange\nVoluntary exchange Related To Process\nProcess Origin
+Otago Provincial Buildings Located In Region\nRegion Has Mountain Mountain\nMountain Type
+Queenstown Skyline Forms Part Of Region\nRegion Has Mountain Mountain\nMountain Located In NationalPark\nNationalPark Elevation
+Southland District Council Located In AdministrativeDivision\nAdministrativeDivision Contains City City\nCity Mayor
+168 Divisible By Number\nNumber Follows Number\nNumber Successor
+Gouais Blanc Related To Grape variety\nGrape variety Wine Grape Family Plant\nPlant Has Variety Grape variety\nGrape variety Origin
+All Blacks Sport Team sport\nTeam sport Type
+Tonga Part Of Region\nRegion Includes Country\nCountry Official Languages
+Food Security Part Of Framework\nFramework Addresses Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Primary Effect
+Kosrae Located In IslandNation\nIslandNation Located In Ocean\nOcean Salinity
+Whānau Values Concept\nConcept Concept Type
+Maritime Law Related To Economic Activity\nEconomic Activity Involves Business Process\nBusiness Process Goal
+British Empire Ruled Country\nCountry Has Neighbor Country\nCountry GDP Nominal
+Inflation Reduction Act Impacts Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Definition
+Legend of Peggy Adapted From Animated series\nAnimated series Number Of Episodes
+Infrastructure Impacts Discipline\nDiscipline Influences Infrastructure\nInfrastructure Historical Development
+Angiosperms Has Part Plant Part\nPlant Part Example Of Fruit\nFruit Grown In Country\nCountry Population
+Psychology Field Of Academic discipline\nAcademic discipline Used In Field of study\nField of study Part Of Collective\nCollective Characteristic
+N A Used In Process\nProcess Has Field Mathematical discipline\nMathematical discipline Tool
+Aberdeen Part Of Country\nCountry Has Monarch Monarch\nMonarch Educated At Boarding school\nBoarding school Age Range
+North Island Contains City\nCity Has Sport Team Rugby team\nRugby team Founded By SportsOrganization\nSportsOrganization Type
+Taieri railway line Connects To City\nCity Part Of Country\nCountry Currency
+Immigration Related To Legal status\nLegal status Subject Of Legal System\nLegal System Purpose
+Scottish Borders Borders Council Area\nCouncil Area Borders Council Area\nCouncil Area Council Headquarters
+Deep South Located In Country\nCountry Influenced By Revolution\nRevolution Significant Figure
+Brisbane Part Of Country\nCountry Has Capital City\nCity Part Of Country\nCountry National Symbol
+Transcontinental Railroad Built By Worker\nWorker Worked In Country\nCountry Located In Planet\nPlanet Orbital Period
+Lakota People Located In Continent\nContinent Borders Ocean\nOcean Contains
+Resource depletion Related To Ecological threshold\nEcological threshold Impacts LivingThing\nLivingThing Measurement
+Wool Part Of Industry\nIndustry Produces Textile\nTextile Purpose
+Beach Morphology Affected By Physical Quantity\nPhysical Quantity Impacts Geological Process\nGeological Process Related To Geophysical process\nGeophysical process Driving Force
+Motu Oire Part Of Archipelago\nArchipelago Influenced By Culture\nCulture Influenced Culture\nCulture Art Form
+Italian Cuisine Origin Country Country\nCountry Located In Continent\nContinent Lowest Point
+Aves Taxon Living organism\nLiving organism Feeds On Living organism\nLiving organism Part Of Ecological system\nEcological system Definition
+Kimono Made From Textile\nTextile Produced By Fabric creation\nFabric creation Type
+Immigration Law Influenced By Legal System\nLegal System Deals With LegalRight\nLegalRight Related To Government\nGovernment Definition
+Tropical medicine Subclass Of Field of study\nField of study Branch Of
+Marine Reptiles Threatened By Contamination\nContamination Related To Process\nProcess Measurement
+Spain Member Of Intergovernmental\nIntergovernmental Member State Country\nCountry Area
+Tokelauan language Influenced By Language\nLanguage Part Of LanguageFamily\nLanguageFamily Typology
+New Zealand falcon Interacts With Bird\nBird Instance Of Animal\nAnimal Phylum
+Dietary Fiber Part Of Nutritional Plan\nNutritional Plan Related To Substance\nSubstance Provides To Mammal\nMammal Type
+Marine  biology  Employs Process\nProcess Used In Process\nProcess Type
+Clast Formed In Rock type\nRock type Erosion Leads To Geological material\nGeological material Composed Of Solid\nSolid Luster
+Resource depletion Impacts EnvironmentalIssue\nEnvironmentalIssue Affects Concept\nConcept Definition
+Pacific Plate Borders Tectonic Plate\nTectonic Plate Adjacent To Tectonic Plate\nTectonic Plate Borders Tectonic Plate\nTectonic Plate Subduction Zones
+Mexican Land Grants Preceded By Land grant\nLand grant Recipient Is Q4322\nQ4322 Has Language Formal system\nFormal system Evolution
+Soil Science Field Of Applied science\nApplied science Field Of Scientific discipline\nScientific discipline Field Of Applied science\nApplied science Application
+Tectonic Activity Affects Geosphere\nGeosphere Affected By Scientific Theory\nScientific Theory Description
+European Powers Led To Political union\nPolitical union Located In Continent\nContinent Population
+Waiata Associated With Mountain\nMountain Located In Country\nCountry Part Of Planet\nPlanet Age
+North Island Adjacent To Island\nIsland Contains National Park\nNational Park Biodiversity
+Refugee Instance Of Mammal\nMammal Communicates With Mammal\nMammal Type
+American Culture Influenced By Culture\nCulture Part Of CulturalConcept\nCulturalConcept Impacts Collective\nCollective Structure
+American West Shaped By Legislation\nLegislation Land Size
+United Nations Security Council Has Member Country\nCountry Part Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Purpose
+Micronesia Member Of Intergovernmental\nIntergovernmental Founded By Military alliance\nMilitary alliance Includes Country\nCountry Area km²
+South Pacific Ocean Located In Planet\nPlanet Studied By Science\nScience Key Concept
+Marine Biodiversity Supports Primary sector\nPrimary sector Related To Agricultural practice\nAgricultural practice Located In Saltwater\nSaltwater Covers
+Poems of Robert Burns Influenced MusicGenre\nMusicGenre Associated With Culture\nCulture Type
+Paleocene Epoch Preceded By GeologicalPeriod\nGeologicalPeriod Related To Concept Scientific Theory\nScientific Theory Scale
+Balclutha Preserved At City\nCity Capital Of AdministrativeRegion\nAdministrativeRegion Type
+Operation Nest Egg Location Of Island\nIsland Contains City\nCity Part Of Island\nIsland Geological Feature
+Southland Rugby Football Union Instance Of Team sport\nTeam sport Equipment
+Milk Related To Agricultural practice\nAgricultural practice Impacts Place\nPlace Includes
+New Zealand Rugby Football Union Country Country\nCountry Has Neighbour Country\nCountry Area km²
+Mary  Queen of Scots Rdfs:label Country\nCountry Borders With Country\nCountry Part Of
+Apteryx Habitat Country\nCountry Part Of Planet\nPlanet Rotation Period
+Mi kmaq Located In Country\nCountry Influenced By Former empire\nFormer empire Peak Population
+Dietary Fiber Part Of Nutritional Plan\nNutritional Plan Related To Substance\nSubstance Contains
+Sensory Science Related To Social science\nSocial science Field Of Academic discipline\nAcademic discipline Has Field Science\nScience Notation
+Fisheries Regulates Subsistence & Sport\nSubsistence & Sport Related To Agricultural practice\nAgricultural practice Impacts Biome\nBiome Primary Producers
+Otago Regional Council Located In Country\nCountry Has Currency Currency\nCurrency Decimal Places
+Appalachia Affected By EconomicCrisis\nEconomicCrisis Affected Country\nCountry Currency
+Kimono Made From Textile\nTextile Instance Of Material\nMaterial Historical Significance
+Canadian Multiculturalism Related To Process\nProcess Source Countries Country\nCountry Population
+South Pacific Ocean Adjacent To Country\nCountry Located In Continent\nContinent Smallest Country
+Enology Used In Sensory Evaluation\nSensory Evaluation Training Institution Educational organization\nEducational organization Acronym Stands For
+Dance Associated With Garment\nGarment Made Of Textile\nTextile Pattern
+California State Route 1 Influenced Tourism In AdministrativeRegion\nAdministrativeRegion Borders AdministrativeDivision\nAdministrativeDivision Borders AdministrativeDivision\nAdministrativeDivision Type
+Victoria Glacier Tributary Of Ocean\nOcean Currents Ocean Current\nOcean Current Origin
+Farm Employs Occupation\nOccupation Dependent On Atmospheric phenomenon\nAtmospheric phenomenon Causes
+Yarra River Located In Monarch\nMonarch Spouse Monarch\nMonarch Educated At University\nUniversity Vice Chancellor
+Apple Grown In Country\nCountry Economic Partner Country\nCountry Area
+Ofa Tu ungafasi Instance Of Mammal\nMammal Parent Of Mammal\nMammal Parent Of Mammal\nMammal Family
+National Oceanic and Atmospheric Administration Partof Federal Government\nFederal Government Governs Country\nCountry Member Of Intergovernmental\nIntergovernmental Seal Design
+Meat Impacts Place\nPlace Has Property Weather phenomenon\nWeather phenomenon Part Of Planet\nPlanet Diameter
+The Remarkables Adjacent To Mountain\nMountain Overlooks Lake\nLake Location
+Southern Uplands River Flows Through River\nRiver Flows Through Council Area\nCouncil Area Council Headquarters
+North Pacific Current Affects Weather phenomenon\nWeather phenomenon Influences LivingThing\nLivingThing Importance
+Wayfinding Part Of Discipline\nDiscipline Governedby Organization\nOrganization Regulates Social science\nSocial science Type
+Roman Catholicism Has Sacred Text Religious text\nReligious text Influenced Culture\nCulture Dominant Religion
+Government Foreign Affairs Responsible For International law\nInternational law Subject Of Academic discipline\nAcademic discipline Related To Legal System\nLegal System Type
+NFC West Subdivision Of Professional sports league\nProfessional sports league Related To Event American football championship\nAmerican football championship Part Of Professional sports league\nProfessional sports league Teams
+Berwickshire Part Of Council Area\nCouncil Area River Flows Through River\nRiver Type
+Protein Interacts With Biomolecule\nBiomolecule Building Block
+Volcanic rock Related To Rock type\nRock type Contains Geological material\nGeological material Weathered From Mineral Aggregate\nMineral Aggregate Type
+Global Cinema Has Genre Performing art\nPerforming art Related To
+Cameroon Has Border With Human\nHuman Instance Of Mammal\nMammal Average Lifespan
+Coates Cup Location State\nState Borders State\nState Official Language
+Taiwan Located In Continent\nContinent Borders Continent\nContinent Area
+Bible Influenced Culture\nCulture Developed In Continent\nContinent Has Economic Union Political union\nPolitical union Predecessor
+Schooner Viola Operates In Ocean\nOcean Flows Into Sea\nSea Biodiversity
+Great Depression Affected Country\nCountry Member Of Intergovernmental\nIntergovernmental Official Language
+Golden Gate Bridge Connects County\nCounty Located In Metropolitan area\nMetropolitan area Economy Type
+SkyCity Located In City\nCity Has Neighbour Local government area\nLocal government area Located In Island\nIsland Highest Point
+Environmental degradation Causes Contamination\nContamination Affects LivingOrganism\nLivingOrganism Requires
+Bird Instance Of Living organism\nLiving organism Feeds On Living organism\nLiving organism Major Groups
+Naples Part Of Country\nCountry Borders Country Country\nCountry Related To Revolution\nRevolution Location
+Western Music Subclass Of Music genre\nMusic genre Subclass Of Auditory art\nAuditory art Is A Creative activity\nCreative activity Purpose
+Early Colonial Transport Subject Of LegalSystem\nLegalSystem Related To Economic Activity\nEconomic Activity Driver
+Goat Eats Herbaceous\nHerbaceous Pollinated By Atmospheric phenomenon\nAtmospheric phenomenon Global Patterns
+Tangata whenua Has Ancestor Ethnic group\nEthnic group Located In Ocean\nOcean Largest
+Trade Route Facilitates Process\nProcess Caused By Process\nProcess Example
+Geopolitics Part Of Academic discipline\nAcademic discipline Governed By Intergovernmental\nIntergovernmental Secretary General
+Marine Reptiles Threatened By Contamination\nContamination Causes Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Type
+Tide Caused By Star\nStar Supports Life On Planet\nPlanet Supports Biological process\nBiological process Domain
+Dunedin Founded By PopulatedPlace\nPopulatedPlace Settled In Country\nCountry Official Languages
+Aroa River Located In Country\nCountry Has Capital City\nCity Capital Of Country\nCountry Government Type
+Moeaki Boulders Composed Of Sedimentary rock\nSedimentary rock Contains Software library\nSoftware library License
+7 Is Predecessor Of Number\nNumber Predecessor Number\nNumber Prime Number
+1715 Jacobite Rebellion Involved In Battle\nBattle Commander Of Royal\nRoyal Death Date
+Lake Heron  New Zealand  Tributary To River\nRiver Flows Past NationalPark\nNationalPark Has Ecosystem Ecosystem\nEcosystem Precipitation
+Golden Spike Ceremony Part Of Railroad\nRailroad Influenced HistoricalEvent\nHistoricalEvent Legal Framework
+Local Government Responsiblefor Physical & Digital\nPhysical & Digital Impacts Discipline\nDiscipline Focus
+Prince Harry  Duke of Sussex Child Of Monarch\nMonarch Educated At Boarding school\nBoarding school Gender
+Halifax Regional Council Elected By Municipal Government\nMunicipal Government Governed By Municipal Council\nMunicipal Council Election Frequency
+Westland District Contains Town\nTown Has Attraction Geological Formation\nGeological Formation Accessibility
+Latin America Has Region Mountain range\nMountain range Adjacent To Ocean\nOcean Borders Continent\nContinent Climate
+Sahara Desert Located In Continent\nContinent Located In Planet\nPlanet Magnetic Field Plasma\nPlasma Protects From
+Scottish Culture Has Traditional Music MusicGenre\nMusicGenre Influenced By MusicGenre\nMusicGenre Has Genre Music\nMusic Genre
+Seattle Has Sport Team American football team\nAmerican football team Part Of Professional sports league\nProfessional sports league Type
+World Economy Governed By Intergovernmental organization\nIntergovernmental organization Regulates Economic Activity\nEconomic Activity Requires Infrastructure\nInfrastructure Instance Of
+Knitting Used In Textile\nTextile Designed By Occupation\nOccupation Instance Of Mammal\nMammal Height
+Paleontologist Collaborates With Profession\nProfession Studies Solid\nSolid Has Application Field of study\nField of study Scope
+Oreti Beach Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Member State Country\nCountry Largest City
+Geology Study Geosphere\nGeosphere Affected By Scientific Theory\nScientific Theory Time Scale
+Golden Age of Hollywood Period TimePeriod\nTimePeriod Preceded By HistoricalPeriod\nHistoricalPeriod Geological Epoch
+Fish fossils Found In Rock type\nRock type Contains Body or trace\nBody or trace Found In Rock Body\nRock Body Instance Of
+Consumerism Fosters Business strategy\nBusiness strategy Influences Business function\nBusiness function Influenced By SocialScience\nSocialScience Models
+Coastal Located In AdministrativeRegion\nAdministrativeRegion Part Of Continent\nContinent Located In Continent\nContinent Location
+Prince Albert Educated At University\nUniversity Member Of Higher education association\nHigher education association Focus
+Social Media Influences Business function\nBusiness function Has Subclass Transaction\nTransaction Primary Goal
+Halifax Harbour Connected To Region\nRegion Adjacent To Country\nCountry Influenced By Revolution\nRevolution Cause
+Canterbury Region River Flows Through River\nRiver Influenced By Mountain range\nMountain range Part Of Country\nCountry Continent
+Zooplankton Genre Performing art\nPerforming art Audience
+Council of Europe Works With Intergovernmental\nIntergovernmental Member State Country\nCountry Economic Partner Country\nCountry Population
+Uintatherium Instance Of Class (biology)\nClass (biology) Feeds On Substance\nSubstance Instance Of
+Southland  TV series  Country Of Origin Country\nCountry Located In Planet\nPlanet Supports Biological process\nBiological process Origin
+The Reluctant Fundamentalist Subject Religion\nReligion Major Branch
+John A  Macdonald Country Of Citizenship Country\nCountry Borders Country\nCountry GDP Nominal
+10-kilometer run Training For Athletic event\nAthletic event Athlete Participates In Road race\nRoad race Related To Athletic event\nAthletic event Surface
+Westland  Netherlands  Economic Activity Industry\nIndustry Impacts Place\nPlace Component
+Indonesia Influenced By Religion\nReligion Origin
+British Monarch Located In Country\nCountry Located In Continent\nContinent Climate
+Hip Hop Music Associated With Artwork\nArtwork Associated With SocialGroup\nSocialGroup Part Of Collective\nCollective Definition
+Gore District Adjacent To Local government area\nLocal government area Governed By Local government\nLocal government Country
+Lake Matheson Influenced By Mountain range\nMountain range Provides Water To River\nRiver Length
+Fossil Coast Contains Fossil\nFossil Related To Biodiversity\nBiodiversity Part Of Closed ecological system\nClosed ecological system Status
+Genealogy Related To Social science\nSocial science Related To Social science\nSocial science Subfield Of
+Pinot Noir Wine Style Beverage\nBeverage Produced In Country\nCountry Area
+Franklin District Council Located In Region\nRegion Adjacent To Region\nRegion Population 2023
+Seamount Located In Ocean\nOcean Adjacent To Continent\nContinent Continent
+Confederate States of America Located In Continent\nContinent Contains Country\nCountry Capital
+Statute of Westminster 1931 Part Of Political, Economic, and Cultural Association\nPolitical, Economic, and Cultural Association Head Of State Monarch\nMonarch Type
+Merino Originates From Country\nCountry Has Border With Country\nCountry Has Border With Country\nCountry Currency
+Wildlife Conservation Aims To Protect Taxon\nTaxon Causes EnvironmentalIssue\nEnvironmentalIssue Exacerbated By Contamination\nContamination Impact
+Milky Way Contains Star System\nStar System Orbits Star\nStar Core Temperature
+Tuamotu Archipelago Governed By Territory\nTerritory Economy Based On Industry\nIndustry Part Of Social science\nSocial science Historical Development
+Double-hulled canoe Ancestor Of Watercraft\nWatercraft Associated With Continent\nContinent Borders Continent\nContinent Economic Status
+Nepal Has Neighbor Country\nCountry Located In Continent\nContinent Located In Planet\nPlanet Atmosphere
+Burn Water Studied By Scientist\nScientist Country Of Citizenship Country\nCountry Member Of Intergovernmental\nIntergovernmental Predecessor
+Fish fossils Found In Rock type\nRock type Weathered Into Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Supports Ecological system\nEcological system Study Field
+5 km run Part Of Athletic event\nAthletic event Athlete Participates In Road race\nRoad race Related To Athletic event\nAthletic event Governing Body
+Artificial Intelligence Developed By Mammal\nMammal Communicates With Mammal\nMammal Average Lifespan
+Brewing Part Of Organization\nOrganization Provides To Industry\nIndustry Geographic Scope
+Eiffel Tower Part Of Country\nCountry Influenced By Empire\nEmpire Largest Empire
+Sir Walter Scott Instance Of Mammal\nMammal Communicates With Mammal\nMammal Communicates With Mammal\nMammal Mass
+Amazon River Flows Through Country\nCountry Influenced By Country\nCountry Part Of Political union\nPolitical union Member States
+Darwin Glacier Influenced By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Instance Of Biological process\nBiological process Level Of Organization
+John A  Macdonald Country Of Citizenship Country\nCountry Part Of Intergovernmental\nIntergovernmental Instance Of
+Rangitoto Near Island\nIsland Near City\nCity Has Landmark Park\nPark Type
+Deep South Has Geography Geomorphological Feature\nGeomorphological Feature Adjacent To Saltwater\nSaltwater Temperature
+Witwatersrand Located In Country\nCountry Located In Continent\nContinent Geography
+Federated States of Micronesia Part Of Continent\nContinent Influenced By PopulationGroup\nPopulationGroup Related To LanguageFamily\nLanguageFamily Language Family
+Oceanic art Originates From Continent\nContinent Has Region Region\nRegion Population
+Renaissance Influenced ArtisticMovement\nArtisticMovement Associated With Place Country\nCountry Member Of Political\nPolitical Successor To
+Food Supply Affected By Weather phenomenon\nWeather phenomenon Influences Physical Quantity\nPhysical Quantity Affected By
+Earns Law Burn Contains Chemical Compound\nChemical Compound Studied By Scientist\nScientist Country Of Citizenship Country\nCountry Sovereignty
+Sahara Desert Adjacent To Country\nCountry Borders Human\nHuman Instance Of Mammal\nMammal Phylum
+Zwingli Palace Building Style ArchitecturalStyle\nArchitecturalStyle Influenced ArchitecturalStyle\nArchitecturalStyle Geographic Spread
+Cretaceous Period Followed By GeologicalPeriod\nGeologicalPeriod Contains Epoch GeologicalPeriod\nGeologicalPeriod Preceded By GeologicalPeriod\nGeologicalPeriod Start Date
+Global Carbon Cycle Impacts Closed ecological system\nClosed ecological system Instance Of
+William IV Successor Monarch\nMonarch Spouse Monarch\nMonarch Title
+Scotland Has Capital City\nCity Part Of Country\nCountry Has Monarch Monarch\nMonarch Education
+Soil Science Impacts Interdisciplinary field\nInterdisciplinary field Field Of Study Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Measurement Unit
+Irrigation Used In Industry\nIndustry Requires Fluid\nFluid Found In Saltwater\nSaltwater Temperature
+Sheep Farming Impacts Ecological system\nEcological system Affected By Weather phenomenon\nWeather phenomenon Part Of Planet\nPlanet Rotation Period
+Leather Goods Used By Industry\nIndustry Related To Textile\nTextile Designed By Occupation\nOccupation Field
+Pohnpei Located In IslandNation\nIslandNation Member Of Intergovernmental\nIntergovernmental Succeeded International Organization\nInternational Organization Predecessor
+Northern Royal Albatross Feeds On Vertebrate\nVertebrate Eats Plankton\nPlankton Distribution
+Papua New Guinea Has Neighbor Country\nCountry Influenced By Religion\nReligion Type
+Tropical Climate Found In Continent\nContinent Borders Ocean\nOcean Geological Age
+2 Is Factor Of Number\nNumber Predecessor Number\nNumber Mathematical Constant
+Sri Lanka Has Neighbor Country\nCountry Member Of Intergovernmental\nIntergovernmental Predecessor
+Inflation Reduction Act Impacts Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Type
+Dietary Fiber Reduces Risk Of Disease\nDisease Icd10 Code
+Sri Lanka Journal of Tropical Medicine Part Of Field Field of study\nField of study Definition
+Kererū Instance Of Animal\nAnimal Controlled By Ecological system\nEcological system Scale
+Urban Sprawl Impacts EconomicArea\nEconomicArea Influencedby Organization\nOrganization Power
+Auckland Blues Country Country\nCountry Has Neighbour Country\nCountry Has Official Language Language\nLanguage Family
+Scottish Folk Music Originates From Country\nCountry Part Of Country\nCountry Currency
+Restaurant Part Of Organization\nOrganization Produces Substance\nSubstance Requires
+Irish Folk Music Originates From Country\nCountry Located In Continent\nContinent Influenced By Empire\nEmpire Founder
+Entrepreneurship Subclass Of Process\nProcess Drives Process\nProcess Caused By Process\nProcess Definition
+Roman Empire Located In Continent\nContinent Has Member State Country\nCountry Capital
+Golden Gate Park Adjacent To Ocean\nOcean Part Of Planet\nPlanet Has Satellite Space station\nSpace station Modules
+New Zealand Herald Coverage Area Country\nCountry Located In Continent\nContinent Smallest Country
+Supply Chain Relies On Infrastructure\nInfrastructure Impacts Place\nPlace Type
+English settlement of North America Influenced By Language\nLanguage Spokenin Country\nCountry Located In Continent\nContinent Climate
+Aquaculture Located In Saltwater\nSaltwater Adjacent To Landmass\nLandmass Climate Type
+Equatorial Current Affects Quantity\nQuantity Impacts Physical Quantity\nPhysical Quantity Impacts Geological Process\nGeological Process Type
+Mass Media Regulated By Organization\nOrganization Regulates Social science\nSocial science Field Of Study
+University of Edinburgh Affiliated With Public university\nPublic university Located In City\nCity Established
+Ethical Consumption Related To EconomicActivity\nEconomicActivity Drives Process\nProcess Impacts QuantitativeMeasure\nQuantitativeMeasure Type
+Vineyard Influenced By GeographicArea\nGeographicArea Characterized By Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Affected By Geological process\nGeological process Timeframe
+Super Bowl Part Of Professional sports league\nProfessional sports league Related To Event American football championship\nAmerican football championship Frequency
+New Zealand Transport System Impacts Market economy\nMarket economy Dependent On Industry\nIndustry Definition
+San Francisco 49ers Head Coach Athlete\nAthlete Type
+Sacramento River Provides Water To Industry\nIndustry Part Of Social science\nSocial science Influencedby Organization\nOrganization Authority
+20th Century Influenced By HistoricalPeriod\nHistoricalPeriod Preceded By Historical Period\nHistorical Period Key Innovation
+Western Europe Has Economic Union Political union\nPolitical union Has Member Country\nCountry Part Of Political union\nPolitical union Type
+Oceanic trench Studied By Scientific discipline\nScientific discipline Studied By Science\nScience Deals With Mineral Aggregate\nMineral Aggregate Texture
+International Trade Requires Infrastructure\nInfrastructure Affects Discipline\nDiscipline Governedby Organization\nOrganization Scope
+Scottish diaspora Maintains Connection With Country\nCountry Borders Country Country\nCountry Time Zone
+Fishing Regulations Overlaps With Practice\nPractice Aims To Protect Ecological system\nEcological system Scale
+Local Economy Dependson Industry\nIndustry Influenced By Organization\nOrganization Regulates Social science\nSocial science Scale
+Americas Borders Ocean\nOcean Currents Ocean current\nOcean current Flows Into Ocean Current\nOcean Current Location
+Eiffel Tower Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Works With Development Bank\nDevelopment Bank Membership
+Iwi Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Founded By Military alliance\nMilitary alliance Ideology
+Kingdom of Northumbria Part Of Country\nCountry Borders With Country\nCountry National Flower
+Tama River Tributary Of Ocean\nOcean Impacts Weather phenomenon\nWeather phenomenon Time Scale
+Solar System Contains Planet\nPlanet Tectonic Plates Geosphere\nGeosphere Affected By Scientific Theory\nScientific Theory Scale
+Edinburgh Castle Located In City\nCity Has Landmark Castle\nCastle Historical Period
+Ian McKellen Instance Of Mammal\nMammal Parent Of Mammal\nMammal Parent Of Mammal\nMammal Phylum
+Alberta Borders Province\nProvince Has Aboriginal People Indigenous peoples\nIndigenous peoples Location
+National Sovereignty Has Territory Area of land\nArea of land Resource Has Solid\nSolid Chemical Formula
+Baroque Architecture Influenced ArchitecturalStyle\nArchitecturalStyle Related To Historical Period\nHistorical Period Influenced ArtisticMovement\nArtisticMovement Key Composers
+Public Services Part Of Social science\nSocial science Relatedto Social science\nSocial science Involves
+Akaroa Near City\nCity River Flows Through River\nRiver Located In Country\nCountry Population
+Southeast Queensland Adjacent To State\nState Located In Country\nCountry Located In Planet\nPlanet Rotation Period
+Doubtful Sound Track Influenced By World Heritage Site\nWorld Heritage Site Country Country\nCountry Located In Continent\nContinent Currency
+Doubtful Sound Part Of NationalPark\nNationalPark Has Ecosystem Ecosystem\nEcosystem Type
+San Joaquin River Flows Past NationalPark\nNationalPark Part Of Mountain range\nMountain range Fauna Includes Mammal\nMammal Conservation Status
+Royal Albatross Found In Country\nCountry Part Of Planet\nPlanet Part Of Star System\nStar System Number Of Planets
+Skyline Enterprises Service Area Country\nCountry Has Capital City\nCity Part Of Island\nIsland Major City
+Black Sea Located In Continent\nContinent Member Of Political\nPolitical Member State Country\nCountry Official Language
+Early Colonial Transport Subject Of LegalSystem\nLegalSystem Related To Economic Activity\nEconomic Activity Governing Body
+Proto-Austronesian Geographic Distribution Migration\nMigration Language Family LanguageFamily\nLanguageFamily Part Of Migration\nMigration Primary Motivation
+Society Impacted By Field of study\nField of study Used For Process\nProcess Types
+Igbo people Part Of Country\nCountry Borders Country\nCountry Borders Country\nCountry Largest City
+Schooner Viola Related To Historical discipline\nHistorical discipline Related To Voluntary exchange\nVoluntary exchange Instance Of
+Automation Uses Field of study\nField of study Impacts Collective\nCollective Formation
+Brisbane River Located In State\nState Part Of Country\nCountry Located In Planet\nPlanet Surface Water
+Caribbean Sea Contains Country\nCountry Member Of Political association\nPolitical association Head
+IUCN Focuses On LivingThing\nLivingThing Instance Of Biological process\nBiological process Requires
+Endangered species Affected By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Related Concept
+River Tweed Supports Fish\nFish Part Of Ecological system\nEcological system Part Of Closed ecological system\nClosed ecological system Location
+Openness Characteristic Of Process\nProcess Has Medium Formal system\nFormal system Part Of Process\nProcess Elements
+Lake Wakatipu Near Mountain\nMountain Geology GeologicalPeriod\nGeologicalPeriod Succeeding Era
+Aitutaki Lagoon Part Of Country\nCountry Part Of Region\nRegion Includes Island\nIsland Currency
+Melanesia Has Flora Biome\nBiome Located In Continent\nContinent GDP Nominal
+Comstock Lode Discovered By Politician\nPolitician Instance Of Mammal\nMammal Mass
+Procellariiformes Taxonrank Bird order\nBird order Conservation Status
+William Schaw Instance Of Mammal\nMammal Parent Of Mammal\nMammal Type
+Eurasia Part Of Planet\nPlanet Has Satellite Space station\nSpace station Orbits Planet\nPlanet Diameter
+Master of Arts Related To Tertiary Education\nTertiary Education Funded By Organization\nOrganization Type
+Oenology Related To Science\nScience Instance Of Academic discipline\nAcademic discipline Peer Review
+Eurasian Plate Borders Tectonic Plate\nTectonic Plate Contains Country\nCountry Located In Planet\nPlanet Rotation Period
+Paleocene Eocene Thermal Maximum Part Of GeologicalPeriod\nGeologicalPeriod Contains Epoch GeologicalPeriod\nGeologicalPeriod Geological Era
+Technological Advancement Impacts Collective\nCollective Affected By Process\nProcess Related To Intergovernmental organization\nIntergovernmental organization Membership
+National Economy Interactswith Economic Activity\nEconomic Activity Involves Business Process\nBusiness Process Relies On Infrastructure\nInfrastructure Type
+Westward Expansion Resulted In Railroad\nRailroad Involved In Event\nEvent Part Of Railroad\nRailroad Length Km
+University of Warwick Member Of Higher education association\nHigher education association Hasmember University\nUniversity Type
+Marketing Uses Research\nResearch Has Topic SocialScience\nSocialScience Influenced By Social science\nSocial science Field Of Study
+Rococo Architecture Style Of ArchitecturalStyle\nArchitecturalStyle Located In Country\nCountry Land Border
+Heritage New Zealand Pouhere Taonga Collaborates With Tribal group\nTribal group Subclass Of Ethnic group\nEthnic group Has Art Visual Art\nVisual Art Origin
+Cattle Produces Food\nFood Processed Into Dairy product\nDairy product Paired With Fermented drink\nFermented drink Instance Of
+International Relations Governed By Intergovernmental\nIntergovernmental Works With Development Bank\nDevelopment Bank Collaborates With Specialized agency\nSpecialized agency Official Language
+South Island  New Zealand Adjacent To Region\nRegion Contains City\nCity Industry Industry\nIndustry Type
+Golden Gate Bridge Crosses Bay\nBay Tributary To River\nRiver Flow Rate
+Southern Europe Located In Continent\nContinent Borders Continent\nContinent Largest Country
+SkyCity Located In City\nCity Influenced By Culture\nCulture Type
+After Life  TV series  Language Language\nLanguage Spokenin Country\nCountry Borders Country\nCountry Capital
+Human Food Supply Impacted By Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Type
+Washington  state  Part Of Continent\nContinent Contains Country\nCountry Member Of Intergovernmental forum\nIntergovernmental forum Location Of Summit
+Conservation Related To LivingThing\nLivingThing Instance Of Biological process\nBiological process Level Of Organization
+Hawaiian religion Worships Hawaiian god\nHawaiian god Worshiped In Polytheistic religion\nPolytheistic religion Priests
+International Terminal Has Feature Government agency\nGovernment agency Administered By Organization\nOrganization Scope
+Western Literature Developed In Continent\nContinent Influenced By Empire\nEmpire Religion
+St  Louis Blues vs  Kansas City Chiefs Participates In Professional sports league\nProfessional sports league Related To Event American football championship\nAmerican football championship Location Type
+Lazio Historical Part Of Empire\nEmpire Located In Continent\nContinent Borders Continent\nContinent Continent
+Municipalities of Nova Scotia Affected By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Type
+Spinning  dance  Part Of Dance\nDance Instance Of Performing art\nPerforming art Related To Auditory art\nAuditory art Medium
+Marine Invertebrates Prey For Vertebrate\nVertebrate Eats Plankton\nPlankton Life Cycle
+Otago Provincial Buildings Located In Region\nRegion Contains City\nCity Longitude
+Global Cinema Has Genre Performing art\nPerforming art Instance Of
+NGN  telecommunications  Service Area Country\nCountry Part Of Intergovernmental\nIntergovernmental Secretary General
+Legend of Peggy Adapted From Animated series\nAnimated series Type
+Māori People Related To Treaty\nTreaty Impacts Indigenous people\nIndigenous people Contemporary Issues
+ENSO Impacts Industry\nIndustry Requires Fluid\nFluid Part Of Planet\nPlanet Rotation Period
+Charles III Citizen Of Country\nCountry Influenced By Empire\nEmpire Religion
+New Zealand Dollar Used In Market economy\nMarket economy Supports Industry\nIndustry Economic Sector
+Seamount Habitat For Biodiversity\nBiodiversity Preys On Plankton\nPlankton Genre Performing art\nPerforming art Element
+Alberta Borders Province\nProvince Adjacent To Province\nProvince Currency
+Little Blue Penguin Lives In Region Country\nCountry Located In Continent\nContinent Highest Point
+Government of Japan Member Of Intergovernmental forum\nIntergovernmental forum Member Of Country\nCountry Influenced By Empire\nEmpire Type
+Uki  Fukushima Part Of Country\nCountry Located In Continent\nContinent Continent
+Southland  TV series  Language Language\nLanguage Hasvariant Language\nLanguage Descended From
+Streetwear Instance Of Industry\nIndustry Related To Textile\nTextile Worn By Mammal\nMammal Mass
+Germanic languages Part Of Language family\nLanguage family Includes LanguageFamily\nLanguageFamily Geographic Distribution
+Romanticism Preceded HistoricalPeriod\nHistoricalPeriod Produced Work LiteraryWork\nLiteraryWork Style
+Aquatic Ecosystem Influenced By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Instance Of Biological process\nBiological process Requires
+Modern Gold Rushes Preceded By HistoricalEvent\nHistoricalEvent Part Of Region\nRegion Type
+Botany Related To Scientific discipline\nScientific discipline Affects Environmental Issue\nEnvironmental Issue Cause
+Plant Propagation Requires Fluid\nFluid Used By Mammal\nMammal Height
+Apteryx Habitat Country\nCountry Has Currency Currency\nCurrency Used In Market economy\nMarket economy GDP Nominal
+Waitematā Harbour Adjacent To City\nCity Contains Park\nPark Established
+Arizona Borders AdministrativeDivision\nAdministrativeDivision Borders AdministrativeRegion\nAdministrativeRegion Borders AdministrativeDivision\nAdministrativeDivision Type
+Atmosphere Affects Weather phenomenon\nWeather phenomenon Influences Physical Quantity\nPhysical Quantity Temporal Variation
+Seamount Related To Geological feature\nGeological feature Part Of Saltwater\nSaltwater Part Of Planet\nPlanet Surface Water
+Haka Associated With Language\nLanguage Has Culture Culture\nCulture Associated With Treaty\nTreaty Purpose
+Eastern Hemisphere Borders Ocean\nOcean Borders Continent\nContinent Contains Continent\nContinent Longest River
+United States Economy Exports To Country\nCountry Part Of Intergovernmental\nIntergovernmental Seal Design
+Kakamigahara Aerospace Museum Located In Prefecture\nPrefecture Located In Country\nCountry Government
+Iwi Located In Country\nCountry Has Currency Currency\nCurrency Decimal Places
+Researcher Collaborates With Occupation\nOccupation Education Level
+Agricultural Products Dependent On Atmospheric phenomenon\nAtmospheric phenomenon Causes Weather phenomenon\nWeather phenomenon Influences LivingThing\nLivingThing Level
+Peebles River Flows Through River\nRiver Flows Through Council Area\nCouncil Area Population 2022
+The Remarkables Geological Era GeologicalPeriod\nGeologicalPeriod Type
+Overpopulation Impacts EnvironmentalIssue\nEnvironmentalIssue Related To Environmental issue\nEnvironmental issue Affects Biotope\nBiotope River System
+Lake Heron  New Zealand  Located In Country\nCountry Part Of Planet\nPlanet Has Satellite Space station\nSpace station Mass
+Arthur Tansley Country Of Citizenship Country\nCountry Has Monarch Monarch\nMonarch Educated At Boarding school\nBoarding school Age Range
+Ring of Fire Caused By Plate tectonics\nPlate tectonics Causes Natural disaster\nNatural disaster Occurs On Planet\nPlanet Age
+Queenstown Marathon Attraction Lake\nLake Contains Mountain\nMountain Region
+Jean Armour Resides In Town\nTown Part Of Council Area\nCouncil Area Borders Council Area\nCouncil Area Council Headquarters
+Marine Life Threatened By EnvironmentalIssue\nEnvironmentalIssue Impacts Concept\nConcept Influenced By
+Fan Community Uses Online platform\nOnline platform Influences Business function\nBusiness function Related Field
+Taupō District Located In Island\nIsland Adjacent To Island\nIsland Adjacent To Island\nIsland Latitude
+Atmosphere Interacts With Closed ecological system\nClosed ecological system Research Area
+Papakura Located In Country\nCountry Has Neighbour Country\nCountry Official Language
+Human Communicates With Mammal\nMammal Phylum
+Microbiology Used In Field of study\nField of study History Length
+Cabernet Franc Grown In Province\nProvince Part Of Country\nCountry Located In Continent\nContinent Economic Indicator
+Food Sustainability Influenced By SocialScience\nSocialScience Part Of Business function\nBusiness function Has Subclass Industry\nIndustry Major Types
+Legend of Peggy Adapted From Animated series\nAnimated series Protagonist
+Robert Downey Jr  Birthplace City\nCity Haspart Borough\nBorough Longitude
+Uintatherium Instance Of Class (biology)\nClass (biology) Feeds On Substance\nSubstance Related To Industry\nIndustry Economic Sector
+Farm Employs Occupation\nOccupation Works For Agricultural land\nAgricultural land Ownership
+Seafood Threatened By EnvironmentalIssue\nEnvironmentalIssue Affects LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Location
+Russell Group Memberof Country\nCountry Borders Country\nCountry Area km²
+Southern Uplands River Flows Through River\nRiver Supports Fish\nFish Part Of Ecological system\nEcological system Components
+Pacific Ring of Fire Contains Island chain\nIsland chain Part Of Region Continent\nContinent Continent
+Cherokee Influenced By HistoricalEvent\nHistoricalEvent Resulted In Imperialism\nImperialism Scale
+Northern Hemisphere Contains Region Continent\nContinent Located In Planet\nPlanet Part Of Star System\nStar System Number Of Planets
+Victorian Literature Influenced By PhilosophicalConcept\nPhilosophicalConcept Influenced Revolution\nRevolution Phase
+British Colonialism Led To Creation Of Political association\nPolitical association Member State Country\nCountry Borders Country\nCountry Capital
+Ethel Skakel Death Place City\nCity Established
+Dunedin City Located In Region\nRegion Has Mountain Mountain\nMountain Near Fjord\nFjord Designation
+Waimakariri River Located In Region\nRegion River Flows Through River\nRiver Source
+American Revolution Influenced Revolution\nRevolution Outcome
+Timaru Region Of Country\nCountry Has Neighbour Country\nCountry Has Currency Currency\nCurrency Currency Code
+Charles III Citizen Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Member State Country\nCountry National Anthem
+Brazil Influenced By Country\nCountry Part Of Political union\nPolitical union Has Member Country\nCountry GDP Nominal
+Aves Instance Of Animal\nAnimal Has Diet Class\nClass Body Segments
+Latin America Located In Planet\nPlanet Located In Spiral Galaxy\nSpiral Galaxy Contains Star System\nStar System Has Satellite
+Indigenous peoples Located In Landmass\nLandmass Studied In Academic discipline\nAcademic discipline Related To Scientific discipline\nScientific discipline Related To
+The Remarkables Geological Era GeologicalPeriod\nGeologicalPeriod End Date
+Breakdancing Instance Of Performing art\nPerforming art Associated With Garment\nGarment Made Of Textile\nTextile Color
+Scientific Knowledge Contributes To Process\nProcess Enables Technology\nTechnology Uses Field of study\nField of study Subfield Of
+Tiwai River Tributary Of Sea\nSea Part Of Ocean\nOcean Average Depth
+Tenant Has Relationship Occupation\nOccupation Rents To Legal person\nLegal person Legal Framework
+World Trade Organization Regulates Economic Activity\nEconomic Activity Facilitates Process\nProcess Criticism
+Tamara Smart Instance Of Mammal\nMammal Communicates With Mammal\nMammal Communicates With Mammal\nMammal Class
+Polynesian People Part Of Continent\nContinent Contains Country\nCountry Currency
+Lifelong Learning Enabled By Field of study\nField of study Causes Technology\nTechnology Benefit
+Angus MacDonald Country Of Citizenship Country\nCountry Has Monarch Monarch\nMonarch Educated At Boarding school\nBoarding school Website
+Tertiary Sector Impacts Collective\nCollective Impacted By Field of study\nField of study Type
+Tokomairiro Near River\nRiver Located In Region\nRegion Part Of Country\nCountry Land Type
+Fashion Industry Distributesthrough Industry\nIndustry Instance Of Industry\nIndustry Instance Of Industry\nIndustry Sector
+Papua New Guinea Member Of Political association\nPolitical association Member State Country\nCountry Located In Continent\nContinent Type
+Fashion Influenced By Creative activity\nCreative activity Historical Context
+American Culture Part Of CulturalConcept\nCulturalConcept Transmitted Through Formal system\nFormal system Part Of Process\nProcess Importance
+William IV Successor Monarch\nMonarch Country Of Citizenship Country\nCountry Sovereign
+Rarotonga International Airport Serves Island\nIsland Tourism Attraction Airport\nAirport Operator
+Afrika Bambaataa Birth Place Borough\nBorough Part Of City\nCity Locatedin Country\nCountry Official Language
+Plant Propagation Instance Of Applied science\nApplied science Requires Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Fertility
+Taieri Limited Operates In Country\nCountry Has Currency Currency\nCurrency Symbol
+Clutha District Part Of Region\nRegion Contains Ship\nShip Operated In Country\nCountry Area km²
+Otago Boys  High School Alumnus Criminal\nCriminal Citizen Of Country\nCountry Official Language
+Aberdeen Historical Figure Poet\nPoet Influenced ArtMovement\nArtMovement Preceded HistoricalPeriod\nHistoricalPeriod Social Class Structure
+Southland Region Located In Country\nCountry Located In Continent\nContinent Area
+Atmosphere Influences Atmospheric phenomenon\nAtmospheric phenomenon Causes Weather phenomenon\nWeather phenomenon Instance Of Atmospheric phenomenon\nAtmospheric phenomenon Type
+Henry Comstock Instance Of Mammal\nMammal Communicates With Mammal\nMammal Class
+Prince Edward  Duke of Kent and Strathearn Member Of Royal Family\nRoyal Family Located In Country\nCountry Influenced By Empire\nEmpire Government
+Yellowstone National Park Located In Country\nCountry Part Of Continent\nContinent Climate
+Albatross Trust Located In Country\nCountry Influenced By Empire\nEmpire Largest Empire
+Shell  mollusk  Found In Habitat Saltwater\nSaltwater Supports Biome\nBiome Temperature Range
+KiwiRail Operates On Railway network\nRailway network Historical Significance Ship\nShip Navigation Method
+Food Security Affected By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Type
+NFC West Has Member American football team\nAmerican football team Head Coach Athlete\nAthlete Education
+Cyprus Member Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Member Of Intergovernmental\nIntergovernmental Formed
+UNESCO Global Network of Learning Cities Promotes EducationalActivity\nEducationalActivity Enabled By Field of study\nField of study Used By Mammal\nMammal Class
+British Empire Preceded Empire\nEmpire Located In Continent\nContinent Highest Point
+Marine Invertebrates Affected By EnvironmentalIssue\nEnvironmentalIssue Contributes To Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Importance
+Corinthian order Preceded By Architectural order\nArchitectural order Located In Civilization\nCivilization Influenced PhilosophicalMovement\nPhilosophicalMovement Key Figure 1
+Portugal Member Of Military alliance\nMilitary alliance Member State Country\nCountry Member Of Intergovernmental\nIntergovernmental Official Language
+British Colonialism Influenced Process\nProcess Related To Intergovernmental organization\nIntergovernmental organization Regulates Economic Activity\nEconomic Activity Driver
+Russell Group Memberof Country\nCountry Has Monarch Monarch\nMonarch Educated At Boarding school\nBoarding school Headmaster
+Deep South Located In Country\nCountry Part Of Continent\nContinent Economic Indicator
+African Culture Influenced Population\nPopulation Affected By Imperialism\nImperialism Root Cause
+Christchurch Cathedral Religious Affiliation Christian denomination\nChristian denomination Located In Country\nCountry Type
+7 Is Successor Of Number\nNumber Natural Number
+Hospitality Industry Dependenton Infrastructure\nInfrastructure Influenced By Field of study\nField of study Impacts Social science\nSocial science Measurement
+Government Regulates Social science\nSocial science Relatedto Social science\nSocial science Part Of Social science\nSocial science Type
+American Revolution Influenced Revolution\nRevolution Significant Event
+Hamilton  city  Has River River\nRiver Used For Artificial watering\nArtificial watering Method
+Canadian Workforce Requires System\nSystem Supports Systematic investigation\nSystematic investigation Related To Academic discipline\nAcademic discipline Publication Type
+Hospitality Industry Dependenton Infrastructure\nInfrastructure Impacts Place\nPlace Type
+Sea Level Fall Impacts Geological Process\nGeological Process Related To Geophysical process\nGeophysical process Scale
+Ernest Rutherford Country Of Citizenship Country\nCountry Has Currency Currency\nCurrency Issuance Currency Of Country\nCountry Area km²
+Modern Art Influenced By Art movement\nArt movement Associated With Place Country\nCountry Member Of Intergovernmental\nIntergovernmental Official Language
+Austronesian Migration Spreads To Continent\nContinent Contains Country\nCountry Has Neighbor Country\nCountry Continent
+Brazil Influenced By Country\nCountry Part Of Political union\nPolitical union Located In Continent\nContinent Lowest Point
+Skyline Enterprises Service Area Country\nCountry Has Currency Currency\nCurrency Managed By Central bank\nCentral bank Country
+Rancho de las Aguas Historical Event HistoricalEvent\nHistoricalEvent Related To Railroad\nRailroad Primary Companies
+South Pacific Ocean Contains Country\nCountry Part Of Region\nRegion Includes Country\nCountry Type
+Global Weather Impacts LivingOrganism\nLivingOrganism Impacted By
+Sustainable Development Goals Addresses Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Studied By Scientific discipline\nScientific discipline Study Area
+Nova Scotia Part Of Region\nRegion Has Economy Mixed economy\nMixed economy Member Of Intergovernmental forum\nIntergovernmental forum Chairmanship
+Fabric Produced By Fabric creation\nFabric creation Produces Textile\nTextile Use
+Federated States of Micronesia Influenced By Country\nCountry Part Of Continent\nContinent Borders Ocean\nOcean Salinity
+Linlithgow Near City\nCity Located In Country\nCountry Located In Continent\nContinent Climate
+University of Colombo Country Country\nCountry Part Of Ocean\nOcean Area
+Fishing rod Related To Leisure activity\nLeisure activity Requires Tool\nTool Origin
+Administration Impacts Service\nService Part Of Social science\nSocial science Influencedby Organization\nOrganization Scope
+20th Century Witnessed Event War\nWar Took Place In Continent\nContinent Currency
+Eastern Rugby Football Club Predecessor Of Null value\nNull value Comparison
+Global Climate Change Affects LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Purpose
+Teamsters Union Influenced Social Movement\nSocial Movement Outcome
+Human face Instance Of Mammal\nMammal Communicates With Mammal\nMammal Communicates With Mammal\nMammal Binomial Name
+Banana Grown In Country\nCountry Has Border With Country\nCountry Time Zone
+Hip Hop Music Associated With Performance\nPerformance Used For Industry\nIndustry Scope
+Peggy s Cove Featured In Visual art\nVisual art Purpose
+Queensland Borders State\nState Part Of Country\nCountry Influenced By Former empire\nFormer empire Governed By
+Düsseldorf Part Of Country\nCountry Influenced By Empire\nEmpire Religion
+Scottish diaspora Influenced By Culture\nCulture Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Membership
+Innovation Part Of Management concept\nManagement concept Part Of Process\nProcess Purpose
+Japan Influenced By Country\nCountry Shares Border With Country\nCountry Has Border With Country\nCountry Ethnic Groups
+River Forth Landmark Cantilever railway bridge\nCantilever railway bridge Crosses River\nRiver Length
+Tourist Consumes Substance\nSubstance Provides To Mammal\nMammal Parent Of Mammal\nMammal Order
+Habitat Restoration Part Of Ecological system\nEcological system Part Of Closed ecological system\nClosed ecological system Research Area
+Christchurch Economic Sector Industry\nIndustry Related To Infrastructure\nInfrastructure Supports Voluntary exchange\nVoluntary exchange Measurement
+Enology Used In Sensory Evaluation\nSensory Evaluation Requires Fermented drink\nFermented drink Paired With Substance\nSubstance Type
+Lake Wakatipu Attraction For Industry\nIndustry Has Participant Person\nPerson Uses Infrastructure\nInfrastructure Environmental Impact
+Moeraki Part Of Country\nCountry Part Of Planet\nPlanet Magnetic Field Plasma\nPlasma Shape
+Dyeing Requires Fluid\nFluid Found In Saltwater\nSaltwater Contains
+Seed  plant  Part Of Living organism\nLiving organism Interacts With Living organism\nLiving organism Feeds On Living organism\nLiving organism Photosynthesis
+Stirling Falls Influenced By Precipitation\nPrecipitation Affects Mechanical & Chemical\nMechanical & Chemical Effect
+Mexican Land Grants Part Of PoliticalEvent\nPoliticalEvent Key Figure 3
+New Guinea Has Biome Biome\nBiome Threatened By Environmental issue\nEnvironmental issue Impact
+Geelong Part Of Monarch\nMonarch Predecessor Monarch\nMonarch Successor Monarch\nMonarch Reign End
+Yoruba people Influenced By Ethnic group\nEthnic group Part Of Country\nCountry Currency
+Beverage Related To Cultural activity\nCultural activity Subclass Of Food preparation\nFood preparation Ingredients
+Otago Boys  High School Founded By Writer\nWriter Country Of Citizenship Country\nCountry Has Capital City\nCity Longitude
+Environmental Science Related To LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Creator
+Larnach Castle Located In Region\nRegion Has River River\nRiver Originates In Mountain range\nMountain range Geology
+Recreation Part Of Activity\nActivity Related To Industry\nIndustry Related Concept
+Ron Seeto Instance Of Mammal\nMammal Communicates With Mammal\nMammal Communicates With Mammal\nMammal Family
+Digestive System Influenced By Nutritional Plan\nNutritional Plan Related To Substance\nSubstance Consumed By Living organism\nLiving organism Reproduction
+Oreti Beach Adjacent To River\nRiver Adjacent To NationalPark\nNationalPark Elevation
+Oklahoma Land Run Part Of HistoricalEvent\nHistoricalEvent Influenced By Historical Period\nHistorical Period Technology
+Double-hulled canoe Ancestor Of Watercraft\nWatercraft Part Of Historical discipline\nHistorical discipline Related To Scientific discipline\nScientific discipline Historical Beginnings
+Niutao Influenced By Culture\nCulture Part Of Continent\nContinent Geography
+Malgahan Institute of Medical Research Located In City\nCity Influenced By Former empire\nFormer empire Ruled Country\nCountry Government Type
+Alberta Part Of Country\nCountry Member Of Intergovernmental forum\nIntergovernmental forum Chairmanship
+Haka Associated With Language\nLanguage Has Speaker Ethnic group\nEthnic group Has Art Visual Art\nVisual Art Period
+Yarra River Located In Monarch\nMonarch Successor Monarch\nMonarch Mother
+French Polynesia Part Of Country\nCountry Has Border With Country\nCountry Largest City
+Paul Tisdale Country Of Citizenship Country\nCountry Borders With Country\nCountry Currency
+South Pacific Ocean Contains Country\nCountry Part Of Region\nRegion Includes Country\nCountry Area km²
+State Highway 1  New Zealand  Crosses Island\nIsland Has River River\nRiver Type
+Brisbane Roar FC Country Country\nCountry Has Neighbor Country\nCountry Has Neighbour Country\nCountry Type
+Philippines Located In Continent\nContinent Contains Country\nCountry Currency
+Shell  mollusk  Found In Habitat Saltwater\nSaltwater Impacts Atmospheric phenomenon\nAtmospheric phenomenon Part Of Planet\nPlanet Density
+Victoria Spouse Monarch\nMonarch Educated At University\nUniversity Motto
+Tsunami Caused By Natural disaster\nNatural disaster Has Effect Natural disaster\nNatural disaster Cause
+Plate Tectonics Related To Plate tectonics\nPlate tectonics Forms Geological feature\nGeological feature Part Of Saltwater\nSaltwater Contains
+Southland Rugby Coach Located In Local government area\nLocal government area Economic Activity Industry\nIndustry Impact On Environment
+Trade Influences Contractual relationship\nContractual relationship Leads To Occupation\nOccupation Part Of Biological process\nBiological process Characteristic
+African Plate Part Of Geosphere\nGeosphere Part Of Planet\nPlanet Part Of Star System\nStar System Contains
+Māori Related To Region\nRegion Includes State\nState Located In Ocean\nOcean Max Depth
+Francis Hutcheson Influenced Philosopher\nPhilosopher Member Of IntellectualMovement\nIntellectualMovement Intellectual Climate
+Yellowstone National Park Located In Country\nCountry Located In Planet\nPlanet Part Of Star System\nStar System Number Of Planets
+Austronesian Peoples Ancestor Of Ethnic group\nEthnic group Located In Continent\nContinent Affected By Climate pattern\nClimate pattern Frequency
+Protein Interacts With Biomolecule\nBiomolecule Dietary Source
+UNICEF Founded By Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Member Of Intergovernmental\nIntergovernmental Secretary General
+Death Valley Located In AdministrativeRegion\nAdministrativeRegion Part Of Continent\nContinent Contains Country\nCountry Type
+Fishing Part Of Activity\nActivity Part Of Biological process\nBiological process Origin
+Canterbury Located In Country\nCountry Has Language Language\nLanguage Family
+Sales Supports Business Process\nBusiness Process Relies On Infrastructure\nInfrastructure Key Component
+Lasswade Influenced By Council Area\nCouncil Area River Flows Through River\nRiver Flows Through Council Area\nCouncil Area Population 2022
+San Francisco Bay Tributary To River\nRiver Provides Water To Industry\nIndustry Location
+Decolonization Caused By Imperialism\nImperialism Led To Historical process\nHistorical process Geographic Scope
+Sapporo Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Has Agency Intergovernmental body\nIntergovernmental body Permanent Members
+Tangaroa Worshipped By Ethnic group\nEthnic group Has Culture Culture\nCulture Contemporary Status
+Te Anau Economy Based On Industry\nIndustry Part Of Social science\nSocial science Field Of Study
+Carrying Capacity Part Of Scientific discipline\nScientific discipline Related To Concept\nConcept Supports LivingThing\nLivingThing Scale
+Promontory Summit  Utah Event Held Event\nEvent Part Of Railroad\nRailroad Involved In Event\nEvent Railroad Gauge
+Te Reo Māori Revived By Language Nest\nLanguage Nest Located In Country\nCountry Has Neighbour Country\nCountry Largest City
+Edinburghshire Borders County\nCounty Economic Activity Industry\nIndustry Type
+Te Wahipounamu Part Of Island\nIsland Has River River\nRiver Tributary Of Ocean\nOcean Location
+Taupō Volcanic Zone Part Of Geological Feature\nGeological Feature Related To Scientific discipline\nScientific discipline Subfield Of
+University of Otago Located In Peninsula\nPeninsula Contains Settlement\nSettlement Location
+Gifu Prefecture Located In Country\nCountry Has Neighbor Country\nCountry National Anthem
+Kapa Haka Related To Ceremonial dance\nCeremonial dance Related To Performance art\nPerformance art Spiritual Significance
+Rural Community Has Resident Mammal\nMammal Parent Of Mammal\nMammal Binomial Name
+Sedimentary Rock Erosion Leads To Geological material\nGeological material Affects Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Supports Ecological system\nEcological system Trophic Level
+Brittany Part Of Country\nCountry Has Border With Country\nCountry Influenced By Empire\nEmpire Population Peak
+Botany Related To Industry\nIndustry Affected By Weather phenomenon\nWeather phenomenon Influences LivingThing\nLivingThing Level
+Tillamook County Located In Region\nRegion Located In Continent\nContinent Largest Country
+NGN  telecommunications  Service Area Country\nCountry Economic Partner Country\nCountry Part Of Continent\nContinent Type
+Australian Dollar Issuance Currency Of Country\nCountry Member Of Political association\nPolitical association Influenced Historical process\nHistorical process Colonial Powers
+Viticulture Result Fermented drink\nFermented drink Impacts LivingOrganism\nLivingOrganism Type
+Indigenous Australian Mythology Related To Social structure\nSocial structure Studied By Academic discipline\nAcademic discipline Study Scope
+Challenger Deep Part Of Oceanic Trench\nOceanic Trench Near Territory\nTerritory Located In Ocean\nOcean Salinity
+Japan Member Of Intergovernmental\nIntergovernmental Has Agency Intergovernmental body\nIntergovernmental body Has Member Country\nCountry Government
+Milankovitch cycles Influences Weather phenomenon\nWeather phenomenon Impacts LivingOrganism\nLivingOrganism Goal
+Dumfries Located In Country\nCountry Part Of Country\nCountry Area km²
+North American Culture Influenced By Culture\nCulture Has Art Movement Historical Period\nHistorical Period Origin
+Aquaculture Located In Saltwater\nSaltwater Influences Weather phenomenon\nWeather phenomenon Measurement Unit
+Fashion Related To Material\nMaterial Used For Textile\nTextile Made Of Textile\nTextile Color
+Glasgow Cathedral Located In City\nCity Located In Country\nCountry Borders Country\nCountry Sovereignty
+Population boom Exacerbates Process\nProcess Affects LivingOrganism\nLivingOrganism Promoted By
+Green Bay Packers Country Of Origin Country\nCountry Member Of Intergovernmental\nIntergovernmental Type
+Intercultural Communication Influenced By Process\nProcess Caused By Process\nProcess Requires Financial activity\nFinancial activity Risk Level
+Glaciation Influenced By Astronomical cycles\nAstronomical cycles Influences Weather phenomenon\nWeather phenomenon Related To Environmental Issue\nEnvironmental Issue Measurement Unit
+Stirling Located In Country\nCountry Has Monarch Monarch\nMonarch Ruler Of Country\nCountry Area km²
+Doubtful Sound Track Adjacent To Fjord\nFjord Located In Island\nIsland Climate
+William Shakespeare Instance Of Mammal\nMammal Communicates With Mammal\nMammal Parent Of Mammal\nMammal Family
+UNESCO Founded By Intergovernmental\nIntergovernmental Member State Country\nCountry Population
+Jeff Merkley Instance Of Mammal\nMammal Parent Of Mammal\nMammal Communicates With Mammal\nMammal Mass
+Oceania Affected By Climate pattern\nClimate pattern Affects System\nSystem Influence On
+168 Successor Number\nNumber Predecessor Number\nNumber Even Number
+Baseball Has Equipment Sport\nSport Has Equipment Sport\nSport Sport Category
+Scottish Enlightenment Influenced Revolution\nRevolution Significant Event
+Tertiary Sector Partof Social science\nSocial science Haseffecton Voluntary exchange\nVoluntary exchange Definition
+Environmental Science Field Of Study Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Definition
+Overpopulation Impacts EnvironmentalIssue\nEnvironmentalIssue Exacerbated By Contamination\nContamination Cause
+Gouais Blanc Related To Grape variety\nGrape variety Region Produces Wine region\nWine region Part Of Country\nCountry Capital
+Bob s Peak Located In Country\nCountry Part Of Planet\nPlanet Located In Spiral Galaxy\nSpiral Galaxy Contains
+Romanticism Preceded HistoricalPeriod\nHistoricalPeriod Related To Former empire\nFormer empire Governed By
+Belle Époque Located In Country\nCountry Part Of Political union\nPolitical union Established
+Balclutha Ship Owner Nonprofit Organization\nNonprofit Organization Located In Local government area\nLocal government area Population 2018
+Philippine Sea Plate Part Of Tectonic Plate\nTectonic Plate Borders Tectonic Plate\nTectonic Plate Area
+Education Leads To Occupation\nOccupation Related To Contractual relationship\nContractual relationship Instance Of
+Natural Disaster Example Of Natural disaster\nNatural disaster Has Effect Natural disaster\nNatural disaster Cause
+Bachelor of Arts Preceded By Educational credential\nEducational credential Leads To Contractual relationship\nContractual relationship Instance Of
+South Island Contains NationalPark\nNationalPark Has Ecosystem Ecosystem\nEcosystem Canopy Cover
+St  Louis Blues vs  Kansas City Chiefs Participates In Professional sports league\nProfessional sports league Related To Event American football championship\nAmerican football championship Attendance Capacity
+Canadian Workforce Employs Mixed economy\nMixed economy Imports From Country\nCountry Shares Border With Country\nCountry National Anthem
+Palace of Versailles Inspired ArchitecturalStyle\nArchitecturalStyle Associated With PhilosophicalConcept\nPhilosophicalConcept Origin
+Liz Truss Educated At University\nUniversity Member Of Higher education association\nHigher education association Memberof Country\nCountry Prime Minister
+World Health Organization Has Member Development Bank\nDevelopment Bank Member Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Established
+Auckland City Economic Activity Industry\nIndustry Instance Of Industry\nIndustry Instance Of Industry\nIndustry Revenue Model
+University of Warwick Member Of Higher education association\nHigher education association Hasmember University\nUniversity Member Of Higher education association\nHigher education association Focus
+Austronesian languages Has Subclass LanguageFamily\nLanguageFamily Has Language Family LanguageFamily\nLanguageFamily Linguistic Diversity
+Juan de Fuca Plate Located In Ocean\nOcean Borders Country\nCountry Located In Planet\nPlanet Density
+Glacial Deposits Associated With Mechanical & Chemical\nMechanical & Chemical Causes Geological process\nGeological process Impact
+Oral tradition Related To Academic discipline\nAcademic discipline Focus
+Heiau Associated With Deity Hawaiian god\nHawaiian god Parent Of Hawaiian god\nHawaiian god Role
+The Reluctant Fundamentalist Subject Social process\nSocial process Causes Inequality\nInequality Impact 1
+Mount Rotoroa Volcanic Arc Strike-slip fault\nStrike-slip fault Located In Island\nIsland Type
+Tanzania Located In Continent\nContinent Has Geographic Feature Desert\nDesert Precipitation
+Germany Influenced By Empire\nEmpire Located In Continent\nContinent Highest Point
+Rangiora Part Of Country\nCountry Has Currency Currency\nCurrency Issuance Currency Of Country\nCountry Sovereignty
+Business Creation Requires Document\nDocument Audience
+Fan Community Uses Online platform\nOnline platform Influences Business function\nBusiness function Uses Research\nResearch Benefit
+Tairuaroa Located In Country\nCountry Has Neighbour Country\nCountry Government
+Mount Aspiring National Park Has Land Use Geographic area\nGeographic area Has Biodiversity LivingThing\nLivingThing Measurement
+Queenstown  New Zealand Near Mountain range\nMountain range Part Of Mountain range\nMountain range Formation
+Stabilizer  chemical  Used For Macromolecule\nMacromolecule Type
+National Football League Related To Event American football championship\nAmerican football championship Part Of Professional sports league\nProfessional sports league Founder
+Avatiu Located In Territory\nTerritory Influenced By Country\nCountry Influenced By Empire\nEmpire Type
+New Zealand national rugby team Country Country\nCountry Has Currency Currency\nCurrency Subunit
+Royal Albatross Instance Of Animal\nAnimal Has Diet Class\nClass Kingdom
+Seed  plant  Related To Scientific discipline\nScientific discipline Related To Scientific discipline\nScientific discipline Influences LivingThing\nLivingThing Study Field
+William Schaw Instance Of Mammal\nMammal Communicates With Mammal\nMammal Mass
+Invercargill Rugby Football Club Country Of Country\nCountry Part Of Planet\nPlanet Magnetic Field Plasma\nPlasma Discovery Date
+Brisbane Has Landmark Bridge\nBridge Located In State\nState Contains City\nCity Established
+Portugal Influenced By Empire\nEmpire Located In Continent\nContinent Largest Lake
+National Sovereignty Has Territory Area of land\nArea of land Economic Activity Industry\nIndustry Part Of Social science\nSocial science Measurement
+Academia Offers Instructional Offering\nInstructional Offering Requires Educational Resources\nEducational Resources Cost
+Ecosystem Part Of Closed ecological system\nClosed ecological system Location
+Enya Genre MusicGenre\nMusicGenre Has Genre Music\nMusic Genre MusicWork\nMusicWork Transmission
+Lake Wakatipu Located In Country\nCountry Has Capital City\nCity Part Of Island\nIsland Geological Feature
+Sustainable Agriculture Addresses Problem Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Measurement Unit
+Gore District Council Part Of Country\nCountry Has Capital City\nCity Influenced By Culture\nCulture Oral Tradition
+Sea Level Fall Impacts Geological Process\nGeological Process Related To Geophysical process\nGeophysical process Causes Mechanical & Chemical\nMechanical & Chemical Agent
+Chianti Region Has Wine Wine Region\nWine Region Wine Style
+Brisbane Roar FC Country Country\nCountry Has Neighbor Country\nCountry Has Currency Currency\nCurrency Country
+Atlantic Ocean Flows Into Sea\nSea Contains Country\nCountry Geography
+New Zealand Economic Policy Regulates Central bank\nCentral bank Located In Country\nCountry Sovereignty
+Niger Located In Continent\nContinent Has Economy Intergovernmental organization\nIntergovernmental organization Member Of Intergovernmental\nIntergovernmental Secretary General
+SkyCity Has Part Observation Tower\nObservation Tower Located In City\nCity Area km²
+Burgundy Part Of Country\nCountry Located In Continent\nContinent Has Economic Union Political union\nPolitical union Currency
+Animal Products Source Of Biomolecule\nBiomolecule Interacts With Biomolecule\nBiomolecule Level Of Structure
+Los Angeles Rams Headquartered In City\nCity Nickname
+Omaha  Nebraska Historical Event Emigrant Trail\nEmigrant Trail Terrain
+Hamilton  city  Economic Sector Industry\nIndustry Part Of Social science\nSocial science Influencedby Organization\nOrganization Type
+Zao  band  Country Of Origin Country\nCountry Located In Continent\nContinent Part Of Planet\nPlanet Orbital Period
+Coastal Erosion Related To Geophysical process\nGeophysical process Part Of Scientific discipline\nScientific discipline Application
+Needles  California Part Of Desert\nDesert Located In Country\nCountry Part Of Continent\nContinent Largest Country
+Dunedin City Has Neighbour Town\nTown Connected To Railway company\nRailway company Tourism
+Newcastle upon Tyne Located In Country\nCountry Has Language Language\nLanguage Partof Language family\nLanguage family Classification Method
+Ontario Has City City\nCity Located In Province\nProvince Premier
+Botany Related To Industry\nIndustry Part Of Social science\nSocial science Haseffecton Voluntary exchange\nVoluntary exchange Legal Framework
+European Americans Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Has Agency Intergovernmental body\nIntergovernmental body Permanent Members
+Celtic Music Has Genre Music\nMusic Influenced By Cultural practice\nCultural practice Definition
+Production Related To Industry\nIndustry Uses Chemical Compound\nChemical Compound Used In Industry\nIndustry Definition
+Eiffel Tower Part Of Country\nCountry Has Border With Country\nCountry Influenced By Empire\nEmpire Population Peak
+Breccia Part Of Rock type\nRock type Weathered Into Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Ph
+Southern Europe Has Country Country\nCountry Member Of Military alliance\nMilitary alliance Member State Country\nCountry Founding Date
+Treaty Subject Of Academic discipline\nAcademic discipline Governed By Intergovernmental\nIntergovernmental Type
+New York Part Of Country\nCountry Located In Planet\nPlanet Studied By Science\nScience Sub Discipline Of
+Council of Europe Member State Country\nCountry Located In Continent\nContinent Influenced By Empire\nEmpire Type
+Rakaia River Influenced By Mountain range\nMountain range Contains Mountain\nMountain Mountain Range
+Transportation Influenced By Field of study\nField of study Has Property Process\nProcess Linked To Activity\nActivity Type
+STEM fields Related To Systematic investigation\nSystematic investigation Related To Academic discipline\nAcademic discipline Publication Type
+Risk-taking Impacts Financial activity\nFinancial activity Purpose
+Botany Related To Applied science\nApplied science Related To Scientific discipline\nScientific discipline Sub Discipline
+Francis Hutcheson Influenced Philosopher\nPhilosopher Educated At Public research university\nPublic research university Member Of Higher education association\nHigher education association Purpose
+Ethel Skakel Death Place City\nCity Area km²
+Gian Lorenzo Bernini Influenced Architect\nArchitect Member Of ArchitecturalStyle\nArchitecturalStyle Decline
+Seed Results In Living organism\nLiving organism Produces Plant Part\nPlant Part Example Of Fruit\nFruit Taste
+Commonwealth Heads of Government Meeting  CHOGM  Addresses Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Time Scale
+Earth Part Of Star System\nStar System Contains Planet\nPlanet Diameter
+Italy Borders Country Country\nCountry Has Border With Country\nCountry Population
+American Revolution Influenced Revolution\nRevolution Ideology
+Brittany Part Of Country\nCountry Part Of Political union\nPolitical union Population
+Abel Tasman National Park Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Has Agency Intergovernmental body\nIntergovernmental body Parent Organization
+Legend of Peggy Adapted From Animated series\nAnimated series Genre
+Lake Wakatipu Influenced By Climate event\nClimate event Impacts Scientific discipline\nScientific discipline Study Area
+Insect Instance Of Living organism\nLiving organism Feeds On Living organism\nLiving organism Kingdom
+Scottish settlers Settled In Country\nCountry Has Border With Country\nCountry Influenced By Country\nCountry Type
+Aotearoa  New Zealand  Member Of Intergovernmental\nIntergovernmental Succeeded International Organization\nInternational Organization Purpose
+Aberdeen Part Of Country\nCountry Part Of Country\nCountry Has Monarch Monarch\nMonarch Birth Place
+Australian Antarctic Territory Adjacent To Landmass\nLandmass Part Of International treaty\nInternational treaty Depositary
+Sky Tower Architect Of Chef\nChef Educated At Public University\nPublic University Research Focus
+Te Reo Māori Part Of Culture\nCulture Has Language Language\nLanguage Spoken In Country\nCountry Population
+Sapporo Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Works With Development Bank\nDevelopment Bank Hq Location
+New Caledonia Part Of Country\nCountry Located In Continent\nContinent Area
+Pacific Community Member Country Country\nCountry Has Currency Currency\nCurrency Managed By Central bank\nCentral bank Official Website
+Pauline Metallic Instance Of Mammal\nMammal Communicates With Mammal\nMammal Kingdom
+Antarctica Located Near Ocean\nOcean Part Of Ocean\nOcean Volume
+Lake Heron  New Zealand  Surrounded By NationalPark\nNationalPark Contains Fjord\nFjord Part Of NationalPark\nNationalPark Type
+War of the Austrian Succession Participant Country\nCountry Part Of Political union\nPolitical union Official Languages
+Chianti Wine Style Is Beverage\nBeverage Related To Agricultural practice\nAgricultural practice Economic Impact
+Geography Part Of Planet\nPlanet Studied By Science\nScience Uses Method
+Polynesia Includes Country\nCountry Member Of Political association\nPolitical association Governed By Intergovernmental Organization\nIntergovernmental Organization Headquarters Location
+Animal Products Source Of Biomolecule\nBiomolecule Interacts With Biomolecule\nBiomolecule Found In
+Arctic Ocean Adjacent To Ocean\nOcean Contains Geological Feature\nGeological Feature Volcanoes
+Navajo Instance Of Q4322\nQ4322 Affected By Imperialism\nImperialism Affected Continent\nContinent Geography
+ENSO Impacts Primary sector\nPrimary sector Part Of Organization\nOrganization Industry Type
+First Nations Part Of Continent\nContinent Contains Country\nCountry Member Of Intergovernmental forum\nIntergovernmental forum Purpose
+Marine Conservation Part Of LivingThing\nLivingThing Instance Of Biological process\nBiological process Domain
+Waiata Related To Ceremonial dance\nCeremonial dance Performed By Rugby union team\nRugby union team Sport
+Proto-Austronesian Descendant Language LanguageFamily\nLanguageFamily Instance Of LanguageFamily\nLanguageFamily Has Subclass LanguageFamily\nLanguageFamily Speakers
+Victoria Glacier Located In Province\nProvince Has Capital Monarch\nMonarch Era
+British Commonwealth Member State Country\nCountry Has Official Language Language\nLanguage Family
+Prince William  Duke of Cambridge Child Of Monarch\nMonarch Educated At Boarding school\nBoarding school Website
+Bordeaux Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Seal Design
+Acadians Religion Christian denomination\nChristian denomination Has Sacred Text Religious text\nReligious text Influenced Culture\nCulture Geographic Area
+Sensory Evaluation Part Of Academic discipline\nAcademic discipline Related To Social science\nSocial science Field Of Academic discipline\nAcademic discipline Language
+Mineral Has Application Field of study\nField of study Causes Technology\nTechnology Uses Field of study\nField of study Application
+Kakamigahara Aerospace Museum Located In Prefecture\nPrefecture Located In Country\nCountry Type
+Educational Program Uses EducationalActivity\nEducationalActivity Research
+Soul Food Associated With Population\nPopulation Has Historical Connection To Continent\nContinent Has Economy Intergovernmental organization\nIntergovernmental organization Chairperson
+Seafloor Spreading Observed In Ocean\nOcean Adjacent To Continent\nContinent Highest Point
+Urban Planning Governedby Organization\nOrganization Regulates Social science\nSocial science Haseffecton Contractual relationship\nContractual relationship Benefits Often Included
+Grey District Economic Activity Industry\nIndustry Instance Of Activity\nActivity Overlaps With Industry\nIndustry Audience
+Administration Requires Process\nProcess Used By Mammal\nMammal Parent Of Mammal\nMammal Mass
+Holyrood Abbey Located In City\nCity University Public research university\nPublic research university Students
+Mineral Has Application Field of study\nField of study Impacts Social science\nSocial science Historical Development
+Dartmouth Region Part Of Province\nProvince Part Of Region\nRegion Has Language Language\nLanguage Speakers
+Southern Culture Influenced By Culture\nCulture Has Genre MusicGenre\nMusicGenre Style
+Russell Group Influences Tertiary Education\nTertiary Education Contributes To Process\nProcess Definition
+Mathematics Used In Discipline\nDiscipline Produces Field of study\nField of study Type
+Lake Wakatipu Part Of Island\nIsland Part Of Country\nCountry Capital
+Weaving Related To Needlework\nNeedlework Uses Textile\nTextile Used For Needlework\nNeedlework History Region
+Westland District Natural Feature Mountain range\nMountain range Part Of Country\nCountry Continent
+Canadian Forces Base Halifax Located In Municipal Government\nMunicipal Government Part Of Province\nProvince Has Official Language Language\nLanguage Speakers
+Silver Rush Affected People PopulatedPlace\nPopulatedPlace Located In Continent\nContinent Largest Country
+Scottish Culture Has Traditional Music MusicGenre\nMusicGenre Influenced By MusicGenre\nMusicGenre Has Genre Music\nMusic Transmission
+Manurewa Has Neighbour Island\nIsland Influenced By Culture\nCulture Has Concept Concept\nConcept Meaning
+Tangata whenua Has Ancestor Ethnic group\nEthnic group Language Family LanguageFamily\nLanguageFamily Has Subclass LanguageFamily\nLanguageFamily Classification
+Early Colonial Transport Subject Of LegalSystem\nLegalSystem Related To Economic Activity\nEconomic Activity Scale
+South Pacific Current Impacts Quantity\nQuantity Impacts Physical Quantity\nPhysical Quantity Rate Of Rise
+Public Relations Part Of Business function\nBusiness function Has Subclass Transaction\nTransaction Requires Business function\nBusiness function Discipline
+Glacial Deposits Associated With Mechanical & Chemical\nMechanical & Chemical Related To Scientific discipline\nScientific discipline Methodology
+British Monarch Member Of Royal Family\nRoyal Family Located In Country\nCountry Sovereign
+Canadian Workforce Employs Mixed economy\nMixed economy Trade Relationship Country\nCountry Official Language
+Angus MacDonald Country Of Citizenship Country\nCountry Borders Country Country\nCountry Influenced By Empire\nEmpire Area km²
+Kiapoi Harbour Fed By River\nRiver Tributary Of Ocean\nOcean Supports Biodiversity\nBiodiversity Trophic Level
+Operation Nest Egg Location Of Island\nIsland Contains City\nCity Nickname
+Bachelor of Science Results In Contractual relationship\nContractual relationship Leads To Occupation\nOccupation Requires
+Stirling Falls Located In Country\nCountry Has Capital City\nCity Longitude
+Fish fossils Found In Rock type\nRock type Erosion Leads To Geological material\nGeological material Origin
+Banana Grown In Country\nCountry Has Border With Country\nCountry Located In Continent\nContinent Highest Point
+Global Carbon Cycle Reservoir Saltwater\nSaltwater Contains Biodiversity\nBiodiversity Includes Animals\nAnimals Kingdom
+Rococo Architecture Influenced ArchitecturalStyle\nArchitecturalStyle Influenced By ArchitecturalStyle\nArchitecturalStyle Created By Sculptor\nSculptor Type
+St Mirren Football Club Country Of Origin Country\nCountry Borders Country Country\nCountry Borders With Country\nCountry Currency
+African Plate Borders Tectonic Plate\nTectonic Plate Influences LivingThing\nLivingThing Scale
+Temperate Rainforest Impacted By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Instance Of Biological process\nBiological process Type
+Outrigger canoe Associated With Continent\nContinent Contains Country\nCountry Area km²
+Green Island Rugby Football Club Affiliated With SportsOrganization\nSportsOrganization Headquarters Location City\nCity Type
+Pacific Northwest Produces Wood\nWood Impacts Place\nPlace Influences LivingThing\nLivingThing Value
+David Thompson  explorer  Explored Mountain range\nMountain range Influenced By Scientific Theory\nScientific Theory Explains Geological Process\nGeological Process Related To
+Ictinus Influenced Temple\nTemple Style Architectural order\nArchitectural order Part Of ArchitecturalStyle\nArchitecturalStyle Time Period
+Santa Clara  California Industry Field of study\nField of study Part Of Collective\nCollective Characteristic
+Breccia Study Field Science\nScience Deals With Solid\nSolid Found In Mineral Aggregate\nMineral Aggregate Classification
+Pruning Part Of Applied science\nApplied science Studied By Applied science\nApplied science Type
+Recreation Part Of Activity\nActivity Part Of Biological process\nBiological process Requires
+Main Trunk Line Connects City\nCity Influenced By Culture\nCulture Located In Country\nCountry Land Type
+Western Music Subclass Of Music genre\nMusic genre Subclass Of Auditory art\nAuditory art Is A Creative activity\nCreative activity Mediums
+Geology of New Zealand Contains Volcanic Zone\nVolcanic Zone Impacts Industry\nIndustry Instance Of Activity\nActivity Definition
+Public Services Part Of Social science\nSocial science Influencedby Organization\nOrganization Regulates Social science\nSocial science Related Discipline
+Aroa River Used For Industry\nIndustry Uses Chemical Compound\nChemical Compound Type
+Remarkables Ski Area Has Nearby Landmark Lake\nLake Near Mountain range\nMountain range Part Of Mountain range\nMountain range Average Elevation
+Lake Wakatipu Part Of Island\nIsland Adjacent To Island\nIsland Has River River\nRiver Discharge
+Victoria of Saxe-Coburg-Saalfeld Instance Of Mammal\nMammal Parent Of Mammal\nMammal Communicates With Mammal\nMammal Order
+European Colonization Influenced Process\nProcess Caused By Process\nProcess Requires Financial activity\nFinancial activity Legal Form
+Accommodation Customer Person\nPerson Uses Infrastructure\nInfrastructure Supports Voluntary exchange\nVoluntary exchange Scale
+10-kilometer run Training For Athletic event\nAthletic event Athlete Participates In Road race\nRoad race Related To Athletic event\nAthletic event Type
+Environmental degradation Affects LivingOrganism\nLivingOrganism Measured By
+Canadian Confederation Legal Document Act of Parliament\nAct of Parliament Impacted Q4322\nQ4322 Has Language Formal system\nFormal system Representation
+Hawaiian Pantheon Influenced Polytheistic religion\nPolytheistic religion Associated With Temple\nTemple Associated With Deity Hawaiian god\nHawaiian god Mythological Family
+Rainfall Supports Industry\nIndustry Requires Fluid\nFluid Boiling Point
+Scottish Crown Jewels Located In Castle\nCastle Located In City\nCity Located In Country\nCountry Official Language
+Forth Rail Bridge Crosses River\nRiver Tributary River\nRiver Mouth
+Bachelor of Arts Preceded By Educational credential\nEducational credential Requires Assessment\nAssessment Requires Systematic investigation\nSystematic investigation Dissemination
+Apparel Instance Of Textile\nTextile Worn By Mammal\nMammal Communicates With Mammal\nMammal Type
+Seafloor Supports Biodiversity\nBiodiversity Includes Reptiles\nReptiles Examples
+Stabilizer  chemical  Used For Macromolecule\nMacromolecule Property
+Silver Rush Location Is In Country\nCountry Located In Planet\nPlanet Located In Spiral Galaxy\nSpiral Galaxy Galactic Center
+Rita Joe Instance Of Mammal\nMammal Communicates With Mammal\nMammal Communicates With Mammal\nMammal Class
+Financial Market Impacts Social science\nSocial science Influencedby Organization\nOrganization Structure
+Kastom Transmitted Through Cultural practice\nCultural practice Related To Academic discipline\nAcademic discipline Study Scope
+ASEAN Member State Country\nCountry Influenced By Religion\nReligion Major Branch
+Edinburgh Castle Defended City\nCity Capital Of Country\nCountry Type
+Solar System Orbits Star\nStar Orbits Spiral Galaxy\nSpiral Galaxy Contains Star System\nStar System Contains
+Belgium Influenced By Empire\nEmpire Located In Continent\nContinent Influenced By Trade route\nTrade route Name Origin
+Kāne Worshipped In State\nState Located In Ocean\nOcean Contains
+Fakaofo Dialect Related To LanguageFamily\nLanguageFamily Has Subclass LanguageFamily\nLanguageFamily Origin
+Prince Andrew  Duke of York Member Of Royal Family\nRoyal Family Located In Country\nCountry Borders Country\nCountry Type
+Melbourne Demons Located In City\nCity Has Landmark Public square\nPublic square Purpose
+Crete Near Country\nCountry Located In Continent\nContinent Population
+Mathematics Related To Mathematical discipline\nMathematical discipline Used In Process\nProcess Has Field Mathematical discipline\nMathematical discipline Related To
+Customs Administered By Organization\nOrganization Regulates Social science\nSocial science Haseffecton QuantitativeMeasure\nQuantitativeMeasure Definition
+Scottish Crown Jewels Located In Castle\nCastle Located In City\nCity Part Of Country\nCountry Prime Minister
+California Current Flows Into Ocean\nOcean Currents Ocean current\nOcean current Speed
+After Life  TV series  Country Of Origin Country\nCountry Member Of Intergovernmental\nIntergovernmental Official Language
+Suffolk Part Of Country\nCountry Borders With Country\nCountry Highest Point
+Yellowstone National Park Located In Country\nCountry Part Of Continent\nContinent Type
+Queenstown Skyline Located In Country\nCountry Has Neighbour Country\nCountry Has Capital City\nCity Established
+Prince Harry  Duke of Sussex Child Of Monarch\nMonarch Predecessor Of Monarch\nMonarch Predecessor Of Monarch\nMonarch Religion
+Animal Welfare Concerned With Living organism\nLiving organism Feeds On Living organism\nLiving organism Primary Metabolite
+Consumer Behavior Affected By Industry\nIndustry Evaluated By Research\nResearch Timeline
+Māori language Part Of LanguageFamily\nLanguageFamily Part Of Migration\nMigration Geographic Extent
+Skyline Gondola  Queenstown  Provides View Of Lake\nLake Contains Mountain\nMountain Overlooks Lake\nLake Tributaries
+Researcher Collaborates With Occupation\nOccupation Field Of Study
+Cretaceous Followed By GeologicalPeriod\nGeologicalPeriod Preceded By GeologicalPeriod\nGeologicalPeriod Related To Concept Scientific Theory\nScientific Theory Time Scale
+Chaslands Located In Country\nCountry Has Neighbour Country\nCountry Currency
+Maui  island  Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Formed
+Environment Impacts LivingOrganism\nLivingOrganism Requires
+Municipalities of Nova Scotia Located In Region\nRegion Adjacent To Country\nCountry Largest City
+Peggy s Cove Featured In Visual art\nVisual art Genre
+Alberta Landmark National Park\nNational Park Located In Province\nProvince Population 2021
+European Powers Led To Political union\nPolitical union Located In Continent\nContinent Located In Continent\nContinent Population
+Microbiology Studied In Scientific discipline\nScientific discipline Affects Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Primary Effect
+African American Culture Has Genre MusicGenre\nMusicGenre Influence
+Small Business Usestechnology Field of study\nField of study Used For Process\nProcess Used By Mammal\nMammal Kingdom
+Hawkesbury River Located In State\nState Borders State\nState Borders On Monarch\nMonarch Birth Place
+New Zealand Sign Language Used For Process\nProcess Used By Mammal\nMammal Class
+Brown kiwi Has Habitat Country\nCountry Has Capital City\nCity Region
+Native Americans Part Of Q4322\nQ4322 Has Language Formal system\nFormal system Instance Of
+Australia Has Official Language Language\nLanguage Spokenin Country\nCountry Has Monarch Monarch\nMonarch Title
+Invercargill Airport Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Member State Country\nCountry Currency
+Enclosure Part Of Historical Period\nHistorical Period End Date
+Tama River Located In Country\nCountry Influenced By Country\nCountry Area
+Jazz Music Associated With Event ArtisticMovement\nArtisticMovement Influenced MusicGenre\nMusicGenre Associated With Event ArtisticMovement\nArtisticMovement Time Period Start
+Minnam-Kakamigahara Part Of Prefecture\nPrefecture Located In Country\nCountry Located In Continent\nContinent Lowest Point
+Queenstown Marathon Event Type Athletic event\nAthletic event Athlete Participates In Road race\nRoad race Related To Athletic event\nAthletic event Instance Of
+Protected area Protects Ecological system\nEcological system Part Of Closed ecological system\nClosed ecological system Location
+Death Valley Part Of Desert\nDesert Located In Country\nCountry Type
+Standard of Living Affected By Process\nProcess Affects LivingOrganism\nLivingOrganism Type
+Master of Arts Related To Tertiary Education\nTertiary Education Leads To Systematic investigation\nSystematic investigation Related To Academic discipline\nAcademic discipline Language
+Resource depletion Linked To Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Size
+Built Environment Affects Place\nPlace Impacts LivingOrganism\nLivingOrganism Definition
+Timber Impacts Place\nPlace Impacts LivingOrganism\nLivingOrganism Affected By
+Mawson Station Located In Continent\nContinent Part Of Planet\nPlanet Mass
+Scottish Crown Jewels Located In Castle\nCastle Contains Regalia\nRegalia Alternative Name
+Glacial Deposits Associated With Mechanical & Chemical\nMechanical & Chemical Related To Scientific discipline\nScientific discipline Has Property Fluid\nFluid Type
+United States Environmental Protection Agency Regulates Contamination\nContamination Related To Process\nProcess Contributes To Environmental Issue\nEnvironmental Issue Major Impact
+African Union Member Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Member Of Intergovernmental\nIntergovernmental Headquarters Location
+Further Jacobite Plots Involved Royal\nRoyal Claimed Title
+Glasgow Cathedral Located In City\nCity Is Capital Of Local authority\nLocal authority Part Of City\nCity Population
+Tenant Has Relationship Occupation\nOccupation Rents To Legal person\nLegal person Type
+Tamara Smart Instance Of Mammal\nMammal Parent Of Mammal\nMammal Mass
+Baroque Associated With Place Country\nCountry Borders Country Country\nCountry Has Border With Country\nCountry Area
+Hydrothermal vent Part Of Saltwater\nSaltwater Contains Biodiversity\nBiodiversity Includes Vertebrate\nVertebrate Kingdom
+Clan System Part Of Culture\nCulture Part Of Country\nCountry Official Language
+Nelson  New Zealand Located In Country\nCountry Has Capital City\nCity Capital Of Country\nCountry Type
+20th Century Witnessed Event War\nWar Involved Military alliance\nMilitary alliance Declared War On Country\nCountry Capital
+Social Integration Has Agent Organization\nOrganization Regulates Social science\nSocial science Influencedby Field of study\nField of study Driving Force
+Chollar Mine Located In AdministrativeRegion\nAdministrativeRegion Borders AdministrativeDivision\nAdministrativeDivision Borders AdministrativeDivision\nAdministrativeDivision Capital
+Francesco Borromini Member Of ArchitecturalStyle\nArchitecturalStyle Influenced ArchitecturalStyle\nArchitecturalStyle Decline
+Long-beaked Common Ground-Dove Subclass Of Class\nClass Taxon Living organism\nLiving organism Body Plan
+Panoramic view Captured By Visual art\nVisual art Pioneer
+Coral Reef Threatened By Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Conservation Status
+Mojave Desert Influenced By Ocean\nOcean Supports Biodiversity\nBiodiversity Salt Tolerance
+Ian McKellen Country Of Citizenship Country\nCountry Member Of Political association\nPolitical association Formed
+Brisbane River Used For Infrastructure\nInfrastructure Impacts Social science\nSocial science Measurement
+Franz Josef  glacier  Influenced By Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Measurement Unit
+Gesgasegiag Originates From Continent\nContinent Borders Ocean\nOcean Largest
+Kakamigahara Aerospace Museum Located In Prefecture\nPrefecture Located In Country\nCountry National Sport
+Squid Is Prey For Animal\nAnimal Part Of Biome\nBiome Primary Producers
+Darwin Glacier Located In Continent\nContinent Surrounded By Ocean\nOcean Part Of Ocean\nOcean Temperature Range
+Ecosystem Has Property LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Size
+National Economy Influencedby Regulation\nRegulation Supports Service\nService Part Of Social science\nSocial science Type
+Fog Affects Infrastructure\nInfrastructure Impacts Social science\nSocial science Key Concept
+Renaissance Architecture Influenced ArchitecturalStyle\nArchitecturalStyle Associated With PhilosophicalConcept\nPhilosophicalConcept Related To
+Aleutian Islands Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Purpose
+Kea Interacts With Bird\nBird Part Of Biogeographic Realm\nBiogeographic Realm Biodiversity
+Victorian Literature Influenced By ArtMovement\nArtMovement Preceded HistoricalPeriod\nHistoricalPeriod Related To Former empire\nFormer empire Capital
+Tribe Located In Administrative division\nAdministrative division Natural Feature Geological Feature\nGeological Feature Supports Ecological system\nEcological system Energy Source
+Pedagogy Related To Social science\nSocial science Field Of Academic discipline\nAcademic discipline Interdisciplinary
+Local Government Responsiblefor Physical & Digital\nPhysical & Digital Impacts Discipline\nDiscipline Scope
+California Ranchos Land Use Industry\nIndustry Impacts Place\nPlace Impacts LivingOrganism\nLivingOrganism Definition
+Teamsters Union Influenced Social Movement\nSocial Movement Related Movement
+Flax Used For Material\nMaterial Produced By Industry\nIndustry Provides Input To Industry\nIndustry Sustainability Concerns
+Te Roroa Influenced By Culture\nCulture Has Tradition Performance art\nPerformance art Uses Language Language\nLanguage Dialect Region
+Charles Darwin Member Of Scientific society\nScientific society Country Of Origin Country\nCountry Population
+Community Event Supports Business\nBusiness Supports EconomicArea\nEconomicArea Partof Administrative division\nAdministrative division Size
+Expansion of Canada Involved Q4322\nQ4322 Has Right LegalRight\nLegalRight Definition
+Death Valley Located In AdministrativeRegion\nAdministrativeRegion Borders Country\nCountry Has Border With Country\nCountry Sovereignty
+Ancient Egyptian Architecture Located In Country\nCountry Influenced By Civilization\nCivilization Type
+Joseph Strauss Designed Suspension bridge\nSuspension bridge Built During EconomicCrisis\nEconomicCrisis Unemployment Peak
+Atlantic Ocean Part Of Ocean\nOcean Influences Weather phenomenon\nWeather phenomenon Time Scale
+Gastronomy Related To Industry\nIndustry Related To Infrastructure\nInfrastructure Influenced By Field of study\nField of study Definition
+Canberra Part Of Country\nCountry Influenced By Former empire\nFormer empire Major Resource
+Tsunami Caused By Natural disaster\nNatural disaster Has Effect Natural disaster\nNatural disaster Travel Time
+Celebrity Culture Causes EconomicActivity\nEconomicActivity Drives Process\nProcess Related Concept
+Labor Market Part Of Social science\nSocial science Haseffecton Voluntary exchange\nVoluntary exchange Part Of Social science\nSocial science Discipline Area
+Kimono Made From Textile\nTextile Used For Textile\nTextile Origin
+Pacific Northwest Contains AdministrativeDivision\nAdministrativeDivision Borders AdministrativeRegion\nAdministrativeRegion Nickname
+Te Wahipounamu Part Of Island\nIsland Influenced By Strike-slip fault\nStrike-slip fault Associated With NationalPark\nNationalPark Ecosystem
+Mataura River Located In AdministrativeDivision\nAdministrativeDivision Part Of Country\nCountry Has Neighbour Country\nCountry Capital
+Demography Part Of Collective\nCollective Impacted By Field of study\nField of study Used By Mammal\nMammal Average Lifespan
+Tuff Ring Located In AdministrativeDivision\nAdministrativeDivision Borders AdministrativeDivision\nAdministrativeDivision Time Zone
+Abundance Supports Concept\nConcept Supports LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Start Date
+Mount Rotoroa Part Of Country\nCountry Has Currency Currency\nCurrency Currency Code
+African American Culture Has Expression Cuisine\nCuisine Instance Of Food preparation\nFood preparation Reflects
+Seattle Seahawks Located In City\nCity Located In AdministrativeDivision\nAdministrativeDivision Capital
+Dance Related To Auditory art\nAuditory art Influenced By Academic discipline\nAcademic discipline Application
+Coral Reef Part Of Saltwater\nSaltwater Part Of Planet\nPlanet Orbits Star\nStar Surface Temperature
+James Clark Ross Discovery Location Landmass\nLandmass Explored By Explorer\nExplorer Spouse
+Community  TV series  Genre Performing art\nPerforming art Medium
+Skyline Enterprises Service Area Country\nCountry Part Of Planet\nPlanet Tectonic Plates Geosphere\nGeosphere Density
+Yellow-eyed Penguin Has Habitat Country\nCountry Part Of Planet\nPlanet Has Moon Natural Satellite\nNatural Satellite Temperature Range
+Polynesia Includes Country\nCountry Located In Continent\nContinent Contains Country\nCountry Population
+Territory Resource Has Solid\nSolid Found In Mineral Aggregate\nMineral Aggregate Type
+Pacific Mythology Related To Art\nArt Originates From Continent\nContinent Has Region Region\nRegion Countries
+Animal Feeds On Living organism\nLiving organism Requires Fluid\nFluid Part Of Planet\nPlanet Type
+Local Government Responsiblefor Physical & Digital\nPhysical & Digital Supports Social science\nSocial science Type
+Gore District Adjacent To Local government area\nLocal government area Located In AdministrativeDivision\nAdministrativeDivision Located In Country\nCountry Currency
+Westland  Netherlands  Economic Activity Industry\nIndustry Affected By Weather phenomenon\nWeather phenomenon Instance Of Atmospheric phenomenon\nAtmospheric phenomenon Affected By
+Ecosystem Has Property LivingThing\nLivingThing Instance Of Biological process\nBiological process Domain
+Minnam-Kakamigahara Neighbor City\nCity Has Transport Railway line\nRailway line Serves Location Prefecture\nPrefecture Type
+South Australia Borders On Monarch\nMonarch Spouse Monarch\nMonarch Educated At University\nUniversity Staff Size
+White Wine Is A Fermented drink\nFermented drink Produced In Agricultural practice\nAgricultural practice Requires Plant\nPlant Propagation
+Ancient Greece Influenced Empire\nEmpire Influenced Culture\nCulture Political System
+Rarotonga Has River River\nRiver Used For Industry\nIndustry Impacts Place\nPlace Affected By
+Kōhanga Reo Supports Kinship group\nKinship group Includes Mountain\nMountain National Park
+University of Glasgow Member Of Higher education association\nHigher education association Memberof Country\nCountry Prime Minister
+New Zealand House of Representatives Governs Country\nCountry Has Capital City\nCity Part Of Island\nIsland Geological Feature
+DJing Influenced By MusicGenre\nMusicGenre Associated With Dance\nDance Music Genre
+Fertility Rate Related To Demographic\nDemographic Definition
+American Dream Associated With Social process\nSocial process Causes Inequality\nInequality Impact 3
+Auckland Has Landmark Park\nPark Located In Region\nRegion Largest City
+Canberra Capital Of Country\nCountry Member Of Political association\nPolitical association Purpose
+Caribbean Sea Adjacent To Continent\nContinent Part Of Continent\nContinent Discovery Date
+Transatlantic Slave Trade Affected Continent\nContinent Part Of Planet\nPlanet Part Of Star System\nStar System Number Of Planets
+Reserve Bank of New Zealand Issues Currency\nCurrency Managed By Central bank\nCentral bank Primary Function
+Robert Burns Instance Of Mammal\nMammal Parent Of Mammal\nMammal Parent Of Mammal\nMammal Height
+Environmental Awareness Causes Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Threats
+Transportation Influenced By Field of study\nField of study Part Of Collective\nCollective Impacted By Field of study\nField of study Definition
+Paleocene Epoch Followed By GeologicalPeriod\nGeologicalPeriod Influenced By Scientific Theory\nScientific Theory Explains Geological Process\nGeological Process Primary Mechanism
+Research Related To Academic discipline\nAcademic discipline Used In Field of study\nField of study Has Property Process\nProcess Benefit
+Silk Road Facilitated Spread Of Religion\nReligion Holy Day
+Hip Hop Culture Associated With Artwork\nArtwork Associated With SocialGroup\nSocialGroup Part Of Collective\nCollective Type
+Roaring Forties Influences Climate Of Country\nCountry Part Of Planet\nPlanet Orbital Period
+Aitutaki Lagoon Part Of Country\nCountry Influenced By Country\nCountry Member Of Intergovernmental\nIntergovernmental Secretary General
+Sustainable Agriculture Addresses Problem Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Value
+Commonwealth Secretariat Workswith Intergovernmental\nIntergovernmental Member State Country\nCountry Shares Border With Country\nCountry Continent
+Tenant Has Relationship Occupation\nOccupation Rents To Legal person\nLegal person Duration
