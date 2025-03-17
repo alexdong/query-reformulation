@@ -34,10 +34,9 @@ def traverse_relationship_chain(
 
         # Get relationships for the current entity
         relationships = get_entity_relationships(current_entity)
-        if not relationships:
-            break
+        assert relationships, f"No relationships found for {current_entity}"
 
-        # Pick a random relationship
+        # Instead of picking a random relationship, pick the random one where the target entity exists, ai!
         relationship = random.choice(relationships)
 
         # Extract relationship type and target entity
@@ -57,17 +56,9 @@ def traverse_relationship_chain(
     return chain
 
 def generate(start_entity: str) -> str:
-    """Generate a chaining subquery starting from the given entity.
-    
-    Args:
-        start_entity: The entity to start the chain from
-        
-    Returns:
-        A string containing the generated subquery or empty string if generation failed
-    """
     # Traverse relationship chain
     chain = traverse_relationship_chain(start_entity)
-
+    print(chain)
     if not chain:
         return ""
 
@@ -75,48 +66,17 @@ def generate(start_entity: str) -> str:
     final_entity = chain[-1][2]
     properties = get_entity_properties(final_entity)
 
-    # Filter out common metadata properties
-    filtered_props = {
-        k: v for k, v in properties.items()
-        if k not in ["type", "instance_of", "description"]
-    }
-
-    if filtered_props:
-        # Add a property query
-        prop_name = random.choice(list(filtered_props.keys()))
-        formatted_prop = format_property_name(prop_name)
-        chain.append((final_entity, formatted_prop, filtered_props[prop_name]))
-
     # Generate subqueries
     subqueries = []
 
-    # Process relationship chain
-    for i, (source, rel_type, target) in enumerate(chain):
-        if i < len(chain) - 1 or not filtered_props:
-            # For relationships
-            source_type = ""
-            source_data = load_entity_data(source)
-            if source_data and "properties" in source_data:
-                if "type" in source_data["properties"]:
-                    source_type = source_data["properties"]["type"]
-                elif "instance_of" in source_data["properties"]:
-                    source_type = source_data["properties"]["instance_of"]
+    chain_length = random.randint(2, 3)
+    while len(subqueries) < chain_length:
+        source, rel_type, target = random.choice(chain)
+        subqueries.append(f"{source} {rel_type}")
 
-            target_type = ""
-            target_data = load_entity_data(target)
-            if target_data and "properties" in target_data:
-                if "type" in target_data["properties"]:
-                    target_type = target_data["properties"]["type"]
-                elif "instance_of" in target_data["properties"]:
-                    target_type = target_data["properties"]["instance_of"]
-
-            if source_type and target_type:
-                subqueries.append(f"{source} {rel_type} {target_type}")
-            else:
-                subqueries.append(f"{source} {rel_type} {target}")
-        else:
-            # For the final property
-            subqueries.append(f"{source} {rel_type}")
+    # Always end with the last target's property query
+    target_entity = get_entity_properties(target)
+    subqueries.append(f"{final_entity} {format_property_name(random.choice(list(properties.keys())))}")
 
     # Join with \n to keep on one line
     return "\\n".join(subqueries)
@@ -137,4 +97,5 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
     )
 
 if __name__ == "__main__":
-    generate_chaining_subqueries()
+    generate("Dunedin")
+    #generate_chaining_subqueries()
