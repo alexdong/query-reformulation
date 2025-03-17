@@ -42,8 +42,8 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     # Calculate and print token usage and cost
     input_tokens = response.usage.prompt_tokens
     output_tokens = response.usage.completion_tokens
-    input_cost = input_tokens * 0.00015  # $1.15 per 1M tokens
-    output_cost = output_tokens * 0.0006  # $4.40 per 1M tokens
+    input_cost = input_tokens * 0.00000115  # $1.15 per 1M tokens
+    output_cost = output_tokens * 0.00000440  # $4.40 per 1M tokens
     total_cost = input_cost + output_cost
     
     print(f"[INFO] Token usage: {input_tokens} input tokens, {output_tokens} output tokens")
