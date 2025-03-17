@@ -65,7 +65,6 @@ def clean_csv_values(csv_string: str) -> List[str]:
 
     return values
 
-# generate should take in an entity and return "" if it has no CSV properties. ai!
 def generate(entity_name: str) -> str:
     """Generate an expansion subquery for a given entity.
     
