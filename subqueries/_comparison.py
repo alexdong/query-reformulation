@@ -13,7 +13,7 @@ from _utils import (
     get_entity_properties
 )
 
-OUTPUT_FILE = DATASET_DIR / "comparison.txt"
+OUTPUT_FILE = DATASET_DIR / "subqueries-comparison.txt"
 
 def get_entities_by_type(entity_type: str, count: int = 3) -> List[str]:
     """Find entities of the specified type."""
