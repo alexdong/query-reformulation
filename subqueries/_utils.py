@@ -40,8 +40,8 @@ def get_all_entity_types() -> List[str]:
     return list(filter(None, entity_types))
 
 def get_entity_properties(entity: str) -> Dict[str, str]:
-    """Get properties for a specific entity."""
     data = load_entity_data(entity)
+    # Do not return "type" property, ai!
     return data["properties"]
 
 def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
