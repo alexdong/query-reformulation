@@ -74,6 +74,7 @@ def generate_reformulation(
 
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
+# Quantise the model and run on onnxruntime, ai!
 def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: bool = False) -> Dict[str, float]:
     """Benchmark the model on the dataset."""
     model, tokenizer, device = load_model(model_size, force_cpu)
