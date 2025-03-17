@@ -1,4 +1,5 @@
 import json
+import statistics
 import time
 from pathlib import Path
 from typing import Any, Dict, List
@@ -78,6 +79,7 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
 
     total_time = 0
     total_queries = len(dataset)
+    query_times = []  # Track individual query times for statistics
 
     # Warm-up run
     if total_queries > 0:
@@ -92,6 +94,7 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
         reformulation = generate_reformulation(model, tokenizer, query, device)
         query_time = time.time() - query_start
         total_time += query_time
+        query_times.append(query_time)  # Store individual query time
 
         """
         print(f"Query: {query}")
@@ -102,17 +105,24 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
 
     end_time = time.time()
 
+    # Calculate statistics
+    median_time = statistics.median(query_times) if query_times else 0
+    stddev_time = statistics.stdev(query_times) if len(query_times) > 1 else 0
+
     results = {
         "model_size": model_size,
         "total_time": end_time - start_time,
         "average_time": total_time / total_queries if total_queries > 0 else 0,
+        "median_time": median_time,
+        "stddev_time": stddev_time,
         "queries_per_second": total_queries / total_time if total_time > 0 else 0,
         "total_queries": total_queries,
+        "query_times": query_times,  # Include all individual times for further analysis if needed
     }
 
     return results
 
-def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> List[Dict[str, float]]:
+def run_benchmarks(model_sizes: List[str] = MODEL_SIZES, force_cpu: bool = False) -> List[Dict[str, float]]:
     """Run benchmarks for all specified model sizes."""
     dataset = load_dataset(DEV_DATASET)
 
@@ -120,16 +130,29 @@ def run_benchmarks(model_sizes: List[str] = MODEL_SIZES) -> List[Dict[str, float
 
     results = []
     for model_size in model_sizes:
-        result = benchmark_model(model_size, dataset, force_cpu=True)
+        result = benchmark_model(model_size, dataset, force_cpu)
         results.append(result)
 
         print(f"\n[RESULTS] flan-t5-{model_size}:")
         print(f"Average time per query: {result['average_time']:.4f}s")
-        # add median time per query and stddev, ai!
+        print(f"Median time per query: {result['median_time']:.4f}s")
+        print(f"Standard deviation: {result['stddev_time']:.4f}s")
         print("=" * 50)
 
     return results
 
 if __name__ == "__main__":
-    for model_size in MODEL_SIZES:
-        run_benchmarks(args.model_size)
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Benchmark Flan-T5 models for query reformulation")
+    parser.add_argument("--model-size", choices=MODEL_SIZES, default=None, 
+                        help="Size of the model to benchmark (small, base, large)")
+    parser.add_argument("--force-cpu", action="store_true", 
+                        help="Force using CPU even if GPU/MPS is available")
+    
+    args = parser.parse_args()
+    
+    if args.model_size:
+        run_benchmarks([args.model_size], args.force_cpu)
+    else:
+        run_benchmarks(MODEL_SIZES, args.force_cpu)
