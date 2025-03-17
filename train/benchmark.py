@@ -66,21 +66,21 @@ def quantize_and_export_to_onnx(
     tokenizer: AutoTokenizer, 
     model_size: str
 ) -> Path:
-    """Quantize the model and export to ONNX format.
+    """Export the model to ONNX format.
     
     Args:
-        model: The PyTorch model to quantize and export
+        model: The PyTorch model to export
         tokenizer: The tokenizer for the model
         model_size: Size of the model ('small', 'base', or 'large')
         
     Returns:
         Path to the exported ONNX model
     """
-    print(f"[INFO] Quantizing and exporting model to ONNX...")
+    print(f"[INFO] Exporting model to ONNX...")
     
     # Create directory if it doesn't exist
     ONNX_DIR.mkdir(parents=True, exist_ok=True)
-    onnx_path = ONNX_DIR / f"flan-t5-{model_size}-quantized.onnx"
+    onnx_path = ONNX_DIR / f"flan-t5-{model_size}.onnx"
     
     # Skip if model already exists
     if onnx_path.exists():
@@ -90,19 +90,13 @@ def quantize_and_export_to_onnx(
     # Prepare model for export
     model.eval()
     
-    # Quantize the model to int8
-    # Note: We're using dynamic quantization which is applied during export
-    quantized_model = torch.quantization.quantize_dynamic(
-        model, {torch.nn.Linear}, dtype=torch.qint8
-    )
-    
     # Create dummy input for tracing
     dummy_input = tokenizer("reformulate:This is a test query", return_tensors="pt")
     
     # Export the model to ONNX
     with torch.no_grad():
         torch.onnx.export(
-            quantized_model,
+            model,
             (dummy_input["input_ids"], dummy_input["attention_mask"]),
             onnx_path,
             opset_version=12,
@@ -189,9 +183,9 @@ def benchmark_model(
         model, tokenizer, device = load_model(model_size, force_cpu=True)  # Force CPU for ONNX export
         
         # Check if ONNX model already exists
-        onnx_path = ONNX_DIR / f"flan-t5-{model_size}-quantized.onnx"
+        onnx_path = ONNX_DIR / f"flan-t5-{model_size}.onnx"
         if not onnx_path.exists():
-            # Quantize and export to ONNX only if it doesn't exist
+            # Export to ONNX only if it doesn't exist
             onnx_path = quantize_and_export_to_onnx(model, tokenizer, model_size)
         else:
             print(f"[INFO] Using existing ONNX model at {onnx_path}")
