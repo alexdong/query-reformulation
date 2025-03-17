@@ -1,7 +1,7 @@
 import os
 import json
 from pathlib import Path
-from typing import List
+from typing import List, Tuple, Dict, Any
 
 import jinja2
 from openai import OpenAI
@@ -14,6 +14,58 @@ REFORMULATION_TYPES = ["comparison", "expansion", "chaining"]
 # Ensure the queries directory exists
 QUERIES_DIR.mkdir(exist_ok=True)
 
+def render_prompt(reformulation_type: str, subqueries: str) -> str:
+    """
+    Render the prompt template for the given reformulation type and subqueries.
+    
+    Args:
+        reformulation_type: One of "comparison", "expansion", or "chaining"
+        subqueries: The subqueries string to reformulate
+        
+    Returns:
+        The rendered prompt
+    """
+    # Set up Jinja2 environment with the correct template loader
+    template_loader = jinja2.FileSystemLoader(PROMPTS_DIR)
+    template_env = jinja2.Environment(loader=template_loader)
+    
+    # Load the template for the specific reformulation type
+    template = template_env.get_template(f"_PROMPT-{reformulation_type}.md")
+    
+    # Render the template with the subqueries
+    prompt = template.render(subqueries=subqueries)
+    
+    return prompt
+
+def create_request_body(reformulation_type: str, subqueries: str) -> Tuple[Dict[str, Any], str]:
+    """
+    Create the request body for the OpenAI API.
+    
+    Args:
+        reformulation_type: One of "comparison", "expansion", or "chaining"
+        subqueries: The subqueries string to reformulate
+        
+    Returns:
+        Tuple of (request_body, prompt)
+    """
+    prompt = render_prompt(reformulation_type, subqueries)
+    
+    # Create the request body
+    request_body = {
+        "model": "o3-mini",
+        "messages": [
+            {"role": "system", "content": "You are a NLP aware specialist that reverses engineer search subqueries into their original search query."},
+            {"role": "user", "content": prompt}
+        ],
+        "max_completion_tokens": 4068,
+        "metadata": {
+            "subqueries": subqueries,
+            "reformulation_type": reformulation_type
+        }
+    }
+    
+    return request_body, prompt
+
 def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     """
     Generate queries from subqueries using OpenAI's o3-mini model.
@@ -25,28 +77,18 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
     Returns:
         List of generated queries
     """
-    # Set up Jinja2 environment with the correct template loader
-    template_loader = jinja2.FileSystemLoader(PROMPTS_DIR)
-    template_env = jinja2.Environment(loader=template_loader)
-    
-    # Load the template for the specific reformulation type
-    template = template_env.get_template(f"_PROMPT-{reformulation_type}.md")
-    
-    # Render the template with the subqueries
-    prompt = template.render(subqueries=subqueries)
+    # Create the request body and get the rendered prompt
+    request_body, prompt = create_request_body(reformulation_type, subqueries)
     print(prompt)
     
     print(f"[INFO] Generated prompt for {reformulation_type}")
     
+    # Remove metadata from the request for the API call
+    api_request = request_body.copy()
+    api_request.pop("metadata", None)
+    
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    response = client.chat.completions.create(
-        model="o3-mini",
-        messages=[
-            {"role": "system", "content": "You are a NLP aware specialist that reverses engineer search subqueries into their original search query."},
-            {"role": "user", "content": prompt},
-        ],
-        max_completion_tokens=4068,
-    )
+    response = client.chat.completions.create(**api_request)
 
     # Calculate and print token usage and cost
     input_tokens = response.usage.prompt_tokens
@@ -174,13 +216,6 @@ def create_batch_request_file(reformulation_type: str) -> None:
     
     print(f"[INFO] Creating batch request file: {batch_file}")
     
-    # Set up Jinja2 environment with the correct template loader
-    template_loader = jinja2.FileSystemLoader(PROMPTS_DIR)
-    template_env = jinja2.Environment(loader=template_loader)
-    
-    # Load the template for the specific reformulation type
-    template = template_env.get_template(f"_PROMPT-{reformulation_type}.md")
-    
     # Read the subqueries file
     with open(subqueries_file, "r") as f:
         subqueries_list = [line.strip() for line in f if line.strip()]
@@ -188,25 +223,11 @@ def create_batch_request_file(reformulation_type: str) -> None:
     # Create the batch file
     with open(batch_file, "w") as f:
         for subqueries in subqueries_list:
-            # Render the template with the subqueries
-            prompt = template.render(subqueries=subqueries)
-            
-            # Create the batch request object
-            batch_request = {
-                "model": "o3-mini",
-                "messages": [
-                    {"role": "system", "content": "You are a NLP aware specialist that reverses engineer search subqueries into their original search query."},
-                    {"role": "user", "content": prompt}
-                ],
-                "max_completion_tokens": 4068,
-                "metadata": {
-                    "subqueries": subqueries,
-                    "reformulation_type": reformulation_type
-                }
-            }
+            # Create the request body
+            request_body, _ = create_request_body(reformulation_type, subqueries)
             
             # Write the batch request to the file
-            f.write(json.dumps(batch_request) + "\n")
+            f.write(json.dumps(request_body) + "\n")
     
     print(f"[INFO] Created batch request file with {len(subqueries_list)} requests")
     print(f"[INFO] You can now upload this file to OpenAI's batch processing API:")
