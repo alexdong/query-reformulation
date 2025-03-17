@@ -99,22 +99,22 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: b
     stddev_time = statistics.stdev(query_times) if len(query_times) > 1 else 0
     
     # Calculate percentiles
-    p80_index = int(len(query_times) * 0.8)
     p90_index = int(len(query_times) * 0.9)
     p95_index = int(len(query_times) * 0.95)
+    p99_index = int(len(query_times) * 0.99)
     
-    p80_time = query_times[p80_index] if query_times and p80_index < len(query_times) else 0
     p90_time = query_times[p90_index] if query_times and p90_index < len(query_times) else 0
     p95_time = query_times[p95_index] if query_times and p95_index < len(query_times) else 0
+    p99_time = query_times[p99_index] if query_times and p99_index < len(query_times) else 0
 
     return {
         "model_size": model_size,
         "average_time": total_time / total_queries if total_queries > 0 else 0,
         "median_time": median_time,
         "stddev_time": stddev_time,
-        "p80_time": p80_time,
         "p90_time": p90_time,
-        "p95_time": p95_time
+        "p95_time": p95_time,
+        "p99_time": p99_time,
     }
 
 
@@ -123,4 +123,5 @@ if __name__ == "__main__":
     print(f"[INFO] Loaded {len(dataset)} examples from {DEV_DATASET}")
 
     for model_size in MODEL_SIZES:
-        print(benchmark_model(model_size, dataset, force_cpu=True))
+        stats = benchmark_model(model_size, dataset, force_cpu=True))
+        #pretty print stats, ai!
