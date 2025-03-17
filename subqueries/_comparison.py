@@ -4,10 +4,16 @@ import os
 from pathlib import Path
 from typing import List, Dict, Any, Set, Optional, Tuple
 
-# Constants
-FACTS_DIR = Path("facts")
-SUBQUERIES_DIR = Path("subqueries")
-OUTPUT_FILE = Path("dataset/subqueries-comparison.txt")
+from _utils import (
+    FACTS_DIR, 
+    DATASET_DIR, 
+    ensure_output_directory, 
+    load_entity_data,
+    get_all_entity_types,
+    get_entity_properties
+)
+
+OUTPUT_FILE = DATASET_DIR / "subqueries-comparison.txt"
 
 def get_entities_by_type(entity_type: str, count: int = 3) -> List[str]:
     """Find entities of the specified type."""
@@ -46,17 +52,9 @@ def get_common_properties(entities: List[str]) -> List[str]:
     entity_properties = {}
     
     for entity in entities:
-        entity_file = FACTS_DIR / f"{entity.replace(' ', '_')}.json"
-        if not entity_file.exists():
-            continue
-            
-        try:
-            with open(entity_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if "properties" in data:
-                    entity_properties[entity] = set(data["properties"].keys())
-        except Exception as e:
-            print(f"Error reading properties for {entity}: {e}")
+        props = get_entity_properties(entity)
+        if props:
+            entity_properties[entity] = set(props.keys())
     
     # Find intersection of all property sets
     if not entity_properties:
@@ -71,24 +69,10 @@ def get_common_properties(entities: List[str]) -> List[str]:
 
 def generate_comparison_subqueries(count: int = 1333) -> None:
     """Generate comparison subqueries and write to output file."""
-    # Ensure output directory exists
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    ensure_output_directory(OUTPUT_FILE)
     
     # Get all unique entity types
-    entity_types = set()
-    for file_path in FACTS_DIR.glob("*.json"):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if "properties" in data:
-                    if "type" in data["properties"]:
-                        entity_types.add(data["properties"]["type"])
-                    elif "instance_of" in data["properties"]:
-                        entity_types.add(data["properties"]["instance_of"])
-        except Exception:
-            continue
-    
-    entity_types = list(filter(None, entity_types))
+    entity_types = get_all_entity_types()
     
     # Generate subqueries
     subqueries_list = []
