@@ -40,9 +40,13 @@ def get_all_entity_types() -> List[str]:
     return list(filter(None, entity_types))
 
 def get_entity_properties(entity: str) -> Dict[str, str]:
+    """Get properties for a specific entity, excluding the 'type' property."""
     data = load_entity_data(entity)
-    # Do not return "type" property, ai!
-    return data["properties"]
+    if not data or "properties" not in data:
+        return {}
+    
+    # Return all properties except 'type'
+    return {k: v for k, v in data["properties"].items() if k != "type"}
 
 def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
     """Get relationships for a specific entity."""
