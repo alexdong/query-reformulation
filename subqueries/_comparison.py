@@ -79,6 +79,7 @@ def get_common_properties(entities: List[str]) -> List[str]:
     print(f"Found {len(filtered_props)} common properties")
     return filtered_props
 
+# extract a new function called `generate` and call it from `generate_comparison_subqueries`, ai!
 def generate_comparison_subqueries(count: int = 1333) -> None:
     """Generate comparison subqueries and write to output file."""
     print(f"Generating {count} comparison subqueries...")
