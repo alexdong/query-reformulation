@@ -65,6 +65,7 @@ def clean_csv_values(csv_string: str) -> List[str]:
 
     return values
 
+# generate should take in an entity and return "" if it has no CSV properties. ai!
 def generate(entity_name: str) -> str:
     """Generate an expansion subquery for a given entity.
     
@@ -77,30 +78,26 @@ def generate(entity_name: str) -> str:
     # Find CSV properties for this entity
     csv_properties = []
     
-    try:
-        file_path = FACTS_DIR / f"{entity_name.replace(' ', '_')}.json"
-        if not file_path.exists():
-            return ""
-            
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-            if "properties" not in data:
-                return ""
-
-            for prop_name, prop_value in data["properties"].items():
-                # Skip certain metadata properties
-                if prop_name in ["type", "instance_of", "description"]:
-                    continue
-
-                # Check if property value is a string and contains commas
-                if isinstance(prop_value, str) and "," in prop_value:
-                    values = [v.strip() for v in prop_value.split(",") if v.strip()]
-                    if len(values) >= 3:
-                        csv_properties.append((prop_name, prop_value))
-    except Exception as e:
-        print(f"Error processing {entity_name}: {e}")
+    file_path = FACTS_DIR / f"{entity_name.replace(' ', '_')}.json"
+    if not file_path.exists():
         return ""
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+        if "properties" not in data:
+            return ""
+
+        for prop_name, prop_value in data["properties"].items():
+            # Skip certain metadata properties
+            if prop_name in ["type", "instance_of", "description"]:
+                continue
+
+            # Check if property value is a string and contains commas
+            if isinstance(prop_value, str) and "," in prop_value:
+                values = [v.strip() for v in prop_value.split(",") if v.strip()]
+                if len(values) >= 3:
+                    csv_properties.append((prop_name, prop_value))
     
     # If no CSV properties found, return empty string
     if not csv_properties:
