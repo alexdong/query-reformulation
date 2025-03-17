@@ -6,6 +6,7 @@ from typing import List, Dict, Any, Set, Optional, Tuple
 
 # Constants
 FACTS_DIR = Path("facts")
+SUBQUERIES_DIR = Path("subqueries")
 OUTPUT_FILE = Path("dataset/subqueries-comparison.txt")
 
 def get_entities_by_type(entity_type: str, count: int = 3) -> List[str]:
