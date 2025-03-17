@@ -7,11 +7,11 @@
 4. Use abstract or general terms to consolidate the subqueries into a single question.
 {% endblock %}
 
-{% block human-submit-query %}
+{% block human_query %}
 which invention by Nicola Tesla has the biggest impact on society?
 {% endblock %}
 
-{% block reformulated-quries %}
+{% block reformulated_queries %}
 Impact of Induction motor
 Impact of Tesla Coil
 Impact of AC system design
