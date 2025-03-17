@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 import torch
+from tqdm import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 DEV_DATASET = Path("datasets/dev.jsonl")
@@ -71,9 +72,9 @@ def generate_reformulation(
 
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-def benchmark_model(model_size: str, dataset: List[Dict[str, Any]]) -> Dict[str, float]:
+def benchmark_model(model_size: str, dataset: List[Dict[str, Any]], force_cpu: bool = False) -> Dict[str, float]:
     """Benchmark the model on the dataset."""
-    model, tokenizer, device = load_model(model_size, force_cpu=True)
+    model, tokenizer, device = load_model(model_size, force_cpu)
 
     total_time = 0
     total_queries = len(dataset)
@@ -85,8 +86,7 @@ def benchmark_model(model_size: str, dataset: List[Dict[str, Any]]) -> Dict[str,
     print(f"[INFO] Benchmarking flan-t5-{model_size} on {total_queries} queries...")
     start_time = time.time()
 
-    # add a progress bar visualization here, ai!
-    for item in dataset:
+    for item in tqdm(dataset, desc=f"Processing queries", unit="query"):
         query = item["query"]
         query_start = time.time()
         reformulation = generate_reformulation(model, tokenizer, query, device)
