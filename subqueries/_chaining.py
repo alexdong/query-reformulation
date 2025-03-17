@@ -71,19 +71,19 @@ def generate(start_entity: str) -> str:
     if not chain:
         return ""
 
+    # Generate subqueries
+    subqueries = []
+    chain_length = random.randint(2, 3)
+    while len(subqueries) < chain_length:
+        source, rel_type, target = random.choice(chain)
+        # Add `target` entity's type to the subquery, ai!
+        subqueries.append(f"{source} {format_property_name(rel_type)}")
+
     # Add a property query at the end if possible
     final_entity = chain[-1][2]
     properties = get_entity_properties(final_entity)
 
-    # Generate subqueries
-    subqueries = []
-
-    chain_length = random.randint(2, 3)
-    while len(subqueries) < chain_length:
-        source, rel_type, target = random.choice(chain)
-        subqueries.append(f"{source} {rel_type}")
-
-    # Always end with the last target's property query
+   # Always end with the last target's property query
     target_entity = get_entity_properties(target)
     subqueries.append(f"{final_entity} {format_property_name(random.choice(list(properties.keys())))}")
 
@@ -106,5 +106,6 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
     )
 
 if __name__ == "__main__":
-    generate("Dunedin")
+    #generate("Dunedin")
+    generate("Clutha River")
     #generate_chaining_subqueries()
