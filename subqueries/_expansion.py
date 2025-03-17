@@ -66,16 +66,49 @@ def clean_csv_values(csv_string: str) -> List[str]:
     return values
 
 # generate should take in an entity and return "" if it has no CSV properties. ai!
-def generate(csv_property: Tuple[str, str, str]) -> str:
-    """Generate an expansion subquery for a given entity with CSV property.
+def generate(entity_name: str) -> str:
+    """Generate an expansion subquery for a given entity.
     
     Args:
-        csv_property: Tuple of (entity_name, property_name, property_value)
+        entity_name: The name of the entity to generate expansion for
         
     Returns:
         A string containing the generated subquery or empty string if generation failed
     """
-    entity_name, prop_name, prop_value = csv_property
+    # Find CSV properties for this entity
+    csv_properties = []
+    
+    try:
+        file_path = FACTS_DIR / f"{entity_name.replace(' ', '_')}.json"
+        if not file_path.exists():
+            return ""
+            
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+            if "properties" not in data:
+                return ""
+
+            for prop_name, prop_value in data["properties"].items():
+                # Skip certain metadata properties
+                if prop_name in ["type", "instance_of", "description"]:
+                    continue
+
+                # Check if property value is a string and contains commas
+                if isinstance(prop_value, str) and "," in prop_value:
+                    values = [v.strip() for v in prop_value.split(",") if v.strip()]
+                    if len(values) >= 3:
+                        csv_properties.append((prop_name, prop_value))
+    except Exception as e:
+        print(f"Error processing {entity_name}: {e}")
+        return ""
+    
+    # If no CSV properties found, return empty string
+    if not csv_properties:
+        return ""
+    
+    # Pick a random CSV property
+    prop_name, prop_value = random.choice(csv_properties)
     
     # Split and clean the CSV value
     values = clean_csv_values(prop_value)
@@ -106,10 +139,10 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
     """Generate expansion subqueries and write to output file."""
     ensure_output_directory(OUTPUT_FILE)
 
-    # Find entities with CSV properties
-    csv_properties = find_entities_with_csv_properties()
-    assert csv_properties, "No entities with CSV properties found"
-    print(f"Found {len(csv_properties)} entities with CSV properties")
+    # Get all entity files
+    entity_files = list(FACTS_DIR.glob("*.json"))
+    assert entity_files, "No entity files found"
+    print(f"Found {len(entity_files)} entity files")
 
     subqueries_list = []
     max_attempts = count * 10  # Limit attempts to avoid infinite loops
@@ -126,12 +159,12 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
         while len(subqueries_list) < count and attempts < max_attempts:
             attempts += 1
             
-            if not csv_properties:
-                break
-                
-            # Pick a random entity with CSV property and generate a subquery
-            csv_property = random.choice(csv_properties)
-            subquery = generate(csv_property)
+            # Pick a random entity
+            random_file = random.choice(entity_files)
+            entity_name = random_file.stem.replace("_", " ")
+            
+            # Generate a subquery
+            subquery = generate(entity_name)
             
             if not subquery or subquery in subqueries_list:
                 continue
@@ -146,5 +179,4 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
     print(f"Completed generating {len(subqueries_list)} expansion subqueries")
 
 if __name__ == "__main__":
-    generate("Dunedin")
-    #generate_expansion_subqueries()
+    generate_expansion_subqueries()
