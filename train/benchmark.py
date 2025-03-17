@@ -260,6 +260,9 @@ if __name__ == "__main__":
     model_size = "base"
     force_cpu = True
     use_onnx = True
+    
+    # Load the dataset
+    dataset = load_dataset(DEV_DATASET)
 
     stats = benchmark_model(model_size, dataset, force_cpu, use_onnx)
     
