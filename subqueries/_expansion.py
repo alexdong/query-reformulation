@@ -4,12 +4,12 @@ import re
 from typing import List, Tuple
 
 from _utils import (
-    DATASET_DIR,
+    SUBQUERIES_DIR,
     FACTS_DIR,
     ensure_output_directory,
 )
 
-OUTPUT_FILE = DATASET_DIR / "subqueries-expansion.txt"
+OUTPUT_FILE = SUBQUERIES_DIR / "expansion.txt"
 
 def find_entities_with_csv_properties(min_values: int = 3, max_values: int = 10) -> List[Tuple[str, str, str]]:
     """

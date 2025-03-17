@@ -2,7 +2,7 @@ import random
 from typing import List, Tuple
 
 from _utils import (
-    DATASET_DIR,
+    SUBQUERIES_DIR,
     FACTS_DIR,
     ensure_output_directory,
     get_entity_properties,
@@ -10,7 +10,7 @@ from _utils import (
     load_entity_data,
 )
 
-OUTPUT_FILE = DATASET_DIR / "subqueries-chaining.txt"
+OUTPUT_FILE = SUBQUERIES_DIR / "chaining.txt"
 
 def traverse_relationship_chain(
     start_entity: str,
@@ -56,6 +56,7 @@ def traverse_relationship_chain(
 
 def generate_chaining_subqueries(count: int = 1333) -> None:
     """Generate chaining subqueries and write to output file."""
+    print(f"Generating {count} chaining subqueries...")
     ensure_output_directory(OUTPUT_FILE)
 
     # Get all entity files
@@ -63,6 +64,8 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
     if not entity_files:
         print("No entity files found")
         return
+        
+    print(f"Found {len(entity_files)} entity files")
 
     # Generate subqueries
     subqueries_list = []
@@ -72,6 +75,10 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         while len(subqueries_list) < count and attempts < max_attempts:
             attempts += 1
+            
+            # Print progress more frequently
+            if attempts % 100 == 0:
+                print(f"Attempt {attempts}/{max_attempts}, generated {len(subqueries_list)}/{count} subqueries")
 
             # Pick a random entity to start with
             random_file = random.choice(entity_files)
@@ -127,7 +134,8 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
                     # For the final property
                     subqueries.append(f"{source} {rel_type}")
 
-            subquery_text = "\n".join(subqueries)
+            # Join with \n to keep on one line
+            subquery_text = "\\n".join(subqueries)
 
             # Avoid duplicates
             if subquery_text not in subqueries_list:
@@ -135,8 +143,8 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
                 f.write(f"{subquery_text}\n")
 
                 # Print progress
-                if len(subqueries_list) % 100 == 0:
-                    print(f"Generated {len(subqueries_list)} chaining subqueries")
+                if len(subqueries_list) % 50 == 0:
+                    print(f"Generated {len(subqueries_list)}/{count} chaining subqueries")
 
     print(f"Completed generating {len(subqueries_list)} chaining subqueries")
 
