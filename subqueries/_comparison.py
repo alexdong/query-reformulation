@@ -63,14 +63,14 @@ def get_common_properties(entities: List[str]) -> List[str]:
 
     for entity in entities:
         props = get_entity_properties(entity)
-        if props:
-            # Only consider properties with non-empty values
-            entity_properties[entity] = {k for k, v in props.items() if v}
-            
-            # Check which properties have numeric values
-            for prop, value in props.items():
-                if value and any(char.isdigit() for char in str(value)):
-                    properties_with_numbers.add(prop)
+
+        # Only consider properties with non-empty values
+        entity_properties[entity] = {k for k, v in props.items() if v}
+        
+        # Check which properties have numeric values
+        for prop, value in props.items():
+            if value and any(char.isdigit() for char in str(value)):
+                properties_with_numbers.add(prop)
 
     # Find intersection of all property sets
     if not entity_properties or len(entity_properties) < 2:
@@ -97,19 +97,19 @@ def generate(entity_type: str) -> str:
         A string containing the generated subquery or empty string if generation failed
     """
     # Get random entities of this type
-    entities = get_entities_by_type(entity_type, 2, 5)
-
+    entities = get_entities_by_type(entity_type, 2, 3)
     if len(entities) < 2:
         return ""  # Need at least 2 entities for comparison
 
     # Find common properties
+    print(f"Generating comparison for {entity_type} entities: {entities}")
     common_props = get_common_properties(entities)
-
     if not common_props:
         return ""
 
-    # Pick a random common property
+    # Pick a random common property and convert to human readable format. area_km2 -> Area km², ai!
     prop = random.choice(common_props)
+    print(f"Picked property: {prop}")
 
     # Generate subqueries - join with \n to keep on one line
     subqueries = [f"{entity} {prop}" for entity in entities]
@@ -165,6 +165,6 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
     print(f"Completed generating {len(subqueries_list)} comparison subqueries")
 
 if __name__ == "__main__":
-    print(generate("River"))
+    print(generate("City"))
     
     #generate_comparison_subqueries()
