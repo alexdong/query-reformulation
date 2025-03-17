@@ -49,3 +49,26 @@ Sonnet 3.7   | $3 + 0.30    |  $15          |  1.5 tokens per second     |  50% 
 Gemini 2 Pro | N/A          |  N/A          |  50 requests per day       | 
 
 Looks like o3-mini is the best option for generating synthetic data.
+
+## Data Format
+
+The query reformulation data is stored in JSONL (JSON Lines) format, with each line representing a complete training example:
+
+```jsonl
+{"query": "What is the area of the river basin for the river that receives water from the mountain range which includes Aoraki Mount Cook?", "subqueries": "Aoraki Mount Cook Part Of Mountain range\nMountain range Provides Water To River\nRiver Basin Area"}
+```
+
+Each line contains:
+1. `query`: A natural language query that a user might ask
+2. `subqueries`: The decomposed search queries that would be needed to answer the original query
+
+This format is optimized for ML training as:
+- Each line is a complete input-output pair
+- It's easy to shuffle or sample from
+- It can be loaded efficiently with standard ML libraries (Pandas, Hugging Face datasets)
+- It allows for streaming processing of large datasets
+
+The data is organized into three types of reformulations:
+- `chaining.jsonl`: Queries that require following a chain of relationships
+- `comparison.jsonl`: Queries that involve comparing multiple entities
+- `expansion.jsonl`: Queries that expand a concept into multiple related aspects

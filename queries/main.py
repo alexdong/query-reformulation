@@ -78,53 +78,28 @@ def generate_queries(reformulation_type: str, subqueries: str) -> List[str]:
 
 def save_queries(reformulation_type: str, subqueries: str, queries: List[str]) -> None:
     """
-    Save the generated queries to an XML file with the structure:
-    <Pairs>
-        <Pair>
-            <Subqueries>...</Subqueries>
-            <Queries>
-                <Query>...</Query>
-                ...
-            </Queries>
-        </Pair>
-        ...
-    </Pairs>
+    Save the generated queries to a JSONL file (JSON Lines).
+    Each line contains a single query and its corresponding subqueries.
     
     Args:
         reformulation_type: One of "comparison", "expansion", or "chaining"
         subqueries: The original subqueries
         queries: List of generated queries
     """
-    output_file = QUERIES_DIR / f"{reformulation_type}.xml"
+    import json
+    
+    output_file = QUERIES_DIR / f"{reformulation_type}.jsonl"
     
     print(f"[INFO] Saving queries to {output_file}")
     
-    # Check if the file exists and has content
-    file_exists = output_file.exists() and output_file.stat().st_size > 0
-    
-    if not file_exists:
-        # Create a new XML file with header
-        with open(output_file, "w") as f:
-            f.write('<?xml version="1.0" encoding="UTF-8"?>\n<Pairs>\n</Pairs>')
-    
-    # Read the existing XML content
-    with open(output_file, "r") as f:
-        content = f.read()
-    
-    # Create the new pair element
-    pair_element = f'  <Pair>\n    <Subqueries>{subqueries}</Subqueries>\n    <Queries>\n'
-    
-    for query in queries:
-        pair_element += f'      <Query>{query}</Query>\n'
-    
-    pair_element += '    </Queries>\n  </Pair>\n'
-    
-    # Insert the new pair before the closing </Pairs> tag
-    updated_content = content.replace('</Pairs>', f'{pair_element}</Pairs>')
-    
-    # Write the updated content back to the file
-    with open(output_file, "w") as f:
-        f.write(updated_content)
+    # Append each query as a separate line
+    with open(output_file, "a") as f:
+        for query in queries:
+            pair = {
+                "query": query,
+                "subqueries": subqueries
+            }
+            f.write(json.dumps(pair) + "\n")
     
     print(f"[INFO] Saved {len(queries)} queries to {output_file}")
 
