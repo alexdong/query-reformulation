@@ -141,23 +141,25 @@ def generate_chaining_subqueries(count: int = 1333) -> None:
         task = progress.add_task(f"Generating {count} chaining subqueries", total=count)
         
         attempts = 0
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            while len(subqueries_list) < count and attempts < max_attempts:
-                attempts += 1
-                
-                # Pick a random entity to start with
-                random_file = random.choice(entity_files)
-                start_entity = random_file.stem.replace("_", " ")
-                
-                # Generate a subquery
-                subquery = generate(start_entity)
-                
-                if not subquery or subquery in subqueries_list:
-                    continue
-                
-                subqueries_list.append(subquery)
-                f.write(f"{subquery}\n")
-                progress.update(task, completed=len(subqueries_list))
+        while len(subqueries_list) < count and attempts < max_attempts:
+            attempts += 1
+            
+            # Pick a random entity to start with
+            random_file = random.choice(entity_files)
+            start_entity = random_file.stem.replace("_", " ")
+            
+            # Generate a subquery
+            subquery = generate(start_entity)
+            
+            if not subquery or subquery in subqueries_list:
+                continue
+            
+            subqueries_list.append(subquery)
+            progress.update(task, completed=len(subqueries_list))
+
+    # Write the subqueries to the output file
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(subqueries_list))
     
     print(f"Completed generating {len(subqueries_list)} chaining subqueries")
 
