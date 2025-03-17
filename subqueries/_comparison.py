@@ -55,7 +55,6 @@ def get_entities_by_type(
     return matching_entities
 
 def get_common_properties(entities: List[str]) -> List[str]:
-    """Find common properties among the given entities."""
     print(f"Finding common properties among {len(entities)} entities...")
     entity_properties = {}
 
@@ -72,8 +71,9 @@ def get_common_properties(entities: List[str]) -> List[str]:
     common_props = list(set.intersection(*entity_properties.values()))
 
     # Filter out some common metadata properties that aren't interesting for comparison
+    # Only select the properties with values that have numbers, ai!
     filtered_props = [
-        p for p in common_props if p not in ["type", "instance_of", "description"]
+        p for p in common_props if p not in ["type"]
     ]
 
     print(f"Found {len(filtered_props)} common properties")
@@ -157,4 +157,6 @@ def generate_comparison_subqueries(count: int = 1333) -> None:
     print(f"Completed generating {len(subqueries_list)} comparison subqueries")
 
 if __name__ == "__main__":
-    generate_comparison_subqueries()
+    print(generate("River"))
+    
+    #generate_comparison_subqueries()
