@@ -1,6 +1,7 @@
 import json
 import random
 import os
+import re
 from pathlib import Path
 from typing import List, Dict, Any, Set, Optional, Tuple
 
@@ -14,7 +15,7 @@ from _utils import (
 
 OUTPUT_FILE = DATASET_DIR / "subqueries-expansion.txt"
 
-def find_entities_with_csv_properties(min_values: int = 3) -> List[Tuple[str, str, str]]:
+def find_entities_with_csv_properties(min_values: int = 3, max_values: int = 10) -> List[Tuple[str, str, str]]:
     """
     Find entities with properties that contain CSV lists.
     Returns a list of tuples: (entity_name, property_name, property_value)
@@ -37,13 +38,30 @@ def find_entities_with_csv_properties(min_values: int = 3) -> List[Tuple[str, st
                         
                     # Check if property value is a string and contains commas
                     if isinstance(prop_value, str) and "," in prop_value:
-                        values = [v.strip() for v in prop_value.split(",")]
-                        if len(values) >= min_values:
+                        values = [v.strip() for v in prop_value.split(",") if v.strip()]
+                        if min_values <= len(values) <= max_values:
                             entities_with_csv.append((entity_name, prop_name, prop_value))
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
     
     return entities_with_csv
+
+def clean_csv_values(csv_string: str) -> List[str]:
+    """Clean and split CSV values, handling various formats."""
+    # Replace semicolons with commas if they're used as separators
+    if ";" in csv_string and "," not in csv_string:
+        csv_string = csv_string.replace(";", ",")
+    
+    # Split by comma
+    values = [v.strip() for v in csv_string.split(",")]
+    
+    # Remove empty values
+    values = [v for v in values if v]
+    
+    # Remove any values that are just numbers or very short
+    values = [v for v in values if not re.match(r'^\d+$', v) and len(v) > 1]
+    
+    return values
 
 def generate_expansion_subqueries(count: int = 1333) -> None:
     """Generate expansion subqueries and write to output file."""
@@ -71,11 +89,26 @@ def generate_expansion_subqueries(count: int = 1333) -> None:
             # Pick a random entity with CSV property
             entity_name, prop_name, prop_value = random.choice(csv_properties)
             
-            # Split the CSV value
-            values = [v.strip() for v in prop_value.split(",")]
+            # Split and clean the CSV value
+            values = clean_csv_values(prop_value)
+            
+            # Skip if we don't have enough valid values
+            if len(values) < 3:
+                continue
             
             # Generate subqueries
-            subqueries = [f"{entity_name} {prop_name} {value}" for value in values]
+            subqueries = []
+            for value in values:
+                # Format the subquery based on the property and value
+                if prop_name.lower() in ["uses", "applications", "types", "categories", "examples"]:
+                    subqueries.append(f"{entity_name} {value}")
+                else:
+                    subqueries.append(f"{entity_name} {prop_name} {value}")
+            
+            # Limit to a reasonable number of subqueries
+            if len(subqueries) > 8:
+                subqueries = random.sample(subqueries, 8)
+                
             subquery_text = "\n".join(subqueries)
             
             # Avoid duplicates

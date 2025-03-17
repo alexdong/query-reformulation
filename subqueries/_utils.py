@@ -1,7 +1,8 @@
 import json
 import os
 from pathlib import Path
-from typing import List, Dict, Any, Set, Optional
+from typing import List, Dict, Any, Set, Optional, Tuple
+import random
 
 # Constants
 FACTS_DIR = Path("facts")
@@ -55,3 +56,33 @@ def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
     if data and "relationship" in data:
         return data["relationship"]
     return []
+
+def get_entity_type(entity: str) -> str:
+    """Get the type of an entity."""
+    data = load_entity_data(entity)
+    if data and "properties" in data:
+        if "type" in data["properties"]:
+            return data["properties"]["type"]
+        elif "instance_of" in data["properties"]:
+            return data["properties"]["instance_of"]
+    return ""
+
+def get_all_entities() -> List[str]:
+    """Get all entity names from the facts directory."""
+    entities = []
+    for file_path in FACTS_DIR.glob("*.json"):
+        entities.append(file_path.stem.replace("_", " "))
+    return entities
+
+def get_entities_with_relationships() -> List[str]:
+    """Get all entities that have relationships."""
+    entities = []
+    for file_path in FACTS_DIR.glob("*.json"):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if "relationship" in data and data["relationship"]:
+                    entities.append(file_path.stem.replace("_", " "))
+        except Exception:
+            continue
+    return entities
