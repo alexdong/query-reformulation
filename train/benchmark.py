@@ -188,7 +188,7 @@ def benchmark_model(
         # Load PyTorch model first to export to ONNX if needed
         model, tokenizer, device = load_model(model_size, force_cpu=True)  # Force CPU for ONNX export
         
-        # Quantize and export to ONNX
+        # Quantize and export to ONNX if the model doesn't exist, ai!
         onnx_path = quantize_and_export_to_onnx(model, tokenizer, model_size)
         
         # Create ONNX Runtime session
@@ -205,6 +205,7 @@ def benchmark_model(
     else:
         # Load regular PyTorch model
         model, tokenizer, device = load_model(model_size, force_cpu)
+        print(f"[INFO] Execute on CPU")
 
     total_time = 0
     total_queries = len(dataset)
@@ -251,34 +252,20 @@ def benchmark_model(
 
 
 if __name__ == "__main__":
-    import argparse
-    
-    parser = argparse.ArgumentParser(description="Benchmark Flan-T5 models for query reformulation")
-    parser.add_argument("--model-size", choices=MODEL_SIZES, default=None, 
-                        help="Size of the model to benchmark (small, base, large)")
-    parser.add_argument("--force-cpu", action="store_true", 
-                        help="Force using CPU even if GPU/MPS is available")
-    parser.add_argument("--use-onnx", action="store_true",
-                        help="Use ONNX Runtime for inference")
-    
-    args = parser.parse_args()
-    
-    dataset = load_dataset(DEV_DATASET)
-    print(f"[INFO] Loaded {len(dataset)} examples from {DEV_DATASET}")
+    model_size = "base"
+    force_cpu = True
+    use_onnx = True
 
-    model_sizes = [args.model_size] if args.model_size else MODEL_SIZES
+    stats = benchmark_model(model_size, dataset, force_cpu, use_onnx)
     
-    for model_size in model_sizes:
-        stats = benchmark_model(model_size, dataset, args.force_cpu, args.use_onnx)
-        
-        # Pretty print stats
-        print(f"\n{'=' * 50}")
-        print(f"📊 RESULTS FOR FLAN-T5-{model_size.upper()} ({stats['runtime'].upper()}) 📊")
-        print(f"{'=' * 50}")
-        print(f"🕒 Average time per query: {stats['average_time']*1000:.2f} ms")
-        print(f"🕒 Median time per query:  {stats['median_time']*1000:.2f} ms")
-        print(f"📏 Standard deviation:     {stats['stddev_time']*1000:.2f} ms")
-        print(f"📈 90th percentile (P90):  {stats['p90_time']*1000:.2f} ms")
-        print(f"📈 95th percentile (P95):  {stats['p95_time']*1000:.2f} ms")
-        print(f"📈 99th percentile (P99):  {stats['p99_time']*1000:.2f} ms")
-        print(f"{'=' * 50}")
+    # Pretty print stats
+    print(f"\n{'=' * 50}")
+    print(f"📊 RESULTS FOR FLAN-T5-{model_size.upper()} ({stats['runtime'].upper()}) 📊")
+    print(f"{'=' * 50}")
+    print(f"🕒 Average time per query: {stats['average_time']*1000:.2f} ms")
+    print(f"🕒 Median time per query:  {stats['median_time']*1000:.2f} ms")
+    print(f"📏 Standard deviation:     {stats['stddev_time']*1000:.2f} ms")
+    print(f"📈 90th percentile (P90):  {stats['p90_time']*1000:.2f} ms")
+    print(f"📈 95th percentile (P95):  {stats['p95_time']*1000:.2f} ms")
+    print(f"📈 99th percentile (P99):  {stats['p99_time']*1000:.2f} ms")
+    print(f"{'=' * 50}")
