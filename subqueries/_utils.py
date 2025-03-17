@@ -17,54 +17,33 @@ def load_entity_data(entity: str) -> Optional[Dict[str, Any]]:
     entity_file = FACTS_DIR / f"{entity.replace(' ', '_')}.json"
     if not entity_file.exists():
         return None
-
-    try:
-        with open(entity_file, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error reading data for {entity}: {e}")
-        return None
+    with open(entity_file, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def get_all_entity_types() -> List[str]:
     """Get all unique entity types from the facts directory."""
     entity_types = set()
     for file_path in FACTS_DIR.glob("*.json"):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if "properties" in data:
-                    if "type" in data["properties"]:
-                        entity_types.add(data["properties"]["type"])
-                    elif "instance_of" in data["properties"]:
-                        entity_types.add(data["properties"]["instance_of"])
-        except Exception:
-            continue
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            entity_types.add(data["properties"]["type"])
 
     return list(filter(None, entity_types))
 
 def get_entity_properties(entity: str) -> Dict[str, str]:
     """Get properties for a specific entity."""
     data = load_entity_data(entity)
-    if data and "properties" in data:
-        return data["properties"]
-    return {}
+    return data["properties"]
 
 def get_entity_relationships(entity: str) -> List[Dict[str, str]]:
     """Get relationships for a specific entity."""
     data = load_entity_data(entity)
-    if data and "relationship" in data:
-        return data["relationship"]
-    return []
+    return data["relationship"]
 
 def get_entity_type(entity: str) -> str:
     """Get the type of an entity."""
     data = load_entity_data(entity)
-    if data and "properties" in data:
-        if "type" in data["properties"]:
-            return data["properties"]["type"]
-        elif "instance_of" in data["properties"]:
-            return data["properties"]["instance_of"]
-    return ""
+    return data["properties"]["type"]
 
 def get_all_entities() -> List[str]:
     """Get all entity names from the facts directory."""
@@ -73,15 +52,9 @@ def get_all_entities() -> List[str]:
         entities.append(file_path.stem.replace("_", " "))
     return entities
 
-def get_entities_with_relationships() -> List[str]:
-    """Get all entities that have relationships."""
-    entities = []
-    for file_path in FACTS_DIR.glob("*.json"):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if "relationship" in data and data["relationship"]:
-                    entities.append(file_path.stem.replace("_", " "))
-        except Exception:
-            continue
-    return entities
+if __name__ == "__main__":
+    print(get_all_entity_types())
+    print(get_entity_properties("Dunedin"))
+    print(get_entity_relationships("Dunedin"))
+    print(get_entity_type("Dunedin"))
+    print(get_all_entities())

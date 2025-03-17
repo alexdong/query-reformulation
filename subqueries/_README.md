@@ -17,7 +17,7 @@ the model we are using.
 ---------------------
 
 To generate the comparison subqueries, we first locate N random entities of the
-same `properties.type` or `properties.instance_of`. Then pick a random common
+same `properties.type`. Then pick a random common
 property and generate the subqueries. The files should be generated into
 `dataset/subqueries-comparison.txt` where each line is a \n separated list of
 subqueries. 
@@ -69,24 +69,3 @@ Example:
 7. Log the final subquery: `Clutha River basin area`
 8. The final subqueries is `Larnach Castle Located in Region\nRegion has a
    river\nRiver basin area`
-
-
-4. Handy Utility Commands 
-----------------------
-
-CLI commands to explore the shape of data:
-
-```zsh 
-# Find all properties 
-fd -e json -x jq -r '.properties | keys[]' | sort
-| uniq -c | sort -nr
-
-# Find all properties whose value contains a CSV list of entities 
-fd -e json -x jq -r '.properties | to_entries[] | select(.value | contains(",")) | .key' | sort | uniq -c | sort -nr
-
-# Find all relationships 
-fd -e json -x jq -r '.relationship[] | keys[]' | sort | uniq -c | sort -nr ```
-
-# Find all *.json that's missing a `properties.type`
-
-```
