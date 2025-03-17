@@ -63,8 +63,8 @@ def generate(entity_name: str) -> str:
                 continue
 
             # Check if property value is a string and contains commas
-            if isinstance(prop_value, str) and "," in prop_value:
-                values = [v.strip() for v in prop_value.split(",") if v.strip()]
+            if isinstance(prop_value, str) and ", " in prop_value:
+                values = [v.strip() for v in prop_value.split(", ") if v.strip()]
                 if len(values) >= 3:
                     csv_properties.append((prop_name, prop_value))
     
