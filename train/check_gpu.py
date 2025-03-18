@@ -1,14 +1,5 @@
 import torch
 
-if torch.backends.mps.is_available():
-    mps_device = torch.device("mps")
-    x = torch.randn(4, 4).to(mps_device)
-    print("Running on MPS device (GPU):", x)
-else:
-    print("MPS device (GPU) is not available. Running on CPU.")
-    x = torch.randn(4, 4)
-    print("Running on CPU:", x)
+# Interrogates the PyTorch library to determine the available hardware and software capabilities on this machine. It'll also print out and return the version, options value etc for each backend. this function will be used at starting up to determine the size of the model and training hyperparameters used. Please also add a __main__ for me to exercise it. ai!
+def show_capabilities():
 
-print("PyTorch version:", torch.__version__)
-print("MPS available:", torch.backends.mps.is_available())
-print("MPS built:", torch.backends.mps.is_built())
