@@ -14,7 +14,9 @@ from transformers import (
     AutoModelForSeq2SeqLM, 
     AutoModelForSequenceClassification,
     AutoTokenizer,
-    PreTrainedModel
+    PreTrainedModel,
+    ModernBertModel,
+    ModernBertConfig
 )
 
 # Import utilities for different model types
@@ -36,7 +38,7 @@ def load_dataset(file_path: Path) -> List[Dict[str, Any]]:
     return data
 
 def load_bert_model(model_size: str, force_cpu: bool = False) -> Tuple[PreTrainedModel, AutoTokenizer, torch.device]:
-    """Load a BERT model and tokenizer of specified size.
+    """Load a ModernBert model and tokenizer of specified size.
     
     Args:
         model_size: Size of the model ('base' or 'large')
@@ -46,8 +48,10 @@ def load_bert_model(model_size: str, force_cpu: bool = False) -> Tuple[PreTraine
         Tuple of (model, tokenizer, device)
     """
     assert model_size in BERT_MODEL_SIZES, f"Invalid model size: {model_size}"
+    
+    # Use standard BERT tokenizer but ModernBert model
     model_name = f"bert-{model_size}-uncased"
-    print(f"[INFO] Loading {model_name}...")
+    print(f"[INFO] Loading ModernBert-{model_size}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     
@@ -65,12 +69,15 @@ def load_bert_model(model_size: str, force_cpu: bool = False) -> Tuple[PreTraine
         device = torch.device("cpu")
         print("[INFO] Using CPU (no GPU/MPS available)")
     
-    # Load model to the selected device
-    # For query reformulation, we'll use sequence classification as a starting point
-    # This can be adapted based on your specific approach
-    model = AutoModelForSequenceClassification.from_pretrained(model_name)
+    # Load ModernBert model with appropriate configuration
+    config = ModernBertConfig.from_pretrained(model_name)
+    model = ModernBertModel(config)
+    
+    # Add a classification head for query reformulation
+    # This is a placeholder - you'll need to adapt based on your specific approach
+    model.classifier = torch.nn.Linear(config.hidden_size, 2)  # Simple binary classifier as placeholder
+    
     model = model.to(device)
-
     return model, tokenizer, device
 
 def generate_bert_reformulation(
@@ -79,13 +86,13 @@ def generate_bert_reformulation(
     query: str,
     device: torch.device,
 ) -> str:
-    """Generate query reformulation using a BERT model.
+    """Generate query reformulation using a ModernBert model.
     
     Note: This is a placeholder implementation. You'll need to adapt this
-    based on how you fine-tune BERT for query reformulation.
+    based on how you fine-tune ModernBert for query reformulation.
     
     Args:
-        model: BERT model
+        model: ModernBert model
         tokenizer: The tokenizer for the model
         query: The query to reformulate
         device: The device to run inference on
@@ -94,21 +101,25 @@ def generate_bert_reformulation(
         The reformulated query
     """
     # This is a simplified placeholder implementation
-    # In practice, you would implement your specific approach for BERT-based reformulation
     input_text = f"reformulate: {query}"
     inputs = tokenizer(input_text, return_tensors="pt").to(device)
     
     with torch.no_grad():
+        # Get the ModernBert embeddings
         outputs = model(**inputs)
+        # Use the [CLS] token representation for classification
+        cls_output = outputs.last_hidden_state[:, 0, :]
+        # Pass through the classifier
+        logits = model.classifier(cls_output)
     
     # This is just a placeholder - you would implement your specific logic here
-    # For example, if you're using a token classification approach, you might:
-    # 1. Get the token-level predictions
-    # 2. Select tokens based on some criteria
-    # 3. Combine them to form the reformulated query
+    # For a real implementation, you might:
+    # 1. Use a more sophisticated output head
+    # 2. Implement a token-level approach for reformulation
+    # 3. Fine-tune the model on your query reformulation dataset
     
-    # For now, we'll just return the original query as a placeholder
-    return f"BERT reformulation placeholder for: {query}"
+    # For now, we'll just return a placeholder
+    return f"ModernBert reformulation for: {query}"
 
 def benchmark_model(
     model_type: str,
