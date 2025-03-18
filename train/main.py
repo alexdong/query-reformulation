@@ -1,21 +1,10 @@
 from datasets import Dataset
 import json
 import torch
-from transformers import T5Tokenizer
+from transformers import T5Tokenizer, Trainer, TrainingArguments, T5ForConditionalGeneration
 
-def get_backend_device() -> str:
-    if torch.cuda.is_available():
-        return "cuda"
-    elif hasattr(torch, 'mps') and torch.backends.mps.is_available():
-        return "mps"
-    else:
-        return "cpu"
-device = get_backend_device()
-
-model_size = "base" if device == "cuda" else "small"
-model_name = f"google/flan-t5-{model_size}"
-training_dataset = "datasets/full.jsonl" if device == "cuda" else "datasets/dev.jsonl"
-tokenizer = T5Tokenizer.from_pretrained(model_name, legacy=False)
+from utils.init_models import init_models
+device, model_name, training_dataset, tokenizer = init_models()
 
 class QueryReformulationDataset:
     def __init__(self, tokenizer):
@@ -62,6 +51,7 @@ class QueryReformulationDataset:
 
 
 if __name__ == "__main__":
+    """
     dataset = QueryReformulationDataset(tokenizer)
     print(f"Dataset size: {len(dataset)}")
     sample = dataset[0]
@@ -69,3 +59,4 @@ if __name__ == "__main__":
     print(sample["query_tokens"])
     print(sample["subquery_tokens"])
     print("Done.")
+    """
