@@ -5,10 +5,8 @@ import torch
 from datasets import Dataset
 from transformers import T5Tokenizer, Trainer, TrainingArguments, T5ForConditionalGeneration
 
-# Add the parent directory to sys.path to find the utils module
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.init_models import init_models
-device, model_name, training_dataset, tokenizer = init_models()
+device, training_dataset, tokenizer, model = init_models()
 
 class QueryReformulationDataset:
     def __init__(self, tokenizer):
@@ -55,7 +53,6 @@ class QueryReformulationDataset:
 
 
 if __name__ == "__main__":
-    """
     dataset = QueryReformulationDataset(tokenizer)
     print(f"Dataset size: {len(dataset)}")
     sample = dataset[0]
@@ -63,4 +60,3 @@ if __name__ == "__main__":
     print(sample["query_tokens"])
     print(sample["subquery_tokens"])
     print("Done.")
-    """

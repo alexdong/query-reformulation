@@ -1,7 +1,7 @@
 [project]
-name = "ollama-dl"
+name = "query-reformulation"
 version = "0.1.0"
-description = "Download models from an Ollama registry"
+description = "Reformulate queries using a transformer model."
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
@@ -21,6 +21,9 @@ dependencies = [
     "torch>=2.5.1",
     "transformers>=4.46.3",
 ]
+
+[tool.setuptools.packages.find]
+include = ["train*", "utils*", "models*", "benchmark*", "queries*", "datasets*", "subqueries*", "client*", "facts*"]
 
 [tool.uv]
 dev-dependencies = [
