@@ -5,6 +5,14 @@ def show_capabilities() -> Dict[str, Any]:
     """
     Interrogates the PyTorch library to determine the available hardware and software capabilities.
     Returns a dictionary with information about available hardware and PyTorch configuration.
+
+      if capabilities["cuda_available"]:
+        # CUDA is available
+      elif capabilities["mps_available"]:
+        # Apple Silicon GPU detected
+      else:
+        # No GPU detected, using CPU only
+
     """
     capabilities = {}
     
