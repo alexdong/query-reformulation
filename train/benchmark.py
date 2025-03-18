@@ -55,19 +55,9 @@ def load_bert_model(model_size: str, force_cpu: bool = False) -> Tuple[PreTraine
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     
-    # Determine device
-    if force_cpu:
-        device = torch.device("cpu")
-        print("[INFO] Forcing CPU usage as requested")
-    elif torch.cuda.is_available():
-        device = torch.device("cuda")
-        print("[INFO] Using CUDA GPU")
-    elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
-        device = torch.device("mps")
-        print("[INFO] Using Apple MPS (Metal Performance Shaders)")
-    else:
-        device = torch.device("cpu")
-        print("[INFO] Using CPU (no GPU/MPS available)")
+    # Force CPU for ModernBert due to MPS compatibility issues
+    device = torch.device("cpu")
+    print("[INFO] Forcing CPU usage for ModernBert (MPS compatibility issues)")
     
     # Load ModernBert model with appropriate configuration
     config = ModernBertConfig.from_pretrained(model_name)
@@ -286,7 +276,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--force-cpu", 
         action="store_true", 
-        help="Force CPU usage even if GPU is available"
+        help="Force CPU usage even if GPU is available (for T5 models, BERT always uses CPU)"
     )
     parser.add_argument(
         "--use-onnx", 
