@@ -16,6 +16,8 @@ dependencies = [
     "openai>=1.66.3",
     "rich>=13.8.1",
     "ruff>=0.9.10",
+    "seaborn>=0.13.2",
+    "sentencepiece>=0.2.0",
     "torch>=2.5.1",
     "transformers>=4.46.3",
 ]
