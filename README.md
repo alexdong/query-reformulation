@@ -99,11 +99,8 @@ Step 2: Train a model
 
 Step 3: Performance tuning
 
-1. Quantize the model to 8-bits 
-2. run on ONNX runtime
-3. Run on a CPU and measure the latency
-4. Compile to GGML and run it on CPU
-5. add an API layer on top of the model and measure the latency
+1. Compile to GGML and run it on CPU
+2. add an API layer on top of the model and measure the latency
 
 
 Prepare Synthetic Data
@@ -200,4 +197,6 @@ Generate Queries from Subqueries
 
 [[`queries/_README.md`]] has the plan to generate the queries from the subqueries.
 [[`datasets/braid.py`]] is the code to generate the dataset from the subqueries and queries batch input/outputs. [[`datasets/split.py`]] splits the dataset into training, validation and test sets.
+
+
 

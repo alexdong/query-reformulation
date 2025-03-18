@@ -270,7 +270,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model-size", 
         type=str, 
-        default="base",
+        default="large",
         help="Size of the model (small/base/large for T5, base/large for BERT)"
     )
     parser.add_argument(
