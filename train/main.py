@@ -13,7 +13,7 @@ def get_backend_device() -> str:
 device = get_backend_device()
 
 model_size = "base" if device == "cuda" else "small"
-model_name = f"google/flan-5t-{model_size}"
+model_name = f"google/flan-t5-{model_size}"
 training_dataset = "datasets/full.jsonl" if device == "cuda" else "datasets/dev.jsonl"
 tokenizer = T5Tokenizer.from_pretrained(model_name, legacy=False)
 
