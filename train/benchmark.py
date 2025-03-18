@@ -285,7 +285,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--use-torchscript", 
-        action="store_false", 
+        action="store_true", 
         help="Use TorchScript for inference"
     )
     
