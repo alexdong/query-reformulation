@@ -5,24 +5,25 @@ import json
 import statistics
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Union, Tuple
+from typing import Any, Dict, List, Tuple
 
-import torch
-from tqdm import tqdm
 import onnxruntime as ort
+import torch
+from onnx_utils import export_to_onnx, generate_reformulation_onnx
+from torchscript_utils import generate_reformulation_torchscript, script_model
+from tqdm import tqdm
 from transformers import (
-    AutoModelForSeq2SeqLM, 
-    AutoModelForSequenceClassification,
     AutoTokenizer,
-    PreTrainedModel,
+    ModernBertConfig,
     ModernBertModel,
-    ModernBertConfig
+    PreTrainedModel,
 )
 
+from models import MODEL_SIZES as T5_MODEL_SIZES
+from models import generate_reformulation as generate_t5_reformulation
+
 # Import utilities for different model types
-from models import load_model as load_t5_model, generate_reformulation as generate_t5_reformulation, MODEL_SIZES as T5_MODEL_SIZES
-from onnx_utils import export_to_onnx, generate_reformulation_onnx
-from torchscript_utils import script_model, generate_reformulation_torchscript
+from models import load_model as load_t5_model
 
 # Define constants
 DEV_DATASET = Path("datasets/dev.jsonl")
@@ -104,7 +105,7 @@ def generate_bert_reformulation(
         # Use the [CLS] token representation for classification
         cls_output = outputs.last_hidden_state[:, 0, :]
         # Pass through the classifier
-        logits = model.classifier(cls_output)
+        model.classifier(cls_output)
     
     # This is just a placeholder - you would implement your specific logic here
     # For a real implementation, you might:
@@ -117,11 +118,11 @@ def generate_bert_reformulation(
 
 def benchmark_model(
     model_type: str,
-    model_size: str, 
-    dataset: List[Dict[str, Any]], 
+    model_size: str,
+    dataset: List[Dict[str, Any]],
     force_cpu: bool = False,
     use_onnx: bool = False,
-    use_torchscript: bool = False
+    use_torchscript: bool = False,
 ) -> Dict[str, float]:
     """Benchmark the model on the dataset.
     
@@ -174,7 +175,7 @@ def benchmark_model(
                 # Create inference session
                 model = ort.InferenceSession(str(onnx_path), sess_options)
                 runtime = "onnx"
-                print(f"[INFO] Using ONNX Runtime on CPU")
+                print("[INFO] Using ONNX Runtime on CPU")
             else:
                 print("[INFO] ONNX export failed - using PyTorch instead")
         except Exception as e:
@@ -193,7 +194,7 @@ def benchmark_model(
         if use_torchscript and model_type == "t5":
             # TorchScript function returns (reformulated_query, inference_time)
             _, _ = generate_reformulation_torchscript(
-                model, tokenizer, dataset[0]["query"], device, original_model
+                model, tokenizer, dataset[0]["query"], device, original_model,
             )
         elif use_onnx and model_type == "t5":
             # ONNX function just returns the reformulated query
@@ -205,25 +206,25 @@ def benchmark_model(
     print(f"[INFO] Benchmarking {model_type}-{model_size} on {total_queries} queries...")
     print(f"[INFO] Using {runtime.upper()}")
     
-    for item in tqdm(dataset, desc=f"Processing queries", unit="query"):
+    for item in tqdm(dataset, desc="Processing queries", unit="query"):
         query = item["query"]
         
         if use_torchscript and model_type == "t5":
             # TorchScript function already measures time internally
             reformulated_query, inference_time_ms = generate_reformulation_torchscript(
-                model, tokenizer, query, device, original_model
+                model, tokenizer, query, device, original_model,
             )
             # Convert ms to seconds for consistency
             query_time = inference_time_ms / 1000.0
         elif use_onnx and model_type == "t5":
             # For ONNX, we need to measure time ourselves
             query_start = time.time()
-            reformulated_query = generate_reformulation_onnx(model, tokenizer, query)
+            generate_reformulation_onnx(model, tokenizer, query)
             query_time = time.time() - query_start
         else:
             # For PyTorch, we need to measure time ourselves
             query_start = time.time()
-            reformulated_query = generate_fn(model, tokenizer, query, device)
+            generate_fn(model, tokenizer, query, device)
             query_time = time.time() - query_start
             
         total_time += query_time
@@ -261,37 +262,37 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description="Benchmark model performance for query reformulation")
     parser.add_argument(
-        "--model-type", 
-        type=str, 
-        default="bert", 
+        "--model-type",
+        type=str,
+        default="bert",
         choices=MODEL_TYPES,
-        help="Type of model to benchmark (t5 or bert)"
+        help="Type of model to benchmark (t5 or bert)",
     )
     parser.add_argument(
-        "--model-size", 
-        type=str, 
+        "--model-size",
+        type=str,
         default="large",
-        help="Size of the model (small/base/large for T5, base/large for BERT)"
+        help="Size of the model (small/base/large for T5, base/large for BERT)",
     )
     parser.add_argument(
-        "--force-cpu", 
-        action="store_true", 
-        help="Force CPU usage even if GPU is available (for T5 models, BERT always uses CPU)"
+        "--force-cpu",
+        action="store_true",
+        help="Force CPU usage even if GPU is available (for T5 models, BERT always uses CPU)",
     )
     parser.add_argument(
-        "--use-onnx", 
-        action="store_false", 
-        help="Use ONNX runtime for inference"
+        "--use-onnx",
+        action="store_false",
+        help="Use ONNX runtime for inference",
     )
     parser.add_argument(
-        "--use-torchscript", 
-        action="store_true", 
-        help="Use TorchScript for inference"
+        "--use-torchscript",
+        action="store_true",
+        help="Use TorchScript for inference",
     )
     parser.add_argument(
-        "--quantize", 
-        action="store_true", 
-        help="Use quantized model (only applies with --use-torchscript)"
+        "--quantize",
+        action="store_true",
+        help="Use quantized model (only applies with --use-torchscript)",
     )
     
     args = parser.parse_args()
@@ -307,11 +308,11 @@ if __name__ == "__main__":
 
     stats = benchmark_model(
         args.model_type,
-        args.model_size, 
-        dataset, 
-        args.force_cpu, 
-        args.use_onnx, 
-        args.use_torchscript
+        args.model_size,
+        dataset,
+        args.force_cpu,
+        args.use_onnx,
+        args.use_torchscript,
     )
     
     # Pretty print stats
