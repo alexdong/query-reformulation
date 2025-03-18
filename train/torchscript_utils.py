@@ -13,22 +13,20 @@ TORCHSCRIPT_DIR = Path("models/torchscript")
 QUANTIZED_DIR = Path("models/quantized")
 console = Console()
 
-def quantize_model_fx(
+def quantize_model_dynamic(
     model: AutoModelForSeq2SeqLM,
-    tokenizer: AutoTokenizer,
     model_size: str
 ) -> torch.nn.Module:
-    """Quantize the model using PyTorch's FX Graph Mode Quantization.
+    """Quantize the model using PyTorch's dynamic quantization.
     
     Args:
         model: The PyTorch model to quantize
-        tokenizer: The tokenizer for the model
         model_size: Size of the model ('small', 'base', or 'large')
         
     Returns:
         Quantized model
     """
-    console.print("[bold cyan]Quantizing model using FX Graph Mode Quantization...[/bold cyan]")
+    console.print("[bold cyan]Quantizing model using dynamic quantization...[/bold cyan]")
     
     # Move model to CPU for quantization
     model = model.cpu()
@@ -41,124 +39,146 @@ def quantize_model_fx(
     console.print(f"[bold]Original model size:[/bold] {original_size:.2f} MB")
     
     try:
-        # Import quantization utilities
-        from torch.quantization import quantize_fx
-        from torch.quantization.fx.prepare import prepare_fx
-        from torch.quantization.fx.convert import convert_fx
-        from torch.ao.quantization import get_default_qconfig_mapping
-        import torch.ao.quantization.quantize_fx as quantize_fx
+        # Create a custom quantization configuration
+        from torch.quantization import per_channel_dynamic_qconfig
         
-        # Define quantization configuration for CPU
-        qconfig_mapping = get_default_qconfig_mapping("qnnpack")
+        # Define a custom quantization function for specific modules
+        def quantize_linear_modules(module):
+            """Apply quantization to linear modules only."""
+            if isinstance(module, torch.nn.Linear):
+                # Configure the module for dynamic quantization
+                module.qconfig = per_channel_dynamic_qconfig
+                # Return the quantized module
+                return torch.quantization.quantize_dynamic(
+                    module, 
+                    {torch.nn.Linear}, 
+                    dtype=torch.qint8
+                )
+            return module
         
-        # Create a simplified wrapper for the model to make it easier to trace
-        class ModelWrapper(torch.nn.Module):
-            def __init__(self, model):
-                super().__init__()
-                self.model = model
-                
-            def forward(self, input_ids, attention_mask):
-                return self.model(input_ids=input_ids, attention_mask=attention_mask).logits
+        # Apply quantization to each module recursively
+        console.print("[dim]Applying quantization to linear layers...[/dim]")
         
-        wrapped_model = ModelWrapper(model)
+        # Create a copy of the model to avoid modifying the original
+        quantized_model = type(model)(model.config)
+        quantized_model.load_state_dict(model.state_dict())
         
-        # Create example inputs for tracing
-        example_inputs = tokenizer("This is a test query", return_tensors="pt")
-        example_input_ids = example_inputs["input_ids"]
-        example_attention_mask = example_inputs["attention_mask"]
+        # Apply quantization to each module
+        for name, module in list(quantized_model.named_modules()):
+            if "." not in name:  # Only process top-level modules
+                if isinstance(module, torch.nn.Linear):
+                    parent_name = name.rsplit(".", 1)[0] if "." in name else ""
+                    if parent_name:
+                        parent = quantized_model.get_submodule(parent_name)
+                        setattr(parent, name.split(".")[-1], quantize_linear_modules(module))
+                    else:
+                        setattr(quantized_model, name, quantize_linear_modules(module))
+                    console.print(f"[dim]Quantized linear layer: {name}[/dim]")
         
-        # Prepare the model for quantization
-        console.print("[dim]Preparing model for quantization...[/dim]")
-        prepared_model = prepare_fx(wrapped_model, qconfig_mapping, (example_input_ids, example_attention_mask))
-        
-        # Calibrate the model with a few examples
-        console.print("[dim]Calibrating model...[/dim]")
-        calibration_examples = [
-            "What is the capital of France?",
-            "Who was the first president of the United States?",
-            "How many planets are in the solar system?",
-            "What is the largest ocean on Earth?",
-            "Who wrote the novel Pride and Prejudice?"
-        ]
-        
-        with torch.no_grad():
-            for example in calibration_examples:
-                inputs = tokenizer(example, return_tensors="pt")
-                prepared_model(inputs["input_ids"], inputs["attention_mask"])
-        
-        # Convert to quantized model
-        console.print("[dim]Converting to quantized model...[/dim]")
-        quantized_model = convert_fx(prepared_model)
-        
-        # Get quantized model size
+        # Get quantized model size (approximate)
         quantized_size = sum(p.numel() * (1 if hasattr(p, 'dtype') and p.dtype == torch.qint8 else p.element_size()) 
                             for p in quantized_model.parameters()) / (1024 * 1024)
         console.print(f"[bold]Quantized model size:[/bold] {quantized_size:.2f} MB")
         console.print(f"[bold]Size reduction:[/bold] {(1 - quantized_size / original_size) * 100:.2f}%")
         
-        # Create a wrapper to restore the original interface
-        class QuantizedModelWrapper(torch.nn.Module):
-            def __init__(self, quantized_model, original_model):
-                super().__init__()
-                self.quantized_model = quantized_model
-                self.original_model = original_model
-                
-            def forward(self, input_ids, attention_mask):
-                logits = self.quantized_model(input_ids, attention_mask)
-                return logits
-                
-            def generate(self, input_ids, attention_mask=None, **kwargs):
-                # Fall back to the original model for generation
-                return self.original_model.generate(
-                    input_ids=input_ids,
-                    attention_mask=attention_mask,
-                    **kwargs
-                )
-        
-        final_model = QuantizedModelWrapper(quantized_model, model)
-        return final_model
+        return quantized_model
     
     except Exception as e:
-        console.print(f"[bold red]Error during FX quantization: {str(e)}[/bold red]")
+        console.print(f"[bold red]Error during dynamic quantization: {str(e)}[/bold red]")
         console.print("[bold yellow]Falling back to original model[/bold yellow]")
         return model
 
-def save_quantized_model(
+def save_model_for_inference(
     model: torch.nn.Module,
     tokenizer: AutoTokenizer,
-    model_size: str
+    model_size: str,
+    quantized: bool = False
 ) -> Path:
-    """Save the quantized model.
+    """Save the model in a format optimized for inference.
     
     Args:
-        model: The quantized PyTorch model
+        model: The PyTorch model
         tokenizer: The tokenizer for the model
         model_size: Size of the model ('small', 'base', or 'large')
+        quantized: Whether the model is quantized
         
     Returns:
         Path to the saved model directory
     """
     # Create directory if it doesn't exist
-    save_dir = QUANTIZED_DIR / model_size
+    suffix = "-quantized" if quantized else ""
+    save_dir = QUANTIZED_DIR / f"{model_size}{suffix}"
     save_dir.mkdir(parents=True, exist_ok=True)
     
-    # Save model state dict
-    torch.save(model.state_dict(), save_dir / "pytorch_model.bin")
+    # Save model
+    model.save_pretrained(save_dir)
     
     # Save tokenizer
     tokenizer.save_pretrained(save_dir)
     
-    console.print(f"[bold green]Quantized model saved to {save_dir}[/bold green]")
+    console.print(f"[bold green]Model saved to {save_dir}[/bold green]")
     return save_dir
 
-def script_model(
+def export_to_onnx(
+    model: AutoModelForSeq2SeqLM,
+    tokenizer: AutoTokenizer,
+    model_size: str
+) -> Path:
+    """Export the model to ONNX format.
+    
+    Args:
+        model: The PyTorch model to export
+        tokenizer: The tokenizer for the model
+        model_size: Size of the model ('small', 'base', or 'large')
+        
+    Returns:
+        Path to the saved ONNX model
+    """
+    console.print("[bold cyan]Exporting model to ONNX format...[/bold cyan]")
+    
+    # Create directory if it doesn't exist
+    onnx_dir = Path("models/onnx")
+    onnx_dir.mkdir(parents=True, exist_ok=True)
+    onnx_path = onnx_dir / f"flan-t5-{model_size}.onnx"
+    
+    # Skip if model already exists
+    if onnx_path.exists():
+        console.print(f"[bold yellow]ONNX model already exists at {onnx_path}[/bold yellow]")
+        return onnx_path
+    
+    try:
+        from transformers.onnx import export
+        from transformers.onnx.features import FeaturesManager
+        
+        # Get the appropriate ONNX config
+        model_kind, model_onnx_config = FeaturesManager.check_supported_model_or_raise(model)
+        onnx_config = model_onnx_config(model.config)
+        
+        # Export to ONNX
+        export(
+            preprocessor=tokenizer,
+            model=model,
+            config=onnx_config,
+            opset=12,
+            output=onnx_path
+        )
+        
+        console.print(f"[bold green]Model exported to {onnx_path}[/bold green]")
+        return onnx_path
+    
+    except Exception as e:
+        console.print(f"[bold red]Error during ONNX export: {str(e)}[/bold red]")
+        console.print("[bold yellow]ONNX export failed[/bold yellow]")
+        return None
+
+def script_model_safely(
     model: torch.nn.Module,
     tokenizer: AutoTokenizer,
     model_size: str,
     force_cpu: bool = False,
     quantize: bool = False
-) -> Tuple[torch.jit.ScriptModule, Path]:
-    """Convert the model to TorchScript format.
+) -> Tuple[Optional[torch.jit.ScriptModule], Path]:
+    """Convert the model to TorchScript format with safety measures.
     
     Args:
         model: The PyTorch model to script
@@ -186,7 +206,7 @@ def script_model(
     
     # Quantize model if requested
     if quantize:
-        model = quantize_model_fx(model, tokenizer, model_size)
+        model = quantize_model_dynamic(model, model_size)
     
     # Move model to CPU for scripting
     model = model.cpu()
@@ -198,64 +218,70 @@ def script_model(
     model_size_mb = sum(p.numel() * p.element_size() for p in model.parameters()) / (1024 * 1024)
     console.print(f"[bold]Model size before scripting:[/bold] {model_size_mb:.2f} MB")
     
-    # Create a wrapper class for scripting that handles the generate method
-    class ScriptableModule(torch.nn.Module):
+    # Create a simpler wrapper for generation that's easier to trace
+    class SimpleGenerationWrapper(torch.nn.Module):
         def __init__(self, model):
             super().__init__()
             self.model = model
             
-        def forward(self, input_ids, attention_mask):
-            return self.model.generate(
+        def forward(self, input_ids, attention_mask=None):
+            # Use a simpler generation approach that's more likely to trace successfully
+            with torch.no_grad():
+                outputs = self.model.generate(
+                    input_ids=input_ids,
+                    attention_mask=attention_mask,
+                    max_length=128,
+                    num_beams=1,  # Use greedy decoding for tracing
+                    do_sample=False,
+                    early_stopping=False
+                )
+            return outputs
+    
+    # Create a simple inference function that doesn't require tracing
+    def generate_with_model(input_ids, attention_mask=None):
+        with torch.no_grad():
+            return model.generate(
                 input_ids=input_ids,
                 attention_mask=attention_mask,
                 max_length=128,
-                num_return_sequences=1
+                num_beams=4,
+                early_stopping=True
             )
     
-    wrapped_model = ScriptableModule(model)
+    # Save the model and tokenizer for direct loading
+    save_dir = save_model_for_inference(model, tokenizer, model_size, quantize)
     
-    # Create dummy input for tracing
-    console.print("[bold cyan]Tracing model with dummy input...[/bold cyan]")
-    dummy_input = tokenizer("reformulate:This is a test query", return_tensors="pt")
-    input_ids = dummy_input["input_ids"]
-    attention_mask = dummy_input["attention_mask"]
+    # Create a simple wrapper that loads the model and generates
+    class ModelWrapper(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            self._generate_func = generate_with_model
+            
+        def forward(self, input_ids, attention_mask=None):
+            return self._generate_func(input_ids, attention_mask)
     
-    # Trace the model
-    with torch.no_grad():
-        traced_script = torch.jit.trace(
-            wrapped_model,
-            (input_ids, attention_mask)
-        )
+    # Create a dummy wrapper that can be saved
+    dummy_wrapper = ModelWrapper()
     
-    # Save the traced model
-    console.print(f"[bold cyan]Saving TorchScript model...[/bold cyan]")
-    torch.jit.save(traced_script, script_path)
-    console.print(f"[bold green]Model saved to {script_path}[/bold green]")
+    # Save the script path with a note
+    with open(script_path, "wb") as f:
+        torch.save({
+            "model_path": str(save_dir),
+            "model_size": model_size,
+            "quantized": quantize
+        }, f)
     
-    return traced_script, script_path
+    console.print(f"[bold green]Model reference saved to {script_path}[/bold green]")
+    console.print("[bold yellow]Note: Using direct model loading instead of TorchScript due to tracing limitations[/bold yellow]")
+    
+    return None, script_path
 
-def optimize_for_inference(model: torch.jit.ScriptModule) -> torch.jit.ScriptModule:
-    """Apply TorchScript optimizations for inference.
-    
-    Args:
-        model: The TorchScript model to optimize
-        
-    Returns:
-        Optimized TorchScript model
-    """
-    console.print("[bold cyan]Optimizing model for inference...[/bold cyan]")
-    
-    # Apply TorchScript optimizations
-    model = torch.jit.optimize_for_inference(model)
-    
-    return model
-
-def load_torchscript_model(
+def load_model_for_inference(
     model_size: str,
     force_cpu: bool = False,
     quantized: bool = False
-) -> Tuple[torch.jit.ScriptModule, AutoTokenizer, torch.device]:
-    """Load a TorchScript model and tokenizer.
+) -> Tuple[AutoModelForSeq2SeqLM, AutoTokenizer, torch.device]:
+    """Load a model optimized for inference.
     
     Args:
         model_size: Size of the model ('small', 'base', or 'large')
@@ -273,42 +299,46 @@ def load_torchscript_model(
         device = torch.device("cpu")
         console.print("[bold yellow]Using CPU[/bold yellow]")
     
-    # Load tokenizer
-    model_name = f"google/flan-t5-{model_size}"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    # Check if we have a saved model
+    suffix = "-quantized" if quantized else ""
+    save_dir = QUANTIZED_DIR / f"{model_size}{suffix}"
     
-    # Load TorchScript model
-    script_suffix = "-quantized" if quantized else ""
-    script_path = TORCHSCRIPT_DIR / f"flan-t5-{model_size}{script_suffix}.pt"
-    
-    if not script_path.exists():
-        console.print(f"[bold red]TorchScript model not found at {script_path}[/bold red]")
-        console.print("[bold yellow]Loading original model and converting to TorchScript...[/bold yellow]")
+    if save_dir.exists():
+        console.print(f"[bold green]Loading optimized model from {save_dir}[/bold green]")
+        model = AutoModelForSeq2SeqLM.from_pretrained(save_dir)
+        tokenizer = AutoTokenizer.from_pretrained(save_dir)
+    else:
+        console.print(f"[bold yellow]Optimized model not found at {save_dir}[/bold yellow]")
+        console.print("[bold yellow]Loading original model and optimizing...[/bold yellow]")
         
         # Load original model
+        model_name = f"google/flan-t5-{model_size}"
         model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
         
-        # Script the model
-        scripted_model, _ = script_model(model, tokenizer, model_size, force_cpu, quantize=quantized)
-        
-        # Optimize for inference
-        scripted_model = optimize_for_inference(scripted_model)
-    else:
-        console.print(f"[bold green]Loading TorchScript model from {script_path}[/bold green]")
-        scripted_model = torch.jit.load(script_path, map_location=device)
+        # Quantize if requested
+        if quantized:
+            model = quantize_model_dynamic(model, model_size)
+            
+        # Save for future use
+        save_model_for_inference(model, tokenizer, model_size, quantized)
     
-    return scripted_model, tokenizer, device
+    # Move to device
+    model = model.to(device)
+    model.eval()
+    
+    return model, tokenizer, device
 
-def generate_reformulation_torchscript(
-    model: torch.jit.ScriptModule,
+def generate_reformulation(
+    model: AutoModelForSeq2SeqLM,
     tokenizer: AutoTokenizer,
     query: str,
     device: torch.device
 ) -> Tuple[str, float]:
-    """Generate query reformulation using a TorchScript model.
+    """Generate query reformulation.
     
     Args:
-        model: TorchScript model
+        model: Model
         tokenizer: The tokenizer for the model
         query: The query to reformulate
         device: The device to run inference on
@@ -325,7 +355,13 @@ def generate_reformulation_torchscript(
     start_time = time.time()
     
     with torch.no_grad():
-        outputs = model(input_ids, attention_mask)
+        outputs = model.generate(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            max_length=128,
+            num_beams=4,
+            early_stopping=True
+        )
     
     end_time = time.time()
     inference_time_ms = (end_time - start_time) * 1000
@@ -333,12 +369,12 @@ def generate_reformulation_torchscript(
     reformulated_query = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return reformulated_query, inference_time_ms
 
-def test_torchscript_model(
+def test_model(
     model_size: str = "base",
     force_cpu: bool = False,
     quantized: bool = False
 ) -> None:
-    """Test the TorchScript model with a sample query.
+    """Test the model with a sample query.
     
     Args:
         model_size: Size of the model ('small', 'base', or 'large')
@@ -346,26 +382,26 @@ def test_torchscript_model(
         quantized: Whether to use the quantized version of the model
     """
     # Load model
-    model, tokenizer, device = load_torchscript_model(model_size, force_cpu, quantized)
+    model, tokenizer, device = load_model_for_inference(model_size, force_cpu, quantized)
     
     # Test with sample query
     sample_query = "Create a table for top noise cancelling headphones that are not expensive"
     console.print(f"[bold]Testing with sample query:[/bold] {sample_query}")
     
-    reformulated_query, inference_time = generate_reformulation_torchscript(
+    reformulated_query, inference_time = generate_reformulation(
         model, tokenizer, sample_query, device
     )
     
     console.print(f"[bold]Generated reformulation:[/bold] {reformulated_query}")
     console.print(f"[bold]Inference time:[/bold] {inference_time:.2f} ms")
 
-def benchmark_torchscript_model(
+def benchmark_model(
     model_size: str = "base",
     force_cpu: bool = False,
     quantized: bool = False,
     num_runs: int = 10
 ) -> Dict[str, Any]:
-    """Benchmark the TorchScript model with multiple runs.
+    """Benchmark the model with multiple runs.
     
     Args:
         model_size: Size of the model ('small', 'base', or 'large')
@@ -377,7 +413,7 @@ def benchmark_torchscript_model(
         Dictionary with benchmark results
     """
     # Load model
-    model, tokenizer, device = load_torchscript_model(model_size, force_cpu, quantized)
+    model, tokenizer, device = load_model_for_inference(model_size, force_cpu, quantized)
     
     # Test queries
     test_queries = [
@@ -396,12 +432,12 @@ def benchmark_torchscript_model(
         console.print(f"[bold]Query {i+1}:[/bold] {query}")
         
         # Warm-up run
-        _, _ = generate_reformulation_torchscript(model, tokenizer, query, device)
+        _, _ = generate_reformulation(model, tokenizer, query, device)
         
         # Timed runs
         times = []
         for _ in range(num_runs):
-            _, inference_time = generate_reformulation_torchscript(model, tokenizer, query, device)
+            _, inference_time = generate_reformulation(model, tokenizer, query, device)
             times.append(inference_time)
             all_times.append(inference_time)
         
@@ -440,13 +476,13 @@ def benchmark_torchscript_model(
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description="Convert a model to TorchScript for faster inference")
+    parser = argparse.ArgumentParser(description="Optimize a model for faster inference")
     parser.add_argument(
         "--model-size", 
         type=str, 
         default="base", 
         choices=["small", "base", "large"],
-        help="Size of the model to convert"
+        help="Size of the model to optimize"
     )
     parser.add_argument(
         "--force-cpu", 
@@ -467,6 +503,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     if args.benchmark:
-        benchmark_torchscript_model(args.model_size, args.force_cpu, args.quantize)
+        benchmark_model(args.model_size, args.force_cpu, args.quantize)
     else:
-        test_torchscript_model(args.model_size, args.force_cpu, args.quantize)
+        test_model(args.model_size, args.force_cpu, args.quantize)

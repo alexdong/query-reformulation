@@ -1,5 +1,5 @@
 """
-Quantize a model using PyTorch's FX Graph Mode Quantization.
+Quantize a model for faster inference on CPU.
 
 This script provides a command-line interface to quantize a model
 and benchmark its performance.
@@ -10,9 +10,9 @@ Example usage:
 
 import argparse
 from train.torchscript_utils import (
-    load_torchscript_model,
-    benchmark_torchscript_model,
-    test_torchscript_model
+    load_model_for_inference,
+    benchmark_model,
+    test_model
 )
 
 def main():
@@ -45,7 +45,7 @@ def main():
     if args.compare:
         # Run benchmark on original model
         print("\n===== ORIGINAL MODEL =====")
-        original_results = benchmark_torchscript_model(
+        original_results = benchmark_model(
             args.model_size, 
             args.force_cpu, 
             quantized=False
@@ -53,7 +53,7 @@ def main():
         
         # Run benchmark on quantized model
         print("\n===== QUANTIZED MODEL =====")
-        quantized_results = benchmark_torchscript_model(
+        quantized_results = benchmark_model(
             args.model_size, 
             args.force_cpu, 
             quantized=True
@@ -65,9 +65,9 @@ def main():
         print(f"Speed improvement: {speedup:.2f}x faster")
         
     elif args.benchmark:
-        benchmark_torchscript_model(args.model_size, args.force_cpu, quantized=True)
+        benchmark_model(args.model_size, args.force_cpu, quantized=True)
     else:
-        test_torchscript_model(args.model_size, args.force_cpu, quantized=True)
+        test_model(args.model_size, args.force_cpu, quantized=True)
 
 if __name__ == "__main__":
     main()
