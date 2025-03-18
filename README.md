@@ -196,7 +196,66 @@ Generate Queries from Subqueries
 ----------------------------------
 
 [[`queries/_README.md`]] has the plan to generate the queries from the subqueries.
-[[`datasets/braid.py`]] is the code to generate the dataset from the subqueries and queries batch input/outputs. [[`datasets/split.py`]] splits the dataset into training, validation and test sets.
+[[`datasets/braid.py`]] is the code to generate the dataset from the subqueries and queries batch input/outputs. 
+
+Training dataset stats
+-----------------------
+
+```bash
+Query Statistics:
+  Total lines: 16040
+  Mean tokens: 21.27
+  Median tokens: 21.00
+  Max tokens: 57
+  Min tokens: 6
+  P90 tokens: 29.00
+  P95 tokens: 32.00
+  P99 tokens: 36.00
+
+Comparison Statistics:
+  Total lines: 1217
+  Mean tokens: 18.79
+  Median tokens: 18.00
+  Max tokens: 37
+  Min tokens: 9
+  P90 tokens: 27.00
+  P95 tokens: 29.00
+  P99 tokens: 31.84
+
+Expansion Statistics:
+  Total lines: 658
+  Mean tokens: 22.67
+  Median tokens: 20.00
+  Max tokens: 338
+  Min tokens: 9
+  P90 tokens: 33.00
+  P95 tokens: 38.00
+  P99 tokens: 70.30
+
+Chaining Statistics:
+  Total lines: 1333
+  Mean tokens: 30.53
+  Median tokens: 30.00
+  Max tokens: 76
+  Min tokens: 11
+  P90 tokens: 40.00
+  P95 tokens: 45.00
+  P99 tokens: 54.00
+```
 
 
+Alternative Approaches
+----------------------
 
+1. Use RL to evaluate the quality of the reformulation. Similar to
+   [PraveenSH/RL-Query-Reformulation](https://github.com/PraveenSH/RL-Query-Reformulation)
+   but replace its "Reward Model" with a
+   [BERTScore](https://arxiv.org/pdf/1904.09675). Basically use a
+   `SentenceTransformer("all-MiniLM-L6-v2")` to generate embedding vectors for
+   the queries and subqueries. Then use Consine Similarity to calculate the
+   distance and use that as the reward signal.
+
+2. SFT a LLaDA - Diffusion LLM model, like what [Mercury
+   Code](https://www.inceptionlabs.ai/news) is doing. It should deliver a
+   significant improvement in latency time, which in turns allows us to use a
+   larger model. 
