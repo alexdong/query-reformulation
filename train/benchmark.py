@@ -269,7 +269,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model-type", 
         type=str, 
-        default="t5", 
+        default="bert", 
         choices=MODEL_TYPES,
         help="Type of model to benchmark (t5 or bert)"
     )
@@ -286,12 +286,12 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--use-onnx", 
-        action="store_true", 
+        action="store_false", 
         help="Use ONNX runtime for inference"
     )
     parser.add_argument(
         "--use-torchscript", 
-        action="store_true", 
+        action="store_false", 
         help="Use TorchScript for inference"
     )
     
