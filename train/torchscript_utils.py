@@ -4,7 +4,7 @@ TorchScript model export and inference utilities.
 import time
 import torch
 from pathlib import Path
-from typing import Tuple, Dict, Any
+from typing import Tuple, Dict, Any, Optional
 
 from rich.console import Console
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
@@ -15,14 +15,16 @@ console = Console()
 def script_model(
     model: AutoModelForSeq2SeqLM,
     tokenizer: AutoTokenizer,
-    model_size: str
+    model_size: str,
+    quantize: bool = False
 ) -> Tuple[torch.jit.ScriptModule, Path]:
-    """Convert the model to TorchScript format.
+    """Convert the model to TorchScript format with optional quantization.
     
     Args:
         model: The PyTorch model to script
         tokenizer: The tokenizer for the model
         model_size: Size of the model ('small', 'base', or 'large')
+        quantize: Whether to apply dynamic quantization to the model
         
     Returns:
         Tuple of (scripted_model, path_to_saved_model)
@@ -31,7 +33,10 @@ def script_model(
     
     # Create directory if it doesn't exist
     TORCHSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
-    script_path = TORCHSCRIPT_DIR / f"flan-t5-{model_size}.pt"
+    
+    # Determine file path based on quantization
+    quant_suffix = "_quantized" if quantize else ""
+    script_path = TORCHSCRIPT_DIR / f"flan-t5-{model_size}{quant_suffix}.pt"
     
     # Skip if model already exists
     if script_path.exists():
@@ -65,6 +70,22 @@ def script_model(
     console.print("[bold cyan]Scripting model...[/bold cyan]")
     scripted_model = torch.jit.script(wrapped_model)
     
+    # Apply quantization if requested
+    if quantize:
+        console.print("[bold cyan]Applying dynamic quantization...[/bold cyan]")
+        try:
+            # Dynamic quantization
+            quantized_model = torch.quantization.quantize_dynamic(
+                scripted_model,
+                {torch.nn.Linear},  # Quantize only linear layers
+                dtype=torch.qint8
+            )
+            scripted_model = quantized_model
+            console.print("[bold green]Model successfully quantized[/bold green]")
+        except Exception as e:
+            console.print(f"[bold red]Quantization failed: {e}[/bold red]")
+            console.print("[bold yellow]Proceeding with non-quantized model[/bold yellow]")
+    
     # Save the scripted model
     console.print(f"[bold cyan]Saving TorchScript model...[/bold cyan]")
     torch.jit.save(scripted_model, script_path)
@@ -74,13 +95,15 @@ def script_model(
 
 def load_torchscript_model(
     model_size: str,
-    force_cpu: bool = False
+    force_cpu: bool = False,
+    quantized: bool = False
 ) -> Tuple[torch.jit.ScriptModule, AutoTokenizer, torch.device]:
     """Load a TorchScript model and tokenizer.
     
     Args:
         model_size: Size of the model ('small', 'base', or 'large')
         force_cpu: Whether to force CPU usage even if GPU is available
+        quantized: Whether to load the quantized version of the model
         
     Returns:
         Tuple of (model, tokenizer, device)
@@ -98,7 +121,8 @@ def load_torchscript_model(
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     
     # Load TorchScript model
-    script_path = TORCHSCRIPT_DIR / f"flan-t5-{model_size}.pt"
+    quant_suffix = "_quantized" if quantized else ""
+    script_path = TORCHSCRIPT_DIR / f"flan-t5-{model_size}{quant_suffix}.pt"
     
     if not script_path.exists():
         console.print(f"[bold red]TorchScript model not found at {script_path}[/bold red]")
@@ -108,19 +132,89 @@ def load_torchscript_model(
         model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         
         # Script the model
-        scripted_model, _ = script_model(model, tokenizer, model_size)
+        scripted_model, _ = script_model(model, tokenizer, model_size, quantize=quantized)
     else:
         console.print(f"[bold green]Loading TorchScript model from {script_path}[/bold green]")
         scripted_model = torch.jit.load(script_path, map_location=device)
     
     return scripted_model, tokenizer, device
 
+def quantize_model(
+    model: torch.nn.Module,
+    model_size: str
+) -> Tuple[torch.jit.ScriptModule, Path]:
+    """Quantize an existing model and save it as TorchScript.
+    
+    Args:
+        model: The PyTorch model to quantize
+        model_size: Size of the model ('small', 'base', or 'large')
+        
+    Returns:
+        Tuple of (quantized_model, path_to_saved_model)
+    """
+    console.print(f"[bold green]Quantizing model...[/bold green]")
+    
+    # Create directory if it doesn't exist
+    TORCHSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
+    script_path = TORCHSCRIPT_DIR / f"flan-t5-{model_size}_quantized.pt"
+    
+    # Skip if model already exists
+    if script_path.exists():
+        console.print(f"[bold yellow]Quantized model already exists at {script_path}[/bold yellow]")
+        # Load the existing model
+        quantized_model = torch.jit.load(script_path)
+        return quantized_model, script_path
+    
+    # Move model to CPU for quantization
+    model = model.cpu()
+    model.eval()
+    
+    # First script the model if it's not already a ScriptModule
+    if not isinstance(model, torch.jit.ScriptModule):
+        console.print("[bold cyan]Scripting model before quantization...[/bold cyan]")
+        
+        # Create a wrapper class for scripting if needed
+        if hasattr(model, "generate"):
+            class ScriptableModule(torch.nn.Module):
+                def __init__(self, model):
+                    super().__init__()
+                    self.model = model
+                    
+                def forward(self, input_ids, attention_mask=None):
+                    return self.model(
+                        input_ids=input_ids,
+                        attention_mask=attention_mask
+                    ).logits
+            
+            wrapped_model = ScriptableModule(model)
+            model = torch.jit.script(wrapped_model)
+    
+    try:
+        # Apply dynamic quantization
+        console.print("[bold cyan]Applying dynamic quantization...[/bold cyan]")
+        quantized_model = torch.quantization.quantize_dynamic(
+            model,
+            {torch.nn.Linear},  # Quantize only linear layers
+            dtype=torch.qint8
+        )
+        
+        # Save the quantized model
+        console.print(f"[bold cyan]Saving quantized model...[/bold cyan]")
+        torch.jit.save(quantized_model, script_path)
+        console.print(f"[bold green]Quantized model saved to {script_path}[/bold green]")
+        
+        return quantized_model, script_path
+    
+    except Exception as e:
+        console.print(f"[bold red]Quantization failed: {e}[/bold red]")
+        raise
+
 def generate_reformulation_torchscript(
     model: torch.jit.ScriptModule,
     tokenizer: AutoTokenizer,
     query: str,
     device: torch.device,
-    original_model: AutoModelForSeq2SeqLM = None
+    original_model: Optional[AutoModelForSeq2SeqLM] = None
 ) -> Tuple[str, float]:
     """Generate query reformulation using a TorchScript model.
     
@@ -173,16 +267,18 @@ def generate_reformulation_torchscript(
 
 def test_torchscript_model(
     model_size: str = "base",
-    force_cpu: bool = False
+    force_cpu: bool = False,
+    quantized: bool = False
 ) -> None:
     """Test the TorchScript model with a sample query.
     
     Args:
         model_size: Size of the model ('small', 'base', or 'large')
         force_cpu: Whether to force CPU usage even if GPU is available
+        quantized: Whether to use the quantized version of the model
     """
     # Load model
-    model, tokenizer, device = load_torchscript_model(model_size, force_cpu)
+    model, tokenizer, device = load_torchscript_model(model_size, force_cpu, quantized)
     
     # Also load the original model for generation
     model_name = f"google/flan-t5-{model_size}"
@@ -203,6 +299,7 @@ def test_torchscript_model(
 def benchmark_torchscript_model(
     model_size: str = "base",
     force_cpu: bool = False,
+    quantized: bool = False,
     num_runs: int = 10
 ) -> Dict[str, Any]:
     """Benchmark the TorchScript model with multiple runs.
@@ -210,13 +307,14 @@ def benchmark_torchscript_model(
     Args:
         model_size: Size of the model ('small', 'base', or 'large')
         force_cpu: Whether to force CPU usage even if GPU is available
+        quantized: Whether to use the quantized version of the model
         num_runs: Number of inference runs to perform
         
     Returns:
         Dictionary with benchmark results
     """
     # Load model
-    model, tokenizer, device = load_torchscript_model(model_size, force_cpu)
+    model, tokenizer, device = load_torchscript_model(model_size, force_cpu, quantized)
     
     # Also load the original model for generation
     model_name = f"google/flan-t5-{model_size}"
@@ -261,7 +359,7 @@ def benchmark_torchscript_model(
     
     # Print results
     console.print("\n[bold]===== BENCHMARK RESULTS =====")
-    console.print(f"[bold]Model:[/bold] flan-t5-{model_size} (TorchScript)")
+    console.print(f"[bold]Model:[/bold] flan-t5-{model_size} ({'Quantized' if quantized else 'Standard'} TorchScript)")
     console.print(f"[bold]Device:[/bold] {'CPU' if device.type == 'cpu' else 'GPU'}")
     console.print(f"[bold]Average time:[/bold] {avg_time:.2f} ms")
     console.print(f"[bold]Median time:[/bold] {median_time:.2f} ms")
@@ -271,6 +369,7 @@ def benchmark_torchscript_model(
     
     return {
         "model_size": model_size,
+        "quantized": quantized,
         "device": device.type,
         "avg_time": avg_time,
         "median_time": median_time,
@@ -297,6 +396,11 @@ if __name__ == "__main__":
         help="Force CPU usage even if GPU is available"
     )
     parser.add_argument(
+        "--quantize",
+        action="store_true",
+        help="Apply dynamic quantization to the model"
+    )
+    parser.add_argument(
         "--benchmark",
         action="store_true",
         help="Run benchmark with multiple queries"
@@ -305,6 +409,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     if args.benchmark:
-        benchmark_torchscript_model(args.model_size, args.force_cpu)
+        benchmark_torchscript_model(args.model_size, args.force_cpu, args.quantize)
     else:
-        test_torchscript_model(args.model_size, args.force_cpu)
+        test_torchscript_model(args.model_size, args.force_cpu, args.quantize)

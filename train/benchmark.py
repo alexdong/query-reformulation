@@ -152,10 +152,10 @@ def benchmark_model(
     # Handle TorchScript if requested
     if use_torchscript:
         try:
-            scripted_model, script_path = script_model(original_model, tokenizer, model_size)
+            scripted_model, script_path = script_model(original_model, tokenizer, model_size, quantize=args.quantize)
             model = scripted_model  # Use the scripted model
-            runtime = "torchscript"
-            print(f"[INFO] Using TorchScript model from {script_path}")
+            runtime = "torchscript" + ("_quantized" if args.quantize else "")
+            print(f"[INFO] Using {'quantized ' if args.quantize else ''}TorchScript model from {script_path}")
         except Exception as e:
             print(f"[ERROR] Failed to use TorchScript: {e}")
             print("[INFO] Falling back to PyTorch")
@@ -287,6 +287,11 @@ if __name__ == "__main__":
         "--use-torchscript", 
         action="store_true", 
         help="Use TorchScript for inference"
+    )
+    parser.add_argument(
+        "--quantize", 
+        action="store_true", 
+        help="Use quantized model (only applies with --use-torchscript)"
     )
     
     args = parser.parse_args()
