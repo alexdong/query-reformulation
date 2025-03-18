@@ -1,6 +1,7 @@
 import torch
+from typing import Dict, List, Any, Optional
 
-def show_capabilities(): # add type hints, ai!
+def show_capabilities() -> Dict[str, Any]:
     """
     Interrogates the PyTorch library to determine the available hardware and software capabilities.
     Returns a dictionary with information about available hardware and PyTorch configuration.
