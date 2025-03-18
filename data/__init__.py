@@ -46,6 +46,8 @@ class QueryReformulationDataset:
         }
 
 if __name__ == "__main__":
+    from transformers import T5Tokenizer
+    tokenizer = T5Tokenizer.from_pretrained("t5-small")
     dataset = QueryReformulationDataset(tokenizer, dataset="dev")
     print(f"Dataset size: {len(dataset)}")
     sample = dataset[0]
