@@ -1,8 +1,12 @@
-from datasets import Dataset
+import sys
+import os
 import json
 import torch
+from datasets import Dataset
 from transformers import T5Tokenizer, Trainer, TrainingArguments, T5ForConditionalGeneration
 
+# Add the parent directory to sys.path to find the utils module
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.init_models import init_models
 device, model_name, training_dataset, tokenizer = init_models()
 
