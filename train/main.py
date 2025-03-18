@@ -17,7 +17,7 @@ model_name = f"google/flan-t5-{model_size}"
 training_dataset = "datasets/full.jsonl" if device == "cuda" else "datasets/dev.jsonl"
 tokenizer = T5Tokenizer.from_pretrained(model_name, legacy=False)
 
-class QueryReformulationDataset(Dataset):
+class QueryReformulationDataset:
     def __init__(self, tokenizer):
         self.tokenizer = tokenizer
         self.data = self.load_dataset(training_dataset)
