@@ -23,7 +23,7 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["train*", "utils*", "models*", "benchmark*", "queries*", "datasets*", "subqueries*", "client*", "facts*"]
+include = ["train*", "utils*", "models*", "benchmark*", "queries*", "data*", "subqueries*", "client*", "facts*"]
 
 [tool.uv]
 dev-dependencies = [

@@ -11,13 +11,12 @@ def get_backend_device() -> str:
     else:
         return "cpu"
 
-def init_models(use_sft_model: bool = False) -> Tuple[str, str, T5Tokenizer, T5ForConditionalGeneration]:
+def init_models(use_sft_model: bool = False) -> Tuple[str, T5Tokenizer, T5ForConditionalGeneration]:
     device = get_backend_device()
 
     model_size = "base" if device == "cuda" else "small"
-    training_dataset = "datasets/full.jsonl" if device == "cuda" else "datasets/dev.jsonl"
 
     model_name = f"google/flan-t5-{model_size}" if not use_sft_model else f"./models/t5-{model_size}-sft"
     tokenizer = T5Tokenizer.from_pretrained(model_name, legacy=False)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
-    return device, training_dataset, tokenizer, model
+    return device, tokenizer, model

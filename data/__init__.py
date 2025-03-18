@@ -2,10 +2,10 @@ from datasets import Dataset
 import json
 from pathlib import Path
 
-class QueryReformulationDataset:
+class QueryReformulationDataset(Dataset):
     def __init__(self, tokenizer, dataset="full"):
         self.tokenizer = tokenizer
-        self._data = self.load_dataset(Path(f"datasets/{dataset}.jsonl"))
+        self._data = self.load_dataset(Path(f"data/{dataset}.jsonl"))
 
     def load_dataset(self, file_path):
         dataset = []
