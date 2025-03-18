@@ -1,6 +1,20 @@
 import torch
 from typing import Dict, List, Any, Optional
 
+def get_backend_device() -> str:
+    """
+    Determines the best available compute device for PyTorch.
+    
+    Returns:
+        str: One of 'cuda', 'mps', or 'cpu' depending on hardware availability
+    """
+    if torch.cuda.is_available():
+        return "cuda"
+    elif hasattr(torch, 'mps') and torch.backends.mps.is_available():
+        return "mps"
+    else:
+        return "cpu"
+
 def show_capabilities() -> Dict[str, Any]:
     """
     Interrogates the PyTorch library to determine the available hardware and software capabilities.
