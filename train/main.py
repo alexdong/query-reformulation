@@ -8,11 +8,12 @@ from data import QueryReformulationDataset
 from utils.init_models import init_models
 
 def fine_tune():
-    model_size, device, tokenizer, model = init_models()
+    model_size = "base"
+    device, tokenizer, model = init_models(model_size, use_sft_model=False)
     dataset = QueryReformulationDataset(tokenizer, dataset="full" if device == "cuda" else "dev")
 
     training_args = TrainingArguments(
-            output_dir=f"../models/sft-{model_size}",
+            output_dir=f"./models/sft-{model_size}",
             num_train_epochs=1,
             per_device_train_batch_size=8,
             save_steps=1_000,

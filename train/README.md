@@ -42,3 +42,8 @@ are the options:
 Flan-5T feels like a better choice because it's a text-to-text transfer
 transformer. It's a better fit for the task because it has both encoder and
 decoder, unlike BERT that has only an encoder.
+
+Training Performance
+=====================
+
+Train on the `data/dev.jsonl` dataset over `Flan-5t-small` took about 5 seconds and `Flan-5t-base` took about 10 seconds. 
