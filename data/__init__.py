@@ -19,19 +19,19 @@ class QueryReformulationDataset(Dataset):
 
     def __getitem__(self, idx):
         item = self._data[idx]
-        query = item.get("query")
-        subqueries = item.get("subqueries")
+        input = f"reformulate: {item.get('query')}"  # add the instruction
+        output = item.get("subqueries")
 
-        query_tokens = self.tokenizer.encode_plus(
-                query,
+        input_tokens = self.tokenizer.encode_plus(
+                input,
                 max_length=64, # Query Max tokens is 57 with P99 at 36
                 padding="max_length",
                 truncation=True,
                 return_tensors="pt"
                 )
 
-        subquery_tokens = self.tokenizer.encode_plus(
-                subqueries,
+        output_tokens = self.tokenizer.encode_plus(
+                output,
                 max_length=80, # Expansion's P99 is 70.
                 padding="max_length",
                 truncation=True,
@@ -39,11 +39,12 @@ class QueryReformulationDataset(Dataset):
                 )
 
         return {
-            "query": query,
-            "query_tokens": query_tokens,
-            "subqueries": subqueries,
-            "subquery_tokens": subquery_tokens,
+            "input": input,
+            "input_tokens": input_tokens,
+            "output": output,
+            "output_tokens": output_tokens,
         }
+
 
 if __name__ == "__main__":
     from transformers import T5Tokenizer
@@ -52,6 +53,5 @@ if __name__ == "__main__":
     print(f"Dataset size: {len(dataset)}")
     sample = dataset[0]
     print(sample)
-    print(sample["query_tokens"])
-    print(sample["subquery_tokens"])
-    print("Done.")
+    print(sample["input"])
+    print(sample["output"])

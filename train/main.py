@@ -7,6 +7,7 @@ from transformers import T5Tokenizer, Trainer, TrainingArguments, T5ForCondition
 from data import QueryReformulationDataset
 from utils.init_models import init_models
 device, tokenizer, model = init_models()
+dataset = QueryReformulationDataset(tokenizer, dataset="full" if device == "cuda" else "dev")
 
 
 if __name__ == "__main__":
