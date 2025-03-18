@@ -14,12 +14,12 @@ def load_dataset_from_jsonl(file_path):
 class QueryReformulationDataset:
     def __init__(self, tokenizer, dataset="full"):
         self.tokenizer = tokenizer
-        data = load_dataset_from_jsonl(Path(f"datasets/{dataset}.jsonl"))
+        data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"))
         
         # Convert to HF Dataset format
         self.dataset = Dataset.from_dict({
-            "query": [item.get("query") for item in data],
-            "subqueries": [item.get("subqueries") for item in data]
+            "input": [item.get("query") for item in data],
+            "output": [item.get("subqueries") for item in data]
         })
         
     def __len__(self):
@@ -27,8 +27,8 @@ class QueryReformulationDataset:
         
     def __getitem__(self, idx):
         item = self.dataset[idx]
-        input_text = f"reformulate: {item['query']}"
-        output_text = item['subqueries']
+        input_text = f"reformulate: {item['input']}"
+        output_text = item['output']
         
         input_tokens = self.tokenizer.encode_plus(
             input_text,
