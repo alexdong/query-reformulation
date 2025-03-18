@@ -1,7 +1,7 @@
 """
-Quantize a model for faster inference on CPU.
+Convert a model to TorchScript for faster inference.
 
-This script provides a command-line interface to quantize a model
+This script provides a command-line interface to convert a model to TorchScript
 and benchmark its performance.
 
 Example usage:
@@ -10,19 +10,18 @@ Example usage:
 
 import argparse
 from train.torchscript_utils import (
-    load_model_for_inference,
-    benchmark_model,
-    test_model
+    test_torchscript_model,
+    benchmark_torchscript_model
 )
 
 def main():
-    parser = argparse.ArgumentParser(description="Quantize a model for faster inference")
+    parser = argparse.ArgumentParser(description="Convert a model to TorchScript for faster inference")
     parser.add_argument(
         "--model-size", 
         type=str, 
         default="base", 
         choices=["small", "base", "large"],
-        help="Size of the model to quantize"
+        help="Size of the model to convert"
     )
     parser.add_argument(
         "--force-cpu", 
@@ -34,40 +33,13 @@ def main():
         action="store_true",
         help="Run benchmark with multiple queries"
     )
-    parser.add_argument(
-        "--compare",
-        action="store_true",
-        help="Compare quantized model with original model"
-    )
     
     args = parser.parse_args()
     
-    if args.compare:
-        # Run benchmark on original model
-        print("\n===== ORIGINAL MODEL =====")
-        original_results = benchmark_model(
-            args.model_size, 
-            args.force_cpu, 
-            quantized=False
-        )
-        
-        # Run benchmark on quantized model
-        print("\n===== QUANTIZED MODEL =====")
-        quantized_results = benchmark_model(
-            args.model_size, 
-            args.force_cpu, 
-            quantized=True
-        )
-        
-        # Print comparison
-        print("\n===== PERFORMANCE COMPARISON =====")
-        speedup = original_results["avg_time"] / quantized_results["avg_time"]
-        print(f"Speed improvement: {speedup:.2f}x faster")
-        
-    elif args.benchmark:
-        benchmark_model(args.model_size, args.force_cpu, quantized=True)
+    if args.benchmark:
+        benchmark_torchscript_model(args.model_size, args.force_cpu)
     else:
-        test_model(args.model_size, args.force_cpu, quantized=True)
+        test_torchscript_model(args.model_size, args.force_cpu)
 
 if __name__ == "__main__":
     main()
