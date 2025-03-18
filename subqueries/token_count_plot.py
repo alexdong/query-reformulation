@@ -44,14 +44,21 @@ def main() -> None:
             console.print(f"[yellow]Processing {reformulation_type} file...[/yellow]")
             token_counts[reformulation_type] = count_tokens_in_file(file_path, tokenizer)
 
-            # Print statistics, including P90, P95, and P99, ai!
+            # Print statistics, including P90, P95, and P99
             counts = token_counts[reformulation_type]
+            p90 = np.percentile(counts, 90)
+            p95 = np.percentile(counts, 95)
+            p99 = np.percentile(counts, 99)
+            
             console.print(f"[green]{reformulation_type.capitalize()} statistics:[/green]")
             console.print(f"  Total lines: {len(counts)}")
             console.print(f"  Mean tokens: {np.mean(counts):.2f}")
             console.print(f"  Median tokens: {np.median(counts):.2f}")
             console.print(f"  Max tokens: {np.max(counts)}")
             console.print(f"  Min tokens: {np.min(counts)}")
+            console.print(f"  P90 tokens: {p90:.2f}")
+            console.print(f"  P95 tokens: {p95:.2f}")
+            console.print(f"  P99 tokens: {p99:.2f}")
         else:
             console.print(f"[red]File not found: {file_path}[/red]")
 
