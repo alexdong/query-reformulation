@@ -1,5 +1,7 @@
+from typing import Any, Dict
+
 import torch
-from typing import Dict, List, Any, Optional
+
 
 def get_backend_device() -> str:
     """
@@ -72,13 +74,13 @@ def show_capabilities() -> Dict[str, Any]:
     if hasattr(torch.backends, 'mkl'):
         capabilities["backends"]["mkl"] = {
             "is_available": torch.backends.mkl.is_available(),
-            "version": torch.backends.mkl.get_version_string() if hasattr(torch.backends.mkl, 'get_version_string') else "Not available"
+            "version": torch.backends.mkl.get_version_string() if hasattr(torch.backends.mkl, 'get_version_string') else "Not available",
         }
     
     # OpenMP backend
     if hasattr(torch.backends, 'openmp'):
         capabilities["backends"]["openmp"] = {
-            "is_available": torch.backends.openmp.is_available()
+            "is_available": torch.backends.openmp.is_available(),
         }
     
     # ONNX runtime
@@ -87,7 +89,7 @@ def show_capabilities() -> Dict[str, Any]:
         capabilities["onnx"] = {
             "available": True,
             "version": ort.__version__,
-            "providers": ort.get_available_providers()
+            "providers": ort.get_available_providers(),
         }
     except ImportError:
         capabilities["onnx"] = {"available": False}
@@ -97,7 +99,7 @@ def show_capabilities() -> Dict[str, Any]:
     
     print("\n[INFO] CUDA Information:")
     if capabilities["cuda_available"]:
-        print(f"  - CUDA available: Yes")
+        print("  - CUDA available: Yes")
         print(f"  - CUDA version: {capabilities['cuda_version']}")
         print(f"  - CUDA device count: {capabilities['cuda_device_count']}")
         for i, device in enumerate(capabilities['cuda_device_names']):
@@ -121,7 +123,7 @@ def show_capabilities() -> Dict[str, Any]:
     
     print("\n[INFO] ONNX Runtime:")
     if capabilities["onnx"]["available"]:
-        print(f"  - Available: Yes")
+        print("  - Available: Yes")
         print(f"  - Version: {capabilities['onnx']['version']}")
         print(f"  - Providers: {', '.join(capabilities['onnx']['providers'])}")
     else:
