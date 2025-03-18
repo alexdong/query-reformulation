@@ -104,6 +104,10 @@ def generate_bert_reformulation(
     input_text = f"reformulate: {query}"
     inputs = tokenizer(input_text, return_tensors="pt").to(device)
     
+    # Remove token_type_ids which ModernBertModel doesn't accept
+    if 'token_type_ids' in inputs:
+        inputs.pop('token_type_ids')
+    
     with torch.no_grad():
         # Get the ModernBert embeddings
         outputs = model(**inputs)
