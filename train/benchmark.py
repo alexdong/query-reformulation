@@ -13,7 +13,7 @@ import onnxruntime as ort
 
 from models import load_model, generate_reformulation, MODEL_SIZES
 from onnx_utils import export_to_onnx, generate_reformulation_onnx
-from torchscript_utils import save_as_torchscript, generate_reformulation_torchscript
+from torchscript_utils import script_model, generate_reformulation_torchscript
 
 DEV_DATASET = Path("datasets/dev.jsonl")
 
@@ -45,16 +45,16 @@ def benchmark_model(
         Dictionary of benchmark statistics
     """
     # Load regular PyTorch model first
-    model, tokenizer, device = load_model(model_size, force_cpu)
+    original_model, tokenizer, device = load_model(model_size, force_cpu)
+    model = original_model  # Keep a reference to the original model
     
     runtime = "pytorch"
     
     # Handle TorchScript if requested
     if use_torchscript:
         try:
-            script_path = save_as_torchscript(model, tokenizer, model_size)
-            # Load the TorchScript model
-            model = torch.jit.load(str(script_path), map_location=device)
+            scripted_model, script_path = script_model(original_model, tokenizer, model_size)
+            model = scripted_model  # Use the scripted model
             runtime = "torchscript"
             print(f"[INFO] Using TorchScript model from {script_path}")
         except Exception as e:
@@ -64,7 +64,7 @@ def benchmark_model(
     # Handle ONNX if requested (and TorchScript not used)
     elif use_onnx:
         try:
-            onnx_path = export_to_onnx(model, tokenizer, model_size)
+            onnx_path = export_to_onnx(original_model, tokenizer, model_size)
             if onnx_path:
                 # Configure session options for better performance
                 sess_options = ort.SessionOptions()
@@ -91,27 +91,41 @@ def benchmark_model(
     # Warm-up run
     if total_queries > 0:
         if use_torchscript:
-            generate_reformulation_torchscript(model, tokenizer, dataset[0]["query"], device)
+            # TorchScript function returns (reformulated_query, inference_time)
+            _, _ = generate_reformulation_torchscript(
+                model, tokenizer, dataset[0]["query"], device, original_model
+            )
         elif use_onnx:
-            generate_reformulation_onnx(model, tokenizer, dataset[0]["query"])
+            # ONNX function just returns the reformulated query
+            _ = generate_reformulation_onnx(model, tokenizer, dataset[0]["query"])
         else:
-            generate_reformulation(model, tokenizer, dataset[0]["query"], device)
+            # PyTorch function just returns the reformulated query
+            _ = generate_reformulation(model, tokenizer, dataset[0]["query"], device)
 
     print(f"[INFO] Benchmarking flan-t5-{model_size} on {total_queries} queries...")
     print(f"[INFO] Using {runtime.upper()}")
     
     for item in tqdm(dataset, desc=f"Processing queries", unit="query"):
         query = item["query"]
-        query_start = time.time()
         
         if use_torchscript:
-            reformulation = generate_reformulation_torchscript(model, tokenizer, query, device)
+            # TorchScript function already measures time internally
+            reformulated_query, inference_time_ms = generate_reformulation_torchscript(
+                model, tokenizer, query, device, original_model
+            )
+            # Convert ms to seconds for consistency
+            query_time = inference_time_ms / 1000.0
         elif use_onnx:
-            reformulation = generate_reformulation_onnx(model, tokenizer, query)
+            # For ONNX, we need to measure time ourselves
+            query_start = time.time()
+            reformulated_query = generate_reformulation_onnx(model, tokenizer, query)
+            query_time = time.time() - query_start
         else:
-            reformulation = generate_reformulation(model, tokenizer, query, device)
+            # For PyTorch, we need to measure time ourselves
+            query_start = time.time()
+            reformulated_query = generate_reformulation(model, tokenizer, query, device)
+            query_time = time.time() - query_start
             
-        query_time = time.time() - query_start
         total_time += query_time
         query_times.append(query_time)  # Store individual query time
 
@@ -131,7 +145,7 @@ def benchmark_model(
 
     return {
         "model_size": model_size,
-        "runtime": "pytorch",
+        "runtime": runtime,
         "average_time": total_time / total_queries if total_queries > 0 else 0,
         "median_time": median_time,
         "stddev_time": stddev_time,
