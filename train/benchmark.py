@@ -161,8 +161,8 @@ if __name__ == "__main__":
 
     model_size = "base"
     force_cpu = True
-    use_onnx = False
-    use_torchscript = True
+    use_onnx = True
+    use_torchscript = False
     stats = benchmark_model(
         model_size, 
         dataset, 
