@@ -2,11 +2,18 @@ from datasets import Dataset
 import json
 from pathlib import Path
 import torch
+import os
 
 def load_dataset_from_jsonl(file_path, split_role: str="train"):
     """Load data from jsonl file and return as a list of dictionaries."""
     assert split_role in ["train", "eval"]
     dataset = []
+    
+    # Make sure the file exists
+    if not os.path.exists(file_path):
+        print(f"[ERROR] File not found: {file_path}")
+        return []
+        
     with open(file_path, "r") as f:
         for line in f:
             dataset.append(json.loads(line))
