@@ -61,7 +61,7 @@ def create_datasets(tokenizer: T5Tokenizer, sample_size: float) -> Tuple[QueryRe
         for line in f:
             dataset.append(json.loads(line))
     random.shuffle(dataset)
-    dataset = random.sample(dataset, len(dataset) * sample_size)
+    dataset = random.sample(dataset, int(len(dataset) * sample_size))
 
     def _create(role: Literal["train", "eval", "test"]) -> QueryReformulationDataset:
         if role == "train":
