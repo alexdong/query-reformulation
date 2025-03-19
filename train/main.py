@@ -27,8 +27,10 @@ def fine_tune(model_size, dataset, training_epochs):
     train_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="train")
     eval_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="eval")
 
+    output_dir = f"./models/sft-{model_size}"
+    
     training_args = TrainingArguments(
-            output_dir=f"./models/sft-{model_size}",
+            output_dir=output_dir,
             num_train_epochs=training_epochs,
             per_device_train_batch_size=8,
             save_steps=1_000,
@@ -47,7 +49,27 @@ def fine_tune(model_size, dataset, training_epochs):
             eval_dataset=eval_dataset,
             compute_metrics=lambda x: compute_metrics(x, model_size, device)
             )
+    
+    # Train the model
     trainer.train()
+    
+    # Explicitly save the final model and tokenizer to the output directory
+    print(f"[INFO] Saving final model to {output_dir}")
+    model.save_pretrained(output_dir)
+    tokenizer.save_pretrained(output_dir)
+    
+    # Optionally, save the trainer state
+    trainer_state = {
+        "best_model_checkpoint": output_dir,
+        "best_metric": trainer.state.best_metric if hasattr(trainer.state, "best_metric") else None,
+        "epoch": trainer.state.epoch,
+        "global_step": trainer.state.global_step
+    }
+    
+    with open(os.path.join(output_dir, "trainer_state.json"), "w") as f:
+        json.dump(trainer_state, f)
+    
+    print(f"[INFO] Training complete. Final model saved to {output_dir}")
 
 
 def evaluate(model_size, dataset):
