@@ -64,8 +64,15 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     print(f"[INFO] Evaluating model on test set...")
     test_results = trainer.evaluate(test_dataset)
     
-    # Please print the test results out as a markdown table, ai!
-    print(f"[INFO] Test results: {test_results}")
+    # Print test results as a markdown table
+    print("\n### Test Results")
+    print("| Metric | Value |")
+    print("|--------|-------|")
+    for key, value in test_results.items():
+        if isinstance(value, float):
+            print(f"| {key} | {value:.4f} |")
+        else:
+            print(f"| {key} | {value} |")
     
     print(f"[INFO] Training complete. Final model saved to {output_dir}")
 
