@@ -1,27 +1,22 @@
-from typing import Dict, Tuple, Any
+from typing import Dict, Tuple
+
 import numpy as np
 import torch
 from bert_score import score
+from transformers import T5Tokenizer
 
 
 def compute_metrics(
-    eval_pred: Tuple[np.ndarray, np.ndarray], 
-    tokenizer: Any, 
-    model_size: str, 
-    device: torch.device
+    eval_pred: Tuple[np.ndarray, np.ndarray],
+    tokenizer: T5Tokenizer,
+    model_size: str,
+    device: torch.device,
 ) -> Dict[str, float]:
     predictions, labels = eval_pred
 
     # Process each sequence individually
     decoded_preds = []
     decoded_labels = []
-
-    # Convert to numpy if they're tensors
-    if isinstance(predictions, torch.Tensor):
-        predictions = predictions.cpu().numpy()
-    if isinstance(labels, torch.Tensor):
-        labels = labels.cpu().numpy()
-
 
     for pred, label in zip(predictions, labels):
         # Replace -100 with pad_token_id
@@ -36,3 +31,7 @@ def compute_metrics(
     P, R, F1 = score(decoded_preds, decoded_labels, lang="en",
 model_type="microsoft/roberta-large", device=device)
     return {"bertscore_f1": F1.mean().item()}
+
+
+if __name__ == "__main__":
+    # load data/full.jsonl and use score function to calculate BERTScore and save the results into a csv file, ai!
