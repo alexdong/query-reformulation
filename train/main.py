@@ -57,5 +57,6 @@ def fine_tune(model_size="base", dataset="full", training_epochs=1):
 
 
 if __name__ == "__main__":
+    # rewrite the following using click to parse arguments, ai!
     fine_tune(model_size="small", dataset="dev", training_epochs=1)
     #fine_tune(model_size="base", dataset="full", training_epochs=5)
