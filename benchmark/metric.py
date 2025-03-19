@@ -1,5 +1,6 @@
 from typing import Dict, Tuple
 
+import random
 import numpy as np
 import torch
 from bert_score import score
@@ -84,7 +85,59 @@ if __name__ == "__main__":
                 F1[i].item()
             ])
 
-    # Now, let's load `subqueries/{reformulation_type}.txt` and calculate BERTScore among two random subqueries. Limit the number of comparison to 100 and make the random column to be 1. ai!
+    # Load random subqueries from reformulation type files and calculate BERTScore
+    reformulation_types = ["comparison", "expansion", "chaining"]
+    random_comparisons = []
+    
+    print(f"[INFO] Loading random subqueries for comparison...")
+    for ref_type in reformulation_types:
+        subq_path = Path(f"subqueries/{ref_type}.txt")
+        if not subq_path.exists():
+            print(f"[WARNING] File not found: {subq_path}")
+            continue
+            
+        # Load all subqueries from the file
+        with open(subq_path, "r") as f:
+            subq_list = [line.strip() for line in f if line.strip()]
+        
+        # Select random pairs for comparison (limited to ~33 per type to get ~100 total)
+        max_pairs = min(33, len(subq_list) // 2)
+        for _ in range(max_pairs):
+            # Select two different random subqueries
+            indices = random.sample(range(len(subq_list)), 2)
+            random_comparisons.append((subq_list[indices[0]], subq_list[indices[1]]))
+    
+    # Limit to 100 comparisons
+    random_comparisons = random_comparisons[:100]
+    
+    if random_comparisons:
+        print(f"[INFO] Calculating BERTScores for {len(random_comparisons)} random pairs...")
+        random_queries = [pair[0] for pair in random_comparisons]
+        random_subqueries = [pair[1] for pair in random_comparisons]
+        
+        # Calculate BERTScore for random pairs
+        random_P, random_R, random_F1 = score(random_queries, random_subqueries, 
+                                             lang="en", model_type="microsoft/roberta-large", 
+                                             device=device)
+        
+        # Append results to CSV
+        with open(output_path, "a", newline="") as csvfile:
+            writer = csv.writer(csvfile)
+            for i in range(len(random_comparisons)):
+                writer.writerow([
+                    random_queries[i],
+                    random_subqueries[i],
+                    1,  # Set random column to 1
+                    random_P[i].item(),
+                    random_R[i].item(),
+                    random_F1[i].item()
+                ])
+        
+        # Print summary statistics for random comparisons
+        print(f"[INFO] Random comparisons summary:")
+        print(f"Average Precision: {random_P.mean().item():.4f}")
+        print(f"Average Recall: {random_R.mean().item():.4f}")
+        print(f"Average F1: {random_F1.mean().item():.4f}")
     
     # Print summary statistics
     print(f"[INFO] Results summary:")
