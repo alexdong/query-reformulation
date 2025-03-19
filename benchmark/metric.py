@@ -14,7 +14,19 @@ def score(input, output):
 
 def compute_metrics(eval_pred: EvalPrediction, tokenizer):
     predictions, labels = eval_pred
+    
+    # The predictions are likely coming as logits
+    # We need to handle this properly
+    if isinstance(predictions, tuple):
+        # If predictions is a tuple, take the first element (logits)
+        predictions = predictions[0]
+    
+    # Get the most likely token IDs
+    predictions = np.argmax(predictions, axis=-1)
+    
     decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+    
+    # Handle labels
     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
