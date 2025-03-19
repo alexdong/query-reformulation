@@ -3,18 +3,22 @@ import json
 from pathlib import Path
 import torch
 
-def load_dataset_from_jsonl(file_path):
+def load_dataset_from_jsonl(file_path, split_role: str="train"):
     """Load data from jsonl file and return as a list of dictionaries."""
+    assert split_role in ["train", "eval"]
     dataset = []
     with open(file_path, "r") as f:
         for line in f:
             dataset.append(json.loads(line))
-    return dataset
+    if split_role == "train":
+        return dataset[:int(0.8 * len(dataset))]
+    else:
+        return dataset[int(0.8 * len(dataset)):]
 
 class QueryReformulationDataset:
-    def __init__(self, tokenizer, dataset="full"):
+    def __init__(self, tokenizer, dataset="full", split_role="train"):
         self.tokenizer = tokenizer
-        data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"))
+        data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"), split_role=split_role)
         
         # Convert to HF Dataset format
         self.dataset = Dataset.from_dict({
@@ -60,7 +64,7 @@ class QueryReformulationDataset:
 if __name__ == "__main__":
     from transformers import T5Tokenizer
     tokenizer = T5Tokenizer.from_pretrained("t5-small")
-    dataset = QueryReformulationDataset(tokenizer, dataset="dev")
+    dataset = QueryReformulationDataset(tokenizer, dataset="dev", split_role="eval")
     print(f"Dataset size: {len(dataset)}")
     sample = dataset[0]
     print(sample.keys())
