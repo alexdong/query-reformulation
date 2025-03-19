@@ -46,4 +46,4 @@ decoder, unlike BERT that has only an encoder.
 Training Performance
 =====================
 
-Train on the `data/dev.jsonl` dataset over `Flan-5t-small` took about 5 seconds and `Flan-5t-base` took about 10 seconds. 
+Train on the `data/dev.jsonl` dataset over `Flan-5t-small` took about 5 seconds and `Flan-5t-base` took about 10 seconds. The `full.jsonl` dataset took 5:13 minutes to train on `Flan-5t-small` for one epoch.
