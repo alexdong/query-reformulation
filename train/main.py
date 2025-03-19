@@ -11,18 +11,18 @@ from data import QueryReformulationDataset
 from utils.init_models import init_models
 
 
-def compute_metrics(eval_pred):
-    tokenizer = T5Tokenizer.from_pretrained("t5-base")
+def compute_metrics(eval_pred, model_size, device):
+    tokenizer = T5Tokenizer.from_pretrained(f"flan-t5-{model_size}")
     predictions, labels = eval_pred
     predictions = [[t if t != -100 else tokenizer.pad_token_id for t in p] for p in predictions]
     labels = [[t if t != -100 else tokenizer.pad_token_id for t in l] for l in labels]
     decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-    P, R, F1 = score(decoded_preds, decoded_labels, lang="en", model_type="bert-base-uncased", device="cuda" if torch.cuda.is_available() else "cpu")
+    P, R, F1 = score(decoded_preds, decoded_labels, lang="en", model_type="bert-base-uncased", device=device)
     return {"bertscore_f1": F1.mean().item()}
 
 
-def fine_tune(model_size="base", dataset="full", training_epochs=1):
+def fine_tune(model_size, dataset, training_epochs):
     device, tokenizer, model = init_models(model_size, use_sft_model=False)
     train_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="train")
     eval_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="eval")
@@ -45,17 +45,17 @@ def fine_tune(model_size="base", dataset="full", training_epochs=1):
             args=training_args, 
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=compute_metrics,
+            compute_metrics=lambda x: compute_metrics(x, model_size, device)
             )
     trainer.train()
 
 
-def evaluate(model_size="base", dataset="full"):
+def evaluate(model_size, dataset):
     device, tokenizer, model = init_models(model_size, use_sft_model=True)
-    eval_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="eval")
+    test_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="test")
     
     training_args = TrainingArguments(
-            output_dir=f"./models/eval-{model_size}",
+            output_dir=f"./models/sft-{model_size}",
             per_device_eval_batch_size=8,
             logging_dir="/var/logs",
             )
@@ -63,8 +63,8 @@ def evaluate(model_size="base", dataset="full"):
     trainer = Trainer(
             model=model,
             args=training_args,
-            eval_dataset=eval_dataset,
-            compute_metrics=compute_metrics,
+            eval_dataset=test_dataset,
+            compute_metrics=lambda x: compute_metrics(x, model_size, device)
             )
     
     results = trainer.evaluate()
@@ -88,7 +88,7 @@ def main():
 def train(model_size, dataset, epochs):
     """Train a query reformulation model using the specified parameters."""
     print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}")
-    fine_tune(model_size=model_size, dataset=dataset, training_epochs=epochs)
+    fine_tune(model_size, dataset, epochs)
 
 
 @main.command()
@@ -99,7 +99,7 @@ def train(model_size, dataset, epochs):
 def eval(model_size, dataset):
     """Evaluate a trained query reformulation model using the specified parameters."""
     print(f"[INFO] Evaluating with model_size={model_size}, dataset={dataset}")
-    evaluate(model_size=model_size, dataset=dataset)
+    evaluate(model_size, dataset)
 
 
 if __name__ == "__main__":
