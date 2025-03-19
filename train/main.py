@@ -26,7 +26,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
             per_device_train_batch_size=8,
             save_steps=1_000,
             save_total_limit=2,
-            eval_strategy="steps",
+            eval_strategy="epoch",
             save_strategy="epoch",
             logging_dir="/var/logs",
             logging_steps=1_000,
@@ -38,7 +38,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
             args=training_args,
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=lambda x: compute_metrics(x, tokenizer, model_size, device),
+            compute_metrics=compute_metrics
             )
     
     # Train the model
@@ -64,10 +64,6 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     print(f"[INFO] Evaluating model on test set...")
     test_results = trainer.evaluate(test_dataset)
     
-    # Save test results
-    with open(os.path.join(output_dir, "test_results.json"), "w") as f:
-        json.dump(test_results, f)
-    
     print(f"[INFO] Test results: {test_results}")
     
     print(f"[INFO] Training complete. Final model saved to {output_dir}")
@@ -75,6 +71,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
 
 
 
+# no need for the `train` command as it's the only one. simplify the following, ai!
 @click.group()
 def main() -> None:
     """Train a query reformulation model."""
