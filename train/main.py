@@ -1,10 +1,14 @@
 import json
 import os
+from typing import Tuple, Any
 
 import click
+import torch
 from transformers import (
     Trainer,
     TrainingArguments,
+    PreTrainedTokenizer,
+    PreTrainedModel,
 )
 
 from benchmark.metric import compute_metrics
@@ -12,7 +16,7 @@ from data import QueryReformulationDataset
 from utils.init_models import init_models
 
 
-def fine_tune(model_size, dataset, training_epochs):
+def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     device, tokenizer, model = init_models(model_size, use_sft_model=False)
     train_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="train")
     eval_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="eval")
@@ -65,7 +69,7 @@ def fine_tune(model_size, dataset, training_epochs):
 
 
 @click.group()
-def main():
+def main() -> None:
     """Train a query reformulation model."""
     pass
 
@@ -77,7 +81,7 @@ def main():
               help='Dataset to use for training (dev or full)')
 @click.option('--epochs', type=int, default=1,
               help='Number of training epochs')
-def train(model_size, dataset, epochs):
+def train(model_size: str, dataset: str, epochs: int) -> None:
     """Train a query reformulation model using the specified parameters."""
     print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}")
     fine_tune(model_size, dataset, epochs)

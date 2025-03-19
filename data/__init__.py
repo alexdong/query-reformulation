@@ -1,13 +1,14 @@
 import json
-import os
 from pathlib import Path
-from typing import Literal
+from typing import Dict, List, Literal, Any
 
-import torch
 from datasets import Dataset
 
 
-def load_dataset_from_jsonl(file_path, split_role: Literal["train", "eval", "test"] = "train"):
+def load_dataset_from_jsonl(
+    file_path: Path, 
+    split_role: Literal["train", "eval", "test"] = "train"
+) -> List[Dict[str, Any]]:
     """Load data from jsonl file and return as a list of dictionaries."""
 
     # The ratios are set to 85% training, 10% evaluation, and 5% testing.
@@ -25,7 +26,12 @@ def load_dataset_from_jsonl(file_path, split_role: Literal["train", "eval", "tes
 
 
 class QueryReformulationDataset:
-    def __init__(self, tokenizer, dataset="full", split_role="train"):
+    def __init__(
+        self, 
+        tokenizer: Any, 
+        dataset: str = "full", 
+        split_role: str = "train"
+    ) -> None:
         self.tokenizer = tokenizer
         data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"), split_role=split_role)
         
@@ -35,10 +41,10 @@ class QueryReformulationDataset:
             "output": [item.get("subqueries") for item in data],
         })
         
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self.dataset)
         
-    def __getitem__(self, idx):
+    def __getitem__(self, idx: int) -> Dict[str, Any]:
         item = self.dataset[idx]
         input_text = f"reformulate: {item['input']}"
         output_text = item['output']

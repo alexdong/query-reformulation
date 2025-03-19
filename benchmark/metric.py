@@ -1,9 +1,15 @@
+from typing import Dict, Tuple, Any
 import numpy as np
 import torch
 from bert_score import score
 
 
-def compute_metrics(eval_pred, tokenizer, model_size, device):
+def compute_metrics(
+    eval_pred: Tuple[np.ndarray, np.ndarray], 
+    tokenizer: Any, 
+    model_size: str, 
+    device: torch.device
+) -> Dict[str, float]:
     predictions, labels = eval_pred
 
     # Process each sequence individually
