@@ -38,7 +38,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
             args=training_args,
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=compute_metrics
+            compute_metrics=lambda x: compute_metrics(x, tokenizer),
             )
     
     # Train the model
@@ -64,6 +64,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     print(f"[INFO] Evaluating model on test set...")
     test_results = trainer.evaluate(test_dataset)
     
+    # Please print the test results out as a markdown table, ai!
     print(f"[INFO] Test results: {test_results}")
     
     print(f"[INFO] Training complete. Final model saved to {output_dir}")
