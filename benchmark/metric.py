@@ -59,8 +59,11 @@ if __name__ == "__main__":
         with open(subq_path, "r") as f:
             subq_list = [line.strip() for line in f if line.strip()]
         
-        # randomly create 100 comparisons where input and output are two random from the subq_list, ai!
-        
+        # Create random comparisons from the subquery list
+        for _ in range(100):
+            if len(subq_list) >= 2:  # Ensure we have at least 2 items to sample
+                input_subq, output_subq = random.sample(subq_list, 2)
+                random_comparisons.append((input_subq, output_subq, 0))  # 0 indicates dissimilar
     
     tests += random.sample(random_comparisons, 100)
 
@@ -69,7 +72,7 @@ if __name__ == "__main__":
         writer = csv.writer(csvfile)
         writer.writerow(["Query", "Subqueries", "Similarity", "Precision", "Recall", "F1"])
         for (input, output, similarity) in tests:
-            P, R, F1 = score(queries, subqueries, 
+            P, R, F1 = score([input], [output], 
                              model_type="microsoft/deberta-xlarge-mnli", lang="en", device=device)
     
             writer.writerow([
