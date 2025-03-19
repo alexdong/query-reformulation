@@ -72,16 +72,19 @@ if __name__ == "__main__":
     
     with open(output_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["Query", "Subqueries", "Precision", "Recall", "F1"])
+        writer.writerow(["Query", "Subqueries", "random", "Precision", "Recall", "F1"])
         
         for i in range(len(queries)):
             writer.writerow([
                 queries[i], 
                 subqueries[i], 
+                0,
                 P[i].item(), 
                 R[i].item(), 
                 F1[i].item()
             ])
+
+    # Now, let's load `subqueries/{reformulation_type}.txt` and calculate BERTScore among two random subqueries. Limit the number of comparison to 100 and make the random column to be 1. ai!
     
     # Print summary statistics
     print(f"[INFO] Results summary:")
