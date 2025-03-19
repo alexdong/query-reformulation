@@ -1,14 +1,15 @@
 import json
 from pathlib import Path
-from typing import Dict, List, Literal, Any
+from typing import Any, Dict, List, Literal
 
 from datasets import Dataset
+from transformers import T5Tokenizer
 
 
 def load_dataset_from_jsonl(
-    file_path: Path, 
-    split_role: Literal["train", "eval", "test"] = "train"
-) -> List[Dict[str, Any]]:
+    file_path: Path,
+    split_role: Literal["train", "eval", "test"] = "train",
+) -> List[Dict[str, str]]:
     """Load data from jsonl file and return as a list of dictionaries."""
 
     # The ratios are set to 85% training, 10% evaluation, and 5% testing.
@@ -27,12 +28,13 @@ def load_dataset_from_jsonl(
 
 class QueryReformulationDataset:
     def __init__(
-        self, 
-        tokenizer: Any, 
-        dataset: str = "full", 
-        split_role: str = "train"
+        self,
+        tokenizer: T5Tokenizer,
+        dataset: str = "full",
+        split_role: str = "train",
     ) -> None:
         self.tokenizer = tokenizer
+        # shuffle the data please, ai!
         data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"), split_role=split_role)
         
         # Convert to HF Dataset format
