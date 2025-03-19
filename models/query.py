@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List
 
 import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer
@@ -24,10 +24,10 @@ class QueryReformulator:
         self.model.eval()
     
     def reformulate(
-        self, 
-        query: str, 
-        max_length: int = 128, 
-        num_return_sequences: int = 1
+        self,
+        query: str,
+        max_length: int = 128,
+        num_return_sequences: int = 1,
     ) -> List[str]:
         """Reformulate a query into one or more search engine queries.
         

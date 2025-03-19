@@ -3,7 +3,6 @@ from typing import Any, Dict
 import torch
 
 
-
 def show_capabilities() -> Dict[str, Any]:
     """
     Interrogates the PyTorch library to determine the available hardware and software capabilities.

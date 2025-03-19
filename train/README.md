@@ -47,3 +47,56 @@ Training Performance
 =====================
 
 Train on the `data/dev.jsonl` dataset over `Flan-5t-small` took about 5 seconds and `Flan-5t-base` took about 10 seconds. The `full.jsonl` dataset took 5:13 minutes to train on `Flan-5t-small` for one epoch.
+
+Benchmark Target
+=================
+
+`eval_loss`
+------------
+
+The loss value measures how well the model is predicting the target tokens:
+
+ • Poor fit: 10+ (your current value is ~20.5)
+ • Decent fit: 2-5
+ • Good fit: 1-2
+ • Excellent fit: <1
+
+Loss values decrease as training progresses. For T5 models on text generation
+tasks, reaching a loss below 2.0 typically indicates the model has learned the
+patterns well.
+
+
+`eval_rouge_l`
+---------------
+
+ROUGE-L measures the longest common subsequence between predictions and references:
+
+ • Poor fit: <0.1 (your current value is ~0.04)
+ • Decent fit: 0.2-0.3
+ • Good fit: 0.3-0.5
+ • Excellent fit: >0.5
+
+For query reformulation specifically:
+
+ • Values around 0.3-0.4 indicate the model is capturing the essential information 
+ • Values above 0.5 suggest the model is generating high-quality 
+   reformulations that closely match the expected outputs
+
+Training Log
+=============
+
+`dev.jsonl` dataset over `Flan-5t-small` with 1 epoch (15 seconds)
+-------------------------------------------------------------------
+
+| Metric | Value |
+|--------|-------|
+| eval_loss | 20.9495 |
+| eval_rouge_l | 0.0431 |
+| eval_runtime | 0.1836 |
+| eval_samples_per_second | 21.7870 |
+| eval_steps_per_second | 5.4470 |
+| epoch | 1.0000 |
+
+- `full.jsonl` dataset over `Flan-5t-small` with 3 epochs (12:39 minutes)
+--------------------------------------------------------------------------
+
