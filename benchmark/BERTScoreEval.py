@@ -1,16 +1,14 @@
-from typing import Dict, Tuple
-
 import csv
 import json
-from pathlib import Path
 import random
-import numpy as np
+from pathlib import Path
+from typing import Dict, List
+
 import torch
 from bert_score import score
-from transformers import T5Tokenizer
 
 
-def semantic_similarity_score(input, output):
+def semantic_similarity_score(input: List[str], output: List[str]) -> Dict[str, float]:
     # BERTSCORE_MODEL = "microsoft/deberta-xlarge-mnli" # 3.6s
     BERTSCORE_MODEL = "roberta-large" # 1.0s
     LANG = "en"
@@ -31,7 +29,7 @@ if __name__ == "__main__":
     tests = random.sample(tests, 100)
 
     # Load random subqueries from reformulation type files and calculate BERTScore
-    print(f"[INFO] Loading random subqueries for comparison...")
+    print("[INFO] Loading random subqueries for comparison...")
     random_comparisons = []
     for ref_type in ["comparison", "expansion", "chaining"]:
         subq_path = Path(f"subqueries/{ref_type}.txt")
@@ -47,7 +45,13 @@ if __name__ == "__main__":
 
     output_path = Path("benchmark/bertscore_results.csv")
     
-    from rich.progress import Progress, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
+    from rich.progress import (
+        BarColumn,
+        Progress,
+        TextColumn,
+        TimeElapsedColumn,
+        TimeRemainingColumn,
+    )
     
     with open(output_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)

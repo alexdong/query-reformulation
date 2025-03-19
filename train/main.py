@@ -8,36 +8,36 @@ from transformers import (
 )
 
 from benchmark.metric import compute_metrics
-from data import QueryReformulationDataset
+from data import create_datasets
+from train.params import get_optimised_hyperparameters
 from utils.init_models import init_models
 
 
-def fine_tune(model_size: str, dataset: str, training_epochs: int, batch_size: int = 8) -> None:
+def fine_tune(model_size: str) -> None:
     device, tokenizer, model = init_models(model_size, use_sft_model=False)
-    train_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="train")
-    eval_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="eval")
-    test_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="test")
+    hyper_parameters = get_optimised_hyperparameters()
+    training_dataset, eval_dataset, test_dataset = create_datasets(tokenizer, hyper_parameters['sample_size'])
 
     output_dir = f"./models/sft-{model_size}"
     
     training_args = TrainingArguments(
             output_dir=output_dir,
-            num_train_epochs=training_epochs,
-            per_device_train_batch_size=batch_size,
-            save_steps=1_000,
-            save_total_limit=2,
-            eval_strategy="epoch",
-            save_strategy="epoch",
+            num_train_epochs=hyper_parameters['num_train_epochs'],
+            per_device_train_batch_size=hyper_parameters['per_device_train_batch_size'],
+            save_steps=hyper_parameters['save_steps'],
+            save_total_limit=hyper_parameters['save_total_limit'],
+            eval_strategy=hyper_parameters['eval_strategy'],
+            save_strategy=hyper_parameters['save_strategy'],
             logging_dir="/var/logs",
-            logging_steps=1_000,
+            logging_steps=hyper_parameters['logging_steps'],
             overwrite_output_dir=True,
-            fp16=device == "cuda",
+            fp16=hyper_parameters['fp16'],
             )
 
     trainer = Trainer(
             model=model,
             args=training_args,
-            train_dataset=train_dataset,
+            train_dataset=training_dataset,
             eval_dataset=eval_dataset,
             compute_metrics=lambda x: compute_metrics(x, tokenizer),
             )
@@ -62,7 +62,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int, batch_size: i
         json.dump(trainer_state, f)
 
     # Evaluate the model against the test set
-    print(f"[INFO] Evaluating model on test set...")
+    print("[INFO] Evaluating model on test set...")
     test_results = trainer.evaluate(test_dataset)
     
     # Print test results as a markdown table
@@ -83,16 +83,9 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int, batch_size: i
 @click.command()
 @click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small',
               help='Size of the T5 model to use')
-@click.option('--dataset', type=str, default='dev',
-              help='Dataset to use for training (dev or full)')
-@click.option('--epochs', type=int, default=1,
-              help='Number of training epochs')
-@click.option('--batch-size', type=int, default=8,
-              help='Batch size for training')
-def main(model_size: str, dataset: str, epochs: int, batch_size: int) -> None:
+def main(model_size: str) -> None:
     """Train a query reformulation model using the specified parameters."""
-    print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}, batch_size={batch_size}")
-    fine_tune(model_size, dataset, epochs, batch_size)
+    fine_tune(model_size)
 
 
 if __name__ == "__main__":

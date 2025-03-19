@@ -248,14 +248,12 @@ Alternative Approaches
 ----------------------
 
 1. Use RL to evaluate the quality of the reformulation. Similar to
-   [PraveenSH/RL-Query-Reformulation](https://github.com/PraveenSH/RL-Query-Reformulation)
-   but replace its "Reward Model" with a
-   [BERTScore](https://arxiv.org/pdf/1904.09675). Basically use a
-   `SentenceTransformer("all-MiniLM-L6-v2")` to generate embedding vectors for
-   the queries and subqueries. Then use Consine Similarity to calculate the
-   distance and use that as the reward signal.
+   [PraveenSH/RL-Query-Reformulation](https://github.com/PraveenSH/RL-Query-Reformulation).
+   I can't find a good enough reward model other than ROUGE-L. 
 
 2. SFT a LLaDA - Diffusion LLM model, like what [Mercury
    Code](https://www.inceptionlabs.ai/news) is doing. It should deliver a
    significant improvement in latency time, which in turns allows us to use a
    larger model. 
+
+3. Generate a GGUF and run it over llama.cpp.

@@ -1,46 +1,19 @@
 import json
-from pathlib import Path
 import random
-from typing import Any, Dict, List, Literal
+from pathlib import Path
+from typing import Any, Dict, List, Literal, Tuple
 
 from datasets import Dataset
 from transformers import T5Tokenizer
-
-
-def load_dataset_from_jsonl(
-    file_path: Path,
-    split_role: Literal["train", "eval", "test"] = "train",
-) -> List[Dict[str, str]]:
-    """Load data from jsonl file and return as a list of dictionaries."""
-
-    # The ratios are set to 85% training, 10% evaluation, and 5% testing.
-    # 80-10-10 split won't work in local dev because MPS backend requires more RAM than I have.
-    dataset = []
-    with open(file_path, "r") as f:
-        for line in f:
-            dataset.append(json.loads(line))
-    if split_role == "train":
-        return dataset[:int(0.85 * len(dataset))]
-    elif split_role == "eval":
-        return dataset[int(0.85 * len(dataset)):int(0.98 * len(dataset))]
-    elif split_role == "test":
-        return dataset[int(0.98 * len(dataset)):]
 
 
 class QueryReformulationDataset:
     def __init__(
         self,
         tokenizer: T5Tokenizer,
-        dataset: str = "full",
-        split_role: str = "train",
+        data: List[Dict[str, str]],
     ) -> None:
         self.tokenizer = tokenizer
-        # Load data from jsonl file
-        data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"), split_role=split_role)
-        
-        # Shuffle the data
-        random.shuffle(data)
-        
         # Convert to HF Dataset format
         self.dataset = Dataset.from_dict({
             "input": [item.get("query") for item in data],
@@ -82,12 +55,30 @@ class QueryReformulationDataset:
         }
 
 
+def create_datasets(tokenizer: T5Tokenizer, sample_size: float) -> Tuple[QueryReformulationDataset]:
+    dataset = []
+    with open(Path("./data/full.jsonl"), "r") as f:
+        for line in f:
+            dataset.append(json.loads(line))
+    random.shuffle(dataset)
+    dataset = random.sample(dataset, len(dataset) * sample_size)
+
+    def _create(role: Literal["train", "eval", "test"]) -> QueryReformulationDataset:
+        if role == "train":
+            data = dataset[:int(0.8 * len(dataset))]
+        elif role == "eval":
+            data = dataset[int(0.8 * len(dataset)):int(0.9 * len(dataset))]
+        else:
+            data = dataset[int(0.9 * len(dataset)):]
+        return QueryReformulationDataset(tokenizer, data)
+
+    train_dataset = _create("train")
+    eval_dataset = _create("eval")
+    test_dataset = _create("test")
+    return train_dataset, eval_dataset, test_dataset
+
 if __name__ == "__main__":
     from transformers import T5Tokenizer
     tokenizer = T5Tokenizer.from_pretrained("t5-small")
-    dataset = QueryReformulationDataset(tokenizer, dataset="dev", split_role="eval")
-    print(f"Dataset size: {len(dataset)}")
-    sample = dataset[0]
-    print(sample.keys())
-    print(sample["input"])
-    print(sample["output"])
+    dataset = create_datasets(tokenizer, 0.1)
+    print(dataset)

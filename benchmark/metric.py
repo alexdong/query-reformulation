@@ -1,18 +1,18 @@
 import csv
 import json
-from pathlib import Path
 import random
+from pathlib import Path
+from typing import Dict
+
 import numpy as np
-import torch
 from rouge_score import rouge_scorer
-from transformers import EvalPrediction
-import numpy as np
+from transformers import EvalPrediction, T5Tokenizer
 
 scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
-def score(input, output):
+def score(input: str, output: str) -> float:
     return scorer.score(input, output)['rougeL'].fmeasure
 
-def compute_metrics(eval_pred: EvalPrediction, tokenizer):
+def compute_metrics(eval_pred: EvalPrediction, tokenizer: T5Tokenizer) -> Dict[str, float]:
     predictions, labels = eval_pred
     
     # The predictions are likely coming as logits
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     tests = random.sample(tests, 100)
 
     # Load random subqueries from reformulation type files and calculate BERTScore
-    print(f"[INFO] Loading random subqueries for comparison...")
+    print("[INFO] Loading random subqueries for comparison...")
     random_comparisons = []
     for ref_type in ["comparison", "expansion", "chaining"]:
         subq_path = Path(f"subqueries/{ref_type}.txt")
@@ -66,7 +66,13 @@ if __name__ == "__main__":
 
     output_path = Path("benchmark/rouge_results.csv")
     
-    from rich.progress import Progress, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
+    from rich.progress import (
+        BarColumn,
+        Progress,
+        TextColumn,
+        TimeElapsedColumn,
+        TimeRemainingColumn,
+    )
     
     with open(output_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
