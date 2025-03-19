@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import random
 from typing import Any, Dict, List, Literal
 
 from datasets import Dataset
@@ -38,7 +39,6 @@ class QueryReformulationDataset:
         data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"), split_role=split_role)
         
         # Shuffle the data
-        import random
         random.shuffle(data)
         
         # Convert to HF Dataset format
