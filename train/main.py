@@ -43,6 +43,7 @@ def fine_tune(model_size: str) -> None:
             )
     
     # Train the model
+    model.config.use_cache = False
     trainer.train()
     
     # Explicitly save the final model and tokenizer to the output directory
@@ -63,6 +64,7 @@ def fine_tune(model_size: str) -> None:
 
     # Evaluate the model against the test set
     print("[INFO] Evaluating model on test set...")
+    model.config.use_cache = True
     test_results = trainer.evaluate(test_dataset)
     
     # Print test results as a markdown table

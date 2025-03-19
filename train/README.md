@@ -103,3 +103,11 @@ M2 Results:
 | eval_runtime | 67.9803 |
 | eval_samples_per_second | 2.3680 |
 | eval_steps_per_second | 0.3090 |
+
+T4 Results:
+
+A10G Results:
+
+T4 with Quantization Results:
+
+A10G with Quantization Results:
