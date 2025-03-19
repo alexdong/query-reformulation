@@ -1,6 +1,8 @@
-import torch 
-from transformers import T5Tokenizer, T5ForConditionalGeneration
-from typing import List, Optional, Union
+from typing import List
+
+import torch
+from transformers import T5ForConditionalGeneration, T5Tokenizer
+
 
 class QueryReformulator:
     def __init__(self, model_size: str = "small", use_sft_model: bool = True):
@@ -43,7 +45,7 @@ class QueryReformulator:
                 max_length=max_length,
                 num_return_sequences=num_return_sequences,
                 num_beams=num_return_sequences * 2,
-                early_stopping=True
+                early_stopping=True,
             )
         
         # Decode and return reformulated queries
@@ -67,3 +69,11 @@ def reformulate_query(query: str, model_size: str = "small", max_length: int = 1
     """
     reformulator = QueryReformulator(model_size=model_size)
     return reformulator.reformulate(query, max_length=max_length)
+
+if __name__ == "__main__":
+    query = "What is the capital of France?"
+    reformulations = reformulate_query(query)
+    print("Original Query:", query)
+    print("Reformulated Queries:")
+    for i, reformulation in enumerate(reformulations):
+        print(f"{i + 1}. {reformulation}")

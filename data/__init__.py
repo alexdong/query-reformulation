@@ -1,23 +1,27 @@
-from datasets import Dataset
 import json
-from pathlib import Path
-import torch
-from typing import Literal
 import os
+from pathlib import Path
+from typing import Literal
+
+import torch
+from datasets import Dataset
 
 
 def load_dataset_from_jsonl(file_path, split_role: Literal["train", "eval", "test"] = "train"):
     """Load data from jsonl file and return as a list of dictionaries."""
+
+    # The ratios are set to 85% training, 10% evaluation, and 5% testing.
+    # 80-10-10 split won't work in local dev because MPS backend requires more RAM than I have.
     dataset = []
     with open(file_path, "r") as f:
         for line in f:
             dataset.append(json.loads(line))
     if split_role == "train":
-        return dataset[:int(0.8 * len(dataset))]
+        return dataset[:int(0.85 * len(dataset))]
     elif split_role == "eval":
-        return dataset[int(0.8 * len(dataset)):int(0.9 * len(dataset))]
+        return dataset[int(0.85 * len(dataset)):int(0.98 * len(dataset))]
     elif split_role == "test":
-        return dataset[int(0.9 * len(dataset)):]
+        return dataset[int(0.98 * len(dataset)):]
 
 
 class QueryReformulationDataset:
@@ -28,7 +32,7 @@ class QueryReformulationDataset:
         # Convert to HF Dataset format
         self.dataset = Dataset.from_dict({
             "input": [item.get("query") for item in data],
-            "output": [item.get("subqueries") for item in data]
+            "output": [item.get("subqueries") for item in data],
         })
         
     def __len__(self):
@@ -44,7 +48,7 @@ class QueryReformulationDataset:
             max_length=64,  # Query Max tokens is 57 with P99 at 36
             padding="max_length",
             truncation=True,
-            return_tensors="pt"
+            return_tensors="pt",
         )
         
         output_tokens = self.tokenizer.encode_plus(
@@ -52,7 +56,7 @@ class QueryReformulationDataset:
             max_length=80,  # Expansion's P99 is 70.
             padding="max_length",
             truncation=True,
-            return_tensors="pt"
+            return_tensors="pt",
         )
         
         return {

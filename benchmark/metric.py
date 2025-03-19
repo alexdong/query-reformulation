@@ -1,6 +1,7 @@
-import torch
 import numpy as np
+import torch
 from bert_score import score
+
 
 def compute_metrics(eval_pred, tokenizer, model_size, device):
     predictions, labels = eval_pred

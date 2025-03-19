@@ -1,15 +1,15 @@
-import sys
-import os
 import json
-import torch
-from transformers import T5Tokenizer, Trainer, TrainingArguments, T5ForConditionalGeneration
-from transformers import DataCollatorForSeq2Seq
-import click
+import os
 
+import click
+from transformers import (
+    Trainer,
+    TrainingArguments,
+)
+
+from benchmark.metric import compute_metrics
 from data import QueryReformulationDataset
 from utils.init_models import init_models
-from benchmark.metric import compute_metrics
-
 
 
 def fine_tune(model_size, dataset, training_epochs):
@@ -33,11 +33,11 @@ def fine_tune(model_size, dataset, training_epochs):
             )
 
     trainer = Trainer(
-            model=model, 
-            args=training_args, 
+            model=model,
+            args=training_args,
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=lambda x: compute_metrics(x, tokenizer, model_size, device)
+            compute_metrics=lambda x: compute_metrics(x, tokenizer, model_size, device),
             )
     
     # Train the model
@@ -53,7 +53,7 @@ def fine_tune(model_size, dataset, training_epochs):
         "best_model_checkpoint": output_dir,
         "best_metric": trainer.state.best_metric if hasattr(trainer.state, "best_metric") else None,
         "epoch": trainer.state.epoch,
-        "global_step": trainer.state.global_step
+        "global_step": trainer.state.global_step,
     }
     
     with open(os.path.join(output_dir, "trainer_state.json"), "w") as f:
@@ -71,11 +71,11 @@ def main():
 
 
 @main.command()
-@click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small', 
+@click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small',
               help='Size of the T5 model to use')
-@click.option('--dataset', type=str, default='dev', 
+@click.option('--dataset', type=str, default='dev',
               help='Dataset to use for training (dev or full)')
-@click.option('--epochs', type=int, default=1, 
+@click.option('--epochs', type=int, default=1,
               help='Number of training epochs')
 def train(model_size, dataset, epochs):
     """Train a query reformulation model using the specified parameters."""
