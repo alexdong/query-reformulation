@@ -326,3 +326,154 @@ if __name__ == "__main__":
     print(f"📈 95th percentile (P95):  {stats['p95_time']*1000:.2f} ms")
     print(f"📈 99th percentile (P99):  {stats['p99_time']*1000:.2f} ms")
     print(f"{'=' * 50}")
+import os
+import json
+import time
+from pathlib import Path
+import torch
+import click
+from tqdm import tqdm
+from typing import List, Dict, Any
+
+from data import QueryReformulationDataset, load_dataset_from_jsonl
+from models.query import QueryReformulator
+from benchmark.metric import compute_metrics
+
+DEV_DATASET = Path("datasets/dev.jsonl")
+BERT_MODEL_SIZES = ["base", "large"]
+MODEL_TYPES = ["t5", "bert"]
+
+def load_dataset(file_path: Path) -> List[Dict[str, Any]]:
+    """Load a dataset from a JSONL file."""
+    return load_dataset_from_jsonl(file_path)
+
+def evaluate(model_size: str, dataset: str, batch_size: int = 8, verbose: bool = False):
+    """Evaluate a trained query reformulation model using direct inference.
+    
+    Args:
+        model_size: Size of the T5 model ('small', 'base', or 'large')
+        dataset: Dataset to use for evaluation ('dev' or 'full')
+        batch_size: Batch size for evaluation
+        verbose: Whether to print detailed progress
+    """
+    # Initialize the model
+    reformulator = QueryReformulator(model_size=model_size)
+    device = reformulator.device
+    
+    # Load the test dataset
+    dataset_path = Path(f"datasets/{dataset}.jsonl")
+    test_data = load_dataset(dataset_path)
+    
+    if verbose:
+        print(f"[INFO] Loaded {len(test_data)} examples from {dataset_path}")
+    
+    # Prepare for evaluation
+    all_predictions = []
+    all_references = []
+    total_time = 0
+    
+    # Process examples
+    for example in tqdm(test_data, desc="Evaluating"):
+        query = example.get("query", "")
+        reference = example.get("subqueries", "")
+        
+        # Measure inference time
+        start_time = time.time()
+        predictions = reformulator.reformulate(query)
+        end_time = time.time()
+        
+        inference_time = end_time - start_time
+        total_time += inference_time
+        
+        # Store results
+        all_predictions.append(predictions[0])  # Take first prediction
+        all_references.append(reference)
+        
+        if verbose and len(all_predictions) % 10 == 0:
+            print(f"Example {len(all_predictions)}:")
+            print(f"  Query: {query}")
+            print(f"  Prediction: {predictions[0]}")
+            print(f"  Reference: {reference}")
+            print(f"  Inference time: {inference_time:.4f}s")
+    
+    # Calculate BERTScore
+    import numpy as np
+    from bert_score import score
+    
+    P, R, F1 = score(all_predictions, all_references, lang="en", 
+                     model_type="microsoft/roberta-large", device=device)
+    
+    # Prepare results
+    results = {
+        "bertscore_f1": F1.mean().item(),
+        "bertscore_precision": P.mean().item(),
+        "bertscore_recall": R.mean().item(),
+        "avg_inference_time": total_time / len(test_data),
+        "total_examples": len(test_data),
+    }
+    
+    print(f"[INFO] Evaluation results: {results}")
+    
+    # Save results to file
+    output_dir = Path(f"./benchmark/results")
+    output_dir.mkdir(exist_ok=True, parents=True)
+    
+    output_file = output_dir / f"{model_size}_{dataset}_results.json"
+    with open(output_file, "w") as f:
+        json.dump(results, f, indent=2)
+    
+    print(f"[INFO] Results saved to {output_file}")
+    
+    return results
+
+def benchmark_model(
+    model_type: str,
+    model_size: str,
+    dataset: List[Dict[str, Any]],
+    force_cpu: bool = False,
+    use_onnx: bool = False,
+    use_torchscript: bool = False,
+):
+    """Benchmark a model's inference speed and accuracy."""
+    # This is a placeholder for your existing benchmark_model function
+    # You can implement this based on your requirements
+    pass
+
+@click.group()
+def main():
+    """Benchmark and evaluate query reformulation models."""
+    pass
+
+@main.command()
+@click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small',
+              help='Size of the T5 model to use')
+@click.option('--dataset', type=str, default='dev',
+              help='Dataset to use for evaluation (dev or full)')
+@click.option('--verbose', is_flag=True, help='Print detailed progress')
+def eval(model_size, dataset, verbose):
+    """Evaluate a trained query reformulation model using the specified parameters."""
+    print(f"[INFO] Evaluating with model_size={model_size}, dataset={dataset}")
+    evaluate(model_size, dataset, verbose=verbose)
+
+@main.command()
+@click.option('--model-type', type=click.Choice(MODEL_TYPES), default='t5',
+              help='Type of model to benchmark')
+@click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small',
+              help='Size of the model to benchmark')
+@click.option('--force-cpu', is_flag=True, help='Force CPU usage even if GPU is available')
+@click.option('--use-onnx', is_flag=True, help='Use ONNX runtime for inference')
+@click.option('--use-torchscript', is_flag=True, help='Use TorchScript for inference')
+def benchmark(model_type, model_size, force_cpu, use_onnx, use_torchscript):
+    """Benchmark a model's inference speed and accuracy."""
+    dataset = load_dataset(DEV_DATASET)
+    benchmark_model(
+        model_type=model_type,
+        model_size=model_size,
+        dataset=dataset,
+        force_cpu=force_cpu,
+        use_onnx=use_onnx,
+        use_torchscript=use_torchscript,
+    )
+
+if __name__ == "__main__":
+    main()
