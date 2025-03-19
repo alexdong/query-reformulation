@@ -12,7 +12,7 @@ scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
 def score(input, output):
     return scorer.score(input, output)['rougeL'].fmeasure
 
-def compute_metrics(eval_pred: EvalPrediction):
+def compute_metrics(eval_pred: EvalPrediction, tokenizer=None, model_size=None, device=None):
     """
     Computes ROUGE-L for use with Hugging Face Trainer.evaluate().
 
@@ -21,6 +21,9 @@ def compute_metrics(eval_pred: EvalPrediction):
                    predictions: [batch_size, sequence_length] of token IDs
                    label_ids:  [batch_size, sequence_length] of token IDs
                    -100 should be used as padding
+        tokenizer: The tokenizer to use for decoding
+        model_size: Size of the model (not used, but kept for compatibility)
+        device: Device to use (not used, but kept for compatibility)
     Returns:
         A dictionary containing the average ROUGE-L score.
     """

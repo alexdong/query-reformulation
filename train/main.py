@@ -60,7 +60,15 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     with open(os.path.join(output_dir, "trainer_state.json"), "w") as f:
         json.dump(trainer_state, f)
 
-    # Evaluate the model against the test set, ai!
+    # Evaluate the model against the test set
+    print(f"[INFO] Evaluating model on test set...")
+    test_results = trainer.evaluate(test_dataset)
+    
+    # Save test results
+    with open(os.path.join(output_dir, "test_results.json"), "w") as f:
+        json.dump(test_results, f)
+    
+    print(f"[INFO] Test results: {test_results}")
     
     print(f"[INFO] Training complete. Final model saved to {output_dir}")
 
