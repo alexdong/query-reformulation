@@ -34,8 +34,12 @@ class QueryReformulationDataset:
         split_role: str = "train",
     ) -> None:
         self.tokenizer = tokenizer
-        # shuffle the data please, ai!
+        # Load data from jsonl file
         data = load_dataset_from_jsonl(Path(f"data/{dataset}.jsonl"), split_role=split_role)
+        
+        # Shuffle the data
+        import random
+        random.shuffle(data)
         
         # Convert to HF Dataset format
         self.dataset = Dataset.from_dict({
