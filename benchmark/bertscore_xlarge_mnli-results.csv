@@ -1,0 +1,201 @@
+Query,Subqueries,Similarity,Precision,Recall,F1
+Which tectonic plates that include continents and are adjacent to the Pacific Belt also participate in collisions and border interactions with other tectonic plates?,Pacific Belt Adjacent To Tectonic Plate\nTectonic Plate Collision With Tectonic Plate\nTectonic Plate Borders Tectonic Plate\nTectonic Plate Includes Continents,1,0.5474,0.5145,0.5304
+"How do Air New Zealand, Qantas, and Jetstar differ in terms of the number of aircraft they operate?",Air New Zealand Fleet Size\nQantas Fleet Size\nJetstar Fleet Size,1,0.5667,0.5868,0.5766
+"Which country, recognized as sovereign, features a central bank that is regulated by New Zealand’s economic policy?",New Zealand Economic Policy Regulates Central bank\nCentral bank Located In Country\nCountry Sovereignty,1,0.5782,0.5317,0.554
+What are the key uses of flax?,Flax Fiber\nFlax Oil\nFlax Food,1,0.5982,0.4544,0.5165
+"Which planet, featuring a weather phenomenon property of the place affected by meat, has what diameter?",Meat Impacts Place\nPlace Has Property Weather phenomenon\nWeather phenomenon Part Of Planet\nPlanet Diameter,1,0.5286,0.467,0.4959
+What is the earlier death date: that of explorer David Thompson or James Clark Ross?,David Thompson  explorer  Death Date\nJames Clark Ross Death Date,1,0.6088,0.5802,0.5942
+"Which country has a larger population, Pakistan or Taiwan?",Pakistan Population\nTaiwan Population,1,0.4995,0.4924,0.4959
+What is the effect of global weather on living organisms?,Global Weather Impacts LivingOrganism\nLivingOrganism Impacted By,1,0.683,0.5102,0.5841
+Can you determine the conservation status of the mammals in the fauna of the mountain range that encompasses the national park along the San Joaquin River?,San Joaquin River Flows Past NationalPark\nNationalPark Part Of Mountain range\nMountain range Fauna Includes Mammal\nMammal Conservation Status,1,0.6338,0.5854,0.6087
+How does New Zealand shape its economic policy to drive growth across its leading industries?,New Zealand Economic Policy Agriculture\nNew Zealand Economic Policy Tourism\nNew Zealand Economic Policy Manufacturing,1,0.4847,0.4923,0.4884
+"What are the founding years of the San Francisco 49ers, Los Angeles Rams, and Green Bay Packers, and which one is the oldest?",San Francisco 49ers Founded\nLos Angeles Rams Founded\nGreen Bay Packers Founded,1,0.5891,0.6347,0.611
+Who outlived whom: did Francis Hutcheson die before Adam Smith?,Francis Hutcheson Death Date\nAdam Smith Death Date,1,0.5562,0.5686,0.5623
+"Which area is bigger, Sierra Nevada or Southern Uplands?",Sierra Nevada Area\nSouthern Uplands Area,1,0.6766,0.6724,0.6745
+Which type describes the professional sports league associated with Seattle’s American football team?,Seattle Has Sport Team American football team\nAmerican football team Part Of Professional sports league\nProfessional sports league Type,1,0.5882,0.5271,0.556
+What places are recognized by New Zealand's Heritage List?,New Zealand Heritage List Buildings\nNew Zealand Heritage List landscapes\nNew Zealand Heritage List wāhi tapu,1,0.5429,0.4865,0.5131
+Who serves as the sovereign of the country that is home to the royal family including the British Monarch?,British Monarch Member Of Royal Family\nRoyal Family Located In Country\nCountry Sovereign,1,0.5773,0.524,0.5493
+What ideology is associated with the military alliance that created the intergovernmental entity of the country in which an iwi is situated?,Iwi Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Founded By Military alliance\nMilitary alliance Ideology,1,0.5458,0.5026,0.5233
+What is the currency of the country that borders the country where the Battle of Culloden took place?,Battle of Culloden Located In Country\nCountry Borders Country Country\nCountry Currency,1,0.5614,0.5144,0.5369
+Could you provide the time zone details for Chester in Nova Scotia and for Ahe?,Chester  Nova Scotia Time Zone\nAhe Time Zone,1,0.5706,0.5742,0.5724
+Why is the service emphasized by universities in Scotland considered important?,Universities Scotland Promotes Service\nService Importance,1,0.6265,0.578,0.6012
+In what year was the specialized agency established under the intergovernmental organization that includes a development bank member of the World Health Organization?,World Health Organization Has Member Development Bank\nDevelopment Bank Member Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Established,1,0.4942,0.4742,0.484
+What publication type is linked to the academic discipline associated with a systematic investigation supported by the system required by the Canadian workforce?,Canadian Workforce Requires System\nSystem Supports Systematic investigation\nSystematic investigation Related To Academic discipline\nAcademic discipline Publication Type,1,0.6009,0.5394,0.5685
+What is the average lifespan of the mammal that uses the field of study which impacted the collective where demography is a part?,Demography Part Of Collective\nCollective Impacted By Field of study\nField of study Used By Mammal\nMammal Average Lifespan,1,0.6022,0.5675,0.5843
+"In which biogeographic realm, known for its biodiversity, do the birds that interact with the kea reside?",Kea Interacts With Bird\nBird Part Of Biogeographic Realm\nBiogeographic Realm Biodiversity,1,0.5671,0.522,0.5436
+"What are the area differences among the Eurasian, North American, and South American tectonic plates?",Eurasian Plate Area\nNorth American Plate Area\nSouth American Plate Area,1,0.604,0.5868,0.5953
+What ongoing efforts are shaping the modern Wabanaki Confederacy?,Wabanaki Confederacy Ongoing\nWabanaki Confederacy revitalized,1,0.6202,0.5524,0.5843
+"Who is the monarch that includes Geelong in his realm, and what are his predecessor and successor, as well as the termination date of his reign?",Geelong Part Of Monarch\nMonarch Predecessor Monarch\nMonarch Successor Monarch\nMonarch Reign End,1,0.5181,0.4967,0.5072
+"Which city, being the largest, is situated in the country neighboring the one that includes French Polynesia?",French Polynesia Part Of Country\nCountry Has Border With Country\nCountry Largest City,1,0.5667,0.5021,0.5324
+What are the primary offerings provided by Bloomberg LP?,Bloomberg L P  Financial data\nBloomberg L P  news\nBloomberg L P  analytics,1,0.5409,0.4229,0.4747
+Which continent bordering the continent of the country that contains Southland Region has what climate?,Southland Region Located In Country\nCountry Located In Continent\nContinent Borders Continent\nContinent Climate,1,0.5686,0.4393,0.4957
+"Between the Sun and the Solar System, which formed first?",Sun Age\nSolar System Age,1,0.5037,0.5091,0.5064
+What country is recognized as having sovereignty over the neighboring country of the nation where Glasgow Cathedral's city is located?,Glasgow Cathedral Located In City\nCity Located In Country\nCountry Borders Country\nCountry Sovereignty,1,0.525,0.4835,0.5034
+What influence did Chinese laborers have on the spread of cultural practices through migration?,Chinese laborers Diaspora\nChinese laborers Cultural Exchange,1,0.5183,0.5242,0.5213
+"Which tectonic plate has the biggest area: the Philippine Sea Plate, Australian Plate, or Pacific Plate?",Philippine Sea Plate Area\nAustralian Plate Area\nPacific Plate Area,1,0.5991,0.6623,0.6291
+What are the different levels of education offered in New Zealand?,Education New Zealand Vocational\nEducation New Zealand Higher\nEducation New Zealand Primary\nEducation New Zealand Secondary,1,0.5536,0.4342,0.4867
+Identify the lowest point of the super-continent that encompasses the continent where World War I was fought.,World War I Took Place In Continent\nContinent Located In Continent\nContinent Lowest Point,1,0.6289,0.5238,0.5716
+What are the areas of the Sahel and the Witwatersrand?,Sahel Area\nWitwatersrand Area,1,0.6551,0.642,0.6485
+"In what ways does music serve cultural, expressive, and ceremonial purposes?",Music Entertainment\nMusic Expression\nMusic Ritual,1,0.5275,0.4645,0.494
+"Which gender label applies to the boarding school at which the monarch, parent of Prince Harry, Duke of Sussex, received their education?",Prince Harry  Duke of Sussex Child Of Monarch\nMonarch Educated At Boarding school\nBoarding school Gender,1,0.5781,0.5239,0.5497
+"Which national park, Sequoia or Yellowstone, has the higher maximum elevation?",Sequoia National Park Elevation Max\nYellowstone National Park Elevation Max,1,0.6019,0.5535,0.5767
+"Determine which actor—Ian McKellen, Robert Downey Jr, or Tamara Smart—was born before the others.",Ian McKellen Birth Date\nRobert Downey Jr  Birth Date\nTamara Smart Birth Date,1,0.5677,0.5843,0.5759
+What track gauge is specified for the New Zealand rail network and the Otago Railway?,New Zealand rail network Gauge\nOtago Railway Gauge,1,0.6615,0.6303,0.6455
+What is the type of the legal person that receives rents from the occupation associated with a tenant?,Tenant Has Relationship Occupation\nOccupation Rents To Legal person\nLegal person Type,1,0.5804,0.4917,0.5324
+"Between the Ring of Fire, riverbeds, and the Pacific Belt, which one exhibits the greatest depth?",Ring of Fire Depth\nRiverbed Depth\nPacific Belt Depth,1,0.5636,0.6257,0.5931
+"How do the populations of Aboriginal Australians, First Nations, and other tribes compare?",Aboriginal Australians Population\nFirst Nations Population\nOther Tribes Population,1,0.6568,0.6045,0.6296
+How is the Witwatersrand region economically characterized?,Witwatersrand Mining\nWitwatersrand Manufacturing\nWitwatersrand Services,1,0.541,0.3952,0.4567
+Which primary motivation drove the migration responsible for the geographic spread of the Proto-Austronesian language family?,Proto-Austronesian Geographic Distribution Migration\nMigration Language Family LanguageFamily\nLanguageFamily Part Of Migration\nMigration Primary Motivation,1,0.5867,0.47,0.5219
+In what ways have treaties affected the modern challenges encountered by the Māori as indigenous people?,Māori People Related To Treaty\nTreaty Impacts Indigenous people\nIndigenous people Contemporary Issues,1,0.6337,0.5606,0.5949
+What is the capital of the country that borders another nation and is a member state of the political association established by British colonialism?,British Colonialism Led To Creation Of Political association\nPolitical association Member State Country\nCountry Borders Country\nCountry Capital,1,0.5571,0.4968,0.5252
+"What is the boiling point of the fluid that an industry, supported by rainfall, depends on?",Rainfall Supports Industry\nIndustry Requires Fluid\nFluid Boiling Point,1,0.5785,0.5445,0.561
+"What is the capital of the country that includes the Gore District Council, where the city's culture features an oral tradition?",Gore District Council Part Of Country\nCountry Has Capital City\nCity Influenced By Culture\nCulture Oral Tradition,1,0.5814,0.5373,0.5585
+What technology is associated with the historical period that influenced the historical event of which the Oklahoma Land Run was a part?,Oklahoma Land Run Part Of HistoricalEvent\nHistoricalEvent Influenced By Historical Period\nHistorical Period Technology,1,0.6081,0.5507,0.5779
+Which process is defined by the facilitation of economic activity governed by New Zealand trade?,New Zealand Trade Regulates Economic Activity\nEconomic Activity Facilitates Process\nProcess Definition,1,0.6035,0.546,0.5733
+"How do the longitude values of Sapporo, Kalgoorlie, and Geelong differ?",Sapporo Longitude\nKalgoorlie Longitude\nGeelong Longitude,1,0.6324,0.6301,0.6312
+"What is the standard definition of voluntary exchange in social science, considering the impact of infrastructure that underpins supply chains?",Supply Chain Relies On Infrastructure\nInfrastructure Impacts Social science\nSocial science Haseffecton Voluntary exchange\nVoluntary exchange Definition,1,0.5214,0.4513,0.4839
+Find the headquarters location of the intergovernmental organization of which the country opposing the Mexican–American War is a member.,Mexican-American War Opposed By Country\nCountry Part Of Intergovernmental\nIntergovernmental Headquarters Location,1,0.6305,0.5635,0.5951
+"What is the weight of the mammal William Schaw, who engages in communication with another mammal?",William Schaw Instance Of Mammal\nMammal Communicates With Mammal\nMammal Mass,1,0.592,0.5368,0.563
+What is the comparative area in km² between Washington and Oregon?,Washington State Area km²\nOregon Area km²,1,0.5822,0.5581,0.5699
+"Which empire, measured in km² by its area, influenced the country of citizenship of James Hislop, a country that has a border with another country?",James Hislop Country Of Citizenship Country\nCountry Borders Country Country\nCountry Influenced By Empire\nEmpire Area km²,1,0.5605,0.5431,0.5517
+How do the population figures of Mawson Station compare to those of Davis Station?,Mawson Station Population\nDavis Station Population,1,0.5872,0.6091,0.598
+What is the government type of the country that borders the country where the prefecture served by the JR Hida Line is located?,JR Hida Line Serves Location Prefecture\nPrefecture Located In Country\nCountry Has Neighbor Country\nCountry Government Type,1,0.6181,0.5415,0.5773
+"Out of David Hume and Adam Smith, who died earlier?",David Hume Death Date\nAdam Smith Death Date,1,0.5489,0.5125,0.5301
+"How do changes in the atmosphere, by affecting weather phenomena, lead to variations in physical quantities over time?",Atmosphere Affects Weather phenomenon\nWeather phenomenon Influences Physical Quantity\nPhysical Quantity Temporal Variation,1,0.5746,0.5342,0.5537
+What is the km² area of the council area that is traversed by the river flowing through a town in Edinburghshire?,Edinburghshire Contains Town\nTown River Flows Through River\nRiver Flows Through Council Area\nCouncil Area Area km²,1,0.5873,0.5197,0.5514
+What is the difference in size between Timaru Harbour Area and Halifax Harbour Area?,Timaru Harbour Area\nHalifax Harbour Area,1,0.635,0.6982,0.6651
+"Can you compare the duration of a Master of Science program, an Undergraduate degree, and a Bachelor of Arts degree?",Master of Science Duration\nUndergraduate Degree Duration\nBachelor of Arts Duration,1,0.6471,0.6515,0.6493
+"Based on their dates, did the Battle of Culloden occur before or after the Battle of Prestonpans?",Battle of Culloden Date\nBattle of Prestonpans Date,1,0.6013,0.7001,0.647
+What are the main reasons behind biodiversity loss?,Biodiversity Loss Plants\nBiodiversity Loss animals\nBiodiversity Loss microorganisms,1,0.5147,0.4164,0.4604
+What are the main geographic features of the San Francisco Bay Area?,San Francisco Bay Area Coastal\nSan Francisco Bay Area Hills\nSan Francisco Bay Area Bay,1,0.4899,0.4494,0.4688
+"Which of Oreti Beach, Ngapuhi Beach, or Koekohe Beach is located further east based on its longitude?",Oreti Beach Longitude\nNgapuhi Beach Longitude\nKoekohe Beach Longitude,1,0.6146,0.6641,0.6384
+"Among Master of Arts, Undergraduate Degree, and Master of Science programs, what is the typical duration for each?",Master of Arts Duration\nUndergraduate Degree Duration\nMaster of Science Duration,1,0.5726,0.6167,0.5938
+What are the common fruit flavor notes found in Chardonnay wines?,Chardonnay Citrus\nChardonnay Apple\nChardonnay Tropical Fruit,1,0.5124,0.458,0.4837
+what are the key astronomical parameters that drive the Milankovitch cycles?,Milankovitch cycles Eccentricity\nMilankovitch cycles Obliquity\nMilankovitch cycles Precession,1,0.5667,0.4433,0.4974
+What is the comparative area size of the Chatham Islands versus the Australian Antarctic Territory?,Chatham Islands Area\nAustralian Antarctic Territory Area,1,0.6321,0.6692,0.6501
+How did Enlightenment ideas and events after World War II shape modern human rights?,Human Rights Enlightenment\nHuman Rights post-WWII,1,0.5991,0.595,0.597
+What role has discipline played in influencing the evolution of infrastructure throughout its history?,Infrastructure Impacts Discipline\nDiscipline Influences Infrastructure\nInfrastructure Historical Development,1,0.5215,0.4432,0.4792
+Which entity is responsible for promoting the living organism affected by a place impacted by timber?,Timber Impacts Place\nPlace Impacts LivingOrganism\nLivingOrganism Promoted By,1,0.5494,0.4759,0.51
+In what way does the concept related to the scientific discipline of zoology support the measurement of living things?,Zoology Related To Scientific discipline\nScientific discipline Related To Concept\nConcept Supports LivingThing\nLivingThing Measurement,1,0.5818,0.5186,0.5484
+Is the Pacific Belt deeper than the overall seafloor?,Seafloor Depth\nPacific Belt Depth,1,0.6323,0.5945,0.6128
+On which continent is the empire located that shaped the Bordeaux wine region?,Bordeaux Produces Wine region\nWine region Influenced By Empire\nEmpire Located In Continent\nContinent Continent,1,0.4987,0.4029,0.4457
+"For the star orbited by the planet on which Melbourne’s country is situated, what is its luminosity?",Melbourne Part Of Country\nCountry Located In Planet\nPlanet Orbits Star\nStar Luminosity,1,0.5417,0.5028,0.5215
+"Which group has the highest population: Yoruba people, Māori people, or Polynesian people?",Yoruba people Population\nMāori People Population\nPolynesian People Population,1,0.6582,0.6566,0.6574
+"Could you rank Air New Zealand, Origin Air, and Jetstar by their fleet size?",Air New Zealand Fleet Size\nOrigin Air Fleet Size\nJetstar Fleet Size,1,0.6176,0.5946,0.6059
+What are the countries that comprise the Malay Archipelago?,Malay Archipelago Indonesia\nMalay Archipelago Malaysia\nMalay Archipelago Philippines\nMalay Archipelago Brunei\nMalay Archipelago Singapore\nMalay Archipelago East Timor\nMalay Archipelago Thailand (partial),1,0.5458,0.4322,0.4824
+What are the environmental impacts of sediment transport on landscapes and water quality?,Sediment Transport Shape landscapes\nSediment Transport affect water quality,1,0.6835,0.6134,0.6466
+How long is the River Forth that features a landmark cantilever railway bridge?,River Forth Landmark Cantilever railway bridge\nCantilever railway bridge Crosses River\nRiver Length,1,0.6051,0.5058,0.551
+How does wind influence the natural environment?,Wind Weather\nWind Erosion,1,0.5851,0.5085,0.5442
+"Which state—Texas, Nevada, or Washington state—has the largest area in km²?",Texas Area km²\nNevada Area km²\nWashington  state  Area km²,1,0.5467,0.511,0.5283
+What is the land area (in km²) of the country that shares a border with the country where the New Zealand Rugby Football Union is based?,New Zealand Rugby Football Union Country Country\nCountry Has Neighbour Country\nCountry Area km²,1,0.575,0.5214,0.5469
+What are the primary sites for the Australian Antarctic Division's operations?,Australian Antarctic Division King's Park\nAustralian Antarctic Division Hobart,1,0.5581,0.5127,0.5344
+"At what time was the intergovernmental organization, where Cyprus is a member and that also comprises a specialized agency, founded?",Cyprus Member Of Intergovernmental\nIntergovernmental Has Agency Specialized agency\nSpecialized agency Member Of Intergovernmental\nIntergovernmental Formed,1,0.4495,0.3986,0.4225
+"Based on their establishment dates, which university—Dalhousie University, University of Oxford, or University of Otago—was founded earliest?",Dalhousie University Established\nUniversity of Oxford Established\nUniversity of Otago Established,1,0.6079,0.6452,0.626
+"Which type of organization influenced the social science domain to which Hamilton city’s industry, its economic sector, belongs?",Hamilton  city  Economic Sector Industry\nIndustry Part Of Social science\nSocial science Influencedby Organization\nOrganization Type,1,0.6048,0.5271,0.5633
+Which living thing's importance is shaped by a weather phenomenon that is impacted by the North Pacific Current?,North Pacific Current Affects Weather phenomenon\nWeather phenomenon Influences LivingThing\nLivingThing Importance,1,0.5939,0.5127,0.5503
+What role do identity struggles and feelings of alienation play in The Reluctant Fundamentalist after 9/11?,The Reluctant Fundamentalist Identity\nThe Reluctant Fundamentalist alienation\nThe Reluctant Fundamentalist post-9/11 world,1,0.6168,0.6064,0.6115
+In which intergovernmental organization is the country that contains Tāwerera a member?,Tāwerera Located In Country\nCountry Member Of Intergovernmental\nIntergovernmental Membership,1,0.5478,0.4606,0.5004
+Did the San Francisco 49ers or the Seattle Seahawks commence their franchise earlier?,San Francisco 49ers Founded\nSeattle Seahawks Founded,1,0.6474,0.6161,0.6313
+What is the age of the planet on which natural disasters occur due to plate tectonics responsible for the Ring of Fire?,Ring of Fire Caused By Plate tectonics\nPlate tectonics Causes Natural disaster\nNatural disaster Occurs On Planet\nPlanet Age,1,0.6429,0.5882,0.6143
+What unique adaptations allow penguins to be flightless yet excellent swimmers?,Penguin Flightless\nPenguin excellent swimmers,1,0.6025,0.6069,0.6047
+What are the dominant industries in the Sunshine Coast region?,Sunshine Coast Tourism\nSunshine Coast Agriculture\nSunshine Coast Healthcare,1,0.5964,0.4864,0.5358
+Te Anau Area Code\nUki  Fukushima Area Code\nDumfries Area Code,New Zealand falcon Wingspan\nProcellariiformes Wingspan,0,0.5672,0.5707,0.5689
+Al Gore Birth Date\nRobert F  Kennedy Birth Date\nRose Fitzgerald Kennedy Birth Date,Maritime Transport Employment\nChemical industry Employment\nFashion Industry Employment,0,0.5747,0.6143,0.5938
+Arctic Ocean Temperature\nSouth Pacific Current Temperature\nSouthern Ocean Temperature,University of Otago Student Population\nUniversity of Colombo Student Population,0,0.5888,0.6361,0.6115
+Queenstown Marathon Part Of Country\nCountry Has Capital City\nCity Type,Genealogy Related To Social science\nSocial science Part Of Collective\nCollective Study Field,0,0.6145,0.6111,0.6128
+Hydrologist Salary Range\nCurriculum Developer Salary Range,Antarctic Circumpolar Current Depth\nSouth Pacific Current Depth,0,0.667,0.6316,0.6488
+Geological Formation Tectonic\nGeological Formation Sedimentary\nGeological Formation Volcanic,Kiwi  fruit  Fuzzy\nKiwi  fruit  Juicy,0,0.6425,0.6105,0.6261
+National Science Foundation Established\nAustralian Antarctic Division Established,Rarotonga Lagoon Salinity\nAitutaki Lagoon Salinity,0,0.6332,0.6055,0.619
+North American Culture Influenced By Culture\nCulture Has Art Movement Historical Period\nHistorical Period Origin,Bordeaux Part Of Country\nCountry Member Of Intergovernmental\nIntergovernmental Seal Design,0,0.612,0.6512,0.631
+Thomas Burns  poet  Birth Date\nRobert Burns Birth Date,Qantas Fleet Size\nOrigin Air Fleet Size,0,0.6361,0.6474,0.6417
+Consumerism Fosters Business strategy\nBusiness strategy Influences Business function\nBusiness function Influenced By SocialScience\nSocialScience Models,Lake Wakatipu Part Of Island\nIsland Part Of Country\nCountry Capital,0,0.55,0.5818,0.5655
+State Services Commission  New Zealand  Performance\nState Services Commission  New Zealand  capability\nState Services Commission  New Zealand  and accountability,Ngāti Māmoe Complex\nNgāti Māmoe intertwined with other iwi,0,0.5682,0.5334,0.5503
+Walter Peak High Country Farm Sheep\nWalter Peak High Country Farm cattle\nWalter Peak High Country Farm deer,Synthetic fiber Textiles\nSynthetic fiber ropes\nSynthetic fiber plastics,0,0.6846,0.7062,0.6952
+Food Security Part Of Framework\nFramework Addresses Environmental Issue\nEnvironmental Issue Contributes To EnvironmentalIssue\nEnvironmentalIssue Primary Effect,Aroa River Used For Industry\nIndustry Uses Chemical Compound\nChemical Compound Type,0,0.6111,0.6241,0.6175
+Atlantic Canada Coastline\nAtlantic Canada Islands\nAtlantic Canada Highlands,Auckland Museum Natural history\nAuckland Museum Māori and Pacific culture\nAuckland Museum European settlement,0,0.7117,0.6224,0.6641
+Resource depletion Related To Ecological threshold\nEcological threshold Impacts LivingThing\nLivingThing Measurement,"Plant Propagation Instance Of Applied science\nApplied science Requires Various (e.g., loam, clay, sand)\nVarious (e.g., loam, clay, sand) Fertility",0,0.602,0.5573,0.5788
+Taupō District Area km²\nOtorohanga District Area km²\nBuller District Area km²,Subrahmanyam Raju Birth Date\nAdam Smith Birth Date,0,0.5856,0.6541,0.6179
+Zao  band  Where Good Leads to Bad\nZao  band  The Doubt Process,Atlantic Ocean Americas\nAtlantic Ocean Europe\nAtlantic Ocean Africa,0,0.4655,0.5314,0.4963
+Tama River Tributary Of Ocean\nOcean Impacts Weather phenomenon\nWeather phenomenon Time Scale,Papua New Guinea Has Neighbor Country\nCountry Influenced By Religion\nReligion Type,0,0.6448,0.661,0.6528
+Latin America Has Region Mountain range\nMountain range Adjacent To Ocean\nOcean Borders Continent\nContinent Climate,Silver Used In Visual art\nVisual art Instance Of,0,0.5051,0.5202,0.5125
+Paleocene Epoch Start Date\nTertiary Period Start Date\nEocene Epoch Start Date,Barry Taylor  cricketer  Birth Date\nJosh Ioane Birth Date\nKyle Shanahan Birth Date,0,0.6041,0.6159,0.61
+Maritime Silk Road Asia\nMaritime Silk Road Africa\nMaritime Silk Road Europe,Kakamigahara Aerospace Museum Aircraft\nKakamigahara Aerospace Museum rockets\nKakamigahara Aerospace Museum satellites,0,0.7272,0.6728,0.6989
+Russell Group Memberof Country\nCountry Has Monarch Monarch\nMonarch Educated At Boarding school\nBoarding school Headmaster,Benin Located In Continent\nContinent Has Geographic Feature Desert\nDesert Biome,0,0.6075,0.6099,0.6087
+Undergraduate Degree Duration\nMaster of Arts Duration\nMaster of Science Duration,Challenger Deep Pressure\nMariana Trench Pressure,0,0.6039,0.5708,0.5869
+Taieri Limited Otago\nTaieri Limited Southland,Coastal Erosion Seawalls\nCoastal Erosion Beach Nourishment,0,0.6584,0.5953,0.6252
+Uintatherium Instance Of Class (biology)\nClass (biology) Feeds On Substance\nSubstance Related To Industry\nIndustry Economic Sector,San Francisco 49ers Head Coach Athlete\nAthlete Type,0,0.4852,0.571,0.5246
+Appalachia Affected By EconomicCrisis\nEconomicCrisis Affected Country\nCountry Currency,Kakamigahara Located In Country\nCountry Influenced By Country\nCountry Located In Continent\nContinent Type,0,0.6239,0.6548,0.639
+Te Anau Population\nMashiko  Tochigi Population,Franklin District Council Established\nOtorohanga District Established\nWaitaki District Established,0,0.6497,0.6172,0.6331
+Otago Peninsula Area\nArabian Peninsula Area,State Highway 88 Route Number\nState Highway 1  New Zealand  Route Number,0,0.6373,0.5772,0.6058
+Ecology Includes Ecological system\nEcological system Affected By Weather phenomenon\nWeather phenomenon Definition,Jean Armour Resides In Town\nTown Part Of Council Area\nCouncil Area Borders Council Area\nCouncil Area Council Headquarters,0,0.6013,0.5737,0.5872
+New Zealand Transport Agency Roads\nNew Zealand Transport Agency Rail\nNew Zealand Transport Agency Maritime\nNew Zealand Transport Agency Aviation,Blood Sugar Insulin\nBlood Sugar Glucagon,0,0.6166,0.6132,0.6149
+Beauden Barrett Birth Date\nBarry Taylor  cricketer  Birth Date\nJosh Ioane Birth Date,Asia Area\nWestern Hemisphere Area,0,0.4986,0.5242,0.5111
+Aquatic Ecosystem Supports life\nAquatic Ecosystem regulates climate,Community Development Empowerment\nCommunity Development resilience,0,0.5794,0.6491,0.6123
+Deforestation Reforestation\nDeforestation Sustainable forestry,PGG Wrightson Agrichemicals\nPGG Wrightson seeds\nPGG Wrightson livestock,0,0.477,0.4917,0.4843
+State Highway 1  New Zealand  Auckland\nState Highway 1  New Zealand  Wellington\nState Highway 1  New Zealand  Christchurch,American Dream Inequality\nAmerican Dream unrealistic expectations,0,0.4515,0.4475,0.4495
+Waikato Region Population 2023\nOtago Region Population 2023\nCanterbury Region Population 2023,Entomology Historical Origin\nZoology Historical Origin,0,0.5889,0.6045,0.5966
+Marin County Established\nMidlothian Established\nTillamook County Established,University of Colombo Established\nEdinburgh Napier University Established\nUniversity of Auckland Established,0,0.7913,0.7625,0.7766
+Peebles Population\nMashiko  Tochigi Population,Yosemite National Park Elevation Max\nKings Canyon National Park Elevation Max,0,0.6338,0.6509,0.6422
+Oceanic art Environment\nOceanic art Belief Systems,Edward Cornwallis Fowey\nEdward Cornwallis Cornwall\nEdward Cornwallis England,0,0.6226,0.5963,0.6092
+Hinduism Vaishnavism\nHinduism Shaivism\nHinduism Shaktism,Fisheries Management Fishermen\nFisheries Management Governments\nFisheries Management Scientists,0,0.6284,0.6488,0.6384
+Afrika Bambaataa Birth Date\nLoreena McKennitt Birth Date\nGrandmaster Flash Birth Date,Lake Matheson Area\nLake Wakatipu Area,0,0.6138,0.6423,0.6278
+Auckland Has Landmark Park\nPark Located In Region\nRegion Largest City,Tokomairiro Near River\nRiver Located In Region\nRegion Part Of Country\nCountry Land Type,0,0.6374,0.6661,0.6514
+Deforestation Reforestation\nDeforestation Sustainable forestry,Baroque Europe\nBaroque Latin America,0,0.531,0.5375,0.5342
+Brown kiwi Weight\nNew Zealand falcon Weight,Antarctic Circumpolar Current Depth\nEquatorial Current Depth\nCalifornia Current Depth,0,0.5345,0.5475,0.5409
+Grapevine Cutting\nGrapevine Grafting,Scrapie Genotyping\nScrapie ELISA,0,0.7082,0.6958,0.7019
+New Zealand falcon Interacts With Bird\nBird Instance Of Animal\nAnimal Phylum,Polynesian People Part Of Continent\nContinent Contains Country\nCountry Currency,0,0.6204,0.6197,0.62
+Fisheries Regulates Subsistence & Sport\nSubsistence & Sport Related To Agricultural practice\nAgricultural practice Impacts Biome\nBiome Primary Producers,African Culture Influenced Population\nPopulation Affected By Imperialism\nImperialism Root Cause,0,0.5951,0.6393,0.6164
+Enya Birth Date\nOfa Tu ungafasi Birth Date,Sahara Desert Highest Point\nDeath Valley Highest Point,0,0.5751,0.6194,0.5965
+Neoclassical Architecture Period\nItalianate architecture Period,Chronic Kidney Disease Mortality Rate\nType 2 Diabetes Mortality Rate\nDengue fever Mortality Rate,0,0.6398,0.5832,0.6102
+Polynesia Includes Country\nCountry Member Of Political association\nPolitical association Governed By Intergovernmental Organization\nIntergovernmental Organization Headquarters Location,N A Used In Process\nProcess Has Field Mathematical discipline\nMathematical discipline Tool,0,0.5926,0.6102,0.6013
+Kapa Haka Marae\nKapa Haka stage,Subrahmanyam Raju Telugu\nSubrahmanyam Raju Hindi\nSubrahmanyam Raju English,0,0.5881,0.6006,0.5943
+After Life  TV series  Grief\nAfter Life  TV series  Loss\nAfter Life  TV series  Suicide,Māori Land rights\nMāori Language revitalization,0,0.5273,0.5262,0.5268
+1906 San Francisco Earthquake Magnitude\n2011 Christchurch earthquake Magnitude,Clast License\nWeka  machine learning  License\nChisel  uhi  License,0,0.5067,0.5222,0.5144
+Southern Europe Located In Continent\nContinent Borders Continent\nContinent Largest Country,The Reluctant Fundamentalist Subject Religion\nReligion Major Branch,0,0.5612,0.5425,0.5517
+Sequoia National Park Established\nYellowstone National Park Established\nBanff National Park Established,Thomas Burns  poet  Birth Date\nWilliam Burns  poet  Birth Date,0,0.6068,0.6239,0.6153
+Allied Powers Franklin D. Roosevelt\nAllied Powers Winston Churchill\nAllied Powers Joseph Stalin,California State Route 1 San Diego\nCalifornia State Route 1 Los Angeles\nCalifornia State Route 1 San Francisco,0,0.6751,0.6512,0.6629
+Uintatherium North America\nUintatherium Europe\nUintatherium Asia,Norma Jean Baker Los Angeles\nNorma Jean Baker California,0,0.6084,0.6475,0.6273
+Aerospace Transportation\nAerospace Defense\nAerospace Research,Aitutaki Lagoon EcoTrip Minimal impact\nAitutaki Lagoon EcoTrip reef protection,0,0.6501,0.5403,0.5901
+Abundance Supports Concept\nConcept Supports LivingThing\nLivingThing Part Of Closed ecological system\nClosed ecological system Start Date,Romanticism Preceded HistoricalPeriod\nHistoricalPeriod Followed By HistoricalPeriod\nHistoricalPeriod Followed By War\nWar Belligerents,0,0.5628,0.5376,0.5499
+Rituals  cosmetics  Minimalist\nRituals  cosmetics  Natural,Australian Antarctic Division King's Park\nAustralian Antarctic Division Hobart,0,0.6204,0.6496,0.6346
+Food Sustainability Environmental\nFood Sustainability social\nFood Sustainability and economic aspects,Ethel Skakel Darien\nEthel Skakel Connecticut\nEthel Skakel USA,0,0.6198,0.6105,0.6151
+Arctic Ocean Temperature\nOyashio Current Temperature\nSouth Pacific Current Temperature,Department of Conservation  New Zealand  Established\nNew Zealand Ministry of Foreign Affairs and Trade Established,0,0.578,0.5541,0.5658
+Hokitika Gorge Formed By Geological Process\nGeological Process Causes Mechanical & Chemical\nMechanical & Chemical Influenced By Weather phenomenon\nWeather phenomenon Affected By,Scotland Has Monarch Monarch\nMonarch Predecessor Of Monarch\nMonarch Type,0,0.4816,0.5349,0.5068
+Malay Archipelago Area\nTuamotu Archipelago Area,La Niña Duration\nEl Niño Duration,0,0.5502,0.6341,0.5892
+British Monarch Member Of Royal Family\nRoyal Family Located In Country\nCountry Sovereign,Papakura Located In Country\nCountry Has Neighbour Country\nCountry Official Language,0,0.6324,0.6109,0.6215
+Sedimentary Rock Contains Geological material\nGeological material Weathered From Mineral Aggregate\nMineral Aggregate Color,Commonwealth Secretariat Workswith Intergovernmental\nIntergovernmental Member State Country\nCountry Shares Border With Country\nCountry Continent,0,0.5529,0.5664,0.5596
+Melbourne Part Of Country\nCountry Located In Planet\nPlanet Orbits Star\nStar Luminosity,Mount Aspiring National Park Adjacent To NationalPark\nNationalPark Contains Fjord\nFjord Location,0,0.6554,0.6089,0.6313
+Market Demand Linked To Transaction\nTransaction Requires Business function\nBusiness function Uses Research\nResearch Cost,After Life  TV series  Language Language\nLanguage Spokenin Country\nCountry Borders Country\nCountry Capital,0,0.5003,0.5034,0.5019
+Victorian Literature Influenced By PhilosophicalConcept\nPhilosophicalConcept Influenced Revolution\nRevolution Phase,Early Colonial Transport Subject Of LegalSystem\nLegalSystem Related To Economic Activity\nEconomic Activity Driver,0,0.6636,0.6774,0.6704
+National Economy Interactswith Economic Activity\nEconomic Activity Involves Business Process\nBusiness Process Relies On Infrastructure\nInfrastructure Type,Dietary Fiber Reduces Risk Of Disease\nDisease Icd10 Code,0,0.529,0.5355,0.5322
+State Highway 1  New Zealand  Route Number\nState Highway 88 Route Number,Petroleum Density\nCrude Oil Density,0,0.4863,0.5629,0.5218
+Aboriginal Australians Population\nFirst Nations Population,New Zealand Abroad Start Date\nInformer  TV series  Start Date,0,0.6127,0.5417,0.575
+Caribbean Sea Contains Country\nCountry Member Of Political association\nPolitical association Head,Expansion of Canada Involved Q4322\nQ4322 Has Right LegalRight\nLegalRight Definition,0,0.6117,0.604,0.6079
+Decolonization Caused By Imperialism\nImperialism Led To Historical process\nHistorical process Geographic Scope,Demography Part Of Collective\nCollective Impacted By Field of study\nField of study Used By Mammal\nMammal Average Lifespan,0,0.6285,0.63,0.6293
+Timaru Harbour Depth\nHalifax Harbour Depth,OECD Membership\nAfrican Union Membership,0,0.6585,0.6829,0.6705
+Glacial Deposits Till\nGlacial Deposits Outwash\nGlacial Deposits Moraines,Fiji Fijian\nFiji English\nFiji Hindi,0,0.6179,0.6451,0.6312
+Natural Fiber Origin\nSediment Origin\nSynthetic fiber Origin,Norma Jean Baker Birth Date\nJean Armour Birth Date,0,0.5705,0.5984,0.5841
+Subantarctic Islands Discovery Date\nPrince Edward Island Discovery Date,Rocky Mountains Area\nSouthern Alps Area,0,0.6597,0.7502,0.702
+Metalcore Origin\nWestern Music Origin\nChristian Metal Origin,Forth Bridge Height\nStory Bridge Height,0,0.5565,0.5521,0.5543
+Decolonization Caused By Imperialism\nImperialism Led To Historical process\nHistorical process Geographic Scope,Sustainable Agriculture Addresses Problem Environmental Issue\nEnvironmental Issue Affects LivingThing\nLivingThing Value,0,0.6278,0.6332,0.6305
+Economist Efficiency\nEconomist Equity,Hip Hop Music Sampling\nHip Hop Music Drum machines\nHip Hop Music Synthesizers,0,0.6316,0.5568,0.5919
+Hawaiian Mythology Missionaries\nHawaiian Mythology Hawaiian scholars,Mount Cook Tourist Company Southern Alps\nMount Cook Tourist Company Aoraki/Mount Cook,0,0.671,0.6206,0.6448
+Microbiology Used In Field of study\nField of study History Length,Southland District Council Located In AdministrativeDivision\nAdministrativeDivision Contains City City\nCity Mayor,0,0.653,0.5936,0.6219
+Ocean Contains\nSea Contains,Barry Lawrence Birth Date\nAfrika Bambaataa Birth Date,0,0.5779,0.4777,0.523
+Chronic Kidney Disease Mortality Rate\nDengue fever Mortality Rate\nType 2 Diabetes Mortality Rate,Idaho Admission Date\nArizona Admission Date,0,0.5955,0.6607,0.6264
+Mataura River Located In AdministrativeDivision\nAdministrativeDivision Part Of Country\nCountry Has Neighbour Country\nCountry Capital,Auckland City Economic Activity Industry\nIndustry Instance Of Industry\nIndustry Instance Of Industry\nIndustry Revenue Model,0,0.5747,0.6,0.5871
+French Cuisine Braising\nFrench Cuisine Reduction,Plant Mosses\nPlant Ferns\nPlant Conifers\nPlant Flowering plants,0,0.5926,0.575,0.5836
+Kiwi  fruit  Fuzzy\nKiwi  fruit  Juicy,Nutrient mg\nNutrient mcg\nNutrient IU,0,0.5461,0.5855,0.5651
+Textile Industry Sustainability\nTextile Industry automation,Cape Breton Island Tourism\nCape Breton Island Forestry\nCape Breton Island Fishing,0,0.6921,0.6744,0.6831
+Amazon River Length\nHakatere River Length\nWaiau River Length,Death Valley Area\nSahara Desert Area,0,0.6177,0.6086,0.6131
+David Thompson  explorer  Explored Mountain range\nMountain range Influenced By Scientific Theory\nScientific Theory Explains Geological Process\nGeological Process Related To,Maritime Law Related To Economic Activity\nEconomic Activity Involves Business Process\nBusiness Process Goal,0,0.6275,0.6872,0.656
+Oreti Beach Adjacent To River\nRiver Adjacent To NationalPark\nNationalPark Elevation,Darwin Glacier Near Glacier\nGlacier Located In Continent\nContinent Located Near Ocean\nOcean Max Depth,0,0.625,0.6315,0.6282
+Westland Tai Poutini National Park Temperate\nWestland Tai Poutini National Park wet,Culture  human activity  Shapes behavior\nCulture  human activity  identity,0,0.5944,0.6113,0.6027
+United States Economy Inflation Rate\nNew Zealand Economy Inflation Rate,Federated States of Micronesia Independence Date\nCameroon Independence Date\nPapua New Guinea Independence Date,0,0.6975,0.6448,0.6701
+Mawson Station Population\nCasey Station Population\nDavis Station Population,Eurasian Plate Area\nNorth American Plate Area,0,0.6642,0.6529,0.6585
+Hamilton  musical  Hip hop\nHamilton  musical  R&B\nHamilton  musical  Pop,State Services Commission  New Zealand  Performance\nState Services Commission  New Zealand  capability\nState Services Commission  New Zealand  and accountability,0,0.6589,0.6378,0.6482
+Research Related To Academic discipline\nAcademic discipline Used In Field of study\nField of study Has Property Process\nProcess Benefit,Marlborough Sounds Adjacent To Sea\nSea Part Of Ocean\nOcean Type,0,0.5572,0.6017,0.5786
+Austronesian Peoples Tribal\nAustronesian Peoples hierarchical,Subduction Oceanic crust\nSubduction mantle,0,0.6427,0.6736,0.6578
+Event Management Event Planner\nEvent Management Coordinator\nEvent Management Manager,Government Foreign Affairs Trade\nGovernment Foreign Affairs Security\nGovernment Foreign Affairs Human Rights,0,0.6403,0.6539,0.6471
+Quebec Borders Country Country\nCountry Located In Planet\nPlanet Tectonic Plates Geosphere\nGeosphere Type,Latin America Has Region Mountain range\nMountain range Adjacent To Ocean\nOcean Borders Continent\nContinent Climate,0,0.6504,0.6493,0.6499
+Demography Policy making\nDemography resource allocation,Chardonnay Citrus\nChardonnay Apple\nChardonnay Tropical Fruit,0,0.5501,0.564,0.557
