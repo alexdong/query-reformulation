@@ -6,6 +6,7 @@ from transformers import T5Tokenizer, Trainer, TrainingArguments, T5ForCondition
 from transformers import DataCollatorForSeq2Seq
 from bert_score import score
 import click
+import numpy as np
 
 from data import QueryReformulationDataset
 from utils.init_models import init_models
@@ -13,27 +14,30 @@ from utils.init_models import init_models
 
 def compute_metrics(eval_pred, tokenizer, model_size, device):
     predictions, labels = eval_pred
-    # Convert predictions to a list of lists if it's not already
+
+    # Process each sequence individually
+    decoded_preds = []
+    decoded_labels = []
+
+    # Convert to numpy if they're tensors
     if isinstance(predictions, torch.Tensor):
         predictions = predictions.cpu().numpy()
     if isinstance(labels, torch.Tensor):
         labels = labels.cpu().numpy()
-        
-    # Process each sequence individually
-    decoded_preds = []
-    decoded_labels = []
-    
+
+
     for pred, label in zip(predictions, labels):
         # Replace -100 with pad_token_id
-        pred_processed = [t if t != -100 else tokenizer.pad_token_id for t in pred]
-        label_processed = [t if t != -100 else tokenizer.pad_token_id for t in label]
-        
+        pred_processed = np.where(pred != -100, pred, tokenizer.pad_token_id).tolist()
+        label_processed = np.where(label != -100, label, tokenizer.pad_token_id).tolist()
+
         # Decode to text
         decoded_preds.append(tokenizer.decode(pred_processed, skip_special_tokens=True))
         decoded_labels.append(tokenizer.decode(label_processed, skip_special_tokens=True))
-    
+
     # Calculate BERTScore
-    P, R, F1 = score(decoded_preds, decoded_labels, lang="en", model_type="bert-base-uncased", device=device)
+    P, R, F1 = score(decoded_preds, decoded_labels, lang="en",
+model_type="microsoft/roberta-large", device=device)
     return {"bertscore_f1": F1.mean().item()}
 
 
@@ -95,6 +99,7 @@ def evaluate(model_size, dataset):
             output_dir=f"./models/sft-{model_size}",
             per_device_eval_batch_size=8,
             logging_dir="/var/logs",
+            logging_steps=10,
             )
     
     trainer = Trainer(
@@ -104,6 +109,7 @@ def evaluate(model_size, dataset):
             compute_metrics=lambda x: compute_metrics(x, tokenizer, model_size, device)
             )
     
+    print(f"[INFO] Evaluating model on {dataset} dataset")
     results = trainer.evaluate()
     print(f"[INFO] Evaluation results: {results}")
     return results
