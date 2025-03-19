@@ -12,7 +12,7 @@ from data import QueryReformulationDataset
 from utils.init_models import init_models
 
 
-def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
+def fine_tune(model_size: str, dataset: str, training_epochs: int, batch_size: int = 8) -> None:
     device, tokenizer, model = init_models(model_size, use_sft_model=False)
     train_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="train")
     eval_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="eval")
@@ -23,7 +23,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=training_epochs,
-            per_device_train_batch_size=8,
+            per_device_train_batch_size=batch_size,
             save_steps=1_000,
             save_total_limit=2,
             eval_strategy="epoch",
@@ -31,6 +31,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
             logging_dir="/var/logs",
             logging_steps=1_000,
             overwrite_output_dir=True,
+            fp16=True,  # Enable mixed precision training
             )
 
     trainer = Trainer(
@@ -86,10 +87,12 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
               help='Dataset to use for training (dev or full)')
 @click.option('--epochs', type=int, default=1,
               help='Number of training epochs')
-def main(model_size: str, dataset: str, epochs: int) -> None:
+@click.option('--batch-size', type=int, default=8,
+              help='Batch size for training')
+def main(model_size: str, dataset: str, epochs: int, batch_size: int) -> None:
     """Train a query reformulation model using the specified parameters."""
-    print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}")
-    fine_tune(model_size, dataset, epochs)
+    print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}, batch_size={batch_size}")
+    fine_tune(model_size, dataset, epochs, batch_size)
 
 
 if __name__ == "__main__":
