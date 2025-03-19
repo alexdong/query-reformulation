@@ -31,7 +31,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int, batch_size: i
             logging_dir="/var/logs",
             logging_steps=1_000,
             overwrite_output_dir=True,
-            fp16=True,  # Enable mixed precision training
+            fp16=device == "cuda",
             )
 
     trainer = Trainer(
