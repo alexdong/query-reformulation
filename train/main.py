@@ -58,6 +58,8 @@ def fine_tune(model_size="base", dataset="full", training_epochs=1):
 def main(model_size, dataset, epochs):
     """Train a query reformulation model using the specified parameters."""
     print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}")
+
+    # add a click command that is either train or eval, ai!
     fine_tune(model_size=model_size, dataset=dataset, training_epochs=epochs)
 
 
