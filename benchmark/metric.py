@@ -1,46 +1,44 @@
-from typing import Dict, Tuple
-
 import csv
 import json
 from pathlib import Path
 import random
 import numpy as np
 import torch
-from bert_score import score
-from transformers import T5Tokenizer
+from rouge_score import rouge_scorer
+from transformers import EvalPrediction
+import numpy as np
 
+scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
+def score(input, output):
+    return scorer.score(input, output)['rougeL'].fmeasure
 
-def compute_metrics(
-    eval_pred: Tuple[np.ndarray, np.ndarray],
-    tokenizer: T5Tokenizer,
-    model_size: str,
-    device: torch.device,
-) -> Dict[str, float]:
+def compute_metrics(eval_pred: EvalPrediction):
+    """
+    Computes ROUGE-L for use with Hugging Face Trainer.evaluate().
+
+    Args:
+        eval_pred: An EvalPrediction object containing predictions and labels.
+                   predictions: [batch_size, sequence_length] of token IDs
+                   label_ids:  [batch_size, sequence_length] of token IDs
+                   -100 should be used as padding
+    Returns:
+        A dictionary containing the average ROUGE-L score.
+    """
     predictions, labels = eval_pred
+    # Decode predictions and labels
+    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
-    # Process each sequence individually
-    decoded_preds = []
-    decoded_labels = []
+    # --- ROUGE-L ---
+    rouge_l_scores = [score(pred, label) for pred, label in zip(decoded_preds, decoded_labels)]
+    avg_rouge_l = sum(rouge_l_scores) / len(rouge_l_scores)
 
-    for pred, label in zip(predictions, labels):
-        # Replace -100 with pad_token_id
-        pred_processed = np.where(pred != -100, pred, tokenizer.pad_token_id).tolist()
-        label_processed = np.where(label != -100, label, tokenizer.pad_token_id).tolist()
-
-        # Decode to text
-        decoded_preds.append(tokenizer.decode(pred_processed, skip_special_tokens=True))
-        decoded_labels.append(tokenizer.decode(label_processed, skip_special_tokens=True))
-
-    # Calculate BERTScore
-    P, R, F1 = score(decoded_preds, decoded_labels, lang="en",
-model_type="microsoft/roberta-large", device=device)
-    return {"bertscore_f1": F1.mean().item()}
-
+    return {
+        "rouge_l": avg_rouge_l,
+    }
 
 if __name__ == "__main__":
-    # Get an intuitive understanding of the BERTScore metric
-    device = torch.device("mps" if torch.mps.is_available() else "cpu")
-    
     data_path = Path("data/full.jsonl")
     tests = [] # (input, output, similar)
     
@@ -66,13 +64,13 @@ if __name__ == "__main__":
     tests += random.sample(random_comparisons, 100)
     print(f"[INFO] Calculating BERTScore for {len(tests)} tests...")
 
-    output_path = Path("benchmark/bertscore_results.csv")
+    output_path = Path("benchmark/rouge_results.csv")
     
     from rich.progress import Progress, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
     
     with open(output_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["Query", "Subqueries", "Similarity", "Precision", "Recall", "F1"])
+        writer.writerow(["Query", "Subqueries", "Similarity", "ROUGE"])
         
         with Progress(
             TextColumn("[progress.description]{task.description}"),
@@ -84,8 +82,6 @@ if __name__ == "__main__":
             task = progress.add_task("[green]Calculating BERTScores...", total=len(tests))
             
             for (input, output, similarity) in tests:
-                P, R, F1 = score([input], [output], 
-                                model_type="microsoft/deberta-xlarge-mnli", lang="en", device=device)
-                
-                writer.writerow([input, output, similarity, P, R, F1])
+                rouge = score(input, output)
+                writer.writerow([input, output, similarity, rouge])
                 progress.update(task, advance=1)

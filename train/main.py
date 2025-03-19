@@ -1,14 +1,10 @@
 import json
 import os
-from typing import Tuple, Any
 
 import click
-import torch
 from transformers import (
     Trainer,
     TrainingArguments,
-    PreTrainedTokenizer,
-    PreTrainedModel,
 )
 
 from benchmark.metric import compute_metrics
@@ -20,6 +16,7 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     device, tokenizer, model = init_models(model_size, use_sft_model=False)
     train_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="train")
     eval_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="eval")
+    test_dataset = QueryReformulationDataset(tokenizer, dataset=dataset, split_role="test")
 
     output_dir = f"./models/sft-{model_size}"
     
@@ -62,6 +59,8 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
     
     with open(os.path.join(output_dir, "trainer_state.json"), "w") as f:
         json.dump(trainer_state, f)
+
+    # Evaluate the model against the test set, ai!
     
     print(f"[INFO] Training complete. Final model saved to {output_dir}")
 
@@ -85,8 +84,6 @@ def train(model_size: str, dataset: str, epochs: int) -> None:
     """Train a query reformulation model using the specified parameters."""
     print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}")
     fine_tune(model_size, dataset, epochs)
-
-
 
 
 if __name__ == "__main__":
