@@ -2,25 +2,23 @@ from datasets import Dataset
 import json
 from pathlib import Path
 import torch
+from typing import Literal
 import os
 
-def load_dataset_from_jsonl(file_path, split_role: str="train"):
+
+def load_dataset_from_jsonl(file_path, split_role: Literal["train"| "eval" | "test" ] = "train"):
     """Load data from jsonl file and return as a list of dictionaries."""
-    assert split_role in ["train", "eval"]
     dataset = []
-    
-    # Make sure the file exists
-    if not os.path.exists(file_path):
-        print(f"[ERROR] File not found: {file_path}")
-        return []
-        
     with open(file_path, "r") as f:
         for line in f:
             dataset.append(json.loads(line))
     if split_role == "train":
         return dataset[:int(0.8 * len(dataset))]
-    else:
-        return dataset[int(0.8 * len(dataset)):]
+    elif split_role == "eval":
+        return dataset[int(0.8 * len(dataset)):int(0.9 * len(dataset))]
+    elif split_role == "test":
+        return dataset[int(0.9 * len(dataset)):]
+
 
 class QueryReformulationDataset:
     def __init__(self, tokenizer, dataset="full", split_role="train"):
