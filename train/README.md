@@ -85,18 +85,21 @@ For query reformulation specifically:
 Training Log
 =============
 
-`dev.jsonl` dataset over `Flan-5t-small` with 1 epoch (15 seconds)
--------------------------------------------------------------------
+Rewrote the hyperparameters in [[`train/params.py`]] to make it easier to track the
+hyperparameters used for training in different environments.
+
+M2 Results:
+==========
 
 | Metric | Value |
 |--------|-------|
-| eval_loss | 20.9495 |
-| eval_rouge_l | 0.0431 |
-| eval_runtime | 0.1836 |
-| eval_samples_per_second | 21.7870 |
-| eval_steps_per_second | 5.4470 |
-| epoch | 1.0000 |
-
-- `full.jsonl` dataset over `Flan-5t-small` with 3 epochs (12:39 minutes)
---------------------------------------------------------------------------
-
+| model_size | Flan-5t-small |
+| dataset_size | 10% |
+| epoch | 3.0000 |
+| train_runtime | 378 |
+| train_samples_per_second | 10.165 |
+| eval_loss | 0.3093 |
+| eval_rouge_l | 0.6447 |
+| eval_runtime | 67.9803 |
+| eval_samples_per_second | 2.3680 |
+| eval_steps_per_second | 0.3090 |
