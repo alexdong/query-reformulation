@@ -6,7 +6,7 @@ from typing import Literal
 import os
 
 
-def load_dataset_from_jsonl(file_path, split_role: Literal["train"| "eval" | "test" ] = "train"):
+def load_dataset_from_jsonl(file_path, split_role: Literal["train", "eval", "test"] = "train"):
     """Load data from jsonl file and return as a list of dictionaries."""
     dataset = []
     with open(file_path, "r") as f:
