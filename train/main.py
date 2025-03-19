@@ -6,6 +6,7 @@ from transformers import T5Tokenizer, Trainer, TrainingArguments, T5ForCondition
 from transformers import DataCollatorForSeq2Seq
 from datasets import load_metric
 from bert_score import score
+import click
 
 from data import QueryReformulationDataset
 from utils.init_models import init_models
@@ -56,7 +57,18 @@ def fine_tune(model_size="base", dataset="full", training_epochs=1):
     trainer.train()
 
 
+@click.command()
+@click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small', 
+              help='Size of the T5 model to use')
+@click.option('--dataset', type=str, default='dev', 
+              help='Dataset to use for training (dev or full)')
+@click.option('--epochs', type=int, default=1, 
+              help='Number of training epochs')
+def main(model_size, dataset, epochs):
+    """Train a query reformulation model using the specified parameters."""
+    print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}")
+    fine_tune(model_size=model_size, dataset=dataset, training_epochs=epochs)
+
+
 if __name__ == "__main__":
-    # rewrite the following using click to parse arguments, ai!
-    fine_tune(model_size="small", dataset="dev", training_epochs=1)
-    #fine_tune(model_size="base", dataset="full", training_epochs=5)
+    main()
