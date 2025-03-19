@@ -67,12 +67,25 @@ if __name__ == "__main__":
     print(f"[INFO] Calculating BERTScore for {len(tests)} tests...")
 
     output_path = Path("benchmark/bertscore_results.csv")
-    # Add progress bar, ai!
+    
+    from rich.progress import Progress, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
+    
     with open(output_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["Query", "Subqueries", "Similarity", "Precision", "Recall", "F1"])
-        for (input, output, similarity) in tests:
-            P, R, F1 = score([input], [output], 
-                             model_type="microsoft/deberta-xlarge-mnli", lang="en", device=device)
-    
-            writer.writerow([input, output, similarity, P, R, F1])
+        
+        with Progress(
+            TextColumn("[progress.description]{task.description}"),
+            BarColumn(),
+            TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+            TimeElapsedColumn(),
+            TimeRemainingColumn(),
+        ) as progress:
+            task = progress.add_task("[green]Calculating BERTScores...", total=len(tests))
+            
+            for (input, output, similarity) in tests:
+                P, R, F1 = score([input], [output], 
+                                model_type="microsoft/deberta-xlarge-mnli", lang="en", device=device)
+                
+                writer.writerow([input, output, similarity, P, R, F1])
+                progress.update(task, advance=1)
