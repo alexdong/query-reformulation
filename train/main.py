@@ -71,21 +71,14 @@ def fine_tune(model_size: str, dataset: str, training_epochs: int) -> None:
 
 
 
-# no need for the `train` command as it's the only one. simplify the following, ai!
-@click.group()
-def main() -> None:
-    """Train a query reformulation model."""
-    pass
-
-
-@main.command()
+@click.command()
 @click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small',
               help='Size of the T5 model to use')
 @click.option('--dataset', type=str, default='dev',
               help='Dataset to use for training (dev or full)')
 @click.option('--epochs', type=int, default=1,
               help='Number of training epochs')
-def train(model_size: str, dataset: str, epochs: int) -> None:
+def main(model_size: str, dataset: str, epochs: int) -> None:
     """Train a query reformulation model using the specified parameters."""
     print(f"[INFO] Training with model_size={model_size}, dataset={dataset}, epochs={epochs}")
     fine_tune(model_size, dataset, epochs)
