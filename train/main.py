@@ -11,8 +11,7 @@ from data import QueryReformulationDataset
 from utils.init_models import init_models
 
 
-def compute_metrics(eval_pred, model_size, device):
-    tokenizer = T5Tokenizer.from_pretrained(f"flan-t5-{model_size}")
+def compute_metrics(eval_pred, tokenizer, model_size, device):
     predictions, labels = eval_pred
     predictions = [[t if t != -100 else tokenizer.pad_token_id for t in p] for p in predictions]
     labels = [[t if t != -100 else tokenizer.pad_token_id for t in l] for l in labels]
@@ -47,7 +46,7 @@ def fine_tune(model_size, dataset, training_epochs):
             args=training_args, 
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=lambda x: compute_metrics(x, model_size, device)
+            compute_metrics=lambda x: compute_metrics(x, tokenizer, model_size, device)
             )
     
     # Train the model
@@ -86,7 +85,7 @@ def evaluate(model_size, dataset):
             model=model,
             args=training_args,
             eval_dataset=test_dataset,
-            compute_metrics=lambda x: compute_metrics(x, model_size, device)
+            compute_metrics=lambda x: compute_metrics(x, tokenizer, model_size, device)
             )
     
     results = trainer.evaluate()
