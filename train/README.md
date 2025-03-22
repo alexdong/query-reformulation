@@ -86,10 +86,11 @@ Training Log
 =============
 
 Rewrote the hyperparameters in [[`train/params.py`]] to make it easier to track the
-hyperparameters used for training in different environments.
+hyperparameters used for training in different environments. Run `train/main.py`
+will print out the parameters used for training.
 
-M2 Results:
-==========
+5t-small SFT Results
+-----------------
 
 | Metric | Value |
 |--------|-------|
@@ -104,10 +105,14 @@ M2 Results:
 | eval_samples_per_second | 2.3680 |
 | eval_steps_per_second | 0.3090 |
 
-T4 Results:
+5t-base SFT Results
+-----------------
 
-A10G Results:
+5t-base-8bit PEFT Results
+-----------------
 
-T4 with Quantization Results:
+5t-large SFT Results
+-----------------
 
-A10G with Quantization Results:
+5t-large-8bit PEFT Results
+-----------------
