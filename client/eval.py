@@ -1,4 +1,3 @@
-# read vibe.txt and pass each line into the `generate_text` function. Print the output of the function and average time taken to process each line at the end, ai!
 import time
 from pathlib import Path
 from typing import List, Tuple
@@ -13,7 +12,7 @@ def evaluate_queries() -> Tuple[List[str], float]:
         Tuple containing list of results and average processing time
     """
     # Path to the input file
-    input_file = Path("vibe.txt")
+    input_file = Path("client/vibe.txt")
     
     # Check if file exists
     if not input_file.exists():
@@ -27,6 +26,9 @@ def evaluate_queries() -> Tuple[List[str], float]:
     if not queries:
         print("No queries found in the file")
         return [], 0.0
+
+    print(f"Warming up the model...")
+    generate_text(queries[0])
     
     # Process each query and track time
     results = []
@@ -39,11 +41,7 @@ def evaluate_queries() -> Tuple[List[str], float]:
         
         # Extract just the reformulated text without the timing info
         result = generate_text(query)
-        if "\n\nProcessing time:" in result:
-            result = result.split("\n\nProcessing time:")[0]
-        
-        end_time = time.time()
-        query_time = end_time - start_time
+        query_time = time.time()- start_time
         total_time += query_time
         
         # Print progress
@@ -53,7 +51,7 @@ def evaluate_queries() -> Tuple[List[str], float]:
         
         results.append(result)
     
-    # Calculate average time
+    # Calculate median time, ai!
     avg_time = total_time / len(queries) if queries else 0.0
     
     return results, avg_time
