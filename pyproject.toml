@@ -28,7 +28,17 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["train*", "utils*", "models*", "benchmark*", "queries*", "data*", "subqueries*", "client*", "facts*"]
+include = [
+  "train*", 
+  "utils*", 
+  "models*", 
+  "benchmark*", 
+  "queries*", 
+  "data*", 
+  "subqueries*", 
+  "client*",
+  "facts*"
+]
 exclude = ["models/sft-*"]
 
 [tool.uv]

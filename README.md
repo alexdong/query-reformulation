@@ -39,6 +39,7 @@ Project Definition
 > query rewriting approaches
 > query refinement strategies
 
+https://huggingface.co/datasets/BeIR/hotpotqa/viewer/queries?views%5B%5D=queries
 
 Observation
 --------------
