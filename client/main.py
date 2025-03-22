@@ -14,12 +14,20 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 # Define the function that will be run for every input
 def generate_text(input_text):
-    # output time used as well, ai!
+    import time
+    start_time = time.time()
+    
     input_ids = tokenizer(f"reformulate: {input_text}", return_tensors="pt").input_ids
     output_ids = model.generate(input_ids, max_length=120)
     decoded_output = tokenizer.decode(output_ids[0], skip_special_tokens=True)
-    print(decoded_output)
-    return decoded_output
+    
+    end_time = time.time()
+    processing_time = end_time - start_time
+    
+    print(f"Output: {decoded_output}")
+    print(f"Processing time: {processing_time:.4f} seconds")
+    
+    return f"{decoded_output}\n\nProcessing time: {processing_time:.4f} seconds"
 
 # Define the Gradio interface
 iface = gr.Interface(
