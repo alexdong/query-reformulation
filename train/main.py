@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 
 import click
 from transformers import (
@@ -11,6 +12,9 @@ from benchmark.metric import compute_metrics
 from data import create_datasets
 from train.params import get_optimised_hyperparameters
 from utils.init_models import init_models
+
+if sys.platform == "linux":
+    from peft import prepare_model_for_kbit_training, LoraConfig, get_perf_model, TaskType, PeftModel
 
 
 def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
@@ -67,9 +71,8 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
 
 def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
     device, tokenizer, model = init_models(model_size, use_sft_model=True)
-    if device == 'cuda':
-        pass
-
+    assert device == 'cuda', "PEFT requires a CUDA device"
+        
     hyper_parameters = get_optimised_hyperparameters()
     training_dataset, eval_dataset, test_dataset = create_datasets(tokenizer, hyper_parameters['sample_size'])
 

@@ -1,3 +1,4 @@
+.gradio
 *.DS_Store
 *.swp
 models/sft-*

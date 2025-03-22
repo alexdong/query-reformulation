@@ -26,8 +26,7 @@ def generate_text(input_text):
     
     print(f"Output: {decoded_output}")
     print(f"Processing time: {processing_time:.4f} seconds")
-    
-    return f"{decoded_output}\n\nProcessing time: {processing_time:.4f} seconds"
+    return f"{decoded_output}"
 
 # Define the Gradio interface
 iface = gr.Interface(
