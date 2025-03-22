@@ -1,11 +1,20 @@
 import gradio as gr
+import os
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-# Load the tokenizer and model from Hugging Face
-# update the below code so it loads from both local path and Hugging Face, ai!
+# Define model paths
 model_name = 'alexdong/query-reformulation-knowledge-base-t5-small'
-tokenizer = T5Tokenizer.from_pretrained(model_name)
-model = T5ForConditionalGeneration.from_pretrained(model_name)
+local_model_path = 'models/sft-small'
+
+# Try to load from local path first, fall back to Hugging Face
+if os.path.exists(local_model_path):
+    print(f"Loading model from local path: {local_model_path}")
+    tokenizer = T5Tokenizer.from_pretrained(local_model_path)
+    model = T5ForConditionalGeneration.from_pretrained(local_model_path)
+else:
+    print(f"Loading model from Hugging Face: {model_name}")
+    tokenizer = T5Tokenizer.from_pretrained(model_name)
+    model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 # Define the function that will be run for every input
 def generate_text(input_text):
