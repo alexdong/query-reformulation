@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Tuple
 from client.generate import generate_text
 
-def evaluate_queries() -> Tuple[List[str], float]:
+def evaluate_queries() -> Tuple[List[str], float, float]:
     """
     Read queries from vibe.txt, process each with generate_text function,
     and calculate average processing time.
@@ -33,6 +33,7 @@ def evaluate_queries() -> Tuple[List[str], float]:
     # Process each query and track time
     results = []
     total_time = 0.0
+    query_times = []
     
     print(f"Processing {len(queries)} queries...")
     
@@ -41,8 +42,9 @@ def evaluate_queries() -> Tuple[List[str], float]:
         
         # Extract just the reformulated text without the timing info
         result = generate_text(query)
-        query_time = time.time()- start_time
+        query_time = time.time() - start_time
         total_time += query_time
+        query_times.append(query_time)
         
         # Print progress
         print(f"Query {i+1}/{len(queries)}: {query}")
@@ -51,17 +53,19 @@ def evaluate_queries() -> Tuple[List[str], float]:
         
         results.append(result)
     
-    # Calculate median time, ai!
+    # Calculate average and median time
     avg_time = total_time / len(queries) if queries else 0.0
+    median_time = sorted(query_times)[len(query_times)//2] if query_times else 0.0
     
-    return results, avg_time
+    return results, avg_time, median_time
 
 if __name__ == "__main__":
     print("Evaluating query reformulation model...")
-    results, avg_time = evaluate_queries()
+    results, avg_time, median_time = evaluate_queries()
     
     print("\n" + "="*50)
     print(f"Evaluation complete!")
     print(f"Processed {len(results)} queries")
     print(f"Average processing time: {avg_time:.4f} seconds")
+    print(f"Median processing time: {median_time:.4f} seconds")
     print("="*50)
