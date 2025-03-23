@@ -1,5 +1,4 @@
-import os
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 hugging_face_model_name = 'alexdong/query-reformulation-knowledge-graph'
 local_model_path = 'models/sft-small'
@@ -11,7 +10,7 @@ tokenizer = T5Tokenizer.from_pretrained(model_name)
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 # Define the function that will be run for every input
-def generate_text(input_text):
+def generate_text(input_text) -> str:
     input_ids = tokenizer(f"reformulate: {input_text}", return_tensors="pt").input_ids
     output_ids = model.generate(input_ids, max_length=120)
     decoded_output = tokenizer.decode(output_ids[0], skip_special_tokens=True)
