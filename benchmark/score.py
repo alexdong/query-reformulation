@@ -1,15 +1,17 @@
 from typing import List
 
 import evaluate
-from Levenshtein import distance as levenshtein_distance
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
 import nltk
+from bert_score import score as bert_score
+from Levenshtein import distance as levenshtein_distance
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
 nltk.download('punkt')
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
-from bert_score import score as bert_score
+
 
 def preprocess_query_string(query_string: str) -> set:
     tokens = word_tokenize(query_string.lower())
@@ -43,9 +45,9 @@ def rouge_l_similarity(reference_string: str, prediction_string: str) -> float:
 def score_function(
         labeled_subqueries: List[str],
         predicted_subqueries: List[str],
-        weight_rouge_l: float = 0.2, 
-        weight_levenshtein: float = 0.4, 
-        weight_jaccard: float = 0.4
+        weight_rouge_l: float = 0.2,
+        weight_levenshtein: float = 0.4,
+        weight_jaccard: float = 0.4,
         ) -> float:
     num_labeled = len(labeled_subqueries)
     if num_labeled != len(predicted_subqueries):
@@ -87,24 +89,24 @@ if __name__ == "__main__":
     labeled = [
         "David Chanoff U.S. Navy admiral collaboration",
         "U.S. Navy admiral ambassador to United Kingdom",
-        "U.S. President during U.S. Navy admiral's ambassadorship"
+        "U.S. President during U.S. Navy admiral's ambassadorship",
     ]
     predicted_mismatch = [
         "David Chanoff U.S. Navy admiral collaboration",
         "U.S. Navy admiral ambassador to United Kingdom",
     ]
     predicted_typo = [
-        "David Chanoff", 
+        "David Chanoff",
         "United Kingdom Small",
-        "U.S. President Hahaha"
+        "U.S. President Hahaha",
     ]
     predicted_rephrased = [
-        "David Chanoff collaborates with US admiral in Navy", 
-        "US Navy admiral is ambassador to UK", 
-        "President of US during admiral's UK ambassadorship"
+        "David Chanoff collaborates with US admiral in Navy",
+        "US Navy admiral is ambassador to UK",
+        "President of US during admiral's UK ambassadorship",
     ]
 
 
-    print(loss_function(labeled, predicted_mismatch))
-    print(loss_function(labeled, predicted_typo))
-    print(loss_function(labeled, predicted_rephrased))
+    print(score_function(labeled, predicted_mismatch))
+    print(score_function(labeled, predicted_typo))
+    print(score_function(labeled, predicted_rephrased))

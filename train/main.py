@@ -23,8 +23,11 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
     device, tokenizer, model = init_models(model_size, use_sft_model=False)
     hyper_parameters = get_optimised_hyperparameters()
     training_dataset, eval_dataset, test_dataset = create_datasets(tokenizer, hyper_parameters['sample_size'])
+    print(len(training_dataset))
+    print(len(eval_dataset))
 
     output_dir = f"./models/sft-{model_size}"
+    print(output_dir)
     
     training_args = TrainingArguments(
             output_dir=output_dir,

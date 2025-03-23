@@ -5,10 +5,10 @@ from pathlib import Path
 from typing import Dict
 
 import numpy as np
-from bert_score import score as bert_score
 from transformers import EvalPrediction, T5Tokenizer
 
 from benchmark.score import score_function
+
 
 def compute_metrics(eval_pred: EvalPrediction, tokenizer: T5Tokenizer) -> Dict[str, float]:
     predictions, labels = eval_pred
@@ -29,8 +29,16 @@ def compute_metrics(eval_pred: EvalPrediction, tokenizer: T5Tokenizer) -> Dict[s
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
     # --- ROUGE-L ---
-    scores = [score_function(pred, label) for pred, label in zip(decoded_preds, decoded_labels)]
-    avg_score = sum(scores) / len(scores)
+    # Convert string outputs to lists since score_function expects lists
+    scores = []
+    for pred, label in zip(decoded_preds, decoded_labels):
+        # Make sure we're passing lists to score_function
+        pred_list = [pred]
+        label_list = [label]
+        score = score_function(label_list, pred_list)
+        scores.append(score)
+    
+    avg_score = sum(scores) / len(scores) if scores else 0.0
 
     return {
         "score": avg_score,
@@ -86,6 +94,6 @@ if __name__ == "__main__":
             task = progress.add_task("[green]Calculating BERTScores...", total=len(tests))
             
             for (input, output, similarity) in tests:
-                rouge = score(input, output)
+                rouge = score_function([input], [output])
                 writer.writerow([input, output, similarity, rouge])
                 progress.update(task, advance=1)
