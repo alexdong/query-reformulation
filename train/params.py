@@ -36,7 +36,7 @@ hyperparameters = {
         'save_strategy': "epoch",   # Save per epoch (matches eval)
         'logging_steps': 50,         # Log frequently due to small dataset
     },
-    't4': {
+    'tesla t4': {
         'sample_size': 1.0,
         'per_device_train_batch_size': 8,
         'per_device_eval_batch_size': 8,
