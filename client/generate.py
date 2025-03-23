@@ -42,6 +42,8 @@ def generate_text(input_text: str) -> str:
         # Move to same device as model
         if torch.cuda.is_available():
             input_ids = input_ids.to('cuda')
+        if torch.mps.is_available():
+            input_ids = input_ids.to('mps')
             
         # Generate with optimized parameters
         output_ids = model.generate(

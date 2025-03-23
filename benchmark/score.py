@@ -40,7 +40,7 @@ def rouge_l_similarity(reference_string: str, prediction_string: str) -> float:
     return scores["rougeL"] # Returns ROUGE-L F1-score by default
 
 
-def loss_function(
+def score_function(
         labeled_subqueries: List[str],
         predicted_subqueries: List[str],
         weight_rouge_l: float = 0.2, 

@@ -105,6 +105,23 @@ will print out the parameters used for training.
 | eval_samples_per_second | 2.3680 |
 | eval_steps_per_second | 0.3090 |
 
+5t-small with different compute_metrics
+---------------------------------------
+
+| Metric | Value |
+|--------|-------|
+| model_size | Flan-5t-small |
+| train_runtime | 416.3716
+| train_samples_per_second | 9.244 |
+| dataset_size | 10% |
+| epoch | 3.0000 |
+| eval_loss | 0.3157 |
+| eval_score | 0.0645 |
+| eval_runtime | 63.0997 |
+| eval_samples_per_second | 2.5520 |
+| eval_steps_per_second | 0.3330 |
+| epoch | 3.0000 |
+
 5t-base SFT Results
 -----------------
 
