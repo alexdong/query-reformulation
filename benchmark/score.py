@@ -110,7 +110,11 @@ def evaluate_query_reformulation_combined_rouge(
     ] + similarity_details
     print(evaluation_output_strings)
 
-    return overall_score
+    # Return a dictionary instead of just the overall score
+    return {
+        "overall_score": overall_score,
+        "evaluation_output_strings": evaluation_output_strings
+    }
 
 
 # --- Example Usage (same examples as before) ---
