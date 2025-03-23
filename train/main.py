@@ -1,20 +1,22 @@
 import json
 import os
 import sys
+from typing import Tuple
 
 import click
 from transformers import (
+    T5ForConditionalGeneration,
     Trainer,
     TrainingArguments,
 )
 
 from benchmark.metric import compute_metrics
-from data import create_datasets
+from data import QueryReformulationDataset, create_datasets
 from train.params import get_optimised_hyperparameters
 from utils.init_models import init_models
 
 if sys.platform == "linux":
-    from peft import prepare_model_for_kbit_training, LoraConfig, get_perf_model, TaskType, PeftModel
+    pass
 
 
 def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
@@ -139,9 +141,6 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
             print(f"| {key} | {value:.4f} |")
         else:
             print(f"| {key} | {value} |")
-    
-    print(f"[INFO] Training complete. Final model saved to {output_dir}")
-
 
 
 

@@ -9,7 +9,7 @@ model_name = local_model_path
 tokenizer = None
 model = None
 
-def load_model():
+def load_model() -> None:
     """Load the model and tokenizer only once"""
     global tokenizer, model
     
@@ -19,9 +19,9 @@ def load_model():
         
         # Load model with optimizations for inference
         model = T5ForConditionalGeneration.from_pretrained(
-            model_name, 
+            model_name,
             torch_dtype=torch.float16,  # Use half precision
-            device_map="auto"           # Automatically choose best device
+            device_map="auto",           # Automatically choose best device
         )
         # Set to evaluation mode
         model.eval()
@@ -30,7 +30,7 @@ def load_model():
 load_model()
 
 # Define the function that will be run for every input
-def generate_text(input_text) -> str:
+def generate_text(input_text: str) -> str:
     """Generate reformulated queries from input text"""
     # Ensure model is loaded
     if tokenizer is None or model is None:
@@ -45,10 +45,10 @@ def generate_text(input_text) -> str:
             
         # Generate with optimized parameters
         output_ids = model.generate(
-            input_ids, 
+            input_ids,
             max_length=120,
             num_beams=4,
-            early_stopping=True
+            early_stopping=True,
         )
         
         decoded_output = tokenizer.decode(output_ids[0], skip_special_tokens=True)

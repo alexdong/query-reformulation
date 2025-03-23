@@ -1,7 +1,9 @@
 import time
 from pathlib import Path
 from typing import List, Tuple
+
 from client.generate import generate_text
+
 
 def evaluate_queries() -> Tuple[List[str], float, float]:
     """
@@ -27,7 +29,7 @@ def evaluate_queries() -> Tuple[List[str], float, float]:
         print("No queries found in the file")
         return [], 0.0
 
-    print(f"Warming up the model...")
+    print("Warming up the model...")
     generate_text(queries[0])
     
     # Process each query and track time
@@ -64,7 +66,7 @@ if __name__ == "__main__":
     results, avg_time, median_time = evaluate_queries()
     
     print("\n" + "="*50)
-    print(f"Evaluation complete!")
+    print("Evaluation complete!")
     print(f"Processed {len(results)} queries")
     print(f"Average processing time: {avg_time:.4f} seconds")
     print(f"Median processing time: {median_time:.4f} seconds")
