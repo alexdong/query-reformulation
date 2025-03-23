@@ -8,14 +8,19 @@ import numpy as np
 from bert_score import score as bert_score
 from transformers import EvalPrediction, T5Tokenizer
 
+from benchmark.score import loss_function
+
 """
 scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
 def score(input: str, output: str) -> float:
     return scorer.score(input, output)['rougeL'].fmeasure
-"""
 
 def score(input: str, output: str) -> float:
     return bert_score([output], [input], lang="en")[2].item()
+"""
+
+def score(input: str, output: str) -> float:
+    return loss_function(input, output)["overall_score"]
 
 def compute_metrics(eval_pred: EvalPrediction, tokenizer: T5Tokenizer) -> Dict[str, float]:
     predictions, labels = eval_pred
