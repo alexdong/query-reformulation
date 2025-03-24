@@ -22,7 +22,7 @@ hyperparameters = {
     'm2': {
         'sample_size': 0.1,
         'per_device_train_batch_size': 2,
-        'per_device_eval_batch_size': 2,
+        'per_device_eval_batch_size': 1,
         'gradient_accumulation_steps': 2,
         'learning_rate': 3e-5,
         'num_train_epochs': 3,
@@ -37,9 +37,9 @@ hyperparameters = {
         'logging_steps': 50,         # Log frequently due to small dataset
     },
     'tesla t4': {
-        'sample_size': 0.5,
-        'per_device_train_batch_size': 2,
-        'per_device_eval_batch_size': 2,
+        'sample_size': 1,
+        'per_device_train_batch_size': 8,
+        'per_device_eval_batch_size': 1,
         'gradient_accumulation_steps': 4,
         'learning_rate': 3e-5,
         'num_train_epochs': 5,
@@ -56,7 +56,7 @@ hyperparameters = {
     'a10g': {
         'sample_size': 1.0,
         'per_device_train_batch_size': 8,
-        'per_device_eval_batch_size': 8,
+        'per_device_eval_batch_size': 2,
         'gradient_accumulation_steps': 1,
         'learning_rate': 3e-5,
         'num_train_epochs': 5,
