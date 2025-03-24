@@ -2,6 +2,7 @@ from typing import List
 
 from Levenshtein import distance as levenshtein_distance
 
+
 def levenshtein_similarity(s1: str, s2: str) -> float:
     distance = levenshtein_distance(s1.lower(), s2.lower())
     max_len = max(len(s1), len(s2)) or 1
@@ -11,8 +12,9 @@ def levenshtein_similarity(s1: str, s2: str) -> float:
 
 def score_function(
         labeled_subqueries: List[str],
-        predicted_subqueries: List[str]
+        predicted_subqueries: List[str],
         ) -> float:
+    print(f"[INFO] score_function on {len(labeled_subqueries)} pairs")
     num_labeled = len(labeled_subqueries)
     if num_labeled != len(predicted_subqueries):
         return 0.0

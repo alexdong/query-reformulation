@@ -40,7 +40,7 @@ hyperparameters = {
     'tesla t4': {
         'sample_size': 1,
         'per_device_train_batch_size': 8, # Can go higher but throughput max out at 8
-        'per_device_eval_batch_size': 1,
+        'per_device_eval_batch_size': 4,
         'gradient_accumulation_steps': 4,
         'learning_rate': 3e-5,
         'num_train_epochs': 5,
@@ -51,8 +51,8 @@ hyperparameters = {
         'save_strategy': "epoch",
         'save_steps': 500,
         'save_total_limit': 2,
-        'eval_strategy': "steps",
-        'eval_steps': 500,
+        'eval_strategy': "epoch",
+        'eval_steps': 100,
         'logging_steps': 100,
     },
     'a10g': {
