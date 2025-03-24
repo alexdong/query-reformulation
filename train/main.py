@@ -129,24 +129,11 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
     test_results['total_time_seconds'] = total_time
     test_results['avg_time_per_query_seconds'] = avg_time_per_query
     
-    # Also run the trainer's evaluate for comparison
-    trainer_results = trainer.evaluate(test_dataset)
-    
     # Print test results as a markdown table
     print("\n### Test Results")
     print("| Metric | Value |")
     print("|--------|-------|")
     for key, value in test_results.items():
-        if isinstance(value, float):
-            print(f"| {key} | {value:.4f} |")
-        else:
-            print(f"| {key} | {value} |")
-    
-    # Then show trainer evaluation results
-    print("\n### Trainer Evaluation Results")
-    print("| Metric | Value |")
-    print("|--------|-------|")
-    for key, value in trainer_results.items():
         if isinstance(value, float):
             print(f"| {key} | {value:.4f} |")
         else:
