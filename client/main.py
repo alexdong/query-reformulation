@@ -2,7 +2,8 @@ import gradio as gr
 
 from client.generate import generate_text
 
-# Define the Gradio interface
+# Define the Gradio interface. 
+# Add a drop down to select the model size: small, base, ai!
 iface = gr.Interface(
     fn=generate_text,
     inputs="text",
