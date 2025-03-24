@@ -19,6 +19,7 @@ def get_backend_device() -> str:
     else:
         return "cpu"
 
+
 def init_models(model_size: str, quantized: bool = False) -> Tuple[str, T5Tokenizer, T5ForConditionalGeneration]:
     device = get_backend_device()
     

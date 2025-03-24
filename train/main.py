@@ -96,7 +96,6 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
     device, tokenizer, model = init_models(model_size, quantized=True)
     assert device == 'cuda', "PEFT requires a CUDA device"
 
-    model = prepare_model_for_kbit_training(model)
     lora_config = LoraConfig(
             r=16, lora_alpha=32, target_modules=["q", "k", "v"],
             lora_dropout=0.05, bias="none", task_type=TaskType.SEQ_2_SEQ_LM)
@@ -199,8 +198,8 @@ def print_trainable_parameters(model: T5ForConditionalGeneration) -> None:
               help='Size of the T5 model to use')
 def main(model_size: str) -> None:
     """Train a query reformulation model using the specified parameters."""
-    #model, trainer, dataset = sft(model_size)
-    model, trainer, dataset = peft(model_size)
+    model, trainer, dataset = sft(model_size)
+    #model, trainer, dataset = peft(model_size)
     benchmark(model, trainer, dataset)
 
 
