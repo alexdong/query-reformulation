@@ -87,13 +87,66 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
     print("[INFO] Evaluating model on test set...")
     model.config.use_cache = True
 
-    # Run the test_dataset against the inference pipeline and use `score_function` to calculate the score and time taken. ai!
+    # Get the tokenizer from the trainer
+    tokenizer = trainer.tokenizer
+    
+    # Collect actual and predicted subqueries
+    labeled_subqueries = []
+    predicted_subqueries = []
+    
+    import time
+    from benchmark.score import score_function
+    
+    start_time = time.time()
+    
+    # Process each item in the test dataset
+    for idx in range(len(test_dataset)):
+        item = test_dataset[idx]
+        input_text = tokenizer.decode(item['input_ids'], skip_special_tokens=True)
+        target_text = tokenizer.decode(item['labels'], skip_special_tokens=True)
+        
+        # Generate prediction using the model
+        inputs = tokenizer(input_text, return_tensors="pt", padding=True, truncation=True).to(model.device)
+        outputs = model.generate(
+            inputs.input_ids,
+            max_length=128,
+            num_return_sequences=1,
+            do_sample=False
+        )
+        predicted_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        
+        labeled_subqueries.append(target_text)
+        predicted_subqueries.append(predicted_text)
+    
+    # Calculate time taken
+    total_time = time.time() - start_time
+    avg_time_per_query = total_time / len(test_dataset) if len(test_dataset) > 0 else 0
+    
+    # Calculate scores using score_function
+    test_results = score_function(labeled_subqueries, predicted_subqueries)
+    
+    # Add timing information to results
+    test_results['total_time_seconds'] = total_time
+    test_results['avg_time_per_query_seconds'] = avg_time_per_query
+    
+    # Also run the trainer's evaluate for comparison
+    trainer_results = trainer.evaluate(test_dataset)
     
     # Print test results as a markdown table
     print("\n### Test Results")
     print("| Metric | Value |")
     print("|--------|-------|")
     for key, value in test_results.items():
+        if isinstance(value, float):
+            print(f"| {key} | {value:.4f} |")
+        else:
+            print(f"| {key} | {value} |")
+    
+    # Then show trainer evaluation results
+    print("\n### Trainer Evaluation Results")
+    print("| Metric | Value |")
+    print("|--------|-------|")
+    for key, value in trainer_results.items():
         if isinstance(value, float):
             print(f"| {key} | {value:.4f} |")
         else:
