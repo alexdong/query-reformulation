@@ -12,37 +12,19 @@ from benchmark.score import score_function
 
 def compute_metrics(eval_pred: EvalPrediction, tokenizer: T5Tokenizer) -> Dict[str, float]:
     predictions, labels = eval_pred
-    
-    # The predictions are likely coming as logits
-    # We need to handle this properly
-    if isinstance(predictions, tuple):
-        # If predictions is a tuple, take the first element (logits)
-        predictions = predictions[0]
-    
-    # Get the most likely token IDs
-    predictions = np.argmax(predictions, axis=-1)
-    
     decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-    
-    # Handle labels
     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
-    # --- ROUGE-L ---
-    # Convert string outputs to lists since score_function expects lists
     scores = []
-    for pred, label in zip(decoded_preds, decoded_labels):
+    for (pred, label) in zip(decoded_preds, decoded_labels):
         # Make sure we're passing lists to score_function
         pred_list = [pred]
         label_list = [label]
         score = score_function(label_list, pred_list)
         scores.append(score)
     
-    avg_score = sum(scores) / len(scores) if scores else 0.0
-
-    return {
-        "score": avg_score,
-    }
+    return { "score": sum(scores) / len(scores) }
 
 if __name__ == "__main__":
     data_path = Path("data/full.jsonl")

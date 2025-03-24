@@ -16,23 +16,28 @@ from train.params import get_optimised_hyperparameters
 from utils.init_models import init_models
 
 if sys.platform == "linux":
-    pass
+    import bitsandbytes
 
 
 def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
     device, tokenizer, model = init_models(model_size, use_sft_model=False)
     hyper_parameters = get_optimised_hyperparameters()
+    
+    print(f"[DEBUG] Hyperparameters: {hyper_parameters}")
+    
     training_dataset, eval_dataset, test_dataset = create_datasets(tokenizer, hyper_parameters['sample_size'])
-    print(len(training_dataset))
-    print(len(eval_dataset))
-
+    print(f"[INFO] Dataset sizes: training={len(training_dataset)}, eval={len(eval_dataset)}, test={len(test_dataset)}")
+    assert len(training_dataset) > 0, "Training dataset is empty"
+    assert len(eval_dataset) > 0, "Evaluation dataset is empty"
     output_dir = f"./models/sft-{model_size}"
-    print(output_dir)
+    print(f"[INFO] Output directory: {output_dir}")
     
     training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=hyper_parameters['num_train_epochs'],
             per_device_train_batch_size=hyper_parameters['per_device_train_batch_size'],
+            per_device_eval_batch_size=hyper_parameters['per_device_eval_batch_size'],
+            gradient_accumulation_steps=hyper_parameters['gradient_accumulation_steps'],
             save_steps=hyper_parameters['save_steps'],
             save_total_limit=hyper_parameters['save_total_limit'],
             eval_strategy=hyper_parameters['eval_strategy'],
@@ -40,7 +45,12 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
             logging_dir="/var/logs",
             logging_steps=hyper_parameters['logging_steps'],
             overwrite_output_dir=True,
-            fp16=hyper_parameters['fp16'],
+            fp16=hyper_parameters["fp16"],
+            # Memory optimizations
+            gradient_checkpointing=True,  # Save memory at the cost of speed
+            logging_first_step=True,
+            weight_decay=0.01,  # Add regularization
+            max_grad_norm=1.0,  # Add gradient clipping
             )
 
     trainer = Trainer(
@@ -48,11 +58,12 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
             args=training_args,
             train_dataset=training_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=lambda x: compute_metrics(x, tokenizer),
+            compute_metrics=compute_metrics,
             )
     
     # Train the model
     model.config.use_cache = False
+    print("[INFO] Starting training")
     trainer.train()
 
     # Explicitly save the final model and tokenizer to the output directory
@@ -87,6 +98,8 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
             output_dir=output_dir,
             num_train_epochs=hyper_parameters['num_train_epochs'],
             per_device_train_batch_size=hyper_parameters['per_device_train_batch_size'],
+            per_device_eval_batch_size=hyper_parameters['per_device_eval_batch_size'],
+            gradient_accumulation_steps=hyper_parameters['gradient_accumulation_steps'],
             save_steps=hyper_parameters['save_steps'],
             save_total_limit=hyper_parameters['save_total_limit'],
             eval_strategy=hyper_parameters['eval_strategy'],
@@ -94,7 +107,12 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
             logging_dir="/var/logs",
             logging_steps=hyper_parameters['logging_steps'],
             overwrite_output_dir=True,
-            fp16=hyper_parameters['fp16'],
+            fp16=hyper_parameters["fp16"],
+            # Memory optimizations
+            gradient_checkpointing=True,  # Save memory at the cost of speed
+            logging_first_step=True,
+            weight_decay=0.01,  # Add regularization
+            max_grad_norm=1.0,  # Add gradient clipping
             )
 
     trainer = Trainer(
@@ -102,11 +120,12 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
             args=training_args,
             train_dataset=training_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=lambda x: compute_metrics(x, tokenizer),
+            compute_metrics=compute_metrics,
             )
     
     # Train the model
     model.config.use_cache = False
+    print("[INFO] Starting training")
     trainer.train()
 
     # Explicitly save the final model and tokenizer to the output directory

@@ -37,15 +37,15 @@ hyperparameters = {
         'logging_steps': 50,         # Log frequently due to small dataset
     },
     'tesla t4': {
-        'sample_size': 1.0,
-        'per_device_train_batch_size': 8,
-        'per_device_eval_batch_size': 8,
-        'gradient_accumulation_steps': 2,
+        'sample_size': 0.5,
+        'per_device_train_batch_size': 2,
+        'per_device_eval_batch_size': 2,
+        'gradient_accumulation_steps': 4,
         'learning_rate': 3e-5,
         'num_train_epochs': 5,
         'warmup_steps': 100,
         'weight_decay': 0.01,
-        'fp16': True,
+        'fp16': False,
         'device': 'cuda',
         'save_steps': 500,          # Save every 500 steps (~1/4 epoch with effective batch 16)
         'save_total_limit': 2,      # Keep 2 checkpoints
@@ -55,14 +55,14 @@ hyperparameters = {
     },
     'a10g': {
         'sample_size': 1.0,
-        'per_device_train_batch_size': 16,
-        'per_device_eval_batch_size': 16,
+        'per_device_train_batch_size': 8,
+        'per_device_eval_batch_size': 8,
         'gradient_accumulation_steps': 1,
         'learning_rate': 3e-5,
         'num_train_epochs': 5,
         'warmup_steps': 100,
         'weight_decay': 0.01,
-        'fp16': True,
+        'fp16': False,
         'device': 'cuda',
         'save_steps': 500,          # Save every 500 steps (~1/2 epoch with batch 16)
         'save_total_limit': 2,      # Keep 2 checkpoints
