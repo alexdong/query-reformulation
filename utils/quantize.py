@@ -37,6 +37,24 @@ def quantize(model_size: str) -> None:
     print(f"Compression ratio: {original_size / quantized_size:.2f}x")
 
 if __name__ == "__main__":
-    # Loop through all MODEL_CLASSES and quantize the models. If the model doesn't exist or output directory already exists, the script will skip, ai!
-    model_size = "small"  # Change to "base", "large", etc. as needed
-    quantize(model_size)
+    # Loop through all MODEL_CLASSES and quantize the models
+    for model_size in MODEL_CLASSES:
+        model_name = f"./models/{'peft' if model_size in PEFT_CLASSES else 'sft'}-{model_size}"
+        output_dir = f"{model_name}-8bit"
+        
+        # Check if model exists
+        if not os.path.exists(model_name):
+            print(f"[WARNING] Model {model_name} does not exist, skipping...")
+            continue
+            
+        # Check if output directory already exists
+        if os.path.exists(output_dir):
+            print(f"[WARNING] Output directory {output_dir} already exists, skipping...")
+            continue
+            
+        print(f"[INFO] Processing model: {model_size}")
+        try:
+            quantize(model_size)
+            print(f"[SUCCESS] Quantized model {model_size}")
+        except Exception as e:
+            print(f"[ERROR] Failed to quantize model {model_size}: {e}")
