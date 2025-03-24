@@ -15,14 +15,6 @@ from utils.init_models import init_models
 
 
 def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
-    """Fine-tune a model using Parameter-Efficient Fine-Tuning (PEFT) with LoRA.
-    
-    Args:
-        model_size: Size of the T5 model to use ('small', 'base', 'large', or '3b')
-        
-    Returns:
-        Tuple containing the fine-tuned model, trainer, and test dataset
-    """
     device, tokenizer, model = init_models(model_size)
     model = model.to(device)
     print(f"[DEBUG] Model moved to {device}")

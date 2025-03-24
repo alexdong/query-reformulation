@@ -17,6 +17,7 @@ dependencies = [
     "levenshtein>=0.25.1",
     "ollama>=0.4.7",
     "openai>=1.66.3",
+    "peft; sys_platform == 'linux'",
     "protobuf>=5.29.3",
     "rich>=13.8.1",
     "ruff>=0.9.10",
@@ -39,6 +40,7 @@ include = [
 ]
 exclude = [
   "models/sft-*",
+  "models/peft-*",
 ]
 
 [tool.uv]
