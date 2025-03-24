@@ -86,7 +86,8 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
     # Evaluate the model against the test set
     print("[INFO] Evaluating model on test set...")
     model.config.use_cache = True
-    test_results = trainer.evaluate(test_dataset)
+
+    # Run the test_dataset against the inference pipeline and use `score_function` to calculate the score and time taken. ai!
     
     # Print test results as a markdown table
     print("\n### Test Results")
