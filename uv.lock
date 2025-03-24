@@ -1,5 +1,4 @@
 version = 1
-revision = 1
 requires-python = ">=3.8"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -541,7 +540,6 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/20/0f/3a5f062c0ed2252ed128ff028b36d2a46a763a2919b00f12ca5274493ff3/bitsandbytes-0.45.3-py3-none-manylinux_2_24_x86_64.whl", hash = "sha256:720d67ffa8a5c61c958fb62517e8abbb2ab0ac1b33b66506ae911cb34c836c70", size = 76058963 },
-    { url = "https://files.pythonhosted.org/packages/dd/e4/42d721904d5841f029f8af69a8609980fb160cca435cb547eb1780872340/bitsandbytes-0.45.3-py3-none-win_amd64.whl", hash = "sha256:7251d71814a653b2b78b69149f1e88753598688c760c99cbbfb0512ba4ea39c6", size = 75429768 },
 ]
 
 [[package]]
@@ -4294,7 +4292,7 @@ dependencies = [
     { name = "accelerate", version = "1.0.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
     { name = "accelerate", version = "1.5.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
     { name = "bert-score" },
-    { name = "bitsandbytes" },
+    { name = "bitsandbytes", marker = "sys_platform == 'linux'" },
     { name = "click" },
     { name = "datasets", version = "3.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
     { name = "datasets", version = "3.4.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
@@ -4335,7 +4333,7 @@ dev = [
 requires-dist = [
     { name = "accelerate", specifier = ">=1.0.1" },
     { name = "bert-score", specifier = ">=0.3.13" },
-    { name = "bitsandbytes", specifier = ">=0.45.3" },
+    { name = "bitsandbytes", marker = "sys_platform == 'linux'", specifier = ">=0.45.3" },
     { name = "click", specifier = ">=8.1.8" },
     { name = "datasets", specifier = ">=3.1.0" },
     { name = "evaluate", specifier = ">=0.4.3" },

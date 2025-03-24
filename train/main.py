@@ -16,7 +16,12 @@ from train.params import get_optimised_hyperparameters
 from utils.init_models import init_models
 
 if sys.platform == "linux":
-    from peft import prepare_model_for_kbit_training, LoraConfig, get_peft_model, TaskType
+    from peft import (
+        LoraConfig,
+        TaskType,
+        get_peft_model,
+        prepare_model_for_kbit_training,
+    )
 
 
 def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
@@ -49,8 +54,7 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
             logging_steps=hyper_parameters['logging_steps'],
             overwrite_output_dir=True,
             fp16=hyper_parameters["fp16"],
-            # Memory optimizations
-            gradient_checkpointing=True,  # Save memory at the cost of speed
+            gradient_checkpointing=False,
             logging_first_step=True,
             weight_decay=0.01,  # Add regularization
             max_grad_norm=1.0,  # Add gradient clipping
@@ -94,7 +98,7 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
 
     model = prepare_model_for_kbit_training(model)
     lora_config = LoraConfig(
-            r=8, lora_alpha=16, target_modules=["q"],
+            r=16, lora_alpha=32, target_modules=["q", "k", "v"],
             lora_dropout=0.05, bias="none", task_type=TaskType.SEQ_2_SEQ_LM)
     model = get_peft_model(model, lora_config)
     print_trainable_parameters(model)
@@ -119,11 +123,10 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
             logging_steps=hyper_parameters['logging_steps'],
             overwrite_output_dir=True,
             fp16=hyper_parameters["fp16"],
-            # Memory optimizations
-            gradient_checkpointing=True,  # Save memory at the cost of speed
+            gradient_checkpointing=False,
             logging_first_step=True,
-            weight_decay=0.01,  # Add regularization
-            max_grad_norm=1.0,  # Add gradient clipping
+            weight_decay=0.01,
+            max_grad_norm=1.0,
             )
 
     trainer = Trainer(
@@ -176,7 +179,7 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
             print(f"| {key} | {value} |")
 
 
-def print_trainable_parameters(model: T5ForConditionalGeneration):
+def print_trainable_parameters(model: T5ForConditionalGeneration) -> None:
     """
     Prints the number of trainable parameters in the model.
     """
@@ -187,7 +190,7 @@ def print_trainable_parameters(model: T5ForConditionalGeneration):
         if param.requires_grad:
             trainable_params += param.numel()
     print(
-        f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
+        f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}",
     )
 
 
