@@ -82,13 +82,13 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
     return model, trainer, test_dataset
 
 
-def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset: QueryReformulationDataset) -> None:
+def benchmark(model: T5ForConditionalGeneration, test_dataset: QueryReformulationDataset) -> None:
     # Evaluate the model against the test set
     print("[INFO] Evaluating model on test set...")
     model.config.use_cache = True
 
     # Get the tokenizer from the trainer
-    tokenizer = trainer.tokenizer
+    tokenizer = test_dataset.tokenizer
     
     # Collect actual and predicted subqueries
     labeled_subqueries = []
@@ -123,22 +123,9 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
     avg_time_per_query = total_time / len(test_dataset) if len(test_dataset) > 0 else 0
     
     # Calculate scores using score_function
-    test_results = score_function(labeled_subqueries, predicted_subqueries)
-    
-    # Add timing information to results
-    test_results['total_time_seconds'] = total_time
-    test_results['avg_time_per_query_seconds'] = avg_time_per_query
-    
-    # Print test results as a markdown table
-    print("\n### Test Results")
-    print("| Metric | Value |")
-    print("|--------|-------|")
-    for key, value in test_results.items():
-        if isinstance(value, float):
-            print(f"| {key} | {value:.4f} |")
-        else:
-            print(f"| {key} | {value} |")
-
+    score = score_function(labeled_subqueries, predicted_subqueries)
+    print(f"[INFO] score: {score}")
+    print(f"[INFO] time/query: {avg_time_per_query}")
 
 @click.command()
 @click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small',
@@ -146,7 +133,7 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
 def main(model_size: str) -> None:
     """Train a query reformulation model using the specified parameters."""
     model, trainer, dataset = sft(model_size)
-    benchmark(model, trainer, dataset)
+    benchmark(model, dataset)
 
 
 if __name__ == "__main__":

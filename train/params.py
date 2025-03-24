@@ -55,7 +55,7 @@ hyperparameters = {
         'eval_steps': 100,
         'logging_steps': 100,
     },
-    'a10g': {
+    'nvidia a10g': {
         'sample_size': 1.0,
         'per_device_train_batch_size': 16,
         'per_device_eval_batch_size': 1,
@@ -69,7 +69,7 @@ hyperparameters = {
         'save_strategy': "epoch",
         'save_steps': 500,
         'save_total_limit': 2,
-        'eval_strategy': "steps",
+        'eval_strategy': "epoch",
         'eval_steps': 500,
         'logging_steps': 100,
     },
