@@ -1,9 +1,11 @@
 from typing import List
 
 import evaluate
+from Levenshtein import distance as levenshtein_distance
+
+# simplify the code so we only use levenshtein score. update dependent code, ai!
 import nltk
 from bert_score import score as bert_score
-from Levenshtein import distance as levenshtein_distance
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
