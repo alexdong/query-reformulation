@@ -65,11 +65,11 @@ def create_datasets(tokenizer: T5Tokenizer, sample_size: float) -> Tuple[QueryRe
 
     def _create(role: Literal["train", "eval", "test"]) -> QueryReformulationDataset:
         if role == "train":
-            data = dataset[:int(0.9 * len(dataset))]
+            data = dataset[:int(0.96 * len(dataset))]
         elif role == "eval":
-            data = dataset[int(0.9 * len(dataset)):int(0.95 * len(dataset))]
+            data = dataset[int(0.96 * len(dataset)):int(0.98 * len(dataset))]
         else:
-            data = dataset[int(0.95 * len(dataset)):]
+            data = dataset[int(0.98 * len(dataset)):]
         return QueryReformulationDataset(tokenizer, data)
 
     train_dataset = _create("train")

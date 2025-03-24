@@ -30,15 +30,16 @@ hyperparameters = {
         'weight_decay': 0.01,
         'fp16': False,
         'device': 'mps',
-        'save_steps': 250,          # Smaller dataset, save every 250 steps ( ~1/4 epoch)
-        'save_total_limit': 2,      # Keep 2 checkpoints to save space
-        'eval_strategy': "epoch",   # Eval per epoch (3 total)
-        'save_strategy': "epoch",   # Save per epoch (matches eval)
-        'logging_steps': 50,         # Log frequently due to small dataset
+        'save_strategy': "epoch",
+        'save_steps': 250,
+        'save_total_limit': 2,
+        'eval_strategy': "steps",
+        'eval_steps': 250,
+        'logging_steps': 50,
     },
     'tesla t4': {
         'sample_size': 1,
-        'per_device_train_batch_size': 8,
+        'per_device_train_batch_size': 8, # Can go higher but throughput max out at 8
         'per_device_eval_batch_size': 1,
         'gradient_accumulation_steps': 4,
         'learning_rate': 3e-5,
@@ -47,16 +48,17 @@ hyperparameters = {
         'weight_decay': 0.01,
         'fp16': False,
         'device': 'cuda',
-        'save_steps': 500,          # Save every 500 steps (~1/4 epoch with effective batch 16)
-        'save_total_limit': 2,      # Keep 2 checkpoints
-        'eval_strategy': "epoch",   # Eval per epoch
-        'save_strategy': "epoch",   # Save per epoch
-        'logging_steps': 100,        # Log every 100 steps for decent granularity
+        'save_strategy': "epoch",
+        'save_steps': 500,
+        'save_total_limit': 2,
+        'eval_strategy': "steps",
+        'eval_steps': 500,
+        'logging_steps': 100,
     },
     'a10g': {
         'sample_size': 1.0,
-        'per_device_train_batch_size': 8,
-        'per_device_eval_batch_size': 2,
+        'per_device_train_batch_size': 16,
+        'per_device_eval_batch_size': 1,
         'gradient_accumulation_steps': 1,
         'learning_rate': 3e-5,
         'num_train_epochs': 5,
@@ -64,10 +66,11 @@ hyperparameters = {
         'weight_decay': 0.01,
         'fp16': False,
         'device': 'cuda',
-        'save_steps': 500,          # Save every 500 steps (~1/2 epoch with batch 16)
-        'save_total_limit': 2,      # Keep 2 checkpoints
-        'eval_strategy': "epoch",   # Eval per epoch
-        'save_strategy': "epoch",   # Save per epoch
-        'logging_steps': 100,        # Log every 100 steps for monitoring
+        'save_strategy': "epoch",
+        'save_steps': 500,
+        'save_total_limit': 2,
+        'eval_strategy': "steps",
+        'eval_steps': 500,
+        'logging_steps': 100,
     },
 }

@@ -16,13 +16,15 @@ from train.params import get_optimised_hyperparameters
 from utils.init_models import init_models
 
 if sys.platform == "linux":
-    import bitsandbytes
+    from peft import prepare_model_for_kbit_training, LoraConfig, get_peft_model, TaskType
 
 
 def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
-    device, tokenizer, model = init_models(model_size, use_sft_model=False)
+    device, tokenizer, model = init_models(model_size, quantized=False)
+    model = model.to(device)
+    print(f"[DEBUG] Model moved to {device}")
+
     hyper_parameters = get_optimised_hyperparameters()
-    
     print(f"[DEBUG] Hyperparameters: {hyper_parameters}")
     
     training_dataset, eval_dataset, test_dataset = create_datasets(tokenizer, hyper_parameters['sample_size'])
@@ -41,6 +43,7 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
             save_steps=hyper_parameters['save_steps'],
             save_total_limit=hyper_parameters['save_total_limit'],
             eval_strategy=hyper_parameters['eval_strategy'],
+            eval_steps=hyper_parameters['eval_steps'],
             save_strategy=hyper_parameters['save_strategy'],
             logging_dir="/var/logs",
             logging_steps=hyper_parameters['logging_steps'],
@@ -58,7 +61,7 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
             args=training_args,
             train_dataset=training_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=compute_metrics,
+            compute_metrics=lambda eval_pred: compute_metrics(eval_pred, tokenizer),
             )
     
     # Train the model
@@ -86,8 +89,15 @@ def sft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRefo
 
 
 def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryReformulationDataset]:
-    device, tokenizer, model = init_models(model_size, use_sft_model=True)
+    device, tokenizer, model = init_models(model_size, quantized=True)
     assert device == 'cuda', "PEFT requires a CUDA device"
+
+    model = prepare_model_for_kbit_training(model)
+    lora_config = LoraConfig(
+            r=8, lora_alpha=16, target_modules=["q"],
+            lora_dropout=0.05, bias="none", task_type=TaskType.SEQ_2_SEQ_LM)
+    model = get_peft_model(model, lora_config)
+    print_trainable_parameters(model)
         
     hyper_parameters = get_optimised_hyperparameters()
     training_dataset, eval_dataset, test_dataset = create_datasets(tokenizer, hyper_parameters['sample_size'])
@@ -103,6 +113,7 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
             save_steps=hyper_parameters['save_steps'],
             save_total_limit=hyper_parameters['save_total_limit'],
             eval_strategy=hyper_parameters['eval_strategy'],
+            eval_steps=hyper_parameters['eval_steps'],
             save_strategy=hyper_parameters['save_strategy'],
             logging_dir="/var/logs",
             logging_steps=hyper_parameters['logging_steps'],
@@ -120,7 +131,7 @@ def peft(model_size: str) -> Tuple[T5ForConditionalGeneration, Trainer, QueryRef
             args=training_args,
             train_dataset=training_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=compute_metrics,
+            compute_metrics=lambda eval_pred: compute_metrics(eval_pred, tokenizer),
             )
     
     # Train the model
@@ -165,14 +176,28 @@ def benchmark(model: T5ForConditionalGeneration, trainer: Trainer, test_dataset:
             print(f"| {key} | {value} |")
 
 
+def print_trainable_parameters(model: T5ForConditionalGeneration):
+    """
+    Prints the number of trainable parameters in the model.
+    """
+    trainable_params = 0
+    all_param = 0
+    for _, param in model.named_parameters():
+        all_param += param.numel()
+        if param.requires_grad:
+            trainable_params += param.numel()
+    print(
+        f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
+    )
+
 
 @click.command()
 @click.option('--model-size', type=click.Choice(['small', 'base', 'large']), default='small',
               help='Size of the T5 model to use')
 def main(model_size: str) -> None:
     """Train a query reformulation model using the specified parameters."""
-    model, trainer, dataset = sft(model_size)
-    #model, trainer, dataset = peft(model_size)
+    #model, trainer, dataset = sft(model_size)
+    model, trainer, dataset = peft(model_size)
     benchmark(model, trainer, dataset)
 
 
