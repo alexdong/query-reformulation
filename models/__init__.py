@@ -1,5 +1,5 @@
-MODEL_CLASSES = ['small', 'base', 'large', '3b']
-PEFT_CLASSES = ['3b']
+MODEL_CLASSES = ['small', 'base', 'large', 'xl', 'xxl']
+PEFT_CLASSES = ['xl', 'xxl']
 
 def get_model_path(model_size: str) -> str:
     assert model_size in MODEL_CLASSES, f"Invalid model size: {model_size}"
