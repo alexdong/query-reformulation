@@ -2,12 +2,12 @@ import os
 import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
-from models import MODEL_CLASSES, PEFT_CLASSES
+from . import MODEL_CLASSES, get_model_path, get_quantized_model_path
 
 def quantize(model_size: str) -> None:
     assert model_size in MODEL_CLASSES, f"Invalid model size: {model_size}"
-    model_name = f"./models/{'peft' if model_size in PEFT_CLASSES else 'sft'-{model_size}"
-    output_dir = f"{model_name}-8bit"
+    model_name = get_model_path(model_size)
+    output_dir = get_quantized_model_path(model_size)
     print(f"[INFO] Quantizing model: {model_name} ...")
 
     tokenizer = T5Tokenizer.from_pretrained(model_name, legacy=False)
@@ -39,8 +39,8 @@ def quantize(model_size: str) -> None:
 if __name__ == "__main__":
     # Loop through all MODEL_CLASSES and quantize the models
     for model_size in MODEL_CLASSES:
-        model_name = f"./models/{'peft' if model_size in PEFT_CLASSES else 'sft'}-{model_size}"
-        output_dir = f"{model_name}-8bit"
+        model_name = get_model_path(model_size)
+        output_dir = get_quantized_model_path(model_size)
         
         # Check if model exists
         if not os.path.exists(model_name):
