@@ -1,5 +1,7 @@
-from client.generate import generate_text, load_model
 import gradio as gr
+
+from client.generate import generate_text, load_model
+
 
 def generate_with_model(model_size: str, input_text: str) -> str:
     """Generate reformulated queries using the selected model size"""
@@ -13,14 +15,14 @@ iface = gr.Interface(
     fn=generate_with_model,
     inputs=[
         gr.Dropdown(
-            choices=["small", "base", "large"], 
-            label="Model Size", 
-            value="small"
+            choices=["small", "base", "large"],
+            label="Model Size",
+            value="small",
         ),
         gr.Textbox(
-            lines=3, 
+            lines=3,
             placeholder="Enter your search query here...",
-            label="Query"
+            label="Query",
         ),
     ],
     outputs=gr.Textbox(label="Reformulated Queries"),
@@ -32,7 +34,7 @@ iface = gr.Interface(
         ["base", "Create a table for top noise cancelling headphones that are not expensive"],
         ["base", "Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?"],
         ["base", "what are some ways to do fast query reformulation"],
-    ]
+    ],
 )
 
 if __name__ == "__main__":

@@ -1,8 +1,10 @@
 import os
+
 import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 from . import MODEL_CLASSES, get_model_path, get_quantized_model_path
+
 
 def quantize(model_size: str) -> None:
     assert model_size in MODEL_CLASSES, f"Invalid model size: {model_size}"
@@ -18,7 +20,7 @@ def quantize(model_size: str) -> None:
     quantized_model = torch.quantization.quantize_dynamic(
         model,
         {torch.nn.Linear},  # Quantize only linear layers
-        dtype=torch.qint8
+        dtype=torch.qint8,
     )
 
     os.makedirs(output_dir, exist_ok=True)

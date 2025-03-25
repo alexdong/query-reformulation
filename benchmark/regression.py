@@ -1,8 +1,10 @@
 import time
-from benchmark.score import score_function
+
 from transformers import T5ForConditionalGeneration
 
+from benchmark.score import score_function
 from data import QueryReformulationDataset
+
 
 def benchmark(model: T5ForConditionalGeneration, test_dataset: QueryReformulationDataset) -> None:
     # Evaluate the model against the test set
@@ -31,7 +33,7 @@ def benchmark(model: T5ForConditionalGeneration, test_dataset: QueryReformulatio
             inputs.input_ids,
             max_length=128,
             num_return_sequences=1,
-            do_sample=False
+            do_sample=False,
         )
         predicted_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
         
