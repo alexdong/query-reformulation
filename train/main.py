@@ -2,7 +2,7 @@ import click
 
 from benchmark.regression import benchmark
 from models import MODEL_CLASSES, PEFT_CLASSES
-from train.peft import peft
+from train.lora import peft
 from train.sft import sft
 
 
