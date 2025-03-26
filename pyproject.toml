@@ -26,7 +26,8 @@ dependencies = [
     "sentencepiece>=0.2.0",
     "torch>=2.5.1",
     "transformers>=4.46.3",
-    "unsloth>=2025.3.18",
+    "unsloth>=2025.3.18; sys_platform=='linux'",
+    "vllm>=0.8.2; sys_platform=='linux'",
 ]
 
 [tool.setuptools.packages.find]
