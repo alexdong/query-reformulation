@@ -40,19 +40,38 @@ def train():
     line_count = 0
     with open(Path("./data/full.jsonl"), "r") as f:
         for line in f:
-            data = json.loads(line)
-            dataset.append({"text": tokenizer.apply_chat_template({
-                "conversations": [
-                    {"content": data["query"], "role": "user"},
-                    {"content": data["subqueries"], "role": "assistant"}
-                    ]})})
-            line_count += 1
-            if line_count % 1000 == 0:
-                print(f"[DATA] Processed {line_count} examples")
+            try:
+                data = json.loads(line)
+                # Create a properly formatted conversation with alternating roles
+                messages = [
+                    {"role": "user", "content": data["query"]},
+                    {"role": "assistant", "content": data["subqueries"]}
+                ]
+                
+                # Apply the chat template
+                formatted_text = tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=False,
+                    add_generation_prompt=False
+                )
+                
+                dataset.append({"text": formatted_text})
+                
+                line_count += 1
+                if line_count % 1000 == 0:
+                    print(f"[DATA] Processed {line_count} examples")
+                    
+            except Exception as e:
+                print(f"[ERROR] Failed to process line: {e}")
+                continue
     
     print(f"[DATA] Dataset loaded with {len(dataset)} examples")
-    print(f"[DATA] Sample tokenized text (example #100):")
-    print(f"[DATA] {dataset[100]['text'][:100]}...")
+    if dataset:
+        print(f"[DATA] Sample tokenized text (first example):")
+        print(f"[DATA] {dataset[0]['text'][:100]}...")
+        if len(dataset) > 100:
+            print(f"[DATA] Sample tokenized text (example #100):")
+            print(f"[DATA] {dataset[100]['text'][:100]}...")
 
     print(f"[TRAINER] Configuring SFT trainer...")
     trainer = SFTTrainer(
@@ -106,7 +125,7 @@ def inference(query):
     print(f"[INFERENCE] Model loaded successfully")
 
     print(f"[INFERENCE] Processing query: {query}")
-    messages = [{"role": "user", "content": {"type": "text", "text": "reformulate: " + query}}]
+    messages = [{"role": "user", "content": "reformulate: " + query}]
     text = tokenizer.apply_chat_template(messages, add_generation_prompt=True)
     print(f"[INFERENCE] Tokenized input: {text[:50]}...")
 
