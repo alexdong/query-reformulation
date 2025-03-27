@@ -1,3 +1,4 @@
+# add detailed print() statement through the code to see data flow and progress. ai!
 import json
 from pathlib import Path
 import random
