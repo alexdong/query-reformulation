@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import random
 from rich.console import Console
+from datasets import Dataset
 
 from unsloth import FastModel
 from unsloth.chat_templates import get_chat_template, train_on_responses_only
@@ -36,7 +37,7 @@ def train():
     tokenizer = get_chat_template(tokenizer, chat_template="gemma-3")
 
     print(f"[DATA] Loading dataset from ./data/full.jsonl")
-    dataset = []
+    examples = []
     line_count = 0
     with open(Path("./data/full.jsonl"), "r") as f:
         for line in f:
@@ -55,7 +56,7 @@ def train():
                     add_generation_prompt=False
                 )
                 
-                dataset.append({"text": formatted_text})
+                examples.append({"text": formatted_text})
                 
                 line_count += 1
                 if line_count % 1000 == 0:
@@ -65,13 +66,18 @@ def train():
                 print(f"[ERROR] Failed to process line: {e}")
                 continue
     
-    print(f"[DATA] Dataset loaded with {len(dataset)} examples")
-    if dataset:
+    print(f"[DATA] Dataset loaded with {len(examples)} examples")
+    if examples:
         print(f"[DATA] Sample tokenized text (first example):")
-        print(f"[DATA] {dataset[0]['text'][:100]}...")
-        if len(dataset) > 100:
+        print(f"[DATA] {examples[0]['text'][:100]}...")
+        if len(examples) > 100:
             print(f"[DATA] Sample tokenized text (example #100):")
-            print(f"[DATA] {dataset[100]['text'][:100]}...")
+            print(f"[DATA] {examples[100]['text'][:100]}...")
+    
+    # Convert the list of examples to a Hugging Face Dataset
+    print(f"[DATA] Converting examples to Hugging Face Dataset...")
+    dataset = Dataset.from_list(examples)
+    print(f"[DATA] Dataset conversion complete: {len(dataset)} examples")
 
     print(f"[TRAINER] Configuring SFT trainer...")
     trainer = SFTTrainer(
