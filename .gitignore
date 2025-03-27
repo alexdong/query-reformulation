@@ -4,6 +4,7 @@ unsloth_compiled_cache
 *.DS_Store
 *.swp
 models/sft-*
+models/gemma-*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
